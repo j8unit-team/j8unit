@@ -1,8 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <modelVersion>4.0.0</modelVersion>
-
     <!--
       ~  An "Introduction to the POM" can be read here:
       ~      + https://maven.apache.org/guides/introduction/introduction-to-the-pom.html
@@ -17,6 +15,10 @@
       ~
       ~  In the current case, the super POM of J8Unit project is made for inheritance and aggregation.
       -->
+    <modelVersion>4.0.0</modelVersion>
+    <prerequisites>
+        <maven>3.0</maven>
+    </prerequisites>
 
     <!--
       ~  As a memory, here are some links dealing with public deployment:
