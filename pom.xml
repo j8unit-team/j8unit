@@ -69,9 +69,17 @@
 
         <!-- === Plugin Versions === -->
         <version.mvn.clean>2.5</version.mvn.clean>
+        <version.mvn.resources>2.6</version.mvn.resources>
         <version.mvn.compiler>3.1</version.mvn.compiler>
+        <version.mvn.surfire>2.18</version.mvn.surfire>
         <version.mvn.source>2.3</version.mvn.source>
         <version.mvn.javadoc>2.9.1</version.mvn.javadoc>
+        <version.mvn.jar>2.5</version.mvn.jar>
+        <version.mvn.deploy>2.8.1</version.mvn.deploy>
+        <version.mvn.install>2.5.1</version.mvn.install>
+        <version.mvn.site>3.4</version.mvn.site>
+
+        <!-- === Dependency Versions :: 3rd Party === -->
         <version.junit>4.12</version.junit>
     </properties>
 
@@ -108,6 +116,11 @@
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>${version.mvn.resources}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>${version.mvn.compiler}</version>
                     <configuration>
@@ -121,6 +134,11 @@
                         <showWarnings>true</showWarnings>
                         <optimize>true</optimize>
                     </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>${version.mvn.surfire}</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -164,6 +182,35 @@
                             </goals>
                         </execution>
                     </executions>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>${version.mvn.jar}</version>
+                    <configuration>
+                        <forceCreation>true</forceCreation>
+                        <archive>
+                            <manifest>
+                                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                            </manifest>
+                        </archive>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>${version.mvn.deploy}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-install-plugin</artifactId>
+                    <version>${version.mvn.install}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-site-plugin</artifactId>
+                    <version>${version.mvn.site}</version>
                 </plugin>
             </plugins>
         </pluginManagement>
