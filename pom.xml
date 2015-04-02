@@ -1,0 +1,107 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>de.informaticum</groupId>
+    <artifactId>j8unit-project</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <version.java>1.8</version.java>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <version.mvn.compiler>3.1</version.mvn.compiler>
+        <version.mvn.source>2.3</version.mvn.source>
+        <version.mvn.javadoc>2.9.1</version.mvn.javadoc>
+        <version.junit>4.12</version.junit>
+    </properties>
+
+    <modules>
+        <module>./j8unit-core</module>
+        <module>./j8unit-showcases</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${version.junit}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.informaticum</groupId>
+                <artifactId>j8unit-core</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${version.mvn.compiler}</version>
+                    <configuration>
+                        <source>${version.java}</source>
+                        <target>${version.java}</target>
+                        <testSource>${version.java}</testSource>
+                        <testTarget>${version.java}</testTarget>
+                        <encoding>${project.build.sourceEncoding}</encoding>
+                        <failOnError>true</failOnError>
+                        <showDeprecation>true</showDeprecation>
+                        <showWarnings>true</showWarnings>
+                        <optimize>true</optimize>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-source-plugin</artifactId>
+                    <version>${version.mvn.source}</version>
+                    <configuration>
+                        <includePom>false</includePom>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>attach-sources</id>
+                            <goals>
+                                <goal>jar</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>${version.mvn.javadoc}</version>
+                    <configuration>
+                        <encoding> ${project.build.sourceEncoding}</encoding>
+                        <docencoding>${project.reporting.outputEncoding}</docencoding>
+                        <failOnError>true</failOnError>
+                        <level>protected</level>
+                        <show>protected</show>
+                        <serialwarn>true</serialwarn>
+                        <validateLinks>true</validateLinks>
+                        <detectLinks>false</detectLinks>
+                        <!-- <detectLinks>true</detectLinks> -->
+                        <detectJavaApiLink>true</detectJavaApiLink>
+                        <!-- http://blog.joda.org/2014/02/turning-off-doclint-in-jdk-8-javadoc.html -->
+                        <additionalparam>-Xdoclint:none</additionalparam>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>attach-javadocs</id>
+                            <goals>
+                                <goal>jar</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+</project>
