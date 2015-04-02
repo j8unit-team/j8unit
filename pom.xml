@@ -35,6 +35,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <name>Informaticum's J8Unit Project (Parent POM)</name>
+    <description>The Parent POM of all the Informaticum's J8Unit Project.</description>
+    <url>https://github.com/j8unit-team/j8unit</url>
+
     <properties>
         <version.java>1.8</version.java>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
