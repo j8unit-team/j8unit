@@ -1,6 +1,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
+    <!--
+      ~  An "Introduction to the POM" can be read here:
+      ~      + https://maven.apache.org/guides/introduction/introduction-to-the-pom.html
+      ~
+      ~  The "POM Reference" is here:
+      ~      + http://maven.apache.org/pom.html
+      ~ 
+      ~  One of the points to highlight is the differentiation between inheritance and aggregation. A single POM can be
+      ~  (and often is) both a super POM and an aggregation POM:
+      ~      + http://maven.apache.org/pom.html#Inheritance 
+      ~      + http://maven.apache.org/pom.html#Aggregation_or_Multi-Module
+      ~
+      ~  In the current case, the super POM of J8Unit project is made for inheritance and aggregation.
+      -->
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.informaticum</groupId>
