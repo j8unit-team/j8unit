@@ -61,9 +61,14 @@
     </developers>
 
     <properties>
+        <!-- === General Build Data === -->
         <version.java>1.8</version.java>
+        <!-- http://maven.apache.org/general.html#encoding-warning -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <!-- === Plugin Versions === -->
+        <version.mvn.clean>2.5</version.mvn.clean>
         <version.mvn.compiler>3.1</version.mvn.compiler>
         <version.mvn.source>2.3</version.mvn.source>
         <version.mvn.javadoc>2.9.1</version.mvn.javadoc>
@@ -93,6 +98,14 @@
     <build>
         <pluginManagement>
             <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-clean-plugin</artifactId>
+                    <version>${version.mvn.clean}</version>
+                    <configuration>
+                        <failOnError>true</failOnError>
+                    </configuration>
+                </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
