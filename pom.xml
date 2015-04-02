@@ -39,6 +39,25 @@
     <description>The Parent POM of all the Informaticum's J8Unit Project.</description>
     <url>https://github.com/j8unit-team/j8unit</url>
 
+    <developers>
+        <developer>
+            <id>SGA</id>
+            <name>Stefan Gasterstädt</name>
+            <email>stefan@gasterstädt.de</email>
+            <url>http://stefan.gasterstädt.de</url>
+            <organization>Informaticum</organization>
+            <organizationUrl>http://www.informaticum.de</organizationUrl>
+        </developer>
+        <developer>
+            <id>ZAK</id>
+            <name>Sascha Zak</name>
+            <email><!-- TODO --></email>
+            <url><!-- TODO --></url>
+            <organization>Informaticum</organization>
+            <organizationUrl>http://www.informaticum.de</organizationUrl>
+        </developer>
+    </developers>
+
     <properties>
         <version.java>1.8</version.java>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
