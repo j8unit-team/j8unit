@@ -16,6 +16,18 @@
       ~  In the current case, the super POM of J8Unit project is made for inheritance and aggregation.
       -->
 
+    <!--
+      ~  As a memory, here are some links dealing with public deployment:
+      ~      + https://maven.apache.org/guides/mini/guide-central-repository-upload.html
+      ~      + http://kirang89.github.io/blog/2013/01/20/uploading-your-jar-to-maven-central/ 
+      ~      + http://bealetech.com/blog/2013/04/10/pushing-to-maven-central-with-sonatype/
+    -->
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>9</version>
+    </parent>
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.informaticum</groupId>
