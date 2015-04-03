@@ -86,6 +86,7 @@
     <modules>
         <module>./j8unit-core</module>
         <module>./j8unit-showcases</module>
+        <module>./j8unit-repository</module>
     </modules>
 
     <dependencyManagement>
