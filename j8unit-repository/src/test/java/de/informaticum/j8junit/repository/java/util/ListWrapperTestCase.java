@@ -15,7 +15,7 @@ import de.informaticum.j8junit.runners.parameterized.J8BlockJUnit4ClassRunnerWit
 
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
-public class ImmutableListTest
+public class ListWrapperTestCase
 implements UnmodifiableListTests<List<Object>, Object> {
 
     @Parameters(name = "{index}: {1}")
