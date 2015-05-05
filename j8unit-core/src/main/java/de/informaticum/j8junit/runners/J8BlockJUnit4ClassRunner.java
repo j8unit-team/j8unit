@@ -8,6 +8,17 @@ import de.informaticum.j8junit.runners.model.J8TestClass;
  * Extension of {@link BlockJUnit4ClassRunner} to {@linkplain #createTestClass(Class) support the extend test class
  * model}.
  *
+ * To invoke this custom {@link org.junit.runner.Runner} just use the {@link org.junit.runner.RunWith &#64;RunWith}
+ * annotation:
+ *
+ * <pre>
+ * &#064;RunWith(J8BlockJUnit4ClassRunner.class)
+ * public class FoobarTest {
+ *     [&hellip;]
+ * }
+ * </pre>
+ *
+ * @see org.junit.runner.RunWith
  * @see J8TestClass
  * @author <a href="mailto:stefan.gasterstaedt@informaticum.de">Stefan Gasterst&auml;dt</a>
  */
