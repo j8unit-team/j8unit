@@ -6,6 +6,22 @@ import de.informaticum.j8junit.runners.model.J8TestClass;
 /**
  * Extension of {@link Parameterized} to {@linkplain #createTestClass(Class) support the extend test class model}.
  *
+ * To invoke this custom {@link org.junit.runner.Runner} just use {@link org.junit.runner.RunWith &#64;RunWith}
+ * annotation; and (!) specify
+ * {@linkplain de.informaticum.j8junit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory the custom
+ * runner factory}:
+ *
+ * <pre>
+ * &#064;RunWith(J8Parameterized.class)
+ * &#064;UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
+ * public class FoobarTest {
+ *     [&hellip;]
+ * }
+ * </pre>
+ *
+ * @see org.junit.runner.RunWith
+ * @see org.junit.runners.Parameterized.UseParametersRunnerFactory
+ * @see de.informaticum.j8junit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory
  * @see J8TestClass
  * @author <a href="mailto:stefan.gasterstaedt@informaticum.de">Stefan Gasterst&auml;dt</a>
  */
