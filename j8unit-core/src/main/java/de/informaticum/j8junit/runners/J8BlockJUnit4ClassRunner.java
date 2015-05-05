@@ -8,13 +8,14 @@ import de.informaticum.j8junit.runners.model.J8TestClass;
  * Extension of {@link BlockJUnit4ClassRunner} to {@linkplain #createTestClass(Class) support the extend test class
  * model}.
  *
+ * @see J8TestClass
  * @author <a href="mailto:stefan.gasterstaedt@informaticum.de">Stefan Gasterst&auml;dt</a>
  */
 public class J8BlockJUnit4ClassRunner
 extends BlockJUnit4ClassRunner {
 
     /**
-     * Creates a {@link J8BlockJUnit4ClassRunner} to run the tests of the given {@link Class}.
+     * Creates a {@link J8BlockJUnit4ClassRunner} instance to run the tests of the given {@link Class}.
      *
      * @param clazz
      *            the test class
