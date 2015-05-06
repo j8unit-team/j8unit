@@ -6,6 +6,7 @@ import static java.util.Collections.singletonList;
 import static java.util.Collections.unmodifiableList;
 import java.util.List;
 import java.util.function.Supplier;
+import org.junit.Ignore;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
@@ -14,6 +15,7 @@ import de.informaticum.j8junit.repository.java.lang.ObjectTests;
 import de.informaticum.j8junit.runners.J8Parameterized;
 import de.informaticum.j8junit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 
+@Ignore
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ListWrapperTestCase
@@ -28,8 +30,8 @@ implements ObjectTests<List<Object>>, UnmodifiableListTests<List<Object>, Object
         final Supplier<List<Object>> fac5 = () -> singletonList(null);
         final Supplier<List<Object>> fac6 = () -> unmodifiableList(singletonList(null));
         return asList(new Object[][] { { fac1, "emptyList()" }, { fac2, "unmodifiableList(emptyList())" }, { fac3, "singletonList(new Object())" },
-                                      { fac4, "unmodifiableList(singletonList(new Object()))" }, { fac5, "singletonList(null)" },
-                                      { fac6, "unmodifiableList(singletonList(null))" } });
+                                       { fac4, "unmodifiableList(singletonList(new Object()))" }, { fac5, "singletonList(null)" },
+                                       { fac6, "unmodifiableList(singletonList(null))" } });
     }
 
     @Parameter(0)
@@ -39,7 +41,7 @@ implements ObjectTests<List<Object>>, UnmodifiableListTests<List<Object>, Object
     public String title;
 
     @Override
-    public Supplier<List<Object>> factory() {
+    public Supplier<List<Object>> subjectUnderTestFactory() {
         return this.factory;
     }
 

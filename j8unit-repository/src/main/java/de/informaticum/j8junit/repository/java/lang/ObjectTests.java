@@ -4,27 +4,27 @@ import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
-import de.informaticum.j8junit.repository.FabricatedTest;
+import de.informaticum.j8junit.repository.J8UnitTest;
 
 @FunctionalInterface
-public abstract interface ObjectTests<O extends Object>
-extends FabricatedTest<O> {
+public abstract interface ObjectTests<SUT extends Object>
+extends J8UnitTest<SUT> {
 
     @Test
-    public default void testNonNullToString() {
-        final O sut = this.getNewSubjectUnderTest();
+    public default void toStringMustReturnNotNull() {
+        final SUT sut = this.getNewSubjectUnderTest();
         assertNotNull(sut.toString());
     }
 
     @Test
     public default void testNonZeroHashcode() {
-        final O sut = this.getNewSubjectUnderTest();
+        final SUT sut = this.getNewSubjectUnderTest();
         assertNotEquals(0, sut.hashCode());
     }
 
     @Test
     public default void testReflexiveEquals() {
-        final O sut = this.getNewSubjectUnderTest();
+        final SUT sut = this.getNewSubjectUnderTest();
         assertTrue(sut.equals(sut));
     }
 

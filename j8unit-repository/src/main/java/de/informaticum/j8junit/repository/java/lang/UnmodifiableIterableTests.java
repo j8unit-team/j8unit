@@ -1,5 +1,6 @@
 package de.informaticum.j8junit.repository.java.lang;
 
+import static org.junit.Assume.assumeTrue;
 import java.util.Iterator;
 import org.junit.Test;
 
@@ -11,12 +12,8 @@ extends IterableTests<UI, E> {
     public default void testForbiddenRemoveViaIterator() {
         final UI sut = this.getNewSubjectUnderTest();
         final Iterator<E> iterator = sut.iterator();
-        if (iterator.hasNext()) {
-            iterator.next();
-            iterator.remove();
-        } else {
-            throw new UnsupportedOperationException();
-        }
+        assumeTrue("The given Iterable subject returned an Iterator without any next element.", iterator.hasNext());
+        iterator.next();
+        iterator.remove();
     }
-
 }
