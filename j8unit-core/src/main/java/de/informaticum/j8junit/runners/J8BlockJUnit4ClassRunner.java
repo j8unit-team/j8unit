@@ -5,7 +5,7 @@ import org.junit.runners.model.InitializationError;
 import de.informaticum.j8junit.runners.model.J8TestClass;
 
 /**
- * Extension of {@link BlockJUnit4ClassRunner} to {@linkplain #createTestClass(Class) support the extend test class
+ * Extension of {@link BlockJUnit4ClassRunner} to {@linkplain #createTestClass(Class) support the extended test class
  * model}.
  *
  * To invoke this custom {@link org.junit.runner.Runner} just use the {@link org.junit.runner.RunWith &#64;RunWith}

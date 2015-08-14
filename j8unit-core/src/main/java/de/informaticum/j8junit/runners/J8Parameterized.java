@@ -4,7 +4,7 @@ import org.junit.runners.Parameterized;
 import de.informaticum.j8junit.runners.model.J8TestClass;
 
 /**
- * Extension of {@link Parameterized} to {@linkplain #createTestClass(Class) support the extend test class model}.
+ * Extension of {@link Parameterized} to {@linkplain #createTestClass(Class) support the extended test class model}.
  *
  * To invoke this custom {@link org.junit.runner.Runner} just use {@link org.junit.runner.RunWith &#64;RunWith}
  * annotation; and (!) specify
