@@ -18,13 +18,13 @@
         ~ + http://kirang89.github.io/blog/2013/01/20/uploading-your-jar-to-maven-central/ 
         ~ + http://bealetech.com/blog/2013/04/10/pushing-to-maven-central-with-sonatype/ -->
 
-    <groupId>de.informaticum</groupId>
-    <artifactId>j8unit-project</artifactId>
+    <groupId>org.j8unit</groupId>
+    <artifactId>project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>Informaticum's J8Unit Project (Parent POM)</name>
-    <description>The Parent POM of all the Informaticum's J8Unit Project.</description>
+    <name>J8Unit Project (Parent POM)</name>
+    <description>The Parent POM of all the J8Unit Project.</description>
     <url>https://github.com/j8unit-team/j8unit</url>
 
     <licenses>
@@ -94,11 +94,11 @@
     </properties>
 
     <modules>
-        <module>./j8unit-core</module>
-        <module>./j8unit-showcases</module>
-        <module>./j8unit-spring</module>
-        <module>./j8unit-spring-showcases</module>
-        <module>./j8unit-repository</module>
+        <module>./core</module>
+        <module>./showcases</module>
+        <module>./spring</module>
+        <module>./spring-showcases</module>
+        <module>./repository</module>
         <module>./shape-api</module>
         <module>./shape-api-extension</module>
     </modules>
@@ -111,23 +111,23 @@
                 <version>${version.junit}</version>
             </dependency>
             <dependency>
-                <groupId>de.informaticum</groupId>
-                <artifactId>j8unit-core</artifactId>
+                <groupId>org.j8unit</groupId>
+                <artifactId>core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>de.informaticum</groupId>
-                <artifactId>j8unit-repository</artifactId>
+                <groupId>org.j8unit</groupId>
+                <artifactId>repository</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>de.informaticum</groupId>
-                <artifactId>j8unit-spring</artifactId>
+                <groupId>org.j8unit</groupId>
+                <artifactId>spring</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>de.informaticum</groupId>
-                <artifactId>j8unit-spring-showcase</artifactId>
+                <groupId>org.j8unit</groupId>
+                <artifactId>spring-showcase</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
