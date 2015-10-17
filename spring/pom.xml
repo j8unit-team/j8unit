@@ -21,13 +21,13 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <scope>compile</scope>
-        </dependency>      
-        
+        </dependency>
+
         <dependency>
             <groupId>org.j8unit</groupId>
             <artifactId>core</artifactId>
             <scope>compile</scope>
-        </dependency>          
+        </dependency>
     </dependencies>
 
     <build>
