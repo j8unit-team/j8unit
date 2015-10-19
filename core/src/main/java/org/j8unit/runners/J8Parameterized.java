@@ -8,8 +8,8 @@ import org.junit.runners.Parameterized;
  *
  * To invoke this custom {@link org.junit.runner.Runner} just use {@link org.junit.runner.RunWith &#64;RunWith}
  * annotation; and (!) specify
- * {@linkplain org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory the custom
- * runner factory}:
+ * {@linkplain org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory the custom runner factory}
+ * :
  *
  * <pre>
  * &#064;RunWith(J8Parameterized.class)
@@ -23,7 +23,6 @@ import org.junit.runners.Parameterized;
  * @see org.junit.runners.Parameterized.UseParametersRunnerFactory
  * @see org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory
  * @see J8TestClass
- * @author <a href="mailto:stefan.gasterstaedt@informaticum.de">Stefan Gasterst&auml;dt</a>
  */
 public class J8Parameterized
 extends Parameterized {

@@ -18,7 +18,7 @@ public class FooBarImplTest implements FooTest {
 	
 	@Resource(name="foobarImpl")
 	private Foo subjectUnderTest;
-
+	
 	@Override
 	public Supplier<Foo> subjectUnderTestFactory() {
 		return () -> subjectUnderTest;

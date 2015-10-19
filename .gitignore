@@ -1,5 +1,19 @@
-/.settings/
-/.project
-/check-dependency-updates.log
-/check-plugin-updates.log
-/check-property-updates.log
+### Maven ###
+target/
+
+### Eclipse ###
+.settings/
+.classpath
+.project
+
+### OS ###
+Thumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+*~
+
+### Utility Output ###
+check-dependency-updates.log
+check-plugin-updates.log
+check-property-updates.log
