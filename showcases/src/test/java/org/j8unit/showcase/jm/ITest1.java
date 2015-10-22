@@ -6,15 +6,15 @@ import org.junit.Test;
 public interface ITest1 {
 
     @Test
-    public default void testFoo() {
-        final Foo sut = new Foo();
+    public default void testFoobar1() {
+        final Foobar sut = new Foobar();
         // ...
         Assert.assertTrue(true);
     }
 
     @Test
-    public default void testBar() {
-        final Bar sut = new Bar();
+    public default void testFoobar2() {
+        final Foobar sut = new Foobar();
         // ...
         Assert.assertTrue(true);
     }

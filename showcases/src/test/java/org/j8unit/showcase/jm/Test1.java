@@ -10,9 +10,10 @@ public class Test1
 implements ITest1 {
 
     @Test
-    public void testFoobar() {
+    public void testFoobar3() {
         final Foobar sut = new Foobar();
         // ...
         Assert.assertTrue(true);
     }
+
 }
