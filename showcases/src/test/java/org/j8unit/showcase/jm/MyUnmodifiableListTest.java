@@ -1,8 +1,6 @@
 package org.j8unit.showcase.jm;
 
 import static java.util.Arrays.asList;
-import static java.util.Collections.singletonList;
-import java.util.Arrays;
 import java.util.List;
 import org.j8unit.repository.java.lang.ObjectTests;
 import org.j8unit.repository.java.util.UnmodifiableListTests;
@@ -20,9 +18,9 @@ implements ObjectTests<List<Object>>, UnmodifiableListTests<List<Object>, Object
 
     @Parameters(name = "{index}: {1}")
     public static Iterable<Object[]> data() {
-        return Arrays.asList(new Object[][] { { new MyUnmodifiableList<>(), "empty MyUnmodifiableList" },
-                                              { new MyUnmodifiableList<>(singletonList("Foobar")), "singleton MyUnmodifiableList" },
-                                              { new MyUnmodifiableList<>(asList("Foo", "Bar")), "2-tuple MyUnmodifiableList" } });
+        return asList(new Object[][] { { new MyUnmodifiableList<>(), "empty MyUnmodifiableList" },
+                                       { new MyUnmodifiableList<>(asList("Foobar")), "singleton MyUnmodifiableList" },
+                                       { new MyUnmodifiableList<>(asList("Foo", "Bar")), "2-tuple MyUnmodifiableList" } });
     }
 
     @Parameter(0)
