@@ -10,13 +10,13 @@ public abstract interface UnmodifiableListTests<L extends List<E>, E>
 extends UnmodifiableCollectionTests<L, E>, ListTests<L, E> {
 
     @Test(expected = UnsupportedOperationException.class)
-    public default void testForbiddenReplaceAll() {
+    public default void testUnsupportedReplaceAll() {
         final L sut = this.createNewSUT();
         sut.replaceAll(UnaryOperator.identity());
     }
 
     @Test(expected = UnsupportedOperationException.class)
-    public default void testForbiddenSort() {
+    public default void testUnsupportedSort() {
         final L sut = this.createNewSUT();
         sut.sort(Comparator.comparing(Object::toString));
     }

@@ -10,7 +10,7 @@ public abstract interface UnmodifiableIterableTests<UI extends Iterable<E>, E>
 extends IterableTests<UI, E> {
 
     @Test(expected = UnsupportedOperationException.class)
-    public default void testForbiddenRemoveViaIterator() {
+    public default void testUnsupportedRemoveViaIterator() {
         final UI sut = this.createNewSUT();
         final Iterator<E> iterator = sut.iterator();
         assertNotNull(iterator);
