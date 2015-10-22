@@ -6,7 +6,7 @@ import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.lessThanOrEqualTo;
 import static org.junit.Assert.assertThat;
 import org.hamcrest.Matcher;
-import org.j8unit.repository.J8UnitTest;
+import org.j8unit.J8UnitTest;
 import org.j8unit.shapes.Shape;
 import org.junit.Test;
 

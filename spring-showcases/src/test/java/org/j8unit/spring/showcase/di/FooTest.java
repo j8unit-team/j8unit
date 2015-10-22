@@ -1,6 +1,6 @@
 package org.j8unit.spring.showcase.di;
 
-import org.j8unit.repository.J8UnitTest;
+import org.j8unit.J8UnitTest;
 import org.j8unit.spring.showcase.di.Foo;
 import org.junit.Assert;
 import org.junit.Test;

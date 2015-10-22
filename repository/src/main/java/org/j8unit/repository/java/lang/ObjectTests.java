@@ -3,7 +3,7 @@ package org.j8unit.repository.java.lang;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
-import org.j8unit.repository.J8UnitTest;
+import org.j8unit.J8UnitTest;
 import org.junit.Test;
 
 @FunctionalInterface
