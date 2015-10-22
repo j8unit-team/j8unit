@@ -13,7 +13,7 @@ import java.util.function.UnaryOperator;
 public final class MyUnmodifiableList<E>
 implements List<E> {
 
-    private final List<E> base;
+    private List<E> base;
 
     public MyUnmodifiableList() {
         this.base = Collections.unmodifiableList(new ArrayList<>());
@@ -105,7 +105,7 @@ implements List<E> {
 
     @Override
     public void clear() {
-        return;
+        this.base = Collections.unmodifiableList(new ArrayList<>());
     }
 
     @Override
