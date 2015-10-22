@@ -10,7 +10,7 @@ extends IterableTests<UI, E> {
 
     @Test(expected = UnsupportedOperationException.class)
     public default void testForbiddenRemoveViaIterator() {
-        final UI sut = this.getNewSubjectUnderTest();
+        final UI sut = this.createNewSUT();
         final Iterator<E> iterator = sut.iterator();
         assumeTrue("The given Iterable subject returned an Iterator without any next element.", iterator.hasNext());
         iterator.next();

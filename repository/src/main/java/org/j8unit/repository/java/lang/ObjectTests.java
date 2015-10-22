@@ -12,19 +12,19 @@ extends SupplierBasedJ8UnitTest<SUT> {
 
     @Test
     public default void toStringMustReturnNotNull() {
-        final SUT sut = this.getNewSubjectUnderTest();
+        final SUT sut = this.createNewSUT();
         assertNotNull(sut.toString());
     }
 
     @Test
     public default void testNonZeroHashcode() {
-        final SUT sut = this.getNewSubjectUnderTest();
+        final SUT sut = this.createNewSUT();
         assertNotEquals(0, sut.hashCode());
     }
 
     @Test
     public default void testReflexiveEquals() {
-        final SUT sut = this.getNewSubjectUnderTest();
+        final SUT sut = this.createNewSUT();
         assertTrue(sut.equals(sut));
     }
 

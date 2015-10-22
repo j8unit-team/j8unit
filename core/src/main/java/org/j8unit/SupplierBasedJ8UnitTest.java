@@ -20,7 +20,7 @@ extends J8UnitTest<SUT> {
     public abstract Supplier<SUT> subjectUnderTestFactory();
 
     @Override
-    public default SUT getNewSubjectUnderTest() {
+    public default SUT createNewSUT() {
         final Supplier<SUT> factory = this.subjectUnderTestFactory();
         assert factory != null;
         final SUT sut = factory.get();

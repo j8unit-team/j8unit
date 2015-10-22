@@ -9,7 +9,7 @@ extends SupplierBasedJ8UnitTest<FooBarController> {
 
     @Test
     public default void testFoo() {
-        final FooBarController subjectUnderTest = getNewSubjectUnderTest();
+        final FooBarController subjectUnderTest = createNewSUT();
         Assert.assertEquals("bar", subjectUnderTest.foo());
     }
 }

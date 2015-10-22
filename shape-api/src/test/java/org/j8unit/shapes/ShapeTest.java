@@ -17,7 +17,7 @@ extends SupplierBasedJ8UnitTest<S> {
 
     @Test
     public default void testAreaIsPositive() {
-        final S sut = this.getNewSubjectUnderTest();
+        final S sut = this.createNewSUT();
         assertThat(sut.getArea(), IS_POSITIVE_DOUBLE);
     }
 

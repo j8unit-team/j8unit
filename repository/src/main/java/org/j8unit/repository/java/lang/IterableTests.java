@@ -10,7 +10,7 @@ extends SupplierBasedJ8UnitTest<I> {
 
     @Test
     public default void testNonNullIterator() {
-        final I sut = this.getNewSubjectUnderTest();
+        final I sut = this.createNewSUT();
         assertNotNull(sut.iterator());
     }
 

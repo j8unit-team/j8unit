@@ -10,7 +10,7 @@ extends SupplierBasedJ8UnitTest<Foo> {
 
     @Test
     public default void testAsString() {
-        final Foo subjectUnderTest = getNewSubjectUnderTest();
+        final Foo subjectUnderTest = createNewSUT();
         Assert.assertEquals("foo", subjectUnderTest.asString());
     }
 }

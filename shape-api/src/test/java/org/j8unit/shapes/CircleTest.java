@@ -10,13 +10,13 @@ extends AbstractShapeTest<C> {
 
     @Test
     public default void testRadiusIsPositive() {
-        final C sut = this.getNewSubjectUnderTest();
+        final C sut = this.createNewSUT();
         assertThat(sut.getRadius(), IS_POSITIVE_DOUBLE);
     }
 
     @Test
     public default void testScalingAreaByScalingRadius() {
-        final C sut = this.getNewSubjectUnderTest();
+        final C sut = this.createNewSUT();
         final double oldArea = sut.getArea();
         sut.setRadius(2 * sut.getRadius());
         final double newArea = sut.getArea();
@@ -25,7 +25,7 @@ extends AbstractShapeTest<C> {
 
     @Test
     public default void testScalingDiameterByScalingHeight() {
-        final C sut = this.getNewSubjectUnderTest();
+        final C sut = this.createNewSUT();
         final double oldDiameter = sut.getDiameter();
         sut.setRadius(2 * sut.getRadius());
         final double newDiameter = sut.getArea();
