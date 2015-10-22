@@ -2,7 +2,6 @@ package org.j8unit.shapes;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
-import org.j8unit.shapes.Rectangle;
 import org.junit.Test;
 
 public abstract interface RectangleTest<R extends Rectangle>

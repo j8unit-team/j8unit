@@ -1,7 +1,5 @@
 package org.j8unit.shapes;
 
-import org.j8unit.shapes.Rectangle;
-
 public class Square
 extends Rectangle {
 
