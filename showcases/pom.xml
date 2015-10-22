@@ -22,6 +22,11 @@
             <artifactId>core</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.j8unit</groupId>
+            <artifactId>repository</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>
