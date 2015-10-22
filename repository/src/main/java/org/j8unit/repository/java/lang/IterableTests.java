@@ -1,12 +1,12 @@
 package org.j8unit.repository.java.lang;
 
 import static org.junit.Assert.assertNotNull;
-import org.j8unit.SupplierBasedJ8UnitTest;
+import org.j8unit.FactoryBasedJ8UnitTest;
 import org.junit.Test;
 
 @FunctionalInterface
 public abstract interface IterableTests<I extends Iterable<E>, E>
-extends SupplierBasedJ8UnitTest<I> {
+extends FactoryBasedJ8UnitTest<I> {
 
     @Test
     public default void testNonNullIterator() {

@@ -4,7 +4,7 @@ import java.util.function.Supplier;
 import org.junit.Before;
 
 /**
- * Any SupplierBasedJ8UnitTest implements this interface; in result, all those tests provide
+ * Any FactoryBasedJ8UnitTest implements this interface; in result, all those tests provide
  * {@linkplain #getSUTFactory() a factory method} to query a fresh subject-under-test instance. This behaviour is
  * somehow similar to JUnit's {@link Before} annotated methods (plus its typical usage), whereas within an interface
  * there is no class' member that could be refreshed before each test. Thus, this is the way it works.
@@ -14,7 +14,7 @@ import org.junit.Before;
  * @author <a href="mailto:stefan.gasterstaedt@informaticum.de">Stefan Gasterst&auml;dt</a>
  */
 @FunctionalInterface
-public abstract interface SupplierBasedJ8UnitTest<SUT>
+public abstract interface FactoryBasedJ8UnitTest<SUT>
 extends J8UnitTest<SUT> {
 
     public abstract Supplier<SUT> getSUTFactory();
