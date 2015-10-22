@@ -6,18 +6,18 @@ import java.util.function.UnaryOperator;
 import org.junit.Test;
 
 @FunctionalInterface
-public abstract interface UnmodifiableListTests<L extends List<E>, E>
-extends UnmodifiableCollectionTests<L, E>, ListTests<L, E> {
+public abstract interface UnmodifiableListTests<UL extends List<E>, E>
+extends UnmodifiableCollectionTests<UL, E>, ListTests<UL, E> {
 
     @Test(expected = UnsupportedOperationException.class)
     public default void testUnsupportedReplaceAll() {
-        final L sut = this.createNewSUT();
+        final UL sut = this.createNewSUT();
         sut.replaceAll(UnaryOperator.identity());
     }
 
     @Test(expected = UnsupportedOperationException.class)
     public default void testUnsupportedSort() {
-        final L sut = this.createNewSUT();
+        final UL sut = this.createNewSUT();
         sut.sort(Comparator.comparing(Object::toString));
     }
 
