@@ -15,7 +15,7 @@ implements ITestJCE {
     public void testStrongAES()
     throws Exception {
         final KeyGenerator keyGen = KeyGenerator.getInstance("AES");
-        // requires JCE!
+        // Requires unlimited JCE!
         keyGen.init(256);
 
         final SecretKey key = keyGen.generateKey();
