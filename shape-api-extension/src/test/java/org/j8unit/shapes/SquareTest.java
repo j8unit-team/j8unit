@@ -3,8 +3,6 @@ package org.j8unit.shapes;
 import static java.util.Arrays.asList;
 import java.util.function.Supplier;
 import org.j8unit.runners.J8BlockJUnit4ClassRunner;
-import org.j8unit.shapes.RectangleTest;
-import org.j8unit.shapes.Square;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -29,7 +27,7 @@ implements RectangleTest<Square> {
     public String title;
 
     @Override
-    public Supplier<Square> subjectUnderTestFactory() {
+    public Supplier<Square> getSUTFactory() {
         return () -> new Square(3);
     }
 

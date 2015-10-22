@@ -19,7 +19,8 @@ import org.springframework.web.context.WebApplicationContext;
 @RunWith(J8SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { SpringContext.class })
 @WebAppConfiguration
-public class FooBarControllerImplTest implements FooBarControllerTest {
+public class FooBarControllerImplTest
+implements FooBarControllerTest {
 
     @Autowired
     private WebApplicationContext wac;
@@ -41,8 +42,8 @@ public class FooBarControllerImplTest implements FooBarControllerTest {
     }
 
     @Override
-    public Supplier<FooBarController> subjectUnderTestFactory() {
-        return () -> subjectUnderTest;
+    public Supplier<FooBarController> getSUTFactory() {
+        return () -> this.subjectUnderTest;
     }
 
 }

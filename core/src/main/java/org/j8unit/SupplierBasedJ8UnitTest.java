@@ -4,10 +4,10 @@ import java.util.function.Supplier;
 import org.junit.Before;
 
 /**
- * Any SupplierBasedJ8UnitTest implements this interface; in result, all those tests provide {@linkplain #subjectUnderTestFactory() a
- * factory method} to query a fresh subject-under-test instance. This behaviour is somehow similar to JUnit's
- * {@link Before} annotated methods (plus its typical usage), whereas within an interface there is no class' member that
- * could be refreshed before each test. Thus, this is the way it works.
+ * Any SupplierBasedJ8UnitTest implements this interface; in result, all those tests provide
+ * {@linkplain #getSUTFactory() a factory method} to query a fresh subject-under-test instance. This behaviour is
+ * somehow similar to JUnit's {@link Before} annotated methods (plus its typical usage), whereas within an interface
+ * there is no class' member that could be refreshed before each test. Thus, this is the way it works.
  *
  * @param <SUT>
  *            the type of the subject-under-test
@@ -17,11 +17,11 @@ import org.junit.Before;
 public abstract interface SupplierBasedJ8UnitTest<SUT>
 extends J8UnitTest<SUT> {
 
-    public abstract Supplier<SUT> subjectUnderTestFactory();
+    public abstract Supplier<SUT> getSUTFactory();
 
     @Override
     public default SUT createNewSUT() {
-        final Supplier<SUT> factory = this.subjectUnderTestFactory();
+        final Supplier<SUT> factory = this.getSUTFactory();
         assert factory != null;
         final SUT sut = factory.get();
         assert sut != null;

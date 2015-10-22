@@ -7,7 +7,6 @@ import static java.util.Collections.unmodifiableList;
 import java.util.List;
 import java.util.function.Supplier;
 import org.j8unit.repository.java.lang.ObjectTests;
-import org.j8unit.repository.java.util.UnmodifiableListTests;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.Ignore;
@@ -31,8 +30,8 @@ implements ObjectTests<List<Object>>, UnmodifiableListTests<List<Object>, Object
         final Supplier<List<Object>> fac5 = () -> singletonList(null);
         final Supplier<List<Object>> fac6 = () -> unmodifiableList(singletonList(null));
         return asList(new Object[][] { { fac1, "emptyList()" }, { fac2, "unmodifiableList(emptyList())" }, { fac3, "singletonList(new Object())" },
-                                      { fac4, "unmodifiableList(singletonList(new Object()))" }, { fac5, "singletonList(null)" },
-                                      { fac6, "unmodifiableList(singletonList(null))" } });
+                                       { fac4, "unmodifiableList(singletonList(new Object()))" }, { fac5, "singletonList(null)" },
+                                       { fac6, "unmodifiableList(singletonList(null))" } });
     }
 
     @Parameter(0)
@@ -42,7 +41,7 @@ implements ObjectTests<List<Object>>, UnmodifiableListTests<List<Object>, Object
     public String title;
 
     @Override
-    public Supplier<List<Object>> subjectUnderTestFactory() {
+    public Supplier<List<Object>> getSUTFactory() {
         return this.factory;
     }
 

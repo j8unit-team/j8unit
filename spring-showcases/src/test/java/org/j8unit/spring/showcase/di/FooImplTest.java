@@ -4,7 +4,6 @@ import java.util.function.Supplier;
 import javax.annotation.Resource;
 import org.j8unit.spring.runners.J8SpringJUnit4ClassRunner;
 import org.j8unit.spring.showcase.SpringContext;
-import org.j8unit.spring.showcase.di.Foo;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,12 +18,12 @@ implements FooTest {
     private Foo subjectUnderTest;
 
     @Override
-    public Supplier<Foo> subjectUnderTestFactory() {
-        return () -> subjectUnderTest;
+    public Supplier<Foo> getSUTFactory() {
+        return () -> this.subjectUnderTest;
     }
 
     @Test
     public void testAsStringNotEmpty() {
-        Assert.assertTrue(!subjectUnderTest.asString().isEmpty());
+        Assert.assertTrue(!this.subjectUnderTest.asString().isEmpty());
     }
 }

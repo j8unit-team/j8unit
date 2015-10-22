@@ -22,12 +22,12 @@ implements FooTest {
     private Foo subjectUnderTest;
 
     @Override
-    public Supplier<Foo> subjectUnderTestFactory() {
-        return () -> subjectUnderTest;
+    public Supplier<Foo> getSUTFactory() {
+        return () -> this.subjectUnderTest;
     }
 
     @Test
     public void testAsStringNotEmpty() {
-        Assert.assertTrue(!subjectUnderTest.asString().isEmpty());
+        Assert.assertTrue(!this.subjectUnderTest.asString().isEmpty());
     }
 }
