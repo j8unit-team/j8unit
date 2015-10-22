@@ -14,4 +14,10 @@ extends J8UnitTest<I> {
         assertNotNull(sut.iterator());
     }
 
+    @Test
+    public default void testExecutableForEach() {
+        final I sut = this.createNewSUT();
+        sut.forEach(e -> {});
+    }
+
 }
