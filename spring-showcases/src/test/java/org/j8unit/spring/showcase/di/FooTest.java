@@ -1,12 +1,11 @@
 package org.j8unit.spring.showcase.di;
 
-import org.j8unit.FactoryBasedJ8UnitTest;
-import org.j8unit.spring.showcase.di.Foo;
+import org.j8unit.J8UnitTest;
 import org.junit.Assert;
 import org.junit.Test;
 
 public interface FooTest
-extends FactoryBasedJ8UnitTest<Foo> {
+extends J8UnitTest<Foo> {
 
     @Test
     public default void testAsString() {

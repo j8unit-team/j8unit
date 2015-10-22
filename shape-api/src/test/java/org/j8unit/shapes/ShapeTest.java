@@ -6,12 +6,11 @@ import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.lessThanOrEqualTo;
 import static org.junit.Assert.assertThat;
 import org.hamcrest.Matcher;
-import org.j8unit.FactoryBasedJ8UnitTest;
-import org.j8unit.shapes.Shape;
+import org.j8unit.J8UnitTest;
 import org.junit.Test;
 
 public abstract interface ShapeTest<S extends Shape>
-extends FactoryBasedJ8UnitTest<S> {
+extends J8UnitTest<S> {
 
     public static final Matcher<Double> IS_POSITIVE_DOUBLE = is(both(greaterThan(0.0)).and(lessThanOrEqualTo(Double.MAX_VALUE)));
 

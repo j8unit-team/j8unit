@@ -2,6 +2,7 @@ package org.j8unit.shapes;
 
 import static java.util.Arrays.asList;
 import java.util.function.Supplier;
+import org.j8unit.FactoryBasedJ8UnitTest;
 import org.j8unit.runners.J8BlockJUnit4ClassRunner;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -12,7 +13,7 @@ import org.junit.runners.Parameterized.Parameters;
 @RunWith(J8BlockJUnit4ClassRunner.class)
 public class SquareTest
 extends FoobarTest
-implements RectangleTest<Square> {
+implements RectangleTest<Square>, FactoryBasedJ8UnitTest<Square> {
 
     @Parameters(name = "{index}: {1}")
     public static Iterable<Object[]> data() {
@@ -28,7 +29,7 @@ implements RectangleTest<Square> {
 
     @Override
     public Supplier<Square> getSUTFactory() {
-        return () -> new Square(3);
+        return this.factory;
     }
 
     @Ignore

@@ -6,20 +6,19 @@ import static java.util.Collections.singletonList;
 import static java.util.Collections.unmodifiableList;
 import java.util.List;
 import java.util.function.Supplier;
+import org.j8unit.FactoryBasedJ8UnitTest;
 import org.j8unit.repository.java.lang.ObjectTests;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
-import org.junit.Ignore;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
-@Ignore
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class ListWrapperTestCase
-implements ObjectTests<List<Object>>, UnmodifiableListTests<List<Object>, Object> {
+implements ObjectTests<List<Object>>, UnmodifiableListTests<List<Object>, Object>, FactoryBasedJ8UnitTest<List<Object>> {
 
     @Parameters(name = "{index}: {1}")
     public static Iterable<Object[]> data() {
