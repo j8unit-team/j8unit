@@ -10,7 +10,7 @@ public interface ITestJCE {
     public default void testInstalledJCE()
     throws Exception {
         // If JCE unlimited strength jurisdiction policy files are
-        // installed, Integer.MAX_VALUE will final be returned.
+        // installed, Integer.MAX_VALUE will be returned.
         final int keyLength = Cipher.getMaxAllowedKeyLength("AES");
         Assert.assertEquals("Missing JCE!", Integer.MAX_VALUE, keyLength);
     }
