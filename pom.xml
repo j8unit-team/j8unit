@@ -95,10 +95,11 @@
 
     <modules>
         <module>./core</module>
-        <module>./showcases</module>
         <module>./spring</module>
-        <module>./spring-showcases</module>
         <module>./repository</module>
+        <module>./showcases</module>
+        <module>./spring-showcases</module>
+        <module>./showcases-jm</module>
         <module>./shape-api</module>
         <module>./shape-api-extension</module>
     </modules>

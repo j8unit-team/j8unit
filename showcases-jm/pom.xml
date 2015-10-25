@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>showcases</artifactId>
+    <artifactId>showcases-jm</artifactId>
 
     <dependencies>
         <dependency>
@@ -20,6 +20,11 @@
         <dependency>
             <groupId>org.j8unit</groupId>
             <artifactId>core</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.j8unit</groupId>
+            <artifactId>repository</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>
