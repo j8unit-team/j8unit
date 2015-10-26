@@ -40,15 +40,11 @@
             <name>Stefan Gasterstädt</name>
             <email>stefan@gasterstädt.de</email>
             <url>http://stefan.gasterstädt.de</url>
-            <organization>Informaticum</organization>
-            <organizationUrl>http://www.informaticum.de</organizationUrl>
         </developer>
         <developer>
             <id>ZAK</id>
             <name>Sascha Zak</name>
             <email>sascha.zak@zakdigital.de</email>
-            <organization>zak digital</organization>
-            <organizationUrl>http://zakdigital.de</organizationUrl>
         </developer>
     </developers>
 
