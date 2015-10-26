@@ -2,7 +2,6 @@ package org.j8unit.spring.showcase.mvc;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import java.util.function.Supplier;
 import org.j8unit.spring.runners.J8SpringJUnit4ClassRunner;
 import org.j8unit.spring.showcase.SpringContext;
 import org.junit.Before;
@@ -42,8 +41,8 @@ implements FooBarControllerTest {
     }
 
     @Override
-    public Supplier<FooBarController> getSUTFactory() {
-        return () -> this.subjectUnderTest;
+    public FooBarController createNewSUT() {
+        return this.subjectUnderTest;
     }
 
 }
