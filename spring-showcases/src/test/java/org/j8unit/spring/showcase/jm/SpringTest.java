@@ -1,6 +1,8 @@
-package org.j8unit.spring.showcase.di;
+package org.j8unit.spring.showcase.jm;
 
 import javax.annotation.Resource;
+import org.j8unit.showcase.jm.Foobar;
+import org.j8unit.showcase.jm.ITest2;
 import org.j8unit.spring.runners.J8SpringJUnit4;
 import org.j8unit.spring.showcase.TestContext;
 import org.junit.Assert;
@@ -10,19 +12,20 @@ import org.springframework.test.context.ContextConfiguration;
 
 @RunWith(J8SpringJUnit4.class)
 @ContextConfiguration(classes = { TestContext.class })
-public class FooBarImplTest
-implements FooTest {
+public class SpringTest implements ITest2 {
 
-    @Resource(name = "foobarImpl")
-    private Foo subjectUnderTest;
+    @Resource
+    private Foobar sut; // injected
 
     @Override
-    public Foo createNewSUT() {
-        return this.subjectUnderTest;
+    public Foobar createNewSUT() {
+        return sut;
     }
 
     @Test
-    public void testAsStringNotEmpty() {
-        Assert.assertTrue(!this.subjectUnderTest.asString().isEmpty());
+    public void testFoobar3() {
+        final Foobar sut = createNewSUT();
+        // ...
+        Assert.assertTrue(true);
     }
 }

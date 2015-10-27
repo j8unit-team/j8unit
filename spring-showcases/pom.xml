@@ -49,13 +49,18 @@
         </dependency>
         <dependency>
             <groupId>org.j8unit</groupId>
+            <artifactId>showcases</artifactId>
+            <scope>compile</scope>
+        </dependency>        
+        <dependency>
+            <groupId>org.j8unit</groupId>
             <artifactId>repository</artifactId>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.j8unit</groupId>
             <artifactId>spring</artifactId>
-            <scope>compile</scope>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     
