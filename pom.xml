@@ -40,15 +40,11 @@
             <name>Stefan Gasterstädt</name>
             <email>stefan@gasterstädt.de</email>
             <url>http://stefan.gasterstädt.de</url>
-            <organization>Informaticum</organization>
-            <organizationUrl>http://www.informaticum.de</organizationUrl>
         </developer>
         <developer>
             <id>ZAK</id>
             <name>Sascha Zak</name>
             <email>sascha.zak@zakdigital.de</email>
-            <organization>zak digital</organization>
-            <organizationUrl>http://zakdigital.de</organizationUrl>
         </developer>
     </developers>
 
@@ -90,15 +86,16 @@
 
         <!-- === Dependency Versions :: 3rd Party === -->
         <version.junit>4.12</version.junit>
-        <version.spring.platform>1.1.3.RELEASE</version.spring.platform>
+        <version.spring.platform>1.1.4.RELEASE</version.spring.platform>
     </properties>
 
     <modules>
         <module>./core</module>
-        <module>./showcases</module>
         <module>./spring</module>
-        <module>./spring-showcases</module>
         <module>./repository</module>
+        <module>./showcases</module>
+        <module>./spring-showcases</module>
+        <module>./showcases-jm</module>
         <module>./shape-api</module>
         <module>./shape-api-extension</module>
     </modules>
@@ -115,11 +112,6 @@
                 <artifactId>core</artifactId>
                 <version>${project.version}</version>
             </dependency>
-            <dependency>
-                <groupId>org.j8unit</groupId>
-                <artifactId>showcases</artifactId>
-                <version>${project.version}</version>
-            </dependency>            
             <dependency>
                 <groupId>org.j8unit</groupId>
                 <artifactId>repository</artifactId>

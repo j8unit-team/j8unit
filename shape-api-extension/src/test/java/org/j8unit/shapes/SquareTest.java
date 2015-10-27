@@ -3,14 +3,17 @@ package org.j8unit.shapes;
 import static java.util.Arrays.asList;
 import java.util.function.Supplier;
 import org.j8unit.FactoryBasedJ8UnitTest;
-import org.j8unit.runners.J8BlockJUnit4ClassRunner;
+import org.j8unit.runners.J8Parameterized;
+import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 
-@RunWith(J8BlockJUnit4ClassRunner.class)
+@RunWith(J8Parameterized.class)
+@UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SquareTest
 extends FoobarTest
 implements RectangleTest<Square>, FactoryBasedJ8UnitTest<Square> {

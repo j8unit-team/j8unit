@@ -1,11 +1,11 @@
 package org.j8unit.spring.showcase.mvc;
 
-import org.j8unit.FactoryBasedJ8UnitTest;
+import org.j8unit.J8UnitTest;
 import org.junit.Assert;
 import org.junit.Test;
 
 public interface FooBarControllerTest
-extends FactoryBasedJ8UnitTest<FooBarController> {
+extends J8UnitTest<FooBarController> {
 
     @Test
     public default void testFoo() {

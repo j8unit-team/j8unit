@@ -1,10 +1,9 @@
-package org.j8unit.spring.showcase.jm;
+package org.j8unit.showcase.jm.spring;
 
 import javax.annotation.Resource;
 import org.j8unit.showcase.jm.Foobar;
 import org.j8unit.showcase.jm.ITest2;
 import org.j8unit.spring.runners.J8SpringJUnit4;
-import org.j8unit.spring.showcase.TestContext;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
