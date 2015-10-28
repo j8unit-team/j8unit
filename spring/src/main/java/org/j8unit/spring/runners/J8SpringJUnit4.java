@@ -23,7 +23,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @see J8TestClass
  * @author <a href="mailto:sascha.zak@zak-digital.de">Sascha Zak</a>
  */
-public class J8SpringJUnit4ClassRunner
+public class J8SpringJUnit4
 extends SpringJUnit4ClassRunner {
 
     /**
@@ -35,7 +35,7 @@ extends SpringJUnit4ClassRunner {
      * @see #createTestContextManager(Class)
      * @see #createTestClass(Class)
      */
-    public J8SpringJUnit4ClassRunner(final Class<?> clazz)
+    public J8SpringJUnit4(final Class<?> clazz)
     throws InitializationError {
         super(clazz);
     }

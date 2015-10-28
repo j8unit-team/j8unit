@@ -2,8 +2,8 @@ package org.j8unit.spring.showcase.mvc;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import org.j8unit.spring.runners.J8SpringJUnit4ClassRunner;
-import org.j8unit.spring.showcase.SpringContext;
+import org.j8unit.spring.runners.J8SpringJUnit4;
+import org.j8unit.spring.showcase.TestContext;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,11 +15,10 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-@RunWith(J8SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = { SpringContext.class })
+@RunWith(J8SpringJUnit4.class)
+@ContextConfiguration(classes = { TestContext.class })
 @WebAppConfiguration
-public class FooBarControllerImplTest
-implements FooBarControllerTest {
+public class FooBarControllerImplTest implements FooBarControllerTest {
 
     @Autowired
     private WebApplicationContext wac;
@@ -42,7 +41,6 @@ implements FooBarControllerTest {
 
     @Override
     public FooBarController createNewSUT() {
-        return this.subjectUnderTest;
+        return subjectUnderTest;
     }
-
 }

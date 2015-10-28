@@ -55,7 +55,7 @@
         <dependency>
             <groupId>org.j8unit</groupId>
             <artifactId>spring</artifactId>
-            <scope>compile</scope>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     
