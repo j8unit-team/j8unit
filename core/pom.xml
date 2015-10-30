@@ -33,6 +33,39 @@
                 <!-- https://maven.apache.org/plugins/maven-javadoc-plugin/examples/javadoc-resources.html -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
+                <configuration>
+                    <!-- https://maven.apache.org/plugins/maven-javadoc-plugin/examples/javadoc-resources.html -->
+                    <docfilessubdirs>true</docfilessubdirs>
+                    <!--
+                    It would be much better solution if (instead of "docfilessubdirs/syntaxhighlighter_3.0.83") we could just use this:
+                    <resourcesArtifacts>
+                        <resourcesArtifact>
+                            <groupId>org.webjars</groupId>
+                            <artifactId>syntaxhighlighter</artifactId>
+                            <version>3.0.83</version>
+                        </resourcesArtifact>
+                    </resourcesArtifacts>
+                    But "resources" is placed within "META-INF" and, thus, is not copied ... ;-(
+                    -->
+                    <!-- https://maven.apache.org/plugins/maven-javadoc-plugin/examples/stylesheet-configuration.html -->
+                    <stylesheetfile>styles/jdk8-stylesheet.css</stylesheetfile>
+                    <!-- Add SyntaxHighlighter features (at the beginning of each JavaDoc HTML file). -->
+                    <top><![CDATA[
+                            <script src="{@docRoot}/resources/syntaxhighlighter_3.0.83/scripts/shCore.js" type="text/javascript"></script>
+                            <script src="{@docRoot}/resources/syntaxhighlighter_3.0.83/scripts/shBrushJava.js" type="text/javascript"></script>
+                            <link href="{@docRoot}/resources/syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" title="Style">
+                            <link href="{@docRoot}/resources/syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" title="Style">
+                            ]]>
+                    </top>                            
+                    <!-- Activate and customize SyntaxHighlighter features (at the bottom of each JavaDoc HTML file). -->
+                    <footer><![CDATA[
+                            <script type="text/javascript">
+                               SyntaxHighlighter.defaults["auto-links"] = false;
+                               SyntaxHighlighter.defaults["tab-size"] = 2;
+                               SyntaxHighlighter.all();
+                            </script>
+                        ]]></footer>
+                </configuration>
             </plugin>
         </plugins>
     </build>

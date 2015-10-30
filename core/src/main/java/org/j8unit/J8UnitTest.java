@@ -22,7 +22,7 @@ package org.j8unit;
  * <dt>Stand-alone implementation</dt>
  * <dd>
  *
- * <pre>
+ * <pre class="brush:java">
  * {@code
  *import org.j8unit.runners.J8Unit4;
  *import org.j8unit.usage.Foobar;
