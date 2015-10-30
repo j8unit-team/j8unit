@@ -20,7 +20,6 @@
         <dependency>
             <groupId>org.j8unit</groupId>
             <artifactId>core</artifactId>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
