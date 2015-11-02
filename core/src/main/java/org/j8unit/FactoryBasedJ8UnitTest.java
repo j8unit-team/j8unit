@@ -5,7 +5,7 @@ import java.util.function.Supplier;
 /**
  * <p>
  * In case a subject-under-test (SUT) based J8Unit test uses a SUT factory to produce fresh SUT instances, this
- * interface should be used preference to {@link J8UnitTest}. In detail, this {@code interface} specifies
+ * interface should be used preference to {@link J8UnitTest}. In detail, this {@code interface} provides
  * {@linkplain #getSUTFactory() a factory query method} that is used within the {@code default} implementation of
  * {@link #createNewSUT()}.
  * </p>
@@ -38,16 +38,12 @@ extends J8UnitTest<SUT> {
      * implemented with the following {@code default} behaviour:
      * </p>
      *
-     * <pre>
-     * {@code
-     * {
-     * final Supplier<SUT> factory = this.getSUTFactory();
+     * <pre class="brush:java">
+     * final Supplier&lt;SUT&gt; factory = this.getSUTFactory();
      * assert factory != null;
      * final SUT sut = factory.get();
      * assert sut != null;
      * return sut;
-     * }
-     * }
      * </pre>
      */
     @Override
