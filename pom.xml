@@ -73,24 +73,24 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- === Plugin Versions === -->
-<!--         <version.mvn.clean>3.0.0</version.mvn.clean> -->
-        <version.mvn.clean>2.5</version.mvn.clean>
-<!--         <version.mvn.resources>2.7</version.mvn.resources> -->
-        <version.mvn.resources>2.6</version.mvn.resources>
-<!--         <version.mvn.compiler>3.3</version.mvn.compiler> -->
-        <version.mvn.compiler>3.1</version.mvn.compiler>
-<!--         <version.mvn.surfire>2.19</version.mvn.surfire> -->
-        <version.mvn.surfire>2.18</version.mvn.surfire>
-<!--         <version.mvn.source>2.4</version.mvn.source> -->
-        <version.mvn.source>2.3</version.mvn.source>
-<!--         <version.mvn.javadoc>2.10.3</version.mvn.javadoc> -->
-        <version.mvn.javadoc>2.9.1</version.mvn.javadoc>
-<!--         <version.mvn.jar>2.6</version.mvn.jar> -->
-        <version.mvn.jar>2.5</version.mvn.jar>
-<!--         <version.mvn.deploy>2.8.2</version.mvn.deploy> -->
-        <version.mvn.deploy>2.8.1</version.mvn.deploy>
-<!--         <version.mvn.install>2.5.2</version.mvn.install> -->
-        <version.mvn.install>2.5.1</version.mvn.install>
+        <version.mvn.clean>3.0.0</version.mvn.clean>
+<!--         <version.mvn.clean>2.5</version.mvn.clean> -->
+        <version.mvn.resources>2.7</version.mvn.resources>
+<!--         <version.mvn.resources>2.6</version.mvn.resources> -->
+        <version.mvn.compiler>3.3</version.mvn.compiler>
+<!--         <version.mvn.compiler>3.1</version.mvn.compiler> -->
+        <version.mvn.surfire>2.19</version.mvn.surfire>
+<!--         <version.mvn.surfire>2.18</version.mvn.surfire> -->
+        <version.mvn.source>2.4</version.mvn.source>
+<!--         <version.mvn.source>2.3</version.mvn.source> -->
+        <version.mvn.javadoc>2.10.3</version.mvn.javadoc>
+<!--         <version.mvn.javadoc>2.9.1</version.mvn.javadoc> -->
+        <version.mvn.jar>2.6</version.mvn.jar>
+<!--         <version.mvn.jar>2.5</version.mvn.jar> -->
+        <version.mvn.deploy>2.8.2</version.mvn.deploy>
+<!--         <version.mvn.deploy>2.8.1</version.mvn.deploy> -->
+        <version.mvn.install>2.5.2</version.mvn.install>
+<!--         <version.mvn.install>2.5.1</version.mvn.install> -->
         <version.mvn.site>3.4</version.mvn.site>
 
         <!-- === Dependency Versions :: 3rd Party === -->
@@ -99,6 +99,7 @@
     </properties>
 
     <modules>
+<!--         <module>./javadoc-syntaxhighlighter</module> -->
         <module>./core</module>
         <module>./spring</module>
         <module>./repository</module>
@@ -115,6 +116,11 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${version.junit}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.j8unit</groupId>
+                <artifactId>javadoc</artifactId>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.j8unit</groupId>
