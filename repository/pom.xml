@@ -37,6 +37,13 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <excludedGroups>org.j8unit.repository.java.JavaBug</excludedGroups>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
