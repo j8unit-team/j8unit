@@ -79,8 +79,8 @@
 <!--         <version.mvn.resources>2.6</version.mvn.resources> -->
         <version.mvn.compiler>3.3</version.mvn.compiler>
 <!--         <version.mvn.compiler>3.1</version.mvn.compiler> -->
-        <version.mvn.surfire>2.19</version.mvn.surfire>
-<!--         <version.mvn.surfire>2.18</version.mvn.surfire> -->
+        <version.mvn.surefire>2.19</version.mvn.surefire>
+<!--         <version.mvn.surefire>2.18</version.mvn.surefire> -->
         <version.mvn.source>2.4</version.mvn.source>
 <!--         <version.mvn.source>2.3</version.mvn.source> -->
         <version.mvn.javadoc>2.10.3</version.mvn.javadoc>
@@ -188,7 +188,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>${version.mvn.surfire}</version>
+                    <version>${version.mvn.surefire}</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
