@@ -25,7 +25,7 @@ extends AbstractShapeTest<R> {
         final double oldArea = sut.getArea();
         sut.setWidth(2 * sut.getWidth());
         final double newArea = sut.getArea();
-        assertEquals(newArea, 2 * oldArea, 0.0);
+        assertEquals(2 * oldArea, newArea, 0.0);
     }
 
     @Test
@@ -34,7 +34,7 @@ extends AbstractShapeTest<R> {
         final double oldArea = sut.getArea();
         sut.setHeight(2 * sut.getHeight());
         final double newArea = sut.getArea();
-        assertEquals(newArea, 2 * oldArea, 0.0);
+        assertEquals(2 * oldArea, newArea, 0.0);
     }
 
 }
