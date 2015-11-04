@@ -5,8 +5,8 @@ import java.util.function.Supplier;
 import org.j8unit.FactoryBasedJ8UnitTest;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
-import org.junit.Ignore;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
@@ -15,7 +15,6 @@ import org.junit.runners.Parameterized.UseParametersRunnerFactory;
 @RunWith(J8Parameterized.class)
 @UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
 public class SquareTest
-extends FoobarTest
 implements RectangleTest<Square>, FactoryBasedJ8UnitTest<Square> {
 
     @Parameters(name = "{index}: {1}")
@@ -35,22 +34,18 @@ implements RectangleTest<Square>, FactoryBasedJ8UnitTest<Square> {
         return this.factory;
     }
 
-    @Ignore
     @Test
-    @Override
-    public void testScalingAreaByScalingWidth() {
-        RectangleTest.super.testScalingAreaByScalingWidth();
-    }
-
-    @Ignore
-    @Test
+    @Category(ShowcaseFailure.class)
     @Override
     public void testScalingAreaByScalingHeight() {
         RectangleTest.super.testScalingAreaByScalingHeight();
     }
 
+    @Test
+    @Category(ShowcaseFailure.class)
     @Override
-    public void testFoobar() {
+    public void testScalingAreaByScalingWidth() {
+        RectangleTest.super.testScalingAreaByScalingWidth();
     }
 
 }
