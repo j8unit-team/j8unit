@@ -6,6 +6,9 @@ import org.j8unit.repository.java.lang.ObjectTests;
 import org.j8unit.repository.java.util.UnmodifiableListTests;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
+import org.j8unit.showcase.ShowcaseFailure;
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
@@ -32,6 +35,13 @@ implements ObjectTests<List<Object>>, UnmodifiableListTests<List<Object>, Object
     @Override
     public List<Object> createNewSUT() {
         return this.instance;
+    }
+
+    @Test
+    @Category(ShowcaseFailure.class)
+    @Override
+    public void testUnsupportedClear() {
+        UnmodifiableListTests.super.testUnsupportedClear();
     }
 
 }
