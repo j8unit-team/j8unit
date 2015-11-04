@@ -11,16 +11,16 @@
     <licenses>
         <license>
             <name>LGPLv3</name>
-            <comments>The LGPLv3 license can be found within the syntaxhighlighter archive (${syntaxhighlighter.url.folder}/${syntaxhighlighter.version}.zip::/build/includes).</comments>
+            <comments>The LGPLv3 license can be found within the syntaxhighlighter archive (${syntaxhighlighter.url}).</comments>
         </license>
     </licenses>
 
     <properties>
         <syntaxhighlighter.version>3.0.83</syntaxhighlighter.version>
-        <syntaxhighlighter.url.folder>https://github.com/alexgorbatchev/syntaxhighlighter/archive</syntaxhighlighter.url.folder>
-        <syntaxhighlighter.url.file>${syntaxhighlighter.version}.zip</syntaxhighlighter.url.file>
-        <syntaxhighlighter.zip.folder>syntaxhighlighter-${syntaxhighlighter.version}</syntaxhighlighter.zip.folder>
-        <destDir>${project.build.outputDirectory}/resources/syntaxhighlighter/${syntaxhighlighter.version}</destDir>
+        <syntaxhighlighter.url>http://alexgorbatchev.com/SyntaxHighlighter/download/download.php?sh_current</syntaxhighlighter.url>
+        <syntaxhighlighter.tempfile>${syntaxhighlighter.version}.zip</syntaxhighlighter.tempfile>
+        <syntaxhighlighter.tempfolder>syntaxhighlighter_${syntaxhighlighter.version}</syntaxhighlighter.tempfolder>
+        <syntaxhighlighter.targetdir>resources/syntaxhighlighter/${syntaxhighlighter.version}</syntaxhighlighter.targetdir>
     </properties>
 
     <build>
@@ -37,19 +37,11 @@
                         </goals>
                         <configuration>
                             <target>
-                                <echo message="download syntaxhighlighter archive (${syntaxhighlighter.version})" />
-                                <get src="${syntaxhighlighter.url.folder}/${syntaxhighlighter.url.file}" dest="${project.build.directory}/${syntaxhighlighter.url.file}" />
-                                <echo message="unzip archive" />
-                                <unzip src="${project.build.directory}/${syntaxhighlighter.url.file}" dest="${project.build.directory}" />
-                                <echo message="copying info/copyright files" />
-                                <copy todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/${syntaxhighlighter.zip.folder}/build/includes"
-                                        includes="*" />
-                                </copy>
-                                <echo message="copying brush scripts and styles" />
-                                <copy todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/${syntaxhighlighter.zip.folder}"
-                                        includes="styles/ scripts/" />
+                                <get src="${syntaxhighlighter.url}" dest="${project.build.directory}/${syntaxhighlighter.tempfile}" />
+                                <unzip src="${project.build.directory}/${syntaxhighlighter.tempfile}" dest="${project.build.directory}" />
+                                <copy todir="${project.build.outputDirectory}/${syntaxhighlighter.targetdir}">
+                                    <fileset dir="${project.build.directory}/${syntaxhighlighter.tempfolder}" includes="styles/ scripts/" />
+                                    <fileset dir="${project.build.directory}/${syntaxhighlighter.tempfolder}/" includes="LGPL-LICENSE MIT-LICENSE" />
                                 </copy>
                             </target>
                         </configuration>
