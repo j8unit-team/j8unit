@@ -5,12 +5,10 @@ import java.util.function.Supplier;
 /**
  * <p>
  * In case a subject-under-test (SUT) based J8Unit test uses a SUT factory to produce fresh SUT instances, this
- * interface should be used preference to {@link J8UnitTest}. In detail, this {@code interface} provides
- * {@linkplain #getSUTFactory() a factory query method} that is used within the {@code default} implementation of
+ * interface should be used in preference to {@link J8UnitTest}. In detail, this {@code interface} provides
+ * {@linkplain #getSUTFactory() a factory query method} that is used by the {@code default} implementation of
  * {@link #createNewSUT()}.
  * </p>
- *
- * @see J8UnitTest
  *
  * @param <SUT>
  *            the type of the subject-under-test
