@@ -3,6 +3,10 @@ package org.j8unit;
 import java.util.function.Supplier;
 import org.junit.internal.ArrayComparisonFailure;
 
+/**
+ * In addition to the JUnit's {@link org.junit.Assert} this Assert extension provides {@link Supplier}-based assertion
+ * methods.
+ */
 public class Assert
 extends org.junit.Assert {
 
