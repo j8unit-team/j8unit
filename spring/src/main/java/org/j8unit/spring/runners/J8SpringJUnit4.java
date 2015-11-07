@@ -21,7 +21,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  *
  * @see org.junit.runner.RunWith
  * @see J8TestClass
- * @author <a href="mailto:sascha.zak@zak-digital.de">Sascha Zak</a>
  */
 public class J8SpringJUnit4
 extends SpringJUnit4ClassRunner {
@@ -29,7 +28,7 @@ extends SpringJUnit4ClassRunner {
     /**
      * Constructs a new {@code J8SpringJUnit4ClassRunner} and initializes a {@link TestContextManager} to provide Spring
      * testing functionality to enhanced standard JUnit tests.
-     * 
+     *
      * @param clazz
      *            the test class to be run
      * @see #createTestContextManager(Class)

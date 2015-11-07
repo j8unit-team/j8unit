@@ -2,8 +2,6 @@ package org.j8unit.shapes;
 
 /**
  * Definition of a two-dimensional shape.
- *
- * @author <a href="mailto:stefan.gasterstaedt@informaticum.de">Stefan Gasterst&auml;dt</a>
  */
 public abstract interface Shape {
 

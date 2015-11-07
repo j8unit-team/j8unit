@@ -18,6 +18,7 @@
  * documentation of {@link org.j8unit.J8UnitTest} and {@link org.j8unit.Assert} respectively.
  * </p>
  *
- * @author Stefan Gasterst&auml;dt, Sascha Zak
+ * @author <a href="mailto:stefan@gasterstädt.de">Stefan Gasterst&auml;dt</a>
+ * @author <a href="mailto:sascha.zak@zak-digital.de">Sascha Zak</a>
  */
 package org.j8unit;
