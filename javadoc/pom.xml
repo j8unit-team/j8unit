@@ -5,13 +5,17 @@
 
     <packaging>jar</packaging>
     <groupId>org.j8unit</groupId>
-    <artifactId>javadoc-syntaxhighlighter</artifactId>
+    <artifactId>javadoc</artifactId>
     <version>3.0.83-1-SNAPSHOT</version>
 
     <licenses>
         <license>
             <name>LGPLv3</name>
             <comments>The LGPLv3 license can be found within the syntaxhighlighter archive (${syntaxhighlighter.url}).</comments>
+        </license>
+        <license>
+            <name>MIT</name>
+            <comments>The MIT license can be found within the syntaxhighlighter archive (${syntaxhighlighter.url}).</comments>
         </license>
     </licenses>
 
@@ -20,7 +24,7 @@
         <syntaxhighlighter.url>http://alexgorbatchev.com/SyntaxHighlighter/download/download.php?sh_current</syntaxhighlighter.url>
         <syntaxhighlighter.tempfile>${syntaxhighlighter.version}.zip</syntaxhighlighter.tempfile>
         <syntaxhighlighter.tempfolder>syntaxhighlighter_${syntaxhighlighter.version}</syntaxhighlighter.tempfolder>
-        <syntaxhighlighter.targetdir>resources/syntaxhighlighter/${syntaxhighlighter.version}</syntaxhighlighter.targetdir>
+        <syntaxhighlighter.targetdir>syntaxhighlighter/${syntaxhighlighter.version}</syntaxhighlighter.targetdir>
     </properties>
 
     <build>
