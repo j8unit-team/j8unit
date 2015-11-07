@@ -105,8 +105,8 @@
         <module>./repository</module>
         <module>./showcases</module>
         <module>./showcases-jm</module>
-        <module>./shape-api</module>
-        <module>./shape-api-extension</module>
+        <module>./showcases-shape-api</module>
+        <module>./showcases-shape-extension</module>
     </modules>
 
     <dependencyManagement>
