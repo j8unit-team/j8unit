@@ -9,17 +9,17 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>shape-api-extension</artifactId>
+    <artifactId>showcases-shape-extension</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>org.j8unit</groupId>
-            <artifactId>shape-api</artifactId>
+            <artifactId>showcases-shape-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.j8unit</groupId>
-            <artifactId>shape-api</artifactId>
+            <artifactId>showcases-shape-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <type>test-jar</type>
             <scope>test</scope>
