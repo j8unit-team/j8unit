@@ -104,7 +104,7 @@
         <module>./spring</module>
         <module>./repository</module>
         <module>./showcases</module>
-        <module>./spring-showcases</module>
+        <module>./showcases-spring</module>
         <module>./showcases-jm</module>
         <module>./shape-api</module>
         <module>./shape-api-extension</module>
