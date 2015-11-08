@@ -18,6 +18,8 @@ import org.junit.internal.ArrayComparisonFailure;
  * {@linkplain org.junit.Assert the JUnit Assert class}. Nevertheless, you can use them by now; The next version will
  * contain smart implementations too. Promised.
  * </p>
+ *
+ * @since 4.12
  */
 public class Assert
 extends org.junit.Assert {

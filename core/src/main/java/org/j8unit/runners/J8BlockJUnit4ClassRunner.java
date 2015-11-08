@@ -20,6 +20,8 @@ import org.junit.runners.model.InitializationError;
  *
  * @see org.junit.runner.RunWith
  * @see J8TestClass
+ *
+ * @since 4.12
  */
 public class J8BlockJUnit4ClassRunner
 extends BlockJUnit4ClassRunner {

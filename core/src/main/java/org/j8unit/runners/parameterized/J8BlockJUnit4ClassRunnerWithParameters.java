@@ -5,6 +5,9 @@ import org.junit.runners.model.InitializationError;
 import org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParameters;
 import org.junit.runners.parameterized.TestWithParameters;
 
+/**
+ * @since 4.12
+ */
 public class J8BlockJUnit4ClassRunnerWithParameters
 extends BlockJUnit4ClassRunnerWithParameters {
 

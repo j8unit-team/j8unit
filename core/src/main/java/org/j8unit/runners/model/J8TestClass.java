@@ -21,6 +21,8 @@ import org.junit.runners.model.TestClass;
  * If you &ndash;&nbsp;as a progressive, excellent test-aware programmer&ndash;&nbsp; want to benefit from the improved
  * test case composition, you should take a look at <a href="https://github.com/j8unit-team/j8unit">the projects
  * homepage</a>.
+ *
+ * @since 4.12
  */
 public class J8TestClass
 extends TestClass {

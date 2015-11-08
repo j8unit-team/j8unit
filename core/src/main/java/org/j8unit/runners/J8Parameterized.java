@@ -23,6 +23,8 @@ import org.junit.runners.Parameterized;
  * @see org.junit.runners.Parameterized.UseParametersRunnerFactory
  * @see org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory
  * @see J8TestClass
+ *
+ * @since 4.12
  */
 public class J8Parameterized
 extends Parameterized {

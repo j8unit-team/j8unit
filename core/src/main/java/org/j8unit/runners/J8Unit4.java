@@ -12,8 +12,8 @@ import org.junit.runners.model.InitializationError;
  * {@linkplain org.junit.runner.Runner runner}. Instead, the required {@linkplain org.junit.runner.Runner runner} should
  * be used directly.
  *
- * To invoke the default J8Unit {@linkplain org.junit.runner.Runner runner} just use the
- * {@link org.junit.runner.RunWith &#64;RunWith} annotation:
+ * To invoke the default J8Unit {@linkplain org.junit.runner.Runner runner} just use the {@link org.junit.runner.RunWith
+ * &#64;RunWith} annotation:
  *
  * <pre>
  * &#064;RunWith(J8Unit4.class)
@@ -24,6 +24,8 @@ import org.junit.runners.model.InitializationError;
  *
  * @see org.junit.runner.RunWith
  * @see J8TestClass
+ *
+ * @since 4.12
  */
 public class J8Unit4
 extends J8BlockJUnit4ClassRunner {
