@@ -15,7 +15,7 @@ import org.junit.runners.model.InitializationError;
  * To invoke the default J8Unit {@linkplain org.junit.runner.Runner runner} just use the {@link org.junit.runner.RunWith
  * &#64;RunWith} annotation:
  *
- * <pre>
+ * <pre class="brush:java">
  * &#064;RunWith(J8Unit4.class)
  * public class FoobarTest {
  *     [&hellip;]

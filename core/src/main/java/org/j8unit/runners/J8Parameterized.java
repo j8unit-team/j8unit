@@ -11,7 +11,7 @@ import org.junit.runners.Parameterized;
  * {@linkplain org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory the custom runner factory}
  * :
  *
- * <pre>
+ * <pre class="brush:java">
  * &#064;RunWith(J8Parameterized.class)
  * &#064;UseParametersRunnerFactory(J8BlockJUnit4ClassRunnerWithParametersFactory.class)
  * public class FoobarTest {

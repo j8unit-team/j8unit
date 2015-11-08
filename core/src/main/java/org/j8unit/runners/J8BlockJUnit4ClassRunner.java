@@ -11,7 +11,7 @@ import org.junit.runners.model.InitializationError;
  * To invoke this custom {@link org.junit.runner.Runner} just use the {@link org.junit.runner.RunWith &#64;RunWith}
  * annotation:
  *
- * <pre>
+ * <pre class="brush:java">
  * &#064;RunWith(J8BlockJUnit4ClassRunner.class)
  * public class FoobarTest {
  *     [&hellip;]
