@@ -75,6 +75,7 @@
         <!-- === Plugin Versions === -->
         <version.mvn.clean>3.0.0</version.mvn.clean>
         <version.mvn.resources>2.7</version.mvn.resources>
+        <version.mvn.antrun>1.8</version.mvn.antrun>
         <version.mvn.compiler>3.3</version.mvn.compiler>
         <version.mvn.surefire>2.19</version.mvn.surefire>
         <version.mvn.source>2.4</version.mvn.source>
@@ -84,13 +85,18 @@
         <version.mvn.install>2.5.2</version.mvn.install>
         <version.mvn.site>3.4</version.mvn.site>
 
+        <!-- === Dependency Versions :: 1st Party === -->
+        <version.j8unit>0.0.1-SNAPSHOT</version.j8unit>
+        <version.j8unit.core>4.12-SNAPSHOT</version.j8unit.core>
+        <version.j8unit.spring>0.0.1-SNAPSHOT</version.j8unit.spring>
+
         <!-- === Dependency Versions :: 3rd Party === -->
         <version.junit>4.12</version.junit>
         <version.spring.platform>1.1.4.RELEASE</version.spring.platform>
     </properties>
 
     <modules>
-<!--         <module>./javadoc-syntaxhighlighter</module> -->
+        <module>./javadoc</module>
         <module>./core</module>
         <module>./spring</module>
         <module>./repository</module>
@@ -110,27 +116,27 @@
             <dependency>
                 <groupId>org.j8unit</groupId>
                 <artifactId>javadoc</artifactId>
-                <version>${project.version}</version>
+                <version>${version.j8unit}</version>
             </dependency>
             <dependency>
                 <groupId>org.j8unit</groupId>
                 <artifactId>core</artifactId>
-                <version>${version.junit}-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>org.j8unit</groupId>
-                <artifactId>repository</artifactId>
-                <version>${project.version}</version>
+                <version>${version.j8unit.core}</version>
             </dependency>
             <dependency>
                 <groupId>org.j8unit</groupId>
                 <artifactId>spring</artifactId>
-                <version>${project.version}</version>
+                <version>${version.j8unit.spring}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.j8unit</groupId>
+                <artifactId>repository</artifactId>
+                <version>${version.j8unit}</version>
             </dependency>
             <dependency>
                 <groupId>org.j8unit</groupId>
                 <artifactId>spring-showcase</artifactId>
-                <version>${project.version}</version>
+                <version>${version.j8unit}</version>
             </dependency>
 
             <dependency>
@@ -158,6 +164,11 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-resources-plugin</artifactId>
                     <version>${version.mvn.resources}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-antrun-plugin</artifactId>
+                    <version>${version.mvn.antrun}</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>

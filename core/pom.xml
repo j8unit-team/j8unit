@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>core</artifactId>
-    <version>${version.junit}-SNAPSHOT</version>
+    <version>4.12-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
@@ -42,8 +42,8 @@
                     <resourcesArtifacts>
                         <resourcesArtifact>
                             <groupId>org.j8unit</groupId>
-                            <artifactId>javadoc-syntaxhighlighter</artifactId>
-                            <version>3.0.83-1-SNAPSHOT</version>
+                            <artifactId>javadoc</artifactId>
+                            <version>${version.j8unit}</version>
                         </resourcesArtifact>
                     </resourcesArtifacts>
                     <!-- Add SyntaxHighlighter features (at the beginning of each JavaDoc HTML file). -->
