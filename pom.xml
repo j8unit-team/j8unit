@@ -87,8 +87,14 @@
 
         <!-- === Dependency Versions :: 1st Party === -->
         <version.j8unit>0.0.1-SNAPSHOT</version.j8unit>
+        <version.j8unit.javadoc>4.12-SNAPSHOT</version.j8unit.javadoc>
         <version.j8unit.core>4.12-SNAPSHOT</version.j8unit.core>
         <version.j8unit.spring>0.0.1-SNAPSHOT</version.j8unit.spring>
+        <version.j8unit.repository>0.0.1-SNAPSHOT</version.j8unit.repository>
+        <!-- Showcases are managed to allow local builds but they should not be released! -->
+        <version.j8unit.showcases>0.0.1-SNAPSHOT</version.j8unit.showcases>
+        <version.j8unit.showcases.jm>0.0.1-SNAPSHOT</version.j8unit.showcases.jm>
+        <version.j8unit.showcases.shape>0.0.1-SNAPSHOT</version.j8unit.showcases.shape>
 
         <!-- === Dependency Versions :: 3rd Party === -->
         <version.junit>4.12</version.junit>
@@ -116,7 +122,7 @@
             <dependency>
                 <groupId>org.j8unit</groupId>
                 <artifactId>javadoc</artifactId>
-                <version>${version.j8unit}</version>
+                <version>${version.j8unit.javadoc}</version>
             </dependency>
             <dependency>
                 <groupId>org.j8unit</groupId>
@@ -131,7 +137,7 @@
             <dependency>
                 <groupId>org.j8unit</groupId>
                 <artifactId>repository</artifactId>
-                <version>${version.j8unit}</version>
+                <version>${version.j8unit.repository}</version>
             </dependency>
             <dependency>
                 <groupId>org.j8unit</groupId>

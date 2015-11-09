@@ -43,7 +43,7 @@
                         <resourcesArtifact>
                             <groupId>org.j8unit</groupId>
                             <artifactId>javadoc</artifactId>
-                            <version>${version.j8unit}</version>
+                            <version>${version.j8unit.javadoc}</version>
                         </resourcesArtifact>
                     </resourcesArtifacts>
                     <!-- Add SyntaxHighlighter features (at the beginning of each JavaDoc HTML file). -->
