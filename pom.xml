@@ -179,48 +179,16 @@
                 <artifactId>showcases-shape-extension</artifactId>
                 <version>${version.j8unit.showcases.shape}</version>
             </dependency>
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>junit</groupId>
-				<artifactId>junit</artifactId>
-				<version>${version.junit}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.j8unit</groupId>
-				<artifactId>javadoc</artifactId>
-				<version>${version.j8unit.javadoc}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.j8unit</groupId>
-				<artifactId>core</artifactId>
-				<version>${version.j8unit.core}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.j8unit</groupId>
-				<artifactId>spring</artifactId>
-				<version>${version.j8unit.spring}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.j8unit</groupId>
-				<artifactId>repository</artifactId>
-				<version>${version.j8unit.repository}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.j8unit</groupId>
-				<artifactId>spring-showcase</artifactId>
-				<version>${version.j8unit}</version>
-			</dependency>
 
-			<dependency>
-				<groupId>io.spring.platform</groupId>
-				<artifactId>platform-bom</artifactId>
-				<version>${version.spring.platform}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
+            <dependency>
+                <groupId>io.spring.platform</groupId>
+                <artifactId>platform-bom</artifactId>
+                <version>${version.spring.platform}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 	<build>
 		<pluginManagement>
