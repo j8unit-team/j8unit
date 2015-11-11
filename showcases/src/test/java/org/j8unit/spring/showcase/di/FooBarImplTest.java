@@ -1,8 +1,9 @@
 package org.j8unit.spring.showcase.di;
 
 import javax.annotation.Resource;
+
+import org.j8unit.showcase.ShowcaseFailure;
 import org.j8unit.spring.runners.J8SpringJUnit4;
-import org.j8unit.spring.showcase.Buggy;
 import org.j8unit.spring.showcase.TestContext;
 import org.junit.Assert;
 import org.junit.Test;
@@ -10,7 +11,8 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 
-@Category(Buggy.class)
+
+@Category(ShowcaseFailure.class)
 @RunWith(J8SpringJUnit4.class)
 @ContextConfiguration(classes = { TestContext.class })
 public class FooBarImplTest
