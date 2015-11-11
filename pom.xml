@@ -89,7 +89,7 @@
 		<version.j8unit>0.0.1-SNAPSHOT</version.j8unit>
 		<version.j8unit.javadoc>0.0.1-SNAPSHOT</version.j8unit.javadoc>
 		<version.j8unit.core>4.12-SNAPSHOT</version.j8unit.core>
-		<version.j8unit.spring>0.0.1-SNAPSHOT</version.j8unit.spring>
+		<version.j8unit.spring>4.1.7-SNAPSHOT</version.j8unit.spring>
 		<version.j8unit.repository>0.0.1-SNAPSHOT</version.j8unit.repository>
 		<!-- Showcases are managed to allow local builds but they should not be 
 			released! -->
