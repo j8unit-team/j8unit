@@ -1,22 +1,27 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-	<!-- ~ An "Introduction to the POM" can be read here: ~ + https://maven.apache.org/guides/introduction/introduction-to-the-pom.html 
-		~ ~ The "POM Reference" is here: ~ + http://maven.apache.org/pom.html ~ ~ 
-		One of the points to highlight is the differentiation between inheritance 
-		and aggregation. A single POM can be ~ (and often is) both a super POM and 
-		an aggregation POM: ~ + http://maven.apache.org/pom.html#Inheritance ~ + 
-		http://maven.apache.org/pom.html#Aggregation_or_Multi-Module ~ ~ In the current 
-		case, the super POM of J8Unit project is made for inheritance and aggregation. -->
+	<!-- ~ An "Introduction to the POM" can be read here:
+         ~ + https://maven.apache.org/guides/introduction/introduction-to-the-pom.html 
+		 ~
+         ~ The "POM Reference" is here:
+         ~ + http://maven.apache.org/pom.html
+         ~
+         ~ One of the points to highlight is the differentiation between inheritance and aggregation.
+         ~ A single POM can be (and often is) both a super POM and an aggregation POM:
+         ~ + http://maven.apache.org/pom.html#Inheritance
+         ~ + http://maven.apache.org/pom.html#Aggregation_or_Multi-Module
+         ~
+         ~ In the current case, the super POM of J8Unit project is made for inheritance and aggregation. -->
 	<modelVersion>4.0.0</modelVersion>
 	<prerequisites>
 		<maven>3.0</maven>
 	</prerequisites>
 
 	<!-- ~ As a memory, here are some links dealing with public deployment: 
-		~ + https://maven.apache.org/guides/mini/guide-central-repository-upload.html 
-		~ + http://kirang89.github.io/blog/2013/01/20/uploading-your-jar-to-maven-central/ 
-		~ + http://bealetech.com/blog/2013/04/10/pushing-to-maven-central-with-sonatype/ -->
+		 ~ + https://maven.apache.org/guides/mini/guide-central-repository-upload.html 
+		 ~ + http://kirang89.github.io/blog/2013/01/20/uploading-your-jar-to-maven-central/ 
+		 ~ + http://bealetech.com/blog/2013/04/10/pushing-to-maven-central-with-sonatype/ -->
 
 	<groupId>org.j8unit</groupId>
 	<artifactId>project</artifactId>
@@ -91,8 +96,7 @@
 		<version.j8unit.core>4.12-SNAPSHOT</version.j8unit.core>
 		<version.j8unit.spring>4.1.7-SNAPSHOT</version.j8unit.spring>
 		<version.j8unit.repository>0.0.1-SNAPSHOT</version.j8unit.repository>
-		<!-- Showcases are managed to allow local builds but they should not be 
-			released! -->
+		<!-- Showcases are managed to allow local builds but they should not be released! -->
 		<version.j8unit.showcases>0.0.1-SNAPSHOT</version.j8unit.showcases>
 		<version.j8unit.showcases.jm>0.0.1-SNAPSHOT</version.j8unit.showcases.jm>
 		<version.j8unit.showcases.shape>0.0.1-SNAPSHOT</version.j8unit.showcases.shape>
