@@ -4,6 +4,7 @@
  * extension of {@code org.j8unit.spring.runners}' classes.
  * </p>
  *
+ * @author <a href="mailto:stefan@gasterstädt.de">Stefan Gasterst&auml;dt</a>
  * @author <a href="mailto:sascha.zak@zak-digital.de">Sascha Zak</a>
  *
  * @since 4.1.7
