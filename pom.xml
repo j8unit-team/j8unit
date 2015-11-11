@@ -1,276 +1,296 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <!-- ~ An "Introduction to the POM" can be read here: ~ + https://maven.apache.org/guides/introduction/introduction-to-the-pom.html 
-        ~ ~ The "POM Reference" is here: ~ + http://maven.apache.org/pom.html ~ ~ 
-        One of the points to highlight is the differentiation between inheritance 
-        and aggregation. A single POM can be ~ (and often is) both a super POM and 
-        an aggregation POM: ~ + http://maven.apache.org/pom.html#Inheritance ~ + 
-        http://maven.apache.org/pom.html#Aggregation_or_Multi-Module ~ ~ In the current 
-        case, the super POM of J8Unit project is made for inheritance and aggregation. -->
-    <modelVersion>4.0.0</modelVersion>
-    <prerequisites>
-        <maven>3.0</maven>
-    </prerequisites>
+	<!-- ~ An "Introduction to the POM" can be read here: ~ + https://maven.apache.org/guides/introduction/introduction-to-the-pom.html 
+		~ ~ The "POM Reference" is here: ~ + http://maven.apache.org/pom.html ~ ~ 
+		One of the points to highlight is the differentiation between inheritance 
+		and aggregation. A single POM can be ~ (and often is) both a super POM and 
+		an aggregation POM: ~ + http://maven.apache.org/pom.html#Inheritance ~ + 
+		http://maven.apache.org/pom.html#Aggregation_or_Multi-Module ~ ~ In the current 
+		case, the super POM of J8Unit project is made for inheritance and aggregation. -->
+	<modelVersion>4.0.0</modelVersion>
+	<prerequisites>
+		<maven>3.0</maven>
+	</prerequisites>
 
-    <!-- ~ As a memory, here are some links dealing with public deployment: 
-        ~ + https://maven.apache.org/guides/mini/guide-central-repository-upload.html 
-        ~ + http://kirang89.github.io/blog/2013/01/20/uploading-your-jar-to-maven-central/ 
-        ~ + http://bealetech.com/blog/2013/04/10/pushing-to-maven-central-with-sonatype/ -->
+	<!-- ~ As a memory, here are some links dealing with public deployment: 
+		~ + https://maven.apache.org/guides/mini/guide-central-repository-upload.html 
+		~ + http://kirang89.github.io/blog/2013/01/20/uploading-your-jar-to-maven-central/ 
+		~ + http://bealetech.com/blog/2013/04/10/pushing-to-maven-central-with-sonatype/ -->
 
-    <groupId>org.j8unit</groupId>
-    <artifactId>project</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
+	<groupId>org.j8unit</groupId>
+	<artifactId>project</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 
-    <name>J8Unit Project (Parent POM)</name>
-    <description>The Parent POM of all the J8Unit Project.</description>
-    <url>https://github.com/j8unit-team/j8unit</url>
+	<name>J8Unit Project (Parent POM)</name>
+	<description>The Parent POM of all the J8Unit Project.</description>
+	<url>https://github.com/j8unit-team/j8unit</url>
 
-    <licenses>
-        <license>
-            <name>MIT License</name>
-            <url>http://www.opensource.org/licenses/mit-license.php</url>
-        </license>
-    </licenses>
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+		</license>
+	</licenses>
 
-    <developers>
-        <developer>
-            <id>SGA</id>
-            <name>Stefan Gasterstädt</name>
-            <email>stefan@gasterstädt.de</email>
-            <url>http://stefan.gasterstädt.de</url>
-        </developer>
-        <developer>
-            <id>ZAK</id>
-            <name>Sascha Zak</name>
-            <email>sascha.zak@zakdigital.de</email>
-        </developer>
-    </developers>
+	<developers>
+		<developer>
+			<id>SGA</id>
+			<name>Stefan Gasterstädt</name>
+			<email>stefan@gasterstädt.de</email>
+			<url>http://stefan.gasterstädt.de</url>
+		</developer>
+		<developer>
+			<id>ZAK</id>
+			<name>Sascha Zak</name>
+			<email>sascha.zak@zakdigital.de</email>
+		</developer>
+	</developers>
 
-    <scm>
-        <connection>scm:git:git://github.com:j8unit-team/j8unit.git</connection>
-        <developerConnection>scm:git:git@github.com:j8unit-team/j8unit.git</developerConnection>
-        <url>https://github.com/j8unit-team/j8unit.git</url>
-    </scm>
+	<scm>
+		<connection>scm:git:git://github.com:j8unit-team/j8unit.git</connection>
+		<developerConnection>scm:git:git@github.com:j8unit-team/j8unit.git</developerConnection>
+		<url>https://github.com/j8unit-team/j8unit.git</url>
+	</scm>
 
-    <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
 
-    <properties>
-        <!-- === General Build Data === -->
-        <version.java>1.8</version.java>
-        <!-- http://maven.apache.org/general.html#encoding-warning -->
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	<properties>
+		<!-- === General Build Data === -->
+		<version.java>1.8</version.java>
+		<!-- http://maven.apache.org/general.html#encoding-warning -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <!-- === Plugin Versions === -->
-        <version.mvn.clean>3.0.0</version.mvn.clean>
-        <version.mvn.resources>2.7</version.mvn.resources>
-        <version.mvn.antrun>1.8</version.mvn.antrun>
-        <version.mvn.compiler>3.3</version.mvn.compiler>
-        <version.mvn.surefire>2.19</version.mvn.surefire>
-        <version.mvn.source>2.4</version.mvn.source>
-        <version.mvn.javadoc>2.10.3</version.mvn.javadoc>
-        <version.mvn.jar>2.6</version.mvn.jar>
-        <version.mvn.deploy>2.8.2</version.mvn.deploy>
-        <version.mvn.install>2.5.2</version.mvn.install>
-        <version.mvn.site>3.4</version.mvn.site>
+		<!-- === Plugin Versions === -->
+		<version.mvn.clean>3.0.0</version.mvn.clean>
+		<version.mvn.resources>2.7</version.mvn.resources>
+		<version.mvn.antrun>1.8</version.mvn.antrun>
+		<version.mvn.compiler>3.3</version.mvn.compiler>
+		<version.mvn.surefire>2.19</version.mvn.surefire>
+		<version.mvn.source>2.4</version.mvn.source>
+		<version.mvn.javadoc>2.10.3</version.mvn.javadoc>
+		<version.mvn.jar>2.6</version.mvn.jar>
+		<version.mvn.deploy>2.8.2</version.mvn.deploy>
+		<version.mvn.install>2.5.2</version.mvn.install>
+		<version.mvn.site>3.4</version.mvn.site>
 
-        <!-- === Dependency Versions :: 1st Party === -->
-        <version.j8unit>0.0.1-SNAPSHOT</version.j8unit>
-        <version.j8unit.javadoc>4.12-SNAPSHOT</version.j8unit.javadoc>
-        <version.j8unit.core>4.12-SNAPSHOT</version.j8unit.core>
-        <version.j8unit.spring>0.0.1-SNAPSHOT</version.j8unit.spring>
-        <version.j8unit.repository>0.0.1-SNAPSHOT</version.j8unit.repository>
-        <!-- Showcases are managed to allow local builds but they should not be released! -->
-        <version.j8unit.showcases>0.0.1-SNAPSHOT</version.j8unit.showcases>
-        <version.j8unit.showcases.jm>0.0.1-SNAPSHOT</version.j8unit.showcases.jm>
-        <version.j8unit.showcases.shape>0.0.1-SNAPSHOT</version.j8unit.showcases.shape>
+		<!-- === Dependency Versions :: 1st Party === -->
+		<version.j8unit>0.0.1-SNAPSHOT</version.j8unit>
+		<version.j8unit.javadoc>0.0.1-SNAPSHOT</version.j8unit.javadoc>
+		<version.j8unit.core>4.12-SNAPSHOT</version.j8unit.core>
+		<version.j8unit.spring>0.0.1-SNAPSHOT</version.j8unit.spring>
+		<version.j8unit.repository>0.0.1-SNAPSHOT</version.j8unit.repository>
+		<!-- Showcases are managed to allow local builds but they should not be 
+			released! -->
+		<version.j8unit.showcases>0.0.1-SNAPSHOT</version.j8unit.showcases>
+		<version.j8unit.showcases.jm>0.0.1-SNAPSHOT</version.j8unit.showcases.jm>
+		<version.j8unit.showcases.shape>0.0.1-SNAPSHOT</version.j8unit.showcases.shape>
 
-        <!-- === Dependency Versions :: 3rd Party === -->
-        <version.junit>4.12</version.junit>
-        <version.spring.platform>1.1.4.RELEASE</version.spring.platform>
-    </properties>
+		<!-- === Dependency Versions :: 3rd Party === -->
+		<version.junit>4.12</version.junit>
+		<version.spring.platform>1.1.4.RELEASE</version.spring.platform>
+	</properties>
 
-    <modules>
-        <module>./javadoc</module>
-        <module>./core</module>
-        <module>./spring</module>
-        <module>./repository</module>
-        <module>./showcases</module>
-        <module>./showcases-jm</module>
-        <module>./showcases-shape-api</module>
-        <module>./showcases-shape-extension</module>
-    </modules>
+	<profiles>
+		<profile>
+			<id>deploy</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<modules>
+				<module>./javadoc</module>
+				<module>./core</module>
+				<module>./spring</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>complete</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<modules>
+				<module>./javadoc</module>
+				<module>./core</module>
+				<module>./spring</module>
+				<module>./repository</module>
+				<module>./showcases</module>
+				<module>./showcases-jm</module>
+				<module>./showcases-shape-api</module>
+				<module>./showcases-shape-extension</module>
+			</modules>
+		</profile>
+	</profiles>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>${version.junit}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.j8unit</groupId>
-                <artifactId>javadoc</artifactId>
-                <version>${version.j8unit.javadoc}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.j8unit</groupId>
-                <artifactId>core</artifactId>
-                <version>${version.j8unit.core}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.j8unit</groupId>
-                <artifactId>spring</artifactId>
-                <version>${version.j8unit.spring}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.j8unit</groupId>
-                <artifactId>repository</artifactId>
-                <version>${version.j8unit.repository}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.j8unit</groupId>
-                <artifactId>spring-showcase</artifactId>
-                <version>${version.j8unit}</version>
-            </dependency>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>${version.junit}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.j8unit</groupId>
+				<artifactId>javadoc</artifactId>
+				<version>${version.j8unit.javadoc}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.j8unit</groupId>
+				<artifactId>core</artifactId>
+				<version>${version.j8unit.core}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.j8unit</groupId>
+				<artifactId>spring</artifactId>
+				<version>${version.j8unit.spring}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.j8unit</groupId>
+				<artifactId>repository</artifactId>
+				<version>${version.j8unit.repository}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.j8unit</groupId>
+				<artifactId>spring-showcase</artifactId>
+				<version>${version.j8unit}</version>
+			</dependency>
 
-            <dependency>
-                <groupId>io.spring.platform</groupId>
-                <artifactId>platform-bom</artifactId>
-                <version>${version.spring.platform}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+			<dependency>
+				<groupId>io.spring.platform</groupId>
+				<artifactId>platform-bom</artifactId>
+				<version>${version.spring.platform}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-clean-plugin</artifactId>
-                    <version>${version.mvn.clean}</version>
-                    <configuration>
-                        <failOnError>true</failOnError>
-                    </configuration>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-resources-plugin</artifactId>
-                    <version>${version.mvn.resources}</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-antrun-plugin</artifactId>
-                    <version>${version.mvn.antrun}</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>${version.mvn.compiler}</version>
-                    <configuration>
-                        <source>${version.java}</source>
-                        <target>${version.java}</target>
-                        <testSource>${version.java}</testSource>
-                        <testTarget>${version.java}</testTarget>
-                        <encoding>${project.build.sourceEncoding}</encoding>
-                        <failOnError>true</failOnError>
-                        <showDeprecation>true</showDeprecation>
-                        <showWarnings>true</showWarnings>
-                        <optimize>true</optimize>
-                    </configuration>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <version>${version.mvn.surefire}</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-source-plugin</artifactId>
-                    <version>${version.mvn.source}</version>
-                    <configuration>
-                        <includePom>false</includePom>
-                    </configuration>
-                    <executions>
-                        <execution>
-                            <id>attach-sources</id>
-                            <goals>
-                                <goal>jar</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-javadoc-plugin</artifactId>
-                    <version>${version.mvn.javadoc}</version>
-                    <configuration>
-                        <encoding> ${project.build.sourceEncoding}</encoding>
-                        <docencoding>${project.reporting.outputEncoding}</docencoding>
-                        <failOnError>true</failOnError>
-                        <level>protected</level>
-                        <show>protected</show>
-                        <serialwarn>true</serialwarn>
-                        <validateLinks>true</validateLinks>
-                        <detectLinks>false</detectLinks>
-                        <!-- <detectLinks>true</detectLinks> -->
-                        <detectJavaApiLink>true</detectJavaApiLink>
-                        <!-- http://blog.joda.org/2014/02/turning-off-doclint-in-jdk-8-javadoc.html -->
-                        <additionalparam>-Xdoclint:none</additionalparam>
-                    </configuration>
-                    <executions>
-                        <execution>
-                            <id>attach-javadocs</id>
-                            <goals>
-                                <goal>jar</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-jar-plugin</artifactId>
-                    <version>${version.mvn.jar}</version>
-                    <configuration>
-                        <forceCreation>true</forceCreation>
-                        <archive>
-                            <manifest>
-                                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
-                                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-                            </manifest>
-                        </archive>
-                    </configuration>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-deploy-plugin</artifactId>
-                    <version>${version.mvn.deploy}</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-install-plugin</artifactId>
-                    <version>${version.mvn.install}</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-site-plugin</artifactId>
-                    <version>${version.mvn.site}</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-clean-plugin</artifactId>
+					<version>${version.mvn.clean}</version>
+					<configuration>
+						<failOnError>true</failOnError>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>${version.mvn.resources}</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-antrun-plugin</artifactId>
+					<version>${version.mvn.antrun}</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>${version.mvn.compiler}</version>
+					<configuration>
+						<source>${version.java}</source>
+						<target>${version.java}</target>
+						<testSource>${version.java}</testSource>
+						<testTarget>${version.java}</testTarget>
+						<encoding>${project.build.sourceEncoding}</encoding>
+						<failOnError>true</failOnError>
+						<showDeprecation>true</showDeprecation>
+						<showWarnings>true</showWarnings>
+						<optimize>true</optimize>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>${version.mvn.surefire}</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-source-plugin</artifactId>
+					<version>${version.mvn.source}</version>
+					<configuration>
+						<includePom>false</includePom>
+					</configuration>
+					<executions>
+						<execution>
+							<id>attach-sources</id>
+							<goals>
+								<goal>jar</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-javadoc-plugin</artifactId>
+					<version>${version.mvn.javadoc}</version>
+					<configuration>
+						<encoding> ${project.build.sourceEncoding}</encoding>
+						<docencoding>${project.reporting.outputEncoding}</docencoding>
+						<failOnError>true</failOnError>
+						<level>protected</level>
+						<show>protected</show>
+						<serialwarn>true</serialwarn>
+						<validateLinks>true</validateLinks>
+						<detectLinks>false</detectLinks>
+						<!-- <detectLinks>true</detectLinks> -->
+						<detectJavaApiLink>true</detectJavaApiLink>
+						<!-- http://blog.joda.org/2014/02/turning-off-doclint-in-jdk-8-javadoc.html -->
+						<additionalparam>-Xdoclint:none</additionalparam>
+					</configuration>
+					<executions>
+						<execution>
+							<id>attach-javadocs</id>
+							<goals>
+								<goal>jar</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>${version.mvn.jar}</version>
+					<configuration>
+						<forceCreation>true</forceCreation>
+						<archive>
+							<manifest>
+								<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+								<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+							</manifest>
+						</archive>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-deploy-plugin</artifactId>
+					<version>${version.mvn.deploy}</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-install-plugin</artifactId>
+					<version>${version.mvn.install}</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-site-plugin</artifactId>
+					<version>${version.mvn.site}</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
 
 </project>
