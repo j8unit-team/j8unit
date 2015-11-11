@@ -10,6 +10,7 @@
     </parent>
 
     <artifactId>spring</artifactId>
+    <version>${version.j8unit.spring}</version>
 
     <dependencies>
         <dependency>
