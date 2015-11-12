@@ -5,11 +5,13 @@ import org.junit.runners.BlockJUnit4ClassRunner;
 import org.junit.runners.model.InitializationError;
 
 /**
+ * <p>
  * Extension of {@link BlockJUnit4ClassRunner} to {@linkplain #createTestClass(Class) support the extended test class
  * model}.
  *
  * To invoke this custom {@link org.junit.runner.Runner} just use the {@link org.junit.runner.RunWith &#64;RunWith}
  * annotation:
+ * </p>
  *
  * <pre class="brush:java">
  * &#064;RunWith(J8BlockJUnit4ClassRunner.class)
@@ -27,8 +29,10 @@ public class J8BlockJUnit4ClassRunner
 extends BlockJUnit4ClassRunner {
 
     /**
+     * <p>
      * Creates a {@link J8BlockJUnit4ClassRunner} instance to run the tests of the given {@link Class}.
-     *
+     * </p>
+     * 
      * @param clazz
      *            the test class
      * @throws InitializationError
@@ -40,8 +44,10 @@ extends BlockJUnit4ClassRunner {
     }
 
     /**
+     * <p>
      * Returns an {@linkplain J8TestClass extended test class model} of the given {@link Class}.
-     *
+     * </p>
+     * 
      * @param testClass
      *            the test class
      * @return an {@linkplain J8TestClass extended test class model} of the given {@link Class}

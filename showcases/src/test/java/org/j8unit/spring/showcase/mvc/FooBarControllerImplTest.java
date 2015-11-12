@@ -18,7 +18,8 @@ import org.springframework.web.context.WebApplicationContext;
 @RunWith(J8SpringJUnit4.class)
 @ContextConfiguration(classes = { TestContext.class })
 @WebAppConfiguration
-public class FooBarControllerImplTest implements FooBarControllerTest {
+public class FooBarControllerImplTest
+implements FooBarControllerTest {
 
     @Autowired
     private WebApplicationContext wac;

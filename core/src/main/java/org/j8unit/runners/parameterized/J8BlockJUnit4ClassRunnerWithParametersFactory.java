@@ -24,7 +24,8 @@ import org.junit.runners.parameterized.TestWithParameters;
  *
  * @since 4.12
  */
-public class J8BlockJUnit4ClassRunnerWithParametersFactory extends BlockJUnit4ClassRunnerWithParametersFactory {
+public class J8BlockJUnit4ClassRunnerWithParametersFactory
+extends BlockJUnit4ClassRunnerWithParametersFactory {
 
     /**
      * {@inheritDoc}
@@ -36,7 +37,8 @@ public class J8BlockJUnit4ClassRunnerWithParametersFactory extends BlockJUnit4Cl
      * </p>
      */
     @Override
-    public J8BlockJUnit4ClassRunnerWithParameters createRunnerForTestWithParameters(final TestWithParameters test) throws InitializationError {
+    public J8BlockJUnit4ClassRunnerWithParameters createRunnerForTestWithParameters(final TestWithParameters test)
+    throws InitializationError {
         return new J8BlockJUnit4ClassRunnerWithParameters(test);
     }
 

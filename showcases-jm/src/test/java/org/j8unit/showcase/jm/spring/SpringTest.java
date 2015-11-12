@@ -1,7 +1,6 @@
 package org.j8unit.showcase.jm.spring;
 
 import javax.annotation.Resource;
-
 import org.j8unit.showcase.jm.Foobar;
 import org.j8unit.showcase.jm.ITest2;
 import org.j8unit.spring.runners.J8SpringJUnit4;

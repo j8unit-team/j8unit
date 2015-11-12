@@ -13,9 +13,11 @@ import org.junit.runners.parameterized.TestWithParameters;
  *
  * @since 4.12
  */
-public class J8BlockJUnit4ClassRunnerWithParameters extends BlockJUnit4ClassRunnerWithParameters {
+public class J8BlockJUnit4ClassRunnerWithParameters
+extends BlockJUnit4ClassRunnerWithParameters {
 
-    public J8BlockJUnit4ClassRunnerWithParameters(final TestWithParameters test) throws InitializationError {
+    public J8BlockJUnit4ClassRunnerWithParameters(final TestWithParameters test)
+    throws InitializationError {
         super(test);
     }
 

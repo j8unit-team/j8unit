@@ -1,6 +1,7 @@
 package org.j8unit.shapes;
 
-public class JMRectangle implements Shape {
+public class JMRectangle
+implements Shape {
 
     private double width;
 

@@ -5,7 +5,8 @@ import org.j8unit.J8UnitTest;
 import org.j8unit.shapes.Rectangle;
 import org.junit.Test;
 
-public abstract interface JMRectangleTest<R extends Rectangle> extends J8UnitTest<R> {
+public abstract interface JMRectangleTest<R extends Rectangle>
+extends J8UnitTest<R> {
 
     @Test
     public default void testScalingAreaByScalingWidth() {

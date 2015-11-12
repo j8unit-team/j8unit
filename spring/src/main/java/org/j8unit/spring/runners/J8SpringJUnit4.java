@@ -6,11 +6,13 @@ import org.springframework.test.context.TestContextManager;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
+ * <p>
  * Extension of {@link SpringJUnit4ClassRunner} to {@linkplain #createTestClass(Class) support the extend test class
  * model}.
  *
  * To invoke this custom {@link org.junit.runner.Runner} just use the {@link org.junit.runner.RunWith &#64;RunWith}
  * annotation:
+ * </p>
  *
  * <pre>
  * &#064;RunWith(J8SpringJUnit4ClassRunner.class)
@@ -26,9 +28,11 @@ public class J8SpringJUnit4
 extends SpringJUnit4ClassRunner {
 
     /**
+     * <p>
      * Constructs a new {@code J8SpringJUnit4ClassRunner} and initializes a {@link TestContextManager} to provide Spring
      * testing functionality to enhanced standard JUnit tests.
-     *
+     * </p>
+     * 
      * @param clazz
      *            the test class to be run
      * @see #createTestContextManager(Class)
@@ -40,8 +44,10 @@ extends SpringJUnit4ClassRunner {
     }
 
     /**
+     * <p>
      * Returns an {@linkplain J8TestClass extended test class model} of the given {@link Class}.
-     *
+     * </p>
+     * 
      * @param testClass
      *            the test class
      * @return an {@linkplain J8TestClass extended test class model} of the given {@link Class}

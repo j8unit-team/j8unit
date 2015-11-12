@@ -1,7 +1,6 @@
 package org.j8unit.spring.showcase.tel;
 
 import javax.annotation.Resource;
-
 import org.j8unit.spring.runners.J8SpringJUnit4;
 import org.j8unit.spring.showcase.TestContext;
 import org.j8unit.spring.showcase.di.Foo;

@@ -47,8 +47,8 @@ extends TestClass {
     /**
      * <p>
      * In addition to the {@link TestClass#scanAnnotatedMembers(Map, Map)}, this method also scans for {@link Test
-     * &#64;Test} annotated {@code default} method of each (either directly or indirectly) implemented {@code interface}
-     * . Each of these methods will be added into {@code methodsForAnnotations} if and only if there is no specific
+     * &#64;Test} annotated {@code default} method of each (either directly or indirectly) implemented {@code interface}.
+     * Each of these methods will be added into {@code methodsForAnnotations} if and only if there is no specific
      * {@code class} implementation.
      * </p>
      *

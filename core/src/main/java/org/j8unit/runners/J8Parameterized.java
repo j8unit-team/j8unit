@@ -4,12 +4,14 @@ import org.j8unit.runners.model.J8TestClass;
 import org.junit.runners.Parameterized;
 
 /**
+ * <p>
  * Extension of {@link Parameterized} to {@linkplain #createTestClass(Class) support the extended test class model}.
  *
  * To invoke this custom {@link org.junit.runner.Runner} just use {@link org.junit.runner.RunWith &#64;RunWith}
  * annotation; and (!) specify
  * {@linkplain org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory the custom runner factory}
- * :
+ * in addition:
+ * </p>
  *
  * <pre class="brush:java">
  * &#064;RunWith(J8Parameterized.class)
@@ -30,8 +32,10 @@ public class J8Parameterized
 extends Parameterized {
 
     /**
+     * <p>
      * Creates a {@link J8Parameterized} instance to run the tests of the given {@link Class}.
-     *
+     * </p>
+     * 
      * @param clazz
      *            the parameterised test class
      * @throws Throwable
@@ -43,7 +47,9 @@ extends Parameterized {
     }
 
     /**
+     * <p>
      * Returns an {@linkplain J8TestClass extended test class model} of the given {@link Class}.
+     * </p>
      *
      * @param testClass
      *            the test class
