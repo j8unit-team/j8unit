@@ -6,10 +6,11 @@
   <parent>
     <groupId>org.j8unit</groupId>
     <artifactId>project</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1-SNAPSHOT</version>
   </parent>
 
   <artifactId>showcases-shape-extension</artifactId>
+  <version>${version.j8unit.showcases.shape}</version>
   <name>J8Unit Project (Shape-API Showcase, Pt.2/2)</name>
   <description>A specific J8Unit showcase providing the usage of the shape API test interfaces.</description>
 

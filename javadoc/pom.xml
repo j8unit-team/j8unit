@@ -6,10 +6,11 @@
   <parent>
     <groupId>org.j8unit</groupId>
     <artifactId>project</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1-SNAPSHOT</version>
   </parent>
 
   <artifactId>javadoc</artifactId>
+  <version>${version.j8unit.javadoc}</version>
   <name>J8Unit Project (JavaDoc Resources)</name>
   <description>JavaDoc resources and tools to enable beautified documentation.</description>
 

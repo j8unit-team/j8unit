@@ -6,10 +6,11 @@
   <parent>
     <groupId>org.j8unit</groupId>
     <artifactId>project</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1-SNAPSHOT</version>
   </parent>
 
   <artifactId>repository</artifactId>
+  <version>${version.j8unit.repository}</version>
   <name>J8Unit Project (Repository)</name>
   <description>Repository of Java-based J8Unit test interfaces.</description>
 

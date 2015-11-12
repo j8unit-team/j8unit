@@ -6,13 +6,13 @@
   <parent>
     <groupId>org.j8unit</groupId>
     <artifactId>project</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1-SNAPSHOT</version>
   </parent>
 
   <artifactId>core</artifactId>
   <name>J8Unit Project (Core Components)</name>
   <description>The core components of J8Unit, i.e., extended test class model, runner classes, additional assertion methods ...</description>
-  <version>4.12-SNAPSHOT</version>
+  <version>${version.j8unit.core}</version>
 
   <dependencies>
     <dependency>

@@ -29,7 +29,7 @@
 
   <groupId>org.j8unit</groupId>
   <artifactId>project</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>J8Unit Project (Parent POM)</name>
@@ -95,7 +95,7 @@
     <version.mvn.site>3.4</version.mvn.site>
 
     <!-- === Dependency Versions :: 1st Party === -->
-    <version.j8unit>0.0.1-SNAPSHOT</version.j8unit>
+    <version.j8unit>1-SNAPSHOT</version.j8unit>
     <version.j8unit.javadoc>0.0.1-SNAPSHOT</version.j8unit.javadoc>
     <version.j8unit.core>4.12-SNAPSHOT</version.j8unit.core>
     <version.j8unit.spring>4.1.7-SNAPSHOT</version.j8unit.spring>
