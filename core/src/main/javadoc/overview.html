@@ -1,11 +1,30 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
-	<title>J8Unit Overview</title>
+<title>J8Unit Overview</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Stefan Gasterstädt" />
+<meta name="author" content="Sascha Zak" />
 </head>
 <body>
 	<h1>Short overview of the J8Unit API.</h1>
+	<p>
+		J8Unit allows you to specify tests within interfaces (based on the <a
+			href="http://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html">{@code
+			default} {@code interface} methods Java&thinsp;8</a>). Details can be
+		found within the documentation of {@link org.j8unit.J8UnitTest}.
+	</p>
+
 	<h2>J8Unit for API designers</h2>
+	<p>If you are an API designer, you should read the documentation of
+		{@link org.j8unit.J8UnitTest}. Subsequently, you should provide J8Unit
+		tests supplementing your API components in order to ease the API
+		user's daily life.</p>
+
 	<h2>J8Unit for Testers</h2>
+	<p>If you are a tester, you should read the documentation of {@link
+		org.j8unit.J8UnitTest}, {@link org.j8unit.runners.J8Unit4}, and {@link
+		org.j8unit.runners.J8Parameterized}. Subsequently, just write some
+		J8Unit tests and you will see the benefits.</p>
 </body>
 </html>
