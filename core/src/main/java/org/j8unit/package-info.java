@@ -1,6 +1,6 @@
 /**
  * <p>
- * According to the goals of <em><a href="j8unit.org">J8Unit</a></em>, this packages contains base <em>J8Unit</em>
+ * According to the goals of <em><a href="http://www.j8unit.org">J8Unit</a></em>, this packages contains base <em>J8Unit</em>
  * components and any required extension of {@code org.junit}' classes.
  * </p>
  *
