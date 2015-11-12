@@ -271,6 +271,9 @@
             <detectLinks>false</detectLinks>
             <!-- <detectLinks>true</detectLinks> -->
             <detectJavaApiLink>true</detectJavaApiLink>
+            <links>
+              <link>http://junit.org/javadoc/latest/</link>
+            </links>
             <!-- http://blog.joda.org/2014/02/turning-off-doclint-in-jdk-8-javadoc.html -->
             <additionalparam>-Xdoclint:none</additionalparam>
           </configuration>
