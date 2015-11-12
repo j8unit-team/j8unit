@@ -12,6 +12,7 @@ extends IterableTests<UI, E> {
     @Test(expected = UnsupportedOperationException.class)
     public default void testUnsupportedRemoveViaIterator() {
         final UI sut = this.createNewSUT();
+        assert sut != null;
         final Iterator<E> iterator = sut.iterator();
         Assert.assertNotNull(iterator);
         Assume.assumeTrue("The given Iterable subject returned an Iterator without any next element.", iterator.hasNext());

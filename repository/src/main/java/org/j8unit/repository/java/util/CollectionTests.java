@@ -16,12 +16,14 @@ extends IterableTests<C, E> {
     @Test
     public default void testNonNegativeSize() {
         final C sut = this.createNewSUT();
+        assert sut != null;
         assertFalse(sut.size() < 0);
     }
 
     @Test
     public default void testSizeAccordingToIsEmpty() {
         final C sut = this.createNewSUT();
+        assert sut != null;
         if (sut.isEmpty()) {
             assertEquals(0, sut.size());
         } else {
@@ -32,6 +34,7 @@ extends IterableTests<C, E> {
     @Test
     public default void testIteratorAccordingToIsEmpty() {
         final C sut = this.createNewSUT();
+        assert sut != null;
         final Iterator<E> iterator = sut.iterator();
         if (sut.isEmpty()) {
             assertFalse(iterator.hasNext());
@@ -43,6 +46,7 @@ extends IterableTests<C, E> {
     @Test
     public default void testToArraySize() {
         final C sut = this.createNewSUT();
+        assert sut != null;
         final Object[] array = sut.toArray();
         assertEquals(sut.size(), array.length);
     }

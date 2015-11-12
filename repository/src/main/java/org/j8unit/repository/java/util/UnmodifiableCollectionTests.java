@@ -11,6 +11,7 @@ extends UnmodifiableIterableTests<UC, E>, CollectionTests<UC, E> {
     @Test(expected = UnsupportedOperationException.class)
     public default void testUnsupportedAdd() {
         final UC sut = this.createNewSUT();
+        assert sut != null;
         final E element = null;
         sut.add(element);
     }
@@ -18,12 +19,14 @@ extends UnmodifiableIterableTests<UC, E>, CollectionTests<UC, E> {
     @Test(expected = UnsupportedOperationException.class)
     public default void testUnsupportedAddAll() {
         final UC sut = this.createNewSUT();
+        assert sut != null;
         sut.addAll(sut);
     }
 
     @Test(expected = UnsupportedOperationException.class)
     public default void testUnsupportedRemove() {
         final UC sut = this.createNewSUT();
+        assert sut != null;
         final E element = null;
         sut.remove(element);
     }
@@ -31,24 +34,28 @@ extends UnmodifiableIterableTests<UC, E>, CollectionTests<UC, E> {
     @Test(expected = UnsupportedOperationException.class)
     public default void testUnsupportedRemoveAll() {
         final UC sut = this.createNewSUT();
+        assert sut != null;
         sut.removeAll(sut);
     }
 
     @Test(expected = UnsupportedOperationException.class)
     public default void testUnsupportedRemoveIf() {
         final UC sut = this.createNewSUT();
+        assert sut != null;
         sut.removeIf(e -> true);
     }
 
     @Test(expected = UnsupportedOperationException.class)
     public default void testUnsupportedRetainAll() {
         final UC sut = this.createNewSUT();
+        assert sut != null;
         sut.retainAll(Collections.emptyList());
     }
 
     @Test(expected = UnsupportedOperationException.class)
     public default void testUnsupportedClear() {
         final UC sut = this.createNewSUT();
+        assert sut != null;
         sut.clear();
     }
 

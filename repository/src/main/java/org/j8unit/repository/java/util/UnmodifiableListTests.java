@@ -12,12 +12,14 @@ extends UnmodifiableCollectionTests<UL, E>, ListTests<UL, E> {
     @Test(expected = UnsupportedOperationException.class)
     public default void testUnsupportedReplaceAll() {
         final UL sut = this.createNewSUT();
+        assert sut != null;
         sut.replaceAll(UnaryOperator.identity());
     }
 
     @Test(expected = UnsupportedOperationException.class)
     public default void testUnsupportedSort() {
         final UL sut = this.createNewSUT();
+        assert sut != null;
         sut.sort(Comparator.comparing(Object::toString));
     }
 

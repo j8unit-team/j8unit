@@ -13,18 +13,21 @@ extends J8UnitTest<SUT> {
     @Test
     public default void toStringMustReturnNotNull() {
         final SUT sut = this.createNewSUT();
+        assert sut != null;
         assertNotNull(sut.toString());
     }
 
     @Test
     public default void testReflexiveEquals() {
         final SUT sut = this.createNewSUT();
+        assert sut != null;
         assertTrue(sut.equals(sut));
     }
 
     @Test
     public default void testNotEqualsToNull() {
         final SUT sut = this.createNewSUT();
+        assert sut != null;
         assertFalse(sut.equals(null));
     }
 
