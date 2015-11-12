@@ -1,70 +1,72 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>org.j8unit</groupId>
-        <artifactId>project</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-    </parent>
+  <parent>
+    <groupId>org.j8unit</groupId>
+    <artifactId>project</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
 
-    <artifactId>core</artifactId>
-    <version>4.12-SNAPSHOT</version>
+  <artifactId>core</artifactId>
+  <name>J8Unit Project (Core Components)</name>
+  <description>The core components of J8Unit, i.e., extended test class model, runner classes, additional assertion methods ...</description>
+  <version>4.12-SNAPSHOT</version>
 
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-        </dependency>
-    </dependencies>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+  </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-source-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <!-- https://maven.apache.org/plugins/maven-javadoc-plugin/examples/javadoc-resources.html -->
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <configuration>
-                    <!-- https://maven.apache.org/plugins/maven-javadoc-plugin/examples/stylesheet-configuration.html -->
-                    <!-- <stylesheetfile>stylesheet.css</stylesheetfile> -->
-                    <!-- https://maven.apache.org/plugins/maven-javadoc-plugin/examples/javadoc-resources.html -->
-                    <!-- <docfilessubdirs>true</docfilessubdirs> -->
-                    <!-- Add SyntaxHighlighter (via according JavaDoc resource archive). -->
-                    <resourcesArtifacts>
-                        <resourcesArtifact>
-                            <groupId>org.j8unit</groupId>
-                            <artifactId>javadoc</artifactId>
-                            <version>${version.j8unit.javadoc}</version>
-                        </resourcesArtifact>
-                    </resourcesArtifacts>
-                    <!-- Add SyntaxHighlighter features (at the beginning of each JavaDoc HTML file). -->
-                    <top><![CDATA[
-                            <script src="{@docRoot}/syntaxhighlighter/3.0.83/scripts/shCore.js" type="text/javascript"></script>
-                            <script src="{@docRoot}/syntaxhighlighter/3.0.83/scripts/shBrushJava.js" type="text/javascript"></script>
-                            <link href="{@docRoot}/syntaxhighlighter/3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" title="Style">
-                            <link href="{@docRoot}/syntaxhighlighter/3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" title="Style">
-                            ]]>
-                    </top>                            
-                    <!-- Activate and customize SyntaxHighlighter features (at the bottom of each JavaDoc HTML file). -->
-                    <footer><![CDATA[
-                            <script type="text/javascript">
-                               SyntaxHighlighter.defaults["auto-links"] = false;
-                               SyntaxHighlighter.defaults["tab-size"] = 2;
-                               SyntaxHighlighter.all();
-                            </script>
-                        ]]></footer>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <!-- https://maven.apache.org/plugins/maven-javadoc-plugin/examples/javadoc-resources.html -->
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <!-- https://maven.apache.org/plugins/maven-javadoc-plugin/examples/stylesheet-configuration.html -->
+          <!-- <stylesheetfile>stylesheet.css</stylesheetfile> -->
+          <!-- https://maven.apache.org/plugins/maven-javadoc-plugin/examples/javadoc-resources.html -->
+          <!-- <docfilessubdirs>true</docfilessubdirs> -->
+          <!-- Add SyntaxHighlighter (via according JavaDoc resource archive). -->
+          <resourcesArtifacts>
+            <resourcesArtifact>
+              <groupId>org.j8unit</groupId>
+              <artifactId>javadoc</artifactId>
+              <version>${version.j8unit.javadoc}</version>
+            </resourcesArtifact>
+          </resourcesArtifacts>
+          <!-- Add SyntaxHighlighter features (at the beginning of each JavaDoc HTML file). -->
+          <top><![CDATA[
+            <script src="{@docRoot}/syntaxhighlighter/3.0.83/scripts/shCore.js" type="text/javascript"></script>
+            <script src="{@docRoot}/syntaxhighlighter/3.0.83/scripts/shBrushJava.js" type="text/javascript"></script>
+            <link href="{@docRoot}/syntaxhighlighter/3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" title="Style">
+            <link href="{@docRoot}/syntaxhighlighter/3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" title="Style">
+          ]]>
+          </top>
+          <!-- Activate and customize SyntaxHighlighter features (at the bottom of each JavaDoc HTML file). -->
+          <footer><![CDATA[
+            <script type="text/javascript">
+              SyntaxHighlighter.defaults["auto-links"] = false;
+              SyntaxHighlighter.defaults["tab-size"] = 2;
+              SyntaxHighlighter.all();
+            </script>
+          ]]></footer>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>
