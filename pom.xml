@@ -81,20 +81,20 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <!-- === Plugin Versions === -->
-    <version.mvn.clean>3.0.0</version.mvn.clean>
-    <version.mvn.resources>2.7</version.mvn.resources>
+    <!-- === Plugin Versions (sorted alphabetically for traceability/reproducibility) === -->
     <version.mvn.antrun>1.8</version.mvn.antrun>
+    <version.mvn.clean>3.0.0</version.mvn.clean>
     <version.mvn.compiler>3.3</version.mvn.compiler>
-    <version.mvn.surefire>2.19</version.mvn.surefire>
-    <version.mvn.source>2.4</version.mvn.source>
-    <version.mvn.javadoc>2.10.3</version.mvn.javadoc>
-    <version.mvn.jar>2.6</version.mvn.jar>
     <version.mvn.deploy>2.8.2</version.mvn.deploy>
     <version.mvn.install>2.5.2</version.mvn.install>
+    <version.mvn.jar>2.6</version.mvn.jar>
+    <version.mvn.javadoc>2.10.3</version.mvn.javadoc>
+    <version.mvn.resources>2.7</version.mvn.resources>
     <version.mvn.site>3.4</version.mvn.site>
+    <version.mvn.source>2.4</version.mvn.source>
+    <version.mvn.surefire>2.19</version.mvn.surefire>
 
-    <!-- === Dependency Versions :: 1st Party === -->
+    <!-- === Dependency Versions :: 1st Party (sorted in intended build order) === -->
     <version.j8unit>1-SNAPSHOT</version.j8unit>
     <version.j8unit.javadoc>0.0.1-SNAPSHOT</version.j8unit.javadoc>
     <version.j8unit.core>4.12-SNAPSHOT</version.j8unit.core>
@@ -105,7 +105,7 @@
     <version.j8unit.showcases.jm>0.0.1-SNAPSHOT</version.j8unit.showcases.jm>
     <version.j8unit.showcases.shape>0.0.1-SNAPSHOT</version.j8unit.showcases.shape>
 
-    <!-- === Dependency Versions :: 3rd Party === -->
+    <!-- === Dependency Versions :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
     <version.junit>4.12</version.junit>
     <version.spring.platform>1.1.4.RELEASE</version.spring.platform>
   </properties>
@@ -117,6 +117,7 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <modules>
+        <!-- (sorted in intended build order) -->
         <module>./javadoc</module>
         <module>./core</module>
         <module>./spring</module>
@@ -128,10 +129,13 @@
         <activeByDefault>false</activeByDefault>
       </activation>
       <modules>
+        <!-- (sorted in intended build order) -->
         <module>./javadoc</module>
         <module>./core</module>
         <module>./spring</module>
+        <!-- Repository is not yet (!) ready to be deployed. -->
         <module>./repository</module>
+        <!-- Showcases are managed to allow local builds but they should not be released! -->
         <module>./showcases</module>
         <module>./showcases-jm</module>
         <module>./showcases-shape-api</module>
@@ -142,11 +146,7 @@
 
   <dependencyManagement>
     <dependencies>
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>${version.junit}</version>
-      </dependency>
+      <!-- === Managed Dependencies :: 1st Party (sorted in intended build order) === -->
       <dependency>
         <groupId>org.j8unit</groupId>
         <artifactId>javadoc</artifactId>
@@ -188,6 +188,7 @@
         <version>${version.j8unit.showcases.shape}</version>
       </dependency>
 
+      <!-- === Managed Dependencies :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
       <dependency>
         <groupId>io.spring.platform</groupId>
         <artifactId>platform-bom</artifactId>
@@ -195,12 +196,23 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>${version.junit}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
   <build>
     <pluginManagement>
       <plugins>
+        <!-- === Managed Plugins (sorted alphabetically for traceability/reproducibility) === -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-antrun-plugin</artifactId>
+          <version>${version.mvn.antrun}</version>
+        </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-clean-plugin</artifactId>
@@ -208,16 +220,6 @@
           <configuration>
             <failOnError>true</failOnError>
           </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-resources-plugin</artifactId>
-          <version>${version.mvn.resources}</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-antrun-plugin</artifactId>
-          <version>${version.mvn.antrun}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -237,24 +239,27 @@
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>${version.mvn.surefire}</version>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>${version.mvn.deploy}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-source-plugin</artifactId>
-          <version>${version.mvn.source}</version>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>${version.mvn.install}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>${version.mvn.jar}</version>
           <configuration>
-            <includePom>false</includePom>
+            <forceCreation>true</forceCreation>
+            <archive>
+              <manifest>
+                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+              </manifest>
+            </archive>
           </configuration>
-          <executions>
-            <execution>
-              <id>attach-sources</id>
-              <goals>
-                <goal>jar</goal>
-              </goals>
-            </execution>
-          </executions>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -288,32 +293,34 @@
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-jar-plugin</artifactId>
-          <version>${version.mvn.jar}</version>
-          <configuration>
-            <forceCreation>true</forceCreation>
-            <archive>
-              <manifest>
-                <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
-                <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-              </manifest>
-            </archive>
-          </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-deploy-plugin</artifactId>
-          <version>${version.mvn.deploy}</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-install-plugin</artifactId>
-          <version>${version.mvn.install}</version>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>${version.mvn.resources}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
           <version>${version.mvn.site}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-source-plugin</artifactId>
+          <version>${version.mvn.source}</version>
+          <configuration>
+            <includePom>false</includePom>
+          </configuration>
+          <executions>
+            <execution>
+              <id>attach-sources</id>
+              <goals>
+                <goal>jar</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${version.mvn.surefire}</version>
         </plugin>
       </plugins>
     </pluginManagement>
