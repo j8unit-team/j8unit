@@ -18,14 +18,14 @@ extends J8UnitTest<SUT> {
     }
 
     @Test
-    public default void testReflexiveEquals() {
+    public default void equalsMustBeReflexive() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
         assertTrue(sut.equals(sut));
     }
 
     @Test
-    public default void testNotEqualsToNull() {
+    public default void equalsMustReturnNotNull() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
         assertFalse(sut.equals(null));
