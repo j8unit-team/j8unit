@@ -11,13 +11,6 @@ public abstract interface ObjectTests<SUT extends Object>
 extends J8UnitTest<SUT> {
 
     @Test
-    public default void toStringMustReturnNotNull() {
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-        assertNotNull(sut.toString());
-    }
-
-    @Test
     public default void equalsMustBeReflexive() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
@@ -29,6 +22,29 @@ extends J8UnitTest<SUT> {
         final SUT sut = this.createNewSUT();
         assert sut != null;
         assertFalse(sut.equals(null));
+    }
+
+    @Test
+    public default void getClassMustMatchIsInstance() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        final Class<? extends Object> clazz = sut.getClass();
+        assert clazz != null;
+        assertTrue(clazz.isInstance(sut));
+    }
+
+    @Test
+    public default void getClassMustReturnNotNull() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assertNotNull(sut.getClass());
+    }
+
+    @Test
+    public default void toStringMustReturnNotNull() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assertNotNull(sut.toString());
     }
 
 }
