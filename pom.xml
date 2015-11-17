@@ -90,7 +90,6 @@
     <version.mvn.install>2.5.2</version.mvn.install>
     <version.mvn.jar>2.6</version.mvn.jar>
     <version.mvn.javadoc>2.10.3</version.mvn.javadoc>
-    <version.mvn.release>2.5.3</version.mvn.release>
     <version.mvn.resources>2.7</version.mvn.resources>
     <version.mvn.site>3.4</version.mvn.site>
     <version.mvn.source>2.4</version.mvn.source>
@@ -293,16 +292,6 @@
             </execution>
           </executions>
         </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-release-plugin</artifactId>
-          <version>${version.mvn.release}</version>
-          <configuration>
-            <useReleaseProfile>false</useReleaseProfile>
-            <releaseProfiles>release</releaseProfiles>
-            <goals>deploy</goals>
-          </configuration>
-        </plugin>        
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
