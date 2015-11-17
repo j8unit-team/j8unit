@@ -60,7 +60,7 @@
 
   <scm>
     <connection>scm:git:git://github.com:j8unit-team/j8unit.git</connection>
-    <developerConnection>scm:git:git@github.com:j8unit-team/j8unit.git</developerConnection>
+    <developerConnection>scm:git:j8unit-team@github.com:j8unit-team/j8unit.git</developerConnection>
     <url>https://github.com/j8unit-team/j8unit.git</url>
   </scm>
 
