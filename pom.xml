@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <!--
     ~ An "Introduction to the POM" can be read here:
@@ -29,7 +28,7 @@
 
   <groupId>org.j8unit</groupId>
   <artifactId>project</artifactId>
-  <version>1-SNAPSHOT</version>
+  <version>2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>J8Unit Project (Parent POM)</name>
@@ -38,8 +37,9 @@
 
   <licenses>
     <license>
-      <name>MIT License</name>
-      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <name>Eclipse Public License 1.0</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
     </license>
   </licenses>
 
@@ -58,9 +58,10 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com:j8unit-team/j8unit.git</connection>
-    <developerConnection>scm:git:git@github.com:j8unit-team/j8unit.git</developerConnection>
+    <connection>scm:git:https://github.com/j8unit-team/j8unit.git</connection>
+    <developerConnection>scm:git:https://j8unit-team@github.com/j8unit-team/j8unit.git</developerConnection>
     <url>https://github.com/j8unit-team/j8unit.git</url>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
@@ -96,9 +97,9 @@
 
     <!-- === Dependency Versions :: 1st Party (sorted in intended build order) === -->
     <version.j8unit>1-SNAPSHOT</version.j8unit>
-    <version.j8unit.javadoc>0.0.1-SNAPSHOT</version.j8unit.javadoc>
-    <version.j8unit.core>4.12-SNAPSHOT</version.j8unit.core>
-    <version.j8unit.spring>4.1.7-SNAPSHOT</version.j8unit.spring>
+    <version.j8unit.javadoc>1.0.1-SNAPSHOT</version.j8unit.javadoc>
+    <version.j8unit.core>4.13-SNAPSHOT</version.j8unit.core>
+    <version.j8unit.spring>4.1.8-SNAPSHOT</version.j8unit.spring>
     <version.j8unit.repository>0.0.1-SNAPSHOT</version.j8unit.repository>
     <!-- Showcases are managed to allow local builds but they should not be released! -->
     <version.j8unit.showcases>0.0.1-SNAPSHOT</version.j8unit.showcases>
