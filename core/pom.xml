@@ -9,9 +9,9 @@
   </parent>
 
   <artifactId>core</artifactId>
+  <version>${version.j8unit.core}</version>
   <name>J8Unit Project (Core Components)</name>
   <description>The core components of J8Unit, i.e., extended test class model, runner classes, additional assertion methods ...</description>
-  <version>4.13-SNAPSHOT</version>
 
   <dependencies>
     <dependency>

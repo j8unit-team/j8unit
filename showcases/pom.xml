@@ -6,10 +6,11 @@
   <parent>
     <groupId>org.j8unit</groupId>
     <artifactId>project</artifactId>
-    <version>1-SNAPSHOT</version>
+    <version>2-SNAPSHOT</version>
   </parent>
 
   <artifactId>showcases</artifactId>
+  <version>${version.j8unit.showcases}</version>
   <name>J8Unit Project (Showcases)</name>
   <description>Various showcases of J8Unit, J8Unit test interfaces, Runner scenarios, and further ...</description>
 
