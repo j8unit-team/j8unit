@@ -101,6 +101,7 @@
     <version.j8unit.core>4.13-SNAPSHOT</version.j8unit.core>
     <version.j8unit.spring>4.1.8-SNAPSHOT</version.j8unit.spring>
     <version.j8unit.repository>0.0.1-SNAPSHOT</version.j8unit.repository>
+    <version.j8unit.tools>0.0.1-SNAPSHOT</version.j8unit.tools>
     <!-- Showcases are managed to allow local builds but they should not be released! -->
     <version.j8unit.showcases>0.0.1-SNAPSHOT</version.j8unit.showcases>
     <version.j8unit.showcases.jm>0.0.1-SNAPSHOT</version.j8unit.showcases.jm>
@@ -134,8 +135,9 @@
         <module>./javadoc</module>
         <module>./core</module>
         <module>./spring</module>
-        <!-- Repository is not yet (!) ready to be deployed. -->
+        <!-- Repository & Tools are not yet (!) ready to be deployed. -->
         <module>./repository</module>
+        <module>./tools</module>
         <!-- Showcases are managed to allow local builds but they should not be released! -->
         <module>./showcases</module>
         <module>./showcases-jm</module>
@@ -167,6 +169,11 @@
         <groupId>org.j8unit</groupId>
         <artifactId>repository</artifactId>
         <version>${version.j8unit.repository}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.j8unit</groupId>
+        <artifactId>tools</artifactId>
+        <version>${version.j8unit.tools}</version>
       </dependency>
       <dependency>
         <groupId>org.j8unit</groupId>
