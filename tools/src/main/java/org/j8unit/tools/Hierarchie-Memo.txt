@@ -1,0 +1,32 @@
+DelayQueue
+ + extends AbstractQueue
+ |          + extends AbstractCollection ---> *
+ |          |          + extends Object ---> equals
+ |          |          |
+ |          |          + implements Collection ---> equals
+ |          |                        + extends Iterable
+ |          |
+ |          + implements Queue
+ |                        + extends Collection ---> equals
+ |                                   + extends Iterable
+ |
+ + implements BlockingQueue
+               + extends Queue
+                          + extends Collection ---> equals
+                                     + extends Iterable
+
+Deque ---> size
+ + extends Queue
+            + extends Collection  ---> size
+                       + extends Iterable
+
+TreeSet<E> extends AbstractSet<E> implements NavigableSet<E>
+                   AbstractSet<E> extends AbstractCollection<E> implements *Set<E>
+                                          AbstractCollection<E> implements *Collection<E>
+                                                                           *Collection<E> extends *Iterable<E>
+                                                                           *Set<E> extends *Collection<E>
+                                                                                          *Collection<E> extends *Iterable<E>
+                                             NavigableSet<E> extends *SortedSet<E>
+                                                                     *SortedSet<E> extends *Set<E>
+                                                                                          *Set<E> extends *Collection<E>
+								                                         *Collection<E> extends *Iterable<E>
