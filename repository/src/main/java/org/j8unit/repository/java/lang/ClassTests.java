@@ -6,6 +6,7 @@ import static org.junit.Assume.assumeFalse;
 import javax.lang.model.SourceVersion;
 import org.junit.Test;
 
+@FunctionalInterface
 public interface ClassTests<T>
 extends ObjectTests<Class<T>> {
 

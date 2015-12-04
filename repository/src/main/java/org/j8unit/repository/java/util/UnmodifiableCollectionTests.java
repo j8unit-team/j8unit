@@ -5,6 +5,7 @@ import java.util.Collections;
 import org.j8unit.repository.java.lang.UnmodifiableIterableTests;
 import org.junit.Test;
 
+@FunctionalInterface
 public interface UnmodifiableCollectionTests<UC extends Collection<E>, E>
 extends UnmodifiableIterableTests<UC, E>, CollectionTests<UC, E> {
 
@@ -21,6 +22,13 @@ extends UnmodifiableIterableTests<UC, E>, CollectionTests<UC, E> {
         final UC sut = this.createNewSUT();
         assert sut != null;
         sut.addAll(sut);
+    }
+
+    @Test(expected = UnsupportedOperationException.class)
+    public default void testUnsupportedClear() {
+        final UC sut = this.createNewSUT();
+        assert sut != null;
+        sut.clear();
     }
 
     @Test(expected = UnsupportedOperationException.class)
@@ -50,13 +58,6 @@ extends UnmodifiableIterableTests<UC, E>, CollectionTests<UC, E> {
         final UC sut = this.createNewSUT();
         assert sut != null;
         sut.retainAll(Collections.emptyList());
-    }
-
-    @Test(expected = UnsupportedOperationException.class)
-    public default void testUnsupportedClear() {
-        final UC sut = this.createNewSUT();
-        assert sut != null;
-        sut.clear();
     }
 
 }

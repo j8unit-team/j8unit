@@ -14,6 +14,18 @@ public abstract interface CollectionTests<C extends Collection<E>, E>
 extends IterableTests<C, E> {
 
     @Test
+    public default void testIteratorAccordingToIsEmpty() {
+        final C sut = this.createNewSUT();
+        assert sut != null;
+        final Iterator<E> iterator = sut.iterator();
+        if (sut.isEmpty()) {
+            assertFalse(iterator.hasNext());
+        } else {
+            assertTrue(iterator.hasNext());
+        }
+    }
+
+    @Test
     public default void testNonNegativeSize() {
         final C sut = this.createNewSUT();
         assert sut != null;
@@ -28,18 +40,6 @@ extends IterableTests<C, E> {
             assertEquals(0, sut.size());
         } else {
             assertNotEquals(0, sut.size());
-        }
-    }
-
-    @Test
-    public default void testIteratorAccordingToIsEmpty() {
-        final C sut = this.createNewSUT();
-        assert sut != null;
-        final Iterator<E> iterator = sut.iterator();
-        if (sut.isEmpty()) {
-            assertFalse(iterator.hasNext());
-        } else {
-            assertTrue(iterator.hasNext());
         }
     }
 
