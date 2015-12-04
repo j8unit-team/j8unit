@@ -23,6 +23,72 @@ extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.RGBImageFilter#filterIndexColorModel(java.awt.image.IndexColorModel) public
+     * java.awt.image.IndexColorModel
+     * java.awt.image.RGBImageFilter.filterIndexColorModel(java.awt.image.IndexColorModel)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_filterIndexColorModel_IndexColorModel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.RGBImageFilter#filterRGB(int,int,int) public abstract int
+     * java.awt.image.RGBImageFilter.filterRGB(int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_filterRGB_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.RGBImageFilter#filterRGBPixels(int,int,int,int,int[],int,int) public void
+     * java.awt.image.RGBImageFilter.filterRGBPixels(int,int,int,int,int[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_filterRGBPixels_int_int_int_int_intArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.RGBImageFilter#setColorModel(java.awt.image.ColorModel) public void
+     * java.awt.image.RGBImageFilter.setColorModel(java.awt.image.ColorModel)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setColorModel_ColorModel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link java.awt.image.RGBImageFilter#setPixels(int,int,int,int,java.awt.image.ColorModel,byte[],int,int) public
      * void java.awt.image.RGBImageFilter.setPixels(int,int,int,int,java.awt.image.ColorModel,byte[],int,int)}.
@@ -59,55 +125,6 @@ extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.RGBImageFilter#filterRGBPixels(int,int,int,int,int[],int,int) public void
-     * java.awt.image.RGBImageFilter.filterRGBPixels(int,int,int,int,int[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_filterRGBPixels_int_int_int_int_intArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.RGBImageFilter#filterRGB(int,int,int) public abstract int
-     * java.awt.image.RGBImageFilter.filterRGB(int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_filterRGB_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.RGBImageFilter#setColorModel(java.awt.image.ColorModel) public void
-     * java.awt.image.RGBImageFilter.setColorModel(java.awt.image.ColorModel)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setColorModel_ColorModel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.awt.image.RGBImageFilter#substituteColorModel(java.awt.image.ColorModel,java.awt.image.ColorModel)
      * public void
@@ -118,23 +135,6 @@ extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_substituteColorModel_ColorModel_ColorModel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.RGBImageFilter#filterIndexColorModel(java.awt.image.IndexColorModel) public
-     * java.awt.image.IndexColorModel
-     * java.awt.image.RGBImageFilter.filterIndexColorModel(java.awt.image.IndexColorModel)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_filterIndexColorModel_IndexColorModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

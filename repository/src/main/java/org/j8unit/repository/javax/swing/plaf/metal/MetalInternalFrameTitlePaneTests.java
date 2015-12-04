@@ -24,14 +24,15 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalInternalFrameTitlePane#setPalette(boolean) public void
-     * javax.swing.plaf.metal.MetalInternalFrameTitlePane.setPalette(boolean)}.
+     * Test method for {@link javax.swing.plaf.metal.MetalInternalFrameTitlePane#addNotify() public void
+     * javax.swing.plaf.metal.MetalInternalFrameTitlePane.addNotify()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setPalette_boolean()
+    @Override
+    public default void test_addNotify()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,23 +58,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePane
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalInternalFrameTitlePane#addNotify() public void
-     * javax.swing.plaf.metal.MetalInternalFrameTitlePane.addNotify()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addNotify()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalInternalFrameTitlePane#paintPalette(java.awt.Graphics) public
      * void javax.swing.plaf.metal.MetalInternalFrameTitlePane.paintPalette(java.awt.Graphics)}.
      * </p>
@@ -82,6 +66,22 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePane
     @Test
     @Category(Draft.class)
     public default void test_paintPalette_Graphics()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalInternalFrameTitlePane#setPalette(boolean) public void
+     * javax.swing.plaf.metal.MetalInternalFrameTitlePane.setPalette(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPalette_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -49,16 +49,6 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelClassTests<
         final javax.swing.plaf.nimbus.NimbusLookAndFeel sut = null; // = new NimbusLookAndFeel();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.nimbus.NimbusLookAndFeel> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.nimbus.NimbusLookAndFeel.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for
@@ -76,6 +66,16 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelClassTests<
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.nimbus.NimbusLookAndFeel> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.nimbus.NimbusLookAndFeel.class.isAssignableFrom(sut));
     }
 
 }

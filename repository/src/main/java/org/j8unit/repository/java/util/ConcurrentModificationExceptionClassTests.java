@@ -36,6 +36,36 @@ public abstract interface ConcurrentModificationExceptionClassTests<SUT extends 
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link java.util.ConcurrentModificationException#ConcurrentModificationException() public
+     * java.util.ConcurrentModificationException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ConcurrentModificationException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.ConcurrentModificationException sut = null; // = new ConcurrentModificationException();
+    }
+
+    /**
+     * Test method for
+     * {@link java.util.ConcurrentModificationException#ConcurrentModificationException(java.lang.String) public
+     * java.util.ConcurrentModificationException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ConcurrentModificationException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.ConcurrentModificationException sut = null; // = new
+                                                                    // ConcurrentModificationException(java.lang.String);
+    }
+
+    /**
      * Test method for
      * {@link java.util.ConcurrentModificationException#ConcurrentModificationException(java.lang.String,java.lang.Throwable)
      * public java.util.ConcurrentModificationException(java.lang.String,java.lang.Throwable)}.
@@ -65,36 +95,6 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.util.ConcurrentModificationException sut = null; // = new
                                                                     // ConcurrentModificationException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.util.ConcurrentModificationException#ConcurrentModificationException(java.lang.String) public
-     * java.util.ConcurrentModificationException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ConcurrentModificationException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.ConcurrentModificationException sut = null; // = new
-                                                                    // ConcurrentModificationException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.util.ConcurrentModificationException#ConcurrentModificationException() public
-     * java.util.ConcurrentModificationException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ConcurrentModificationException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.ConcurrentModificationException sut = null; // = new ConcurrentModificationException();
     }
 
     @Override

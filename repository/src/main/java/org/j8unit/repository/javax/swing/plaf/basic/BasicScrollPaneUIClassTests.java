@@ -36,47 +36,6 @@ public abstract interface BasicScrollPaneUIClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.javax.swing.ScrollPaneConstantsClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.ScrollPaneUIClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.plaf.basic.BasicScrollPaneUI#BasicScrollPaneUI() public
-     * javax.swing.plaf.basic.BasicScrollPaneUI()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BasicScrollPaneUI()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.plaf.basic.BasicScrollPaneUI sut = null; // = new BasicScrollPaneUI();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicScrollPaneUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.basic.BasicScrollPaneUI.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicScrollPaneUI#createUI(javax.swing.JComponent) public static
-     * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicScrollPaneUI.createUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.plaf.basic.BasicScrollPaneUI$HSBChangeListener class
      * javax.swing.plaf.basic.BasicScrollPaneUI$HSBChangeListener}, containing all class relevant test methods (at least
@@ -136,11 +95,11 @@ extends org.j8unit.repository.javax.swing.ScrollPaneConstantsClassTests<SUT>, or
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener class
-     * javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.VSBChangeListenerTests}.
+     * Test class for {@link javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler class
+     * javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler}, containing all class relevant test methods (at
+     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
+     * class containing the instance relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.PropertyChangeHandlerTests}.
      * </p>
      *
      * <p>
@@ -158,26 +117,27 @@ extends org.j8unit.repository.javax.swing.ScrollPaneConstantsClassTests<SUT>, or
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.VSBChangeListenerTests
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.PropertyChangeHandlerTests
      */
     @Category(J8UnitRepository.class)
-    public static abstract interface VSBChangeListenerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener>>
-    extends org.j8unit.repository.javax.swing.event.ChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface PropertyChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler>>
+    extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener#VSBChangeListener(javax.swing.plaf.basic.BasicScrollPaneUI)
-         * public javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener(javax.swing.plaf.basic.BasicScrollPaneUI)}.
+         * {@link javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicScrollPaneUI)
+         * public
+         * javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicScrollPaneUI)}.
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void create_VSBChangeListener_BasicScrollPaneUI()
+        public default void create_PropertyChangeHandler_BasicScrollPaneUI()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener sut = null; // = new
-                                                                                         // VSBChangeListener(javax.swing.plaf.basic.BasicScrollPaneUI);
+            final javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler sut = null; // = new
+                                                                                             // PropertyChangeHandler(javax.swing.plaf.basic.BasicScrollPaneUI);
         }
 
         @Override
@@ -185,9 +145,9 @@ extends org.j8unit.repository.javax.swing.ScrollPaneConstantsClassTests<SUT>, or
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener> sut = createNewSUT();
+            final Class<? extends javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler> sut = createNewSUT();
             // assert assignability
-            assertTrue(javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener.class.isAssignableFrom(sut));
+            assertTrue(javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler.class.isAssignableFrom(sut));
         }
 
     }
@@ -253,11 +213,11 @@ extends org.j8unit.repository.javax.swing.ScrollPaneConstantsClassTests<SUT>, or
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler class
-     * javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler}, containing all class relevant test methods (at
-     * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
-     * class containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.PropertyChangeHandlerTests}.
+     * Test class for {@link javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener class
+     * javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener}, containing all class relevant test methods (at least
+     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
+     * containing the instance relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.VSBChangeListenerTests}.
      * </p>
      *
      * <p>
@@ -275,27 +235,26 @@ extends org.j8unit.repository.javax.swing.ScrollPaneConstantsClassTests<SUT>, or
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.PropertyChangeHandlerTests
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests.VSBChangeListenerTests
      */
     @Category(J8UnitRepository.class)
-    public static abstract interface PropertyChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler>>
-    extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+    public static abstract interface VSBChangeListenerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener>>
+    extends org.j8unit.repository.javax.swing.event.ChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler#PropertyChangeHandler(javax.swing.plaf.basic.BasicScrollPaneUI)
-         * public
-         * javax.swing.plaf.basic.BasicScrollPaneUI$PropertyChangeHandler(javax.swing.plaf.basic.BasicScrollPaneUI)}.
+         * {@link javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener#VSBChangeListener(javax.swing.plaf.basic.BasicScrollPaneUI)
+         * public javax.swing.plaf.basic.BasicScrollPaneUI$VSBChangeListener(javax.swing.plaf.basic.BasicScrollPaneUI)}.
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void create_PropertyChangeHandler_BasicScrollPaneUI()
+        public default void create_VSBChangeListener_BasicScrollPaneUI()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler sut = null; // = new
-                                                                                             // PropertyChangeHandler(javax.swing.plaf.basic.BasicScrollPaneUI);
+            final javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener sut = null; // = new
+                                                                                         // VSBChangeListener(javax.swing.plaf.basic.BasicScrollPaneUI);
         }
 
         @Override
@@ -303,11 +262,52 @@ extends org.j8unit.repository.javax.swing.ScrollPaneConstantsClassTests<SUT>, or
         public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
             // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler> sut = createNewSUT();
+            final Class<? extends javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener> sut = createNewSUT();
             // assert assignability
-            assertTrue(javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler.class.isAssignableFrom(sut));
+            assertTrue(javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.plaf.basic.BasicScrollPaneUI#BasicScrollPaneUI() public
+     * javax.swing.plaf.basic.BasicScrollPaneUI()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BasicScrollPaneUI()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.plaf.basic.BasicScrollPaneUI sut = null; // = new BasicScrollPaneUI();
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicScrollPaneUI#createUI(javax.swing.JComponent) public static
+     * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicScrollPaneUI.createUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.basic.BasicScrollPaneUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.basic.BasicScrollPaneUI.class.isAssignableFrom(sut));
     }
 
 }

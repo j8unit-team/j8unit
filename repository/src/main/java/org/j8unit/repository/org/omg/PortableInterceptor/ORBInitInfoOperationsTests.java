@@ -25,38 +25,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoOperations#allocate_slot_id() public abstract int
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.allocate_slot_id()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_allocate_slot_id()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoOperations#arguments() public abstract
-     * java.lang.String[] org.omg.PortableInterceptor.ORBInitInfoOperations.arguments()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_arguments()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#add_client_request_interceptor(org.omg.PortableInterceptor.ClientRequestInterceptor)
      * public abstract void
@@ -68,44 +36,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_add_client_request_interceptor_ClientRequestInterceptor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#register_initial_reference(java.lang.String,org.omg.CORBA.Object)
-     * public abstract void
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.register_initial_reference(java.lang.String,org.omg.CORBA.Object)
-     * throws org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_register_initial_reference_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#add_server_request_interceptor(org.omg.PortableInterceptor.ServerRequestInterceptor)
-     * public abstract void
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.add_server_request_interceptor(org.omg.PortableInterceptor.ServerRequestInterceptor)
-     * throws org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_server_request_interceptor_ServerRequestInterceptor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -134,16 +64,48 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#resolve_initial_references(java.lang.String) public
-     * abstract org.omg.CORBA.Object
-     * org.omg.PortableInterceptor.ORBInitInfoOperations.resolve_initial_references(java.lang.String) throws
-     * org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName}.
+     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#add_server_request_interceptor(org.omg.PortableInterceptor.ServerRequestInterceptor)
+     * public abstract void
+     * org.omg.PortableInterceptor.ORBInitInfoOperations.add_server_request_interceptor(org.omg.PortableInterceptor.ServerRequestInterceptor)
+     * throws org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_resolve_initial_references_String()
+    public default void test_add_server_request_interceptor_ServerRequestInterceptor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoOperations#allocate_slot_id() public abstract int
+     * org.omg.PortableInterceptor.ORBInitInfoOperations.allocate_slot_id()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_allocate_slot_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoOperations#arguments() public abstract
+     * java.lang.String[] org.omg.PortableInterceptor.ORBInitInfoOperations.arguments()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_arguments()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -185,6 +147,25 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
+     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#register_initial_reference(java.lang.String,org.omg.CORBA.Object)
+     * public abstract void
+     * org.omg.PortableInterceptor.ORBInitInfoOperations.register_initial_reference(java.lang.String,org.omg.CORBA.Object)
+     * throws org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_register_initial_reference_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#register_policy_factory(int,org.omg.PortableInterceptor.PolicyFactory)
      * public abstract void
      * org.omg.PortableInterceptor.ORBInitInfoOperations.register_policy_factory(int,org.omg.PortableInterceptor.PolicyFactory)}
@@ -195,6 +176,25 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_register_policy_factory_int_PolicyFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableInterceptor.ORBInitInfoOperations#resolve_initial_references(java.lang.String) public
+     * abstract org.omg.CORBA.Object
+     * org.omg.PortableInterceptor.ORBInitInfoOperations.resolve_initial_references(java.lang.String) throws
+     * org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_resolve_initial_references_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

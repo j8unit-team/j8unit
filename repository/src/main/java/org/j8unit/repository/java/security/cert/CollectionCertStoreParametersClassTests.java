@@ -37,6 +37,20 @@ public abstract interface CollectionCertStoreParametersClassTests<SUT extends Cl
 extends org.j8unit.repository.java.security.cert.CertStoreParametersClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.security.cert.CollectionCertStoreParameters#CollectionCertStoreParameters() public
+     * java.security.cert.CollectionCertStoreParameters()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CollectionCertStoreParameters()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CollectionCertStoreParameters sut = null; // = new CollectionCertStoreParameters();
+    }
+
+    /**
      * Test method for
      * {@link java.security.cert.CollectionCertStoreParameters#CollectionCertStoreParameters(java.util.Collection)
      * public java.security.cert.CollectionCertStoreParameters(java.util.Collection)}.
@@ -50,20 +64,6 @@ extends org.j8unit.repository.java.security.cert.CertStoreParametersClassTests<S
         @SuppressWarnings("unused")
         final java.security.cert.CollectionCertStoreParameters sut = null; // = new
                                                                            // CollectionCertStoreParameters(java.util.Collection);
-    }
-
-    /**
-     * Test method for {@link java.security.cert.CollectionCertStoreParameters#CollectionCertStoreParameters() public
-     * java.security.cert.CollectionCertStoreParameters()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CollectionCertStoreParameters()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CollectionCertStoreParameters sut = null; // = new CollectionCertStoreParameters();
     }
 
     @Override

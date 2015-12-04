@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface MethodHandleProxiesClassTests<SUT extends Class<? extends java.lang.invoke.MethodHandleProxies>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.lang.invoke.MethodHandleProxies> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.invoke.MethodHandleProxies.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for
@@ -57,22 +47,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_asInterfaceInstance_Class_MethodHandle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.MethodHandleProxies#wrapperInstanceTarget(java.lang.Object) public static
-     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandleProxies.wrapperInstanceTarget(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wrapperInstanceTarget_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -97,6 +71,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.lang.invoke.MethodHandleProxies#wrapperInstanceTarget(java.lang.Object) public static
+     * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandleProxies.wrapperInstanceTarget(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wrapperInstanceTarget_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.lang.invoke.MethodHandleProxies#wrapperInstanceType(java.lang.Object) public static
      * java.lang.Class java.lang.invoke.MethodHandleProxies.wrapperInstanceType(java.lang.Object)}.
      * </p>
@@ -109,6 +99,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.lang.invoke.MethodHandleProxies> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.invoke.MethodHandleProxies.class.isAssignableFrom(sut));
     }
 
 }

@@ -24,54 +24,16 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsDouble(javax.lang.model.type.PrimitiveType,java.lang.Object)
-     * public java.lang.Object
-     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsDouble(javax.lang.model.type.PrimitiveType,java.lang.Object)}
-     * .
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitNoType(javax.lang.model.type.NoType,java.lang.Object) public
+     * java.lang.Object
+     * javax.lang.model.util.TypeKindVisitor6.visitNoType(javax.lang.model.type.NoType,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_visitPrimitiveAsDouble_PrimitiveType_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsShort(javax.lang.model.type.PrimitiveType,java.lang.Object)
-     * public java.lang.Object
-     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsShort(javax.lang.model.type.PrimitiveType,java.lang.Object)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_visitPrimitiveAsShort_PrimitiveType_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsByte(javax.lang.model.type.PrimitiveType,java.lang.Object)
-     * public java.lang.Object
-     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsByte(javax.lang.model.type.PrimitiveType,java.lang.Object)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_visitPrimitiveAsByte_PrimitiveType_Object()
+    @Override
+    public default void test_visitNoType_NoType_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -99,16 +61,15 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsInt(javax.lang.model.type.PrimitiveType,java.lang.Object)
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitNoTypeAsPackage(javax.lang.model.type.NoType,java.lang.Object)
      * public java.lang.Object
-     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsInt(javax.lang.model.type.PrimitiveType,java.lang.Object)}
-     * .
+     * javax.lang.model.util.TypeKindVisitor6.visitNoTypeAsPackage(javax.lang.model.type.NoType,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_visitPrimitiveAsInt_PrimitiveType_Object()
+    public default void test_visitNoTypeAsPackage_NoType_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -118,16 +79,15 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.TypeKindVisitor6#visitNoType(javax.lang.model.type.NoType,java.lang.Object) public
-     * java.lang.Object
-     * javax.lang.model.util.TypeKindVisitor6.visitNoType(javax.lang.model.type.NoType,java.lang.Object)}.
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitNoTypeAsVoid(javax.lang.model.type.NoType,java.lang.Object)
+     * public java.lang.Object
+     * javax.lang.model.util.TypeKindVisitor6.visitNoTypeAsVoid(javax.lang.model.type.NoType,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_visitNoType_NoType_Object()
+    public default void test_visitNoTypeAsVoid_NoType_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -156,24 +116,6 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.TypeKindVisitor6#visitNoTypeAsVoid(javax.lang.model.type.NoType,java.lang.Object)
-     * public java.lang.Object
-     * javax.lang.model.util.TypeKindVisitor6.visitNoTypeAsVoid(javax.lang.model.type.NoType,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_visitNoTypeAsVoid_NoType_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsBoolean(javax.lang.model.type.PrimitiveType,java.lang.Object)
      * public java.lang.Object
      * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsBoolean(javax.lang.model.type.PrimitiveType,java.lang.Object)}
@@ -193,16 +135,16 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsFloat(javax.lang.model.type.PrimitiveType,java.lang.Object)
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsByte(javax.lang.model.type.PrimitiveType,java.lang.Object)
      * public java.lang.Object
-     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsFloat(javax.lang.model.type.PrimitiveType,java.lang.Object)}
+     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsByte(javax.lang.model.type.PrimitiveType,java.lang.Object)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_visitPrimitiveAsFloat_PrimitiveType_Object()
+    public default void test_visitPrimitiveAsByte_PrimitiveType_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -231,15 +173,54 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.TypeKindVisitor6#visitNoTypeAsPackage(javax.lang.model.type.NoType,java.lang.Object)
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsDouble(javax.lang.model.type.PrimitiveType,java.lang.Object)
      * public java.lang.Object
-     * javax.lang.model.util.TypeKindVisitor6.visitNoTypeAsPackage(javax.lang.model.type.NoType,java.lang.Object)}.
+     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsDouble(javax.lang.model.type.PrimitiveType,java.lang.Object)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_visitNoTypeAsPackage_NoType_Object()
+    public default void test_visitPrimitiveAsDouble_PrimitiveType_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsFloat(javax.lang.model.type.PrimitiveType,java.lang.Object)
+     * public java.lang.Object
+     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsFloat(javax.lang.model.type.PrimitiveType,java.lang.Object)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_visitPrimitiveAsFloat_PrimitiveType_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsInt(javax.lang.model.type.PrimitiveType,java.lang.Object)
+     * public java.lang.Object
+     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsInt(javax.lang.model.type.PrimitiveType,java.lang.Object)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_visitPrimitiveAsInt_PrimitiveType_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -259,6 +240,25 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleTypeVisitor6Tests<SUT,
     @Test
     @Category(Draft.class)
     public default void test_visitPrimitiveAsLong_PrimitiveType_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.util.TypeKindVisitor6#visitPrimitiveAsShort(javax.lang.model.type.PrimitiveType,java.lang.Object)
+     * public java.lang.Object
+     * javax.lang.model.util.TypeKindVisitor6.visitPrimitiveAsShort(javax.lang.model.type.PrimitiveType,java.lang.Object)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_visitPrimitiveAsShort_PrimitiveType_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,6 +24,23 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
 
     /**
      * <p>
+     * Test method for {@link java.nio.file.attribute.BasicFileAttributeView#name() public abstract java.lang.String
+     * java.nio.file.attribute.BasicFileAttributeView.name()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.file.attribute.BasicFileAttributeView#readAttributes() public abstract
      * java.nio.file.attribute.BasicFileAttributes java.nio.file.attribute.BasicFileAttributeView.readAttributes()
      * throws java.io.IOException}.
@@ -52,23 +69,6 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_setTimes_FileTime_FileTime_FileTime()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.BasicFileAttributeView#name() public abstract java.lang.String
-     * java.nio.file.attribute.BasicFileAttributeView.name()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,16 +36,6 @@ public abstract interface ChronoZonedDateTimeClassTests<SUT extends Class<? exte
 extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>,
 org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.chrono.ChronoZonedDateTime<?>> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.chrono.ChronoZonedDateTime<D>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.chrono.ChronoZonedDateTime.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.time.chrono.ChronoZonedDateTime#from(java.time.temporal.TemporalAccessor) public
@@ -77,6 +67,16 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.chrono.Chron
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.chrono.ChronoZonedDateTime<D>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.chrono.ChronoZonedDateTime.class.isAssignableFrom(sut));
     }
 
 }

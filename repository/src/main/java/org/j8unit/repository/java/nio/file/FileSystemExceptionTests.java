@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.nio.file.FileSystemException#getFile() public java.lang.String
+     * java.nio.file.FileSystemException.getFile()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFile()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.file.FileSystemException#getMessage() public java.lang.String
      * java.nio.file.FileSystemException.getMessage()}.
      * </p>
@@ -32,22 +48,6 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getMessage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.FileSystemException#getFile() public java.lang.String
-     * java.nio.file.FileSystemException.getFile()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFile()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

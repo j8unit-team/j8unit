@@ -43,6 +43,23 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
+     * Test method for {@link javax.swing.text.WrappedPlainView#getMaximumSpan(int) public float
+     * javax.swing.text.WrappedPlainView.getMaximumSpan(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMaximumSpan_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.text.WrappedPlainView#getMinimumSpan(int) public float
      * javax.swing.text.WrappedPlainView.getMinimumSpan(int)}.
      * </p>
@@ -60,15 +77,15 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.WrappedPlainView#nextTabStop(float,int) public float
-     * javax.swing.text.WrappedPlainView.nextTabStop(float,int)}.
+     * Test method for {@link javax.swing.text.WrappedPlainView#getPreferredSpan(int) public float
+     * javax.swing.text.WrappedPlainView.getPreferredSpan(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_nextTabStop_float_int()
+    public default void test_getPreferredSpan_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -97,15 +114,15 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.WrappedPlainView#getPreferredSpan(int) public float
-     * javax.swing.text.WrappedPlainView.getPreferredSpan(int)}.
+     * Test method for {@link javax.swing.text.WrappedPlainView#nextTabStop(float,int) public float
+     * javax.swing.text.WrappedPlainView.nextTabStop(float,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getPreferredSpan_int()
+    public default void test_nextTabStop_float_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -123,23 +140,6 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
     @Category(Draft.class)
     @Override
     public default void test_paint_Graphics_Shape()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.WrappedPlainView#getMaximumSpan(int) public float
-     * javax.swing.text.WrappedPlainView.getMaximumSpan(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMaximumSpan_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

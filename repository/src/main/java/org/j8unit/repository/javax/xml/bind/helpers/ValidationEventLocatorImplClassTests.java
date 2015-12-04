@@ -37,19 +37,33 @@ public abstract interface ValidationEventLocatorImplClassTests<SUT extends Class
 extends org.j8unit.repository.javax.xml.bind.ValidationEventLocatorClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(java.lang.Object) public
-     * javax.xml.bind.helpers.ValidationEventLocatorImpl(java.lang.Object)}.
+     * Test method for {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl() public
+     * javax.xml.bind.helpers.ValidationEventLocatorImpl()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ValidationEventLocatorImpl_Object()
+    public default void create_ValidationEventLocatorImpl()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.bind.helpers.ValidationEventLocatorImpl sut = null; // = new ValidationEventLocatorImpl();
+    }
+
+    /**
+     * Test method for
+     * {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(org.xml.sax.Locator) public
+     * javax.xml.bind.helpers.ValidationEventLocatorImpl(org.xml.sax.Locator)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ValidationEventLocatorImpl_Locator()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.bind.helpers.ValidationEventLocatorImpl sut = null; // = new
-                                                                            // ValidationEventLocatorImpl(java.lang.Object);
+                                                                            // ValidationEventLocatorImpl(org.xml.sax.Locator);
     }
 
     /**
@@ -70,6 +84,22 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventLocatorClassTests<SU
 
     /**
      * Test method for
+     * {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(java.lang.Object) public
+     * javax.xml.bind.helpers.ValidationEventLocatorImpl(java.lang.Object)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ValidationEventLocatorImpl_Object()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.bind.helpers.ValidationEventLocatorImpl sut = null; // = new
+                                                                            // ValidationEventLocatorImpl(java.lang.Object);
+    }
+
+    /**
+     * Test method for
      * {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(org.xml.sax.SAXParseException)
      * public javax.xml.bind.helpers.ValidationEventLocatorImpl(org.xml.sax.SAXParseException)}.
      */
@@ -82,36 +112,6 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventLocatorClassTests<SU
         @SuppressWarnings("unused")
         final javax.xml.bind.helpers.ValidationEventLocatorImpl sut = null; // = new
                                                                             // ValidationEventLocatorImpl(org.xml.sax.SAXParseException);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl(org.xml.sax.Locator) public
-     * javax.xml.bind.helpers.ValidationEventLocatorImpl(org.xml.sax.Locator)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ValidationEventLocatorImpl_Locator()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.bind.helpers.ValidationEventLocatorImpl sut = null; // = new
-                                                                            // ValidationEventLocatorImpl(org.xml.sax.Locator);
-    }
-
-    /**
-     * Test method for {@link javax.xml.bind.helpers.ValidationEventLocatorImpl#ValidationEventLocatorImpl() public
-     * javax.xml.bind.helpers.ValidationEventLocatorImpl()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ValidationEventLocatorImpl()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.bind.helpers.ValidationEventLocatorImpl sut = null; // = new ValidationEventLocatorImpl();
     }
 
     @Override

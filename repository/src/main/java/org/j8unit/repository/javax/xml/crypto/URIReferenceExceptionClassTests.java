@@ -36,17 +36,47 @@ public abstract interface URIReferenceExceptionClassTests<SUT extends Class<? ex
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.xml.crypto.URIReferenceException#URIReferenceException(java.lang.Throwable) public
-     * javax.xml.crypto.URIReferenceException(java.lang.Throwable)}.
+     * Test method for {@link javax.xml.crypto.URIReferenceException#URIReferenceException() public
+     * javax.xml.crypto.URIReferenceException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_URIReferenceException_Throwable()
+    public default void create_URIReferenceException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.crypto.URIReferenceException sut = null; // = new URIReferenceException(java.lang.Throwable);
+        final javax.xml.crypto.URIReferenceException sut = null; // = new URIReferenceException();
+    }
+
+    /**
+     * Test method for {@link javax.xml.crypto.URIReferenceException#URIReferenceException(java.lang.String) public
+     * javax.xml.crypto.URIReferenceException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_URIReferenceException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.crypto.URIReferenceException sut = null; // = new URIReferenceException(java.lang.String);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.xml.crypto.URIReferenceException#URIReferenceException(java.lang.String,java.lang.Throwable) public
+     * javax.xml.crypto.URIReferenceException(java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_URIReferenceException_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.crypto.URIReferenceException sut = null; // = new
+                                                                 // URIReferenceException(java.lang.String,java.lang.Throwable);
     }
 
     /**
@@ -67,47 +97,17 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for
-     * {@link javax.xml.crypto.URIReferenceException#URIReferenceException(java.lang.String,java.lang.Throwable) public
-     * javax.xml.crypto.URIReferenceException(java.lang.String,java.lang.Throwable)}.
+     * Test method for {@link javax.xml.crypto.URIReferenceException#URIReferenceException(java.lang.Throwable) public
+     * javax.xml.crypto.URIReferenceException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_URIReferenceException_String_Throwable()
+    public default void create_URIReferenceException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.crypto.URIReferenceException sut = null; // = new
-                                                                 // URIReferenceException(java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link javax.xml.crypto.URIReferenceException#URIReferenceException(java.lang.String) public
-     * javax.xml.crypto.URIReferenceException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_URIReferenceException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.crypto.URIReferenceException sut = null; // = new URIReferenceException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.crypto.URIReferenceException#URIReferenceException() public
-     * javax.xml.crypto.URIReferenceException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_URIReferenceException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.crypto.URIReferenceException sut = null; // = new URIReferenceException();
+        final javax.xml.crypto.URIReferenceException sut = null; // = new URIReferenceException(java.lang.Throwable);
     }
 
     @Override

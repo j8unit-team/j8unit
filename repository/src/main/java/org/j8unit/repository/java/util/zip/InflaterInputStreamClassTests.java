@@ -36,6 +36,20 @@ public abstract interface InflaterInputStreamClassTests<SUT extends Class<? exte
 extends org.j8unit.repository.java.io.FilterInputStreamClassTests<SUT> {
 
     /**
+     * Test method for {@link java.util.zip.InflaterInputStream#InflaterInputStream(java.io.InputStream) public
+     * java.util.zip.InflaterInputStream(java.io.InputStream)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InflaterInputStream_InputStream()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.zip.InflaterInputStream sut = null; // = new InflaterInputStream(java.io.InputStream);
+    }
+
+    /**
      * Test method for
      * {@link java.util.zip.InflaterInputStream#InflaterInputStream(java.io.InputStream,java.util.zip.Inflater) public
      * java.util.zip.InflaterInputStream(java.io.InputStream,java.util.zip.Inflater)}.
@@ -65,20 +79,6 @@ extends org.j8unit.repository.java.io.FilterInputStreamClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.util.zip.InflaterInputStream sut = null; // = new
                                                             // InflaterInputStream(java.io.InputStream,java.util.zip.Inflater,int);
-    }
-
-    /**
-     * Test method for {@link java.util.zip.InflaterInputStream#InflaterInputStream(java.io.InputStream) public
-     * java.util.zip.InflaterInputStream(java.io.InputStream)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InflaterInputStream_InputStream()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.zip.InflaterInputStream sut = null; // = new InflaterInputStream(java.io.InputStream);
     }
 
     @Override

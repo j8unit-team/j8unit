@@ -36,19 +36,17 @@ public abstract interface NotificationClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.management.Notification#Notification(java.lang.String,java.lang.Object,long,long,java.lang.String)
-     * public javax.management.Notification(java.lang.String,java.lang.Object,long,long,java.lang.String)}.
+     * Test method for {@link javax.management.Notification#Notification(java.lang.String,java.lang.Object,long) public
+     * javax.management.Notification(java.lang.String,java.lang.Object,long)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Notification_String_Object_long_long_String()
+    public default void create_Notification_String_Object_long()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.management.Notification sut = null; // = new
-                                                        // Notification(java.lang.String,java.lang.Object,long,long,java.lang.String);
+        final javax.management.Notification sut = null; // = new Notification(java.lang.String,java.lang.Object,long);
     }
 
     /**
@@ -68,6 +66,22 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
 
     /**
      * Test method for
+     * {@link javax.management.Notification#Notification(java.lang.String,java.lang.Object,long,long,java.lang.String)
+     * public javax.management.Notification(java.lang.String,java.lang.Object,long,long,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Notification_String_Object_long_long_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.Notification sut = null; // = new
+                                                        // Notification(java.lang.String,java.lang.Object,long,long,java.lang.String);
+    }
+
+    /**
+     * Test method for
      * {@link javax.management.Notification#Notification(java.lang.String,java.lang.Object,long,java.lang.String) public
      * javax.management.Notification(java.lang.String,java.lang.Object,long,java.lang.String)}.
      */
@@ -80,20 +94,6 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.management.Notification sut = null; // = new
                                                         // Notification(java.lang.String,java.lang.Object,long,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.management.Notification#Notification(java.lang.String,java.lang.Object,long) public
-     * javax.management.Notification(java.lang.String,java.lang.Object,long)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Notification_String_Object_long()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.Notification sut = null; // = new Notification(java.lang.String,java.lang.Object,long);
     }
 
     @Override

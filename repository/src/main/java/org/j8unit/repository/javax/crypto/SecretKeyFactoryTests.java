@@ -23,15 +23,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.SecretKeyFactory#translateKey(javax.crypto.SecretKey) public final
-     * javax.crypto.SecretKey javax.crypto.SecretKeyFactory.translateKey(javax.crypto.SecretKey) throws
-     * java.security.InvalidKeyException}.
+     * Test method for {@link javax.crypto.SecretKeyFactory#generateSecret(java.security.spec.KeySpec) public final
+     * javax.crypto.SecretKey javax.crypto.SecretKeyFactory.generateSecret(java.security.spec.KeySpec) throws
+     * java.security.spec.InvalidKeySpecException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_translateKey_SecretKey()
+    public default void test_generateSecret_KeySpec()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.crypto.SecretKeyFactory#getAlgorithm() public final java.lang.String
+     * javax.crypto.SecretKeyFactory.getAlgorithm()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAlgorithm()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,22 +73,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.SecretKeyFactory#getAlgorithm() public final java.lang.String
-     * javax.crypto.SecretKeyFactory.getAlgorithm()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAlgorithm()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.crypto.SecretKeyFactory#getProvider() public final java.security.Provider
      * javax.crypto.SecretKeyFactory.getProvider()}.
      * </p>
@@ -89,15 +89,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.SecretKeyFactory#generateSecret(java.security.spec.KeySpec) public final
-     * javax.crypto.SecretKey javax.crypto.SecretKeyFactory.generateSecret(java.security.spec.KeySpec) throws
-     * java.security.spec.InvalidKeySpecException}.
+     * Test method for {@link javax.crypto.SecretKeyFactory#translateKey(javax.crypto.SecretKey) public final
+     * javax.crypto.SecretKey javax.crypto.SecretKeyFactory.translateKey(javax.crypto.SecretKey) throws
+     * java.security.InvalidKeyException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_generateSecret_KeySpec()
+    public default void test_translateKey_SecretKey()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

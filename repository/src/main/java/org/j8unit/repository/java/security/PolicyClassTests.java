@@ -36,116 +36,6 @@ public abstract interface PolicyClassTests<SUT extends Class<? extends java.secu
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.Policy#Policy() public java.security.Policy()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Policy()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.Policy sut = null; // = new Policy();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.security.Policy> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.Policy.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.Policy#setPolicy(java.security.Policy) public static void
-     * java.security.Policy.setPolicy(java.security.Policy)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPolicy_Policy()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.Policy#getPolicy() public static java.security.Policy
-     * java.security.Policy.getPolicy()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPolicy()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.Policy#getInstance(java.lang.String,java.security.Policy.Parameters) public
-     * static java.security.Policy java.security.Policy.getInstance(java.lang.String,java.security.Policy$Parameters)
-     * throws java.security.NoSuchAlgorithmException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInstance_String_Parameters()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.security.Policy#getInstance(java.lang.String,java.security.Policy.Parameters,java.lang.String) public
-     * static java.security.Policy
-     * java.security.Policy.getInstance(java.lang.String,java.security.Policy$Parameters,java.lang.String) throws
-     * java.security.NoSuchProviderException,java.security.NoSuchAlgorithmException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInstance_String_Parameters_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.security.Policy#getInstance(java.lang.String,java.security.Policy.Parameters,java.security.Provider)
-     * public static java.security.Policy
-     * java.security.Policy.getInstance(java.lang.String,java.security.Policy$Parameters,java.security.Provider) throws
-     * java.security.NoSuchAlgorithmException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInstance_String_Parameters_Provider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link java.security.Policy$Parameters interface java.security.Policy$Parameters}, containing all
      * class relevant test methods (at least the test methods of accessible constructors and of accessible
@@ -183,6 +73,116 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(java.security.Policy.Parameters.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link java.security.Policy#Policy() public java.security.Policy()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Policy()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.Policy sut = null; // = new Policy();
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.Policy#getInstance(java.lang.String,java.security.Policy.Parameters) public
+     * static java.security.Policy java.security.Policy.getInstance(java.lang.String,java.security.Policy$Parameters)
+     * throws java.security.NoSuchAlgorithmException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInstance_String_Parameters()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.security.Policy#getInstance(java.lang.String,java.security.Policy.Parameters,java.security.Provider)
+     * public static java.security.Policy
+     * java.security.Policy.getInstance(java.lang.String,java.security.Policy$Parameters,java.security.Provider) throws
+     * java.security.NoSuchAlgorithmException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInstance_String_Parameters_Provider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.security.Policy#getInstance(java.lang.String,java.security.Policy.Parameters,java.lang.String) public
+     * static java.security.Policy
+     * java.security.Policy.getInstance(java.lang.String,java.security.Policy$Parameters,java.lang.String) throws
+     * java.security.NoSuchProviderException,java.security.NoSuchAlgorithmException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInstance_String_Parameters_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.Policy#getPolicy() public static java.security.Policy
+     * java.security.Policy.getPolicy()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPolicy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.Policy#setPolicy(java.security.Policy) public static void
+     * java.security.Policy.setPolicy(java.security.Policy)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPolicy_Policy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.security.Policy> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.Policy.class.isAssignableFrom(sut));
     }
 
 }

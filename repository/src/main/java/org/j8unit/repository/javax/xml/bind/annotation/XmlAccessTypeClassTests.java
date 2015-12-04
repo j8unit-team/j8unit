@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface XmlAccessTypeClassTests<SUT extends Class<? extends javax.xml.bind.annotation.XmlAccessType>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.bind.annotation.XmlAccessType> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.annotation.XmlAccessType#valueOf(java.lang.String) public static
+     * javax.xml.bind.annotation.XmlAccessType javax.xml.bind.annotation.XmlAccessType.valueOf(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_valueOf_String()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.bind.annotation.XmlAccessType> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.bind.annotation.XmlAccessType.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -61,20 +67,14 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.bind.annot
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.annotation.XmlAccessType#valueOf(java.lang.String) public static
-     * javax.xml.bind.annotation.XmlAccessType javax.xml.bind.annotation.XmlAccessType.valueOf(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_valueOf_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.xml.bind.annotation.XmlAccessType> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.bind.annotation.XmlAccessType.class.isAssignableFrom(sut));
     }
 
 }

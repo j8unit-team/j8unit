@@ -24,38 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.BufferedImageOp#getRenderingHints() public abstract java.awt.RenderingHints
-     * java.awt.image.BufferedImageOp.getRenderingHints()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRenderingHints()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.BufferedImageOp#getBounds2D(java.awt.image.BufferedImage) public abstract
-     * java.awt.geom.Rectangle2D java.awt.image.BufferedImageOp.getBounds2D(java.awt.image.BufferedImage)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBounds2D_BufferedImage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.awt.image.BufferedImageOp#createCompatibleDestImage(java.awt.image.BufferedImage,java.awt.image.ColorModel)
      * public abstract java.awt.image.BufferedImage
@@ -93,6 +61,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.BufferedImageOp#getBounds2D(java.awt.image.BufferedImage) public abstract
+     * java.awt.geom.Rectangle2D java.awt.image.BufferedImageOp.getBounds2D(java.awt.image.BufferedImage)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBounds2D_BufferedImage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.image.BufferedImageOp#getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)
      * public abstract java.awt.geom.Point2D
      * java.awt.image.BufferedImageOp.getPoint2D(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
@@ -102,6 +86,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getPoint2D_Point2D_Point2D()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.BufferedImageOp#getRenderingHints() public abstract java.awt.RenderingHints
+     * java.awt.image.BufferedImageOp.getRenderingHints()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRenderingHints()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

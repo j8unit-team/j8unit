@@ -36,17 +36,17 @@ public abstract interface MailcapCommandMapClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.javax.activation.CommandMapClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.activation.MailcapCommandMap#MailcapCommandMap(java.lang.String) public
-     * javax.activation.MailcapCommandMap(java.lang.String) throws java.io.IOException}.
+     * Test method for {@link javax.activation.MailcapCommandMap#MailcapCommandMap() public
+     * javax.activation.MailcapCommandMap()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MailcapCommandMap_String()
+    public default void create_MailcapCommandMap()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.activation.MailcapCommandMap sut = null; // = new MailcapCommandMap(java.lang.String);
+        final javax.activation.MailcapCommandMap sut = null; // = new MailcapCommandMap();
     }
 
     /**
@@ -64,17 +64,17 @@ extends org.j8unit.repository.javax.activation.CommandMapClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.activation.MailcapCommandMap#MailcapCommandMap() public
-     * javax.activation.MailcapCommandMap()}.
+     * Test method for {@link javax.activation.MailcapCommandMap#MailcapCommandMap(java.lang.String) public
+     * javax.activation.MailcapCommandMap(java.lang.String) throws java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MailcapCommandMap()
+    public default void create_MailcapCommandMap_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.activation.MailcapCommandMap sut = null; // = new MailcapCommandMap();
+        final javax.activation.MailcapCommandMap sut = null; // = new MailcapCommandMap(java.lang.String);
     }
 
     @Override

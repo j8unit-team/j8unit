@@ -36,20 +36,6 @@ public abstract interface GZIPOutputStreamClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.zip.GZIPOutputStream#GZIPOutputStream(java.io.OutputStream,boolean) public
-     * java.util.zip.GZIPOutputStream(java.io.OutputStream,boolean) throws java.io.IOException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_GZIPOutputStream_OutputStream_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.zip.GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream,boolean);
-    }
-
-    /**
      * Test method for {@link java.util.zip.GZIPOutputStream#GZIPOutputStream(java.io.OutputStream) public
      * java.util.zip.GZIPOutputStream(java.io.OutputStream) throws java.io.IOException}.
      */
@@ -64,17 +50,17 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamClassTests<SUT> 
     }
 
     /**
-     * Test method for {@link java.util.zip.GZIPOutputStream#GZIPOutputStream(java.io.OutputStream,int,boolean) public
-     * java.util.zip.GZIPOutputStream(java.io.OutputStream,int,boolean) throws java.io.IOException}.
+     * Test method for {@link java.util.zip.GZIPOutputStream#GZIPOutputStream(java.io.OutputStream,boolean) public
+     * java.util.zip.GZIPOutputStream(java.io.OutputStream,boolean) throws java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_GZIPOutputStream_OutputStream_int_boolean()
+    public default void create_GZIPOutputStream_OutputStream_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.zip.GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream,int,boolean);
+        final java.util.zip.GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream,boolean);
     }
 
     /**
@@ -89,6 +75,20 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamClassTests<SUT> 
         // create new instance
         @SuppressWarnings("unused")
         final java.util.zip.GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream,int);
+    }
+
+    /**
+     * Test method for {@link java.util.zip.GZIPOutputStream#GZIPOutputStream(java.io.OutputStream,int,boolean) public
+     * java.util.zip.GZIPOutputStream(java.io.OutputStream,int,boolean) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_GZIPOutputStream_OutputStream_int_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.zip.GZIPOutputStream sut = null; // = new GZIPOutputStream(java.io.OutputStream,int,boolean);
     }
 
     @Override

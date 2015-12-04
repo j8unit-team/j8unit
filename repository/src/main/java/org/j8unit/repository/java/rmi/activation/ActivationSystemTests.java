@@ -24,6 +24,44 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
     /**
      * <p>
      * Test method for
+     * {@link java.rmi.activation.ActivationSystem#activeGroup(java.rmi.activation.ActivationGroupID,java.rmi.activation.ActivationInstantiator,long)
+     * public abstract java.rmi.activation.ActivationMonitor
+     * java.rmi.activation.ActivationSystem.activeGroup(java.rmi.activation.ActivationGroupID,java.rmi.activation.ActivationInstantiator,long)
+     * throws
+     * java.rmi.activation.UnknownGroupException,java.rmi.activation.ActivationException,java.rmi.RemoteException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_activeGroup_ActivationGroupID_ActivationInstantiator_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.activation.ActivationSystem#getActivationDesc(java.rmi.activation.ActivationID)
+     * public abstract java.rmi.activation.ActivationDesc
+     * java.rmi.activation.ActivationSystem.getActivationDesc(java.rmi.activation.ActivationID) throws
+     * java.rmi.activation.ActivationException,java.rmi.activation.UnknownObjectException,java.rmi.RemoteException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getActivationDesc_ActivationID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link java.rmi.activation.ActivationSystem#getActivationGroupDesc(java.rmi.activation.ActivationGroupID) public
      * abstract java.rmi.activation.ActivationGroupDesc
      * java.rmi.activation.ActivationSystem.getActivationGroupDesc(java.rmi.activation.ActivationGroupID) throws
@@ -61,6 +99,45 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.rmi.activation.ActivationSystem#registerObject(java.rmi.activation.ActivationDesc)
+     * public abstract java.rmi.activation.ActivationID
+     * java.rmi.activation.ActivationSystem.registerObject(java.rmi.activation.ActivationDesc) throws
+     * java.rmi.activation.ActivationException,java.rmi.activation.UnknownGroupException,java.rmi.RemoteException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_registerObject_ActivationDesc()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.rmi.activation.ActivationSystem#setActivationDesc(java.rmi.activation.ActivationID,java.rmi.activation.ActivationDesc)
+     * public abstract java.rmi.activation.ActivationDesc
+     * java.rmi.activation.ActivationSystem.setActivationDesc(java.rmi.activation.ActivationID,java.rmi.activation.ActivationDesc)
+     * throws
+     * java.rmi.activation.ActivationException,java.rmi.activation.UnknownObjectException,java.rmi.activation.UnknownGroupException,java.rmi.RemoteException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setActivationDesc_ActivationID_ActivationDesc()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link java.rmi.activation.ActivationSystem#setActivationGroupDesc(java.rmi.activation.ActivationGroupID,java.rmi.activation.ActivationGroupDesc)
      * public abstract java.rmi.activation.ActivationGroupDesc
@@ -81,36 +158,14 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.activation.ActivationSystem#unregisterObject(java.rmi.activation.ActivationID)
-     * public abstract void java.rmi.activation.ActivationSystem.unregisterObject(java.rmi.activation.ActivationID)
-     * throws
-     * java.rmi.activation.ActivationException,java.rmi.activation.UnknownObjectException,java.rmi.RemoteException}.
+     * Test method for {@link java.rmi.activation.ActivationSystem#shutdown() public abstract void
+     * java.rmi.activation.ActivationSystem.shutdown() throws java.rmi.RemoteException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_unregisterObject_ActivationID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.rmi.activation.ActivationSystem#activeGroup(java.rmi.activation.ActivationGroupID,java.rmi.activation.ActivationInstantiator,long)
-     * public abstract java.rmi.activation.ActivationMonitor
-     * java.rmi.activation.ActivationSystem.activeGroup(java.rmi.activation.ActivationGroupID,java.rmi.activation.ActivationInstantiator,long)
-     * throws
-     * java.rmi.activation.UnknownGroupException,java.rmi.activation.ActivationException,java.rmi.RemoteException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_activeGroup_ActivationGroupID_ActivationInstantiator_long()
+    public default void test_shutdown()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -137,71 +192,16 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.activation.ActivationSystem#registerObject(java.rmi.activation.ActivationDesc)
-     * public abstract java.rmi.activation.ActivationID
-     * java.rmi.activation.ActivationSystem.registerObject(java.rmi.activation.ActivationDesc) throws
-     * java.rmi.activation.ActivationException,java.rmi.activation.UnknownGroupException,java.rmi.RemoteException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_registerObject_ActivationDesc()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.rmi.activation.ActivationSystem#getActivationDesc(java.rmi.activation.ActivationID)
-     * public abstract java.rmi.activation.ActivationDesc
-     * java.rmi.activation.ActivationSystem.getActivationDesc(java.rmi.activation.ActivationID) throws
+     * Test method for {@link java.rmi.activation.ActivationSystem#unregisterObject(java.rmi.activation.ActivationID)
+     * public abstract void java.rmi.activation.ActivationSystem.unregisterObject(java.rmi.activation.ActivationID)
+     * throws
      * java.rmi.activation.ActivationException,java.rmi.activation.UnknownObjectException,java.rmi.RemoteException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getActivationDesc_ActivationID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.rmi.activation.ActivationSystem#shutdown() public abstract void
-     * java.rmi.activation.ActivationSystem.shutdown() throws java.rmi.RemoteException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_shutdown()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.rmi.activation.ActivationSystem#setActivationDesc(java.rmi.activation.ActivationID,java.rmi.activation.ActivationDesc)
-     * public abstract java.rmi.activation.ActivationDesc
-     * java.rmi.activation.ActivationSystem.setActivationDesc(java.rmi.activation.ActivationID,java.rmi.activation.ActivationDesc)
-     * throws
-     * java.rmi.activation.ActivationException,java.rmi.activation.UnknownObjectException,java.rmi.activation.UnknownGroupException,java.rmi.RemoteException}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setActivationDesc_ActivationID_ActivationDesc()
+    public default void test_unregisterObject_ActivationID()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

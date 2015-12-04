@@ -55,22 +55,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.IIOByteBuffer#setData(byte[]) public void
-     * javax.imageio.stream.IIOByteBuffer.setData(byte[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setData_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.imageio.stream.IIOByteBuffer#getOffset() public int
      * javax.imageio.stream.IIOByteBuffer.getOffset()}.
      * </p>
@@ -87,14 +71,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.IIOByteBuffer#setOffset(int) public void
-     * javax.imageio.stream.IIOByteBuffer.setOffset(int)}.
+     * Test method for {@link javax.imageio.stream.IIOByteBuffer#setData(byte[]) public void
+     * javax.imageio.stream.IIOByteBuffer.setData(byte[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setOffset_int()
+    public default void test_setData_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -111,6 +95,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setLength_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.stream.IIOByteBuffer#setOffset(int) public void
+     * javax.imageio.stream.IIOByteBuffer.setOffset(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setOffset_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

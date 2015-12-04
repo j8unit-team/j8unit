@@ -24,48 +24,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#read(java.io.InputStream,javax.swing.text.Document,int) public
-     * abstract void javax.swing.text.EditorKit.read(java.io.InputStream,javax.swing.text.Document,int) throws
-     * java.io.IOException,javax.swing.text.BadLocationException}.
+     * Test method for {@link javax.swing.text.EditorKit#clone() public java.lang.Object
+     * javax.swing.text.EditorKit.clone()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_read_InputStream_Document_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.EditorKit#read(java.io.Reader,javax.swing.text.Document,int) public
-     * abstract void javax.swing.text.EditorKit.read(java.io.Reader,javax.swing.text.Document,int) throws
-     * java.io.IOException,javax.swing.text.BadLocationException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_Reader_Document_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.EditorKit#getViewFactory() public abstract javax.swing.text.ViewFactory
-     * javax.swing.text.EditorKit.getViewFactory()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getViewFactory()
+    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,14 +72,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#install(javax.swing.JEditorPane) public void
-     * javax.swing.text.EditorKit.install(javax.swing.JEditorPane)}.
+     * Test method for {@link javax.swing.text.EditorKit#deinstall(javax.swing.JEditorPane) public void
+     * javax.swing.text.EditorKit.deinstall(javax.swing.JEditorPane)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_install_JEditorPane()
+    public default void test_deinstall_JEditorPane()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -138,38 +104,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#deinstall(javax.swing.JEditorPane) public void
-     * javax.swing.text.EditorKit.deinstall(javax.swing.JEditorPane)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deinstall_JEditorPane()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.EditorKit#clone() public java.lang.Object
-     * javax.swing.text.EditorKit.clone()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.text.EditorKit#getContentType() public abstract java.lang.String
      * javax.swing.text.EditorKit.getContentType()}.
      * </p>
@@ -186,15 +120,64 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.EditorKit#write(java.io.Writer,javax.swing.text.Document,int,int) public
-     * abstract void javax.swing.text.EditorKit.write(java.io.Writer,javax.swing.text.Document,int,int) throws
+     * Test method for {@link javax.swing.text.EditorKit#getViewFactory() public abstract javax.swing.text.ViewFactory
+     * javax.swing.text.EditorKit.getViewFactory()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getViewFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.EditorKit#install(javax.swing.JEditorPane) public void
+     * javax.swing.text.EditorKit.install(javax.swing.JEditorPane)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_install_JEditorPane()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.EditorKit#read(java.io.InputStream,javax.swing.text.Document,int) public
+     * abstract void javax.swing.text.EditorKit.read(java.io.InputStream,javax.swing.text.Document,int) throws
      * java.io.IOException,javax.swing.text.BadLocationException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_Writer_Document_int_int()
+    public default void test_read_InputStream_Document_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.EditorKit#read(java.io.Reader,javax.swing.text.Document,int) public
+     * abstract void javax.swing.text.EditorKit.read(java.io.Reader,javax.swing.text.Document,int) throws
+     * java.io.IOException,javax.swing.text.BadLocationException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_read_Reader_Document_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -212,6 +195,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_write_OutputStream_Document_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.EditorKit#write(java.io.Writer,javax.swing.text.Document,int,int) public
+     * abstract void javax.swing.text.EditorKit.write(java.io.Writer,javax.swing.text.Document,int,int) throws
+     * java.io.IOException,javax.swing.text.BadLocationException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_Writer_Document_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

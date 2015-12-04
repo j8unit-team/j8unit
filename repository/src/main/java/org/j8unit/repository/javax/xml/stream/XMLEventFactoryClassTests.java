@@ -35,14 +35,39 @@ import org.junit.experimental.categories.Category;
 public abstract interface XMLEventFactoryClassTests<SUT extends Class<? extends javax.xml.stream.XMLEventFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLEventFactory#newFactory() public static
+     * javax.xml.stream.XMLEventFactory javax.xml.stream.XMLEventFactory.newFactory() throws
+     * javax.xml.stream.FactoryConfigurationError}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_newFactory()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.stream.XMLEventFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.stream.XMLEventFactory.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLEventFactory#newFactory(java.lang.String,java.lang.ClassLoader) public
+     * static javax.xml.stream.XMLEventFactory
+     * javax.xml.stream.XMLEventFactory.newFactory(java.lang.String,java.lang.ClassLoader) throws
+     * javax.xml.stream.FactoryConfigurationError}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newFactory_String_ClassLoader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -80,39 +105,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLEventFactory#newFactory(java.lang.String,java.lang.ClassLoader) public
-     * static javax.xml.stream.XMLEventFactory
-     * javax.xml.stream.XMLEventFactory.newFactory(java.lang.String,java.lang.ClassLoader) throws
-     * javax.xml.stream.FactoryConfigurationError}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_newFactory_String_ClassLoader()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLEventFactory#newFactory() public static
-     * javax.xml.stream.XMLEventFactory javax.xml.stream.XMLEventFactory.newFactory() throws
-     * javax.xml.stream.FactoryConfigurationError}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.xml.stream.XMLEventFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.stream.XMLEventFactory.class.isAssignableFrom(sut));
     }
 
 }

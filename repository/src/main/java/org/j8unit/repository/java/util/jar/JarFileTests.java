@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.util.zip.ZipFileTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.util.jar.JarFile#entries() public java.util.Enumeration
+     * java.util.jar.JarFile.entries()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_entries()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.jar.JarFile#getEntry(java.lang.String) public java.util.zip.ZipEntry
      * java.util.jar.JarFile.getEntry(java.lang.String)}.
      * </p>
@@ -57,15 +74,14 @@ extends org.j8unit.repository.java.util.zip.ZipFileTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.jar.JarFile#entries() public java.util.Enumeration
-     * java.util.jar.JarFile.entries()}.
+     * Test method for {@link java.util.jar.JarFile#getJarEntry(java.lang.String) public java.util.jar.JarEntry
+     * java.util.jar.JarFile.getJarEntry(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_entries()
+    public default void test_getJarEntry_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -82,22 +98,6 @@ extends org.j8unit.repository.java.util.zip.ZipFileTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getManifest()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.jar.JarFile#getJarEntry(java.lang.String) public java.util.jar.JarEntry
-     * java.util.jar.JarFile.getJarEntry(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getJarEntry_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

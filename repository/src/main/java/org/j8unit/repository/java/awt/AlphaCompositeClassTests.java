@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface AlphaCompositeClassTests<SUT extends Class<? extends java.awt.AlphaComposite>>
 extends org.j8unit.repository.java.awt.CompositeClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.AlphaComposite> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.AlphaComposite.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.awt.AlphaComposite#getInstance(int) public static java.awt.AlphaComposite
@@ -75,6 +65,16 @@ extends org.j8unit.repository.java.awt.CompositeClassTests<SUT>, org.j8unit.repo
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.AlphaComposite> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.AlphaComposite.class.isAssignableFrom(sut));
     }
 
 }

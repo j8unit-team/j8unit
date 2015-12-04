@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.TreeModelEvent#getChildren() public java.lang.Object[]
-     * javax.swing.event.TreeModelEvent.getChildren()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChildren()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.event.TreeModelEvent#getChildIndices() public int[]
      * javax.swing.event.TreeModelEvent.getChildIndices()}.
      * </p>
@@ -55,15 +39,14 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.TreeModelEvent#toString() public java.lang.String
-     * javax.swing.event.TreeModelEvent.toString()}.
+     * Test method for {@link javax.swing.event.TreeModelEvent#getChildren() public java.lang.Object[]
+     * javax.swing.event.TreeModelEvent.getChildren()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getChildren()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -96,6 +79,23 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getTreePath()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.event.TreeModelEvent#toString() public java.lang.String
+     * javax.swing.event.TreeModelEvent.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

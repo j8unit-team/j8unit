@@ -24,14 +24,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicStampedReference#set(java.lang.Object,int) public void
-     * java.util.concurrent.atomic.AtomicStampedReference.set(java.lang.Object,int)}.
+     * Test method for {@link java.util.concurrent.atomic.AtomicStampedReference#attemptStamp(java.lang.Object,int)
+     * public boolean java.util.concurrent.atomic.AtomicStampedReference.attemptStamp(java.lang.Object,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_set_Object_int()
+    public default void test_attemptStamp_Object_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -50,40 +50,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_compareAndSet_Object_Object_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicStampedReference#weakCompareAndSet(java.lang.Object,java.lang.Object,int,int)
-     * public boolean
-     * java.util.concurrent.atomic.AtomicStampedReference.weakCompareAndSet(java.lang.Object,java.lang.Object,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_weakCompareAndSet_Object_Object_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicStampedReference#getStamp() public int
-     * java.util.concurrent.atomic.AtomicStampedReference.getStamp()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getStamp()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -124,14 +90,48 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicStampedReference#attemptStamp(java.lang.Object,int)
-     * public boolean java.util.concurrent.atomic.AtomicStampedReference.attemptStamp(java.lang.Object,int)}.
+     * Test method for {@link java.util.concurrent.atomic.AtomicStampedReference#getStamp() public int
+     * java.util.concurrent.atomic.AtomicStampedReference.getStamp()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_attemptStamp_Object_int()
+    public default void test_getStamp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicStampedReference#set(java.lang.Object,int) public void
+     * java.util.concurrent.atomic.AtomicStampedReference.set(java.lang.Object,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_set_Object_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.atomic.AtomicStampedReference#weakCompareAndSet(java.lang.Object,java.lang.Object,int,int)
+     * public boolean
+     * java.util.concurrent.atomic.AtomicStampedReference.weakCompareAndSet(java.lang.Object,java.lang.Object,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_weakCompareAndSet_Object_Object_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

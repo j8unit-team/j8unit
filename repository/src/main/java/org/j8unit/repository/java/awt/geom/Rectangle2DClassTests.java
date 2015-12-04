@@ -35,53 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface Rectangle2DClassTests<SUT extends Class<? extends java.awt.geom.Rectangle2D>>
 extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.geom.Rectangle2D> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.geom.Rectangle2D.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.geom.Rectangle2D#intersect(java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D)
-     * public static void
-     * java.awt.geom.Rectangle2D.intersect(java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_intersect_Rectangle2D_Rectangle2D_Rectangle2D()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.geom.Rectangle2D#union(java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D)
-     * public static void
-     * java.awt.geom.Rectangle2D.union(java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_union_Rectangle2D_Rectangle2D_Rectangle2D()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test class for {@link java.awt.geom.Rectangle2D$Double class java.awt.geom.Rectangle2D$Double}, containing all
@@ -216,6 +169,53 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
             assertTrue(java.awt.geom.Rectangle2D.Float.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.geom.Rectangle2D#intersect(java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D)
+     * public static void
+     * java.awt.geom.Rectangle2D.intersect(java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_intersect_Rectangle2D_Rectangle2D_Rectangle2D()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.geom.Rectangle2D#union(java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D)
+     * public static void
+     * java.awt.geom.Rectangle2D.union(java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D,java.awt.geom.Rectangle2D)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_union_Rectangle2D_Rectangle2D_Rectangle2D()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.geom.Rectangle2D> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.geom.Rectangle2D.class.isAssignableFrom(sut));
     }
 
 }

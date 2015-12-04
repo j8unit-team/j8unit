@@ -24,14 +24,63 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLabel#setVerticalAlignment(int) public void
-     * javax.swing.JLabel.setVerticalAlignment(int)}.
+     * Test method for {@link javax.swing.JLabel#getAccessibleContext() public javax.accessibility.AccessibleContext
+     * javax.swing.JLabel.getAccessibleContext()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setVerticalAlignment_int()
+    @Override
+    public default void test_getAccessibleContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLabel#getDisabledIcon() public javax.swing.Icon
+     * javax.swing.JLabel.getDisabledIcon()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDisabledIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLabel#getDisplayedMnemonic() public int
+     * javax.swing.JLabel.getDisplayedMnemonic()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDisplayedMnemonic()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLabel#getDisplayedMnemonicIndex() public int
+     * javax.swing.JLabel.getDisplayedMnemonicIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDisplayedMnemonicIndex()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,14 +105,14 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLabel#setUI(javax.swing.plaf.LabelUI) public void
-     * javax.swing.JLabel.setUI(javax.swing.plaf.LabelUI)}.
+     * Test method for {@link javax.swing.JLabel#getHorizontalTextPosition() public int
+     * javax.swing.JLabel.getHorizontalTextPosition()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setUI_LabelUI()
+    public default void test_getHorizontalTextPosition()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +121,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLabel#getVerticalAlignment() public int
-     * javax.swing.JLabel.getVerticalAlignment()}.
+     * Test method for {@link javax.swing.JLabel#getIcon() public javax.swing.Icon javax.swing.JLabel.getIcon()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getVerticalAlignment()
+    public default void test_getIcon()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,125 +136,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLabel#setIcon(javax.swing.Icon) public void
-     * javax.swing.JLabel.setIcon(javax.swing.Icon)}.
+     * Test method for {@link javax.swing.JLabel#getIconTextGap() public int javax.swing.JLabel.getIconTextGap()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setIcon_Icon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLabel#setVerticalTextPosition(int) public void
-     * javax.swing.JLabel.setVerticalTextPosition(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setVerticalTextPosition_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLabel#getUI() public javax.swing.plaf.LabelUI javax.swing.JLabel.getUI()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLabel#setText(java.lang.String) public void
-     * javax.swing.JLabel.setText(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setText_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLabel#setHorizontalAlignment(int) public void
-     * javax.swing.JLabel.setHorizontalAlignment(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setHorizontalAlignment_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLabel#setIconTextGap(int) public void javax.swing.JLabel.setIconTextGap(int)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setIconTextGap_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLabel#setLabelFor(java.awt.Component) public void
-     * javax.swing.JLabel.setLabelFor(java.awt.Component)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLabelFor_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLabel#setDisabledIcon(javax.swing.Icon) public void
-     * javax.swing.JLabel.setDisabledIcon(javax.swing.Icon)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDisabledIcon_Icon()
+    public default void test_getIconTextGap()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -246,13 +182,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLabel#getIcon() public javax.swing.Icon javax.swing.JLabel.getIcon()}.
+     * Test method for {@link javax.swing.JLabel#getUI() public javax.swing.plaf.LabelUI javax.swing.JLabel.getUI()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getIcon()
+    public default void test_getUI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -261,15 +197,80 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLabel#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JLabel.getAccessibleContext()}.
+     * Test method for {@link javax.swing.JLabel#getUIClassID() public java.lang.String
+     * javax.swing.JLabel.getUIClassID()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAccessibleContext()
+    public default void test_getUIClassID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLabel#getVerticalAlignment() public int
+     * javax.swing.JLabel.getVerticalAlignment()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVerticalAlignment()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLabel#getVerticalTextPosition() public int
+     * javax.swing.JLabel.getVerticalTextPosition()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVerticalTextPosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLabel#imageUpdate(java.awt.Image,int,int,int,int,int) public boolean
+     * javax.swing.JLabel.imageUpdate(java.awt.Image,int,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_imageUpdate_Image_int_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLabel#setDisabledIcon(javax.swing.Icon) public void
+     * javax.swing.JLabel.setDisabledIcon(javax.swing.Icon)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDisabledIcon_Icon()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -310,14 +311,14 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLabel#getDisabledIcon() public javax.swing.Icon
-     * javax.swing.JLabel.getDisabledIcon()}.
+     * Test method for {@link javax.swing.JLabel#setDisplayedMnemonicIndex(int) public void
+     * javax.swing.JLabel.setDisplayedMnemonicIndex(int) throws java.lang.IllegalArgumentException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDisabledIcon()
+    public default void test_setDisplayedMnemonicIndex_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -326,78 +327,14 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLabel#getVerticalTextPosition() public int
-     * javax.swing.JLabel.getVerticalTextPosition()}.
+     * Test method for {@link javax.swing.JLabel#setHorizontalAlignment(int) public void
+     * javax.swing.JLabel.setHorizontalAlignment(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getVerticalTextPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLabel#getIconTextGap() public int javax.swing.JLabel.getIconTextGap()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIconTextGap()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLabel#getHorizontalTextPosition() public int
-     * javax.swing.JLabel.getHorizontalTextPosition()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHorizontalTextPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLabel#getDisplayedMnemonicIndex() public int
-     * javax.swing.JLabel.getDisplayedMnemonicIndex()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDisplayedMnemonicIndex()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLabel#imageUpdate(java.awt.Image,int,int,int,int,int) public boolean
-     * javax.swing.JLabel.imageUpdate(java.awt.Image,int,int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_imageUpdate_Image_int_int_int_int_int()
+    public default void test_setHorizontalAlignment_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -422,14 +359,14 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLabel#getDisplayedMnemonic() public int
-     * javax.swing.JLabel.getDisplayedMnemonic()}.
+     * Test method for {@link javax.swing.JLabel#setIcon(javax.swing.Icon) public void
+     * javax.swing.JLabel.setIcon(javax.swing.Icon)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDisplayedMnemonic()
+    public default void test_setIcon_Icon()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -438,15 +375,14 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLabel#getUIClassID() public java.lang.String
-     * javax.swing.JLabel.getUIClassID()}.
+     * Test method for {@link javax.swing.JLabel#setIconTextGap(int) public void javax.swing.JLabel.setIconTextGap(int)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getUIClassID()
+    public default void test_setIconTextGap_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -455,14 +391,78 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLabel#setDisplayedMnemonicIndex(int) public void
-     * javax.swing.JLabel.setDisplayedMnemonicIndex(int) throws java.lang.IllegalArgumentException}.
+     * Test method for {@link javax.swing.JLabel#setLabelFor(java.awt.Component) public void
+     * javax.swing.JLabel.setLabelFor(java.awt.Component)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDisplayedMnemonicIndex_int()
+    public default void test_setLabelFor_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLabel#setText(java.lang.String) public void
+     * javax.swing.JLabel.setText(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setText_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLabel#setUI(javax.swing.plaf.LabelUI) public void
+     * javax.swing.JLabel.setUI(javax.swing.plaf.LabelUI)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setUI_LabelUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLabel#setVerticalAlignment(int) public void
+     * javax.swing.JLabel.setVerticalAlignment(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setVerticalAlignment_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLabel#setVerticalTextPosition(int) public void
+     * javax.swing.JLabel.setVerticalTextPosition(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setVerticalTextPosition_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,16 +36,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 org.j8unit.repository.java.lang.reflect.TypeClassTests<SUT>, org.j8unit.repository.java.lang.reflect.AnnotatedElementClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.lang.Class<T>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.Class.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.lang.Class#forName(java.lang.String) public static java.lang.Class
@@ -77,6 +67,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.lang.Class<T>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.Class.class.isAssignableFrom(sut));
     }
 
 }

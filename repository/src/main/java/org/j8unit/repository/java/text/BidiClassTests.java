@@ -35,20 +35,6 @@ public abstract interface BidiClassTests<SUT extends Class<? extends java.text.B
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.text.Bidi#Bidi(char[],int,byte[],int,int,int) public
-     * java.text.Bidi(char[],int,byte[],int,int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Bidi_charArray_int_byteArray_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.text.Bidi sut = null; // = new Bidi(char[],int,byte[],int,int,int);
-    }
-
-    /**
      * Test method for {@link java.text.Bidi#Bidi(java.text.AttributedCharacterIterator) public
      * java.text.Bidi(java.text.AttributedCharacterIterator)}.
      */
@@ -63,6 +49,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
+     * Test method for {@link java.text.Bidi#Bidi(char[],int,byte[],int,int,int) public
+     * java.text.Bidi(char[],int,byte[],int,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Bidi_charArray_int_byteArray_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.text.Bidi sut = null; // = new Bidi(char[],int,byte[],int,int,int);
+    }
+
+    /**
      * Test method for {@link java.text.Bidi#Bidi(java.lang.String,int) public java.text.Bidi(java.lang.String,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -73,16 +73,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.text.Bidi sut = null; // = new Bidi(java.lang.String,int);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.text.Bidi> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.text.Bidi.class.isAssignableFrom(sut));
     }
 
     /**
@@ -115,6 +105,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.text.Bidi> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.text.Bidi.class.isAssignableFrom(sut));
     }
 
 }

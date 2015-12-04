@@ -23,15 +23,74 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.metal.MetalFileChooserUI.uninstallUI(javax.swing.JComponent)}.
+     * Test class for {@link javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer class
+     * javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer}, containing all instance relevant test methods
+     * (i.&thinsp;e., test methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassTests.FilterComboBoxRendererClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface FilterComboBoxRendererTests<SUT extends javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxRenderer>
+    extends org.j8unit.repository.javax.swing.DefaultListCellRendererTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxRenderer#getListCellRendererComponent(javax.swing.JList,java.lang.Object,int,boolean,boolean)
+         * public java.awt.Component
+         * javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer.getListCellRendererComponent(javax.swing.JList,java.lang.Object,int,boolean,boolean)}
+         * .
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        @Override
+        public default void test_getListCellRendererComponent_JList_Object_int_boolean_boolean()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#createListSelectionListener(javax.swing.JFileChooser) public
+     * javax.swing.event.ListSelectionListener
+     * javax.swing.plaf.metal.MetalFileChooserUI.createListSelectionListener(javax.swing.JFileChooser)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_uninstallUI_JComponent()
+    public default void test_createListSelectionListener_JFileChooser()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.metal.MetalFileChooserUI#createPropertyChangeListener(javax.swing.JFileChooser) public
+     * java.beans.PropertyChangeListener
+     * javax.swing.plaf.metal.MetalFileChooserUI.createPropertyChangeListener(javax.swing.JFileChooser)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createPropertyChangeListener_JFileChooser()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -59,6 +118,23 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#getDirectoryName() public java.lang.String
+     * javax.swing.plaf.metal.MetalFileChooserUI.getDirectoryName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getDirectoryName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#getFileName() public java.lang.String
      * javax.swing.plaf.metal.MetalFileChooserUI.getFileName()}.
      * </p>
@@ -76,32 +152,15 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#installComponents(javax.swing.JFileChooser)
-     * public void javax.swing.plaf.metal.MetalFileChooserUI.installComponents(javax.swing.JFileChooser)}.
+     * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#getMaximumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.metal.MetalFileChooserUI.getMaximumSize(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_installComponents_JFileChooser()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#setFileName(java.lang.String) public void
-     * javax.swing.plaf.metal.MetalFileChooserUI.setFileName(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setFileName_String()
+    public default void test_getMaximumSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -144,6 +203,23 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#installComponents(javax.swing.JFileChooser)
+     * public void javax.swing.plaf.metal.MetalFileChooserUI.installComponents(javax.swing.JFileChooser)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_installComponents_JFileChooser()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#installUI(javax.swing.JComponent) public void
      * javax.swing.plaf.metal.MetalFileChooserUI.installUI(javax.swing.JComponent)}.
      * </p>
@@ -153,78 +229,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
     @Category(Draft.class)
     @Override
     public default void test_installUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.metal.MetalFileChooserUI#createPropertyChangeListener(javax.swing.JFileChooser) public
-     * java.beans.PropertyChangeListener
-     * javax.swing.plaf.metal.MetalFileChooserUI.createPropertyChangeListener(javax.swing.JFileChooser)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createPropertyChangeListener_JFileChooser()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#setDirectoryName(java.lang.String) public void
-     * javax.swing.plaf.metal.MetalFileChooserUI.setDirectoryName(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setDirectoryName_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.metal.MetalFileChooserUI#createListSelectionListener(javax.swing.JFileChooser) public
-     * javax.swing.event.ListSelectionListener
-     * javax.swing.plaf.metal.MetalFileChooserUI.createListSelectionListener(javax.swing.JFileChooser)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createListSelectionListener_JFileChooser()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#uninstallComponents(javax.swing.JFileChooser)
-     * public void javax.swing.plaf.metal.MetalFileChooserUI.uninstallComponents(javax.swing.JFileChooser)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_uninstallComponents_JFileChooser()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -250,15 +254,66 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#getDirectoryName() public java.lang.String
-     * javax.swing.plaf.metal.MetalFileChooserUI.getDirectoryName()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#setDirectoryName(java.lang.String) public void
+     * javax.swing.plaf.metal.MetalFileChooserUI.setDirectoryName(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getDirectoryName()
+    public default void test_setDirectoryName_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#setFileName(java.lang.String) public void
+     * javax.swing.plaf.metal.MetalFileChooserUI.setFileName(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setFileName_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#uninstallComponents(javax.swing.JFileChooser)
+     * public void javax.swing.plaf.metal.MetalFileChooserUI.uninstallComponents(javax.swing.JFileChooser)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_uninstallComponents_JFileChooser()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.metal.MetalFileChooserUI.uninstallUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_uninstallUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -280,61 +335,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUITests<SUT
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalFileChooserUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.metal.MetalFileChooserUI.getMaximumSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMaximumSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test class for {@link javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer class
-     * javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUIClassTests.FilterComboBoxRendererClassTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface FilterComboBoxRendererTests<SUT extends javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxRenderer>
-    extends org.j8unit.repository.javax.swing.DefaultListCellRendererTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxRenderer#getListCellRendererComponent(javax.swing.JList,java.lang.Object,int,boolean,boolean)
-         * public java.awt.Component
-         * javax.swing.plaf.metal.MetalFileChooserUI$FilterComboBoxRenderer.getListCellRendererComponent(javax.swing.JList,java.lang.Object,int,boolean,boolean)}
-         * .
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_getListCellRendererComponent_JList_Object_int_boolean_boolean()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
     }
 
 }

@@ -35,27 +35,17 @@ import org.junit.experimental.categories.Category;
 public abstract interface SecretKeyFactoryClassTests<SUT extends Class<? extends javax.crypto.SecretKeyFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.crypto.SecretKeyFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.crypto.SecretKeyFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link javax.crypto.SecretKeyFactory#getInstance(java.lang.String,java.lang.String) public static
-     * final javax.crypto.SecretKeyFactory javax.crypto.SecretKeyFactory.getInstance(java.lang.String,java.lang.String)
-     * throws java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
+     * Test method for {@link javax.crypto.SecretKeyFactory#getInstance(java.lang.String) public static final
+     * javax.crypto.SecretKeyFactory javax.crypto.SecretKeyFactory.getInstance(java.lang.String) throws
+     * java.security.NoSuchAlgorithmException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInstance_String_String()
+    public default void test_getInstance_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -82,19 +72,29 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.SecretKeyFactory#getInstance(java.lang.String) public static final
-     * javax.crypto.SecretKeyFactory javax.crypto.SecretKeyFactory.getInstance(java.lang.String) throws
-     * java.security.NoSuchAlgorithmException}.
+     * Test method for {@link javax.crypto.SecretKeyFactory#getInstance(java.lang.String,java.lang.String) public static
+     * final javax.crypto.SecretKeyFactory javax.crypto.SecretKeyFactory.getInstance(java.lang.String,java.lang.String)
+     * throws java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInstance_String()
+    public default void test_getInstance_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.crypto.SecretKeyFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.crypto.SecretKeyFactory.class.isAssignableFrom(sut));
     }
 
 }

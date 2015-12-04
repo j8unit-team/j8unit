@@ -37,16 +37,6 @@ extends org.j8unit.repository.java.time.chrono.ChronoLocalDateClassTests<SUT>, o
 org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.chrono.ThaiBuddhistDate> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.chrono.ThaiBuddhistDate.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.time.chrono.ThaiBuddhistDate#from(java.time.temporal.TemporalAccessor) public static
@@ -58,38 +48,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_from_TemporalAccessor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.ThaiBuddhistDate#of(int,int,int) public static
-     * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistDate.of(int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.ThaiBuddhistDate#now(java.time.Clock) public static
-     * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistDate.now(java.time.Clock)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_now_Clock()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -114,6 +72,22 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.time.chrono.ThaiBuddhistDate#now(java.time.Clock) public static
+     * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistDate.now(java.time.Clock)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_now_Clock()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.time.chrono.ThaiBuddhistDate#now(java.time.ZoneId) public static
      * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistDate.now(java.time.ZoneId)}.
      * </p>
@@ -126,6 +100,32 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.chrono.ThaiBuddhistDate#of(int,int,int) public static
+     * java.time.chrono.ThaiBuddhistDate java.time.chrono.ThaiBuddhistDate.of(int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.chrono.ThaiBuddhistDate> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.chrono.ThaiBuddhistDate.class.isAssignableFrom(sut));
     }
 
 }

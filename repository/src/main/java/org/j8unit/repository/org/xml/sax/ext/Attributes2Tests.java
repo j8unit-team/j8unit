@@ -23,14 +23,14 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ext.Attributes2#isDeclared(java.lang.String,java.lang.String) public abstract
-     * boolean org.xml.sax.ext.Attributes2.isDeclared(java.lang.String,java.lang.String)}.
+     * Test method for {@link org.xml.sax.ext.Attributes2#isDeclared(int) public abstract boolean
+     * org.xml.sax.ext.Attributes2.isDeclared(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDeclared_String_String()
+    public default void test_isDeclared_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,30 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ext.Attributes2#isDeclared(int) public abstract boolean
-     * org.xml.sax.ext.Attributes2.isDeclared(int)}.
+     * Test method for {@link org.xml.sax.ext.Attributes2#isDeclared(java.lang.String,java.lang.String) public abstract
+     * boolean org.xml.sax.ext.Attributes2.isDeclared(java.lang.String,java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDeclared_int()
+    public default void test_isDeclared_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.ext.Attributes2#isSpecified(int) public abstract boolean
+     * org.xml.sax.ext.Attributes2.isSpecified(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSpecified_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -95,22 +111,6 @@ extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isSpecified_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.ext.Attributes2#isSpecified(int) public abstract boolean
-     * org.xml.sax.ext.Attributes2.isSpecified(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSpecified_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

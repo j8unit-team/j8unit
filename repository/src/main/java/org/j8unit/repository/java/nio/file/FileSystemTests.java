@@ -40,30 +40,14 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.FileSystem#newWatchService() public abstract java.nio.file.WatchService
-     * java.nio.file.FileSystem.newWatchService() throws java.io.IOException}.
+     * Test method for {@link java.nio.file.FileSystem#getFileStores() public abstract java.lang.Iterable
+     * java.nio.file.FileSystem.getFileStores()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newWatchService()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.FileSystem#getUserPrincipalLookupService() public abstract
-     * java.nio.file.attribute.UserPrincipalLookupService java.nio.file.FileSystem.getUserPrincipalLookupService()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUserPrincipalLookupService()
+    public default void test_getFileStores()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -80,6 +64,22 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_getPath_String_StringArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.FileSystem#getPathMatcher(java.lang.String) public abstract
+     * java.nio.file.PathMatcher java.nio.file.FileSystem.getPathMatcher(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPathMatcher_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,14 +120,14 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.FileSystem#getPathMatcher(java.lang.String) public abstract
-     * java.nio.file.PathMatcher java.nio.file.FileSystem.getPathMatcher(java.lang.String)}.
+     * Test method for {@link java.nio.file.FileSystem#getUserPrincipalLookupService() public abstract
+     * java.nio.file.attribute.UserPrincipalLookupService java.nio.file.FileSystem.getUserPrincipalLookupService()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPathMatcher_String()
+    public default void test_getUserPrincipalLookupService()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -136,46 +136,14 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.FileSystem#supportedFileAttributeViews() public abstract java.util.Set
-     * java.nio.file.FileSystem.supportedFileAttributeViews()}.
+     * Test method for {@link java.nio.file.FileSystem#isOpen() public abstract boolean
+     * java.nio.file.FileSystem.isOpen()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_supportedFileAttributeViews()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.FileSystem#provider() public abstract java.nio.file.spi.FileSystemProvider
-     * java.nio.file.FileSystem.provider()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_provider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.FileSystem#getFileStores() public abstract java.lang.Iterable
-     * java.nio.file.FileSystem.getFileStores()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFileStores()
+    public default void test_isOpen()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -200,14 +168,46 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.FileSystem#isOpen() public abstract boolean
-     * java.nio.file.FileSystem.isOpen()}.
+     * Test method for {@link java.nio.file.FileSystem#newWatchService() public abstract java.nio.file.WatchService
+     * java.nio.file.FileSystem.newWatchService() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isOpen()
+    public default void test_newWatchService()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.FileSystem#provider() public abstract java.nio.file.spi.FileSystemProvider
+     * java.nio.file.FileSystem.provider()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_provider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.FileSystem#supportedFileAttributeViews() public abstract java.util.Set
+     * java.nio.file.FileSystem.supportedFileAttributeViews()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_supportedFileAttributeViews()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

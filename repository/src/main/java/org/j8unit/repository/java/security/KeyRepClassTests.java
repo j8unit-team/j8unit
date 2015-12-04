@@ -35,32 +35,6 @@ public abstract interface KeyRepClassTests<SUT extends Class<? extends java.secu
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.security.KeyRep#KeyRep(java.security.KeyRep.Type,java.lang.String,java.lang.String,byte[]) public
-     * java.security.KeyRep(java.security.KeyRep$Type,java.lang.String,java.lang.String,byte[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_KeyRep_Type_String_String_byteArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.KeyRep sut = null; // = new
-                                               // KeyRep(java.security.KeyRep.Type,java.lang.String,java.lang.String,byte[]);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.security.KeyRep> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.KeyRep.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link java.security.KeyRep$Type class java.security.KeyRep$Type}, containing all class relevant
      * test methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
@@ -89,14 +63,20 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     public static abstract interface TypeClassTests<SUT extends Class<? extends java.security.KeyRep.Type>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.KeyRep.Type> {
 
-        @Override
+        /**
+         * <p>
+         * Test method for {@link java.security.KeyRep.Type#valueOf(java.lang.String) public static
+         * java.security.KeyRep$Type java.security.KeyRep$Type.valueOf(java.lang.String)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @Category(Draft.class)
+        public default void test_valueOf_String()
         throws Exception {
-            // create new instance
-            final Class<? extends java.security.KeyRep.Type> sut = createNewSUT();
-            // assert assignability
-            assertTrue(java.security.KeyRep.Type.class.isAssignableFrom(sut));
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
         }
 
         /**
@@ -115,22 +95,42 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for {@link java.security.KeyRep.Type#valueOf(java.lang.String) public static
-         * java.security.KeyRep$Type java.security.KeyRep$Type.valueOf(java.lang.String)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
+        public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
+            // create new instance
+            final Class<? extends java.security.KeyRep.Type> sut = createNewSUT();
+            // assert assignability
+            assertTrue(java.security.KeyRep.Type.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for
+     * {@link java.security.KeyRep#KeyRep(java.security.KeyRep.Type,java.lang.String,java.lang.String,byte[]) public
+     * java.security.KeyRep(java.security.KeyRep$Type,java.lang.String,java.lang.String,byte[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_KeyRep_Type_String_String_byteArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.KeyRep sut = null; // = new
+                                               // KeyRep(java.security.KeyRep.Type,java.lang.String,java.lang.String,byte[]);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.security.KeyRep> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.KeyRep.class.isAssignableFrom(sut));
     }
 
 }

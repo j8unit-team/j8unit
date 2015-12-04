@@ -23,66 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFactory#createName(java.lang.String,java.lang.String,java.lang.String)
-     * public abstract javax.xml.soap.Name
-     * javax.xml.soap.SOAPFactory.createName(java.lang.String,java.lang.String,java.lang.String) throws
-     * javax.xml.soap.SOAPException}.
+     * Test method for {@link javax.xml.soap.SOAPFactory#createDetail() public abstract javax.xml.soap.Detail
+     * javax.xml.soap.SOAPFactory.createDetail() throws javax.xml.soap.SOAPException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createName_String_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFactory#createName(java.lang.String) public abstract
-     * javax.xml.soap.Name javax.xml.soap.SOAPFactory.createName(java.lang.String) throws javax.xml.soap.SOAPException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createName_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFactory#createFault(java.lang.String,javax.xml.namespace.QName) public
-     * abstract javax.xml.soap.SOAPFault
-     * javax.xml.soap.SOAPFactory.createFault(java.lang.String,javax.xml.namespace.QName) throws
-     * javax.xml.soap.SOAPException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createFault_String_QName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPFactory#createFault() public abstract javax.xml.soap.SOAPFault
-     * javax.xml.soap.SOAPFactory.createFault() throws javax.xml.soap.SOAPException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createFault()
+    public default void test_createDetail()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -125,17 +73,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.xml.soap.SOAPFactory#createElement(java.lang.String,java.lang.String,java.lang.String) public
-     * abstract javax.xml.soap.SOAPElement
-     * javax.xml.soap.SOAPFactory.createElement(java.lang.String,java.lang.String,java.lang.String) throws
+     * Test method for {@link javax.xml.soap.SOAPFactory#createElement(javax.xml.namespace.QName) public
+     * javax.xml.soap.SOAPElement javax.xml.soap.SOAPFactory.createElement(javax.xml.namespace.QName) throws
      * javax.xml.soap.SOAPException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createElement_String_String_String()
+    public default void test_createElement_QName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -161,15 +107,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFactory#createElement(javax.xml.namespace.QName) public
-     * javax.xml.soap.SOAPElement javax.xml.soap.SOAPFactory.createElement(javax.xml.namespace.QName) throws
+     * Test method for
+     * {@link javax.xml.soap.SOAPFactory#createElement(java.lang.String,java.lang.String,java.lang.String) public
+     * abstract javax.xml.soap.SOAPElement
+     * javax.xml.soap.SOAPFactory.createElement(java.lang.String,java.lang.String,java.lang.String) throws
      * javax.xml.soap.SOAPException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createElement_QName()
+    public default void test_createElement_String_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -178,14 +126,66 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPFactory#createDetail() public abstract javax.xml.soap.Detail
-     * javax.xml.soap.SOAPFactory.createDetail() throws javax.xml.soap.SOAPException}.
+     * Test method for {@link javax.xml.soap.SOAPFactory#createFault() public abstract javax.xml.soap.SOAPFault
+     * javax.xml.soap.SOAPFactory.createFault() throws javax.xml.soap.SOAPException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createDetail()
+    public default void test_createFault()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPFactory#createFault(java.lang.String,javax.xml.namespace.QName) public
+     * abstract javax.xml.soap.SOAPFault
+     * javax.xml.soap.SOAPFactory.createFault(java.lang.String,javax.xml.namespace.QName) throws
+     * javax.xml.soap.SOAPException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createFault_String_QName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPFactory#createName(java.lang.String) public abstract
+     * javax.xml.soap.Name javax.xml.soap.SOAPFactory.createName(java.lang.String) throws javax.xml.soap.SOAPException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createName_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPFactory#createName(java.lang.String,java.lang.String,java.lang.String)
+     * public abstract javax.xml.soap.Name
+     * javax.xml.soap.SOAPFactory.createName(java.lang.String,java.lang.String,java.lang.String) throws
+     * javax.xml.soap.SOAPException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createName_String_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

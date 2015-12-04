@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link javax.management.relation.RoleInfo#checkMaxDegree(int) public boolean
+     * javax.management.relation.RoleInfo.checkMaxDegree(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_checkMaxDegree_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.relation.RoleInfo#checkMinDegree(int) public boolean
      * javax.management.relation.RoleInfo.checkMinDegree(int)}.
      * </p>
@@ -31,54 +47,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_checkMinDegree_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.RoleInfo#getRefMBeanClassName() public java.lang.String
-     * javax.management.relation.RoleInfo.getRefMBeanClassName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRefMBeanClassName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.RoleInfo#getName() public java.lang.String
-     * javax.management.relation.RoleInfo.getName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.RoleInfo#isWritable() public boolean
-     * javax.management.relation.RoleInfo.isWritable()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isWritable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +71,62 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RoleInfo#checkMaxDegree(int) public boolean
-     * javax.management.relation.RoleInfo.checkMaxDegree(int)}.
+     * Test method for {@link javax.management.relation.RoleInfo#getMaxDegree() public int
+     * javax.management.relation.RoleInfo.getMaxDegree()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_checkMaxDegree_int()
+    public default void test_getMaxDegree()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.RoleInfo#getMinDegree() public int
+     * javax.management.relation.RoleInfo.getMinDegree()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMinDegree()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.RoleInfo#getName() public java.lang.String
+     * javax.management.relation.RoleInfo.getName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.RoleInfo#getRefMBeanClassName() public java.lang.String
+     * javax.management.relation.RoleInfo.getRefMBeanClassName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRefMBeanClassName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,14 +151,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RoleInfo#getMaxDegree() public int
-     * javax.management.relation.RoleInfo.getMaxDegree()}.
+     * Test method for {@link javax.management.relation.RoleInfo#isWritable() public boolean
+     * javax.management.relation.RoleInfo.isWritable()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMaxDegree()
+    public default void test_isWritable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -160,22 +176,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Category(Draft.class)
     @Override
     public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.RoleInfo#getMinDegree() public int
-     * javax.management.relation.RoleInfo.getMinDegree()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinDegree()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

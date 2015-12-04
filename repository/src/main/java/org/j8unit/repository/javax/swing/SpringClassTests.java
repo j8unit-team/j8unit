@@ -34,32 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface SpringClassTests<SUT extends Class<? extends javax.swing.Spring>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.Spring> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.Spring.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.Spring#max(javax.swing.Spring,javax.swing.Spring) public static
-     * javax.swing.Spring javax.swing.Spring.max(javax.swing.Spring,javax.swing.Spring)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_max_Spring_Spring()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.Spring#constant(int) public static javax.swing.Spring
@@ -94,6 +68,38 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.Spring#height(java.awt.Component) public static javax.swing.Spring
+     * javax.swing.Spring.height(java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_height_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.Spring#max(javax.swing.Spring,javax.swing.Spring) public static
+     * javax.swing.Spring javax.swing.Spring.max(javax.swing.Spring,javax.swing.Spring)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_max_Spring_Spring()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.Spring#minus(javax.swing.Spring) public static javax.swing.Spring
      * javax.swing.Spring.minus(javax.swing.Spring)}.
      * </p>
@@ -110,14 +116,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Spring#height(java.awt.Component) public static javax.swing.Spring
-     * javax.swing.Spring.height(java.awt.Component)}.
+     * Test method for {@link javax.swing.Spring#scale(javax.swing.Spring,float) public static javax.swing.Spring
+     * javax.swing.Spring.scale(javax.swing.Spring,float)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_height_Component()
+    public default void test_scale_Spring_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -156,20 +162,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.Spring#scale(javax.swing.Spring,float) public static javax.swing.Spring
-     * javax.swing.Spring.scale(javax.swing.Spring,float)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_scale_Spring_float()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.swing.Spring> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.Spring.class.isAssignableFrom(sut));
     }
 
 }

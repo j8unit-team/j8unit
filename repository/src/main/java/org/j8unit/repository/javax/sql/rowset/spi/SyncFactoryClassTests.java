@@ -35,93 +35,17 @@ import org.junit.experimental.categories.Category;
 public abstract interface SyncFactoryClassTests<SUT extends Class<? extends javax.sql.rowset.spi.SyncFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.sql.rowset.spi.SyncFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.sql.rowset.spi.SyncFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncFactory#setJNDIContext(javax.naming.Context) public static
-     * synchronized void javax.sql.rowset.spi.SyncFactory.setJNDIContext(javax.naming.Context) throws
+     * Test method for {@link javax.sql.rowset.spi.SyncFactory#getInstance(java.lang.String) public static
+     * javax.sql.rowset.spi.SyncProvider javax.sql.rowset.spi.SyncFactory.getInstance(java.lang.String) throws
      * javax.sql.rowset.spi.SyncFactoryException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setJNDIContext_Context()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncFactory#unregisterProvider(java.lang.String) public static
-     * synchronized void javax.sql.rowset.spi.SyncFactory.unregisterProvider(java.lang.String) throws
-     * javax.sql.rowset.spi.SyncFactoryException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unregisterProvider_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.sql.rowset.spi.SyncFactory#setLogger(java.util.logging.Logger,java.util.logging.Level) public static
-     * void javax.sql.rowset.spi.SyncFactory.setLogger(java.util.logging.Logger,java.util.logging.Level)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLogger_Logger_Level()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncFactory#setLogger(java.util.logging.Logger) public static void
-     * javax.sql.rowset.spi.SyncFactory.setLogger(java.util.logging.Logger)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLogger_Logger()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncFactory#getSyncFactory() public static
-     * javax.sql.rowset.spi.SyncFactory javax.sql.rowset.spi.SyncFactory.getSyncFactory()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSyncFactory()
+    public default void test_getInstance_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -146,15 +70,31 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncFactory#getInstance(java.lang.String) public static
-     * javax.sql.rowset.spi.SyncProvider javax.sql.rowset.spi.SyncFactory.getInstance(java.lang.String) throws
+     * Test method for {@link javax.sql.rowset.spi.SyncFactory#getRegisteredProviders() public static
+     * java.util.Enumeration javax.sql.rowset.spi.SyncFactory.getRegisteredProviders() throws
      * javax.sql.rowset.spi.SyncFactoryException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInstance_String()
+    public default void test_getRegisteredProviders()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.spi.SyncFactory#getSyncFactory() public static
+     * javax.sql.rowset.spi.SyncFactory javax.sql.rowset.spi.SyncFactory.getSyncFactory()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSyncFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -180,19 +120,79 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncFactory#getRegisteredProviders() public static
-     * java.util.Enumeration javax.sql.rowset.spi.SyncFactory.getRegisteredProviders() throws
+     * Test method for {@link javax.sql.rowset.spi.SyncFactory#setJNDIContext(javax.naming.Context) public static
+     * synchronized void javax.sql.rowset.spi.SyncFactory.setJNDIContext(javax.naming.Context) throws
      * javax.sql.rowset.spi.SyncFactoryException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRegisteredProviders()
+    public default void test_setJNDIContext_Context()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.spi.SyncFactory#setLogger(java.util.logging.Logger) public static void
+     * javax.sql.rowset.spi.SyncFactory.setLogger(java.util.logging.Logger)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLogger_Logger()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.sql.rowset.spi.SyncFactory#setLogger(java.util.logging.Logger,java.util.logging.Level) public static
+     * void javax.sql.rowset.spi.SyncFactory.setLogger(java.util.logging.Logger,java.util.logging.Level)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLogger_Logger_Level()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.spi.SyncFactory#unregisterProvider(java.lang.String) public static
+     * synchronized void javax.sql.rowset.spi.SyncFactory.unregisterProvider(java.lang.String) throws
+     * javax.sql.rowset.spi.SyncFactoryException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unregisterProvider_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.sql.rowset.spi.SyncFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.sql.rowset.spi.SyncFactory.class.isAssignableFrom(sut));
     }
 
 }

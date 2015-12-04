@@ -24,25 +24,8 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.Monitor#start() public abstract void
-     * javax.management.monitor.Monitor.start()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_start()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.monitor.Monitor#setObservedAttribute(java.lang.String) public void
-     * javax.management.monitor.Monitor.setObservedAttribute(java.lang.String) throws
+     * Test method for {@link javax.management.monitor.Monitor#addObservedObject(javax.management.ObjectName) public
+     * synchronized void javax.management.monitor.Monitor.addObservedObject(javax.management.ObjectName) throws
      * java.lang.IllegalArgumentException}.
      * </p>
      */
@@ -50,7 +33,7 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setObservedAttribute_String()
+    public default void test_addObservedObject_ObjectName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -59,15 +42,16 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.Monitor#isActive() public synchronized boolean
-     * javax.management.monitor.Monitor.isActive()}.
+     * Test method for {@link javax.management.monitor.Monitor#containsObservedObject(javax.management.ObjectName)
+     * public synchronized boolean javax.management.monitor.Monitor.containsObservedObject(javax.management.ObjectName)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isActive()
+    public default void test_containsObservedObject_ObjectName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -93,32 +77,15 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.Monitor#postDeregister() public void
-     * javax.management.monitor.Monitor.postDeregister()}.
+     * Test method for {@link javax.management.monitor.Monitor#getObservedAttribute() public synchronized
+     * java.lang.String javax.management.monitor.Monitor.getObservedAttribute()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_postDeregister()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.monitor.Monitor#preDeregister() public void
-     * javax.management.monitor.Monitor.preDeregister() throws java.lang.Exception}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_preDeregister()
+    public default void test_getObservedAttribute()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -144,16 +111,103 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.Monitor#containsObservedObject(javax.management.ObjectName)
-     * public synchronized boolean javax.management.monitor.Monitor.containsObservedObject(javax.management.ObjectName)}
-     * .
+     * Test method for {@link javax.management.monitor.Monitor#getObservedObjects() public synchronized
+     * javax.management.ObjectName[] javax.management.monitor.Monitor.getObservedObjects()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_containsObservedObject_ObjectName()
+    public default void test_getObservedObjects()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.monitor.Monitor#isActive() public synchronized boolean
+     * javax.management.monitor.Monitor.isActive()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isActive()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.monitor.Monitor#postDeregister() public void
+     * javax.management.monitor.Monitor.postDeregister()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_postDeregister()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.monitor.Monitor#postRegister(java.lang.Boolean) public void
+     * javax.management.monitor.Monitor.postRegister(java.lang.Boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_postRegister_Boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.monitor.Monitor#preDeregister() public void
+     * javax.management.monitor.Monitor.preDeregister() throws java.lang.Exception}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_preDeregister()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.monitor.Monitor#preRegister(javax.management.MBeanServer,javax.management.ObjectName)
+     * public javax.management.ObjectName
+     * javax.management.monitor.Monitor.preRegister(javax.management.MBeanServer,javax.management.ObjectName) throws
+     * java.lang.Exception}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_preRegister_MBeanServer_ObjectName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -196,15 +250,16 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.Monitor#getObservedObjects() public synchronized
-     * javax.management.ObjectName[] javax.management.monitor.Monitor.getObservedObjects()}.
+     * Test method for {@link javax.management.monitor.Monitor#setObservedAttribute(java.lang.String) public void
+     * javax.management.monitor.Monitor.setObservedAttribute(java.lang.String) throws
+     * java.lang.IllegalArgumentException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getObservedObjects()
+    public default void test_setObservedAttribute_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -231,70 +286,15 @@ org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.Monitor#postRegister(java.lang.Boolean) public void
-     * javax.management.monitor.Monitor.postRegister(java.lang.Boolean)}.
+     * Test method for {@link javax.management.monitor.Monitor#start() public abstract void
+     * javax.management.monitor.Monitor.start()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_postRegister_Boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.monitor.Monitor#getObservedAttribute() public synchronized
-     * java.lang.String javax.management.monitor.Monitor.getObservedAttribute()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getObservedAttribute()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.monitor.Monitor#preRegister(javax.management.MBeanServer,javax.management.ObjectName)
-     * public javax.management.ObjectName
-     * javax.management.monitor.Monitor.preRegister(javax.management.MBeanServer,javax.management.ObjectName) throws
-     * java.lang.Exception}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_preRegister_MBeanServer_ObjectName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.monitor.Monitor#addObservedObject(javax.management.ObjectName) public
-     * synchronized void javax.management.monitor.Monitor.addObservedObject(javax.management.ObjectName) throws
-     * java.lang.IllegalArgumentException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addObservedObject_ObjectName()
+    public default void test_start()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

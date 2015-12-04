@@ -25,6 +25,23 @@ org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.nio.file.attribute.PosixFileAttributeView#name() public abstract java.lang.String
+     * java.nio.file.attribute.PosixFileAttributeView.name()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.file.attribute.PosixFileAttributeView#readAttributes() public abstract
      * java.nio.file.attribute.PosixFileAttributes java.nio.file.attribute.PosixFileAttributeView.readAttributes()
      * throws java.io.IOException}.
@@ -70,23 +87,6 @@ org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setPermissions_Set()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.PosixFileAttributeView#name() public abstract java.lang.String
-     * java.nio.file.attribute.PosixFileAttributeView.name()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

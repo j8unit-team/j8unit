@@ -36,20 +36,6 @@ public abstract interface NotSerializableExceptionClassTests<SUT extends Class<?
 extends org.j8unit.repository.java.io.ObjectStreamExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.io.NotSerializableException#NotSerializableException(java.lang.String) public
-     * java.io.NotSerializableException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_NotSerializableException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.NotSerializableException sut = null; // = new NotSerializableException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.io.NotSerializableException#NotSerializableException() public
      * java.io.NotSerializableException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.io.ObjectStreamExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.NotSerializableException sut = null; // = new NotSerializableException();
+    }
+
+    /**
+     * Test method for {@link java.io.NotSerializableException#NotSerializableException(java.lang.String) public
+     * java.io.NotSerializableException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_NotSerializableException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.NotSerializableException sut = null; // = new NotSerializableException(java.lang.String);
     }
 
     @Override

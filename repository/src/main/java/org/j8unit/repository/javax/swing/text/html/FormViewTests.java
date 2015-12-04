@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.FormView#getMaximumSpan(int) public float
-     * javax.swing.text.html.FormView.getMaximumSpan(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMaximumSpan_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.text.html.FormView#actionPerformed(java.awt.event.ActionEvent) public void
      * javax.swing.text.html.FormView.actionPerformed(java.awt.event.ActionEvent)}.
      * </p>
@@ -49,6 +32,23 @@ extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8uni
     @Category(Draft.class)
     @Override
     public default void test_actionPerformed_ActionEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.FormView#getMaximumSpan(int) public float
+     * javax.swing.text.html.FormView.getMaximumSpan(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMaximumSpan_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

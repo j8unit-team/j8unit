@@ -24,6 +24,40 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
+     * Test method for {@link javax.management.modelmbean.DescriptorSupport#clone() public synchronized java.lang.Object
+     * javax.management.modelmbean.DescriptorSupport.clone() throws javax.management.RuntimeOperationsException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.modelmbean.DescriptorSupport#equals(java.lang.Object) public synchronized
+     * boolean javax.management.modelmbean.DescriptorSupport.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.modelmbean.DescriptorSupport#getFieldNames() public synchronized
      * java.lang.String[] javax.management.modelmbean.DescriptorSupport.getFieldNames()}.
      * </p>
@@ -41,15 +75,15 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link javax.management.modelmbean.DescriptorSupport#removeField(java.lang.String) public
-     * synchronized void javax.management.modelmbean.DescriptorSupport.removeField(java.lang.String)}.
+     * Test method for {@link javax.management.modelmbean.DescriptorSupport#getFields() public synchronized
+     * java.lang.String[] javax.management.modelmbean.DescriptorSupport.getFields()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_removeField_String()
+    public default void test_getFields()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -58,9 +92,8 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.modelmbean.DescriptorSupport#setFields(java.lang.String[],java.lang.Object[]) public
-     * synchronized void javax.management.modelmbean.DescriptorSupport.setFields(java.lang.String[],java.lang.Object[])
+     * Test method for {@link javax.management.modelmbean.DescriptorSupport#getFieldValue(java.lang.String) public
+     * synchronized java.lang.Object javax.management.modelmbean.DescriptorSupport.getFieldValue(java.lang.String)
      * throws javax.management.RuntimeOperationsException}.
      * </p>
      */
@@ -68,7 +101,7 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setFields_StringArray_ObjectArray()
+    public default void test_getFieldValue_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -95,6 +128,23 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
+     * Test method for {@link javax.management.modelmbean.DescriptorSupport#hashCode() public synchronized int
+     * javax.management.modelmbean.DescriptorSupport.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.modelmbean.DescriptorSupport#isValid() public synchronized boolean
      * javax.management.modelmbean.DescriptorSupport.isValid() throws javax.management.RuntimeOperationsException}.
      * </p>
@@ -104,6 +154,23 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
     @Category(Draft.class)
     @Override
     public default void test_isValid()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.modelmbean.DescriptorSupport#removeField(java.lang.String) public
+     * synchronized void javax.management.modelmbean.DescriptorSupport.removeField(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_removeField_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -131,14 +198,17 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link javax.management.modelmbean.DescriptorSupport#toXMLString() public synchronized
-     * java.lang.String javax.management.modelmbean.DescriptorSupport.toXMLString()}.
+     * Test method for
+     * {@link javax.management.modelmbean.DescriptorSupport#setFields(java.lang.String[],java.lang.Object[]) public
+     * synchronized void javax.management.modelmbean.DescriptorSupport.setFields(java.lang.String[],java.lang.Object[])
+     * throws javax.management.RuntimeOperationsException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toXMLString()
+    @Override
+    public default void test_setFields_StringArray_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -164,84 +234,14 @@ extends org.j8unit.repository.javax.management.DescriptorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link javax.management.modelmbean.DescriptorSupport#clone() public synchronized java.lang.Object
-     * javax.management.modelmbean.DescriptorSupport.clone() throws javax.management.RuntimeOperationsException}.
+     * Test method for {@link javax.management.modelmbean.DescriptorSupport#toXMLString() public synchronized
+     * java.lang.String javax.management.modelmbean.DescriptorSupport.toXMLString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.modelmbean.DescriptorSupport#hashCode() public synchronized int
-     * javax.management.modelmbean.DescriptorSupport.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.modelmbean.DescriptorSupport#getFieldValue(java.lang.String) public
-     * synchronized java.lang.Object javax.management.modelmbean.DescriptorSupport.getFieldValue(java.lang.String)
-     * throws javax.management.RuntimeOperationsException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getFieldValue_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.modelmbean.DescriptorSupport#equals(java.lang.Object) public synchronized
-     * boolean javax.management.modelmbean.DescriptorSupport.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.modelmbean.DescriptorSupport#getFields() public synchronized
-     * java.lang.String[] javax.management.modelmbean.DescriptorSupport.getFields()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getFields()
+    public default void test_toXMLString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

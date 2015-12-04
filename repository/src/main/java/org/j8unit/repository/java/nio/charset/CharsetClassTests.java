@@ -35,26 +35,16 @@ import org.junit.experimental.categories.Category;
 public abstract interface CharsetClassTests<SUT extends Class<? extends java.nio.charset.Charset>>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.charset.Charset>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.charset.Charset> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.charset.Charset.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.nio.charset.Charset#forName(java.lang.String) public static java.nio.charset.Charset
-     * java.nio.charset.Charset.forName(java.lang.String)}.
+     * Test method for {@link java.nio.charset.Charset#availableCharsets() public static java.util.SortedMap
+     * java.nio.charset.Charset.availableCharsets()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_forName_String()
+    public default void test_availableCharsets()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,6 +69,22 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.chars
 
     /**
      * <p>
+     * Test method for {@link java.nio.charset.Charset#forName(java.lang.String) public static java.nio.charset.Charset
+     * java.nio.charset.Charset.forName(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_forName_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.charset.Charset#isSupported(java.lang.String) public static boolean
      * java.nio.charset.Charset.isSupported(java.lang.String)}.
      * </p>
@@ -93,20 +99,14 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.chars
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.Charset#availableCharsets() public static java.util.SortedMap
-     * java.nio.charset.Charset.availableCharsets()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_availableCharsets()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.nio.charset.Charset> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.charset.Charset.class.isAssignableFrom(sut));
     }
 
 }

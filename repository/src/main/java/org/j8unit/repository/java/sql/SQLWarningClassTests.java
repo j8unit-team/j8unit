@@ -35,46 +35,58 @@ public abstract interface SQLWarningClassTests<SUT extends Class<? extends java.
 extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.sql.SQLWarning#SQLWarning(java.lang.Throwable) public
-     * java.sql.SQLWarning(java.lang.Throwable)}.
+     * Test method for {@link java.sql.SQLWarning#SQLWarning() public java.sql.SQLWarning()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SQLWarning_Throwable()
+    public default void create_SQLWarning()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.SQLWarning sut = null; // = new SQLWarning(java.lang.Throwable);
+        final java.sql.SQLWarning sut = null; // = new SQLWarning();
     }
 
     /**
-     * Test method for {@link java.sql.SQLWarning#SQLWarning(java.lang.String,java.lang.Throwable) public
-     * java.sql.SQLWarning(java.lang.String,java.lang.Throwable)}.
+     * Test method for {@link java.sql.SQLWarning#SQLWarning(java.lang.String) public
+     * java.sql.SQLWarning(java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SQLWarning_String_Throwable()
+    public default void create_SQLWarning_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.SQLWarning sut = null; // = new SQLWarning(java.lang.String,java.lang.Throwable);
+        final java.sql.SQLWarning sut = null; // = new SQLWarning(java.lang.String);
     }
 
     /**
-     * Test method for {@link java.sql.SQLWarning#SQLWarning(java.lang.String,java.lang.String,java.lang.Throwable)
-     * public java.sql.SQLWarning(java.lang.String,java.lang.String,java.lang.Throwable)}.
+     * Test method for {@link java.sql.SQLWarning#SQLWarning(java.lang.String,java.lang.String) public
+     * java.sql.SQLWarning(java.lang.String,java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SQLWarning_String_String_Throwable()
+    public default void create_SQLWarning_String_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.SQLWarning sut = null; // = new
-                                              // SQLWarning(java.lang.String,java.lang.String,java.lang.Throwable);
+        final java.sql.SQLWarning sut = null; // = new SQLWarning(java.lang.String,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.sql.SQLWarning#SQLWarning(java.lang.String,java.lang.String,int) public
+     * java.sql.SQLWarning(java.lang.String,java.lang.String,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLWarning_String_String_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLWarning sut = null; // = new SQLWarning(java.lang.String,java.lang.String,int);
     }
 
     /**
@@ -93,58 +105,46 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.sql.SQLWarning#SQLWarning(java.lang.String,java.lang.String,int) public
-     * java.sql.SQLWarning(java.lang.String,java.lang.String,int)}.
+     * Test method for {@link java.sql.SQLWarning#SQLWarning(java.lang.String,java.lang.String,java.lang.Throwable)
+     * public java.sql.SQLWarning(java.lang.String,java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SQLWarning_String_String_int()
+    public default void create_SQLWarning_String_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.SQLWarning sut = null; // = new SQLWarning(java.lang.String,java.lang.String,int);
+        final java.sql.SQLWarning sut = null; // = new
+                                              // SQLWarning(java.lang.String,java.lang.String,java.lang.Throwable);
     }
 
     /**
-     * Test method for {@link java.sql.SQLWarning#SQLWarning(java.lang.String,java.lang.String) public
-     * java.sql.SQLWarning(java.lang.String,java.lang.String)}.
+     * Test method for {@link java.sql.SQLWarning#SQLWarning(java.lang.String,java.lang.Throwable) public
+     * java.sql.SQLWarning(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SQLWarning_String_String()
+    public default void create_SQLWarning_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.SQLWarning sut = null; // = new SQLWarning(java.lang.String,java.lang.String);
+        final java.sql.SQLWarning sut = null; // = new SQLWarning(java.lang.String,java.lang.Throwable);
     }
 
     /**
-     * Test method for {@link java.sql.SQLWarning#SQLWarning(java.lang.String) public
-     * java.sql.SQLWarning(java.lang.String)}.
+     * Test method for {@link java.sql.SQLWarning#SQLWarning(java.lang.Throwable) public
+     * java.sql.SQLWarning(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SQLWarning_String()
+    public default void create_SQLWarning_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.SQLWarning sut = null; // = new SQLWarning(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.sql.SQLWarning#SQLWarning() public java.sql.SQLWarning()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLWarning()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLWarning sut = null; // = new SQLWarning();
+        final java.sql.SQLWarning sut = null; // = new SQLWarning(java.lang.Throwable);
     }
 
     @Override

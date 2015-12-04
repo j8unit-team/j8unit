@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface StandardCopyOptionClassTests<SUT extends Class<? extends java.nio.file.StandardCopyOption>>
 extends org.j8unit.repository.java.nio.file.CopyOptionClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT, java.nio.file.StandardCopyOption> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.StandardCopyOption#valueOf(java.lang.String) public static
+     * java.nio.file.StandardCopyOption java.nio.file.StandardCopyOption.valueOf(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_valueOf_String()
     throws Exception {
-        // create new instance
-        final Class<? extends java.nio.file.StandardCopyOption> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.file.StandardCopyOption.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -61,20 +67,14 @@ extends org.j8unit.repository.java.nio.file.CopyOptionClassTests<SUT>, org.j8uni
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.StandardCopyOption#valueOf(java.lang.String) public static
-     * java.nio.file.StandardCopyOption java.nio.file.StandardCopyOption.valueOf(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_valueOf_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.nio.file.StandardCopyOption> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.file.StandardCopyOption.class.isAssignableFrom(sut));
     }
 
 }

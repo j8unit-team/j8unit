@@ -23,39 +23,6 @@ extends org.j8unit.repository.java.security.cert.CertStoreParametersTests<SUT>, 
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.LDAPCertStoreParameters#getServerName() public java.lang.String
-     * java.security.cert.LDAPCertStoreParameters.getServerName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getServerName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.LDAPCertStoreParameters#toString() public java.lang.String
-     * java.security.cert.LDAPCertStoreParameters.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.cert.LDAPCertStoreParameters#clone() public java.lang.Object
      * java.security.cert.LDAPCertStoreParameters.clone()}.
      * </p>
@@ -81,6 +48,39 @@ extends org.j8unit.repository.java.security.cert.CertStoreParametersTests<SUT>, 
     @Test
     @Category(Draft.class)
     public default void test_getPort()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.LDAPCertStoreParameters#getServerName() public java.lang.String
+     * java.security.cert.LDAPCertStoreParameters.getServerName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getServerName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.LDAPCertStoreParameters#toString() public java.lang.String
+     * java.security.cert.LDAPCertStoreParameters.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

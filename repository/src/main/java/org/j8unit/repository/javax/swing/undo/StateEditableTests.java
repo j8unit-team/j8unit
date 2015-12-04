@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.undo.StateEditable#storeState(java.util.Hashtable) public abstract void
-     * javax.swing.undo.StateEditable.storeState(java.util.Hashtable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_storeState_Hashtable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.undo.StateEditable#restoreState(java.util.Hashtable) public abstract void
      * javax.swing.undo.StateEditable.restoreState(java.util.Hashtable)}.
      * </p>
@@ -48,6 +32,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_restoreState_Hashtable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.undo.StateEditable#storeState(java.util.Hashtable) public abstract void
+     * javax.swing.undo.StateEditable.storeState(java.util.Hashtable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_storeState_Hashtable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

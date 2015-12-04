@@ -24,119 +24,14 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialBlob#getBinaryStream(long,long) public java.io.InputStream
-     * javax.sql.rowset.serial.SerialBlob.getBinaryStream(long,long) throws java.sql.SQLException}.
+     * Test method for {@link javax.sql.rowset.serial.SerialBlob#clone() public java.lang.Object
+     * javax.sql.rowset.serial.SerialBlob.clone()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getBinaryStream_long_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialBlob#getBinaryStream() public java.io.InputStream
-     * javax.sql.rowset.serial.SerialBlob.getBinaryStream() throws javax.sql.rowset.serial.SerialException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBinaryStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialBlob#setBytes(long,byte[]) public int
-     * javax.sql.rowset.serial.SerialBlob.setBytes(long,byte[]) throws
-     * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setBytes_long_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialBlob#setBytes(long,byte[],int,int) public int
-     * javax.sql.rowset.serial.SerialBlob.setBytes(long,byte[],int,int) throws
-     * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setBytes_long_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialBlob#getBytes(long,int) public byte[]
-     * javax.sql.rowset.serial.SerialBlob.getBytes(long,int) throws javax.sql.rowset.serial.SerialException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBytes_long_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialBlob#length() public long
-     * javax.sql.rowset.serial.SerialBlob.length() throws javax.sql.rowset.serial.SerialException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_length()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialBlob#truncate(long) public void
-     * javax.sql.rowset.serial.SerialBlob.truncate(long) throws javax.sql.rowset.serial.SerialException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_truncate_long()
+    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -162,23 +57,6 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialBlob#hashCode() public int
-     * javax.sql.rowset.serial.SerialBlob.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sql.rowset.serial.SerialBlob#free() public void
      * javax.sql.rowset.serial.SerialBlob.free() throws java.sql.SQLException}.
      * </p>
@@ -196,14 +74,83 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialBlob#clone() public java.lang.Object
-     * javax.sql.rowset.serial.SerialBlob.clone()}.
+     * Test method for {@link javax.sql.rowset.serial.SerialBlob#getBinaryStream() public java.io.InputStream
+     * javax.sql.rowset.serial.SerialBlob.getBinaryStream() throws javax.sql.rowset.serial.SerialException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clone()
+    @Override
+    public default void test_getBinaryStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialBlob#getBinaryStream(long,long) public java.io.InputStream
+     * javax.sql.rowset.serial.SerialBlob.getBinaryStream(long,long) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getBinaryStream_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialBlob#getBytes(long,int) public byte[]
+     * javax.sql.rowset.serial.SerialBlob.getBytes(long,int) throws javax.sql.rowset.serial.SerialException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getBytes_long_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialBlob#hashCode() public int
+     * javax.sql.rowset.serial.SerialBlob.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialBlob#length() public long
+     * javax.sql.rowset.serial.SerialBlob.length() throws javax.sql.rowset.serial.SerialException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_length()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -258,6 +205,59 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     @Category(Draft.class)
     @Override
     public default void test_setBinaryStream_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialBlob#setBytes(long,byte[]) public int
+     * javax.sql.rowset.serial.SerialBlob.setBytes(long,byte[]) throws
+     * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setBytes_long_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialBlob#setBytes(long,byte[],int,int) public int
+     * javax.sql.rowset.serial.SerialBlob.setBytes(long,byte[],int,int) throws
+     * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setBytes_long_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialBlob#truncate(long) public void
+     * javax.sql.rowset.serial.SerialBlob.truncate(long) throws javax.sql.rowset.serial.SerialException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_truncate_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

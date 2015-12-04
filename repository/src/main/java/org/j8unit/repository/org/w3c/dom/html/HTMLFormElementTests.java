@@ -23,78 +23,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLFormElement#getName() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLFormElement.getName()}.
+     * Test method for {@link org.w3c.dom.html.HTMLFormElement#getAcceptCharset() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLFormElement.getAcceptCharset()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLFormElement#setAction(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLFormElement.setAction(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAction_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLFormElement#setName(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLFormElement.setName(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setName_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLFormElement#setEnctype(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLFormElement.setEnctype(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setEnctype_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLFormElement#submit() public abstract void
-     * org.w3c.dom.html.HTMLFormElement.submit()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_submit()
+    public default void test_getAcceptCharset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,70 +55,6 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLFormElement#getMethod() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLFormElement.getMethod()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMethod()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLFormElement#getAcceptCharset() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLFormElement.getAcceptCharset()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAcceptCharset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLFormElement#getTarget() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLFormElement.getTarget()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTarget()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLFormElement#setMethod(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLFormElement.setMethod(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMethod_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLFormElement#getElements() public abstract
      * org.w3c.dom.html.HTMLCollection org.w3c.dom.html.HTMLFormElement.getElements()}.
      * </p>
@@ -199,14 +71,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLFormElement#setAcceptCharset(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLFormElement.setAcceptCharset(java.lang.String)}.
+     * Test method for {@link org.w3c.dom.html.HTMLFormElement#getEnctype() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLFormElement.getEnctype()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setAcceptCharset_String()
+    public default void test_getEnctype()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -231,14 +103,46 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLFormElement#setTarget(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLFormElement.setTarget(java.lang.String)}.
+     * Test method for {@link org.w3c.dom.html.HTMLFormElement#getMethod() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLFormElement.getMethod()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setTarget_String()
+    public default void test_getMethod()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLFormElement#getName() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLFormElement.getName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLFormElement#getTarget() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLFormElement.getTarget()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTarget()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -263,14 +167,110 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLFormElement#getEnctype() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLFormElement.getEnctype()}.
+     * Test method for {@link org.w3c.dom.html.HTMLFormElement#setAcceptCharset(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLFormElement.setAcceptCharset(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getEnctype()
+    public default void test_setAcceptCharset_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLFormElement#setAction(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLFormElement.setAction(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAction_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLFormElement#setEnctype(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLFormElement.setEnctype(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setEnctype_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLFormElement#setMethod(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLFormElement.setMethod(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMethod_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLFormElement#setName(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLFormElement.setName(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setName_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLFormElement#setTarget(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLFormElement.setTarget(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTarget_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLFormElement#submit() public abstract void
+     * org.w3c.dom.html.HTMLFormElement.submit()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_submit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

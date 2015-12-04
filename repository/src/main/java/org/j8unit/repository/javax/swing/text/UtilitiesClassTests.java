@@ -48,33 +48,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final javax.swing.text.Utilities sut = null; // = new Utilities();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.Utilities> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.Utilities.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Utilities#getPositionAbove(javax.swing.text.JTextComponent,int,int)
-     * public static final int javax.swing.text.Utilities.getPositionAbove(javax.swing.text.JTextComponent,int,int)
-     * throws javax.swing.text.BadLocationException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPositionAbove_JTextComponent_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for
@@ -88,6 +61,42 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_drawTabbedText_Segment_int_int_Graphics_TabExpander_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.Utilities#getBreakLocation(javax.swing.text.Segment,java.awt.FontMetrics,int,int,javax.swing.text.TabExpander,int)
+     * public static final int
+     * javax.swing.text.Utilities.getBreakLocation(javax.swing.text.Segment,java.awt.FontMetrics,int,int,javax.swing.text.TabExpander,int)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBreakLocation_Segment_FontMetrics_int_int_TabExpander_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Utilities#getNextWord(javax.swing.text.JTextComponent,int) public static
+     * final int javax.swing.text.Utilities.getNextWord(javax.swing.text.JTextComponent,int) throws
+     * javax.swing.text.BadLocationException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNextWord_JTextComponent_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -113,6 +122,57 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.text.Utilities#getPositionAbove(javax.swing.text.JTextComponent,int,int)
+     * public static final int javax.swing.text.Utilities.getPositionAbove(javax.swing.text.JTextComponent,int,int)
+     * throws javax.swing.text.BadLocationException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPositionAbove_JTextComponent_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Utilities#getPositionBelow(javax.swing.text.JTextComponent,int,int)
+     * public static final int javax.swing.text.Utilities.getPositionBelow(javax.swing.text.JTextComponent,int,int)
+     * throws javax.swing.text.BadLocationException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPositionBelow_JTextComponent_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Utilities#getPreviousWord(javax.swing.text.JTextComponent,int) public
+     * static final int javax.swing.text.Utilities.getPreviousWord(javax.swing.text.JTextComponent,int) throws
+     * javax.swing.text.BadLocationException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPreviousWord_JTextComponent_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.text.Utilities#getRowEnd(javax.swing.text.JTextComponent,int) public static
      * final int javax.swing.text.Utilities.getRowEnd(javax.swing.text.JTextComponent,int) throws
      * javax.swing.text.BadLocationException}.
@@ -130,17 +190,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.Utilities#getTabbedTextWidth(javax.swing.text.Segment,java.awt.FontMetrics,int,javax.swing.text.TabExpander,int)
-     * public static final int
-     * javax.swing.text.Utilities.getTabbedTextWidth(javax.swing.text.Segment,java.awt.FontMetrics,int,javax.swing.text.TabExpander,int)}
-     * .
+     * Test method for {@link javax.swing.text.Utilities#getRowStart(javax.swing.text.JTextComponent,int) public static
+     * final int javax.swing.text.Utilities.getRowStart(javax.swing.text.JTextComponent,int) throws
+     * javax.swing.text.BadLocationException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTabbedTextWidth_Segment_FontMetrics_int_TabExpander_int()
+    public default void test_getRowStart_JTextComponent_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -188,16 +246,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.Utilities#getBreakLocation(javax.swing.text.Segment,java.awt.FontMetrics,int,int,javax.swing.text.TabExpander,int)
+     * {@link javax.swing.text.Utilities#getTabbedTextWidth(javax.swing.text.Segment,java.awt.FontMetrics,int,javax.swing.text.TabExpander,int)
      * public static final int
-     * javax.swing.text.Utilities.getBreakLocation(javax.swing.text.Segment,java.awt.FontMetrics,int,int,javax.swing.text.TabExpander,int)}
+     * javax.swing.text.Utilities.getTabbedTextWidth(javax.swing.text.Segment,java.awt.FontMetrics,int,javax.swing.text.TabExpander,int)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBreakLocation_Segment_FontMetrics_int_int_TabExpander_int()
+    public default void test_getTabbedTextWidth_Segment_FontMetrics_int_TabExpander_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -223,23 +281,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Utilities#getPreviousWord(javax.swing.text.JTextComponent,int) public
-     * static final int javax.swing.text.Utilities.getPreviousWord(javax.swing.text.JTextComponent,int) throws
-     * javax.swing.text.BadLocationException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPreviousWord_JTextComponent_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.text.Utilities#getWordStart(javax.swing.text.JTextComponent,int) public static
      * final int javax.swing.text.Utilities.getWordStart(javax.swing.text.JTextComponent,int) throws
      * javax.swing.text.BadLocationException}.
@@ -255,55 +296,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Utilities#getNextWord(javax.swing.text.JTextComponent,int) public static
-     * final int javax.swing.text.Utilities.getNextWord(javax.swing.text.JTextComponent,int) throws
-     * javax.swing.text.BadLocationException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getNextWord_JTextComponent_int()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Utilities#getRowStart(javax.swing.text.JTextComponent,int) public static
-     * final int javax.swing.text.Utilities.getRowStart(javax.swing.text.JTextComponent,int) throws
-     * javax.swing.text.BadLocationException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowStart_JTextComponent_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Utilities#getPositionBelow(javax.swing.text.JTextComponent,int,int)
-     * public static final int javax.swing.text.Utilities.getPositionBelow(javax.swing.text.JTextComponent,int,int)
-     * throws javax.swing.text.BadLocationException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPositionBelow_JTextComponent_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.swing.text.Utilities> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.Utilities.class.isAssignableFrom(sut));
     }
 
 }

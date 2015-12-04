@@ -39,14 +39,14 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ICC_ProfileRGB#getTRC(int) public short[]
-     * java.awt.color.ICC_ProfileRGB.getTRC(int)}.
+     * Test method for {@link java.awt.color.ICC_ProfileRGB#getMatrix() public float[][]
+     * java.awt.color.ICC_ProfileRGB.getMatrix()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTRC_int()
+    public default void test_getMatrix()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +71,14 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ICC_ProfileRGB#getMatrix() public float[][]
-     * java.awt.color.ICC_ProfileRGB.getMatrix()}.
+     * Test method for {@link java.awt.color.ICC_ProfileRGB#getTRC(int) public short[]
+     * java.awt.color.ICC_ProfileRGB.getTRC(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMatrix()
+    public default void test_getTRC_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

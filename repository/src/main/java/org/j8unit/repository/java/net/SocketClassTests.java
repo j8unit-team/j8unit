@@ -35,45 +35,30 @@ public abstract interface SocketClassTests<SUT extends Class<? extends java.net.
 extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.net.Socket#Socket(java.lang.String,int,java.net.InetAddress,int) public
-     * java.net.Socket(java.lang.String,int,java.net.InetAddress,int) throws java.io.IOException}.
+     * Test method for {@link java.net.Socket#Socket() public java.net.Socket()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Socket_String_int_InetAddress_int()
+    public default void create_Socket()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.net.Socket sut = null; // = new Socket(java.lang.String,int,java.net.InetAddress,int);
+        final java.net.Socket sut = null; // = new Socket();
     }
 
     /**
-     * Test method for {@link java.net.Socket#Socket(java.net.InetAddress,int,java.net.InetAddress,int) public
-     * java.net.Socket(java.net.InetAddress,int,java.net.InetAddress,int) throws java.io.IOException}.
+     * Test method for {@link java.net.Socket#Socket(java.net.InetAddress,int) public
+     * java.net.Socket(java.net.InetAddress,int) throws java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Socket_InetAddress_int_InetAddress_int()
+    public default void create_Socket_InetAddress_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.net.Socket sut = null; // = new Socket(java.net.InetAddress,int,java.net.InetAddress,int);
-    }
-
-    /**
-     * Test method for {@link java.net.Socket#Socket(java.lang.String,int,boolean) public
-     * java.net.Socket(java.lang.String,int,boolean) throws java.io.IOException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Socket_String_int_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.Socket sut = null; // = new Socket(java.lang.String,int,boolean);
+        final java.net.Socket sut = null; // = new Socket(java.net.InetAddress,int);
     }
 
     /**
@@ -91,16 +76,17 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
     }
 
     /**
-     * Test method for {@link java.net.Socket#Socket() public java.net.Socket()}.
+     * Test method for {@link java.net.Socket#Socket(java.net.InetAddress,int,java.net.InetAddress,int) public
+     * java.net.Socket(java.net.InetAddress,int,java.net.InetAddress,int) throws java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Socket()
+    public default void create_Socket_InetAddress_int_InetAddress_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.net.Socket sut = null; // = new Socket();
+        final java.net.Socket sut = null; // = new Socket(java.net.InetAddress,int,java.net.InetAddress,int);
     }
 
     /**
@@ -131,27 +117,31 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
     }
 
     /**
-     * Test method for {@link java.net.Socket#Socket(java.net.InetAddress,int) public
-     * java.net.Socket(java.net.InetAddress,int) throws java.io.IOException}.
+     * Test method for {@link java.net.Socket#Socket(java.lang.String,int,boolean) public
+     * java.net.Socket(java.lang.String,int,boolean) throws java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Socket_InetAddress_int()
+    public default void create_Socket_String_int_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.net.Socket sut = null; // = new Socket(java.net.InetAddress,int);
+        final java.net.Socket sut = null; // = new Socket(java.lang.String,int,boolean);
     }
 
-    @Override
+    /**
+     * Test method for {@link java.net.Socket#Socket(java.lang.String,int,java.net.InetAddress,int) public
+     * java.net.Socket(java.lang.String,int,java.net.InetAddress,int) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_Socket_String_int_InetAddress_int()
     throws Exception {
         // create new instance
-        final Class<? extends java.net.Socket> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.net.Socket.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final java.net.Socket sut = null; // = new Socket(java.lang.String,int,java.net.InetAddress,int);
     }
 
     /**
@@ -168,6 +158,16 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.net.Socket> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.Socket.class.isAssignableFrom(sut));
     }
 
 }

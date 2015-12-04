@@ -23,38 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.InputContext#isCompositionEnabled() public boolean
-     * java.awt.im.InputContext.isCompositionEnabled()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isCompositionEnabled()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.im.InputContext#setCharacterSubsets(java.lang.Character.Subset[]) public void
-     * java.awt.im.InputContext.setCharacterSubsets(java.lang.Character$Subset[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCharacterSubsets_SubsetArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.im.InputContext#dispatchEvent(java.awt.AWTEvent) public void
      * java.awt.im.InputContext.dispatchEvent(java.awt.AWTEvent)}.
      * </p>
@@ -71,14 +39,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.InputContext#setCompositionEnabled(boolean) public void
-     * java.awt.im.InputContext.setCompositionEnabled(boolean)}.
+     * Test method for {@link java.awt.im.InputContext#dispose() public void java.awt.im.InputContext.dispose()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCompositionEnabled_boolean()
+    public default void test_dispose()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,21 +70,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.InputContext#dispose() public void java.awt.im.InputContext.dispose()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_dispose()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.im.InputContext#getInputMethodControlObject() public java.lang.Object
      * java.awt.im.InputContext.getInputMethodControlObject()}.
      * </p>
@@ -134,14 +86,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.InputContext#selectInputMethod(java.util.Locale) public boolean
-     * java.awt.im.InputContext.selectInputMethod(java.util.Locale)}.
+     * Test method for {@link java.awt.im.InputContext#getLocale() public java.util.Locale
+     * java.awt.im.InputContext.getLocale()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_selectInputMethod_Locale()
+    public default void test_getLocale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.InputContext#isCompositionEnabled() public boolean
+     * java.awt.im.InputContext.isCompositionEnabled()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isCompositionEnabled()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -181,14 +149,46 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.InputContext#getLocale() public java.util.Locale
-     * java.awt.im.InputContext.getLocale()}.
+     * Test method for {@link java.awt.im.InputContext#selectInputMethod(java.util.Locale) public boolean
+     * java.awt.im.InputContext.selectInputMethod(java.util.Locale)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLocale()
+    public default void test_selectInputMethod_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.InputContext#setCharacterSubsets(java.lang.Character.Subset[]) public void
+     * java.awt.im.InputContext.setCharacterSubsets(java.lang.Character$Subset[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCharacterSubsets_SubsetArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.InputContext#setCompositionEnabled(boolean) public void
+     * java.awt.im.InputContext.setCompositionEnabled(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCompositionEnabled_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

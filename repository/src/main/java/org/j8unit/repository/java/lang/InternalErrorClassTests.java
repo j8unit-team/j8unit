@@ -36,31 +36,16 @@ public abstract interface InternalErrorClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.lang.VirtualMachineErrorClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.InternalError#InternalError(java.lang.Throwable) public
-     * java.lang.InternalError(java.lang.Throwable)}.
+     * Test method for {@link java.lang.InternalError#InternalError() public java.lang.InternalError()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_InternalError_Throwable()
+    public default void create_InternalError()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.InternalError sut = null; // = new InternalError(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link java.lang.InternalError#InternalError(java.lang.String,java.lang.Throwable) public
-     * java.lang.InternalError(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InternalError_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.InternalError sut = null; // = new InternalError(java.lang.String,java.lang.Throwable);
+        final java.lang.InternalError sut = null; // = new InternalError();
     }
 
     /**
@@ -78,16 +63,31 @@ extends org.j8unit.repository.java.lang.VirtualMachineErrorClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.lang.InternalError#InternalError() public java.lang.InternalError()}.
+     * Test method for {@link java.lang.InternalError#InternalError(java.lang.String,java.lang.Throwable) public
+     * java.lang.InternalError(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_InternalError()
+    public default void create_InternalError_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.InternalError sut = null; // = new InternalError();
+        final java.lang.InternalError sut = null; // = new InternalError(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link java.lang.InternalError#InternalError(java.lang.Throwable) public
+     * java.lang.InternalError(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InternalError_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.InternalError sut = null; // = new InternalError(java.lang.Throwable);
     }
 
     @Override

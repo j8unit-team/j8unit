@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface SignStyleClassTests<SUT extends Class<? extends java.time.format.SignStyle>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.format.SignStyle> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.format.SignStyle> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.format.SignStyle.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.time.format.SignStyle#valueOf(java.lang.String) public static
@@ -75,6 +65,16 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.format.Sig
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.format.SignStyle> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.format.SignStyle.class.isAssignableFrom(sut));
     }
 
 }

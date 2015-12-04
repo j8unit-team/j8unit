@@ -60,14 +60,20 @@ extends org.j8unit.repository.java.util.DateClassTests<SUT> {
         final java.sql.Time sut = null; // = new Time(long);
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.sql.Time#valueOf(java.time.LocalTime) public static java.sql.Time
+     * java.sql.Time.valueOf(java.time.LocalTime)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_valueOf_LocalTime()
     throws Exception {
-        // create new instance
-        final Class<? extends java.sql.Time> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.sql.Time.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -86,20 +92,14 @@ extends org.j8unit.repository.java.util.DateClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.sql.Time#valueOf(java.time.LocalTime) public static java.sql.Time
-     * java.sql.Time.valueOf(java.time.LocalTime)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_valueOf_LocalTime()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.sql.Time> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.sql.Time.class.isAssignableFrom(sut));
     }
 
 }

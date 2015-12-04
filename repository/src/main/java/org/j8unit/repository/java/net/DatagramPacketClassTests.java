@@ -36,17 +36,17 @@ public abstract interface DatagramPacketClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.net.DatagramPacket#DatagramPacket(byte[],int,java.net.SocketAddress) public
-     * java.net.DatagramPacket(byte[],int,java.net.SocketAddress)}.
+     * Test method for {@link java.net.DatagramPacket#DatagramPacket(byte[],int) public
+     * java.net.DatagramPacket(byte[],int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DatagramPacket_byteArray_int_SocketAddress()
+    public default void create_DatagramPacket_byteArray_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.net.DatagramPacket sut = null; // = new DatagramPacket(byte[],int,java.net.SocketAddress);
+        final java.net.DatagramPacket sut = null; // = new DatagramPacket(byte[],int);
     }
 
     /**
@@ -64,20 +64,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.net.DatagramPacket#DatagramPacket(byte[],int,int,java.net.SocketAddress) public
-     * java.net.DatagramPacket(byte[],int,int,java.net.SocketAddress)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DatagramPacket_byteArray_int_int_SocketAddress()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.DatagramPacket sut = null; // = new DatagramPacket(byte[],int,int,java.net.SocketAddress);
-    }
-
-    /**
      * Test method for {@link java.net.DatagramPacket#DatagramPacket(byte[],int,int) public
      * java.net.DatagramPacket(byte[],int,int)}.
      */
@@ -92,20 +78,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.net.DatagramPacket#DatagramPacket(byte[],int) public
-     * java.net.DatagramPacket(byte[],int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DatagramPacket_byteArray_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.DatagramPacket sut = null; // = new DatagramPacket(byte[],int);
-    }
-
-    /**
      * Test method for {@link java.net.DatagramPacket#DatagramPacket(byte[],int,int,java.net.InetAddress,int) public
      * java.net.DatagramPacket(byte[],int,int,java.net.InetAddress,int)}.
      */
@@ -117,6 +89,34 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.net.DatagramPacket sut = null; // = new DatagramPacket(byte[],int,int,java.net.InetAddress,int);
+    }
+
+    /**
+     * Test method for {@link java.net.DatagramPacket#DatagramPacket(byte[],int,int,java.net.SocketAddress) public
+     * java.net.DatagramPacket(byte[],int,int,java.net.SocketAddress)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DatagramPacket_byteArray_int_int_SocketAddress()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.DatagramPacket sut = null; // = new DatagramPacket(byte[],int,int,java.net.SocketAddress);
+    }
+
+    /**
+     * Test method for {@link java.net.DatagramPacket#DatagramPacket(byte[],int,java.net.SocketAddress) public
+     * java.net.DatagramPacket(byte[],int,java.net.SocketAddress)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DatagramPacket_byteArray_int_SocketAddress()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.DatagramPacket sut = null; // = new DatagramPacket(byte[],int,java.net.SocketAddress);
     }
 
     @Override

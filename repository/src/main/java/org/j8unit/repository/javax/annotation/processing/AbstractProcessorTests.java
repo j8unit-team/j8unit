@@ -61,6 +61,40 @@ extends org.j8unit.repository.javax.annotation.processing.ProcessorTests<SUT>, o
 
     /**
      * <p>
+     * Test method for {@link javax.annotation.processing.AbstractProcessor#getSupportedOptions() public java.util.Set
+     * javax.annotation.processing.AbstractProcessor.getSupportedOptions()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getSupportedOptions()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.annotation.processing.AbstractProcessor#getSupportedSourceVersion() public
+     * javax.lang.model.SourceVersion javax.annotation.processing.AbstractProcessor.getSupportedSourceVersion()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getSupportedSourceVersion()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link javax.annotation.processing.AbstractProcessor#init(javax.annotation.processing.ProcessingEnvironment)
      * public synchronized void
@@ -92,40 +126,6 @@ extends org.j8unit.repository.javax.annotation.processing.ProcessorTests<SUT>, o
     @Category(Draft.class)
     @Override
     public default void test_process_Set_RoundEnvironment()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.annotation.processing.AbstractProcessor#getSupportedOptions() public java.util.Set
-     * javax.annotation.processing.AbstractProcessor.getSupportedOptions()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSupportedOptions()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.annotation.processing.AbstractProcessor#getSupportedSourceVersion() public
-     * javax.lang.model.SourceVersion javax.annotation.processing.AbstractProcessor.getSupportedSourceVersion()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSupportedSourceVersion()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

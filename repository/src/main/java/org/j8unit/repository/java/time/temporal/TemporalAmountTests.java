@@ -40,22 +40,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.TemporalAmount#getUnits() public abstract java.util.List
-     * java.time.temporal.TemporalAmount.getUnits()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUnits()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.time.temporal.TemporalAmount#get(java.time.temporal.TemporalUnit) public abstract
      * long java.time.temporal.TemporalAmount.get(java.time.temporal.TemporalUnit)}.
      * </p>
@@ -64,6 +48,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_get_TemporalUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.TemporalAmount#getUnits() public abstract java.util.List
+     * java.time.temporal.TemporalAmount.getUnits()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUnits()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -61,80 +61,6 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
         final java.lang.Double sut = null; // = new Double(java.lang.String);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.lang.Double> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.Double.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Double#max(double,double) public static double
-     * java.lang.Double.max(double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_max_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Double#toHexString(double) public static java.lang.String
-     * java.lang.Double.toHexString(double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toHexString_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Double#valueOf(java.lang.String) public static java.lang.Double
-     * java.lang.Double.valueOf(java.lang.String) throws java.lang.NumberFormatException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_valueOf_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Double#valueOf(double) public static java.lang.Double
-     * java.lang.Double.valueOf(double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_valueOf_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link java.lang.Double#compare(double,double) public static int
@@ -169,14 +95,14 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
 
     /**
      * <p>
-     * Test method for {@link java.lang.Double#longBitsToDouble(long) public static native double
-     * java.lang.Double.longBitsToDouble(long)}.
+     * Test method for {@link java.lang.Double#doubleToRawLongBits(double) public static native long
+     * java.lang.Double.doubleToRawLongBits(double)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_longBitsToDouble_long()
+    public default void test_doubleToRawLongBits_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -185,13 +111,13 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
 
     /**
      * <p>
-     * Test method for {@link java.lang.Double#isNaN(double) public static boolean java.lang.Double.isNaN(double)}.
+     * Test method for {@link java.lang.Double#hashCode(double) public static int java.lang.Double.hashCode(double)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isNaN_double()
+    public default void test_hashCode_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -216,38 +142,6 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
 
     /**
      * <p>
-     * Test method for {@link java.lang.Double#doubleToRawLongBits(double) public static native long
-     * java.lang.Double.doubleToRawLongBits(double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_doubleToRawLongBits_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Double#sum(double,double) public static double
-     * java.lang.Double.sum(double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sum_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.Double#isInfinite(double) public static boolean
      * java.lang.Double.isInfinite(double)}.
      * </p>
@@ -264,13 +158,13 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
 
     /**
      * <p>
-     * Test method for {@link java.lang.Double#hashCode(double) public static int java.lang.Double.hashCode(double)}.
+     * Test method for {@link java.lang.Double#isNaN(double) public static boolean java.lang.Double.isNaN(double)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hashCode_double()
+    public default void test_isNaN_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -279,14 +173,30 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
 
     /**
      * <p>
-     * Test method for {@link java.lang.Double#parseDouble(java.lang.String) public static double
-     * java.lang.Double.parseDouble(java.lang.String) throws java.lang.NumberFormatException}.
+     * Test method for {@link java.lang.Double#longBitsToDouble(long) public static native double
+     * java.lang.Double.longBitsToDouble(long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parseDouble_String()
+    public default void test_longBitsToDouble_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Double#max(double,double) public static double
+     * java.lang.Double.max(double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_max_double_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -311,6 +221,54 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
 
     /**
      * <p>
+     * Test method for {@link java.lang.Double#parseDouble(java.lang.String) public static double
+     * java.lang.Double.parseDouble(java.lang.String) throws java.lang.NumberFormatException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parseDouble_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Double#sum(double,double) public static double
+     * java.lang.Double.sum(double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sum_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Double#toHexString(double) public static java.lang.String
+     * java.lang.Double.toHexString(double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toHexString_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.lang.Double#toString(double) public static java.lang.String
      * java.lang.Double.toString(double)}.
      * </p>
@@ -323,6 +281,48 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Doub
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Double#valueOf(double) public static java.lang.Double
+     * java.lang.Double.valueOf(double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_valueOf_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Double#valueOf(java.lang.String) public static java.lang.Double
+     * java.lang.Double.valueOf(java.lang.String) throws java.lang.NumberFormatException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_valueOf_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.lang.Double> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.Double.class.isAssignableFrom(sut));
     }
 
 }

@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.DesignMode#setDesignTime(boolean) public abstract void
-     * java.beans.DesignMode.setDesignTime(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDesignTime_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.beans.DesignMode#isDesignTime() public abstract boolean
      * java.beans.DesignMode.isDesignTime()}.
      * </p>
@@ -48,6 +32,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isDesignTime()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.DesignMode#setDesignTime(boolean) public abstract void
+     * java.beans.DesignMode.setDesignTime(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDesignTime_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

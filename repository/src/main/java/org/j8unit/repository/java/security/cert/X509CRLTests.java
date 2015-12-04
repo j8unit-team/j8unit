@@ -23,62 +23,15 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.X509CRL#getSignature() public abstract byte[]
-     * java.security.cert.X509CRL.getSignature()}.
+     * Test method for {@link java.security.cert.X509CRL#equals(java.lang.Object) public boolean
+     * java.security.cert.X509CRL.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSignature()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRL#getSigAlgParams() public abstract byte[]
-     * java.security.cert.X509CRL.getSigAlgParams()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSigAlgParams()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRL#getVersion() public abstract int
-     * java.security.cert.X509CRL.getVersion()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVersion()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRL#getRevokedCertificates() public abstract java.util.Set
-     * java.security.cert.X509CRL.getRevokedCertificates()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRevokedCertificates()
+    @Override
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,6 +72,22 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
+     * Test method for {@link java.security.cert.X509CRL#getIssuerX500Principal() public
+     * javax.security.auth.x500.X500Principal java.security.cert.X509CRL.getIssuerX500Principal()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIssuerX500Principal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.security.cert.X509CRL#getNextUpdate() public abstract java.util.Date
      * java.security.cert.X509CRL.getNextUpdate()}.
      * </p>
@@ -127,6 +96,22 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_getNextUpdate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRL#getRevokedCertificate(java.math.BigInteger) public abstract
+     * java.security.cert.X509CRLEntry java.security.cert.X509CRL.getRevokedCertificate(java.math.BigInteger)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRevokedCertificate_BigInteger()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -152,14 +137,78 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.X509CRL#getRevokedCertificate(java.math.BigInteger) public abstract
-     * java.security.cert.X509CRLEntry java.security.cert.X509CRL.getRevokedCertificate(java.math.BigInteger)}.
+     * Test method for {@link java.security.cert.X509CRL#getRevokedCertificates() public abstract java.util.Set
+     * java.security.cert.X509CRL.getRevokedCertificates()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRevokedCertificate_BigInteger()
+    public default void test_getRevokedCertificates()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRL#getSigAlgName() public abstract java.lang.String
+     * java.security.cert.X509CRL.getSigAlgName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSigAlgName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRL#getSigAlgOID() public abstract java.lang.String
+     * java.security.cert.X509CRL.getSigAlgOID()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSigAlgOID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRL#getSigAlgParams() public abstract byte[]
+     * java.security.cert.X509CRL.getSigAlgParams()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSigAlgParams()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRL#getSignature() public abstract byte[]
+     * java.security.cert.X509CRL.getSignature()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSignature()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -176,6 +225,54 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_getTBSCertList()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRL#getThisUpdate() public abstract java.util.Date
+     * java.security.cert.X509CRL.getThisUpdate()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getThisUpdate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRL#getVersion() public abstract int
+     * java.security.cert.X509CRL.getVersion()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVersion()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRL#hashCode() public int java.security.cert.X509CRL.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -230,103 +327,6 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_verify_PublicKey_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRL#getSigAlgOID() public abstract java.lang.String
-     * java.security.cert.X509CRL.getSigAlgOID()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSigAlgOID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRL#getThisUpdate() public abstract java.util.Date
-     * java.security.cert.X509CRL.getThisUpdate()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getThisUpdate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRL#getIssuerX500Principal() public
-     * javax.security.auth.x500.X500Principal java.security.cert.X509CRL.getIssuerX500Principal()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIssuerX500Principal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRL#getSigAlgName() public abstract java.lang.String
-     * java.security.cert.X509CRL.getSigAlgName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSigAlgName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRL#hashCode() public int java.security.cert.X509CRL.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRL#equals(java.lang.Object) public boolean
-     * java.security.cert.X509CRL.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

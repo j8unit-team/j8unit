@@ -24,14 +24,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#get(java.lang.Object) public
-     * abstract java.lang.Object java.util.concurrent.atomic.AtomicReferenceFieldUpdater.get(java.lang.Object)}.
+     * Test method for
+     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#accumulateAndGet(java.lang.Object,java.lang.Object,java.util.function.BinaryOperator)
+     * public final java.lang.Object
+     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.accumulateAndGet(java.lang.Object,java.lang.Object,java.util.function.BinaryOperator)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get_Object()
+    public default void test_accumulateAndGet_Object_Object_BinaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -59,34 +62,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#weakCompareAndSet(java.lang.Object,java.lang.Object,java.lang.Object)
-     * public abstract boolean
-     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.weakCompareAndSet(java.lang.Object,java.lang.Object,java.lang.Object)}
-     * .
+     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#get(java.lang.Object) public
+     * abstract java.lang.Object java.util.concurrent.atomic.AtomicReferenceFieldUpdater.get(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_weakCompareAndSet_Object_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#set(java.lang.Object,java.lang.Object) public
-     * abstract void java.util.concurrent.atomic.AtomicReferenceFieldUpdater.set(java.lang.Object,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_set_Object_Object()
+    public default void test_get_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,44 +89,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAndAccumulate_Object_Object_BinaryOperator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#accumulateAndGet(java.lang.Object,java.lang.Object,java.util.function.BinaryOperator)
-     * public final java.lang.Object
-     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.accumulateAndGet(java.lang.Object,java.lang.Object,java.util.function.BinaryOperator)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_accumulateAndGet_Object_Object_BinaryOperator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#updateAndGet(java.lang.Object,java.util.function.UnaryOperator)
-     * public final java.lang.Object
-     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.updateAndGet(java.lang.Object,java.util.function.UnaryOperator)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_updateAndGet_Object_UnaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -199,6 +144,61 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_lazySet_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#set(java.lang.Object,java.lang.Object) public
+     * abstract void java.util.concurrent.atomic.AtomicReferenceFieldUpdater.set(java.lang.Object,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_set_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#updateAndGet(java.lang.Object,java.util.function.UnaryOperator)
+     * public final java.lang.Object
+     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.updateAndGet(java.lang.Object,java.util.function.UnaryOperator)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_updateAndGet_Object_UnaryOperator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.atomic.AtomicReferenceFieldUpdater#weakCompareAndSet(java.lang.Object,java.lang.Object,java.lang.Object)
+     * public abstract boolean
+     * java.util.concurrent.atomic.AtomicReferenceFieldUpdater.weakCompareAndSet(java.lang.Object,java.lang.Object,java.lang.Object)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_weakCompareAndSet_Object_Object_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

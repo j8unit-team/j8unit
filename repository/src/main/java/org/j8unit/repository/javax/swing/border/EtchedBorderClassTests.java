@@ -36,17 +36,16 @@ public abstract interface EtchedBorderClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.border.EtchedBorder#EtchedBorder(int,java.awt.Color,java.awt.Color) public
-     * javax.swing.border.EtchedBorder(int,java.awt.Color,java.awt.Color)}.
+     * Test method for {@link javax.swing.border.EtchedBorder#EtchedBorder() public javax.swing.border.EtchedBorder()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_EtchedBorder_int_Color_Color()
+    public default void create_EtchedBorder()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.border.EtchedBorder sut = null; // = new EtchedBorder(int,java.awt.Color,java.awt.Color);
+        final javax.swing.border.EtchedBorder sut = null; // = new EtchedBorder();
     }
 
     /**
@@ -78,16 +77,17 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.border.EtchedBorder#EtchedBorder() public javax.swing.border.EtchedBorder()}.
+     * Test method for {@link javax.swing.border.EtchedBorder#EtchedBorder(int,java.awt.Color,java.awt.Color) public
+     * javax.swing.border.EtchedBorder(int,java.awt.Color,java.awt.Color)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_EtchedBorder()
+    public default void create_EtchedBorder_int_Color_Color()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.border.EtchedBorder sut = null; // = new EtchedBorder();
+        final javax.swing.border.EtchedBorder sut = null; // = new EtchedBorder(int,java.awt.Color,java.awt.Color);
     }
 
     @Override

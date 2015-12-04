@@ -23,30 +23,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#getDataVector() public java.util.Vector
-     * javax.swing.table.DefaultTableModel.getDataVector()}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#addColumn(java.lang.Object) public void
+     * javax.swing.table.DefaultTableModel.addColumn(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDataVector()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#newRowsAdded(javax.swing.event.TableModelEvent) public
-     * void javax.swing.table.DefaultTableModel.newRowsAdded(javax.swing.event.TableModelEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newRowsAdded_TableModelEvent()
+    public default void test_addColumn_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,22 +55,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#addColumn(java.lang.Object) public void
-     * javax.swing.table.DefaultTableModel.addColumn(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addColumn_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.table.DefaultTableModel#addColumn(java.lang.Object,java.util.Vector) public
      * void javax.swing.table.DefaultTableModel.addColumn(java.lang.Object,java.util.Vector)}.
      * </p>
@@ -103,14 +71,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#newDataAvailable(javax.swing.event.TableModelEvent)
-     * public void javax.swing.table.DefaultTableModel.newDataAvailable(javax.swing.event.TableModelEvent)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#addRow(java.lang.Object[]) public void
+     * javax.swing.table.DefaultTableModel.addRow(java.lang.Object[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newDataAvailable_TableModelEvent()
+    public default void test_addRow_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,15 +87,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#getRowCount() public int
-     * javax.swing.table.DefaultTableModel.getRowCount()}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#addRow(java.util.Vector) public void
+     * javax.swing.table.DefaultTableModel.addRow(java.util.Vector)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getRowCount()
+    public default void test_addRow_Vector()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -153,14 +120,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#rowsRemoved(javax.swing.event.TableModelEvent) public
-     * void javax.swing.table.DefaultTableModel.rowsRemoved(javax.swing.event.TableModelEvent)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#getColumnName(int) public java.lang.String
+     * javax.swing.table.DefaultTableModel.getColumnName(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_rowsRemoved_TableModelEvent()
+    @Override
+    public default void test_getColumnName_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -169,15 +137,48 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#isCellEditable(int,int) public boolean
-     * javax.swing.table.DefaultTableModel.isCellEditable(int,int)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#getDataVector() public java.util.Vector
+     * javax.swing.table.DefaultTableModel.getDataVector()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDataVector()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#getRowCount() public int
+     * javax.swing.table.DefaultTableModel.getRowCount()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isCellEditable_int_int()
+    public default void test_getRowCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#getValueAt(int,int) public java.lang.Object
+     * javax.swing.table.DefaultTableModel.getValueAt(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getValueAt_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -218,14 +219,95 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#setRowCount(int) public void
-     * javax.swing.table.DefaultTableModel.setRowCount(int)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#isCellEditable(int,int) public boolean
+     * javax.swing.table.DefaultTableModel.isCellEditable(int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setRowCount_int()
+    @Override
+    public default void test_isCellEditable_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#moveRow(int,int,int) public void
+     * javax.swing.table.DefaultTableModel.moveRow(int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_moveRow_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#newDataAvailable(javax.swing.event.TableModelEvent)
+     * public void javax.swing.table.DefaultTableModel.newDataAvailable(javax.swing.event.TableModelEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newDataAvailable_TableModelEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#newRowsAdded(javax.swing.event.TableModelEvent) public
+     * void javax.swing.table.DefaultTableModel.newRowsAdded(javax.swing.event.TableModelEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newRowsAdded_TableModelEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#removeRow(int) public void
+     * javax.swing.table.DefaultTableModel.removeRow(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeRow_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#rowsRemoved(javax.swing.event.TableModelEvent) public
+     * void javax.swing.table.DefaultTableModel.rowsRemoved(javax.swing.event.TableModelEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_rowsRemoved_TableModelEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -250,70 +332,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#setNumRows(int) public void
-     * javax.swing.table.DefaultTableModel.setNumRows(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setNumRows_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#addRow(java.util.Vector) public void
-     * javax.swing.table.DefaultTableModel.addRow(java.util.Vector)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addRow_Vector()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#addRow(java.lang.Object[]) public void
-     * javax.swing.table.DefaultTableModel.addRow(java.lang.Object[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addRow_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#setColumnIdentifiers(java.util.Vector) public void
-     * javax.swing.table.DefaultTableModel.setColumnIdentifiers(java.util.Vector)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setColumnIdentifiers_Vector()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.table.DefaultTableModel#setColumnIdentifiers(java.lang.Object[]) public void
      * javax.swing.table.DefaultTableModel.setColumnIdentifiers(java.lang.Object[])}.
      * </p>
@@ -330,15 +348,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#setValueAt(java.lang.Object,int,int) public void
-     * javax.swing.table.DefaultTableModel.setValueAt(java.lang.Object,int,int)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#setColumnIdentifiers(java.util.Vector) public void
+     * javax.swing.table.DefaultTableModel.setColumnIdentifiers(java.util.Vector)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_setValueAt_Object_int_int()
+    public default void test_setColumnIdentifiers_Vector()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -379,64 +396,47 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#getColumnName(int) public java.lang.String
-     * javax.swing.table.DefaultTableModel.getColumnName(int)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#setNumRows(int) public void
+     * javax.swing.table.DefaultTableModel.setNumRows(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setNumRows_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#setRowCount(int) public void
+     * javax.swing.table.DefaultTableModel.setRowCount(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRowCount_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.DefaultTableModel#setValueAt(java.lang.Object,int,int) public void
+     * javax.swing.table.DefaultTableModel.setValueAt(java.lang.Object,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getColumnName_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#getValueAt(int,int) public java.lang.Object
-     * javax.swing.table.DefaultTableModel.getValueAt(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getValueAt_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#moveRow(int,int,int) public void
-     * javax.swing.table.DefaultTableModel.moveRow(int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_moveRow_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.DefaultTableModel#removeRow(int) public void
-     * javax.swing.table.DefaultTableModel.removeRow(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeRow_int()
+    public default void test_setValueAt_Object_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface CollationElementIteratorClassTests<SUT extends Class<? extends java.text.CollationElementIterator>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.text.CollationElementIterator> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.text.CollationElementIterator.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.text.CollationElementIterator#primaryOrder(int) public static final int
@@ -55,6 +45,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_primaryOrder_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.CollationElementIterator#secondaryOrder(int) public static final short
+     * java.text.CollationElementIterator.secondaryOrder(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_secondaryOrder_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -77,20 +83,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.text.CollationElementIterator#secondaryOrder(int) public static final short
-     * java.text.CollationElementIterator.secondaryOrder(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_secondaryOrder_int()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.text.CollationElementIterator> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.text.CollationElementIterator.class.isAssignableFrom(sut));
     }
 
 }

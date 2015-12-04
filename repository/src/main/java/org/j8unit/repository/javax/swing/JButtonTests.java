@@ -23,30 +23,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JButton#isDefaultCapable() public boolean
-     * javax.swing.JButton.isDefaultCapable()}.
+     * Test method for {@link javax.swing.JButton#getAccessibleContext() public javax.accessibility.AccessibleContext
+     * javax.swing.JButton.getAccessibleContext()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDefaultCapable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JButton#setDefaultCapable(boolean) public void
-     * javax.swing.JButton.setDefaultCapable(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDefaultCapable_boolean()
+    @Override
+    public default void test_getAccessibleContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,38 +57,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JButton#removeNotify() public void javax.swing.JButton.removeNotify()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_removeNotify()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JButton#updateUI() public void javax.swing.JButton.updateUI()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_updateUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.JButton#isDefaultButton() public boolean
      * javax.swing.JButton.isDefaultButton()}.
      * </p>
@@ -120,15 +73,62 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JButton#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JButton.getAccessibleContext()}.
+     * Test method for {@link javax.swing.JButton#isDefaultCapable() public boolean
+     * javax.swing.JButton.isDefaultCapable()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isDefaultCapable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JButton#removeNotify() public void javax.swing.JButton.removeNotify()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAccessibleContext()
+    public default void test_removeNotify()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JButton#setDefaultCapable(boolean) public void
+     * javax.swing.JButton.setDefaultCapable(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDefaultCapable_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JButton#updateUI() public void javax.swing.JButton.updateUI()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_updateUI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

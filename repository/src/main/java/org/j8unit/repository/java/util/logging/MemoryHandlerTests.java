@@ -40,14 +40,15 @@ extends org.j8unit.repository.java.util.logging.HandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.MemoryHandler#push() public synchronized void
-     * java.util.logging.MemoryHandler.push()}.
+     * Test method for {@link java.util.logging.MemoryHandler#flush() public void
+     * java.util.logging.MemoryHandler.flush()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_push()
+    @Override
+    public default void test_flush()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,31 +73,15 @@ extends org.j8unit.repository.java.util.logging.HandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.MemoryHandler#flush() public void
-     * java.util.logging.MemoryHandler.flush()}.
+     * Test method for {@link java.util.logging.MemoryHandler#isLoggable(java.util.logging.LogRecord) public boolean
+     * java.util.logging.MemoryHandler.isLoggable(java.util.logging.LogRecord)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_flush()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.logging.MemoryHandler#setPushLevel(java.util.logging.Level) public synchronized
-     * void java.util.logging.MemoryHandler.setPushLevel(java.util.logging.Level) throws java.lang.SecurityException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPushLevel_Level()
+    public default void test_isLoggable_LogRecord()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -122,15 +107,30 @@ extends org.j8unit.repository.java.util.logging.HandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.MemoryHandler#isLoggable(java.util.logging.LogRecord) public boolean
-     * java.util.logging.MemoryHandler.isLoggable(java.util.logging.LogRecord)}.
+     * Test method for {@link java.util.logging.MemoryHandler#push() public synchronized void
+     * java.util.logging.MemoryHandler.push()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_isLoggable_LogRecord()
+    public default void test_push()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.logging.MemoryHandler#setPushLevel(java.util.logging.Level) public synchronized
+     * void java.util.logging.MemoryHandler.setPushLevel(java.util.logging.Level) throws java.lang.SecurityException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPushLevel_Level()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

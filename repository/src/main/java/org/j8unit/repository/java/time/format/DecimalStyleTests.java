@@ -23,111 +23,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DecimalStyle#toString() public java.lang.String
-     * java.time.format.DecimalStyle.toString()}.
+     * Test method for {@link java.time.format.DecimalStyle#equals(java.lang.Object) public boolean
+     * java.time.format.DecimalStyle.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.format.DecimalStyle#withNegativeSign(char) public java.time.format.DecimalStyle
-     * java.time.format.DecimalStyle.withNegativeSign(char)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_withNegativeSign_char()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.format.DecimalStyle#getNegativeSign() public char
-     * java.time.format.DecimalStyle.getNegativeSign()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNegativeSign()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.format.DecimalStyle#getZeroDigit() public char
-     * java.time.format.DecimalStyle.getZeroDigit()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getZeroDigit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.format.DecimalStyle#withZeroDigit(char) public java.time.format.DecimalStyle
-     * java.time.format.DecimalStyle.withZeroDigit(char)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_withZeroDigit_char()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.format.DecimalStyle#withPositiveSign(char) public java.time.format.DecimalStyle
-     * java.time.format.DecimalStyle.withPositiveSign(char)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_withPositiveSign_char()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.format.DecimalStyle#getPositiveSign() public char
-     * java.time.format.DecimalStyle.getPositiveSign()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPositiveSign()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -152,15 +56,80 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DecimalStyle#equals(java.lang.Object) public boolean
-     * java.time.format.DecimalStyle.equals(java.lang.Object)}.
+     * Test method for {@link java.time.format.DecimalStyle#getNegativeSign() public char
+     * java.time.format.DecimalStyle.getNegativeSign()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNegativeSign()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.format.DecimalStyle#getPositiveSign() public char
+     * java.time.format.DecimalStyle.getPositiveSign()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPositiveSign()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.format.DecimalStyle#getZeroDigit() public char
+     * java.time.format.DecimalStyle.getZeroDigit()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getZeroDigit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.format.DecimalStyle#hashCode() public int
+     * java.time.format.DecimalStyle.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.format.DecimalStyle#toString() public java.lang.String
+     * java.time.format.DecimalStyle.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -185,15 +154,46 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DecimalStyle#hashCode() public int
-     * java.time.format.DecimalStyle.hashCode()}.
+     * Test method for {@link java.time.format.DecimalStyle#withNegativeSign(char) public java.time.format.DecimalStyle
+     * java.time.format.DecimalStyle.withNegativeSign(char)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
+    public default void test_withNegativeSign_char()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.format.DecimalStyle#withPositiveSign(char) public java.time.format.DecimalStyle
+     * java.time.format.DecimalStyle.withPositiveSign(char)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_withPositiveSign_char()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.format.DecimalStyle#withZeroDigit(char) public java.time.format.DecimalStyle
+     * java.time.format.DecimalStyle.withZeroDigit(char)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_withZeroDigit_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -48,32 +48,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.PortableServer.POAHelper sut = null; // = new POAHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.PortableServer.POAHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.PortableServer.POAHelper.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.POAHelper#read(org.omg.CORBA.portable.InputStream) public static
-     * org.omg.PortableServer.POA org.omg.PortableServer.POAHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link org.omg.PortableServer.POAHelper#extract(org.omg.CORBA.Any) public static
@@ -108,6 +82,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.omg.PortableServer.POAHelper#insert(org.omg.CORBA.Any,org.omg.PortableServer.POA)
+     * public static void org.omg.PortableServer.POAHelper.insert(org.omg.CORBA.Any,org.omg.PortableServer.POA)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_POA()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.omg.PortableServer.POAHelper#narrow(org.omg.CORBA.Object) public static
      * org.omg.PortableServer.POA org.omg.PortableServer.POAHelper.narrow(org.omg.CORBA.Object)}.
      * </p>
@@ -124,14 +114,30 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableServer.POAHelper#insert(org.omg.CORBA.Any,org.omg.PortableServer.POA)
-     * public static void org.omg.PortableServer.POAHelper.insert(org.omg.CORBA.Any,org.omg.PortableServer.POA)}.
+     * Test method for {@link org.omg.PortableServer.POAHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * org.omg.PortableServer.POA org.omg.PortableServer.POAHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_insert_Any_POA()
+    public default void test_read_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.POAHelper#type() public static synchronized org.omg.CORBA.TypeCode
+     * org.omg.PortableServer.POAHelper.type()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -156,20 +162,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.POAHelper#type() public static synchronized org.omg.CORBA.TypeCode
-     * org.omg.PortableServer.POAHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_type()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.PortableServer.POAHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.PortableServer.POAHelper.class.isAssignableFrom(sut));
     }
 
 }

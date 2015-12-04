@@ -40,23 +40,6 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.FileImageInputStream#seek(long) public void
-     * javax.imageio.stream.FileImageInputStream.seek(long) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_seek_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.imageio.stream.FileImageInputStream#length() public long
      * javax.imageio.stream.FileImageInputStream.length()}.
      * </p>
@@ -66,6 +49,23 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
     @Category(Draft.class)
     @Override
     public default void test_length()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.stream.FileImageInputStream#read() public int
+     * javax.imageio.stream.FileImageInputStream.read() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_read()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,15 +91,15 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamImplTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.FileImageInputStream#read() public int
-     * javax.imageio.stream.FileImageInputStream.read() throws java.io.IOException}.
+     * Test method for {@link javax.imageio.stream.FileImageInputStream#seek(long) public void
+     * javax.imageio.stream.FileImageInputStream.seek(long) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_read()
+    public default void test_seek_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

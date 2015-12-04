@@ -36,47 +36,6 @@ public abstract interface MetalTabbedPaneUIClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.plaf.metal.MetalTabbedPaneUI#MetalTabbedPaneUI() public
-     * javax.swing.plaf.metal.MetalTabbedPaneUI()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MetalTabbedPaneUI()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.plaf.metal.MetalTabbedPaneUI sut = null; // = new MetalTabbedPaneUI();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.metal.MetalTabbedPaneUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.metal.MetalTabbedPaneUI.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalTabbedPaneUI#createUI(javax.swing.JComponent) public static
-     * javax.swing.plaf.ComponentUI javax.swing.plaf.metal.MetalTabbedPaneUI.createUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.plaf.metal.MetalTabbedPaneUI$TabbedPaneLayout class
      * javax.swing.plaf.metal.MetalTabbedPaneUI$TabbedPaneLayout}, containing all class relevant test methods (at least
@@ -132,6 +91,47 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUIClassTests
             assertTrue(javax.swing.plaf.metal.MetalTabbedPaneUI.TabbedPaneLayout.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.plaf.metal.MetalTabbedPaneUI#MetalTabbedPaneUI() public
+     * javax.swing.plaf.metal.MetalTabbedPaneUI()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MetalTabbedPaneUI()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.plaf.metal.MetalTabbedPaneUI sut = null; // = new MetalTabbedPaneUI();
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalTabbedPaneUI#createUI(javax.swing.JComponent) public static
+     * javax.swing.plaf.ComponentUI javax.swing.plaf.metal.MetalTabbedPaneUI.createUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.metal.MetalTabbedPaneUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.metal.MetalTabbedPaneUI.class.isAssignableFrom(sut));
     }
 
 }

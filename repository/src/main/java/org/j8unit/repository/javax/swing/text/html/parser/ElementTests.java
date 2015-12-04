@@ -24,6 +24,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.text.html.parser.Element#getAttribute(java.lang.String) public
+     * javax.swing.text.html.parser.AttributeList javax.swing.text.html.parser.Element.getAttribute(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttribute_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.text.html.parser.Element#getAttributeByValue(java.lang.String) public
      * javax.swing.text.html.parser.AttributeList
      * javax.swing.text.html.parser.Element.getAttributeByValue(java.lang.String)}.
@@ -33,22 +49,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAttributeByValue_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getName() public java.lang.String
-     * javax.swing.text.html.parser.Element.getName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,46 +73,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getAttribute(java.lang.String) public
-     * javax.swing.text.html.parser.AttributeList javax.swing.text.html.parser.Element.getAttribute(java.lang.String)}.
+     * Test method for {@link javax.swing.text.html.parser.Element#getContent() public
+     * javax.swing.text.html.parser.ContentModel javax.swing.text.html.parser.Element.getContent()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAttribute_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#omitEnd() public boolean
-     * javax.swing.text.html.parser.Element.omitEnd()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_omitEnd()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getType() public int
-     * javax.swing.text.html.parser.Element.getType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getType()
+    public default void test_getContent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -137,14 +105,30 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#getContent() public
-     * javax.swing.text.html.parser.ContentModel javax.swing.text.html.parser.Element.getContent()}.
+     * Test method for {@link javax.swing.text.html.parser.Element#getName() public java.lang.String
+     * javax.swing.text.html.parser.Element.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getContent()
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.Element#getType() public int
+     * javax.swing.text.html.parser.Element.getType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -169,15 +153,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Element#toString() public java.lang.String
-     * javax.swing.text.html.parser.Element.toString()}.
+     * Test method for {@link javax.swing.text.html.parser.Element#omitEnd() public boolean
+     * javax.swing.text.html.parser.Element.omitEnd()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_omitEnd()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -194,6 +177,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_omitStart()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.Element#toString() public java.lang.String
+     * javax.swing.text.html.parser.Element.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -35,129 +35,6 @@ public abstract interface RowFilterClassTests<SUT extends Class<? extends javax.
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.RowFilter#RowFilter() public javax.swing.RowFilter()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RowFilter()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.RowFilter<M, I> sut = null; // = new RowFilter();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.RowFilter<M, I>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.RowFilter.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.RowFilter#dateFilter(javax.swing.RowFilter.ComparisonType,java.util.Date,int...) public static
-     * javax.swing.RowFilter
-     * javax.swing.RowFilter.dateFilter(javax.swing.RowFilter$ComparisonType,java.util.Date,int...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_dateFilter_ComparisonType_Date_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.RowFilter#orFilter(java.lang.Iterable) public static javax.swing.RowFilter
-     * javax.swing.RowFilter.orFilter(java.lang.Iterable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_orFilter_Iterable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.RowFilter#numberFilter(javax.swing.RowFilter.ComparisonType,java.lang.Number,int...) public
-     * static javax.swing.RowFilter
-     * javax.swing.RowFilter.numberFilter(javax.swing.RowFilter$ComparisonType,java.lang.Number,int...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_numberFilter_ComparisonType_Number_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.RowFilter#andFilter(java.lang.Iterable) public static javax.swing.RowFilter
-     * javax.swing.RowFilter.andFilter(java.lang.Iterable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_andFilter_Iterable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.RowFilter#notFilter(javax.swing.RowFilter) public static javax.swing.RowFilter
-     * javax.swing.RowFilter.notFilter(javax.swing.RowFilter)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_notFilter_RowFilter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.RowFilter#regexFilter(java.lang.String,int...) public static
-     * javax.swing.RowFilter javax.swing.RowFilter.regexFilter(java.lang.String,int...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_regexFilter_String_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.RowFilter$ComparisonType class javax.swing.RowFilter$ComparisonType},
      * containing all class relevant test methods (at least the test methods of accessible constructors and of
@@ -185,16 +62,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Category(J8UnitRepository.class)
     public static abstract interface ComparisonTypeClassTests<SUT extends Class<? extends javax.swing.RowFilter.ComparisonType>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.RowFilter.ComparisonType> {
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.swing.RowFilter.ComparisonType> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.RowFilter.ComparisonType.class.isAssignableFrom(sut));
-        }
 
         /**
          * <p>
@@ -226,6 +93,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
             assert sut != null;
+        }
+
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.swing.RowFilter.ComparisonType> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.swing.RowFilter.ComparisonType.class.isAssignableFrom(sut));
         }
 
     }
@@ -282,6 +159,129 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(javax.swing.RowFilter.Entry.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.RowFilter#RowFilter() public javax.swing.RowFilter()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RowFilter()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.RowFilter<M, I> sut = null; // = new RowFilter();
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.RowFilter#andFilter(java.lang.Iterable) public static javax.swing.RowFilter
+     * javax.swing.RowFilter.andFilter(java.lang.Iterable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_andFilter_Iterable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.RowFilter#dateFilter(javax.swing.RowFilter.ComparisonType,java.util.Date,int...) public static
+     * javax.swing.RowFilter
+     * javax.swing.RowFilter.dateFilter(javax.swing.RowFilter$ComparisonType,java.util.Date,int...)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_dateFilter_ComparisonType_Date_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.RowFilter#notFilter(javax.swing.RowFilter) public static javax.swing.RowFilter
+     * javax.swing.RowFilter.notFilter(javax.swing.RowFilter)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_notFilter_RowFilter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.RowFilter#numberFilter(javax.swing.RowFilter.ComparisonType,java.lang.Number,int...) public
+     * static javax.swing.RowFilter
+     * javax.swing.RowFilter.numberFilter(javax.swing.RowFilter$ComparisonType,java.lang.Number,int...)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_numberFilter_ComparisonType_Number_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.RowFilter#orFilter(java.lang.Iterable) public static javax.swing.RowFilter
+     * javax.swing.RowFilter.orFilter(java.lang.Iterable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_orFilter_Iterable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.RowFilter#regexFilter(java.lang.String,int...) public static
+     * javax.swing.RowFilter javax.swing.RowFilter.regexFilter(java.lang.String,int...)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_regexFilter_String_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.RowFilter<M, I>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.RowFilter.class.isAssignableFrom(sut));
     }
 
 }

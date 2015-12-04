@@ -23,15 +23,30 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.TypeConstraintException#printStackTrace(java.io.PrintStream) public void
-     * javax.xml.bind.TypeConstraintException.printStackTrace(java.io.PrintStream)}.
+     * Test method for {@link javax.xml.bind.TypeConstraintException#getErrorCode() public java.lang.String
+     * javax.xml.bind.TypeConstraintException.getErrorCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_printStackTrace_PrintStream()
+    public default void test_getErrorCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.TypeConstraintException#getLinkedException() public java.lang.Throwable
+     * javax.xml.bind.TypeConstraintException.getLinkedException()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLinkedException()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,30 +72,15 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.TypeConstraintException#getErrorCode() public java.lang.String
-     * javax.xml.bind.TypeConstraintException.getErrorCode()}.
+     * Test method for {@link javax.xml.bind.TypeConstraintException#printStackTrace(java.io.PrintStream) public void
+     * javax.xml.bind.TypeConstraintException.printStackTrace(java.io.PrintStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getErrorCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.TypeConstraintException#getLinkedException() public java.lang.Throwable
-     * javax.xml.bind.TypeConstraintException.getLinkedException()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLinkedException()
+    @Override
+    public default void test_printStackTrace_PrintStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

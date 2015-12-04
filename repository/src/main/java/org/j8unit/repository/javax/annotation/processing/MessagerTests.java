@@ -25,35 +25,15 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.AnnotationValue)
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind,java.lang.CharSequence)
      * public abstract void
-     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.AnnotationValue)}
-     * .
+     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_printMessage_Kind_CharSequence_Element_AnnotationMirror_AnnotationValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror)
-     * public abstract void
-     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_printMessage_Kind_CharSequence_Element_AnnotationMirror()
+    public default void test_printMessage_Kind_CharSequence()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -82,15 +62,35 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind,java.lang.CharSequence)
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror)
      * public abstract void
-     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence)}.
+     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_printMessage_Kind_CharSequence()
+    public default void test_printMessage_Kind_CharSequence_Element_AnnotationMirror()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.annotation.processing.Messager#printMessage(javax.tools.Diagnostic.Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.AnnotationValue)
+     * public abstract void
+     * javax.annotation.processing.Messager.printMessage(javax.tools.Diagnostic$Kind,java.lang.CharSequence,javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.AnnotationValue)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_printMessage_Kind_CharSequence_Element_AnnotationMirror_AnnotationValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

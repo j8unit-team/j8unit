@@ -36,65 +36,6 @@ public abstract interface AudioFormatClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.sound.sampled.AudioFormat#AudioFormat(float,int,int,boolean,boolean) public
-     * javax.sound.sampled.AudioFormat(float,int,int,boolean,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AudioFormat_float_int_int_boolean_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.sound.sampled.AudioFormat sut = null; // = new AudioFormat(float,int,int,boolean,boolean);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.sound.sampled.AudioFormat#AudioFormat(javax.sound.sampled.AudioFormat.Encoding,float,int,int,int,float,boolean,java.util.Map)
-     * public
-     * javax.sound.sampled.AudioFormat(javax.sound.sampled.AudioFormat$Encoding,float,int,int,int,float,boolean,java.util.Map)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AudioFormat_Encoding_float_int_int_int_float_boolean_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.sound.sampled.AudioFormat sut = null; // = new
-                                                          // AudioFormat(javax.sound.sampled.AudioFormat.Encoding,float,int,int,int,float,boolean,java.util.Map);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.sound.sampled.AudioFormat#AudioFormat(javax.sound.sampled.AudioFormat.Encoding,float,int,int,int,float,boolean)
-     * public javax.sound.sampled.AudioFormat(javax.sound.sampled.AudioFormat$Encoding,float,int,int,int,float,boolean)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AudioFormat_Encoding_float_int_int_int_float_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.sound.sampled.AudioFormat sut = null; // = new
-                                                          // AudioFormat(javax.sound.sampled.AudioFormat.Encoding,float,int,int,int,float,boolean);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.sound.sampled.AudioFormat> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.sound.sampled.AudioFormat.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.sound.sampled.AudioFormat$Encoding class javax.sound.sampled.AudioFormat$Encoding},
      * containing all class relevant test methods (at least the test methods of accessible constructors and of
@@ -147,6 +88,65 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(javax.sound.sampled.AudioFormat.Encoding.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for
+     * {@link javax.sound.sampled.AudioFormat#AudioFormat(javax.sound.sampled.AudioFormat.Encoding,float,int,int,int,float,boolean)
+     * public javax.sound.sampled.AudioFormat(javax.sound.sampled.AudioFormat$Encoding,float,int,int,int,float,boolean)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AudioFormat_Encoding_float_int_int_int_float_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.sound.sampled.AudioFormat sut = null; // = new
+                                                          // AudioFormat(javax.sound.sampled.AudioFormat.Encoding,float,int,int,int,float,boolean);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.sound.sampled.AudioFormat#AudioFormat(javax.sound.sampled.AudioFormat.Encoding,float,int,int,int,float,boolean,java.util.Map)
+     * public
+     * javax.sound.sampled.AudioFormat(javax.sound.sampled.AudioFormat$Encoding,float,int,int,int,float,boolean,java.util.Map)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AudioFormat_Encoding_float_int_int_int_float_boolean_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.sound.sampled.AudioFormat sut = null; // = new
+                                                          // AudioFormat(javax.sound.sampled.AudioFormat.Encoding,float,int,int,int,float,boolean,java.util.Map);
+    }
+
+    /**
+     * Test method for {@link javax.sound.sampled.AudioFormat#AudioFormat(float,int,int,boolean,boolean) public
+     * javax.sound.sampled.AudioFormat(float,int,int,boolean,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AudioFormat_float_int_int_boolean_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.sound.sampled.AudioFormat sut = null; // = new AudioFormat(float,int,int,boolean,boolean);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.sound.sampled.AudioFormat> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.sound.sampled.AudioFormat.class.isAssignableFrom(sut));
     }
 
 }

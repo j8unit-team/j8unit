@@ -54,38 +54,18 @@ extends org.j8unit.repository.javax.management.DescriptorAccessClassTests<SUT>, 
 
     /**
      * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanOperationInfo#ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int,javax.management.Descriptor)
-     * public
-     * javax.management.modelmbean.ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int,javax.management.Descriptor)}
-     * .
+     * {@link javax.management.modelmbean.ModelMBeanOperationInfo#ModelMBeanOperationInfo(java.lang.String,java.lang.reflect.Method)
+     * public javax.management.modelmbean.ModelMBeanOperationInfo(java.lang.String,java.lang.reflect.Method)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ModelMBeanOperationInfo_String_String_MBeanParameterInfoArray_String_int_Descriptor()
+    public default void create_ModelMBeanOperationInfo_String_Method()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.management.modelmbean.ModelMBeanOperationInfo sut = null; // = new
-                                                                              // ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int,javax.management.Descriptor);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanOperationInfo#ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int)
-     * public
-     * javax.management.modelmbean.ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ModelMBeanOperationInfo_String_String_MBeanParameterInfoArray_String_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.modelmbean.ModelMBeanOperationInfo sut = null; // = new
-                                                                              // ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int);
+                                                                              // ModelMBeanOperationInfo(java.lang.String,java.lang.reflect.Method);
     }
 
     /**
@@ -108,18 +88,38 @@ extends org.j8unit.repository.javax.management.DescriptorAccessClassTests<SUT>, 
 
     /**
      * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanOperationInfo#ModelMBeanOperationInfo(java.lang.String,java.lang.reflect.Method)
-     * public javax.management.modelmbean.ModelMBeanOperationInfo(java.lang.String,java.lang.reflect.Method)}.
+     * {@link javax.management.modelmbean.ModelMBeanOperationInfo#ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int)
+     * public
+     * javax.management.modelmbean.ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int)}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ModelMBeanOperationInfo_String_Method()
+    public default void create_ModelMBeanOperationInfo_String_String_MBeanParameterInfoArray_String_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.management.modelmbean.ModelMBeanOperationInfo sut = null; // = new
-                                                                              // ModelMBeanOperationInfo(java.lang.String,java.lang.reflect.Method);
+                                                                              // ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.management.modelmbean.ModelMBeanOperationInfo#ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int,javax.management.Descriptor)
+     * public
+     * javax.management.modelmbean.ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int,javax.management.Descriptor)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ModelMBeanOperationInfo_String_String_MBeanParameterInfoArray_String_int_Descriptor()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.modelmbean.ModelMBeanOperationInfo sut = null; // = new
+                                                                              // ModelMBeanOperationInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],java.lang.String,int,javax.management.Descriptor);
     }
 
     @Override

@@ -36,16 +36,6 @@ public abstract interface ElementClassTests<SUT extends Class<? extends javax.sw
 extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.html.parser.Element> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.html.parser.Element.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.text.html.parser.Element#name2type(java.lang.String) public static int
@@ -60,6 +50,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.html.parser.Element> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.html.parser.Element.class.isAssignableFrom(sut));
     }
 
 }

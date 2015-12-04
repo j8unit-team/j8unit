@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.NamingEnumeration#hasMore() public abstract boolean
-     * javax.naming.NamingEnumeration.hasMore() throws javax.naming.NamingException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hasMore()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.naming.NamingEnumeration#close() public abstract void
      * javax.naming.NamingEnumeration.close() throws javax.naming.NamingException}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, T> {
     @Test
     @Category(Draft.class)
     public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.NamingEnumeration#hasMore() public abstract boolean
+     * javax.naming.NamingEnumeration.hasMore() throws javax.naming.NamingException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hasMore()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

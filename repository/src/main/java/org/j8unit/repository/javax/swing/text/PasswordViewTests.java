@@ -23,17 +23,15 @@ extends org.j8unit.repository.javax.swing.text.FieldViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.PasswordView#viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[])
-     * public int
-     * javax.swing.text.PasswordView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
+     * Test method for {@link javax.swing.text.PasswordView#getPreferredSpan(int) public float
+     * javax.swing.text.PasswordView.getPreferredSpan(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_viewToModel_float_float_Shape_BiasArray()
+    public default void test_getPreferredSpan_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -61,15 +59,17 @@ extends org.j8unit.repository.javax.swing.text.FieldViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.PasswordView#getPreferredSpan(int) public float
-     * javax.swing.text.PasswordView.getPreferredSpan(int)}.
+     * Test method for
+     * {@link javax.swing.text.PasswordView#viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[])
+     * public int
+     * javax.swing.text.PasswordView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getPreferredSpan_int()
+    public default void test_viewToModel_float_float_Shape_BiasArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

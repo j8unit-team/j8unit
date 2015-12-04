@@ -23,13 +23,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.Deflater#finished() public boolean java.util.zip.Deflater.finished()}.
+     * Test method for {@link java.util.zip.Deflater#deflate(byte[]) public int java.util.zip.Deflater.deflate(byte[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_finished()
+    public default void test_deflate_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -38,13 +38,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.Deflater#getTotalIn() public int java.util.zip.Deflater.getTotalIn()}.
+     * Test method for {@link java.util.zip.Deflater#deflate(byte[],int,int) public int
+     * java.util.zip.Deflater.deflate(byte[],int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTotalIn()
+    public default void test_deflate_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -53,75 +54,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.Deflater#setLevel(int) public void java.util.zip.Deflater.setLevel(int)}.
+     * Test method for {@link java.util.zip.Deflater#deflate(byte[],int,int,int) public int
+     * java.util.zip.Deflater.deflate(byte[],int,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setLevel_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.Deflater#setInput(byte[]) public void
-     * java.util.zip.Deflater.setInput(byte[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setInput_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.Deflater#setInput(byte[],int,int) public void
-     * java.util.zip.Deflater.setInput(byte[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setInput_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.Deflater#getAdler() public int java.util.zip.Deflater.getAdler()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAdler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.Deflater#needsInput() public boolean java.util.zip.Deflater.needsInput()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_needsInput()
+    public default void test_deflate_byteArray_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -160,13 +100,28 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.Deflater#reset() public void java.util.zip.Deflater.reset()}.
+     * Test method for {@link java.util.zip.Deflater#finished() public boolean java.util.zip.Deflater.finished()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reset()
+    public default void test_finished()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.Deflater#getAdler() public int java.util.zip.Deflater.getAdler()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAdler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -206,14 +161,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.Deflater#deflate(byte[],int,int,int) public int
-     * java.util.zip.Deflater.deflate(byte[],int,int,int)}.
+     * Test method for {@link java.util.zip.Deflater#getTotalIn() public int java.util.zip.Deflater.getTotalIn()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_deflate_byteArray_int_int_int()
+    public default void test_getTotalIn()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -222,13 +176,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.Deflater#deflate(byte[]) public int java.util.zip.Deflater.deflate(byte[])}.
+     * Test method for {@link java.util.zip.Deflater#getTotalOut() public int java.util.zip.Deflater.getTotalOut()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_deflate_byteArray()
+    public default void test_getTotalOut()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -237,14 +191,28 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.Deflater#deflate(byte[],int,int) public int
-     * java.util.zip.Deflater.deflate(byte[],int,int)}.
+     * Test method for {@link java.util.zip.Deflater#needsInput() public boolean java.util.zip.Deflater.needsInput()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_deflate_byteArray_int_int()
+    public default void test_needsInput()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.Deflater#reset() public void java.util.zip.Deflater.reset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -285,13 +253,45 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.Deflater#getTotalOut() public int java.util.zip.Deflater.getTotalOut()}.
+     * Test method for {@link java.util.zip.Deflater#setInput(byte[]) public void
+     * java.util.zip.Deflater.setInput(byte[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTotalOut()
+    public default void test_setInput_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.Deflater#setInput(byte[],int,int) public void
+     * java.util.zip.Deflater.setInput(byte[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setInput_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.Deflater#setLevel(int) public void java.util.zip.Deflater.setLevel(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLevel_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

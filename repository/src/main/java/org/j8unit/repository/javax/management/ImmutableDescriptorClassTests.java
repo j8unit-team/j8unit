@@ -79,16 +79,6 @@ extends org.j8unit.repository.javax.management.DescriptorClassTests<SUT>, org.j8
                                                                // ImmutableDescriptor(java.lang.String[],java.lang.Object[]);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.management.ImmutableDescriptor> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.management.ImmutableDescriptor.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.management.ImmutableDescriptor#union(javax.management.Descriptor...) public static
@@ -103,6 +93,16 @@ extends org.j8unit.repository.javax.management.DescriptorClassTests<SUT>, org.j8
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.management.ImmutableDescriptor> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.management.ImmutableDescriptor.class.isAssignableFrom(sut));
     }
 
 }

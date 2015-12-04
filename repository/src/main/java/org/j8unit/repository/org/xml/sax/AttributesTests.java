@@ -24,6 +24,38 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.xml.sax.Attributes#getIndex(java.lang.String) public abstract int
+     * org.xml.sax.Attributes.getIndex(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIndex_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.Attributes#getIndex(java.lang.String,java.lang.String) public abstract int
+     * org.xml.sax.Attributes.getIndex(java.lang.String,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIndex_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.xml.sax.Attributes#getLength() public abstract int org.xml.sax.Attributes.getLength()}
      * .
      * </p>
@@ -40,6 +72,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.xml.sax.Attributes#getLocalName(int) public abstract java.lang.String
+     * org.xml.sax.Attributes.getLocalName(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocalName_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.xml.sax.Attributes#getQName(int) public abstract java.lang.String
      * org.xml.sax.Attributes.getQName(int)}.
      * </p>
@@ -48,6 +96,54 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getQName_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.Attributes#getType(int) public abstract java.lang.String
+     * org.xml.sax.Attributes.getType(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.Attributes#getType(java.lang.String) public abstract java.lang.String
+     * org.xml.sax.Attributes.getType(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.Attributes#getType(java.lang.String,java.lang.String) public abstract
+     * java.lang.String org.xml.sax.Attributes.getType(java.lang.String,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -112,102 +208,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getValue_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.Attributes#getIndex(java.lang.String,java.lang.String) public abstract int
-     * org.xml.sax.Attributes.getIndex(java.lang.String,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIndex_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.Attributes#getIndex(java.lang.String) public abstract int
-     * org.xml.sax.Attributes.getIndex(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIndex_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.Attributes#getLocalName(int) public abstract java.lang.String
-     * org.xml.sax.Attributes.getLocalName(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocalName_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.Attributes#getType(java.lang.String) public abstract java.lang.String
-     * org.xml.sax.Attributes.getType(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getType_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.Attributes#getType(java.lang.String,java.lang.String) public abstract
-     * java.lang.String org.xml.sax.Attributes.getType(java.lang.String,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getType_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.Attributes#getType(int) public abstract java.lang.String
-     * org.xml.sax.Attributes.getType(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getType_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

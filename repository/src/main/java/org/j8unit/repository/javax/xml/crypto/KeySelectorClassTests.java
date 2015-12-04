@@ -35,32 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface KeySelectorClassTests<SUT extends Class<? extends javax.xml.crypto.KeySelector>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.crypto.KeySelector> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.crypto.KeySelector.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.KeySelector#singletonKeySelector(java.security.Key) public static
-     * javax.xml.crypto.KeySelector javax.xml.crypto.KeySelector.singletonKeySelector(java.security.Key)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_singletonKeySelector_Key()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test class for {@link javax.xml.crypto.KeySelector$Purpose class javax.xml.crypto.KeySelector$Purpose},
@@ -100,6 +74,32 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(javax.xml.crypto.KeySelector.Purpose.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.KeySelector#singletonKeySelector(java.security.Key) public static
+     * javax.xml.crypto.KeySelector javax.xml.crypto.KeySelector.singletonKeySelector(java.security.Key)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_singletonKeySelector_Key()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.crypto.KeySelector> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.crypto.KeySelector.class.isAssignableFrom(sut));
     }
 
 }

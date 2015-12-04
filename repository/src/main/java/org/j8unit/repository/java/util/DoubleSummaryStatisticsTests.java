@@ -23,54 +23,6 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link java.util.DoubleSummaryStatistics#getCount() public final long
-     * java.util.DoubleSummaryStatistics.getCount()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.DoubleSummaryStatistics#getAverage() public final double
-     * java.util.DoubleSummaryStatistics.getAverage()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAverage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.DoubleSummaryStatistics#getSum() public final double
-     * java.util.DoubleSummaryStatistics.getSum()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSum()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.DoubleSummaryStatistics#accept(double) public void
      * java.util.DoubleSummaryStatistics.accept(double)}.
      * </p>
@@ -104,15 +56,46 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link java.util.DoubleSummaryStatistics#toString() public java.lang.String
-     * java.util.DoubleSummaryStatistics.toString()}.
+     * Test method for {@link java.util.DoubleSummaryStatistics#getAverage() public final double
+     * java.util.DoubleSummaryStatistics.getAverage()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getAverage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.DoubleSummaryStatistics#getCount() public final long
+     * java.util.DoubleSummaryStatistics.getCount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.DoubleSummaryStatistics#getMax() public final double
+     * java.util.DoubleSummaryStatistics.getMax()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMax()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -137,14 +120,31 @@ extends org.j8unit.repository.java.util.function.DoubleConsumerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link java.util.DoubleSummaryStatistics#getMax() public final double
-     * java.util.DoubleSummaryStatistics.getMax()}.
+     * Test method for {@link java.util.DoubleSummaryStatistics#getSum() public final double
+     * java.util.DoubleSummaryStatistics.getSum()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMax()
+    public default void test_getSum()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.DoubleSummaryStatistics#toString() public java.lang.String
+     * java.util.DoubleSummaryStatistics.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

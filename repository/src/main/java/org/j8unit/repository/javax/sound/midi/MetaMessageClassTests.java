@@ -36,6 +36,19 @@ public abstract interface MetaMessageClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.javax.sound.midi.MidiMessageClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.sound.midi.MetaMessage#MetaMessage() public javax.sound.midi.MetaMessage()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MetaMessage()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.sound.midi.MetaMessage sut = null; // = new MetaMessage();
+    }
+
+    /**
      * Test method for {@link javax.sound.midi.MetaMessage#MetaMessage(int,byte[],int) public
      * javax.sound.midi.MetaMessage(int,byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
      */
@@ -47,19 +60,6 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.sound.midi.MetaMessage sut = null; // = new MetaMessage(int,byte[],int);
-    }
-
-    /**
-     * Test method for {@link javax.sound.midi.MetaMessage#MetaMessage() public javax.sound.midi.MetaMessage()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MetaMessage()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.sound.midi.MetaMessage sut = null; // = new MetaMessage();
     }
 
     @Override

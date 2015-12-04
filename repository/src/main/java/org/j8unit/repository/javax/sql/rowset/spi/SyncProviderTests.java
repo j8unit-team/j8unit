@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncProvider#getVersion() public abstract java.lang.String
-     * javax.sql.rowset.spi.SyncProvider.getVersion()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVersion()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sql.rowset.spi.SyncProvider#getDataSourceLock() public abstract int
      * javax.sql.rowset.spi.SyncProvider.getDataSourceLock() throws javax.sql.rowset.spi.SyncProviderException}.
      * </p>
@@ -47,38 +31,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDataSourceLock()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncProvider#getRowSetWriter() public abstract javax.sql.RowSetWriter
-     * javax.sql.rowset.spi.SyncProvider.getRowSetWriter()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowSetWriter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncProvider#supportsUpdatableView() public abstract int
-     * javax.sql.rowset.spi.SyncProvider.supportsUpdatableView()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_supportsUpdatableView()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,22 +71,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncProvider#getVendor() public abstract java.lang.String
-     * javax.sql.rowset.spi.SyncProvider.getVendor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVendor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sql.rowset.spi.SyncProvider#getRowSetReader() public abstract javax.sql.RowSetReader
      * javax.sql.rowset.spi.SyncProvider.getRowSetReader()}.
      * </p>
@@ -151,6 +87,54 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.sql.rowset.spi.SyncProvider#getRowSetWriter() public abstract javax.sql.RowSetWriter
+     * javax.sql.rowset.spi.SyncProvider.getRowSetWriter()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowSetWriter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.spi.SyncProvider#getVendor() public abstract java.lang.String
+     * javax.sql.rowset.spi.SyncProvider.getVendor()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVendor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.spi.SyncProvider#getVersion() public abstract java.lang.String
+     * javax.sql.rowset.spi.SyncProvider.getVersion()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVersion()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.sql.rowset.spi.SyncProvider#setDataSourceLock(int) public abstract void
      * javax.sql.rowset.spi.SyncProvider.setDataSourceLock(int) throws javax.sql.rowset.spi.SyncProviderException}.
      * </p>
@@ -159,6 +143,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setDataSourceLock_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.spi.SyncProvider#supportsUpdatableView() public abstract int
+     * javax.sql.rowset.spi.SyncProvider.supportsUpdatableView()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_supportsUpdatableView()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

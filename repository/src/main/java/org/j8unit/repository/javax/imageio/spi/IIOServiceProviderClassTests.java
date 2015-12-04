@@ -36,6 +36,20 @@ public abstract interface IIOServiceProviderClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.javax.imageio.spi.RegisterableServiceClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.imageio.spi.IIOServiceProvider#IIOServiceProvider() public
+     * javax.imageio.spi.IIOServiceProvider()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_IIOServiceProvider()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.imageio.spi.IIOServiceProvider sut = null; // = new IIOServiceProvider();
+    }
+
+    /**
      * Test method for {@link javax.imageio.spi.IIOServiceProvider#IIOServiceProvider(java.lang.String,java.lang.String)
      * public javax.imageio.spi.IIOServiceProvider(java.lang.String,java.lang.String)}.
      */
@@ -48,20 +62,6 @@ extends org.j8unit.repository.javax.imageio.spi.RegisterableServiceClassTests<SU
         @SuppressWarnings("unused")
         final javax.imageio.spi.IIOServiceProvider sut = null; // = new
                                                                // IIOServiceProvider(java.lang.String,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.imageio.spi.IIOServiceProvider#IIOServiceProvider() public
-     * javax.imageio.spi.IIOServiceProvider()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_IIOServiceProvider()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.imageio.spi.IIOServiceProvider sut = null; // = new IIOServiceProvider();
     }
 
     @Override

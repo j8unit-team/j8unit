@@ -50,16 +50,6 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<SUT> {
         final javax.swing.plaf.synth.SynthTreeUI sut = null; // = new SynthTreeUI();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.synth.SynthTreeUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.synth.SynthTreeUI.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthTreeUI#createUI(javax.swing.JComponent) public static
@@ -75,6 +65,16 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUIClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.synth.SynthTreeUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.synth.SynthTreeUI.class.isAssignableFrom(sut));
     }
 
 }

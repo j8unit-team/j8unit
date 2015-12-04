@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.util.prefs.PreferenceChangeEvent#getKey() public java.lang.String
+     * java.util.prefs.PreferenceChangeEvent.getKey()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getKey()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.prefs.PreferenceChangeEvent#getNewValue() public java.lang.String
      * java.util.prefs.PreferenceChangeEvent.getNewValue()}.
      * </p>
@@ -47,22 +63,6 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getNode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.prefs.PreferenceChangeEvent#getKey() public java.lang.String
-     * java.util.prefs.PreferenceChangeEvent.getKey()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getKey()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

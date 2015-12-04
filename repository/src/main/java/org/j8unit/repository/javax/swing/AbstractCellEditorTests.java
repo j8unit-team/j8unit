@@ -24,15 +24,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractCellEditor#shouldSelectCell(java.util.EventObject) public boolean
-     * javax.swing.AbstractCellEditor.shouldSelectCell(java.util.EventObject)}.
+     * Test method for {@link javax.swing.AbstractCellEditor#addCellEditorListener(javax.swing.event.CellEditorListener)
+     * public void javax.swing.AbstractCellEditor.addCellEditorListener(javax.swing.event.CellEditorListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_shouldSelectCell_EventObject()
+    public default void test_addCellEditorListener_CellEditorListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -50,6 +50,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_cancelCellEditing()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractCellEditor#getCellEditorListeners() public
+     * javax.swing.event.CellEditorListener[] javax.swing.AbstractCellEditor.getCellEditorListeners()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCellEditorListeners()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -93,15 +109,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractCellEditor#addCellEditorListener(javax.swing.event.CellEditorListener)
-     * public void javax.swing.AbstractCellEditor.addCellEditorListener(javax.swing.event.CellEditorListener)}.
+     * Test method for {@link javax.swing.AbstractCellEditor#shouldSelectCell(java.util.EventObject) public boolean
+     * javax.swing.AbstractCellEditor.shouldSelectCell(java.util.EventObject)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_addCellEditorListener_CellEditorListener()
+    public default void test_shouldSelectCell_EventObject()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,22 +135,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_stopCellEditing()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractCellEditor#getCellEditorListeners() public
-     * javax.swing.event.CellEditorListener[] javax.swing.AbstractCellEditor.getCellEditorListeners()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCellEditorListeners()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

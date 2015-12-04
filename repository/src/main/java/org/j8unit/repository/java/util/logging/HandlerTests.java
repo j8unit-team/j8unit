@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.Handler#getFormatter() public java.util.logging.Formatter
-     * java.util.logging.Handler.getFormatter()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFormatter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.logging.Handler#close() public abstract void java.util.logging.Handler.close()
      * throws java.lang.SecurityException}.
      * </p>
@@ -70,38 +54,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.Handler#setErrorManager(java.util.logging.ErrorManager) public
-     * synchronized void java.util.logging.Handler.setErrorManager(java.util.logging.ErrorManager)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setErrorManager_ErrorManager()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.logging.Handler#publish(java.util.logging.LogRecord) public abstract void
-     * java.util.logging.Handler.publish(java.util.logging.LogRecord)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_publish_LogRecord()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.logging.Handler#getEncoding() public java.lang.String
      * java.util.logging.Handler.getEncoding()}.
      * </p>
@@ -110,38 +62,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getEncoding()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.logging.Handler#getFilter() public java.util.logging.Filter
-     * java.util.logging.Handler.getFilter()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFilter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.logging.Handler#getLevel() public java.util.logging.Level
-     * java.util.logging.Handler.getLevel()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLevel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -166,14 +86,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.Handler#setFormatter(java.util.logging.Formatter) public synchronized
-     * void java.util.logging.Handler.setFormatter(java.util.logging.Formatter) throws java.lang.SecurityException}.
+     * Test method for {@link java.util.logging.Handler#getFilter() public java.util.logging.Filter
+     * java.util.logging.Handler.getFilter()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setFormatter_Formatter()
+    public default void test_getFilter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -182,14 +102,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.Handler#setFilter(java.util.logging.Filter) public synchronized void
-     * java.util.logging.Handler.setFilter(java.util.logging.Filter) throws java.lang.SecurityException}.
+     * Test method for {@link java.util.logging.Handler#getFormatter() public java.util.logging.Formatter
+     * java.util.logging.Handler.getFormatter()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setFilter_Filter()
+    public default void test_getFormatter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -198,14 +118,46 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.Handler#setLevel(java.util.logging.Level) public synchronized void
-     * java.util.logging.Handler.setLevel(java.util.logging.Level) throws java.lang.SecurityException}.
+     * Test method for {@link java.util.logging.Handler#getLevel() public java.util.logging.Level
+     * java.util.logging.Handler.getLevel()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setLevel_Level()
+    public default void test_getLevel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.logging.Handler#isLoggable(java.util.logging.LogRecord) public boolean
+     * java.util.logging.Handler.isLoggable(java.util.logging.LogRecord)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isLoggable_LogRecord()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.logging.Handler#publish(java.util.logging.LogRecord) public abstract void
+     * java.util.logging.Handler.publish(java.util.logging.LogRecord)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_publish_LogRecord()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -231,14 +183,62 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.Handler#isLoggable(java.util.logging.LogRecord) public boolean
-     * java.util.logging.Handler.isLoggable(java.util.logging.LogRecord)}.
+     * Test method for {@link java.util.logging.Handler#setErrorManager(java.util.logging.ErrorManager) public
+     * synchronized void java.util.logging.Handler.setErrorManager(java.util.logging.ErrorManager)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isLoggable_LogRecord()
+    public default void test_setErrorManager_ErrorManager()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.logging.Handler#setFilter(java.util.logging.Filter) public synchronized void
+     * java.util.logging.Handler.setFilter(java.util.logging.Filter) throws java.lang.SecurityException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFilter_Filter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.logging.Handler#setFormatter(java.util.logging.Formatter) public synchronized
+     * void java.util.logging.Handler.setFormatter(java.util.logging.Formatter) throws java.lang.SecurityException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFormatter_Formatter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.logging.Handler#setLevel(java.util.logging.Level) public synchronized void
+     * java.util.logging.Handler.setLevel(java.util.logging.Level) throws java.lang.SecurityException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLevel_Level()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

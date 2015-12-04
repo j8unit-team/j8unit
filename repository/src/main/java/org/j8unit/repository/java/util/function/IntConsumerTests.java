@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.function.IntConsumer#andThen(java.util.function.IntConsumer) public default
-     * java.util.function.IntConsumer java.util.function.IntConsumer.andThen(java.util.function.IntConsumer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_andThen_IntConsumer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.function.IntConsumer#accept(int) public abstract void
      * java.util.function.IntConsumer.accept(int)}.
      * </p>
@@ -48,6 +32,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_accept_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.function.IntConsumer#andThen(java.util.function.IntConsumer) public default
+     * java.util.function.IntConsumer java.util.function.IntConsumer.andThen(java.util.function.IntConsumer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_andThen_IntConsumer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

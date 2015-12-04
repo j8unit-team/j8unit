@@ -37,6 +37,19 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
 org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.swing.JProgressBar#JProgressBar() public javax.swing.JProgressBar()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JProgressBar()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JProgressBar sut = null; // = new JProgressBar();
+    }
+
+    /**
      * Test method for {@link javax.swing.JProgressBar#JProgressBar(javax.swing.BoundedRangeModel) public
      * javax.swing.JProgressBar(javax.swing.BoundedRangeModel)}.
      */
@@ -48,33 +61,6 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JProgressBar sut = null; // = new JProgressBar(javax.swing.BoundedRangeModel);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JProgressBar#JProgressBar(int,int,int) public
-     * javax.swing.JProgressBar(int,int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JProgressBar_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JProgressBar sut = null; // = new JProgressBar(int,int,int);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JProgressBar#JProgressBar(int,int) public javax.swing.JProgressBar(int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JProgressBar_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JProgressBar sut = null; // = new JProgressBar(int,int);
     }
 
     /**
@@ -91,16 +77,30 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.JProgressBar#JProgressBar() public javax.swing.JProgressBar()}.
+     * Test method for {@link javax.swing.JProgressBar#JProgressBar(int,int) public javax.swing.JProgressBar(int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JProgressBar()
+    public default void create_JProgressBar_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JProgressBar sut = null; // = new JProgressBar();
+        final javax.swing.JProgressBar sut = null; // = new JProgressBar(int,int);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JProgressBar#JProgressBar(int,int,int) public
+     * javax.swing.JProgressBar(int,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JProgressBar_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JProgressBar sut = null; // = new JProgressBar(int,int,int);
     }
 
     @Override

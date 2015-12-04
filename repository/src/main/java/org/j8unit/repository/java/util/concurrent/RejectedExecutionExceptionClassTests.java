@@ -37,19 +37,33 @@ public abstract interface RejectedExecutionExceptionClassTests<SUT extends Class
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.util.concurrent.RejectedExecutionException#RejectedExecutionException(java.lang.Throwable) public
-     * java.util.concurrent.RejectedExecutionException(java.lang.Throwable)}.
+     * Test method for {@link java.util.concurrent.RejectedExecutionException#RejectedExecutionException() public
+     * java.util.concurrent.RejectedExecutionException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RejectedExecutionException_Throwable()
+    public default void create_RejectedExecutionException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.RejectedExecutionException sut = null; // = new RejectedExecutionException();
+    }
+
+    /**
+     * Test method for
+     * {@link java.util.concurrent.RejectedExecutionException#RejectedExecutionException(java.lang.String) public
+     * java.util.concurrent.RejectedExecutionException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RejectedExecutionException_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.concurrent.RejectedExecutionException sut = null; // = new
-                                                                          // RejectedExecutionException(java.lang.Throwable);
+                                                                          // RejectedExecutionException(java.lang.String);
     }
 
     /**
@@ -70,32 +84,18 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.util.concurrent.RejectedExecutionException#RejectedExecutionException(java.lang.String) public
-     * java.util.concurrent.RejectedExecutionException(java.lang.String)}.
+     * {@link java.util.concurrent.RejectedExecutionException#RejectedExecutionException(java.lang.Throwable) public
+     * java.util.concurrent.RejectedExecutionException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RejectedExecutionException_String()
+    public default void create_RejectedExecutionException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.concurrent.RejectedExecutionException sut = null; // = new
-                                                                          // RejectedExecutionException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.util.concurrent.RejectedExecutionException#RejectedExecutionException() public
-     * java.util.concurrent.RejectedExecutionException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RejectedExecutionException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.RejectedExecutionException sut = null; // = new RejectedExecutionException();
+                                                                          // RejectedExecutionException(java.lang.Throwable);
     }
 
     @Override

@@ -23,89 +23,14 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuItem#paramString() public java.lang.String java.awt.MenuItem.paramString()}.
+     * Test method for {@link java.awt.MenuItem#addActionListener(java.awt.event.ActionListener) public synchronized
+     * void java.awt.MenuItem.addActionListener(java.awt.event.ActionListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_paramString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.MenuItem#setEnabled(boolean) public synchronized void
-     * java.awt.MenuItem.setEnabled(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setEnabled_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.MenuItem#isEnabled() public boolean java.awt.MenuItem.isEnabled()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isEnabled()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.MenuItem#disable() public synchronized void java.awt.MenuItem.disable()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_disable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.MenuItem#enable(boolean) public void java.awt.MenuItem.enable(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_enable_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.MenuItem#enable() public synchronized void java.awt.MenuItem.enable()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_enable()
+    public default void test_addActionListener_ActionListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -129,14 +54,75 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuItem#removeActionListener(java.awt.event.ActionListener) public synchronized
-     * void java.awt.MenuItem.removeActionListener(java.awt.event.ActionListener)}.
+     * Test method for {@link java.awt.MenuItem#deleteShortcut() public void java.awt.MenuItem.deleteShortcut()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeActionListener_ActionListener()
+    public default void test_deleteShortcut()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.MenuItem#disable() public synchronized void java.awt.MenuItem.disable()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_disable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.MenuItem#enable() public synchronized void java.awt.MenuItem.enable()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_enable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.MenuItem#enable(boolean) public void java.awt.MenuItem.enable(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_enable_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.MenuItem#getAccessibleContext() public javax.accessibility.AccessibleContext
+     * java.awt.MenuItem.getAccessibleContext()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAccessibleContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -153,22 +139,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_getActionCommand()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.MenuItem#setLabel(java.lang.String) public synchronized void
-     * java.awt.MenuItem.setLabel(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLabel_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -208,22 +178,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuItem#setShortcut(java.awt.MenuShortcut) public void
-     * java.awt.MenuItem.setShortcut(java.awt.MenuShortcut)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setShortcut_MenuShortcut()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.MenuItem#getListeners(java.lang.Class) public java.util.EventListener[]
      * java.awt.MenuItem.getListeners(java.lang.Class)}.
      * </p>
@@ -240,14 +194,14 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuItem#addActionListener(java.awt.event.ActionListener) public synchronized
-     * void java.awt.MenuItem.addActionListener(java.awt.event.ActionListener)}.
+     * Test method for {@link java.awt.MenuItem#getShortcut() public java.awt.MenuShortcut
+     * java.awt.MenuItem.getShortcut()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addActionListener_ActionListener()
+    public default void test_getShortcut()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -256,13 +210,44 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuItem#deleteShortcut() public void java.awt.MenuItem.deleteShortcut()}.
+     * Test method for {@link java.awt.MenuItem#isEnabled() public boolean java.awt.MenuItem.isEnabled()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_deleteShortcut()
+    public default void test_isEnabled()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.MenuItem#paramString() public java.lang.String java.awt.MenuItem.paramString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_paramString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.MenuItem#removeActionListener(java.awt.event.ActionListener) public synchronized
+     * void java.awt.MenuItem.removeActionListener(java.awt.event.ActionListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeActionListener_ActionListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -287,15 +272,14 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuItem#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * java.awt.MenuItem.getAccessibleContext()}.
+     * Test method for {@link java.awt.MenuItem#setEnabled(boolean) public synchronized void
+     * java.awt.MenuItem.setEnabled(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getAccessibleContext()
+    public default void test_setEnabled_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -304,14 +288,30 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuItem#getShortcut() public java.awt.MenuShortcut
-     * java.awt.MenuItem.getShortcut()}.
+     * Test method for {@link java.awt.MenuItem#setLabel(java.lang.String) public synchronized void
+     * java.awt.MenuItem.setLabel(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getShortcut()
+    public default void test_setLabel_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.MenuItem#setShortcut(java.awt.MenuShortcut) public void
+     * java.awt.MenuItem.setShortcut(java.awt.MenuShortcut)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setShortcut_MenuShortcut()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

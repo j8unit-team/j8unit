@@ -23,54 +23,6 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DynUnion#member() public abstract org.omg.CORBA.DynAny
-     * org.omg.CORBA.DynUnion.member()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_member()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.DynUnion#member_name(java.lang.String) public abstract void
-     * org.omg.CORBA.DynUnion.member_name(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_member_name_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.DynUnion#member_name() public abstract java.lang.String
-     * org.omg.CORBA.DynUnion.member_name()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_member_name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.CORBA.DynUnion#discriminator() public abstract org.omg.CORBA.DynAny
      * org.omg.CORBA.DynUnion.discriminator()}.
      * </p>
@@ -103,6 +55,22 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link org.omg.CORBA.DynUnion#member() public abstract org.omg.CORBA.DynAny
+     * org.omg.CORBA.DynUnion.member()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_member()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.omg.CORBA.DynUnion#member_kind() public abstract org.omg.CORBA.TCKind
      * org.omg.CORBA.DynUnion.member_kind()}.
      * </p>
@@ -111,6 +79,38 @@ extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_member_kind()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.DynUnion#member_name() public abstract java.lang.String
+     * org.omg.CORBA.DynUnion.member_name()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_member_name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.DynUnion#member_name(java.lang.String) public abstract void
+     * org.omg.CORBA.DynUnion.member_name(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_member_name_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,85 +23,6 @@ extends org.j8unit.repository.java.awt.event.ComponentEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InputEvent#isConsumed() public boolean
-     * java.awt.event.InputEvent.isConsumed()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isConsumed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#isControlDown() public boolean
-     * java.awt.event.InputEvent.isControlDown()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isControlDown()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#isAltGraphDown() public boolean
-     * java.awt.event.InputEvent.isAltGraphDown()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isAltGraphDown()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#isMetaDown() public boolean
-     * java.awt.event.InputEvent.isMetaDown()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isMetaDown()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#getWhen() public long java.awt.event.InputEvent.getWhen()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWhen()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.event.InputEvent#consume() public void java.awt.event.InputEvent.consume()}.
      * </p>
      */
@@ -149,6 +70,21 @@ extends org.j8unit.repository.java.awt.event.ComponentEventTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.event.InputEvent#getWhen() public long java.awt.event.InputEvent.getWhen()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWhen()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.event.InputEvent#isAltDown() public boolean
      * java.awt.event.InputEvent.isAltDown()}.
      * </p>
@@ -157,6 +93,70 @@ extends org.j8unit.repository.java.awt.event.ComponentEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isAltDown()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.InputEvent#isAltGraphDown() public boolean
+     * java.awt.event.InputEvent.isAltGraphDown()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isAltGraphDown()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.InputEvent#isConsumed() public boolean
+     * java.awt.event.InputEvent.isConsumed()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isConsumed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.InputEvent#isControlDown() public boolean
+     * java.awt.event.InputEvent.isControlDown()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isControlDown()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.InputEvent#isMetaDown() public boolean
+     * java.awt.event.InputEvent.isMetaDown()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isMetaDown()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

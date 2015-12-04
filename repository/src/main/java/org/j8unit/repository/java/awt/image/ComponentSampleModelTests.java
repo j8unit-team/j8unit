@@ -23,16 +23,134 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.ComponentSampleModel#setPixels(int,int,int,int,int[],java.awt.image.DataBuffer) public void
-     * java.awt.image.ComponentSampleModel.setPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
+     * Test method for {@link java.awt.image.ComponentSampleModel#createCompatibleSampleModel(int,int) public
+     * java.awt.image.SampleModel java.awt.image.ComponentSampleModel.createCompatibleSampleModel(int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setPixels_int_int_int_int_intArray_DataBuffer()
+    public default void test_createCompatibleSampleModel_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.ComponentSampleModel#createDataBuffer() public java.awt.image.DataBuffer
+     * java.awt.image.ComponentSampleModel.createDataBuffer()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createDataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.ComponentSampleModel#createSubsetSampleModel(int[]) public
+     * java.awt.image.SampleModel java.awt.image.ComponentSampleModel.createSubsetSampleModel(int[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createSubsetSampleModel_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.ComponentSampleModel#equals(java.lang.Object) public boolean
+     * java.awt.image.ComponentSampleModel.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.ComponentSampleModel#getBandOffsets() public final int[]
+     * java.awt.image.ComponentSampleModel.getBandOffsets()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBandOffsets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.ComponentSampleModel#getBankIndices() public final int[]
+     * java.awt.image.ComponentSampleModel.getBankIndices()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBankIndices()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.ComponentSampleModel#getDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)
+     * public java.lang.Object
+     * java.awt.image.ComponentSampleModel.getDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getDataElements_int_int_Object_DataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.ComponentSampleModel#getNumDataElements() public final int
+     * java.awt.image.ComponentSampleModel.getNumDataElements()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getNumDataElements()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,6 +191,41 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.ComponentSampleModel#getPixel(int,int,int[],java.awt.image.DataBuffer)
+     * public int[] java.awt.image.ComponentSampleModel.getPixel(int,int,int[],java.awt.image.DataBuffer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPixel_int_int_intArray_DataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.ComponentSampleModel#getPixels(int,int,int,int,int[],java.awt.image.DataBuffer) public
+     * int[] java.awt.image.ComponentSampleModel.getPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPixels_int_int_int_int_intArray_DataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.image.ComponentSampleModel#getPixelStride() public final int
      * java.awt.image.ComponentSampleModel.getPixelStride()}.
      * </p>
@@ -89,15 +242,15 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ComponentSampleModel#createSubsetSampleModel(int[]) public
-     * java.awt.image.SampleModel java.awt.image.ComponentSampleModel.createSubsetSampleModel(int[])}.
+     * Test method for {@link java.awt.image.ComponentSampleModel#getSample(int,int,int,java.awt.image.DataBuffer)
+     * public int java.awt.image.ComponentSampleModel.getSample(int,int,int,java.awt.image.DataBuffer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_createSubsetSampleModel_intArray()
+    public default void test_getSample_int_int_int_DataBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,15 +259,15 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ComponentSampleModel#setPixel(int,int,int[],java.awt.image.DataBuffer)
-     * public void java.awt.image.ComponentSampleModel.setPixel(int,int,int[],java.awt.image.DataBuffer)}.
+     * Test method for {@link java.awt.image.ComponentSampleModel#getSampleDouble(int,int,int,java.awt.image.DataBuffer)
+     * public double java.awt.image.ComponentSampleModel.getSampleDouble(int,int,int,java.awt.image.DataBuffer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setPixel_int_int_intArray_DataBuffer()
+    public default void test_getSampleDouble_int_int_int_DataBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -132,6 +285,24 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getSampleFloat_int_int_int_DataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.ComponentSampleModel#getSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer) public
+     * int[] java.awt.image.ComponentSampleModel.getSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getSamples_int_int_int_int_int_intArray_DataBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -174,48 +345,14 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ComponentSampleModel#getNumDataElements() public final int
-     * java.awt.image.ComponentSampleModel.getNumDataElements()}.
+     * Test method for {@link java.awt.image.ComponentSampleModel#getScanlineStride() public final int
+     * java.awt.image.ComponentSampleModel.getScanlineStride()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getNumDataElements()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ComponentSampleModel#createDataBuffer() public java.awt.image.DataBuffer
-     * java.awt.image.ComponentSampleModel.createDataBuffer()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createDataBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ComponentSampleModel#getBandOffsets() public final int[]
-     * java.awt.image.ComponentSampleModel.getBandOffsets()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBandOffsets()
+    public default void test_getScanlineStride()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -233,74 +370,6 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ComponentSampleModel#createCompatibleSampleModel(int,int) public
-     * java.awt.image.SampleModel java.awt.image.ComponentSampleModel.createCompatibleSampleModel(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createCompatibleSampleModel_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.image.ComponentSampleModel#getPixels(int,int,int,int,int[],java.awt.image.DataBuffer) public
-     * int[] java.awt.image.ComponentSampleModel.getPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPixels_int_int_int_int_intArray_DataBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ComponentSampleModel#getSampleDouble(int,int,int,java.awt.image.DataBuffer)
-     * public double java.awt.image.ComponentSampleModel.getSampleDouble(int,int,int,java.awt.image.DataBuffer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSampleDouble_int_int_int_DataBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ComponentSampleModel#getBankIndices() public final int[]
-     * java.awt.image.ComponentSampleModel.getBankIndices()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBankIndices()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -328,16 +397,15 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.ComponentSampleModel#getSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer) public
-     * int[] java.awt.image.ComponentSampleModel.getSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}.
+     * Test method for {@link java.awt.image.ComponentSampleModel#setPixel(int,int,int[],java.awt.image.DataBuffer)
+     * public void java.awt.image.ComponentSampleModel.setPixel(int,int,int[],java.awt.image.DataBuffer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getSamples_int_int_int_int_int_intArray_DataBuffer()
+    public default void test_setPixel_int_int_intArray_DataBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -347,99 +415,15 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.image.ComponentSampleModel#setSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer) public
-     * void java.awt.image.ComponentSampleModel.setSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.ComponentSampleModel#setPixels(int,int,int,int,int[],java.awt.image.DataBuffer) public void
+     * java.awt.image.ComponentSampleModel.setPixels(int,int,int,int,int[],java.awt.image.DataBuffer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setSamples_int_int_int_int_int_intArray_DataBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ComponentSampleModel#getPixel(int,int,int[],java.awt.image.DataBuffer)
-     * public int[] java.awt.image.ComponentSampleModel.getPixel(int,int,int[],java.awt.image.DataBuffer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPixel_int_int_intArray_DataBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ComponentSampleModel#equals(java.lang.Object) public boolean
-     * java.awt.image.ComponentSampleModel.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ComponentSampleModel#getScanlineStride() public final int
-     * java.awt.image.ComponentSampleModel.getScanlineStride()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getScanlineStride()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ComponentSampleModel#getSample(int,int,int,java.awt.image.DataBuffer)
-     * public int java.awt.image.ComponentSampleModel.getSample(int,int,int,java.awt.image.DataBuffer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSample_int_int_int_DataBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ComponentSampleModel#setSample(int,int,int,float,java.awt.image.DataBuffer)
-     * public void java.awt.image.ComponentSampleModel.setSample(int,int,int,float,java.awt.image.DataBuffer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setSample_int_int_int_float_DataBuffer()
+    public default void test_setPixels_int_int_int_int_intArray_DataBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -466,6 +450,23 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.ComponentSampleModel#setSample(int,int,int,float,java.awt.image.DataBuffer)
+     * public void java.awt.image.ComponentSampleModel.setSample(int,int,int,float,java.awt.image.DataBuffer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setSample_int_int_int_float_DataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.image.ComponentSampleModel#setSample(int,int,int,int,java.awt.image.DataBuffer)
      * public void java.awt.image.ComponentSampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer)}.
      * </p>
@@ -484,16 +485,15 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.image.ComponentSampleModel#getDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)
-     * public java.lang.Object
-     * java.awt.image.ComponentSampleModel.getDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
+     * {@link java.awt.image.ComponentSampleModel#setSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer) public
+     * void java.awt.image.ComponentSampleModel.setSamples(int,int,int,int,int,int[],java.awt.image.DataBuffer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getDataElements_int_int_Object_DataBuffer()
+    public default void test_setSamples_int_int_int_int_int_intArray_DataBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

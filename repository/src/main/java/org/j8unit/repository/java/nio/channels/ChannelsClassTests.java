@@ -35,27 +35,16 @@ import org.junit.experimental.categories.Category;
 public abstract interface ChannelsClassTests<SUT extends Class<? extends java.nio.channels.Channels>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.channels.Channels> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.channels.Channels.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.nio.channels.Channels#newOutputStream(java.nio.channels.AsynchronousByteChannel)
-     * public static java.io.OutputStream
-     * java.nio.channels.Channels.newOutputStream(java.nio.channels.AsynchronousByteChannel)}.
+     * Test method for {@link java.nio.channels.Channels#newChannel(java.io.InputStream) public static
+     * java.nio.channels.ReadableByteChannel java.nio.channels.Channels.newChannel(java.io.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newOutputStream_AsynchronousByteChannel()
+    public default void test_newChannel_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -64,14 +53,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.Channels#newOutputStream(java.nio.channels.WritableByteChannel) public
-     * static java.io.OutputStream java.nio.channels.Channels.newOutputStream(java.nio.channels.WritableByteChannel)}.
+     * Test method for {@link java.nio.channels.Channels#newChannel(java.io.OutputStream) public static
+     * java.nio.channels.WritableByteChannel java.nio.channels.Channels.newChannel(java.io.OutputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newOutputStream_WritableByteChannel()
+    public default void test_newChannel_OutputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -113,15 +102,31 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.nio.channels.Channels#newWriter(java.nio.channels.WritableByteChannel,java.lang.String) public static
-     * java.io.Writer java.nio.channels.Channels.newWriter(java.nio.channels.WritableByteChannel,java.lang.String)}.
+     * Test method for {@link java.nio.channels.Channels#newOutputStream(java.nio.channels.AsynchronousByteChannel)
+     * public static java.io.OutputStream
+     * java.nio.channels.Channels.newOutputStream(java.nio.channels.AsynchronousByteChannel)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newWriter_WritableByteChannel_String()
+    public default void test_newOutputStream_AsynchronousByteChannel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.Channels#newOutputStream(java.nio.channels.WritableByteChannel) public
+     * static java.io.OutputStream java.nio.channels.Channels.newOutputStream(java.nio.channels.WritableByteChannel)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newOutputStream_WritableByteChannel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -131,47 +136,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.channels.Channels#newWriter(java.nio.channels.WritableByteChannel,java.nio.charset.CharsetEncoder,int)
-     * public static java.io.Writer
-     * java.nio.channels.Channels.newWriter(java.nio.channels.WritableByteChannel,java.nio.charset.CharsetEncoder,int)}.
+     * {@link java.nio.channels.Channels#newReader(java.nio.channels.ReadableByteChannel,java.nio.charset.CharsetDecoder,int)
+     * public static java.io.Reader
+     * java.nio.channels.Channels.newReader(java.nio.channels.ReadableByteChannel,java.nio.charset.CharsetDecoder,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newWriter_WritableByteChannel_CharsetEncoder_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.Channels#newChannel(java.io.InputStream) public static
-     * java.nio.channels.ReadableByteChannel java.nio.channels.Channels.newChannel(java.io.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newChannel_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.Channels#newChannel(java.io.OutputStream) public static
-     * java.nio.channels.WritableByteChannel java.nio.channels.Channels.newChannel(java.io.OutputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newChannel_OutputStream()
+    public default void test_newReader_ReadableByteChannel_CharsetDecoder_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -198,19 +171,46 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.channels.Channels#newReader(java.nio.channels.ReadableByteChannel,java.nio.charset.CharsetDecoder,int)
-     * public static java.io.Reader
-     * java.nio.channels.Channels.newReader(java.nio.channels.ReadableByteChannel,java.nio.charset.CharsetDecoder,int)}.
+     * {@link java.nio.channels.Channels#newWriter(java.nio.channels.WritableByteChannel,java.nio.charset.CharsetEncoder,int)
+     * public static java.io.Writer
+     * java.nio.channels.Channels.newWriter(java.nio.channels.WritableByteChannel,java.nio.charset.CharsetEncoder,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newReader_ReadableByteChannel_CharsetDecoder_int()
+    public default void test_newWriter_WritableByteChannel_CharsetEncoder_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.nio.channels.Channels#newWriter(java.nio.channels.WritableByteChannel,java.lang.String) public static
+     * java.io.Writer java.nio.channels.Channels.newWriter(java.nio.channels.WritableByteChannel,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newWriter_WritableByteChannel_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.channels.Channels> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.channels.Channels.class.isAssignableFrom(sut));
     }
 
 }

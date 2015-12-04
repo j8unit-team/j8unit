@@ -38,6 +38,20 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.util.concurrent.CopyOnWriteArrayList#CopyOnWriteArrayList() public
+     * java.util.concurrent.CopyOnWriteArrayList()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CopyOnWriteArrayList()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.CopyOnWriteArrayList<E> sut = null; // = new CopyOnWriteArrayList();
+    }
+
+    /**
      * Test method for {@link java.util.concurrent.CopyOnWriteArrayList#CopyOnWriteArrayList(java.util.Collection)
      * public java.util.concurrent.CopyOnWriteArrayList(java.util.Collection)}.
      */
@@ -50,20 +64,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.util.concurrent.CopyOnWriteArrayList<E> sut = null; // = new
                                                                        // CopyOnWriteArrayList(java.util.Collection);
-    }
-
-    /**
-     * Test method for {@link java.util.concurrent.CopyOnWriteArrayList#CopyOnWriteArrayList() public
-     * java.util.concurrent.CopyOnWriteArrayList()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CopyOnWriteArrayList()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.CopyOnWriteArrayList<E> sut = null; // = new CopyOnWriteArrayList();
     }
 
     /**

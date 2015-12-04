@@ -23,30 +23,14 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.soap.SOAPMessageHandler#roles() public abstract java.lang.String[]
-     * javax.jws.soap.SOAPMessageHandler.roles()}.
+     * Test method for {@link javax.jws.soap.SOAPMessageHandler#className() public abstract java.lang.String
+     * javax.jws.soap.SOAPMessageHandler.className()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_roles()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.jws.soap.SOAPMessageHandler#initParams() public abstract javax.jws.soap.InitParam[]
-     * javax.jws.soap.SOAPMessageHandler.initParams()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_initParams()
+    public default void test_className()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +55,14 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.soap.SOAPMessageHandler#className() public abstract java.lang.String
-     * javax.jws.soap.SOAPMessageHandler.className()}.
+     * Test method for {@link javax.jws.soap.SOAPMessageHandler#initParams() public abstract javax.jws.soap.InitParam[]
+     * javax.jws.soap.SOAPMessageHandler.initParams()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_className()
+    public default void test_initParams()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -95,6 +79,22 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.jws.soap.SOAPMessageHandler#roles() public abstract java.lang.String[]
+     * javax.jws.soap.SOAPMessageHandler.roles()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_roles()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -39,22 +39,6 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.events.Characters#isWhiteSpace() public abstract boolean
-     * javax.xml.stream.events.Characters.isWhiteSpace()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isWhiteSpace()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.stream.events.Characters#isCData() public abstract boolean
      * javax.xml.stream.events.Characters.isCData()}.
      * </p>
@@ -79,6 +63,22 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isIgnorableWhiteSpace()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.events.Characters#isWhiteSpace() public abstract boolean
+     * javax.xml.stream.events.Characters.isWhiteSpace()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isWhiteSpace()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

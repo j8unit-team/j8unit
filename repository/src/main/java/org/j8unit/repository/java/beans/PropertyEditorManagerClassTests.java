@@ -49,14 +49,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.beans.PropertyEditorManager sut = null; // = new PropertyEditorManager();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.beans.PropertyEditorManager#findEditor(java.lang.Class) public static
+     * java.beans.PropertyEditor java.beans.PropertyEditorManager.findEditor(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_findEditor_Class()
     throws Exception {
-        // create new instance
-        final Class<? extends java.beans.PropertyEditorManager> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.beans.PropertyEditorManager.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -77,14 +83,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyEditorManager#findEditor(java.lang.Class) public static
-     * java.beans.PropertyEditor java.beans.PropertyEditorManager.findEditor(java.lang.Class)}.
+     * Test method for {@link java.beans.PropertyEditorManager#registerEditor(java.lang.Class,java.lang.Class) public
+     * static void java.beans.PropertyEditorManager.registerEditor(java.lang.Class,java.lang.Class)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_findEditor_Class()
+    public default void test_registerEditor_Class_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -107,20 +113,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.beans.PropertyEditorManager#registerEditor(java.lang.Class,java.lang.Class) public
-     * static void java.beans.PropertyEditorManager.registerEditor(java.lang.Class,java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_registerEditor_Class_Class()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.beans.PropertyEditorManager> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.beans.PropertyEditorManager.class.isAssignableFrom(sut));
     }
 
 }

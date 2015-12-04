@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.KeyGenerator#getProvider() public final java.security.Provider
-     * javax.crypto.KeyGenerator.getProvider()}.
+     * Test method for {@link javax.crypto.KeyGenerator#generateKey() public final javax.crypto.SecretKey
+     * javax.crypto.KeyGenerator.generateKey()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getProvider()
+    public default void test_generateKey()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.KeyGenerator#generateKey() public final javax.crypto.SecretKey
-     * javax.crypto.KeyGenerator.generateKey()}.
+     * Test method for {@link javax.crypto.KeyGenerator#getProvider() public final java.security.Provider
+     * javax.crypto.KeyGenerator.getProvider()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_generateKey()
+    public default void test_getProvider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

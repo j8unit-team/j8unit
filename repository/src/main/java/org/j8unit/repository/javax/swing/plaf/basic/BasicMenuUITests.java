@@ -23,23 +23,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicMenuUI.getMaximumSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMaximumSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test class for {@link javax.swing.plaf.basic.BasicMenuUI$ChangeHandler class
      * javax.swing.plaf.basic.BasicMenuUI$ChangeHandler}, containing all instance relevant test methods (i.&thinsp;e.,
      * test methods of non-{@code static} methods).
@@ -72,6 +55,23 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUITests<SUT> {
             assert sut != null;
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicMenuUI#getMaximumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicMenuUI.getMaximumSize(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMaximumSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

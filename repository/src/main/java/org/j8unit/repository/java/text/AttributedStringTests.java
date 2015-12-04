@@ -23,73 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.AttributedString#getIterator(java.text.AttributedCharacterIterator.Attribute[])
-     * public java.text.AttributedCharacterIterator
-     * java.text.AttributedString.getIterator(java.text.AttributedCharacterIterator$Attribute[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIterator_AttributeArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.AttributedString#getIterator() public java.text.AttributedCharacterIterator
-     * java.text.AttributedString.getIterator()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIterator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.text.AttributedString#getIterator(java.text.AttributedCharacterIterator.Attribute[],int,int) public
-     * java.text.AttributedCharacterIterator
-     * java.text.AttributedString.getIterator(java.text.AttributedCharacterIterator$Attribute[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIterator_AttributeArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.AttributedString#addAttributes(java.util.Map,int,int) public void
-     * java.text.AttributedString.addAttributes(java.util.Map,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addAttributes_Map_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.text.AttributedString#addAttribute(java.text.AttributedCharacterIterator.Attribute,java.lang.Object)
      * public void
@@ -119,6 +52,73 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_addAttribute_Attribute_Object_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.AttributedString#addAttributes(java.util.Map,int,int) public void
+     * java.text.AttributedString.addAttributes(java.util.Map,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addAttributes_Map_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.AttributedString#getIterator() public java.text.AttributedCharacterIterator
+     * java.text.AttributedString.getIterator()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIterator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.AttributedString#getIterator(java.text.AttributedCharacterIterator.Attribute[])
+     * public java.text.AttributedCharacterIterator
+     * java.text.AttributedString.getIterator(java.text.AttributedCharacterIterator$Attribute[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIterator_AttributeArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.text.AttributedString#getIterator(java.text.AttributedCharacterIterator.Attribute[],int,int) public
+     * java.text.AttributedCharacterIterator
+     * java.text.AttributedString.getIterator(java.text.AttributedCharacterIterator$Attribute[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIterator_AttributeArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

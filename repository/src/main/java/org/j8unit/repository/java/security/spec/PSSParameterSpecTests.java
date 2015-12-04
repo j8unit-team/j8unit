@@ -39,22 +39,6 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.PSSParameterSpec#getSaltLength() public int
-     * java.security.spec.PSSParameterSpec.getSaltLength()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSaltLength()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.spec.PSSParameterSpec#getMGFAlgorithm() public java.lang.String
      * java.security.spec.PSSParameterSpec.getMGFAlgorithm()}.
      * </p>
@@ -79,6 +63,22 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_getMGFParameters()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.PSSParameterSpec#getSaltLength() public int
+     * java.security.spec.PSSParameterSpec.getSaltLength()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSaltLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,86 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#acceptDrop(int) public abstract void
-     * java.awt.dnd.peer.DropTargetContextPeer.acceptDrop(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_acceptDrop_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#isTransferableJVMLocal() public abstract boolean
-     * java.awt.dnd.peer.DropTargetContextPeer.isTransferableJVMLocal()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isTransferableJVMLocal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#setTargetActions(int) public abstract void
-     * java.awt.dnd.peer.DropTargetContextPeer.setTargetActions(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTargetActions_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#getTargetActions() public abstract int
-     * java.awt.dnd.peer.DropTargetContextPeer.getTargetActions()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTargetActions()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#rejectDrop() public abstract void
-     * java.awt.dnd.peer.DropTargetContextPeer.rejectDrop()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_rejectDrop()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#acceptDrag(int) public abstract void
      * java.awt.dnd.peer.DropTargetContextPeer.acceptDrag(int)}.
      * </p>
@@ -120,14 +40,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#rejectDrag() public abstract void
-     * java.awt.dnd.peer.DropTargetContextPeer.rejectDrag()}.
+     * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#acceptDrop(int) public abstract void
+     * java.awt.dnd.peer.DropTargetContextPeer.acceptDrop(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_rejectDrag()
+    public default void test_acceptDrop_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -168,14 +88,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#getTransferDataFlavors() public abstract
-     * java.awt.datatransfer.DataFlavor[] java.awt.dnd.peer.DropTargetContextPeer.getTransferDataFlavors()}.
+     * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#getTargetActions() public abstract int
+     * java.awt.dnd.peer.DropTargetContextPeer.getTargetActions()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTransferDataFlavors()
+    public default void test_getTargetActions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -193,6 +113,86 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getTransferable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#getTransferDataFlavors() public abstract
+     * java.awt.datatransfer.DataFlavor[] java.awt.dnd.peer.DropTargetContextPeer.getTransferDataFlavors()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTransferDataFlavors()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#isTransferableJVMLocal() public abstract boolean
+     * java.awt.dnd.peer.DropTargetContextPeer.isTransferableJVMLocal()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isTransferableJVMLocal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#rejectDrag() public abstract void
+     * java.awt.dnd.peer.DropTargetContextPeer.rejectDrag()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_rejectDrag()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#rejectDrop() public abstract void
+     * java.awt.dnd.peer.DropTargetContextPeer.rejectDrop()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_rejectDrop()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.peer.DropTargetContextPeer#setTargetActions(int) public abstract void
+     * java.awt.dnd.peer.DropTargetContextPeer.setTargetActions(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTargetActions_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

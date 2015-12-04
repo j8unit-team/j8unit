@@ -35,21 +35,6 @@ public abstract interface ExpressionClassTests<SUT extends Class<? extends java.
 extends org.j8unit.repository.java.beans.StatementClassTests<SUT> {
 
     /**
-     * Test method for {@link java.beans.Expression#Expression(java.lang.Object,java.lang.String,java.lang.Object[])
-     * public java.beans.Expression(java.lang.Object,java.lang.String,java.lang.Object[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Expression_Object_String_ObjectArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.beans.Expression sut = null; // = new
-                                                // Expression(java.lang.Object,java.lang.String,java.lang.Object[]);
-    }
-
-    /**
      * Test method for
      * {@link java.beans.Expression#Expression(java.lang.Object,java.lang.Object,java.lang.String,java.lang.Object[])
      * public java.beans.Expression(java.lang.Object,java.lang.Object,java.lang.String,java.lang.Object[])}.
@@ -63,6 +48,21 @@ extends org.j8unit.repository.java.beans.StatementClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.beans.Expression sut = null; // = new
                                                 // Expression(java.lang.Object,java.lang.Object,java.lang.String,java.lang.Object[]);
+    }
+
+    /**
+     * Test method for {@link java.beans.Expression#Expression(java.lang.Object,java.lang.String,java.lang.Object[])
+     * public java.beans.Expression(java.lang.Object,java.lang.String,java.lang.Object[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Expression_Object_String_ObjectArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.beans.Expression sut = null; // = new
+                                                // Expression(java.lang.Object,java.lang.String,java.lang.Object[]);
     }
 
     @Override

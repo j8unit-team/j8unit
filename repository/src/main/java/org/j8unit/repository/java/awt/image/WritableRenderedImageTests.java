@@ -23,6 +23,54 @@ extends org.j8unit.repository.java.awt.image.RenderedImageTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.WritableRenderedImage#addTileObserver(java.awt.image.TileObserver) public
+     * abstract void java.awt.image.WritableRenderedImage.addTileObserver(java.awt.image.TileObserver)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addTileObserver_TileObserver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.WritableRenderedImage#getWritableTile(int,int) public abstract
+     * java.awt.image.WritableRaster java.awt.image.WritableRenderedImage.getWritableTile(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWritableTile_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.WritableRenderedImage#getWritableTileIndices() public abstract
+     * java.awt.Point[] java.awt.image.WritableRenderedImage.getWritableTileIndices()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWritableTileIndices()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.image.WritableRenderedImage#hasTileWriters() public abstract boolean
      * java.awt.image.WritableRenderedImage.hasTileWriters()}.
      * </p>
@@ -55,22 +103,6 @@ extends org.j8unit.repository.java.awt.image.RenderedImageTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.WritableRenderedImage#addTileObserver(java.awt.image.TileObserver) public
-     * abstract void java.awt.image.WritableRenderedImage.addTileObserver(java.awt.image.TileObserver)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addTileObserver_TileObserver()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.image.WritableRenderedImage#releaseWritableTile(int,int) public abstract void
      * java.awt.image.WritableRenderedImage.releaseWritableTile(int,int)}.
      * </p>
@@ -79,38 +111,6 @@ extends org.j8unit.repository.java.awt.image.RenderedImageTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_releaseWritableTile_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.WritableRenderedImage#getWritableTileIndices() public abstract
-     * java.awt.Point[] java.awt.image.WritableRenderedImage.getWritableTileIndices()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWritableTileIndices()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.WritableRenderedImage#getWritableTile(int,int) public abstract
-     * java.awt.image.WritableRaster java.awt.image.WritableRenderedImage.getWritableTile(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWritableTile_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

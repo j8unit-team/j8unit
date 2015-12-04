@@ -48,16 +48,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final javax.swing.PopupFactory sut = null; // = new PopupFactory();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.PopupFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.PopupFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.PopupFactory#getSharedInstance() public static javax.swing.PopupFactory
@@ -88,6 +78,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.PopupFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.PopupFactory.class.isAssignableFrom(sut));
     }
 
 }

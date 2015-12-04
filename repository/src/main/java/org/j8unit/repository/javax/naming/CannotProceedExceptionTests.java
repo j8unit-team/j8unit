@@ -39,14 +39,14 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.CannotProceedException#setRemainingNewName(javax.naming.Name) public void
-     * javax.naming.CannotProceedException.setRemainingNewName(javax.naming.Name)}.
+     * Test method for {@link javax.naming.CannotProceedException#getAltNameCtx() public javax.naming.Context
+     * javax.naming.CannotProceedException.getAltNameCtx()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setRemainingNewName_Name()
+    public default void test_getAltNameCtx()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,22 +71,6 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.CannotProceedException#setEnvironment(java.util.Hashtable) public void
-     * javax.naming.CannotProceedException.setEnvironment(java.util.Hashtable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setEnvironment_Hashtable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.naming.CannotProceedException#getRemainingNewName() public javax.naming.Name
      * javax.naming.CannotProceedException.getRemainingNewName()}.
      * </p>
@@ -95,6 +79,22 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getRemainingNewName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.CannotProceedException#setAltName(javax.naming.Name) public void
+     * javax.naming.CannotProceedException.setAltName(javax.naming.Name)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAltName_Name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +119,14 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.CannotProceedException#getAltNameCtx() public javax.naming.Context
-     * javax.naming.CannotProceedException.getAltNameCtx()}.
+     * Test method for {@link javax.naming.CannotProceedException#setEnvironment(java.util.Hashtable) public void
+     * javax.naming.CannotProceedException.setEnvironment(java.util.Hashtable)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAltNameCtx()
+    public default void test_setEnvironment_Hashtable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,14 +135,14 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.CannotProceedException#setAltName(javax.naming.Name) public void
-     * javax.naming.CannotProceedException.setAltName(javax.naming.Name)}.
+     * Test method for {@link javax.naming.CannotProceedException#setRemainingNewName(javax.naming.Name) public void
+     * javax.naming.CannotProceedException.setRemainingNewName(javax.naming.Name)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setAltName_Name()
+    public default void test_setRemainingNewName_Name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

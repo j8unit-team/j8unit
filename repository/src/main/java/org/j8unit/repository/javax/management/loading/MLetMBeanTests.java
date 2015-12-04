@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.loading.MLetMBean#setLibraryDirectory(java.lang.String) public abstract
-     * void javax.management.loading.MLetMBean.setLibraryDirectory(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLibraryDirectory_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.loading.MLetMBean#addURL(java.lang.String) public abstract void
      * javax.management.loading.MLetMBean.addURL(java.lang.String) throws javax.management.ServiceNotFoundException}.
      * </p>
@@ -88,71 +72,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.loading.MLetMBean#getURLs() public abstract java.net.URL[]
-     * javax.management.loading.MLetMBean.getURLs()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getURLs()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.loading.MLetMBean#getResource(java.lang.String) public abstract
-     * java.net.URL javax.management.loading.MLetMBean.getResource(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResource_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.loading.MLetMBean#getResources(java.lang.String) public abstract
-     * java.util.Enumeration javax.management.loading.MLetMBean.getResources(java.lang.String) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResources_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.loading.MLetMBean#getResourceAsStream(java.lang.String) public abstract
-     * java.io.InputStream javax.management.loading.MLetMBean.getResourceAsStream(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResourceAsStream_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.loading.MLetMBean#getMBeansFromURL(java.lang.String) public abstract
      * java.util.Set javax.management.loading.MLetMBean.getMBeansFromURL(java.lang.String) throws
      * javax.management.ServiceNotFoundException}.
@@ -179,6 +98,87 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMBeansFromURL_URL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.loading.MLetMBean#getResource(java.lang.String) public abstract
+     * java.net.URL javax.management.loading.MLetMBean.getResource(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getResource_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.loading.MLetMBean#getResourceAsStream(java.lang.String) public abstract
+     * java.io.InputStream javax.management.loading.MLetMBean.getResourceAsStream(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getResourceAsStream_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.loading.MLetMBean#getResources(java.lang.String) public abstract
+     * java.util.Enumeration javax.management.loading.MLetMBean.getResources(java.lang.String) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getResources_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.loading.MLetMBean#getURLs() public abstract java.net.URL[]
+     * javax.management.loading.MLetMBean.getURLs()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getURLs()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.loading.MLetMBean#setLibraryDirectory(java.lang.String) public abstract
+     * void javax.management.loading.MLetMBean.setLibraryDirectory(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLibraryDirectory_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

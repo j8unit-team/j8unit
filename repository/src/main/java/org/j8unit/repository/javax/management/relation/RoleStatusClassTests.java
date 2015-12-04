@@ -49,16 +49,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final javax.management.relation.RoleStatus sut = null; // = new RoleStatus();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.management.relation.RoleStatus> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.management.relation.RoleStatus.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.management.relation.RoleStatus#isRoleStatus(int) public static boolean
@@ -73,6 +63,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.management.relation.RoleStatus> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.management.relation.RoleStatus.class.isAssignableFrom(sut));
     }
 
 }

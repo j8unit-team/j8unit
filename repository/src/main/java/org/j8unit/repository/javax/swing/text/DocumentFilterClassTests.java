@@ -36,30 +36,6 @@ public abstract interface DocumentFilterClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.text.DocumentFilter#DocumentFilter() public javax.swing.text.DocumentFilter()}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DocumentFilter()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.DocumentFilter sut = null; // = new DocumentFilter();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.DocumentFilter> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.DocumentFilter.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.text.DocumentFilter$FilterBypass class
      * javax.swing.text.DocumentFilter$FilterBypass}, containing all class relevant test methods (at least the test
@@ -113,6 +89,30 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(javax.swing.text.DocumentFilter.FilterBypass.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.text.DocumentFilter#DocumentFilter() public javax.swing.text.DocumentFilter()}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DocumentFilter()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.DocumentFilter sut = null; // = new DocumentFilter();
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.DocumentFilter> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.DocumentFilter.class.isAssignableFrom(sut));
     }
 
 }

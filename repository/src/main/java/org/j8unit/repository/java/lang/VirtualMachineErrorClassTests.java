@@ -36,17 +36,31 @@ public abstract interface VirtualMachineErrorClassTests<SUT extends Class<? exte
 extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.VirtualMachineError#VirtualMachineError(java.lang.Throwable) public
-     * java.lang.VirtualMachineError(java.lang.Throwable)}.
+     * Test method for {@link java.lang.VirtualMachineError#VirtualMachineError() public
+     * java.lang.VirtualMachineError()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_VirtualMachineError_Throwable()
+    public default void create_VirtualMachineError()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.VirtualMachineError sut = null; // = new VirtualMachineError(java.lang.Throwable);
+        final java.lang.VirtualMachineError sut = null; // = new VirtualMachineError();
+    }
+
+    /**
+     * Test method for {@link java.lang.VirtualMachineError#VirtualMachineError(java.lang.String) public
+     * java.lang.VirtualMachineError(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_VirtualMachineError_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.VirtualMachineError sut = null; // = new VirtualMachineError(java.lang.String);
     }
 
     /**
@@ -65,31 +79,17 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.lang.VirtualMachineError#VirtualMachineError(java.lang.String) public
-     * java.lang.VirtualMachineError(java.lang.String)}.
+     * Test method for {@link java.lang.VirtualMachineError#VirtualMachineError(java.lang.Throwable) public
+     * java.lang.VirtualMachineError(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_VirtualMachineError_String()
+    public default void create_VirtualMachineError_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.VirtualMachineError sut = null; // = new VirtualMachineError(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.lang.VirtualMachineError#VirtualMachineError() public
-     * java.lang.VirtualMachineError()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_VirtualMachineError()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.VirtualMachineError sut = null; // = new VirtualMachineError();
+        final java.lang.VirtualMachineError sut = null; // = new VirtualMachineError(java.lang.Throwable);
     }
 
     @Override

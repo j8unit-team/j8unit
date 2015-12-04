@@ -25,6 +25,24 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
     /**
      * <p>
      * Test method for
+     * {@link org.omg.PortableServer.ServantLocatorPOA#_all_interfaces(org.omg.PortableServer.POA,byte[]) public
+     * java.lang.String[] org.omg.PortableServer.ServantLocatorPOA._all_interfaces(org.omg.PortableServer.POA,byte[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test__all_interfaces_POA_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link org.omg.PortableServer.ServantLocatorPOA#_invoke(java.lang.String,org.omg.CORBA.portable.InputStream,org.omg.CORBA.portable.ResponseHandler)
      * public org.omg.CORBA.portable.OutputStream
      * org.omg.PortableServer.ServantLocatorPOA._invoke(java.lang.String,org.omg.CORBA.portable.InputStream,org.omg.CORBA.portable.ResponseHandler)}
@@ -36,24 +54,6 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test__invoke_String_InputStream_ResponseHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableServer.ServantLocatorPOA#_all_interfaces(org.omg.PortableServer.POA,byte[]) public
-     * java.lang.String[] org.omg.PortableServer.ServantLocatorPOA._all_interfaces(org.omg.PortableServer.POA,byte[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test__all_interfaces_POA_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

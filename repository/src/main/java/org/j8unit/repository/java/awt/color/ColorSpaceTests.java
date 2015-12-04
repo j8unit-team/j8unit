@@ -23,37 +23,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ColorSpace#getType() public int java.awt.color.ColorSpace.getType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.color.ColorSpace#getNumComponents() public int
-     * java.awt.color.ColorSpace.getNumComponents()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNumComponents()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.color.ColorSpace#fromCIEXYZ(float[]) public abstract float[]
      * java.awt.color.ColorSpace.fromCIEXYZ(float[])}.
      * </p>
@@ -62,38 +31,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_fromCIEXYZ_floatArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.color.ColorSpace#toRGB(float[]) public abstract float[]
-     * java.awt.color.ColorSpace.toRGB(float[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toRGB_floatArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.color.ColorSpace#getMaxValue(int) public float
-     * java.awt.color.ColorSpace.getMaxValue(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxValue_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -118,6 +55,38 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link java.awt.color.ColorSpace#getMaxValue(int) public float
+     * java.awt.color.ColorSpace.getMaxValue(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxValue_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.color.ColorSpace#getMinValue(int) public float
+     * java.awt.color.ColorSpace.getMinValue(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMinValue_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.color.ColorSpace#getName(int) public java.lang.String
      * java.awt.color.ColorSpace.getName(int)}.
      * </p>
@@ -134,14 +103,29 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ColorSpace#toCIEXYZ(float[]) public abstract float[]
-     * java.awt.color.ColorSpace.toCIEXYZ(float[])}.
+     * Test method for {@link java.awt.color.ColorSpace#getNumComponents() public int
+     * java.awt.color.ColorSpace.getNumComponents()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toCIEXYZ_floatArray()
+    public default void test_getNumComponents()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.color.ColorSpace#getType() public int java.awt.color.ColorSpace.getType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -166,14 +150,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ColorSpace#getMinValue(int) public float
-     * java.awt.color.ColorSpace.getMinValue(int)}.
+     * Test method for {@link java.awt.color.ColorSpace#toCIEXYZ(float[]) public abstract float[]
+     * java.awt.color.ColorSpace.toCIEXYZ(float[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMinValue_int()
+    public default void test_toCIEXYZ_floatArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.color.ColorSpace#toRGB(float[]) public abstract float[]
+     * java.awt.color.ColorSpace.toRGB(float[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toRGB_floatArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

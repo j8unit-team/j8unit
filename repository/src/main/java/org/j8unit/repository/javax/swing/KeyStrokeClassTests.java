@@ -34,26 +34,48 @@ import org.junit.experimental.categories.Category;
 public abstract interface KeyStrokeClassTests<SUT extends Class<? extends javax.swing.KeyStroke>>
 extends org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.KeyStroke> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.KeyStroke.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link javax.swing.KeyStroke#getKeyStrokeForEvent(java.awt.event.KeyEvent) public static
-     * javax.swing.KeyStroke javax.swing.KeyStroke.getKeyStrokeForEvent(java.awt.event.KeyEvent)}.
+     * Test method for {@link javax.swing.KeyStroke#getKeyStroke(char) public static javax.swing.KeyStroke
+     * javax.swing.KeyStroke.getKeyStroke(char)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getKeyStrokeForEvent_KeyEvent()
+    public default void test_getKeyStroke_char()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.KeyStroke#getKeyStroke(char,boolean) public static javax.swing.KeyStroke
+     * javax.swing.KeyStroke.getKeyStroke(char,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getKeyStroke_char_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.KeyStroke#getKeyStroke(java.lang.Character,int) public static
+     * javax.swing.KeyStroke javax.swing.KeyStroke.getKeyStroke(java.lang.Character,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getKeyStroke_Character_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -110,50 +132,28 @@ extends org.j8unit.repository.java.awt.AWTKeyStrokeClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.KeyStroke#getKeyStroke(char) public static javax.swing.KeyStroke
-     * javax.swing.KeyStroke.getKeyStroke(char)}.
+     * Test method for {@link javax.swing.KeyStroke#getKeyStrokeForEvent(java.awt.event.KeyEvent) public static
+     * javax.swing.KeyStroke javax.swing.KeyStroke.getKeyStrokeForEvent(java.awt.event.KeyEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getKeyStroke_char()
+    public default void test_getKeyStrokeForEvent_KeyEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.KeyStroke#getKeyStroke(char,boolean) public static javax.swing.KeyStroke
-     * javax.swing.KeyStroke.getKeyStroke(char,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getKeyStroke_char_boolean()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.KeyStroke#getKeyStroke(java.lang.Character,int) public static
-     * javax.swing.KeyStroke javax.swing.KeyStroke.getKeyStroke(java.lang.Character,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getKeyStroke_Character_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.swing.KeyStroke> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.KeyStroke.class.isAssignableFrom(sut));
     }
 
 }

@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface XMLSignatureFactoryClassTests<SUT extends Class<? extends javax.xml.crypto.dsig.XMLSignatureFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.crypto.dsig.XMLSignatureFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.crypto.dsig.XMLSignatureFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.xml.crypto.dsig.XMLSignatureFactory#getInstance() public static
@@ -63,16 +53,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureFactory#getInstance(java.lang.String,java.lang.String)
-     * public static javax.xml.crypto.dsig.XMLSignatureFactory
-     * javax.xml.crypto.dsig.XMLSignatureFactory.getInstance(java.lang.String,java.lang.String) throws
-     * java.security.NoSuchProviderException}.
+     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureFactory#getInstance(java.lang.String) public static
+     * javax.xml.crypto.dsig.XMLSignatureFactory
+     * javax.xml.crypto.dsig.XMLSignatureFactory.getInstance(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInstance_String_String()
+    public default void test_getInstance_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -99,19 +88,30 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureFactory#getInstance(java.lang.String) public static
-     * javax.xml.crypto.dsig.XMLSignatureFactory
-     * javax.xml.crypto.dsig.XMLSignatureFactory.getInstance(java.lang.String)}.
+     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureFactory#getInstance(java.lang.String,java.lang.String)
+     * public static javax.xml.crypto.dsig.XMLSignatureFactory
+     * javax.xml.crypto.dsig.XMLSignatureFactory.getInstance(java.lang.String,java.lang.String) throws
+     * java.security.NoSuchProviderException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInstance_String()
+    public default void test_getInstance_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.crypto.dsig.XMLSignatureFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.crypto.dsig.XMLSignatureFactory.class.isAssignableFrom(sut));
     }
 
 }

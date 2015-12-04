@@ -34,15 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface WatchEventClassTests<SUT extends Class<? extends java.nio.file.WatchEvent<T>>, T>
 extends J8UnitTest<SUT> {
 
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.file.WatchEvent<T>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.file.WatchEvent.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link java.nio.file.WatchEvent$Kind interface java.nio.file.WatchEvent$Kind}, containing all
@@ -121,6 +112,15 @@ extends J8UnitTest<SUT> {
             assertTrue(java.nio.file.WatchEvent.Modifier.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.file.WatchEvent<T>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.file.WatchEvent.class.isAssignableFrom(sut));
     }
 
 }

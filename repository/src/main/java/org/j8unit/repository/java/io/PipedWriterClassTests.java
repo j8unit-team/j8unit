@@ -35,6 +35,19 @@ public abstract interface PipedWriterClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.io.WriterClassTests<SUT> {
 
     /**
+     * Test method for {@link java.io.PipedWriter#PipedWriter() public java.io.PipedWriter()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PipedWriter()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.PipedWriter sut = null; // = new PipedWriter();
+    }
+
+    /**
      * Test method for {@link java.io.PipedWriter#PipedWriter(java.io.PipedReader) public
      * java.io.PipedWriter(java.io.PipedReader) throws java.io.IOException}.
      */
@@ -46,19 +59,6 @@ extends org.j8unit.repository.java.io.WriterClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.PipedWriter sut = null; // = new PipedWriter(java.io.PipedReader);
-    }
-
-    /**
-     * Test method for {@link java.io.PipedWriter#PipedWriter() public java.io.PipedWriter()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PipedWriter()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.PipedWriter sut = null; // = new PipedWriter();
     }
 
     @Override

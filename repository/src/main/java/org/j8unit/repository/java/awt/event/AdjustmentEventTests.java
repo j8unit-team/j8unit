@@ -23,31 +23,14 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.AdjustmentEvent#getValue() public int
-     * java.awt.event.AdjustmentEvent.getValue()}.
+     * Test method for {@link java.awt.event.AdjustmentEvent#getAdjustable() public java.awt.Adjustable
+     * java.awt.event.AdjustmentEvent.getAdjustable()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.AdjustmentEvent#paramString() public java.lang.String
-     * java.awt.event.AdjustmentEvent.paramString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paramString()
+    public default void test_getAdjustable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +55,14 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.AdjustmentEvent#getAdjustable() public java.awt.Adjustable
-     * java.awt.event.AdjustmentEvent.getAdjustable()}.
+     * Test method for {@link java.awt.event.AdjustmentEvent#getValue() public int
+     * java.awt.event.AdjustmentEvent.getValue()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAdjustable()
+    public default void test_getValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -96,6 +79,23 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getValueIsAdjusting()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.AdjustmentEvent#paramString() public java.lang.String
+     * java.awt.event.AdjustmentEvent.paramString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paramString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,23 +23,6 @@ extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperTests<SUT>,
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.StringValueHelper#read_value(org.omg.CORBA.portable.InputStream) public
-     * java.io.Serializable org.omg.CORBA.StringValueHelper.read_value(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_read_value_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.CORBA.StringValueHelper#get_id() public java.lang.String
      * org.omg.CORBA.StringValueHelper.get_id()}.
      * </p>
@@ -49,6 +32,23 @@ extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperTests<SUT>,
     @Category(Draft.class)
     @Override
     public default void test_get_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.StringValueHelper#read_value(org.omg.CORBA.portable.InputStream) public
+     * java.io.Serializable org.omg.CORBA.StringValueHelper.read_value(org.omg.CORBA.portable.InputStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_read_value_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

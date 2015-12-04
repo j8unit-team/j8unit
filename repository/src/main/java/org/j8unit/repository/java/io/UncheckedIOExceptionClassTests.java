@@ -36,6 +36,20 @@ public abstract interface UncheckedIOExceptionClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link java.io.UncheckedIOException#UncheckedIOException(java.io.IOException) public
+     * java.io.UncheckedIOException(java.io.IOException)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_UncheckedIOException_IOException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.UncheckedIOException sut = null; // = new UncheckedIOException(java.io.IOException);
+    }
+
+    /**
      * Test method for {@link java.io.UncheckedIOException#UncheckedIOException(java.lang.String,java.io.IOException)
      * public java.io.UncheckedIOException(java.lang.String,java.io.IOException)}.
      */
@@ -48,20 +62,6 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.io.UncheckedIOException sut = null; // = new
                                                        // UncheckedIOException(java.lang.String,java.io.IOException);
-    }
-
-    /**
-     * Test method for {@link java.io.UncheckedIOException#UncheckedIOException(java.io.IOException) public
-     * java.io.UncheckedIOException(java.io.IOException)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_UncheckedIOException_IOException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.UncheckedIOException sut = null; // = new UncheckedIOException(java.io.IOException);
     }
 
     @Override

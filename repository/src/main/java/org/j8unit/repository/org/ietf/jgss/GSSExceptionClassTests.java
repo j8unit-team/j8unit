@@ -36,6 +36,19 @@ public abstract interface GSSExceptionClassTests<SUT extends Class<? extends org
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link org.ietf.jgss.GSSException#GSSException(int) public org.ietf.jgss.GSSException(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_GSSException_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final org.ietf.jgss.GSSException sut = null; // = new GSSException(int);
+    }
+
+    /**
      * Test method for {@link org.ietf.jgss.GSSException#GSSException(int,int,java.lang.String) public
      * org.ietf.jgss.GSSException(int,int,java.lang.String)}.
      */
@@ -47,19 +60,6 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final org.ietf.jgss.GSSException sut = null; // = new GSSException(int,int,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link org.ietf.jgss.GSSException#GSSException(int) public org.ietf.jgss.GSSException(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_GSSException_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final org.ietf.jgss.GSSException sut = null; // = new GSSException(int);
     }
 
     @Override

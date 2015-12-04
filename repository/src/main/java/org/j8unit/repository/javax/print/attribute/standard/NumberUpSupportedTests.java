@@ -25,6 +25,23 @@ org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.print.attribute.standard.NumberUpSupported#equals(java.lang.Object) public boolean
+     * javax.print.attribute.standard.NumberUpSupported.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.print.attribute.standard.NumberUpSupported#getCategory() public final
      * java.lang.Class javax.print.attribute.standard.NumberUpSupported.getCategory()}.
      * </p>
@@ -51,23 +68,6 @@ org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.attribute.standard.NumberUpSupported#equals(java.lang.Object) public boolean
-     * javax.print.attribute.standard.NumberUpSupported.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

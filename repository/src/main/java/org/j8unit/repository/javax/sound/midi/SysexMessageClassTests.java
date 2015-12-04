@@ -36,17 +36,16 @@ public abstract interface SysexMessageClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.javax.sound.midi.MidiMessageClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.sound.midi.SysexMessage#SysexMessage(int,byte[],int) public
-     * javax.sound.midi.SysexMessage(int,byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
+     * Test method for {@link javax.sound.midi.SysexMessage#SysexMessage() public javax.sound.midi.SysexMessage()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SysexMessage_int_byteArray_int()
+    public default void create_SysexMessage()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.sound.midi.SysexMessage sut = null; // = new SysexMessage(int,byte[],int);
+        final javax.sound.midi.SysexMessage sut = null; // = new SysexMessage();
     }
 
     /**
@@ -64,16 +63,17 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.sound.midi.SysexMessage#SysexMessage() public javax.sound.midi.SysexMessage()}.
+     * Test method for {@link javax.sound.midi.SysexMessage#SysexMessage(int,byte[],int) public
+     * javax.sound.midi.SysexMessage(int,byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SysexMessage()
+    public default void create_SysexMessage_int_byteArray_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.sound.midi.SysexMessage sut = null; // = new SysexMessage();
+        final javax.sound.midi.SysexMessage sut = null; // = new SysexMessage(int,byte[],int);
     }
 
     @Override

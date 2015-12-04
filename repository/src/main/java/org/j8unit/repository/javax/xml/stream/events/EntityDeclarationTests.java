@@ -23,30 +23,14 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.events.EntityDeclaration#getReplacementText() public abstract
-     * java.lang.String javax.xml.stream.events.EntityDeclaration.getReplacementText()}.
+     * Test method for {@link javax.xml.stream.events.EntityDeclaration#getBaseURI() public abstract java.lang.String
+     * javax.xml.stream.events.EntityDeclaration.getBaseURI()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getReplacementText()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.events.EntityDeclaration#getSystemId() public abstract java.lang.String
-     * javax.xml.stream.events.EntityDeclaration.getSystemId()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSystemId()
+    public default void test_getBaseURI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +55,14 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.events.EntityDeclaration#getBaseURI() public abstract java.lang.String
-     * javax.xml.stream.events.EntityDeclaration.getBaseURI()}.
+     * Test method for {@link javax.xml.stream.events.EntityDeclaration#getNotationName() public abstract
+     * java.lang.String javax.xml.stream.events.EntityDeclaration.getNotationName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBaseURI()
+    public default void test_getNotationName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +87,30 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.events.EntityDeclaration#getNotationName() public abstract
-     * java.lang.String javax.xml.stream.events.EntityDeclaration.getNotationName()}.
+     * Test method for {@link javax.xml.stream.events.EntityDeclaration#getReplacementText() public abstract
+     * java.lang.String javax.xml.stream.events.EntityDeclaration.getReplacementText()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNotationName()
+    public default void test_getReplacementText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.events.EntityDeclaration#getSystemId() public abstract java.lang.String
+     * javax.xml.stream.events.EntityDeclaration.getSystemId()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSystemId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,20 +36,6 @@ public abstract interface ShortLookupTableClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.java.awt.image.LookupTableClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.image.ShortLookupTable#ShortLookupTable(int,short[][]) public
-     * java.awt.image.ShortLookupTable(int,short[][])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ShortLookupTable_int_shortArrayArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.ShortLookupTable sut = null; // = new ShortLookupTable(int,short[][]);
-    }
-
-    /**
      * Test method for {@link java.awt.image.ShortLookupTable#ShortLookupTable(int,short[]) public
      * java.awt.image.ShortLookupTable(int,short[])}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.awt.image.LookupTableClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.image.ShortLookupTable sut = null; // = new ShortLookupTable(int,short[]);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.ShortLookupTable#ShortLookupTable(int,short[][]) public
+     * java.awt.image.ShortLookupTable(int,short[][])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ShortLookupTable_int_shortArrayArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.ShortLookupTable sut = null; // = new ShortLookupTable(int,short[][]);
     }
 
     @Override

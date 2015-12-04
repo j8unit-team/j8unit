@@ -23,6 +23,25 @@ extends org.j8unit.repository.java.nio.file.FileVisitorTests<SUT, T>, org.j8unit
 
     /**
      * <p>
+     * Test method for {@link java.nio.file.SimpleFileVisitor#postVisitDirectory(java.lang.Object,java.io.IOException)
+     * public java.nio.file.FileVisitResult
+     * java.nio.file.SimpleFileVisitor.postVisitDirectory(java.lang.Object,java.io.IOException) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_postVisitDirectory_Object_IOException()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link java.nio.file.SimpleFileVisitor#preVisitDirectory(java.lang.Object,java.nio.file.attribute.BasicFileAttributes)
      * public java.nio.file.FileVisitResult
@@ -35,25 +54,6 @@ extends org.j8unit.repository.java.nio.file.FileVisitorTests<SUT, T>, org.j8unit
     @Category(Draft.class)
     @Override
     public default void test_preVisitDirectory_Object_BasicFileAttributes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.SimpleFileVisitor#visitFileFailed(java.lang.Object,java.io.IOException)
-     * public java.nio.file.FileVisitResult
-     * java.nio.file.SimpleFileVisitor.visitFileFailed(java.lang.Object,java.io.IOException) throws java.io.IOException}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_visitFileFailed_Object_IOException()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -82,17 +82,17 @@ extends org.j8unit.repository.java.nio.file.FileVisitorTests<SUT, T>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.SimpleFileVisitor#postVisitDirectory(java.lang.Object,java.io.IOException)
+     * Test method for {@link java.nio.file.SimpleFileVisitor#visitFileFailed(java.lang.Object,java.io.IOException)
      * public java.nio.file.FileVisitResult
-     * java.nio.file.SimpleFileVisitor.postVisitDirectory(java.lang.Object,java.io.IOException) throws
-     * java.io.IOException}.
+     * java.nio.file.SimpleFileVisitor.visitFileFailed(java.lang.Object,java.io.IOException) throws java.io.IOException}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_postVisitDirectory_Object_IOException()
+    public default void test_visitFileFailed_Object_IOException()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

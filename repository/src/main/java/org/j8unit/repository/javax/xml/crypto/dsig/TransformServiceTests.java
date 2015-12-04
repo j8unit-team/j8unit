@@ -23,6 +23,55 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.TransformTests<SUT>, org.j8u
 
     /**
      * <p>
+     * Test method for {@link javax.xml.crypto.dsig.TransformService#getAlgorithm() public final java.lang.String
+     * javax.xml.crypto.dsig.TransformService.getAlgorithm()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAlgorithm()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.TransformService#getMechanismType() public final java.lang.String
+     * javax.xml.crypto.dsig.TransformService.getMechanismType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMechanismType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.TransformService#getProvider() public final java.security.Provider
+     * javax.xml.crypto.dsig.TransformService.getProvider()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProvider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link javax.xml.crypto.dsig.TransformService#init(javax.xml.crypto.dsig.spec.TransformParameterSpec) public
      * abstract void javax.xml.crypto.dsig.TransformService.init(javax.xml.crypto.dsig.spec.TransformParameterSpec)
@@ -52,55 +101,6 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.TransformTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     public default void test_init_XMLStructure_XMLCryptoContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.dsig.TransformService#getMechanismType() public final java.lang.String
-     * javax.xml.crypto.dsig.TransformService.getMechanismType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMechanismType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.dsig.TransformService#getAlgorithm() public final java.lang.String
-     * javax.xml.crypto.dsig.TransformService.getAlgorithm()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAlgorithm()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.dsig.TransformService#getProvider() public final java.security.Provider
-     * javax.xml.crypto.dsig.TransformService.getProvider()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProvider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

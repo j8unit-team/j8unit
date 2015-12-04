@@ -36,6 +36,19 @@ public abstract interface JPasswordFieldClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.swing.JPasswordField#JPasswordField() public javax.swing.JPasswordField()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JPasswordField()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JPasswordField sut = null; // = new JPasswordField();
+    }
+
+    /**
      * Test method for {@link javax.swing.JPasswordField#JPasswordField(javax.swing.text.Document,java.lang.String,int)
      * public javax.swing.JPasswordField(javax.swing.text.Document,java.lang.String,int)}.
      */
@@ -48,20 +61,6 @@ extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.swing.JPasswordField sut = null; // = new
                                                      // JPasswordField(javax.swing.text.Document,java.lang.String,int);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JPasswordField#JPasswordField(java.lang.String,int) public
-     * javax.swing.JPasswordField(java.lang.String,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JPasswordField_String_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JPasswordField sut = null; // = new JPasswordField(java.lang.String,int);
     }
 
     /**
@@ -92,16 +91,17 @@ extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.JPasswordField#JPasswordField() public javax.swing.JPasswordField()}.
+     * Test method for {@link javax.swing.JPasswordField#JPasswordField(java.lang.String,int) public
+     * javax.swing.JPasswordField(java.lang.String,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JPasswordField()
+    public default void create_JPasswordField_String_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JPasswordField sut = null; // = new JPasswordField();
+        final javax.swing.JPasswordField sut = null; // = new JPasswordField(java.lang.String,int);
     }
 
     @Override

@@ -38,19 +38,33 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetClassTes
 org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.print.attribute.HashPrintJobAttributeSet#HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttributeSet)
-     * public javax.print.attribute.HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttributeSet)}.
+     * Test method for {@link javax.print.attribute.HashPrintJobAttributeSet#HashPrintJobAttributeSet() public
+     * javax.print.attribute.HashPrintJobAttributeSet()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_HashPrintJobAttributeSet_PrintJobAttributeSet()
+    public default void create_HashPrintJobAttributeSet()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.print.attribute.HashPrintJobAttributeSet sut = null; // = new HashPrintJobAttributeSet();
+    }
+
+    /**
+     * Test method for
+     * {@link javax.print.attribute.HashPrintJobAttributeSet#HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttribute)
+     * public javax.print.attribute.HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttribute)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HashPrintJobAttributeSet_PrintJobAttribute()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.print.attribute.HashPrintJobAttributeSet sut = null; // = new
-                                                                         // HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttributeSet);
+                                                                         // HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttribute);
     }
 
     /**
@@ -71,32 +85,18 @@ org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.print.attribute.HashPrintJobAttributeSet#HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttribute)
-     * public javax.print.attribute.HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttribute)}.
+     * {@link javax.print.attribute.HashPrintJobAttributeSet#HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttributeSet)
+     * public javax.print.attribute.HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttributeSet)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_HashPrintJobAttributeSet_PrintJobAttribute()
+    public default void create_HashPrintJobAttributeSet_PrintJobAttributeSet()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.print.attribute.HashPrintJobAttributeSet sut = null; // = new
-                                                                         // HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttribute);
-    }
-
-    /**
-     * Test method for {@link javax.print.attribute.HashPrintJobAttributeSet#HashPrintJobAttributeSet() public
-     * javax.print.attribute.HashPrintJobAttributeSet()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HashPrintJobAttributeSet()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.print.attribute.HashPrintJobAttributeSet sut = null; // = new HashPrintJobAttributeSet();
+                                                                         // HashPrintJobAttributeSet(javax.print.attribute.PrintJobAttributeSet);
     }
 
     @Override

@@ -36,19 +36,6 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
 
     /**
-     * Test method for {@link java.util.HashMap#HashMap(int) public java.util.HashMap(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HashMap_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.HashMap<K, V> sut = null; // = new HashMap(int);
-    }
-
-    /**
      * Test method for {@link java.util.HashMap#HashMap() public java.util.HashMap()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -62,16 +49,16 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     }
 
     /**
-     * Test method for {@link java.util.HashMap#HashMap(java.util.Map) public java.util.HashMap(java.util.Map)}.
+     * Test method for {@link java.util.HashMap#HashMap(int) public java.util.HashMap(int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_HashMap_Map()
+    public default void create_HashMap_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.HashMap<K, V> sut = null; // = new HashMap(java.util.Map);
+        final java.util.HashMap<K, V> sut = null; // = new HashMap(int);
     }
 
     /**
@@ -85,6 +72,19 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         // create new instance
         @SuppressWarnings("unused")
         final java.util.HashMap<K, V> sut = null; // = new HashMap(int,float);
+    }
+
+    /**
+     * Test method for {@link java.util.HashMap#HashMap(java.util.Map) public java.util.HashMap(java.util.Map)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HashMap_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.HashMap<K, V> sut = null; // = new HashMap(java.util.Map);
     }
 
     @Override

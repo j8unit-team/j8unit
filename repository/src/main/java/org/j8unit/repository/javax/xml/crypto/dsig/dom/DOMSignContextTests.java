@@ -23,102 +23,6 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests<SUT>, or
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dsig.dom.DOMSignContext#getNextSibling() public org.w3c.dom.Node
-     * javax.xml.crypto.dsig.dom.DOMSignContext.getNextSibling()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNextSibling()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.dsig.dom.DOMSignContext#getParent() public org.w3c.dom.Node
-     * javax.xml.crypto.dsig.dom.DOMSignContext.getParent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.dsig.dom.DOMSignContext#setParent(org.w3c.dom.Node) public void
-     * javax.xml.crypto.dsig.dom.DOMSignContext.setParent(org.w3c.dom.Node)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setParent_Node()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.dsig.dom.DOMSignContext#setNextSibling(org.w3c.dom.Node) public void
-     * javax.xml.crypto.dsig.dom.DOMSignContext.setNextSibling(org.w3c.dom.Node)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setNextSibling_Node()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getDefaultNamespacePrefix()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setBaseURI_String()
-    throws Exception {
-    }
-
-    /**
-     * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
      * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
      * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
@@ -145,7 +49,23 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests<SUT>, or
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setProperty_String_Object()
+    public default void test_getBaseURI()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getDefaultNamespacePrefix()
     throws Exception {
     }
 
@@ -183,6 +103,54 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests<SUT>, or
 
     /**
      * <p>
+     * Test method for {@link javax.xml.crypto.dsig.dom.DOMSignContext#getNextSibling() public org.w3c.dom.Node
+     * javax.xml.crypto.dsig.dom.DOMSignContext.getNextSibling()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNextSibling()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.dom.DOMSignContext#getParent() public org.w3c.dom.Node
+     * javax.xml.crypto.dsig.dom.DOMSignContext.getParent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getProperty_String()
+    throws Exception {
+    }
+
+    /**
+     * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
      * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
      * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
@@ -209,7 +177,7 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests<SUT>, or
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setKeySelector_KeySelector()
+    public default void test_put_Object_Object()
     throws Exception {
     }
 
@@ -241,6 +209,22 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests<SUT>, or
     @Test
     @Category(Draft.class)
     @Override
+    public default void test_setBaseURI_String()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
     public default void test_setDefaultNamespacePrefix_String()
     throws Exception {
     }
@@ -257,8 +241,40 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests<SUT>, or
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getBaseURI()
+    public default void test_setKeySelector_KeySelector()
     throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.dom.DOMSignContext#setNextSibling(org.w3c.dom.Node) public void
+     * javax.xml.crypto.dsig.dom.DOMSignContext.setNextSibling(org.w3c.dom.Node)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setNextSibling_Node()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.dom.DOMSignContext#setParent(org.w3c.dom.Node) public void
+     * javax.xml.crypto.dsig.dom.DOMSignContext.setParent(org.w3c.dom.Node)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setParent_Node()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -273,23 +289,7 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextTests<SUT>, or
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getProperty_String()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_put_Object_Object()
+    public default void test_setProperty_String_Object()
     throws Exception {
     }
 

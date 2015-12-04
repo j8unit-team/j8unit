@@ -53,6 +53,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
+     * Test method for {@link javax.crypto.EncryptedPrivateKeyInfo#EncryptedPrivateKeyInfo(byte[]) public
+     * javax.crypto.EncryptedPrivateKeyInfo(byte[]) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_EncryptedPrivateKeyInfo_byteArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.crypto.EncryptedPrivateKeyInfo sut = null; // = new EncryptedPrivateKeyInfo(byte[]);
+    }
+
+    /**
      * Test method for {@link javax.crypto.EncryptedPrivateKeyInfo#EncryptedPrivateKeyInfo(java.lang.String,byte[])
      * public javax.crypto.EncryptedPrivateKeyInfo(java.lang.String,byte[]) throws
      * java.security.NoSuchAlgorithmException}.
@@ -66,20 +80,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.crypto.EncryptedPrivateKeyInfo sut = null; // = new
                                                                // EncryptedPrivateKeyInfo(java.lang.String,byte[]);
-    }
-
-    /**
-     * Test method for {@link javax.crypto.EncryptedPrivateKeyInfo#EncryptedPrivateKeyInfo(byte[]) public
-     * javax.crypto.EncryptedPrivateKeyInfo(byte[]) throws java.io.IOException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_EncryptedPrivateKeyInfo_byteArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.crypto.EncryptedPrivateKeyInfo sut = null; // = new EncryptedPrivateKeyInfo(byte[]);
     }
 
     @Override

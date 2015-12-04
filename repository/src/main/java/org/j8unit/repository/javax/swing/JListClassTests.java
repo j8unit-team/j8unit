@@ -36,69 +36,6 @@ extends org.j8unit.repository.javax.swing.ScrollableClassTests<SUT>, org.j8unit.
 org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JList#JList() public javax.swing.JList()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JList()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JList<E> sut = null; // = new JList();
-    }
-
-    /**
-     * Test method for {@link javax.swing.JList#JList(java.util.Vector) public javax.swing.JList(java.util.Vector)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JList_Vector()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JList<E> sut = null; // = new JList(java.util.Vector);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JList#JList(java.lang.Object[]) public javax.swing.JList(java.lang.Object[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JList_ObjectArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JList<E> sut = null; // = new JList(java.lang.Object[]);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JList#JList(javax.swing.ListModel) public
-     * javax.swing.JList(javax.swing.ListModel)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JList_ListModel()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JList<E> sut = null; // = new JList(javax.swing.ListModel);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.JList<E>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JList.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.JList$DropLocation class javax.swing.JList$DropLocation}, containing all class
      * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
@@ -137,6 +74,69 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
             assertTrue(javax.swing.JList.DropLocation.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.JList#JList() public javax.swing.JList()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JList()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JList<E> sut = null; // = new JList();
+    }
+
+    /**
+     * Test method for {@link javax.swing.JList#JList(javax.swing.ListModel) public
+     * javax.swing.JList(javax.swing.ListModel)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JList_ListModel()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JList<E> sut = null; // = new JList(javax.swing.ListModel);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JList#JList(java.lang.Object[]) public javax.swing.JList(java.lang.Object[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JList_ObjectArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JList<E> sut = null; // = new JList(java.lang.Object[]);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JList#JList(java.util.Vector) public javax.swing.JList(java.util.Vector)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JList_Vector()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JList<E> sut = null; // = new JList(java.util.Vector);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.JList<E>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.JList.class.isAssignableFrom(sut));
     }
 
 }

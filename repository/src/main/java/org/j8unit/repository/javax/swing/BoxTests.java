@@ -23,40 +23,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Box#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.Box.getAccessibleContext()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAccessibleContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.Box#setLayout(java.awt.LayoutManager) public void
-     * javax.swing.Box.setLayout(java.awt.LayoutManager)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setLayout_LayoutManager()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test class for {@link javax.swing.Box$Filler class javax.swing.Box$Filler}, containing all instance relevant test
      * methods (i.&thinsp;e., test methods of non-{@code static} methods).
      * </p>
@@ -104,6 +70,40 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
             assert sut != null;
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.Box#getAccessibleContext() public javax.accessibility.AccessibleContext
+     * javax.swing.Box.getAccessibleContext()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAccessibleContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.Box#setLayout(java.awt.LayoutManager) public void
+     * javax.swing.Box.setLayout(java.awt.LayoutManager)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setLayout_LayoutManager()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

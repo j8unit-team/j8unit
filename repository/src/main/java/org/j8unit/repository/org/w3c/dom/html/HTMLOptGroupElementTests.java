@@ -23,22 +23,6 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLOptGroupElement#setDisabled(boolean) public abstract void
-     * org.w3c.dom.html.HTMLOptGroupElement.setDisabled(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDisabled_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLOptGroupElement#getDisabled() public abstract boolean
      * org.w3c.dom.html.HTMLOptGroupElement.getDisabled()}.
      * </p>
@@ -63,6 +47,22 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getLabel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLOptGroupElement#setDisabled(boolean) public abstract void
+     * org.w3c.dom.html.HTMLOptGroupElement.setDisabled(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDisabled_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

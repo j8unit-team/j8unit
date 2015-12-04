@@ -23,14 +23,47 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.SelectableChannel#provider() public abstract
-     * java.nio.channels.spi.SelectorProvider java.nio.channels.SelectableChannel.provider()}.
+     * Test method for {@link java.nio.channels.SelectableChannel#blockingLock() public abstract java.lang.Object
+     * java.nio.channels.SelectableChannel.blockingLock()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_provider()
+    public default void test_blockingLock()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_close()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.SelectableChannel#configureBlocking(boolean) public abstract
+     * java.nio.channels.SelectableChannel java.nio.channels.SelectableChannel.configureBlocking(boolean) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_configureBlocking_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,6 +88,38 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT>, org.j8unit.re
 
     /**
      * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isOpen()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.SelectableChannel#isRegistered() public abstract boolean
+     * java.nio.channels.SelectableChannel.isRegistered()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isRegistered()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.channels.SelectableChannel#keyFor(java.nio.channels.Selector) public abstract
      * java.nio.channels.SelectionKey java.nio.channels.SelectableChannel.keyFor(java.nio.channels.Selector)}.
      * </p>
@@ -71,14 +136,14 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.SelectableChannel#blockingLock() public abstract java.lang.Object
-     * java.nio.channels.SelectableChannel.blockingLock()}.
+     * Test method for {@link java.nio.channels.SelectableChannel#provider() public abstract
+     * java.nio.channels.spi.SelectorProvider java.nio.channels.SelectableChannel.provider()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_blockingLock()
+    public default void test_provider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -123,23 +188,6 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.SelectableChannel#configureBlocking(boolean) public abstract
-     * java.nio.channels.SelectableChannel java.nio.channels.SelectableChannel.configureBlocking(boolean) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_configureBlocking_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.channels.SelectableChannel#validOps() public abstract int
      * java.nio.channels.SelectableChannel.validOps()}.
      * </p>
@@ -152,54 +200,6 @@ extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT>, org.j8unit.re
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.SelectableChannel#isRegistered() public abstract boolean
-     * java.nio.channels.SelectableChannel.isRegistered()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isRegistered()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isOpen()
-    throws Exception {
     }
 
 }

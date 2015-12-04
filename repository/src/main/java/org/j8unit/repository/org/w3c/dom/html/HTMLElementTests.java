@@ -23,14 +23,46 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLElement#getTitle() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLElement.getTitle()}.
+     * Test method for {@link org.w3c.dom.html.HTMLElement#getClassName() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLElement.getClassName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTitle()
+    public default void test_getClassName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLElement#getDir() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLElement.getDir()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDir()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLElement#getId() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLElement.getId()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +87,14 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLElement#getClassName() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLElement.getClassName()}.
+     * Test method for {@link org.w3c.dom.html.HTMLElement#getTitle() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLElement.getTitle()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getClassName()
+    public default void test_getTitle()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,22 +111,6 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setClassName_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLElement#getId() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLElement.getId()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,38 +151,6 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLElement#setTitle(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLElement.setTitle(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTitle_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLElement#getDir() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLElement.getDir()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDir()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLElement#setLang(java.lang.String) public abstract void
      * org.w3c.dom.html.HTMLElement.setLang(java.lang.String)}.
      * </p>
@@ -175,6 +159,22 @@ extends org.j8unit.repository.org.w3c.dom.ElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setLang_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLElement#setTitle(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLElement.setTitle(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTitle_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -37,26 +37,80 @@ extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>, org.j8
 org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.OffsetDateTime>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.OffsetDateTime> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.OffsetDateTime.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.time.OffsetDateTime#ofInstant(java.time.Instant,java.time.ZoneId) public static
-     * java.time.OffsetDateTime java.time.OffsetDateTime.ofInstant(java.time.Instant,java.time.ZoneId)}.
+     * Test method for {@link java.time.OffsetDateTime#from(java.time.temporal.TemporalAccessor) public static
+     * java.time.OffsetDateTime java.time.OffsetDateTime.from(java.time.temporal.TemporalAccessor)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ofInstant_Instant_ZoneId()
+    public default void test_from_TemporalAccessor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.OffsetDateTime#now() public static java.time.OffsetDateTime
+     * java.time.OffsetDateTime.now()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_now()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.OffsetDateTime#now(java.time.Clock) public static java.time.OffsetDateTime
+     * java.time.OffsetDateTime.now(java.time.Clock)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_now_Clock()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.OffsetDateTime#now(java.time.ZoneId) public static java.time.OffsetDateTime
+     * java.time.OffsetDateTime.now(java.time.ZoneId)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_now_ZoneId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.OffsetDateTime#of(int,int,int,int,int,int,int,java.time.ZoneOffset) public
+     * static java.time.OffsetDateTime java.time.OffsetDateTime.of(int,int,int,int,int,int,int,java.time.ZoneOffset)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_int_int_int_int_int_int_int_ZoneOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -98,62 +152,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.OffsetDateTime#of(int,int,int,int,int,int,int,java.time.ZoneOffset) public
-     * static java.time.OffsetDateTime java.time.OffsetDateTime.of(int,int,int,int,int,int,int,java.time.ZoneOffset)}.
+     * Test method for {@link java.time.OffsetDateTime#ofInstant(java.time.Instant,java.time.ZoneId) public static
+     * java.time.OffsetDateTime java.time.OffsetDateTime.ofInstant(java.time.Instant,java.time.ZoneId)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_of_int_int_int_int_int_int_int_ZoneOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.OffsetDateTime#now(java.time.ZoneId) public static java.time.OffsetDateTime
-     * java.time.OffsetDateTime.now(java.time.ZoneId)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_now_ZoneId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.OffsetDateTime#now() public static java.time.OffsetDateTime
-     * java.time.OffsetDateTime.now()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_now()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.OffsetDateTime#now(java.time.Clock) public static java.time.OffsetDateTime
-     * java.time.OffsetDateTime.now(java.time.Clock)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_now_Clock()
+    public default void test_ofInstant_Instant_ZoneId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -195,22 +201,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.OffsetDateTime#from(java.time.temporal.TemporalAccessor) public static
-     * java.time.OffsetDateTime java.time.OffsetDateTime.from(java.time.temporal.TemporalAccessor)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_from_TemporalAccessor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.time.OffsetDateTime#timeLineOrder() public static java.util.Comparator
      * java.time.OffsetDateTime.timeLineOrder()}.
      * </p>
@@ -223,6 +213,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.OffsetDateTime> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.OffsetDateTime.class.isAssignableFrom(sut));
     }
 
 }

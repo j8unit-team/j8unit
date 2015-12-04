@@ -36,19 +36,6 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.DictionaryClassTests<SUT, K, V> {
 
     /**
-     * Test method for {@link java.util.Hashtable#Hashtable(java.util.Map) public java.util.Hashtable(java.util.Map)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Hashtable_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.Hashtable<K, V> sut = null; // = new Hashtable(java.util.Map);
-    }
-
-    /**
      * Test method for {@link java.util.Hashtable#Hashtable() public java.util.Hashtable()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -85,6 +72,19 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         // create new instance
         @SuppressWarnings("unused")
         final java.util.Hashtable<K, V> sut = null; // = new Hashtable(int,float);
+    }
+
+    /**
+     * Test method for {@link java.util.Hashtable#Hashtable(java.util.Map) public java.util.Hashtable(java.util.Map)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Hashtable_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.Hashtable<K, V> sut = null; // = new Hashtable(java.util.Map);
     }
 
     @Override

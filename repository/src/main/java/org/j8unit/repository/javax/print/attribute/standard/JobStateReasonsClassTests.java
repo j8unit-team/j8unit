@@ -38,6 +38,20 @@ extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<
 org.j8unit.repository.java.util.HashSetClassTests<SUT, javax.print.attribute.standard.JobStateReason> {
 
     /**
+     * Test method for {@link javax.print.attribute.standard.JobStateReasons#JobStateReasons() public
+     * javax.print.attribute.standard.JobStateReasons()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JobStateReasons()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.print.attribute.standard.JobStateReasons sut = null; // = new JobStateReasons();
+    }
+
+    /**
      * Test method for {@link javax.print.attribute.standard.JobStateReasons#JobStateReasons(java.util.Collection)
      * public javax.print.attribute.standard.JobStateReasons(java.util.Collection)}.
      */
@@ -49,20 +63,6 @@ org.j8unit.repository.java.util.HashSetClassTests<SUT, javax.print.attribute.sta
         // create new instance
         @SuppressWarnings("unused")
         final javax.print.attribute.standard.JobStateReasons sut = null; // = new JobStateReasons(java.util.Collection);
-    }
-
-    /**
-     * Test method for {@link javax.print.attribute.standard.JobStateReasons#JobStateReasons(int,float) public
-     * javax.print.attribute.standard.JobStateReasons(int,float)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JobStateReasons_int_float()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.print.attribute.standard.JobStateReasons sut = null; // = new JobStateReasons(int,float);
     }
 
     /**
@@ -80,17 +80,17 @@ org.j8unit.repository.java.util.HashSetClassTests<SUT, javax.print.attribute.sta
     }
 
     /**
-     * Test method for {@link javax.print.attribute.standard.JobStateReasons#JobStateReasons() public
-     * javax.print.attribute.standard.JobStateReasons()}.
+     * Test method for {@link javax.print.attribute.standard.JobStateReasons#JobStateReasons(int,float) public
+     * javax.print.attribute.standard.JobStateReasons(int,float)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JobStateReasons()
+    public default void create_JobStateReasons_int_float()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.print.attribute.standard.JobStateReasons sut = null; // = new JobStateReasons();
+        final javax.print.attribute.standard.JobStateReasons sut = null; // = new JobStateReasons(int,float);
     }
 
     @Override

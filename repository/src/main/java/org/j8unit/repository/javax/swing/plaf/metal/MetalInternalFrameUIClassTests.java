@@ -51,16 +51,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTe
                                                                       // MetalInternalFrameUI(javax.swing.JInternalFrame);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.metal.MetalInternalFrameUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.metal.MetalInternalFrameUI.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalInternalFrameUI#createUI(javax.swing.JComponent) public static
@@ -76,6 +66,16 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTe
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.metal.MetalInternalFrameUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.metal.MetalInternalFrameUI.class.isAssignableFrom(sut));
     }
 
 }

@@ -36,17 +36,16 @@ extends org.j8unit.repository.java.util.NavigableSetClassTests<SUT, E>, org.j8un
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
 
     /**
-     * Test method for {@link java.util.TreeSet#TreeSet(java.util.SortedSet) public
-     * java.util.TreeSet(java.util.SortedSet)}.
+     * Test method for {@link java.util.TreeSet#TreeSet() public java.util.TreeSet()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_TreeSet_SortedSet()
+    public default void create_TreeSet()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.TreeSet<E> sut = null; // = new TreeSet(java.util.SortedSet);
+        final java.util.TreeSet<E> sut = null; // = new TreeSet();
     }
 
     /**
@@ -78,16 +77,17 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     }
 
     /**
-     * Test method for {@link java.util.TreeSet#TreeSet() public java.util.TreeSet()}.
+     * Test method for {@link java.util.TreeSet#TreeSet(java.util.SortedSet) public
+     * java.util.TreeSet(java.util.SortedSet)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_TreeSet()
+    public default void create_TreeSet_SortedSet()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.TreeSet<E> sut = null; // = new TreeSet();
+        final java.util.TreeSet<E> sut = null; // = new TreeSet(java.util.SortedSet);
     }
 
     @Override

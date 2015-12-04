@@ -52,20 +52,6 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.image.DirectColorModel#DirectColorModel(int,int,int,int,int) public
-     * java.awt.image.DirectColorModel(int,int,int,int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DirectColorModel_int_int_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.DirectColorModel sut = null; // = new DirectColorModel(int,int,int,int,int);
-    }
-
-    /**
      * Test method for {@link java.awt.image.DirectColorModel#DirectColorModel(int,int,int,int) public
      * java.awt.image.DirectColorModel(int,int,int,int)}.
      */
@@ -77,6 +63,20 @@ extends org.j8unit.repository.java.awt.image.PackedColorModelClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.image.DirectColorModel sut = null; // = new DirectColorModel(int,int,int,int);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.DirectColorModel#DirectColorModel(int,int,int,int,int) public
+     * java.awt.image.DirectColorModel(int,int,int,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DirectColorModel_int_int_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.DirectColorModel sut = null; // = new DirectColorModel(int,int,int,int,int);
     }
 
     @Override

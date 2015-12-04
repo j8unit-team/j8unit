@@ -23,14 +23,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.filechooser.FileView#isTraversable(java.io.File) public java.lang.Boolean
-     * javax.swing.filechooser.FileView.isTraversable(java.io.File)}.
+     * Test method for {@link javax.swing.filechooser.FileView#getDescription(java.io.File) public java.lang.String
+     * javax.swing.filechooser.FileView.getDescription(java.io.File)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isTraversable_File()
+    public default void test_getDescription_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.filechooser.FileView#getIcon(java.io.File) public javax.swing.Icon
+     * javax.swing.filechooser.FileView.getIcon(java.io.File)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIcon_File()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,30 +87,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.filechooser.FileView#getDescription(java.io.File) public java.lang.String
-     * javax.swing.filechooser.FileView.getDescription(java.io.File)}.
+     * Test method for {@link javax.swing.filechooser.FileView#isTraversable(java.io.File) public java.lang.Boolean
+     * javax.swing.filechooser.FileView.isTraversable(java.io.File)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDescription_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.filechooser.FileView#getIcon(java.io.File) public javax.swing.Icon
-     * javax.swing.filechooser.FileView.getIcon(java.io.File)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIcon_File()
+    public default void test_isTraversable_File()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

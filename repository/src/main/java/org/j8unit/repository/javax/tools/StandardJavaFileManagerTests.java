@@ -23,16 +23,63 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.tools.StandardJavaFileManager#isSameFile(javax.tools.FileObject,javax.tools.FileObject) public
-     * abstract boolean javax.tools.StandardJavaFileManager.isSameFile(javax.tools.FileObject,javax.tools.FileObject)}.
+     * Test method for {@link javax.tools.StandardJavaFileManager#getJavaFileObjects(java.io.File...) public abstract
+     * java.lang.Iterable javax.tools.StandardJavaFileManager.getJavaFileObjects(java.io.File...)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_isSameFile_FileObject_FileObject()
+    public default void test_getJavaFileObjects_FileArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.StandardJavaFileManager#getJavaFileObjects(java.lang.String...) public
+     * abstract java.lang.Iterable javax.tools.StandardJavaFileManager.getJavaFileObjects(java.lang.String...)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getJavaFileObjects_StringArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.StandardJavaFileManager#getJavaFileObjectsFromFiles(java.lang.Iterable) public
+     * abstract java.lang.Iterable javax.tools.StandardJavaFileManager.getJavaFileObjectsFromFiles(java.lang.Iterable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getJavaFileObjectsFromFiles_Iterable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.StandardJavaFileManager#getJavaFileObjectsFromStrings(java.lang.Iterable)
+     * public abstract java.lang.Iterable
+     * javax.tools.StandardJavaFileManager.getJavaFileObjectsFromStrings(java.lang.Iterable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getJavaFileObjectsFromStrings_Iterable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -58,14 +105,16 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.tools.StandardJavaFileManager#getJavaFileObjectsFromFiles(java.lang.Iterable) public
-     * abstract java.lang.Iterable javax.tools.StandardJavaFileManager.getJavaFileObjectsFromFiles(java.lang.Iterable)}.
+     * Test method for
+     * {@link javax.tools.StandardJavaFileManager#isSameFile(javax.tools.FileObject,javax.tools.FileObject) public
+     * abstract boolean javax.tools.StandardJavaFileManager.isSameFile(javax.tools.FileObject,javax.tools.FileObject)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getJavaFileObjectsFromFiles_Iterable()
+    @Override
+    public default void test_isSameFile_FileObject_FileObject()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -85,55 +134,6 @@ extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setLocation_Location_Iterable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.StandardJavaFileManager#getJavaFileObjects(java.lang.String...) public
-     * abstract java.lang.Iterable javax.tools.StandardJavaFileManager.getJavaFileObjects(java.lang.String...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getJavaFileObjects_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.StandardJavaFileManager#getJavaFileObjects(java.io.File...) public abstract
-     * java.lang.Iterable javax.tools.StandardJavaFileManager.getJavaFileObjects(java.io.File...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getJavaFileObjects_FileArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.StandardJavaFileManager#getJavaFileObjectsFromStrings(java.lang.Iterable)
-     * public abstract java.lang.Iterable
-     * javax.tools.StandardJavaFileManager.getJavaFileObjectsFromStrings(java.lang.Iterable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getJavaFileObjectsFromStrings_Iterable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

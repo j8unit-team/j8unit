@@ -39,6 +39,70 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.w3c.dom.events.MouseEvent#getButton() public abstract short
+     * org.w3c.dom.events.MouseEvent.getButton()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getButton()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.events.MouseEvent#getClientX() public abstract int
+     * org.w3c.dom.events.MouseEvent.getClientX()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getClientX()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.events.MouseEvent#getClientY() public abstract int
+     * org.w3c.dom.events.MouseEvent.getClientY()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getClientY()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.events.MouseEvent#getCtrlKey() public abstract boolean
+     * org.w3c.dom.events.MouseEvent.getCtrlKey()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCtrlKey()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.w3c.dom.events.MouseEvent#getMetaKey() public abstract boolean
      * org.w3c.dom.events.MouseEvent.getMetaKey()}.
      * </p>
@@ -47,6 +111,22 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMetaKey()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.events.MouseEvent#getRelatedTarget() public abstract
+     * org.w3c.dom.events.EventTarget org.w3c.dom.events.MouseEvent.getRelatedTarget()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRelatedTarget()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -114,86 +194,6 @@ extends org.j8unit.repository.org.w3c.dom.events.UIEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_initMouseEvent_String_boolean_boolean_AbstractView_int_int_int_int_int_boolean_boolean_boolean_boolean_short_EventTarget()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.events.MouseEvent#getClientX() public abstract int
-     * org.w3c.dom.events.MouseEvent.getClientX()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getClientX()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.events.MouseEvent#getCtrlKey() public abstract boolean
-     * org.w3c.dom.events.MouseEvent.getCtrlKey()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCtrlKey()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.events.MouseEvent#getRelatedTarget() public abstract
-     * org.w3c.dom.events.EventTarget org.w3c.dom.events.MouseEvent.getRelatedTarget()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRelatedTarget()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.events.MouseEvent#getButton() public abstract short
-     * org.w3c.dom.events.MouseEvent.getButton()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getButton()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.events.MouseEvent#getClientY() public abstract int
-     * org.w3c.dom.events.MouseEvent.getClientY()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getClientY()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

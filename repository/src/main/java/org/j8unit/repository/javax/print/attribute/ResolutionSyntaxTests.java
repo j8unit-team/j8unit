@@ -24,31 +24,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.ResolutionSyntax#toString(int,java.lang.String) public
-     * java.lang.String javax.print.attribute.ResolutionSyntax.toString(int,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString_int_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.attribute.ResolutionSyntax#toString() public java.lang.String
-     * javax.print.attribute.ResolutionSyntax.toString()}.
+     * Test method for {@link javax.print.attribute.ResolutionSyntax#equals(java.lang.Object) public boolean
+     * javax.print.attribute.ResolutionSyntax.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -65,57 +49,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getCrossFeedResolution_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.print.attribute.ResolutionSyntax#lessThanOrEquals(javax.print.attribute.ResolutionSyntax) public
-     * boolean javax.print.attribute.ResolutionSyntax.lessThanOrEquals(javax.print.attribute.ResolutionSyntax)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lessThanOrEquals_ResolutionSyntax()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.attribute.ResolutionSyntax#hashCode() public int
-     * javax.print.attribute.ResolutionSyntax.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.attribute.ResolutionSyntax#equals(java.lang.Object) public boolean
-     * javax.print.attribute.ResolutionSyntax.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -148,6 +81,73 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getResolution_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.attribute.ResolutionSyntax#hashCode() public int
+     * javax.print.attribute.ResolutionSyntax.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.print.attribute.ResolutionSyntax#lessThanOrEquals(javax.print.attribute.ResolutionSyntax) public
+     * boolean javax.print.attribute.ResolutionSyntax.lessThanOrEquals(javax.print.attribute.ResolutionSyntax)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lessThanOrEquals_ResolutionSyntax()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.attribute.ResolutionSyntax#toString() public java.lang.String
+     * javax.print.attribute.ResolutionSyntax.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.attribute.ResolutionSyntax#toString(int,java.lang.String) public
+     * java.lang.String javax.print.attribute.ResolutionSyntax.toString(int,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_int_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

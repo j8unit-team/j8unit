@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.awt.peer.TextComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.TextFieldPeer#setEchoChar(char) public abstract void
-     * java.awt.peer.TextFieldPeer.setEchoChar(char)}.
+     * Test method for {@link java.awt.peer.TextFieldPeer#getMinimumSize(int) public abstract java.awt.Dimension
+     * java.awt.peer.TextFieldPeer.getMinimumSize(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setEchoChar_char()
+    public default void test_getMinimumSize_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.java.awt.peer.TextComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.TextFieldPeer#getMinimumSize(int) public abstract java.awt.Dimension
-     * java.awt.peer.TextFieldPeer.getMinimumSize(int)}.
+     * Test method for {@link java.awt.peer.TextFieldPeer#setEchoChar(char) public abstract void
+     * java.awt.peer.TextFieldPeer.setEchoChar(char)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMinimumSize_int()
+    public default void test_setEchoChar_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

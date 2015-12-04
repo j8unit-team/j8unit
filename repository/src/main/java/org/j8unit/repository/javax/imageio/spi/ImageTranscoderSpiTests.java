@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageTranscoderSpi#getReaderServiceProviderName() public abstract
-     * java.lang.String javax.imageio.spi.ImageTranscoderSpi.getReaderServiceProviderName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReaderServiceProviderName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.imageio.spi.ImageTranscoderSpi#createTranscoderInstance() public abstract
      * javax.imageio.ImageTranscoder javax.imageio.spi.ImageTranscoderSpi.createTranscoderInstance()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createTranscoderInstance()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.spi.ImageTranscoderSpi#getReaderServiceProviderName() public abstract
+     * java.lang.String javax.imageio.spi.ImageTranscoderSpi.getReaderServiceProviderName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getReaderServiceProviderName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

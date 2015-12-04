@@ -36,17 +36,31 @@ public abstract interface DataBufferFloatClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.awt.image.DataBufferClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.image.DataBufferFloat#DataBufferFloat(float[][],int,int[]) public
-     * java.awt.image.DataBufferFloat(float[][],int,int[])}.
+     * Test method for {@link java.awt.image.DataBufferFloat#DataBufferFloat(float[],int) public
+     * java.awt.image.DataBufferFloat(float[],int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DataBufferFloat_floatArrayArray_int_intArray()
+    public default void create_DataBufferFloat_floatArray_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.image.DataBufferFloat sut = null; // = new DataBufferFloat(float[][],int,int[]);
+        final java.awt.image.DataBufferFloat sut = null; // = new DataBufferFloat(float[],int);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.DataBufferFloat#DataBufferFloat(float[],int,int) public
+     * java.awt.image.DataBufferFloat(float[],int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DataBufferFloat_floatArray_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.DataBufferFloat sut = null; // = new DataBufferFloat(float[],int,int);
     }
 
     /**
@@ -64,17 +78,17 @@ extends org.j8unit.repository.java.awt.image.DataBufferClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.image.DataBufferFloat#DataBufferFloat(float[],int,int) public
-     * java.awt.image.DataBufferFloat(float[],int,int)}.
+     * Test method for {@link java.awt.image.DataBufferFloat#DataBufferFloat(float[][],int,int[]) public
+     * java.awt.image.DataBufferFloat(float[][],int,int[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DataBufferFloat_floatArray_int_int()
+    public default void create_DataBufferFloat_floatArrayArray_int_intArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.image.DataBufferFloat sut = null; // = new DataBufferFloat(float[],int,int);
+        final java.awt.image.DataBufferFloat sut = null; // = new DataBufferFloat(float[][],int,int[]);
     }
 
     /**
@@ -103,20 +117,6 @@ extends org.j8unit.repository.java.awt.image.DataBufferClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.image.DataBufferFloat sut = null; // = new DataBufferFloat(int,int);
-    }
-
-    /**
-     * Test method for {@link java.awt.image.DataBufferFloat#DataBufferFloat(float[],int) public
-     * java.awt.image.DataBufferFloat(float[],int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DataBufferFloat_floatArray_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.DataBufferFloat sut = null; // = new DataBufferFloat(float[],int);
     }
 
     @Override

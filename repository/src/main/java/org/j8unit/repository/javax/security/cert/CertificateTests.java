@@ -23,15 +23,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.cert.Certificate#toString() public abstract java.lang.String
-     * javax.security.cert.Certificate.toString()}.
+     * Test method for {@link javax.security.cert.Certificate#equals(java.lang.Object) public boolean
+     * javax.security.cert.Certificate.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.cert.Certificate#getEncoded() public abstract byte[]
+     * javax.security.cert.Certificate.getEncoded() throws javax.security.cert.CertificateEncodingException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEncoded()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,16 +72,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.cert.Certificate#verify(java.security.PublicKey,java.lang.String) public
-     * abstract void javax.security.cert.Certificate.verify(java.security.PublicKey,java.lang.String) throws
-     * javax.security.cert.CertificateException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException,java.security.NoSuchProviderException,java.security.SignatureException}
-     * .
+     * Test method for {@link javax.security.cert.Certificate#hashCode() public int
+     * javax.security.cert.Certificate.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_verify_PublicKey_String()
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.cert.Certificate#toString() public abstract java.lang.String
+     * javax.security.cert.Certificate.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,48 +124,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.cert.Certificate#hashCode() public int
-     * javax.security.cert.Certificate.hashCode()}.
+     * Test method for {@link javax.security.cert.Certificate#verify(java.security.PublicKey,java.lang.String) public
+     * abstract void javax.security.cert.Certificate.verify(java.security.PublicKey,java.lang.String) throws
+     * javax.security.cert.CertificateException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException,java.security.NoSuchProviderException,java.security.SignatureException}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.cert.Certificate#getEncoded() public abstract byte[]
-     * javax.security.cert.Certificate.getEncoded() throws javax.security.cert.CertificateEncodingException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEncoded()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.cert.Certificate#equals(java.lang.Object) public boolean
-     * javax.security.cert.Certificate.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_verify_PublicKey_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

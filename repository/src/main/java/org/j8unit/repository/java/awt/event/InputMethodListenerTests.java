@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InputMethodListener#inputMethodTextChanged(java.awt.event.InputMethodEvent)
-     * public abstract void java.awt.event.InputMethodListener.inputMethodTextChanged(java.awt.event.InputMethodEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_inputMethodTextChanged_InputMethodEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.event.InputMethodListener#caretPositionChanged(java.awt.event.InputMethodEvent)
      * public abstract void java.awt.event.InputMethodListener.caretPositionChanged(java.awt.event.InputMethodEvent)}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_caretPositionChanged_InputMethodEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.InputMethodListener#inputMethodTextChanged(java.awt.event.InputMethodEvent)
+     * public abstract void java.awt.event.InputMethodListener.inputMethodTextChanged(java.awt.event.InputMethodEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_inputMethodTextChanged_InputMethodEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

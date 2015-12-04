@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.xml.stream.events.AttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.events.Namespace#getPrefix() public abstract java.lang.String
-     * javax.xml.stream.events.Namespace.getPrefix()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrefix()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.stream.events.Namespace#getNamespaceURI() public abstract java.lang.String
      * javax.xml.stream.events.Namespace.getNamespaceURI()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.javax.xml.stream.events.AttributeTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getNamespaceURI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.events.Namespace#getPrefix() public abstract java.lang.String
+     * javax.xml.stream.events.Namespace.getPrefix()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrefix()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

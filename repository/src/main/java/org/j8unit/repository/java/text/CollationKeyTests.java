@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.text.Collation
 
     /**
      * <p>
+     * Test method for {@link java.text.CollationKey#compareTo(java.text.CollationKey) public abstract int
+     * java.text.CollationKey.compareTo(java.text.CollationKey)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compareTo_CollationKey()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.text.CollationKey#getSourceString() public java.lang.String
      * java.text.CollationKey.getSourceString()}.
      * </p>
@@ -47,22 +63,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.text.Collation
     @Test
     @Category(Draft.class)
     public default void test_toByteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.CollationKey#compareTo(java.text.CollationKey) public abstract int
-     * java.text.CollationKey.compareTo(java.text.CollationKey)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compareTo_CollationKey()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

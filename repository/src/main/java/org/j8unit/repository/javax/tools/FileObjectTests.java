@@ -24,14 +24,29 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.tools.FileObject#getName() public abstract java.lang.String
-     * javax.tools.FileObject.getName()}.
+     * Test method for {@link javax.tools.FileObject#delete() public abstract boolean javax.tools.FileObject.delete()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName()
+    public default void test_delete()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.FileObject#getCharContent(boolean) public abstract java.lang.CharSequence
+     * javax.tools.FileObject.getCharContent(boolean) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCharContent_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,14 +71,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.tools.FileObject#toUri() public abstract java.net.URI
-     * javax.tools.FileObject.toUri()}.
+     * Test method for {@link javax.tools.FileObject#getName() public abstract java.lang.String
+     * javax.tools.FileObject.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toUri()
+    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +87,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.tools.FileObject#openWriter() public abstract java.io.Writer
-     * javax.tools.FileObject.openWriter() throws java.io.IOException}.
+     * Test method for {@link javax.tools.FileObject#openInputStream() public abstract java.io.InputStream
+     * javax.tools.FileObject.openInputStream() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_openWriter()
+    public default void test_openInputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,14 +135,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.tools.FileObject#getCharContent(boolean) public abstract java.lang.CharSequence
-     * javax.tools.FileObject.getCharContent(boolean) throws java.io.IOException}.
+     * Test method for {@link javax.tools.FileObject#openWriter() public abstract java.io.Writer
+     * javax.tools.FileObject.openWriter() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCharContent_boolean()
+    public default void test_openWriter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -136,29 +151,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.tools.FileObject#delete() public abstract boolean javax.tools.FileObject.delete()}.
+     * Test method for {@link javax.tools.FileObject#toUri() public abstract java.net.URI
+     * javax.tools.FileObject.toUri()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_delete()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.FileObject#openInputStream() public abstract java.io.InputStream
-     * javax.tools.FileObject.openInputStream() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_openInputStream()
+    public default void test_toUri()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

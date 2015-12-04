@@ -36,16 +36,6 @@ extends org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<SUT>
 org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.ZoneOffset>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.time.ZoneIdClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.ZoneOffset> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.ZoneOffset.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.time.ZoneOffset#from(java.time.temporal.TemporalAccessor) public static
@@ -57,38 +47,6 @@ org.j8unit.repository.java.time.ZoneIdClassTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_from_TemporalAccessor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.ZoneOffset#ofTotalSeconds(int) public static java.time.ZoneOffset
-     * java.time.ZoneOffset.ofTotalSeconds(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ofTotalSeconds_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.ZoneOffset#ofHoursMinutesSeconds(int,int,int) public static java.time.ZoneOffset
-     * java.time.ZoneOffset.ofHoursMinutesSeconds(int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ofHoursMinutesSeconds_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -114,6 +72,22 @@ org.j8unit.repository.java.time.ZoneIdClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.time.ZoneOffset#ofHours(int) public static java.time.ZoneOffset
+     * java.time.ZoneOffset.ofHours(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ofHours_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.time.ZoneOffset#ofHoursMinutes(int,int) public static java.time.ZoneOffset
      * java.time.ZoneOffset.ofHoursMinutes(int,int)}.
      * </p>
@@ -130,18 +104,44 @@ org.j8unit.repository.java.time.ZoneIdClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.ZoneOffset#ofHours(int) public static java.time.ZoneOffset
-     * java.time.ZoneOffset.ofHours(int)}.
+     * Test method for {@link java.time.ZoneOffset#ofHoursMinutesSeconds(int,int,int) public static java.time.ZoneOffset
+     * java.time.ZoneOffset.ofHoursMinutesSeconds(int,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ofHours_int()
+    public default void test_ofHoursMinutesSeconds_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.ZoneOffset#ofTotalSeconds(int) public static java.time.ZoneOffset
+     * java.time.ZoneOffset.ofTotalSeconds(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ofTotalSeconds_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.ZoneOffset> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.ZoneOffset.class.isAssignableFrom(sut));
     }
 
 }

@@ -24,22 +24,6 @@ extends org.j8unit.repository.javax.management.MBeanServerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.MBeanServerForwarder#setMBeanServer(javax.management.MBeanServer)
-     * public abstract void javax.management.remote.MBeanServerForwarder.setMBeanServer(javax.management.MBeanServer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMBeanServer_MBeanServer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.remote.MBeanServerForwarder#getMBeanServer() public abstract
      * javax.management.MBeanServer javax.management.remote.MBeanServerForwarder.getMBeanServer()}.
      * </p>
@@ -48,6 +32,22 @@ extends org.j8unit.repository.javax.management.MBeanServerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMBeanServer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.MBeanServerForwarder#setMBeanServer(javax.management.MBeanServer)
+     * public abstract void javax.management.remote.MBeanServerForwarder.setMBeanServer(javax.management.MBeanServer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMBeanServer_MBeanServer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

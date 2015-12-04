@@ -40,22 +40,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.MenuContainer#remove(java.awt.MenuComponent) public abstract void
-     * java.awt.MenuContainer.remove(java.awt.MenuComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_MenuComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.MenuContainer#postEvent(java.awt.Event) public abstract boolean
      * java.awt.MenuContainer.postEvent(java.awt.Event)}.
      * </p>
@@ -64,6 +48,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_postEvent_Event()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.MenuContainer#remove(java.awt.MenuComponent) public abstract void
+     * java.awt.MenuContainer.remove(java.awt.MenuComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_MenuComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

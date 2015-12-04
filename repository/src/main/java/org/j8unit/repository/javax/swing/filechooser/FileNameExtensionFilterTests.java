@@ -41,22 +41,6 @@ extends org.j8unit.repository.javax.swing.filechooser.FileFilterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.filechooser.FileNameExtensionFilter#getExtensions() public java.lang.String[]
-     * javax.swing.filechooser.FileNameExtensionFilter.getExtensions()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getExtensions()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.filechooser.FileNameExtensionFilter#getDescription() public java.lang.String
      * javax.swing.filechooser.FileNameExtensionFilter.getDescription()}.
      * </p>
@@ -66,6 +50,22 @@ extends org.j8unit.repository.javax.swing.filechooser.FileFilterTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getDescription()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.filechooser.FileNameExtensionFilter#getExtensions() public java.lang.String[]
+     * javax.swing.filechooser.FileNameExtensionFilter.getExtensions()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getExtensions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

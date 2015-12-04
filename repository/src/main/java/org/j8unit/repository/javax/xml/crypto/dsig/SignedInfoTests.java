@@ -23,6 +23,22 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.crypto.dsig.SignedInfo#getCanonicalizationMethod() public abstract
+     * javax.xml.crypto.dsig.CanonicalizationMethod javax.xml.crypto.dsig.SignedInfo.getCanonicalizationMethod()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCanonicalizationMethod()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.crypto.dsig.SignedInfo#getCanonicalizedData() public abstract
      * java.io.InputStream javax.xml.crypto.dsig.SignedInfo.getCanonicalizedData()}.
      * </p>
@@ -39,14 +55,14 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dsig.SignedInfo#getSignatureMethod() public abstract
-     * javax.xml.crypto.dsig.SignatureMethod javax.xml.crypto.dsig.SignedInfo.getSignatureMethod()}.
+     * Test method for {@link javax.xml.crypto.dsig.SignedInfo#getId() public abstract java.lang.String
+     * javax.xml.crypto.dsig.SignedInfo.getId()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSignatureMethod()
+    public default void test_getId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,30 +87,14 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dsig.SignedInfo#getCanonicalizationMethod() public abstract
-     * javax.xml.crypto.dsig.CanonicalizationMethod javax.xml.crypto.dsig.SignedInfo.getCanonicalizationMethod()}.
+     * Test method for {@link javax.xml.crypto.dsig.SignedInfo#getSignatureMethod() public abstract
+     * javax.xml.crypto.dsig.SignatureMethod javax.xml.crypto.dsig.SignedInfo.getSignatureMethod()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCanonicalizationMethod()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.dsig.SignedInfo#getId() public abstract java.lang.String
-     * javax.xml.crypto.dsig.SignedInfo.getId()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getId()
+    public default void test_getSignatureMethod()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

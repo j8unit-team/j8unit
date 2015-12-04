@@ -49,16 +49,6 @@ extends org.j8unit.repository.javax.net.SocketFactoryClassTests<SUT> {
         final javax.net.ssl.SSLSocketFactory sut = null; // = new SSLSocketFactory();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.net.ssl.SSLSocketFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.net.ssl.SSLSocketFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.net.ssl.SSLSocketFactory#getDefault() public static synchronized
@@ -74,6 +64,16 @@ extends org.j8unit.repository.javax.net.SocketFactoryClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.net.ssl.SSLSocketFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.net.ssl.SSLSocketFactory.class.isAssignableFrom(sut));
     }
 
 }

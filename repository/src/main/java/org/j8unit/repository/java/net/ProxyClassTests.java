@@ -35,30 +35,6 @@ public abstract interface ProxyClassTests<SUT extends Class<? extends java.net.P
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.net.Proxy#Proxy(java.net.Proxy.Type,java.net.SocketAddress) public
-     * java.net.Proxy(java.net.Proxy$Type,java.net.SocketAddress)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Proxy_Type_SocketAddress()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.Proxy sut = null; // = new Proxy(java.net.Proxy.Type,java.net.SocketAddress);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.net.Proxy> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.net.Proxy.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link java.net.Proxy$Type class java.net.Proxy$Type}, containing all class relevant test methods
      * (at least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
@@ -86,16 +62,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Category(J8UnitRepository.class)
     public static abstract interface TypeClassTests<SUT extends Class<? extends java.net.Proxy.Type>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.net.Proxy.Type> {
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends java.net.Proxy.Type> sut = createNewSUT();
-            // assert assignability
-            assertTrue(java.net.Proxy.Type.class.isAssignableFrom(sut));
-        }
 
         /**
          * <p>
@@ -129,6 +95,40 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assert sut != null;
         }
 
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends java.net.Proxy.Type> sut = createNewSUT();
+            // assert assignability
+            assertTrue(java.net.Proxy.Type.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * Test method for {@link java.net.Proxy#Proxy(java.net.Proxy.Type,java.net.SocketAddress) public
+     * java.net.Proxy(java.net.Proxy$Type,java.net.SocketAddress)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Proxy_Type_SocketAddress()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.Proxy sut = null; // = new Proxy(java.net.Proxy.Type,java.net.SocketAddress);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.net.Proxy> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.Proxy.class.isAssignableFrom(sut));
     }
 
 }

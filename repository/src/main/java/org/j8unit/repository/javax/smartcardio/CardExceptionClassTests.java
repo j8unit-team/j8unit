@@ -50,20 +50,6 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.smartcardio.CardException#CardException(java.lang.Throwable) public
-     * javax.smartcardio.CardException(java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CardException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.smartcardio.CardException sut = null; // = new CardException(java.lang.Throwable);
-    }
-
-    /**
      * Test method for {@link javax.smartcardio.CardException#CardException(java.lang.String,java.lang.Throwable) public
      * javax.smartcardio.CardException(java.lang.String,java.lang.Throwable)}.
      */
@@ -75,6 +61,20 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.smartcardio.CardException sut = null; // = new CardException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link javax.smartcardio.CardException#CardException(java.lang.Throwable) public
+     * javax.smartcardio.CardException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CardException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.smartcardio.CardException sut = null; // = new CardException(java.lang.Throwable);
     }
 
     @Override

@@ -49,14 +49,39 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final javax.print.PrintServiceLookup sut = null; // = new PrintServiceLookup();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.print.PrintServiceLookup#lookupDefaultPrintService() public static final
+     * javax.print.PrintService javax.print.PrintServiceLookup.lookupDefaultPrintService()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_lookupDefaultPrintService()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.print.PrintServiceLookup> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.print.PrintServiceLookup.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.print.PrintServiceLookup#lookupMultiDocPrintServices(javax.print.DocFlavor[],javax.print.attribute.AttributeSet)
+     * public static final javax.print.MultiDocPrintService[]
+     * javax.print.PrintServiceLookup.lookupMultiDocPrintServices(javax.print.DocFlavor[],javax.print.attribute.AttributeSet)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lookupMultiDocPrintServices_DocFlavorArray_AttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -71,38 +96,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_lookupPrintServices_DocFlavor_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.PrintServiceLookup#registerServiceProvider(javax.print.PrintServiceLookup)
-     * public static boolean javax.print.PrintServiceLookup.registerServiceProvider(javax.print.PrintServiceLookup)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_registerServiceProvider_PrintServiceLookup()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.PrintServiceLookup#lookupDefaultPrintService() public static final
-     * javax.print.PrintService javax.print.PrintServiceLookup.lookupDefaultPrintService()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lookupDefaultPrintService()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,21 +120,28 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.print.PrintServiceLookup#lookupMultiDocPrintServices(javax.print.DocFlavor[],javax.print.attribute.AttributeSet)
-     * public static final javax.print.MultiDocPrintService[]
-     * javax.print.PrintServiceLookup.lookupMultiDocPrintServices(javax.print.DocFlavor[],javax.print.attribute.AttributeSet)}
-     * .
+     * Test method for {@link javax.print.PrintServiceLookup#registerServiceProvider(javax.print.PrintServiceLookup)
+     * public static boolean javax.print.PrintServiceLookup.registerServiceProvider(javax.print.PrintServiceLookup)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_lookupMultiDocPrintServices_DocFlavorArray_AttributeSet()
+    public default void test_registerServiceProvider_PrintServiceLookup()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.print.PrintServiceLookup> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.print.PrintServiceLookup.class.isAssignableFrom(sut));
     }
 
 }

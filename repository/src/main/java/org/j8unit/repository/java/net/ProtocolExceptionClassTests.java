@@ -36,6 +36,19 @@ public abstract interface ProtocolExceptionClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link java.net.ProtocolException#ProtocolException() public java.net.ProtocolException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ProtocolException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.ProtocolException sut = null; // = new ProtocolException();
+    }
+
+    /**
      * Test method for {@link java.net.ProtocolException#ProtocolException(java.lang.String) public
      * java.net.ProtocolException(java.lang.String)}.
      */
@@ -47,19 +60,6 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.net.ProtocolException sut = null; // = new ProtocolException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.net.ProtocolException#ProtocolException() public java.net.ProtocolException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ProtocolException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.ProtocolException sut = null; // = new ProtocolException();
     }
 
     @Override

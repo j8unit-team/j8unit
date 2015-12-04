@@ -23,15 +23,30 @@ extends org.j8unit.repository.javax.swing.InputMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ComponentInputMap#remove(javax.swing.KeyStroke) public void
-     * javax.swing.ComponentInputMap.remove(javax.swing.KeyStroke)}.
+     * Test method for {@link javax.swing.ComponentInputMap#clear() public void javax.swing.ComponentInputMap.clear()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_remove_KeyStroke()
+    public default void test_clear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ComponentInputMap#getComponent() public javax.swing.JComponent
+     * javax.swing.ComponentInputMap.getComponent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,6 +72,23 @@ extends org.j8unit.repository.javax.swing.InputMapTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.ComponentInputMap#remove(javax.swing.KeyStroke) public void
+     * javax.swing.ComponentInputMap.remove(javax.swing.KeyStroke)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_remove_KeyStroke()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.ComponentInputMap#setParent(javax.swing.InputMap) public void
      * javax.swing.ComponentInputMap.setParent(javax.swing.InputMap)}.
      * </p>
@@ -66,38 +98,6 @@ extends org.j8unit.repository.javax.swing.InputMapTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_setParent_InputMap()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ComponentInputMap#getComponent() public javax.swing.JComponent
-     * javax.swing.ComponentInputMap.getComponent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ComponentInputMap#clear() public void javax.swing.ComponentInputMap.clear()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_clear()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

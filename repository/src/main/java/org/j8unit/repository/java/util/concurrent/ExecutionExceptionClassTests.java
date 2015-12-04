@@ -36,20 +36,6 @@ public abstract interface ExecutionExceptionClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.concurrent.ExecutionException#ExecutionException(java.lang.Throwable) public
-     * java.util.concurrent.ExecutionException(java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ExecutionException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.ExecutionException sut = null; // = new ExecutionException(java.lang.Throwable);
-    }
-
-    /**
      * Test method for
      * {@link java.util.concurrent.ExecutionException#ExecutionException(java.lang.String,java.lang.Throwable) public
      * java.util.concurrent.ExecutionException(java.lang.String,java.lang.Throwable)}.
@@ -63,6 +49,20 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.util.concurrent.ExecutionException sut = null; // = new
                                                                   // ExecutionException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link java.util.concurrent.ExecutionException#ExecutionException(java.lang.Throwable) public
+     * java.util.concurrent.ExecutionException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ExecutionException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.ExecutionException sut = null; // = new ExecutionException(java.lang.Throwable);
     }
 
     @Override

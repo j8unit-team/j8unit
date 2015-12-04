@@ -36,17 +36,16 @@ public abstract interface RemoteExceptionClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.rmi.RemoteException#RemoteException(java.lang.String,java.lang.Throwable) public
-     * java.rmi.RemoteException(java.lang.String,java.lang.Throwable)}.
+     * Test method for {@link java.rmi.RemoteException#RemoteException() public java.rmi.RemoteException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RemoteException_String_Throwable()
+    public default void create_RemoteException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.rmi.RemoteException sut = null; // = new RemoteException(java.lang.String,java.lang.Throwable);
+        final java.rmi.RemoteException sut = null; // = new RemoteException();
     }
 
     /**
@@ -64,16 +63,17 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.rmi.RemoteException#RemoteException() public java.rmi.RemoteException()}.
+     * Test method for {@link java.rmi.RemoteException#RemoteException(java.lang.String,java.lang.Throwable) public
+     * java.rmi.RemoteException(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RemoteException()
+    public default void create_RemoteException_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.rmi.RemoteException sut = null; // = new RemoteException();
+        final java.rmi.RemoteException sut = null; // = new RemoteException(java.lang.String,java.lang.Throwable);
     }
 
     @Override

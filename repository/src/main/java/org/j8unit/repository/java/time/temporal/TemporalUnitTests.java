@@ -24,14 +24,31 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.TemporalUnit#isTimeBased() public abstract boolean
-     * java.time.temporal.TemporalUnit.isTimeBased()}.
+     * Test method for {@link java.time.temporal.TemporalUnit#addTo(java.time.temporal.Temporal,long) public abstract
+     * java.time.temporal.Temporal java.time.temporal.TemporalUnit.addTo(java.time.temporal.Temporal,long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isTimeBased()
+    public default void test_addTo_Temporal_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.time.temporal.TemporalUnit#between(java.time.temporal.Temporal,java.time.temporal.Temporal) public
+     * abstract long java.time.temporal.TemporalUnit.between(java.time.temporal.Temporal,java.time.temporal.Temporal)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_between_Temporal_Temporal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -48,6 +65,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDuration()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.TemporalUnit#isDateBased() public abstract boolean
+     * java.time.temporal.TemporalUnit.isDateBased()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isDateBased()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,31 +121,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.time.temporal.TemporalUnit#between(java.time.temporal.Temporal,java.time.temporal.Temporal) public
-     * abstract long java.time.temporal.TemporalUnit.between(java.time.temporal.Temporal,java.time.temporal.Temporal)}.
+     * Test method for {@link java.time.temporal.TemporalUnit#isTimeBased() public abstract boolean
+     * java.time.temporal.TemporalUnit.isTimeBased()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_between_Temporal_Temporal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.TemporalUnit#isDateBased() public abstract boolean
-     * java.time.temporal.TemporalUnit.isDateBased()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isDateBased()
+    public default void test_isTimeBased()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -129,22 +145,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.TemporalUnit#addTo(java.time.temporal.Temporal,long) public abstract
-     * java.time.temporal.Temporal java.time.temporal.TemporalUnit.addTo(java.time.temporal.Temporal,long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addTo_Temporal_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

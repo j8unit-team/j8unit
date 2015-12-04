@@ -24,6 +24,23 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
 
     /**
      * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#getAddress() public
+     * javax.management.remote.JMXServiceURL javax.management.remote.rmi.RMIConnectorServer.getAddress()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#getAttributes() public java.util.Map
      * javax.management.remote.rmi.RMIConnectorServer.getAttributes()}.
      * </p>
@@ -33,6 +50,23 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
     @Category(Draft.class)
     @Override
     public default void test_getAttributes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#isActive() public synchronized boolean
+     * javax.management.remote.rmi.RMIConnectorServer.isActive()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isActive()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -61,23 +95,6 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#stop() public void
-     * javax.management.remote.rmi.RMIConnectorServer.stop() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_stop()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#start() public synchronized void
      * javax.management.remote.rmi.RMIConnectorServer.start() throws java.io.IOException}.
      * </p>
@@ -95,32 +112,15 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerTests<SU
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#getAddress() public
-     * javax.management.remote.JMXServiceURL javax.management.remote.rmi.RMIConnectorServer.getAddress()}.
+     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#stop() public void
+     * javax.management.remote.rmi.RMIConnectorServer.stop() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnectorServer#isActive() public synchronized boolean
-     * javax.management.remote.rmi.RMIConnectorServer.isActive()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isActive()
+    public default void test_stop()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

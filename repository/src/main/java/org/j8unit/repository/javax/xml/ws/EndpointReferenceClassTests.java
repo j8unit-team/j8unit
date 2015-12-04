@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface EndpointReferenceClassTests<SUT extends Class<? extends javax.xml.ws.EndpointReference>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.ws.EndpointReference> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.ws.EndpointReference.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.xml.ws.EndpointReference#readFrom(javax.xml.transform.Source) public static
@@ -59,6 +49,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.ws.EndpointReference> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.ws.EndpointReference.class.isAssignableFrom(sut));
     }
 
 }

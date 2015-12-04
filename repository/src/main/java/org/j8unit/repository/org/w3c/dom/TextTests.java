@@ -23,22 +23,6 @@ extends org.j8unit.repository.org.w3c.dom.CharacterDataTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Text#replaceWholeText(java.lang.String) public abstract org.w3c.dom.Text
-     * org.w3c.dom.Text.replaceWholeText(java.lang.String) throws org.w3c.dom.DOMException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replaceWholeText_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.Text#getWholeText() public abstract java.lang.String
      * org.w3c.dom.Text.getWholeText()}.
      * </p>
@@ -63,6 +47,22 @@ extends org.j8unit.repository.org.w3c.dom.CharacterDataTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isElementContentWhitespace()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.Text#replaceWholeText(java.lang.String) public abstract org.w3c.dom.Text
+     * org.w3c.dom.Text.replaceWholeText(java.lang.String) throws org.w3c.dom.DOMException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replaceWholeText_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

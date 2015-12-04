@@ -24,48 +24,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXCertPathChecker#init(boolean) public abstract void
-     * java.security.cert.PKIXCertPathChecker.init(boolean) throws java.security.cert.CertPathValidatorException}.
+     * Test method for {@link java.security.cert.PKIXCertPathChecker#check(java.security.cert.Certificate) public void
+     * java.security.cert.PKIXCertPathChecker.check(java.security.cert.Certificate) throws
+     * java.security.cert.CertPathValidatorException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_init_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.PKIXCertPathChecker#isForwardCheckingSupported() public abstract
-     * boolean java.security.cert.PKIXCertPathChecker.isForwardCheckingSupported()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isForwardCheckingSupported()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.PKIXCertPathChecker#clone() public java.lang.Object
-     * java.security.cert.PKIXCertPathChecker.clone()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clone()
+    public default void test_check_Certificate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,16 +60,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXCertPathChecker#check(java.security.cert.Certificate) public void
-     * java.security.cert.PKIXCertPathChecker.check(java.security.cert.Certificate) throws
-     * java.security.cert.CertPathValidatorException}.
+     * Test method for {@link java.security.cert.PKIXCertPathChecker#clone() public java.lang.Object
+     * java.security.cert.PKIXCertPathChecker.clone()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_check_Certificate()
+    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -118,6 +84,40 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getSupportedExtensions()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.PKIXCertPathChecker#init(boolean) public abstract void
+     * java.security.cert.PKIXCertPathChecker.init(boolean) throws java.security.cert.CertPathValidatorException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_init_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.PKIXCertPathChecker#isForwardCheckingSupported() public abstract
+     * boolean java.security.cert.PKIXCertPathChecker.isForwardCheckingSupported()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isForwardCheckingSupported()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

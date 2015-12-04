@@ -23,14 +23,14 @@ extends org.j8unit.repository.org.xml.sax.SAXExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.SAXParseException#getSystemId() public java.lang.String
-     * org.xml.sax.SAXParseException.getSystemId()}.
+     * Test method for {@link org.xml.sax.SAXParseException#getColumnNumber() public int
+     * org.xml.sax.SAXParseException.getColumnNumber()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSystemId()
+    public default void test_getColumnNumber()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,6 +55,38 @@ extends org.j8unit.repository.org.xml.sax.SAXExceptionTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.xml.sax.SAXParseException#getPublicId() public java.lang.String
+     * org.xml.sax.SAXParseException.getPublicId()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPublicId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.SAXParseException#getSystemId() public java.lang.String
+     * org.xml.sax.SAXParseException.getSystemId()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSystemId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.xml.sax.SAXParseException#toString() public java.lang.String
      * org.xml.sax.SAXParseException.toString()}.
      * </p>
@@ -64,38 +96,6 @@ extends org.j8unit.repository.org.xml.sax.SAXExceptionTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.SAXParseException#getColumnNumber() public int
-     * org.xml.sax.SAXParseException.getColumnNumber()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getColumnNumber()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.SAXParseException#getPublicId() public java.lang.String
-     * org.xml.sax.SAXParseException.getPublicId()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPublicId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

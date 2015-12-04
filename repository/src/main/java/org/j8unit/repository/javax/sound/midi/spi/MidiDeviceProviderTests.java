@@ -23,15 +23,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.sound.midi.spi.MidiDeviceProvider#isDeviceSupported(javax.sound.midi.MidiDevice.Info) public boolean
-     * javax.sound.midi.spi.MidiDeviceProvider.isDeviceSupported(javax.sound.midi.MidiDevice$Info)}.
+     * Test method for {@link javax.sound.midi.spi.MidiDeviceProvider#getDevice(javax.sound.midi.MidiDevice.Info) public
+     * abstract javax.sound.midi.MidiDevice
+     * javax.sound.midi.spi.MidiDeviceProvider.getDevice(javax.sound.midi.MidiDevice$Info)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDeviceSupported_Info()
+    public default void test_getDevice_Info()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,15 +56,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiDeviceProvider#getDevice(javax.sound.midi.MidiDevice.Info) public
-     * abstract javax.sound.midi.MidiDevice
-     * javax.sound.midi.spi.MidiDeviceProvider.getDevice(javax.sound.midi.MidiDevice$Info)}.
+     * Test method for
+     * {@link javax.sound.midi.spi.MidiDeviceProvider#isDeviceSupported(javax.sound.midi.MidiDevice.Info) public boolean
+     * javax.sound.midi.spi.MidiDeviceProvider.isDeviceSupported(javax.sound.midi.MidiDevice$Info)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDevice_Info()
+    public default void test_isDeviceSupported_Info()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

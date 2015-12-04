@@ -36,6 +36,20 @@ public abstract interface ExceptionInInitializerErrorClassTests<SUT extends Clas
 extends org.j8unit.repository.java.lang.LinkageErrorClassTests<SUT> {
 
     /**
+     * Test method for {@link java.lang.ExceptionInInitializerError#ExceptionInInitializerError() public
+     * java.lang.ExceptionInInitializerError()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ExceptionInInitializerError()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.ExceptionInInitializerError sut = null; // = new ExceptionInInitializerError();
+    }
+
+    /**
      * Test method for {@link java.lang.ExceptionInInitializerError#ExceptionInInitializerError(java.lang.String) public
      * java.lang.ExceptionInInitializerError(java.lang.String)}.
      */
@@ -62,20 +76,6 @@ extends org.j8unit.repository.java.lang.LinkageErrorClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.lang.ExceptionInInitializerError sut = null; // = new
                                                                 // ExceptionInInitializerError(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link java.lang.ExceptionInInitializerError#ExceptionInInitializerError() public
-     * java.lang.ExceptionInInitializerError()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ExceptionInInitializerError()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.ExceptionInInitializerError sut = null; // = new ExceptionInInitializerError();
     }
 
     @Override

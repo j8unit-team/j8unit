@@ -23,150 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLParameters#setWantClientAuth(boolean) public void
-     * javax.net.ssl.SSLParameters.setWantClientAuth(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setWantClientAuth_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLParameters#setSNIMatchers(java.util.Collection) public final void
-     * javax.net.ssl.SSLParameters.setSNIMatchers(java.util.Collection)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSNIMatchers_Collection()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLParameters#setCipherSuites(java.lang.String[]) public void
-     * javax.net.ssl.SSLParameters.setCipherSuites(java.lang.String[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCipherSuites_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLParameters#setServerNames(java.util.List) public final void
-     * javax.net.ssl.SSLParameters.setServerNames(java.util.List)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setServerNames_List()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLParameters#setUseCipherSuitesOrder(boolean) public final void
-     * javax.net.ssl.SSLParameters.setUseCipherSuitesOrder(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setUseCipherSuitesOrder_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLParameters#getUseCipherSuitesOrder() public final boolean
-     * javax.net.ssl.SSLParameters.getUseCipherSuitesOrder()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUseCipherSuitesOrder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLParameters#setEndpointIdentificationAlgorithm(java.lang.String) public
-     * void javax.net.ssl.SSLParameters.setEndpointIdentificationAlgorithm(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setEndpointIdentificationAlgorithm_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLParameters#getServerNames() public final java.util.List
-     * javax.net.ssl.SSLParameters.getServerNames()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getServerNames()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLParameters#setAlgorithmConstraints(java.security.AlgorithmConstraints)
-     * public void javax.net.ssl.SSLParameters.setAlgorithmConstraints(java.security.AlgorithmConstraints)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAlgorithmConstraints_AlgorithmConstraints()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.net.ssl.SSLParameters#getAlgorithmConstraints() public
      * java.security.AlgorithmConstraints javax.net.ssl.SSLParameters.getAlgorithmConstraints()}.
      * </p>
@@ -175,70 +31,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAlgorithmConstraints()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLParameters#getWantClientAuth() public boolean
-     * javax.net.ssl.SSLParameters.getWantClientAuth()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWantClientAuth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLParameters#getEndpointIdentificationAlgorithm() public java.lang.String
-     * javax.net.ssl.SSLParameters.getEndpointIdentificationAlgorithm()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEndpointIdentificationAlgorithm()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLParameters#setProtocols(java.lang.String[]) public void
-     * javax.net.ssl.SSLParameters.setProtocols(java.lang.String[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setProtocols_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLParameters#getProtocols() public java.lang.String[]
-     * javax.net.ssl.SSLParameters.getProtocols()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProtocols()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -263,6 +55,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.net.ssl.SSLParameters#getEndpointIdentificationAlgorithm() public java.lang.String
+     * javax.net.ssl.SSLParameters.getEndpointIdentificationAlgorithm()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEndpointIdentificationAlgorithm()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.net.ssl.SSLParameters#getNeedClientAuth() public boolean
      * javax.net.ssl.SSLParameters.getNeedClientAuth()}.
      * </p>
@@ -271,6 +79,134 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getNeedClientAuth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.SSLParameters#getProtocols() public java.lang.String[]
+     * javax.net.ssl.SSLParameters.getProtocols()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProtocols()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.SSLParameters#getServerNames() public final java.util.List
+     * javax.net.ssl.SSLParameters.getServerNames()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getServerNames()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.SSLParameters#getSNIMatchers() public final java.util.Collection
+     * javax.net.ssl.SSLParameters.getSNIMatchers()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSNIMatchers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.SSLParameters#getUseCipherSuitesOrder() public final boolean
+     * javax.net.ssl.SSLParameters.getUseCipherSuitesOrder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUseCipherSuitesOrder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.SSLParameters#getWantClientAuth() public boolean
+     * javax.net.ssl.SSLParameters.getWantClientAuth()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWantClientAuth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.SSLParameters#setAlgorithmConstraints(java.security.AlgorithmConstraints)
+     * public void javax.net.ssl.SSLParameters.setAlgorithmConstraints(java.security.AlgorithmConstraints)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAlgorithmConstraints_AlgorithmConstraints()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.SSLParameters#setCipherSuites(java.lang.String[]) public void
+     * javax.net.ssl.SSLParameters.setCipherSuites(java.lang.String[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCipherSuites_StringArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.SSLParameters#setEndpointIdentificationAlgorithm(java.lang.String) public
+     * void javax.net.ssl.SSLParameters.setEndpointIdentificationAlgorithm(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setEndpointIdentificationAlgorithm_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -295,14 +231,78 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLParameters#getSNIMatchers() public final java.util.Collection
-     * javax.net.ssl.SSLParameters.getSNIMatchers()}.
+     * Test method for {@link javax.net.ssl.SSLParameters#setProtocols(java.lang.String[]) public void
+     * javax.net.ssl.SSLParameters.setProtocols(java.lang.String[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSNIMatchers()
+    public default void test_setProtocols_StringArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.SSLParameters#setServerNames(java.util.List) public final void
+     * javax.net.ssl.SSLParameters.setServerNames(java.util.List)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setServerNames_List()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.SSLParameters#setSNIMatchers(java.util.Collection) public final void
+     * javax.net.ssl.SSLParameters.setSNIMatchers(java.util.Collection)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSNIMatchers_Collection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.SSLParameters#setUseCipherSuitesOrder(boolean) public final void
+     * javax.net.ssl.SSLParameters.setUseCipherSuitesOrder(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setUseCipherSuitesOrder_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.SSLParameters#setWantClientAuth(boolean) public void
+     * javax.net.ssl.SSLParameters.setWantClientAuth(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setWantClientAuth_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,6 +36,34 @@ public abstract interface InvalidActivityExceptionClassTests<SUT extends Class<?
 extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.activity.InvalidActivityException#InvalidActivityException() public
+     * javax.activity.InvalidActivityException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InvalidActivityException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.activity.InvalidActivityException sut = null; // = new InvalidActivityException();
+    }
+
+    /**
+     * Test method for {@link javax.activity.InvalidActivityException#InvalidActivityException(java.lang.String) public
+     * javax.activity.InvalidActivityException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InvalidActivityException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.activity.InvalidActivityException sut = null; // = new InvalidActivityException(java.lang.String);
+    }
+
+    /**
      * Test method for
      * {@link javax.activity.InvalidActivityException#InvalidActivityException(java.lang.String,java.lang.Throwable)
      * public javax.activity.InvalidActivityException(java.lang.String,java.lang.Throwable)}.
@@ -64,34 +92,6 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.activity.InvalidActivityException sut = null; // = new
                                                                   // InvalidActivityException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link javax.activity.InvalidActivityException#InvalidActivityException(java.lang.String) public
-     * javax.activity.InvalidActivityException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InvalidActivityException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.activity.InvalidActivityException sut = null; // = new InvalidActivityException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.activity.InvalidActivityException#InvalidActivityException() public
-     * javax.activity.InvalidActivityException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InvalidActivityException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.activity.InvalidActivityException sut = null; // = new InvalidActivityException();
     }
 
     @Override

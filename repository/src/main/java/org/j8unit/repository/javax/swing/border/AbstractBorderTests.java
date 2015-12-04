@@ -24,31 +24,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.AbstractBorder#getBorderInsets(java.awt.Component,java.awt.Insets)
-     * public java.awt.Insets javax.swing.border.AbstractBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+     * Test method for {@link javax.swing.border.AbstractBorder#getBaseline(java.awt.Component,int,int) public int
+     * javax.swing.border.AbstractBorder.getBaseline(java.awt.Component,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBorderInsets_Component_Insets()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.AbstractBorder#getBorderInsets(java.awt.Component) public
-     * java.awt.Insets javax.swing.border.AbstractBorder.getBorderInsets(java.awt.Component)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBorderInsets_Component()
+    public default void test_getBaseline_Component_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,16 +57,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.border.AbstractBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int) public
-     * void javax.swing.border.AbstractBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     * Test method for {@link javax.swing.border.AbstractBorder#getBorderInsets(java.awt.Component) public
+     * java.awt.Insets javax.swing.border.AbstractBorder.getBorderInsets(java.awt.Component)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_paintBorder_Component_Graphics_int_int_int_int()
+    public default void test_getBorderInsets_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,14 +74,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.AbstractBorder#getBaseline(java.awt.Component,int,int) public int
-     * javax.swing.border.AbstractBorder.getBaseline(java.awt.Component,int,int)}.
+     * Test method for {@link javax.swing.border.AbstractBorder#getBorderInsets(java.awt.Component,java.awt.Insets)
+     * public java.awt.Insets javax.swing.border.AbstractBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBaseline_Component_int_int()
+    public default void test_getBorderInsets_Component_Insets()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -134,6 +116,24 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_isBorderOpaque()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.border.AbstractBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int) public
+     * void javax.swing.border.AbstractBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paintBorder_Component_Graphics_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

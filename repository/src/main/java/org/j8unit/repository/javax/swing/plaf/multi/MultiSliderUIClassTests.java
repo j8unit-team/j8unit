@@ -49,16 +49,6 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
         final javax.swing.plaf.multi.MultiSliderUI sut = null; // = new MultiSliderUI();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.multi.MultiSliderUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.multi.MultiSliderUI.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.plaf.multi.MultiSliderUI#createUI(javax.swing.JComponent) public static
@@ -74,6 +64,16 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUIClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.multi.MultiSliderUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.multi.MultiSliderUI.class.isAssignableFrom(sut));
     }
 
 }

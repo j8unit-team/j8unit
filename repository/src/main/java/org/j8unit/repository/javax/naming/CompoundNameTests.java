@@ -23,90 +23,6 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link javax.naming.CompoundName#compareTo(java.lang.Object) public int
-     * javax.naming.CompoundName.compareTo(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_compareTo_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.CompoundName#isEmpty() public boolean javax.naming.CompoundName.isEmpty()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isEmpty()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.CompoundName#remove(int) public java.lang.Object
-     * javax.naming.CompoundName.remove(int) throws javax.naming.InvalidNameException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_remove_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.CompoundName#getPrefix(int) public javax.naming.Name
-     * javax.naming.CompoundName.getPrefix(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPrefix_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.CompoundName#getAll() public java.util.Enumeration
-     * javax.naming.CompoundName.getAll()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAll()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.naming.CompoundName#add(int,java.lang.String) public javax.naming.Name
      * javax.naming.CompoundName.add(int,java.lang.String) throws javax.naming.InvalidNameException}.
      * </p>
@@ -141,15 +57,32 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link javax.naming.CompoundName#toString() public java.lang.String
-     * javax.naming.CompoundName.toString()}.
+     * Test method for {@link javax.naming.CompoundName#addAll(int,javax.naming.Name) public javax.naming.Name
+     * javax.naming.CompoundName.addAll(int,javax.naming.Name) throws javax.naming.InvalidNameException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_addAll_int_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.CompoundName#addAll(javax.naming.Name) public javax.naming.Name
+     * javax.naming.CompoundName.addAll(javax.naming.Name) throws javax.naming.InvalidNameException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_addAll_Name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -175,6 +108,23 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
+     * Test method for {@link javax.naming.CompoundName#compareTo(java.lang.Object) public int
+     * javax.naming.CompoundName.compareTo(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_compareTo_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.naming.CompoundName#endsWith(javax.naming.Name) public boolean
      * javax.naming.CompoundName.endsWith(javax.naming.Name)}.
      * </p>
@@ -192,15 +142,66 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link javax.naming.CompoundName#startsWith(javax.naming.Name) public boolean
-     * javax.naming.CompoundName.startsWith(javax.naming.Name)}.
+     * Test method for {@link javax.naming.CompoundName#equals(java.lang.Object) public boolean
+     * javax.naming.CompoundName.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_startsWith_Name()
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.CompoundName#get(int) public java.lang.String
+     * javax.naming.CompoundName.get(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_get_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.CompoundName#getAll() public java.util.Enumeration
+     * javax.naming.CompoundName.getAll()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAll()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.CompoundName#getPrefix(int) public javax.naming.Name
+     * javax.naming.CompoundName.getPrefix(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPrefix_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -242,15 +243,14 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link javax.naming.CompoundName#get(int) public java.lang.String
-     * javax.naming.CompoundName.get(int)}.
+     * Test method for {@link javax.naming.CompoundName#isEmpty() public boolean javax.naming.CompoundName.isEmpty()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_get_int()
+    public default void test_isEmpty()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -259,15 +259,15 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link javax.naming.CompoundName#equals(java.lang.Object) public boolean
-     * javax.naming.CompoundName.equals(java.lang.Object)}.
+     * Test method for {@link javax.naming.CompoundName#remove(int) public java.lang.Object
+     * javax.naming.CompoundName.remove(int) throws javax.naming.InvalidNameException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_remove_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -292,15 +292,15 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link javax.naming.CompoundName#addAll(javax.naming.Name) public javax.naming.Name
-     * javax.naming.CompoundName.addAll(javax.naming.Name) throws javax.naming.InvalidNameException}.
+     * Test method for {@link javax.naming.CompoundName#startsWith(javax.naming.Name) public boolean
+     * javax.naming.CompoundName.startsWith(javax.naming.Name)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_addAll_Name()
+    public default void test_startsWith_Name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -309,15 +309,15 @@ extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link javax.naming.CompoundName#addAll(int,javax.naming.Name) public javax.naming.Name
-     * javax.naming.CompoundName.addAll(int,javax.naming.Name) throws javax.naming.InvalidNameException}.
+     * Test method for {@link javax.naming.CompoundName#toString() public java.lang.String
+     * javax.naming.CompoundName.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_addAll_int_Name()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

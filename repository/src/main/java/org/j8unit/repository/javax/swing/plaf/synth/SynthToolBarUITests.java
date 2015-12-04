@@ -24,6 +24,40 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthToolBarUI#getContext(javax.swing.JComponent) public
+     * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthToolBarUI.getContext(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getContext_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthToolBarUI#paint(java.awt.Graphics,javax.swing.JComponent)
+     * public void javax.swing.plaf.synth.SynthToolBarUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paint_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link javax.swing.plaf.synth.SynthToolBarUI#paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)
      * public void
@@ -70,40 +104,6 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_update_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthToolBarUI#paint(java.awt.Graphics,javax.swing.JComponent)
-     * public void javax.swing.plaf.synth.SynthToolBarUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paint_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthToolBarUI#getContext(javax.swing.JComponent) public
-     * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthToolBarUI.getContext(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getContext_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

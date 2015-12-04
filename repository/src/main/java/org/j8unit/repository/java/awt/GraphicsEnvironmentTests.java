@@ -23,54 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.GraphicsEnvironment#getAllFonts() public abstract java.awt.Font[]
-     * java.awt.GraphicsEnvironment.getAllFonts()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAllFonts()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.GraphicsEnvironment#getCenterPoint() public java.awt.Point
-     * java.awt.GraphicsEnvironment.getCenterPoint() throws java.awt.HeadlessException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCenterPoint()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.GraphicsEnvironment#registerFont(java.awt.Font) public boolean
-     * java.awt.GraphicsEnvironment.registerFont(java.awt.Font)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_registerFont_Font()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.GraphicsEnvironment#createGraphics(java.awt.image.BufferedImage) public abstract
      * java.awt.Graphics2D java.awt.GraphicsEnvironment.createGraphics(java.awt.image.BufferedImage)}.
      * </p>
@@ -87,14 +39,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.GraphicsEnvironment#preferLocaleFonts() public void
-     * java.awt.GraphicsEnvironment.preferLocaleFonts()}.
+     * Test method for {@link java.awt.GraphicsEnvironment#getAllFonts() public abstract java.awt.Font[]
+     * java.awt.GraphicsEnvironment.getAllFonts()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_preferLocaleFonts()
+    public default void test_getAllFonts()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +55,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.GraphicsEnvironment#getScreenDevices() public abstract java.awt.GraphicsDevice[]
-     * java.awt.GraphicsEnvironment.getScreenDevices() throws java.awt.HeadlessException}.
+     * Test method for {@link java.awt.GraphicsEnvironment#getAvailableFontFamilyNames() public abstract
+     * java.lang.String[] java.awt.GraphicsEnvironment.getAvailableFontFamilyNames()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getScreenDevices()
+    public default void test_getAvailableFontFamilyNames()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +71,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.GraphicsEnvironment#preferProportionalFonts() public void
-     * java.awt.GraphicsEnvironment.preferProportionalFonts()}.
+     * Test method for {@link java.awt.GraphicsEnvironment#getAvailableFontFamilyNames(java.util.Locale) public abstract
+     * java.lang.String[] java.awt.GraphicsEnvironment.getAvailableFontFamilyNames(java.util.Locale)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_preferProportionalFonts()
+    public default void test_getAvailableFontFamilyNames_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,14 +87,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.GraphicsEnvironment#isHeadlessInstance() public boolean
-     * java.awt.GraphicsEnvironment.isHeadlessInstance()}.
+     * Test method for {@link java.awt.GraphicsEnvironment#getCenterPoint() public java.awt.Point
+     * java.awt.GraphicsEnvironment.getCenterPoint() throws java.awt.HeadlessException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isHeadlessInstance()
+    public default void test_getCenterPoint()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -183,14 +135,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.GraphicsEnvironment#getAvailableFontFamilyNames() public abstract
-     * java.lang.String[] java.awt.GraphicsEnvironment.getAvailableFontFamilyNames()}.
+     * Test method for {@link java.awt.GraphicsEnvironment#getScreenDevices() public abstract java.awt.GraphicsDevice[]
+     * java.awt.GraphicsEnvironment.getScreenDevices() throws java.awt.HeadlessException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAvailableFontFamilyNames()
+    public default void test_getScreenDevices()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -199,14 +151,62 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.GraphicsEnvironment#getAvailableFontFamilyNames(java.util.Locale) public abstract
-     * java.lang.String[] java.awt.GraphicsEnvironment.getAvailableFontFamilyNames(java.util.Locale)}.
+     * Test method for {@link java.awt.GraphicsEnvironment#isHeadlessInstance() public boolean
+     * java.awt.GraphicsEnvironment.isHeadlessInstance()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAvailableFontFamilyNames_Locale()
+    public default void test_isHeadlessInstance()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.GraphicsEnvironment#preferLocaleFonts() public void
+     * java.awt.GraphicsEnvironment.preferLocaleFonts()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_preferLocaleFonts()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.GraphicsEnvironment#preferProportionalFonts() public void
+     * java.awt.GraphicsEnvironment.preferProportionalFonts()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_preferProportionalFonts()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.GraphicsEnvironment#registerFont(java.awt.Font) public boolean
+     * java.awt.GraphicsEnvironment.registerFont(java.awt.Font)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_registerFont_Font()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

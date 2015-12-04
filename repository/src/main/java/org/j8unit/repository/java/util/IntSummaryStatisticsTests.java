@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.util.IntSummaryStatistics#toString() public java.lang.String
-     * java.util.IntSummaryStatistics.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.IntSummaryStatistics#accept(int) public void
      * java.util.IntSummaryStatistics.accept(int)}.
      * </p>
@@ -73,22 +56,6 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.util.IntSummaryStatistics#getCount() public final long
-     * java.util.IntSummaryStatistics.getCount()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.IntSummaryStatistics#getAverage() public final double
      * java.util.IntSummaryStatistics.getAverage()}.
      * </p>
@@ -105,14 +72,14 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.util.IntSummaryStatistics#getSum() public final long
-     * java.util.IntSummaryStatistics.getSum()}.
+     * Test method for {@link java.util.IntSummaryStatistics#getCount() public final long
+     * java.util.IntSummaryStatistics.getCount()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSum()
+    public default void test_getCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -145,6 +112,39 @@ extends org.j8unit.repository.java.util.function.IntConsumerTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_getMin()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.IntSummaryStatistics#getSum() public final long
+     * java.util.IntSummaryStatistics.getSum()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSum()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.IntSummaryStatistics#toString() public java.lang.String
+     * java.util.IntSummaryStatistics.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

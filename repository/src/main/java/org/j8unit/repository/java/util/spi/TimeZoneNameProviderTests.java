@@ -24,24 +24,6 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.spi.TimeZoneNameProvider#getGenericDisplayName(java.lang.String,int,java.util.Locale) public
-     * java.lang.String java.util.spi.TimeZoneNameProvider.getGenericDisplayName(java.lang.String,int,java.util.Locale)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getGenericDisplayName_String_int_Locale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link java.util.spi.TimeZoneNameProvider#getDisplayName(java.lang.String,boolean,int,java.util.Locale) public
      * abstract java.lang.String
      * java.util.spi.TimeZoneNameProvider.getDisplayName(java.lang.String,boolean,int,java.util.Locale)}.
@@ -51,6 +33,24 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDisplayName_String_boolean_int_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.spi.TimeZoneNameProvider#getGenericDisplayName(java.lang.String,int,java.util.Locale) public
+     * java.lang.String java.util.spi.TimeZoneNameProvider.getGenericDisplayName(java.lang.String,int,java.util.Locale)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGenericDisplayName_String_int_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

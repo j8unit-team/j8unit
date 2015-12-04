@@ -41,70 +41,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.xpath.XPath#setNamespaceContext(javax.xml.namespace.NamespaceContext) public
-     * abstract void javax.xml.xpath.XPath.setNamespaceContext(javax.xml.namespace.NamespaceContext)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setNamespaceContext_NamespaceContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.xpath.XPath#getXPathVariableResolver() public abstract
-     * javax.xml.xpath.XPathVariableResolver javax.xml.xpath.XPath.getXPathVariableResolver()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getXPathVariableResolver()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.xpath.XPath#setXPathVariableResolver(javax.xml.xpath.XPathVariableResolver)
-     * public abstract void javax.xml.xpath.XPath.setXPathVariableResolver(javax.xml.xpath.XPathVariableResolver)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setXPathVariableResolver_XPathVariableResolver()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.xpath.XPath#getNamespaceContext() public abstract
-     * javax.xml.namespace.NamespaceContext javax.xml.xpath.XPath.getNamespaceContext()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNamespaceContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.xpath.XPath#evaluate(java.lang.String,org.xml.sax.InputSource) public abstract
      * java.lang.String javax.xml.xpath.XPath.evaluate(java.lang.String,org.xml.sax.InputSource) throws
      * javax.xml.xpath.XPathExpressionException}.
@@ -114,42 +50,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_evaluate_String_InputSource()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.xml.xpath.XPath#evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName) public
-     * abstract java.lang.Object
-     * javax.xml.xpath.XPath.evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName) throws
-     * javax.xml.xpath.XPathExpressionException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_evaluate_String_Object_QName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.xpath.XPath#evaluate(java.lang.String,java.lang.Object) public abstract
-     * java.lang.String javax.xml.xpath.XPath.evaluate(java.lang.String,java.lang.Object) throws
-     * javax.xml.xpath.XPathExpressionException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_evaluate_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -177,6 +77,90 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.xpath.XPath#evaluate(java.lang.String,java.lang.Object) public abstract
+     * java.lang.String javax.xml.xpath.XPath.evaluate(java.lang.String,java.lang.Object) throws
+     * javax.xml.xpath.XPathExpressionException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_evaluate_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.xml.xpath.XPath#evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName) public
+     * abstract java.lang.Object
+     * javax.xml.xpath.XPath.evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName) throws
+     * javax.xml.xpath.XPathExpressionException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_evaluate_String_Object_QName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.xpath.XPath#getNamespaceContext() public abstract
+     * javax.xml.namespace.NamespaceContext javax.xml.xpath.XPath.getNamespaceContext()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNamespaceContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.xpath.XPath#getXPathFunctionResolver() public abstract
+     * javax.xml.xpath.XPathFunctionResolver javax.xml.xpath.XPath.getXPathFunctionResolver()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getXPathFunctionResolver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.xpath.XPath#getXPathVariableResolver() public abstract
+     * javax.xml.xpath.XPathVariableResolver javax.xml.xpath.XPath.getXPathVariableResolver()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getXPathVariableResolver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.xpath.XPath#reset() public abstract void javax.xml.xpath.XPath.reset()}.
      * </p>
      */
@@ -184,6 +168,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.xpath.XPath#setNamespaceContext(javax.xml.namespace.NamespaceContext) public
+     * abstract void javax.xml.xpath.XPath.setNamespaceContext(javax.xml.namespace.NamespaceContext)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setNamespaceContext_NamespaceContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -208,14 +208,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.xpath.XPath#getXPathFunctionResolver() public abstract
-     * javax.xml.xpath.XPathFunctionResolver javax.xml.xpath.XPath.getXPathFunctionResolver()}.
+     * Test method for {@link javax.xml.xpath.XPath#setXPathVariableResolver(javax.xml.xpath.XPathVariableResolver)
+     * public abstract void javax.xml.xpath.XPath.setXPathVariableResolver(javax.xml.xpath.XPathVariableResolver)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getXPathFunctionResolver()
+    public default void test_setXPathVariableResolver_XPathVariableResolver()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

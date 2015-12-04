@@ -55,16 +55,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.sound.midi.spi.MidiFileWriter#write(javax.sound.midi.Sequence,int,java.io.OutputStream) public
-     * abstract int javax.sound.midi.spi.MidiFileWriter.write(javax.sound.midi.Sequence,int,java.io.OutputStream) throws
-     * java.io.IOException}.
+     * Test method for {@link javax.sound.midi.spi.MidiFileWriter#isFileTypeSupported(int) public boolean
+     * javax.sound.midi.spi.MidiFileWriter.isFileTypeSupported(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_Sequence_int_OutputStream()
+    public default void test_isFileTypeSupported_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.midi.spi.MidiFileWriter#isFileTypeSupported(int,javax.sound.midi.Sequence)
+     * public boolean javax.sound.midi.spi.MidiFileWriter.isFileTypeSupported(int,javax.sound.midi.Sequence)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isFileTypeSupported_int_Sequence()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -90,30 +104,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiFileWriter#isFileTypeSupported(int,javax.sound.midi.Sequence)
-     * public boolean javax.sound.midi.spi.MidiFileWriter.isFileTypeSupported(int,javax.sound.midi.Sequence)}.
+     * Test method for
+     * {@link javax.sound.midi.spi.MidiFileWriter#write(javax.sound.midi.Sequence,int,java.io.OutputStream) public
+     * abstract int javax.sound.midi.spi.MidiFileWriter.write(javax.sound.midi.Sequence,int,java.io.OutputStream) throws
+     * java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isFileTypeSupported_int_Sequence()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.spi.MidiFileWriter#isFileTypeSupported(int) public boolean
-     * javax.sound.midi.spi.MidiFileWriter.isFileTypeSupported(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isFileTypeSupported_int()
+    public default void test_write_Sequence_int_OutputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

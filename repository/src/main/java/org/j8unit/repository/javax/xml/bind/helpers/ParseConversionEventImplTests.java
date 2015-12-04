@@ -34,7 +34,7 @@ extends org.j8unit.repository.javax.xml.bind.ParseConversionEventTests<SUT>, org
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getMessage()
+    public default void test_getLinkedException()
     throws Exception {
     }
 
@@ -66,7 +66,7 @@ extends org.j8unit.repository.javax.xml.bind.ParseConversionEventTests<SUT>, org
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getSeverity()
+    public default void test_getMessage()
     throws Exception {
     }
 
@@ -82,7 +82,7 @@ extends org.j8unit.repository.javax.xml.bind.ParseConversionEventTests<SUT>, org
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getLinkedException()
+    public default void test_getSeverity()
     throws Exception {
     }
 

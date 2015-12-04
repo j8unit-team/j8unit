@@ -23,41 +23,6 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.AsynchronousByteChannel#write(java.nio.ByteBuffer) public abstract
-     * java.util.concurrent.Future java.nio.channels.AsynchronousByteChannel.write(java.nio.ByteBuffer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_ByteBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.nio.channels.AsynchronousByteChannel#write(java.nio.ByteBuffer,java.lang.Object,java.nio.channels.CompletionHandler)
-     * public abstract void
-     * java.nio.channels.AsynchronousByteChannel.write(java.nio.ByteBuffer,java.lang.Object,java.nio.channels.CompletionHandler)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_ByteBuffer_Object_CompletionHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.channels.AsynchronousByteChannel#read(java.nio.ByteBuffer) public abstract
      * java.util.concurrent.Future java.nio.channels.AsynchronousByteChannel.read(java.nio.ByteBuffer)}.
      * </p>
@@ -85,6 +50,41 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_read_ByteBuffer_Object_CompletionHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.AsynchronousByteChannel#write(java.nio.ByteBuffer) public abstract
+     * java.util.concurrent.Future java.nio.channels.AsynchronousByteChannel.write(java.nio.ByteBuffer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_ByteBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.nio.channels.AsynchronousByteChannel#write(java.nio.ByteBuffer,java.lang.Object,java.nio.channels.CompletionHandler)
+     * public abstract void
+     * java.nio.channels.AsynchronousByteChannel.write(java.nio.ByteBuffer,java.lang.Object,java.nio.channels.CompletionHandler)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_ByteBuffer_Object_CompletionHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

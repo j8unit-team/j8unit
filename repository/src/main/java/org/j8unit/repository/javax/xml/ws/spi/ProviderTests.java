@@ -23,16 +23,34 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.xml.ws.spi.Provider#createEndpoint(java.lang.String,java.lang.Object,javax.xml.ws.WebServiceFeature...)
-     * public javax.xml.ws.Endpoint
-     * javax.xml.ws.spi.Provider.createEndpoint(java.lang.String,java.lang.Object,javax.xml.ws.WebServiceFeature...)}.
+     * Test method for {@link javax.xml.ws.spi.Provider#createAndPublishEndpoint(java.lang.String,java.lang.Object)
+     * public abstract javax.xml.ws.Endpoint
+     * javax.xml.ws.spi.Provider.createAndPublishEndpoint(java.lang.String,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createEndpoint_String_Object_WebServiceFeatureArray()
+    public default void test_createAndPublishEndpoint_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.xml.ws.spi.Provider#createAndPublishEndpoint(java.lang.String,java.lang.Object,javax.xml.ws.WebServiceFeature...)
+     * public javax.xml.ws.Endpoint
+     * javax.xml.ws.spi.Provider.createAndPublishEndpoint(java.lang.String,java.lang.Object,javax.xml.ws.WebServiceFeature...)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createAndPublishEndpoint_String_Object_WebServiceFeatureArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -77,71 +95,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.ws.spi.Provider#getPort(javax.xml.ws.EndpointReference,java.lang.Class,javax.xml.ws.WebServiceFeature...)
-     * public abstract java.lang.Object
-     * javax.xml.ws.spi.Provider.getPort(javax.xml.ws.EndpointReference,java.lang.Class,javax.xml.ws.WebServiceFeature...)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPort_EndpointReference_Class_WebServiceFeatureArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.xml.ws.spi.Provider#createAndPublishEndpoint(java.lang.String,java.lang.Object,javax.xml.ws.WebServiceFeature...)
+     * {@link javax.xml.ws.spi.Provider#createEndpoint(java.lang.String,java.lang.Object,javax.xml.ws.WebServiceFeature...)
      * public javax.xml.ws.Endpoint
-     * javax.xml.ws.spi.Provider.createAndPublishEndpoint(java.lang.String,java.lang.Object,javax.xml.ws.WebServiceFeature...)}
-     * .
+     * javax.xml.ws.spi.Provider.createEndpoint(java.lang.String,java.lang.Object,javax.xml.ws.WebServiceFeature...)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createAndPublishEndpoint_String_Object_WebServiceFeatureArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.ws.spi.Provider#createAndPublishEndpoint(java.lang.String,java.lang.Object)
-     * public abstract javax.xml.ws.Endpoint
-     * javax.xml.ws.spi.Provider.createAndPublishEndpoint(java.lang.String,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createAndPublishEndpoint_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.xml.ws.spi.Provider#createServiceDelegate(java.net.URL,javax.xml.namespace.QName,java.lang.Class,javax.xml.ws.WebServiceFeature...)
-     * public javax.xml.ws.spi.ServiceDelegate
-     * javax.xml.ws.spi.Provider.createServiceDelegate(java.net.URL,javax.xml.namespace.QName,java.lang.Class,javax.xml.ws.WebServiceFeature...)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createServiceDelegate_URL_QName_Class_WebServiceFeatureArray()
+    public default void test_createEndpoint_String_Object_WebServiceFeatureArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -168,15 +130,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.spi.Provider#readEndpointReference(javax.xml.transform.Source) public
-     * abstract javax.xml.ws.EndpointReference
-     * javax.xml.ws.spi.Provider.readEndpointReference(javax.xml.transform.Source)}.
+     * Test method for
+     * {@link javax.xml.ws.spi.Provider#createServiceDelegate(java.net.URL,javax.xml.namespace.QName,java.lang.Class,javax.xml.ws.WebServiceFeature...)
+     * public javax.xml.ws.spi.ServiceDelegate
+     * javax.xml.ws.spi.Provider.createServiceDelegate(java.net.URL,javax.xml.namespace.QName,java.lang.Class,javax.xml.ws.WebServiceFeature...)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_readEndpointReference_Source()
+    public default void test_createServiceDelegate_URL_QName_Class_WebServiceFeatureArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -215,6 +179,42 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createW3CEndpointReference_String_QName_QName_QName_List_String_List_List_Map()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.xml.ws.spi.Provider#getPort(javax.xml.ws.EndpointReference,java.lang.Class,javax.xml.ws.WebServiceFeature...)
+     * public abstract java.lang.Object
+     * javax.xml.ws.spi.Provider.getPort(javax.xml.ws.EndpointReference,java.lang.Class,javax.xml.ws.WebServiceFeature...)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPort_EndpointReference_Class_WebServiceFeatureArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.spi.Provider#readEndpointReference(javax.xml.transform.Source) public
+     * abstract javax.xml.ws.EndpointReference
+     * javax.xml.ws.spi.Provider.readEndpointReference(javax.xml.transform.Source)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readEndpointReference_Source()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

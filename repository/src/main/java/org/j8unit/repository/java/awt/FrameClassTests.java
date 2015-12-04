@@ -35,31 +35,16 @@ public abstract interface FrameClassTests<SUT extends Class<? extends java.awt.F
 extends org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>, org.j8unit.repository.java.awt.WindowClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.Frame#Frame(java.lang.String,java.awt.GraphicsConfiguration) public
-     * java.awt.Frame(java.lang.String,java.awt.GraphicsConfiguration)}.
+     * Test method for {@link java.awt.Frame#Frame() public java.awt.Frame() throws java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Frame_String_GraphicsConfiguration()
+    public default void create_Frame()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Frame sut = null; // = new Frame(java.lang.String,java.awt.GraphicsConfiguration);
-    }
-
-    /**
-     * Test method for {@link java.awt.Frame#Frame(java.lang.String) public java.awt.Frame(java.lang.String) throws
-     * java.awt.HeadlessException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Frame_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Frame sut = null; // = new Frame(java.lang.String);
+        final java.awt.Frame sut = null; // = new Frame();
     }
 
     /**
@@ -77,26 +62,31 @@ extends org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>, org.j8unit.
     }
 
     /**
-     * Test method for {@link java.awt.Frame#Frame() public java.awt.Frame() throws java.awt.HeadlessException}.
+     * Test method for {@link java.awt.Frame#Frame(java.lang.String) public java.awt.Frame(java.lang.String) throws
+     * java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Frame()
+    public default void create_Frame_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Frame sut = null; // = new Frame();
+        final java.awt.Frame sut = null; // = new Frame(java.lang.String);
     }
 
-    @Override
+    /**
+     * Test method for {@link java.awt.Frame#Frame(java.lang.String,java.awt.GraphicsConfiguration) public
+     * java.awt.Frame(java.lang.String,java.awt.GraphicsConfiguration)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_Frame_String_GraphicsConfiguration()
     throws Exception {
         // create new instance
-        final Class<? extends java.awt.Frame> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.Frame.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final java.awt.Frame sut = null; // = new Frame(java.lang.String,java.awt.GraphicsConfiguration);
     }
 
     /**
@@ -112,6 +102,16 @@ extends org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>, org.j8unit.
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.Frame> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.Frame.class.isAssignableFrom(sut));
     }
 
 }

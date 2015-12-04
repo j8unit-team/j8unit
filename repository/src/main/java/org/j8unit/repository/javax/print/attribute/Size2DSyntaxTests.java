@@ -24,23 +24,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.Size2DSyntax#hashCode() public int
-     * javax.print.attribute.Size2DSyntax.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.print.attribute.Size2DSyntax#equals(java.lang.Object) public boolean
      * javax.print.attribute.Size2DSyntax.equals(java.lang.Object)}.
      * </p>
@@ -106,14 +89,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.Size2DSyntax#toString(int,java.lang.String) public java.lang.String
-     * javax.print.attribute.Size2DSyntax.toString(int,java.lang.String)}.
+     * Test method for {@link javax.print.attribute.Size2DSyntax#hashCode() public int
+     * javax.print.attribute.Size2DSyntax.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toString_int_String()
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -131,6 +115,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.attribute.Size2DSyntax#toString(int,java.lang.String) public java.lang.String
+     * javax.print.attribute.Size2DSyntax.toString(int,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_int_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

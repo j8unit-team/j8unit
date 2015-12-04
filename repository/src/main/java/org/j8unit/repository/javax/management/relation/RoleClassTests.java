@@ -49,16 +49,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         final javax.management.relation.Role sut = null; // = new Role(java.lang.String,java.util.List);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.management.relation.Role> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.management.relation.Role.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.management.relation.Role#roleValueToString(java.util.List) public static
@@ -74,6 +64,16 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.management.relation.Role> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.management.relation.Role.class.isAssignableFrom(sut));
     }
 
 }

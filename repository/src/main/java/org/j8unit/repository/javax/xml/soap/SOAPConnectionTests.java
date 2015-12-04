@@ -41,22 +41,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPConnection#get(java.lang.Object) public javax.xml.soap.SOAPMessage
-     * javax.xml.soap.SOAPConnection.get(java.lang.Object) throws javax.xml.soap.SOAPException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.soap.SOAPConnection#close() public abstract void
      * javax.xml.soap.SOAPConnection.close() throws javax.xml.soap.SOAPException}.
      * </p>
@@ -65,6 +49,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPConnection#get(java.lang.Object) public javax.xml.soap.SOAPMessage
+     * javax.xml.soap.SOAPConnection.get(java.lang.Object) throws javax.xml.soap.SOAPException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

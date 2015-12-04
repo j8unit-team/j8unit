@@ -23,163 +23,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.metal.MetalComboBoxUI#paintCurrentValue(java.awt.Graphics,java.awt.Rectangle,boolean)
-     * public void
-     * javax.swing.plaf.metal.MetalComboBoxUI.paintCurrentValue(java.awt.Graphics,java.awt.Rectangle,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paintCurrentValue_Graphics_Rectangle_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#configureEditor() public void
-     * javax.swing.plaf.metal.MetalComboBoxUI.configureEditor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_configureEditor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.metal.MetalComboBoxUI.getMinimumSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMinimumSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#getBaseline(javax.swing.JComponent,int,int) public
-     * int javax.swing.plaf.metal.MetalComboBoxUI.getBaseline(javax.swing.JComponent,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBaseline_JComponent_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.metal.MetalComboBoxUI#layoutComboBox(java.awt.Container,javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager)
-     * public void
-     * javax.swing.plaf.metal.MetalComboBoxUI.layoutComboBox(java.awt.Container,javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_layoutComboBox_Container_MetalComboBoxLayoutManager()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#unconfigureEditor() public void
-     * javax.swing.plaf.metal.MetalComboBoxUI.unconfigureEditor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unconfigureEditor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.metal.MetalComboBoxUI#paintCurrentValueBackground(java.awt.Graphics,java.awt.Rectangle,boolean)
-     * public void
-     * javax.swing.plaf.metal.MetalComboBoxUI.paintCurrentValueBackground(java.awt.Graphics,java.awt.Rectangle,boolean)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paintCurrentValueBackground_Graphics_Rectangle_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#paint(java.awt.Graphics,javax.swing.JComponent)
-     * public void javax.swing.plaf.metal.MetalComboBoxUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paint_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#createPropertyChangeListener() public
-     * java.beans.PropertyChangeListener javax.swing.plaf.metal.MetalComboBoxUI.createPropertyChangeListener()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createPropertyChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test class for {@link javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager class
      * javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager}, containing all instance relevant test methods
      * (i.&thinsp;e., test methods of non-{@code static} methods).
@@ -304,6 +147,163 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
             assert sut != null;
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#configureEditor() public void
+     * javax.swing.plaf.metal.MetalComboBoxUI.configureEditor()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_configureEditor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#createPropertyChangeListener() public
+     * java.beans.PropertyChangeListener javax.swing.plaf.metal.MetalComboBoxUI.createPropertyChangeListener()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createPropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#getBaseline(javax.swing.JComponent,int,int) public
+     * int javax.swing.plaf.metal.MetalComboBoxUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getBaseline_JComponent_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#getMinimumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.metal.MetalComboBoxUI.getMinimumSize(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMinimumSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.metal.MetalComboBoxUI#layoutComboBox(java.awt.Container,javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager)
+     * public void
+     * javax.swing.plaf.metal.MetalComboBoxUI.layoutComboBox(java.awt.Container,javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_layoutComboBox_Container_MetalComboBoxLayoutManager()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#paint(java.awt.Graphics,javax.swing.JComponent)
+     * public void javax.swing.plaf.metal.MetalComboBoxUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paint_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.metal.MetalComboBoxUI#paintCurrentValue(java.awt.Graphics,java.awt.Rectangle,boolean)
+     * public void
+     * javax.swing.plaf.metal.MetalComboBoxUI.paintCurrentValue(java.awt.Graphics,java.awt.Rectangle,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paintCurrentValue_Graphics_Rectangle_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.metal.MetalComboBoxUI#paintCurrentValueBackground(java.awt.Graphics,java.awt.Rectangle,boolean)
+     * public void
+     * javax.swing.plaf.metal.MetalComboBoxUI.paintCurrentValueBackground(java.awt.Graphics,java.awt.Rectangle,boolean)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paintCurrentValueBackground_Graphics_Rectangle_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#unconfigureEditor() public void
+     * javax.swing.plaf.metal.MetalComboBoxUI.unconfigureEditor()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unconfigureEditor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

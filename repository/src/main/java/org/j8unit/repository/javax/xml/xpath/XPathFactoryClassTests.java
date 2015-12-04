@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface XPathFactoryClassTests<SUT extends Class<? extends javax.xml.xpath.XPathFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.xpath.XPathFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.xpath.XPathFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.xml.xpath.XPathFactory#newInstance() public static javax.xml.xpath.XPathFactory
@@ -55,6 +45,23 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_newInstance()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.xpath.XPathFactory#newInstance(java.lang.String) public static
+     * javax.xml.xpath.XPathFactory javax.xml.xpath.XPathFactory.newInstance(java.lang.String) throws
+     * javax.xml.xpath.XPathFactoryConfigurationException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newInstance_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -80,21 +87,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.xml.xpath.XPathFactory#newInstance(java.lang.String) public static
-     * javax.xml.xpath.XPathFactory javax.xml.xpath.XPathFactory.newInstance(java.lang.String) throws
-     * javax.xml.xpath.XPathFactoryConfigurationException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_newInstance_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.xml.xpath.XPathFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.xpath.XPathFactory.class.isAssignableFrom(sut));
     }
 
 }

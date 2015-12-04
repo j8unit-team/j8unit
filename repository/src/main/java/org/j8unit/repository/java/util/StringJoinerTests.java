@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.StringJoiner#merge(java.util.StringJoiner) public java.util.StringJoiner
-     * java.util.StringJoiner.merge(java.util.StringJoiner)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_merge_StringJoiner()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.StringJoiner#add(java.lang.CharSequence) public java.util.StringJoiner
      * java.util.StringJoiner.add(java.lang.CharSequence)}.
      * </p>
@@ -55,15 +39,29 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.StringJoiner#toString() public java.lang.String
-     * java.util.StringJoiner.toString()}.
+     * Test method for {@link java.util.StringJoiner#length() public int java.util.StringJoiner.length()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_length()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.StringJoiner#merge(java.util.StringJoiner) public java.util.StringJoiner
+     * java.util.StringJoiner.merge(java.util.StringJoiner)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_merge_StringJoiner()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,13 +86,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.StringJoiner#length() public int java.util.StringJoiner.length()}.
+     * Test method for {@link java.util.StringJoiner#toString() public java.lang.String
+     * java.util.StringJoiner.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_length()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

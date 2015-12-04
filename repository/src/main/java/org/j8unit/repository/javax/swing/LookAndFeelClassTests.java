@@ -48,51 +48,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final javax.swing.LookAndFeel sut = null; // = new LookAndFeel();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.LookAndFeel> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.LookAndFeel.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.LookAndFeel#installColorsAndFont(javax.swing.JComponent,java.lang.String,java.lang.String,java.lang.String)
-     * public static void
-     * javax.swing.LookAndFeel.installColorsAndFont(javax.swing.JComponent,java.lang.String,java.lang.String,java.lang.String)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_installColorsAndFont_JComponent_String_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.LookAndFeel#makeKeyBindings(java.lang.Object[]) public static
-     * javax.swing.text.JTextComponent$KeyBinding[] javax.swing.LookAndFeel.makeKeyBindings(java.lang.Object[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_makeKeyBindings_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.LookAndFeel#getDesktopPropertyValue(java.lang.String,java.lang.Object) public
@@ -111,15 +66,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.LookAndFeel#makeComponentInputMap(javax.swing.JComponent,java.lang.Object[])
-     * public static javax.swing.ComponentInputMap
-     * javax.swing.LookAndFeel.makeComponentInputMap(javax.swing.JComponent,java.lang.Object[])}.
+     * Test method for {@link javax.swing.LookAndFeel#installBorder(javax.swing.JComponent,java.lang.String) public
+     * static void javax.swing.LookAndFeel.installBorder(javax.swing.JComponent,java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_makeComponentInputMap_JComponent_ObjectArray()
+    public default void test_installBorder_JComponent_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -145,46 +99,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.LookAndFeel#loadKeyBindings(javax.swing.InputMap,java.lang.Object[]) public
-     * static void javax.swing.LookAndFeel.loadKeyBindings(javax.swing.InputMap,java.lang.Object[])}.
+     * Test method for
+     * {@link javax.swing.LookAndFeel#installColorsAndFont(javax.swing.JComponent,java.lang.String,java.lang.String,java.lang.String)
+     * public static void
+     * javax.swing.LookAndFeel.installColorsAndFont(javax.swing.JComponent,java.lang.String,java.lang.String,java.lang.String)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_loadKeyBindings_InputMap_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.LookAndFeel#installBorder(javax.swing.JComponent,java.lang.String) public
-     * static void javax.swing.LookAndFeel.installBorder(javax.swing.JComponent,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_installBorder_JComponent_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.LookAndFeel#makeIcon(java.lang.Class,java.lang.String) public static
-     * java.lang.Object javax.swing.LookAndFeel.makeIcon(java.lang.Class,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_makeIcon_Class_String()
+    public default void test_installColorsAndFont_JComponent_String_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -210,14 +135,47 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.LookAndFeel#uninstallBorder(javax.swing.JComponent) public static void
-     * javax.swing.LookAndFeel.uninstallBorder(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.LookAndFeel#loadKeyBindings(javax.swing.InputMap,java.lang.Object[]) public
+     * static void javax.swing.LookAndFeel.loadKeyBindings(javax.swing.InputMap,java.lang.Object[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_uninstallBorder_JComponent()
+    public default void test_loadKeyBindings_InputMap_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.LookAndFeel#makeComponentInputMap(javax.swing.JComponent,java.lang.Object[])
+     * public static javax.swing.ComponentInputMap
+     * javax.swing.LookAndFeel.makeComponentInputMap(javax.swing.JComponent,java.lang.Object[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_makeComponentInputMap_JComponent_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.LookAndFeel#makeIcon(java.lang.Class,java.lang.String) public static
+     * java.lang.Object javax.swing.LookAndFeel.makeIcon(java.lang.Class,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_makeIcon_Class_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -238,6 +196,48 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.LookAndFeel#makeKeyBindings(java.lang.Object[]) public static
+     * javax.swing.text.JTextComponent$KeyBinding[] javax.swing.LookAndFeel.makeKeyBindings(java.lang.Object[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_makeKeyBindings_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.LookAndFeel#uninstallBorder(javax.swing.JComponent) public static void
+     * javax.swing.LookAndFeel.uninstallBorder(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_uninstallBorder_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.LookAndFeel> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.LookAndFeel.class.isAssignableFrom(sut));
     }
 
 }

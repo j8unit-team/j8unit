@@ -23,14 +23,14 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.stream.StreamResult#setSystemId(java.io.File) public void
-     * javax.xml.transform.stream.StreamResult.setSystemId(java.io.File)}.
+     * Test method for {@link javax.xml.transform.stream.StreamResult#getOutputStream() public java.io.OutputStream
+     * javax.xml.transform.stream.StreamResult.getOutputStream()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSystemId_File()
+    public default void test_getOutputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,15 +39,15 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.stream.StreamResult#setSystemId(java.lang.String) public void
-     * javax.xml.transform.stream.StreamResult.setSystemId(java.lang.String)}.
+     * Test method for {@link javax.xml.transform.stream.StreamResult#getSystemId() public java.lang.String
+     * javax.xml.transform.stream.StreamResult.getSystemId()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setSystemId_String()
+    public default void test_getSystemId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,15 +88,31 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.stream.StreamResult#getSystemId() public java.lang.String
-     * javax.xml.transform.stream.StreamResult.getSystemId()}.
+     * Test method for {@link javax.xml.transform.stream.StreamResult#setSystemId(java.io.File) public void
+     * javax.xml.transform.stream.StreamResult.setSystemId(java.io.File)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSystemId_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.stream.StreamResult#setSystemId(java.lang.String) public void
+     * javax.xml.transform.stream.StreamResult.setSystemId(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getSystemId()
+    public default void test_setSystemId_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -113,22 +129,6 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_setWriter_Writer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.stream.StreamResult#getOutputStream() public java.io.OutputStream
-     * javax.xml.transform.stream.StreamResult.getOutputStream()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOutputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

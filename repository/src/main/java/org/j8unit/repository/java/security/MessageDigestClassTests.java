@@ -35,49 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface MessageDigestClassTests<SUT extends Class<? extends java.security.MessageDigest>>
 extends org.j8unit.repository.java.security.MessageDigestSpiClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.security.MessageDigest> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.MessageDigest.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.MessageDigest#isEqual(byte[],byte[]) public static boolean
-     * java.security.MessageDigest.isEqual(byte[],byte[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isEqual_byteArray_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.MessageDigest#getInstance(java.lang.String,java.lang.String) public static
-     * java.security.MessageDigest java.security.MessageDigest.getInstance(java.lang.String,java.lang.String) throws
-     * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInstance_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link java.security.MessageDigest#getInstance(java.lang.String) public static
@@ -111,6 +68,49 @@ extends org.j8unit.repository.java.security.MessageDigestSpiClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.MessageDigest#getInstance(java.lang.String,java.lang.String) public static
+     * java.security.MessageDigest java.security.MessageDigest.getInstance(java.lang.String,java.lang.String) throws
+     * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInstance_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.MessageDigest#isEqual(byte[],byte[]) public static boolean
+     * java.security.MessageDigest.isEqual(byte[],byte[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isEqual_byteArray_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.security.MessageDigest> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.MessageDigest.class.isAssignableFrom(sut));
     }
 
 }

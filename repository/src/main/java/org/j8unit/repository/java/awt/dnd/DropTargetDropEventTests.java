@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetEventTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.dnd.DropTargetDropEvent#acceptDrop(int) public void
+     * java.awt.dnd.DropTargetDropEvent.acceptDrop(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_acceptDrop_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.dnd.DropTargetDropEvent#dropComplete(boolean) public void
      * java.awt.dnd.DropTargetDropEvent.dropComplete(boolean)}.
      * </p>
@@ -47,6 +63,54 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getCurrentDataFlavors()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getCurrentDataFlavorsAsList() public java.util.List
+     * java.awt.dnd.DropTargetDropEvent.getCurrentDataFlavorsAsList()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCurrentDataFlavorsAsList()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getDropAction() public int
+     * java.awt.dnd.DropTargetDropEvent.getDropAction()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDropAction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getLocation() public java.awt.Point
+     * java.awt.dnd.DropTargetDropEvent.getLocation()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,86 +151,6 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#isLocalTransfer() public boolean
-     * java.awt.dnd.DropTargetDropEvent.isLocalTransfer()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isLocalTransfer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getDropAction() public int
-     * java.awt.dnd.DropTargetDropEvent.getDropAction()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDropAction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#acceptDrop(int) public void
-     * java.awt.dnd.DropTargetDropEvent.acceptDrop(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_acceptDrop_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getCurrentDataFlavorsAsList() public java.util.List
-     * java.awt.dnd.DropTargetDropEvent.getCurrentDataFlavorsAsList()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCurrentDataFlavorsAsList()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDropEvent#getLocation() public java.awt.Point
-     * java.awt.dnd.DropTargetDropEvent.getLocation()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocation()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.dnd.DropTargetDropEvent#isDataFlavorSupported(java.awt.datatransfer.DataFlavor)
      * public boolean java.awt.dnd.DropTargetDropEvent.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)}.
      * </p>
@@ -175,6 +159,22 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isDataFlavorSupported_DataFlavor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTargetDropEvent#isLocalTransfer() public boolean
+     * java.awt.dnd.DropTargetDropEvent.isLocalTransfer()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isLocalTransfer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

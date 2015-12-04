@@ -24,6 +24,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.transform.Templates#getOutputProperties() public abstract java.util.Properties
+     * javax.xml.transform.Templates.getOutputProperties()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutputProperties()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.transform.Templates#newTransformer() public abstract
      * javax.xml.transform.Transformer javax.xml.transform.Templates.newTransformer() throws
      * javax.xml.transform.TransformerConfigurationException}.
@@ -33,22 +49,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_newTransformer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.Templates#getOutputProperties() public abstract java.util.Properties
-     * javax.xml.transform.Templates.getOutputProperties()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOutputProperties()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

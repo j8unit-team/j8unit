@@ -23,62 +23,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#setChOff(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableRowElement.setChOff(java.lang.String)}.
+     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#deleteCell(int) public abstract void
+     * org.w3c.dom.html.HTMLTableRowElement.deleteCell(int) throws org.w3c.dom.DOMException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setChOff_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#getCh() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableRowElement.getCh()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCh()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#getSectionRowIndex() public abstract int
-     * org.w3c.dom.html.HTMLTableRowElement.getSectionRowIndex()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSectionRowIndex()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#setCh(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableRowElement.setCh(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCh_String()
+    public default void test_deleteCell_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +55,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#deleteCell(int) public abstract void
-     * org.w3c.dom.html.HTMLTableRowElement.deleteCell(int) throws org.w3c.dom.DOMException}.
+     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#getBgColor() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLTableRowElement.getBgColor()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_deleteCell_int()
+    public default void test_getBgColor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +71,30 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#setBgColor(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableRowElement.setBgColor(java.lang.String)}.
+     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#getCells() public abstract
+     * org.w3c.dom.html.HTMLCollection org.w3c.dom.html.HTMLTableRowElement.getCells()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setBgColor_String()
+    public default void test_getCells()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#getCh() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLTableRowElement.getCh()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCh()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,6 +111,54 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getChOff()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#getRowIndex() public abstract int
+     * org.w3c.dom.html.HTMLTableRowElement.getRowIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#getSectionRowIndex() public abstract int
+     * org.w3c.dom.html.HTMLTableRowElement.getSectionRowIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSectionRowIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#getVAlign() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLTableRowElement.getVAlign()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVAlign()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -184,14 +200,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#getRowIndex() public abstract int
-     * org.w3c.dom.html.HTMLTableRowElement.getRowIndex()}.
+     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#setBgColor(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableRowElement.setBgColor(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRowIndex()
+    public default void test_setBgColor_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -200,14 +216,30 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#getVAlign() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableRowElement.getVAlign()}.
+     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#setCh(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableRowElement.setCh(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getVAlign()
+    public default void test_setCh_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#setChOff(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableRowElement.setChOff(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setChOff_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -224,38 +256,6 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setVAlign_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#getBgColor() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableRowElement.getBgColor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBgColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableRowElement#getCells() public abstract
-     * org.w3c.dom.html.HTMLCollection org.w3c.dom.html.HTMLTableRowElement.getCells()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCells()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

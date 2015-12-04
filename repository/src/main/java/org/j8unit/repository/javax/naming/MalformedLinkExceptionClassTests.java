@@ -36,20 +36,6 @@ public abstract interface MalformedLinkExceptionClassTests<SUT extends Class<? e
 extends org.j8unit.repository.javax.naming.LinkExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.MalformedLinkException#MalformedLinkException(java.lang.String) public
-     * javax.naming.MalformedLinkException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MalformedLinkException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.MalformedLinkException sut = null; // = new MalformedLinkException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.naming.MalformedLinkException#MalformedLinkException() public
      * javax.naming.MalformedLinkException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.javax.naming.LinkExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.MalformedLinkException sut = null; // = new MalformedLinkException();
+    }
+
+    /**
+     * Test method for {@link javax.naming.MalformedLinkException#MalformedLinkException(java.lang.String) public
+     * javax.naming.MalformedLinkException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MalformedLinkException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.MalformedLinkException sut = null; // = new MalformedLinkException(java.lang.String);
     }
 
     @Override

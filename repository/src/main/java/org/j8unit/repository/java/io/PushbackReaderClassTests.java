@@ -36,20 +36,6 @@ public abstract interface PushbackReaderClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.io.FilterReaderClassTests<SUT> {
 
     /**
-     * Test method for {@link java.io.PushbackReader#PushbackReader(java.io.Reader,int) public
-     * java.io.PushbackReader(java.io.Reader,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PushbackReader_Reader_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.PushbackReader sut = null; // = new PushbackReader(java.io.Reader,int);
-    }
-
-    /**
      * Test method for {@link java.io.PushbackReader#PushbackReader(java.io.Reader) public
      * java.io.PushbackReader(java.io.Reader)}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.io.FilterReaderClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.PushbackReader sut = null; // = new PushbackReader(java.io.Reader);
+    }
+
+    /**
+     * Test method for {@link java.io.PushbackReader#PushbackReader(java.io.Reader,int) public
+     * java.io.PushbackReader(java.io.Reader,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PushbackReader_Reader_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.PushbackReader sut = null; // = new PushbackReader(java.io.Reader,int);
     }
 
     @Override

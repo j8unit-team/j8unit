@@ -48,32 +48,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.CORBA.FieldNameHelper sut = null; // = new FieldNameHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.CORBA.FieldNameHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.CORBA.FieldNameHelper.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.FieldNameHelper#read(org.omg.CORBA.portable.InputStream) public static
-     * java.lang.String org.omg.CORBA.FieldNameHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link org.omg.CORBA.FieldNameHelper#extract(org.omg.CORBA.Any) public static java.lang.String
@@ -92,30 +66,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.FieldNameHelper#write(org.omg.CORBA.portable.OutputStream,java.lang.String)
-     * public static void org.omg.CORBA.FieldNameHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String)}.
+     * Test method for {@link org.omg.CORBA.FieldNameHelper#id() public static java.lang.String
+     * org.omg.CORBA.FieldNameHelper.id()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_OutputStream_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.FieldNameHelper#type() public static synchronized org.omg.CORBA.TypeCode
-     * org.omg.CORBA.FieldNameHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
+    public default void test_id()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -140,18 +98,60 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.FieldNameHelper#id() public static java.lang.String
-     * org.omg.CORBA.FieldNameHelper.id()}.
+     * Test method for {@link org.omg.CORBA.FieldNameHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * java.lang.String org.omg.CORBA.FieldNameHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_id()
+    public default void test_read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.FieldNameHelper#type() public static synchronized org.omg.CORBA.TypeCode
+     * org.omg.CORBA.FieldNameHelper.type()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_type()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.FieldNameHelper#write(org.omg.CORBA.portable.OutputStream,java.lang.String)
+     * public static void org.omg.CORBA.FieldNameHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.CORBA.FieldNameHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.CORBA.FieldNameHelper.class.isAssignableFrom(sut));
     }
 
 }

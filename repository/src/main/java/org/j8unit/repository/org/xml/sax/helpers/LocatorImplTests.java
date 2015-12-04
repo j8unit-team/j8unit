@@ -23,30 +23,15 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.helpers.LocatorImpl#setColumnNumber(int) public void
-     * org.xml.sax.helpers.LocatorImpl.setColumnNumber(int)}.
+     * Test method for {@link org.xml.sax.helpers.LocatorImpl#getColumnNumber() public int
+     * org.xml.sax.helpers.LocatorImpl.getColumnNumber()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setColumnNumber_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.helpers.LocatorImpl#setSystemId(java.lang.String) public void
-     * org.xml.sax.helpers.LocatorImpl.setSystemId(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSystemId_String()
+    @Override
+    public default void test_getColumnNumber()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,23 +57,6 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.helpers.LocatorImpl#getSystemId() public java.lang.String
-     * org.xml.sax.helpers.LocatorImpl.getSystemId()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSystemId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.xml.sax.helpers.LocatorImpl#getPublicId() public java.lang.String
      * org.xml.sax.helpers.LocatorImpl.getPublicId()}.
      * </p>
@@ -106,15 +74,31 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.helpers.LocatorImpl#getColumnNumber() public int
-     * org.xml.sax.helpers.LocatorImpl.getColumnNumber()}.
+     * Test method for {@link org.xml.sax.helpers.LocatorImpl#getSystemId() public java.lang.String
+     * org.xml.sax.helpers.LocatorImpl.getSystemId()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getColumnNumber()
+    public default void test_getSystemId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.helpers.LocatorImpl#setColumnNumber(int) public void
+     * org.xml.sax.helpers.LocatorImpl.setColumnNumber(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setColumnNumber_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -147,6 +131,22 @@ extends org.j8unit.repository.org.xml.sax.LocatorTests<SUT>, org.j8unit.reposito
     @Test
     @Category(Draft.class)
     public default void test_setPublicId_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.helpers.LocatorImpl#setSystemId(java.lang.String) public void
+     * org.xml.sax.helpers.LocatorImpl.setSystemId(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSystemId_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

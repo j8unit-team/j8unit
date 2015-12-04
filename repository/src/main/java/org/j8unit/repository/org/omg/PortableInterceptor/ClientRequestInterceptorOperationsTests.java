@@ -25,16 +25,16 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for
-     * {@link org.omg.PortableInterceptor.ClientRequestInterceptorOperations#send_request(org.omg.PortableInterceptor.ClientRequestInfo)
+     * {@link org.omg.PortableInterceptor.ClientRequestInterceptorOperations#receive_exception(org.omg.PortableInterceptor.ClientRequestInfo)
      * public abstract void
-     * org.omg.PortableInterceptor.ClientRequestInterceptorOperations.send_request(org.omg.PortableInterceptor.ClientRequestInfo)
+     * org.omg.PortableInterceptor.ClientRequestInterceptorOperations.receive_exception(org.omg.PortableInterceptor.ClientRequestInfo)
      * throws org.omg.PortableInterceptor.ForwardRequest}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_send_request_ClientRequestInfo()
+    public default void test_receive_exception_ClientRequestInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -101,16 +101,16 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for
-     * {@link org.omg.PortableInterceptor.ClientRequestInterceptorOperations#receive_exception(org.omg.PortableInterceptor.ClientRequestInfo)
+     * {@link org.omg.PortableInterceptor.ClientRequestInterceptorOperations#send_request(org.omg.PortableInterceptor.ClientRequestInfo)
      * public abstract void
-     * org.omg.PortableInterceptor.ClientRequestInterceptorOperations.receive_exception(org.omg.PortableInterceptor.ClientRequestInfo)
+     * org.omg.PortableInterceptor.ClientRequestInterceptorOperations.send_request(org.omg.PortableInterceptor.ClientRequestInfo)
      * throws org.omg.PortableInterceptor.ForwardRequest}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_receive_exception_ClientRequestInfo()
+    public default void test_send_request_ClientRequestInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

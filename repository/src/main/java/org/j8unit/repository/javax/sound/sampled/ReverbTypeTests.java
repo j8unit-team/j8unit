@@ -23,47 +23,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.ReverbType#getEarlyReflectionIntensity() public final float
-     * javax.sound.sampled.ReverbType.getEarlyReflectionIntensity()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEarlyReflectionIntensity()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.ReverbType#toString() public final java.lang.String
-     * javax.sound.sampled.ReverbType.toString()}.
+     * Test method for {@link javax.sound.sampled.ReverbType#equals(java.lang.Object) public final boolean
+     * javax.sound.sampled.ReverbType.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.ReverbType#getLateReflectionDelay() public final int
-     * javax.sound.sampled.ReverbType.getLateReflectionDelay()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLateReflectionDelay()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,14 +72,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.ReverbType#getName() public java.lang.String
-     * javax.sound.sampled.ReverbType.getName()}.
+     * Test method for {@link javax.sound.sampled.ReverbType#getEarlyReflectionIntensity() public final float
+     * javax.sound.sampled.ReverbType.getEarlyReflectionIntensity()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName()
+    public default void test_getEarlyReflectionIntensity()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,15 +88,46 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.ReverbType#equals(java.lang.Object) public final boolean
-     * javax.sound.sampled.ReverbType.equals(java.lang.Object)}.
+     * Test method for {@link javax.sound.sampled.ReverbType#getLateReflectionDelay() public final int
+     * javax.sound.sampled.ReverbType.getLateReflectionDelay()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_getLateReflectionDelay()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.ReverbType#getLateReflectionIntensity() public final float
+     * javax.sound.sampled.ReverbType.getLateReflectionIntensity()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLateReflectionIntensity()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.ReverbType#getName() public java.lang.String
+     * javax.sound.sampled.ReverbType.getName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -154,14 +153,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.ReverbType#getLateReflectionIntensity() public final float
-     * javax.sound.sampled.ReverbType.getLateReflectionIntensity()}.
+     * Test method for {@link javax.sound.sampled.ReverbType#toString() public final java.lang.String
+     * javax.sound.sampled.ReverbType.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLateReflectionIntensity()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

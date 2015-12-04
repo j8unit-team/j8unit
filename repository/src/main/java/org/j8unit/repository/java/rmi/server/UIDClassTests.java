@@ -35,19 +35,6 @@ public abstract interface UIDClassTests<SUT extends Class<? extends java.rmi.ser
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.rmi.server.UID#UID(short) public java.rmi.server.UID(short)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_UID_short()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.rmi.server.UID sut = null; // = new UID(short);
-    }
-
-    /**
      * Test method for {@link java.rmi.server.UID#UID() public java.rmi.server.UID()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -60,14 +47,17 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         final java.rmi.server.UID sut = null; // = new UID();
     }
 
-    @Override
+    /**
+     * Test method for {@link java.rmi.server.UID#UID(short) public java.rmi.server.UID(short)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_UID_short()
     throws Exception {
         // create new instance
-        final Class<? extends java.rmi.server.UID> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.rmi.server.UID.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final java.rmi.server.UID sut = null; // = new UID(short);
     }
 
     /**
@@ -84,6 +74,16 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.rmi.server.UID> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.rmi.server.UID.class.isAssignableFrom(sut));
     }
 
 }

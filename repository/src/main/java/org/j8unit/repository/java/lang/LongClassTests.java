@@ -61,14 +61,130 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Long
         final java.lang.Long sut = null; // = new Long(java.lang.String);
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#bitCount(long) public static int java.lang.Long.bitCount(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_bitCount_long()
     throws Exception {
-        // create new instance
-        final Class<? extends java.lang.Long> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.Long.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#compare(long,long) public static int java.lang.Long.compare(long,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compare_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#compareUnsigned(long,long) public static int
+     * java.lang.Long.compareUnsigned(long,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compareUnsigned_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#decode(java.lang.String) public static java.lang.Long
+     * java.lang.Long.decode(java.lang.String) throws java.lang.NumberFormatException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_decode_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#divideUnsigned(long,long) public static long
+     * java.lang.Long.divideUnsigned(long,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_divideUnsigned_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#getLong(java.lang.String) public static java.lang.Long
+     * java.lang.Long.getLong(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLong_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#getLong(java.lang.String,long) public static java.lang.Long
+     * java.lang.Long.getLong(java.lang.String,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLong_String_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#getLong(java.lang.String,java.lang.Long) public static java.lang.Long
+     * java.lang.Long.getLong(java.lang.String,java.lang.Long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLong_String_Long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -80,6 +196,130 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Long
     @Test
     @Category(Draft.class)
     public default void test_hashCode_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#highestOneBit(long) public static long java.lang.Long.highestOneBit(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_highestOneBit_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#lowestOneBit(long) public static long java.lang.Long.lowestOneBit(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lowestOneBit_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#max(long,long) public static long java.lang.Long.max(long,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_max_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#min(long,long) public static long java.lang.Long.min(long,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_min_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#numberOfLeadingZeros(long) public static int
+     * java.lang.Long.numberOfLeadingZeros(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_numberOfLeadingZeros_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#numberOfTrailingZeros(long) public static int
+     * java.lang.Long.numberOfTrailingZeros(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_numberOfTrailingZeros_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#parseLong(java.lang.String) public static long
+     * java.lang.Long.parseLong(java.lang.String) throws java.lang.NumberFormatException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parseLong_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#parseLong(java.lang.String,int) public static long
+     * java.lang.Long.parseLong(java.lang.String,int) throws java.lang.NumberFormatException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parseLong_String_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,21 +360,6 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Long
 
     /**
      * <p>
-     * Test method for {@link java.lang.Long#min(long,long) public static long java.lang.Long.min(long,long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_min_long_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.Long#remainderUnsigned(long,long) public static long
      * java.lang.Long.remainderUnsigned(long,long)}.
      * </p>
@@ -151,13 +376,13 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Long
 
     /**
      * <p>
-     * Test method for {@link java.lang.Long#lowestOneBit(long) public static long java.lang.Long.lowestOneBit(long)}.
+     * Test method for {@link java.lang.Long#reverse(long) public static long java.lang.Long.reverse(long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_lowestOneBit_long()
+    public default void test_reverse_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -166,45 +391,13 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Long
 
     /**
      * <p>
-     * Test method for {@link java.lang.Long#compare(long,long) public static int java.lang.Long.compare(long,long)}.
+     * Test method for {@link java.lang.Long#reverseBytes(long) public static long java.lang.Long.reverseBytes(long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_compare_long_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#decode(java.lang.String) public static java.lang.Long
-     * java.lang.Long.decode(java.lang.String) throws java.lang.NumberFormatException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_decode_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#toOctalString(long) public static java.lang.String
-     * java.lang.Long.toOctalString(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toOctalString_long()
+    public default void test_reverseBytes_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -221,6 +414,37 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Long
     @Test
     @Category(Draft.class)
     public default void test_rotateLeft_long_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#rotateRight(long,int) public static long
+     * java.lang.Long.rotateRight(long,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_rotateRight_long_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#signum(long) public static int java.lang.Long.signum(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_signum_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -260,14 +484,14 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Long
 
     /**
      * <p>
-     * Test method for {@link java.lang.Long#parseLong(java.lang.String,int) public static long
-     * java.lang.Long.parseLong(java.lang.String,int) throws java.lang.NumberFormatException}.
+     * Test method for {@link java.lang.Long#toHexString(long) public static java.lang.String
+     * java.lang.Long.toHexString(long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parseLong_String_int()
+    public default void test_toHexString_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -276,155 +500,14 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Long
 
     /**
      * <p>
-     * Test method for {@link java.lang.Long#parseLong(java.lang.String) public static long
-     * java.lang.Long.parseLong(java.lang.String) throws java.lang.NumberFormatException}.
+     * Test method for {@link java.lang.Long#toOctalString(long) public static java.lang.String
+     * java.lang.Long.toOctalString(long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parseLong_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#getLong(java.lang.String,java.lang.Long) public static java.lang.Long
-     * java.lang.Long.getLong(java.lang.String,java.lang.Long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLong_String_Long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#getLong(java.lang.String,long) public static java.lang.Long
-     * java.lang.Long.getLong(java.lang.String,long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLong_String_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#getLong(java.lang.String) public static java.lang.Long
-     * java.lang.Long.getLong(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLong_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#compareUnsigned(long,long) public static int
-     * java.lang.Long.compareUnsigned(long,long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compareUnsigned_long_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#highestOneBit(long) public static long java.lang.Long.highestOneBit(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_highestOneBit_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#reverseBytes(long) public static long java.lang.Long.reverseBytes(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_reverseBytes_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#numberOfTrailingZeros(long) public static int
-     * java.lang.Long.numberOfTrailingZeros(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_numberOfTrailingZeros_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#bitCount(long) public static int java.lang.Long.bitCount(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_bitCount_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#toString(long,int) public static java.lang.String
-     * java.lang.Long.toString(long,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString_long_int()
+    public default void test_toOctalString_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -441,6 +524,22 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Long
     @Test
     @Category(Draft.class)
     public default void test_toString_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Long#toString(long,int) public static java.lang.String
+     * java.lang.Long.toString(long,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_long_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -481,53 +580,6 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Long
 
     /**
      * <p>
-     * Test method for {@link java.lang.Long#max(long,long) public static long java.lang.Long.max(long,long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_max_long_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#toHexString(long) public static java.lang.String
-     * java.lang.Long.toHexString(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toHexString_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#rotateRight(long,int) public static long
-     * java.lang.Long.rotateRight(long,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_rotateRight_long_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.Long#valueOf(long) public static java.lang.Long java.lang.Long.valueOf(long)}.
      * </p>
      */
@@ -535,22 +587,6 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Long
     @Test
     @Category(Draft.class)
     public default void test_valueOf_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#valueOf(java.lang.String,int) public static java.lang.Long
-     * java.lang.Long.valueOf(java.lang.String,int) throws java.lang.NumberFormatException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_valueOf_String_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -575,64 +611,28 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Long
 
     /**
      * <p>
-     * Test method for {@link java.lang.Long#signum(long) public static int java.lang.Long.signum(long)}.
+     * Test method for {@link java.lang.Long#valueOf(java.lang.String,int) public static java.lang.Long
+     * java.lang.Long.valueOf(java.lang.String,int) throws java.lang.NumberFormatException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_signum_long()
+    public default void test_valueOf_String_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#reverse(long) public static long java.lang.Long.reverse(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_reverse_long()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#numberOfLeadingZeros(long) public static int
-     * java.lang.Long.numberOfLeadingZeros(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_numberOfLeadingZeros_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Long#divideUnsigned(long,long) public static long
-     * java.lang.Long.divideUnsigned(long,long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_divideUnsigned_long_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.lang.Long> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.Long.class.isAssignableFrom(sut));
     }
 
 }

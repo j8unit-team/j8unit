@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.soap.MimeHeaders#addHeader(java.lang.String,java.lang.String) public void
+     * javax.xml.soap.MimeHeaders.addHeader(java.lang.String,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addHeader_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.soap.MimeHeaders#getAllHeaders() public java.util.Iterator
      * javax.xml.soap.MimeHeaders.getAllHeaders()}.
      * </p>
@@ -39,38 +55,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#removeAllHeaders() public void
-     * javax.xml.soap.MimeHeaders.removeAllHeaders()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeAllHeaders()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#setHeader(java.lang.String,java.lang.String) public void
-     * javax.xml.soap.MimeHeaders.setHeader(java.lang.String,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setHeader_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.soap.MimeHeaders#getHeader(java.lang.String) public java.lang.String[]
      * javax.xml.soap.MimeHeaders.getHeader(java.lang.String)}.
      * </p>
@@ -79,22 +63,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getHeader_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#removeHeader(java.lang.String) public void
-     * javax.xml.soap.MimeHeaders.removeHeader(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeHeader_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,14 +103,46 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.MimeHeaders#addHeader(java.lang.String,java.lang.String) public void
-     * javax.xml.soap.MimeHeaders.addHeader(java.lang.String,java.lang.String)}.
+     * Test method for {@link javax.xml.soap.MimeHeaders#removeAllHeaders() public void
+     * javax.xml.soap.MimeHeaders.removeAllHeaders()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addHeader_String_String()
+    public default void test_removeAllHeaders()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.MimeHeaders#removeHeader(java.lang.String) public void
+     * javax.xml.soap.MimeHeaders.removeHeader(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeHeader_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.MimeHeaders#setHeader(java.lang.String,java.lang.String) public void
+     * javax.xml.soap.MimeHeaders.setHeader(java.lang.String,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setHeader_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

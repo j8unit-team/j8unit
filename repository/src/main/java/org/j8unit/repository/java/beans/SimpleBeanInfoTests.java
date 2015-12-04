@@ -23,49 +23,15 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getEventSetDescriptors() public java.beans.EventSetDescriptor[]
-     * java.beans.SimpleBeanInfo.getEventSetDescriptors()}.
+     * Test method for {@link java.beans.SimpleBeanInfo#getAdditionalBeanInfo() public java.beans.BeanInfo[]
+     * java.beans.SimpleBeanInfo.getAdditionalBeanInfo()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getEventSetDescriptors()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getPropertyDescriptors() public java.beans.PropertyDescriptor[]
-     * java.beans.SimpleBeanInfo.getPropertyDescriptors()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPropertyDescriptors()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getDefaultEventIndex() public int
-     * java.beans.SimpleBeanInfo.getDefaultEventIndex()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getDefaultEventIndex()
+    public default void test_getAdditionalBeanInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,6 +57,57 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
+     * Test method for {@link java.beans.SimpleBeanInfo#getDefaultEventIndex() public int
+     * java.beans.SimpleBeanInfo.getDefaultEventIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getDefaultEventIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.SimpleBeanInfo#getDefaultPropertyIndex() public int
+     * java.beans.SimpleBeanInfo.getDefaultPropertyIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getDefaultPropertyIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.SimpleBeanInfo#getEventSetDescriptors() public java.beans.EventSetDescriptor[]
+     * java.beans.SimpleBeanInfo.getEventSetDescriptors()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getEventSetDescriptors()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.beans.SimpleBeanInfo#getIcon(int) public java.awt.Image
      * java.beans.SimpleBeanInfo.getIcon(int)}.
      * </p>
@@ -100,22 +117,6 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
     @Category(Draft.class)
     @Override
     public default void test_getIcon_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#loadImage(java.lang.String) public java.awt.Image
-     * java.beans.SimpleBeanInfo.loadImage(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_loadImage_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -141,15 +142,15 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getAdditionalBeanInfo() public java.beans.BeanInfo[]
-     * java.beans.SimpleBeanInfo.getAdditionalBeanInfo()}.
+     * Test method for {@link java.beans.SimpleBeanInfo#getPropertyDescriptors() public java.beans.PropertyDescriptor[]
+     * java.beans.SimpleBeanInfo.getPropertyDescriptors()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAdditionalBeanInfo()
+    public default void test_getPropertyDescriptors()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -158,15 +159,14 @@ extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.beans.SimpleBeanInfo#getDefaultPropertyIndex() public int
-     * java.beans.SimpleBeanInfo.getDefaultPropertyIndex()}.
+     * Test method for {@link java.beans.SimpleBeanInfo#loadImage(java.lang.String) public java.awt.Image
+     * java.beans.SimpleBeanInfo.loadImage(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getDefaultPropertyIndex()
+    public default void test_loadImage_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

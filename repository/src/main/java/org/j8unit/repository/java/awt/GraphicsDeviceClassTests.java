@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface GraphicsDeviceClassTests<SUT extends Class<? extends java.awt.GraphicsDevice>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.GraphicsDevice> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.GraphicsDevice.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link java.awt.GraphicsDevice$WindowTranslucency class
@@ -75,14 +65,21 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public static abstract interface WindowTranslucencyClassTests<SUT extends Class<? extends java.awt.GraphicsDevice.WindowTranslucency>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.GraphicsDevice.WindowTranslucency> {
 
-        @Override
+        /**
+         * <p>
+         * Test method for {@link java.awt.GraphicsDevice.WindowTranslucency#valueOf(java.lang.String) public static
+         * java.awt.GraphicsDevice$WindowTranslucency
+         * java.awt.GraphicsDevice$WindowTranslucency.valueOf(java.lang.String)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @Category(Draft.class)
+        public default void test_valueOf_String()
         throws Exception {
-            // create new instance
-            final Class<? extends java.awt.GraphicsDevice.WindowTranslucency> sut = createNewSUT();
-            // assert assignability
-            assertTrue(java.awt.GraphicsDevice.WindowTranslucency.class.isAssignableFrom(sut));
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
         }
 
         /**
@@ -101,23 +98,26 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for {@link java.awt.GraphicsDevice.WindowTranslucency#valueOf(java.lang.String) public static
-         * java.awt.GraphicsDevice$WindowTranslucency
-         * java.awt.GraphicsDevice$WindowTranslucency.valueOf(java.lang.String)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
+        public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
+            // create new instance
+            final Class<? extends java.awt.GraphicsDevice.WindowTranslucency> sut = createNewSUT();
+            // assert assignability
+            assertTrue(java.awt.GraphicsDevice.WindowTranslucency.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.GraphicsDevice> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.GraphicsDevice.class.isAssignableFrom(sut));
     }
 
 }

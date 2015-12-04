@@ -37,19 +37,34 @@ public abstract interface InvalidAlgorithmParameterExceptionClassTests<SUT exten
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.security.InvalidAlgorithmParameterException#InvalidAlgorithmParameterException(java.lang.Throwable)
-     * public java.security.InvalidAlgorithmParameterException(java.lang.Throwable)}.
+     * Test method for {@link java.security.InvalidAlgorithmParameterException#InvalidAlgorithmParameterException()
+     * public java.security.InvalidAlgorithmParameterException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_InvalidAlgorithmParameterException_Throwable()
+    public default void create_InvalidAlgorithmParameterException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.security.InvalidAlgorithmParameterException sut = null; // = new
-                                                                           // InvalidAlgorithmParameterException(java.lang.Throwable);
+                                                                           // InvalidAlgorithmParameterException();
+    }
+
+    /**
+     * Test method for
+     * {@link java.security.InvalidAlgorithmParameterException#InvalidAlgorithmParameterException(java.lang.String)
+     * public java.security.InvalidAlgorithmParameterException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InvalidAlgorithmParameterException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.InvalidAlgorithmParameterException sut = null; // = new
+                                                                           // InvalidAlgorithmParameterException(java.lang.String);
     }
 
     /**
@@ -70,33 +85,18 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
 
     /**
      * Test method for
-     * {@link java.security.InvalidAlgorithmParameterException#InvalidAlgorithmParameterException(java.lang.String)
-     * public java.security.InvalidAlgorithmParameterException(java.lang.String)}.
+     * {@link java.security.InvalidAlgorithmParameterException#InvalidAlgorithmParameterException(java.lang.Throwable)
+     * public java.security.InvalidAlgorithmParameterException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_InvalidAlgorithmParameterException_String()
+    public default void create_InvalidAlgorithmParameterException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.security.InvalidAlgorithmParameterException sut = null; // = new
-                                                                           // InvalidAlgorithmParameterException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.security.InvalidAlgorithmParameterException#InvalidAlgorithmParameterException()
-     * public java.security.InvalidAlgorithmParameterException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InvalidAlgorithmParameterException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.InvalidAlgorithmParameterException sut = null; // = new
-                                                                           // InvalidAlgorithmParameterException();
+                                                                           // InvalidAlgorithmParameterException(java.lang.Throwable);
     }
 
     @Override

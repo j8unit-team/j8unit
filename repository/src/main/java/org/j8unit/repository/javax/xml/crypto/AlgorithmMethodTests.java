@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.AlgorithmMethod#getParameterSpec() public abstract
-     * java.security.spec.AlgorithmParameterSpec javax.xml.crypto.AlgorithmMethod.getParameterSpec()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParameterSpec()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.crypto.AlgorithmMethod#getAlgorithm() public abstract java.lang.String
      * javax.xml.crypto.AlgorithmMethod.getAlgorithm()}.
      * </p>
@@ -48,6 +32,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAlgorithm()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.AlgorithmMethod#getParameterSpec() public abstract
+     * java.security.spec.AlgorithmParameterSpec javax.xml.crypto.AlgorithmMethod.getParameterSpec()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParameterSpec()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

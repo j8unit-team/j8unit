@@ -39,6 +39,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.security.cert.TrustAnchor#getCAName() public final java.lang.String
+     * java.security.cert.TrustAnchor.getCAName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCAName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.security.cert.TrustAnchor#getCAPublicKey() public final java.security.PublicKey
      * java.security.cert.TrustAnchor.getCAPublicKey()}.
      * </p>
@@ -71,23 +87,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.TrustAnchor#toString() public java.lang.String
-     * java.security.cert.TrustAnchor.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.cert.TrustAnchor#getTrustedCert() public final
      * java.security.cert.X509Certificate java.security.cert.TrustAnchor.getTrustedCert()}.
      * </p>
@@ -104,14 +103,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.TrustAnchor#getCAName() public final java.lang.String
-     * java.security.cert.TrustAnchor.getCAName()}.
+     * Test method for {@link java.security.cert.TrustAnchor#toString() public java.lang.String
+     * java.security.cert.TrustAnchor.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCAName()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.naming.ldap.Control#getEncodedValue() public abstract byte[]
+     * javax.naming.ldap.Control.getEncodedValue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEncodedValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.naming.ldap.Control#getID() public abstract java.lang.String
      * javax.naming.ldap.Control.getID()}.
      * </p>
@@ -47,22 +63,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isCritical()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.ldap.Control#getEncodedValue() public abstract byte[]
-     * javax.naming.ldap.Control.getEncodedValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEncodedValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

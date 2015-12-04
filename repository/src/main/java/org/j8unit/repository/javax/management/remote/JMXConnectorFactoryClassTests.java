@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface JMXConnectorFactoryClassTests<SUT extends Class<? extends javax.management.remote.JMXConnectorFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.management.remote.JMXConnectorFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.management.remote.JMXConnectorFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.management.remote.JMXConnectorFactory#connect(javax.management.remote.JMXServiceURL)
@@ -99,6 +89,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.management.remote.JMXConnectorFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.management.remote.JMXConnectorFactory.class.isAssignableFrom(sut));
     }
 
 }

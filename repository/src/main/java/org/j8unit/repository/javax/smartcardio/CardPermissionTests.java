@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.smartcardio.CardPermission#hashCode() public int
-     * javax.smartcardio.CardPermission.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.smartcardio.CardPermission#equals(java.lang.Object) public boolean
      * javax.smartcardio.CardPermission.equals(java.lang.Object)}.
      * </p>
@@ -66,6 +49,23 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getActions()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.CardPermission#hashCode() public int
+     * javax.smartcardio.CardPermission.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

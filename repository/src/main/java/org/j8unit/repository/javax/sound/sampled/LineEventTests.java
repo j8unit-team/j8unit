@@ -23,71 +23,6 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.LineEvent#getType() public final javax.sound.sampled.LineEvent$Type
-     * javax.sound.sampled.LineEvent.getType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.LineEvent#toString() public java.lang.String
-     * javax.sound.sampled.LineEvent.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.LineEvent#getLine() public final javax.sound.sampled.Line
-     * javax.sound.sampled.LineEvent.getLine()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLine()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.LineEvent#getFramePosition() public final long
-     * javax.sound.sampled.LineEvent.getFramePosition()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFramePosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test class for {@link javax.sound.sampled.LineEvent$Type class javax.sound.sampled.LineEvent$Type}, containing
      * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
      * </p>
@@ -152,6 +87,71 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
             assert sut != null;
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.LineEvent#getFramePosition() public final long
+     * javax.sound.sampled.LineEvent.getFramePosition()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFramePosition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.LineEvent#getLine() public final javax.sound.sampled.Line
+     * javax.sound.sampled.LineEvent.getLine()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLine()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.LineEvent#getType() public final javax.sound.sampled.LineEvent$Type
+     * javax.sound.sampled.LineEvent.getType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.LineEvent#toString() public java.lang.String
+     * javax.sound.sampled.LineEvent.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

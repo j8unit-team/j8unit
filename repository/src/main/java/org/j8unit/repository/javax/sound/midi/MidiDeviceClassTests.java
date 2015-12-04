@@ -33,16 +33,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface MidiDeviceClassTests<SUT extends Class<? extends javax.sound.midi.MidiDevice>>
 extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.sound.midi.MidiDevice> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.sound.midi.MidiDevice.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.sound.midi.MidiDevice$Info class javax.sound.midi.MidiDevice$Info}, containing all
@@ -82,6 +72,16 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
             assertTrue(javax.sound.midi.MidiDevice.Info.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.sound.midi.MidiDevice> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.sound.midi.MidiDevice.class.isAssignableFrom(sut));
     }
 
 }

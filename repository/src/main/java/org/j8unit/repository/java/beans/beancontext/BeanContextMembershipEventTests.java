@@ -24,22 +24,6 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link java.beans.beancontext.BeanContextMembershipEvent#toArray() public java.lang.Object[]
-     * java.beans.beancontext.BeanContextMembershipEvent.toArray()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.beans.beancontext.BeanContextMembershipEvent#contains(java.lang.Object) public
      * boolean java.beans.beancontext.BeanContextMembershipEvent.contains(java.lang.Object)}.
      * </p>
@@ -80,6 +64,22 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> 
     @Test
     @Category(Draft.class)
     public default void test_size()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.beancontext.BeanContextMembershipEvent#toArray() public java.lang.Object[]
+     * java.beans.beancontext.BeanContextMembershipEvent.toArray()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

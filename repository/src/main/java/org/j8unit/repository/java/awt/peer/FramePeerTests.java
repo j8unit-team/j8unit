@@ -39,54 +39,6 @@ extends org.j8unit.repository.java.awt.peer.WindowPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.FramePeer#setState(int) public abstract void
-     * java.awt.peer.FramePeer.setState(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setState_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.peer.FramePeer#setBoundsPrivate(int,int,int,int) public abstract void
-     * java.awt.peer.FramePeer.setBoundsPrivate(int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBoundsPrivate_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.peer.FramePeer#setTitle(java.lang.String) public abstract void
-     * java.awt.peer.FramePeer.setTitle(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTitle_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.peer.FramePeer#getBoundsPrivate() public abstract java.awt.Rectangle
      * java.awt.peer.FramePeer.getBoundsPrivate()}.
      * </p>
@@ -95,22 +47,6 @@ extends org.j8unit.repository.java.awt.peer.WindowPeerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getBoundsPrivate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.peer.FramePeer#setResizable(boolean) public abstract void
-     * java.awt.peer.FramePeer.setResizable(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setResizable_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,14 +71,14 @@ extends org.j8unit.repository.java.awt.peer.WindowPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.FramePeer#setMenuBar(java.awt.MenuBar) public abstract void
-     * java.awt.peer.FramePeer.setMenuBar(java.awt.MenuBar)}.
+     * Test method for {@link java.awt.peer.FramePeer#setBoundsPrivate(int,int,int,int) public abstract void
+     * java.awt.peer.FramePeer.setBoundsPrivate(int,int,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setMenuBar_MenuBar()
+    public default void test_setBoundsPrivate_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -159,6 +95,70 @@ extends org.j8unit.repository.java.awt.peer.WindowPeerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setMaximizedBounds_Rectangle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.FramePeer#setMenuBar(java.awt.MenuBar) public abstract void
+     * java.awt.peer.FramePeer.setMenuBar(java.awt.MenuBar)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMenuBar_MenuBar()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.FramePeer#setResizable(boolean) public abstract void
+     * java.awt.peer.FramePeer.setResizable(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setResizable_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.FramePeer#setState(int) public abstract void
+     * java.awt.peer.FramePeer.setState(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setState_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.FramePeer#setTitle(java.lang.String) public abstract void
+     * java.awt.peer.FramePeer.setTitle(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTitle_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

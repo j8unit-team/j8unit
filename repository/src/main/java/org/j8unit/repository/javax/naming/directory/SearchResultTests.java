@@ -23,15 +23,14 @@ extends org.j8unit.repository.javax.naming.BindingTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.SearchResult#toString() public java.lang.String
-     * javax.naming.directory.SearchResult.toString()}.
+     * Test method for {@link javax.naming.directory.SearchResult#getAttributes() public
+     * javax.naming.directory.Attributes javax.naming.directory.SearchResult.getAttributes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getAttributes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,14 +55,15 @@ extends org.j8unit.repository.javax.naming.BindingTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.SearchResult#getAttributes() public
-     * javax.naming.directory.Attributes javax.naming.directory.SearchResult.getAttributes()}.
+     * Test method for {@link javax.naming.directory.SearchResult#toString() public java.lang.String
+     * javax.naming.directory.SearchResult.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAttributes()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,22 +24,6 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny.DynValueCommonOperations#set_to_value() public abstract void
-     * org.omg.DynamicAny.DynValueCommonOperations.set_to_value()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_set_to_value()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.DynamicAny.DynValueCommonOperations#is_null() public abstract boolean
      * org.omg.DynamicAny.DynValueCommonOperations.is_null()}.
      * </p>
@@ -64,6 +48,22 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_set_to_null()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynValueCommonOperations#set_to_value() public abstract void
+     * org.omg.DynamicAny.DynValueCommonOperations.set_to_value()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_set_to_value()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

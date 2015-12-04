@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.util.concurrent.Exchanger#exchange(java.lang.Object) public java.lang.Object
+     * java.util.concurrent.Exchanger.exchange(java.lang.Object) throws java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_exchange_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link java.util.concurrent.Exchanger#exchange(java.lang.Object,long,java.util.concurrent.TimeUnit) public
      * java.lang.Object java.util.concurrent.Exchanger.exchange(java.lang.Object,long,java.util.concurrent.TimeUnit)
@@ -33,22 +49,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_exchange_Object_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.Exchanger#exchange(java.lang.Object) public java.lang.Object
-     * java.util.concurrent.Exchanger.exchange(java.lang.Object) throws java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_exchange_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

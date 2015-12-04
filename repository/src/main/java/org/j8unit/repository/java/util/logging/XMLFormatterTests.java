@@ -23,15 +23,15 @@ extends org.j8unit.repository.java.util.logging.FormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.XMLFormatter#getTail(java.util.logging.Handler) public java.lang.String
-     * java.util.logging.XMLFormatter.getTail(java.util.logging.Handler)}.
+     * Test method for {@link java.util.logging.XMLFormatter#format(java.util.logging.LogRecord) public java.lang.String
+     * java.util.logging.XMLFormatter.format(java.util.logging.LogRecord)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getTail_Handler()
+    public default void test_format_LogRecord()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,15 +57,15 @@ extends org.j8unit.repository.java.util.logging.FormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.XMLFormatter#format(java.util.logging.LogRecord) public java.lang.String
-     * java.util.logging.XMLFormatter.format(java.util.logging.LogRecord)}.
+     * Test method for {@link java.util.logging.XMLFormatter#getTail(java.util.logging.Handler) public java.lang.String
+     * java.util.logging.XMLFormatter.getTail(java.util.logging.Handler)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_format_LogRecord()
+    public default void test_getTail_Handler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -59,22 +59,6 @@ extends org.j8unit.repository.javax.xml.ws.handler.MessageContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.handler.soap.SOAPMessageContext#setMessage(javax.xml.soap.SOAPMessage) public
-     * abstract void javax.xml.ws.handler.soap.SOAPMessageContext.setMessage(javax.xml.soap.SOAPMessage)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMessage_SOAPMessage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.ws.handler.soap.SOAPMessageContext#getRoles() public abstract java.util.Set
      * javax.xml.ws.handler.soap.SOAPMessageContext.getRoles()}.
      * </p>
@@ -83,6 +67,22 @@ extends org.j8unit.repository.javax.xml.ws.handler.MessageContextTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getRoles()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.handler.soap.SOAPMessageContext#setMessage(javax.xml.soap.SOAPMessage) public
+     * abstract void javax.xml.ws.handler.soap.SOAPMessageContext.setMessage(javax.xml.soap.SOAPMessage)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMessage_SOAPMessage()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

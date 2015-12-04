@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Byte>, or
 
     /**
      * <p>
-     * Test method for {@link java.lang.Byte#longValue() public long java.lang.Byte.longValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_longValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.Byte#byteValue() public byte java.lang.Byte.byteValue()}.
      * </p>
      */
@@ -47,54 +31,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Byte>, or
     @Category(Draft.class)
     @Override
     public default void test_byteValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Byte#floatValue() public float java.lang.Byte.floatValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_floatValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Byte#toString() public java.lang.String java.lang.Byte.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Byte#shortValue() public short java.lang.Byte.shortValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_shortValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,6 +71,39 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Byte>, or
 
     /**
      * <p>
+     * Test method for {@link java.lang.Byte#equals(java.lang.Object) public boolean
+     * java.lang.Byte.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Byte#floatValue() public float java.lang.Byte.floatValue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_floatValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.lang.Byte#hashCode() public int java.lang.Byte.hashCode()}.
      * </p>
      */
@@ -167,15 +136,46 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Byte>, or
 
     /**
      * <p>
-     * Test method for {@link java.lang.Byte#equals(java.lang.Object) public boolean
-     * java.lang.Byte.equals(java.lang.Object)}.
+     * Test method for {@link java.lang.Byte#longValue() public long java.lang.Byte.longValue()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_longValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Byte#shortValue() public short java.lang.Byte.shortValue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_shortValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Byte#toString() public java.lang.String java.lang.Byte.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

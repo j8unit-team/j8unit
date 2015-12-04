@@ -23,14 +23,31 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.Selector#selectedKeys() public abstract java.util.Set
-     * java.nio.channels.Selector.selectedKeys()}.
+     * Test method for {@link java.nio.channels.Selector#close() public abstract void java.nio.channels.Selector.close()
+     * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_selectedKeys()
+    @Override
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.Selector#isOpen() public abstract boolean
+     * java.nio.channels.Selector.isOpen()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isOpen()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,22 +72,6 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.Selector#wakeup() public abstract java.nio.channels.Selector
-     * java.nio.channels.Selector.wakeup()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wakeup()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.channels.Selector#provider() public abstract
      * java.nio.channels.spi.SelectorProvider java.nio.channels.Selector.provider()}.
      * </p>
@@ -79,22 +80,6 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_provider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.Selector#isOpen() public abstract boolean
-     * java.nio.channels.Selector.isOpen()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isOpen()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,6 +120,22 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
+     * Test method for {@link java.nio.channels.Selector#selectedKeys() public abstract java.util.Set
+     * java.nio.channels.Selector.selectedKeys()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_selectedKeys()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.channels.Selector#selectNow() public abstract int
      * java.nio.channels.Selector.selectNow() throws java.io.IOException}.
      * </p>
@@ -151,15 +152,14 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.Selector#close() public abstract void java.nio.channels.Selector.close()
-     * throws java.io.IOException}.
+     * Test method for {@link java.nio.channels.Selector#wakeup() public abstract java.nio.channels.Selector
+     * java.nio.channels.Selector.wakeup()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_close()
+    public default void test_wakeup()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

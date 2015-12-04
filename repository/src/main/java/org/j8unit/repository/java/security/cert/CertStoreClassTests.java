@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface CertStoreClassTests<SUT extends Class<? extends java.security.cert.CertStore>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.security.cert.CertStore> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.cert.CertStore.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.security.cert.CertStore#getDefaultType() public static final java.lang.String
@@ -83,6 +73,25 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
+     * {@link java.security.cert.CertStore#getInstance(java.lang.String,java.security.cert.CertStoreParameters,java.security.Provider)
+     * public static java.security.cert.CertStore
+     * java.security.cert.CertStore.getInstance(java.lang.String,java.security.cert.CertStoreParameters,java.security.Provider)
+     * throws java.security.NoSuchAlgorithmException,java.security.InvalidAlgorithmParameterException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInstance_String_CertStoreParameters_Provider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link java.security.cert.CertStore#getInstance(java.lang.String,java.security.cert.CertStoreParameters,java.lang.String)
      * public static java.security.cert.CertStore
      * java.security.cert.CertStore.getInstance(java.lang.String,java.security.cert.CertStoreParameters,java.lang.String)
@@ -101,23 +110,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for
-     * {@link java.security.cert.CertStore#getInstance(java.lang.String,java.security.cert.CertStoreParameters,java.security.Provider)
-     * public static java.security.cert.CertStore
-     * java.security.cert.CertStore.getInstance(java.lang.String,java.security.cert.CertStoreParameters,java.security.Provider)
-     * throws java.security.NoSuchAlgorithmException,java.security.InvalidAlgorithmParameterException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getInstance_String_CertStoreParameters_Provider()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.security.cert.CertStore> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.cert.CertStore.class.isAssignableFrom(sut));
     }
 
 }

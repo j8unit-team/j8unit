@@ -36,6 +36,19 @@ public abstract interface SAXSourceClassTests<SUT extends Class<? extends javax.
 extends org.j8unit.repository.javax.xml.transform.SourceClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.xml.transform.sax.SAXSource#SAXSource() public javax.xml.transform.sax.SAXSource()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SAXSource()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.transform.sax.SAXSource sut = null; // = new SAXSource();
+    }
+
+    /**
      * Test method for {@link javax.xml.transform.sax.SAXSource#SAXSource(org.xml.sax.InputSource) public
      * javax.xml.transform.sax.SAXSource(org.xml.sax.InputSource)}.
      */
@@ -65,29 +78,6 @@ extends org.j8unit.repository.javax.xml.transform.SourceClassTests<SUT>, org.j8u
     }
 
     /**
-     * Test method for {@link javax.xml.transform.sax.SAXSource#SAXSource() public javax.xml.transform.sax.SAXSource()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SAXSource()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.transform.sax.SAXSource sut = null; // = new SAXSource();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.transform.sax.SAXSource> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.transform.sax.SAXSource.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.xml.transform.sax.SAXSource#sourceToInputSource(javax.xml.transform.Source) public
      * static org.xml.sax.InputSource javax.xml.transform.sax.SAXSource.sourceToInputSource(javax.xml.transform.Source)}
@@ -102,6 +92,16 @@ extends org.j8unit.repository.javax.xml.transform.SourceClassTests<SUT>, org.j8u
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.transform.sax.SAXSource> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.transform.sax.SAXSource.class.isAssignableFrom(sut));
     }
 
 }

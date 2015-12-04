@@ -49,33 +49,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.DynamicAny.NameValuePairSeqHelper sut = null; // = new NameValuePairSeqHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.DynamicAny.NameValuePairSeqHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.DynamicAny.NameValuePairSeqHelper.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.NameValuePairSeqHelper#read(org.omg.CORBA.portable.InputStream) public
-     * static org.omg.DynamicAny.NameValuePair[]
-     * org.omg.DynamicAny.NameValuePairSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link org.omg.DynamicAny.NameValuePairSeqHelper#extract(org.omg.CORBA.Any) public static
@@ -94,33 +67,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.DynamicAny.NameValuePairSeqHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.NameValuePair[])
-     * public static void
-     * org.omg.DynamicAny.NameValuePairSeqHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.NameValuePair[])}
-     * .
+     * Test method for {@link org.omg.DynamicAny.NameValuePairSeqHelper#id() public static java.lang.String
+     * org.omg.DynamicAny.NameValuePairSeqHelper.id()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_OutputStream_NameValuePairArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.NameValuePairSeqHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.DynamicAny.NameValuePairSeqHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
+    public default void test_id()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -147,18 +101,64 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny.NameValuePairSeqHelper#id() public static java.lang.String
-     * org.omg.DynamicAny.NameValuePairSeqHelper.id()}.
+     * Test method for {@link org.omg.DynamicAny.NameValuePairSeqHelper#read(org.omg.CORBA.portable.InputStream) public
+     * static org.omg.DynamicAny.NameValuePair[]
+     * org.omg.DynamicAny.NameValuePairSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_id()
+    public default void test_read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.NameValuePairSeqHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.DynamicAny.NameValuePairSeqHelper.type()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_type()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.DynamicAny.NameValuePairSeqHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.NameValuePair[])
+     * public static void
+     * org.omg.DynamicAny.NameValuePairSeqHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.NameValuePair[])}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_NameValuePairArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.DynamicAny.NameValuePairSeqHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.DynamicAny.NameValuePairSeqHelper.class.isAssignableFrom(sut));
     }
 
 }

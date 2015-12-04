@@ -35,29 +35,17 @@ import org.junit.experimental.categories.Category;
 public abstract interface ProxyClassTests<SUT extends Class<? extends java.lang.reflect.Proxy>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.lang.reflect.Proxy> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.reflect.Proxy.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for
-     * {@link java.lang.reflect.Proxy#newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)
-     * public static java.lang.Object
-     * java.lang.reflect.Proxy.newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)
-     * throws java.lang.IllegalArgumentException}.
+     * Test method for {@link java.lang.reflect.Proxy#getInvocationHandler(java.lang.Object) public static
+     * java.lang.reflect.InvocationHandler java.lang.reflect.Proxy.getInvocationHandler(java.lang.Object) throws
+     * java.lang.IllegalArgumentException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newProxyInstance_ClassLoader_ClassArray_InvocationHandler()
+    public default void test_getInvocationHandler_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -99,19 +87,31 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Proxy#getInvocationHandler(java.lang.Object) public static
-     * java.lang.reflect.InvocationHandler java.lang.reflect.Proxy.getInvocationHandler(java.lang.Object) throws
-     * java.lang.IllegalArgumentException}.
+     * Test method for
+     * {@link java.lang.reflect.Proxy#newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)
+     * public static java.lang.Object
+     * java.lang.reflect.Proxy.newProxyInstance(java.lang.ClassLoader,java.lang.Class[],java.lang.reflect.InvocationHandler)
+     * throws java.lang.IllegalArgumentException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInvocationHandler_Object()
+    public default void test_newProxyInstance_ClassLoader_ClassArray_InvocationHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.lang.reflect.Proxy> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.reflect.Proxy.class.isAssignableFrom(sut));
     }
 
 }

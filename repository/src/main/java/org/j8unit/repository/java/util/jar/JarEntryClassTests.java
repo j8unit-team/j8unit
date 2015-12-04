@@ -50,20 +50,6 @@ extends org.j8unit.repository.java.util.zip.ZipEntryClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.util.jar.JarEntry#JarEntry(java.util.zip.ZipEntry) public
-     * java.util.jar.JarEntry(java.util.zip.ZipEntry)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JarEntry_ZipEntry()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.jar.JarEntry sut = null; // = new JarEntry(java.util.zip.ZipEntry);
-    }
-
-    /**
      * Test method for {@link java.util.jar.JarEntry#JarEntry(java.lang.String) public
      * java.util.jar.JarEntry(java.lang.String)}.
      */
@@ -75,6 +61,20 @@ extends org.j8unit.repository.java.util.zip.ZipEntryClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.jar.JarEntry sut = null; // = new JarEntry(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.util.jar.JarEntry#JarEntry(java.util.zip.ZipEntry) public
+     * java.util.jar.JarEntry(java.util.zip.ZipEntry)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JarEntry_ZipEntry()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.jar.JarEntry sut = null; // = new JarEntry(java.util.zip.ZipEntry);
     }
 
     @Override

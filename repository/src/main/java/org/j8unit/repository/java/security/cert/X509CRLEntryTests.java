@@ -23,14 +23,15 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.X509CRLEntry#getSerialNumber() public abstract java.math.BigInteger
-     * java.security.cert.X509CRLEntry.getSerialNumber()}.
+     * Test method for {@link java.security.cert.X509CRLEntry#equals(java.lang.Object) public boolean
+     * java.security.cert.X509CRLEntry.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSerialNumber()
+    @Override
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -47,6 +48,70 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_getCertificateIssuer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRLEntry#getEncoded() public abstract byte[]
+     * java.security.cert.X509CRLEntry.getEncoded() throws java.security.cert.CRLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEncoded()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRLEntry#getRevocationDate() public abstract java.util.Date
+     * java.security.cert.X509CRLEntry.getRevocationDate()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRevocationDate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRLEntry#getRevocationReason() public java.security.cert.CRLReason
+     * java.security.cert.X509CRLEntry.getRevocationReason()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRevocationReason()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRLEntry#getSerialNumber() public abstract java.math.BigInteger
+     * java.security.cert.X509CRLEntry.getSerialNumber()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSerialNumber()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,39 +153,6 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.X509CRLEntry#getEncoded() public abstract byte[]
-     * java.security.cert.X509CRLEntry.getEncoded() throws java.security.cert.CRLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEncoded()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRLEntry#equals(java.lang.Object) public boolean
-     * java.security.cert.X509CRLEntry.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.cert.X509CRLEntry#toString() public abstract java.lang.String
      * java.security.cert.X509CRLEntry.toString()}.
      * </p>
@@ -130,38 +162,6 @@ extends org.j8unit.repository.java.security.cert.X509ExtensionTests<SUT>, org.j8
     @Category(Draft.class)
     @Override
     public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRLEntry#getRevocationDate() public abstract java.util.Date
-     * java.security.cert.X509CRLEntry.getRevocationDate()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRevocationDate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRLEntry#getRevocationReason() public java.security.cert.CRLReason
-     * java.security.cert.X509CRLEntry.getRevocationReason()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRevocationReason()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

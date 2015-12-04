@@ -23,80 +23,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#setAccessibleName(java.lang.String) public void
-     * javax.accessibility.AccessibleContext.setAccessibleName(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAccessibleName_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleValue() public
-     * javax.accessibility.AccessibleValue javax.accessibility.AccessibleContext.getAccessibleValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#setAccessibleParent(javax.accessibility.Accessible)
-     * public void javax.accessibility.AccessibleContext.setAccessibleParent(javax.accessibility.Accessible)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAccessibleParent_Accessible()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleText() public
-     * javax.accessibility.AccessibleText javax.accessibility.AccessibleContext.getAccessibleText()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleText()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
-     * {@link javax.accessibility.AccessibleContext#removePropertyChangeListener(java.beans.PropertyChangeListener)
-     * public void
-     * javax.accessibility.AccessibleContext.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * {@link javax.accessibility.AccessibleContext#addPropertyChangeListener(java.beans.PropertyChangeListener) public
+     * void javax.accessibility.AccessibleContext.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removePropertyChangeListener_PropertyChangeListener()
+    public default void test_addPropertyChangeListener_PropertyChangeListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -123,14 +58,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleStateSet() public abstract
-     * javax.accessibility.AccessibleStateSet javax.accessibility.AccessibleContext.getAccessibleStateSet()}.
+     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleAction() public
+     * javax.accessibility.AccessibleAction javax.accessibility.AccessibleContext.getAccessibleAction()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAccessibleStateSet()
+    public default void test_getAccessibleAction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -139,14 +74,94 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleRelationSet() public
-     * javax.accessibility.AccessibleRelationSet javax.accessibility.AccessibleContext.getAccessibleRelationSet()}.
+     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleChild(int) public abstract
+     * javax.accessibility.Accessible javax.accessibility.AccessibleContext.getAccessibleChild(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAccessibleRelationSet()
+    public default void test_getAccessibleChild_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleChildrenCount() public abstract int
+     * javax.accessibility.AccessibleContext.getAccessibleChildrenCount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleChildrenCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleComponent() public
+     * javax.accessibility.AccessibleComponent javax.accessibility.AccessibleContext.getAccessibleComponent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleDescription() public java.lang.String
+     * javax.accessibility.AccessibleContext.getAccessibleDescription()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleDescription()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleEditableText() public
+     * javax.accessibility.AccessibleEditableText javax.accessibility.AccessibleContext.getAccessibleEditableText()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleEditableText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleIcon() public
+     * javax.accessibility.AccessibleIcon[] javax.accessibility.AccessibleContext.getAccessibleIcon()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleIcon()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -203,159 +218,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleComponent() public
-     * javax.accessibility.AccessibleComponent javax.accessibility.AccessibleContext.getAccessibleComponent()}.
+     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleRelationSet() public
+     * javax.accessibility.AccessibleRelationSet javax.accessibility.AccessibleContext.getAccessibleRelationSet()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAccessibleComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.accessibility.AccessibleContext#addPropertyChangeListener(java.beans.PropertyChangeListener) public
-     * void javax.accessibility.AccessibleContext.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addPropertyChangeListener_PropertyChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getLocale() public abstract java.util.Locale
-     * javax.accessibility.AccessibleContext.getLocale() throws java.awt.IllegalComponentStateException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleChildrenCount() public abstract int
-     * javax.accessibility.AccessibleContext.getAccessibleChildrenCount()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleChildrenCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleDescription() public java.lang.String
-     * javax.accessibility.AccessibleContext.getAccessibleDescription()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleDescription()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleAction() public
-     * javax.accessibility.AccessibleAction javax.accessibility.AccessibleContext.getAccessibleAction()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleAction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleTable() public
-     * javax.accessibility.AccessibleTable javax.accessibility.AccessibleContext.getAccessibleTable()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleTable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleEditableText() public
-     * javax.accessibility.AccessibleEditableText javax.accessibility.AccessibleContext.getAccessibleEditableText()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleEditableText()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleChild(int) public abstract
-     * javax.accessibility.Accessible javax.accessibility.AccessibleContext.getAccessibleChild(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleChild_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#setAccessibleDescription(java.lang.String) public
-     * void javax.accessibility.AccessibleContext.setAccessibleDescription(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAccessibleDescription_String()
+    public default void test_getAccessibleRelationSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -396,14 +266,144 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleIcon() public
-     * javax.accessibility.AccessibleIcon[] javax.accessibility.AccessibleContext.getAccessibleIcon()}.
+     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleStateSet() public abstract
+     * javax.accessibility.AccessibleStateSet javax.accessibility.AccessibleContext.getAccessibleStateSet()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAccessibleIcon()
+    public default void test_getAccessibleStateSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleTable() public
+     * javax.accessibility.AccessibleTable javax.accessibility.AccessibleContext.getAccessibleTable()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleTable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleText() public
+     * javax.accessibility.AccessibleText javax.accessibility.AccessibleContext.getAccessibleText()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleContext#getAccessibleValue() public
+     * javax.accessibility.AccessibleValue javax.accessibility.AccessibleContext.getAccessibleValue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleContext#getLocale() public abstract java.util.Locale
+     * javax.accessibility.AccessibleContext.getLocale() throws java.awt.IllegalComponentStateException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.accessibility.AccessibleContext#removePropertyChangeListener(java.beans.PropertyChangeListener)
+     * public void
+     * javax.accessibility.AccessibleContext.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removePropertyChangeListener_PropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleContext#setAccessibleDescription(java.lang.String) public
+     * void javax.accessibility.AccessibleContext.setAccessibleDescription(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAccessibleDescription_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleContext#setAccessibleName(java.lang.String) public void
+     * javax.accessibility.AccessibleContext.setAccessibleName(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAccessibleName_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleContext#setAccessibleParent(javax.accessibility.Accessible)
+     * public void javax.accessibility.AccessibleContext.setAccessibleParent(javax.accessibility.Accessible)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAccessibleParent_Accessible()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

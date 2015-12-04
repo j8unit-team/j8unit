@@ -36,70 +36,6 @@ public abstract interface SQLNonTransientConnectionExceptionClassTests<SUT exten
 extends org.j8unit.repository.java.sql.SQLNonTransientExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.sql.SQLNonTransientConnectionException#SQLNonTransientConnectionException(java.lang.Throwable) public
-     * java.sql.SQLNonTransientConnectionException(java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLNonTransientConnectionException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLNonTransientConnectionException sut = null; // = new
-                                                                      // SQLNonTransientConnectionException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLNonTransientConnectionException#SQLNonTransientConnectionException(java.lang.String,java.lang.Throwable)
-     * public java.sql.SQLNonTransientConnectionException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLNonTransientConnectionException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLNonTransientConnectionException sut = null; // = new
-                                                                      // SQLNonTransientConnectionException(java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLNonTransientConnectionException#SQLNonTransientConnectionException(java.lang.String,java.lang.String,java.lang.Throwable)
-     * public java.sql.SQLNonTransientConnectionException(java.lang.String,java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLNonTransientConnectionException_String_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLNonTransientConnectionException sut = null; // = new
-                                                                      // SQLNonTransientConnectionException(java.lang.String,java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLNonTransientConnectionException#SQLNonTransientConnectionException(java.lang.String,java.lang.String,int,java.lang.Throwable)
-     * public java.sql.SQLNonTransientConnectionException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLNonTransientConnectionException_String_String_int_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLNonTransientConnectionException sut = null; // = new
-                                                                      // SQLNonTransientConnectionException(java.lang.String,java.lang.String,int,java.lang.Throwable);
-    }
-
-    /**
      * Test method for {@link java.sql.SQLNonTransientConnectionException#SQLNonTransientConnectionException() public
      * java.sql.SQLNonTransientConnectionException()}.
      */
@@ -159,6 +95,70 @@ extends org.j8unit.repository.java.sql.SQLNonTransientExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.sql.SQLNonTransientConnectionException sut = null; // = new
                                                                       // SQLNonTransientConnectionException(java.lang.String,java.lang.String,int);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLNonTransientConnectionException#SQLNonTransientConnectionException(java.lang.String,java.lang.String,int,java.lang.Throwable)
+     * public java.sql.SQLNonTransientConnectionException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLNonTransientConnectionException_String_String_int_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLNonTransientConnectionException sut = null; // = new
+                                                                      // SQLNonTransientConnectionException(java.lang.String,java.lang.String,int,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLNonTransientConnectionException#SQLNonTransientConnectionException(java.lang.String,java.lang.String,java.lang.Throwable)
+     * public java.sql.SQLNonTransientConnectionException(java.lang.String,java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLNonTransientConnectionException_String_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLNonTransientConnectionException sut = null; // = new
+                                                                      // SQLNonTransientConnectionException(java.lang.String,java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLNonTransientConnectionException#SQLNonTransientConnectionException(java.lang.String,java.lang.Throwable)
+     * public java.sql.SQLNonTransientConnectionException(java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLNonTransientConnectionException_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLNonTransientConnectionException sut = null; // = new
+                                                                      // SQLNonTransientConnectionException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLNonTransientConnectionException#SQLNonTransientConnectionException(java.lang.Throwable) public
+     * java.sql.SQLNonTransientConnectionException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLNonTransientConnectionException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLNonTransientConnectionException sut = null; // = new
+                                                                      // SQLNonTransientConnectionException(java.lang.Throwable);
     }
 
     @Override

@@ -37,6 +37,20 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, javax.manageme
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.management.ObjectName#ObjectName(java.lang.String) public
+     * javax.management.ObjectName(java.lang.String) throws javax.management.MalformedObjectNameException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ObjectName_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.ObjectName sut = null; // = new ObjectName(java.lang.String);
+    }
+
+    /**
      * Test method for {@link javax.management.ObjectName#ObjectName(java.lang.String,java.util.Hashtable) public
      * javax.management.ObjectName(java.lang.String,java.util.Hashtable) throws
      * javax.management.MalformedObjectNameException}.
@@ -49,20 +63,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.management.ObjectName sut = null; // = new ObjectName(java.lang.String,java.util.Hashtable);
-    }
-
-    /**
-     * Test method for {@link javax.management.ObjectName#ObjectName(java.lang.String) public
-     * javax.management.ObjectName(java.lang.String) throws javax.management.MalformedObjectNameException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ObjectName_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.ObjectName sut = null; // = new ObjectName(java.lang.String);
     }
 
     /**
@@ -81,16 +81,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                                                       // ObjectName(java.lang.String,java.lang.String,java.lang.String);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.management.ObjectName> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.management.ObjectName.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.management.ObjectName#getInstance(javax.management.ObjectName) public static
@@ -101,6 +91,23 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getInstance_ObjectName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.ObjectName#getInstance(java.lang.String) public static
+     * javax.management.ObjectName javax.management.ObjectName.getInstance(java.lang.String) throws
+     * javax.management.MalformedObjectNameException,java.lang.NullPointerException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInstance_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -145,15 +152,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.ObjectName#getInstance(java.lang.String) public static
-     * javax.management.ObjectName javax.management.ObjectName.getInstance(java.lang.String) throws
-     * javax.management.MalformedObjectNameException,java.lang.NullPointerException}.
+     * Test method for {@link javax.management.ObjectName#quote(java.lang.String) public static java.lang.String
+     * javax.management.ObjectName.quote(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInstance_String()
+    public default void test_quote_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -176,20 +182,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.management.ObjectName#quote(java.lang.String) public static java.lang.String
-     * javax.management.ObjectName.quote(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_quote_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.management.ObjectName> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.management.ObjectName.class.isAssignableFrom(sut));
     }
 
 }

@@ -23,6 +23,74 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventTests<SUT>, org.j8un
 
     /**
      * <p>
+     * Test method for {@link javax.xml.bind.helpers.ValidationEventImpl#getLinkedException() public java.lang.Throwable
+     * javax.xml.bind.helpers.ValidationEventImpl.getLinkedException()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getLinkedException()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.helpers.ValidationEventImpl#getLocator() public
+     * javax.xml.bind.ValidationEventLocator javax.xml.bind.helpers.ValidationEventImpl.getLocator()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getLocator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.helpers.ValidationEventImpl#getMessage() public java.lang.String
+     * javax.xml.bind.helpers.ValidationEventImpl.getMessage()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMessage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.helpers.ValidationEventImpl#getSeverity() public int
+     * javax.xml.bind.helpers.ValidationEventImpl.getSeverity()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getSeverity()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.bind.helpers.ValidationEventImpl#setLinkedException(java.lang.Throwable) public
      * void javax.xml.bind.helpers.ValidationEventImpl.setLinkedException(java.lang.Throwable)}.
      * </p>
@@ -72,6 +140,22 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventTests<SUT>, org.j8un
 
     /**
      * <p>
+     * Test method for {@link javax.xml.bind.helpers.ValidationEventImpl#setSeverity(int) public void
+     * javax.xml.bind.helpers.ValidationEventImpl.setSeverity(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSeverity_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.bind.helpers.ValidationEventImpl#toString() public java.lang.String
      * javax.xml.bind.helpers.ValidationEventImpl.toString()}.
      * </p>
@@ -81,90 +165,6 @@ extends org.j8unit.repository.javax.xml.bind.ValidationEventTests<SUT>, org.j8un
     @Category(Draft.class)
     @Override
     public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.helpers.ValidationEventImpl#getMessage() public java.lang.String
-     * javax.xml.bind.helpers.ValidationEventImpl.getMessage()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMessage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.helpers.ValidationEventImpl#getLocator() public
-     * javax.xml.bind.ValidationEventLocator javax.xml.bind.helpers.ValidationEventImpl.getLocator()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getLocator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.helpers.ValidationEventImpl#getSeverity() public int
-     * javax.xml.bind.helpers.ValidationEventImpl.getSeverity()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSeverity()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.helpers.ValidationEventImpl#getLinkedException() public java.lang.Throwable
-     * javax.xml.bind.helpers.ValidationEventImpl.getLinkedException()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getLinkedException()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.helpers.ValidationEventImpl#setSeverity(int) public void
-     * javax.xml.bind.helpers.ValidationEventImpl.setSeverity(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSeverity_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

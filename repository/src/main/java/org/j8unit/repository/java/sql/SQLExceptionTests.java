@@ -23,15 +23,13 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, java.lang.Throwable>,
 
     /**
      * <p>
-     * Test method for {@link java.sql.SQLException#iterator() public java.util.Iterator
-     * java.sql.SQLException.iterator()}.
+     * Test method for {@link java.sql.SQLException#getErrorCode() public int java.sql.SQLException.getErrorCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_iterator()
+    public default void test_getErrorCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,13 +38,14 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, java.lang.Throwable>,
 
     /**
      * <p>
-     * Test method for {@link java.sql.SQLException#getErrorCode() public int java.sql.SQLException.getErrorCode()}.
+     * Test method for {@link java.sql.SQLException#getNextException() public java.sql.SQLException
+     * java.sql.SQLException.getNextException()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getErrorCode()
+    public default void test_getNextException()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +70,15 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, java.lang.Throwable>,
 
     /**
      * <p>
-     * Test method for {@link java.sql.SQLException#getNextException() public java.sql.SQLException
-     * java.sql.SQLException.getNextException()}.
+     * Test method for {@link java.sql.SQLException#iterator() public java.util.Iterator
+     * java.sql.SQLException.iterator()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNextException()
+    @Override
+    public default void test_iterator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

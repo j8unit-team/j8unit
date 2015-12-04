@@ -39,14 +39,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.SAXParser#isValidating() public abstract boolean
-     * javax.xml.parsers.SAXParser.isValidating()}.
+     * Test method for {@link javax.xml.parsers.SAXParser#getProperty(java.lang.String) public abstract java.lang.Object
+     * javax.xml.parsers.SAXParser.getProperty(java.lang.String) throws
+     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isValidating()
+    public default void test_getProperty_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,13 +56,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.SAXParser#reset() public void javax.xml.parsers.SAXParser.reset()}.
+     * Test method for {@link javax.xml.parsers.SAXParser#getSchema() public javax.xml.validation.Schema
+     * javax.xml.parsers.SAXParser.getSchema()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reset()
+    public default void test_getSchema()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -86,14 +88,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.SAXParser#isXIncludeAware() public boolean
-     * javax.xml.parsers.SAXParser.isXIncludeAware()}.
+     * Test method for {@link javax.xml.parsers.SAXParser#isNamespaceAware() public abstract boolean
+     * javax.xml.parsers.SAXParser.isNamespaceAware()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isXIncludeAware()
+    public default void test_isNamespaceAware()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -102,15 +104,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.SAXParser#setProperty(java.lang.String,java.lang.Object) public abstract
-     * void javax.xml.parsers.SAXParser.setProperty(java.lang.String,java.lang.Object) throws
-     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     * Test method for {@link javax.xml.parsers.SAXParser#isValidating() public abstract boolean
+     * javax.xml.parsers.SAXParser.isValidating()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setProperty_String_Object()
+    public default void test_isValidating()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.SAXParser#isXIncludeAware() public boolean
+     * javax.xml.parsers.SAXParser.isXIncludeAware()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isXIncludeAware()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -153,23 +170,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.SAXParser#parse(org.xml.sax.InputSource,org.xml.sax.HandlerBase) public
-     * void javax.xml.parsers.SAXParser.parse(org.xml.sax.InputSource,org.xml.sax.HandlerBase) throws
-     * org.xml.sax.SAXException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parse_InputSource_HandlerBase()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.xml.parsers.SAXParser#parse(org.xml.sax.InputSource,org.xml.sax.helpers.DefaultHandler) public void
      * javax.xml.parsers.SAXParser.parse(org.xml.sax.InputSource,org.xml.sax.helpers.DefaultHandler) throws
@@ -188,33 +188,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.xml.parsers.SAXParser#parse(java.io.InputStream,org.xml.sax.HandlerBase,java.lang.String) public
-     * void javax.xml.parsers.SAXParser.parse(java.io.InputStream,org.xml.sax.HandlerBase,java.lang.String) throws
+     * Test method for {@link javax.xml.parsers.SAXParser#parse(org.xml.sax.InputSource,org.xml.sax.HandlerBase) public
+     * void javax.xml.parsers.SAXParser.parse(org.xml.sax.InputSource,org.xml.sax.HandlerBase) throws
      * org.xml.sax.SAXException,java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parse_InputStream_HandlerBase_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.SAXParser#parse(java.io.InputStream,org.xml.sax.HandlerBase) public void
-     * javax.xml.parsers.SAXParser.parse(java.io.InputStream,org.xml.sax.HandlerBase) throws
-     * org.xml.sax.SAXException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parse_InputStream_HandlerBase()
+    public default void test_parse_InputSource_HandlerBase()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -232,40 +214,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_parse_InputStream_DefaultHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.SAXParser#parse(java.lang.String,org.xml.sax.HandlerBase) public void
-     * javax.xml.parsers.SAXParser.parse(java.lang.String,org.xml.sax.HandlerBase) throws
-     * org.xml.sax.SAXException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parse_String_HandlerBase()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.SAXParser#parse(java.lang.String,org.xml.sax.helpers.DefaultHandler)
-     * public void javax.xml.parsers.SAXParser.parse(java.lang.String,org.xml.sax.helpers.DefaultHandler) throws
-     * org.xml.sax.SAXException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parse_String_DefaultHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -293,14 +241,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.SAXParser#getSchema() public javax.xml.validation.Schema
-     * javax.xml.parsers.SAXParser.getSchema()}.
+     * Test method for {@link javax.xml.parsers.SAXParser#parse(java.io.InputStream,org.xml.sax.HandlerBase) public void
+     * javax.xml.parsers.SAXParser.parse(java.io.InputStream,org.xml.sax.HandlerBase) throws
+     * org.xml.sax.SAXException,java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSchema()
+    public default void test_parse_InputStream_HandlerBase()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -309,31 +258,82 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.SAXParser#getProperty(java.lang.String) public abstract java.lang.Object
-     * javax.xml.parsers.SAXParser.getProperty(java.lang.String) throws
+     * Test method for
+     * {@link javax.xml.parsers.SAXParser#parse(java.io.InputStream,org.xml.sax.HandlerBase,java.lang.String) public
+     * void javax.xml.parsers.SAXParser.parse(java.io.InputStream,org.xml.sax.HandlerBase,java.lang.String) throws
+     * org.xml.sax.SAXException,java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parse_InputStream_HandlerBase_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.SAXParser#parse(java.lang.String,org.xml.sax.helpers.DefaultHandler)
+     * public void javax.xml.parsers.SAXParser.parse(java.lang.String,org.xml.sax.helpers.DefaultHandler) throws
+     * org.xml.sax.SAXException,java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parse_String_DefaultHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.SAXParser#parse(java.lang.String,org.xml.sax.HandlerBase) public void
+     * javax.xml.parsers.SAXParser.parse(java.lang.String,org.xml.sax.HandlerBase) throws
+     * org.xml.sax.SAXException,java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parse_String_HandlerBase()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.SAXParser#reset() public void javax.xml.parsers.SAXParser.reset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.SAXParser#setProperty(java.lang.String,java.lang.Object) public abstract
+     * void javax.xml.parsers.SAXParser.setProperty(java.lang.String,java.lang.Object) throws
      * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getProperty_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.SAXParser#isNamespaceAware() public abstract boolean
-     * javax.xml.parsers.SAXParser.isNamespaceAware()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isNamespaceAware()
+    public default void test_setProperty_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -40,39 +40,6 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.JAXBException#setLinkedException(java.lang.Throwable) public void
-     * javax.xml.bind.JAXBException.setLinkedException(java.lang.Throwable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLinkedException_Throwable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.JAXBException#toString() public java.lang.String
-     * javax.xml.bind.JAXBException.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.bind.JAXBException#getErrorCode() public java.lang.String
      * javax.xml.bind.JAXBException.getErrorCode()}.
      * </p>
@@ -81,6 +48,22 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getErrorCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.JAXBException#getLinkedException() public java.lang.Throwable
+     * javax.xml.bind.JAXBException.getLinkedException()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLinkedException()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -140,14 +123,31 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.JAXBException#getLinkedException() public java.lang.Throwable
-     * javax.xml.bind.JAXBException.getLinkedException()}.
+     * Test method for {@link javax.xml.bind.JAXBException#setLinkedException(java.lang.Throwable) public void
+     * javax.xml.bind.JAXBException.setLinkedException(java.lang.Throwable)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLinkedException()
+    public default void test_setLinkedException_Throwable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.JAXBException#toString() public java.lang.String
+     * javax.xml.bind.JAXBException.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

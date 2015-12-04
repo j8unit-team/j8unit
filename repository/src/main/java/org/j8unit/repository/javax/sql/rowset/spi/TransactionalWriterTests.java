@@ -23,6 +23,22 @@ extends org.j8unit.repository.javax.sql.RowSetWriterTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.sql.rowset.spi.TransactionalWriter#commit() public abstract void
+     * javax.sql.rowset.spi.TransactionalWriter.commit() throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_commit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.sql.rowset.spi.TransactionalWriter#rollback() public abstract void
      * javax.sql.rowset.spi.TransactionalWriter.rollback() throws java.sql.SQLException}.
      * </p>
@@ -47,22 +63,6 @@ extends org.j8unit.repository.javax.sql.RowSetWriterTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_rollback_Savepoint()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.spi.TransactionalWriter#commit() public abstract void
-     * javax.sql.rowset.spi.TransactionalWriter.commit() throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_commit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

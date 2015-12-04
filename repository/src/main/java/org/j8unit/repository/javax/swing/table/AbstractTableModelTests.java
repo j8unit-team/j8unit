@@ -24,6 +24,72 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for
+     * {@link javax.swing.table.AbstractTableModel#addTableModelListener(javax.swing.event.TableModelListener) public
+     * void javax.swing.table.AbstractTableModel.addTableModelListener(javax.swing.event.TableModelListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_addTableModelListener_TableModelListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.AbstractTableModel#findColumn(java.lang.String) public int
+     * javax.swing.table.AbstractTableModel.findColumn(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_findColumn_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.AbstractTableModel#fireTableCellUpdated(int,int) public void
+     * javax.swing.table.AbstractTableModel.fireTableCellUpdated(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fireTableCellUpdated_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.AbstractTableModel#fireTableChanged(javax.swing.event.TableModelEvent)
+     * public void javax.swing.table.AbstractTableModel.fireTableChanged(javax.swing.event.TableModelEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fireTableChanged_TableModelEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.table.AbstractTableModel#fireTableDataChanged() public void
      * javax.swing.table.AbstractTableModel.fireTableDataChanged()}.
      * </p>
@@ -40,6 +106,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.table.AbstractTableModel#fireTableRowsDeleted(int,int) public void
+     * javax.swing.table.AbstractTableModel.fireTableRowsDeleted(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fireTableRowsDeleted_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.table.AbstractTableModel#fireTableRowsInserted(int,int) public void
      * javax.swing.table.AbstractTableModel.fireTableRowsInserted(int,int)}.
      * </p>
@@ -48,6 +130,88 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_fireTableRowsInserted_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.AbstractTableModel#fireTableRowsUpdated(int,int) public void
+     * javax.swing.table.AbstractTableModel.fireTableRowsUpdated(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fireTableRowsUpdated_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.AbstractTableModel#fireTableStructureChanged() public void
+     * javax.swing.table.AbstractTableModel.fireTableStructureChanged()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fireTableStructureChanged()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.AbstractTableModel#getColumnClass(int) public java.lang.Class
+     * javax.swing.table.AbstractTableModel.getColumnClass(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getColumnClass_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.AbstractTableModel#getColumnName(int) public java.lang.String
+     * javax.swing.table.AbstractTableModel.getColumnName(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getColumnName_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.AbstractTableModel#getListeners(java.lang.Class) public
+     * java.util.EventListener[] javax.swing.table.AbstractTableModel.getListeners(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getListeners_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -89,107 +253,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.AbstractTableModel#getColumnName(int) public java.lang.String
-     * javax.swing.table.AbstractTableModel.getColumnName(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getColumnName_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.AbstractTableModel#getColumnClass(int) public java.lang.Class
-     * javax.swing.table.AbstractTableModel.getColumnClass(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getColumnClass_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.AbstractTableModel#setValueAt(java.lang.Object,int,int) public void
-     * javax.swing.table.AbstractTableModel.setValueAt(java.lang.Object,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setValueAt_Object_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.AbstractTableModel#fireTableCellUpdated(int,int) public void
-     * javax.swing.table.AbstractTableModel.fireTableCellUpdated(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fireTableCellUpdated_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.AbstractTableModel#getListeners(java.lang.Class) public
-     * java.util.EventListener[] javax.swing.table.AbstractTableModel.getListeners(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getListeners_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.table.AbstractTableModel#addTableModelListener(javax.swing.event.TableModelListener) public
-     * void javax.swing.table.AbstractTableModel.addTableModelListener(javax.swing.event.TableModelListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addTableModelListener_TableModelListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.swing.table.AbstractTableModel#removeTableModelListener(javax.swing.event.TableModelListener) public
      * void javax.swing.table.AbstractTableModel.removeTableModelListener(javax.swing.event.TableModelListener)}.
@@ -208,78 +271,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.AbstractTableModel#fireTableStructureChanged() public void
-     * javax.swing.table.AbstractTableModel.fireTableStructureChanged()}.
+     * Test method for {@link javax.swing.table.AbstractTableModel#setValueAt(java.lang.Object,int,int) public void
+     * javax.swing.table.AbstractTableModel.setValueAt(java.lang.Object,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_fireTableStructureChanged()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.AbstractTableModel#fireTableRowsUpdated(int,int) public void
-     * javax.swing.table.AbstractTableModel.fireTableRowsUpdated(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fireTableRowsUpdated_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.AbstractTableModel#fireTableChanged(javax.swing.event.TableModelEvent)
-     * public void javax.swing.table.AbstractTableModel.fireTableChanged(javax.swing.event.TableModelEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fireTableChanged_TableModelEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.AbstractTableModel#fireTableRowsDeleted(int,int) public void
-     * javax.swing.table.AbstractTableModel.fireTableRowsDeleted(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fireTableRowsDeleted_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.AbstractTableModel#findColumn(java.lang.String) public int
-     * javax.swing.table.AbstractTableModel.findColumn(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_findColumn_String()
+    @Override
+    public default void test_setValueAt_Object_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,6 +24,23 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
 
     /**
      * <p>
+     * Test method for {@link javax.management.openmbean.CompositeDataInvocationHandler#getCompositeData() public
+     * javax.management.openmbean.CompositeData
+     * javax.management.openmbean.CompositeDataInvocationHandler.getCompositeData()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCompositeData()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link javax.management.openmbean.CompositeDataInvocationHandler#invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[])
      * public java.lang.Object
@@ -36,23 +53,6 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org
     @Category(Draft.class)
     @Override
     public default void test_invoke_Object_Method_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.CompositeDataInvocationHandler#getCompositeData() public
-     * javax.management.openmbean.CompositeData
-     * javax.management.openmbean.CompositeDataInvocationHandler.getCompositeData()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCompositeData()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

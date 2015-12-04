@@ -23,6 +23,89 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test class for {@link javax.swing.RowSorter$SortKey class javax.swing.RowSorter$SortKey}, containing all instance
+     * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.swing.RowSorterClassTests.SortKeyClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface SortKeyTests<SUT extends javax.swing.RowSorter.SortKey>
+    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.RowSorter.SortKey#equals(java.lang.Object) public boolean
+         * javax.swing.RowSorter$SortKey.equals(java.lang.Object)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        @Override
+        public default void test_equals_Object()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.RowSorter.SortKey#getColumn() public final int
+         * javax.swing.RowSorter$SortKey.getColumn()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getColumn()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.RowSorter.SortKey#getSortOrder() public final javax.swing.SortOrder
+         * javax.swing.RowSorter$SortKey.getSortOrder()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getSortOrder()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.RowSorter.SortKey#hashCode() public int
+         * javax.swing.RowSorter$SortKey.hashCode()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        @Override
+        public default void test_hashCode()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.RowSorter#addRowSorterListener(javax.swing.event.RowSorterListener) public
      * void javax.swing.RowSorter.addRowSorterListener(javax.swing.event.RowSorterListener)}.
      * </p>
@@ -39,14 +122,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.RowSorter#rowsInserted(int,int) public abstract void
-     * javax.swing.RowSorter.rowsInserted(int,int)}.
+     * Test method for {@link javax.swing.RowSorter#allRowsChanged() public abstract void
+     * javax.swing.RowSorter.allRowsChanged()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_rowsInserted_int_int()
+    public default void test_allRowsChanged()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,94 +170,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.RowSorter#removeRowSorterListener(javax.swing.event.RowSorterListener) public
-     * void javax.swing.RowSorter.removeRowSorterListener(javax.swing.event.RowSorterListener)}.
+     * Test method for {@link javax.swing.RowSorter#getModel() public abstract java.lang.Object
+     * javax.swing.RowSorter.getModel()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeRowSorterListener_RowSorterListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.RowSorter#toggleSortOrder(int) public abstract void
-     * javax.swing.RowSorter.toggleSortOrder(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toggleSortOrder_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.RowSorter#getSortKeys() public abstract java.util.List
-     * javax.swing.RowSorter.getSortKeys()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSortKeys()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.RowSorter#setSortKeys(java.util.List) public abstract void
-     * javax.swing.RowSorter.setSortKeys(java.util.List)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSortKeys_List()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.RowSorter#rowsDeleted(int,int) public abstract void
-     * javax.swing.RowSorter.rowsDeleted(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_rowsDeleted_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.RowSorter#allRowsChanged() public abstract void
-     * javax.swing.RowSorter.allRowsChanged()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_allRowsChanged()
+    public default void test_getModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -199,62 +202,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.RowSorter#modelStructureChanged() public abstract void
-     * javax.swing.RowSorter.modelStructureChanged()}.
+     * Test method for {@link javax.swing.RowSorter#getSortKeys() public abstract java.util.List
+     * javax.swing.RowSorter.getSortKeys()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_modelStructureChanged()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.RowSorter#getModel() public abstract java.lang.Object
-     * javax.swing.RowSorter.getModel()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getModel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.RowSorter#rowsUpdated(int,int,int) public abstract void
-     * javax.swing.RowSorter.rowsUpdated(int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_rowsUpdated_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.RowSorter#rowsUpdated(int,int) public abstract void
-     * javax.swing.RowSorter.rowsUpdated(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_rowsUpdated_int_int()
+    public default void test_getSortKeys()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -279,85 +234,130 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.RowSorter$SortKey class javax.swing.RowSorter$SortKey}, containing all instance
-     * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Test method for {@link javax.swing.RowSorter#modelStructureChanged() public abstract void
+     * javax.swing.RowSorter.modelStructureChanged()}.
      * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.RowSorterClassTests.SortKeyClassTests
      */
-    @Category(J8UnitRepository.class)
-    public static abstract interface SortKeyTests<SUT extends javax.swing.RowSorter.SortKey>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_modelStructureChanged()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
-        /**
-         * <p>
-         * Test method for {@link javax.swing.RowSorter.SortKey#equals(java.lang.Object) public boolean
-         * javax.swing.RowSorter$SortKey.equals(java.lang.Object)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_equals_Object()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
+    /**
+     * <p>
+     * Test method for {@link javax.swing.RowSorter#removeRowSorterListener(javax.swing.event.RowSorterListener) public
+     * void javax.swing.RowSorter.removeRowSorterListener(javax.swing.event.RowSorterListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeRowSorterListener_RowSorterListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
-        /**
-         * <p>
-         * Test method for {@link javax.swing.RowSorter.SortKey#hashCode() public int
-         * javax.swing.RowSorter$SortKey.hashCode()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_hashCode()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
+    /**
+     * <p>
+     * Test method for {@link javax.swing.RowSorter#rowsDeleted(int,int) public abstract void
+     * javax.swing.RowSorter.rowsDeleted(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_rowsDeleted_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
-        /**
-         * <p>
-         * Test method for {@link javax.swing.RowSorter.SortKey#getColumn() public final int
-         * javax.swing.RowSorter$SortKey.getColumn()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getColumn()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
+    /**
+     * <p>
+     * Test method for {@link javax.swing.RowSorter#rowsInserted(int,int) public abstract void
+     * javax.swing.RowSorter.rowsInserted(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_rowsInserted_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
-        /**
-         * <p>
-         * Test method for {@link javax.swing.RowSorter.SortKey#getSortOrder() public final javax.swing.SortOrder
-         * javax.swing.RowSorter$SortKey.getSortOrder()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getSortOrder()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
+    /**
+     * <p>
+     * Test method for {@link javax.swing.RowSorter#rowsUpdated(int,int) public abstract void
+     * javax.swing.RowSorter.rowsUpdated(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_rowsUpdated_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
+    /**
+     * <p>
+     * Test method for {@link javax.swing.RowSorter#rowsUpdated(int,int,int) public abstract void
+     * javax.swing.RowSorter.rowsUpdated(int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_rowsUpdated_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.RowSorter#setSortKeys(java.util.List) public abstract void
+     * javax.swing.RowSorter.setSortKeys(java.util.List)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSortKeys_List()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.RowSorter#toggleSortOrder(int) public abstract void
+     * javax.swing.RowSorter.toggleSortOrder(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toggleSortOrder_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

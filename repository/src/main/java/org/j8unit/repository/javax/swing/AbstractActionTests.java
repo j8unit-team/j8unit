@@ -24,15 +24,48 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractAction#isEnabled() public boolean
-     * javax.swing.AbstractAction.isEnabled()}.
+     * Test method for {@link javax.swing.AbstractAction#addPropertyChangeListener(java.beans.PropertyChangeListener)
+     * public synchronized void javax.swing.AbstractAction.addPropertyChangeListener(java.beans.PropertyChangeListener)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isEnabled()
+    public default void test_addPropertyChangeListener_PropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractAction#getKeys() public java.lang.Object[]
+     * javax.swing.AbstractAction.getKeys()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getKeys()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractAction#getPropertyChangeListeners() public synchronized
+     * java.beans.PropertyChangeListener[] javax.swing.AbstractAction.getPropertyChangeListeners()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPropertyChangeListeners()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -58,15 +91,15 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractAction#setEnabled(boolean) public void
-     * javax.swing.AbstractAction.setEnabled(boolean)}.
+     * Test method for {@link javax.swing.AbstractAction#isEnabled() public boolean
+     * javax.swing.AbstractAction.isEnabled()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setEnabled_boolean()
+    public default void test_isEnabled()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -75,32 +108,15 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractAction#getPropertyChangeListeners() public synchronized
-     * java.beans.PropertyChangeListener[] javax.swing.AbstractAction.getPropertyChangeListeners()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPropertyChangeListeners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractAction#addPropertyChangeListener(java.beans.PropertyChangeListener)
-     * public synchronized void javax.swing.AbstractAction.addPropertyChangeListener(java.beans.PropertyChangeListener)}
-     * .
+     * Test method for {@link javax.swing.AbstractAction#putValue(java.lang.String,java.lang.Object) public void
+     * javax.swing.AbstractAction.putValue(java.lang.String,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_addPropertyChangeListener_PropertyChangeListener()
+    public default void test_putValue_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,31 +143,15 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractAction#putValue(java.lang.String,java.lang.Object) public void
-     * javax.swing.AbstractAction.putValue(java.lang.String,java.lang.Object)}.
+     * Test method for {@link javax.swing.AbstractAction#setEnabled(boolean) public void
+     * javax.swing.AbstractAction.setEnabled(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_putValue_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractAction#getKeys() public java.lang.Object[]
-     * javax.swing.AbstractAction.getKeys()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getKeys()
+    public default void test_setEnabled_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

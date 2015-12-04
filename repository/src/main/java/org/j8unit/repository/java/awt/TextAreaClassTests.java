@@ -35,17 +35,17 @@ public abstract interface TextAreaClassTests<SUT extends Class<? extends java.aw
 extends org.j8unit.repository.java.awt.TextComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.TextArea#TextArea(java.lang.String,int,int) public
-     * java.awt.TextArea(java.lang.String,int,int) throws java.awt.HeadlessException}.
+     * Test method for {@link java.awt.TextArea#TextArea() public java.awt.TextArea() throws java.awt.HeadlessException}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_TextArea_String_int_int()
+    public default void create_TextArea()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.TextArea sut = null; // = new TextArea(java.lang.String,int,int);
+        final java.awt.TextArea sut = null; // = new TextArea();
     }
 
     /**
@@ -77,17 +77,17 @@ extends org.j8unit.repository.java.awt.TextComponentClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.TextArea#TextArea() public java.awt.TextArea() throws java.awt.HeadlessException}
-     * .
+     * Test method for {@link java.awt.TextArea#TextArea(java.lang.String,int,int) public
+     * java.awt.TextArea(java.lang.String,int,int) throws java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_TextArea()
+    public default void create_TextArea_String_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.TextArea sut = null; // = new TextArea();
+        final java.awt.TextArea sut = null; // = new TextArea(java.lang.String,int,int);
     }
 
     /**

@@ -37,6 +37,37 @@ public abstract interface SchemaFactoryConfigurationErrorClassTests<SUT extends 
 extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError()
+     * public javax.xml.validation.SchemaFactoryConfigurationError()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SchemaFactoryConfigurationError()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.validation.SchemaFactoryConfigurationError sut = null; // = new
+                                                                               // SchemaFactoryConfigurationError();
+    }
+
+    /**
+     * Test method for
+     * {@link javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(java.lang.String)
+     * public javax.xml.validation.SchemaFactoryConfigurationError(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SchemaFactoryConfigurationError_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.validation.SchemaFactoryConfigurationError sut = null; // = new
+                                                                               // SchemaFactoryConfigurationError(java.lang.String);
+    }
+
+    /**
      * Test method for
      * {@link javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(java.lang.String,java.lang.Throwable)
      * public javax.xml.validation.SchemaFactoryConfigurationError(java.lang.String,java.lang.Throwable)}.
@@ -66,37 +97,6 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.xml.validation.SchemaFactoryConfigurationError sut = null; // = new
                                                                                // SchemaFactoryConfigurationError(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError(java.lang.String)
-     * public javax.xml.validation.SchemaFactoryConfigurationError(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SchemaFactoryConfigurationError_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.validation.SchemaFactoryConfigurationError sut = null; // = new
-                                                                               // SchemaFactoryConfigurationError(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.validation.SchemaFactoryConfigurationError#SchemaFactoryConfigurationError()
-     * public javax.xml.validation.SchemaFactoryConfigurationError()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SchemaFactoryConfigurationError()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.validation.SchemaFactoryConfigurationError sut = null; // = new
-                                                                               // SchemaFactoryConfigurationError();
     }
 
     @Override

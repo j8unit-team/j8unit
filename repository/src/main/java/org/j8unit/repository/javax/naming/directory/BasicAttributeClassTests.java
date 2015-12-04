@@ -36,6 +36,20 @@ public abstract interface BasicAttributeClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.javax.naming.directory.AttributeClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.naming.directory.BasicAttribute#BasicAttribute(java.lang.String) public
+     * javax.naming.directory.BasicAttribute(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BasicAttribute_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.directory.BasicAttribute sut = null; // = new BasicAttribute(java.lang.String);
+    }
+
+    /**
      * Test method for {@link javax.naming.directory.BasicAttribute#BasicAttribute(java.lang.String,boolean) public
      * javax.naming.directory.BasicAttribute(java.lang.String,boolean)}.
      */
@@ -50,17 +64,18 @@ extends org.j8unit.repository.javax.naming.directory.AttributeClassTests<SUT>, o
     }
 
     /**
-     * Test method for {@link javax.naming.directory.BasicAttribute#BasicAttribute(java.lang.String) public
-     * javax.naming.directory.BasicAttribute(java.lang.String)}.
+     * Test method for {@link javax.naming.directory.BasicAttribute#BasicAttribute(java.lang.String,java.lang.Object)
+     * public javax.naming.directory.BasicAttribute(java.lang.String,java.lang.Object)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BasicAttribute_String()
+    public default void create_BasicAttribute_String_Object()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.naming.directory.BasicAttribute sut = null; // = new BasicAttribute(java.lang.String);
+        final javax.naming.directory.BasicAttribute sut = null; // = new
+                                                                // BasicAttribute(java.lang.String,java.lang.Object);
     }
 
     /**
@@ -77,21 +92,6 @@ extends org.j8unit.repository.javax.naming.directory.AttributeClassTests<SUT>, o
         @SuppressWarnings("unused")
         final javax.naming.directory.BasicAttribute sut = null; // = new
                                                                 // BasicAttribute(java.lang.String,java.lang.Object,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.naming.directory.BasicAttribute#BasicAttribute(java.lang.String,java.lang.Object)
-     * public javax.naming.directory.BasicAttribute(java.lang.String,java.lang.Object)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BasicAttribute_String_Object()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.directory.BasicAttribute sut = null; // = new
-                                                                // BasicAttribute(java.lang.String,java.lang.Object);
     }
 
     @Override

@@ -24,6 +24,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.text.StringContent#createPosition(int) public javax.swing.text.Position
+     * javax.swing.text.StringContent.createPosition(int) throws javax.swing.text.BadLocationException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createPosition_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.text.StringContent#getChars(int,int,javax.swing.text.Segment) public void
      * javax.swing.text.StringContent.getChars(int,int,javax.swing.text.Segment) throws
      * javax.swing.text.BadLocationException}.
@@ -34,23 +51,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getChars_int_int_Segment()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StringContent#remove(int,int) public javax.swing.undo.UndoableEdit
-     * javax.swing.text.StringContent.remove(int,int) throws javax.swing.text.BadLocationException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_remove_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,15 +76,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.StringContent#createPosition(int) public javax.swing.text.Position
-     * javax.swing.text.StringContent.createPosition(int) throws javax.swing.text.BadLocationException}.
+     * Test method for {@link javax.swing.text.StringContent#insertString(int,java.lang.String) public
+     * javax.swing.undo.UndoableEdit javax.swing.text.StringContent.insertString(int,java.lang.String) throws
+     * javax.swing.text.BadLocationException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_createPosition_int()
+    public default void test_insertString_int_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -110,16 +111,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.StringContent#insertString(int,java.lang.String) public
-     * javax.swing.undo.UndoableEdit javax.swing.text.StringContent.insertString(int,java.lang.String) throws
-     * javax.swing.text.BadLocationException}.
+     * Test method for {@link javax.swing.text.StringContent#remove(int,int) public javax.swing.undo.UndoableEdit
+     * javax.swing.text.StringContent.remove(int,int) throws javax.swing.text.BadLocationException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_insertString_int_String()
+    public default void test_remove_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

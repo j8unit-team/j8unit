@@ -23,23 +23,6 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.PlainView#nextTabStop(float,int) public float
-     * javax.swing.text.PlainView.nextTabStop(float,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_nextTabStop_float_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.swing.text.PlainView#changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)
      * public void
@@ -60,16 +43,15 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.PlainView#modelToView(int,java.awt.Shape,javax.swing.text.Position.Bias)
-     * public java.awt.Shape javax.swing.text.PlainView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias)
-     * throws javax.swing.text.BadLocationException}.
+     * Test method for {@link javax.swing.text.PlainView#getPreferredSpan(int) public float
+     * javax.swing.text.PlainView.getPreferredSpan(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_modelToView_int_Shape_Bias()
+    public default void test_getPreferredSpan_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -98,15 +80,33 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.PlainView#getPreferredSpan(int) public float
-     * javax.swing.text.PlainView.getPreferredSpan(int)}.
+     * Test method for {@link javax.swing.text.PlainView#modelToView(int,java.awt.Shape,javax.swing.text.Position.Bias)
+     * public java.awt.Shape javax.swing.text.PlainView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias)
+     * throws javax.swing.text.BadLocationException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getPreferredSpan_int()
+    public default void test_modelToView_int_Shape_Bias()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.PlainView#nextTabStop(float,int) public float
+     * javax.swing.text.PlainView.nextTabStop(float,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_nextTabStop_float_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -152,6 +152,23 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
+     * Test method for {@link javax.swing.text.PlainView#setSize(float,float) public void
+     * javax.swing.text.PlainView.setSize(float,float)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setSize_float_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link javax.swing.text.PlainView#viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[]) public
      * int javax.swing.text.PlainView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
@@ -162,23 +179,6 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
     @Category(Draft.class)
     @Override
     public default void test_viewToModel_float_float_Shape_BiasArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.PlainView#setSize(float,float) public void
-     * javax.swing.text.PlainView.setSize(float,float)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setSize_float_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

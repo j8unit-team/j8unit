@@ -23,22 +23,6 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSProgressEvent#getPosition() public abstract int
-     * org.w3c.dom.ls.LSProgressEvent.getPosition()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPosition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.ls.LSProgressEvent#getInput() public abstract org.w3c.dom.ls.LSInput
      * org.w3c.dom.ls.LSProgressEvent.getInput()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getInput()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.ls.LSProgressEvent#getPosition() public abstract int
+     * org.w3c.dom.ls.LSProgressEvent.getPosition()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPosition()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

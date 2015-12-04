@@ -23,38 +23,6 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.TextMeasurer#insertChar(java.text.AttributedCharacterIterator,int) public
-     * void java.awt.font.TextMeasurer.insertChar(java.text.AttributedCharacterIterator,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insertChar_AttributedCharacterIterator_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.TextMeasurer#getLayout(int,int) public java.awt.font.TextLayout
-     * java.awt.font.TextMeasurer.getLayout(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLayout_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.font.TextMeasurer#deleteChar(java.text.AttributedCharacterIterator,int) public
      * void java.awt.font.TextMeasurer.deleteChar(java.text.AttributedCharacterIterator,int)}.
      * </p>
@@ -87,6 +55,22 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
+     * Test method for {@link java.awt.font.TextMeasurer#getLayout(int,int) public java.awt.font.TextLayout
+     * java.awt.font.TextMeasurer.getLayout(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLayout_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.font.TextMeasurer#getLineBreakIndex(int,float) public int
      * java.awt.font.TextMeasurer.getLineBreakIndex(int,float)}.
      * </p>
@@ -95,6 +79,22 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     @Test
     @Category(Draft.class)
     public default void test_getLineBreakIndex_int_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.TextMeasurer#insertChar(java.text.AttributedCharacterIterator,int) public
+     * void java.awt.font.TextMeasurer.insertChar(java.text.AttributedCharacterIterator,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insertChar_AttributedCharacterIterator_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -35,28 +35,17 @@ import org.junit.experimental.categories.Category;
 public abstract interface AudioSystemClassTests<SUT extends Class<? extends javax.sound.sampled.AudioSystem>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.sound.sampled.AudioSystem> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.sound.sampled.AudioSystem.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for
-     * {@link javax.sound.sampled.AudioSystem#getTargetEncodings(javax.sound.sampled.AudioFormat.Encoding) public static
-     * javax.sound.sampled.AudioFormat$Encoding[]
-     * javax.sound.sampled.AudioSystem.getTargetEncodings(javax.sound.sampled.AudioFormat$Encoding)}.
+     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioFileFormat(java.io.File) public static
+     * javax.sound.sampled.AudioFileFormat javax.sound.sampled.AudioSystem.getAudioFileFormat(java.io.File) throws
+     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTargetEncodings_Encoding()
+    public default void test_getAudioFileFormat_File()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -65,15 +54,170 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getTargetEncodings(javax.sound.sampled.AudioFormat) public
-     * static javax.sound.sampled.AudioFormat$Encoding[]
-     * javax.sound.sampled.AudioSystem.getTargetEncodings(javax.sound.sampled.AudioFormat)}.
+     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioFileFormat(java.io.InputStream) public static
+     * javax.sound.sampled.AudioFileFormat javax.sound.sampled.AudioSystem.getAudioFileFormat(java.io.InputStream)
+     * throws javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTargetEncodings_AudioFormat()
+    public default void test_getAudioFileFormat_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioFileFormat(java.net.URL) public static
+     * javax.sound.sampled.AudioFileFormat javax.sound.sampled.AudioSystem.getAudioFileFormat(java.net.URL) throws
+     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAudioFileFormat_URL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioFileTypes() public static
+     * javax.sound.sampled.AudioFileFormat$Type[] javax.sound.sampled.AudioSystem.getAudioFileTypes()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAudioFileTypes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioFileTypes(javax.sound.sampled.AudioInputStream)
+     * public static javax.sound.sampled.AudioFileFormat$Type[]
+     * javax.sound.sampled.AudioSystem.getAudioFileTypes(javax.sound.sampled.AudioInputStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAudioFileTypes_AudioInputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.sound.sampled.AudioSystem#getAudioInputStream(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioInputStream)
+     * public static javax.sound.sampled.AudioInputStream
+     * javax.sound.sampled.AudioSystem.getAudioInputStream(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioInputStream)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAudioInputStream_AudioFormat_AudioInputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.sound.sampled.AudioSystem#getAudioInputStream(javax.sound.sampled.AudioFormat.Encoding,javax.sound.sampled.AudioInputStream)
+     * public static javax.sound.sampled.AudioInputStream
+     * javax.sound.sampled.AudioSystem.getAudioInputStream(javax.sound.sampled.AudioFormat$Encoding,javax.sound.sampled.AudioInputStream)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAudioInputStream_Encoding_AudioInputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioInputStream(java.io.File) public static
+     * javax.sound.sampled.AudioInputStream javax.sound.sampled.AudioSystem.getAudioInputStream(java.io.File) throws
+     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAudioInputStream_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioInputStream(java.io.InputStream) public static
+     * javax.sound.sampled.AudioInputStream javax.sound.sampled.AudioSystem.getAudioInputStream(java.io.InputStream)
+     * throws javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAudioInputStream_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioInputStream(java.net.URL) public static
+     * javax.sound.sampled.AudioInputStream javax.sound.sampled.AudioSystem.getAudioInputStream(java.net.URL) throws
+     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAudioInputStream_URL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.AudioSystem#getClip() public static javax.sound.sampled.Clip
+     * javax.sound.sampled.AudioSystem.getClip() throws javax.sound.sampled.LineUnavailableException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getClip()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -99,14 +243,31 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getClip() public static javax.sound.sampled.Clip
-     * javax.sound.sampled.AudioSystem.getClip() throws javax.sound.sampled.LineUnavailableException}.
+     * Test method for {@link javax.sound.sampled.AudioSystem#getLine(javax.sound.sampled.Line.Info) public static
+     * javax.sound.sampled.Line javax.sound.sampled.AudioSystem.getLine(javax.sound.sampled.Line$Info) throws
+     * javax.sound.sampled.LineUnavailableException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getClip()
+    public default void test_getLine_Info()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.AudioSystem#getMixer(javax.sound.sampled.Mixer.Info) public static
+     * javax.sound.sampled.Mixer javax.sound.sampled.AudioSystem.getMixer(javax.sound.sampled.Mixer$Info)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMixer_Info()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -131,14 +292,70 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#isLineSupported(javax.sound.sampled.Line.Info) public
-     * static boolean javax.sound.sampled.AudioSystem.isLineSupported(javax.sound.sampled.Line$Info)}.
+     * Test method for {@link javax.sound.sampled.AudioSystem#getSourceDataLine(javax.sound.sampled.AudioFormat) public
+     * static javax.sound.sampled.SourceDataLine
+     * javax.sound.sampled.AudioSystem.getSourceDataLine(javax.sound.sampled.AudioFormat) throws
+     * javax.sound.sampled.LineUnavailableException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isLineSupported_Info()
+    public default void test_getSourceDataLine_AudioFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.sound.sampled.AudioSystem#getSourceDataLine(javax.sound.sampled.AudioFormat,javax.sound.sampled.Mixer.Info)
+     * public static javax.sound.sampled.SourceDataLine
+     * javax.sound.sampled.AudioSystem.getSourceDataLine(javax.sound.sampled.AudioFormat,javax.sound.sampled.Mixer$Info)
+     * throws javax.sound.sampled.LineUnavailableException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSourceDataLine_AudioFormat_Info()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.AudioSystem#getSourceLineInfo(javax.sound.sampled.Line.Info) public
+     * static javax.sound.sampled.Line$Info[]
+     * javax.sound.sampled.AudioSystem.getSourceLineInfo(javax.sound.sampled.Line$Info)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSourceLineInfo_Info()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.AudioSystem#getTargetDataLine(javax.sound.sampled.AudioFormat) public
+     * static javax.sound.sampled.TargetDataLine
+     * javax.sound.sampled.AudioSystem.getTargetDataLine(javax.sound.sampled.AudioFormat) throws
+     * javax.sound.sampled.LineUnavailableException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTargetDataLine_AudioFormat()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -166,16 +383,107 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getTargetDataLine(javax.sound.sampled.AudioFormat) public
-     * static javax.sound.sampled.TargetDataLine
-     * javax.sound.sampled.AudioSystem.getTargetDataLine(javax.sound.sampled.AudioFormat) throws
-     * javax.sound.sampled.LineUnavailableException}.
+     * Test method for {@link javax.sound.sampled.AudioSystem#getTargetEncodings(javax.sound.sampled.AudioFormat) public
+     * static javax.sound.sampled.AudioFormat$Encoding[]
+     * javax.sound.sampled.AudioSystem.getTargetEncodings(javax.sound.sampled.AudioFormat)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTargetDataLine_AudioFormat()
+    public default void test_getTargetEncodings_AudioFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.sound.sampled.AudioSystem#getTargetEncodings(javax.sound.sampled.AudioFormat.Encoding) public static
+     * javax.sound.sampled.AudioFormat$Encoding[]
+     * javax.sound.sampled.AudioSystem.getTargetEncodings(javax.sound.sampled.AudioFormat$Encoding)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTargetEncodings_Encoding()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.sound.sampled.AudioSystem#getTargetFormats(javax.sound.sampled.AudioFormat.Encoding,javax.sound.sampled.AudioFormat)
+     * public static javax.sound.sampled.AudioFormat[]
+     * javax.sound.sampled.AudioSystem.getTargetFormats(javax.sound.sampled.AudioFormat$Encoding,javax.sound.sampled.AudioFormat)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTargetFormats_Encoding_AudioFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.AudioSystem#getTargetLineInfo(javax.sound.sampled.Line.Info) public
+     * static javax.sound.sampled.Line$Info[]
+     * javax.sound.sampled.AudioSystem.getTargetLineInfo(javax.sound.sampled.Line$Info)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTargetLineInfo_Info()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.sound.sampled.AudioSystem#isConversionSupported(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioFormat)
+     * public static boolean
+     * javax.sound.sampled.AudioSystem.isConversionSupported(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioFormat)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isConversionSupported_AudioFormat_AudioFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.sound.sampled.AudioSystem#isConversionSupported(javax.sound.sampled.AudioFormat.Encoding,javax.sound.sampled.AudioFormat)
+     * public static boolean
+     * javax.sound.sampled.AudioSystem.isConversionSupported(javax.sound.sampled.AudioFormat$Encoding,javax.sound.sampled.AudioFormat)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isConversionSupported_Encoding_AudioFormat()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -220,122 +528,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioFileTypes(javax.sound.sampled.AudioInputStream)
-     * public static javax.sound.sampled.AudioFileFormat$Type[]
-     * javax.sound.sampled.AudioSystem.getAudioFileTypes(javax.sound.sampled.AudioInputStream)}.
+     * Test method for {@link javax.sound.sampled.AudioSystem#isLineSupported(javax.sound.sampled.Line.Info) public
+     * static boolean javax.sound.sampled.AudioSystem.isLineSupported(javax.sound.sampled.Line$Info)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAudioFileTypes_AudioInputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioFileTypes() public static
-     * javax.sound.sampled.AudioFileFormat$Type[] javax.sound.sampled.AudioSystem.getAudioFileTypes()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAudioFileTypes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getTargetLineInfo(javax.sound.sampled.Line.Info) public
-     * static javax.sound.sampled.Line$Info[]
-     * javax.sound.sampled.AudioSystem.getTargetLineInfo(javax.sound.sampled.Line$Info)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTargetLineInfo_Info()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getLine(javax.sound.sampled.Line.Info) public static
-     * javax.sound.sampled.Line javax.sound.sampled.AudioSystem.getLine(javax.sound.sampled.Line$Info) throws
-     * javax.sound.sampled.LineUnavailableException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLine_Info()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.sound.sampled.AudioSystem#isConversionSupported(javax.sound.sampled.AudioFormat.Encoding,javax.sound.sampled.AudioFormat)
-     * public static boolean
-     * javax.sound.sampled.AudioSystem.isConversionSupported(javax.sound.sampled.AudioFormat$Encoding,javax.sound.sampled.AudioFormat)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isConversionSupported_Encoding_AudioFormat()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.sound.sampled.AudioSystem#isConversionSupported(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioFormat)
-     * public static boolean
-     * javax.sound.sampled.AudioSystem.isConversionSupported(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioFormat)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isConversionSupported_AudioFormat_AudioFormat()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.sound.sampled.AudioSystem#write(javax.sound.sampled.AudioInputStream,javax.sound.sampled.AudioFileFormat.Type,java.io.OutputStream)
-     * public static int
-     * javax.sound.sampled.AudioSystem.write(javax.sound.sampled.AudioInputStream,javax.sound.sampled.AudioFileFormat$Type,java.io.OutputStream)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_AudioInputStream_Type_OutputStream()
+    public default void test_isLineSupported_Info()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -363,231 +563,31 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getMixer(javax.sound.sampled.Mixer.Info) public static
-     * javax.sound.sampled.Mixer javax.sound.sampled.AudioSystem.getMixer(javax.sound.sampled.Mixer$Info)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMixer_Info()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
-     * {@link javax.sound.sampled.AudioSystem#getSourceDataLine(javax.sound.sampled.AudioFormat,javax.sound.sampled.Mixer.Info)
-     * public static javax.sound.sampled.SourceDataLine
-     * javax.sound.sampled.AudioSystem.getSourceDataLine(javax.sound.sampled.AudioFormat,javax.sound.sampled.Mixer$Info)
-     * throws javax.sound.sampled.LineUnavailableException}.
+     * {@link javax.sound.sampled.AudioSystem#write(javax.sound.sampled.AudioInputStream,javax.sound.sampled.AudioFileFormat.Type,java.io.OutputStream)
+     * public static int
+     * javax.sound.sampled.AudioSystem.write(javax.sound.sampled.AudioInputStream,javax.sound.sampled.AudioFileFormat$Type,java.io.OutputStream)
+     * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSourceDataLine_AudioFormat_Info()
+    public default void test_write_AudioInputStream_Type_OutputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getSourceDataLine(javax.sound.sampled.AudioFormat) public
-     * static javax.sound.sampled.SourceDataLine
-     * javax.sound.sampled.AudioSystem.getSourceDataLine(javax.sound.sampled.AudioFormat) throws
-     * javax.sound.sampled.LineUnavailableException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getSourceDataLine_AudioFormat()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getSourceLineInfo(javax.sound.sampled.Line.Info) public
-     * static javax.sound.sampled.Line$Info[]
-     * javax.sound.sampled.AudioSystem.getSourceLineInfo(javax.sound.sampled.Line$Info)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSourceLineInfo_Info()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioInputStream(java.net.URL) public static
-     * javax.sound.sampled.AudioInputStream javax.sound.sampled.AudioSystem.getAudioInputStream(java.net.URL) throws
-     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAudioInputStream_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.sound.sampled.AudioSystem#getAudioInputStream(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioInputStream)
-     * public static javax.sound.sampled.AudioInputStream
-     * javax.sound.sampled.AudioSystem.getAudioInputStream(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioInputStream)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAudioInputStream_AudioFormat_AudioInputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioInputStream(java.io.File) public static
-     * javax.sound.sampled.AudioInputStream javax.sound.sampled.AudioSystem.getAudioInputStream(java.io.File) throws
-     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAudioInputStream_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioInputStream(java.io.InputStream) public static
-     * javax.sound.sampled.AudioInputStream javax.sound.sampled.AudioSystem.getAudioInputStream(java.io.InputStream)
-     * throws javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAudioInputStream_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.sound.sampled.AudioSystem#getAudioInputStream(javax.sound.sampled.AudioFormat.Encoding,javax.sound.sampled.AudioInputStream)
-     * public static javax.sound.sampled.AudioInputStream
-     * javax.sound.sampled.AudioSystem.getAudioInputStream(javax.sound.sampled.AudioFormat$Encoding,javax.sound.sampled.AudioInputStream)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAudioInputStream_Encoding_AudioInputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioFileFormat(java.io.InputStream) public static
-     * javax.sound.sampled.AudioFileFormat javax.sound.sampled.AudioSystem.getAudioFileFormat(java.io.InputStream)
-     * throws javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAudioFileFormat_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioFileFormat(java.net.URL) public static
-     * javax.sound.sampled.AudioFileFormat javax.sound.sampled.AudioSystem.getAudioFileFormat(java.net.URL) throws
-     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAudioFileFormat_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioSystem#getAudioFileFormat(java.io.File) public static
-     * javax.sound.sampled.AudioFileFormat javax.sound.sampled.AudioSystem.getAudioFileFormat(java.io.File) throws
-     * javax.sound.sampled.UnsupportedAudioFileException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAudioFileFormat_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.sound.sampled.AudioSystem#getTargetFormats(javax.sound.sampled.AudioFormat.Encoding,javax.sound.sampled.AudioFormat)
-     * public static javax.sound.sampled.AudioFormat[]
-     * javax.sound.sampled.AudioSystem.getTargetFormats(javax.sound.sampled.AudioFormat$Encoding,javax.sound.sampled.AudioFormat)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTargetFormats_Encoding_AudioFormat()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.sound.sampled.AudioSystem> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.sound.sampled.AudioSystem.class.isAssignableFrom(sut));
     }
 
 }

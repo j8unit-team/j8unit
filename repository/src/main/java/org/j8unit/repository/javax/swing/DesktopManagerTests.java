@@ -24,78 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DesktopManager#setBoundsForFrame(javax.swing.JComponent,int,int,int,int)
-     * public abstract void javax.swing.DesktopManager.setBoundsForFrame(javax.swing.JComponent,int,int,int,int)}.
+     * Test method for {@link javax.swing.DesktopManager#activateFrame(javax.swing.JInternalFrame) public abstract void
+     * javax.swing.DesktopManager.activateFrame(javax.swing.JInternalFrame)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setBoundsForFrame_JComponent_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DesktopManager#endDraggingFrame(javax.swing.JComponent) public abstract void
-     * javax.swing.DesktopManager.endDraggingFrame(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_endDraggingFrame_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DesktopManager#endResizingFrame(javax.swing.JComponent) public abstract void
-     * javax.swing.DesktopManager.endResizingFrame(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_endResizingFrame_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DesktopManager#resizeFrame(javax.swing.JComponent,int,int,int,int) public
-     * abstract void javax.swing.DesktopManager.resizeFrame(javax.swing.JComponent,int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_resizeFrame_JComponent_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DesktopManager#deactivateFrame(javax.swing.JInternalFrame) public abstract
-     * void javax.swing.DesktopManager.deactivateFrame(javax.swing.JInternalFrame)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deactivateFrame_JInternalFrame()
+    public default void test_activateFrame_JInternalFrame()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -112,54 +48,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_beginDraggingFrame_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DesktopManager#maximizeFrame(javax.swing.JInternalFrame) public abstract void
-     * javax.swing.DesktopManager.maximizeFrame(javax.swing.JInternalFrame)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_maximizeFrame_JInternalFrame()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DesktopManager#openFrame(javax.swing.JInternalFrame) public abstract void
-     * javax.swing.DesktopManager.openFrame(javax.swing.JInternalFrame)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_openFrame_JInternalFrame()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DesktopManager#activateFrame(javax.swing.JInternalFrame) public abstract void
-     * javax.swing.DesktopManager.activateFrame(javax.swing.JInternalFrame)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_activateFrame_JInternalFrame()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -200,6 +88,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.DesktopManager#deactivateFrame(javax.swing.JInternalFrame) public abstract
+     * void javax.swing.DesktopManager.deactivateFrame(javax.swing.JInternalFrame)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deactivateFrame_JInternalFrame()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.DesktopManager#deiconifyFrame(javax.swing.JInternalFrame) public abstract void
      * javax.swing.DesktopManager.deiconifyFrame(javax.swing.JInternalFrame)}.
      * </p>
@@ -232,6 +136,38 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.DesktopManager#endDraggingFrame(javax.swing.JComponent) public abstract void
+     * javax.swing.DesktopManager.endDraggingFrame(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_endDraggingFrame_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DesktopManager#endResizingFrame(javax.swing.JComponent) public abstract void
+     * javax.swing.DesktopManager.endResizingFrame(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_endResizingFrame_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.DesktopManager#iconifyFrame(javax.swing.JInternalFrame) public abstract void
      * javax.swing.DesktopManager.iconifyFrame(javax.swing.JInternalFrame)}.
      * </p>
@@ -248,6 +184,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.DesktopManager#maximizeFrame(javax.swing.JInternalFrame) public abstract void
+     * javax.swing.DesktopManager.maximizeFrame(javax.swing.JInternalFrame)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_maximizeFrame_JInternalFrame()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.DesktopManager#minimizeFrame(javax.swing.JInternalFrame) public abstract void
      * javax.swing.DesktopManager.minimizeFrame(javax.swing.JInternalFrame)}.
      * </p>
@@ -256,6 +208,54 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_minimizeFrame_JInternalFrame()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DesktopManager#openFrame(javax.swing.JInternalFrame) public abstract void
+     * javax.swing.DesktopManager.openFrame(javax.swing.JInternalFrame)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_openFrame_JInternalFrame()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DesktopManager#resizeFrame(javax.swing.JComponent,int,int,int,int) public
+     * abstract void javax.swing.DesktopManager.resizeFrame(javax.swing.JComponent,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_resizeFrame_JComponent_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DesktopManager#setBoundsForFrame(javax.swing.JComponent,int,int,int,int)
+     * public abstract void javax.swing.DesktopManager.setBoundsForFrame(javax.swing.JComponent,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setBoundsForFrame_JComponent_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

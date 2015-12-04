@@ -25,19 +25,18 @@ org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXCertPathBuilderResult#toString() public java.lang.String
-     * java.security.cert.PKIXCertPathBuilderResult.toString()}.
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_clone()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
     }
 
     /**
@@ -59,18 +58,19 @@ org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultTests<SUT> {
 
     /**
      * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * Test method for {@link java.security.cert.PKIXCertPathBuilderResult#toString() public java.lang.String
+     * java.security.cert.PKIXCertPathBuilderResult.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_clone()
+    public default void test_toString()
     throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

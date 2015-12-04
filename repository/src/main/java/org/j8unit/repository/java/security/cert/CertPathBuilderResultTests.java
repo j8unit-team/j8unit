@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertPathBuilderResult#getCertPath() public abstract
-     * java.security.cert.CertPath java.security.cert.CertPathBuilderResult.getCertPath()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCertPath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.cert.CertPathBuilderResult#clone() public abstract java.lang.Object
      * java.security.cert.CertPathBuilderResult.clone()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CertPathBuilderResult#getCertPath() public abstract
+     * java.security.cert.CertPath java.security.cert.CertPathBuilderResult.getCertPath()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCertPath()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

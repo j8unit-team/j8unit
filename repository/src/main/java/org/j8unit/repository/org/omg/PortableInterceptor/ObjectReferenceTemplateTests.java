@@ -24,22 +24,6 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactory
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ObjectReferenceTemplate#orb_id() public abstract
-     * java.lang.String org.omg.PortableInterceptor.ObjectReferenceTemplate.orb_id()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_orb_id()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.PortableInterceptor.ObjectReferenceTemplate#adapter_name() public abstract
      * java.lang.String[] org.omg.PortableInterceptor.ObjectReferenceTemplate.adapter_name()}.
      * </p>
@@ -48,6 +32,22 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceFactory
     @Test
     @Category(Draft.class)
     public default void test_adapter_name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.ObjectReferenceTemplate#orb_id() public abstract
+     * java.lang.String org.omg.PortableInterceptor.ObjectReferenceTemplate.orb_id()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_orb_id()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

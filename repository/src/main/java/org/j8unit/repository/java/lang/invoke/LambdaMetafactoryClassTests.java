@@ -49,14 +49,23 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.lang.invoke.LambdaMetafactory sut = null; // = new LambdaMetafactory();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for
+     * {@link java.lang.invoke.LambdaMetafactory#altMetafactory(java.lang.invoke.MethodHandles.Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.Object...)
+     * public static java.lang.invoke.CallSite
+     * java.lang.invoke.LambdaMetafactory.altMetafactory(java.lang.invoke.MethodHandles$Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.Object...)
+     * throws java.lang.invoke.LambdaConversionException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_altMetafactory_Lookup_String_MethodType_ObjectArray()
     throws Exception {
-        // create new instance
-        final Class<? extends java.lang.invoke.LambdaMetafactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.invoke.LambdaMetafactory.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -78,23 +87,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for
-     * {@link java.lang.invoke.LambdaMetafactory#altMetafactory(java.lang.invoke.MethodHandles.Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.Object...)
-     * public static java.lang.invoke.CallSite
-     * java.lang.invoke.LambdaMetafactory.altMetafactory(java.lang.invoke.MethodHandles$Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.Object...)
-     * throws java.lang.invoke.LambdaConversionException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_altMetafactory_Lookup_String_MethodType_ObjectArray()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.lang.invoke.LambdaMetafactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.invoke.LambdaMetafactory.class.isAssignableFrom(sut));
     }
 
 }

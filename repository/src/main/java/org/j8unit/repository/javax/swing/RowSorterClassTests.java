@@ -35,29 +35,6 @@ public abstract interface RowSorterClassTests<SUT extends Class<? extends javax.
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.RowSorter#RowSorter() public javax.swing.RowSorter()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RowSorter()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.RowSorter<M> sut = null; // = new RowSorter();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.RowSorter<M>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.RowSorter.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.RowSorter$SortKey class javax.swing.RowSorter$SortKey}, containing all class
      * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
@@ -110,6 +87,29 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(javax.swing.RowSorter.SortKey.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.RowSorter#RowSorter() public javax.swing.RowSorter()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RowSorter()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.RowSorter<M> sut = null; // = new RowSorter();
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.RowSorter<M>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.RowSorter.class.isAssignableFrom(sut));
     }
 
 }

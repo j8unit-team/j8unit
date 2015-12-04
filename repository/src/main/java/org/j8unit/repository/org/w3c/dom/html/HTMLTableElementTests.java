@@ -23,358 +23,6 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setCellSpacing(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableElement.setCellSpacing(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCellSpacing_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#deleteRow(int) public abstract void
-     * org.w3c.dom.html.HTMLTableElement.deleteRow(int) throws org.w3c.dom.DOMException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deleteRow_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setAlign(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableElement.setAlign(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAlign_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setBorder(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableElement.setBorder(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBorder_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#insertRow(int) public abstract
-     * org.w3c.dom.html.HTMLElement org.w3c.dom.html.HTMLTableElement.insertRow(int) throws org.w3c.dom.DOMException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insertRow_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#deleteTHead() public abstract void
-     * org.w3c.dom.html.HTMLTableElement.deleteTHead()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deleteTHead()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getBgColor() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableElement.getBgColor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBgColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#createTHead() public abstract
-     * org.w3c.dom.html.HTMLElement org.w3c.dom.html.HTMLTableElement.createTHead()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createTHead()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getSummary() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableElement.getSummary()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSummary()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getCellSpacing() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableElement.getCellSpacing()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCellSpacing()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setSummary(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableElement.setSummary(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSummary_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setCellPadding(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableElement.setCellPadding(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCellPadding_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#deleteTFoot() public abstract void
-     * org.w3c.dom.html.HTMLTableElement.deleteTFoot()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deleteTFoot()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getAlign() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableElement.getAlign()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAlign()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setTFoot(org.w3c.dom.html.HTMLTableSectionElement)
-     * public abstract void org.w3c.dom.html.HTMLTableElement.setTFoot(org.w3c.dom.html.HTMLTableSectionElement)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTFoot_HTMLTableSectionElement()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getTFoot() public abstract
-     * org.w3c.dom.html.HTMLTableSectionElement org.w3c.dom.html.HTMLTableElement.getTFoot()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTFoot()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setWidth(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableElement.setWidth(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setWidth_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getTBodies() public abstract
-     * org.w3c.dom.html.HTMLCollection org.w3c.dom.html.HTMLTableElement.getTBodies()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTBodies()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setFrame(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableElement.setFrame(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFrame_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setBgColor(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableElement.setBgColor(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBgColor_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getRules() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableElement.getRules()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRules()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getCellPadding() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableElement.getCellPadding()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCellPadding()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLTableElement#createCaption() public abstract
      * org.w3c.dom.html.HTMLElement org.w3c.dom.html.HTMLTableElement.createCaption()}.
      * </p>
@@ -383,38 +31,6 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createCaption()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getTHead() public abstract
-     * org.w3c.dom.html.HTMLTableSectionElement org.w3c.dom.html.HTMLTableElement.getTHead()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTHead()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setRules(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableElement.setRules(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRules_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -439,14 +55,110 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setTHead(org.w3c.dom.html.HTMLTableSectionElement)
-     * public abstract void org.w3c.dom.html.HTMLTableElement.setTHead(org.w3c.dom.html.HTMLTableSectionElement)}.
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#createTHead() public abstract
+     * org.w3c.dom.html.HTMLElement org.w3c.dom.html.HTMLTableElement.createTHead()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setTHead_HTMLTableSectionElement()
+    public default void test_createTHead()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#deleteCaption() public abstract void
+     * org.w3c.dom.html.HTMLTableElement.deleteCaption()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deleteCaption()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#deleteRow(int) public abstract void
+     * org.w3c.dom.html.HTMLTableElement.deleteRow(int) throws org.w3c.dom.DOMException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deleteRow_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#deleteTFoot() public abstract void
+     * org.w3c.dom.html.HTMLTableElement.deleteTFoot()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deleteTFoot()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#deleteTHead() public abstract void
+     * org.w3c.dom.html.HTMLTableElement.deleteTHead()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deleteTHead()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getAlign() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLTableElement.getAlign()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAlign()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getBgColor() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLTableElement.getBgColor()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBgColor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -471,14 +183,46 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#deleteCaption() public abstract void
-     * org.w3c.dom.html.HTMLTableElement.deleteCaption()}.
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getCaption() public abstract
+     * org.w3c.dom.html.HTMLTableCaptionElement org.w3c.dom.html.HTMLTableElement.getCaption()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_deleteCaption()
+    public default void test_getCaption()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getCellPadding() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLTableElement.getCellPadding()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCellPadding()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getCellSpacing() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLTableElement.getCellSpacing()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCellSpacing()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -519,6 +263,86 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getRules() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLTableElement.getRules()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRules()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getSummary() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLTableElement.getSummary()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSummary()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getTBodies() public abstract
+     * org.w3c.dom.html.HTMLCollection org.w3c.dom.html.HTMLTableElement.getTBodies()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTBodies()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getTFoot() public abstract
+     * org.w3c.dom.html.HTMLTableSectionElement org.w3c.dom.html.HTMLTableElement.getTFoot()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTFoot()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getTHead() public abstract
+     * org.w3c.dom.html.HTMLTableSectionElement org.w3c.dom.html.HTMLTableElement.getTHead()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTHead()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLTableElement#getWidth() public abstract java.lang.String
      * org.w3c.dom.html.HTMLTableElement.getWidth()}.
      * </p>
@@ -527,6 +351,70 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getWidth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#insertRow(int) public abstract
+     * org.w3c.dom.html.HTMLElement org.w3c.dom.html.HTMLTableElement.insertRow(int) throws org.w3c.dom.DOMException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insertRow_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setAlign(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableElement.setAlign(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAlign_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setBgColor(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableElement.setBgColor(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setBgColor_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setBorder(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableElement.setBorder(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setBorder_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -551,14 +439,126 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableElement#getCaption() public abstract
-     * org.w3c.dom.html.HTMLTableCaptionElement org.w3c.dom.html.HTMLTableElement.getCaption()}.
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setCellPadding(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableElement.setCellPadding(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCaption()
+    public default void test_setCellPadding_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setCellSpacing(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableElement.setCellSpacing(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCellSpacing_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setFrame(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableElement.setFrame(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFrame_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setRules(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableElement.setRules(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRules_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setSummary(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableElement.setSummary(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSummary_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setTFoot(org.w3c.dom.html.HTMLTableSectionElement)
+     * public abstract void org.w3c.dom.html.HTMLTableElement.setTFoot(org.w3c.dom.html.HTMLTableSectionElement)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTFoot_HTMLTableSectionElement()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setTHead(org.w3c.dom.html.HTMLTableSectionElement)
+     * public abstract void org.w3c.dom.html.HTMLTableElement.setTHead(org.w3c.dom.html.HTMLTableSectionElement)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTHead_HTMLTableSectionElement()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableElement#setWidth(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableElement.setWidth(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setWidth_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

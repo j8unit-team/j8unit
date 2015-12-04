@@ -36,19 +36,17 @@ public abstract interface JMXProviderExceptionClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.management.remote.JMXProviderException#JMXProviderException(java.lang.String,java.lang.Throwable)
-     * public javax.management.remote.JMXProviderException(java.lang.String,java.lang.Throwable)}.
+     * Test method for {@link javax.management.remote.JMXProviderException#JMXProviderException() public
+     * javax.management.remote.JMXProviderException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JMXProviderException_String_Throwable()
+    public default void create_JMXProviderException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.management.remote.JMXProviderException sut = null; // = new
-                                                                       // JMXProviderException(java.lang.String,java.lang.Throwable);
+        final javax.management.remote.JMXProviderException sut = null; // = new JMXProviderException();
     }
 
     /**
@@ -66,17 +64,19 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.management.remote.JMXProviderException#JMXProviderException() public
-     * javax.management.remote.JMXProviderException()}.
+     * Test method for
+     * {@link javax.management.remote.JMXProviderException#JMXProviderException(java.lang.String,java.lang.Throwable)
+     * public javax.management.remote.JMXProviderException(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JMXProviderException()
+    public default void create_JMXProviderException_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.management.remote.JMXProviderException sut = null; // = new JMXProviderException();
+        final javax.management.remote.JMXProviderException sut = null; // = new
+                                                                       // JMXProviderException(java.lang.String,java.lang.Throwable);
     }
 
     @Override

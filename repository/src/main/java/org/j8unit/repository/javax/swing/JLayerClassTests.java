@@ -36,17 +36,16 @@ extends org.j8unit.repository.javax.swing.ScrollableClassTests<SUT>, org.j8unit.
 org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JLayer#JLayer(java.awt.Component,javax.swing.plaf.LayerUI) public
-     * javax.swing.JLayer(java.awt.Component,javax.swing.plaf.LayerUI)}.
+     * Test method for {@link javax.swing.JLayer#JLayer() public javax.swing.JLayer()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JLayer_Component_LayerUI()
+    public default void create_JLayer()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JLayer<V> sut = null; // = new JLayer(java.awt.Component,javax.swing.plaf.LayerUI);
+        final javax.swing.JLayer<V> sut = null; // = new JLayer();
     }
 
     /**
@@ -64,16 +63,17 @@ org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.
     }
 
     /**
-     * Test method for {@link javax.swing.JLayer#JLayer() public javax.swing.JLayer()}.
+     * Test method for {@link javax.swing.JLayer#JLayer(java.awt.Component,javax.swing.plaf.LayerUI) public
+     * javax.swing.JLayer(java.awt.Component,javax.swing.plaf.LayerUI)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JLayer()
+    public default void create_JLayer_Component_LayerUI()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JLayer<V> sut = null; // = new JLayer();
+        final javax.swing.JLayer<V> sut = null; // = new JLayer(java.awt.Component,javax.swing.plaf.LayerUI);
     }
 
     @Override

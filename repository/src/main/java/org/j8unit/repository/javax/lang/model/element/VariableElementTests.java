@@ -23,15 +23,14 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.element.VariableElement#getSimpleName() public abstract
-     * javax.lang.model.element.Name javax.lang.model.element.VariableElement.getSimpleName()}.
+     * Test method for {@link javax.lang.model.element.VariableElement#getConstantValue() public abstract
+     * java.lang.Object javax.lang.model.element.VariableElement.getConstantValue()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getSimpleName()
+    public default void test_getConstantValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,14 +56,15 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.element.VariableElement#getConstantValue() public abstract
-     * java.lang.Object javax.lang.model.element.VariableElement.getConstantValue()}.
+     * Test method for {@link javax.lang.model.element.VariableElement#getSimpleName() public abstract
+     * javax.lang.model.element.Name javax.lang.model.element.VariableElement.getSimpleName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getConstantValue()
+    @Override
+    public default void test_getSimpleName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

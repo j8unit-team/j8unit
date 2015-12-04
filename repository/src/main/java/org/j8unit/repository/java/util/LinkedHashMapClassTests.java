@@ -36,31 +36,16 @@ public abstract interface LinkedHashMapClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.repository.java.util.HashMapClassTests<SUT, K, V> {
 
     /**
-     * Test method for {@link java.util.LinkedHashMap#LinkedHashMap(int,float,boolean) public
-     * java.util.LinkedHashMap(int,float,boolean)}.
+     * Test method for {@link java.util.LinkedHashMap#LinkedHashMap() public java.util.LinkedHashMap()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_LinkedHashMap_int_float_boolean()
+    public default void create_LinkedHashMap()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.LinkedHashMap<K, V> sut = null; // = new LinkedHashMap(int,float,boolean);
-    }
-
-    /**
-     * Test method for {@link java.util.LinkedHashMap#LinkedHashMap(java.util.Map) public
-     * java.util.LinkedHashMap(java.util.Map)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LinkedHashMap_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.LinkedHashMap<K, V> sut = null; // = new LinkedHashMap(java.util.Map);
+        final java.util.LinkedHashMap<K, V> sut = null; // = new LinkedHashMap();
     }
 
     /**
@@ -91,16 +76,31 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
     }
 
     /**
-     * Test method for {@link java.util.LinkedHashMap#LinkedHashMap() public java.util.LinkedHashMap()}.
+     * Test method for {@link java.util.LinkedHashMap#LinkedHashMap(int,float,boolean) public
+     * java.util.LinkedHashMap(int,float,boolean)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_LinkedHashMap()
+    public default void create_LinkedHashMap_int_float_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.LinkedHashMap<K, V> sut = null; // = new LinkedHashMap();
+        final java.util.LinkedHashMap<K, V> sut = null; // = new LinkedHashMap(int,float,boolean);
+    }
+
+    /**
+     * Test method for {@link java.util.LinkedHashMap#LinkedHashMap(java.util.Map) public
+     * java.util.LinkedHashMap(java.util.Map)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LinkedHashMap_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.LinkedHashMap<K, V> sut = null; // = new LinkedHashMap(java.util.Map);
     }
 
     @Override

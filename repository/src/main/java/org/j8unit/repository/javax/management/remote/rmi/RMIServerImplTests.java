@@ -24,6 +24,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIServerImpl#close() public synchronized void
+     * javax.management.remote.rmi.RMIServerImpl.close() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.remote.rmi.RMIServerImpl#getDefaultClassLoader() public synchronized
      * java.lang.ClassLoader javax.management.remote.rmi.RMIServerImpl.getDefaultClassLoader()}.
      * </p>
@@ -32,6 +49,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDefaultClassLoader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIServerImpl#getMBeanServer() public synchronized
+     * javax.management.MBeanServer javax.management.remote.rmi.RMIServerImpl.getMBeanServer()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMBeanServer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -75,22 +108,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIServerImpl#getMBeanServer() public synchronized
-     * javax.management.MBeanServer javax.management.remote.rmi.RMIServerImpl.getMBeanServer()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMBeanServer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.remote.rmi.RMIServerImpl#setDefaultClassLoader(java.lang.ClassLoader)
      * public synchronized void javax.management.remote.rmi.RMIServerImpl.setDefaultClassLoader(java.lang.ClassLoader)}.
      * </p>
@@ -107,39 +124,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIServerImpl#toStub() public abstract java.rmi.Remote
-     * javax.management.remote.rmi.RMIServerImpl.toStub() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toStub()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIServerImpl#close() public synchronized void
-     * javax.management.remote.rmi.RMIServerImpl.close() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.remote.rmi.RMIServerImpl#setMBeanServer(javax.management.MBeanServer)
      * public synchronized void javax.management.remote.rmi.RMIServerImpl.setMBeanServer(javax.management.MBeanServer)}.
      * </p>
@@ -148,6 +132,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setMBeanServer_MBeanServer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIServerImpl#toStub() public abstract java.rmi.Remote
+     * javax.management.remote.rmi.RMIServerImpl.toStub() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toStub()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,47 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ContentHandler#setDocumentLocator(org.xml.sax.Locator) public abstract void
-     * org.xml.sax.ContentHandler.setDocumentLocator(org.xml.sax.Locator)}.
+     * Test method for {@link org.xml.sax.ContentHandler#characters(char[],int,int) public abstract void
+     * org.xml.sax.ContentHandler.characters(char[],int,int) throws org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDocumentLocator_Locator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.ContentHandler#processingInstruction(java.lang.String,java.lang.String) public
-     * abstract void org.xml.sax.ContentHandler.processingInstruction(java.lang.String,java.lang.String) throws
-     * org.xml.sax.SAXException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_processingInstruction_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.ContentHandler#startDocument() public abstract void
-     * org.xml.sax.ContentHandler.startDocument() throws org.xml.sax.SAXException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_startDocument()
+    public default void test_characters_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -81,22 +48,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_endDocument()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.ContentHandler#ignorableWhitespace(char[],int,int) public abstract void
-     * org.xml.sax.ContentHandler.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ignorableWhitespace_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -122,15 +73,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ContentHandler#startPrefixMapping(java.lang.String,java.lang.String) public
-     * abstract void org.xml.sax.ContentHandler.startPrefixMapping(java.lang.String,java.lang.String) throws
-     * org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.ContentHandler#endPrefixMapping(java.lang.String) public abstract void
+     * org.xml.sax.ContentHandler.endPrefixMapping(java.lang.String) throws org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_startPrefixMapping_String_String()
+    public default void test_endPrefixMapping_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -139,14 +89,47 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ContentHandler#characters(char[],int,int) public abstract void
-     * org.xml.sax.ContentHandler.characters(char[],int,int) throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.ContentHandler#ignorableWhitespace(char[],int,int) public abstract void
+     * org.xml.sax.ContentHandler.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_characters_charArray_int_int()
+    public default void test_ignorableWhitespace_charArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.ContentHandler#processingInstruction(java.lang.String,java.lang.String) public
+     * abstract void org.xml.sax.ContentHandler.processingInstruction(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_processingInstruction_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.ContentHandler#setDocumentLocator(org.xml.sax.Locator) public abstract void
+     * org.xml.sax.ContentHandler.setDocumentLocator(org.xml.sax.Locator)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDocumentLocator_Locator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -163,6 +146,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_skippedEntity_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.ContentHandler#startDocument() public abstract void
+     * org.xml.sax.ContentHandler.startDocument() throws org.xml.sax.SAXException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_startDocument()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -190,14 +189,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ContentHandler#endPrefixMapping(java.lang.String) public abstract void
-     * org.xml.sax.ContentHandler.endPrefixMapping(java.lang.String) throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.ContentHandler#startPrefixMapping(java.lang.String,java.lang.String) public
+     * abstract void org.xml.sax.ContentHandler.startPrefixMapping(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_endPrefixMapping_String()
+    public default void test_startPrefixMapping_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

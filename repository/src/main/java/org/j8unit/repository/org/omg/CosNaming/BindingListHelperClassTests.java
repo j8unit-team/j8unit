@@ -49,60 +49,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.CosNaming.BindingListHelper sut = null; // = new BindingListHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.CosNaming.BindingListHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.CosNaming.BindingListHelper.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.CosNaming.BindingListHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.Binding[])
-     * public static void
-     * org.omg.CosNaming.BindingListHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.Binding[])}.
+     * Test method for {@link org.omg.CosNaming.BindingListHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.CosNaming.Binding[] org.omg.CosNaming.BindingListHelper.extract(org.omg.CORBA.Any)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_OutputStream_BindingArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CosNaming.BindingListHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.CosNaming.BindingListHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CosNaming.BindingListHelper#insert(org.omg.CORBA.Any,org.omg.CosNaming.Binding[])
-     * public static void org.omg.CosNaming.BindingListHelper.insert(org.omg.CORBA.Any,org.omg.CosNaming.Binding[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_Any_BindingArray()
+    public default void test_extract_Any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,6 +83,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.omg.CosNaming.BindingListHelper#insert(org.omg.CORBA.Any,org.omg.CosNaming.Binding[])
+     * public static void org.omg.CosNaming.BindingListHelper.insert(org.omg.CORBA.Any,org.omg.CosNaming.Binding[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_BindingArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.omg.CosNaming.BindingListHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.CosNaming.Binding[] org.omg.CosNaming.BindingListHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
@@ -143,18 +115,46 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CosNaming.BindingListHelper#extract(org.omg.CORBA.Any) public static
-     * org.omg.CosNaming.Binding[] org.omg.CosNaming.BindingListHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for {@link org.omg.CosNaming.BindingListHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.CosNaming.BindingListHelper.type()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_extract_Any()
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.CosNaming.BindingListHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.Binding[])
+     * public static void
+     * org.omg.CosNaming.BindingListHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.Binding[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_BindingArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.CosNaming.BindingListHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.CosNaming.BindingListHelper.class.isAssignableFrom(sut));
     }
 
 }

@@ -23,14 +23,13 @@ extends org.j8unit.repository.java.util.VectorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Stack#push(java.lang.Object) public java.lang.Object
-     * java.util.Stack.push(java.lang.Object)}.
+     * Test method for {@link java.util.Stack#empty() public boolean java.util.Stack.empty()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_push_Object()
+    public default void test_empty()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -54,13 +53,29 @@ extends org.j8unit.repository.java.util.VectorTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Stack#empty() public boolean java.util.Stack.empty()}.
+     * Test method for {@link java.util.Stack#pop() public synchronized java.lang.Object java.util.Stack.pop()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_empty()
+    public default void test_pop()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Stack#push(java.lang.Object) public java.lang.Object
+     * java.util.Stack.push(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_push_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -77,21 +92,6 @@ extends org.j8unit.repository.java.util.VectorTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_search_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Stack#pop() public synchronized java.lang.Object java.util.Stack.pop()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_pop()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

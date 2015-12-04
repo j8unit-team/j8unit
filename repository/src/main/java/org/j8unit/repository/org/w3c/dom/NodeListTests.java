@@ -24,14 +24,13 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.NodeList#item(int) public abstract org.w3c.dom.Node
-     * org.w3c.dom.NodeList.item(int)}.
+     * Test method for {@link org.w3c.dom.NodeList#getLength() public abstract int org.w3c.dom.NodeList.getLength()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_item_int()
+    public default void test_getLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,13 +39,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.NodeList#getLength() public abstract int org.w3c.dom.NodeList.getLength()}.
+     * Test method for {@link org.w3c.dom.NodeList#item(int) public abstract org.w3c.dom.Node
+     * org.w3c.dom.NodeList.item(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLength()
+    public default void test_item_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

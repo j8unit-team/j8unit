@@ -49,16 +49,6 @@ extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
         final javax.swing.text.TextAction sut = null; // = new TextAction(java.lang.String);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.TextAction> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.TextAction.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.text.TextAction#augmentList(javax.swing.Action[],javax.swing.Action[]) public
@@ -74,6 +64,16 @@ extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.TextAction> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.TextAction.class.isAssignableFrom(sut));
     }
 
 }

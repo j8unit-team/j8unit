@@ -24,54 +24,6 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.DefaultFormatter#getCommitsOnValidEdit() public boolean
-     * javax.swing.text.DefaultFormatter.getCommitsOnValidEdit()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCommitsOnValidEdit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.DefaultFormatter#setAllowsInvalid(boolean) public void
-     * javax.swing.text.DefaultFormatter.setAllowsInvalid(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAllowsInvalid_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.DefaultFormatter#setCommitsOnValidEdit(boolean) public void
-     * javax.swing.text.DefaultFormatter.setCommitsOnValidEdit(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCommitsOnValidEdit_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.text.DefaultFormatter#clone() public java.lang.Object
      * javax.swing.text.DefaultFormatter.clone() throws java.lang.CloneNotSupportedException}.
      * </p>
@@ -80,22 +32,6 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
     @Test
     @Category(Draft.class)
     public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.DefaultFormatter#setValueClass(java.lang.Class) public void
-     * javax.swing.text.DefaultFormatter.setValueClass(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setValueClass_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,31 +56,14 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.DefaultFormatter#setOverwriteMode(boolean) public void
-     * javax.swing.text.DefaultFormatter.setOverwriteMode(boolean)}.
+     * Test method for {@link javax.swing.text.DefaultFormatter#getCommitsOnValidEdit() public boolean
+     * javax.swing.text.DefaultFormatter.getCommitsOnValidEdit()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setOverwriteMode_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.DefaultFormatter#valueToString(java.lang.Object) public java.lang.String
-     * javax.swing.text.DefaultFormatter.valueToString(java.lang.Object) throws java.text.ParseException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_valueToString_Object()
+    public default void test_getCommitsOnValidEdit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -202,6 +121,70 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
 
     /**
      * <p>
+     * Test method for {@link javax.swing.text.DefaultFormatter#setAllowsInvalid(boolean) public void
+     * javax.swing.text.DefaultFormatter.setAllowsInvalid(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAllowsInvalid_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.DefaultFormatter#setCommitsOnValidEdit(boolean) public void
+     * javax.swing.text.DefaultFormatter.setCommitsOnValidEdit(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCommitsOnValidEdit_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.DefaultFormatter#setOverwriteMode(boolean) public void
+     * javax.swing.text.DefaultFormatter.setOverwriteMode(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setOverwriteMode_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.DefaultFormatter#setValueClass(java.lang.Class) public void
+     * javax.swing.text.DefaultFormatter.setValueClass(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setValueClass_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.text.DefaultFormatter#stringToValue(java.lang.String) public java.lang.Object
      * javax.swing.text.DefaultFormatter.stringToValue(java.lang.String) throws java.text.ParseException}.
      * </p>
@@ -211,6 +194,23 @@ org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterTest
     @Category(Draft.class)
     @Override
     public default void test_stringToValue_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.DefaultFormatter#valueToString(java.lang.Object) public java.lang.String
+     * javax.swing.text.DefaultFormatter.valueToString(java.lang.Object) throws java.text.ParseException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_valueToString_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

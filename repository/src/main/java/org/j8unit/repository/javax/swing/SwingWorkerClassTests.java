@@ -36,29 +36,6 @@ public abstract interface SwingWorkerClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT, T>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.SwingWorker#SwingWorker() public javax.swing.SwingWorker()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SwingWorker()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.SwingWorker<T, V> sut = null; // = new SwingWorker();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.SwingWorker<T, V>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.SwingWorker.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.SwingWorker$StateValue class javax.swing.SwingWorker$StateValue}, containing
      * all class relevant test methods (at least the test methods of accessible constructors and of accessible
@@ -86,16 +63,6 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT,
     @Category(J8UnitRepository.class)
     public static abstract interface StateValueClassTests<SUT extends Class<? extends javax.swing.SwingWorker.StateValue>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.SwingWorker.StateValue> {
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.swing.SwingWorker.StateValue> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.SwingWorker.StateValue.class.isAssignableFrom(sut));
-        }
 
         /**
          * <p>
@@ -129,6 +96,39 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT,
             assert sut != null;
         }
 
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.swing.SwingWorker.StateValue> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.swing.SwingWorker.StateValue.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * Test method for {@link javax.swing.SwingWorker#SwingWorker() public javax.swing.SwingWorker()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SwingWorker()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.SwingWorker<T, V> sut = null; // = new SwingWorker();
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.SwingWorker<T, V>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.SwingWorker.class.isAssignableFrom(sut));
     }
 
 }

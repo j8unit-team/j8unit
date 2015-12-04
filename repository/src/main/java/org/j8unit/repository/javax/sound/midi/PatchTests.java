@@ -23,13 +23,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Patch#getProgram() public int javax.sound.midi.Patch.getProgram()}.
+     * Test method for {@link javax.sound.midi.Patch#getBank() public int javax.sound.midi.Patch.getBank()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getProgram()
+    public default void test_getBank()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -38,13 +38,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Patch#getBank() public int javax.sound.midi.Patch.getBank()}.
+     * Test method for {@link javax.sound.midi.Patch#getProgram() public int javax.sound.midi.Patch.getProgram()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBank()
+    public default void test_getProgram()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

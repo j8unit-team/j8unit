@@ -25,15 +25,32 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.bind.annotation.W3CDomHandler#marshal(org.w3c.dom.Element,javax.xml.bind.ValidationEventHandler)
-     * public javax.xml.transform.Source
-     * javax.xml.bind.annotation.W3CDomHandler.marshal(org.w3c.dom.Element,javax.xml.bind.ValidationEventHandler)}.
+     * {@link javax.xml.bind.annotation.W3CDomHandler#createUnmarshaller(javax.xml.bind.ValidationEventHandler) public
+     * javax.xml.transform.dom.DOMResult
+     * javax.xml.bind.annotation.W3CDomHandler.createUnmarshaller(javax.xml.bind.ValidationEventHandler)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_marshal_Element_ValidationEventHandler()
+    @Override
+    public default void test_createUnmarshaller_ValidationEventHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.annotation.W3CDomHandler#getBuilder() public
+     * javax.xml.parsers.DocumentBuilder javax.xml.bind.annotation.W3CDomHandler.getBuilder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBuilder()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -59,14 +76,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.annotation.W3CDomHandler#getBuilder() public
-     * javax.xml.parsers.DocumentBuilder javax.xml.bind.annotation.W3CDomHandler.getBuilder()}.
+     * Test method for
+     * {@link javax.xml.bind.annotation.W3CDomHandler#marshal(org.w3c.dom.Element,javax.xml.bind.ValidationEventHandler)
+     * public javax.xml.transform.Source
+     * javax.xml.bind.annotation.W3CDomHandler.marshal(org.w3c.dom.Element,javax.xml.bind.ValidationEventHandler)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBuilder()
+    public default void test_marshal_Element_ValidationEventHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -83,25 +102,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setBuilder_DocumentBuilder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.xml.bind.annotation.W3CDomHandler#createUnmarshaller(javax.xml.bind.ValidationEventHandler) public
-     * javax.xml.transform.dom.DOMResult
-     * javax.xml.bind.annotation.W3CDomHandler.createUnmarshaller(javax.xml.bind.ValidationEventHandler)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createUnmarshaller_ValidationEventHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

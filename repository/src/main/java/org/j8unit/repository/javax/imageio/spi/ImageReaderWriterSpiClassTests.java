@@ -36,6 +36,20 @@ public abstract interface ImageReaderWriterSpiClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.imageio.spi.ImageReaderWriterSpi#ImageReaderWriterSpi() public
+     * javax.imageio.spi.ImageReaderWriterSpi()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ImageReaderWriterSpi()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.imageio.spi.ImageReaderWriterSpi sut = null; // = new ImageReaderWriterSpi();
+    }
+
+    /**
      * Test method for
      * {@link javax.imageio.spi.ImageReaderWriterSpi#ImageReaderWriterSpi(java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String[],java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],boolean,java.lang.String,java.lang.String,java.lang.String[],java.lang.String[])
      * public
@@ -51,20 +65,6 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderClassTests<SUT
         @SuppressWarnings("unused")
         final javax.imageio.spi.ImageReaderWriterSpi sut = null; // = new
                                                                  // ImageReaderWriterSpi(java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],java.lang.String[],java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],boolean,java.lang.String,java.lang.String,java.lang.String[],java.lang.String[]);
-    }
-
-    /**
-     * Test method for {@link javax.imageio.spi.ImageReaderWriterSpi#ImageReaderWriterSpi() public
-     * javax.imageio.spi.ImageReaderWriterSpi()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ImageReaderWriterSpi()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.imageio.spi.ImageReaderWriterSpi sut = null; // = new ImageReaderWriterSpi();
     }
 
     @Override

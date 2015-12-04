@@ -51,16 +51,6 @@ extends org.j8unit.repository.java.lang.management.LockInfoClassTests<SUT> {
                                                            // MonitorInfo(java.lang.String,int,int,java.lang.StackTraceElement);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.lang.management.MonitorInfo> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.management.MonitorInfo.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.lang.management.MonitorInfo#from(javax.management.openmbean.CompositeData) public
@@ -77,6 +67,16 @@ extends org.j8unit.repository.java.lang.management.LockInfoClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.lang.management.MonitorInfo> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.management.MonitorInfo.class.isAssignableFrom(sut));
     }
 
 }

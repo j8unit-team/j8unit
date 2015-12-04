@@ -36,6 +36,20 @@ public abstract interface MBeanServerPermissionClassTests<SUT extends Class<? ex
 extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.management.MBeanServerPermission#MBeanServerPermission(java.lang.String) public
+     * javax.management.MBeanServerPermission(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MBeanServerPermission_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.MBeanServerPermission sut = null; // = new MBeanServerPermission(java.lang.String);
+    }
+
+    /**
      * Test method for
      * {@link javax.management.MBeanServerPermission#MBeanServerPermission(java.lang.String,java.lang.String) public
      * javax.management.MBeanServerPermission(java.lang.String,java.lang.String)}.
@@ -49,20 +63,6 @@ extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.management.MBeanServerPermission sut = null; // = new
                                                                  // MBeanServerPermission(java.lang.String,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.management.MBeanServerPermission#MBeanServerPermission(java.lang.String) public
-     * javax.management.MBeanServerPermission(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MBeanServerPermission_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.MBeanServerPermission sut = null; // = new MBeanServerPermission(java.lang.String);
     }
 
     @Override

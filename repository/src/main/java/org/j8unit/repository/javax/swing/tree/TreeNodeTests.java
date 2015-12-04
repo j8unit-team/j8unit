@@ -24,38 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.TreeNode#getAllowsChildren() public abstract boolean
-     * javax.swing.tree.TreeNode.getAllowsChildren()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAllowsChildren()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.TreeNode#getIndex(javax.swing.tree.TreeNode) public abstract int
-     * javax.swing.tree.TreeNode.getIndex(javax.swing.tree.TreeNode)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIndex_TreeNode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.tree.TreeNode#children() public abstract java.util.Enumeration
      * javax.swing.tree.TreeNode.children()}.
      * </p>
@@ -72,14 +40,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.TreeNode#getParent() public abstract javax.swing.tree.TreeNode
-     * javax.swing.tree.TreeNode.getParent()}.
+     * Test method for {@link javax.swing.tree.TreeNode#getAllowsChildren() public abstract boolean
+     * javax.swing.tree.TreeNode.getAllowsChildren()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParent()
+    public default void test_getAllowsChildren()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.tree.TreeNode#getChildAt(int) public abstract javax.swing.tree.TreeNode
+     * javax.swing.tree.TreeNode.getChildAt(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getChildAt_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,14 +88,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.TreeNode#getChildAt(int) public abstract javax.swing.tree.TreeNode
-     * javax.swing.tree.TreeNode.getChildAt(int)}.
+     * Test method for {@link javax.swing.tree.TreeNode#getIndex(javax.swing.tree.TreeNode) public abstract int
+     * javax.swing.tree.TreeNode.getIndex(javax.swing.tree.TreeNode)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getChildAt_int()
+    public default void test_getIndex_TreeNode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.tree.TreeNode#getParent() public abstract javax.swing.tree.TreeNode
+     * javax.swing.tree.TreeNode.getParent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

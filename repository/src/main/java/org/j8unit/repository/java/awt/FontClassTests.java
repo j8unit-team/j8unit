@@ -35,6 +35,19 @@ public abstract interface FontClassTests<SUT extends Class<? extends java.awt.Fo
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.awt.Font#Font(java.util.Map) public java.awt.Font(java.util.Map)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Font_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Font sut = null; // = new Font(java.util.Map);
+    }
+
+    /**
      * Test method for {@link java.awt.Font#Font(java.lang.String,int,int) public
      * java.awt.Font(java.lang.String,int,int)}.
      */
@@ -49,38 +62,15 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     }
 
     /**
-     * Test method for {@link java.awt.Font#Font(java.util.Map) public java.awt.Font(java.util.Map)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Font_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Font sut = null; // = new Font(java.util.Map);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.Font> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.Font.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.awt.Font#decode(java.lang.String) public static java.awt.Font
-     * java.awt.Font.decode(java.lang.String)}.
+     * Test method for {@link java.awt.Font#createFont(int,java.io.File) public static java.awt.Font
+     * java.awt.Font.createFont(int,java.io.File) throws java.awt.FontFormatException,java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_decode_String()
+    public default void test_createFont_int_File()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -105,14 +95,14 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link java.awt.Font#createFont(int,java.io.File) public static java.awt.Font
-     * java.awt.Font.createFont(int,java.io.File) throws java.awt.FontFormatException,java.io.IOException}.
+     * Test method for {@link java.awt.Font#decode(java.lang.String) public static java.awt.Font
+     * java.awt.Font.decode(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createFont_int_File()
+    public default void test_decode_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,14 +111,14 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link java.awt.Font#getFont(java.lang.String,java.awt.Font) public static java.awt.Font
-     * java.awt.Font.getFont(java.lang.String,java.awt.Font)}.
+     * Test method for {@link java.awt.Font#getFont(java.util.Map) public static java.awt.Font
+     * java.awt.Font.getFont(java.util.Map)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getFont_String_Font()
+    public default void test_getFont_Map()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -153,18 +143,28 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link java.awt.Font#getFont(java.util.Map) public static java.awt.Font
-     * java.awt.Font.getFont(java.util.Map)}.
+     * Test method for {@link java.awt.Font#getFont(java.lang.String,java.awt.Font) public static java.awt.Font
+     * java.awt.Font.getFont(java.lang.String,java.awt.Font)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getFont_Map()
+    public default void test_getFont_String_Font()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.Font> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.Font.class.isAssignableFrom(sut));
     }
 
 }

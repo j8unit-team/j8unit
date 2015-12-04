@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.activation.MimeType#setPrimaryType(java.lang.String) public void
-     * javax.activation.MimeType.setPrimaryType(java.lang.String) throws javax.activation.MimeTypeParseException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPrimaryType_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.activation.MimeType#getBaseType() public java.lang.String
      * javax.activation.MimeType.getBaseType()}.
      * </p>
@@ -71,39 +55,6 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.activation.MimeType#removeParameter(java.lang.String) public void
-     * javax.activation.MimeType.removeParameter(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeParameter_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.activation.MimeType#toString() public java.lang.String
-     * javax.activation.MimeType.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.activation.MimeType#getParameters() public javax.activation.MimeTypeParameterList
      * javax.activation.MimeType.getParameters()}.
      * </p>
@@ -112,6 +63,70 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
     @Test
     @Category(Draft.class)
     public default void test_getParameters()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.MimeType#getPrimaryType() public java.lang.String
+     * javax.activation.MimeType.getPrimaryType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrimaryType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.MimeType#getSubType() public java.lang.String
+     * javax.activation.MimeType.getSubType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSubType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.MimeType#match(javax.activation.MimeType) public boolean
+     * javax.activation.MimeType.match(javax.activation.MimeType)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_match_MimeType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.MimeType#match(java.lang.String) public boolean
+     * javax.activation.MimeType.match(java.lang.String) throws javax.activation.MimeTypeParseException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_match_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -138,6 +153,22 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
+     * Test method for {@link javax.activation.MimeType#removeParameter(java.lang.String) public void
+     * javax.activation.MimeType.removeParameter(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeParameter_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.activation.MimeType#setParameter(java.lang.String,java.lang.String) public void
      * javax.activation.MimeType.setParameter(java.lang.String,java.lang.String)}.
      * </p>
@@ -146,6 +177,22 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
     @Test
     @Category(Draft.class)
     public default void test_setParameter_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.MimeType#setPrimaryType(java.lang.String) public void
+     * javax.activation.MimeType.setPrimaryType(java.lang.String) throws javax.activation.MimeTypeParseException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPrimaryType_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -170,14 +217,15 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.activation.MimeType#getPrimaryType() public java.lang.String
-     * javax.activation.MimeType.getPrimaryType()}.
+     * Test method for {@link javax.activation.MimeType#toString() public java.lang.String
+     * javax.activation.MimeType.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrimaryType()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -195,54 +243,6 @@ extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repos
     @Category(Draft.class)
     @Override
     public default void test_writeExternal_ObjectOutput()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.activation.MimeType#getSubType() public java.lang.String
-     * javax.activation.MimeType.getSubType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSubType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.activation.MimeType#match(java.lang.String) public boolean
-     * javax.activation.MimeType.match(java.lang.String) throws javax.activation.MimeTypeParseException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_match_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.activation.MimeType#match(javax.activation.MimeType) public boolean
-     * javax.activation.MimeType.match(javax.activation.MimeType)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_match_MimeType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,14 +23,15 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.ShortMessage#getCommand() public int
-     * javax.sound.midi.ShortMessage.getCommand()}.
+     * Test method for {@link javax.sound.midi.ShortMessage#clone() public java.lang.Object
+     * javax.sound.midi.ShortMessage.clone()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCommand()
+    @Override
+    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,15 +56,30 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.ShortMessage#clone() public java.lang.Object
-     * javax.sound.midi.ShortMessage.clone()}.
+     * Test method for {@link javax.sound.midi.ShortMessage#getCommand() public int
+     * javax.sound.midi.ShortMessage.getCommand()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_clone()
+    public default void test_getCommand()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.midi.ShortMessage#getData1() public int
+     * javax.sound.midi.ShortMessage.getData1()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getData1()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,22 +120,6 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.ShortMessage#setMessage(int,int,int,int) public void
-     * javax.sound.midi.ShortMessage.setMessage(int,int,int,int) throws javax.sound.midi.InvalidMidiDataException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMessage_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sound.midi.ShortMessage#setMessage(int,int,int) public void
      * javax.sound.midi.ShortMessage.setMessage(int,int,int) throws javax.sound.midi.InvalidMidiDataException}.
      * </p>
@@ -136,14 +136,14 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.ShortMessage#getData1() public int
-     * javax.sound.midi.ShortMessage.getData1()}.
+     * Test method for {@link javax.sound.midi.ShortMessage#setMessage(int,int,int,int) public void
+     * javax.sound.midi.ShortMessage.setMessage(int,int,int,int) throws javax.sound.midi.InvalidMidiDataException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getData1()
+    public default void test_setMessage_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

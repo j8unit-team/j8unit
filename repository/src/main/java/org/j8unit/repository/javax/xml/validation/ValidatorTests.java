@@ -23,6 +23,56 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.validation.Validator#getErrorHandler() public abstract org.xml.sax.ErrorHandler
+     * javax.xml.validation.Validator.getErrorHandler()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getErrorHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.Validator#getFeature(java.lang.String) public boolean
+     * javax.xml.validation.Validator.getFeature(java.lang.String) throws
+     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFeature_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.Validator#getProperty(java.lang.String) public java.lang.Object
+     * javax.xml.validation.Validator.getProperty(java.lang.String) throws
+     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProperty_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.validation.Validator#getResourceResolver() public abstract
      * org.w3c.dom.ls.LSResourceResolver javax.xml.validation.Validator.getResourceResolver()}.
      * </p>
@@ -39,22 +89,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.validation.Validator#setResourceResolver(org.w3c.dom.ls.LSResourceResolver)
-     * public abstract void javax.xml.validation.Validator.setResourceResolver(org.w3c.dom.ls.LSResourceResolver)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setResourceResolver_LSResourceResolver()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.validation.Validator#reset() public abstract void
      * javax.xml.validation.Validator.reset()}.
      * </p>
@@ -63,6 +97,72 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.Validator#setErrorHandler(org.xml.sax.ErrorHandler) public abstract
+     * void javax.xml.validation.Validator.setErrorHandler(org.xml.sax.ErrorHandler)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setErrorHandler_ErrorHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.Validator#setFeature(java.lang.String,boolean) public void
+     * javax.xml.validation.Validator.setFeature(java.lang.String,boolean) throws
+     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFeature_String_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.Validator#setProperty(java.lang.String,java.lang.Object) public void
+     * javax.xml.validation.Validator.setProperty(java.lang.String,java.lang.Object) throws
+     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setProperty_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.Validator#setResourceResolver(org.w3c.dom.ls.LSResourceResolver)
+     * public abstract void javax.xml.validation.Validator.setResourceResolver(org.w3c.dom.ls.LSResourceResolver)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setResourceResolver_LSResourceResolver()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -98,106 +198,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_validate_Source_Result()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.validation.Validator#getFeature(java.lang.String) public boolean
-     * javax.xml.validation.Validator.getFeature(java.lang.String) throws
-     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFeature_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.validation.Validator#getErrorHandler() public abstract org.xml.sax.ErrorHandler
-     * javax.xml.validation.Validator.getErrorHandler()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getErrorHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.validation.Validator#getProperty(java.lang.String) public java.lang.Object
-     * javax.xml.validation.Validator.getProperty(java.lang.String) throws
-     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProperty_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.validation.Validator#setProperty(java.lang.String,java.lang.Object) public void
-     * javax.xml.validation.Validator.setProperty(java.lang.String,java.lang.Object) throws
-     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setProperty_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.validation.Validator#setErrorHandler(org.xml.sax.ErrorHandler) public abstract
-     * void javax.xml.validation.Validator.setErrorHandler(org.xml.sax.ErrorHandler)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setErrorHandler_ErrorHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.validation.Validator#setFeature(java.lang.String,boolean) public void
-     * javax.xml.validation.Validator.setFeature(java.lang.String,boolean) throws
-     * org.xml.sax.SAXNotRecognizedException,org.xml.sax.SAXNotSupportedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFeature_String_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

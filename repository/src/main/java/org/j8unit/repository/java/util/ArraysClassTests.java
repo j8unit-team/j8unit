@@ -34,192 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ArraysClassTests<SUT extends Class<? extends java.util.Arrays>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.Arrays> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.Arrays.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#copyOfRange(short[],int,int) public static short[]
-     * java.util.Arrays.copyOfRange(short[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyOfRange_shortArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#copyOfRange(byte[],int,int) public static byte[]
-     * java.util.Arrays.copyOfRange(byte[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyOfRange_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#copyOfRange(java.lang.Object[],int,int,java.lang.Class) public static
-     * java.lang.Object[] java.util.Arrays.copyOfRange(java.lang.Object[],int,int,java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyOfRange_ObjectArray_int_int_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#copyOfRange(char[],int,int) public static char[]
-     * java.util.Arrays.copyOfRange(char[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyOfRange_charArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#copyOfRange(java.lang.Object[],int,int) public static java.lang.Object[]
-     * java.util.Arrays.copyOfRange(java.lang.Object[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyOfRange_ObjectArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#copyOfRange(boolean[],int,int) public static boolean[]
-     * java.util.Arrays.copyOfRange(boolean[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyOfRange_booleanArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#copyOfRange(double[],int,int) public static double[]
-     * java.util.Arrays.copyOfRange(double[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyOfRange_doubleArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#copyOfRange(float[],int,int) public static float[]
-     * java.util.Arrays.copyOfRange(float[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyOfRange_floatArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#deepToString(java.lang.Object[]) public static java.lang.String
-     * java.util.Arrays.deepToString(java.lang.Object[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deepToString_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#copyOfRange(int[],int,int) public static int[]
-     * java.util.Arrays.copyOfRange(int[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyOfRange_intArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#copyOfRange(long[],int,int) public static long[]
-     * java.util.Arrays.copyOfRange(long[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyOfRange_longArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link java.util.Arrays#asList(java.lang.Object...) public static java.util.List
@@ -238,14 +52,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#deepHashCode(java.lang.Object[]) public static int
-     * java.util.Arrays.deepHashCode(java.lang.Object[])}.
+     * Test method for {@link java.util.Arrays#binarySearch(byte[],byte) public static int
+     * java.util.Arrays.binarySearch(byte[],byte)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_deepHashCode_ObjectArray()
+    public default void test_binarySearch_byteArray_byte()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -254,14 +68,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#spliterator(long[],int,int) public static java.util.Spliterator$OfLong
-     * java.util.Arrays.spliterator(long[],int,int)}.
+     * Test method for {@link java.util.Arrays#binarySearch(byte[],int,int,byte) public static int
+     * java.util.Arrays.binarySearch(byte[],int,int,byte)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_spliterator_longArray_int_int()
+    public default void test_binarySearch_byteArray_int_int_byte()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -270,14 +84,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#spliterator(long[]) public static java.util.Spliterator$OfLong
-     * java.util.Arrays.spliterator(long[])}.
+     * Test method for {@link java.util.Arrays#binarySearch(char[],char) public static int
+     * java.util.Arrays.binarySearch(char[],char)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_spliterator_longArray()
+    public default void test_binarySearch_charArray_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -286,14 +100,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#spliterator(int[],int,int) public static java.util.Spliterator$OfInt
-     * java.util.Arrays.spliterator(int[],int,int)}.
+     * Test method for {@link java.util.Arrays#binarySearch(char[],int,int,char) public static int
+     * java.util.Arrays.binarySearch(char[],int,int,char)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_spliterator_intArray_int_int()
+    public default void test_binarySearch_charArray_int_int_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -302,14 +116,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#spliterator(double[]) public static java.util.Spliterator$OfDouble
-     * java.util.Arrays.spliterator(double[])}.
+     * Test method for {@link java.util.Arrays#binarySearch(double[],double) public static int
+     * java.util.Arrays.binarySearch(double[],double)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_spliterator_doubleArray()
+    public default void test_binarySearch_doubleArray_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -318,14 +132,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#spliterator(double[],int,int) public static
-     * java.util.Spliterator$OfDouble java.util.Arrays.spliterator(double[],int,int)}.
+     * Test method for {@link java.util.Arrays#binarySearch(double[],int,int,double) public static int
+     * java.util.Arrays.binarySearch(double[],int,int,double)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_spliterator_doubleArray_int_int()
+    public default void test_binarySearch_doubleArray_int_int_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -334,14 +148,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#spliterator(java.lang.Object[]) public static java.util.Spliterator
-     * java.util.Arrays.spliterator(java.lang.Object[])}.
+     * Test method for {@link java.util.Arrays#binarySearch(float[],float) public static int
+     * java.util.Arrays.binarySearch(float[],float)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_spliterator_ObjectArray()
+    public default void test_binarySearch_floatArray_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -350,14 +164,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#spliterator(java.lang.Object[],int,int) public static
-     * java.util.Spliterator java.util.Arrays.spliterator(java.lang.Object[],int,int)}.
+     * Test method for {@link java.util.Arrays#binarySearch(float[],int,int,float) public static int
+     * java.util.Arrays.binarySearch(float[],int,int,float)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_spliterator_ObjectArray_int_int()
+    public default void test_binarySearch_floatArray_int_int_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -366,14 +180,78 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#spliterator(int[]) public static java.util.Spliterator$OfInt
-     * java.util.Arrays.spliterator(int[])}.
+     * Test method for {@link java.util.Arrays#binarySearch(int[],int) public static int
+     * java.util.Arrays.binarySearch(int[],int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_spliterator_intArray()
+    public default void test_binarySearch_intArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#binarySearch(int[],int,int,int) public static int
+     * java.util.Arrays.binarySearch(int[],int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_binarySearch_intArray_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#binarySearch(long[],int,int,long) public static int
+     * java.util.Arrays.binarySearch(long[],int,int,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_binarySearch_longArray_int_int_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#binarySearch(long[],long) public static int
+     * java.util.Arrays.binarySearch(long[],long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_binarySearch_longArray_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#binarySearch(java.lang.Object[],int,int,java.lang.Object) public static
+     * int java.util.Arrays.binarySearch(java.lang.Object[],int,int,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_binarySearch_ObjectArray_int_int_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -383,14 +261,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.Arrays#parallelPrefix(java.lang.Object[],int,int,java.util.function.BinaryOperator) public
-     * static void java.util.Arrays.parallelPrefix(java.lang.Object[],int,int,java.util.function.BinaryOperator)}.
+     * {@link java.util.Arrays#binarySearch(java.lang.Object[],int,int,java.lang.Object,java.util.Comparator) public
+     * static int java.util.Arrays.binarySearch(java.lang.Object[],int,int,java.lang.Object,java.util.Comparator)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parallelPrefix_ObjectArray_int_int_BinaryOperator()
+    public default void test_binarySearch_ObjectArray_int_int_Object_Comparator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -399,14 +277,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#parallelPrefix(double[],java.util.function.DoubleBinaryOperator) public
-     * static void java.util.Arrays.parallelPrefix(double[],java.util.function.DoubleBinaryOperator)}.
+     * Test method for {@link java.util.Arrays#binarySearch(java.lang.Object[],java.lang.Object) public static int
+     * java.util.Arrays.binarySearch(java.lang.Object[],java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parallelPrefix_doubleArray_DoubleBinaryOperator()
+    public default void test_binarySearch_ObjectArray_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -415,14 +293,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#parallelPrefix(long[],int,int,java.util.function.LongBinaryOperator)
-     * public static void java.util.Arrays.parallelPrefix(long[],int,int,java.util.function.LongBinaryOperator)}.
+     * Test method for {@link java.util.Arrays#binarySearch(java.lang.Object[],java.lang.Object,java.util.Comparator)
+     * public static int java.util.Arrays.binarySearch(java.lang.Object[],java.lang.Object,java.util.Comparator)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parallelPrefix_longArray_int_int_LongBinaryOperator()
+    public default void test_binarySearch_ObjectArray_Object_Comparator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -431,14 +309,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#parallelPrefix(long[],java.util.function.LongBinaryOperator) public
-     * static void java.util.Arrays.parallelPrefix(long[],java.util.function.LongBinaryOperator)}.
+     * Test method for {@link java.util.Arrays#binarySearch(short[],int,int,short) public static int
+     * java.util.Arrays.binarySearch(short[],int,int,short)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parallelPrefix_longArray_LongBinaryOperator()
+    public default void test_binarySearch_shortArray_int_int_short()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -447,14 +325,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#parallelPrefix(int[],int,int,java.util.function.IntBinaryOperator) public
-     * static void java.util.Arrays.parallelPrefix(int[],int,int,java.util.function.IntBinaryOperator)}.
+     * Test method for {@link java.util.Arrays#binarySearch(short[],short) public static int
+     * java.util.Arrays.binarySearch(short[],short)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parallelPrefix_intArray_int_int_IntBinaryOperator()
+    public default void test_binarySearch_shortArray_short()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -463,14 +341,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#parallelPrefix(int[],java.util.function.IntBinaryOperator) public static
-     * void java.util.Arrays.parallelPrefix(int[],java.util.function.IntBinaryOperator)}.
+     * Test method for {@link java.util.Arrays#copyOf(boolean[],int) public static boolean[]
+     * java.util.Arrays.copyOf(boolean[],int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parallelPrefix_intArray_IntBinaryOperator()
+    public default void test_copyOf_booleanArray_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -479,190 +357,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#parallelPrefix(double[],int,int,java.util.function.DoubleBinaryOperator)
-     * public static void java.util.Arrays.parallelPrefix(double[],int,int,java.util.function.DoubleBinaryOperator)}.
+     * Test method for {@link java.util.Arrays#copyOf(byte[],int) public static byte[]
+     * java.util.Arrays.copyOf(byte[],int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parallelPrefix_doubleArray_int_int_DoubleBinaryOperator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#parallelPrefix(java.lang.Object[],java.util.function.BinaryOperator)
-     * public static void java.util.Arrays.parallelPrefix(java.lang.Object[],java.util.function.BinaryOperator)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelPrefix_ObjectArray_BinaryOperator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#stream(int[]) public static java.util.stream.IntStream
-     * java.util.Arrays.stream(int[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_stream_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#stream(java.lang.Object[],int,int) public static java.util.stream.Stream
-     * java.util.Arrays.stream(java.lang.Object[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_stream_ObjectArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#stream(java.lang.Object[]) public static java.util.stream.Stream
-     * java.util.Arrays.stream(java.lang.Object[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_stream_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#stream(double[]) public static java.util.stream.DoubleStream
-     * java.util.Arrays.stream(double[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_stream_doubleArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#stream(int[],int,int) public static java.util.stream.IntStream
-     * java.util.Arrays.stream(int[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_stream_intArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#stream(long[]) public static java.util.stream.LongStream
-     * java.util.Arrays.stream(long[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_stream_longArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#stream(long[],int,int) public static java.util.stream.LongStream
-     * java.util.Arrays.stream(long[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_stream_longArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#stream(double[],int,int) public static java.util.stream.DoubleStream
-     * java.util.Arrays.stream(double[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_stream_doubleArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#copyOf(long[],int) public static long[]
-     * java.util.Arrays.copyOf(long[],int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyOf_longArray_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#copyOf(float[],int) public static float[]
-     * java.util.Arrays.copyOf(float[],int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyOf_floatArray_int()
+    public default void test_copyOf_byteArray_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -687,22 +389,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#copyOf(int[],int) public static int[] java.util.Arrays.copyOf(int[],int)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyOf_intArray_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.Arrays#copyOf(double[],int) public static double[]
      * java.util.Arrays.copyOf(double[],int)}.
      * </p>
@@ -719,14 +405,46 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#copyOf(boolean[],int) public static boolean[]
-     * java.util.Arrays.copyOf(boolean[],int)}.
+     * Test method for {@link java.util.Arrays#copyOf(float[],int) public static float[]
+     * java.util.Arrays.copyOf(float[],int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_copyOf_booleanArray_int()
+    public default void test_copyOf_floatArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#copyOf(int[],int) public static int[] java.util.Arrays.copyOf(int[],int)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_copyOf_intArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#copyOf(long[],int) public static long[]
+     * java.util.Arrays.copyOf(long[],int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_copyOf_longArray_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -767,22 +485,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#copyOf(byte[],int) public static byte[]
-     * java.util.Arrays.copyOf(byte[],int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyOf_byteArray_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.Arrays#copyOf(short[],int) public static short[]
      * java.util.Arrays.copyOf(short[],int)}.
      * </p>
@@ -799,14 +501,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#parallelSetAll(long[],java.util.function.IntToLongFunction) public static
-     * void java.util.Arrays.parallelSetAll(long[],java.util.function.IntToLongFunction)}.
+     * Test method for {@link java.util.Arrays#copyOfRange(boolean[],int,int) public static boolean[]
+     * java.util.Arrays.copyOfRange(boolean[],int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parallelSetAll_longArray_IntToLongFunction()
+    public default void test_copyOfRange_booleanArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -815,14 +517,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#parallelSetAll(java.lang.Object[],java.util.function.IntFunction) public
-     * static void java.util.Arrays.parallelSetAll(java.lang.Object[],java.util.function.IntFunction)}.
+     * Test method for {@link java.util.Arrays#copyOfRange(byte[],int,int) public static byte[]
+     * java.util.Arrays.copyOfRange(byte[],int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parallelSetAll_ObjectArray_IntFunction()
+    public default void test_copyOfRange_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -831,14 +533,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#parallelSetAll(double[],java.util.function.IntToDoubleFunction) public
-     * static void java.util.Arrays.parallelSetAll(double[],java.util.function.IntToDoubleFunction)}.
+     * Test method for {@link java.util.Arrays#copyOfRange(char[],int,int) public static char[]
+     * java.util.Arrays.copyOfRange(char[],int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parallelSetAll_doubleArray_IntToDoubleFunction()
+    public default void test_copyOfRange_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -847,14 +549,174 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#parallelSetAll(int[],java.util.function.IntUnaryOperator) public static
-     * void java.util.Arrays.parallelSetAll(int[],java.util.function.IntUnaryOperator)}.
+     * Test method for {@link java.util.Arrays#copyOfRange(double[],int,int) public static double[]
+     * java.util.Arrays.copyOfRange(double[],int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parallelSetAll_intArray_IntUnaryOperator()
+    public default void test_copyOfRange_doubleArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#copyOfRange(float[],int,int) public static float[]
+     * java.util.Arrays.copyOfRange(float[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_copyOfRange_floatArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#copyOfRange(int[],int,int) public static int[]
+     * java.util.Arrays.copyOfRange(int[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_copyOfRange_intArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#copyOfRange(long[],int,int) public static long[]
+     * java.util.Arrays.copyOfRange(long[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_copyOfRange_longArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#copyOfRange(java.lang.Object[],int,int) public static java.lang.Object[]
+     * java.util.Arrays.copyOfRange(java.lang.Object[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_copyOfRange_ObjectArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#copyOfRange(java.lang.Object[],int,int,java.lang.Class) public static
+     * java.lang.Object[] java.util.Arrays.copyOfRange(java.lang.Object[],int,int,java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_copyOfRange_ObjectArray_int_int_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#copyOfRange(short[],int,int) public static short[]
+     * java.util.Arrays.copyOfRange(short[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_copyOfRange_shortArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#deepEquals(java.lang.Object[],java.lang.Object[]) public static boolean
+     * java.util.Arrays.deepEquals(java.lang.Object[],java.lang.Object[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deepEquals_ObjectArray_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#deepHashCode(java.lang.Object[]) public static int
+     * java.util.Arrays.deepHashCode(java.lang.Object[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deepHashCode_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#deepToString(java.lang.Object[]) public static java.lang.String
+     * java.util.Arrays.deepToString(java.lang.Object[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deepToString_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#equals(boolean[],boolean[]) public static boolean
+     * java.util.Arrays.equals(boolean[],boolean[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_booleanArray_booleanArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -879,14 +741,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#equals(boolean[],boolean[]) public static boolean
-     * java.util.Arrays.equals(boolean[],boolean[])}.
+     * Test method for {@link java.util.Arrays#equals(char[],char[]) public static boolean
+     * java.util.Arrays.equals(char[],char[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_equals_booleanArray_booleanArray()
+    public default void test_equals_charArray_charArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -927,38 +789,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#equals(java.lang.Object[],java.lang.Object[]) public static boolean
-     * java.util.Arrays.equals(java.lang.Object[],java.lang.Object[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_ObjectArray_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#equals(short[],short[]) public static boolean
-     * java.util.Arrays.equals(short[],short[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_shortArray_shortArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.Arrays#equals(int[],int[]) public static boolean
      * java.util.Arrays.equals(int[],int[])}.
      * </p>
@@ -991,14 +821,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#equals(char[],char[]) public static boolean
-     * java.util.Arrays.equals(char[],char[])}.
+     * Test method for {@link java.util.Arrays#equals(java.lang.Object[],java.lang.Object[]) public static boolean
+     * java.util.Arrays.equals(java.lang.Object[],java.lang.Object[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_equals_charArray_charArray()
+    public default void test_equals_ObjectArray_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1007,503 +837,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#toString(boolean[]) public static java.lang.String
-     * java.util.Arrays.toString(boolean[])}.
+     * Test method for {@link java.util.Arrays#equals(short[],short[]) public static boolean
+     * java.util.Arrays.equals(short[],short[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toString_booleanArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#toString(byte[]) public static java.lang.String
-     * java.util.Arrays.toString(byte[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#toString(float[]) public static java.lang.String
-     * java.util.Arrays.toString(float[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString_floatArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#toString(double[]) public static java.lang.String
-     * java.util.Arrays.toString(double[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString_doubleArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#toString(long[]) public static java.lang.String
-     * java.util.Arrays.toString(long[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString_longArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#toString(int[]) public static java.lang.String
-     * java.util.Arrays.toString(int[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#toString(short[]) public static java.lang.String
-     * java.util.Arrays.toString(short[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString_shortArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#toString(char[]) public static java.lang.String
-     * java.util.Arrays.toString(char[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString_charArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#toString(java.lang.Object[]) public static java.lang.String
-     * java.util.Arrays.toString(java.lang.Object[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#deepEquals(java.lang.Object[],java.lang.Object[]) public static boolean
-     * java.util.Arrays.deepEquals(java.lang.Object[],java.lang.Object[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deepEquals_ObjectArray_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(byte[]) public static void java.util.Arrays.sort(byte[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(long[]) public static void java.util.Arrays.sort(long[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_longArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(long[],int,int) public static void
-     * java.util.Arrays.sort(long[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_longArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(java.lang.Object[],int,int,java.util.Comparator) public static void
-     * java.util.Arrays.sort(java.lang.Object[],int,int,java.util.Comparator)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_ObjectArray_int_int_Comparator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(float[],int,int) public static void
-     * java.util.Arrays.sort(float[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_floatArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(java.lang.Object[],int,int) public static void
-     * java.util.Arrays.sort(java.lang.Object[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_ObjectArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(byte[],int,int) public static void
-     * java.util.Arrays.sort(byte[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(java.lang.Object[]) public static void
-     * java.util.Arrays.sort(java.lang.Object[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(float[]) public static void java.util.Arrays.sort(float[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_floatArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(double[]) public static void java.util.Arrays.sort(double[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_doubleArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(double[],int,int) public static void
-     * java.util.Arrays.sort(double[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_doubleArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(char[]) public static void java.util.Arrays.sort(char[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_charArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(int[]) public static void java.util.Arrays.sort(int[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(short[],int,int) public static void
-     * java.util.Arrays.sort(short[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_shortArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(char[],int,int) public static void
-     * java.util.Arrays.sort(char[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_charArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(java.lang.Object[],java.util.Comparator) public static void
-     * java.util.Arrays.sort(java.lang.Object[],java.util.Comparator)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_ObjectArray_Comparator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(int[],int,int) public static void
-     * java.util.Arrays.sort(int[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_intArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#sort(short[]) public static void java.util.Arrays.sort(short[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sort_shortArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#fill(boolean[],int,int,boolean) public static void
-     * java.util.Arrays.fill(boolean[],int,int,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fill_booleanArray_int_int_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#fill(float[],float) public static void
-     * java.util.Arrays.fill(float[],float)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fill_floatArray_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#fill(double[],int,int,double) public static void
-     * java.util.Arrays.fill(double[],int,int,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fill_doubleArray_int_int_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#fill(double[],double) public static void
-     * java.util.Arrays.fill(double[],double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fill_doubleArray_double()
+    public default void test_equals_shortArray_shortArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1528,13 +869,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#fill(int[],int) public static void java.util.Arrays.fill(int[],int)}.
+     * Test method for {@link java.util.Arrays#fill(boolean[],int,int,boolean) public static void
+     * java.util.Arrays.fill(boolean[],int,int,boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_fill_intArray_int()
+    public default void test_fill_booleanArray_int_int_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1543,13 +885,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#fill(long[],long) public static void java.util.Arrays.fill(long[],long)}.
+     * Test method for {@link java.util.Arrays#fill(byte[],byte) public static void java.util.Arrays.fill(byte[],byte)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_fill_longArray_long()
+    public default void test_fill_byteArray_byte()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1574,30 +916,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#fill(long[],int,int,long) public static void
-     * java.util.Arrays.fill(long[],int,int,long)}.
+     * Test method for {@link java.util.Arrays#fill(char[],char) public static void java.util.Arrays.fill(char[],char)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_fill_longArray_int_int_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#fill(java.lang.Object[],int,int,java.lang.Object) public static void
-     * java.util.Arrays.fill(java.lang.Object[],int,int,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fill_ObjectArray_int_int_Object()
+    public default void test_fill_charArray_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1614,6 +939,148 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_fill_charArray_int_int_char()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#fill(double[],double) public static void
+     * java.util.Arrays.fill(double[],double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fill_doubleArray_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#fill(double[],int,int,double) public static void
+     * java.util.Arrays.fill(double[],int,int,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fill_doubleArray_int_int_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#fill(float[],float) public static void
+     * java.util.Arrays.fill(float[],float)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fill_floatArray_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#fill(float[],int,int,float) public static void
+     * java.util.Arrays.fill(float[],int,int,float)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fill_floatArray_int_int_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#fill(int[],int) public static void java.util.Arrays.fill(int[],int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fill_intArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#fill(int[],int,int,int) public static void
+     * java.util.Arrays.fill(int[],int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fill_intArray_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#fill(long[],int,int,long) public static void
+     * java.util.Arrays.fill(long[],int,int,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fill_longArray_int_int_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#fill(long[],long) public static void java.util.Arrays.fill(long[],long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fill_longArray_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#fill(java.lang.Object[],int,int,java.lang.Object) public static void
+     * java.util.Arrays.fill(java.lang.Object[],int,int,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fill_ObjectArray_int_int_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1670,14 +1137,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#fill(float[],int,int,float) public static void
-     * java.util.Arrays.fill(float[],int,int,float)}.
+     * Test method for {@link java.util.Arrays#hashCode(boolean[]) public static int
+     * java.util.Arrays.hashCode(boolean[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_fill_floatArray_int_int_float()
+    public default void test_hashCode_booleanArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1686,13 +1153,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#fill(char[],char) public static void java.util.Arrays.fill(char[],char)}.
+     * Test method for {@link java.util.Arrays#hashCode(byte[]) public static int java.util.Arrays.hashCode(byte[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_fill_charArray_char()
+    public default void test_hashCode_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1701,13 +1168,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#fill(byte[],byte) public static void java.util.Arrays.fill(byte[],byte)}.
+     * Test method for {@link java.util.Arrays#hashCode(char[]) public static int java.util.Arrays.hashCode(char[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_fill_byteArray_byte()
+    public default void test_hashCode_charArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1716,14 +1183,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#fill(int[],int,int,int) public static void
-     * java.util.Arrays.fill(int[],int,int,int)}.
+     * Test method for {@link java.util.Arrays#hashCode(double[]) public static int java.util.Arrays.hashCode(double[])}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_fill_intArray_int_int_int()
+    public default void test_hashCode_doubleArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1732,14 +1199,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(int[],int,int,int) public static int
-     * java.util.Arrays.binarySearch(int[],int,int,int)}.
+     * Test method for {@link java.util.Arrays#hashCode(float[]) public static int java.util.Arrays.hashCode(float[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_intArray_int_int_int()
+    public default void test_hashCode_floatArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1748,14 +1214,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(int[],int) public static int
-     * java.util.Arrays.binarySearch(int[],int)}.
+     * Test method for {@link java.util.Arrays#hashCode(int[]) public static int java.util.Arrays.hashCode(int[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_intArray_int()
+    public default void test_hashCode_intArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1764,14 +1229,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(long[],long) public static int
-     * java.util.Arrays.binarySearch(long[],long)}.
+     * Test method for {@link java.util.Arrays#hashCode(long[]) public static int java.util.Arrays.hashCode(long[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_longArray_long()
+    public default void test_hashCode_longArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1780,14 +1244,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(byte[],byte) public static int
-     * java.util.Arrays.binarySearch(byte[],byte)}.
+     * Test method for {@link java.util.Arrays#hashCode(java.lang.Object[]) public static int
+     * java.util.Arrays.hashCode(java.lang.Object[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_byteArray_byte()
+    public default void test_hashCode_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1796,14 +1260,13 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(short[],int,int,short) public static int
-     * java.util.Arrays.binarySearch(short[],int,int,short)}.
+     * Test method for {@link java.util.Arrays#hashCode(short[]) public static int java.util.Arrays.hashCode(short[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_shortArray_int_int_short()
+    public default void test_hashCode_shortArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1812,14 +1275,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(byte[],int,int,byte) public static int
-     * java.util.Arrays.binarySearch(byte[],int,int,byte)}.
+     * Test method for {@link java.util.Arrays#parallelPrefix(double[],java.util.function.DoubleBinaryOperator) public
+     * static void java.util.Arrays.parallelPrefix(double[],java.util.function.DoubleBinaryOperator)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_byteArray_int_int_byte()
+    public default void test_parallelPrefix_doubleArray_DoubleBinaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1828,14 +1291,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(long[],int,int,long) public static int
-     * java.util.Arrays.binarySearch(long[],int,int,long)}.
+     * Test method for {@link java.util.Arrays#parallelPrefix(double[],int,int,java.util.function.DoubleBinaryOperator)
+     * public static void java.util.Arrays.parallelPrefix(double[],int,int,java.util.function.DoubleBinaryOperator)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_longArray_int_int_long()
+    public default void test_parallelPrefix_doubleArray_int_int_DoubleBinaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1844,14 +1307,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(java.lang.Object[],java.lang.Object) public static int
-     * java.util.Arrays.binarySearch(java.lang.Object[],java.lang.Object)}.
+     * Test method for {@link java.util.Arrays#parallelPrefix(int[],int,int,java.util.function.IntBinaryOperator) public
+     * static void java.util.Arrays.parallelPrefix(int[],int,int,java.util.function.IntBinaryOperator)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_ObjectArray_Object()
+    public default void test_parallelPrefix_intArray_int_int_IntBinaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1860,14 +1323,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(float[],int,int,float) public static int
-     * java.util.Arrays.binarySearch(float[],int,int,float)}.
+     * Test method for {@link java.util.Arrays#parallelPrefix(int[],java.util.function.IntBinaryOperator) public static
+     * void java.util.Arrays.parallelPrefix(int[],java.util.function.IntBinaryOperator)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_floatArray_int_int_float()
+    public default void test_parallelPrefix_intArray_IntBinaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1876,14 +1339,46 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(double[],double) public static int
-     * java.util.Arrays.binarySearch(double[],double)}.
+     * Test method for {@link java.util.Arrays#parallelPrefix(long[],int,int,java.util.function.LongBinaryOperator)
+     * public static void java.util.Arrays.parallelPrefix(long[],int,int,java.util.function.LongBinaryOperator)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_doubleArray_double()
+    public default void test_parallelPrefix_longArray_int_int_LongBinaryOperator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#parallelPrefix(long[],java.util.function.LongBinaryOperator) public
+     * static void java.util.Arrays.parallelPrefix(long[],java.util.function.LongBinaryOperator)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parallelPrefix_longArray_LongBinaryOperator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#parallelPrefix(java.lang.Object[],java.util.function.BinaryOperator)
+     * public static void java.util.Arrays.parallelPrefix(java.lang.Object[],java.util.function.BinaryOperator)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parallelPrefix_ObjectArray_BinaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1893,14 +1388,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.Arrays#binarySearch(java.lang.Object[],int,int,java.lang.Object,java.util.Comparator) public
-     * static int java.util.Arrays.binarySearch(java.lang.Object[],int,int,java.lang.Object,java.util.Comparator)}.
+     * {@link java.util.Arrays#parallelPrefix(java.lang.Object[],int,int,java.util.function.BinaryOperator) public
+     * static void java.util.Arrays.parallelPrefix(java.lang.Object[],int,int,java.util.function.BinaryOperator)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_ObjectArray_int_int_Object_Comparator()
+    public default void test_parallelPrefix_ObjectArray_int_int_BinaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1909,14 +1404,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(char[],char) public static int
-     * java.util.Arrays.binarySearch(char[],char)}.
+     * Test method for {@link java.util.Arrays#parallelSetAll(double[],java.util.function.IntToDoubleFunction) public
+     * static void java.util.Arrays.parallelSetAll(double[],java.util.function.IntToDoubleFunction)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_charArray_char()
+    public default void test_parallelSetAll_doubleArray_IntToDoubleFunction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1925,14 +1420,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(char[],int,int,char) public static int
-     * java.util.Arrays.binarySearch(char[],int,int,char)}.
+     * Test method for {@link java.util.Arrays#parallelSetAll(int[],java.util.function.IntUnaryOperator) public static
+     * void java.util.Arrays.parallelSetAll(int[],java.util.function.IntUnaryOperator)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_charArray_int_int_char()
+    public default void test_parallelSetAll_intArray_IntUnaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1941,14 +1436,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(short[],short) public static int
-     * java.util.Arrays.binarySearch(short[],short)}.
+     * Test method for {@link java.util.Arrays#parallelSetAll(long[],java.util.function.IntToLongFunction) public static
+     * void java.util.Arrays.parallelSetAll(long[],java.util.function.IntToLongFunction)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_shortArray_short()
+    public default void test_parallelSetAll_longArray_IntToLongFunction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -1957,270 +1452,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(float[],float) public static int
-     * java.util.Arrays.binarySearch(float[],float)}.
+     * Test method for {@link java.util.Arrays#parallelSetAll(java.lang.Object[],java.util.function.IntFunction) public
+     * static void java.util.Arrays.parallelSetAll(java.lang.Object[],java.util.function.IntFunction)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_binarySearch_floatArray_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(double[],int,int,double) public static int
-     * java.util.Arrays.binarySearch(double[],int,int,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_binarySearch_doubleArray_int_int_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(java.lang.Object[],int,int,java.lang.Object) public static
-     * int java.util.Arrays.binarySearch(java.lang.Object[],int,int,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_binarySearch_ObjectArray_int_int_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#binarySearch(java.lang.Object[],java.lang.Object,java.util.Comparator)
-     * public static int java.util.Arrays.binarySearch(java.lang.Object[],java.lang.Object,java.util.Comparator)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_binarySearch_ObjectArray_Object_Comparator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#parallelSort(float[],int,int) public static void
-     * java.util.Arrays.parallelSort(float[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelSort_floatArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#parallelSort(long[],int,int) public static void
-     * java.util.Arrays.parallelSort(long[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelSort_longArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#parallelSort(float[]) public static void
-     * java.util.Arrays.parallelSort(float[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelSort_floatArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#parallelSort(short[]) public static void
-     * java.util.Arrays.parallelSort(short[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelSort_shortArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#parallelSort(long[]) public static void
-     * java.util.Arrays.parallelSort(long[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelSort_longArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#parallelSort(java.lang.Object[],int,int,java.util.Comparator) public
-     * static void java.util.Arrays.parallelSort(java.lang.Object[],int,int,java.util.Comparator)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelSort_ObjectArray_int_int_Comparator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#parallelSort(double[]) public static void
-     * java.util.Arrays.parallelSort(double[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelSort_doubleArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#parallelSort(short[],int,int) public static void
-     * java.util.Arrays.parallelSort(short[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelSort_shortArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#parallelSort(int[],int,int) public static void
-     * java.util.Arrays.parallelSort(int[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelSort_intArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#parallelSort(java.lang.Object[],java.util.Comparator) public static void
-     * java.util.Arrays.parallelSort(java.lang.Object[],java.util.Comparator)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelSort_ObjectArray_Comparator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#parallelSort(int[]) public static void
-     * java.util.Arrays.parallelSort(int[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelSort_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#parallelSort(java.lang.Comparable[],int,int) public static void
-     * java.util.Arrays.parallelSort(java.lang.Comparable[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelSort_ComparableArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Arrays#parallelSort(java.lang.Comparable[]) public static void
-     * java.util.Arrays.parallelSort(java.lang.Comparable[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelSort_ComparableArray()
+    public default void test_parallelSetAll_ObjectArray_IntFunction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2277,22 +1516,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#parallelSort(double[],int,int) public static void
-     * java.util.Arrays.parallelSort(double[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parallelSort_doubleArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.Arrays#parallelSort(char[],int,int) public static void
      * java.util.Arrays.parallelSort(char[],int,int)}.
      * </p>
@@ -2309,14 +1532,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#hashCode(boolean[]) public static int
-     * java.util.Arrays.hashCode(boolean[])}.
+     * Test method for {@link java.util.Arrays#parallelSort(java.lang.Comparable[]) public static void
+     * java.util.Arrays.parallelSort(java.lang.Comparable[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hashCode_booleanArray()
+    public default void test_parallelSort_ComparableArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2325,13 +1548,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#hashCode(byte[]) public static int java.util.Arrays.hashCode(byte[])}.
+     * Test method for {@link java.util.Arrays#parallelSort(java.lang.Comparable[],int,int) public static void
+     * java.util.Arrays.parallelSort(java.lang.Comparable[],int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hashCode_byteArray()
+    public default void test_parallelSort_ComparableArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2340,13 +1564,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#hashCode(float[]) public static int java.util.Arrays.hashCode(float[])}.
+     * Test method for {@link java.util.Arrays#parallelSort(double[]) public static void
+     * java.util.Arrays.parallelSort(double[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hashCode_floatArray()
+    public default void test_parallelSort_doubleArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2355,14 +1580,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#hashCode(double[]) public static int java.util.Arrays.hashCode(double[])}
-     * .
+     * Test method for {@link java.util.Arrays#parallelSort(double[],int,int) public static void
+     * java.util.Arrays.parallelSort(double[],int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hashCode_doubleArray()
+    public default void test_parallelSort_doubleArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2371,13 +1596,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#hashCode(long[]) public static int java.util.Arrays.hashCode(long[])}.
+     * Test method for {@link java.util.Arrays#parallelSort(float[]) public static void
+     * java.util.Arrays.parallelSort(float[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hashCode_longArray()
+    public default void test_parallelSort_floatArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2386,13 +1612,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#hashCode(int[]) public static int java.util.Arrays.hashCode(int[])}.
+     * Test method for {@link java.util.Arrays#parallelSort(float[],int,int) public static void
+     * java.util.Arrays.parallelSort(float[],int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hashCode_intArray()
+    public default void test_parallelSort_floatArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2401,13 +1628,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#hashCode(short[]) public static int java.util.Arrays.hashCode(short[])}.
+     * Test method for {@link java.util.Arrays#parallelSort(int[]) public static void
+     * java.util.Arrays.parallelSort(int[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hashCode_shortArray()
+    public default void test_parallelSort_intArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2416,13 +1644,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#hashCode(char[]) public static int java.util.Arrays.hashCode(char[])}.
+     * Test method for {@link java.util.Arrays#parallelSort(int[],int,int) public static void
+     * java.util.Arrays.parallelSort(int[],int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hashCode_charArray()
+    public default void test_parallelSort_intArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2431,14 +1660,94 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#hashCode(java.lang.Object[]) public static int
-     * java.util.Arrays.hashCode(java.lang.Object[])}.
+     * Test method for {@link java.util.Arrays#parallelSort(long[]) public static void
+     * java.util.Arrays.parallelSort(long[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hashCode_ObjectArray()
+    public default void test_parallelSort_longArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#parallelSort(long[],int,int) public static void
+     * java.util.Arrays.parallelSort(long[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parallelSort_longArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#parallelSort(java.lang.Object[],java.util.Comparator) public static void
+     * java.util.Arrays.parallelSort(java.lang.Object[],java.util.Comparator)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parallelSort_ObjectArray_Comparator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#parallelSort(java.lang.Object[],int,int,java.util.Comparator) public
+     * static void java.util.Arrays.parallelSort(java.lang.Object[],int,int,java.util.Comparator)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parallelSort_ObjectArray_int_int_Comparator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#parallelSort(short[]) public static void
+     * java.util.Arrays.parallelSort(short[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parallelSort_shortArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#parallelSort(short[],int,int) public static void
+     * java.util.Arrays.parallelSort(short[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parallelSort_shortArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2463,22 +1772,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Arrays#setAll(long[],java.util.function.IntToLongFunction) public static void
-     * java.util.Arrays.setAll(long[],java.util.function.IntToLongFunction)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAll_longArray_IntToLongFunction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.Arrays#setAll(int[],java.util.function.IntUnaryOperator) public static void
      * java.util.Arrays.setAll(int[],java.util.function.IntUnaryOperator)}.
      * </p>
@@ -2487,6 +1780,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setAll_intArray_IntUnaryOperator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#setAll(long[],java.util.function.IntToLongFunction) public static void
+     * java.util.Arrays.setAll(long[],java.util.function.IntToLongFunction)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAll_longArray_IntToLongFunction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -2507,6 +1816,697 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(byte[]) public static void java.util.Arrays.sort(byte[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(byte[],int,int) public static void
+     * java.util.Arrays.sort(byte[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(char[]) public static void java.util.Arrays.sort(char[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_charArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(char[],int,int) public static void
+     * java.util.Arrays.sort(char[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_charArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(double[]) public static void java.util.Arrays.sort(double[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_doubleArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(double[],int,int) public static void
+     * java.util.Arrays.sort(double[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_doubleArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(float[]) public static void java.util.Arrays.sort(float[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_floatArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(float[],int,int) public static void
+     * java.util.Arrays.sort(float[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_floatArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(int[]) public static void java.util.Arrays.sort(int[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(int[],int,int) public static void
+     * java.util.Arrays.sort(int[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_intArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(long[]) public static void java.util.Arrays.sort(long[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_longArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(long[],int,int) public static void
+     * java.util.Arrays.sort(long[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_longArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(java.lang.Object[]) public static void
+     * java.util.Arrays.sort(java.lang.Object[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(java.lang.Object[],java.util.Comparator) public static void
+     * java.util.Arrays.sort(java.lang.Object[],java.util.Comparator)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_ObjectArray_Comparator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(java.lang.Object[],int,int) public static void
+     * java.util.Arrays.sort(java.lang.Object[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_ObjectArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(java.lang.Object[],int,int,java.util.Comparator) public static void
+     * java.util.Arrays.sort(java.lang.Object[],int,int,java.util.Comparator)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_ObjectArray_int_int_Comparator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(short[]) public static void java.util.Arrays.sort(short[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_shortArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#sort(short[],int,int) public static void
+     * java.util.Arrays.sort(short[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sort_shortArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#spliterator(double[]) public static java.util.Spliterator$OfDouble
+     * java.util.Arrays.spliterator(double[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_spliterator_doubleArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#spliterator(double[],int,int) public static
+     * java.util.Spliterator$OfDouble java.util.Arrays.spliterator(double[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_spliterator_doubleArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#spliterator(int[]) public static java.util.Spliterator$OfInt
+     * java.util.Arrays.spliterator(int[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_spliterator_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#spliterator(int[],int,int) public static java.util.Spliterator$OfInt
+     * java.util.Arrays.spliterator(int[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_spliterator_intArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#spliterator(long[]) public static java.util.Spliterator$OfLong
+     * java.util.Arrays.spliterator(long[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_spliterator_longArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#spliterator(long[],int,int) public static java.util.Spliterator$OfLong
+     * java.util.Arrays.spliterator(long[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_spliterator_longArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#spliterator(java.lang.Object[]) public static java.util.Spliterator
+     * java.util.Arrays.spliterator(java.lang.Object[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_spliterator_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#spliterator(java.lang.Object[],int,int) public static
+     * java.util.Spliterator java.util.Arrays.spliterator(java.lang.Object[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_spliterator_ObjectArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#stream(double[]) public static java.util.stream.DoubleStream
+     * java.util.Arrays.stream(double[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_stream_doubleArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#stream(double[],int,int) public static java.util.stream.DoubleStream
+     * java.util.Arrays.stream(double[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_stream_doubleArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#stream(int[]) public static java.util.stream.IntStream
+     * java.util.Arrays.stream(int[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_stream_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#stream(int[],int,int) public static java.util.stream.IntStream
+     * java.util.Arrays.stream(int[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_stream_intArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#stream(long[]) public static java.util.stream.LongStream
+     * java.util.Arrays.stream(long[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_stream_longArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#stream(long[],int,int) public static java.util.stream.LongStream
+     * java.util.Arrays.stream(long[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_stream_longArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#stream(java.lang.Object[]) public static java.util.stream.Stream
+     * java.util.Arrays.stream(java.lang.Object[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_stream_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#stream(java.lang.Object[],int,int) public static java.util.stream.Stream
+     * java.util.Arrays.stream(java.lang.Object[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_stream_ObjectArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#toString(boolean[]) public static java.lang.String
+     * java.util.Arrays.toString(boolean[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_booleanArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#toString(byte[]) public static java.lang.String
+     * java.util.Arrays.toString(byte[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#toString(char[]) public static java.lang.String
+     * java.util.Arrays.toString(char[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_charArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#toString(double[]) public static java.lang.String
+     * java.util.Arrays.toString(double[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_doubleArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#toString(float[]) public static java.lang.String
+     * java.util.Arrays.toString(float[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_floatArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#toString(int[]) public static java.lang.String
+     * java.util.Arrays.toString(int[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#toString(long[]) public static java.lang.String
+     * java.util.Arrays.toString(long[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_longArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#toString(java.lang.Object[]) public static java.lang.String
+     * java.util.Arrays.toString(java.lang.Object[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Arrays#toString(short[]) public static java.lang.String
+     * java.util.Arrays.toString(short[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_shortArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.Arrays> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.Arrays.class.isAssignableFrom(sut));
     }
 
 }

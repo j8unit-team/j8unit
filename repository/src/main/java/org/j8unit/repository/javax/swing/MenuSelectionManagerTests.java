@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.MenuSelectionManager#addChangeListener(javax.swing.event.ChangeListener)
+     * public void javax.swing.MenuSelectionManager.addChangeListener(javax.swing.event.ChangeListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addChangeListener_ChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.MenuSelectionManager#clearSelectedPath() public void
      * javax.swing.MenuSelectionManager.clearSelectedPath()}.
      * </p>
@@ -31,38 +47,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_clearSelectedPath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.MenuSelectionManager#getSelectedPath() public javax.swing.MenuElement[]
-     * javax.swing.MenuSelectionManager.getSelectedPath()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectedPath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.MenuSelectionManager#processMouseEvent(java.awt.event.MouseEvent) public void
-     * javax.swing.MenuSelectionManager.processMouseEvent(java.awt.event.MouseEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_processMouseEvent_MouseEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,14 +71,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.MenuSelectionManager#processKeyEvent(java.awt.event.KeyEvent) public void
-     * javax.swing.MenuSelectionManager.processKeyEvent(java.awt.event.KeyEvent)}.
+     * Test method for {@link javax.swing.MenuSelectionManager#getChangeListeners() public
+     * javax.swing.event.ChangeListener[] javax.swing.MenuSelectionManager.getChangeListeners()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_processKeyEvent_KeyEvent()
+    public default void test_getChangeListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.MenuSelectionManager#getSelectedPath() public javax.swing.MenuElement[]
+     * javax.swing.MenuSelectionManager.getSelectedPath()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectedPath()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +119,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.MenuSelectionManager#addChangeListener(javax.swing.event.ChangeListener)
-     * public void javax.swing.MenuSelectionManager.addChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for {@link javax.swing.MenuSelectionManager#processKeyEvent(java.awt.event.KeyEvent) public void
+     * javax.swing.MenuSelectionManager.processKeyEvent(java.awt.event.KeyEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addChangeListener_ChangeListener()
+    public default void test_processKeyEvent_KeyEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,14 +135,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.MenuSelectionManager#getChangeListeners() public
-     * javax.swing.event.ChangeListener[] javax.swing.MenuSelectionManager.getChangeListeners()}.
+     * Test method for {@link javax.swing.MenuSelectionManager#processMouseEvent(java.awt.event.MouseEvent) public void
+     * javax.swing.MenuSelectionManager.processMouseEvent(java.awt.event.MouseEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getChangeListeners()
+    public default void test_processMouseEvent_MouseEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

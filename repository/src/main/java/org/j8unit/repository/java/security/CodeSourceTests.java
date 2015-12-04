@@ -23,15 +23,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.security.CodeSource#toString() public java.lang.String
-     * java.security.CodeSource.toString()}.
+     * Test method for {@link java.security.CodeSource#equals(java.lang.Object) public boolean
+     * java.security.CodeSource.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,14 +56,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.security.CodeSource#implies(java.security.CodeSource) public boolean
-     * java.security.CodeSource.implies(java.security.CodeSource)}.
+     * Test method for {@link java.security.CodeSource#getCodeSigners() public final java.security.CodeSigner[]
+     * java.security.CodeSource.getCodeSigners()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_implies_CodeSource()
+    public default void test_getCodeSigners()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,23 +88,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.security.CodeSource#equals(java.lang.Object) public boolean
-     * java.security.CodeSource.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.CodeSource#hashCode() public int java.security.CodeSource.hashCode()}.
      * </p>
      */
@@ -121,14 +104,31 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.security.CodeSource#getCodeSigners() public final java.security.CodeSigner[]
-     * java.security.CodeSource.getCodeSigners()}.
+     * Test method for {@link java.security.CodeSource#implies(java.security.CodeSource) public boolean
+     * java.security.CodeSource.implies(java.security.CodeSource)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCodeSigners()
+    public default void test_implies_CodeSource()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.CodeSource#toString() public java.lang.String
+     * java.security.CodeSource.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

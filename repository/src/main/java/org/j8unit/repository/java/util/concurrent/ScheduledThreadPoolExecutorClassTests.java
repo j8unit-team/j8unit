@@ -38,24 +38,6 @@ extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceClass
 org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#ScheduledThreadPoolExecutor(int,java.util.concurrent.ThreadFactory,java.util.concurrent.RejectedExecutionHandler)
-     * public
-     * java.util.concurrent.ScheduledThreadPoolExecutor(int,java.util.concurrent.ThreadFactory,java.util.concurrent.RejectedExecutionHandler)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ScheduledThreadPoolExecutor_int_ThreadFactory_RejectedExecutionHandler()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.ScheduledThreadPoolExecutor sut = null; // = new
-                                                                           // ScheduledThreadPoolExecutor(int,java.util.concurrent.ThreadFactory,java.util.concurrent.RejectedExecutionHandler);
-    }
-
-    /**
      * Test method for {@link java.util.concurrent.ScheduledThreadPoolExecutor#ScheduledThreadPoolExecutor(int) public
      * java.util.concurrent.ScheduledThreadPoolExecutor(int)}.
      */
@@ -67,6 +49,22 @@ org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.concurrent.ScheduledThreadPoolExecutor sut = null; // = new ScheduledThreadPoolExecutor(int);
+    }
+
+    /**
+     * Test method for
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#ScheduledThreadPoolExecutor(int,java.util.concurrent.RejectedExecutionHandler)
+     * public java.util.concurrent.ScheduledThreadPoolExecutor(int,java.util.concurrent.RejectedExecutionHandler)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ScheduledThreadPoolExecutor_int_RejectedExecutionHandler()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.ScheduledThreadPoolExecutor sut = null; // = new
+                                                                           // ScheduledThreadPoolExecutor(int,java.util.concurrent.RejectedExecutionHandler);
     }
 
     /**
@@ -87,18 +85,20 @@ org.j8unit.repository.java.util.concurrent.ThreadPoolExecutorClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#ScheduledThreadPoolExecutor(int,java.util.concurrent.RejectedExecutionHandler)
-     * public java.util.concurrent.ScheduledThreadPoolExecutor(int,java.util.concurrent.RejectedExecutionHandler)}.
+     * {@link java.util.concurrent.ScheduledThreadPoolExecutor#ScheduledThreadPoolExecutor(int,java.util.concurrent.ThreadFactory,java.util.concurrent.RejectedExecutionHandler)
+     * public
+     * java.util.concurrent.ScheduledThreadPoolExecutor(int,java.util.concurrent.ThreadFactory,java.util.concurrent.RejectedExecutionHandler)}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ScheduledThreadPoolExecutor_int_RejectedExecutionHandler()
+    public default void create_ScheduledThreadPoolExecutor_int_ThreadFactory_RejectedExecutionHandler()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.concurrent.ScheduledThreadPoolExecutor sut = null; // = new
-                                                                           // ScheduledThreadPoolExecutor(int,java.util.concurrent.RejectedExecutionHandler);
+                                                                           // ScheduledThreadPoolExecutor(int,java.util.concurrent.ThreadFactory,java.util.concurrent.RejectedExecutionHandler);
     }
 
     @Override

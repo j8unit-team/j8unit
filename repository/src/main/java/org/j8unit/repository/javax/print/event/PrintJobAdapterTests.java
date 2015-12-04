@@ -23,23 +23,6 @@ extends org.j8unit.repository.javax.print.event.PrintJobListenerTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link javax.print.event.PrintJobAdapter#printJobNoMoreEvents(javax.print.event.PrintJobEvent)
-     * public void javax.print.event.PrintJobAdapter.printJobNoMoreEvents(javax.print.event.PrintJobEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_printJobNoMoreEvents_PrintJobEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.print.event.PrintJobAdapter#printDataTransferCompleted(javax.print.event.PrintJobEvent) public void
      * javax.print.event.PrintJobAdapter.printDataTransferCompleted(javax.print.event.PrintJobEvent)}.
@@ -75,24 +58,6 @@ extends org.j8unit.repository.javax.print.event.PrintJobListenerTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.print.event.PrintJobAdapter#printJobRequiresAttention(javax.print.event.PrintJobEvent) public void
-     * javax.print.event.PrintJobAdapter.printJobRequiresAttention(javax.print.event.PrintJobEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_printJobRequiresAttention_PrintJobEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.print.event.PrintJobAdapter#printJobCompleted(javax.print.event.PrintJobEvent)
      * public void javax.print.event.PrintJobAdapter.printJobCompleted(javax.print.event.PrintJobEvent)}.
      * </p>
@@ -119,6 +84,41 @@ extends org.j8unit.repository.javax.print.event.PrintJobListenerTests<SUT>, org.
     @Category(Draft.class)
     @Override
     public default void test_printJobFailed_PrintJobEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.event.PrintJobAdapter#printJobNoMoreEvents(javax.print.event.PrintJobEvent)
+     * public void javax.print.event.PrintJobAdapter.printJobNoMoreEvents(javax.print.event.PrintJobEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_printJobNoMoreEvents_PrintJobEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.print.event.PrintJobAdapter#printJobRequiresAttention(javax.print.event.PrintJobEvent) public void
+     * javax.print.event.PrintJobAdapter.printJobRequiresAttention(javax.print.event.PrintJobEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_printJobRequiresAttention_PrintJobEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

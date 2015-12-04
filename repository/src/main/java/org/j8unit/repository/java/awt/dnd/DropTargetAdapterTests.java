@@ -23,6 +23,40 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetListenerTests<SUT>, org.j8u
 
     /**
      * <p>
+     * Test method for {@link java.awt.dnd.DropTargetAdapter#dragEnter(java.awt.dnd.DropTargetDragEvent) public void
+     * java.awt.dnd.DropTargetAdapter.dragEnter(java.awt.dnd.DropTargetDragEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_dragEnter_DropTargetDragEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTargetAdapter#dragExit(java.awt.dnd.DropTargetEvent) public void
+     * java.awt.dnd.DropTargetAdapter.dragExit(java.awt.dnd.DropTargetEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_dragExit_DropTargetEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.dnd.DropTargetAdapter#dragOver(java.awt.dnd.DropTargetDragEvent) public void
      * java.awt.dnd.DropTargetAdapter.dragOver(java.awt.dnd.DropTargetDragEvent)}.
      * </p>
@@ -49,40 +83,6 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetListenerTests<SUT>, org.j8u
     @Category(Draft.class)
     @Override
     public default void test_dropActionChanged_DropTargetDragEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetAdapter#dragExit(java.awt.dnd.DropTargetEvent) public void
-     * java.awt.dnd.DropTargetAdapter.dragExit(java.awt.dnd.DropTargetEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_dragExit_DropTargetEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetAdapter#dragEnter(java.awt.dnd.DropTargetDragEvent) public void
-     * java.awt.dnd.DropTargetAdapter.dragEnter(java.awt.dnd.DropTargetDragEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_dragEnter_DropTargetDragEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

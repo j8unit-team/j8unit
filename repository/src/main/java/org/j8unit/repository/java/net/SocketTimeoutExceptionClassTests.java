@@ -36,20 +36,6 @@ public abstract interface SocketTimeoutExceptionClassTests<SUT extends Class<? e
 extends org.j8unit.repository.java.io.InterruptedIOExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.net.SocketTimeoutException#SocketTimeoutException(java.lang.String) public
-     * java.net.SocketTimeoutException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SocketTimeoutException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.SocketTimeoutException sut = null; // = new SocketTimeoutException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.net.SocketTimeoutException#SocketTimeoutException() public
      * java.net.SocketTimeoutException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.io.InterruptedIOExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.net.SocketTimeoutException sut = null; // = new SocketTimeoutException();
+    }
+
+    /**
+     * Test method for {@link java.net.SocketTimeoutException#SocketTimeoutException(java.lang.String) public
+     * java.net.SocketTimeoutException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SocketTimeoutException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.SocketTimeoutException sut = null; // = new SocketTimeoutException(java.lang.String);
     }
 
     @Override

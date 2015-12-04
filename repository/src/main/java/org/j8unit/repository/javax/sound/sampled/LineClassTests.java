@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface LineClassTests<SUT extends Class<? extends javax.sound.sampled.Line>>
 extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.sound.sampled.Line> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.sound.sampled.Line.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.sound.sampled.Line$Info class javax.sound.sampled.Line$Info}, containing all class
@@ -98,6 +88,16 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
             assertTrue(javax.sound.sampled.Line.Info.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.sound.sampled.Line> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.sound.sampled.Line.class.isAssignableFrom(sut));
     }
 
 }

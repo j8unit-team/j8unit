@@ -23,94 +23,14 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.ResultSetMetaData#getColumnDisplaySize(int) public abstract int
-     * java.sql.ResultSetMetaData.getColumnDisplaySize(int) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.ResultSetMetaData#getCatalogName(int) public abstract java.lang.String
+     * java.sql.ResultSetMetaData.getCatalogName(int) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getColumnDisplaySize_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.ResultSetMetaData#isSearchable(int) public abstract boolean
-     * java.sql.ResultSetMetaData.isSearchable(int) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSearchable_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.ResultSetMetaData#isCurrency(int) public abstract boolean
-     * java.sql.ResultSetMetaData.isCurrency(int) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isCurrency_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.ResultSetMetaData#isNullable(int) public abstract int
-     * java.sql.ResultSetMetaData.isNullable(int) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isNullable_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.ResultSetMetaData#getScale(int) public abstract int
-     * java.sql.ResultSetMetaData.getScale(int) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getScale_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.ResultSetMetaData#isReadOnly(int) public abstract boolean
-     * java.sql.ResultSetMetaData.isReadOnly(int) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isReadOnly_int()
+    public default void test_getCatalogName_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,54 +55,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.ResultSetMetaData#isAutoIncrement(int) public abstract boolean
-     * java.sql.ResultSetMetaData.isAutoIncrement(int) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isAutoIncrement_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.ResultSetMetaData#getPrecision(int) public abstract int
-     * java.sql.ResultSetMetaData.getPrecision(int) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrecision_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.ResultSetMetaData#isWritable(int) public abstract boolean
-     * java.sql.ResultSetMetaData.isWritable(int) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isWritable_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.sql.ResultSetMetaData#getColumnCount() public abstract int
      * java.sql.ResultSetMetaData.getColumnCount() throws java.sql.SQLException}.
      * </p>
@@ -191,6 +63,22 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getColumnCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.ResultSetMetaData#getColumnDisplaySize(int) public abstract int
+     * java.sql.ResultSetMetaData.getColumnDisplaySize(int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getColumnDisplaySize_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -231,38 +119,6 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.ResultSetMetaData#getColumnTypeName(int) public abstract java.lang.String
-     * java.sql.ResultSetMetaData.getColumnTypeName(int) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getColumnTypeName_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.ResultSetMetaData#isDefinitelyWritable(int) public abstract boolean
-     * java.sql.ResultSetMetaData.isDefinitelyWritable(int) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isDefinitelyWritable_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.sql.ResultSetMetaData#getColumnType(int) public abstract int
      * java.sql.ResultSetMetaData.getColumnType(int) throws java.sql.SQLException}.
      * </p>
@@ -279,14 +135,14 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.ResultSetMetaData#getTableName(int) public abstract java.lang.String
-     * java.sql.ResultSetMetaData.getTableName(int) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.ResultSetMetaData#getColumnTypeName(int) public abstract java.lang.String
+     * java.sql.ResultSetMetaData.getColumnTypeName(int) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTableName_int()
+    public default void test_getColumnTypeName_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -295,14 +151,14 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.ResultSetMetaData#isSigned(int) public abstract boolean
-     * java.sql.ResultSetMetaData.isSigned(int) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.ResultSetMetaData#getPrecision(int) public abstract int
+     * java.sql.ResultSetMetaData.getPrecision(int) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isSigned_int()
+    public default void test_getPrecision_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -311,14 +167,14 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.ResultSetMetaData#getCatalogName(int) public abstract java.lang.String
-     * java.sql.ResultSetMetaData.getCatalogName(int) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.ResultSetMetaData#getScale(int) public abstract int
+     * java.sql.ResultSetMetaData.getScale(int) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCatalogName_int()
+    public default void test_getScale_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -343,6 +199,38 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.sql.ResultSetMetaData#getTableName(int) public abstract java.lang.String
+     * java.sql.ResultSetMetaData.getTableName(int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTableName_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.ResultSetMetaData#isAutoIncrement(int) public abstract boolean
+     * java.sql.ResultSetMetaData.isAutoIncrement(int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isAutoIncrement_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.sql.ResultSetMetaData#isCaseSensitive(int) public abstract boolean
      * java.sql.ResultSetMetaData.isCaseSensitive(int) throws java.sql.SQLException}.
      * </p>
@@ -351,6 +239,118 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isCaseSensitive_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.ResultSetMetaData#isCurrency(int) public abstract boolean
+     * java.sql.ResultSetMetaData.isCurrency(int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isCurrency_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.ResultSetMetaData#isDefinitelyWritable(int) public abstract boolean
+     * java.sql.ResultSetMetaData.isDefinitelyWritable(int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isDefinitelyWritable_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.ResultSetMetaData#isNullable(int) public abstract int
+     * java.sql.ResultSetMetaData.isNullable(int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isNullable_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.ResultSetMetaData#isReadOnly(int) public abstract boolean
+     * java.sql.ResultSetMetaData.isReadOnly(int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isReadOnly_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.ResultSetMetaData#isSearchable(int) public abstract boolean
+     * java.sql.ResultSetMetaData.isSearchable(int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSearchable_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.ResultSetMetaData#isSigned(int) public abstract boolean
+     * java.sql.ResultSetMetaData.isSigned(int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSigned_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.ResultSetMetaData#isWritable(int) public abstract boolean
+     * java.sql.ResultSetMetaData.isWritable(int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isWritable_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

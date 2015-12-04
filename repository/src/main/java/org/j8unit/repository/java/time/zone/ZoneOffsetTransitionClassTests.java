@@ -36,16 +36,6 @@ public abstract interface ZoneOffsetTransitionClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.zone.ZoneOffsetTransition>,
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.zone.ZoneOffsetTransition> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.zone.ZoneOffsetTransition.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for
@@ -62,6 +52,16 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.zone.ZoneOffsetTransition> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.zone.ZoneOffsetTransition.class.isAssignableFrom(sut));
     }
 
 }

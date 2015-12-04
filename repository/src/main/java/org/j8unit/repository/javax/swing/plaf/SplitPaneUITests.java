@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.SplitPaneUI#getDividerLocation(javax.swing.JSplitPane) public abstract
-     * int javax.swing.plaf.SplitPaneUI.getDividerLocation(javax.swing.JSplitPane)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDividerLocation_JSplitPane()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.swing.plaf.SplitPaneUI#finishedPaintingChildren(javax.swing.JSplitPane,java.awt.Graphics) public
      * abstract void javax.swing.plaf.SplitPaneUI.finishedPaintingChildren(javax.swing.JSplitPane,java.awt.Graphics)}.
@@ -56,14 +40,14 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.SplitPaneUI#getMaximumDividerLocation(javax.swing.JSplitPane) public
-     * abstract int javax.swing.plaf.SplitPaneUI.getMaximumDividerLocation(javax.swing.JSplitPane)}.
+     * Test method for {@link javax.swing.plaf.SplitPaneUI#getDividerLocation(javax.swing.JSplitPane) public abstract
+     * int javax.swing.plaf.SplitPaneUI.getDividerLocation(javax.swing.JSplitPane)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMaximumDividerLocation_JSplitPane()
+    public default void test_getDividerLocation_JSplitPane()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +56,14 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.SplitPaneUI#setDividerLocation(javax.swing.JSplitPane,int) public
-     * abstract void javax.swing.plaf.SplitPaneUI.setDividerLocation(javax.swing.JSplitPane,int)}.
+     * Test method for {@link javax.swing.plaf.SplitPaneUI#getMaximumDividerLocation(javax.swing.JSplitPane) public
+     * abstract int javax.swing.plaf.SplitPaneUI.getMaximumDividerLocation(javax.swing.JSplitPane)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDividerLocation_JSplitPane_int()
+    public default void test_getMaximumDividerLocation_JSplitPane()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -112,6 +96,22 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_resetToPreferredSizes_JSplitPane()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.SplitPaneUI#setDividerLocation(javax.swing.JSplitPane,int) public
+     * abstract void javax.swing.plaf.SplitPaneUI.setDividerLocation(javax.swing.JSplitPane,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDividerLocation_JSplitPane_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

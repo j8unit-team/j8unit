@@ -23,13 +23,13 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.Node#recycleNode() public abstract void javax.xml.soap.Node.recycleNode()}.
+     * Test method for {@link javax.xml.soap.Node#detachNode() public abstract void javax.xml.soap.Node.detachNode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_recycleNode()
+    public default void test_detachNode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -70,29 +70,13 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.Node#setValue(java.lang.String) public abstract void
-     * javax.xml.soap.Node.setValue(java.lang.String)}.
+     * Test method for {@link javax.xml.soap.Node#recycleNode() public abstract void javax.xml.soap.Node.recycleNode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setValue_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.Node#detachNode() public abstract void javax.xml.soap.Node.detachNode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_detachNode()
+    public default void test_recycleNode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -109,6 +93,22 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setParentElement_SOAPElement()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.Node#setValue(java.lang.String) public abstract void
+     * javax.xml.soap.Node.setValue(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setValue_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,22 +23,6 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#setTarget(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLAreaElement.setTarget(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTarget_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLAreaElement#getAccessKey() public abstract java.lang.String
      * org.w3c.dom.html.HTMLAreaElement.getAccessKey()}.
      * </p>
@@ -71,14 +55,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#setTabIndex(int) public abstract void
-     * org.w3c.dom.html.HTMLAreaElement.setTabIndex(int)}.
+     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#getCoords() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLAreaElement.getCoords()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setTabIndex_int()
+    public default void test_getCoords()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,78 +71,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#setAccessKey(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLAreaElement.setAccessKey(java.lang.String)}.
+     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#getHref() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLAreaElement.getHref()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setAccessKey_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#getTarget() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLAreaElement.getTarget()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTarget()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#setCoords(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLAreaElement.setCoords(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCoords_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#setNoHref(boolean) public abstract void
-     * org.w3c.dom.html.HTMLAreaElement.setNoHref(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setNoHref_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#setShape(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLAreaElement.setShape(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setShape_String()
+    public default void test_getHref()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -199,6 +119,54 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#getTabIndex() public abstract int
+     * org.w3c.dom.html.HTMLAreaElement.getTabIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTabIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#getTarget() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLAreaElement.getTarget()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTarget()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#setAccessKey(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLAreaElement.setAccessKey(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAccessKey_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLAreaElement#setAlt(java.lang.String) public abstract void
      * org.w3c.dom.html.HTMLAreaElement.setAlt(java.lang.String)}.
      * </p>
@@ -207,6 +175,22 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setAlt_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#setCoords(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLAreaElement.setCoords(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCoords_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -231,14 +215,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#getHref() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLAreaElement.getHref()}.
+     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#setNoHref(boolean) public abstract void
+     * org.w3c.dom.html.HTMLAreaElement.setNoHref(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getHref()
+    public default void test_setNoHref_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -247,14 +231,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#getTabIndex() public abstract int
-     * org.w3c.dom.html.HTMLAreaElement.getTabIndex()}.
+     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#setShape(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLAreaElement.setShape(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTabIndex()
+    public default void test_setShape_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -263,14 +247,30 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#getCoords() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLAreaElement.getCoords()}.
+     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#setTabIndex(int) public abstract void
+     * org.w3c.dom.html.HTMLAreaElement.setTabIndex(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCoords()
+    public default void test_setTabIndex_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLAreaElement#setTarget(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLAreaElement.setTarget(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTarget_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

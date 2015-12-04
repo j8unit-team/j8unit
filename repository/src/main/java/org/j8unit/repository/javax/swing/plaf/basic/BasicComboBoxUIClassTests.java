@@ -36,47 +36,6 @@ public abstract interface BasicComboBoxUIClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxUI#BasicComboBoxUI() public
-     * javax.swing.plaf.basic.BasicComboBoxUI()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BasicComboBoxUI()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.plaf.basic.BasicComboBoxUI sut = null; // = new BasicComboBoxUI();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicComboBoxUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.basic.BasicComboBoxUI.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxUI#createUI(javax.swing.JComponent) public static
-     * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicComboBoxUI.createUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.plaf.basic.BasicComboBoxUI$ComboBoxLayoutManager class
      * javax.swing.plaf.basic.BasicComboBoxUI$ComboBoxLayoutManager}, containing all class relevant test methods (at
@@ -136,64 +95,6 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler class
-     * javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.ItemHandlerTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.ItemHandlerTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface ItemHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler>>
-    extends org.j8unit.repository.java.awt.event.ItemListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
-
-        /**
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler#ItemHandler(javax.swing.plaf.basic.BasicComboBoxUI)
-         * public javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler(javax.swing.plaf.basic.BasicComboBoxUI)}.
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_ItemHandler_BasicComboBoxUI()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler sut = null; // = new
-                                                                                 // ItemHandler(javax.swing.plaf.basic.BasicComboBoxUI);
-        }
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
      * Test class for {@link javax.swing.plaf.basic.BasicComboBoxUI$FocusHandler class
      * javax.swing.plaf.basic.BasicComboBoxUI$FocusHandler}, containing all class relevant test methods (at least the
      * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
@@ -246,6 +147,64 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
             final Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.FocusHandler> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicComboBoxUI.FocusHandler.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * <p>
+     * Test class for {@link javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler class
+     * javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler}, containing all class relevant test methods (at least the
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
+     * containing the instance relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.ItemHandlerTests}.
+     * </p>
+     *
+     * <p>
+     * In addition, there may be assertions concerning the class itself. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
+     * inheritable test method:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+     * constraints and further class specific requirements.
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.ItemHandlerTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface ItemHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler>>
+    extends org.j8unit.repository.java.awt.event.ItemListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+
+        /**
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler#ItemHandler(javax.swing.plaf.basic.BasicComboBoxUI)
+         * public javax.swing.plaf.basic.BasicComboBoxUI$ItemHandler(javax.swing.plaf.basic.BasicComboBoxUI)}.
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void create_ItemHandler_BasicComboBoxUI()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler sut = null; // = new
+                                                                                 // ItemHandler(javax.swing.plaf.basic.BasicComboBoxUI);
+        }
+
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler.class.isAssignableFrom(sut));
         }
 
     }
@@ -422,6 +381,47 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUIClassTests<SUT> {
             assertTrue(javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxUI#BasicComboBoxUI() public
+     * javax.swing.plaf.basic.BasicComboBoxUI()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BasicComboBoxUI()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.plaf.basic.BasicComboBoxUI sut = null; // = new BasicComboBoxUI();
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxUI#createUI(javax.swing.JComponent) public static
+     * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicComboBoxUI.createUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.basic.BasicComboBoxUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.basic.BasicComboBoxUI.class.isAssignableFrom(sut));
     }
 
 }

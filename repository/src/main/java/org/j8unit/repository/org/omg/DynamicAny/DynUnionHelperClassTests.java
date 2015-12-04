@@ -49,76 +49,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.DynamicAny.DynUnionHelper sut = null; // = new DynUnionHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.DynamicAny.DynUnionHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.DynamicAny.DynUnionHelper.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny.DynUnionHelper#unchecked_narrow(org.omg.CORBA.Object) public static
-     * org.omg.DynamicAny.DynUnion org.omg.DynamicAny.DynUnionHelper.unchecked_narrow(org.omg.CORBA.Object)}.
+     * Test method for {@link org.omg.DynamicAny.DynUnionHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.DynamicAny.DynUnion org.omg.DynamicAny.DynUnionHelper.extract(org.omg.CORBA.Any)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_unchecked_narrow_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynUnionHelper#type() public static synchronized org.omg.CORBA.TypeCode
-     * org.omg.DynamicAny.DynUnionHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.DynamicAny.DynUnionHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.DynUnion)
-     * public static void
-     * org.omg.DynamicAny.DynUnionHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.DynUnion)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_OutputStream_DynUnion()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynUnionHelper#narrow(org.omg.CORBA.Object) public static
-     * org.omg.DynamicAny.DynUnion org.omg.DynamicAny.DynUnionHelper.narrow(org.omg.CORBA.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_narrow_Object()
+    public default void test_extract_Any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -159,6 +99,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.omg.DynamicAny.DynUnionHelper#narrow(org.omg.CORBA.Object) public static
+     * org.omg.DynamicAny.DynUnion org.omg.DynamicAny.DynUnionHelper.narrow(org.omg.CORBA.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_narrow_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.omg.DynamicAny.DynUnionHelper#read(org.omg.CORBA.portable.InputStream) public static
      * org.omg.DynamicAny.DynUnion org.omg.DynamicAny.DynUnionHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
@@ -175,18 +131,62 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny.DynUnionHelper#extract(org.omg.CORBA.Any) public static
-     * org.omg.DynamicAny.DynUnion org.omg.DynamicAny.DynUnionHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for {@link org.omg.DynamicAny.DynUnionHelper#type() public static synchronized org.omg.CORBA.TypeCode
+     * org.omg.DynamicAny.DynUnionHelper.type()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_extract_Any()
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynUnionHelper#unchecked_narrow(org.omg.CORBA.Object) public static
+     * org.omg.DynamicAny.DynUnion org.omg.DynamicAny.DynUnionHelper.unchecked_narrow(org.omg.CORBA.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unchecked_narrow_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.DynamicAny.DynUnionHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.DynUnion)
+     * public static void
+     * org.omg.DynamicAny.DynUnionHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.DynUnion)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_DynUnion()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.DynamicAny.DynUnionHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.DynamicAny.DynUnionHelper.class.isAssignableFrom(sut));
     }
 
 }

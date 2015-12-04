@@ -36,19 +36,17 @@ public abstract interface RenderContextClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.awt.image.renderable.RenderContext#RenderContext(java.awt.geom.AffineTransform,java.awt.Shape) public
-     * java.awt.image.renderable.RenderContext(java.awt.geom.AffineTransform,java.awt.Shape)}.
+     * Test method for {@link java.awt.image.renderable.RenderContext#RenderContext(java.awt.geom.AffineTransform)
+     * public java.awt.image.renderable.RenderContext(java.awt.geom.AffineTransform)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RenderContext_AffineTransform_Shape()
+    public default void create_RenderContext_AffineTransform()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.image.renderable.RenderContext sut = null; // = new
-                                                                  // RenderContext(java.awt.geom.AffineTransform,java.awt.Shape);
+        final java.awt.image.renderable.RenderContext sut = null; // = new RenderContext(java.awt.geom.AffineTransform);
     }
 
     /**
@@ -68,17 +66,19 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     }
 
     /**
-     * Test method for {@link java.awt.image.renderable.RenderContext#RenderContext(java.awt.geom.AffineTransform)
-     * public java.awt.image.renderable.RenderContext(java.awt.geom.AffineTransform)}.
+     * Test method for
+     * {@link java.awt.image.renderable.RenderContext#RenderContext(java.awt.geom.AffineTransform,java.awt.Shape) public
+     * java.awt.image.renderable.RenderContext(java.awt.geom.AffineTransform,java.awt.Shape)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RenderContext_AffineTransform()
+    public default void create_RenderContext_AffineTransform_Shape()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.image.renderable.RenderContext sut = null; // = new RenderContext(java.awt.geom.AffineTransform);
+        final java.awt.image.renderable.RenderContext sut = null; // = new
+                                                                  // RenderContext(java.awt.geom.AffineTransform,java.awt.Shape);
     }
 
     /**

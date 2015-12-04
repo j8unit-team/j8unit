@@ -40,6 +40,40 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.io.StringBufferInputStream#read() public synchronized int
+     * java.io.StringBufferInputStream.read()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_read()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.StringBufferInputStream#read(byte[],int,int) public synchronized int
+     * java.io.StringBufferInputStream.read(byte[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_read_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.io.StringBufferInputStream#reset() public synchronized void
      * java.io.StringBufferInputStream.reset()}.
      * </p>
@@ -66,40 +100,6 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_skip_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.StringBufferInputStream#read(byte[],int,int) public synchronized int
-     * java.io.StringBufferInputStream.read(byte[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_read_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.StringBufferInputStream#read() public synchronized int
-     * java.io.StringBufferInputStream.read()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_read()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

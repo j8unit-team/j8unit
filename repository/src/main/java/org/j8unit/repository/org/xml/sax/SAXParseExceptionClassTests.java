@@ -36,20 +36,34 @@ public abstract interface SAXParseExceptionClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.org.xml.sax.SAXExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link org.xml.sax.SAXParseException#SAXParseException(java.lang.String,java.lang.String,java.lang.String,int,int,java.lang.Exception)
-     * public
-     * org.xml.sax.SAXParseException(java.lang.String,java.lang.String,java.lang.String,int,int,java.lang.Exception)}.
+     * Test method for {@link org.xml.sax.SAXParseException#SAXParseException(java.lang.String,org.xml.sax.Locator)
+     * public org.xml.sax.SAXParseException(java.lang.String,org.xml.sax.Locator)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SAXParseException_String_String_String_int_int_Exception()
+    public default void create_SAXParseException_String_Locator()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final org.xml.sax.SAXParseException sut = null; // = new
-                                                        // SAXParseException(java.lang.String,java.lang.String,java.lang.String,int,int,java.lang.Exception);
+                                                        // SAXParseException(java.lang.String,org.xml.sax.Locator);
+    }
+
+    /**
+     * Test method for
+     * {@link org.xml.sax.SAXParseException#SAXParseException(java.lang.String,org.xml.sax.Locator,java.lang.Exception)
+     * public org.xml.sax.SAXParseException(java.lang.String,org.xml.sax.Locator,java.lang.Exception)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SAXParseException_String_Locator_Exception()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final org.xml.sax.SAXParseException sut = null; // = new
+                                                        // SAXParseException(java.lang.String,org.xml.sax.Locator,java.lang.Exception);
     }
 
     /**
@@ -70,33 +84,19 @@ extends org.j8unit.repository.org.xml.sax.SAXExceptionClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link org.xml.sax.SAXParseException#SAXParseException(java.lang.String,org.xml.sax.Locator,java.lang.Exception)
-     * public org.xml.sax.SAXParseException(java.lang.String,org.xml.sax.Locator,java.lang.Exception)}.
+     * {@link org.xml.sax.SAXParseException#SAXParseException(java.lang.String,java.lang.String,java.lang.String,int,int,java.lang.Exception)
+     * public
+     * org.xml.sax.SAXParseException(java.lang.String,java.lang.String,java.lang.String,int,int,java.lang.Exception)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SAXParseException_String_Locator_Exception()
+    public default void create_SAXParseException_String_String_String_int_int_Exception()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final org.xml.sax.SAXParseException sut = null; // = new
-                                                        // SAXParseException(java.lang.String,org.xml.sax.Locator,java.lang.Exception);
-    }
-
-    /**
-     * Test method for {@link org.xml.sax.SAXParseException#SAXParseException(java.lang.String,org.xml.sax.Locator)
-     * public org.xml.sax.SAXParseException(java.lang.String,org.xml.sax.Locator)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SAXParseException_String_Locator()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final org.xml.sax.SAXParseException sut = null; // = new
-                                                        // SAXParseException(java.lang.String,org.xml.sax.Locator);
+                                                        // SAXParseException(java.lang.String,java.lang.String,java.lang.String,int,int,java.lang.Exception);
     }
 
     @Override

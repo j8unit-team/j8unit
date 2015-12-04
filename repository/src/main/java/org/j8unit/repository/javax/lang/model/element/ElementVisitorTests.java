@@ -24,16 +24,32 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.lang.model.element.ElementVisitor#visitType(javax.lang.model.element.TypeElement,java.lang.Object)
-     * public abstract java.lang.Object
-     * javax.lang.model.element.ElementVisitor.visitType(javax.lang.model.element.TypeElement,java.lang.Object)}.
+     * Test method for {@link javax.lang.model.element.ElementVisitor#visit(javax.lang.model.element.Element) public
+     * abstract java.lang.Object javax.lang.model.element.ElementVisitor.visit(javax.lang.model.element.Element)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_visitType_TypeElement_Object()
+    public default void test_visit_Element()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.element.ElementVisitor#visit(javax.lang.model.element.Element,java.lang.Object) public
+     * abstract java.lang.Object
+     * javax.lang.model.element.ElementVisitor.visit(javax.lang.model.element.Element,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_visit_Element_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -80,16 +96,15 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.element.ElementVisitor#visitVariable(javax.lang.model.element.VariableElement,java.lang.Object)
+     * {@link javax.lang.model.element.ElementVisitor#visitType(javax.lang.model.element.TypeElement,java.lang.Object)
      * public abstract java.lang.Object
-     * javax.lang.model.element.ElementVisitor.visitVariable(javax.lang.model.element.VariableElement,java.lang.Object)}
-     * .
+     * javax.lang.model.element.ElementVisitor.visitType(javax.lang.model.element.TypeElement,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_visitVariable_VariableElement_Object()
+    public default void test_visitType_TypeElement_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -118,40 +133,6 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.element.ElementVisitor#visit(javax.lang.model.element.Element,java.lang.Object) public
-     * abstract java.lang.Object
-     * javax.lang.model.element.ElementVisitor.visit(javax.lang.model.element.Element,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_visit_Element_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.element.ElementVisitor#visit(javax.lang.model.element.Element) public
-     * abstract java.lang.Object javax.lang.model.element.ElementVisitor.visit(javax.lang.model.element.Element)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_visit_Element()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link javax.lang.model.element.ElementVisitor#visitUnknown(javax.lang.model.element.Element,java.lang.Object)
      * public abstract java.lang.Object
      * javax.lang.model.element.ElementVisitor.visitUnknown(javax.lang.model.element.Element,java.lang.Object)}.
@@ -161,6 +142,25 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_visitUnknown_Element_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.element.ElementVisitor#visitVariable(javax.lang.model.element.VariableElement,java.lang.Object)
+     * public abstract java.lang.Object
+     * javax.lang.model.element.ElementVisitor.visitVariable(javax.lang.model.element.VariableElement,java.lang.Object)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_visitVariable_VariableElement_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -39,6 +39,23 @@ extends org.j8unit.repository.javax.swing.FocusManagerTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.DefaultFocusManager#getComponentAfter(java.awt.Container,java.awt.Component)
+     * public java.awt.Component
+     * javax.swing.DefaultFocusManager.getComponentAfter(java.awt.Container,java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponentAfter_Container_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.DefaultFocusManager#getComponentBefore(java.awt.Container,java.awt.Component)
      * public java.awt.Component
      * javax.swing.DefaultFocusManager.getComponentBefore(java.awt.Container,java.awt.Component)}.
@@ -64,23 +81,6 @@ extends org.j8unit.repository.javax.swing.FocusManagerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getFirstComponent_Container()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultFocusManager#getComponentAfter(java.awt.Container,java.awt.Component)
-     * public java.awt.Component
-     * javax.swing.DefaultFocusManager.getComponentAfter(java.awt.Container,java.awt.Component)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getComponentAfter_Container_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

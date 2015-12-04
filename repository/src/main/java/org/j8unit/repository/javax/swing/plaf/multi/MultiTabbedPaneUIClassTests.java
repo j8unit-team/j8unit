@@ -49,16 +49,6 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUIClassTests<SUT> {
         final javax.swing.plaf.multi.MultiTabbedPaneUI sut = null; // = new MultiTabbedPaneUI();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.multi.MultiTabbedPaneUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.multi.MultiTabbedPaneUI.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#createUI(javax.swing.JComponent) public static
@@ -74,6 +64,16 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUIClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.multi.MultiTabbedPaneUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.multi.MultiTabbedPaneUI.class.isAssignableFrom(sut));
     }
 
 }

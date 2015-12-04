@@ -23,6 +23,54 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
+     * Test method for {@link java.lang.management.MemoryMXBean#gc() public abstract void
+     * java.lang.management.MemoryMXBean.gc()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_gc()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.management.MemoryMXBean#getHeapMemoryUsage() public abstract
+     * java.lang.management.MemoryUsage java.lang.management.MemoryMXBean.getHeapMemoryUsage()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHeapMemoryUsage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.management.MemoryMXBean#getNonHeapMemoryUsage() public abstract
+     * java.lang.management.MemoryUsage java.lang.management.MemoryMXBean.getNonHeapMemoryUsage()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNonHeapMemoryUsage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.lang.management.MemoryMXBean#getObjectPendingFinalizationCount() public abstract int
      * java.lang.management.MemoryMXBean.getObjectPendingFinalizationCount()}.
      * </p>
@@ -55,22 +103,6 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.lang.management.MemoryMXBean#gc() public abstract void
-     * java.lang.management.MemoryMXBean.gc()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_gc()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.management.MemoryMXBean#setVerbose(boolean) public abstract void
      * java.lang.management.MemoryMXBean.setVerbose(boolean)}.
      * </p>
@@ -79,38 +111,6 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
     @Test
     @Category(Draft.class)
     public default void test_setVerbose_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.management.MemoryMXBean#getNonHeapMemoryUsage() public abstract
-     * java.lang.management.MemoryUsage java.lang.management.MemoryMXBean.getNonHeapMemoryUsage()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNonHeapMemoryUsage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.management.MemoryMXBean#getHeapMemoryUsage() public abstract
-     * java.lang.management.MemoryUsage java.lang.management.MemoryMXBean.getHeapMemoryUsage()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHeapMemoryUsage()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

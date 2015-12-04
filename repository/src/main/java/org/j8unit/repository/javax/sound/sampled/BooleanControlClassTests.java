@@ -33,16 +33,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface BooleanControlClassTests<SUT extends Class<? extends javax.sound.sampled.BooleanControl>>
 extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.sound.sampled.BooleanControl> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.sound.sampled.BooleanControl.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.sound.sampled.BooleanControl$Type class javax.sound.sampled.BooleanControl$Type},
@@ -82,6 +72,16 @@ extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
             assertTrue(javax.sound.sampled.BooleanControl.Type.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.sound.sampled.BooleanControl> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.sound.sampled.BooleanControl.class.isAssignableFrom(sut));
     }
 
 }

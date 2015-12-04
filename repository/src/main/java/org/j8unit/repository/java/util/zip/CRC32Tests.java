@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.CRC32#update(int) public void java.util.zip.CRC32.update(int)}.
+     * Test method for {@link java.util.zip.CRC32#getValue() public long java.util.zip.CRC32.getValue()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_update_int()
+    public default void test_getValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,14 +39,29 @@ extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.CRC32#update(java.nio.ByteBuffer) public void
-     * java.util.zip.CRC32.update(java.nio.ByteBuffer)}.
+     * Test method for {@link java.util.zip.CRC32#reset() public void java.util.zip.CRC32.reset()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_update_ByteBuffer()
+    @Override
+    public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.CRC32#update(byte[]) public void java.util.zip.CRC32.update(byte[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_update_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,13 +87,14 @@ extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.CRC32#update(byte[]) public void java.util.zip.CRC32.update(byte[])}.
+     * Test method for {@link java.util.zip.CRC32#update(java.nio.ByteBuffer) public void
+     * java.util.zip.CRC32.update(java.nio.ByteBuffer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_update_byteArray()
+    public default void test_update_ByteBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,30 +103,14 @@ extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.CRC32#reset() public void java.util.zip.CRC32.reset()}.
+     * Test method for {@link java.util.zip.CRC32#update(int) public void java.util.zip.CRC32.update(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_reset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.CRC32#getValue() public long java.util.zip.CRC32.getValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getValue()
+    public default void test_update_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

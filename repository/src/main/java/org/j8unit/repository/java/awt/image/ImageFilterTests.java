@@ -24,15 +24,63 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ImageFilter#setHints(int) public void
-     * java.awt.image.ImageFilter.setHints(int)}.
+     * Test method for {@link java.awt.image.ImageFilter#clone() public java.lang.Object
+     * java.awt.image.ImageFilter.clone()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.ImageFilter#getFilterInstance(java.awt.image.ImageConsumer) public
+     * java.awt.image.ImageFilter java.awt.image.ImageFilter.getFilterInstance(java.awt.image.ImageConsumer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFilterInstance_ImageConsumer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.ImageFilter#imageComplete(int) public void
+     * java.awt.image.ImageFilter.imageComplete(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setHints_int()
+    public default void test_imageComplete_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.ImageFilter#resendTopDownLeftRight(java.awt.image.ImageProducer) public
+     * void java.awt.image.ImageFilter.resendTopDownLeftRight(java.awt.image.ImageProducer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_resendTopDownLeftRight_ImageProducer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -58,54 +106,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ImageFilter#getFilterInstance(java.awt.image.ImageConsumer) public
-     * java.awt.image.ImageFilter java.awt.image.ImageFilter.getFilterInstance(java.awt.image.ImageConsumer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFilterInstance_ImageConsumer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ImageFilter#resendTopDownLeftRight(java.awt.image.ImageProducer) public
-     * void java.awt.image.ImageFilter.resendTopDownLeftRight(java.awt.image.ImageProducer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_resendTopDownLeftRight_ImageProducer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ImageFilter#clone() public java.lang.Object
-     * java.awt.image.ImageFilter.clone()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.image.ImageFilter#setDimensions(int,int) public void
      * java.awt.image.ImageFilter.setDimensions(int,int)}.
      * </p>
@@ -115,6 +115,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_setDimensions_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.ImageFilter#setHints(int) public void
+     * java.awt.image.ImageFilter.setHints(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setHints_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -168,23 +185,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_setProperties_Hashtable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ImageFilter#imageComplete(int) public void
-     * java.awt.image.ImageFilter.imageComplete(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_imageComplete_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

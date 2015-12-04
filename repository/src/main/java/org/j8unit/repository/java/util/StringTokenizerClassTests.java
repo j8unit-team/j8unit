@@ -36,6 +36,20 @@ public abstract interface StringTokenizerClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.util.EnumerationClassTests<SUT, java.lang.Object>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.util.StringTokenizer#StringTokenizer(java.lang.String) public
+     * java.util.StringTokenizer(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_StringTokenizer_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.StringTokenizer sut = null; // = new StringTokenizer(java.lang.String);
+    }
+
+    /**
      * Test method for {@link java.util.StringTokenizer#StringTokenizer(java.lang.String,java.lang.String) public
      * java.util.StringTokenizer(java.lang.String,java.lang.String)}.
      */
@@ -61,20 +75,6 @@ extends org.j8unit.repository.java.util.EnumerationClassTests<SUT, java.lang.Obj
         // create new instance
         @SuppressWarnings("unused")
         final java.util.StringTokenizer sut = null; // = new StringTokenizer(java.lang.String,java.lang.String,boolean);
-    }
-
-    /**
-     * Test method for {@link java.util.StringTokenizer#StringTokenizer(java.lang.String) public
-     * java.util.StringTokenizer(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_StringTokenizer_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.StringTokenizer sut = null; // = new StringTokenizer(java.lang.String);
     }
 
     @Override

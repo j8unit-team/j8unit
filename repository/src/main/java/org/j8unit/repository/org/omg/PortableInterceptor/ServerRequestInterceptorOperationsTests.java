@@ -44,16 +44,16 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for
-     * {@link org.omg.PortableInterceptor.ServerRequestInterceptorOperations#send_other(org.omg.PortableInterceptor.ServerRequestInfo)
+     * {@link org.omg.PortableInterceptor.ServerRequestInterceptorOperations#receive_request_service_contexts(org.omg.PortableInterceptor.ServerRequestInfo)
      * public abstract void
-     * org.omg.PortableInterceptor.ServerRequestInterceptorOperations.send_other(org.omg.PortableInterceptor.ServerRequestInfo)
+     * org.omg.PortableInterceptor.ServerRequestInterceptorOperations.receive_request_service_contexts(org.omg.PortableInterceptor.ServerRequestInfo)
      * throws org.omg.PortableInterceptor.ForwardRequest}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_send_other_ServerRequestInfo()
+    public default void test_receive_request_service_contexts_ServerRequestInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -82,16 +82,16 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsT
     /**
      * <p>
      * Test method for
-     * {@link org.omg.PortableInterceptor.ServerRequestInterceptorOperations#receive_request_service_contexts(org.omg.PortableInterceptor.ServerRequestInfo)
+     * {@link org.omg.PortableInterceptor.ServerRequestInterceptorOperations#send_other(org.omg.PortableInterceptor.ServerRequestInfo)
      * public abstract void
-     * org.omg.PortableInterceptor.ServerRequestInterceptorOperations.receive_request_service_contexts(org.omg.PortableInterceptor.ServerRequestInfo)
+     * org.omg.PortableInterceptor.ServerRequestInterceptorOperations.send_other(org.omg.PortableInterceptor.ServerRequestInfo)
      * throws org.omg.PortableInterceptor.ForwardRequest}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_receive_request_service_contexts_ServerRequestInfo()
+    public default void test_send_other_ServerRequestInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

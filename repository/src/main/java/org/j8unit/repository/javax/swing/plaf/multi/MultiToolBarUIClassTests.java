@@ -49,16 +49,6 @@ extends org.j8unit.repository.javax.swing.plaf.ToolBarUIClassTests<SUT> {
         final javax.swing.plaf.multi.MultiToolBarUI sut = null; // = new MultiToolBarUI();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.multi.MultiToolBarUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.multi.MultiToolBarUI.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.plaf.multi.MultiToolBarUI#createUI(javax.swing.JComponent) public static
@@ -74,6 +64,16 @@ extends org.j8unit.repository.javax.swing.plaf.ToolBarUIClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.multi.MultiToolBarUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.multi.MultiToolBarUI.class.isAssignableFrom(sut));
     }
 
 }

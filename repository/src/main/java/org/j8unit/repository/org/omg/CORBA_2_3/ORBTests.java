@@ -55,14 +55,16 @@ extends org.j8unit.repository.org.omg.CORBA.ORBTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA_2_3.ORB#unregister_value_factory(java.lang.String) public void
-     * org.omg.CORBA_2_3.ORB.unregister_value_factory(java.lang.String)}.
+     * Test method for
+     * {@link org.omg.CORBA_2_3.ORB#register_value_factory(java.lang.String,org.omg.CORBA.portable.ValueFactory) public
+     * org.omg.CORBA.portable.ValueFactory
+     * org.omg.CORBA_2_3.ORB.register_value_factory(java.lang.String,org.omg.CORBA.portable.ValueFactory)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_unregister_value_factory_String()
+    public default void test_register_value_factory_String_ValueFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,16 +89,14 @@ extends org.j8unit.repository.org.omg.CORBA.ORBTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.CORBA_2_3.ORB#register_value_factory(java.lang.String,org.omg.CORBA.portable.ValueFactory) public
-     * org.omg.CORBA.portable.ValueFactory
-     * org.omg.CORBA_2_3.ORB.register_value_factory(java.lang.String,org.omg.CORBA.portable.ValueFactory)}.
+     * Test method for {@link org.omg.CORBA_2_3.ORB#unregister_value_factory(java.lang.String) public void
+     * org.omg.CORBA_2_3.ORB.unregister_value_factory(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_register_value_factory_String_ValueFactory()
+    public default void test_unregister_value_factory_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

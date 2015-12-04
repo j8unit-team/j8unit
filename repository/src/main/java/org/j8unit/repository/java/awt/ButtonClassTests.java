@@ -35,6 +35,19 @@ public abstract interface ButtonClassTests<SUT extends Class<? extends java.awt.
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.java.awt.ComponentClassTests<SUT> {
 
     /**
+     * Test method for {@link java.awt.Button#Button() public java.awt.Button() throws java.awt.HeadlessException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Button()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Button sut = null; // = new Button();
+    }
+
+    /**
      * Test method for {@link java.awt.Button#Button(java.lang.String) public java.awt.Button(java.lang.String) throws
      * java.awt.HeadlessException}.
      */
@@ -46,19 +59,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.Button sut = null; // = new Button(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.awt.Button#Button() public java.awt.Button() throws java.awt.HeadlessException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Button()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Button sut = null; // = new Button();
     }
 
     @Override

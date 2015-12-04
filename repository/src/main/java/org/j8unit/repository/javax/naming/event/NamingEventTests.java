@@ -39,14 +39,14 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.event.NamingEvent#getOldBinding() public javax.naming.Binding
-     * javax.naming.event.NamingEvent.getOldBinding()}.
+     * Test method for {@link javax.naming.event.NamingEvent#getChangeInfo() public java.lang.Object
+     * javax.naming.event.NamingEvent.getChangeInfo()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOldBinding()
+    public default void test_getChangeInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,22 +71,6 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.event.NamingEvent#getType() public int
-     * javax.naming.event.NamingEvent.getType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.naming.event.NamingEvent#getNewBinding() public javax.naming.Binding
      * javax.naming.event.NamingEvent.getNewBinding()}.
      * </p>
@@ -103,14 +87,30 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.event.NamingEvent#getChangeInfo() public java.lang.Object
-     * javax.naming.event.NamingEvent.getChangeInfo()}.
+     * Test method for {@link javax.naming.event.NamingEvent#getOldBinding() public javax.naming.Binding
+     * javax.naming.event.NamingEvent.getOldBinding()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getChangeInfo()
+    public default void test_getOldBinding()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.event.NamingEvent#getType() public int
+     * javax.naming.event.NamingEvent.getType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

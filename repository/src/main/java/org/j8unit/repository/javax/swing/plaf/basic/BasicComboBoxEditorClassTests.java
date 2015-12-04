@@ -37,30 +37,6 @@ extends org.j8unit.repository.javax.swing.ComboBoxEditorClassTests<SUT>, org.j8u
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxEditor#BasicComboBoxEditor() public
-     * javax.swing.plaf.basic.BasicComboBoxEditor()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BasicComboBoxEditor()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.plaf.basic.BasicComboBoxEditor sut = null; // = new BasicComboBoxEditor();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicComboBoxEditor> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.basic.BasicComboBoxEditor.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.plaf.basic.BasicComboBoxEditor$UIResource class
      * javax.swing.plaf.basic.BasicComboBoxEditor$UIResource}, containing all class relevant test methods (at least the
@@ -114,6 +90,30 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(javax.swing.plaf.basic.BasicComboBoxEditor.UIResource.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.plaf.basic.BasicComboBoxEditor#BasicComboBoxEditor() public
+     * javax.swing.plaf.basic.BasicComboBoxEditor()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BasicComboBoxEditor()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.plaf.basic.BasicComboBoxEditor sut = null; // = new BasicComboBoxEditor();
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.basic.BasicComboBoxEditor> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.basic.BasicComboBoxEditor.class.isAssignableFrom(sut));
     }
 
 }

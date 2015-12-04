@@ -36,6 +36,20 @@ public abstract interface ServiceUnavailableExceptionClassTests<SUT extends Clas
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.naming.ServiceUnavailableException#ServiceUnavailableException() public
+     * javax.naming.ServiceUnavailableException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ServiceUnavailableException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.ServiceUnavailableException sut = null; // = new ServiceUnavailableException();
+    }
+
+    /**
      * Test method for {@link javax.naming.ServiceUnavailableException#ServiceUnavailableException(java.lang.String)
      * public javax.naming.ServiceUnavailableException(java.lang.String)}.
      */
@@ -48,20 +62,6 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.naming.ServiceUnavailableException sut = null; // = new
                                                                    // ServiceUnavailableException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.naming.ServiceUnavailableException#ServiceUnavailableException() public
-     * javax.naming.ServiceUnavailableException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ServiceUnavailableException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.ServiceUnavailableException sut = null; // = new ServiceUnavailableException();
     }
 
     @Override

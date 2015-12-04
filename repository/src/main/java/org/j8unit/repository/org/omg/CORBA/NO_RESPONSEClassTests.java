@@ -36,18 +36,16 @@ public abstract interface NO_RESPONSEClassTests<SUT extends Class<? extends org.
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link org.omg.CORBA.NO_RESPONSE#NO_RESPONSE(java.lang.String,int,org.omg.CORBA.CompletionStatus)
-     * public org.omg.CORBA.NO_RESPONSE(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for {@link org.omg.CORBA.NO_RESPONSE#NO_RESPONSE() public org.omg.CORBA.NO_RESPONSE()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_NO_RESPONSE_String_int_CompletionStatus()
+    public default void create_NO_RESPONSE()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.NO_RESPONSE sut = null; // = new
-                                                    // NO_RESPONSE(java.lang.String,int,org.omg.CORBA.CompletionStatus);
+        final org.omg.CORBA.NO_RESPONSE sut = null; // = new NO_RESPONSE();
     }
 
     /**
@@ -79,16 +77,18 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link org.omg.CORBA.NO_RESPONSE#NO_RESPONSE() public org.omg.CORBA.NO_RESPONSE()}.
+     * Test method for {@link org.omg.CORBA.NO_RESPONSE#NO_RESPONSE(java.lang.String,int,org.omg.CORBA.CompletionStatus)
+     * public org.omg.CORBA.NO_RESPONSE(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_NO_RESPONSE()
+    public default void create_NO_RESPONSE_String_int_CompletionStatus()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.NO_RESPONSE sut = null; // = new NO_RESPONSE();
+        final org.omg.CORBA.NO_RESPONSE sut = null; // = new
+                                                    // NO_RESPONSE(java.lang.String,int,org.omg.CORBA.CompletionStatus);
     }
 
     @Override

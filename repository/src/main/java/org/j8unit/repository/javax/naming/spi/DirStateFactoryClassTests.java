@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface DirStateFactoryClassTests<SUT extends Class<? extends javax.naming.spi.DirStateFactory>>
 extends org.j8unit.repository.javax.naming.spi.StateFactoryClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.naming.spi.DirStateFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.naming.spi.DirStateFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.naming.spi.DirStateFactory$Result class javax.naming.spi.DirStateFactory$Result},
@@ -100,6 +90,16 @@ extends org.j8unit.repository.javax.naming.spi.StateFactoryClassTests<SUT> {
             assertTrue(javax.naming.spi.DirStateFactory.Result.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.naming.spi.DirStateFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.naming.spi.DirStateFactory.class.isAssignableFrom(sut));
     }
 
 }

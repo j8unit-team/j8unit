@@ -23,79 +23,14 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InputMethodEvent#getText() public java.text.AttributedCharacterIterator
-     * java.awt.event.InputMethodEvent.getText()}.
+     * Test method for {@link java.awt.event.InputMethodEvent#consume() public void
+     * java.awt.event.InputMethodEvent.consume()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getText()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.InputMethodEvent#getWhen() public long
-     * java.awt.event.InputMethodEvent.getWhen()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWhen()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.InputMethodEvent#paramString() public java.lang.String
-     * java.awt.event.InputMethodEvent.paramString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paramString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.InputMethodEvent#getCommittedCharacterCount() public int
-     * java.awt.event.InputMethodEvent.getCommittedCharacterCount()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCommittedCharacterCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.InputMethodEvent#isConsumed() public boolean
-     * java.awt.event.InputMethodEvent.isConsumed()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isConsumed()
+    public default void test_consume()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,6 +55,38 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.event.InputMethodEvent#getCommittedCharacterCount() public int
+     * java.awt.event.InputMethodEvent.getCommittedCharacterCount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCommittedCharacterCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.InputMethodEvent#getText() public java.text.AttributedCharacterIterator
+     * java.awt.event.InputMethodEvent.getText()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.event.InputMethodEvent#getVisiblePosition() public java.awt.font.TextHitInfo
      * java.awt.event.InputMethodEvent.getVisiblePosition()}.
      * </p>
@@ -136,14 +103,47 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InputMethodEvent#consume() public void
-     * java.awt.event.InputMethodEvent.consume()}.
+     * Test method for {@link java.awt.event.InputMethodEvent#getWhen() public long
+     * java.awt.event.InputMethodEvent.getWhen()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_consume()
+    public default void test_getWhen()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.InputMethodEvent#isConsumed() public boolean
+     * java.awt.event.InputMethodEvent.isConsumed()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isConsumed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.InputMethodEvent#paramString() public java.lang.String
+     * java.awt.event.InputMethodEvent.paramString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paramString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

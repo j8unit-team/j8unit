@@ -37,22 +37,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.awt.font.FontRenderContext#FontRenderContext(java.awt.geom.AffineTransform,java.lang.Object,java.lang.Object)
-     * public java.awt.font.FontRenderContext(java.awt.geom.AffineTransform,java.lang.Object,java.lang.Object)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FontRenderContext_AffineTransform_Object_Object()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.font.FontRenderContext sut = null; // = new
-                                                          // FontRenderContext(java.awt.geom.AffineTransform,java.lang.Object,java.lang.Object);
-    }
-
-    /**
-     * Test method for
      * {@link java.awt.font.FontRenderContext#FontRenderContext(java.awt.geom.AffineTransform,boolean,boolean) public
      * java.awt.font.FontRenderContext(java.awt.geom.AffineTransform,boolean,boolean)}.
      */
@@ -65,6 +49,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.awt.font.FontRenderContext sut = null; // = new
                                                           // FontRenderContext(java.awt.geom.AffineTransform,boolean,boolean);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.font.FontRenderContext#FontRenderContext(java.awt.geom.AffineTransform,java.lang.Object,java.lang.Object)
+     * public java.awt.font.FontRenderContext(java.awt.geom.AffineTransform,java.lang.Object,java.lang.Object)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FontRenderContext_AffineTransform_Object_Object()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.font.FontRenderContext sut = null; // = new
+                                                          // FontRenderContext(java.awt.geom.AffineTransform,java.lang.Object,java.lang.Object);
     }
 
     @Override

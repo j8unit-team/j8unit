@@ -23,15 +23,15 @@ extends org.j8unit.repository.javax.swing.plaf.MenuBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuBarUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicMenuBarUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicMenuBarUI#getMaximumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicMenuBarUI.getMaximumSize(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_uninstallUI_JComponent()
+    public default void test_getMaximumSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,15 +74,15 @@ extends org.j8unit.repository.javax.swing.plaf.MenuBarUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicMenuBarUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicMenuBarUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicMenuBarUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicMenuBarUI.uninstallUI(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getMaximumSize_JComponent()
+    public default void test_uninstallUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

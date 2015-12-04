@@ -36,31 +36,16 @@ public abstract interface KeyExceptionClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.KeyException#KeyException(java.lang.Throwable) public
-     * java.security.KeyException(java.lang.Throwable)}.
+     * Test method for {@link java.security.KeyException#KeyException() public java.security.KeyException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_KeyException_Throwable()
+    public default void create_KeyException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.KeyException sut = null; // = new KeyException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link java.security.KeyException#KeyException(java.lang.String,java.lang.Throwable) public
-     * java.security.KeyException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_KeyException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.KeyException sut = null; // = new KeyException(java.lang.String,java.lang.Throwable);
+        final java.security.KeyException sut = null; // = new KeyException();
     }
 
     /**
@@ -78,16 +63,31 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     }
 
     /**
-     * Test method for {@link java.security.KeyException#KeyException() public java.security.KeyException()}.
+     * Test method for {@link java.security.KeyException#KeyException(java.lang.String,java.lang.Throwable) public
+     * java.security.KeyException(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_KeyException()
+    public default void create_KeyException_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.KeyException sut = null; // = new KeyException();
+        final java.security.KeyException sut = null; // = new KeyException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link java.security.KeyException#KeyException(java.lang.Throwable) public
+     * java.security.KeyException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_KeyException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.KeyException sut = null; // = new KeyException(java.lang.Throwable);
     }
 
     @Override

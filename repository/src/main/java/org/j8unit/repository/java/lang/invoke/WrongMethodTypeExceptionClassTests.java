@@ -36,20 +36,6 @@ public abstract interface WrongMethodTypeExceptionClassTests<SUT extends Class<?
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.invoke.WrongMethodTypeException#WrongMethodTypeException(java.lang.String)
-     * public java.lang.invoke.WrongMethodTypeException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_WrongMethodTypeException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.invoke.WrongMethodTypeException sut = null; // = new WrongMethodTypeException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.lang.invoke.WrongMethodTypeException#WrongMethodTypeException() public
      * java.lang.invoke.WrongMethodTypeException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.lang.invoke.WrongMethodTypeException sut = null; // = new WrongMethodTypeException();
+    }
+
+    /**
+     * Test method for {@link java.lang.invoke.WrongMethodTypeException#WrongMethodTypeException(java.lang.String)
+     * public java.lang.invoke.WrongMethodTypeException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_WrongMethodTypeException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.invoke.WrongMethodTypeException sut = null; // = new WrongMethodTypeException(java.lang.String);
     }
 
     @Override

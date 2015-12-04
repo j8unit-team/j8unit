@@ -37,24 +37,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * Test method for
-     * {@link java.rmi.activation.ActivationDesc#ActivationDesc(java.rmi.activation.ActivationGroupID,java.lang.String,java.lang.String,java.rmi.MarshalledObject,boolean)
-     * public
-     * java.rmi.activation.ActivationDesc(java.rmi.activation.ActivationGroupID,java.lang.String,java.lang.String,java.rmi.MarshalledObject,boolean)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ActivationDesc_ActivationGroupID_String_String_MarshalledObject_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.rmi.activation.ActivationDesc sut = null; // = new
-                                                             // ActivationDesc(java.rmi.activation.ActivationGroupID,java.lang.String,java.lang.String,java.rmi.MarshalledObject,boolean);
-    }
-
-    /**
-     * Test method for
      * {@link java.rmi.activation.ActivationDesc#ActivationDesc(java.rmi.activation.ActivationGroupID,java.lang.String,java.lang.String,java.rmi.MarshalledObject)
      * public
      * java.rmi.activation.ActivationDesc(java.rmi.activation.ActivationGroupID,java.lang.String,java.lang.String,java.rmi.MarshalledObject)}
@@ -73,19 +55,20 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * Test method for
-     * {@link java.rmi.activation.ActivationDesc#ActivationDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject,boolean)
-     * public java.rmi.activation.ActivationDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject,boolean)
-     * throws java.rmi.activation.ActivationException}.
+     * {@link java.rmi.activation.ActivationDesc#ActivationDesc(java.rmi.activation.ActivationGroupID,java.lang.String,java.lang.String,java.rmi.MarshalledObject,boolean)
+     * public
+     * java.rmi.activation.ActivationDesc(java.rmi.activation.ActivationGroupID,java.lang.String,java.lang.String,java.rmi.MarshalledObject,boolean)}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ActivationDesc_String_String_MarshalledObject_boolean()
+    public default void create_ActivationDesc_ActivationGroupID_String_String_MarshalledObject_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.rmi.activation.ActivationDesc sut = null; // = new
-                                                             // ActivationDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject,boolean);
+                                                             // ActivationDesc(java.rmi.activation.ActivationGroupID,java.lang.String,java.lang.String,java.rmi.MarshalledObject,boolean);
     }
 
     /**
@@ -103,6 +86,23 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         @SuppressWarnings("unused")
         final java.rmi.activation.ActivationDesc sut = null; // = new
                                                              // ActivationDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject);
+    }
+
+    /**
+     * Test method for
+     * {@link java.rmi.activation.ActivationDesc#ActivationDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject,boolean)
+     * public java.rmi.activation.ActivationDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject,boolean)
+     * throws java.rmi.activation.ActivationException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ActivationDesc_String_String_MarshalledObject_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.rmi.activation.ActivationDesc sut = null; // = new
+                                                             // ActivationDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject,boolean);
     }
 
     @Override

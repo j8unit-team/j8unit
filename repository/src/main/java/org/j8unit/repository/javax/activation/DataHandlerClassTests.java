@@ -36,17 +36,17 @@ public abstract interface DataHandlerClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.awt.datatransfer.TransferableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.activation.DataHandler#DataHandler(java.net.URL) public
-     * javax.activation.DataHandler(java.net.URL)}.
+     * Test method for {@link javax.activation.DataHandler#DataHandler(javax.activation.DataSource) public
+     * javax.activation.DataHandler(javax.activation.DataSource)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DataHandler_URL()
+    public default void create_DataHandler_DataSource()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.activation.DataHandler sut = null; // = new DataHandler(java.net.URL);
+        final javax.activation.DataHandler sut = null; // = new DataHandler(javax.activation.DataSource);
     }
 
     /**
@@ -64,27 +64,17 @@ extends org.j8unit.repository.java.awt.datatransfer.TransferableClassTests<SUT>,
     }
 
     /**
-     * Test method for {@link javax.activation.DataHandler#DataHandler(javax.activation.DataSource) public
-     * javax.activation.DataHandler(javax.activation.DataSource)}.
+     * Test method for {@link javax.activation.DataHandler#DataHandler(java.net.URL) public
+     * javax.activation.DataHandler(java.net.URL)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DataHandler_DataSource()
+    public default void create_DataHandler_URL()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.activation.DataHandler sut = null; // = new DataHandler(javax.activation.DataSource);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.activation.DataHandler> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.activation.DataHandler.class.isAssignableFrom(sut));
+        final javax.activation.DataHandler sut = null; // = new DataHandler(java.net.URL);
     }
 
     /**
@@ -103,6 +93,16 @@ extends org.j8unit.repository.java.awt.datatransfer.TransferableClassTests<SUT>,
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.activation.DataHandler> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.activation.DataHandler.class.isAssignableFrom(sut));
     }
 
 }

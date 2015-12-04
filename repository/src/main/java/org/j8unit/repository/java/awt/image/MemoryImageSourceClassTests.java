@@ -37,52 +37,6 @@ extends org.j8unit.repository.java.awt.image.ImageProducerClassTests<SUT>, org.j
 
     /**
      * Test method for
-     * {@link java.awt.image.MemoryImageSource#MemoryImageSource(int,int,int[],int,int,java.util.Hashtable) public
-     * java.awt.image.MemoryImageSource(int,int,int[],int,int,java.util.Hashtable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MemoryImageSource_int_int_intArray_int_int_Hashtable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.MemoryImageSource sut = null; // = new
-                                                           // MemoryImageSource(int,int,int[],int,int,java.util.Hashtable);
-    }
-
-    /**
-     * Test method for {@link java.awt.image.MemoryImageSource#MemoryImageSource(int,int,int[],int,int) public
-     * java.awt.image.MemoryImageSource(int,int,int[],int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MemoryImageSource_int_int_intArray_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.MemoryImageSource sut = null; // = new MemoryImageSource(int,int,int[],int,int);
-    }
-
-    /**
-     * Test method for
-     * {@link java.awt.image.MemoryImageSource#MemoryImageSource(int,int,java.awt.image.ColorModel,int[],int,int,java.util.Hashtable)
-     * public java.awt.image.MemoryImageSource(int,int,java.awt.image.ColorModel,int[],int,int,java.util.Hashtable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MemoryImageSource_int_int_ColorModel_intArray_int_int_Hashtable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.MemoryImageSource sut = null; // = new
-                                                           // MemoryImageSource(int,int,java.awt.image.ColorModel,int[],int,int,java.util.Hashtable);
-    }
-
-    /**
-     * Test method for
      * {@link java.awt.image.MemoryImageSource#MemoryImageSource(int,int,java.awt.image.ColorModel,byte[],int,int)
      * public java.awt.image.MemoryImageSource(int,int,java.awt.image.ColorModel,byte[],int,int)}.
      */
@@ -127,6 +81,52 @@ extends org.j8unit.repository.java.awt.image.ImageProducerClassTests<SUT>, org.j
         @SuppressWarnings("unused")
         final java.awt.image.MemoryImageSource sut = null; // = new
                                                            // MemoryImageSource(int,int,java.awt.image.ColorModel,int[],int,int);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.image.MemoryImageSource#MemoryImageSource(int,int,java.awt.image.ColorModel,int[],int,int,java.util.Hashtable)
+     * public java.awt.image.MemoryImageSource(int,int,java.awt.image.ColorModel,int[],int,int,java.util.Hashtable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MemoryImageSource_int_int_ColorModel_intArray_int_int_Hashtable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.MemoryImageSource sut = null; // = new
+                                                           // MemoryImageSource(int,int,java.awt.image.ColorModel,int[],int,int,java.util.Hashtable);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.MemoryImageSource#MemoryImageSource(int,int,int[],int,int) public
+     * java.awt.image.MemoryImageSource(int,int,int[],int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MemoryImageSource_int_int_intArray_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.MemoryImageSource sut = null; // = new MemoryImageSource(int,int,int[],int,int);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.image.MemoryImageSource#MemoryImageSource(int,int,int[],int,int,java.util.Hashtable) public
+     * java.awt.image.MemoryImageSource(int,int,int[],int,int,java.util.Hashtable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MemoryImageSource_int_int_intArray_int_int_Hashtable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.MemoryImageSource sut = null; // = new
+                                                           // MemoryImageSource(int,int,int[],int,int,java.util.Hashtable);
     }
 
     @Override

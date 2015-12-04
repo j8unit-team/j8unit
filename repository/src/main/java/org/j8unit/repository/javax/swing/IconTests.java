@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Icon#paintIcon(java.awt.Component,java.awt.Graphics,int,int) public abstract
-     * void javax.swing.Icon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_paintIcon_Component_Graphics_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.Icon#getIconHeight() public abstract int javax.swing.Icon.getIconHeight()}.
      * </p>
      */
@@ -62,6 +46,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getIconWidth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.Icon#paintIcon(java.awt.Component,java.awt.Graphics,int,int) public abstract
+     * void javax.swing.Icon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_paintIcon_Component_Graphics_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,15 +23,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.security.Permissions#implies(java.security.Permission) public boolean
-     * java.security.Permissions.implies(java.security.Permission)}.
+     * Test method for {@link java.security.Permissions#add(java.security.Permission) public void
+     * java.security.Permissions.add(java.security.Permission)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_implies_Permission()
+    public default void test_add_Permission()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,15 +57,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.security.Permissions#add(java.security.Permission) public void
-     * java.security.Permissions.add(java.security.Permission)}.
+     * Test method for {@link java.security.Permissions#implies(java.security.Permission) public boolean
+     * java.security.Permissions.implies(java.security.Permission)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_add_Permission()
+    public default void test_implies_Permission()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

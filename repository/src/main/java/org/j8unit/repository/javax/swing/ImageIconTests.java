@@ -24,63 +24,15 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ImageIcon#setDescription(java.lang.String) public void
-     * javax.swing.ImageIcon.setDescription(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDescription_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#getImageLoadStatus() public int
-     * javax.swing.ImageIcon.getImageLoadStatus()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImageLoadStatus()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#toString() public java.lang.String javax.swing.ImageIcon.toString()}
-     * .
+     * Test method for {@link javax.swing.ImageIcon#getAccessibleContext() public javax.accessibility.AccessibleContext
+     * javax.swing.ImageIcon.getAccessibleContext()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ImageIcon#getImageObserver() public java.awt.image.ImageObserver
-     * javax.swing.ImageIcon.getImageObserver()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImageObserver()
+    public default void test_getAccessibleContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -105,15 +57,30 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ImageIcon#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.ImageIcon.getAccessibleContext()}.
+     * Test method for {@link javax.swing.ImageIcon#getIconHeight() public int javax.swing.ImageIcon.getIconHeight()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAccessibleContext()
+    public default void test_getIconHeight()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ImageIcon#getIconWidth() public int javax.swing.ImageIcon.getIconWidth()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getIconWidth()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -129,6 +96,38 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
     @Test
     @Category(Draft.class)
     public default void test_getImage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ImageIcon#getImageLoadStatus() public int
+     * javax.swing.ImageIcon.getImageLoadStatus()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImageLoadStatus()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ImageIcon#getImageObserver() public java.awt.image.ImageObserver
+     * javax.swing.ImageIcon.getImageObserver()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImageObserver()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -154,14 +153,14 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ImageIcon#setImage(java.awt.Image) public void
-     * javax.swing.ImageIcon.setImage(java.awt.Image)}.
+     * Test method for {@link javax.swing.ImageIcon#setDescription(java.lang.String) public void
+     * javax.swing.ImageIcon.setDescription(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setImage_Image()
+    public default void test_setDescription_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -170,14 +169,14 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ImageIcon#getIconWidth() public int javax.swing.ImageIcon.getIconWidth()}.
+     * Test method for {@link javax.swing.ImageIcon#setImage(java.awt.Image) public void
+     * javax.swing.ImageIcon.setImage(java.awt.Image)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getIconWidth()
+    public default void test_setImage_Image()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -202,14 +201,15 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ImageIcon#getIconHeight() public int javax.swing.ImageIcon.getIconHeight()}.
+     * Test method for {@link javax.swing.ImageIcon#toString() public java.lang.String javax.swing.ImageIcon.toString()}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getIconHeight()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

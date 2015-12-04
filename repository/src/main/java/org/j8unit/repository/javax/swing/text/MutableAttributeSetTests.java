@@ -23,14 +23,30 @@ extends org.j8unit.repository.javax.swing.text.AttributeSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.MutableAttributeSet#setResolveParent(javax.swing.text.AttributeSet)
-     * public abstract void javax.swing.text.MutableAttributeSet.setResolveParent(javax.swing.text.AttributeSet)}.
+     * Test method for {@link javax.swing.text.MutableAttributeSet#addAttribute(java.lang.Object,java.lang.Object)
+     * public abstract void javax.swing.text.MutableAttributeSet.addAttribute(java.lang.Object,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setResolveParent_AttributeSet()
+    public default void test_addAttribute_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.MutableAttributeSet#addAttributes(javax.swing.text.AttributeSet) public
+     * abstract void javax.swing.text.MutableAttributeSet.addAttributes(javax.swing.text.AttributeSet)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addAttributes_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,30 +103,14 @@ extends org.j8unit.repository.javax.swing.text.AttributeSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.MutableAttributeSet#addAttribute(java.lang.Object,java.lang.Object)
-     * public abstract void javax.swing.text.MutableAttributeSet.addAttribute(java.lang.Object,java.lang.Object)}.
+     * Test method for {@link javax.swing.text.MutableAttributeSet#setResolveParent(javax.swing.text.AttributeSet)
+     * public abstract void javax.swing.text.MutableAttributeSet.setResolveParent(javax.swing.text.AttributeSet)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addAttribute_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.MutableAttributeSet#addAttributes(javax.swing.text.AttributeSet) public
-     * abstract void javax.swing.text.MutableAttributeSet.addAttributes(javax.swing.text.AttributeSet)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addAttributes_AttributeSet()
+    public default void test_setResolveParent_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

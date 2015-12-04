@@ -35,15 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface MapClassTests<SUT extends Class<? extends java.util.Map<K, V>>, K, V>
 extends J8UnitTest<SUT> {
 
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.Map<K, V>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.Map.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link java.util.Map$Entry interface java.util.Map$Entry}, containing all class relevant test
@@ -73,13 +64,20 @@ extends J8UnitTest<SUT> {
     public static abstract interface EntryClassTests<SUT extends Class<? extends java.util.Map.Entry<K, V>>, K, V>
     extends J8UnitTest<SUT> {
 
+        /**
+         * <p>
+         * Test method for {@link java.util.Map.Entry#comparingByKey() public static java.util.Comparator
+         * java.util.Map$Entry.comparingByKey()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @Category(Draft.class)
+        public default void test_comparingByKey()
         throws Exception {
-            // create new instance
-            final Class<? extends java.util.Map.Entry<K, V>> sut = createNewSUT();
-            // assert assignability
-            assertTrue(java.util.Map.Entry.class.isAssignableFrom(sut));
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
         }
 
         /**
@@ -92,22 +90,6 @@ extends J8UnitTest<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_comparingByKey_Comparator()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.util.Map.Entry#comparingByKey() public static java.util.Comparator
-         * java.util.Map$Entry.comparingByKey()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_comparingByKey()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -146,6 +128,24 @@ extends J8UnitTest<SUT> {
             assert sut != null;
         }
 
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends java.util.Map.Entry<K, V>> sut = createNewSUT();
+            // assert assignability
+            assertTrue(java.util.Map.Entry.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.Map<K, V>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.Map.class.isAssignableFrom(sut));
     }
 
 }

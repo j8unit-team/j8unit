@@ -36,70 +36,6 @@ public abstract interface TitledBorderClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)
-     * public
-     * javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TitledBorder_Border_String_int_int_Font_Color()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.border.TitledBorder sut = null; // = new
-                                                          // TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font)
-     * public javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TitledBorder_Border_String_int_int_Font()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.border.TitledBorder sut = null; // = new
-                                                          // TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border,java.lang.String,int,int) public
-     * javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String,int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TitledBorder_Border_String_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.border.TitledBorder sut = null; // = new
-                                                          // TitledBorder(javax.swing.border.Border,java.lang.String,int,int);
-    }
-
-    /**
-     * Test method for {@link javax.swing.border.TitledBorder#TitledBorder(java.lang.String) public
-     * javax.swing.border.TitledBorder(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TitledBorder_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.border.TitledBorder sut = null; // = new TitledBorder(java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border) public
      * javax.swing.border.TitledBorder(javax.swing.border.Border)}.
      */
@@ -126,6 +62,70 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.swing.border.TitledBorder sut = null; // = new
                                                           // TitledBorder(javax.swing.border.Border,java.lang.String);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border,java.lang.String,int,int) public
+     * javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TitledBorder_Border_String_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.border.TitledBorder sut = null; // = new
+                                                          // TitledBorder(javax.swing.border.Border,java.lang.String,int,int);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font)
+     * public javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TitledBorder_Border_String_int_int_Font()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.border.TitledBorder sut = null; // = new
+                                                          // TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.border.TitledBorder#TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)
+     * public
+     * javax.swing.border.TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TitledBorder_Border_String_int_int_Font_Color()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.border.TitledBorder sut = null; // = new
+                                                          // TitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color);
+    }
+
+    /**
+     * Test method for {@link javax.swing.border.TitledBorder#TitledBorder(java.lang.String) public
+     * javax.swing.border.TitledBorder(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TitledBorder_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.border.TitledBorder sut = null; // = new TitledBorder(java.lang.String);
     }
 
     @Override

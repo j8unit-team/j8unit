@@ -23,13 +23,13 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.WebResult#name() public abstract java.lang.String javax.jws.WebResult.name()}.
+     * Test method for {@link javax.jws.WebResult#header() public abstract boolean javax.jws.WebResult.header()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_name()
+    public default void test_header()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -38,13 +38,13 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.WebResult#header() public abstract boolean javax.jws.WebResult.header()}.
+     * Test method for {@link javax.jws.WebResult#name() public abstract java.lang.String javax.jws.WebResult.name()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_header()
+    public default void test_name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

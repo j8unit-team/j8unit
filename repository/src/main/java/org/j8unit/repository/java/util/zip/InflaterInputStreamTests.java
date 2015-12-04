@@ -23,6 +23,57 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.util.zip.InflaterInputStream#available() public int
+     * java.util.zip.InflaterInputStream.available() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_available()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.InflaterInputStream#close() public void
+     * java.util.zip.InflaterInputStream.close() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.InflaterInputStream#mark(int) public synchronized void
+     * java.util.zip.InflaterInputStream.mark(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_mark_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.zip.InflaterInputStream#markSupported() public boolean
      * java.util.zip.InflaterInputStream.markSupported()}.
      * </p>
@@ -74,57 +125,6 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.InflaterInputStream#mark(int) public synchronized void
-     * java.util.zip.InflaterInputStream.mark(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_mark_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.InflaterInputStream#close() public void
-     * java.util.zip.InflaterInputStream.close() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.InflaterInputStream#skip(long) public long
-     * java.util.zip.InflaterInputStream.skip(long) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_skip_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.zip.InflaterInputStream#reset() public synchronized void
      * java.util.zip.InflaterInputStream.reset() throws java.io.IOException}.
      * </p>
@@ -142,15 +142,15 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.InflaterInputStream#available() public int
-     * java.util.zip.InflaterInputStream.available() throws java.io.IOException}.
+     * Test method for {@link java.util.zip.InflaterInputStream#skip(long) public long
+     * java.util.zip.InflaterInputStream.skip(long) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_available()
+    public default void test_skip_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

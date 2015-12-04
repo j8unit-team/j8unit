@@ -37,18 +37,17 @@ extends org.j8unit.repository.java.util.NavigableSetClassTests<SUT, E>, org.j8un
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
 
     /**
-     * Test method for {@link java.util.concurrent.ConcurrentSkipListSet#ConcurrentSkipListSet(java.util.SortedSet)
-     * public java.util.concurrent.ConcurrentSkipListSet(java.util.SortedSet)}.
+     * Test method for {@link java.util.concurrent.ConcurrentSkipListSet#ConcurrentSkipListSet() public
+     * java.util.concurrent.ConcurrentSkipListSet()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ConcurrentSkipListSet_SortedSet()
+    public default void create_ConcurrentSkipListSet()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentSkipListSet<E> sut = null; // = new
-                                                                        // ConcurrentSkipListSet(java.util.SortedSet);
+        final java.util.concurrent.ConcurrentSkipListSet<E> sut = null; // = new ConcurrentSkipListSet();
     }
 
     /**
@@ -82,17 +81,18 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     }
 
     /**
-     * Test method for {@link java.util.concurrent.ConcurrentSkipListSet#ConcurrentSkipListSet() public
-     * java.util.concurrent.ConcurrentSkipListSet()}.
+     * Test method for {@link java.util.concurrent.ConcurrentSkipListSet#ConcurrentSkipListSet(java.util.SortedSet)
+     * public java.util.concurrent.ConcurrentSkipListSet(java.util.SortedSet)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ConcurrentSkipListSet()
+    public default void create_ConcurrentSkipListSet_SortedSet()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentSkipListSet<E> sut = null; // = new ConcurrentSkipListSet();
+        final java.util.concurrent.ConcurrentSkipListSet<E> sut = null; // = new
+                                                                        // ConcurrentSkipListSet(java.util.SortedSet);
     }
 
     @Override

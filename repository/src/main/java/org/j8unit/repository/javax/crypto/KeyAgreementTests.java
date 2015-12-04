@@ -23,6 +23,73 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.crypto.KeyAgreement#doPhase(java.security.Key,boolean) public final
+     * java.security.Key javax.crypto.KeyAgreement.doPhase(java.security.Key,boolean) throws
+     * java.security.InvalidKeyException,java.lang.IllegalStateException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_doPhase_Key_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.crypto.KeyAgreement#generateSecret() public final byte[]
+     * javax.crypto.KeyAgreement.generateSecret() throws java.lang.IllegalStateException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_generateSecret()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.crypto.KeyAgreement#generateSecret(byte[],int) public final int
+     * javax.crypto.KeyAgreement.generateSecret(byte[],int) throws
+     * java.lang.IllegalStateException,javax.crypto.ShortBufferException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_generateSecret_byteArray_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.crypto.KeyAgreement#generateSecret(java.lang.String) public final
+     * javax.crypto.SecretKey javax.crypto.KeyAgreement.generateSecret(java.lang.String) throws
+     * java.lang.IllegalStateException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_generateSecret_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.crypto.KeyAgreement#getAlgorithm() public final java.lang.String
      * javax.crypto.KeyAgreement.getAlgorithm()}.
      * </p>
@@ -39,14 +106,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.KeyAgreement#init(java.security.Key) public final void
-     * javax.crypto.KeyAgreement.init(java.security.Key) throws java.security.InvalidKeyException}.
+     * Test method for {@link javax.crypto.KeyAgreement#getProvider() public final java.security.Provider
+     * javax.crypto.KeyAgreement.getProvider()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_init_Key()
+    public default void test_getProvider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,15 +122,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.KeyAgreement#init(java.security.Key,java.security.SecureRandom) public final
-     * void javax.crypto.KeyAgreement.init(java.security.Key,java.security.SecureRandom) throws
-     * java.security.InvalidKeyException}.
+     * Test method for {@link javax.crypto.KeyAgreement#init(java.security.Key) public final void
+     * javax.crypto.KeyAgreement.init(java.security.Key) throws java.security.InvalidKeyException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_init_Key_SecureRandom()
+    public default void test_init_Key()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -109,81 +175,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.KeyAgreement#doPhase(java.security.Key,boolean) public final
-     * java.security.Key javax.crypto.KeyAgreement.doPhase(java.security.Key,boolean) throws
-     * java.security.InvalidKeyException,java.lang.IllegalStateException}.
+     * Test method for {@link javax.crypto.KeyAgreement#init(java.security.Key,java.security.SecureRandom) public final
+     * void javax.crypto.KeyAgreement.init(java.security.Key,java.security.SecureRandom) throws
+     * java.security.InvalidKeyException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_doPhase_Key_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.crypto.KeyAgreement#generateSecret(java.lang.String) public final
-     * javax.crypto.SecretKey javax.crypto.KeyAgreement.generateSecret(java.lang.String) throws
-     * java.lang.IllegalStateException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_generateSecret_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.crypto.KeyAgreement#generateSecret(byte[],int) public final int
-     * javax.crypto.KeyAgreement.generateSecret(byte[],int) throws
-     * java.lang.IllegalStateException,javax.crypto.ShortBufferException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_generateSecret_byteArray_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.crypto.KeyAgreement#generateSecret() public final byte[]
-     * javax.crypto.KeyAgreement.generateSecret() throws java.lang.IllegalStateException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_generateSecret()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.crypto.KeyAgreement#getProvider() public final java.security.Provider
-     * javax.crypto.KeyAgreement.getProvider()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProvider()
+    public default void test_init_Key_SecureRandom()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

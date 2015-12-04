@@ -36,20 +36,6 @@ public abstract interface NoRouteToHostExceptionClassTests<SUT extends Class<? e
 extends org.j8unit.repository.java.net.SocketExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.net.NoRouteToHostException#NoRouteToHostException(java.lang.String) public
-     * java.net.NoRouteToHostException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_NoRouteToHostException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.NoRouteToHostException sut = null; // = new NoRouteToHostException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.net.NoRouteToHostException#NoRouteToHostException() public
      * java.net.NoRouteToHostException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.net.SocketExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.net.NoRouteToHostException sut = null; // = new NoRouteToHostException();
+    }
+
+    /**
+     * Test method for {@link java.net.NoRouteToHostException#NoRouteToHostException(java.lang.String) public
+     * java.net.NoRouteToHostException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_NoRouteToHostException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.NoRouteToHostException sut = null; // = new NoRouteToHostException(java.lang.String);
     }
 
     @Override

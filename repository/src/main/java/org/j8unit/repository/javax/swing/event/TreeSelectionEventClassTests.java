@@ -37,24 +37,6 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.swing.event.TreeSelectionEvent#TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath[],boolean[],javax.swing.tree.TreePath,javax.swing.tree.TreePath)
-     * public
-     * javax.swing.event.TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath[],boolean[],javax.swing.tree.TreePath,javax.swing.tree.TreePath)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TreeSelectionEvent_Object_TreePathArray_booleanArray_TreePath_TreePath()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.event.TreeSelectionEvent sut = null; // = new
-                                                               // TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath[],boolean[],javax.swing.tree.TreePath,javax.swing.tree.TreePath);
-    }
-
-    /**
-     * Test method for
      * {@link javax.swing.event.TreeSelectionEvent#TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath,boolean,javax.swing.tree.TreePath,javax.swing.tree.TreePath)
      * public
      * javax.swing.event.TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath,boolean,javax.swing.tree.TreePath,javax.swing.tree.TreePath)}
@@ -69,6 +51,24 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.swing.event.TreeSelectionEvent sut = null; // = new
                                                                // TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath,boolean,javax.swing.tree.TreePath,javax.swing.tree.TreePath);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.event.TreeSelectionEvent#TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath[],boolean[],javax.swing.tree.TreePath,javax.swing.tree.TreePath)
+     * public
+     * javax.swing.event.TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath[],boolean[],javax.swing.tree.TreePath,javax.swing.tree.TreePath)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TreeSelectionEvent_Object_TreePathArray_booleanArray_TreePath_TreePath()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.event.TreeSelectionEvent sut = null; // = new
+                                                               // TreeSelectionEvent(java.lang.Object,javax.swing.tree.TreePath[],boolean[],javax.swing.tree.TreePath,javax.swing.tree.TreePath);
     }
 
     @Override

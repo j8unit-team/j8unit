@@ -47,32 +47,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.IOP.IORHelper sut = null; // = new IORHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.IOP.IORHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.IOP.IORHelper.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.IOP.IORHelper#read(org.omg.CORBA.portable.InputStream) public static
-     * org.omg.IOP.IOR org.omg.IOP.IORHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link org.omg.IOP.IORHelper#extract(org.omg.CORBA.Any) public static org.omg.IOP.IOR
@@ -122,14 +96,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.IOP.IORHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.IOR) public
-     * static void org.omg.IOP.IORHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.IOR)}.
+     * Test method for {@link org.omg.IOP.IORHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * org.omg.IOP.IOR org.omg.IOP.IORHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_OutputStream_IOR()
+    public default void test_read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -150,6 +124,32 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.IOP.IORHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.IOR) public
+     * static void org.omg.IOP.IORHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.IOR)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_IOR()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.IOP.IORHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.IOP.IORHelper.class.isAssignableFrom(sut));
     }
 
 }

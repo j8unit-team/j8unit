@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.PopupMenuUI#isPopupTrigger(java.awt.event.MouseEvent) public boolean
-     * javax.swing.plaf.PopupMenuUI.isPopupTrigger(java.awt.event.MouseEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isPopupTrigger_MouseEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.PopupMenuUI#getPopup(javax.swing.JPopupMenu,int,int) public
      * javax.swing.Popup javax.swing.plaf.PopupMenuUI.getPopup(javax.swing.JPopupMenu,int,int)}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getPopup_JPopupMenu_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.PopupMenuUI#isPopupTrigger(java.awt.event.MouseEvent) public boolean
+     * javax.swing.plaf.PopupMenuUI.isPopupTrigger(java.awt.event.MouseEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isPopupTrigger_MouseEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

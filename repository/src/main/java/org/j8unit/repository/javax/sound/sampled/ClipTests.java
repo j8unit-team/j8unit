@@ -23,30 +23,14 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.Clip#setFramePosition(int) public abstract void
-     * javax.sound.sampled.Clip.setFramePosition(int)}.
+     * Test method for {@link javax.sound.sampled.Clip#getFrameLength() public abstract int
+     * javax.sound.sampled.Clip.getFrameLength()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setFramePosition_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.Clip#loop(int) public abstract void
-     * javax.sound.sampled.Clip.loop(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_loop_int()
+    public default void test_getFrameLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,30 +55,14 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.Clip#setLoopPoints(int,int) public abstract void
-     * javax.sound.sampled.Clip.setLoopPoints(int,int)}.
+     * Test method for {@link javax.sound.sampled.Clip#loop(int) public abstract void
+     * javax.sound.sampled.Clip.loop(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setLoopPoints_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.Clip#getFrameLength() public abstract int
-     * javax.sound.sampled.Clip.getFrameLength()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFrameLength()
+    public default void test_loop_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -129,6 +97,38 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_open_AudioInputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.Clip#setFramePosition(int) public abstract void
+     * javax.sound.sampled.Clip.setFramePosition(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFramePosition_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.Clip#setLoopPoints(int,int) public abstract void
+     * javax.sound.sampled.Clip.setLoopPoints(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLoopPoints_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

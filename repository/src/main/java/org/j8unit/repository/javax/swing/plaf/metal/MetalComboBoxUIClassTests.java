@@ -36,47 +36,6 @@ public abstract interface MetalComboBoxUIClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#MetalComboBoxUI() public
-     * javax.swing.plaf.metal.MetalComboBoxUI()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MetalComboBoxUI()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.plaf.metal.MetalComboBoxUI sut = null; // = new MetalComboBoxUI();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.metal.MetalComboBoxUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.metal.MetalComboBoxUI.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#createUI(javax.swing.JComponent) public static
-     * javax.swing.plaf.ComponentUI javax.swing.plaf.metal.MetalComboBoxUI.createUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager class
      * javax.swing.plaf.metal.MetalComboBoxUI$MetalComboBoxLayoutManager}, containing all class relevant test methods
@@ -252,6 +211,47 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
             assertTrue(javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#MetalComboBoxUI() public
+     * javax.swing.plaf.metal.MetalComboBoxUI()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MetalComboBoxUI()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.plaf.metal.MetalComboBoxUI sut = null; // = new MetalComboBoxUI();
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxUI#createUI(javax.swing.JComponent) public static
+     * javax.swing.plaf.ComponentUI javax.swing.plaf.metal.MetalComboBoxUI.createUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.metal.MetalComboBoxUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.metal.MetalComboBoxUI.class.isAssignableFrom(sut));
     }
 
 }

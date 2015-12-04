@@ -23,15 +23,29 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.GSSException#toString() public java.lang.String
-     * org.ietf.jgss.GSSException.toString()}.
+     * Test method for {@link org.ietf.jgss.GSSException#getMajor() public int org.ietf.jgss.GSSException.getMajor()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getMajor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.ietf.jgss.GSSException#getMajorString() public java.lang.String
+     * org.ietf.jgss.GSSException.getMajorString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMajorString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -49,37 +63,6 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getMessage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.ietf.jgss.GSSException#getMajor() public int org.ietf.jgss.GSSException.getMajor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMajor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.ietf.jgss.GSSException#setMinor(int,java.lang.String) public void
-     * org.ietf.jgss.GSSException.setMinor(int,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMinor_int_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +102,31 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.GSSException#getMajorString() public java.lang.String
-     * org.ietf.jgss.GSSException.getMajorString()}.
+     * Test method for {@link org.ietf.jgss.GSSException#setMinor(int,java.lang.String) public void
+     * org.ietf.jgss.GSSException.setMinor(int,java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMajorString()
+    public default void test_setMinor_int_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.ietf.jgss.GSSException#toString() public java.lang.String
+     * org.ietf.jgss.GSSException.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

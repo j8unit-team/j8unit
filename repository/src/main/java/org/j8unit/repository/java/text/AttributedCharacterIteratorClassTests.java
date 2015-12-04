@@ -33,16 +33,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface AttributedCharacterIteratorClassTests<SUT extends Class<? extends java.text.AttributedCharacterIterator>>
 extends org.j8unit.repository.java.text.CharacterIteratorClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.text.AttributedCharacterIterator> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.text.AttributedCharacterIterator.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link java.text.AttributedCharacterIterator$Attribute class
@@ -83,6 +73,16 @@ extends org.j8unit.repository.java.text.CharacterIteratorClassTests<SUT> {
             assertTrue(java.text.AttributedCharacterIterator.Attribute.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.text.AttributedCharacterIterator> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.text.AttributedCharacterIterator.class.isAssignableFrom(sut));
     }
 
 }

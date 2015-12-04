@@ -23,15 +23,15 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#initialize() public void
-     * javax.swing.plaf.nimbus.NimbusLookAndFeel.initialize()}.
+     * Test method for {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#getDefaults() public javax.swing.UIDefaults
+     * javax.swing.plaf.nimbus.NimbusLookAndFeel.getDefaults()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_initialize()
+    public default void test_getDefaults()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,15 +40,33 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#getID() public java.lang.String
-     * javax.swing.plaf.nimbus.NimbusLookAndFeel.getID()}.
+     * Test method for
+     * {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#getDerivedColor(java.lang.String,float,float,float,int,boolean)
+     * public java.awt.Color
+     * javax.swing.plaf.nimbus.NimbusLookAndFeel.getDerivedColor(java.lang.String,float,float,float,int,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDerivedColor_String_float_float_float_int_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#getDescription() public java.lang.String
+     * javax.swing.plaf.nimbus.NimbusLookAndFeel.getDescription()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getID()
+    public default void test_getDescription()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,84 +94,15 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#getDefaults() public javax.swing.UIDefaults
-     * javax.swing.plaf.nimbus.NimbusLookAndFeel.getDefaults()}.
+     * Test method for {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#getID() public java.lang.String
+     * javax.swing.plaf.nimbus.NimbusLookAndFeel.getID()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getDefaults()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#uninitialize() public void
-     * javax.swing.plaf.nimbus.NimbusLookAndFeel.uninitialize()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_uninitialize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#register(javax.swing.plaf.synth.Region,java.lang.String) public
-     * void javax.swing.plaf.nimbus.NimbusLookAndFeel.register(javax.swing.plaf.synth.Region,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_register_Region_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#getDescription() public java.lang.String
-     * javax.swing.plaf.nimbus.NimbusLookAndFeel.getDescription()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getDescription()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#getDerivedColor(java.lang.String,float,float,float,int,boolean)
-     * public java.awt.Color
-     * javax.swing.plaf.nimbus.NimbusLookAndFeel.getDerivedColor(java.lang.String,float,float,float,int,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDerivedColor_String_float_float_float_int_boolean()
+    public default void test_getID()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -179,6 +128,40 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#initialize() public void
+     * javax.swing.plaf.nimbus.NimbusLookAndFeel.initialize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_initialize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#register(javax.swing.plaf.synth.Region,java.lang.String) public
+     * void javax.swing.plaf.nimbus.NimbusLookAndFeel.register(javax.swing.plaf.synth.Region,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_register_Region_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#shouldUpdateStyleOnAncestorChanged() public
      * boolean javax.swing.plaf.nimbus.NimbusLookAndFeel.shouldUpdateStyleOnAncestorChanged()}.
      * </p>
@@ -188,6 +171,23 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthLookAndFeelTests<SUT> 
     @Category(Draft.class)
     @Override
     public default void test_shouldUpdateStyleOnAncestorChanged()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.nimbus.NimbusLookAndFeel#uninitialize() public void
+     * javax.swing.plaf.nimbus.NimbusLookAndFeel.uninitialize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_uninitialize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,18 +36,31 @@ public abstract interface NoSuchMechanismExceptionClassTests<SUT extends Class<?
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.xml.crypto.NoSuchMechanismException#NoSuchMechanismException(java.lang.Throwable)
-     * public javax.xml.crypto.NoSuchMechanismException(java.lang.Throwable)}.
+     * Test method for {@link javax.xml.crypto.NoSuchMechanismException#NoSuchMechanismException() public
+     * javax.xml.crypto.NoSuchMechanismException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_NoSuchMechanismException_Throwable()
+    public default void create_NoSuchMechanismException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.crypto.NoSuchMechanismException sut = null; // = new
-                                                                    // NoSuchMechanismException(java.lang.Throwable);
+        final javax.xml.crypto.NoSuchMechanismException sut = null; // = new NoSuchMechanismException();
+    }
+
+    /**
+     * Test method for {@link javax.xml.crypto.NoSuchMechanismException#NoSuchMechanismException(java.lang.String)
+     * public javax.xml.crypto.NoSuchMechanismException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_NoSuchMechanismException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.crypto.NoSuchMechanismException sut = null; // = new NoSuchMechanismException(java.lang.String);
     }
 
     /**
@@ -67,31 +80,18 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.xml.crypto.NoSuchMechanismException#NoSuchMechanismException(java.lang.String)
-     * public javax.xml.crypto.NoSuchMechanismException(java.lang.String)}.
+     * Test method for {@link javax.xml.crypto.NoSuchMechanismException#NoSuchMechanismException(java.lang.Throwable)
+     * public javax.xml.crypto.NoSuchMechanismException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_NoSuchMechanismException_String()
+    public default void create_NoSuchMechanismException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.crypto.NoSuchMechanismException sut = null; // = new NoSuchMechanismException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.crypto.NoSuchMechanismException#NoSuchMechanismException() public
-     * javax.xml.crypto.NoSuchMechanismException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_NoSuchMechanismException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.crypto.NoSuchMechanismException sut = null; // = new NoSuchMechanismException();
+        final javax.xml.crypto.NoSuchMechanismException sut = null; // = new
+                                                                    // NoSuchMechanismException(java.lang.Throwable);
     }
 
     @Override

@@ -24,31 +24,15 @@ extends org.j8unit.repository.java.security.cert.CertPathValidatorResultTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXCertPathValidatorResult#getPublicKey() public
-     * java.security.PublicKey java.security.cert.PKIXCertPathValidatorResult.getPublicKey()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPublicKey()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.PKIXCertPathValidatorResult#toString() public java.lang.String
-     * java.security.cert.PKIXCertPathValidatorResult.toString()}.
+     * Test method for {@link java.security.cert.PKIXCertPathValidatorResult#clone() public java.lang.Object
+     * java.security.cert.PKIXCertPathValidatorResult.clone()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,15 +57,14 @@ extends org.j8unit.repository.java.security.cert.CertPathValidatorResultTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXCertPathValidatorResult#clone() public java.lang.Object
-     * java.security.cert.PKIXCertPathValidatorResult.clone()}.
+     * Test method for {@link java.security.cert.PKIXCertPathValidatorResult#getPublicKey() public
+     * java.security.PublicKey java.security.cert.PKIXCertPathValidatorResult.getPublicKey()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_clone()
+    public default void test_getPublicKey()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -98,6 +81,23 @@ extends org.j8unit.repository.java.security.cert.CertPathValidatorResultTests<SU
     @Test
     @Category(Draft.class)
     public default void test_getTrustAnchor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.PKIXCertPathValidatorResult#toString() public java.lang.String
+     * java.security.cert.PKIXCertPathValidatorResult.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

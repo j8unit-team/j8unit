@@ -24,103 +24,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Character#charValue() public char java.lang.Character.charValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_charValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Character#hashCode() public int java.lang.Character.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Character#equals(java.lang.Object) public boolean
-     * java.lang.Character.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Character#toString() public java.lang.String java.lang.Character.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Character#compareTo(java.lang.Character) public int
-     * java.lang.Character.compareTo(java.lang.Character)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compareTo_Character()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test class for {@link java.lang.Character$UnicodeBlock class java.lang.Character$UnicodeBlock}, containing all
-     * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.java.lang.CharacterClassTests.UnicodeBlockClassTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface UnicodeBlockTests<SUT extends java.lang.Character.UnicodeBlock>
-    extends org.j8unit.repository.java.lang.CharacterTests.SubsetTests<SUT> {
-
-    }
-
-    /**
-     * <p>
      * Test class for {@link java.lang.Character$Subset class java.lang.Character$Subset}, containing all instance
      * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
      * </p>
@@ -136,15 +39,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link java.lang.Character.Subset#toString() public final java.lang.String
-         * java.lang.Character$Subset.toString()}.
+         * Test method for {@link java.lang.Character.Subset#equals(java.lang.Object) public final boolean
+         * java.lang.Character$Subset.equals(java.lang.Object)}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
         @Override
-        public default void test_toString()
+        public default void test_equals_Object()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -170,20 +73,37 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link java.lang.Character.Subset#equals(java.lang.Object) public final boolean
-         * java.lang.Character$Subset.equals(java.lang.Object)}.
+         * Test method for {@link java.lang.Character.Subset#toString() public final java.lang.String
+         * java.lang.Character$Subset.toString()}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
         @Override
-        public default void test_equals_Object()
+        public default void test_toString()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
+
+    }
+
+    /**
+     * <p>
+     * Test class for {@link java.lang.Character$UnicodeBlock class java.lang.Character$UnicodeBlock}, containing all
+     * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.java.lang.CharacterClassTests.UnicodeBlockClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface UnicodeBlockTests<SUT extends java.lang.Character.UnicodeBlock>
+    extends org.j8unit.repository.java.lang.CharacterTests.SubsetTests<SUT> {
 
     }
 
@@ -202,6 +122,86 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     public static abstract interface UnicodeScriptTests<SUT extends java.lang.Character.UnicodeScript>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, java.lang.Character.UnicodeScript> {
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Character#charValue() public char java.lang.Character.charValue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_charValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Character#compareTo(java.lang.Character) public int
+     * java.lang.Character.compareTo(java.lang.Character)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compareTo_Character()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Character#equals(java.lang.Object) public boolean
+     * java.lang.Character.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Character#hashCode() public int java.lang.Character.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Character#toString() public java.lang.String java.lang.Character.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

@@ -24,6 +24,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.script.Invocable#getInterface(java.lang.Class) public abstract java.lang.Object
+     * javax.script.Invocable.getInterface(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInterface_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.script.Invocable#getInterface(java.lang.Object,java.lang.Class) public abstract
      * java.lang.Object javax.script.Invocable.getInterface(java.lang.Object,java.lang.Class)}.
      * </p>
@@ -40,14 +56,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.script.Invocable#getInterface(java.lang.Class) public abstract java.lang.Object
-     * javax.script.Invocable.getInterface(java.lang.Class)}.
+     * Test method for {@link javax.script.Invocable#invokeFunction(java.lang.String,java.lang.Object...) public
+     * abstract java.lang.Object javax.script.Invocable.invokeFunction(java.lang.String,java.lang.Object...) throws
+     * javax.script.ScriptException,java.lang.NoSuchMethodException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInterface_Class()
+    public default void test_invokeFunction_String_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -66,23 +83,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_invokeMethod_Object_String_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.script.Invocable#invokeFunction(java.lang.String,java.lang.Object...) public
-     * abstract java.lang.Object javax.script.Invocable.invokeFunction(java.lang.String,java.lang.Object...) throws
-     * javax.script.ScriptException,java.lang.NoSuchMethodException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_invokeFunction_String_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

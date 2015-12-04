@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.ContentModel#getElements(java.util.Vector) public void
-     * javax.swing.text.html.parser.ContentModel.getElements(java.util.Vector)}.
+     * Test method for {@link javax.swing.text.html.parser.ContentModel#empty() public boolean
+     * javax.swing.text.html.parser.ContentModel.empty()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getElements_Vector()
+    public default void test_empty()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +71,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.ContentModel#empty() public boolean
-     * javax.swing.text.html.parser.ContentModel.empty()}.
+     * Test method for {@link javax.swing.text.html.parser.ContentModel#getElements(java.util.Vector) public void
+     * javax.swing.text.html.parser.ContentModel.getElements(java.util.Vector)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_empty()
+    public default void test_getElements_Vector()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

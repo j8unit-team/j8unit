@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.awt.datatransfer.DataFlavorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.activation.ActivationDataFlavor#getMimeType() public java.lang.String
-     * javax.activation.ActivationDataFlavor.getMimeType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMimeType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.activation.ActivationDataFlavor#equals(java.awt.datatransfer.DataFlavor) public
      * boolean javax.activation.ActivationDataFlavor.equals(java.awt.datatransfer.DataFlavor)}.
      * </p>
@@ -57,23 +40,6 @@ extends org.j8unit.repository.java.awt.datatransfer.DataFlavorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.activation.ActivationDataFlavor#setHumanPresentableName(java.lang.String) public
-     * void javax.activation.ActivationDataFlavor.setHumanPresentableName(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setHumanPresentableName_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.activation.ActivationDataFlavor#getHumanPresentableName() public java.lang.String
      * javax.activation.ActivationDataFlavor.getHumanPresentableName()}.
      * </p>
@@ -83,6 +49,23 @@ extends org.j8unit.repository.java.awt.datatransfer.DataFlavorTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getHumanPresentableName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.ActivationDataFlavor#getMimeType() public java.lang.String
+     * javax.activation.ActivationDataFlavor.getMimeType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMimeType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -117,6 +100,23 @@ extends org.j8unit.repository.java.awt.datatransfer.DataFlavorTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_isMimeTypeEqual_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.ActivationDataFlavor#setHumanPresentableName(java.lang.String) public
+     * void javax.activation.ActivationDataFlavor.setHumanPresentableName(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setHumanPresentableName_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

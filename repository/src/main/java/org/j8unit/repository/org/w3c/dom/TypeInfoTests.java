@@ -24,14 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.TypeInfo#isDerivedFrom(java.lang.String,java.lang.String,int) public abstract
-     * boolean org.w3c.dom.TypeInfo.isDerivedFrom(java.lang.String,java.lang.String,int)}.
+     * Test method for {@link org.w3c.dom.TypeInfo#getTypeName() public abstract java.lang.String
+     * org.w3c.dom.TypeInfo.getTypeName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDerivedFrom_String_String_int()
+    public default void test_getTypeName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,14 +56,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.TypeInfo#getTypeName() public abstract java.lang.String
-     * org.w3c.dom.TypeInfo.getTypeName()}.
+     * Test method for {@link org.w3c.dom.TypeInfo#isDerivedFrom(java.lang.String,java.lang.String,int) public abstract
+     * boolean org.w3c.dom.TypeInfo.isDerivedFrom(java.lang.String,java.lang.String,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTypeName()
+    public default void test_isDerivedFrom_String_String_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

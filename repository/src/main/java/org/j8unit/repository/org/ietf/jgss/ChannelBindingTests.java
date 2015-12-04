@@ -23,38 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.ChannelBinding#getAcceptorAddress() public java.net.InetAddress
-     * org.ietf.jgss.ChannelBinding.getAcceptorAddress()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAcceptorAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.ietf.jgss.ChannelBinding#getInitiatorAddress() public java.net.InetAddress
-     * org.ietf.jgss.ChannelBinding.getInitiatorAddress()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInitiatorAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.ietf.jgss.ChannelBinding#equals(java.lang.Object) public boolean
      * org.ietf.jgss.ChannelBinding.equals(java.lang.Object)}.
      * </p>
@@ -72,6 +40,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.ietf.jgss.ChannelBinding#getAcceptorAddress() public java.net.InetAddress
+     * org.ietf.jgss.ChannelBinding.getAcceptorAddress()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAcceptorAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.ietf.jgss.ChannelBinding#getApplicationData() public byte[]
      * org.ietf.jgss.ChannelBinding.getApplicationData()}.
      * </p>
@@ -80,6 +64,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getApplicationData()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.ietf.jgss.ChannelBinding#getInitiatorAddress() public java.net.InetAddress
+     * org.ietf.jgss.ChannelBinding.getInitiatorAddress()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInitiatorAddress()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

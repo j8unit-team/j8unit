@@ -35,14 +35,71 @@ import org.junit.experimental.categories.Category;
 public abstract interface LocateRegistryClassTests<SUT extends Class<? extends java.rmi.registry.LocateRegistry>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.rmi.registry.LocateRegistry#createRegistry(int) public static
+     * java.rmi.registry.Registry java.rmi.registry.LocateRegistry.createRegistry(int) throws java.rmi.RemoteException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_createRegistry_int()
     throws Exception {
-        // create new instance
-        final Class<? extends java.rmi.registry.LocateRegistry> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.rmi.registry.LocateRegistry.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.rmi.registry.LocateRegistry#createRegistry(int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)
+     * public static java.rmi.registry.Registry
+     * java.rmi.registry.LocateRegistry.createRegistry(int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)
+     * throws java.rmi.RemoteException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createRegistry_int_RMIClientSocketFactory_RMIServerSocketFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.registry.LocateRegistry#getRegistry() public static java.rmi.registry.Registry
+     * java.rmi.registry.LocateRegistry.getRegistry() throws java.rmi.RemoteException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRegistry()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.registry.LocateRegistry#getRegistry(int) public static java.rmi.registry.Registry
+     * java.rmi.registry.LocateRegistry.getRegistry(int) throws java.rmi.RemoteException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRegistry_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -98,71 +155,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.rmi.registry.LocateRegistry#getRegistry(int) public static java.rmi.registry.Registry
-     * java.rmi.registry.LocateRegistry.getRegistry(int) throws java.rmi.RemoteException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getRegistry_int()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.rmi.registry.LocateRegistry#getRegistry() public static java.rmi.registry.Registry
-     * java.rmi.registry.LocateRegistry.getRegistry() throws java.rmi.RemoteException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRegistry()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.rmi.registry.LocateRegistry#createRegistry(int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)
-     * public static java.rmi.registry.Registry
-     * java.rmi.registry.LocateRegistry.createRegistry(int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)
-     * throws java.rmi.RemoteException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createRegistry_int_RMIClientSocketFactory_RMIServerSocketFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.rmi.registry.LocateRegistry#createRegistry(int) public static
-     * java.rmi.registry.Registry java.rmi.registry.LocateRegistry.createRegistry(int) throws java.rmi.RemoteException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createRegistry_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.rmi.registry.LocateRegistry> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.rmi.registry.LocateRegistry.class.isAssignableFrom(sut));
     }
 
 }

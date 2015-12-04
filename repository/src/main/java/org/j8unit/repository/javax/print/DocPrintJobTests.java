@@ -24,6 +24,41 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for
+     * {@link javax.print.DocPrintJob#addPrintJobAttributeListener(javax.print.event.PrintJobAttributeListener,javax.print.attribute.PrintJobAttributeSet)
+     * public abstract void
+     * javax.print.DocPrintJob.addPrintJobAttributeListener(javax.print.event.PrintJobAttributeListener,javax.print.attribute.PrintJobAttributeSet)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addPrintJobAttributeListener_PrintJobAttributeListener_PrintJobAttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.DocPrintJob#addPrintJobListener(javax.print.event.PrintJobListener) public
+     * abstract void javax.print.DocPrintJob.addPrintJobListener(javax.print.event.PrintJobListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addPrintJobListener_PrintJobListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.print.DocPrintJob#getAttributes() public abstract
      * javax.print.attribute.PrintJobAttributeSet javax.print.DocPrintJob.getAttributes()}.
      * </p>
@@ -40,16 +75,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.print.DocPrintJob#removePrintJobAttributeListener(javax.print.event.PrintJobAttributeListener)
-     * public abstract void
-     * javax.print.DocPrintJob.removePrintJobAttributeListener(javax.print.event.PrintJobAttributeListener)}.
+     * Test method for {@link javax.print.DocPrintJob#getPrintService() public abstract javax.print.PrintService
+     * javax.print.DocPrintJob.getPrintService()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removePrintJobAttributeListener_PrintJobAttributeListener()
+    public default void test_getPrintService()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,30 +109,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.DocPrintJob#getPrintService() public abstract javax.print.PrintService
-     * javax.print.DocPrintJob.getPrintService()}.
+     * Test method for
+     * {@link javax.print.DocPrintJob#removePrintJobAttributeListener(javax.print.event.PrintJobAttributeListener)
+     * public abstract void
+     * javax.print.DocPrintJob.removePrintJobAttributeListener(javax.print.event.PrintJobAttributeListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrintService()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.DocPrintJob#addPrintJobListener(javax.print.event.PrintJobListener) public
-     * abstract void javax.print.DocPrintJob.addPrintJobListener(javax.print.event.PrintJobListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addPrintJobListener_PrintJobListener()
+    public default void test_removePrintJobAttributeListener_PrintJobAttributeListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -116,25 +135,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_removePrintJobListener_PrintJobListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.print.DocPrintJob#addPrintJobAttributeListener(javax.print.event.PrintJobAttributeListener,javax.print.attribute.PrintJobAttributeSet)
-     * public abstract void
-     * javax.print.DocPrintJob.addPrintJobAttributeListener(javax.print.event.PrintJobAttributeListener,javax.print.attribute.PrintJobAttributeSet)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addPrintJobAttributeListener_PrintJobAttributeListener_PrintJobAttributeSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,17 +36,16 @@ extends org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>, org.j8unit.
 org.j8unit.repository.java.awt.MenuItemClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.Menu#Menu(java.lang.String,boolean) public
-     * java.awt.Menu(java.lang.String,boolean) throws java.awt.HeadlessException}.
+     * Test method for {@link java.awt.Menu#Menu() public java.awt.Menu() throws java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Menu_String_boolean()
+    public default void create_Menu()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Menu sut = null; // = new Menu(java.lang.String,boolean);
+        final java.awt.Menu sut = null; // = new Menu();
     }
 
     /**
@@ -64,16 +63,17 @@ org.j8unit.repository.java.awt.MenuItemClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.Menu#Menu() public java.awt.Menu() throws java.awt.HeadlessException}.
+     * Test method for {@link java.awt.Menu#Menu(java.lang.String,boolean) public
+     * java.awt.Menu(java.lang.String,boolean) throws java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Menu()
+    public default void create_Menu_String_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Menu sut = null; // = new Menu();
+        final java.awt.Menu sut = null; // = new Menu(java.lang.String,boolean);
     }
 
     @Override

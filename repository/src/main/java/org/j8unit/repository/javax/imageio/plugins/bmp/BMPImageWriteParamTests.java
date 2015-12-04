@@ -24,22 +24,6 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.plugins.bmp.BMPImageWriteParam#setTopDown(boolean) public void
-     * javax.imageio.plugins.bmp.BMPImageWriteParam.setTopDown(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTopDown_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.imageio.plugins.bmp.BMPImageWriteParam#isTopDown() public boolean
      * javax.imageio.plugins.bmp.BMPImageWriteParam.isTopDown()}.
      * </p>
@@ -48,6 +32,22 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isTopDown()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.plugins.bmp.BMPImageWriteParam#setTopDown(boolean) public void
+     * javax.imageio.plugins.bmp.BMPImageWriteParam.setTopDown(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTopDown_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

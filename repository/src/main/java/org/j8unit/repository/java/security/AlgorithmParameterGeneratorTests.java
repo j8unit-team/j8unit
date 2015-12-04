@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.AlgorithmParameterGenerator#init(int) public final void
-     * java.security.AlgorithmParameterGenerator.init(int)}.
+     * Test method for {@link java.security.AlgorithmParameterGenerator#generateParameters() public final
+     * java.security.AlgorithmParameters java.security.AlgorithmParameterGenerator.generateParameters()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_init_int()
+    public default void test_generateParameters()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,14 +39,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.AlgorithmParameterGenerator#init(int,java.security.SecureRandom) public
-     * final void java.security.AlgorithmParameterGenerator.init(int,java.security.SecureRandom)}.
+     * Test method for {@link java.security.AlgorithmParameterGenerator#getAlgorithm() public final java.lang.String
+     * java.security.AlgorithmParameterGenerator.getAlgorithm()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_init_int_SecureRandom()
+    public default void test_getAlgorithm()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.AlgorithmParameterGenerator#getProvider() public final
+     * java.security.Provider java.security.AlgorithmParameterGenerator.getProvider()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProvider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,14 +107,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.AlgorithmParameterGenerator#getAlgorithm() public final java.lang.String
-     * java.security.AlgorithmParameterGenerator.getAlgorithm()}.
+     * Test method for {@link java.security.AlgorithmParameterGenerator#init(int) public final void
+     * java.security.AlgorithmParameterGenerator.init(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAlgorithm()
+    public default void test_init_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -107,30 +123,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.AlgorithmParameterGenerator#getProvider() public final
-     * java.security.Provider java.security.AlgorithmParameterGenerator.getProvider()}.
+     * Test method for {@link java.security.AlgorithmParameterGenerator#init(int,java.security.SecureRandom) public
+     * final void java.security.AlgorithmParameterGenerator.init(int,java.security.SecureRandom)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getProvider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.AlgorithmParameterGenerator#generateParameters() public final
-     * java.security.AlgorithmParameters java.security.AlgorithmParameterGenerator.generateParameters()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_generateParameters()
+    public default void test_init_int_SecureRandom()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

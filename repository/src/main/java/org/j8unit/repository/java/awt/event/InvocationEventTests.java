@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.awt.ActiveEventTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#paramString() public java.lang.String
-     * java.awt.event.InvocationEvent.paramString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paramString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.event.InvocationEvent#dispatch() public void
      * java.awt.event.InvocationEvent.dispatch()}.
      * </p>
@@ -73,14 +56,14 @@ extends org.j8unit.repository.java.awt.ActiveEventTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#isDispatched() public boolean
-     * java.awt.event.InvocationEvent.isDispatched()}.
+     * Test method for {@link java.awt.event.InvocationEvent#getThrowable() public java.lang.Throwable
+     * java.awt.event.InvocationEvent.getThrowable()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDispatched()
+    public default void test_getThrowable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -105,14 +88,31 @@ extends org.j8unit.repository.java.awt.ActiveEventTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.InvocationEvent#getThrowable() public java.lang.Throwable
-     * java.awt.event.InvocationEvent.getThrowable()}.
+     * Test method for {@link java.awt.event.InvocationEvent#isDispatched() public boolean
+     * java.awt.event.InvocationEvent.isDispatched()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getThrowable()
+    public default void test_isDispatched()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.InvocationEvent#paramString() public java.lang.String
+     * java.awt.event.InvocationEvent.paramString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paramString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

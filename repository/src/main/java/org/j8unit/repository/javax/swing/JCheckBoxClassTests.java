@@ -35,6 +35,19 @@ public abstract interface JCheckBoxClassTests<SUT extends Class<? extends javax.
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JToggleButtonClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.swing.JCheckBox#JCheckBox() public javax.swing.JCheckBox()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JCheckBox()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JCheckBox sut = null; // = new JCheckBox();
+    }
+
+    /**
      * Test method for {@link javax.swing.JCheckBox#JCheckBox(javax.swing.Action) public
      * javax.swing.JCheckBox(javax.swing.Action)}.
      */
@@ -46,61 +59,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JCheckBox sut = null; // = new JCheckBox(javax.swing.Action);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JCheckBox#JCheckBox(java.lang.String,boolean) public
-     * javax.swing.JCheckBox(java.lang.String,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JCheckBox_String_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JCheckBox sut = null; // = new JCheckBox(java.lang.String,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JCheckBox#JCheckBox(java.lang.String,javax.swing.Icon) public
-     * javax.swing.JCheckBox(java.lang.String,javax.swing.Icon)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JCheckBox_String_Icon()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JCheckBox sut = null; // = new JCheckBox(java.lang.String,javax.swing.Icon);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JCheckBox#JCheckBox(java.lang.String,javax.swing.Icon,boolean) public
-     * javax.swing.JCheckBox(java.lang.String,javax.swing.Icon,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JCheckBox_String_Icon_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JCheckBox sut = null; // = new JCheckBox(java.lang.String,javax.swing.Icon,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JCheckBox#JCheckBox() public javax.swing.JCheckBox()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JCheckBox()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JCheckBox sut = null; // = new JCheckBox();
     }
 
     /**
@@ -143,6 +101,48 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JCheckBox sut = null; // = new JCheckBox(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JCheckBox#JCheckBox(java.lang.String,boolean) public
+     * javax.swing.JCheckBox(java.lang.String,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JCheckBox_String_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JCheckBox sut = null; // = new JCheckBox(java.lang.String,boolean);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JCheckBox#JCheckBox(java.lang.String,javax.swing.Icon) public
+     * javax.swing.JCheckBox(java.lang.String,javax.swing.Icon)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JCheckBox_String_Icon()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JCheckBox sut = null; // = new JCheckBox(java.lang.String,javax.swing.Icon);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JCheckBox#JCheckBox(java.lang.String,javax.swing.Icon,boolean) public
+     * javax.swing.JCheckBox(java.lang.String,javax.swing.Icon,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JCheckBox_String_Icon_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JCheckBox sut = null; // = new JCheckBox(java.lang.String,javax.swing.Icon,boolean);
     }
 
     @Override

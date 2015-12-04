@@ -36,6 +36,34 @@ public abstract interface CertStoreExceptionClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link java.security.cert.CertStoreException#CertStoreException() public
+     * java.security.cert.CertStoreException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CertStoreException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CertStoreException sut = null; // = new CertStoreException();
+    }
+
+    /**
+     * Test method for {@link java.security.cert.CertStoreException#CertStoreException(java.lang.String) public
+     * java.security.cert.CertStoreException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CertStoreException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CertStoreException sut = null; // = new CertStoreException(java.lang.String);
+    }
+
+    /**
      * Test method for
      * {@link java.security.cert.CertStoreException#CertStoreException(java.lang.String,java.lang.Throwable) public
      * java.security.cert.CertStoreException(java.lang.String,java.lang.Throwable)}.
@@ -63,34 +91,6 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
         // create new instance
         @SuppressWarnings("unused")
         final java.security.cert.CertStoreException sut = null; // = new CertStoreException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link java.security.cert.CertStoreException#CertStoreException(java.lang.String) public
-     * java.security.cert.CertStoreException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CertStoreException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CertStoreException sut = null; // = new CertStoreException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.security.cert.CertStoreException#CertStoreException() public
-     * java.security.cert.CertStoreException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CertStoreException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CertStoreException sut = null; // = new CertStoreException();
     }
 
     @Override

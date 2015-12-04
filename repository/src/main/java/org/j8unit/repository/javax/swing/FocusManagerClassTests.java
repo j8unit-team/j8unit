@@ -48,42 +48,16 @@ extends org.j8unit.repository.java.awt.DefaultKeyboardFocusManagerClassTests<SUT
         final javax.swing.FocusManager sut = null; // = new FocusManager();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.FocusManager> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.FocusManager.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link javax.swing.FocusManager#setCurrentManager(javax.swing.FocusManager) public static void
-     * javax.swing.FocusManager.setCurrentManager(javax.swing.FocusManager) throws java.lang.SecurityException}.
+     * Test method for {@link javax.swing.FocusManager#disableSwingFocusManager() public static void
+     * javax.swing.FocusManager.disableSwingFocusManager()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCurrentManager_FocusManager()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.FocusManager#isFocusManagerEnabled() public static boolean
-     * javax.swing.FocusManager.isFocusManagerEnabled()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isFocusManagerEnabled()
+    public default void test_disableSwingFocusManager()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -108,18 +82,44 @@ extends org.j8unit.repository.java.awt.DefaultKeyboardFocusManagerClassTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.FocusManager#disableSwingFocusManager() public static void
-     * javax.swing.FocusManager.disableSwingFocusManager()}.
+     * Test method for {@link javax.swing.FocusManager#isFocusManagerEnabled() public static boolean
+     * javax.swing.FocusManager.isFocusManagerEnabled()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_disableSwingFocusManager()
+    public default void test_isFocusManagerEnabled()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.FocusManager#setCurrentManager(javax.swing.FocusManager) public static void
+     * javax.swing.FocusManager.setCurrentManager(javax.swing.FocusManager) throws java.lang.SecurityException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCurrentManager_FocusManager()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.FocusManager> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.FocusManager.class.isAssignableFrom(sut));
     }
 
 }

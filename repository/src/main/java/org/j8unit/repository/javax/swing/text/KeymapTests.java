@@ -24,14 +24,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Keymap#getResolveParent() public abstract javax.swing.text.Keymap
-     * javax.swing.text.Keymap.getResolveParent()}.
+     * Test method for {@link javax.swing.text.Keymap#addActionForKeyStroke(javax.swing.KeyStroke,javax.swing.Action)
+     * public abstract void javax.swing.text.Keymap.addActionForKeyStroke(javax.swing.KeyStroke,javax.swing.Action)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getResolveParent()
+    public default void test_addActionForKeyStroke_KeyStroke_Action()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Keymap#getAction(javax.swing.KeyStroke) public abstract
+     * javax.swing.Action javax.swing.text.Keymap.getAction(javax.swing.KeyStroke)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAction_KeyStroke()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +88,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Keymap#setResolveParent(javax.swing.text.Keymap) public abstract void
-     * javax.swing.text.Keymap.setResolveParent(javax.swing.text.Keymap)}.
+     * Test method for {@link javax.swing.text.Keymap#getDefaultAction() public abstract javax.swing.Action
+     * javax.swing.text.Keymap.getDefaultAction()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setResolveParent_Keymap()
+    public default void test_getDefaultAction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,14 +120,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Keymap#getDefaultAction() public abstract javax.swing.Action
-     * javax.swing.text.Keymap.getDefaultAction()}.
+     * Test method for {@link javax.swing.text.Keymap#getName() public abstract java.lang.String
+     * javax.swing.text.Keymap.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDefaultAction()
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Keymap#getResolveParent() public abstract javax.swing.text.Keymap
+     * javax.swing.text.Keymap.getResolveParent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getResolveParent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -136,30 +168,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Keymap#getName() public abstract java.lang.String
-     * javax.swing.text.Keymap.getName()}.
+     * Test method for {@link javax.swing.text.Keymap#removeBindings() public abstract void
+     * javax.swing.text.Keymap.removeBindings()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Keymap#addActionForKeyStroke(javax.swing.KeyStroke,javax.swing.Action)
-     * public abstract void javax.swing.text.Keymap.addActionForKeyStroke(javax.swing.KeyStroke,javax.swing.Action)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addActionForKeyStroke_KeyStroke_Action()
+    public default void test_removeBindings()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -200,30 +216,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Keymap#removeBindings() public abstract void
-     * javax.swing.text.Keymap.removeBindings()}.
+     * Test method for {@link javax.swing.text.Keymap#setResolveParent(javax.swing.text.Keymap) public abstract void
+     * javax.swing.text.Keymap.setResolveParent(javax.swing.text.Keymap)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeBindings()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Keymap#getAction(javax.swing.KeyStroke) public abstract
-     * javax.swing.Action javax.swing.text.Keymap.getAction(javax.swing.KeyStroke)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAction_KeyStroke()
+    public default void test_setResolveParent_Keymap()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

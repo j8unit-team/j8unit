@@ -23,30 +23,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.FocusTraversalPolicy#getInitialComponent(java.awt.Window) public
-     * java.awt.Component java.awt.FocusTraversalPolicy.getInitialComponent(java.awt.Window)}.
+     * Test method for {@link java.awt.FocusTraversalPolicy#getComponentAfter(java.awt.Container,java.awt.Component)
+     * public abstract java.awt.Component
+     * java.awt.FocusTraversalPolicy.getComponentAfter(java.awt.Container,java.awt.Component)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInitialComponent_Window()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.FocusTraversalPolicy#getFirstComponent(java.awt.Container) public abstract
-     * java.awt.Component java.awt.FocusTraversalPolicy.getFirstComponent(java.awt.Container)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFirstComponent_Container()
+    public default void test_getComponentAfter_Container_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,22 +57,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.FocusTraversalPolicy#getLastComponent(java.awt.Container) public abstract
-     * java.awt.Component java.awt.FocusTraversalPolicy.getLastComponent(java.awt.Container)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLastComponent_Container()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.FocusTraversalPolicy#getDefaultComponent(java.awt.Container) public abstract
      * java.awt.Component java.awt.FocusTraversalPolicy.getDefaultComponent(java.awt.Container)}.
      * </p>
@@ -104,15 +73,46 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.FocusTraversalPolicy#getComponentAfter(java.awt.Container,java.awt.Component)
-     * public abstract java.awt.Component
-     * java.awt.FocusTraversalPolicy.getComponentAfter(java.awt.Container,java.awt.Component)}.
+     * Test method for {@link java.awt.FocusTraversalPolicy#getFirstComponent(java.awt.Container) public abstract
+     * java.awt.Component java.awt.FocusTraversalPolicy.getFirstComponent(java.awt.Container)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getComponentAfter_Container_Component()
+    public default void test_getFirstComponent_Container()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.FocusTraversalPolicy#getInitialComponent(java.awt.Window) public
+     * java.awt.Component java.awt.FocusTraversalPolicy.getInitialComponent(java.awt.Window)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInitialComponent_Window()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.FocusTraversalPolicy#getLastComponent(java.awt.Container) public abstract
+     * java.awt.Component java.awt.FocusTraversalPolicy.getLastComponent(java.awt.Container)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLastComponent_Container()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,59 +36,6 @@ public abstract interface LoginContextClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.security.auth.login.LoginContext#LoginContext(java.lang.String,javax.security.auth.Subject) public
-     * javax.security.auth.login.LoginContext(java.lang.String,javax.security.auth.Subject) throws
-     * javax.security.auth.login.LoginException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LoginContext_String_Subject()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.security.auth.login.LoginContext sut = null; // = new
-                                                                 // LoginContext(java.lang.String,javax.security.auth.Subject);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.security.auth.login.LoginContext#LoginContext(java.lang.String,javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler,javax.security.auth.login.Configuration)
-     * public
-     * javax.security.auth.login.LoginContext(java.lang.String,javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler,javax.security.auth.login.Configuration)
-     * throws javax.security.auth.login.LoginException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LoginContext_String_Subject_CallbackHandler_Configuration()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.security.auth.login.LoginContext sut = null; // = new
-                                                                 // LoginContext(java.lang.String,javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler,javax.security.auth.login.Configuration);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.security.auth.login.LoginContext#LoginContext(java.lang.String,javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler)
-     * public
-     * javax.security.auth.login.LoginContext(java.lang.String,javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler)
-     * throws javax.security.auth.login.LoginException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LoginContext_String_Subject_CallbackHandler()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.security.auth.login.LoginContext sut = null; // = new
-                                                                 // LoginContext(java.lang.String,javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler);
-    }
-
-    /**
      * Test method for {@link javax.security.auth.login.LoginContext#LoginContext(java.lang.String) public
      * javax.security.auth.login.LoginContext(java.lang.String) throws javax.security.auth.login.LoginException}.
      */
@@ -117,6 +64,59 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.security.auth.login.LoginContext sut = null; // = new
                                                                  // LoginContext(java.lang.String,javax.security.auth.callback.CallbackHandler);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.security.auth.login.LoginContext#LoginContext(java.lang.String,javax.security.auth.Subject) public
+     * javax.security.auth.login.LoginContext(java.lang.String,javax.security.auth.Subject) throws
+     * javax.security.auth.login.LoginException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LoginContext_String_Subject()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.security.auth.login.LoginContext sut = null; // = new
+                                                                 // LoginContext(java.lang.String,javax.security.auth.Subject);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.security.auth.login.LoginContext#LoginContext(java.lang.String,javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler)
+     * public
+     * javax.security.auth.login.LoginContext(java.lang.String,javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler)
+     * throws javax.security.auth.login.LoginException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LoginContext_String_Subject_CallbackHandler()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.security.auth.login.LoginContext sut = null; // = new
+                                                                 // LoginContext(java.lang.String,javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.security.auth.login.LoginContext#LoginContext(java.lang.String,javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler,javax.security.auth.login.Configuration)
+     * public
+     * javax.security.auth.login.LoginContext(java.lang.String,javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler,javax.security.auth.login.Configuration)
+     * throws javax.security.auth.login.LoginException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LoginContext_String_Subject_CallbackHandler_Configuration()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.security.auth.login.LoginContext sut = null; // = new
+                                                                 // LoginContext(java.lang.String,javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler,javax.security.auth.login.Configuration);
     }
 
     @Override

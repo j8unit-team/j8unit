@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.util.XMLEventAllocator#newInstance() public abstract
-     * javax.xml.stream.util.XMLEventAllocator javax.xml.stream.util.XMLEventAllocator.newInstance()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newInstance()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.stream.util.XMLEventAllocator#allocate(javax.xml.stream.XMLStreamReader) public
      * abstract javax.xml.stream.events.XMLEvent
      * javax.xml.stream.util.XMLEventAllocator.allocate(javax.xml.stream.XMLStreamReader) throws
@@ -69,6 +53,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_allocate_XMLStreamReader_XMLEventConsumer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.util.XMLEventAllocator#newInstance() public abstract
+     * javax.xml.stream.util.XMLEventAllocator javax.xml.stream.util.XMLEventAllocator.newInstance()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newInstance()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -35,6 +35,20 @@ public abstract interface EventClassTests<SUT extends Class<? extends java.awt.E
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.awt.Event#Event(java.lang.Object,int,java.lang.Object) public
+     * java.awt.Event(java.lang.Object,int,java.lang.Object)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Event_Object_int_Object()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Event sut = null; // = new Event(java.lang.Object,int,java.lang.Object);
+    }
+
+    /**
      * Test method for {@link java.awt.Event#Event(java.lang.Object,long,int,int,int,int,int) public
      * java.awt.Event(java.lang.Object,long,int,int,int,int,int)}.
      */
@@ -60,20 +74,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.Event sut = null; // = new Event(java.lang.Object,long,int,int,int,int,int,java.lang.Object);
-    }
-
-    /**
-     * Test method for {@link java.awt.Event#Event(java.lang.Object,int,java.lang.Object) public
-     * java.awt.Event(java.lang.Object,int,java.lang.Object)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Event_Object_int_Object()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Event sut = null; // = new Event(java.lang.Object,int,java.lang.Object);
     }
 
     @Override

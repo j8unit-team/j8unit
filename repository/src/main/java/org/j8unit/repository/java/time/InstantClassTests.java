@@ -36,32 +36,6 @@ extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>, org.j8
 org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.Instant>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.Instant> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.Instant.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.Instant#ofEpochMilli(long) public static java.time.Instant
-     * java.time.Instant.ofEpochMilli(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ofEpochMilli_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link java.time.Instant#from(java.time.temporal.TemporalAccessor) public static
@@ -72,22 +46,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_from_TemporalAccessor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.Instant#parse(java.lang.CharSequence) public static java.time.Instant
-     * java.time.Instant.parse(java.lang.CharSequence)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parse_CharSequence()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,14 +85,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.Instant#ofEpochSecond(long,long) public static java.time.Instant
-     * java.time.Instant.ofEpochSecond(long,long)}.
+     * Test method for {@link java.time.Instant#ofEpochMilli(long) public static java.time.Instant
+     * java.time.Instant.ofEpochMilli(long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ofEpochSecond_long_long()
+    public default void test_ofEpochMilli_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -155,6 +113,48 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.Instant#ofEpochSecond(long,long) public static java.time.Instant
+     * java.time.Instant.ofEpochSecond(long,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ofEpochSecond_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.Instant#parse(java.lang.CharSequence) public static java.time.Instant
+     * java.time.Instant.parse(java.lang.CharSequence)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parse_CharSequence()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.Instant> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.Instant.class.isAssignableFrom(sut));
     }
 
 }

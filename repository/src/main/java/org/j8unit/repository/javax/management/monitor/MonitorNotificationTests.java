@@ -24,22 +24,6 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.MonitorNotification#getObservedAttribute() public
-     * java.lang.String javax.management.monitor.MonitorNotification.getObservedAttribute()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getObservedAttribute()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.monitor.MonitorNotification#getDerivedGauge() public java.lang.Object
      * javax.management.monitor.MonitorNotification.getDerivedGauge()}.
      * </p>
@@ -48,6 +32,22 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDerivedGauge()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.monitor.MonitorNotification#getObservedAttribute() public
+     * java.lang.String javax.management.monitor.MonitorNotification.getObservedAttribute()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getObservedAttribute()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -39,48 +39,16 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.ServerSocketChannel#validOps() public final int
-     * java.nio.channels.ServerSocketChannel.validOps()}.
+     * Test method for {@link java.nio.channels.ServerSocketChannel#bind(java.net.SocketAddress) public final
+     * java.nio.channels.ServerSocketChannel java.nio.channels.ServerSocketChannel.bind(java.net.SocketAddress) throws
+     * java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_validOps()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.ServerSocketChannel#getLocalAddress() public abstract
-     * java.net.SocketAddress java.nio.channels.ServerSocketChannel.getLocalAddress() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getLocalAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.ServerSocketChannel#socket() public abstract java.net.ServerSocket
-     * java.nio.channels.ServerSocketChannel.socket()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_socket()
+    public default void test_bind_SocketAddress()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,20 +74,51 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.ServerSocketChannel#bind(java.net.SocketAddress) public final
-     * java.nio.channels.ServerSocketChannel java.nio.channels.ServerSocketChannel.bind(java.net.SocketAddress) throws
-     * java.io.IOException}.
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_bind_SocketAddress()
+    public default void test_close()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.ServerSocketChannel#getLocalAddress() public abstract
+     * java.net.SocketAddress java.nio.channels.ServerSocketChannel.getLocalAddress() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getLocalAddress()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isOpen()
+    throws Exception {
     }
 
     /**
@@ -143,34 +142,35 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT>, org.j8
 
     /**
      * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * Test method for {@link java.nio.channels.ServerSocketChannel#socket() public abstract java.net.ServerSocket
+     * java.nio.channels.ServerSocketChannel.socket()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_close()
+    public default void test_socket()
     throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
      * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * Test method for {@link java.nio.channels.ServerSocketChannel#validOps() public final int
+     * java.nio.channels.ServerSocketChannel.validOps()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isOpen()
+    public default void test_validOps()
     throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

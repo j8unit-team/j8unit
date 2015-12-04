@@ -40,6 +40,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.applet.AppletStub#getAppletContext() public abstract java.applet.AppletContext
+     * java.applet.AppletStub.getAppletContext()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAppletContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.applet.AppletStub#getCodeBase() public abstract java.net.URL
      * java.applet.AppletStub.getCodeBase()}.
      * </p>
@@ -56,14 +72,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.applet.AppletStub#getAppletContext() public abstract java.applet.AppletContext
-     * java.applet.AppletStub.getAppletContext()}.
+     * Test method for {@link java.applet.AppletStub#getDocumentBase() public abstract java.net.URL
+     * java.applet.AppletStub.getDocumentBase()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAppletContext()
+    public default void test_getDocumentBase()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -96,22 +112,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isActive()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.applet.AppletStub#getDocumentBase() public abstract java.net.URL
-     * java.applet.AppletStub.getDocumentBase()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDocumentBase()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

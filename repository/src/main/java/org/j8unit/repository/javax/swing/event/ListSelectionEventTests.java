@@ -23,6 +23,38 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.event.ListSelectionEvent#getFirstIndex() public int
+     * javax.swing.event.ListSelectionEvent.getFirstIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFirstIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.event.ListSelectionEvent#getLastIndex() public int
+     * javax.swing.event.ListSelectionEvent.getLastIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLastIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.event.ListSelectionEvent#getValueIsAdjusting() public boolean
      * javax.swing.event.ListSelectionEvent.getValueIsAdjusting()}.
      * </p>
@@ -48,38 +80,6 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.event.ListSelectionEvent#getFirstIndex() public int
-     * javax.swing.event.ListSelectionEvent.getFirstIndex()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFirstIndex()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.event.ListSelectionEvent#getLastIndex() public int
-     * javax.swing.event.ListSelectionEvent.getLastIndex()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLastIndex()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

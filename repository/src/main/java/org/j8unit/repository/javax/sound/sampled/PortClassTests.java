@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface PortClassTests<SUT extends Class<? extends javax.sound.sampled.Port>>
 extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.sound.sampled.Port> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.sound.sampled.Port.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.sound.sampled.Port$Info class javax.sound.sampled.Port$Info}, containing all class
@@ -98,6 +88,16 @@ extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
             assertTrue(javax.sound.sampled.Port.Info.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.sound.sampled.Port> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.sound.sampled.Port.class.isAssignableFrom(sut));
     }
 
 }

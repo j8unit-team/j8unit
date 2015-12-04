@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetContext#dropComplete(boolean) public void
-     * java.awt.dnd.DropTargetContext.dropComplete(boolean) throws java.awt.dnd.InvalidDnDOperationException}.
+     * Test method for {@link java.awt.dnd.DropTargetContext#addNotify(java.awt.dnd.peer.DropTargetContextPeer) public
+     * void java.awt.dnd.DropTargetContext.addNotify(java.awt.dnd.peer.DropTargetContextPeer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_dropComplete_boolean()
+    public default void test_addNotify_DropTargetContextPeer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,14 +39,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetContext#getDropTarget() public java.awt.dnd.DropTarget
-     * java.awt.dnd.DropTargetContext.getDropTarget()}.
+     * Test method for {@link java.awt.dnd.DropTargetContext#dropComplete(boolean) public void
+     * java.awt.dnd.DropTargetContext.dropComplete(boolean) throws java.awt.dnd.InvalidDnDOperationException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDropTarget()
+    public default void test_dropComplete_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +71,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetContext#removeNotify() public void
-     * java.awt.dnd.DropTargetContext.removeNotify()}.
+     * Test method for {@link java.awt.dnd.DropTargetContext#getDropTarget() public java.awt.dnd.DropTarget
+     * java.awt.dnd.DropTargetContext.getDropTarget()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeNotify()
+    public default void test_getDropTarget()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,14 +87,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetContext#addNotify(java.awt.dnd.peer.DropTargetContextPeer) public
-     * void java.awt.dnd.DropTargetContext.addNotify(java.awt.dnd.peer.DropTargetContextPeer)}.
+     * Test method for {@link java.awt.dnd.DropTargetContext#removeNotify() public void
+     * java.awt.dnd.DropTargetContext.removeNotify()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addNotify_DropTargetContextPeer()
+    public default void test_removeNotify()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

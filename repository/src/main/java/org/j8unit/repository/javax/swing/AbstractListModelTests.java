@@ -41,22 +41,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.AbstractListModel#getListeners(java.lang.Class) public
-     * java.util.EventListener[] javax.swing.AbstractListModel.getListeners(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getListeners_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.AbstractListModel#getListDataListeners() public
      * javax.swing.event.ListDataListener[] javax.swing.AbstractListModel.getListDataListeners()}.
      * </p>
@@ -65,6 +49,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getListDataListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.AbstractListModel#getListeners(java.lang.Class) public
+     * java.util.EventListener[] javax.swing.AbstractListModel.getListeners(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getListeners_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

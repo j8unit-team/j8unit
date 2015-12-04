@@ -36,19 +36,31 @@ public abstract interface BasicAttributesClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.javax.naming.directory.AttributesClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.naming.directory.BasicAttributes#BasicAttributes(java.lang.String,java.lang.Object,boolean) public
-     * javax.naming.directory.BasicAttributes(java.lang.String,java.lang.Object,boolean)}.
+     * Test method for {@link javax.naming.directory.BasicAttributes#BasicAttributes() public
+     * javax.naming.directory.BasicAttributes()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BasicAttributes_String_Object_boolean()
+    public default void create_BasicAttributes()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.naming.directory.BasicAttributes sut = null; // = new
-                                                                 // BasicAttributes(java.lang.String,java.lang.Object,boolean);
+        final javax.naming.directory.BasicAttributes sut = null; // = new BasicAttributes();
+    }
+
+    /**
+     * Test method for {@link javax.naming.directory.BasicAttributes#BasicAttributes(boolean) public
+     * javax.naming.directory.BasicAttributes(boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BasicAttributes_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.directory.BasicAttributes sut = null; // = new BasicAttributes(boolean);
     }
 
     /**
@@ -67,31 +79,19 @@ extends org.j8unit.repository.javax.naming.directory.AttributesClassTests<SUT>, 
     }
 
     /**
-     * Test method for {@link javax.naming.directory.BasicAttributes#BasicAttributes(boolean) public
-     * javax.naming.directory.BasicAttributes(boolean)}.
+     * Test method for
+     * {@link javax.naming.directory.BasicAttributes#BasicAttributes(java.lang.String,java.lang.Object,boolean) public
+     * javax.naming.directory.BasicAttributes(java.lang.String,java.lang.Object,boolean)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BasicAttributes_boolean()
+    public default void create_BasicAttributes_String_Object_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.naming.directory.BasicAttributes sut = null; // = new BasicAttributes(boolean);
-    }
-
-    /**
-     * Test method for {@link javax.naming.directory.BasicAttributes#BasicAttributes() public
-     * javax.naming.directory.BasicAttributes()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BasicAttributes()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.directory.BasicAttributes sut = null; // = new BasicAttributes();
+        final javax.naming.directory.BasicAttributes sut = null; // = new
+                                                                 // BasicAttributes(java.lang.String,java.lang.Object,boolean);
     }
 
     @Override

@@ -37,6 +37,20 @@ public abstract interface InvalidAttributesExceptionClassTests<SUT extends Class
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.naming.directory.InvalidAttributesException#InvalidAttributesException() public
+     * javax.naming.directory.InvalidAttributesException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InvalidAttributesException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.directory.InvalidAttributesException sut = null; // = new InvalidAttributesException();
+    }
+
+    /**
      * Test method for
      * {@link javax.naming.directory.InvalidAttributesException#InvalidAttributesException(java.lang.String) public
      * javax.naming.directory.InvalidAttributesException(java.lang.String)}.
@@ -50,20 +64,6 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.naming.directory.InvalidAttributesException sut = null; // = new
                                                                             // InvalidAttributesException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.naming.directory.InvalidAttributesException#InvalidAttributesException() public
-     * javax.naming.directory.InvalidAttributesException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InvalidAttributesException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.directory.InvalidAttributesException sut = null; // = new InvalidAttributesException();
     }
 
     @Override

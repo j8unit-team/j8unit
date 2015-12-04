@@ -23,40 +23,6 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.ShapeGraphicAttribute#getDescent() public float
-     * java.awt.font.ShapeGraphicAttribute.getDescent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getDescent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.ShapeGraphicAttribute#getBounds() public java.awt.geom.Rectangle2D
-     * java.awt.font.ShapeGraphicAttribute.getBounds()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBounds()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.font.ShapeGraphicAttribute#draw(java.awt.Graphics2D,float,float) public void
      * java.awt.font.ShapeGraphicAttribute.draw(java.awt.Graphics2D,float,float)}.
      * </p>
@@ -107,23 +73,6 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.ShapeGraphicAttribute#hashCode() public int
-     * java.awt.font.ShapeGraphicAttribute.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.font.ShapeGraphicAttribute#getAdvance() public float
      * java.awt.font.ShapeGraphicAttribute.getAdvance()}.
      * </p>
@@ -133,6 +82,57 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getAdvance()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.ShapeGraphicAttribute#getAscent() public float
+     * java.awt.font.ShapeGraphicAttribute.getAscent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAscent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.ShapeGraphicAttribute#getBounds() public java.awt.geom.Rectangle2D
+     * java.awt.font.ShapeGraphicAttribute.getBounds()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getBounds()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.ShapeGraphicAttribute#getDescent() public float
+     * java.awt.font.ShapeGraphicAttribute.getDescent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getDescent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -158,15 +158,15 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.ShapeGraphicAttribute#getAscent() public float
-     * java.awt.font.ShapeGraphicAttribute.getAscent()}.
+     * Test method for {@link java.awt.font.ShapeGraphicAttribute#hashCode() public int
+     * java.awt.font.ShapeGraphicAttribute.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAscent()
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

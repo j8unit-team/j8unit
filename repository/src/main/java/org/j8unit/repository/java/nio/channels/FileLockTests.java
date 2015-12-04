@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.FileLock#isShared() public final boolean
-     * java.nio.channels.FileLock.isShared()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isShared()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.channels.FileLock#acquiredBy() public java.nio.channels.Channel
      * java.nio.channels.FileLock.acquiredBy()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
     @Test
     @Category(Draft.class)
     public default void test_acquiredBy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.FileLock#channel() public final java.nio.channels.FileChannel
+     * java.nio.channels.FileLock.channel()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_channel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +72,14 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.FileLock#position() public final long
-     * java.nio.channels.FileLock.position()}.
+     * Test method for {@link java.nio.channels.FileLock#isShared() public final boolean
+     * java.nio.channels.FileLock.isShared()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_position()
+    public default void test_isShared()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,31 +88,14 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.FileLock#toString() public final java.lang.String
-     * java.nio.channels.FileLock.toString()}.
+     * Test method for {@link java.nio.channels.FileLock#isValid() public abstract boolean
+     * java.nio.channels.FileLock.isValid()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.FileLock#channel() public final java.nio.channels.FileChannel
-     * java.nio.channels.FileLock.channel()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_channel()
+    public default void test_isValid()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -137,14 +120,14 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.FileLock#isValid() public abstract boolean
-     * java.nio.channels.FileLock.isValid()}.
+     * Test method for {@link java.nio.channels.FileLock#position() public final long
+     * java.nio.channels.FileLock.position()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isValid()
+    public default void test_position()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -176,6 +159,23 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
     @Test
     @Category(Draft.class)
     public default void test_size()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.FileLock#toString() public final java.lang.String
+     * java.nio.channels.FileLock.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

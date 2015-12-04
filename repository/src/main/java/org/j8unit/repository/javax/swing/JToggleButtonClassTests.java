@@ -36,127 +36,6 @@ public abstract interface JToggleButtonClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.AbstractButtonClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JToggleButton#JToggleButton(java.lang.String,boolean) public
-     * javax.swing.JToggleButton(java.lang.String,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JToggleButton_String_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JToggleButton sut = null; // = new JToggleButton(java.lang.String,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JToggleButton#JToggleButton(javax.swing.Action) public
-     * javax.swing.JToggleButton(javax.swing.Action)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JToggleButton_Action()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JToggleButton sut = null; // = new JToggleButton(javax.swing.Action);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JToggleButton#JToggleButton(java.lang.String,javax.swing.Icon) public
-     * javax.swing.JToggleButton(java.lang.String,javax.swing.Icon)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JToggleButton_String_Icon()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JToggleButton sut = null; // = new JToggleButton(java.lang.String,javax.swing.Icon);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JToggleButton#JToggleButton(java.lang.String,javax.swing.Icon,boolean) public
-     * javax.swing.JToggleButton(java.lang.String,javax.swing.Icon,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JToggleButton_String_Icon_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JToggleButton sut = null; // = new JToggleButton(java.lang.String,javax.swing.Icon,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JToggleButton#JToggleButton() public javax.swing.JToggleButton()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JToggleButton()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JToggleButton sut = null; // = new JToggleButton();
-    }
-
-    /**
-     * Test method for {@link javax.swing.JToggleButton#JToggleButton(javax.swing.Icon) public
-     * javax.swing.JToggleButton(javax.swing.Icon)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JToggleButton_Icon()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JToggleButton sut = null; // = new JToggleButton(javax.swing.Icon);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JToggleButton#JToggleButton(javax.swing.Icon,boolean) public
-     * javax.swing.JToggleButton(javax.swing.Icon,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JToggleButton_Icon_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JToggleButton sut = null; // = new JToggleButton(javax.swing.Icon,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JToggleButton#JToggleButton(java.lang.String) public
-     * javax.swing.JToggleButton(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JToggleButton_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JToggleButton sut = null; // = new JToggleButton(java.lang.String);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.JToggleButton> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JToggleButton.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.JToggleButton$ToggleButtonModel class
      * javax.swing.JToggleButton$ToggleButtonModel}, containing all class relevant test methods (at least the test
@@ -210,6 +89,127 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
             assertTrue(javax.swing.JToggleButton.ToggleButtonModel.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.JToggleButton#JToggleButton() public javax.swing.JToggleButton()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JToggleButton()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JToggleButton sut = null; // = new JToggleButton();
+    }
+
+    /**
+     * Test method for {@link javax.swing.JToggleButton#JToggleButton(javax.swing.Action) public
+     * javax.swing.JToggleButton(javax.swing.Action)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JToggleButton_Action()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JToggleButton sut = null; // = new JToggleButton(javax.swing.Action);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JToggleButton#JToggleButton(javax.swing.Icon) public
+     * javax.swing.JToggleButton(javax.swing.Icon)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JToggleButton_Icon()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JToggleButton sut = null; // = new JToggleButton(javax.swing.Icon);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JToggleButton#JToggleButton(javax.swing.Icon,boolean) public
+     * javax.swing.JToggleButton(javax.swing.Icon,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JToggleButton_Icon_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JToggleButton sut = null; // = new JToggleButton(javax.swing.Icon,boolean);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JToggleButton#JToggleButton(java.lang.String) public
+     * javax.swing.JToggleButton(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JToggleButton_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JToggleButton sut = null; // = new JToggleButton(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JToggleButton#JToggleButton(java.lang.String,boolean) public
+     * javax.swing.JToggleButton(java.lang.String,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JToggleButton_String_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JToggleButton sut = null; // = new JToggleButton(java.lang.String,boolean);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JToggleButton#JToggleButton(java.lang.String,javax.swing.Icon) public
+     * javax.swing.JToggleButton(java.lang.String,javax.swing.Icon)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JToggleButton_String_Icon()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JToggleButton sut = null; // = new JToggleButton(java.lang.String,javax.swing.Icon);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JToggleButton#JToggleButton(java.lang.String,javax.swing.Icon,boolean) public
+     * javax.swing.JToggleButton(java.lang.String,javax.swing.Icon,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JToggleButton_String_Icon_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JToggleButton sut = null; // = new JToggleButton(java.lang.String,javax.swing.Icon,boolean);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.JToggleButton> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.JToggleButton.class.isAssignableFrom(sut));
     }
 
 }

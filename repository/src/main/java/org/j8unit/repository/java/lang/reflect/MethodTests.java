@@ -23,15 +23,15 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Method#getModifiers() public int
-     * java.lang.reflect.Method.getModifiers()}.
+     * Test method for {@link java.lang.reflect.Method#equals(java.lang.Object) public boolean
+     * java.lang.reflect.Method.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getModifiers()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,15 +40,15 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Method#getTypeParameters() public java.lang.reflect.TypeVariable[]
-     * java.lang.reflect.Method.getTypeParameters()}.
+     * Test method for {@link java.lang.reflect.Method#getAnnotatedReturnType() public java.lang.reflect.AnnotatedType
+     * java.lang.reflect.Method.getAnnotatedReturnType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getTypeParameters()
+    public default void test_getAnnotatedReturnType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,80 +57,15 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Method#toGenericString() public java.lang.String
-     * java.lang.reflect.Method.toGenericString()}.
+     * Test method for {@link java.lang.reflect.Method#getAnnotation(java.lang.Class) public
+     * java.lang.annotation.Annotation java.lang.reflect.Method.getAnnotation(java.lang.Class)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toGenericString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Method#hashCode() public int java.lang.reflect.Method.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Method#getDeclaringClass() public java.lang.Class
-     * java.lang.reflect.Method.getDeclaringClass()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getDeclaringClass()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Method#getGenericExceptionTypes() public java.lang.reflect.Type[]
-     * java.lang.reflect.Method.getGenericExceptionTypes()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getGenericExceptionTypes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Method#isBridge() public boolean java.lang.reflect.Method.isBridge()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isBridge()
+    public default void test_getAnnotation_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -156,6 +91,23 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.lang.reflect.Method#getDeclaringClass() public java.lang.Class
+     * java.lang.reflect.Method.getDeclaringClass()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getDeclaringClass()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.lang.reflect.Method#getDefaultValue() public java.lang.Object
      * java.lang.reflect.Method.getDefaultValue()}.
      * </p>
@@ -172,15 +124,15 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Method#isSynthetic() public boolean
-     * java.lang.reflect.Method.isSynthetic()}.
+     * Test method for {@link java.lang.reflect.Method#getExceptionTypes() public java.lang.Class[]
+     * java.lang.reflect.Method.getExceptionTypes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isSynthetic()
+    public default void test_getExceptionTypes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -189,15 +141,15 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Method#invoke(java.lang.Object,java.lang.Object...) public
-     * java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object,java.lang.Object...) throws
-     * java.lang.IllegalAccessException,java.lang.IllegalArgumentException,java.lang.reflect.InvocationTargetException}.
+     * Test method for {@link java.lang.reflect.Method#getGenericExceptionTypes() public java.lang.reflect.Type[]
+     * java.lang.reflect.Method.getGenericExceptionTypes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_invoke_Object_ObjectArray()
+    @Override
+    public default void test_getGenericExceptionTypes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -206,15 +158,15 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Method#getParameterTypes() public java.lang.Class[]
-     * java.lang.reflect.Method.getParameterTypes()}.
+     * Test method for {@link java.lang.reflect.Method#getGenericParameterTypes() public java.lang.reflect.Type[]
+     * java.lang.reflect.Method.getGenericParameterTypes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getParameterTypes()
+    public default void test_getGenericParameterTypes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -239,15 +191,15 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Method#getParameterCount() public int
-     * java.lang.reflect.Method.getParameterCount()}.
+     * Test method for {@link java.lang.reflect.Method#getModifiers() public int
+     * java.lang.reflect.Method.getModifiers()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getParameterCount()
+    public default void test_getModifiers()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -290,15 +242,15 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Method#getAnnotatedReturnType() public java.lang.reflect.AnnotatedType
-     * java.lang.reflect.Method.getAnnotatedReturnType()}.
+     * Test method for {@link java.lang.reflect.Method#getParameterCount() public int
+     * java.lang.reflect.Method.getParameterCount()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAnnotatedReturnType()
+    public default void test_getParameterCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -307,32 +259,15 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Method#toString() public java.lang.String
-     * java.lang.reflect.Method.toString()}.
+     * Test method for {@link java.lang.reflect.Method#getParameterTypes() public java.lang.Class[]
+     * java.lang.reflect.Method.getParameterTypes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Method#getAnnotation(java.lang.Class) public
-     * java.lang.annotation.Annotation java.lang.reflect.Method.getAnnotation(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAnnotation_Class()
+    public default void test_getParameterTypes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -357,15 +292,15 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Method#equals(java.lang.Object) public boolean
-     * java.lang.reflect.Method.equals(java.lang.Object)}.
+     * Test method for {@link java.lang.reflect.Method#getTypeParameters() public java.lang.reflect.TypeVariable[]
+     * java.lang.reflect.Method.getTypeParameters()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_getTypeParameters()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -374,15 +309,14 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Method#getExceptionTypes() public java.lang.Class[]
-     * java.lang.reflect.Method.getExceptionTypes()}.
+     * Test method for {@link java.lang.reflect.Method#hashCode() public int java.lang.reflect.Method.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getExceptionTypes()
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -391,15 +325,30 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Method#getGenericParameterTypes() public java.lang.reflect.Type[]
-     * java.lang.reflect.Method.getGenericParameterTypes()}.
+     * Test method for {@link java.lang.reflect.Method#invoke(java.lang.Object,java.lang.Object...) public
+     * java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object,java.lang.Object...) throws
+     * java.lang.IllegalAccessException,java.lang.IllegalArgumentException,java.lang.reflect.InvocationTargetException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getGenericParameterTypes()
+    public default void test_invoke_Object_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Method#isBridge() public boolean java.lang.reflect.Method.isBridge()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isBridge()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -423,6 +372,23 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.lang.reflect.Method#isSynthetic() public boolean
+     * java.lang.reflect.Method.isSynthetic()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isSynthetic()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.lang.reflect.Method#isVarArgs() public boolean java.lang.reflect.Method.isVarArgs()}.
      * </p>
      */
@@ -431,6 +397,40 @@ extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_isVarArgs()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Method#toGenericString() public java.lang.String
+     * java.lang.reflect.Method.toGenericString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toGenericString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Method#toString() public java.lang.String
+     * java.lang.reflect.Method.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

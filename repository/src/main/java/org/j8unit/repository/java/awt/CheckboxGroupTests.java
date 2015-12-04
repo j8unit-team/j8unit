@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link java.awt.CheckboxGroup#getCurrent() public java.awt.Checkbox
+     * java.awt.CheckboxGroup.getCurrent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCurrent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.CheckboxGroup#getSelectedCheckbox() public java.awt.Checkbox
      * java.awt.CheckboxGroup.getSelectedCheckbox()}.
      * </p>
@@ -39,31 +55,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.CheckboxGroup#toString() public java.lang.String
-     * java.awt.CheckboxGroup.toString()}.
+     * Test method for {@link java.awt.CheckboxGroup#setCurrent(java.awt.Checkbox) public synchronized void
+     * java.awt.CheckboxGroup.setCurrent(java.awt.Checkbox)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.CheckboxGroup#getCurrent() public java.awt.Checkbox
-     * java.awt.CheckboxGroup.getCurrent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCurrent()
+    public default void test_setCurrent_Checkbox()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,14 +87,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.CheckboxGroup#setCurrent(java.awt.Checkbox) public synchronized void
-     * java.awt.CheckboxGroup.setCurrent(java.awt.Checkbox)}.
+     * Test method for {@link java.awt.CheckboxGroup#toString() public java.lang.String
+     * java.awt.CheckboxGroup.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCurrent_Checkbox()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

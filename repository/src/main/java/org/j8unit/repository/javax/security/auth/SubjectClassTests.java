@@ -63,14 +63,40 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                                                       // Subject(boolean,java.util.Set,java.util.Set,java.util.Set);
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.security.auth.Subject#doAs(javax.security.auth.Subject,java.security.PrivilegedAction) public static
+     * java.lang.Object javax.security.auth.Subject.doAs(javax.security.auth.Subject,java.security.PrivilegedAction)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_doAs_Subject_PrivilegedAction()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.security.auth.Subject> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.security.auth.Subject.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.security.auth.Subject#doAs(javax.security.auth.Subject,java.security.PrivilegedExceptionAction)
+     * public static java.lang.Object
+     * javax.security.auth.Subject.doAs(javax.security.auth.Subject,java.security.PrivilegedExceptionAction) throws
+     * java.security.PrivilegedActionException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_doAs_Subject_PrivilegedExceptionAction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -113,42 +139,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.security.auth.Subject#doAs(javax.security.auth.Subject,java.security.PrivilegedExceptionAction)
-     * public static java.lang.Object
-     * javax.security.auth.Subject.doAs(javax.security.auth.Subject,java.security.PrivilegedExceptionAction) throws
-     * java.security.PrivilegedActionException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_doAs_Subject_PrivilegedExceptionAction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.security.auth.Subject#doAs(javax.security.auth.Subject,java.security.PrivilegedAction) public static
-     * java.lang.Object javax.security.auth.Subject.doAs(javax.security.auth.Subject,java.security.PrivilegedAction)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_doAs_Subject_PrivilegedAction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.security.auth.Subject#getSubject(java.security.AccessControlContext) public static
      * javax.security.auth.Subject javax.security.auth.Subject.getSubject(java.security.AccessControlContext)}.
      * </p>
@@ -161,6 +151,16 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.security.auth.Subject> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.security.auth.Subject.class.isAssignableFrom(sut));
     }
 
 }

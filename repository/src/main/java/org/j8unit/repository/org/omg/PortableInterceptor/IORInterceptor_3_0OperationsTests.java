@@ -25,6 +25,23 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptorOperatio
     /**
      * <p>
      * Test method for
+     * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Operations#adapter_manager_state_changed(int,short) public
+     * abstract void org.omg.PortableInterceptor.IORInterceptor_3_0Operations.adapter_manager_state_changed(int,short)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_adapter_manager_state_changed_int_short()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Operations#adapter_state_changed(org.omg.PortableInterceptor.ObjectReferenceTemplate[],short)
      * public abstract void
      * org.omg.PortableInterceptor.IORInterceptor_3_0Operations.adapter_state_changed(org.omg.PortableInterceptor.ObjectReferenceTemplate[],short)}
@@ -35,23 +52,6 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptorOperatio
     @Test
     @Category(Draft.class)
     public default void test_adapter_state_changed_ObjectReferenceTemplateArray_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Operations#adapter_manager_state_changed(int,short) public
-     * abstract void org.omg.PortableInterceptor.IORInterceptor_3_0Operations.adapter_manager_state_changed(int,short)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_adapter_manager_state_changed_int_short()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

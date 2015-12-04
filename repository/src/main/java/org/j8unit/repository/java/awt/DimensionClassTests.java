@@ -35,6 +35,19 @@ public abstract interface DimensionClassTests<SUT extends Class<? extends java.a
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Dimension2DClassTests<SUT> {
 
     /**
+     * Test method for {@link java.awt.Dimension#Dimension() public java.awt.Dimension()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Dimension()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Dimension sut = null; // = new Dimension();
+    }
+
+    /**
      * Test method for {@link java.awt.Dimension#Dimension(java.awt.Dimension) public
      * java.awt.Dimension(java.awt.Dimension)}.
      */
@@ -46,19 +59,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.Dimension sut = null; // = new Dimension(java.awt.Dimension);
-    }
-
-    /**
-     * Test method for {@link java.awt.Dimension#Dimension() public java.awt.Dimension()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Dimension()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Dimension sut = null; // = new Dimension();
     }
 
     /**

@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.management.JMRuntimeExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.RuntimeMBeanException#getTargetException() public
-     * java.lang.RuntimeException javax.management.RuntimeMBeanException.getTargetException()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTargetException()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.RuntimeMBeanException#getCause() public java.lang.Throwable
      * javax.management.RuntimeMBeanException.getCause()}.
      * </p>
@@ -48,6 +32,22 @@ extends org.j8unit.repository.javax.management.JMRuntimeExceptionTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getCause()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.RuntimeMBeanException#getTargetException() public
+     * java.lang.RuntimeException javax.management.RuntimeMBeanException.getTargetException()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTargetException()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

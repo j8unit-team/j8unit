@@ -38,133 +38,6 @@ org.j8unit.repository.javax.swing.event.CellEditorListenerClassTests<SUT>, org.j
 org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.swing.JTable#JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel,javax.swing.ListSelectionModel)
-     * public
-     * javax.swing.JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel,javax.swing.ListSelectionModel)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTable_TableModel_TableColumnModel_ListSelectionModel()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTable sut = null; // = new
-                                             // JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel,javax.swing.ListSelectionModel);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JTable#JTable(int,int) public javax.swing.JTable(int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTable_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTable sut = null; // = new JTable(int,int);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JTable#JTable(java.util.Vector,java.util.Vector) public
-     * javax.swing.JTable(java.util.Vector,java.util.Vector)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTable_Vector_Vector()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTable sut = null; // = new JTable(java.util.Vector,java.util.Vector);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JTable#JTable(java.lang.Object[][],java.lang.Object[]) public
-     * javax.swing.JTable(java.lang.Object[][],java.lang.Object[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTable_ObjectArrayArray_ObjectArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTable sut = null; // = new JTable(java.lang.Object[][],java.lang.Object[]);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JTable#JTable() public javax.swing.JTable()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTable sut = null; // = new JTable();
-    }
-
-    /**
-     * Test method for {@link javax.swing.JTable#JTable(javax.swing.table.TableModel) public
-     * javax.swing.JTable(javax.swing.table.TableModel)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTable_TableModel()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTable sut = null; // = new JTable(javax.swing.table.TableModel);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JTable#JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel)
-     * public javax.swing.JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTable_TableModel_TableColumnModel()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTable sut = null; // = new
-                                             // JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.JTable> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JTable.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JTable#createScrollPaneForTable(javax.swing.JTable) public static
-     * javax.swing.JScrollPane javax.swing.JTable.createScrollPaneForTable(javax.swing.JTable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createScrollPaneForTable_JTable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.JTable$DropLocation class javax.swing.JTable$DropLocation}, containing all
      * class relevant test methods (at least the test methods of accessible constructors and of accessible
@@ -234,16 +107,6 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
     public static abstract interface PrintModeClassTests<SUT extends Class<? extends javax.swing.JTable.PrintMode>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.JTable.PrintMode> {
 
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.swing.JTable.PrintMode> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.JTable.PrintMode.class.isAssignableFrom(sut));
-        }
-
         /**
          * <p>
          * Test method for {@link javax.swing.JTable.PrintMode#valueOf(java.lang.String) public static
@@ -276,6 +139,143 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerClassTests<SUT>, org.j8
             assert sut != null;
         }
 
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.swing.JTable.PrintMode> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.swing.JTable.PrintMode.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * Test method for {@link javax.swing.JTable#JTable() public javax.swing.JTable()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTable sut = null; // = new JTable();
+    }
+
+    /**
+     * Test method for {@link javax.swing.JTable#JTable(int,int) public javax.swing.JTable(int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTable_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTable sut = null; // = new JTable(int,int);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JTable#JTable(java.lang.Object[][],java.lang.Object[]) public
+     * javax.swing.JTable(java.lang.Object[][],java.lang.Object[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTable_ObjectArrayArray_ObjectArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTable sut = null; // = new JTable(java.lang.Object[][],java.lang.Object[]);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JTable#JTable(javax.swing.table.TableModel) public
+     * javax.swing.JTable(javax.swing.table.TableModel)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTable_TableModel()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTable sut = null; // = new JTable(javax.swing.table.TableModel);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JTable#JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel)
+     * public javax.swing.JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTable_TableModel_TableColumnModel()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTable sut = null; // = new
+                                             // JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.JTable#JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel,javax.swing.ListSelectionModel)
+     * public
+     * javax.swing.JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel,javax.swing.ListSelectionModel)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTable_TableModel_TableColumnModel_ListSelectionModel()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTable sut = null; // = new
+                                             // JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel,javax.swing.ListSelectionModel);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JTable#JTable(java.util.Vector,java.util.Vector) public
+     * javax.swing.JTable(java.util.Vector,java.util.Vector)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTable_Vector_Vector()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTable sut = null; // = new JTable(java.util.Vector,java.util.Vector);
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JTable#createScrollPaneForTable(javax.swing.JTable) public static
+     * javax.swing.JScrollPane javax.swing.JTable.createScrollPaneForTable(javax.swing.JTable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createScrollPaneForTable_JTable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.JTable> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.JTable.class.isAssignableFrom(sut));
     }
 
 }

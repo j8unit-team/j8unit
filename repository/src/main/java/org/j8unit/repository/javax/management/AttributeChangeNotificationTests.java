@@ -24,22 +24,6 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeChangeNotification#getNewValue() public java.lang.Object
-     * javax.management.AttributeChangeNotification.getNewValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNewValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.AttributeChangeNotification#getAttributeName() public java.lang.String
      * javax.management.AttributeChangeNotification.getAttributeName()}.
      * </p>
@@ -56,22 +40,6 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeChangeNotification#getOldValue() public java.lang.Object
-     * javax.management.AttributeChangeNotification.getOldValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOldValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.AttributeChangeNotification#getAttributeType() public java.lang.String
      * javax.management.AttributeChangeNotification.getAttributeType()}.
      * </p>
@@ -80,6 +48,38 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAttributeType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.AttributeChangeNotification#getNewValue() public java.lang.Object
+     * javax.management.AttributeChangeNotification.getNewValue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNewValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.AttributeChangeNotification#getOldValue() public java.lang.Object
+     * javax.management.AttributeChangeNotification.getOldValue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOldValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

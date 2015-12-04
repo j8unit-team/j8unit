@@ -36,19 +36,17 @@ public abstract interface InvocationEventClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.awt.ActiveEventClassTests<SUT>, org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.awt.event.InvocationEvent#InvocationEvent(java.lang.Object,java.lang.Runnable,java.lang.Runnable,boolean)
-     * public java.awt.event.InvocationEvent(java.lang.Object,java.lang.Runnable,java.lang.Runnable,boolean)}.
+     * Test method for {@link java.awt.event.InvocationEvent#InvocationEvent(java.lang.Object,java.lang.Runnable) public
+     * java.awt.event.InvocationEvent(java.lang.Object,java.lang.Runnable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_InvocationEvent_Object_Runnable_Runnable_boolean()
+    public default void create_InvocationEvent_Object_Runnable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.event.InvocationEvent sut = null; // = new
-                                                         // InvocationEvent(java.lang.Object,java.lang.Runnable,java.lang.Runnable,boolean);
+        final java.awt.event.InvocationEvent sut = null; // = new InvocationEvent(java.lang.Object,java.lang.Runnable);
     }
 
     /**
@@ -68,17 +66,19 @@ extends org.j8unit.repository.java.awt.ActiveEventClassTests<SUT>, org.j8unit.re
     }
 
     /**
-     * Test method for {@link java.awt.event.InvocationEvent#InvocationEvent(java.lang.Object,java.lang.Runnable) public
-     * java.awt.event.InvocationEvent(java.lang.Object,java.lang.Runnable)}.
+     * Test method for
+     * {@link java.awt.event.InvocationEvent#InvocationEvent(java.lang.Object,java.lang.Runnable,java.lang.Runnable,boolean)
+     * public java.awt.event.InvocationEvent(java.lang.Object,java.lang.Runnable,java.lang.Runnable,boolean)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_InvocationEvent_Object_Runnable()
+    public default void create_InvocationEvent_Object_Runnable_Runnable_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.event.InvocationEvent sut = null; // = new InvocationEvent(java.lang.Object,java.lang.Runnable);
+        final java.awt.event.InvocationEvent sut = null; // = new
+                                                         // InvocationEvent(java.lang.Object,java.lang.Runnable,java.lang.Runnable,boolean);
     }
 
     @Override

@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.stream.BaseStream#isParallel() public abstract boolean
-     * java.util.stream.BaseStream.isParallel()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isParallel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.stream.BaseStream#close() public abstract void
      * java.util.stream.BaseStream.close()}.
      * </p>
@@ -56,14 +40,14 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.stream.BaseStream#unordered() public abstract java.util.stream.BaseStream
-     * java.util.stream.BaseStream.unordered()}.
+     * Test method for {@link java.util.stream.BaseStream#isParallel() public abstract boolean
+     * java.util.stream.BaseStream.isParallel()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_unordered()
+    public default void test_isParallel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,22 +88,6 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.stream.BaseStream#spliterator() public abstract java.util.Spliterator
-     * java.util.stream.BaseStream.spliterator()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_spliterator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.stream.BaseStream#parallel() public abstract java.util.stream.BaseStream
      * java.util.stream.BaseStream.parallel()}.
      * </p>
@@ -144,6 +112,38 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_sequential()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.BaseStream#spliterator() public abstract java.util.Spliterator
+     * java.util.stream.BaseStream.spliterator()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_spliterator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.BaseStream#unordered() public abstract java.util.stream.BaseStream
+     * java.util.stream.BaseStream.unordered()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unordered()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

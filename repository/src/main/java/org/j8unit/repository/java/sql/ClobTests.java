@@ -40,6 +40,86 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.sql.Clob#getAsciiStream() public abstract java.io.InputStream
+     * java.sql.Clob.getAsciiStream() throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAsciiStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.Clob#getCharacterStream() public abstract java.io.Reader
+     * java.sql.Clob.getCharacterStream() throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCharacterStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.Clob#getCharacterStream(long,long) public abstract java.io.Reader
+     * java.sql.Clob.getCharacterStream(long,long) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCharacterStream_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.Clob#getSubString(long,int) public abstract java.lang.String
+     * java.sql.Clob.getSubString(long,int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSubString_long_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.Clob#length() public abstract long java.sql.Clob.length() throws
+     * java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_length()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.sql.Clob#position(java.sql.Clob,long) public abstract long
      * java.sql.Clob.position(java.sql.Clob,long) throws java.sql.SQLException}.
      * </p>
@@ -64,22 +144,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_position_String_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.Clob#truncate(long) public abstract void java.sql.Clob.truncate(long) throws
-     * java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_truncate_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -152,78 +216,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Clob#getAsciiStream() public abstract java.io.InputStream
-     * java.sql.Clob.getAsciiStream() throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAsciiStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.Clob#getCharacterStream(long,long) public abstract java.io.Reader
-     * java.sql.Clob.getCharacterStream(long,long) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCharacterStream_long_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.Clob#getCharacterStream() public abstract java.io.Reader
-     * java.sql.Clob.getCharacterStream() throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCharacterStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.Clob#length() public abstract long java.sql.Clob.length() throws
+     * Test method for {@link java.sql.Clob#truncate(long) public abstract void java.sql.Clob.truncate(long) throws
      * java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_length()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.Clob#getSubString(long,int) public abstract java.lang.String
-     * java.sql.Clob.getSubString(long,int) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSubString_long_int()
+    public default void test_truncate_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

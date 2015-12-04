@@ -40,6 +40,38 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, java
 
     /**
      * <p>
+     * Test method for {@link javax.management.openmbean.TabularType#getIndexNames() public java.util.List
+     * javax.management.openmbean.TabularType.getIndexNames()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIndexNames()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.TabularType#getRowType() public
+     * javax.management.openmbean.CompositeType javax.management.openmbean.TabularType.getRowType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.openmbean.TabularType#hashCode() public int
      * javax.management.openmbean.TabularType.hashCode()}.
      * </p>
@@ -66,38 +98,6 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, java
     @Category(Draft.class)
     @Override
     public default void test_isValue_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.TabularType#getIndexNames() public java.util.List
-     * javax.management.openmbean.TabularType.getIndexNames()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIndexNames()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.TabularType#getRowType() public
-     * javax.management.openmbean.CompositeType javax.management.openmbean.TabularType.getRowType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

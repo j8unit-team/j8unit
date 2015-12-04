@@ -23,38 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertPathBuilder#getProvider() public final java.security.Provider
-     * java.security.cert.CertPathBuilder.getProvider()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProvider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.CertPathBuilder#getRevocationChecker() public final
-     * java.security.cert.CertPathChecker java.security.cert.CertPathBuilder.getRevocationChecker()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRevocationChecker()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.cert.CertPathBuilder#build(java.security.cert.CertPathParameters) public
      * final java.security.cert.CertPathBuilderResult
      * java.security.cert.CertPathBuilder.build(java.security.cert.CertPathParameters) throws
@@ -81,6 +49,38 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAlgorithm()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CertPathBuilder#getProvider() public final java.security.Provider
+     * java.security.cert.CertPathBuilder.getProvider()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProvider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CertPathBuilder#getRevocationChecker() public final
+     * java.security.cert.CertPathChecker java.security.cert.CertPathBuilder.getRevocationChecker()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRevocationChecker()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ChronoPeriodClassTests<SUT extends Class<? extends java.time.chrono.ChronoPeriod>>
 extends org.j8unit.repository.java.time.temporal.TemporalAmountClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.chrono.ChronoPeriod> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.chrono.ChronoPeriod.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for
@@ -61,6 +51,16 @@ extends org.j8unit.repository.java.time.temporal.TemporalAmountClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.chrono.ChronoPeriod> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.chrono.ChronoPeriod.class.isAssignableFrom(sut));
     }
 
 }

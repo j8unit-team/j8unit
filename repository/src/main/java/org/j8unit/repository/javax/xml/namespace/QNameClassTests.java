@@ -50,20 +50,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     }
 
     /**
-     * Test method for {@link javax.xml.namespace.QName#QName(java.lang.String,java.lang.String,java.lang.String) public
-     * javax.xml.namespace.QName(java.lang.String,java.lang.String,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_QName_String_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.namespace.QName sut = null; // = new QName(java.lang.String,java.lang.String,java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.xml.namespace.QName#QName(java.lang.String,java.lang.String) public
      * javax.xml.namespace.QName(java.lang.String,java.lang.String)}.
      */
@@ -77,14 +63,18 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         final javax.xml.namespace.QName sut = null; // = new QName(java.lang.String,java.lang.String);
     }
 
-    @Override
+    /**
+     * Test method for {@link javax.xml.namespace.QName#QName(java.lang.String,java.lang.String,java.lang.String) public
+     * javax.xml.namespace.QName(java.lang.String,java.lang.String,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_QName_String_String_String()
     throws Exception {
         // create new instance
-        final Class<? extends javax.xml.namespace.QName> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.namespace.QName.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final javax.xml.namespace.QName sut = null; // = new QName(java.lang.String,java.lang.String,java.lang.String);
     }
 
     /**
@@ -101,6 +91,16 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.namespace.QName> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.namespace.QName.class.isAssignableFrom(sut));
     }
 
 }

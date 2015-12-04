@@ -23,14 +23,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.smartcardio.CardTerminal#waitForCardAbsent(long) public abstract boolean
-     * javax.smartcardio.CardTerminal.waitForCardAbsent(long) throws javax.smartcardio.CardException}.
+     * Test method for {@link javax.smartcardio.CardTerminal#connect(java.lang.String) public abstract
+     * javax.smartcardio.Card javax.smartcardio.CardTerminal.connect(java.lang.String) throws
+     * javax.smartcardio.CardException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_waitForCardAbsent_long()
+    public default void test_connect_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,39 +56,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.smartcardio.CardTerminal#waitForCardPresent(long) public abstract boolean
-     * javax.smartcardio.CardTerminal.waitForCardPresent(long) throws javax.smartcardio.CardException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_waitForCardPresent_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.smartcardio.CardTerminal#connect(java.lang.String) public abstract
-     * javax.smartcardio.Card javax.smartcardio.CardTerminal.connect(java.lang.String) throws
-     * javax.smartcardio.CardException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_connect_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.smartcardio.CardTerminal#isCardPresent() public abstract boolean
      * javax.smartcardio.CardTerminal.isCardPresent() throws javax.smartcardio.CardException}.
      * </p>
@@ -96,6 +64,38 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isCardPresent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.CardTerminal#waitForCardAbsent(long) public abstract boolean
+     * javax.smartcardio.CardTerminal.waitForCardAbsent(long) throws javax.smartcardio.CardException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_waitForCardAbsent_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.CardTerminal#waitForCardPresent(long) public abstract boolean
+     * javax.smartcardio.CardTerminal.waitForCardPresent(long) throws javax.smartcardio.CardException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_waitForCardPresent_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

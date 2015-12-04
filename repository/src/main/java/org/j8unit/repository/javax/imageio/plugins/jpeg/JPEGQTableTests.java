@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.plugins.jpeg.JPEGQTable#toString() public java.lang.String
-     * javax.imageio.plugins.jpeg.JPEGQTable.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.imageio.plugins.jpeg.JPEGQTable#getScaledInstance(float,boolean) public
      * javax.imageio.plugins.jpeg.JPEGQTable javax.imageio.plugins.jpeg.JPEGQTable.getScaledInstance(float,boolean)}.
      * </p>
@@ -64,6 +47,23 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getTable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.plugins.jpeg.JPEGQTable#toString() public java.lang.String
+     * javax.imageio.plugins.jpeg.JPEGQTable.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

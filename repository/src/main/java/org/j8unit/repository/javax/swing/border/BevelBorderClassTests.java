@@ -36,19 +36,17 @@ public abstract interface BevelBorderClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.swing.border.BevelBorder#BevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)
-     * public javax.swing.border.BevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
+     * Test method for {@link javax.swing.border.BevelBorder#BevelBorder(int) public
+     * javax.swing.border.BevelBorder(int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BevelBorder_int_Color_Color_Color_Color()
+    public default void create_BevelBorder_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.border.BevelBorder sut = null; // = new
-                                                         // BevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color);
+        final javax.swing.border.BevelBorder sut = null; // = new BevelBorder(int);
     }
 
     /**
@@ -66,17 +64,19 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.border.BevelBorder#BevelBorder(int) public
-     * javax.swing.border.BevelBorder(int)}.
+     * Test method for
+     * {@link javax.swing.border.BevelBorder#BevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)
+     * public javax.swing.border.BevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BevelBorder_int()
+    public default void create_BevelBorder_int_Color_Color_Color_Color()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.border.BevelBorder sut = null; // = new BevelBorder(int);
+        final javax.swing.border.BevelBorder sut = null; // = new
+                                                         // BevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color);
     }
 
     @Override

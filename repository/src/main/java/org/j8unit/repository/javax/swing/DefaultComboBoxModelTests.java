@@ -41,15 +41,31 @@ org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultComboBoxModel#removeElementAt(int) public void
-     * javax.swing.DefaultComboBoxModel.removeElementAt(int)}.
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_removeElementAt_int()
+    public default void test_addListDataListener_ListDataListener()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DefaultComboBoxModel#getElementAt(int) public java.lang.Object
+     * javax.swing.DefaultComboBoxModel.getElementAt(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getElementAt_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -58,14 +74,14 @@ org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultComboBoxModel#removeAllElements() public void
-     * javax.swing.DefaultComboBoxModel.removeAllElements()}.
+     * Test method for {@link javax.swing.DefaultComboBoxModel#getIndexOf(java.lang.Object) public int
+     * javax.swing.DefaultComboBoxModel.getIndexOf(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeAllElements()
+    public default void test_getIndexOf_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,40 +107,6 @@ org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultComboBoxModel#removeElement(java.lang.Object) public void
-     * javax.swing.DefaultComboBoxModel.removeElement(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_removeElement_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultComboBoxModel#getElementAt(int) public java.lang.Object
-     * javax.swing.DefaultComboBoxModel.getElementAt(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getElementAt_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.DefaultComboBoxModel#getSize() public int
      * javax.swing.DefaultComboBoxModel.getSize()}.
      * </p>
@@ -134,22 +116,6 @@ org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
     @Category(Draft.class)
     @Override
     public default void test_getSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultComboBoxModel#getIndexOf(java.lang.Object) public int
-     * javax.swing.DefaultComboBoxModel.getIndexOf(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIndexOf_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -175,15 +141,48 @@ org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultComboBoxModel#setSelectedItem(java.lang.Object) public void
-     * javax.swing.DefaultComboBoxModel.setSelectedItem(java.lang.Object)}.
+     * Test method for {@link javax.swing.DefaultComboBoxModel#removeAllElements() public void
+     * javax.swing.DefaultComboBoxModel.removeAllElements()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeAllElements()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DefaultComboBoxModel#removeElement(java.lang.Object) public void
+     * javax.swing.DefaultComboBoxModel.removeElement(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setSelectedItem_Object()
+    public default void test_removeElement_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DefaultComboBoxModel#removeElementAt(int) public void
+     * javax.swing.DefaultComboBoxModel.removeElementAt(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_removeElementAt_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -202,24 +201,25 @@ org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, E> {
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_addListDataListener_ListDataListener()
+    public default void test_removeListDataListener_ListDataListener()
     throws Exception {
     }
 
     /**
      * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * Test method for {@link javax.swing.DefaultComboBoxModel#setSelectedItem(java.lang.Object) public void
+     * javax.swing.DefaultComboBoxModel.setSelectedItem(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_removeListDataListener_ListDataListener()
+    public default void test_setSelectedItem_Object()
     throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

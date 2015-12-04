@@ -55,38 +55,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableServer.Servant#_is_a(java.lang.String) public boolean
-     * org.omg.PortableServer.Servant._is_a(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test__is_a_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.Servant#_object_id() public final byte[]
-     * org.omg.PortableServer.Servant._object_id()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test__object_id()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.PortableServer.Servant#_get_delegate() public final
      * org.omg.PortableServer.portable.Delegate org.omg.PortableServer.Servant._get_delegate()}.
      * </p>
@@ -95,38 +63,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test__get_delegate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.Servant#_set_delegate(org.omg.PortableServer.portable.Delegate)
-     * public final void org.omg.PortableServer.Servant._set_delegate(org.omg.PortableServer.portable.Delegate)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test__set_delegate_Delegate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.Servant#_poa() public final org.omg.PortableServer.POA
-     * org.omg.PortableServer.Servant._poa()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test__poa()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -151,6 +87,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.omg.PortableServer.Servant#_is_a(java.lang.String) public boolean
+     * org.omg.PortableServer.Servant._is_a(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test__is_a_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.omg.PortableServer.Servant#_non_existent() public boolean
      * org.omg.PortableServer.Servant._non_existent()}.
      * </p>
@@ -167,14 +119,62 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableServer.Servant#_this_object(org.omg.CORBA.ORB) public final
-     * org.omg.CORBA.Object org.omg.PortableServer.Servant._this_object(org.omg.CORBA.ORB)}.
+     * Test method for {@link org.omg.PortableServer.Servant#_object_id() public final byte[]
+     * org.omg.PortableServer.Servant._object_id()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test__this_object_ORB()
+    public default void test__object_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.Servant#_orb() public final org.omg.CORBA.ORB
+     * org.omg.PortableServer.Servant._orb()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test__orb()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.Servant#_poa() public final org.omg.PortableServer.POA
+     * org.omg.PortableServer.Servant._poa()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test__poa()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.Servant#_set_delegate(org.omg.PortableServer.portable.Delegate)
+     * public final void org.omg.PortableServer.Servant._set_delegate(org.omg.PortableServer.portable.Delegate)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test__set_delegate_Delegate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -199,14 +199,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableServer.Servant#_orb() public final org.omg.CORBA.ORB
-     * org.omg.PortableServer.Servant._orb()}.
+     * Test method for {@link org.omg.PortableServer.Servant#_this_object(org.omg.CORBA.ORB) public final
+     * org.omg.CORBA.Object org.omg.PortableServer.Servant._this_object(org.omg.CORBA.ORB)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test__orb()
+    public default void test__this_object_ORB()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

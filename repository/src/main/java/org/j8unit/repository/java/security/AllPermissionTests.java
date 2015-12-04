@@ -23,15 +23,15 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.AllPermission#implies(java.security.Permission) public boolean
-     * java.security.AllPermission.implies(java.security.Permission)}.
+     * Test method for {@link java.security.AllPermission#equals(java.lang.Object) public boolean
+     * java.security.AllPermission.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_implies_Permission()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,23 +57,6 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.AllPermission#newPermissionCollection() public
-     * java.security.PermissionCollection java.security.AllPermission.newPermissionCollection()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_newPermissionCollection()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.AllPermission#hashCode() public int java.security.AllPermission.hashCode()}.
      * </p>
      */
@@ -90,15 +73,32 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.AllPermission#equals(java.lang.Object) public boolean
-     * java.security.AllPermission.equals(java.lang.Object)}.
+     * Test method for {@link java.security.AllPermission#implies(java.security.Permission) public boolean
+     * java.security.AllPermission.implies(java.security.Permission)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_implies_Permission()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.AllPermission#newPermissionCollection() public
+     * java.security.PermissionCollection java.security.AllPermission.newPermissionCollection()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_newPermissionCollection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

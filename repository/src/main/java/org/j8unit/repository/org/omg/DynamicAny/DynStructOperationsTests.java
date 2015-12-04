@@ -23,39 +23,6 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny.DynStructOperations#current_member_name() public abstract
-     * java.lang.String org.omg.DynamicAny.DynStructOperations.current_member_name() throws
-     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_current_member_name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynStructOperations#get_members_as_dyn_any() public abstract
-     * org.omg.DynamicAny.NameDynAnyPair[] org.omg.DynamicAny.DynStructOperations.get_members_as_dyn_any()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_members_as_dyn_any()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.DynamicAny.DynStructOperations#current_member_kind() public abstract
      * org.omg.CORBA.TCKind org.omg.DynamicAny.DynStructOperations.current_member_kind() throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
@@ -73,6 +40,23 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.omg.DynamicAny.DynStructOperations#current_member_name() public abstract
+     * java.lang.String org.omg.DynamicAny.DynStructOperations.current_member_name() throws
+     * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_current_member_name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.omg.DynamicAny.DynStructOperations#get_members() public abstract
      * org.omg.DynamicAny.NameValuePair[] org.omg.DynamicAny.DynStructOperations.get_members()}.
      * </p>
@@ -81,6 +65,22 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_get_members()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynStructOperations#get_members_as_dyn_any() public abstract
+     * org.omg.DynamicAny.NameDynAnyPair[] org.omg.DynamicAny.DynStructOperations.get_members_as_dyn_any()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_members_as_dyn_any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

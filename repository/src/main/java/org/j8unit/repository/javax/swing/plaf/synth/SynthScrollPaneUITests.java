@@ -41,23 +41,6 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthScrollPaneUI#update(java.awt.Graphics,javax.swing.JComponent)
-     * public void javax.swing.plaf.synth.SynthScrollPaneUI.update(java.awt.Graphics,javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_update_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthScrollPaneUI#paint(java.awt.Graphics,javax.swing.JComponent)
      * public void javax.swing.plaf.synth.SynthScrollPaneUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      * </p>
@@ -67,6 +50,26 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_paint_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.synth.SynthScrollPaneUI#paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)
+     * public void
+     * javax.swing.plaf.synth.SynthScrollPaneUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paintBorder_SynthContext_Graphics_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,18 +95,15 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.synth.SynthScrollPaneUI#paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)
-     * public void
-     * javax.swing.plaf.synth.SynthScrollPaneUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
-     * .
+     * Test method for {@link javax.swing.plaf.synth.SynthScrollPaneUI#update(java.awt.Graphics,javax.swing.JComponent)
+     * public void javax.swing.plaf.synth.SynthScrollPaneUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_paintBorder_SynthContext_Graphics_int_int_int_int()
+    public default void test_update_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

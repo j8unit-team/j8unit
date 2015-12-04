@@ -48,42 +48,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.CORBA.ObjectHelper sut = null; // = new ObjectHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.CORBA.ObjectHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.CORBA.ObjectHelper.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ObjectHelper#type() public static synchronized org.omg.CORBA.TypeCode
-     * org.omg.CORBA.ObjectHelper.type()}.
+     * Test method for {@link org.omg.CORBA.ObjectHelper#extract(org.omg.CORBA.Any) public static org.omg.CORBA.Object
+     * org.omg.CORBA.ObjectHelper.extract(org.omg.CORBA.Any)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_type()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ObjectHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.Object)
-     * public static void org.omg.CORBA.ObjectHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_OutputStream_Object()
+    public default void test_extract_Any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -140,18 +114,44 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ObjectHelper#extract(org.omg.CORBA.Any) public static org.omg.CORBA.Object
-     * org.omg.CORBA.ObjectHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for {@link org.omg.CORBA.ObjectHelper#type() public static synchronized org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ObjectHelper.type()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_extract_Any()
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ObjectHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.Object)
+     * public static void org.omg.CORBA.ObjectHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.CORBA.ObjectHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.CORBA.ObjectHelper.class.isAssignableFrom(sut));
     }
 
 }

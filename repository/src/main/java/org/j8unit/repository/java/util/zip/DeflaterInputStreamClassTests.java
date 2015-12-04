@@ -36,22 +36,6 @@ public abstract interface DeflaterInputStreamClassTests<SUT extends Class<? exte
 extends org.j8unit.repository.java.io.FilterInputStreamClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.util.zip.DeflaterInputStream#DeflaterInputStream(java.io.InputStream,java.util.zip.Deflater,int)
-     * public java.util.zip.DeflaterInputStream(java.io.InputStream,java.util.zip.Deflater,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DeflaterInputStream_InputStream_Deflater_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.zip.DeflaterInputStream sut = null; // = new
-                                                            // DeflaterInputStream(java.io.InputStream,java.util.zip.Deflater,int);
-    }
-
-    /**
      * Test method for {@link java.util.zip.DeflaterInputStream#DeflaterInputStream(java.io.InputStream) public
      * java.util.zip.DeflaterInputStream(java.io.InputStream)}.
      */
@@ -79,6 +63,22 @@ extends org.j8unit.repository.java.io.FilterInputStreamClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.util.zip.DeflaterInputStream sut = null; // = new
                                                             // DeflaterInputStream(java.io.InputStream,java.util.zip.Deflater);
+    }
+
+    /**
+     * Test method for
+     * {@link java.util.zip.DeflaterInputStream#DeflaterInputStream(java.io.InputStream,java.util.zip.Deflater,int)
+     * public java.util.zip.DeflaterInputStream(java.io.InputStream,java.util.zip.Deflater,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DeflaterInputStream_InputStream_Deflater_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.zip.DeflaterInputStream sut = null; // = new
+                                                            // DeflaterInputStream(java.io.InputStream,java.util.zip.Deflater,int);
     }
 
     @Override

@@ -36,20 +36,6 @@ public abstract interface CannotProceedExceptionClassTests<SUT extends Class<? e
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.CannotProceedException#CannotProceedException(java.lang.String) public
-     * javax.naming.CannotProceedException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CannotProceedException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.CannotProceedException sut = null; // = new CannotProceedException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.naming.CannotProceedException#CannotProceedException() public
      * javax.naming.CannotProceedException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.CannotProceedException sut = null; // = new CannotProceedException();
+    }
+
+    /**
+     * Test method for {@link javax.naming.CannotProceedException#CannotProceedException(java.lang.String) public
+     * javax.naming.CannotProceedException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CannotProceedException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.CannotProceedException sut = null; // = new CannotProceedException(java.lang.String);
     }
 
     @Override

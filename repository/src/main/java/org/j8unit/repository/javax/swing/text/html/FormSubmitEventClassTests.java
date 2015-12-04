@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface FormSubmitEventClassTests<SUT extends Class<? extends javax.swing.text.html.FormSubmitEvent>>
 extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.html.FormSubmitEvent> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.html.FormSubmitEvent.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.swing.text.html.FormSubmitEvent$MethodType class
@@ -75,14 +65,21 @@ extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventClass
     public static abstract interface MethodTypeClassTests<SUT extends Class<? extends javax.swing.text.html.FormSubmitEvent.MethodType>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.text.html.FormSubmitEvent.MethodType> {
 
-        @Override
+        /**
+         * <p>
+         * Test method for {@link javax.swing.text.html.FormSubmitEvent.MethodType#valueOf(java.lang.String) public
+         * static javax.swing.text.html.FormSubmitEvent$MethodType
+         * javax.swing.text.html.FormSubmitEvent$MethodType.valueOf(java.lang.String)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @Category(Draft.class)
+        public default void test_valueOf_String()
         throws Exception {
-            // create new instance
-            final Class<? extends javax.swing.text.html.FormSubmitEvent.MethodType> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.text.html.FormSubmitEvent.MethodType.class.isAssignableFrom(sut));
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
         }
 
         /**
@@ -102,23 +99,26 @@ extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventClass
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for {@link javax.swing.text.html.FormSubmitEvent.MethodType#valueOf(java.lang.String) public
-         * static javax.swing.text.html.FormSubmitEvent$MethodType
-         * javax.swing.text.html.FormSubmitEvent$MethodType.valueOf(java.lang.String)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
+        public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
+            // create new instance
+            final Class<? extends javax.swing.text.html.FormSubmitEvent.MethodType> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.swing.text.html.FormSubmitEvent.MethodType.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.html.FormSubmitEvent> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.html.FormSubmitEvent.class.isAssignableFrom(sut));
     }
 
 }

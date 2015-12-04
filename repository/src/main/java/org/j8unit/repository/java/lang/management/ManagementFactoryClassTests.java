@@ -35,26 +35,16 @@ import org.junit.experimental.categories.Category;
 public abstract interface ManagementFactoryClassTests<SUT extends Class<? extends java.lang.management.ManagementFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.lang.management.ManagementFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.management.ManagementFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.lang.management.ManagementFactory#getPlatformMBeanServer() public static synchronized
-     * javax.management.MBeanServer java.lang.management.ManagementFactory.getPlatformMBeanServer()}.
+     * Test method for {@link java.lang.management.ManagementFactory#getClassLoadingMXBean() public static
+     * java.lang.management.ClassLoadingMXBean java.lang.management.ManagementFactory.getClassLoadingMXBean()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPlatformMBeanServer()
+    public default void test_getClassLoadingMXBean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,14 +69,46 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.management.ManagementFactory#getPlatformManagementInterfaces() public static
-     * java.util.Set java.lang.management.ManagementFactory.getPlatformManagementInterfaces()}.
+     * Test method for {@link java.lang.management.ManagementFactory#getGarbageCollectorMXBeans() public static
+     * java.util.List java.lang.management.ManagementFactory.getGarbageCollectorMXBeans()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPlatformManagementInterfaces()
+    public default void test_getGarbageCollectorMXBeans()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.management.ManagementFactory#getMemoryManagerMXBeans() public static
+     * java.util.List java.lang.management.ManagementFactory.getMemoryManagerMXBeans()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMemoryManagerMXBeans()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.management.ManagementFactory#getMemoryMXBean() public static
+     * java.lang.management.MemoryMXBean java.lang.management.ManagementFactory.getMemoryMXBean()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMemoryMXBean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -111,14 +133,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.management.ManagementFactory#getThreadMXBean() public static
-     * java.lang.management.ThreadMXBean java.lang.management.ManagementFactory.getThreadMXBean()}.
+     * Test method for {@link java.lang.management.ManagementFactory#getOperatingSystemMXBean() public static
+     * java.lang.management.OperatingSystemMXBean java.lang.management.ManagementFactory.getOperatingSystemMXBean()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getThreadMXBean()
+    public default void test_getOperatingSystemMXBean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,14 +149,30 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.management.ManagementFactory#getGarbageCollectorMXBeans() public static
-     * java.util.List java.lang.management.ManagementFactory.getGarbageCollectorMXBeans()}.
+     * Test method for {@link java.lang.management.ManagementFactory#getPlatformManagementInterfaces() public static
+     * java.util.Set java.lang.management.ManagementFactory.getPlatformManagementInterfaces()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getGarbageCollectorMXBeans()
+    public default void test_getPlatformManagementInterfaces()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.management.ManagementFactory#getPlatformMBeanServer() public static synchronized
+     * javax.management.MBeanServer java.lang.management.ManagementFactory.getPlatformMBeanServer()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPlatformMBeanServer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -179,57 +217,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.management.ManagementFactory#getOperatingSystemMXBean() public static
-     * java.lang.management.OperatingSystemMXBean java.lang.management.ManagementFactory.getOperatingSystemMXBean()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOperatingSystemMXBean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.management.ManagementFactory#getClassLoadingMXBean() public static
-     * java.lang.management.ClassLoadingMXBean java.lang.management.ManagementFactory.getClassLoadingMXBean()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getClassLoadingMXBean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.lang.management.ManagementFactory#newPlatformMXBeanProxy(javax.management.MBeanServerConnection,java.lang.String,java.lang.Class)
-     * public static java.lang.Object
-     * java.lang.management.ManagementFactory.newPlatformMXBeanProxy(javax.management.MBeanServerConnection,java.lang.String,java.lang.Class)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newPlatformMXBeanProxy_MBeanServerConnection_String_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.management.ManagementFactory#getPlatformMXBeans(java.lang.Class) public static
      * java.util.List java.lang.management.ManagementFactory.getPlatformMXBeans(java.lang.Class)}.
      * </p>
@@ -265,38 +252,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.management.ManagementFactory#getMemoryManagerMXBeans() public static
-     * java.util.List java.lang.management.ManagementFactory.getMemoryManagerMXBeans()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMemoryManagerMXBeans()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.management.ManagementFactory#getMemoryMXBean() public static
-     * java.lang.management.MemoryMXBean java.lang.management.ManagementFactory.getMemoryMXBean()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMemoryMXBean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.management.ManagementFactory#getRuntimeMXBean() public static
      * java.lang.management.RuntimeMXBean java.lang.management.ManagementFactory.getRuntimeMXBean()}.
      * </p>
@@ -309,6 +264,51 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.management.ManagementFactory#getThreadMXBean() public static
+     * java.lang.management.ThreadMXBean java.lang.management.ManagementFactory.getThreadMXBean()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getThreadMXBean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.lang.management.ManagementFactory#newPlatformMXBeanProxy(javax.management.MBeanServerConnection,java.lang.String,java.lang.Class)
+     * public static java.lang.Object
+     * java.lang.management.ManagementFactory.newPlatformMXBeanProxy(javax.management.MBeanServerConnection,java.lang.String,java.lang.Class)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newPlatformMXBeanProxy_MBeanServerConnection_String_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.lang.management.ManagementFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.management.ManagementFactory.class.isAssignableFrom(sut));
     }
 
 }

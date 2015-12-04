@@ -24,81 +24,14 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLayer#getScrollableBlockIncrement(java.awt.Rectangle,int,int) public int
-     * javax.swing.JLayer.getScrollableBlockIncrement(java.awt.Rectangle,int,int)}.
+     * Test method for {@link javax.swing.JLayer#addNotify() public void javax.swing.JLayer.addNotify()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getScrollableBlockIncrement_Rectangle_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLayer#setLayout(java.awt.LayoutManager) public void
-     * javax.swing.JLayer.setLayout(java.awt.LayoutManager)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setLayout_LayoutManager()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLayer#paint(java.awt.Graphics) public void
-     * javax.swing.JLayer.paint(java.awt.Graphics)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paint_Graphics()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLayer#getLayerEventMask() public long javax.swing.JLayer.getLayerEventMask()}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLayerEventMask()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLayer#updateUI() public void javax.swing.JLayer.updateUI()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_updateUI()
+    public default void test_addNotify()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -123,72 +56,6 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLayer#remove(java.awt.Component) public void
-     * javax.swing.JLayer.remove(java.awt.Component)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_remove_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLayer#getScrollableTracksViewportWidth() public boolean
-     * javax.swing.JLayer.getScrollableTracksViewportWidth()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getScrollableTracksViewportWidth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLayer#propertyChange(java.beans.PropertyChangeEvent) public void
-     * javax.swing.JLayer.propertyChange(java.beans.PropertyChangeEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_propertyChange_PropertyChangeEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLayer#getView() public java.awt.Component javax.swing.JLayer.getView()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getView()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.JLayer#doLayout() public void javax.swing.JLayer.doLayout()}.
      * </p>
      */
@@ -197,89 +64,6 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
     @Category(Draft.class)
     @Override
     public default void test_doLayout()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLayer#removeAll() public void javax.swing.JLayer.removeAll()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_removeAll()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLayer#getScrollableUnitIncrement(java.awt.Rectangle,int,int) public int
-     * javax.swing.JLayer.getScrollableUnitIncrement(java.awt.Rectangle,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getScrollableUnitIncrement_Rectangle_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLayer#paintImmediately(int,int,int,int) public void
-     * javax.swing.JLayer.paintImmediately(int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paintImmediately_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLayer#getPreferredScrollableViewportSize() public java.awt.Dimension
-     * javax.swing.JLayer.getPreferredScrollableViewportSize()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPreferredScrollableViewportSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLayer#setLayerEventMask(long) public void
-     * javax.swing.JLayer.setLayerEventMask(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLayerEventMask_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -305,23 +89,6 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLayer#isOptimizedDrawingEnabled() public boolean
-     * javax.swing.JLayer.isOptimizedDrawingEnabled()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isOptimizedDrawingEnabled()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.JLayer#getGlassPane() public javax.swing.JPanel
      * javax.swing.JLayer.getGlassPane()}.
      * </p>
@@ -330,6 +97,56 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
     @Test
     @Category(Draft.class)
     public default void test_getGlassPane()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayer#getLayerEventMask() public long javax.swing.JLayer.getLayerEventMask()}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLayerEventMask()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayer#getPreferredScrollableViewportSize() public java.awt.Dimension
+     * javax.swing.JLayer.getPreferredScrollableViewportSize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPreferredScrollableViewportSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayer#getScrollableBlockIncrement(java.awt.Rectangle,int,int) public int
+     * javax.swing.JLayer.getScrollableBlockIncrement(java.awt.Rectangle,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getScrollableBlockIncrement_Rectangle_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -355,14 +172,15 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLayer#removeNotify() public void javax.swing.JLayer.removeNotify()}.
+     * Test method for {@link javax.swing.JLayer#getScrollableTracksViewportWidth() public boolean
+     * javax.swing.JLayer.getScrollableTracksViewportWidth()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_removeNotify()
+    public default void test_getScrollableTracksViewportWidth()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -371,30 +189,15 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLayer#setGlassPane(javax.swing.JPanel) public void
-     * javax.swing.JLayer.setGlassPane(javax.swing.JPanel)}.
+     * Test method for {@link javax.swing.JLayer#getScrollableUnitIncrement(java.awt.Rectangle,int,int) public int
+     * javax.swing.JLayer.getScrollableUnitIncrement(java.awt.Rectangle,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setGlassPane_JPanel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLayer#setUI(javax.swing.plaf.LayerUI) public void
-     * javax.swing.JLayer.setUI(javax.swing.plaf.LayerUI)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setUI_LayerUI()
+    @Override
+    public default void test_getScrollableUnitIncrement_Rectangle_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -410,6 +213,138 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
     @Test
     @Category(Draft.class)
     public default void test_getUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayer#getView() public java.awt.Component javax.swing.JLayer.getView()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getView()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayer#isOptimizedDrawingEnabled() public boolean
+     * javax.swing.JLayer.isOptimizedDrawingEnabled()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isOptimizedDrawingEnabled()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayer#paint(java.awt.Graphics) public void
+     * javax.swing.JLayer.paint(java.awt.Graphics)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paint_Graphics()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayer#paintImmediately(int,int,int,int) public void
+     * javax.swing.JLayer.paintImmediately(int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paintImmediately_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayer#propertyChange(java.beans.PropertyChangeEvent) public void
+     * javax.swing.JLayer.propertyChange(java.beans.PropertyChangeEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_propertyChange_PropertyChangeEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayer#remove(java.awt.Component) public void
+     * javax.swing.JLayer.remove(java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_remove_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayer#removeAll() public void javax.swing.JLayer.removeAll()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_removeAll()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayer#removeNotify() public void javax.swing.JLayer.removeNotify()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_removeNotify()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -435,6 +370,71 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
+     * Test method for {@link javax.swing.JLayer#setGlassPane(javax.swing.JPanel) public void
+     * javax.swing.JLayer.setGlassPane(javax.swing.JPanel)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setGlassPane_JPanel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayer#setLayerEventMask(long) public void
+     * javax.swing.JLayer.setLayerEventMask(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLayerEventMask_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayer#setLayout(java.awt.LayoutManager) public void
+     * javax.swing.JLayer.setLayout(java.awt.LayoutManager)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setLayout_LayoutManager()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayer#setUI(javax.swing.plaf.LayerUI) public void
+     * javax.swing.JLayer.setUI(javax.swing.plaf.LayerUI)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setUI_LayerUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.JLayer#setView(java.awt.Component) public void
      * javax.swing.JLayer.setView(java.awt.Component)}.
      * </p>
@@ -451,14 +451,14 @@ org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JLayer#addNotify() public void javax.swing.JLayer.addNotify()}.
+     * Test method for {@link javax.swing.JLayer#updateUI() public void javax.swing.JLayer.updateUI()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_addNotify()
+    public default void test_updateUI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

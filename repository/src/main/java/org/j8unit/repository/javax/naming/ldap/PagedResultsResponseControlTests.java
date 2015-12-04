@@ -24,22 +24,6 @@ extends org.j8unit.repository.javax.naming.ldap.BasicControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.PagedResultsResponseControl#getResultSize() public int
-     * javax.naming.ldap.PagedResultsResponseControl.getResultSize()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResultSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.naming.ldap.PagedResultsResponseControl#getCookie() public byte[]
      * javax.naming.ldap.PagedResultsResponseControl.getCookie()}.
      * </p>
@@ -48,6 +32,22 @@ extends org.j8unit.repository.javax.naming.ldap.BasicControlTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getCookie()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.ldap.PagedResultsResponseControl#getResultSize() public int
+     * javax.naming.ldap.PagedResultsResponseControl.getResultSize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getResultSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

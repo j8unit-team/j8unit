@@ -23,121 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.attribute.AclEntry#toString() public java.lang.String
-     * java.nio.file.attribute.AclEntry.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.AclEntry#flags() public java.util.Set
-     * java.nio.file.attribute.AclEntry.flags()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_flags()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.AclEntry#type() public java.nio.file.attribute.AclEntryType
-     * java.nio.file.attribute.AclEntry.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.AclEntry#principal() public java.nio.file.attribute.UserPrincipal
-     * java.nio.file.attribute.AclEntry.principal()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_principal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.AclEntry#hashCode() public int
-     * java.nio.file.attribute.AclEntry.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.AclEntry#permissions() public java.util.Set
-     * java.nio.file.attribute.AclEntry.permissions()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_permissions()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.AclEntry#equals(java.lang.Object) public boolean
-     * java.nio.file.attribute.AclEntry.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test class for {@link java.nio.file.attribute.AclEntry$Builder class java.nio.file.attribute.AclEntry$Builder},
      * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
      * </p>
@@ -150,6 +35,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderTests<SUT extends java.nio.file.attribute.AclEntry.Builder>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for {@link java.nio.file.attribute.AclEntry.Builder#build() public
+         * java.nio.file.attribute.AclEntry java.nio.file.attribute.AclEntry$Builder.build()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_build()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
 
         /**
          * <p>
@@ -179,23 +80,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_setFlags_Set()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.nio.file.attribute.AclEntry.Builder#setType(java.nio.file.attribute.AclEntryType)
-         * public java.nio.file.attribute.AclEntry$Builder
-         * java.nio.file.attribute.AclEntry$Builder.setType(java.nio.file.attribute.AclEntryType)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_setType_AclEntryType()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -257,20 +141,136 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link java.nio.file.attribute.AclEntry.Builder#build() public
-         * java.nio.file.attribute.AclEntry java.nio.file.attribute.AclEntry$Builder.build()}.
+         * Test method for {@link java.nio.file.attribute.AclEntry.Builder#setType(java.nio.file.attribute.AclEntryType)
+         * public java.nio.file.attribute.AclEntry$Builder
+         * java.nio.file.attribute.AclEntry$Builder.setType(java.nio.file.attribute.AclEntryType)}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_build()
+        public default void test_setType_AclEntryType()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.AclEntry#equals(java.lang.Object) public boolean
+     * java.nio.file.attribute.AclEntry.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.AclEntry#flags() public java.util.Set
+     * java.nio.file.attribute.AclEntry.flags()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_flags()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.AclEntry#hashCode() public int
+     * java.nio.file.attribute.AclEntry.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.AclEntry#permissions() public java.util.Set
+     * java.nio.file.attribute.AclEntry.permissions()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_permissions()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.AclEntry#principal() public java.nio.file.attribute.UserPrincipal
+     * java.nio.file.attribute.AclEntry.principal()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_principal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.AclEntry#toString() public java.lang.String
+     * java.nio.file.attribute.AclEntry.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.AclEntry#type() public java.nio.file.attribute.AclEntryType
+     * java.nio.file.attribute.AclEntry.type()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_type()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

@@ -23,13 +23,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Popup#show() public void javax.swing.Popup.show()}.
+     * Test method for {@link javax.swing.Popup#hide() public void javax.swing.Popup.hide()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_show()
+    public default void test_hide()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -38,13 +38,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Popup#hide() public void javax.swing.Popup.hide()}.
+     * Test method for {@link javax.swing.Popup#show() public void javax.swing.Popup.show()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hide()
+    public default void test_show()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

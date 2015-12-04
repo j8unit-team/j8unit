@@ -36,17 +36,16 @@ public abstract interface InputSourceClassTests<SUT extends Class<? extends org.
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link org.xml.sax.InputSource#InputSource(java.io.Reader) public
-     * org.xml.sax.InputSource(java.io.Reader)}.
+     * Test method for {@link org.xml.sax.InputSource#InputSource() public org.xml.sax.InputSource()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_InputSource_Reader()
+    public default void create_InputSource()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.xml.sax.InputSource sut = null; // = new InputSource(java.io.Reader);
+        final org.xml.sax.InputSource sut = null; // = new InputSource();
     }
 
     /**
@@ -64,6 +63,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
+     * Test method for {@link org.xml.sax.InputSource#InputSource(java.io.Reader) public
+     * org.xml.sax.InputSource(java.io.Reader)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InputSource_Reader()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final org.xml.sax.InputSource sut = null; // = new InputSource(java.io.Reader);
+    }
+
+    /**
      * Test method for {@link org.xml.sax.InputSource#InputSource(java.lang.String) public
      * org.xml.sax.InputSource(java.lang.String)}.
      */
@@ -75,19 +88,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final org.xml.sax.InputSource sut = null; // = new InputSource(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link org.xml.sax.InputSource#InputSource() public org.xml.sax.InputSource()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InputSource()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final org.xml.sax.InputSource sut = null; // = new InputSource();
     }
 
     @Override

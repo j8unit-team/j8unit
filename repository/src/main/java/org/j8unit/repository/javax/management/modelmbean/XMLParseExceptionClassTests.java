@@ -36,6 +36,20 @@ public abstract interface XMLParseExceptionClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.management.modelmbean.XMLParseException#XMLParseException() public
+     * javax.management.modelmbean.XMLParseException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_XMLParseException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.modelmbean.XMLParseException sut = null; // = new XMLParseException();
+    }
+
+    /**
      * Test method for
      * {@link javax.management.modelmbean.XMLParseException#XMLParseException(java.lang.Exception,java.lang.String)
      * public javax.management.modelmbean.XMLParseException(java.lang.Exception,java.lang.String)}.
@@ -63,20 +77,6 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.management.modelmbean.XMLParseException sut = null; // = new XMLParseException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.management.modelmbean.XMLParseException#XMLParseException() public
-     * javax.management.modelmbean.XMLParseException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_XMLParseException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.modelmbean.XMLParseException sut = null; // = new XMLParseException();
     }
 
     @Override

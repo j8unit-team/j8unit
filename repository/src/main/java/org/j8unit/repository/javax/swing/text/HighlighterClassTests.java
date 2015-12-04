@@ -34,15 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface HighlighterClassTests<SUT extends Class<? extends javax.swing.text.Highlighter>>
 extends J8UnitTest<SUT> {
 
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.Highlighter> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.Highlighter.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.swing.text.Highlighter$Highlight interface javax.swing.text.Highlighter$Highlight},
@@ -122,6 +113,15 @@ extends J8UnitTest<SUT> {
             assertTrue(javax.swing.text.Highlighter.HighlightPainter.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.Highlighter> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.Highlighter.class.isAssignableFrom(sut));
     }
 
 }

@@ -23,15 +23,15 @@ extends org.j8unit.repository.java.awt.event.KeyListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.KeyAdapter#keyTyped(java.awt.event.KeyEvent) public void
-     * java.awt.event.KeyAdapter.keyTyped(java.awt.event.KeyEvent)}.
+     * Test method for {@link java.awt.event.KeyAdapter#keyPressed(java.awt.event.KeyEvent) public void
+     * java.awt.event.KeyAdapter.keyPressed(java.awt.event.KeyEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_keyTyped_KeyEvent()
+    public default void test_keyPressed_KeyEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,15 +57,15 @@ extends org.j8unit.repository.java.awt.event.KeyListenerTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.KeyAdapter#keyPressed(java.awt.event.KeyEvent) public void
-     * java.awt.event.KeyAdapter.keyPressed(java.awt.event.KeyEvent)}.
+     * Test method for {@link java.awt.event.KeyAdapter#keyTyped(java.awt.event.KeyEvent) public void
+     * java.awt.event.KeyAdapter.keyTyped(java.awt.event.KeyEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_keyPressed_KeyEvent()
+    public default void test_keyTyped_KeyEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

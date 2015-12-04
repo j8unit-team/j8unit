@@ -49,14 +49,70 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.PortableInterceptor.CurrentHelper sut = null; // = new CurrentHelper();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.CurrentHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.PortableInterceptor.Current org.omg.PortableInterceptor.CurrentHelper.extract(org.omg.CORBA.Any)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_extract_Any()
     throws Exception {
-        // create new instance
-        final Class<? extends org.omg.PortableInterceptor.CurrentHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.PortableInterceptor.CurrentHelper.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.CurrentHelper#id() public static java.lang.String
+     * org.omg.PortableInterceptor.CurrentHelper.id()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableInterceptor.CurrentHelper#insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.Current)
+     * public static void
+     * org.omg.PortableInterceptor.CurrentHelper.insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.Current)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_Current()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.CurrentHelper#narrow(org.omg.CORBA.Object) public static
+     * org.omg.PortableInterceptor.Current org.omg.PortableInterceptor.CurrentHelper.narrow(org.omg.CORBA.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_narrow_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -78,14 +134,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.CurrentHelper#extract(org.omg.CORBA.Any) public static
-     * org.omg.PortableInterceptor.Current org.omg.PortableInterceptor.CurrentHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for {@link org.omg.PortableInterceptor.CurrentHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.CurrentHelper.type()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_extract_Any()
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -128,70 +184,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.CurrentHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.CurrentHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_type()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.CurrentHelper#id() public static java.lang.String
-     * org.omg.PortableInterceptor.CurrentHelper.id()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_id()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.CurrentHelper#narrow(org.omg.CORBA.Object) public static
-     * org.omg.PortableInterceptor.Current org.omg.PortableInterceptor.CurrentHelper.narrow(org.omg.CORBA.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_narrow_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.CurrentHelper#insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.Current)
-     * public static void
-     * org.omg.PortableInterceptor.CurrentHelper.insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.Current)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_Any_Current()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.PortableInterceptor.CurrentHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.PortableInterceptor.CurrentHelper.class.isAssignableFrom(sut));
     }
 
 }

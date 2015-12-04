@@ -48,32 +48,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.CORBA.ShortSeqHelper sut = null; // = new ShortSeqHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.CORBA.ShortSeqHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.CORBA.ShortSeqHelper.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ShortSeqHelper#read(org.omg.CORBA.portable.InputStream) public static
-     * short[] org.omg.CORBA.ShortSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link org.omg.CORBA.ShortSeqHelper#extract(org.omg.CORBA.Any) public static short[]
@@ -84,6 +58,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_extract_Any()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ShortSeqHelper#id() public static java.lang.String
+     * org.omg.CORBA.ShortSeqHelper.id()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_id()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -108,14 +98,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ShortSeqHelper#id() public static java.lang.String
-     * org.omg.CORBA.ShortSeqHelper.id()}.
+     * Test method for {@link org.omg.CORBA.ShortSeqHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * short[] org.omg.CORBA.ShortSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_id()
+    public default void test_read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -152,6 +142,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.CORBA.ShortSeqHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.CORBA.ShortSeqHelper.class.isAssignableFrom(sut));
     }
 
 }

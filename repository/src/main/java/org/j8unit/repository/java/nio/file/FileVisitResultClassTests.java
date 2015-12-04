@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface FileVisitResultClassTests<SUT extends Class<? extends java.nio.file.FileVisitResult>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.nio.file.FileVisitResult> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.FileVisitResult#valueOf(java.lang.String) public static
+     * java.nio.file.FileVisitResult java.nio.file.FileVisitResult.valueOf(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_valueOf_String()
     throws Exception {
-        // create new instance
-        final Class<? extends java.nio.file.FileVisitResult> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.file.FileVisitResult.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -61,20 +67,14 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.nio.file.FileVi
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.FileVisitResult#valueOf(java.lang.String) public static
-     * java.nio.file.FileVisitResult java.nio.file.FileVisitResult.valueOf(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_valueOf_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.nio.file.FileVisitResult> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.file.FileVisitResult.class.isAssignableFrom(sut));
     }
 
 }

@@ -48,14 +48,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.awt.print.PrinterJob sut = null; // = new PrinterJob();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.awt.print.PrinterJob#getPrinterJob() public static java.awt.print.PrinterJob
+     * java.awt.print.PrinterJob.getPrinterJob()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getPrinterJob()
     throws Exception {
-        // create new instance
-        final Class<? extends java.awt.print.PrinterJob> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.print.PrinterJob.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -76,22 +82,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.PrinterJob#getPrinterJob() public static java.awt.print.PrinterJob
-     * java.awt.print.PrinterJob.getPrinterJob()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrinterJob()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.print.PrinterJob#lookupStreamPrintServices(java.lang.String) public static
      * javax.print.StreamPrintServiceFactory[] java.awt.print.PrinterJob.lookupStreamPrintServices(java.lang.String)}.
      * </p>
@@ -104,6 +94,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.print.PrinterJob> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.print.PrinterJob.class.isAssignableFrom(sut));
     }
 
 }

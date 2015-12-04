@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface AclEntryFlagClassTests<SUT extends Class<? extends java.nio.file.attribute.AclEntryFlag>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.nio.file.attribute.AclEntryFlag> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.file.attribute.AclEntryFlag> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.file.attribute.AclEntryFlag.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.nio.file.attribute.AclEntryFlag#valueOf(java.lang.String) public static
@@ -75,6 +65,16 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.nio.file.attrib
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.file.attribute.AclEntryFlag> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.file.attribute.AclEntryFlag.class.isAssignableFrom(sut));
     }
 
 }

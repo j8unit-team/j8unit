@@ -23,15 +23,14 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.ListDataEvent#toString() public java.lang.String
-     * javax.swing.event.ListDataEvent.toString()}.
+     * Test method for {@link javax.swing.event.ListDataEvent#getIndex0() public int
+     * javax.swing.event.ListDataEvent.getIndex0()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getIndex0()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +71,15 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.ListDataEvent#getIndex0() public int
-     * javax.swing.event.ListDataEvent.getIndex0()}.
+     * Test method for {@link javax.swing.event.ListDataEvent#toString() public java.lang.String
+     * javax.swing.event.ListDataEvent.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getIndex0()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -38,19 +38,33 @@ extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeSetClas
 org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.print.attribute.HashPrintServiceAttributeSet#HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttributeSet)
-     * public javax.print.attribute.HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttributeSet)}.
+     * Test method for {@link javax.print.attribute.HashPrintServiceAttributeSet#HashPrintServiceAttributeSet() public
+     * javax.print.attribute.HashPrintServiceAttributeSet()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_HashPrintServiceAttributeSet_PrintServiceAttributeSet()
+    public default void create_HashPrintServiceAttributeSet()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.print.attribute.HashPrintServiceAttributeSet sut = null; // = new HashPrintServiceAttributeSet();
+    }
+
+    /**
+     * Test method for
+     * {@link javax.print.attribute.HashPrintServiceAttributeSet#HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttribute)
+     * public javax.print.attribute.HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttribute)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HashPrintServiceAttributeSet_PrintServiceAttribute()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.print.attribute.HashPrintServiceAttributeSet sut = null; // = new
-                                                                             // HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttributeSet);
+                                                                             // HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttribute);
     }
 
     /**
@@ -71,32 +85,18 @@ org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.print.attribute.HashPrintServiceAttributeSet#HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttribute)
-     * public javax.print.attribute.HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttribute)}.
+     * {@link javax.print.attribute.HashPrintServiceAttributeSet#HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttributeSet)
+     * public javax.print.attribute.HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttributeSet)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_HashPrintServiceAttributeSet_PrintServiceAttribute()
+    public default void create_HashPrintServiceAttributeSet_PrintServiceAttributeSet()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.print.attribute.HashPrintServiceAttributeSet sut = null; // = new
-                                                                             // HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttribute);
-    }
-
-    /**
-     * Test method for {@link javax.print.attribute.HashPrintServiceAttributeSet#HashPrintServiceAttributeSet() public
-     * javax.print.attribute.HashPrintServiceAttributeSet()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HashPrintServiceAttributeSet()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.print.attribute.HashPrintServiceAttributeSet sut = null; // = new HashPrintServiceAttributeSet();
+                                                                             // HashPrintServiceAttributeSet(javax.print.attribute.PrintServiceAttributeSet);
     }
 
     @Override

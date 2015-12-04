@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.AccessibleObject#isAccessible() public boolean
-     * java.lang.reflect.AccessibleObject.isAccessible()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isAccessible()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.reflect.AccessibleObject#getAnnotation(java.lang.Class) public
      * java.lang.annotation.Annotation java.lang.reflect.AccessibleObject.getAnnotation(java.lang.Class)}.
      * </p>
@@ -56,33 +40,15 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.AccessibleObject#getDeclaredAnnotationsByType(java.lang.Class) public
-     * java.lang.annotation.Annotation[]
-     * java.lang.reflect.AccessibleObject.getDeclaredAnnotationsByType(java.lang.Class)}.
+     * Test method for {@link java.lang.reflect.AccessibleObject#getAnnotations() public
+     * java.lang.annotation.Annotation[] java.lang.reflect.AccessibleObject.getAnnotations()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getDeclaredAnnotationsByType_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.AccessibleObject#isAnnotationPresent(java.lang.Class) public boolean
-     * java.lang.reflect.AccessibleObject.isAnnotationPresent(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isAnnotationPresent_Class()
+    public default void test_getAnnotations()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -100,22 +66,6 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
     @Category(Draft.class)
     @Override
     public default void test_getAnnotationsByType_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.AccessibleObject#setAccessible(boolean) public void
-     * java.lang.reflect.AccessibleObject.setAccessible(boolean) throws java.lang.SecurityException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAccessible_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -158,15 +108,65 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.AccessibleObject#getAnnotations() public
-     * java.lang.annotation.Annotation[] java.lang.reflect.AccessibleObject.getAnnotations()}.
+     * Test method for {@link java.lang.reflect.AccessibleObject#getDeclaredAnnotationsByType(java.lang.Class) public
+     * java.lang.annotation.Annotation[]
+     * java.lang.reflect.AccessibleObject.getDeclaredAnnotationsByType(java.lang.Class)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAnnotations()
+    public default void test_getDeclaredAnnotationsByType_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.AccessibleObject#isAccessible() public boolean
+     * java.lang.reflect.AccessibleObject.isAccessible()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isAccessible()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.AccessibleObject#isAnnotationPresent(java.lang.Class) public boolean
+     * java.lang.reflect.AccessibleObject.isAnnotationPresent(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isAnnotationPresent_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.AccessibleObject#setAccessible(boolean) public void
+     * java.lang.reflect.AccessibleObject.setAccessible(boolean) throws java.lang.SecurityException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAccessible_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

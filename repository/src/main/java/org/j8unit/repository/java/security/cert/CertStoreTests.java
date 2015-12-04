@@ -23,14 +23,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertStore#getType() public final java.lang.String
-     * java.security.cert.CertStore.getType()}.
+     * Test method for {@link java.security.cert.CertStore#getCertificates(java.security.cert.CertSelector) public final
+     * java.util.Collection java.security.cert.CertStore.getCertificates(java.security.cert.CertSelector) throws
+     * java.security.cert.CertStoreException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getType()
+    public default void test_getCertificates_CertSelector()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CertStore#getCertStoreParameters() public final
+     * java.security.cert.CertStoreParameters java.security.cert.CertStore.getCertStoreParameters()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCertStoreParameters()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,39 +73,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertStore#getCertStoreParameters() public final
-     * java.security.cert.CertStoreParameters java.security.cert.CertStore.getCertStoreParameters()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCertStoreParameters()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.CertStore#getCertificates(java.security.cert.CertSelector) public final
-     * java.util.Collection java.security.cert.CertStore.getCertificates(java.security.cert.CertSelector) throws
-     * java.security.cert.CertStoreException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCertificates_CertSelector()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.cert.CertStore#getProvider() public final java.security.Provider
      * java.security.cert.CertStore.getProvider()}.
      * </p>
@@ -97,6 +81,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getProvider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CertStore#getType() public final java.lang.String
+     * java.security.cert.CertStore.getType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.TypeVariable#getName() public abstract java.lang.String
-     * java.lang.reflect.TypeVariable.getName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.reflect.TypeVariable#getAnnotatedBounds() public abstract
      * java.lang.reflect.AnnotatedType[] java.lang.reflect.TypeVariable.getAnnotatedBounds()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repos
     @Test
     @Category(Draft.class)
     public default void test_getAnnotatedBounds()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.TypeVariable#getBounds() public abstract java.lang.reflect.Type[]
+     * java.lang.reflect.TypeVariable.getBounds()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBounds()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +71,14 @@ extends org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.TypeVariable#getBounds() public abstract java.lang.reflect.Type[]
-     * java.lang.reflect.TypeVariable.getBounds()}.
+     * Test method for {@link java.lang.reflect.TypeVariable#getName() public abstract java.lang.String
+     * java.lang.reflect.TypeVariable.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBounds()
+    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

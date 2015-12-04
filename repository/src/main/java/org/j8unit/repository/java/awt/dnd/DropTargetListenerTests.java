@@ -23,30 +23,14 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetListener#dragOver(java.awt.dnd.DropTargetDragEvent) public abstract
-     * void java.awt.dnd.DropTargetListener.dragOver(java.awt.dnd.DropTargetDragEvent)}.
+     * Test method for {@link java.awt.dnd.DropTargetListener#dragEnter(java.awt.dnd.DropTargetDragEvent) public
+     * abstract void java.awt.dnd.DropTargetListener.dragEnter(java.awt.dnd.DropTargetDragEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_dragOver_DropTargetDragEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetListener#dropActionChanged(java.awt.dnd.DropTargetDragEvent) public
-     * abstract void java.awt.dnd.DropTargetListener.dropActionChanged(java.awt.dnd.DropTargetDragEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_dropActionChanged_DropTargetDragEvent()
+    public default void test_dragEnter_DropTargetDragEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,6 +55,22 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.dnd.DropTargetListener#dragOver(java.awt.dnd.DropTargetDragEvent) public abstract
+     * void java.awt.dnd.DropTargetListener.dragOver(java.awt.dnd.DropTargetDragEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_dragOver_DropTargetDragEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.dnd.DropTargetListener#drop(java.awt.dnd.DropTargetDropEvent) public abstract
      * void java.awt.dnd.DropTargetListener.drop(java.awt.dnd.DropTargetDropEvent)}.
      * </p>
@@ -87,14 +87,14 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetListener#dragEnter(java.awt.dnd.DropTargetDragEvent) public
-     * abstract void java.awt.dnd.DropTargetListener.dragEnter(java.awt.dnd.DropTargetDragEvent)}.
+     * Test method for {@link java.awt.dnd.DropTargetListener#dropActionChanged(java.awt.dnd.DropTargetDragEvent) public
+     * abstract void java.awt.dnd.DropTargetListener.dropActionChanged(java.awt.dnd.DropTargetDragEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_dragEnter_DropTargetDragEvent()
+    public default void test_dropActionChanged_DropTargetDragEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

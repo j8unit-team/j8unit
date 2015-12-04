@@ -23,6 +23,111 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for
+     * {@link java.beans.VetoableChangeSupport#addVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)
+     * public void
+     * java.beans.VetoableChangeSupport.addVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addVetoableChangeListener_String_VetoableChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.beans.VetoableChangeSupport#addVetoableChangeListener(java.beans.VetoableChangeListener) public void
+     * java.beans.VetoableChangeSupport.addVetoableChangeListener(java.beans.VetoableChangeListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addVetoableChangeListener_VetoableChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.VetoableChangeSupport#fireVetoableChange(java.beans.PropertyChangeEvent) public
+     * void java.beans.VetoableChangeSupport.fireVetoableChange(java.beans.PropertyChangeEvent) throws
+     * java.beans.PropertyVetoException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fireVetoableChange_PropertyChangeEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.VetoableChangeSupport#fireVetoableChange(java.lang.String,boolean,boolean)
+     * public void java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,boolean,boolean) throws
+     * java.beans.PropertyVetoException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fireVetoableChange_String_boolean_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.VetoableChangeSupport#fireVetoableChange(java.lang.String,int,int) public void
+     * java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,int,int) throws
+     * java.beans.PropertyVetoException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fireVetoableChange_String_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.beans.VetoableChangeSupport#fireVetoableChange(java.lang.String,java.lang.Object,java.lang.Object)
+     * public void
+     * java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,java.lang.Object,java.lang.Object) throws
+     * java.beans.PropertyVetoException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fireVetoableChange_String_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.beans.VetoableChangeSupport#getVetoableChangeListeners() public
      * java.beans.VetoableChangeListener[] java.beans.VetoableChangeSupport.getVetoableChangeListeners()}.
      * </p>
@@ -56,50 +161,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
-     * {@link java.beans.VetoableChangeSupport#addVetoableChangeListener(java.beans.VetoableChangeListener) public void
-     * java.beans.VetoableChangeSupport.addVetoableChangeListener(java.beans.VetoableChangeListener)}.
+     * Test method for {@link java.beans.VetoableChangeSupport#hasListeners(java.lang.String) public boolean
+     * java.beans.VetoableChangeSupport.hasListeners(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addVetoableChangeListener_VetoableChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.beans.VetoableChangeSupport#addVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)
-     * public void
-     * java.beans.VetoableChangeSupport.addVetoableChangeListener(java.lang.String,java.beans.VetoableChangeListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addVetoableChangeListener_String_VetoableChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.beans.VetoableChangeSupport#removeVetoableChangeListener(java.beans.VetoableChangeListener) public
-     * void java.beans.VetoableChangeSupport.removeVetoableChangeListener(java.beans.VetoableChangeListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeVetoableChangeListener_VetoableChangeListener()
+    public default void test_hasListeners_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,84 +196,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#hasListeners(java.lang.String) public boolean
-     * java.beans.VetoableChangeSupport.hasListeners(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hasListeners_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
-     * {@link java.beans.VetoableChangeSupport#fireVetoableChange(java.lang.String,java.lang.Object,java.lang.Object)
-     * public void
-     * java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,java.lang.Object,java.lang.Object) throws
-     * java.beans.PropertyVetoException}.
+     * {@link java.beans.VetoableChangeSupport#removeVetoableChangeListener(java.beans.VetoableChangeListener) public
+     * void java.beans.VetoableChangeSupport.removeVetoableChangeListener(java.beans.VetoableChangeListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_fireVetoableChange_String_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#fireVetoableChange(java.lang.String,boolean,boolean)
-     * public void java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,boolean,boolean) throws
-     * java.beans.PropertyVetoException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fireVetoableChange_String_boolean_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#fireVetoableChange(java.beans.PropertyChangeEvent) public
-     * void java.beans.VetoableChangeSupport.fireVetoableChange(java.beans.PropertyChangeEvent) throws
-     * java.beans.PropertyVetoException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fireVetoableChange_PropertyChangeEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.VetoableChangeSupport#fireVetoableChange(java.lang.String,int,int) public void
-     * java.beans.VetoableChangeSupport.fireVetoableChange(java.lang.String,int,int) throws
-     * java.beans.PropertyVetoException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fireVetoableChange_String_int_int()
+    public default void test_removeVetoableChangeListener_VetoableChangeListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

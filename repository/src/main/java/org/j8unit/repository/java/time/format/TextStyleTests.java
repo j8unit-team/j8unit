@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.time.format.TextStyl
 
     /**
      * <p>
-     * Test method for {@link java.time.format.TextStyle#isStandalone() public boolean
-     * java.time.format.TextStyle.isStandalone()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isStandalone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.time.format.TextStyle#asNormal() public java.time.format.TextStyle
      * java.time.format.TextStyle.asNormal()}.
      * </p>
@@ -63,6 +47,22 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, java.time.format.TextStyl
     @Test
     @Category(Draft.class)
     public default void test_asStandalone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.format.TextStyle#isStandalone() public boolean
+     * java.time.format.TextStyle.isStandalone()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isStandalone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,14 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.sasl.SaslServer#getAuthorizationID() public abstract java.lang.String
-     * javax.security.sasl.SaslServer.getAuthorizationID()}.
+     * Test method for {@link javax.security.sasl.SaslServer#dispose() public abstract void
+     * javax.security.sasl.SaslServer.dispose() throws javax.security.sasl.SaslException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAuthorizationID()
+    public default void test_dispose()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,14 +56,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.sasl.SaslServer#dispose() public abstract void
-     * javax.security.sasl.SaslServer.dispose() throws javax.security.sasl.SaslException}.
+     * Test method for {@link javax.security.sasl.SaslServer#getAuthorizationID() public abstract java.lang.String
+     * javax.security.sasl.SaslServer.getAuthorizationID()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_dispose()
+    public default void test_getAuthorizationID()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -80,22 +80,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMechanismName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.sasl.SaslServer#unwrap(byte[],int,int) public abstract byte[]
-     * javax.security.sasl.SaslServer.unwrap(byte[],int,int) throws javax.security.sasl.SaslException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unwrap_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -128,6 +112,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isComplete()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.sasl.SaslServer#unwrap(byte[],int,int) public abstract byte[]
+     * javax.security.sasl.SaslServer.unwrap(byte[],int,int) throws javax.security.sasl.SaslException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unwrap_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

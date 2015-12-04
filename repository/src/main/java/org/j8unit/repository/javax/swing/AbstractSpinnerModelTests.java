@@ -57,6 +57,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.AbstractSpinnerModel#getListeners(java.lang.Class) public
+     * java.util.EventListener[] javax.swing.AbstractSpinnerModel.getListeners(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getListeners_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.AbstractSpinnerModel#removeChangeListener(javax.swing.event.ChangeListener)
      * public void javax.swing.AbstractSpinnerModel.removeChangeListener(javax.swing.event.ChangeListener)}.
      * </p>
@@ -66,22 +82,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_removeChangeListener_ChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.AbstractSpinnerModel#getListeners(java.lang.Class) public
-     * java.util.EventListener[] javax.swing.AbstractSpinnerModel.getListeners(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getListeners_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

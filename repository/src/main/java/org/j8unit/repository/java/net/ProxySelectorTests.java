@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.ProxySelector#select(java.net.URI) public abstract java.util.List
-     * java.net.ProxySelector.select(java.net.URI)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_select_URI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.net.ProxySelector#connectFailed(java.net.URI,java.net.SocketAddress,java.io.IOException) public
      * abstract void java.net.ProxySelector.connectFailed(java.net.URI,java.net.SocketAddress,java.io.IOException)}.
@@ -48,6 +32,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_connectFailed_URI_SocketAddress_IOException()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.ProxySelector#select(java.net.URI) public abstract java.util.List
+     * java.net.ProxySelector.select(java.net.URI)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_select_URI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

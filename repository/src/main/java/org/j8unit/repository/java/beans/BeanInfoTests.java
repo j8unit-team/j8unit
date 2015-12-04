@@ -40,54 +40,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.BeanInfo#getDefaultPropertyIndex() public abstract int
-     * java.beans.BeanInfo.getDefaultPropertyIndex()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultPropertyIndex()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.BeanInfo#getMethodDescriptors() public abstract java.beans.MethodDescriptor[]
-     * java.beans.BeanInfo.getMethodDescriptors()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMethodDescriptors()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.BeanInfo#getIcon(int) public abstract java.awt.Image
-     * java.beans.BeanInfo.getIcon(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIcon_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.beans.BeanInfo#getBeanDescriptor() public abstract java.beans.BeanDescriptor
      * java.beans.BeanInfo.getBeanDescriptor()}.
      * </p>
@@ -96,6 +48,38 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getBeanDescriptor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.BeanInfo#getDefaultEventIndex() public abstract int
+     * java.beans.BeanInfo.getDefaultEventIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaultEventIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.BeanInfo#getDefaultPropertyIndex() public abstract int
+     * java.beans.BeanInfo.getDefaultPropertyIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaultPropertyIndex()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,14 +104,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.BeanInfo#getPropertyDescriptors() public abstract
-     * java.beans.PropertyDescriptor[] java.beans.BeanInfo.getPropertyDescriptors()}.
+     * Test method for {@link java.beans.BeanInfo#getIcon(int) public abstract java.awt.Image
+     * java.beans.BeanInfo.getIcon(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPropertyDescriptors()
+    public default void test_getIcon_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -136,14 +120,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.BeanInfo#getDefaultEventIndex() public abstract int
-     * java.beans.BeanInfo.getDefaultEventIndex()}.
+     * Test method for {@link java.beans.BeanInfo#getMethodDescriptors() public abstract java.beans.MethodDescriptor[]
+     * java.beans.BeanInfo.getMethodDescriptors()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDefaultEventIndex()
+    public default void test_getMethodDescriptors()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.BeanInfo#getPropertyDescriptors() public abstract
+     * java.beans.PropertyDescriptor[] java.beans.BeanInfo.getPropertyDescriptors()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPropertyDescriptors()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

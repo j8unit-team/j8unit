@@ -23,21 +23,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.Key#getEncoded() public abstract byte[] java.security.Key.getEncoded()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEncoded()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.Key#getAlgorithm() public abstract java.lang.String
      * java.security.Key.getAlgorithm()}.
      * </p>
@@ -46,6 +31,21 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAlgorithm()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.Key#getEncoded() public abstract byte[] java.security.Key.getEncoded()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEncoded()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

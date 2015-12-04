@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.awt.im.InputMethodRequestsTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.im.spi.InputMethodContext#createInputMethodJFrame(java.lang.String,boolean)
+     * public abstract javax.swing.JFrame
+     * java.awt.im.spi.InputMethodContext.createInputMethodJFrame(java.lang.String,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createInputMethodJFrame_String_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.im.spi.InputMethodContext#createInputMethodWindow(java.lang.String,boolean)
      * public abstract java.awt.Window
      * java.awt.im.spi.InputMethodContext.createInputMethodWindow(java.lang.String,boolean)}.
@@ -51,23 +68,6 @@ extends org.j8unit.repository.java.awt.im.InputMethodRequestsTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_dispatchInputMethodEvent_int_AttributedCharacterIterator_int_TextHitInfo_TextHitInfo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.im.spi.InputMethodContext#createInputMethodJFrame(java.lang.String,boolean)
-     * public abstract javax.swing.JFrame
-     * java.awt.im.spi.InputMethodContext.createInputMethodJFrame(java.lang.String,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createInputMethodJFrame_String_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

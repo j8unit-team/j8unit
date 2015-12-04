@@ -23,38 +23,6 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLModElement#setDateTime(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLModElement.setDateTime(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDateTime_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLModElement#setCite(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLModElement.setCite(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCite_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLModElement#getCite() public abstract java.lang.String
      * org.w3c.dom.html.HTMLModElement.getCite()}.
      * </p>
@@ -79,6 +47,38 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDateTime()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLModElement#setCite(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLModElement.setCite(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCite_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLModElement#setDateTime(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLModElement.setDateTime(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDateTime_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

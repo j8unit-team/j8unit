@@ -23,104 +23,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.JapaneseChronology#zonedDateTime(java.time.Instant,java.time.ZoneId)
-     * public java.time.chrono.ChronoZonedDateTime
-     * java.time.chrono.JapaneseChronology.zonedDateTime(java.time.Instant,java.time.ZoneId)}.
+     * Test method for {@link java.time.chrono.JapaneseChronology#date(java.time.chrono.Era,int,int,int) public
+     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.date(java.time.chrono.Era,int,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_zonedDateTime_Instant_ZoneId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.JapaneseChronology#zonedDateTime(java.time.temporal.TemporalAccessor)
-     * public java.time.chrono.ChronoZonedDateTime
-     * java.time.chrono.JapaneseChronology.zonedDateTime(java.time.temporal.TemporalAccessor)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_zonedDateTime_TemporalAccessor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.JapaneseChronology#eras() public java.util.List
-     * java.time.chrono.JapaneseChronology.eras()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_eras()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.JapaneseChronology#prolepticYear(java.time.chrono.Era,int) public int
-     * java.time.chrono.JapaneseChronology.prolepticYear(java.time.chrono.Era,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_prolepticYear_Era_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.time.chrono.JapaneseChronology#resolveDate(java.util.Map,java.time.format.ResolverStyle) public
-     * java.time.chrono.JapaneseDate
-     * java.time.chrono.JapaneseChronology.resolveDate(java.util.Map,java.time.format.ResolverStyle)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_resolveDate_Map_ResolverStyle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.JapaneseChronology#date(java.time.temporal.TemporalAccessor) public
-     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.date(java.time.temporal.TemporalAccessor)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_date_TemporalAccessor()
+    public default void test_date_Era_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -146,15 +57,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.JapaneseChronology#date(java.time.chrono.Era,int,int,int) public
-     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.date(java.time.chrono.Era,int,int,int)}.
+     * Test method for {@link java.time.chrono.JapaneseChronology#date(java.time.temporal.TemporalAccessor) public
+     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.date(java.time.temporal.TemporalAccessor)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_date_Era_int_int_int()
+    public default void test_date_TemporalAccessor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -163,84 +74,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.JapaneseChronology#localDateTime(java.time.temporal.TemporalAccessor)
-     * public java.time.chrono.ChronoLocalDateTime
-     * java.time.chrono.JapaneseChronology.localDateTime(java.time.temporal.TemporalAccessor)}.
+     * Test method for {@link java.time.chrono.JapaneseChronology#dateEpochDay(long) public
+     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.dateEpochDay(long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_localDateTime_TemporalAccessor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.JapaneseChronology#getCalendarType() public java.lang.String
-     * java.time.chrono.JapaneseChronology.getCalendarType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getCalendarType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.JapaneseChronology#dateYearDay(int,int) public
-     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.dateYearDay(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_dateYearDay_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.JapaneseChronology#dateYearDay(java.time.chrono.Era,int,int) public
-     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.dateYearDay(java.time.chrono.Era,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_dateYearDay_Era_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.JapaneseChronology#dateNow(java.time.ZoneId) public
-     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.dateNow(java.time.ZoneId)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_dateNow_ZoneId()
+    public default void test_dateEpochDay_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -283,6 +125,57 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link java.time.chrono.JapaneseChronology#dateNow(java.time.ZoneId) public
+     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.dateNow(java.time.ZoneId)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_dateNow_ZoneId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.chrono.JapaneseChronology#dateYearDay(java.time.chrono.Era,int,int) public
+     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.dateYearDay(java.time.chrono.Era,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_dateYearDay_Era_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.chrono.JapaneseChronology#dateYearDay(int,int) public
+     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.dateYearDay(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_dateYearDay_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.time.chrono.JapaneseChronology#eraOf(int) public java.time.chrono.JapaneseEra
      * java.time.chrono.JapaneseChronology.eraOf(int)}.
      * </p>
@@ -300,15 +193,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.JapaneseChronology#range(java.time.temporal.ChronoField) public
-     * java.time.temporal.ValueRange java.time.chrono.JapaneseChronology.range(java.time.temporal.ChronoField)}.
+     * Test method for {@link java.time.chrono.JapaneseChronology#eras() public java.util.List
+     * java.time.chrono.JapaneseChronology.eras()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_range_ChronoField()
+    public default void test_eras()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -317,15 +210,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.JapaneseChronology#isLeapYear(long) public boolean
-     * java.time.chrono.JapaneseChronology.isLeapYear(long)}.
+     * Test method for {@link java.time.chrono.JapaneseChronology#getCalendarType() public java.lang.String
+     * java.time.chrono.JapaneseChronology.getCalendarType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isLeapYear_long()
+    public default void test_getCalendarType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -351,15 +244,122 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.JapaneseChronology#dateEpochDay(long) public
-     * java.time.chrono.JapaneseDate java.time.chrono.JapaneseChronology.dateEpochDay(long)}.
+     * Test method for {@link java.time.chrono.JapaneseChronology#isLeapYear(long) public boolean
+     * java.time.chrono.JapaneseChronology.isLeapYear(long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_dateEpochDay_long()
+    public default void test_isLeapYear_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.chrono.JapaneseChronology#localDateTime(java.time.temporal.TemporalAccessor)
+     * public java.time.chrono.ChronoLocalDateTime
+     * java.time.chrono.JapaneseChronology.localDateTime(java.time.temporal.TemporalAccessor)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_localDateTime_TemporalAccessor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.chrono.JapaneseChronology#prolepticYear(java.time.chrono.Era,int) public int
+     * java.time.chrono.JapaneseChronology.prolepticYear(java.time.chrono.Era,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_prolepticYear_Era_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.chrono.JapaneseChronology#range(java.time.temporal.ChronoField) public
+     * java.time.temporal.ValueRange java.time.chrono.JapaneseChronology.range(java.time.temporal.ChronoField)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_range_ChronoField()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.time.chrono.JapaneseChronology#resolveDate(java.util.Map,java.time.format.ResolverStyle) public
+     * java.time.chrono.JapaneseDate
+     * java.time.chrono.JapaneseChronology.resolveDate(java.util.Map,java.time.format.ResolverStyle)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_resolveDate_Map_ResolverStyle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.chrono.JapaneseChronology#zonedDateTime(java.time.Instant,java.time.ZoneId)
+     * public java.time.chrono.ChronoZonedDateTime
+     * java.time.chrono.JapaneseChronology.zonedDateTime(java.time.Instant,java.time.ZoneId)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_zonedDateTime_Instant_ZoneId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.chrono.JapaneseChronology#zonedDateTime(java.time.temporal.TemporalAccessor)
+     * public java.time.chrono.ChronoZonedDateTime
+     * java.time.chrono.JapaneseChronology.zonedDateTime(java.time.temporal.TemporalAccessor)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_zonedDateTime_TemporalAccessor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

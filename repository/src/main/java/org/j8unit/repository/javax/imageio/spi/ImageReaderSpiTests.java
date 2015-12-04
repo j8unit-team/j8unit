@@ -23,30 +23,14 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageReaderSpi#isOwnReader(javax.imageio.ImageReader) public boolean
-     * javax.imageio.spi.ImageReaderSpi.isOwnReader(javax.imageio.ImageReader)}.
+     * Test method for {@link javax.imageio.spi.ImageReaderSpi#canDecodeInput(java.lang.Object) public abstract boolean
+     * javax.imageio.spi.ImageReaderSpi.canDecodeInput(java.lang.Object) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isOwnReader_ImageReader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageReaderSpi#getInputTypes() public java.lang.Class[]
-     * javax.imageio.spi.ImageReaderSpi.getInputTypes()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInputTypes()
+    public default void test_canDecodeInput_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,22 +72,6 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageReaderSpi#canDecodeInput(java.lang.Object) public abstract boolean
-     * javax.imageio.spi.ImageReaderSpi.canDecodeInput(java.lang.Object) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canDecodeInput_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.imageio.spi.ImageReaderSpi#getImageWriterSpiNames() public java.lang.String[]
      * javax.imageio.spi.ImageReaderSpi.getImageWriterSpiNames()}.
      * </p>
@@ -112,6 +80,38 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getImageWriterSpiNames()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.spi.ImageReaderSpi#getInputTypes() public java.lang.Class[]
+     * javax.imageio.spi.ImageReaderSpi.getInputTypes()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInputTypes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.spi.ImageReaderSpi#isOwnReader(javax.imageio.ImageReader) public boolean
+     * javax.imageio.spi.ImageReaderSpi.isOwnReader(javax.imageio.ImageReader)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isOwnReader_ImageReader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

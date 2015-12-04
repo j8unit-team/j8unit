@@ -36,20 +36,6 @@ public abstract interface FutureTaskClassTests<SUT extends Class<? extends java.
 extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT, V>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.concurrent.FutureTask#FutureTask(java.lang.Runnable,java.lang.Object) public
-     * java.util.concurrent.FutureTask(java.lang.Runnable,java.lang.Object)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FutureTask_Runnable_Object()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.FutureTask<V> sut = null; // = new FutureTask(java.lang.Runnable,java.lang.Object);
-    }
-
-    /**
      * Test method for {@link java.util.concurrent.FutureTask#FutureTask(java.util.concurrent.Callable) public
      * java.util.concurrent.FutureTask(java.util.concurrent.Callable)}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT,
         // create new instance
         @SuppressWarnings("unused")
         final java.util.concurrent.FutureTask<V> sut = null; // = new FutureTask(java.util.concurrent.Callable);
+    }
+
+    /**
+     * Test method for {@link java.util.concurrent.FutureTask#FutureTask(java.lang.Runnable,java.lang.Object) public
+     * java.util.concurrent.FutureTask(java.lang.Runnable,java.lang.Object)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FutureTask_Runnable_Object()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.FutureTask<V> sut = null; // = new FutureTask(java.lang.Runnable,java.lang.Object);
     }
 
     @Override

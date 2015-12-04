@@ -36,6 +36,33 @@ public abstract interface SimpleDateFormatClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.java.text.DateFormatClassTests<SUT> {
 
     /**
+     * Test method for {@link java.text.SimpleDateFormat#SimpleDateFormat() public java.text.SimpleDateFormat()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SimpleDateFormat()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.text.SimpleDateFormat sut = null; // = new SimpleDateFormat();
+    }
+
+    /**
+     * Test method for {@link java.text.SimpleDateFormat#SimpleDateFormat(java.lang.String) public
+     * java.text.SimpleDateFormat(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SimpleDateFormat_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.text.SimpleDateFormat sut = null; // = new SimpleDateFormat(java.lang.String);
+    }
+
+    /**
      * Test method for {@link java.text.SimpleDateFormat#SimpleDateFormat(java.lang.String,java.text.DateFormatSymbols)
      * public java.text.SimpleDateFormat(java.lang.String,java.text.DateFormatSymbols)}.
      */
@@ -62,33 +89,6 @@ extends org.j8unit.repository.java.text.DateFormatClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.text.SimpleDateFormat sut = null; // = new SimpleDateFormat(java.lang.String,java.util.Locale);
-    }
-
-    /**
-     * Test method for {@link java.text.SimpleDateFormat#SimpleDateFormat(java.lang.String) public
-     * java.text.SimpleDateFormat(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SimpleDateFormat_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.text.SimpleDateFormat sut = null; // = new SimpleDateFormat(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.text.SimpleDateFormat#SimpleDateFormat() public java.text.SimpleDateFormat()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SimpleDateFormat()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.text.SimpleDateFormat sut = null; // = new SimpleDateFormat();
     }
 
     @Override

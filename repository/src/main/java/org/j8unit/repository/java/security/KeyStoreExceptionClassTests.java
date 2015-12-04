@@ -36,17 +36,31 @@ public abstract interface KeyStoreExceptionClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.KeyStoreException#KeyStoreException(java.lang.Throwable) public
-     * java.security.KeyStoreException(java.lang.Throwable)}.
+     * Test method for {@link java.security.KeyStoreException#KeyStoreException() public
+     * java.security.KeyStoreException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_KeyStoreException_Throwable()
+    public default void create_KeyStoreException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.KeyStoreException sut = null; // = new KeyStoreException(java.lang.Throwable);
+        final java.security.KeyStoreException sut = null; // = new KeyStoreException();
+    }
+
+    /**
+     * Test method for {@link java.security.KeyStoreException#KeyStoreException(java.lang.String) public
+     * java.security.KeyStoreException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_KeyStoreException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.KeyStoreException sut = null; // = new KeyStoreException(java.lang.String);
     }
 
     /**
@@ -65,31 +79,17 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     }
 
     /**
-     * Test method for {@link java.security.KeyStoreException#KeyStoreException(java.lang.String) public
-     * java.security.KeyStoreException(java.lang.String)}.
+     * Test method for {@link java.security.KeyStoreException#KeyStoreException(java.lang.Throwable) public
+     * java.security.KeyStoreException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_KeyStoreException_String()
+    public default void create_KeyStoreException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.KeyStoreException sut = null; // = new KeyStoreException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.security.KeyStoreException#KeyStoreException() public
-     * java.security.KeyStoreException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_KeyStoreException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.KeyStoreException sut = null; // = new KeyStoreException();
+        final java.security.KeyStoreException sut = null; // = new KeyStoreException(java.lang.Throwable);
     }
 
     @Override

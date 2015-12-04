@@ -23,15 +23,15 @@ extends org.j8unit.repository.javax.swing.plaf.PanelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicPanelUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicPanelUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicPanelUI#getBaseline(javax.swing.JComponent,int,int) public int
+     * javax.swing.plaf.basic.BasicPanelUI.getBaseline(javax.swing.JComponent,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_uninstallUI_JComponent()
+    public default void test_getBaseline_JComponent_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -75,15 +75,15 @@ extends org.j8unit.repository.javax.swing.plaf.PanelUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicPanelUI#getBaseline(javax.swing.JComponent,int,int) public int
-     * javax.swing.plaf.basic.BasicPanelUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicPanelUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicPanelUI.uninstallUI(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getBaseline_JComponent_int_int()
+    public default void test_uninstallUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

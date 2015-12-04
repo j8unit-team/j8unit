@@ -37,54 +37,18 @@ extends org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.awt.LinearGradientPaint#LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod,java.awt.MultipleGradientPaint.ColorSpaceType,java.awt.geom.AffineTransform)
-     * public
-     * java.awt.LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint$CycleMethod,java.awt.MultipleGradientPaint$ColorSpaceType,java.awt.geom.AffineTransform)}
-     * .
+     * {@link java.awt.LinearGradientPaint#LinearGradientPaint(float,float,float,float,float[],java.awt.Color[]) public
+     * java.awt.LinearGradientPaint(float,float,float,float,float[],java.awt.Color[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_LinearGradientPaint_Point2D_Point2D_floatArray_ColorArray_CycleMethod_ColorSpaceType_AffineTransform()
+    public default void create_LinearGradientPaint_float_float_float_float_floatArray_ColorArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.LinearGradientPaint sut = null; // = new
-                                                       // LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod,java.awt.MultipleGradientPaint.ColorSpaceType,java.awt.geom.AffineTransform);
-    }
-
-    /**
-     * Test method for
-     * {@link java.awt.LinearGradientPaint#LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod)
-     * public
-     * java.awt.LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint$CycleMethod)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LinearGradientPaint_Point2D_Point2D_floatArray_ColorArray_CycleMethod()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.LinearGradientPaint sut = null; // = new
-                                                       // LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod);
-    }
-
-    /**
-     * Test method for
-     * {@link java.awt.LinearGradientPaint#LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[])
-     * public java.awt.LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LinearGradientPaint_Point2D_Point2D_floatArray_ColorArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.LinearGradientPaint sut = null; // = new
-                                                       // LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[]);
+                                                       // LinearGradientPaint(float,float,float,float,float[],java.awt.Color[]);
     }
 
     /**
@@ -107,18 +71,54 @@ extends org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.awt.LinearGradientPaint#LinearGradientPaint(float,float,float,float,float[],java.awt.Color[]) public
-     * java.awt.LinearGradientPaint(float,float,float,float,float[],java.awt.Color[])}.
+     * {@link java.awt.LinearGradientPaint#LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[])
+     * public java.awt.LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_LinearGradientPaint_float_float_float_float_floatArray_ColorArray()
+    public default void create_LinearGradientPaint_Point2D_Point2D_floatArray_ColorArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.LinearGradientPaint sut = null; // = new
-                                                       // LinearGradientPaint(float,float,float,float,float[],java.awt.Color[]);
+                                                       // LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[]);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.LinearGradientPaint#LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod)
+     * public
+     * java.awt.LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint$CycleMethod)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LinearGradientPaint_Point2D_Point2D_floatArray_ColorArray_CycleMethod()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.LinearGradientPaint sut = null; // = new
+                                                       // LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.LinearGradientPaint#LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod,java.awt.MultipleGradientPaint.ColorSpaceType,java.awt.geom.AffineTransform)
+     * public
+     * java.awt.LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint$CycleMethod,java.awt.MultipleGradientPaint$ColorSpaceType,java.awt.geom.AffineTransform)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LinearGradientPaint_Point2D_Point2D_floatArray_ColorArray_CycleMethod_ColorSpaceType_AffineTransform()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.LinearGradientPaint sut = null; // = new
+                                                       // LinearGradientPaint(java.awt.geom.Point2D,java.awt.geom.Point2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod,java.awt.MultipleGradientPaint.ColorSpaceType,java.awt.geom.AffineTransform);
     }
 
     @Override

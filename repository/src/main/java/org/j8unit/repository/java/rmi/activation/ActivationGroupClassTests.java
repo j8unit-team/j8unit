@@ -36,16 +36,6 @@ public abstract interface ActivationGroupClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.rmi.activation.ActivationInstantiatorClassTests<SUT>,
 org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.rmi.activation.ActivationGroup> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.rmi.activation.ActivationGroup.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for
@@ -59,6 +49,22 @@ org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createGroup_ActivationGroupID_ActivationGroupDesc_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.activation.ActivationGroup#currentGroupID() public static synchronized
+     * java.rmi.activation.ActivationGroupID java.rmi.activation.ActivationGroup.currentGroupID()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_currentGroupID()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -99,20 +105,14 @@ org.j8unit.repository.java.rmi.server.UnicastRemoteObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.rmi.activation.ActivationGroup#currentGroupID() public static synchronized
-     * java.rmi.activation.ActivationGroupID java.rmi.activation.ActivationGroup.currentGroupID()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_currentGroupID()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.rmi.activation.ActivationGroup> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.rmi.activation.ActivationGroup.class.isAssignableFrom(sut));
     }
 
 }

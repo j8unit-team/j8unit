@@ -23,70 +23,6 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPHeaderElement#setRole(java.lang.String) public abstract void
-     * javax.xml.soap.SOAPHeaderElement.setRole(java.lang.String) throws javax.xml.soap.SOAPException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRole_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPHeaderElement#getMustUnderstand() public abstract boolean
-     * javax.xml.soap.SOAPHeaderElement.getMustUnderstand()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMustUnderstand()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPHeaderElement#setActor(java.lang.String) public abstract void
-     * javax.xml.soap.SOAPHeaderElement.setActor(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setActor_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPHeaderElement#setRelay(boolean) public abstract void
-     * javax.xml.soap.SOAPHeaderElement.setRelay(boolean) throws javax.xml.soap.SOAPException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRelay_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.soap.SOAPHeaderElement#getActor() public abstract java.lang.String
      * javax.xml.soap.SOAPHeaderElement.getActor()}.
      * </p>
@@ -103,14 +39,14 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPHeaderElement#setMustUnderstand(boolean) public abstract void
-     * javax.xml.soap.SOAPHeaderElement.setMustUnderstand(boolean)}.
+     * Test method for {@link javax.xml.soap.SOAPHeaderElement#getMustUnderstand() public abstract boolean
+     * javax.xml.soap.SOAPHeaderElement.getMustUnderstand()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setMustUnderstand_boolean()
+    public default void test_getMustUnderstand()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,6 +79,70 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getRole()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPHeaderElement#setActor(java.lang.String) public abstract void
+     * javax.xml.soap.SOAPHeaderElement.setActor(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setActor_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPHeaderElement#setMustUnderstand(boolean) public abstract void
+     * javax.xml.soap.SOAPHeaderElement.setMustUnderstand(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMustUnderstand_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPHeaderElement#setRelay(boolean) public abstract void
+     * javax.xml.soap.SOAPHeaderElement.setRelay(boolean) throws javax.xml.soap.SOAPException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRelay_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPHeaderElement#setRole(java.lang.String) public abstract void
+     * javax.xml.soap.SOAPHeaderElement.setRole(java.lang.String) throws javax.xml.soap.SOAPException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRole_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

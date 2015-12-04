@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ExemptionMechanismClassTests<SUT extends Class<? extends javax.crypto.ExemptionMechanism>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.crypto.ExemptionMechanism> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.crypto.ExemptionMechanism.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.crypto.ExemptionMechanism#getInstance(java.lang.String) public static final
@@ -96,6 +86,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.crypto.ExemptionMechanism> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.crypto.ExemptionMechanism.class.isAssignableFrom(sut));
     }
 
 }

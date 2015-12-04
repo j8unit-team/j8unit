@@ -48,16 +48,6 @@ extends org.j8unit.repository.java.awt.PanelClassTests<SUT> {
         final java.applet.Applet sut = null; // = new Applet();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.applet.Applet> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.applet.Applet.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.applet.Applet#newAudioClip(java.net.URL) public static final java.applet.AudioClip
@@ -72,6 +62,16 @@ extends org.j8unit.repository.java.awt.PanelClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.applet.Applet> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.applet.Applet.class.isAssignableFrom(sut));
     }
 
 }

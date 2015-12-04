@@ -24,15 +24,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.ssl.SslRMIClientSocketFactory#hashCode() public int
-     * javax.rmi.ssl.SslRMIClientSocketFactory.hashCode()}.
+     * Test method for {@link javax.rmi.ssl.SslRMIClientSocketFactory#createSocket(java.lang.String,int) public
+     * java.net.Socket javax.rmi.ssl.SslRMIClientSocketFactory.createSocket(java.lang.String,int) throws
+     * java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode()
+    public default void test_createSocket_String_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -58,16 +59,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.ssl.SslRMIClientSocketFactory#createSocket(java.lang.String,int) public
-     * java.net.Socket javax.rmi.ssl.SslRMIClientSocketFactory.createSocket(java.lang.String,int) throws
-     * java.io.IOException}.
+     * Test method for {@link javax.rmi.ssl.SslRMIClientSocketFactory#hashCode() public int
+     * javax.rmi.ssl.SslRMIClientSocketFactory.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_createSocket_String_int()
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

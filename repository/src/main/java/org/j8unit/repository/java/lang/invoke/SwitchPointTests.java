@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.SwitchPoint#hasBeenInvalidated() public boolean
-     * java.lang.invoke.SwitchPoint.hasBeenInvalidated()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hasBeenInvalidated()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.lang.invoke.SwitchPoint#guardWithTest(java.lang.invoke.MethodHandle,java.lang.invoke.MethodHandle)
      * public java.lang.invoke.MethodHandle
@@ -49,6 +33,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_guardWithTest_MethodHandle_MethodHandle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.SwitchPoint#hasBeenInvalidated() public boolean
+     * java.lang.invoke.SwitchPoint.hasBeenInvalidated()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hasBeenInvalidated()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

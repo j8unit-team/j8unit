@@ -23,54 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.LogManager#getProperty(java.lang.String) public java.lang.String
-     * java.util.logging.LogManager.getProperty(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProperty_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.logging.LogManager#getLoggerNames() public java.util.Enumeration
-     * java.util.logging.LogManager.getLoggerNames()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLoggerNames()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.logging.LogManager#checkAccess() public void
-     * java.util.logging.LogManager.checkAccess() throws java.lang.SecurityException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_checkAccess()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.logging.LogManager#addLogger(java.util.logging.Logger) public boolean
      * java.util.logging.LogManager.addLogger(java.util.logging.Logger)}.
      * </p>
@@ -104,16 +56,62 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.util.logging.LogManager#removePropertyChangeListener(java.beans.PropertyChangeListener) public void
-     * java.util.logging.LogManager.removePropertyChangeListener(java.beans.PropertyChangeListener) throws
-     * java.lang.SecurityException}.
+     * Test method for {@link java.util.logging.LogManager#checkAccess() public void
+     * java.util.logging.LogManager.checkAccess() throws java.lang.SecurityException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removePropertyChangeListener_PropertyChangeListener()
+    public default void test_checkAccess()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.logging.LogManager#getLogger(java.lang.String) public java.util.logging.Logger
+     * java.util.logging.LogManager.getLogger(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLogger_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.logging.LogManager#getLoggerNames() public java.util.Enumeration
+     * java.util.logging.LogManager.getLoggerNames()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLoggerNames()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.logging.LogManager#getProperty(java.lang.String) public java.lang.String
+     * java.util.logging.LogManager.getProperty(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProperty_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -155,14 +153,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.LogManager#reset() public void java.util.logging.LogManager.reset()
-     * throws java.lang.SecurityException}.
+     * Test method for
+     * {@link java.util.logging.LogManager#removePropertyChangeListener(java.beans.PropertyChangeListener) public void
+     * java.util.logging.LogManager.removePropertyChangeListener(java.beans.PropertyChangeListener) throws
+     * java.lang.SecurityException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reset()
+    public default void test_removePropertyChangeListener_PropertyChangeListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -171,14 +171,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.logging.LogManager#getLogger(java.lang.String) public java.util.logging.Logger
-     * java.util.logging.LogManager.getLogger(java.lang.String)}.
+     * Test method for {@link java.util.logging.LogManager#reset() public void java.util.logging.LogManager.reset()
+     * throws java.lang.SecurityException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLogger_String()
+    public default void test_reset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

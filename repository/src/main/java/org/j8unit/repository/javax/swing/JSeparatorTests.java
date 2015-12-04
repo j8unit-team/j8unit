@@ -24,14 +24,15 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JSeparator#getOrientation() public int
-     * javax.swing.JSeparator.getOrientation()}.
+     * Test method for {@link javax.swing.JSeparator#getAccessibleContext() public javax.accessibility.AccessibleContext
+     * javax.swing.JSeparator.getAccessibleContext()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOrientation()
+    @Override
+    public default void test_getAccessibleContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,14 +41,14 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JSeparator#setUI(javax.swing.plaf.SeparatorUI) public void
-     * javax.swing.JSeparator.setUI(javax.swing.plaf.SeparatorUI)}.
+     * Test method for {@link javax.swing.JSeparator#getOrientation() public int
+     * javax.swing.JSeparator.getOrientation()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setUI_SeparatorUI()
+    public default void test_getOrientation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,6 +73,23 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.JSeparator#getUIClassID() public java.lang.String
+     * javax.swing.JSeparator.getUIClassID()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getUIClassID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.JSeparator#setOrientation(int) public void
      * javax.swing.JSeparator.setOrientation(int)}.
      * </p>
@@ -88,32 +106,14 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JSeparator#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JSeparator.getAccessibleContext()}.
+     * Test method for {@link javax.swing.JSeparator#setUI(javax.swing.plaf.SeparatorUI) public void
+     * javax.swing.JSeparator.setUI(javax.swing.plaf.SeparatorUI)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getAccessibleContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JSeparator#getUIClassID() public java.lang.String
-     * javax.swing.JSeparator.getUIClassID()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getUIClassID()
+    public default void test_setUI_SeparatorUI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -35,14 +35,36 @@ import org.junit.experimental.categories.Category;
 public abstract interface MBeanServerFactoryClassTests<SUT extends Class<? extends javax.management.MBeanServerFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.management.MBeanServerFactory#createMBeanServer() public static
+     * javax.management.MBeanServer javax.management.MBeanServerFactory.createMBeanServer()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_createMBeanServer()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.management.MBeanServerFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.management.MBeanServerFactory.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.MBeanServerFactory#createMBeanServer(java.lang.String) public static
+     * javax.management.MBeanServer javax.management.MBeanServerFactory.createMBeanServer(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createMBeanServer_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -112,38 +134,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanServerFactory#createMBeanServer() public static
-     * javax.management.MBeanServer javax.management.MBeanServerFactory.createMBeanServer()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createMBeanServer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.MBeanServerFactory#createMBeanServer(java.lang.String) public static
-     * javax.management.MBeanServer javax.management.MBeanServerFactory.createMBeanServer(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createMBeanServer_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.MBeanServerFactory#releaseMBeanServer(javax.management.MBeanServer)
      * public static void javax.management.MBeanServerFactory.releaseMBeanServer(javax.management.MBeanServer)}.
      * </p>
@@ -156,6 +146,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.management.MBeanServerFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.management.MBeanServerFactory.class.isAssignableFrom(sut));
     }
 
 }

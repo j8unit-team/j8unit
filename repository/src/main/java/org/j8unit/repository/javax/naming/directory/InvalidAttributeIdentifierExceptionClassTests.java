@@ -38,22 +38,6 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.naming.directory.InvalidAttributeIdentifierException#InvalidAttributeIdentifierException(java.lang.String)
-     * public javax.naming.directory.InvalidAttributeIdentifierException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InvalidAttributeIdentifierException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.directory.InvalidAttributeIdentifierException sut = null; // = new
-                                                                                     // InvalidAttributeIdentifierException(java.lang.String);
-    }
-
-    /**
-     * Test method for
      * {@link javax.naming.directory.InvalidAttributeIdentifierException#InvalidAttributeIdentifierException() public
      * javax.naming.directory.InvalidAttributeIdentifierException()}.
      */
@@ -66,6 +50,22 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.naming.directory.InvalidAttributeIdentifierException sut = null; // = new
                                                                                      // InvalidAttributeIdentifierException();
+    }
+
+    /**
+     * Test method for
+     * {@link javax.naming.directory.InvalidAttributeIdentifierException#InvalidAttributeIdentifierException(java.lang.String)
+     * public javax.naming.directory.InvalidAttributeIdentifierException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InvalidAttributeIdentifierException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.directory.InvalidAttributeIdentifierException sut = null; // = new
+                                                                                     // InvalidAttributeIdentifierException(java.lang.String);
     }
 
     @Override

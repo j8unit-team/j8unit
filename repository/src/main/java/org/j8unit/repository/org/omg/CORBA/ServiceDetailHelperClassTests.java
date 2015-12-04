@@ -49,32 +49,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.CORBA.ServiceDetailHelper sut = null; // = new ServiceDetailHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.CORBA.ServiceDetailHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.CORBA.ServiceDetailHelper.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ServiceDetailHelper#read(org.omg.CORBA.portable.InputStream) public static
-     * org.omg.CORBA.ServiceDetail org.omg.CORBA.ServiceDetailHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link org.omg.CORBA.ServiceDetailHelper#extract(org.omg.CORBA.Any) public static
@@ -93,32 +67,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.CORBA.ServiceDetailHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.ServiceDetail)
-     * public static void
-     * org.omg.CORBA.ServiceDetailHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.ServiceDetail)}.
+     * Test method for {@link org.omg.CORBA.ServiceDetailHelper#id() public static java.lang.String
+     * org.omg.CORBA.ServiceDetailHelper.id()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_OutputStream_ServiceDetail()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ServiceDetailHelper#type() public static synchronized org.omg.CORBA.TypeCode
-     * org.omg.CORBA.ServiceDetailHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
+    public default void test_id()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,18 +99,62 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ServiceDetailHelper#id() public static java.lang.String
-     * org.omg.CORBA.ServiceDetailHelper.id()}.
+     * Test method for {@link org.omg.CORBA.ServiceDetailHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * org.omg.CORBA.ServiceDetail org.omg.CORBA.ServiceDetailHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_id()
+    public default void test_read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ServiceDetailHelper#type() public static synchronized org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ServiceDetailHelper.type()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_type()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.CORBA.ServiceDetailHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.ServiceDetail)
+     * public static void
+     * org.omg.CORBA.ServiceDetailHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.ServiceDetail)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_ServiceDetail()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.CORBA.ServiceDetailHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.CORBA.ServiceDetailHelper.class.isAssignableFrom(sut));
     }
 
 }

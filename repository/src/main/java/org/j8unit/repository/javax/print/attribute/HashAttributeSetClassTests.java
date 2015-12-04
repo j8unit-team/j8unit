@@ -37,6 +37,35 @@ extends org.j8unit.repository.javax.print.attribute.AttributeSetClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.print.attribute.HashAttributeSet#HashAttributeSet() public
+     * javax.print.attribute.HashAttributeSet()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HashAttributeSet()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.print.attribute.HashAttributeSet sut = null; // = new HashAttributeSet();
+    }
+
+    /**
+     * Test method for {@link javax.print.attribute.HashAttributeSet#HashAttributeSet(javax.print.attribute.Attribute)
+     * public javax.print.attribute.HashAttributeSet(javax.print.attribute.Attribute)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HashAttributeSet_Attribute()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.print.attribute.HashAttributeSet sut = null; // = new
+                                                                 // HashAttributeSet(javax.print.attribute.Attribute);
+    }
+
+    /**
      * Test method for {@link javax.print.attribute.HashAttributeSet#HashAttributeSet(javax.print.attribute.Attribute[])
      * public javax.print.attribute.HashAttributeSet(javax.print.attribute.Attribute[])}.
      */
@@ -65,35 +94,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.print.attribute.HashAttributeSet sut = null; // = new
                                                                  // HashAttributeSet(javax.print.attribute.AttributeSet);
-    }
-
-    /**
-     * Test method for {@link javax.print.attribute.HashAttributeSet#HashAttributeSet() public
-     * javax.print.attribute.HashAttributeSet()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HashAttributeSet()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.print.attribute.HashAttributeSet sut = null; // = new HashAttributeSet();
-    }
-
-    /**
-     * Test method for {@link javax.print.attribute.HashAttributeSet#HashAttributeSet(javax.print.attribute.Attribute)
-     * public javax.print.attribute.HashAttributeSet(javax.print.attribute.Attribute)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HashAttributeSet_Attribute()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.print.attribute.HashAttributeSet sut = null; // = new
-                                                                 // HashAttributeSet(javax.print.attribute.Attribute);
     }
 
     @Override

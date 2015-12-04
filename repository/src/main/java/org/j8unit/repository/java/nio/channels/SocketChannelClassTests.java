@@ -37,16 +37,6 @@ extends org.j8unit.repository.java.nio.channels.ByteChannelClassTests<SUT>, org.
 org.j8unit.repository.java.nio.channels.GatheringByteChannelClassTests<SUT>, org.j8unit.repository.java.nio.channels.NetworkChannelClassTests<SUT>,
 org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.channels.SocketChannel> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.channels.SocketChannel.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.nio.channels.SocketChannel#open() public static java.nio.channels.SocketChannel
@@ -78,6 +68,16 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests<
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.channels.SocketChannel> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.channels.SocketChannel.class.isAssignableFrom(sut));
     }
 
 }

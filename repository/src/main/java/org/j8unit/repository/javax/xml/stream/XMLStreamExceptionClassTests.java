@@ -36,6 +36,34 @@ public abstract interface XMLStreamExceptionClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.xml.stream.XMLStreamException#XMLStreamException() public
+     * javax.xml.stream.XMLStreamException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_XMLStreamException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.stream.XMLStreamException sut = null; // = new XMLStreamException();
+    }
+
+    /**
+     * Test method for {@link javax.xml.stream.XMLStreamException#XMLStreamException(java.lang.String) public
+     * javax.xml.stream.XMLStreamException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_XMLStreamException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.stream.XMLStreamException sut = null; // = new XMLStreamException(java.lang.String);
+    }
+
+    /**
      * Test method for
      * {@link javax.xml.stream.XMLStreamException#XMLStreamException(java.lang.String,javax.xml.stream.Location) public
      * javax.xml.stream.XMLStreamException(java.lang.String,javax.xml.stream.Location)}.
@@ -81,34 +109,6 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.xml.stream.XMLStreamException sut = null; // = new
                                                               // XMLStreamException(java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link javax.xml.stream.XMLStreamException#XMLStreamException() public
-     * javax.xml.stream.XMLStreamException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_XMLStreamException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.stream.XMLStreamException sut = null; // = new XMLStreamException();
-    }
-
-    /**
-     * Test method for {@link javax.xml.stream.XMLStreamException#XMLStreamException(java.lang.String) public
-     * javax.xml.stream.XMLStreamException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_XMLStreamException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.stream.XMLStreamException sut = null; // = new XMLStreamException(java.lang.String);
     }
 
     /**

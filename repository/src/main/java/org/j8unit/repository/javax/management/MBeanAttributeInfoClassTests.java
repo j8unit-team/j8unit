@@ -55,6 +55,23 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
 
     /**
      * Test method for
+     * {@link javax.management.MBeanAttributeInfo#MBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean)
+     * public
+     * javax.management.MBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MBeanAttributeInfo_String_String_String_boolean_boolean_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.MBeanAttributeInfo sut = null; // = new
+                                                              // MBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean);
+    }
+
+    /**
+     * Test method for
      * {@link javax.management.MBeanAttributeInfo#MBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,javax.management.Descriptor)
      * public
      * javax.management.MBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,javax.management.Descriptor)}
@@ -69,23 +86,6 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         @SuppressWarnings("unused")
         final javax.management.MBeanAttributeInfo sut = null; // = new
                                                               // MBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,javax.management.Descriptor);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.management.MBeanAttributeInfo#MBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean)
-     * public
-     * javax.management.MBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MBeanAttributeInfo_String_String_String_boolean_boolean_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.MBeanAttributeInfo sut = null; // = new
-                                                              // MBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean);
     }
 
     @Override

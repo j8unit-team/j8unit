@@ -50,34 +50,6 @@ extends org.j8unit.repository.javax.swing.border.EmptyBorderClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.border.MatteBorder#MatteBorder(java.awt.Insets,javax.swing.Icon) public
-     * javax.swing.border.MatteBorder(java.awt.Insets,javax.swing.Icon)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MatteBorder_Insets_Icon()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.border.MatteBorder sut = null; // = new MatteBorder(java.awt.Insets,javax.swing.Icon);
-    }
-
-    /**
-     * Test method for {@link javax.swing.border.MatteBorder#MatteBorder(int,int,int,int,javax.swing.Icon) public
-     * javax.swing.border.MatteBorder(int,int,int,int,javax.swing.Icon)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MatteBorder_int_int_int_int_Icon()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.border.MatteBorder sut = null; // = new MatteBorder(int,int,int,int,javax.swing.Icon);
-    }
-
-    /**
      * Test method for {@link javax.swing.border.MatteBorder#MatteBorder(java.awt.Insets,java.awt.Color) public
      * javax.swing.border.MatteBorder(java.awt.Insets,java.awt.Color)}.
      */
@@ -92,6 +64,20 @@ extends org.j8unit.repository.javax.swing.border.EmptyBorderClassTests<SUT> {
     }
 
     /**
+     * Test method for {@link javax.swing.border.MatteBorder#MatteBorder(java.awt.Insets,javax.swing.Icon) public
+     * javax.swing.border.MatteBorder(java.awt.Insets,javax.swing.Icon)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MatteBorder_Insets_Icon()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.border.MatteBorder sut = null; // = new MatteBorder(java.awt.Insets,javax.swing.Icon);
+    }
+
+    /**
      * Test method for {@link javax.swing.border.MatteBorder#MatteBorder(int,int,int,int,java.awt.Color) public
      * javax.swing.border.MatteBorder(int,int,int,int,java.awt.Color)}.
      */
@@ -103,6 +89,20 @@ extends org.j8unit.repository.javax.swing.border.EmptyBorderClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.border.MatteBorder sut = null; // = new MatteBorder(int,int,int,int,java.awt.Color);
+    }
+
+    /**
+     * Test method for {@link javax.swing.border.MatteBorder#MatteBorder(int,int,int,int,javax.swing.Icon) public
+     * javax.swing.border.MatteBorder(int,int,int,int,javax.swing.Icon)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MatteBorder_int_int_int_int_Icon()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.border.MatteBorder sut = null; // = new MatteBorder(int,int,int,int,javax.swing.Icon);
     }
 
     @Override

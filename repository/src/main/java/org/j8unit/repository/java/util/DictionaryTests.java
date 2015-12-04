@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Dictionary#remove(java.lang.Object) public abstract java.lang.Object
-     * java.util.Dictionary.remove(java.lang.Object)}.
+     * Test method for {@link java.util.Dictionary#elements() public abstract java.util.Enumeration
+     * java.util.Dictionary.elements()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_remove_Object()
+    public default void test_elements()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,14 +39,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Dictionary#put(java.lang.Object,java.lang.Object) public abstract
-     * java.lang.Object java.util.Dictionary.put(java.lang.Object,java.lang.Object)}.
+     * Test method for {@link java.util.Dictionary#get(java.lang.Object) public abstract java.lang.Object
+     * java.util.Dictionary.get(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_put_Object_Object()
+    public default void test_get_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -86,14 +86,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Dictionary#get(java.lang.Object) public abstract java.lang.Object
-     * java.util.Dictionary.get(java.lang.Object)}.
+     * Test method for {@link java.util.Dictionary#put(java.lang.Object,java.lang.Object) public abstract
+     * java.lang.Object java.util.Dictionary.put(java.lang.Object,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get_Object()
+    public default void test_put_Object_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -102,14 +102,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Dictionary#elements() public abstract java.util.Enumeration
-     * java.util.Dictionary.elements()}.
+     * Test method for {@link java.util.Dictionary#remove(java.lang.Object) public abstract java.lang.Object
+     * java.util.Dictionary.remove(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_elements()
+    public default void test_remove_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

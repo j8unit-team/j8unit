@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface StandardOpenOptionClassTests<SUT extends Class<? extends java.nio.file.StandardOpenOption>>
 extends org.j8unit.repository.java.nio.file.OpenOptionClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT, java.nio.file.StandardOpenOption> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.file.StandardOpenOption> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.file.StandardOpenOption.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.nio.file.StandardOpenOption#valueOf(java.lang.String) public static
@@ -75,6 +65,16 @@ extends org.j8unit.repository.java.nio.file.OpenOptionClassTests<SUT>, org.j8uni
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.file.StandardOpenOption> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.file.StandardOpenOption.class.isAssignableFrom(sut));
     }
 
 }

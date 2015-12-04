@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Date#setTime(long) public void java.sql.Date.setTime(long)}.
+     * Test method for {@link java.sql.Date#getHours() public int java.sql.Date.getHours()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setTime_long()
+    public default void test_getHours()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Date#toInstant() public java.time.Instant java.sql.Date.toInstant()}.
+     * Test method for {@link java.sql.Date#getSeconds() public int java.sql.Date.getSeconds()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toInstant()
+    public default void test_getSeconds()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +71,14 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Date#toString() public java.lang.String java.sql.Date.toString()}.
+     * Test method for {@link java.sql.Date#setHours(int) public void java.sql.Date.setHours(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_setHours_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +119,14 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Date#setHours(int) public void java.sql.Date.setHours(int)}.
+     * Test method for {@link java.sql.Date#setTime(long) public void java.sql.Date.setTime(long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setHours_int()
+    public default void test_setTime_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,14 +135,14 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Date#getSeconds() public int java.sql.Date.getSeconds()}.
+     * Test method for {@link java.sql.Date#toInstant() public java.time.Instant java.sql.Date.toInstant()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getSeconds()
+    public default void test_toInstant()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -166,14 +166,14 @@ extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Date#getHours() public int java.sql.Date.getHours()}.
+     * Test method for {@link java.sql.Date#toString() public java.lang.String java.sql.Date.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getHours()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

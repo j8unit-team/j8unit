@@ -40,17 +40,31 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.ComponentView#viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[])
-     * public int
-     * javax.swing.text.ComponentView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
+     * Test method for {@link javax.swing.text.ComponentView#getComponent() public final java.awt.Component
+     * javax.swing.text.ComponentView.getComponent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.ComponentView#getMaximumSpan(int) public float
+     * javax.swing.text.ComponentView.getMaximumSpan(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_viewToModel_float_float_Shape_BiasArray()
+    public default void test_getMaximumSpan_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,6 +90,23 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.text.ComponentView#getPreferredSpan(int) public float
+     * javax.swing.text.ComponentView.getPreferredSpan(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPreferredSpan_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link javax.swing.text.ComponentView#modelToView(int,java.awt.Shape,javax.swing.text.Position.Bias) public
      * java.awt.Shape javax.swing.text.ComponentView.modelToView(int,java.awt.Shape,javax.swing.text.Position$Bias)
@@ -87,23 +118,6 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_modelToView_int_Shape_Bias()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.ComponentView#getPreferredSpan(int) public float
-     * javax.swing.text.ComponentView.getPreferredSpan(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPreferredSpan_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -146,31 +160,17 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.ComponentView#getMaximumSpan(int) public float
-     * javax.swing.text.ComponentView.getMaximumSpan(int)}.
+     * Test method for
+     * {@link javax.swing.text.ComponentView#viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[])
+     * public int
+     * javax.swing.text.ComponentView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getMaximumSpan_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.ComponentView#getComponent() public final java.awt.Component
-     * javax.swing.text.ComponentView.getComponent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getComponent()
+    public default void test_viewToModel_float_float_Shape_BiasArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

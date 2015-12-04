@@ -36,6 +36,46 @@ public abstract interface JSplitPaneClassTests<SUT extends Class<? extends javax
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.swing.JSplitPane#JSplitPane() public javax.swing.JSplitPane()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JSplitPane()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JSplitPane sut = null; // = new JSplitPane();
+    }
+
+    /**
+     * Test method for {@link javax.swing.JSplitPane#JSplitPane(int) public javax.swing.JSplitPane(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JSplitPane_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JSplitPane sut = null; // = new JSplitPane(int);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JSplitPane#JSplitPane(int,boolean) public javax.swing.JSplitPane(int,boolean)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JSplitPane_int_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JSplitPane sut = null; // = new JSplitPane(int,boolean);
+    }
+
+    /**
      * Test method for {@link javax.swing.JSplitPane#JSplitPane(int,boolean,java.awt.Component,java.awt.Component)
      * public javax.swing.JSplitPane(int,boolean,java.awt.Component,java.awt.Component)}.
      */
@@ -61,46 +101,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JSplitPane sut = null; // = new JSplitPane(int,java.awt.Component,java.awt.Component);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JSplitPane#JSplitPane(int,boolean) public javax.swing.JSplitPane(int,boolean)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JSplitPane_int_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JSplitPane sut = null; // = new JSplitPane(int,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JSplitPane#JSplitPane(int) public javax.swing.JSplitPane(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JSplitPane_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JSplitPane sut = null; // = new JSplitPane(int);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JSplitPane#JSplitPane() public javax.swing.JSplitPane()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JSplitPane()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JSplitPane sut = null; // = new JSplitPane();
     }
 
     @Override

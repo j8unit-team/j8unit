@@ -35,32 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface PipeClassTests<SUT extends Class<? extends java.nio.channels.Pipe>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.channels.Pipe> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.channels.Pipe.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.Pipe#open() public static java.nio.channels.Pipe
-     * java.nio.channels.Pipe.open() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_open()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test class for {@link java.nio.channels.Pipe$SinkChannel class java.nio.channels.Pipe$SinkChannel}, containing
@@ -145,6 +119,32 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(java.nio.channels.Pipe.SourceChannel.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.Pipe#open() public static java.nio.channels.Pipe
+     * java.nio.channels.Pipe.open() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_open()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.channels.Pipe> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.channels.Pipe.class.isAssignableFrom(sut));
     }
 
 }

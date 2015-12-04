@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface RowSetProviderClassTests<SUT extends Class<? extends javax.sql.rowset.RowSetProvider>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.RowSetProvider#newFactory() public static javax.sql.rowset.RowSetFactory
+     * javax.sql.rowset.RowSetProvider.newFactory() throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_newFactory()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.sql.rowset.RowSetProvider> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.sql.rowset.RowSetProvider.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -62,20 +68,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.RowSetProvider#newFactory() public static javax.sql.rowset.RowSetFactory
-     * javax.sql.rowset.RowSetProvider.newFactory() throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_newFactory()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.sql.rowset.RowSetProvider> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.sql.rowset.RowSetProvider.class.isAssignableFrom(sut));
     }
 
 }

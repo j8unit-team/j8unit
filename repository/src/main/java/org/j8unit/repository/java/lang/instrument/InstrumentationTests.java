@@ -25,6 +25,41 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
+     * {@link java.lang.instrument.Instrumentation#addTransformer(java.lang.instrument.ClassFileTransformer) public
+     * abstract void java.lang.instrument.Instrumentation.addTransformer(java.lang.instrument.ClassFileTransformer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addTransformer_ClassFileTransformer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.lang.instrument.Instrumentation#addTransformer(java.lang.instrument.ClassFileTransformer,boolean)
+     * public abstract void
+     * java.lang.instrument.Instrumentation.addTransformer(java.lang.instrument.ClassFileTransformer,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addTransformer_ClassFileTransformer_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link java.lang.instrument.Instrumentation#appendToBootstrapClassLoaderSearch(java.util.jar.JarFile) public
      * abstract void java.lang.instrument.Instrumentation.appendToBootstrapClassLoaderSearch(java.util.jar.JarFile)}.
      * </p>
@@ -41,79 +76,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.instrument.Instrumentation#getInitiatedClasses(java.lang.ClassLoader) public
-     * abstract java.lang.Class[] java.lang.instrument.Instrumentation.getInitiatedClasses(java.lang.ClassLoader)}.
+     * Test method for
+     * {@link java.lang.instrument.Instrumentation#appendToSystemClassLoaderSearch(java.util.jar.JarFile) public
+     * abstract void java.lang.instrument.Instrumentation.appendToSystemClassLoaderSearch(java.util.jar.JarFile)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInitiatedClasses_ClassLoader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.instrument.Instrumentation#isRedefineClassesSupported() public abstract boolean
-     * java.lang.instrument.Instrumentation.isRedefineClassesSupported()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isRedefineClassesSupported()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.instrument.Instrumentation#retransformClasses(java.lang.Class...) public
-     * abstract void java.lang.instrument.Instrumentation.retransformClasses(java.lang.Class...) throws
-     * java.lang.instrument.UnmodifiableClassException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_retransformClasses_ClassArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.instrument.Instrumentation#getObjectSize(java.lang.Object) public abstract long
-     * java.lang.instrument.Instrumentation.getObjectSize(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getObjectSize_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.instrument.Instrumentation#isNativeMethodPrefixSupported() public abstract
-     * boolean java.lang.instrument.Instrumentation.isNativeMethodPrefixSupported()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isNativeMethodPrefixSupported()
+    public default void test_appendToSystemClassLoaderSearch_JarFile()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -138,16 +109,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.lang.instrument.Instrumentation#removeTransformer(java.lang.instrument.ClassFileTransformer) public
-     * abstract boolean
-     * java.lang.instrument.Instrumentation.removeTransformer(java.lang.instrument.ClassFileTransformer)}.
+     * Test method for {@link java.lang.instrument.Instrumentation#getInitiatedClasses(java.lang.ClassLoader) public
+     * abstract java.lang.Class[] java.lang.instrument.Instrumentation.getInitiatedClasses(java.lang.ClassLoader)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeTransformer_ClassFileTransformer()
+    public default void test_getInitiatedClasses_ClassLoader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -156,15 +125,62 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.lang.instrument.Instrumentation#appendToSystemClassLoaderSearch(java.util.jar.JarFile) public
-     * abstract void java.lang.instrument.Instrumentation.appendToSystemClassLoaderSearch(java.util.jar.JarFile)}.
+     * Test method for {@link java.lang.instrument.Instrumentation#getObjectSize(java.lang.Object) public abstract long
+     * java.lang.instrument.Instrumentation.getObjectSize(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_appendToSystemClassLoaderSearch_JarFile()
+    public default void test_getObjectSize_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.instrument.Instrumentation#isModifiableClass(java.lang.Class) public abstract
+     * boolean java.lang.instrument.Instrumentation.isModifiableClass(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isModifiableClass_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.instrument.Instrumentation#isNativeMethodPrefixSupported() public abstract
+     * boolean java.lang.instrument.Instrumentation.isNativeMethodPrefixSupported()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isNativeMethodPrefixSupported()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.instrument.Instrumentation#isRedefineClassesSupported() public abstract boolean
+     * java.lang.instrument.Instrumentation.isRedefineClassesSupported()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isRedefineClassesSupported()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -207,14 +223,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.instrument.Instrumentation#isModifiableClass(java.lang.Class) public abstract
-     * boolean java.lang.instrument.Instrumentation.isModifiableClass(java.lang.Class)}.
+     * Test method for
+     * {@link java.lang.instrument.Instrumentation#removeTransformer(java.lang.instrument.ClassFileTransformer) public
+     * abstract boolean
+     * java.lang.instrument.Instrumentation.removeTransformer(java.lang.instrument.ClassFileTransformer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isModifiableClass_Class()
+    public default void test_removeTransformer_ClassFileTransformer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -223,33 +241,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.lang.instrument.Instrumentation#addTransformer(java.lang.instrument.ClassFileTransformer,boolean)
-     * public abstract void
-     * java.lang.instrument.Instrumentation.addTransformer(java.lang.instrument.ClassFileTransformer,boolean)}.
+     * Test method for {@link java.lang.instrument.Instrumentation#retransformClasses(java.lang.Class...) public
+     * abstract void java.lang.instrument.Instrumentation.retransformClasses(java.lang.Class...) throws
+     * java.lang.instrument.UnmodifiableClassException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addTransformer_ClassFileTransformer_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.lang.instrument.Instrumentation#addTransformer(java.lang.instrument.ClassFileTransformer) public
-     * abstract void java.lang.instrument.Instrumentation.addTransformer(java.lang.instrument.ClassFileTransformer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addTransformer_ClassFileTransformer()
+    public default void test_retransformClasses_ClassArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

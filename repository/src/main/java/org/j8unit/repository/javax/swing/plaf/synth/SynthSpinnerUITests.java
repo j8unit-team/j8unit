@@ -24,35 +24,15 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSpinnerUITests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.synth.SynthSpinnerUI#paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)
-     * public void
-     * javax.swing.plaf.synth.SynthSpinnerUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
-     * .
+     * Test method for {@link javax.swing.plaf.synth.SynthSpinnerUI#getContext(javax.swing.JComponent) public
+     * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthSpinnerUI.getContext(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_paintBorder_SynthContext_Graphics_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSpinnerUI#update(java.awt.Graphics,javax.swing.JComponent)
-     * public void javax.swing.plaf.synth.SynthSpinnerUI.update(java.awt.Graphics,javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_update_Graphics_JComponent()
+    public default void test_getContext_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -78,6 +58,26 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSpinnerUITests<SUT> {
 
     /**
      * <p>
+     * Test method for
+     * {@link javax.swing.plaf.synth.SynthSpinnerUI#paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)
+     * public void
+     * javax.swing.plaf.synth.SynthSpinnerUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paintBorder_SynthContext_Graphics_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthSpinnerUI#propertyChange(java.beans.PropertyChangeEvent)
      * public void javax.swing.plaf.synth.SynthSpinnerUI.propertyChange(java.beans.PropertyChangeEvent)}.
      * </p>
@@ -95,15 +95,15 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSpinnerUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSpinnerUI#getContext(javax.swing.JComponent) public
-     * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthSpinnerUI.getContext(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.synth.SynthSpinnerUI#update(java.awt.Graphics,javax.swing.JComponent)
+     * public void javax.swing.plaf.synth.SynthSpinnerUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getContext_JComponent()
+    public default void test_update_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

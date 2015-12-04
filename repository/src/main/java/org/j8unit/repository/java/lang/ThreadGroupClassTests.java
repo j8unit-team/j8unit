@@ -35,20 +35,6 @@ public abstract interface ThreadGroupClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.lang.ThreadClassTests.UncaughtExceptionHandlerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.ThreadGroup#ThreadGroup(java.lang.ThreadGroup,java.lang.String) public
-     * java.lang.ThreadGroup(java.lang.ThreadGroup,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ThreadGroup_ThreadGroup_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.ThreadGroup sut = null; // = new ThreadGroup(java.lang.ThreadGroup,java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.lang.ThreadGroup#ThreadGroup(java.lang.String) public
      * java.lang.ThreadGroup(java.lang.String)}.
      */
@@ -60,6 +46,20 @@ extends org.j8unit.repository.java.lang.ThreadClassTests.UncaughtExceptionHandle
         // create new instance
         @SuppressWarnings("unused")
         final java.lang.ThreadGroup sut = null; // = new ThreadGroup(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.lang.ThreadGroup#ThreadGroup(java.lang.ThreadGroup,java.lang.String) public
+     * java.lang.ThreadGroup(java.lang.ThreadGroup,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ThreadGroup_ThreadGroup_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.ThreadGroup sut = null; // = new ThreadGroup(java.lang.ThreadGroup,java.lang.String);
     }
 
     @Override

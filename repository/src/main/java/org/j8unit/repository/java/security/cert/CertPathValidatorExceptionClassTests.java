@@ -36,113 +36,6 @@ public abstract interface CertPathValidatorExceptionClassTests<SUT extends Class
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int,java.security.cert.CertPathValidatorException.Reason)
-     * public
-     * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int,java.security.cert.CertPathValidatorException$Reason)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CertPathValidatorException_String_Throwable_CertPath_int_Reason()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CertPathValidatorException sut = null; // = new
-                                                                        // CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int,java.security.cert.CertPathValidatorException.Reason);
-    }
-
-    /**
-     * Test method for
-     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int)
-     * public
-     * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CertPathValidatorException_String_Throwable_CertPath_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CertPathValidatorException sut = null; // = new
-                                                                        // CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int);
-    }
-
-    /**
-     * Test method for
-     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String,java.lang.Throwable)
-     * public java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CertPathValidatorException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CertPathValidatorException sut = null; // = new
-                                                                        // CertPathValidatorException(java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link java.security.cert.CertPathValidatorException#CertPathValidatorException() public
-     * java.security.cert.CertPathValidatorException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CertPathValidatorException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CertPathValidatorException sut = null; // = new CertPathValidatorException();
-    }
-
-    /**
-     * Test method for {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String)
-     * public java.security.cert.CertPathValidatorException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CertPathValidatorException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CertPathValidatorException sut = null; // = new
-                                                                        // CertPathValidatorException(java.lang.String);
-    }
-
-    /**
-     * Test method for
-     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.Throwable) public
-     * java.security.cert.CertPathValidatorException(java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CertPathValidatorException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CertPathValidatorException sut = null; // = new
-                                                                        // CertPathValidatorException(java.lang.Throwable);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.security.cert.CertPathValidatorException> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.cert.CertPathValidatorException.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link java.security.cert.CertPathValidatorException$BasicReason class
      * java.security.cert.CertPathValidatorException$BasicReason}, containing all class relevant test methods (at least
@@ -173,14 +66,21 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     extends org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.ReasonClassTests<SUT>,
     org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.cert.CertPathValidatorException.BasicReason> {
 
-        @Override
+        /**
+         * <p>
+         * Test method for {@link java.security.cert.CertPathValidatorException.BasicReason#valueOf(java.lang.String)
+         * public static java.security.cert.CertPathValidatorException$BasicReason
+         * java.security.cert.CertPathValidatorException$BasicReason.valueOf(java.lang.String)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @Category(Draft.class)
+        public default void test_valueOf_String()
         throws Exception {
-            // create new instance
-            final Class<? extends java.security.cert.CertPathValidatorException.BasicReason> sut = createNewSUT();
-            // assert assignability
-            assertTrue(java.security.cert.CertPathValidatorException.BasicReason.class.isAssignableFrom(sut));
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
         }
 
         /**
@@ -200,21 +100,14 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for {@link java.security.cert.CertPathValidatorException.BasicReason#valueOf(java.lang.String)
-         * public static java.security.cert.CertPathValidatorException$BasicReason
-         * java.security.cert.CertPathValidatorException$BasicReason.valueOf(java.lang.String)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
+        public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
+            // create new instance
+            final Class<? extends java.security.cert.CertPathValidatorException.BasicReason> sut = createNewSUT();
+            // assert assignability
+            assertTrue(java.security.cert.CertPathValidatorException.BasicReason.class.isAssignableFrom(sut));
         }
 
     }
@@ -259,6 +152,113 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
             assertTrue(java.security.cert.CertPathValidatorException.Reason.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link java.security.cert.CertPathValidatorException#CertPathValidatorException() public
+     * java.security.cert.CertPathValidatorException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CertPathValidatorException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CertPathValidatorException sut = null; // = new CertPathValidatorException();
+    }
+
+    /**
+     * Test method for {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String)
+     * public java.security.cert.CertPathValidatorException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CertPathValidatorException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CertPathValidatorException sut = null; // = new
+                                                                        // CertPathValidatorException(java.lang.String);
+    }
+
+    /**
+     * Test method for
+     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String,java.lang.Throwable)
+     * public java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CertPathValidatorException_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CertPathValidatorException sut = null; // = new
+                                                                        // CertPathValidatorException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int)
+     * public
+     * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CertPathValidatorException_String_Throwable_CertPath_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CertPathValidatorException sut = null; // = new
+                                                                        // CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int);
+    }
+
+    /**
+     * Test method for
+     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int,java.security.cert.CertPathValidatorException.Reason)
+     * public
+     * java.security.cert.CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int,java.security.cert.CertPathValidatorException$Reason)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CertPathValidatorException_String_Throwable_CertPath_int_Reason()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CertPathValidatorException sut = null; // = new
+                                                                        // CertPathValidatorException(java.lang.String,java.lang.Throwable,java.security.cert.CertPath,int,java.security.cert.CertPathValidatorException.Reason);
+    }
+
+    /**
+     * Test method for
+     * {@link java.security.cert.CertPathValidatorException#CertPathValidatorException(java.lang.Throwable) public
+     * java.security.cert.CertPathValidatorException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CertPathValidatorException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CertPathValidatorException sut = null; // = new
+                                                                        // CertPathValidatorException(java.lang.Throwable);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.security.cert.CertPathValidatorException> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.cert.CertPathValidatorException.class.isAssignableFrom(sut));
     }
 
 }

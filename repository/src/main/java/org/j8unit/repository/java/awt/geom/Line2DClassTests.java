@@ -35,113 +35,6 @@ public abstract interface Line2DClassTests<SUT extends Class<? extends java.awt.
 extends org.j8unit.repository.java.awt.ShapeClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.geom.Line2D> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.geom.Line2D.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Line2D#ptSegDistSq(double,double,double,double,double,double) public static
-     * double java.awt.geom.Line2D.ptSegDistSq(double,double,double,double,double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ptSegDistSq_double_double_double_double_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Line2D#relativeCCW(double,double,double,double,double,double) public static
-     * int java.awt.geom.Line2D.relativeCCW(double,double,double,double,double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_relativeCCW_double_double_double_double_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Line2D#ptSegDist(double,double,double,double,double,double) public static
-     * double java.awt.geom.Line2D.ptSegDist(double,double,double,double,double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ptSegDist_double_double_double_double_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.geom.Line2D#linesIntersect(double,double,double,double,double,double,double,double) public static
-     * boolean java.awt.geom.Line2D.linesIntersect(double,double,double,double,double,double,double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_linesIntersect_double_double_double_double_double_double_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Line2D#ptLineDistSq(double,double,double,double,double,double) public static
-     * double java.awt.geom.Line2D.ptLineDistSq(double,double,double,double,double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ptLineDistSq_double_double_double_double_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Line2D#ptLineDist(double,double,double,double,double,double) public static
-     * double java.awt.geom.Line2D.ptLineDist(double,double,double,double,double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ptLineDist_double_double_double_double_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test class for {@link java.awt.geom.Line2D$Double class java.awt.geom.Line2D$Double}, containing all class
@@ -172,17 +65,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Line2DClassTests<SUT> {
 
         /**
-         * Test method for {@link java.awt.geom.Line2D.Double#Double(java.awt.geom.Point2D,java.awt.geom.Point2D) public
-         * java.awt.geom.Line2D$Double(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
+         * Test method for {@link java.awt.geom.Line2D.Double#Double() public java.awt.geom.Line2D$Double()}.
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void create_Double_Point2D_Point2D()
+        public default void create_Double()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.awt.geom.Line2D.Double sut = null; // = new Double(java.awt.geom.Point2D,java.awt.geom.Point2D);
+            final java.awt.geom.Line2D.Double sut = null; // = new Double();
         }
 
         /**
@@ -200,16 +92,17 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         }
 
         /**
-         * Test method for {@link java.awt.geom.Line2D.Double#Double() public java.awt.geom.Line2D$Double()}.
+         * Test method for {@link java.awt.geom.Line2D.Double#Double(java.awt.geom.Point2D,java.awt.geom.Point2D) public
+         * java.awt.geom.Line2D$Double(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void create_Double()
+        public default void create_Double_Point2D_Point2D()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.awt.geom.Line2D.Double sut = null; // = new Double();
+            final java.awt.geom.Line2D.Double sut = null; // = new Double(java.awt.geom.Point2D,java.awt.geom.Point2D);
         }
 
         @Override
@@ -254,17 +147,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Line2DClassTests<SUT> {
 
         /**
-         * Test method for {@link java.awt.geom.Line2D.Float#Float(java.awt.geom.Point2D,java.awt.geom.Point2D) public
-         * java.awt.geom.Line2D$Float(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
+         * Test method for {@link java.awt.geom.Line2D.Float#Float() public java.awt.geom.Line2D$Float()}.
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void create_Float_Point2D_Point2D()
+        public default void create_Float()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.awt.geom.Line2D.Float sut = null; // = new Float(java.awt.geom.Point2D,java.awt.geom.Point2D);
+            final java.awt.geom.Line2D.Float sut = null; // = new Float();
         }
 
         /**
@@ -282,16 +174,17 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         }
 
         /**
-         * Test method for {@link java.awt.geom.Line2D.Float#Float() public java.awt.geom.Line2D$Float()}.
+         * Test method for {@link java.awt.geom.Line2D.Float#Float(java.awt.geom.Point2D,java.awt.geom.Point2D) public
+         * java.awt.geom.Line2D$Float(java.awt.geom.Point2D,java.awt.geom.Point2D)}.
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void create_Float()
+        public default void create_Float_Point2D_Point2D()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.awt.geom.Line2D.Float sut = null; // = new Float();
+            final java.awt.geom.Line2D.Float sut = null; // = new Float(java.awt.geom.Point2D,java.awt.geom.Point2D);
         }
 
         @Override
@@ -304,6 +197,113 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(java.awt.geom.Line2D.Float.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.geom.Line2D#linesIntersect(double,double,double,double,double,double,double,double) public static
+     * boolean java.awt.geom.Line2D.linesIntersect(double,double,double,double,double,double,double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_linesIntersect_double_double_double_double_double_double_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Line2D#ptLineDist(double,double,double,double,double,double) public static
+     * double java.awt.geom.Line2D.ptLineDist(double,double,double,double,double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ptLineDist_double_double_double_double_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Line2D#ptLineDistSq(double,double,double,double,double,double) public static
+     * double java.awt.geom.Line2D.ptLineDistSq(double,double,double,double,double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ptLineDistSq_double_double_double_double_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Line2D#ptSegDist(double,double,double,double,double,double) public static
+     * double java.awt.geom.Line2D.ptSegDist(double,double,double,double,double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ptSegDist_double_double_double_double_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Line2D#ptSegDistSq(double,double,double,double,double,double) public static
+     * double java.awt.geom.Line2D.ptSegDistSq(double,double,double,double,double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ptSegDistSq_double_double_double_double_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Line2D#relativeCCW(double,double,double,double,double,double) public static
+     * int java.awt.geom.Line2D.relativeCCW(double,double,double,double,double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_relativeCCW_double_double_double_double_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.geom.Line2D> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.geom.Line2D.class.isAssignableFrom(sut));
     }
 
 }

@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.GradientPaint#getPoint2() public java.awt.geom.Point2D
-     * java.awt.GradientPaint.getPoint2()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPoint2()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.awt.GradientPaint#createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)
      * public java.awt.PaintContext
@@ -51,23 +35,6 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
     @Category(Draft.class)
     @Override
     public default void test_createContext_ColorModel_Rectangle_Rectangle2D_AffineTransform_RenderingHints()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.GradientPaint#getTransparency() public int
-     * java.awt.GradientPaint.getTransparency()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getTransparency()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -116,6 +83,39 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
     @Test
     @Category(Draft.class)
     public default void test_getPoint1()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.GradientPaint#getPoint2() public java.awt.geom.Point2D
+     * java.awt.GradientPaint.getPoint2()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPoint2()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.GradientPaint#getTransparency() public int
+     * java.awt.GradientPaint.getTransparency()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getTransparency()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

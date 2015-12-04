@@ -36,6 +36,20 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.net.URI>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.net.URI#URI(java.lang.String) public java.net.URI(java.lang.String) throws
+     * java.net.URISyntaxException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_URI_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.URI sut = null; // = new URI(java.lang.String);
+    }
+
+    /**
      * Test method for {@link java.net.URI#URI(java.lang.String,java.lang.String,java.lang.String) public
      * java.net.URI(java.lang.String,java.lang.String,java.lang.String) throws java.net.URISyntaxException}.
      */
@@ -47,6 +61,24 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.net.URI sut = null; // = new URI(java.lang.String,java.lang.String,java.lang.String);
+    }
+
+    /**
+     * Test method for
+     * {@link java.net.URI#URI(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)
+     * public
+     * java.net.URI(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)
+     * throws java.net.URISyntaxException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_URI_String_String_String_int_String_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.URI sut = null; // = new
+                                       // URI(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String);
     }
 
     /**
@@ -83,48 +115,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.net.URI#URI(java.lang.String) public java.net.URI(java.lang.String) throws
-     * java.net.URISyntaxException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_URI_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.URI sut = null; // = new URI(java.lang.String);
-    }
-
-    /**
-     * Test method for
-     * {@link java.net.URI#URI(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)
-     * public
-     * java.net.URI(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)
-     * throws java.net.URISyntaxException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_URI_String_String_String_int_String_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.URI sut = null; // = new
-                                       // URI(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.net.URI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.net.URI.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test method for {@link java.net.URI#create(java.lang.String) public static java.net.URI
      * java.net.URI.create(java.lang.String)}.
@@ -138,6 +128,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.net.URI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.URI.class.isAssignableFrom(sut));
     }
 
 }

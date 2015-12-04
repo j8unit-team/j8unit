@@ -35,90 +35,16 @@ import org.junit.experimental.categories.Category;
 public abstract interface DriverManagerClassTests<SUT extends Class<? extends java.sql.DriverManager>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.sql.DriverManager> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.sql.DriverManager.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.sql.DriverManager#getLogWriter() public static java.io.PrintWriter
-     * java.sql.DriverManager.getLogWriter()}.
+     * Test method for {@link java.sql.DriverManager#deregisterDriver(java.sql.Driver) public static synchronized void
+     * java.sql.DriverManager.deregisterDriver(java.sql.Driver) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLogWriter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.DriverManager#setLogStream(java.io.PrintStream) public static void
-     * java.sql.DriverManager.setLogStream(java.io.PrintStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLogStream_PrintStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.DriverManager#getLoginTimeout() public static int
-     * java.sql.DriverManager.getLoginTimeout()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLoginTimeout()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.DriverManager#getDrivers() public static java.util.Enumeration
-     * java.sql.DriverManager.getDrivers()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDrivers()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.DriverManager#println(java.lang.String) public static void
-     * java.sql.DriverManager.println(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_println_String()
+    public default void test_deregisterDriver_Driver()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,6 +61,23 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getConnection_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.DriverManager#getConnection(java.lang.String,java.util.Properties) public static
+     * java.sql.Connection java.sql.DriverManager.getConnection(java.lang.String,java.util.Properties) throws
+     * java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getConnection_String_Properties()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -161,15 +104,110 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.DriverManager#getConnection(java.lang.String,java.util.Properties) public static
-     * java.sql.Connection java.sql.DriverManager.getConnection(java.lang.String,java.util.Properties) throws
-     * java.sql.SQLException}.
+     * Test method for {@link java.sql.DriverManager#getDriver(java.lang.String) public static java.sql.Driver
+     * java.sql.DriverManager.getDriver(java.lang.String) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getConnection_String_Properties()
+    public default void test_getDriver_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.DriverManager#getDrivers() public static java.util.Enumeration
+     * java.sql.DriverManager.getDrivers()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDrivers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.DriverManager#getLoginTimeout() public static int
+     * java.sql.DriverManager.getLoginTimeout()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLoginTimeout()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.DriverManager#getLogStream() public static java.io.PrintStream
+     * java.sql.DriverManager.getLogStream()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLogStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.DriverManager#getLogWriter() public static java.io.PrintWriter
+     * java.sql.DriverManager.getLogWriter()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLogWriter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.DriverManager#println(java.lang.String) public static void
+     * java.sql.DriverManager.println(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_println_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.DriverManager#registerDriver(java.sql.Driver) public static synchronized void
+     * java.sql.DriverManager.registerDriver(java.sql.Driver) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_registerDriver_Driver()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -195,14 +233,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.DriverManager#registerDriver(java.sql.Driver) public static synchronized void
-     * java.sql.DriverManager.registerDriver(java.sql.Driver) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.DriverManager#setLoginTimeout(int) public static void
+     * java.sql.DriverManager.setLoginTimeout(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_registerDriver_Driver()
+    public default void test_setLoginTimeout_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -211,46 +249,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.DriverManager#getDriver(java.lang.String) public static java.sql.Driver
-     * java.sql.DriverManager.getDriver(java.lang.String) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.DriverManager#setLogStream(java.io.PrintStream) public static void
+     * java.sql.DriverManager.setLogStream(java.io.PrintStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDriver_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.DriverManager#deregisterDriver(java.sql.Driver) public static synchronized void
-     * java.sql.DriverManager.deregisterDriver(java.sql.Driver) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deregisterDriver_Driver()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.DriverManager#getLogStream() public static java.io.PrintStream
-     * java.sql.DriverManager.getLogStream()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLogStream()
+    public default void test_setLogStream_PrintStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -273,20 +279,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.sql.DriverManager#setLoginTimeout(int) public static void
-     * java.sql.DriverManager.setLoginTimeout(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_setLoginTimeout_int()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.sql.DriverManager> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.sql.DriverManager.class.isAssignableFrom(sut));
     }
 
 }

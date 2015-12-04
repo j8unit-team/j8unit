@@ -23,30 +23,14 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.WebServiceProvider#targetNamespace() public abstract java.lang.String
-     * javax.xml.ws.WebServiceProvider.targetNamespace()}.
+     * Test method for {@link javax.xml.ws.WebServiceProvider#portName() public abstract java.lang.String
+     * javax.xml.ws.WebServiceProvider.portName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_targetNamespace()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.ws.WebServiceProvider#wsdlLocation() public abstract java.lang.String
-     * javax.xml.ws.WebServiceProvider.wsdlLocation()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wsdlLocation()
+    public default void test_portName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +55,30 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.WebServiceProvider#portName() public abstract java.lang.String
-     * javax.xml.ws.WebServiceProvider.portName()}.
+     * Test method for {@link javax.xml.ws.WebServiceProvider#targetNamespace() public abstract java.lang.String
+     * javax.xml.ws.WebServiceProvider.targetNamespace()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_portName()
+    public default void test_targetNamespace()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.WebServiceProvider#wsdlLocation() public abstract java.lang.String
+     * javax.xml.ws.WebServiceProvider.wsdlLocation()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wsdlLocation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

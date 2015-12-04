@@ -24,24 +24,6 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.rmi.activation.ActivationMonitor#inactiveGroup(java.rmi.activation.ActivationGroupID,long) public
-     * abstract void java.rmi.activation.ActivationMonitor.inactiveGroup(java.rmi.activation.ActivationGroupID,long)
-     * throws java.rmi.activation.UnknownGroupException,java.rmi.RemoteException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_inactiveGroup_ActivationGroupID_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link java.rmi.activation.ActivationMonitor#activeObject(java.rmi.activation.ActivationID,java.rmi.MarshalledObject)
      * public abstract void
      * java.rmi.activation.ActivationMonitor.activeObject(java.rmi.activation.ActivationID,java.rmi.MarshalledObject)
@@ -52,6 +34,24 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_activeObject_ActivationID_MarshalledObject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.rmi.activation.ActivationMonitor#inactiveGroup(java.rmi.activation.ActivationGroupID,long) public
+     * abstract void java.rmi.activation.ActivationMonitor.inactiveGroup(java.rmi.activation.ActivationGroupID,long)
+     * throws java.rmi.activation.UnknownGroupException,java.rmi.RemoteException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_inactiveGroup_ActivationGroupID_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

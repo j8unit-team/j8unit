@@ -24,23 +24,6 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie#getTarget() public
-     * java.rmi.Remote org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie.getTarget()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getTarget()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie#_ids() public
      * java.lang.String[] org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie._ids()}.
      * </p>
@@ -78,40 +61,6 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie#setTarget(java.rmi.Remote)
-     * public void org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie.setTarget(java.rmi.Remote)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setTarget_Remote()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie#thisObject() public
-     * org.omg.CORBA.Object org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie.thisObject()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_thisObject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie#deactivate() public void
      * org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie.deactivate()}.
      * </p>
@@ -121,6 +70,23 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
     @Category(Draft.class)
     @Override
     public default void test_deactivate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie#getTarget() public
+     * java.rmi.Remote org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie.getTarget()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getTarget()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -155,6 +121,40 @@ extends org.j8unit.repository.javax.rmi.CORBA.TieTests<SUT>, org.j8unit.reposito
     @Category(Draft.class)
     @Override
     public default void test_orb_ORB()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie#setTarget(java.rmi.Remote)
+     * public void org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie.setTarget(java.rmi.Remote)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setTarget_Remote()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie#thisObject() public
+     * org.omg.CORBA.Object org.omg.stub.javax.management.remote.rmi._RMIConnectionImpl_Tie.thisObject()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_thisObject()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

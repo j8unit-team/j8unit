@@ -36,6 +36,19 @@ public abstract interface JTextFieldClassTests<SUT extends Class<? extends javax
 extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8unit.repository.javax.swing.text.JTextComponentClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.swing.JTextField#JTextField() public javax.swing.JTextField()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTextField()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTextField sut = null; // = new JTextField();
+    }
+
+    /**
      * Test method for {@link javax.swing.JTextField#JTextField(javax.swing.text.Document,java.lang.String,int) public
      * javax.swing.JTextField(javax.swing.text.Document,java.lang.String,int)}.
      */
@@ -47,20 +60,6 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JTextField sut = null; // = new JTextField(javax.swing.text.Document,java.lang.String,int);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JTextField#JTextField(java.lang.String,int) public
-     * javax.swing.JTextField(java.lang.String,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTextField_String_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTextField sut = null; // = new JTextField(java.lang.String,int);
     }
 
     /**
@@ -91,16 +90,17 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
     }
 
     /**
-     * Test method for {@link javax.swing.JTextField#JTextField() public javax.swing.JTextField()}.
+     * Test method for {@link javax.swing.JTextField#JTextField(java.lang.String,int) public
+     * javax.swing.JTextField(java.lang.String,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JTextField()
+    public default void create_JTextField_String_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JTextField sut = null; // = new JTextField();
+        final javax.swing.JTextField sut = null; // = new JTextField(java.lang.String,int);
     }
 
     @Override

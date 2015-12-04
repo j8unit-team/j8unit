@@ -23,6 +23,22 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.sql.rowset.spi.SyncResolver#getConflictValue(int) public abstract java.lang.Object
+     * javax.sql.rowset.spi.SyncResolver.getConflictValue(int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getConflictValue_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.sql.rowset.spi.SyncResolver#getConflictValue(java.lang.String) public abstract
      * java.lang.Object javax.sql.rowset.spi.SyncResolver.getConflictValue(java.lang.String) throws
      * java.sql.SQLException}.
@@ -40,63 +56,14 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncResolver#getConflictValue(int) public abstract java.lang.Object
-     * javax.sql.rowset.spi.SyncResolver.getConflictValue(int) throws java.sql.SQLException}.
+     * Test method for {@link javax.sql.rowset.spi.SyncResolver#getStatus() public abstract int
+     * javax.sql.rowset.spi.SyncResolver.getStatus()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getConflictValue_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncResolver#previousConflict() public abstract boolean
-     * javax.sql.rowset.spi.SyncResolver.previousConflict() throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_previousConflict()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncResolver#setResolvedValue(java.lang.String,java.lang.Object)
-     * public abstract void javax.sql.rowset.spi.SyncResolver.setResolvedValue(java.lang.String,java.lang.Object) throws
-     * java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setResolvedValue_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncResolver#setResolvedValue(int,java.lang.Object) public abstract
-     * void javax.sql.rowset.spi.SyncResolver.setResolvedValue(int,java.lang.Object) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setResolvedValue_int_Object()
+    public default void test_getStatus()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,14 +88,47 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.spi.SyncResolver#getStatus() public abstract int
-     * javax.sql.rowset.spi.SyncResolver.getStatus()}.
+     * Test method for {@link javax.sql.rowset.spi.SyncResolver#previousConflict() public abstract boolean
+     * javax.sql.rowset.spi.SyncResolver.previousConflict() throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStatus()
+    public default void test_previousConflict()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.spi.SyncResolver#setResolvedValue(int,java.lang.Object) public abstract
+     * void javax.sql.rowset.spi.SyncResolver.setResolvedValue(int,java.lang.Object) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setResolvedValue_int_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.spi.SyncResolver#setResolvedValue(java.lang.String,java.lang.Object)
+     * public abstract void javax.sql.rowset.spi.SyncResolver.setResolvedValue(java.lang.String,java.lang.Object) throws
+     * java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setResolvedValue_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

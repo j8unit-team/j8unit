@@ -23,14 +23,18 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.TexturePaint#getAnchorRect() public java.awt.geom.Rectangle2D
-     * java.awt.TexturePaint.getAnchorRect()}.
+     * Test method for
+     * {@link java.awt.TexturePaint#createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)
+     * public java.awt.PaintContext
+     * java.awt.TexturePaint.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAnchorRect()
+    @Override
+    public default void test_createContext_ColorModel_Rectangle_Rectangle2D_AffineTransform_RenderingHints()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,15 +43,14 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.TexturePaint#getTransparency() public int
-     * java.awt.TexturePaint.getTransparency()}.
+     * Test method for {@link java.awt.TexturePaint#getAnchorRect() public java.awt.geom.Rectangle2D
+     * java.awt.TexturePaint.getAnchorRect()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getTransparency()
+    public default void test_getAnchorRect()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,18 +75,15 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.TexturePaint#createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)
-     * public java.awt.PaintContext
-     * java.awt.TexturePaint.createContext(java.awt.image.ColorModel,java.awt.Rectangle,java.awt.geom.Rectangle2D,java.awt.geom.AffineTransform,java.awt.RenderingHints)}
-     * .
+     * Test method for {@link java.awt.TexturePaint#getTransparency() public int
+     * java.awt.TexturePaint.getTransparency()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_createContext_ColorModel_Rectangle_Rectangle2D_AffineTransform_RenderingHints()
+    public default void test_getTransparency()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

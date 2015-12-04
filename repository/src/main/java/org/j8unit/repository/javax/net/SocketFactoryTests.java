@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.SocketFactory#createSocket(java.net.InetAddress,int) public abstract
-     * java.net.Socket javax.net.SocketFactory.createSocket(java.net.InetAddress,int) throws java.io.IOException}.
+     * Test method for {@link javax.net.SocketFactory#createSocket() public java.net.Socket
+     * javax.net.SocketFactory.createSocket() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createSocket_InetAddress_int()
+    public default void test_createSocket()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,15 +39,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.SocketFactory#createSocket(java.lang.String,int,java.net.InetAddress,int) public
-     * abstract java.net.Socket javax.net.SocketFactory.createSocket(java.lang.String,int,java.net.InetAddress,int)
-     * throws java.io.IOException,java.net.UnknownHostException}.
+     * Test method for {@link javax.net.SocketFactory#createSocket(java.net.InetAddress,int) public abstract
+     * java.net.Socket javax.net.SocketFactory.createSocket(java.net.InetAddress,int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createSocket_String_int_InetAddress_int()
+    public default void test_createSocket_InetAddress_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,14 +90,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.SocketFactory#createSocket() public java.net.Socket
-     * javax.net.SocketFactory.createSocket() throws java.io.IOException}.
+     * Test method for {@link javax.net.SocketFactory#createSocket(java.lang.String,int,java.net.InetAddress,int) public
+     * abstract java.net.Socket javax.net.SocketFactory.createSocket(java.lang.String,int,java.net.InetAddress,int)
+     * throws java.io.IOException,java.net.UnknownHostException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createSocket()
+    public default void test_createSocket_String_int_InetAddress_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

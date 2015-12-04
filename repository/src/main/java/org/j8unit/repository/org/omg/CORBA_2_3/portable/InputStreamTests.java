@@ -55,14 +55,14 @@ extends org.j8unit.repository.org.omg.CORBA.portable.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA_2_3.portable.InputStream#read_value(java.io.Serializable) public
-     * java.io.Serializable org.omg.CORBA_2_3.portable.InputStream.read_value(java.io.Serializable)}.
+     * Test method for {@link org.omg.CORBA_2_3.portable.InputStream#read_value() public java.io.Serializable
+     * org.omg.CORBA_2_3.portable.InputStream.read_value()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_read_value_Serializable()
+    public default void test_read_value()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,38 +88,6 @@ extends org.j8unit.repository.org.omg.CORBA.portable.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA_2_3.portable.InputStream#read_value(java.lang.String) public
-     * java.io.Serializable org.omg.CORBA_2_3.portable.InputStream.read_value(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_value_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA_2_3.portable.InputStream#read_value() public java.io.Serializable
-     * org.omg.CORBA_2_3.portable.InputStream.read_value()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_value()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.CORBA_2_3.portable.InputStream#read_value(java.lang.Class) public
      * java.io.Serializable org.omg.CORBA_2_3.portable.InputStream.read_value(java.lang.Class)}.
      * </p>
@@ -128,6 +96,38 @@ extends org.j8unit.repository.org.omg.CORBA.portable.InputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_read_value_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA_2_3.portable.InputStream#read_value(java.io.Serializable) public
+     * java.io.Serializable org.omg.CORBA_2_3.portable.InputStream.read_value(java.io.Serializable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_read_value_Serializable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA_2_3.portable.InputStream#read_value(java.lang.String) public
+     * java.io.Serializable org.omg.CORBA_2_3.portable.InputStream.read_value(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_read_value_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

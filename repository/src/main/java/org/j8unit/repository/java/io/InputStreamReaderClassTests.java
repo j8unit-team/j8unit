@@ -36,19 +36,17 @@ public abstract interface InputStreamReaderClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.java.io.ReaderClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.io.InputStreamReader#InputStreamReader(java.io.InputStream,java.nio.charset.CharsetDecoder) public
-     * java.io.InputStreamReader(java.io.InputStream,java.nio.charset.CharsetDecoder)}.
+     * Test method for {@link java.io.InputStreamReader#InputStreamReader(java.io.InputStream) public
+     * java.io.InputStreamReader(java.io.InputStream)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_InputStreamReader_InputStream_CharsetDecoder()
+    public default void create_InputStreamReader_InputStream()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.io.InputStreamReader sut = null; // = new
-                                                    // InputStreamReader(java.io.InputStream,java.nio.charset.CharsetDecoder);
+        final java.io.InputStreamReader sut = null; // = new InputStreamReader(java.io.InputStream);
     }
 
     /**
@@ -67,6 +65,22 @@ extends org.j8unit.repository.java.io.ReaderClassTests<SUT> {
     }
 
     /**
+     * Test method for
+     * {@link java.io.InputStreamReader#InputStreamReader(java.io.InputStream,java.nio.charset.CharsetDecoder) public
+     * java.io.InputStreamReader(java.io.InputStream,java.nio.charset.CharsetDecoder)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InputStreamReader_InputStream_CharsetDecoder()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.InputStreamReader sut = null; // = new
+                                                    // InputStreamReader(java.io.InputStream,java.nio.charset.CharsetDecoder);
+    }
+
+    /**
      * Test method for {@link java.io.InputStreamReader#InputStreamReader(java.io.InputStream,java.lang.String) public
      * java.io.InputStreamReader(java.io.InputStream,java.lang.String) throws java.io.UnsupportedEncodingException}.
      */
@@ -78,20 +92,6 @@ extends org.j8unit.repository.java.io.ReaderClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.InputStreamReader sut = null; // = new InputStreamReader(java.io.InputStream,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.io.InputStreamReader#InputStreamReader(java.io.InputStream) public
-     * java.io.InputStreamReader(java.io.InputStream)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InputStreamReader_InputStream()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.InputStreamReader sut = null; // = new InputStreamReader(java.io.InputStream);
     }
 
     @Override

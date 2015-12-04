@@ -24,23 +24,6 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.StringMonitorMBean#setStringToCompare(java.lang.String) public
-     * abstract void javax.management.monitor.StringMonitorMBean.setStringToCompare(java.lang.String) throws
-     * java.lang.IllegalArgumentException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setStringToCompare_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.monitor.StringMonitorMBean#getDerivedGauge() public abstract
      * java.lang.String javax.management.monitor.StringMonitorMBean.getDerivedGauge()}.
      * </p>
@@ -74,14 +57,14 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.StringMonitorMBean#setNotifyDiffer(boolean) public abstract void
-     * javax.management.monitor.StringMonitorMBean.setNotifyDiffer(boolean)}.
+     * Test method for {@link javax.management.monitor.StringMonitorMBean#getDerivedGaugeTimeStamp() public abstract
+     * long javax.management.monitor.StringMonitorMBean.getDerivedGaugeTimeStamp()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setNotifyDiffer_boolean()
+    public default void test_getDerivedGaugeTimeStamp()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -99,22 +82,6 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDerivedGaugeTimeStamp_ObjectName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.monitor.StringMonitorMBean#getDerivedGaugeTimeStamp() public abstract
-     * long javax.management.monitor.StringMonitorMBean.getDerivedGaugeTimeStamp()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDerivedGaugeTimeStamp()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -155,6 +122,38 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.management.monitor.StringMonitorMBean#getStringToCompare() public abstract
+     * java.lang.String javax.management.monitor.StringMonitorMBean.getStringToCompare()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStringToCompare()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.monitor.StringMonitorMBean#setNotifyDiffer(boolean) public abstract void
+     * javax.management.monitor.StringMonitorMBean.setNotifyDiffer(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setNotifyDiffer_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.monitor.StringMonitorMBean#setNotifyMatch(boolean) public abstract void
      * javax.management.monitor.StringMonitorMBean.setNotifyMatch(boolean)}.
      * </p>
@@ -171,14 +170,15 @@ extends org.j8unit.repository.javax.management.monitor.MonitorMBeanTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.StringMonitorMBean#getStringToCompare() public abstract
-     * java.lang.String javax.management.monitor.StringMonitorMBean.getStringToCompare()}.
+     * Test method for {@link javax.management.monitor.StringMonitorMBean#setStringToCompare(java.lang.String) public
+     * abstract void javax.management.monitor.StringMonitorMBean.setStringToCompare(java.lang.String) throws
+     * java.lang.IllegalArgumentException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStringToCompare()
+    public default void test_setStringToCompare_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

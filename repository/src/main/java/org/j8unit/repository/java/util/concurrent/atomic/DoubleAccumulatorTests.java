@@ -24,15 +24,31 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#longValue() public long
-     * java.util.concurrent.atomic.DoubleAccumulator.longValue()}.
+     * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#accumulate(double) public void
+     * java.util.concurrent.atomic.DoubleAccumulator.accumulate(double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_accumulate_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#doubleValue() public double
+     * java.util.concurrent.atomic.DoubleAccumulator.doubleValue()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_longValue()
+    public default void test_doubleValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -58,64 +74,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#reset() public void
-     * java.util.concurrent.atomic.DoubleAccumulator.reset()}.
+     * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#get() public double
+     * java.util.concurrent.atomic.DoubleAccumulator.get()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#accumulate(double) public void
-     * java.util.concurrent.atomic.DoubleAccumulator.accumulate(double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_accumulate_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#toString() public java.lang.String
-     * java.util.concurrent.atomic.DoubleAccumulator.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#doubleValue() public double
-     * java.util.concurrent.atomic.DoubleAccumulator.doubleValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_doubleValue()
+    public default void test_get()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -157,14 +123,48 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#get() public double
-     * java.util.concurrent.atomic.DoubleAccumulator.get()}.
+     * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#longValue() public long
+     * java.util.concurrent.atomic.DoubleAccumulator.longValue()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get()
+    @Override
+    public default void test_longValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#reset() public void
+     * java.util.concurrent.atomic.DoubleAccumulator.reset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAccumulator#toString() public java.lang.String
+     * java.util.concurrent.atomic.DoubleAccumulator.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

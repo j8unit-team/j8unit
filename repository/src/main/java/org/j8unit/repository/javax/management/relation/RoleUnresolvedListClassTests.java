@@ -36,17 +36,17 @@ public abstract interface RoleUnresolvedListClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.java.util.ArrayListClassTests<SUT, java.lang.Object> {
 
     /**
-     * Test method for {@link javax.management.relation.RoleUnresolvedList#RoleUnresolvedList(java.util.List) public
-     * javax.management.relation.RoleUnresolvedList(java.util.List) throws java.lang.IllegalArgumentException}.
+     * Test method for {@link javax.management.relation.RoleUnresolvedList#RoleUnresolvedList() public
+     * javax.management.relation.RoleUnresolvedList()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RoleUnresolvedList_List()
+    public default void create_RoleUnresolvedList()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.management.relation.RoleUnresolvedList sut = null; // = new RoleUnresolvedList(java.util.List);
+        final javax.management.relation.RoleUnresolvedList sut = null; // = new RoleUnresolvedList();
     }
 
     /**
@@ -64,17 +64,17 @@ extends org.j8unit.repository.java.util.ArrayListClassTests<SUT, java.lang.Objec
     }
 
     /**
-     * Test method for {@link javax.management.relation.RoleUnresolvedList#RoleUnresolvedList() public
-     * javax.management.relation.RoleUnresolvedList()}.
+     * Test method for {@link javax.management.relation.RoleUnresolvedList#RoleUnresolvedList(java.util.List) public
+     * javax.management.relation.RoleUnresolvedList(java.util.List) throws java.lang.IllegalArgumentException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RoleUnresolvedList()
+    public default void create_RoleUnresolvedList_List()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.management.relation.RoleUnresolvedList sut = null; // = new RoleUnresolvedList();
+        final javax.management.relation.RoleUnresolvedList sut = null; // = new RoleUnresolvedList(java.util.List);
     }
 
     @Override

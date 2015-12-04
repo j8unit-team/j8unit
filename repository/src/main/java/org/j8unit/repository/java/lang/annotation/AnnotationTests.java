@@ -40,14 +40,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.annotation.Annotation#toString() public abstract java.lang.String
-     * java.lang.annotation.Annotation.toString()}.
+     * Test method for {@link java.lang.annotation.Annotation#equals(java.lang.Object) public abstract boolean
+     * java.lang.annotation.Annotation.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toString()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +72,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.annotation.Annotation#equals(java.lang.Object) public abstract boolean
-     * java.lang.annotation.Annotation.equals(java.lang.Object)}.
+     * Test method for {@link java.lang.annotation.Annotation#toString() public abstract java.lang.String
+     * java.lang.annotation.Annotation.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_equals_Object()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

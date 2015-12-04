@@ -23,14 +23,15 @@ extends org.j8unit.repository.java.security.spec.ECFieldTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.ECFieldFp#getP() public java.math.BigInteger
-     * java.security.spec.ECFieldFp.getP()}.
+     * Test method for {@link java.security.spec.ECFieldFp#equals(java.lang.Object) public boolean
+     * java.security.spec.ECFieldFp.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getP()
+    @Override
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,15 +57,14 @@ extends org.j8unit.repository.java.security.spec.ECFieldTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.ECFieldFp#equals(java.lang.Object) public boolean
-     * java.security.spec.ECFieldFp.equals(java.lang.Object)}.
+     * Test method for {@link java.security.spec.ECFieldFp#getP() public java.math.BigInteger
+     * java.security.spec.ECFieldFp.getP()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_getP()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,14 +23,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicBoolean#lazySet(boolean) public final void
-     * java.util.concurrent.atomic.AtomicBoolean.lazySet(boolean)}.
+     * Test method for {@link java.util.concurrent.atomic.AtomicBoolean#compareAndSet(boolean,boolean) public final
+     * boolean java.util.concurrent.atomic.AtomicBoolean.compareAndSet(boolean,boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_lazySet_boolean()
+    public default void test_compareAndSet_boolean_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicBoolean#get() public final boolean
+     * java.util.concurrent.atomic.AtomicBoolean.get()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -47,6 +63,38 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_getAndSet_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicBoolean#lazySet(boolean) public final void
+     * java.util.concurrent.atomic.AtomicBoolean.lazySet(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lazySet_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicBoolean#set(boolean) public final void
+     * java.util.concurrent.atomic.AtomicBoolean.set(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_set_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,38 +120,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicBoolean#set(boolean) public final void
-     * java.util.concurrent.atomic.AtomicBoolean.set(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_set_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicBoolean#compareAndSet(boolean,boolean) public final
-     * boolean java.util.concurrent.atomic.AtomicBoolean.compareAndSet(boolean,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compareAndSet_boolean_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.concurrent.atomic.AtomicBoolean#weakCompareAndSet(boolean,boolean) public
      * boolean java.util.concurrent.atomic.AtomicBoolean.weakCompareAndSet(boolean,boolean)}.
      * </p>
@@ -112,22 +128,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_weakCompareAndSet_boolean_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicBoolean#get() public final boolean
-     * java.util.concurrent.atomic.AtomicBoolean.get()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

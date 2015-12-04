@@ -39,42 +39,6 @@ org.j8unit.repository.javax.management.MBeanParameterInfoClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,java.lang.Object,java.lang.Comparable,java.lang.Comparable)
-     * public
-     * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,java.lang.Object,java.lang.Comparable,java.lang.Comparable)
-     * throws javax.management.openmbean.OpenDataException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_OpenMBeanParameterInfoSupport_String_String_OpenType_Object_Comparable_Comparable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.openmbean.OpenMBeanParameterInfoSupport sut = null; // = new
-                                                                                   // OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,java.lang.Object,java.lang.Comparable,java.lang.Comparable);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,java.lang.Object,java.lang.Object[])
-     * public
-     * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,java.lang.Object,java.lang.Object[])
-     * throws javax.management.openmbean.OpenDataException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_OpenMBeanParameterInfoSupport_String_String_OpenType_Object_ObjectArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.openmbean.OpenMBeanParameterInfoSupport sut = null; // = new
-                                                                                   // OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,java.lang.Object,java.lang.Object[]);
-    }
-
-    /**
-     * Test method for
      * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType)
      * public
      * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType)}
@@ -125,6 +89,42 @@ org.j8unit.repository.javax.management.MBeanParameterInfoClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.management.openmbean.OpenMBeanParameterInfoSupport sut = null; // = new
                                                                                    // OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,java.lang.Object);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,java.lang.Object,java.lang.Comparable,java.lang.Comparable)
+     * public
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,java.lang.Object,java.lang.Comparable,java.lang.Comparable)
+     * throws javax.management.openmbean.OpenDataException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_OpenMBeanParameterInfoSupport_String_String_OpenType_Object_Comparable_Comparable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.openmbean.OpenMBeanParameterInfoSupport sut = null; // = new
+                                                                                   // OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,java.lang.Object,java.lang.Comparable,java.lang.Comparable);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,java.lang.Object,java.lang.Object[])
+     * public
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,java.lang.Object,java.lang.Object[])
+     * throws javax.management.openmbean.OpenDataException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_OpenMBeanParameterInfoSupport_String_String_OpenType_Object_ObjectArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.openmbean.OpenMBeanParameterInfoSupport sut = null; // = new
+                                                                                   // OpenMBeanParameterInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,java.lang.Object,java.lang.Object[]);
     }
 
     @Override

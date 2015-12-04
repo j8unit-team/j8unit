@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ProviderClassTests<SUT extends Class<? extends javax.xml.ws.spi.Provider>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.ws.spi.Provider> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.ws.spi.Provider.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.xml.ws.spi.Provider#provider() public static javax.xml.ws.spi.Provider
@@ -59,6 +49,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.ws.spi.Provider> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.ws.spi.Provider.class.isAssignableFrom(sut));
     }
 
 }

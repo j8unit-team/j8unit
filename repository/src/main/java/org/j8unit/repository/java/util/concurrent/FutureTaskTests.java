@@ -23,39 +23,6 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, V>, 
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.FutureTask#run() public void java.util.concurrent.FutureTask.run()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_run()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.FutureTask#isDone() public boolean
-     * java.util.concurrent.FutureTask.isDone()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isDone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.concurrent.FutureTask#cancel(boolean) public boolean
      * java.util.concurrent.FutureTask.cancel(boolean)}.
      * </p>
@@ -73,15 +40,16 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, V>, 
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.FutureTask#isCancelled() public boolean
-     * java.util.concurrent.FutureTask.isCancelled()}.
+     * Test method for {@link java.util.concurrent.FutureTask#get() public java.lang.Object
+     * java.util.concurrent.FutureTask.get() throws
+     * java.lang.InterruptedException,java.util.concurrent.ExecutionException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isCancelled()
+    public default void test_get()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -108,16 +76,48 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, V>, 
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.FutureTask#get() public java.lang.Object
-     * java.util.concurrent.FutureTask.get() throws
-     * java.lang.InterruptedException,java.util.concurrent.ExecutionException}.
+     * Test method for {@link java.util.concurrent.FutureTask#isCancelled() public boolean
+     * java.util.concurrent.FutureTask.isCancelled()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_get()
+    public default void test_isCancelled()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.FutureTask#isDone() public boolean
+     * java.util.concurrent.FutureTask.isDone()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isDone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.FutureTask#run() public void java.util.concurrent.FutureTask.run()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_run()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -34,14 +34,37 @@ import org.junit.experimental.categories.Category;
 public abstract interface NamingClassTests<SUT extends Class<? extends java.rmi.Naming>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.rmi.Naming#bind(java.lang.String,java.rmi.Remote) public static void
+     * java.rmi.Naming.bind(java.lang.String,java.rmi.Remote) throws
+     * java.rmi.AlreadyBoundException,java.net.MalformedURLException,java.rmi.RemoteException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_bind_String_Remote()
     throws Exception {
-        // create new instance
-        final Class<? extends java.rmi.Naming> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.rmi.Naming.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.Naming#list(java.lang.String) public static java.lang.String[]
+     * java.rmi.Naming.list(java.lang.String) throws java.rmi.RemoteException,java.net.MalformedURLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_list_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -55,23 +78,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_lookup_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.rmi.Naming#bind(java.lang.String,java.rmi.Remote) public static void
-     * java.rmi.Naming.bind(java.lang.String,java.rmi.Remote) throws
-     * java.rmi.AlreadyBoundException,java.net.MalformedURLException,java.rmi.RemoteException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_bind_String_Remote()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -112,20 +118,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.rmi.Naming#list(java.lang.String) public static java.lang.String[]
-     * java.rmi.Naming.list(java.lang.String) throws java.rmi.RemoteException,java.net.MalformedURLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_list_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.rmi.Naming> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.rmi.Naming.class.isAssignableFrom(sut));
     }
 
 }

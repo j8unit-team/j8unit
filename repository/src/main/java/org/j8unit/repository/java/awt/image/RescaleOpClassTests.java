@@ -37,20 +37,6 @@ extends org.j8unit.repository.java.awt.image.BufferedImageOpClassTests<SUT>, org
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.image.RescaleOp#RescaleOp(float[],float[],java.awt.RenderingHints) public
-     * java.awt.image.RescaleOp(float[],float[],java.awt.RenderingHints)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RescaleOp_floatArray_floatArray_RenderingHints()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.RescaleOp sut = null; // = new RescaleOp(float[],float[],java.awt.RenderingHints);
-    }
-
-    /**
      * Test method for {@link java.awt.image.RescaleOp#RescaleOp(float,float,java.awt.RenderingHints) public
      * java.awt.image.RescaleOp(float,float,java.awt.RenderingHints)}.
      */
@@ -62,6 +48,20 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.image.RescaleOp sut = null; // = new RescaleOp(float,float,java.awt.RenderingHints);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.RescaleOp#RescaleOp(float[],float[],java.awt.RenderingHints) public
+     * java.awt.image.RescaleOp(float[],float[],java.awt.RenderingHints)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RescaleOp_floatArray_floatArray_RenderingHints()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.RescaleOp sut = null; // = new RescaleOp(float[],float[],java.awt.RenderingHints);
     }
 
     @Override

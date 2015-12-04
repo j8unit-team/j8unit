@@ -23,30 +23,14 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#stopEditing(javax.swing.JTree) public abstract boolean
-     * javax.swing.plaf.TreeUI.stopEditing(javax.swing.JTree)}.
+     * Test method for {@link javax.swing.plaf.TreeUI#cancelEditing(javax.swing.JTree) public abstract void
+     * javax.swing.plaf.TreeUI.cancelEditing(javax.swing.JTree)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_stopEditing_JTree()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#isEditing(javax.swing.JTree) public abstract boolean
-     * javax.swing.plaf.TreeUI.isEditing(javax.swing.JTree)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isEditing_JTree()
+    public default void test_cancelEditing_JTree()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,30 +55,14 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#startEditingAtPath(javax.swing.JTree,javax.swing.tree.TreePath)
-     * public abstract void javax.swing.plaf.TreeUI.startEditingAtPath(javax.swing.JTree,javax.swing.tree.TreePath)}.
+     * Test method for {@link javax.swing.plaf.TreeUI#getEditingPath(javax.swing.JTree) public abstract
+     * javax.swing.tree.TreePath javax.swing.plaf.TreeUI.getEditingPath(javax.swing.JTree)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_startEditingAtPath_JTree_TreePath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getRowCount(javax.swing.JTree) public abstract int
-     * javax.swing.plaf.TreeUI.getRowCount(javax.swing.JTree)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowCount_JTree()
+    public default void test_getEditingPath_JTree()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,6 +87,38 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.TreeUI#getPathForRow(javax.swing.JTree,int) public abstract
+     * javax.swing.tree.TreePath javax.swing.plaf.TreeUI.getPathForRow(javax.swing.JTree,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPathForRow_JTree_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.TreeUI#getRowCount(javax.swing.JTree) public abstract int
+     * javax.swing.plaf.TreeUI.getRowCount(javax.swing.JTree)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowCount_JTree()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.TreeUI#getRowForPath(javax.swing.JTree,javax.swing.tree.TreePath) public
      * abstract int javax.swing.plaf.TreeUI.getRowForPath(javax.swing.JTree,javax.swing.tree.TreePath)}.
      * </p>
@@ -135,14 +135,14 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#cancelEditing(javax.swing.JTree) public abstract void
-     * javax.swing.plaf.TreeUI.cancelEditing(javax.swing.JTree)}.
+     * Test method for {@link javax.swing.plaf.TreeUI#isEditing(javax.swing.JTree) public abstract boolean
+     * javax.swing.plaf.TreeUI.isEditing(javax.swing.JTree)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_cancelEditing_JTree()
+    public default void test_isEditing_JTree()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -151,14 +151,14 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getEditingPath(javax.swing.JTree) public abstract
-     * javax.swing.tree.TreePath javax.swing.plaf.TreeUI.getEditingPath(javax.swing.JTree)}.
+     * Test method for {@link javax.swing.plaf.TreeUI#startEditingAtPath(javax.swing.JTree,javax.swing.tree.TreePath)
+     * public abstract void javax.swing.plaf.TreeUI.startEditingAtPath(javax.swing.JTree,javax.swing.tree.TreePath)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getEditingPath_JTree()
+    public default void test_startEditingAtPath_JTree_TreePath()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -167,14 +167,14 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TreeUI#getPathForRow(javax.swing.JTree,int) public abstract
-     * javax.swing.tree.TreePath javax.swing.plaf.TreeUI.getPathForRow(javax.swing.JTree,int)}.
+     * Test method for {@link javax.swing.plaf.TreeUI#stopEditing(javax.swing.JTree) public abstract boolean
+     * javax.swing.plaf.TreeUI.stopEditing(javax.swing.JTree)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPathForRow_JTree_int()
+    public default void test_stopEditing_JTree()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

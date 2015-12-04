@@ -24,23 +24,6 @@ extends org.j8unit.repository.javax.print.attribute.AttributeSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.PrintJobAttributeSet#addAll(javax.print.attribute.AttributeSet)
-     * public abstract boolean javax.print.attribute.PrintJobAttributeSet.addAll(javax.print.attribute.AttributeSet)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addAll_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.print.attribute.PrintJobAttributeSet#add(javax.print.attribute.Attribute) public
      * abstract boolean javax.print.attribute.PrintJobAttributeSet.add(javax.print.attribute.Attribute)}.
      * </p>
@@ -50,6 +33,23 @@ extends org.j8unit.repository.javax.print.attribute.AttributeSetTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_add_Attribute()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.attribute.PrintJobAttributeSet#addAll(javax.print.attribute.AttributeSet)
+     * public abstract boolean javax.print.attribute.PrintJobAttributeSet.addAll(javax.print.attribute.AttributeSet)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_addAll_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

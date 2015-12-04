@@ -49,14 +49,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.CORBA.UnionMemberHelper sut = null; // = new UnionMemberHelper();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.UnionMemberHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.CORBA.UnionMember org.omg.CORBA.UnionMemberHelper.extract(org.omg.CORBA.Any)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_extract_Any()
     throws Exception {
-        // create new instance
-        final Class<? extends org.omg.CORBA.UnionMemberHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.CORBA.UnionMemberHelper.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -93,16 +99,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.CORBA.UnionMemberHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.UnionMember)
-     * public static void
-     * org.omg.CORBA.UnionMemberHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.UnionMember)}.
+     * Test method for {@link org.omg.CORBA.UnionMemberHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * org.omg.CORBA.UnionMember org.omg.CORBA.UnionMemberHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_OutputStream_UnionMember()
+    public default void test_read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,34 +131,30 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.UnionMemberHelper#read(org.omg.CORBA.portable.InputStream) public static
-     * org.omg.CORBA.UnionMember org.omg.CORBA.UnionMemberHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for
+     * {@link org.omg.CORBA.UnionMemberHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.UnionMember)
+     * public static void
+     * org.omg.CORBA.UnionMemberHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.UnionMember)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_read_InputStream()
+    public default void test_write_OutputStream_UnionMember()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.UnionMemberHelper#extract(org.omg.CORBA.Any) public static
-     * org.omg.CORBA.UnionMember org.omg.CORBA.UnionMemberHelper.extract(org.omg.CORBA.Any)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_extract_Any()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.CORBA.UnionMemberHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.CORBA.UnionMemberHelper.class.isAssignableFrom(sut));
     }
 
 }

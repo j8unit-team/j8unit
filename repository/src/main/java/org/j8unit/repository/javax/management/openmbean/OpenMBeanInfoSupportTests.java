@@ -24,23 +24,6 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanInfoSupport#toString() public java.lang.String
-     * javax.management.openmbean.OpenMBeanInfoSupport.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.openmbean.OpenMBeanInfoSupport#equals(java.lang.Object) public boolean
      * javax.management.openmbean.OpenMBeanInfoSupport.equals(java.lang.Object)}.
      * </p>
@@ -50,23 +33,6 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Category(Draft.class)
     @Override
     public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanInfoSupport#hashCode() public int
-     * javax.management.openmbean.OpenMBeanInfoSupport.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -85,7 +51,7 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getDescription()
+    public default void test_getAttributes()
     throws Exception {
     }
 
@@ -133,7 +99,7 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getNotifications()
+    public default void test_getDescription()
     throws Exception {
     }
 
@@ -149,7 +115,7 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAttributes()
+    public default void test_getNotifications()
     throws Exception {
     }
 
@@ -167,6 +133,40 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanInfoTests<SUT>
     @Override
     public default void test_getOperations()
     throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanInfoSupport#hashCode() public int
+     * javax.management.openmbean.OpenMBeanInfoSupport.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanInfoSupport#toString() public java.lang.String
+     * javax.management.openmbean.OpenMBeanInfoSupport.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

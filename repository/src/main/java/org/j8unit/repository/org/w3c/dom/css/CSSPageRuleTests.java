@@ -23,6 +23,22 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.w3c.dom.css.CSSPageRule#getSelectorText() public abstract java.lang.String
+     * org.w3c.dom.css.CSSPageRule.getSelectorText()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectorText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.w3c.dom.css.CSSPageRule#getStyle() public abstract org.w3c.dom.css.CSSStyleDeclaration
      * org.w3c.dom.css.CSSPageRule.getStyle()}.
      * </p>
@@ -47,22 +63,6 @@ extends org.j8unit.repository.org.w3c.dom.css.CSSRuleTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setSelectorText_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.css.CSSPageRule#getSelectorText() public abstract java.lang.String
-     * org.w3c.dom.css.CSSPageRule.getSelectorText()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectorText()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

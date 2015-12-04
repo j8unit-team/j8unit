@@ -36,16 +36,6 @@ extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>, org.j8
 org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.YearMonth>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.YearMonth> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.YearMonth.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.time.YearMonth#from(java.time.temporal.TemporalAccessor) public static
@@ -64,15 +54,13 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.YearMonth#parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)
-     * public static java.time.YearMonth
-     * java.time.YearMonth.parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)}.
+     * Test method for {@link java.time.YearMonth#now() public static java.time.YearMonth java.time.YearMonth.now()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parse_CharSequence_DateTimeFormatter()
+    public default void test_now()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -81,14 +69,30 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.YearMonth#parse(java.lang.CharSequence) public static java.time.YearMonth
-     * java.time.YearMonth.parse(java.lang.CharSequence)}.
+     * Test method for {@link java.time.YearMonth#now(java.time.Clock) public static java.time.YearMonth
+     * java.time.YearMonth.now(java.time.Clock)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parse_CharSequence()
+    public default void test_now_Clock()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.YearMonth#now(java.time.ZoneId) public static java.time.YearMonth
+     * java.time.YearMonth.now(java.time.ZoneId)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_now_ZoneId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -129,14 +133,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.YearMonth#now(java.time.ZoneId) public static java.time.YearMonth
-     * java.time.YearMonth.now(java.time.ZoneId)}.
+     * Test method for {@link java.time.YearMonth#parse(java.lang.CharSequence) public static java.time.YearMonth
+     * java.time.YearMonth.parse(java.lang.CharSequence)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_now_ZoneId()
+    public default void test_parse_CharSequence()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -145,33 +149,29 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.YearMonth#now(java.time.Clock) public static java.time.YearMonth
-     * java.time.YearMonth.now(java.time.Clock)}.
+     * Test method for {@link java.time.YearMonth#parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)
+     * public static java.time.YearMonth
+     * java.time.YearMonth.parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_now_Clock()
+    public default void test_parse_CharSequence_DateTimeFormatter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.time.YearMonth#now() public static java.time.YearMonth java.time.YearMonth.now()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_now()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.time.YearMonth> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.YearMonth.class.isAssignableFrom(sut));
     }
 
 }

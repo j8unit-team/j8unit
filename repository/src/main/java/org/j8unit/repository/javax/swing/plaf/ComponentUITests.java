@@ -39,14 +39,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.ComponentUI#getBaseline(javax.swing.JComponent,int,int) public int
-     * javax.swing.plaf.ComponentUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * Test method for {@link javax.swing.plaf.ComponentUI#getAccessibleChild(javax.swing.JComponent,int) public
+     * javax.accessibility.Accessible javax.swing.plaf.ComponentUI.getAccessibleChild(javax.swing.JComponent,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBaseline_JComponent_int_int()
+    public default void test_getAccessibleChild_JComponent_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.ComponentUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.ComponentUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.ComponentUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
+     * javax.swing.plaf.ComponentUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMinimumSize_JComponent()
+    public default void test_getAccessibleChildrenCount_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.ComponentUI#getBaseline(javax.swing.JComponent,int,int) public int
+     * javax.swing.plaf.ComponentUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBaseline_JComponent_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,14 +104,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.ComponentUI#getAccessibleChild(javax.swing.JComponent,int) public
-     * javax.accessibility.Accessible javax.swing.plaf.ComponentUI.getAccessibleChild(javax.swing.JComponent,int)}.
+     * Test method for {@link javax.swing.plaf.ComponentUI#getMaximumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.ComponentUI.getMaximumSize(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAccessibleChild_JComponent_int()
+    public default void test_getMaximumSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.ComponentUI#getMinimumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.ComponentUI.getMinimumSize(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMinimumSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -136,30 +168,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.ComponentUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.ComponentUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.ComponentUI#paint(java.awt.Graphics,javax.swing.JComponent) public void
+     * javax.swing.plaf.ComponentUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMaximumSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.ComponentUI#update(java.awt.Graphics,javax.swing.JComponent) public void
-     * javax.swing.plaf.ComponentUI.update(java.awt.Graphics,javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_update_Graphics_JComponent()
+    public default void test_paint_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -184,30 +200,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.ComponentUI#paint(java.awt.Graphics,javax.swing.JComponent) public void
-     * javax.swing.plaf.ComponentUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.ComponentUI#update(java.awt.Graphics,javax.swing.JComponent) public void
+     * javax.swing.plaf.ComponentUI.update(java.awt.Graphics,javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_paint_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.ComponentUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
-     * javax.swing.plaf.ComponentUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleChildrenCount_JComponent()
+    public default void test_update_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

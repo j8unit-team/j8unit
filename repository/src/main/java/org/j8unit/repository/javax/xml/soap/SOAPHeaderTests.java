@@ -23,14 +23,15 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPHeader#examineAllHeaderElements() public abstract java.util.Iterator
-     * javax.xml.soap.SOAPHeader.examineAllHeaderElements()}.
+     * Test method for {@link javax.xml.soap.SOAPHeader#addHeaderElement(javax.xml.soap.Name) public abstract
+     * javax.xml.soap.SOAPHeaderElement javax.xml.soap.SOAPHeader.addHeaderElement(javax.xml.soap.Name) throws
+     * javax.xml.soap.SOAPException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_examineAllHeaderElements()
+    public default void test_addHeaderElement_Name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,14 +40,15 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPHeader#examineHeaderElements(java.lang.String) public abstract
-     * java.util.Iterator javax.xml.soap.SOAPHeader.examineHeaderElements(java.lang.String)}.
+     * Test method for {@link javax.xml.soap.SOAPHeader#addHeaderElement(javax.xml.namespace.QName) public abstract
+     * javax.xml.soap.SOAPHeaderElement javax.xml.soap.SOAPHeader.addHeaderElement(javax.xml.namespace.QName) throws
+     * javax.xml.soap.SOAPException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_examineHeaderElements_String()
+    public default void test_addHeaderElement_QName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,30 +57,16 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPHeader#extractAllHeaderElements() public abstract java.util.Iterator
-     * javax.xml.soap.SOAPHeader.extractAllHeaderElements()}.
+     * Test method for {@link javax.xml.soap.SOAPHeader#addNotUnderstoodHeaderElement(javax.xml.namespace.QName) public
+     * abstract javax.xml.soap.SOAPHeaderElement
+     * javax.xml.soap.SOAPHeader.addNotUnderstoodHeaderElement(javax.xml.namespace.QName) throws
+     * javax.xml.soap.SOAPException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_extractAllHeaderElements()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPHeader#extractHeaderElements(java.lang.String) public abstract
-     * java.util.Iterator javax.xml.soap.SOAPHeader.extractHeaderElements(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_extractHeaderElements_String()
+    public default void test_addNotUnderstoodHeaderElement_QName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -138,16 +126,14 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPHeader#addNotUnderstoodHeaderElement(javax.xml.namespace.QName) public
-     * abstract javax.xml.soap.SOAPHeaderElement
-     * javax.xml.soap.SOAPHeader.addNotUnderstoodHeaderElement(javax.xml.namespace.QName) throws
-     * javax.xml.soap.SOAPException}.
+     * Test method for {@link javax.xml.soap.SOAPHeader#examineAllHeaderElements() public abstract java.util.Iterator
+     * javax.xml.soap.SOAPHeader.examineAllHeaderElements()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addNotUnderstoodHeaderElement_QName()
+    public default void test_examineAllHeaderElements()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -156,32 +142,14 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPHeader#addHeaderElement(javax.xml.soap.Name) public abstract
-     * javax.xml.soap.SOAPHeaderElement javax.xml.soap.SOAPHeader.addHeaderElement(javax.xml.soap.Name) throws
-     * javax.xml.soap.SOAPException}.
+     * Test method for {@link javax.xml.soap.SOAPHeader#examineHeaderElements(java.lang.String) public abstract
+     * java.util.Iterator javax.xml.soap.SOAPHeader.examineHeaderElements(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addHeaderElement_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPHeader#addHeaderElement(javax.xml.namespace.QName) public abstract
-     * javax.xml.soap.SOAPHeaderElement javax.xml.soap.SOAPHeader.addHeaderElement(javax.xml.namespace.QName) throws
-     * javax.xml.soap.SOAPException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addHeaderElement_QName()
+    public default void test_examineHeaderElements_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -198,6 +166,38 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_examineMustUnderstandHeaderElements_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPHeader#extractAllHeaderElements() public abstract java.util.Iterator
+     * javax.xml.soap.SOAPHeader.extractAllHeaderElements()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_extractAllHeaderElements()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPHeader#extractHeaderElements(java.lang.String) public abstract
+     * java.util.Iterator javax.xml.soap.SOAPHeader.extractHeaderElements(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_extractHeaderElements_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

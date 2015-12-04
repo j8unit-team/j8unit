@@ -24,6 +24,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.basic.ComboPopup#getKeyListener() public abstract
+     * java.awt.event.KeyListener javax.swing.plaf.basic.ComboPopup.getKeyListener()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getKeyListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.basic.ComboPopup#getList() public abstract javax.swing.JList
      * javax.swing.plaf.basic.ComboPopup.getList()}.
      * </p>
@@ -32,70 +48,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getList()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.ComboPopup#getMouseMotionListener() public abstract
-     * java.awt.event.MouseMotionListener javax.swing.plaf.basic.ComboPopup.getMouseMotionListener()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMouseMotionListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.ComboPopup#uninstallingUI() public abstract void
-     * javax.swing.plaf.basic.ComboPopup.uninstallingUI()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_uninstallingUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.ComboPopup#hide() public abstract void
-     * javax.swing.plaf.basic.ComboPopup.hide()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hide()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.ComboPopup#show() public abstract void
-     * javax.swing.plaf.basic.ComboPopup.show()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_show()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,6 +72,38 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.basic.ComboPopup#getMouseMotionListener() public abstract
+     * java.awt.event.MouseMotionListener javax.swing.plaf.basic.ComboPopup.getMouseMotionListener()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMouseMotionListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.ComboPopup#hide() public abstract void
+     * javax.swing.plaf.basic.ComboPopup.hide()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hide()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.basic.ComboPopup#isVisible() public abstract boolean
      * javax.swing.plaf.basic.ComboPopup.isVisible()}.
      * </p>
@@ -136,14 +120,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.ComboPopup#getKeyListener() public abstract
-     * java.awt.event.KeyListener javax.swing.plaf.basic.ComboPopup.getKeyListener()}.
+     * Test method for {@link javax.swing.plaf.basic.ComboPopup#show() public abstract void
+     * javax.swing.plaf.basic.ComboPopup.show()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getKeyListener()
+    public default void test_show()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.ComboPopup#uninstallingUI() public abstract void
+     * javax.swing.plaf.basic.ComboPopup.uninstallingUI()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_uninstallingUI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

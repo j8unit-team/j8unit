@@ -36,17 +36,16 @@ public abstract interface ECFieldF2mClassTests<SUT extends Class<? extends java.
 extends org.j8unit.repository.java.security.spec.ECFieldClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.spec.ECFieldF2m#ECFieldF2m(int,int[]) public
-     * java.security.spec.ECFieldF2m(int,int[])}.
+     * Test method for {@link java.security.spec.ECFieldF2m#ECFieldF2m(int) public java.security.spec.ECFieldF2m(int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ECFieldF2m_int_intArray()
+    public default void create_ECFieldF2m_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.spec.ECFieldF2m sut = null; // = new ECFieldF2m(int,int[]);
+        final java.security.spec.ECFieldF2m sut = null; // = new ECFieldF2m(int);
     }
 
     /**
@@ -64,16 +63,17 @@ extends org.j8unit.repository.java.security.spec.ECFieldClassTests<SUT>, org.j8u
     }
 
     /**
-     * Test method for {@link java.security.spec.ECFieldF2m#ECFieldF2m(int) public java.security.spec.ECFieldF2m(int)}.
+     * Test method for {@link java.security.spec.ECFieldF2m#ECFieldF2m(int,int[]) public
+     * java.security.spec.ECFieldF2m(int,int[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ECFieldF2m_int()
+    public default void create_ECFieldF2m_int_intArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.spec.ECFieldF2m sut = null; // = new ECFieldF2m(int);
+        final java.security.spec.ECFieldF2m sut = null; // = new ECFieldF2m(int,int[]);
     }
 
     @Override

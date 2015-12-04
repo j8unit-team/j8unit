@@ -23,15 +23,15 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link javax.activation.FileDataSource#getName() public java.lang.String
-     * javax.activation.FileDataSource.getName()}.
+     * Test method for {@link javax.activation.FileDataSource#getContentType() public java.lang.String
+     * javax.activation.FileDataSource.getContentType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getName()
+    public default void test_getContentType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,14 +73,15 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link javax.activation.FileDataSource#setFileTypeMap(javax.activation.FileTypeMap) public void
-     * javax.activation.FileDataSource.setFileTypeMap(javax.activation.FileTypeMap)}.
+     * Test method for {@link javax.activation.FileDataSource#getName() public java.lang.String
+     * javax.activation.FileDataSource.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setFileTypeMap_FileTypeMap()
+    @Override
+    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,15 +107,14 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link javax.activation.FileDataSource#getContentType() public java.lang.String
-     * javax.activation.FileDataSource.getContentType()}.
+     * Test method for {@link javax.activation.FileDataSource#setFileTypeMap(javax.activation.FileTypeMap) public void
+     * javax.activation.FileDataSource.setFileTypeMap(javax.activation.FileTypeMap)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getContentType()
+    public default void test_setFileTypeMap_FileTypeMap()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

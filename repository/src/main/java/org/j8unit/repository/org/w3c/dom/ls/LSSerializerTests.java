@@ -24,39 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSSerializer#getNewLine() public abstract java.lang.String
-     * org.w3c.dom.ls.LSSerializer.getNewLine()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNewLine()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSSerializer#writeToURI(org.w3c.dom.Node,java.lang.String) public abstract
-     * boolean org.w3c.dom.ls.LSSerializer.writeToURI(org.w3c.dom.Node,java.lang.String) throws
-     * org.w3c.dom.ls.LSException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeToURI_Node_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.ls.LSSerializer#getDomConfig() public abstract org.w3c.dom.DOMConfiguration
      * org.w3c.dom.ls.LSSerializer.getDomConfig()}.
      * </p>
@@ -73,6 +40,38 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.w3c.dom.ls.LSSerializer#getFilter() public abstract org.w3c.dom.ls.LSSerializerFilter
+     * org.w3c.dom.ls.LSSerializer.getFilter()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFilter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.ls.LSSerializer#getNewLine() public abstract java.lang.String
+     * org.w3c.dom.ls.LSSerializer.getNewLine()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNewLine()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.w3c.dom.ls.LSSerializer#setFilter(org.w3c.dom.ls.LSSerializerFilter) public abstract
      * void org.w3c.dom.ls.LSSerializer.setFilter(org.w3c.dom.ls.LSSerializerFilter)}.
      * </p>
@@ -81,6 +80,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setFilter_LSSerializerFilter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.ls.LSSerializer#setNewLine(java.lang.String) public abstract void
+     * org.w3c.dom.ls.LSSerializer.setNewLine(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setNewLine_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -123,30 +138,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSSerializer#getFilter() public abstract org.w3c.dom.ls.LSSerializerFilter
-     * org.w3c.dom.ls.LSSerializer.getFilter()}.
+     * Test method for {@link org.w3c.dom.ls.LSSerializer#writeToURI(org.w3c.dom.Node,java.lang.String) public abstract
+     * boolean org.w3c.dom.ls.LSSerializer.writeToURI(org.w3c.dom.Node,java.lang.String) throws
+     * org.w3c.dom.ls.LSException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getFilter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSSerializer#setNewLine(java.lang.String) public abstract void
-     * org.w3c.dom.ls.LSSerializer.setNewLine(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setNewLine_String()
+    public default void test_writeToURI_Node_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

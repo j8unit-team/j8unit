@@ -35,48 +35,6 @@ public abstract interface BigIntegerClassTests<SUT extends Class<? extends java.
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigInteger>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
 
     /**
-     * Test method for {@link java.math.BigInteger#BigInteger(java.lang.String) public
-     * java.math.BigInteger(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BigInteger_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.math.BigInteger sut = null; // = new BigInteger(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.math.BigInteger#BigInteger(int,java.util.Random) public
-     * java.math.BigInteger(int,java.util.Random)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BigInteger_int_Random()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.math.BigInteger sut = null; // = new BigInteger(int,java.util.Random);
-    }
-
-    /**
-     * Test method for {@link java.math.BigInteger#BigInteger(int,int,java.util.Random) public
-     * java.math.BigInteger(int,int,java.util.Random)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BigInteger_int_int_Random()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.math.BigInteger sut = null; // = new BigInteger(int,int,java.util.Random);
-    }
-
-    /**
      * Test method for {@link java.math.BigInteger#BigInteger(byte[]) public java.math.BigInteger(byte[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -103,6 +61,48 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigI
     }
 
     /**
+     * Test method for {@link java.math.BigInteger#BigInteger(int,int,java.util.Random) public
+     * java.math.BigInteger(int,int,java.util.Random)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BigInteger_int_int_Random()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.math.BigInteger sut = null; // = new BigInteger(int,int,java.util.Random);
+    }
+
+    /**
+     * Test method for {@link java.math.BigInteger#BigInteger(int,java.util.Random) public
+     * java.math.BigInteger(int,java.util.Random)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BigInteger_int_Random()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.math.BigInteger sut = null; // = new BigInteger(int,java.util.Random);
+    }
+
+    /**
+     * Test method for {@link java.math.BigInteger#BigInteger(java.lang.String) public
+     * java.math.BigInteger(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BigInteger_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.math.BigInteger sut = null; // = new BigInteger(java.lang.String);
+    }
+
+    /**
      * Test method for {@link java.math.BigInteger#BigInteger(java.lang.String,int) public
      * java.math.BigInteger(java.lang.String,int)}.
      */
@@ -114,16 +114,6 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigI
         // create new instance
         @SuppressWarnings("unused")
         final java.math.BigInteger sut = null; // = new BigInteger(java.lang.String,int);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.math.BigInteger> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.math.BigInteger.class.isAssignableFrom(sut));
     }
 
     /**
@@ -156,6 +146,16 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigI
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.math.BigInteger> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.math.BigInteger.class.isAssignableFrom(sut));
     }
 
 }

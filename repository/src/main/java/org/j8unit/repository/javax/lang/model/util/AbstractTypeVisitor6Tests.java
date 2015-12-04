@@ -23,25 +23,6 @@ extends org.j8unit.repository.javax.lang.model.type.TypeVisitorTests<SUT, R, P>,
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.lang.model.util.AbstractTypeVisitor6#visitUnknown(javax.lang.model.type.TypeMirror,java.lang.Object)
-     * public java.lang.Object
-     * javax.lang.model.util.AbstractTypeVisitor6.visitUnknown(javax.lang.model.type.TypeMirror,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_visitUnknown_TypeMirror_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.lang.model.util.AbstractTypeVisitor6#visit(javax.lang.model.type.TypeMirror) public
      * final java.lang.Object javax.lang.model.util.AbstractTypeVisitor6.visit(javax.lang.model.type.TypeMirror)}.
      * </p>
@@ -109,6 +90,25 @@ extends org.j8unit.repository.javax.lang.model.type.TypeVisitorTests<SUT, R, P>,
     @Category(Draft.class)
     @Override
     public default void test_visitUnion_UnionType_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.util.AbstractTypeVisitor6#visitUnknown(javax.lang.model.type.TypeMirror,java.lang.Object)
+     * public java.lang.Object
+     * javax.lang.model.util.AbstractTypeVisitor6.visitUnknown(javax.lang.model.type.TypeMirror,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_visitUnknown_TypeMirror_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

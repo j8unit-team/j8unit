@@ -23,6 +23,54 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.JPasswordField#copy() public void javax.swing.JPasswordField.copy()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_copy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JPasswordField#cut() public void javax.swing.JPasswordField.cut()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_cut()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JPasswordField#echoCharIsSet() public boolean
+     * javax.swing.JPasswordField.echoCharIsSet()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_echoCharIsSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.JPasswordField#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JPasswordField.getAccessibleContext()}.
      * </p>
@@ -56,79 +104,14 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JPasswordField#updateUI() public void javax.swing.JPasswordField.updateUI()}.
+     * Test method for {@link javax.swing.JPasswordField#getPassword() public char[]
+     * javax.swing.JPasswordField.getPassword()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_updateUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JPasswordField#copy() public void javax.swing.JPasswordField.copy()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_copy()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JPasswordField#setEchoChar(char) public void
-     * javax.swing.JPasswordField.setEchoChar(char)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setEchoChar_char()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JPasswordField#getUIClassID() public java.lang.String
-     * javax.swing.JPasswordField.getUIClassID()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getUIClassID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JPasswordField#echoCharIsSet() public boolean
-     * javax.swing.JPasswordField.echoCharIsSet()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_echoCharIsSet()
+    public default void test_getPassword()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -171,14 +154,15 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JPasswordField#cut() public void javax.swing.JPasswordField.cut()}.
+     * Test method for {@link javax.swing.JPasswordField#getUIClassID() public java.lang.String
+     * javax.swing.JPasswordField.getUIClassID()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_cut()
+    public default void test_getUIClassID()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -187,14 +171,30 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JPasswordField#getPassword() public char[]
-     * javax.swing.JPasswordField.getPassword()}.
+     * Test method for {@link javax.swing.JPasswordField#setEchoChar(char) public void
+     * javax.swing.JPasswordField.setEchoChar(char)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPassword()
+    public default void test_setEchoChar_char()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JPasswordField#updateUI() public void javax.swing.JPasswordField.updateUI()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_updateUI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

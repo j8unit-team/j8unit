@@ -51,14 +51,75 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                                                                                              // DuplicateNameHelper();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#extract(org.omg.CORBA.Any) public
+     * static org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName
+     * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.extract(org.omg.CORBA.Any)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_extract_Any()
     throws Exception {
-        // create new instance
-        final Class<? extends org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#id() public static
+     * java.lang.String org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.id()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName)
+     * public static void
+     * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_DuplicateName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#read(org.omg.CORBA.portable.InputStream)
+     * public static org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName
+     * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_read_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -96,75 +157,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName)
-     * public static void
-     * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.insert(org.omg.CORBA.Any,org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_insert_Any_DuplicateName()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#id() public static
-     * java.lang.String org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.id()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_id()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#read(org.omg.CORBA.portable.InputStream)
-     * public static org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName
-     * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper#extract(org.omg.CORBA.Any) public
-     * static org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateName
-     * org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.extract(org.omg.CORBA.Any)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_extract_Any()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.PortableInterceptor.ORBInitInfoPackage.DuplicateNameHelper.class.isAssignableFrom(sut));
     }
 
 }

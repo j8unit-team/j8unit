@@ -24,38 +24,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicMarkableReference#getReference() public java.lang.Object
-     * java.util.concurrent.atomic.AtomicMarkableReference.getReference()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReference()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicMarkableReference#isMarked() public boolean
-     * java.util.concurrent.atomic.AtomicMarkableReference.isMarked()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isMarked()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.concurrent.atomic.AtomicMarkableReference#attemptMark(java.lang.Object,boolean)
      * public boolean java.util.concurrent.atomic.AtomicMarkableReference.attemptMark(java.lang.Object,boolean)}.
      * </p>
@@ -91,25 +59,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicMarkableReference#weakCompareAndSet(java.lang.Object,java.lang.Object,boolean,boolean)
-     * public boolean
-     * java.util.concurrent.atomic.AtomicMarkableReference.weakCompareAndSet(java.lang.Object,java.lang.Object,boolean,boolean)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_weakCompareAndSet_Object_Object_boolean_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.concurrent.atomic.AtomicMarkableReference#get(boolean[]) public java.lang.Object
      * java.util.concurrent.atomic.AtomicMarkableReference.get(boolean[])}.
      * </p>
@@ -126,6 +75,38 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicMarkableReference#getReference() public java.lang.Object
+     * java.util.concurrent.atomic.AtomicMarkableReference.getReference()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getReference()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicMarkableReference#isMarked() public boolean
+     * java.util.concurrent.atomic.AtomicMarkableReference.isMarked()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isMarked()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.concurrent.atomic.AtomicMarkableReference#set(java.lang.Object,boolean) public
      * void java.util.concurrent.atomic.AtomicMarkableReference.set(java.lang.Object,boolean)}.
      * </p>
@@ -134,6 +115,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_set_Object_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.atomic.AtomicMarkableReference#weakCompareAndSet(java.lang.Object,java.lang.Object,boolean,boolean)
+     * public boolean
+     * java.util.concurrent.atomic.AtomicMarkableReference.weakCompareAndSet(java.lang.Object,java.lang.Object,boolean,boolean)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_weakCompareAndSet_Object_Object_boolean_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

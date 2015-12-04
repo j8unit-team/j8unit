@@ -23,15 +23,31 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderContext#preConcetenateTransform(java.awt.geom.AffineTransform) public void
-     * java.awt.image.renderable.RenderContext.preConcetenateTransform(java.awt.geom.AffineTransform)}.
+     * Test method for {@link java.awt.image.renderable.RenderContext#clone() public java.lang.Object
+     * java.awt.image.renderable.RenderContext.clone()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_preConcetenateTransform_AffineTransform()
+    public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.renderable.RenderContext#concatenateTransform(java.awt.geom.AffineTransform) public void
+     * java.awt.image.renderable.RenderContext.concatenateTransform(java.awt.geom.AffineTransform)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_concatenateTransform_AffineTransform()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,14 +89,64 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#setTransform(java.awt.geom.AffineTransform) public
-     * void java.awt.image.renderable.RenderContext.setTransform(java.awt.geom.AffineTransform)}.
+     * Test method for {@link java.awt.image.renderable.RenderContext#getRenderingHints() public java.awt.RenderingHints
+     * java.awt.image.renderable.RenderContext.getRenderingHints()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setTransform_AffineTransform()
+    public default void test_getRenderingHints()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.renderable.RenderContext#getTransform() public
+     * java.awt.geom.AffineTransform java.awt.image.renderable.RenderContext.getTransform()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTransform()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.renderable.RenderContext#preConcatenateTransform(java.awt.geom.AffineTransform) public void
+     * java.awt.image.renderable.RenderContext.preConcatenateTransform(java.awt.geom.AffineTransform)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_preConcatenateTransform_AffineTransform()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.renderable.RenderContext#preConcetenateTransform(java.awt.geom.AffineTransform) public void
+     * java.awt.image.renderable.RenderContext.preConcetenateTransform(java.awt.geom.AffineTransform)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_preConcetenateTransform_AffineTransform()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,80 +187,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderContext#preConcatenateTransform(java.awt.geom.AffineTransform) public void
-     * java.awt.image.renderable.RenderContext.preConcatenateTransform(java.awt.geom.AffineTransform)}.
+     * Test method for {@link java.awt.image.renderable.RenderContext#setTransform(java.awt.geom.AffineTransform) public
+     * void java.awt.image.renderable.RenderContext.setTransform(java.awt.geom.AffineTransform)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_preConcatenateTransform_AffineTransform()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#clone() public java.lang.Object
-     * java.awt.image.renderable.RenderContext.clone()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderContext#concatenateTransform(java.awt.geom.AffineTransform) public void
-     * java.awt.image.renderable.RenderContext.concatenateTransform(java.awt.geom.AffineTransform)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_concatenateTransform_AffineTransform()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#getRenderingHints() public java.awt.RenderingHints
-     * java.awt.image.renderable.RenderContext.getRenderingHints()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRenderingHints()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderContext#getTransform() public
-     * java.awt.geom.AffineTransform java.awt.image.renderable.RenderContext.getTransform()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTransform()
+    public default void test_setTransform_AffineTransform()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

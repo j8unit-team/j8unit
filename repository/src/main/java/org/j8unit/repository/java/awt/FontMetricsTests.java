@@ -23,13 +23,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.FontMetrics#getMaxAdvance() public int java.awt.FontMetrics.getMaxAdvance()}.
+     * Test method for {@link java.awt.FontMetrics#bytesWidth(byte[],int,int) public int
+     * java.awt.FontMetrics.bytesWidth(byte[],int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMaxAdvance()
+    public default void test_bytesWidth_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -38,90 +39,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.FontMetrics#stringWidth(java.lang.String) public int
-     * java.awt.FontMetrics.stringWidth(java.lang.String)}.
+     * Test method for {@link java.awt.FontMetrics#charsWidth(char[],int,int) public int
+     * java.awt.FontMetrics.charsWidth(char[],int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_stringWidth_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.FontMetrics#getAscent() public int java.awt.FontMetrics.getAscent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAscent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.FontMetrics#toString() public java.lang.String java.awt.FontMetrics.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.FontMetrics#getFont() public java.awt.Font java.awt.FontMetrics.getFont()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFont()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.FontMetrics#getWidths() public int[] java.awt.FontMetrics.getWidths()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWidths()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.FontMetrics#getMaxDecent() public int java.awt.FontMetrics.getMaxDecent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxDecent()
+    public default void test_charsWidth_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -160,16 +85,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.FontMetrics#getStringBounds(java.text.CharacterIterator,int,int,java.awt.Graphics) public
-     * java.awt.geom.Rectangle2D
-     * java.awt.FontMetrics.getStringBounds(java.text.CharacterIterator,int,int,java.awt.Graphics)}.
+     * Test method for {@link java.awt.FontMetrics#getAscent() public int java.awt.FontMetrics.getAscent()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStringBounds_CharacterIterator_int_int_Graphics()
+    public default void test_getAscent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -178,14 +100,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.FontMetrics#getStringBounds(java.lang.String,java.awt.Graphics) public
-     * java.awt.geom.Rectangle2D java.awt.FontMetrics.getStringBounds(java.lang.String,java.awt.Graphics)}.
+     * Test method for {@link java.awt.FontMetrics#getDescent() public int java.awt.FontMetrics.getDescent()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStringBounds_String_Graphics()
+    public default void test_getDescent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -194,92 +115,13 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.FontMetrics#getStringBounds(java.lang.String,int,int,java.awt.Graphics) public
-     * java.awt.geom.Rectangle2D java.awt.FontMetrics.getStringBounds(java.lang.String,int,int,java.awt.Graphics)}.
+     * Test method for {@link java.awt.FontMetrics#getFont() public java.awt.Font java.awt.FontMetrics.getFont()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStringBounds_String_int_int_Graphics()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.FontMetrics#getStringBounds(char[],int,int,java.awt.Graphics) public
-     * java.awt.geom.Rectangle2D java.awt.FontMetrics.getStringBounds(char[],int,int,java.awt.Graphics)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getStringBounds_charArray_int_int_Graphics()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.FontMetrics#getMaxDescent() public int java.awt.FontMetrics.getMaxDescent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxDescent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.FontMetrics#charsWidth(char[],int,int) public int
-     * java.awt.FontMetrics.charsWidth(char[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_charsWidth_charArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.FontMetrics#getHeight() public int java.awt.FontMetrics.getHeight()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHeight()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.FontMetrics#bytesWidth(byte[],int,int) public int
-     * java.awt.FontMetrics.bytesWidth(byte[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_bytesWidth_byteArray_int_int()
+    public default void test_getFont()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -304,13 +146,28 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.FontMetrics#getMaxAscent() public int java.awt.FontMetrics.getMaxAscent()}.
+     * Test method for {@link java.awt.FontMetrics#getHeight() public int java.awt.FontMetrics.getHeight()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMaxAscent()
+    public default void test_getHeight()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.FontMetrics#getLeading() public int java.awt.FontMetrics.getLeading()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLeading()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -384,13 +241,155 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.FontMetrics#getLeading() public int java.awt.FontMetrics.getLeading()}.
+     * Test method for {@link java.awt.FontMetrics#getMaxAdvance() public int java.awt.FontMetrics.getMaxAdvance()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLeading()
+    public default void test_getMaxAdvance()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.FontMetrics#getMaxAscent() public int java.awt.FontMetrics.getMaxAscent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxAscent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.FontMetrics#getMaxCharBounds(java.awt.Graphics) public java.awt.geom.Rectangle2D
+     * java.awt.FontMetrics.getMaxCharBounds(java.awt.Graphics)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxCharBounds_Graphics()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.FontMetrics#getMaxDecent() public int java.awt.FontMetrics.getMaxDecent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxDecent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.FontMetrics#getMaxDescent() public int java.awt.FontMetrics.getMaxDescent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxDescent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.FontMetrics#getStringBounds(java.text.CharacterIterator,int,int,java.awt.Graphics) public
+     * java.awt.geom.Rectangle2D
+     * java.awt.FontMetrics.getStringBounds(java.text.CharacterIterator,int,int,java.awt.Graphics)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStringBounds_CharacterIterator_int_int_Graphics()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.FontMetrics#getStringBounds(char[],int,int,java.awt.Graphics) public
+     * java.awt.geom.Rectangle2D java.awt.FontMetrics.getStringBounds(char[],int,int,java.awt.Graphics)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStringBounds_charArray_int_int_Graphics()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.FontMetrics#getStringBounds(java.lang.String,java.awt.Graphics) public
+     * java.awt.geom.Rectangle2D java.awt.FontMetrics.getStringBounds(java.lang.String,java.awt.Graphics)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStringBounds_String_Graphics()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.FontMetrics#getStringBounds(java.lang.String,int,int,java.awt.Graphics) public
+     * java.awt.geom.Rectangle2D java.awt.FontMetrics.getStringBounds(java.lang.String,int,int,java.awt.Graphics)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStringBounds_String_int_int_Graphics()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.FontMetrics#getWidths() public int[] java.awt.FontMetrics.getWidths()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWidths()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -415,13 +414,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.FontMetrics#getDescent() public int java.awt.FontMetrics.getDescent()}.
+     * Test method for {@link java.awt.FontMetrics#stringWidth(java.lang.String) public int
+     * java.awt.FontMetrics.stringWidth(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDescent()
+    public default void test_stringWidth_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -430,14 +430,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.awt.FontMetrics#getMaxCharBounds(java.awt.Graphics) public java.awt.geom.Rectangle2D
-     * java.awt.FontMetrics.getMaxCharBounds(java.awt.Graphics)}.
+     * Test method for {@link java.awt.FontMetrics#toString() public java.lang.String java.awt.FontMetrics.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMaxCharBounds_Graphics()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

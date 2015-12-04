@@ -23,6 +23,22 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
+     * Test method for {@link javax.xml.transform.sax.SAXSource#getInputSource() public org.xml.sax.InputSource
+     * javax.xml.transform.sax.SAXSource.getInputSource()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInputSource()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.transform.sax.SAXSource#getSystemId() public java.lang.String
      * javax.xml.transform.sax.SAXSource.getSystemId()}.
      * </p>
@@ -40,15 +56,14 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.sax.SAXSource#setSystemId(java.lang.String) public void
-     * javax.xml.transform.sax.SAXSource.setSystemId(java.lang.String)}.
+     * Test method for {@link javax.xml.transform.sax.SAXSource#getXMLReader() public org.xml.sax.XMLReader
+     * javax.xml.transform.sax.SAXSource.getXMLReader()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_setSystemId_String()
+    public default void test_getXMLReader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,30 +88,15 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.sax.SAXSource#getInputSource() public org.xml.sax.InputSource
-     * javax.xml.transform.sax.SAXSource.getInputSource()}.
+     * Test method for {@link javax.xml.transform.sax.SAXSource#setSystemId(java.lang.String) public void
+     * javax.xml.transform.sax.SAXSource.setSystemId(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInputSource()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.sax.SAXSource#getXMLReader() public org.xml.sax.XMLReader
-     * javax.xml.transform.sax.SAXSource.getXMLReader()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getXMLReader()
+    @Override
+    public default void test_setSystemId_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

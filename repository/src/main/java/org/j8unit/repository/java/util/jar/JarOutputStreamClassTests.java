@@ -36,6 +36,20 @@ public abstract interface JarOutputStreamClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.util.zip.ZipOutputStreamClassTests<SUT> {
 
     /**
+     * Test method for {@link java.util.jar.JarOutputStream#JarOutputStream(java.io.OutputStream) public
+     * java.util.jar.JarOutputStream(java.io.OutputStream) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JarOutputStream_OutputStream()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.jar.JarOutputStream sut = null; // = new JarOutputStream(java.io.OutputStream);
+    }
+
+    /**
      * Test method for {@link java.util.jar.JarOutputStream#JarOutputStream(java.io.OutputStream,java.util.jar.Manifest)
      * public java.util.jar.JarOutputStream(java.io.OutputStream,java.util.jar.Manifest) throws java.io.IOException}.
      */
@@ -48,20 +62,6 @@ extends org.j8unit.repository.java.util.zip.ZipOutputStreamClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.util.jar.JarOutputStream sut = null; // = new
                                                         // JarOutputStream(java.io.OutputStream,java.util.jar.Manifest);
-    }
-
-    /**
-     * Test method for {@link java.util.jar.JarOutputStream#JarOutputStream(java.io.OutputStream) public
-     * java.util.jar.JarOutputStream(java.io.OutputStream) throws java.io.IOException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JarOutputStream_OutputStream()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.jar.JarOutputStream sut = null; // = new JarOutputStream(java.io.OutputStream);
     }
 
     @Override

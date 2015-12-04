@@ -37,6 +37,19 @@ extends org.j8unit.repository.java.awt.AdjustableClassTests<SUT>, org.j8unit.rep
 org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.swing.JScrollBar#JScrollBar() public javax.swing.JScrollBar()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JScrollBar()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JScrollBar sut = null; // = new JScrollBar();
+    }
+
+    /**
      * Test method for {@link javax.swing.JScrollBar#JScrollBar(int) public javax.swing.JScrollBar(int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -61,19 +74,6 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JScrollBar sut = null; // = new JScrollBar(int,int,int,int,int);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JScrollBar#JScrollBar() public javax.swing.JScrollBar()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JScrollBar()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JScrollBar sut = null; // = new JScrollBar();
     }
 
     @Override

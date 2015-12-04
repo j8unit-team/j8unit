@@ -24,57 +24,6 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.MemoryCacheImageOutputStream#length() public long
-     * javax.imageio.stream.MemoryCacheImageOutputStream.length()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_length()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.MemoryCacheImageOutputStream#write(byte[],int,int) public void
-     * javax.imageio.stream.MemoryCacheImageOutputStream.write(byte[],int,int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_write_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.MemoryCacheImageOutputStream#write(int) public void
-     * javax.imageio.stream.MemoryCacheImageOutputStream.write(int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_write_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.imageio.stream.MemoryCacheImageOutputStream#close() public void
      * javax.imageio.stream.MemoryCacheImageOutputStream.close() throws java.io.IOException}.
      * </p>
@@ -84,6 +33,23 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
     @Category(Draft.class)
     @Override
     public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.stream.MemoryCacheImageOutputStream#flushBefore(long) public void
+     * javax.imageio.stream.MemoryCacheImageOutputStream.flushBefore(long) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_flushBefore_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -126,6 +92,40 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
+     * Test method for {@link javax.imageio.stream.MemoryCacheImageOutputStream#isCachedMemory() public boolean
+     * javax.imageio.stream.MemoryCacheImageOutputStream.isCachedMemory()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isCachedMemory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.stream.MemoryCacheImageOutputStream#length() public long
+     * javax.imageio.stream.MemoryCacheImageOutputStream.length()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_length()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.imageio.stream.MemoryCacheImageOutputStream#read() public int
      * javax.imageio.stream.MemoryCacheImageOutputStream.read() throws java.io.IOException}.
      * </p>
@@ -160,15 +160,15 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.MemoryCacheImageOutputStream#flushBefore(long) public void
-     * javax.imageio.stream.MemoryCacheImageOutputStream.flushBefore(long) throws java.io.IOException}.
+     * Test method for {@link javax.imageio.stream.MemoryCacheImageOutputStream#write(byte[],int,int) public void
+     * javax.imageio.stream.MemoryCacheImageOutputStream.write(byte[],int,int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_flushBefore_long()
+    public default void test_write_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -177,15 +177,15 @@ extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SU
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.MemoryCacheImageOutputStream#isCachedMemory() public boolean
-     * javax.imageio.stream.MemoryCacheImageOutputStream.isCachedMemory()}.
+     * Test method for {@link javax.imageio.stream.MemoryCacheImageOutputStream#write(int) public void
+     * javax.imageio.stream.MemoryCacheImageOutputStream.write(int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isCachedMemory()
+    public default void test_write_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

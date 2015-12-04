@@ -24,30 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableModel#setValueAt(java.lang.Object,int,int) public abstract void
-     * javax.swing.table.TableModel.setValueAt(java.lang.Object,int,int)}.
+     * Test method for {@link javax.swing.table.TableModel#addTableModelListener(javax.swing.event.TableModelListener)
+     * public abstract void javax.swing.table.TableModel.addTableModelListener(javax.swing.event.TableModelListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setValueAt_Object_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.TableModel#getColumnCount() public abstract int
-     * javax.swing.table.TableModel.getColumnCount()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getColumnCount()
+    public default void test_addTableModelListener_TableModelListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,6 +56,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.table.TableModel#getColumnCount() public abstract int
+     * javax.swing.table.TableModel.getColumnCount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getColumnCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.table.TableModel#getColumnName(int) public abstract java.lang.String
      * javax.swing.table.TableModel.getColumnName(int)}.
      * </p>
@@ -80,6 +80,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getColumnName_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.TableModel#getRowCount() public abstract int
+     * javax.swing.table.TableModel.getRowCount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,38 +136,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableModel#getRowCount() public abstract int
-     * javax.swing.table.TableModel.getRowCount()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.table.TableModel#addTableModelListener(javax.swing.event.TableModelListener)
-     * public abstract void javax.swing.table.TableModel.addTableModelListener(javax.swing.event.TableModelListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addTableModelListener_TableModelListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.swing.table.TableModel#removeTableModelListener(javax.swing.event.TableModelListener) public
      * abstract void javax.swing.table.TableModel.removeTableModelListener(javax.swing.event.TableModelListener)}.
@@ -161,6 +145,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_removeTableModelListener_TableModelListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.table.TableModel#setValueAt(java.lang.Object,int,int) public abstract void
+     * javax.swing.table.TableModel.setValueAt(java.lang.Object,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setValueAt_Object_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

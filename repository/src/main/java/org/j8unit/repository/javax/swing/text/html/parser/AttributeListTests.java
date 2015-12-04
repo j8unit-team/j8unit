@@ -24,31 +24,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.AttributeList#getNext() public
-     * javax.swing.text.html.parser.AttributeList javax.swing.text.html.parser.AttributeList.getNext()}.
+     * Test method for {@link javax.swing.text.html.parser.AttributeList#getModifier() public int
+     * javax.swing.text.html.parser.AttributeList.getModifier()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.AttributeList#toString() public java.lang.String
-     * javax.swing.text.html.parser.AttributeList.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getModifier()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,30 +56,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.AttributeList#getValue() public java.lang.String
-     * javax.swing.text.html.parser.AttributeList.getValue()}.
+     * Test method for {@link javax.swing.text.html.parser.AttributeList#getNext() public
+     * javax.swing.text.html.parser.AttributeList javax.swing.text.html.parser.AttributeList.getNext()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.AttributeList#getModifier() public int
-     * javax.swing.text.html.parser.AttributeList.getModifier()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getModifier()
+    public default void test_getNext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,6 +88,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.text.html.parser.AttributeList#getValue() public java.lang.String
+     * javax.swing.text.html.parser.AttributeList.getValue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.text.html.parser.AttributeList#getValues() public java.util.Enumeration
      * javax.swing.text.html.parser.AttributeList.getValues()}.
      * </p>
@@ -129,6 +112,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getValues()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.AttributeList#toString() public java.lang.String
+     * javax.swing.text.html.parser.AttributeList.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

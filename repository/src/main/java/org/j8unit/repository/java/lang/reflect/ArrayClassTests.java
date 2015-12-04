@@ -35,14 +35,38 @@ import org.junit.experimental.categories.Category;
 public abstract interface ArrayClassTests<SUT extends Class<? extends java.lang.reflect.Array>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Array#get(java.lang.Object,int) public static native java.lang.Object
+     * java.lang.reflect.Array.get(java.lang.Object,int) throws
+     * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_get_Object_int()
     throws Exception {
-        // create new instance
-        final Class<? extends java.lang.reflect.Array> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.reflect.Array.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Array#getBoolean(java.lang.Object,int) public static native boolean
+     * java.lang.reflect.Array.getBoolean(java.lang.Object,int) throws
+     * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBoolean_Object_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -64,15 +88,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#set(java.lang.Object,int,java.lang.Object) public static native
-     * void java.lang.reflect.Array.set(java.lang.Object,int,java.lang.Object) throws
+     * Test method for {@link java.lang.reflect.Array#getChar(java.lang.Object,int) public static native char
+     * java.lang.reflect.Array.getChar(java.lang.Object,int) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_set_Object_int_Object()
+    public default void test_getChar_Object_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -81,49 +105,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#setByte(java.lang.Object,int,byte) public static native void
-     * java.lang.reflect.Array.setByte(java.lang.Object,int,byte) throws
+     * Test method for {@link java.lang.reflect.Array#getDouble(java.lang.Object,int) public static native double
+     * java.lang.reflect.Array.getDouble(java.lang.Object,int) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setByte_Object_int_byte()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Array#setFloat(java.lang.Object,int,float) public static native void
-     * java.lang.reflect.Array.setFloat(java.lang.Object,int,float) throws
-     * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFloat_Object_int_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Array#getShort(java.lang.Object,int) public static native short
-     * java.lang.reflect.Array.getShort(java.lang.Object,int) throws
-     * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getShort_Object_int()
+    public default void test_getDouble_Object_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -149,15 +139,65 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#setShort(java.lang.Object,int,short) public static native void
-     * java.lang.reflect.Array.setShort(java.lang.Object,int,short) throws
+     * Test method for {@link java.lang.reflect.Array#getInt(java.lang.Object,int) public static native int
+     * java.lang.reflect.Array.getInt(java.lang.Object,int) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setShort_Object_int_short()
+    public default void test_getInt_Object_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Array#getLength(java.lang.Object) public static native int
+     * java.lang.reflect.Array.getLength(java.lang.Object) throws java.lang.IllegalArgumentException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLength_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Array#getLong(java.lang.Object,int) public static native long
+     * java.lang.reflect.Array.getLong(java.lang.Object,int) throws
+     * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLong_Object_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Array#getShort(java.lang.Object,int) public static native short
+     * java.lang.reflect.Array.getShort(java.lang.Object,int) throws
+     * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getShort_Object_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -199,15 +239,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#getDouble(java.lang.Object,int) public static native double
-     * java.lang.reflect.Array.getDouble(java.lang.Object,int) throws
+     * Test method for {@link java.lang.reflect.Array#set(java.lang.Object,int,java.lang.Object) public static native
+     * void java.lang.reflect.Array.set(java.lang.Object,int,java.lang.Object) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDouble_Object_int()
+    public default void test_set_Object_int_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -216,15 +256,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#setInt(java.lang.Object,int,int) public static native void
-     * java.lang.reflect.Array.setInt(java.lang.Object,int,int) throws
+     * Test method for {@link java.lang.reflect.Array#setBoolean(java.lang.Object,int,boolean) public static native void
+     * java.lang.reflect.Array.setBoolean(java.lang.Object,int,boolean) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setInt_Object_int_int()
+    public default void test_setBoolean_Object_int_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -233,66 +273,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#setLong(java.lang.Object,int,long) public static native void
-     * java.lang.reflect.Array.setLong(java.lang.Object,int,long) throws
+     * Test method for {@link java.lang.reflect.Array#setByte(java.lang.Object,int,byte) public static native void
+     * java.lang.reflect.Array.setByte(java.lang.Object,int,byte) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setLong_Object_int_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Array#getChar(java.lang.Object,int) public static native char
-     * java.lang.reflect.Array.getChar(java.lang.Object,int) throws
-     * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChar_Object_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Array#getInt(java.lang.Object,int) public static native int
-     * java.lang.reflect.Array.getInt(java.lang.Object,int) throws
-     * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInt_Object_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Array#getLong(java.lang.Object,int) public static native long
-     * java.lang.reflect.Array.getLong(java.lang.Object,int) throws
-     * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLong_Object_int()
+    public default void test_setByte_Object_int_byte()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -335,15 +324,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#get(java.lang.Object,int) public static native java.lang.Object
-     * java.lang.reflect.Array.get(java.lang.Object,int) throws
+     * Test method for {@link java.lang.reflect.Array#setFloat(java.lang.Object,int,float) public static native void
+     * java.lang.reflect.Array.setFloat(java.lang.Object,int,float) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get_Object_int()
+    public default void test_setFloat_Object_int_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -352,15 +341,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#getBoolean(java.lang.Object,int) public static native boolean
-     * java.lang.reflect.Array.getBoolean(java.lang.Object,int) throws
+     * Test method for {@link java.lang.reflect.Array#setInt(java.lang.Object,int,int) public static native void
+     * java.lang.reflect.Array.setInt(java.lang.Object,int,int) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBoolean_Object_int()
+    public default void test_setInt_Object_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -369,14 +358,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#getLength(java.lang.Object) public static native int
-     * java.lang.reflect.Array.getLength(java.lang.Object) throws java.lang.IllegalArgumentException}.
+     * Test method for {@link java.lang.reflect.Array#setLong(java.lang.Object,int,long) public static native void
+     * java.lang.reflect.Array.setLong(java.lang.Object,int,long) throws
+     * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLength_Object()
+    public default void test_setLong_Object_int_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -385,19 +375,29 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Array#setBoolean(java.lang.Object,int,boolean) public static native void
-     * java.lang.reflect.Array.setBoolean(java.lang.Object,int,boolean) throws
+     * Test method for {@link java.lang.reflect.Array#setShort(java.lang.Object,int,short) public static native void
+     * java.lang.reflect.Array.setShort(java.lang.Object,int,short) throws
      * java.lang.IllegalArgumentException,java.lang.ArrayIndexOutOfBoundsException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setBoolean_Object_int_boolean()
+    public default void test_setShort_Object_int_short()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.lang.reflect.Array> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.reflect.Array.class.isAssignableFrom(sut));
     }
 
 }

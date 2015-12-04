@@ -23,6 +23,22 @@ extends org.j8unit.repository.javax.tools.DiagnosticListenerTests<SUT, S>, org.j
 
     /**
      * <p>
+     * Test method for {@link javax.tools.DiagnosticCollector#getDiagnostics() public java.util.List
+     * javax.tools.DiagnosticCollector.getDiagnostics()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDiagnostics()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.tools.DiagnosticCollector#report(javax.tools.Diagnostic) public void
      * javax.tools.DiagnosticCollector.report(javax.tools.Diagnostic)}.
      * </p>
@@ -32,22 +48,6 @@ extends org.j8unit.repository.javax.tools.DiagnosticListenerTests<SUT, S>, org.j
     @Category(Draft.class)
     @Override
     public default void test_report_Diagnostic()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.DiagnosticCollector#getDiagnostics() public java.util.List
-     * javax.tools.DiagnosticCollector.getDiagnostics()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDiagnostics()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -51,22 +51,6 @@ extends org.j8unit.repository.java.awt.dnd.DragSourceEventClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.awt.dnd.DragSourceDropEvent#DragSourceDropEvent(java.awt.dnd.DragSourceContext,int,boolean,int,int)
-     * public java.awt.dnd.DragSourceDropEvent(java.awt.dnd.DragSourceContext,int,boolean,int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DragSourceDropEvent_DragSourceContext_int_boolean_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.dnd.DragSourceDropEvent sut = null; // = new
-                                                           // DragSourceDropEvent(java.awt.dnd.DragSourceContext,int,boolean,int,int);
-    }
-
-    /**
-     * Test method for
      * {@link java.awt.dnd.DragSourceDropEvent#DragSourceDropEvent(java.awt.dnd.DragSourceContext,int,boolean) public
      * java.awt.dnd.DragSourceDropEvent(java.awt.dnd.DragSourceContext,int,boolean)}.
      */
@@ -79,6 +63,22 @@ extends org.j8unit.repository.java.awt.dnd.DragSourceEventClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.awt.dnd.DragSourceDropEvent sut = null; // = new
                                                            // DragSourceDropEvent(java.awt.dnd.DragSourceContext,int,boolean);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.dnd.DragSourceDropEvent#DragSourceDropEvent(java.awt.dnd.DragSourceContext,int,boolean,int,int)
+     * public java.awt.dnd.DragSourceDropEvent(java.awt.dnd.DragSourceContext,int,boolean,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DragSourceDropEvent_DragSourceContext_int_boolean_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.dnd.DragSourceDropEvent sut = null; // = new
+                                                           // DragSourceDropEvent(java.awt.dnd.DragSourceContext,int,boolean,int,int);
     }
 
     @Override

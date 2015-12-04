@@ -23,6 +23,22 @@ extends org.j8unit.repository.javax.swing.plaf.metal.MetalRadioButtonUITests<SUT
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalCheckBoxUI#getPropertyPrefix() public java.lang.String
+     * javax.swing.plaf.metal.MetalCheckBoxUI.getPropertyPrefix()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPropertyPrefix()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalCheckBoxUI#installDefaults(javax.swing.AbstractButton) public
      * void javax.swing.plaf.metal.MetalCheckBoxUI.installDefaults(javax.swing.AbstractButton)}.
      * </p>
@@ -32,22 +48,6 @@ extends org.j8unit.repository.javax.swing.plaf.metal.MetalRadioButtonUITests<SUT
     @Category(Draft.class)
     @Override
     public default void test_installDefaults_AbstractButton()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalCheckBoxUI#getPropertyPrefix() public java.lang.String
-     * javax.swing.plaf.metal.MetalCheckBoxUI.getPropertyPrefix()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPropertyPrefix()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

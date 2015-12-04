@@ -41,39 +41,6 @@ org.j8unit.repository.javax.swing.JMenuItemTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JCheckBoxMenuItem#getUIClassID() public java.lang.String
-     * javax.swing.JCheckBoxMenuItem.getUIClassID()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getUIClassID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JCheckBoxMenuItem#setState(boolean) public synchronized void
-     * javax.swing.JCheckBoxMenuItem.setState(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setState_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.JCheckBoxMenuItem#getSelectedObjects() public java.lang.Object[]
      * javax.swing.JCheckBoxMenuItem.getSelectedObjects()}.
      * </p>
@@ -99,6 +66,39 @@ org.j8unit.repository.javax.swing.JMenuItemTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getState()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JCheckBoxMenuItem#getUIClassID() public java.lang.String
+     * javax.swing.JCheckBoxMenuItem.getUIClassID()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getUIClassID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JCheckBoxMenuItem#setState(boolean) public synchronized void
+     * javax.swing.JCheckBoxMenuItem.setState(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setState_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

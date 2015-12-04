@@ -35,32 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ChronologyClassTests<SUT extends Class<? extends java.time.chrono.Chronology>>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.chrono.Chronology> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.chrono.Chronology> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.chrono.Chronology.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.Chronology#of(java.lang.String) public static java.time.chrono.Chronology
-     * java.time.chrono.Chronology.of(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link java.time.chrono.Chronology#from(java.time.temporal.TemporalAccessor) public static
@@ -95,6 +69,22 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.chro
 
     /**
      * <p>
+     * Test method for {@link java.time.chrono.Chronology#of(java.lang.String) public static java.time.chrono.Chronology
+     * java.time.chrono.Chronology.of(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.time.chrono.Chronology#ofLocale(java.util.Locale) public static
      * java.time.chrono.Chronology java.time.chrono.Chronology.ofLocale(java.util.Locale)}.
      * </p>
@@ -107,6 +97,16 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.chro
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.chrono.Chronology> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.chrono.Chronology.class.isAssignableFrom(sut));
     }
 
 }

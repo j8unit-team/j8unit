@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.security.KeyFactory#generatePrivate(java.security.spec.KeySpec) public final
+     * java.security.PrivateKey java.security.KeyFactory.generatePrivate(java.security.spec.KeySpec) throws
+     * java.security.spec.InvalidKeySpecException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_generatePrivate_KeySpec()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.security.KeyFactory#generatePublic(java.security.spec.KeySpec) public final
      * java.security.PublicKey java.security.KeyFactory.generatePublic(java.security.spec.KeySpec) throws
      * java.security.spec.InvalidKeySpecException}.
@@ -32,22 +49,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_generatePublic_KeySpec()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.KeyFactory#getProvider() public final java.security.Provider
-     * java.security.KeyFactory.getProvider()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProvider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,23 +73,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.KeyFactory#generatePrivate(java.security.spec.KeySpec) public final
-     * java.security.PrivateKey java.security.KeyFactory.generatePrivate(java.security.spec.KeySpec) throws
-     * java.security.spec.InvalidKeySpecException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_generatePrivate_KeySpec()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.KeyFactory#getKeySpec(java.security.Key,java.lang.Class) public final
      * java.security.spec.KeySpec java.security.KeyFactory.getKeySpec(java.security.Key,java.lang.Class) throws
      * java.security.spec.InvalidKeySpecException}.
@@ -98,6 +82,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getKeySpec_Key_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.KeyFactory#getProvider() public final java.security.Provider
+     * java.security.KeyFactory.getProvider()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProvider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

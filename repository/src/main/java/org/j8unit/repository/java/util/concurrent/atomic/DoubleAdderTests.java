@@ -23,31 +23,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#toString() public java.lang.String
-     * java.util.concurrent.atomic.DoubleAdder.toString()}.
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#add(double) public void
+     * java.util.concurrent.atomic.DoubleAdder.add(double)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#sum() public double
-     * java.util.concurrent.atomic.DoubleAdder.sum()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sum()
+    public default void test_add_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -90,14 +73,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#reset() public void
-     * java.util.concurrent.atomic.DoubleAdder.reset()}.
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#intValue() public int
+     * java.util.concurrent.atomic.DoubleAdder.intValue()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reset()
+    @Override
+    public default void test_intValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -123,6 +107,38 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#reset() public void
+     * java.util.concurrent.atomic.DoubleAdder.reset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#sum() public double
+     * java.util.concurrent.atomic.DoubleAdder.sum()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sum()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.concurrent.atomic.DoubleAdder#sumThenReset() public double
      * java.util.concurrent.atomic.DoubleAdder.sumThenReset()}.
      * </p>
@@ -139,31 +155,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#add(double) public void
-     * java.util.concurrent.atomic.DoubleAdder.add(double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#intValue() public int
-     * java.util.concurrent.atomic.DoubleAdder.intValue()}.
+     * Test method for {@link java.util.concurrent.atomic.DoubleAdder#toString() public java.lang.String
+     * java.util.concurrent.atomic.DoubleAdder.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_intValue()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

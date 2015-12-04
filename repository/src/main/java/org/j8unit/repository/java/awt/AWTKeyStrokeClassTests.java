@@ -34,42 +34,16 @@ import org.junit.experimental.categories.Category;
 public abstract interface AWTKeyStrokeClassTests<SUT extends Class<? extends java.awt.AWTKeyStroke>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.AWTKeyStroke> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.AWTKeyStroke.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.awt.AWTKeyStroke#getAWTKeyStrokeForEvent(java.awt.event.KeyEvent) public static
-     * java.awt.AWTKeyStroke java.awt.AWTKeyStroke.getAWTKeyStrokeForEvent(java.awt.event.KeyEvent)}.
+     * Test method for {@link java.awt.AWTKeyStroke#getAWTKeyStroke(char) public static java.awt.AWTKeyStroke
+     * java.awt.AWTKeyStroke.getAWTKeyStroke(char)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAWTKeyStrokeForEvent_KeyEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.AWTKeyStroke#getAWTKeyStroke(int,int) public static java.awt.AWTKeyStroke
-     * java.awt.AWTKeyStroke.getAWTKeyStroke(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAWTKeyStroke_int_int()
+    public default void test_getAWTKeyStroke_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -86,6 +60,22 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_getAWTKeyStroke_Character_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.AWTKeyStroke#getAWTKeyStroke(int,int) public static java.awt.AWTKeyStroke
+     * java.awt.AWTKeyStroke.getAWTKeyStroke(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAWTKeyStroke_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -126,18 +116,28 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link java.awt.AWTKeyStroke#getAWTKeyStroke(char) public static java.awt.AWTKeyStroke
-     * java.awt.AWTKeyStroke.getAWTKeyStroke(char)}.
+     * Test method for {@link java.awt.AWTKeyStroke#getAWTKeyStrokeForEvent(java.awt.event.KeyEvent) public static
+     * java.awt.AWTKeyStroke java.awt.AWTKeyStroke.getAWTKeyStrokeForEvent(java.awt.event.KeyEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAWTKeyStroke_char()
+    public default void test_getAWTKeyStrokeForEvent_KeyEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.AWTKeyStroke> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.AWTKeyStroke.class.isAssignableFrom(sut));
     }
 
 }

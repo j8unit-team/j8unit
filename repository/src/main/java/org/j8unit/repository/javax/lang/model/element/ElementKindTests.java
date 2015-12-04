@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.lang.model.element.
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.element.ElementKind#isField() public boolean
-     * javax.lang.model.element.ElementKind.isField()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isField()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.lang.model.element.ElementKind#isClass() public boolean
      * javax.lang.model.element.ElementKind.isClass()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.lang.model.element.
     @Test
     @Category(Draft.class)
     public default void test_isClass()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.element.ElementKind#isField() public boolean
+     * javax.lang.model.element.ElementKind.isField()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isField()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

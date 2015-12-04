@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Ref#setObject(java.lang.Object) public abstract void
-     * java.sql.Ref.setObject(java.lang.Object) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setObject_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.sql.Ref#getBaseTypeName() public abstract java.lang.String
      * java.sql.Ref.getBaseTypeName() throws java.sql.SQLException}.
      * </p>
@@ -80,6 +64,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getObject_Map()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.Ref#setObject(java.lang.Object) public abstract void
+     * java.sql.Ref.setObject(java.lang.Object) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setObject_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

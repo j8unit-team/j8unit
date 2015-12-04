@@ -36,6 +36,33 @@ extends org.j8unit.repository.java.util.SetClassTests<SUT, E>, org.j8unit.reposi
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
 
     /**
+     * Test method for {@link java.util.HashSet#HashSet() public java.util.HashSet()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HashSet()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.HashSet<E> sut = null; // = new HashSet();
+    }
+
+    /**
+     * Test method for {@link java.util.HashSet#HashSet(java.util.Collection) public
+     * java.util.HashSet(java.util.Collection)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HashSet_Collection()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.HashSet<E> sut = null; // = new HashSet(java.util.Collection);
+    }
+
+    /**
      * Test method for {@link java.util.HashSet#HashSet(int) public java.util.HashSet(int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -59,33 +86,6 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         // create new instance
         @SuppressWarnings("unused")
         final java.util.HashSet<E> sut = null; // = new HashSet(int,float);
-    }
-
-    /**
-     * Test method for {@link java.util.HashSet#HashSet(java.util.Collection) public
-     * java.util.HashSet(java.util.Collection)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HashSet_Collection()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.HashSet<E> sut = null; // = new HashSet(java.util.Collection);
-    }
-
-    /**
-     * Test method for {@link java.util.HashSet#HashSet() public java.util.HashSet()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HashSet()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.HashSet<E> sut = null; // = new HashSet();
     }
 
     @Override

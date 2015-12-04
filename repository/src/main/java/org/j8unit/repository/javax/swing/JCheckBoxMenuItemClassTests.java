@@ -37,6 +37,19 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
 org.j8unit.repository.javax.swing.JMenuItemClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem() public javax.swing.JCheckBoxMenuItem()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JCheckBoxMenuItem()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem();
+    }
+
+    /**
      * Test method for {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem(javax.swing.Action) public
      * javax.swing.JCheckBoxMenuItem(javax.swing.Action)}.
      */
@@ -48,62 +61,6 @@ org.j8unit.repository.javax.swing.JMenuItemClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem(javax.swing.Action);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem(java.lang.String,javax.swing.Icon) public
-     * javax.swing.JCheckBoxMenuItem(java.lang.String,javax.swing.Icon)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JCheckBoxMenuItem_String_Icon()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem(java.lang.String,javax.swing.Icon);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem(java.lang.String,boolean) public
-     * javax.swing.JCheckBoxMenuItem(java.lang.String,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JCheckBoxMenuItem_String_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem(java.lang.String,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem(java.lang.String,javax.swing.Icon,boolean)
-     * public javax.swing.JCheckBoxMenuItem(java.lang.String,javax.swing.Icon,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JCheckBoxMenuItem_String_Icon_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JCheckBoxMenuItem sut = null; // = new
-                                                        // JCheckBoxMenuItem(java.lang.String,javax.swing.Icon,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem() public javax.swing.JCheckBoxMenuItem()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JCheckBoxMenuItem()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem();
     }
 
     /**
@@ -132,6 +89,49 @@ org.j8unit.repository.javax.swing.JMenuItemClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem(java.lang.String,boolean) public
+     * javax.swing.JCheckBoxMenuItem(java.lang.String,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JCheckBoxMenuItem_String_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem(java.lang.String,boolean);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem(java.lang.String,javax.swing.Icon) public
+     * javax.swing.JCheckBoxMenuItem(java.lang.String,javax.swing.Icon)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JCheckBoxMenuItem_String_Icon()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JCheckBoxMenuItem sut = null; // = new JCheckBoxMenuItem(java.lang.String,javax.swing.Icon);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JCheckBoxMenuItem#JCheckBoxMenuItem(java.lang.String,javax.swing.Icon,boolean)
+     * public javax.swing.JCheckBoxMenuItem(java.lang.String,javax.swing.Icon,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JCheckBoxMenuItem_String_Icon_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JCheckBoxMenuItem sut = null; // = new
+                                                        // JCheckBoxMenuItem(java.lang.String,javax.swing.Icon,boolean);
     }
 
     @Override

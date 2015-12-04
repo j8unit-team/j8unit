@@ -47,16 +47,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final javax.xml.ws.Endpoint sut = null; // = new Endpoint();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.ws.Endpoint> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.ws.Endpoint.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.xml.ws.Endpoint#create(java.lang.Object) public static javax.xml.ws.Endpoint
@@ -91,6 +81,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.ws.Endpoint#create(java.lang.String,java.lang.Object) public static
+     * javax.xml.ws.Endpoint javax.xml.ws.Endpoint.create(java.lang.String,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link javax.xml.ws.Endpoint#create(java.lang.String,java.lang.Object,javax.xml.ws.WebServiceFeature...) public
      * static javax.xml.ws.Endpoint
@@ -101,22 +107,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_create_String_Object_WebServiceFeatureArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.ws.Endpoint#create(java.lang.String,java.lang.Object) public static
-     * javax.xml.ws.Endpoint javax.xml.ws.Endpoint.create(java.lang.String,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -155,6 +145,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.ws.Endpoint> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.ws.Endpoint.class.isAssignableFrom(sut));
     }
 
 }

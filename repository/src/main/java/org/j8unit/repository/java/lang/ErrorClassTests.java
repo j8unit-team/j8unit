@@ -35,16 +35,29 @@ public abstract interface ErrorClassTests<SUT extends Class<? extends java.lang.
 extends org.j8unit.repository.java.lang.ThrowableClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.Error#Error(java.lang.Throwable) public java.lang.Error(java.lang.Throwable)}.
+     * Test method for {@link java.lang.Error#Error() public java.lang.Error()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Error_Throwable()
+    public default void create_Error()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.Error sut = null; // = new Error(java.lang.Throwable);
+        final java.lang.Error sut = null; // = new Error();
+    }
+
+    /**
+     * Test method for {@link java.lang.Error#Error(java.lang.String) public java.lang.Error(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Error_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.Error sut = null; // = new Error(java.lang.String);
     }
 
     /**
@@ -62,29 +75,16 @@ extends org.j8unit.repository.java.lang.ThrowableClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.lang.Error#Error(java.lang.String) public java.lang.Error(java.lang.String)}.
+     * Test method for {@link java.lang.Error#Error(java.lang.Throwable) public java.lang.Error(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Error_String()
+    public default void create_Error_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.Error sut = null; // = new Error(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.lang.Error#Error() public java.lang.Error()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Error()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.Error sut = null; // = new Error();
+        final java.lang.Error sut = null; // = new Error(java.lang.Throwable);
     }
 
     @Override

@@ -37,6 +37,20 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsClassTest
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.swing.text.html.parser.AttributeList#AttributeList(java.lang.String) public
+     * javax.swing.text.html.parser.AttributeList(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AttributeList_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.html.parser.AttributeList sut = null; // = new AttributeList(java.lang.String);
+    }
+
+    /**
      * Test method for
      * {@link javax.swing.text.html.parser.AttributeList#AttributeList(java.lang.String,int,int,java.lang.String,java.util.Vector,javax.swing.text.html.parser.AttributeList)
      * public
@@ -52,30 +66,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.swing.text.html.parser.AttributeList sut = null; // = new
                                                                      // AttributeList(java.lang.String,int,int,java.lang.String,java.util.Vector,javax.swing.text.html.parser.AttributeList);
-    }
-
-    /**
-     * Test method for {@link javax.swing.text.html.parser.AttributeList#AttributeList(java.lang.String) public
-     * javax.swing.text.html.parser.AttributeList(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AttributeList_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.html.parser.AttributeList sut = null; // = new AttributeList(java.lang.String);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.html.parser.AttributeList> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.html.parser.AttributeList.class.isAssignableFrom(sut));
     }
 
     /**
@@ -108,6 +98,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.html.parser.AttributeList> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.html.parser.AttributeList.class.isAssignableFrom(sut));
     }
 
 }

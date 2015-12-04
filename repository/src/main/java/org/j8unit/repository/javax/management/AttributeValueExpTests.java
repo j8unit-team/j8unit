@@ -23,15 +23,17 @@ extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeValueExp#setMBeanServer(javax.management.MBeanServer) public
-     * void javax.management.AttributeValueExp.setMBeanServer(javax.management.MBeanServer)}.
+     * Test method for {@link javax.management.AttributeValueExp#apply(javax.management.ObjectName) public
+     * javax.management.ValueExp javax.management.AttributeValueExp.apply(javax.management.ObjectName) throws
+     * javax.management.BadStringOperationException,javax.management.BadBinaryOpValueExpException,javax.management.BadAttributeValueExpException,javax.management.InvalidApplicationException}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setMBeanServer_MBeanServer()
+    public default void test_apply_ObjectName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,6 +58,23 @@ extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.re
 
     /**
      * <p>
+     * Test method for {@link javax.management.AttributeValueExp#setMBeanServer(javax.management.MBeanServer) public
+     * void javax.management.AttributeValueExp.setMBeanServer(javax.management.MBeanServer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setMBeanServer_MBeanServer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.AttributeValueExp#toString() public java.lang.String
      * javax.management.AttributeValueExp.toString()}.
      * </p>
@@ -65,25 +84,6 @@ extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.re
     @Category(Draft.class)
     @Override
     public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.AttributeValueExp#apply(javax.management.ObjectName) public
-     * javax.management.ValueExp javax.management.AttributeValueExp.apply(javax.management.ObjectName) throws
-     * javax.management.BadStringOperationException,javax.management.BadBinaryOpValueExpException,javax.management.BadAttributeValueExpException,javax.management.InvalidApplicationException}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_apply_ObjectName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

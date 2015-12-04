@@ -48,14 +48,21 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final javax.swing.plaf.basic.BasicHTML sut = null; // = new BasicHTML();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicHTML#createHTMLView(javax.swing.JComponent,java.lang.String)
+     * public static javax.swing.text.View
+     * javax.swing.plaf.basic.BasicHTML.createHTMLView(javax.swing.JComponent,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_createHTMLView_JComponent_String()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicHTML> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.basic.BasicHTML.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -76,15 +83,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicHTML#createHTMLView(javax.swing.JComponent,java.lang.String)
-     * public static javax.swing.text.View
-     * javax.swing.plaf.basic.BasicHTML.createHTMLView(javax.swing.JComponent,java.lang.String)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicHTML#isHTMLString(java.lang.String) public static boolean
+     * javax.swing.plaf.basic.BasicHTML.isHTMLString(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createHTMLView_JComponent_String()
+    public default void test_isHTMLString_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -107,20 +113,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicHTML#isHTMLString(java.lang.String) public static boolean
-     * javax.swing.plaf.basic.BasicHTML.isHTMLString(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_isHTMLString_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.swing.plaf.basic.BasicHTML> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.basic.BasicHTML.class.isAssignableFrom(sut));
     }
 
 }

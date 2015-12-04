@@ -24,30 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.DOMLocator#getUri() public abstract java.lang.String
-     * org.w3c.dom.DOMLocator.getUri()}.
+     * Test method for {@link org.w3c.dom.DOMLocator#getByteOffset() public abstract int
+     * org.w3c.dom.DOMLocator.getByteOffset()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getUri()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.DOMLocator#getRelatedNode() public abstract org.w3c.dom.Node
-     * org.w3c.dom.DOMLocator.getRelatedNode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRelatedNode()
+    public default void test_getByteOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,22 +56,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.DOMLocator#getUtf16Offset() public abstract int
-     * org.w3c.dom.DOMLocator.getUtf16Offset()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUtf16Offset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.DOMLocator#getLineNumber() public abstract int
      * org.w3c.dom.DOMLocator.getLineNumber()}.
      * </p>
@@ -104,14 +72,46 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.DOMLocator#getByteOffset() public abstract int
-     * org.w3c.dom.DOMLocator.getByteOffset()}.
+     * Test method for {@link org.w3c.dom.DOMLocator#getRelatedNode() public abstract org.w3c.dom.Node
+     * org.w3c.dom.DOMLocator.getRelatedNode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getByteOffset()
+    public default void test_getRelatedNode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.DOMLocator#getUri() public abstract java.lang.String
+     * org.w3c.dom.DOMLocator.getUri()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUri()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.DOMLocator#getUtf16Offset() public abstract int
+     * org.w3c.dom.DOMLocator.getUtf16Offset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUtf16Offset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

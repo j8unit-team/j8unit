@@ -24,40 +24,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DragSourceAdapter#dragOver(java.awt.dnd.DragSourceDragEvent) public void
-     * java.awt.dnd.DragSourceAdapter.dragOver(java.awt.dnd.DragSourceDragEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_dragOver_DragSourceDragEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DragSourceAdapter#dropActionChanged(java.awt.dnd.DragSourceDragEvent) public
-     * void java.awt.dnd.DragSourceAdapter.dropActionChanged(java.awt.dnd.DragSourceDragEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_dropActionChanged_DragSourceDragEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.dnd.DragSourceAdapter#dragDropEnd(java.awt.dnd.DragSourceDropEvent) public void
      * java.awt.dnd.DragSourceAdapter.dragDropEnd(java.awt.dnd.DragSourceDropEvent)}.
      * </p>
@@ -67,6 +33,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_dragDropEnd_DragSourceDropEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DragSourceAdapter#dragEnter(java.awt.dnd.DragSourceDragEvent) public void
+     * java.awt.dnd.DragSourceAdapter.dragEnter(java.awt.dnd.DragSourceDragEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_dragEnter_DragSourceDragEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -109,15 +92,32 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DragSourceAdapter#dragEnter(java.awt.dnd.DragSourceDragEvent) public void
-     * java.awt.dnd.DragSourceAdapter.dragEnter(java.awt.dnd.DragSourceDragEvent)}.
+     * Test method for {@link java.awt.dnd.DragSourceAdapter#dragOver(java.awt.dnd.DragSourceDragEvent) public void
+     * java.awt.dnd.DragSourceAdapter.dragOver(java.awt.dnd.DragSourceDragEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_dragEnter_DragSourceDragEvent()
+    public default void test_dragOver_DragSourceDragEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DragSourceAdapter#dropActionChanged(java.awt.dnd.DragSourceDragEvent) public
+     * void java.awt.dnd.DragSourceAdapter.dropActionChanged(java.awt.dnd.DragSourceDragEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_dropActionChanged_DragSourceDragEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

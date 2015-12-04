@@ -23,49 +23,15 @@ extends org.j8unit.repository.javax.swing.plaf.PopupMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#getPreferredSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiPopupMenuUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#contains(javax.swing.JComponent,int,int) public
+     * boolean javax.swing.plaf.multi.MultiPopupMenuUI.contains(javax.swing.JComponent,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getPreferredSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiPopupMenuUI.installUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_installUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiPopupMenuUI.getMinimumSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMinimumSize_JComponent()
+    public default void test_contains_JComponent_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,23 +58,6 @@ extends org.j8unit.repository.javax.swing.plaf.PopupMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#contains(javax.swing.JComponent,int,int) public
-     * boolean javax.swing.plaf.multi.MultiPopupMenuUI.contains(javax.swing.JComponent,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_contains_JComponent_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#getAccessibleChildrenCount(javax.swing.JComponent)
      * public int javax.swing.plaf.multi.MultiPopupMenuUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
      * </p>
@@ -118,23 +67,6 @@ extends org.j8unit.repository.javax.swing.plaf.PopupMenuUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getAccessibleChildrenCount_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiPopupMenuUI.uninstallUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_uninstallUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -160,6 +92,57 @@ extends org.j8unit.repository.javax.swing.plaf.PopupMenuUITests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#getMinimumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.multi.MultiPopupMenuUI.getMinimumSize(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMinimumSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#getPopup(javax.swing.JPopupMenu,int,int) public
+     * javax.swing.Popup javax.swing.plaf.multi.MultiPopupMenuUI.getPopup(javax.swing.JPopupMenu,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPopup_JPopupMenu_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.multi.MultiPopupMenuUI.getPreferredSize(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPreferredSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#getUIs() public javax.swing.plaf.ComponentUI[]
      * javax.swing.plaf.multi.MultiPopupMenuUI.getUIs()}.
      * </p>
@@ -168,6 +151,23 @@ extends org.j8unit.repository.javax.swing.plaf.PopupMenuUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getUIs()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiPopupMenuUI.installUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_installUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -193,23 +193,6 @@ extends org.j8unit.repository.javax.swing.plaf.PopupMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#update(java.awt.Graphics,javax.swing.JComponent)
-     * public void javax.swing.plaf.multi.MultiPopupMenuUI.update(java.awt.Graphics,javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_update_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#paint(java.awt.Graphics,javax.swing.JComponent)
      * public void javax.swing.plaf.multi.MultiPopupMenuUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      * </p>
@@ -227,15 +210,32 @@ extends org.j8unit.repository.javax.swing.plaf.PopupMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#getPopup(javax.swing.JPopupMenu,int,int) public
-     * javax.swing.Popup javax.swing.plaf.multi.MultiPopupMenuUI.getPopup(javax.swing.JPopupMenu,int,int)}.
+     * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiPopupMenuUI.uninstallUI(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getPopup_JPopupMenu_int_int()
+    public default void test_uninstallUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiPopupMenuUI#update(java.awt.Graphics,javax.swing.JComponent)
+     * public void javax.swing.plaf.multi.MultiPopupMenuUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_update_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

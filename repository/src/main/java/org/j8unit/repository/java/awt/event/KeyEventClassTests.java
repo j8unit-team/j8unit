@@ -50,6 +50,20 @@ extends org.j8unit.repository.java.awt.event.InputEventClassTests<SUT> {
     }
 
     /**
+     * Test method for {@link java.awt.event.KeyEvent#KeyEvent(java.awt.Component,int,long,int,int,char) public
+     * java.awt.event.KeyEvent(java.awt.Component,int,long,int,int,char)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_KeyEvent_Component_int_long_int_int_char()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.event.KeyEvent sut = null; // = new KeyEvent(java.awt.Component,int,long,int,int,char);
+    }
+
+    /**
      * Test method for {@link java.awt.event.KeyEvent#KeyEvent(java.awt.Component,int,long,int,int,char,int) public
      * java.awt.event.KeyEvent(java.awt.Component,int,long,int,int,char,int)}.
      */
@@ -64,30 +78,6 @@ extends org.j8unit.repository.java.awt.event.InputEventClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.event.KeyEvent#KeyEvent(java.awt.Component,int,long,int,int,char) public
-     * java.awt.event.KeyEvent(java.awt.Component,int,long,int,int,char)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_KeyEvent_Component_int_long_int_int_char()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.event.KeyEvent sut = null; // = new KeyEvent(java.awt.Component,int,long,int,int,char);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.event.KeyEvent> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.event.KeyEvent.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test method for {@link java.awt.event.KeyEvent#getExtendedKeyCodeForChar(int) public static int
      * java.awt.event.KeyEvent.getExtendedKeyCodeForChar(int)}.
@@ -97,6 +87,22 @@ extends org.j8unit.repository.java.awt.event.InputEventClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getExtendedKeyCodeForChar_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.KeyEvent#getKeyModifiersText(int) public static java.lang.String
+     * java.awt.event.KeyEvent.getKeyModifiersText(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getKeyModifiersText_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,20 +125,14 @@ extends org.j8unit.repository.java.awt.event.InputEventClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.KeyEvent#getKeyModifiersText(int) public static java.lang.String
-     * java.awt.event.KeyEvent.getKeyModifiersText(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getKeyModifiersText_int()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.awt.event.KeyEvent> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.event.KeyEvent.class.isAssignableFrom(sut));
     }
 
 }

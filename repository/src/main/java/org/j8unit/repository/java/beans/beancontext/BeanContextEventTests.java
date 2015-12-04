@@ -23,6 +23,38 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.beans.beancontext.BeanContextEvent#getBeanContext() public
+     * java.beans.beancontext.BeanContext java.beans.beancontext.BeanContextEvent.getBeanContext()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBeanContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.beancontext.BeanContextEvent#getPropagatedFrom() public synchronized
+     * java.beans.beancontext.BeanContext java.beans.beancontext.BeanContextEvent.getPropagatedFrom()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPropagatedFrom()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.beans.beancontext.BeanContextEvent#isPropagated() public synchronized boolean
      * java.beans.beancontext.BeanContextEvent.isPropagated()}.
      * </p>
@@ -48,38 +80,6 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setPropagatedFrom_BeanContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.beancontext.BeanContextEvent#getPropagatedFrom() public synchronized
-     * java.beans.beancontext.BeanContext java.beans.beancontext.BeanContextEvent.getPropagatedFrom()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPropagatedFrom()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.beancontext.BeanContextEvent#getBeanContext() public
-     * java.beans.beancontext.BeanContext java.beans.beancontext.BeanContextEvent.getBeanContext()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBeanContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

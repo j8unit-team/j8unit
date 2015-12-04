@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.StatementEventListener#statementErrorOccurred(javax.sql.StatementEvent) public
-     * abstract void javax.sql.StatementEventListener.statementErrorOccurred(javax.sql.StatementEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_statementErrorOccurred_StatementEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sql.StatementEventListener#statementClosed(javax.sql.StatementEvent) public abstract
      * void javax.sql.StatementEventListener.statementClosed(javax.sql.StatementEvent)}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_statementClosed_StatementEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.StatementEventListener#statementErrorOccurred(javax.sql.StatementEvent) public
+     * abstract void javax.sql.StatementEventListener.statementErrorOccurred(javax.sql.StatementEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_statementErrorOccurred_StatementEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

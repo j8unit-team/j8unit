@@ -23,15 +23,15 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#toString() public java.lang.String
-     * javax.management.openmbean.ArrayType.toString()}.
+     * Test method for {@link javax.management.openmbean.ArrayType#equals(java.lang.Object) public boolean
+     * javax.management.openmbean.ArrayType.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,23 +56,6 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#isValue(java.lang.Object) public boolean
-     * javax.management.openmbean.ArrayType.isValue(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isValue_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.openmbean.ArrayType#getElementOpenType() public
      * javax.management.openmbean.OpenType javax.management.openmbean.ArrayType.getElementOpenType()}.
      * </p>
@@ -81,23 +64,6 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
     @Test
     @Category(Draft.class)
     public default void test_getElementOpenType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#equals(java.lang.Object) public boolean
-     * javax.management.openmbean.ArrayType.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -131,6 +97,40 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, T> {
     @Test
     @Category(Draft.class)
     public default void test_isPrimitiveArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.ArrayType#isValue(java.lang.Object) public boolean
+     * javax.management.openmbean.ArrayType.isValue(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isValue_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.ArrayType#toString() public java.lang.String
+     * javax.management.openmbean.ArrayType.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

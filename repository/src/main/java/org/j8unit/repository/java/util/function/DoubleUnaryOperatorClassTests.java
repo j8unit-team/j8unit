@@ -36,15 +36,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface DoubleUnaryOperatorClassTests<SUT extends Class<? extends java.util.function.DoubleUnaryOperator>>
 extends J8UnitTest<SUT> {
 
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.function.DoubleUnaryOperator> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.function.DoubleUnaryOperator.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.util.function.DoubleUnaryOperator#identity() public static
@@ -59,6 +50,15 @@ extends J8UnitTest<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.function.DoubleUnaryOperator> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.function.DoubleUnaryOperator.class.isAssignableFrom(sut));
     }
 
 }

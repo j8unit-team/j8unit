@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleBundleTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleRelation#getTarget() public java.lang.Object[]
-     * javax.accessibility.AccessibleRelation.getTarget()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTarget()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.accessibility.AccessibleRelation#getKey() public java.lang.String
      * javax.accessibility.AccessibleRelation.getKey()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.javax.accessibility.AccessibleBundleTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getKey()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleRelation#getTarget() public java.lang.Object[]
+     * javax.accessibility.AccessibleRelation.getTarget()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTarget()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

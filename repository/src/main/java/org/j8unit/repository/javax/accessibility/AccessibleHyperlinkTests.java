@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleActionTests<SUT>, or
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleHyperlink#getEndIndex() public abstract int
-     * javax.accessibility.AccessibleHyperlink.getEndIndex()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEndIndex()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.accessibility.AccessibleHyperlink#doAccessibleAction(int) public abstract boolean
      * javax.accessibility.AccessibleHyperlink.doAccessibleAction(int)}.
      * </p>
@@ -56,63 +40,14 @@ extends org.j8unit.repository.javax.accessibility.AccessibleActionTests<SUT>, or
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleHyperlink#isValid() public abstract boolean
-     * javax.accessibility.AccessibleHyperlink.isValid()}.
+     * Test method for {@link javax.accessibility.AccessibleHyperlink#getAccessibleActionAnchor(int) public abstract
+     * java.lang.Object javax.accessibility.AccessibleHyperlink.getAccessibleActionAnchor(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isValid()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleHyperlink#getAccessibleActionObject(int) public abstract
-     * java.lang.Object javax.accessibility.AccessibleHyperlink.getAccessibleActionObject(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleActionObject_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleHyperlink#getAccessibleActionDescription(int) public
-     * abstract java.lang.String javax.accessibility.AccessibleHyperlink.getAccessibleActionDescription(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAccessibleActionDescription_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleHyperlink#getStartIndex() public abstract int
-     * javax.accessibility.AccessibleHyperlink.getStartIndex()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getStartIndex()
+    public default void test_getAccessibleActionAnchor_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -138,14 +73,79 @@ extends org.j8unit.repository.javax.accessibility.AccessibleActionTests<SUT>, or
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleHyperlink#getAccessibleActionAnchor(int) public abstract
-     * java.lang.Object javax.accessibility.AccessibleHyperlink.getAccessibleActionAnchor(int)}.
+     * Test method for {@link javax.accessibility.AccessibleHyperlink#getAccessibleActionDescription(int) public
+     * abstract java.lang.String javax.accessibility.AccessibleHyperlink.getAccessibleActionDescription(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAccessibleActionAnchor_int()
+    @Override
+    public default void test_getAccessibleActionDescription_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleHyperlink#getAccessibleActionObject(int) public abstract
+     * java.lang.Object javax.accessibility.AccessibleHyperlink.getAccessibleActionObject(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleActionObject_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleHyperlink#getEndIndex() public abstract int
+     * javax.accessibility.AccessibleHyperlink.getEndIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEndIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleHyperlink#getStartIndex() public abstract int
+     * javax.accessibility.AccessibleHyperlink.getStartIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStartIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleHyperlink#isValid() public abstract boolean
+     * javax.accessibility.AccessibleHyperlink.isValid()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isValid()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

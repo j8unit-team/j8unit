@@ -35,14 +35,21 @@ import org.junit.experimental.categories.Category;
 public abstract interface XMLOutputFactoryClassTests<SUT extends Class<? extends javax.xml.stream.XMLOutputFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLOutputFactory#newFactory() public static
+     * javax.xml.stream.XMLOutputFactory javax.xml.stream.XMLOutputFactory.newFactory() throws
+     * javax.xml.stream.FactoryConfigurationError}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_newFactory()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.stream.XMLOutputFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.stream.XMLOutputFactory.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -65,15 +72,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLOutputFactory#newFactory() public static
-     * javax.xml.stream.XMLOutputFactory javax.xml.stream.XMLOutputFactory.newFactory() throws
+     * Test method for {@link javax.xml.stream.XMLOutputFactory#newInstance() public static
+     * javax.xml.stream.XMLOutputFactory javax.xml.stream.XMLOutputFactory.newInstance() throws
      * javax.xml.stream.FactoryConfigurationError}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newFactory()
+    public default void test_newInstance()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -98,21 +105,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLOutputFactory#newInstance() public static
-     * javax.xml.stream.XMLOutputFactory javax.xml.stream.XMLOutputFactory.newInstance() throws
-     * javax.xml.stream.FactoryConfigurationError}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_newInstance()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.xml.stream.XMLOutputFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.stream.XMLOutputFactory.class.isAssignableFrom(sut));
     }
 
 }

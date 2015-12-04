@@ -23,30 +23,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonGroup#setSelected(javax.swing.ButtonModel,boolean) public void
-     * javax.swing.ButtonGroup.setSelected(javax.swing.ButtonModel,boolean)}.
+     * Test method for {@link javax.swing.ButtonGroup#add(javax.swing.AbstractButton) public void
+     * javax.swing.ButtonGroup.add(javax.swing.AbstractButton)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSelected_ButtonModel_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ButtonGroup#getElements() public java.util.Enumeration
-     * javax.swing.ButtonGroup.getElements()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getElements()
+    public default void test_add_AbstractButton()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +55,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonGroup#add(javax.swing.AbstractButton) public void
-     * javax.swing.ButtonGroup.add(javax.swing.AbstractButton)}.
+     * Test method for {@link javax.swing.ButtonGroup#getButtonCount() public int
+     * javax.swing.ButtonGroup.getButtonCount()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_add_AbstractButton()
+    public default void test_getButtonCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ButtonGroup#getElements() public java.util.Enumeration
+     * javax.swing.ButtonGroup.getElements()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getElements()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +103,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonGroup#getButtonCount() public int
-     * javax.swing.ButtonGroup.getButtonCount()}.
+     * Test method for {@link javax.swing.ButtonGroup#isSelected(javax.swing.ButtonModel) public boolean
+     * javax.swing.ButtonGroup.isSelected(javax.swing.ButtonModel)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getButtonCount()
+    public default void test_isSelected_ButtonModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,14 +135,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonGroup#isSelected(javax.swing.ButtonModel) public boolean
-     * javax.swing.ButtonGroup.isSelected(javax.swing.ButtonModel)}.
+     * Test method for {@link javax.swing.ButtonGroup#setSelected(javax.swing.ButtonModel,boolean) public void
+     * javax.swing.ButtonGroup.setSelected(javax.swing.ButtonModel,boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isSelected_ButtonModel()
+    public default void test_setSelected_ButtonModel_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,32 +36,6 @@ public abstract interface LineEventClassTests<SUT extends Class<? extends javax.
 extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.sound.sampled.LineEvent#LineEvent(javax.sound.sampled.Line,javax.sound.sampled.LineEvent.Type,long)
-     * public javax.sound.sampled.LineEvent(javax.sound.sampled.Line,javax.sound.sampled.LineEvent$Type,long)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LineEvent_Line_Type_long()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.sound.sampled.LineEvent sut = null; // = new
-                                                        // LineEvent(javax.sound.sampled.Line,javax.sound.sampled.LineEvent.Type,long);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.sound.sampled.LineEvent> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.sound.sampled.LineEvent.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.sound.sampled.LineEvent$Type class javax.sound.sampled.LineEvent$Type}, containing
      * all class relevant test methods (at least the test methods of accessible constructors and of accessible
@@ -100,6 +74,32 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
             assertTrue(javax.sound.sampled.LineEvent.Type.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for
+     * {@link javax.sound.sampled.LineEvent#LineEvent(javax.sound.sampled.Line,javax.sound.sampled.LineEvent.Type,long)
+     * public javax.sound.sampled.LineEvent(javax.sound.sampled.Line,javax.sound.sampled.LineEvent$Type,long)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LineEvent_Line_Type_long()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.sound.sampled.LineEvent sut = null; // = new
+                                                        // LineEvent(javax.sound.sampled.Line,javax.sound.sampled.LineEvent.Type,long);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.sound.sampled.LineEvent> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.sound.sampled.LineEvent.class.isAssignableFrom(sut));
     }
 
 }

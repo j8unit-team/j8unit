@@ -23,54 +23,6 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for {@link javax.print.StreamPrintService#getOutputFormat() public abstract java.lang.String
-     * javax.print.StreamPrintService.getOutputFormat()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOutputFormat()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.StreamPrintService#isDisposed() public boolean
-     * javax.print.StreamPrintService.isDisposed()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isDisposed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.StreamPrintService#getOutputStream() public java.io.OutputStream
-     * javax.print.StreamPrintService.getOutputStream()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.print.StreamPrintService#dispose() public void
      * javax.print.StreamPrintService.dispose()}.
      * </p>
@@ -97,8 +49,40 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode()
+    public default void test_equals_Object()
     throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.StreamPrintService#getOutputFormat() public abstract java.lang.String
+     * javax.print.StreamPrintService.getOutputFormat()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutputFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.StreamPrintService#getOutputStream() public java.io.OutputStream
+     * javax.print.StreamPrintService.getOutputStream()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -113,8 +97,24 @@ extends org.j8unit.repository.javax.print.PrintServiceTests<SUT>, org.j8unit.rep
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_hashCode()
     throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.StreamPrintService#isDisposed() public boolean
+     * javax.print.StreamPrintService.isDisposed()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isDisposed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

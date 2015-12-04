@@ -36,6 +36,33 @@ extends org.j8unit.repository.java.awt.PaintClassTests<SUT>, org.j8unit.reposito
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.awt.Color#Color(java.awt.color.ColorSpace,float[],float) public
+     * java.awt.Color(java.awt.color.ColorSpace,float[],float)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Color_ColorSpace_floatArray_float()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Color sut = null; // = new Color(java.awt.color.ColorSpace,float[],float);
+    }
+
+    /**
+     * Test method for {@link java.awt.Color#Color(float,float,float) public java.awt.Color(float,float,float)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Color_float_float_float()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Color sut = null; // = new Color(float,float,float);
+    }
+
+    /**
      * Test method for {@link java.awt.Color#Color(float,float,float,float) public
      * java.awt.Color(float,float,float,float)}.
      */
@@ -76,19 +103,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.Color#Color(float,float,float) public java.awt.Color(float,float,float)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Color_float_float_float()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Color sut = null; // = new Color(float,float,float);
-    }
-
-    /**
      * Test method for {@link java.awt.Color#Color(int,int,int) public java.awt.Color(int,int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -99,20 +113,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.Color sut = null; // = new Color(int,int,int);
-    }
-
-    /**
-     * Test method for {@link java.awt.Color#Color(java.awt.color.ColorSpace,float[],float) public
-     * java.awt.Color(java.awt.color.ColorSpace,float[],float)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Color_ColorSpace_floatArray_float()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Color sut = null; // = new Color(java.awt.color.ColorSpace,float[],float);
     }
 
     /**
@@ -128,14 +128,36 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.awt.Color sut = null; // = new Color(int,int,int,int);
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.awt.Color#decode(java.lang.String) public static java.awt.Color
+     * java.awt.Color.decode(java.lang.String) throws java.lang.NumberFormatException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_decode_String()
     throws Exception {
-        // create new instance
-        final Class<? extends java.awt.Color> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.Color.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Color#getColor(java.lang.String) public static java.awt.Color
+     * java.awt.Color.getColor(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getColor_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -172,14 +194,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#getColor(java.lang.String) public static java.awt.Color
-     * java.awt.Color.getColor(java.lang.String)}.
+     * Test method for {@link java.awt.Color#getHSBColor(float,float,float) public static java.awt.Color
+     * java.awt.Color.getHSBColor(float,float,float)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getColor_String()
+    public default void test_getHSBColor_float_float_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -204,22 +226,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Color#decode(java.lang.String) public static java.awt.Color
-     * java.awt.Color.decode(java.lang.String) throws java.lang.NumberFormatException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_decode_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.Color#RGBtoHSB(int,int,int,float[]) public static float[]
      * java.awt.Color.RGBtoHSB(int,int,int,float[])}.
      * </p>
@@ -234,20 +240,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.awt.Color#getHSBColor(float,float,float) public static java.awt.Color
-     * java.awt.Color.getHSBColor(float,float,float)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getHSBColor_float_float_float()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.awt.Color> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.Color.class.isAssignableFrom(sut));
     }
 
 }

@@ -24,14 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ImageConsumer#setHints(int) public abstract void
-     * java.awt.image.ImageConsumer.setHints(int)}.
+     * Test method for {@link java.awt.image.ImageConsumer#imageComplete(int) public abstract void
+     * java.awt.image.ImageConsumer.imageComplete(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setHints_int()
+    public default void test_imageComplete_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +72,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ImageConsumer#setProperties(java.util.Hashtable) public abstract void
-     * java.awt.image.ImageConsumer.setProperties(java.util.Hashtable)}.
+     * Test method for {@link java.awt.image.ImageConsumer#setHints(int) public abstract void
+     * java.awt.image.ImageConsumer.setHints(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setProperties_Hashtable()
+    public default void test_setHints_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -122,14 +122,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ImageConsumer#imageComplete(int) public abstract void
-     * java.awt.image.ImageConsumer.imageComplete(int)}.
+     * Test method for {@link java.awt.image.ImageConsumer#setProperties(java.util.Hashtable) public abstract void
+     * java.awt.image.ImageConsumer.setProperties(java.util.Hashtable)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_imageComplete_int()
+    public default void test_setProperties_Hashtable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

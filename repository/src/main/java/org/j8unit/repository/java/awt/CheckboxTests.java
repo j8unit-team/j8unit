@@ -24,6 +24,88 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.Checkbox#addItemListener(java.awt.event.ItemListener) public synchronized void
+     * java.awt.Checkbox.addItemListener(java.awt.event.ItemListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_addItemListener_ItemListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Checkbox#addNotify() public void java.awt.Checkbox.addNotify()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_addNotify()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Checkbox#getAccessibleContext() public javax.accessibility.AccessibleContext
+     * java.awt.Checkbox.getAccessibleContext()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAccessibleContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Checkbox#getCheckboxGroup() public java.awt.CheckboxGroup
+     * java.awt.Checkbox.getCheckboxGroup()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCheckboxGroup()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Checkbox#getItemListeners() public synchronized java.awt.event.ItemListener[]
+     * java.awt.Checkbox.getItemListeners()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getItemListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.Checkbox#getLabel() public java.lang.String java.awt.Checkbox.getLabel()}.
      * </p>
      */
@@ -56,15 +138,30 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Checkbox#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * java.awt.Checkbox.getAccessibleContext()}.
+     * Test method for {@link java.awt.Checkbox#getSelectedObjects() public java.lang.Object[]
+     * java.awt.Checkbox.getSelectedObjects()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAccessibleContext()
+    public default void test_getSelectedObjects()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Checkbox#getState() public boolean java.awt.Checkbox.getState()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getState()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,101 +203,6 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Checkbox#getSelectedObjects() public java.lang.Object[]
-     * java.awt.Checkbox.getSelectedObjects()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSelectedObjects()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Checkbox#addNotify() public void java.awt.Checkbox.addNotify()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addNotify()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Checkbox#getState() public boolean java.awt.Checkbox.getState()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getState()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Checkbox#getItemListeners() public synchronized java.awt.event.ItemListener[]
-     * java.awt.Checkbox.getItemListeners()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getItemListeners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Checkbox#getCheckboxGroup() public java.awt.CheckboxGroup
-     * java.awt.Checkbox.getCheckboxGroup()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCheckboxGroup()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Checkbox#setState(boolean) public void java.awt.Checkbox.setState(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setState_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.Checkbox#setLabel(java.lang.String) public void
      * java.awt.Checkbox.setLabel(java.lang.String)}.
      * </p>
@@ -217,15 +219,13 @@ org.j8unit.repository.java.awt.ComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Checkbox#addItemListener(java.awt.event.ItemListener) public synchronized void
-     * java.awt.Checkbox.addItemListener(java.awt.event.ItemListener)}.
+     * Test method for {@link java.awt.Checkbox#setState(boolean) public void java.awt.Checkbox.setState(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_addItemListener_ItemListener()
+    public default void test_setState_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

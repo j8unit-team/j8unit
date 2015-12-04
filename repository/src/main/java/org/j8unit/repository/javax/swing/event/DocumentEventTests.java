@@ -24,87 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getChange(javax.swing.text.Element) public abstract
-     * javax.swing.event.DocumentEvent$ElementChange
-     * javax.swing.event.DocumentEvent.getChange(javax.swing.text.Element)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChange_Element()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getLength() public abstract int
-     * javax.swing.event.DocumentEvent.getLength()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLength()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getType() public abstract
-     * javax.swing.event.DocumentEvent$EventType javax.swing.event.DocumentEvent.getType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getDocument() public abstract javax.swing.text.Document
-     * javax.swing.event.DocumentEvent.getDocument()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDocument()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.event.DocumentEvent#getOffset() public abstract int
-     * javax.swing.event.DocumentEvent.getOffset()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test class for {@link javax.swing.event.DocumentEvent$ElementChange interface
      * javax.swing.event.DocumentEvent$ElementChange}, containing all instance relevant test methods (i.&thinsp;e., test
      * methods of non-{@code static} methods).
@@ -118,6 +37,22 @@ extends J8UnitTest<SUT> {
     @Category(J8UnitRepository.class)
     public static abstract interface ElementChangeTests<SUT extends javax.swing.event.DocumentEvent.ElementChange>
     extends J8UnitTest<SUT> {
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.event.DocumentEvent.ElementChange#getChildrenAdded() public abstract
+         * javax.swing.text.Element[] javax.swing.event.DocumentEvent$ElementChange.getChildrenAdded()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getChildrenAdded()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
 
         /**
          * <p>
@@ -145,22 +80,6 @@ extends J8UnitTest<SUT> {
         @Test
         @Category(Draft.class)
         public default void test_getElement()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.event.DocumentEvent.ElementChange#getChildrenAdded() public abstract
-         * javax.swing.text.Element[] javax.swing.event.DocumentEvent$ElementChange.getChildrenAdded()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getChildrenAdded()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -217,6 +136,87 @@ extends J8UnitTest<SUT> {
             assert sut != null;
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.event.DocumentEvent#getChange(javax.swing.text.Element) public abstract
+     * javax.swing.event.DocumentEvent$ElementChange
+     * javax.swing.event.DocumentEvent.getChange(javax.swing.text.Element)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getChange_Element()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.event.DocumentEvent#getDocument() public abstract javax.swing.text.Document
+     * javax.swing.event.DocumentEvent.getDocument()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDocument()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.event.DocumentEvent#getLength() public abstract int
+     * javax.swing.event.DocumentEvent.getLength()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLength()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.event.DocumentEvent#getOffset() public abstract int
+     * javax.swing.event.DocumentEvent.getOffset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOffset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.event.DocumentEvent#getType() public abstract
+     * javax.swing.event.DocumentEvent$EventType javax.swing.event.DocumentEvent.getType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

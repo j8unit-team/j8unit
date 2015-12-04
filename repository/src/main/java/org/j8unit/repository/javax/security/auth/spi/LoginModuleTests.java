@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.spi.LoginModule#logout() public abstract boolean
-     * javax.security.auth.spi.LoginModule.logout() throws javax.security.auth.login.LoginException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_logout()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.security.auth.spi.LoginModule#abort() public abstract boolean
      * javax.security.auth.spi.LoginModule.abort() throws javax.security.auth.login.LoginException}.
      * </p>
@@ -99,6 +83,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_login()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.spi.LoginModule#logout() public abstract boolean
+     * javax.security.auth.spi.LoginModule.logout() throws javax.security.auth.login.LoginException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_logout()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

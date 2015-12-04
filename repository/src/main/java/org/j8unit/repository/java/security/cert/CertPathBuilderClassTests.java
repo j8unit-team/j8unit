@@ -35,14 +35,37 @@ import org.junit.experimental.categories.Category;
 public abstract interface CertPathBuilderClassTests<SUT extends Class<? extends java.security.cert.CertPathBuilder>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CertPathBuilder#getDefaultType() public static final java.lang.String
+     * java.security.cert.CertPathBuilder.getDefaultType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getDefaultType()
     throws Exception {
-        // create new instance
-        final Class<? extends java.security.cert.CertPathBuilder> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.cert.CertPathBuilder.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CertPathBuilder#getInstance(java.lang.String) public static
+     * java.security.cert.CertPathBuilder java.security.cert.CertPathBuilder.getInstance(java.lang.String) throws
+     * java.security.NoSuchAlgorithmException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInstance_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -81,37 +104,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.CertPathBuilder#getInstance(java.lang.String) public static
-     * java.security.cert.CertPathBuilder java.security.cert.CertPathBuilder.getInstance(java.lang.String) throws
-     * java.security.NoSuchAlgorithmException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getInstance_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.CertPathBuilder#getDefaultType() public static final java.lang.String
-     * java.security.cert.CertPathBuilder.getDefaultType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.security.cert.CertPathBuilder> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.cert.CertPathBuilder.class.isAssignableFrom(sut));
     }
 
 }

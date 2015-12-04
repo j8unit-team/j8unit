@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.Border#isBorderOpaque() public abstract boolean
-     * javax.swing.border.Border.isBorderOpaque()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isBorderOpaque()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.border.Border#getBorderInsets(java.awt.Component) public abstract
      * java.awt.Insets javax.swing.border.Border.getBorderInsets(java.awt.Component)}.
      * </p>
@@ -48,6 +32,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getBorderInsets_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.Border#isBorderOpaque() public abstract boolean
+     * javax.swing.border.Border.isBorderOpaque()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isBorderOpaque()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

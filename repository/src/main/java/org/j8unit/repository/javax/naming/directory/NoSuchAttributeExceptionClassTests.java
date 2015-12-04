@@ -37,6 +37,20 @@ public abstract interface NoSuchAttributeExceptionClassTests<SUT extends Class<?
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.naming.directory.NoSuchAttributeException#NoSuchAttributeException() public
+     * javax.naming.directory.NoSuchAttributeException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_NoSuchAttributeException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.directory.NoSuchAttributeException sut = null; // = new NoSuchAttributeException();
+    }
+
+    /**
      * Test method for {@link javax.naming.directory.NoSuchAttributeException#NoSuchAttributeException(java.lang.String)
      * public javax.naming.directory.NoSuchAttributeException(java.lang.String)}.
      */
@@ -49,20 +63,6 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.naming.directory.NoSuchAttributeException sut = null; // = new
                                                                           // NoSuchAttributeException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.naming.directory.NoSuchAttributeException#NoSuchAttributeException() public
-     * javax.naming.directory.NoSuchAttributeException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_NoSuchAttributeException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.directory.NoSuchAttributeException sut = null; // = new NoSuchAttributeException();
     }
 
     @Override

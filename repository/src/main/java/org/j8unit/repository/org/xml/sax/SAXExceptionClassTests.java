@@ -36,17 +36,16 @@ public abstract interface SAXExceptionClassTests<SUT extends Class<? extends org
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link org.xml.sax.SAXException#SAXException(java.lang.String,java.lang.Exception) public
-     * org.xml.sax.SAXException(java.lang.String,java.lang.Exception)}.
+     * Test method for {@link org.xml.sax.SAXException#SAXException() public org.xml.sax.SAXException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SAXException_String_Exception()
+    public default void create_SAXException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.xml.sax.SAXException sut = null; // = new SAXException(java.lang.String,java.lang.Exception);
+        final org.xml.sax.SAXException sut = null; // = new SAXException();
     }
 
     /**
@@ -78,16 +77,17 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link org.xml.sax.SAXException#SAXException() public org.xml.sax.SAXException()}.
+     * Test method for {@link org.xml.sax.SAXException#SAXException(java.lang.String,java.lang.Exception) public
+     * org.xml.sax.SAXException(java.lang.String,java.lang.Exception)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SAXException()
+    public default void create_SAXException_String_Exception()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.xml.sax.SAXException sut = null; // = new SAXException();
+        final org.xml.sax.SAXException sut = null; // = new SAXException(java.lang.String,java.lang.Exception);
     }
 
     @Override

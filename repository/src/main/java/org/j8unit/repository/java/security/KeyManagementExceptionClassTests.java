@@ -36,17 +36,31 @@ public abstract interface KeyManagementExceptionClassTests<SUT extends Class<? e
 extends org.j8unit.repository.java.security.KeyExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.KeyManagementException#KeyManagementException(java.lang.Throwable) public
-     * java.security.KeyManagementException(java.lang.Throwable)}.
+     * Test method for {@link java.security.KeyManagementException#KeyManagementException() public
+     * java.security.KeyManagementException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_KeyManagementException_Throwable()
+    public default void create_KeyManagementException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.KeyManagementException sut = null; // = new KeyManagementException(java.lang.Throwable);
+        final java.security.KeyManagementException sut = null; // = new KeyManagementException();
+    }
+
+    /**
+     * Test method for {@link java.security.KeyManagementException#KeyManagementException(java.lang.String) public
+     * java.security.KeyManagementException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_KeyManagementException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.KeyManagementException sut = null; // = new KeyManagementException(java.lang.String);
     }
 
     /**
@@ -66,31 +80,17 @@ extends org.j8unit.repository.java.security.KeyExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.security.KeyManagementException#KeyManagementException(java.lang.String) public
-     * java.security.KeyManagementException(java.lang.String)}.
+     * Test method for {@link java.security.KeyManagementException#KeyManagementException(java.lang.Throwable) public
+     * java.security.KeyManagementException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_KeyManagementException_String()
+    public default void create_KeyManagementException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.KeyManagementException sut = null; // = new KeyManagementException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.security.KeyManagementException#KeyManagementException() public
-     * java.security.KeyManagementException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_KeyManagementException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.KeyManagementException sut = null; // = new KeyManagementException();
+        final java.security.KeyManagementException sut = null; // = new KeyManagementException(java.lang.Throwable);
     }
 
     @Override

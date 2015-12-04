@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.DOMImplementation#getFeature(java.lang.String,java.lang.String) public
-     * abstract java.lang.Object org.w3c.dom.DOMImplementation.getFeature(java.lang.String,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFeature_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link org.w3c.dom.DOMImplementation#createDocument(java.lang.String,java.lang.String,org.w3c.dom.DocumentType)
      * public abstract org.w3c.dom.Document
@@ -70,6 +54,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createDocumentType_String_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.DOMImplementation#getFeature(java.lang.String,java.lang.String) public
+     * abstract java.lang.Object org.w3c.dom.DOMImplementation.getFeature(java.lang.String,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFeature_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

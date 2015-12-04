@@ -34,26 +34,16 @@ import org.junit.experimental.categories.Category;
 public abstract interface LongBufferClassTests<SUT extends Class<? extends java.nio.LongBuffer>>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.LongBuffer>, org.j8unit.repository.java.nio.BufferClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.LongBuffer> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.LongBuffer.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.nio.LongBuffer#wrap(long[],int,int) public static java.nio.LongBuffer
-     * java.nio.LongBuffer.wrap(long[],int,int)}.
+     * Test method for {@link java.nio.LongBuffer#allocate(int) public static java.nio.LongBuffer
+     * java.nio.LongBuffer.allocate(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_wrap_longArray_int_int()
+    public default void test_allocate_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -78,18 +68,28 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.LongB
 
     /**
      * <p>
-     * Test method for {@link java.nio.LongBuffer#allocate(int) public static java.nio.LongBuffer
-     * java.nio.LongBuffer.allocate(int)}.
+     * Test method for {@link java.nio.LongBuffer#wrap(long[],int,int) public static java.nio.LongBuffer
+     * java.nio.LongBuffer.wrap(long[],int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_allocate_int()
+    public default void test_wrap_longArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.LongBuffer> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.LongBuffer.class.isAssignableFrom(sut));
     }
 
 }

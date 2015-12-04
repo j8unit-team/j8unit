@@ -32,25 +32,6 @@ org.j8unit.repository.java.beans.DesignModeTests, org.j8unit.repository.java.bea
     /**
      * <p>
      * Test method for
-     * {@link java.beans.beancontext.BeanContext#getResource(java.lang.String,java.beans.beancontext.BeanContextChild)
-     * public abstract java.net.URL
-     * java.beans.beancontext.BeanContext.getResource(java.lang.String,java.beans.beancontext.BeanContextChild) throws
-     * java.lang.IllegalArgumentException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResource_String_BeanContextChild()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link java.beans.beancontext.BeanContext#addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)
      * public abstract void
      * java.beans.beancontext.BeanContext.addBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)}
@@ -61,6 +42,25 @@ org.j8unit.repository.java.beans.DesignModeTests, org.j8unit.repository.java.bea
     @Test
     @Category(Draft.class)
     public default void test_addBeanContextMembershipListener_BeanContextMembershipListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.beans.beancontext.BeanContext#getResource(java.lang.String,java.beans.beancontext.BeanContextChild)
+     * public abstract java.net.URL
+     * java.beans.beancontext.BeanContext.getResource(java.lang.String,java.beans.beancontext.BeanContextChild) throws
+     * java.lang.IllegalArgumentException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getResource_String_BeanContextChild()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,6 +88,23 @@ org.j8unit.repository.java.beans.DesignModeTests, org.j8unit.repository.java.bea
 
     /**
      * <p>
+     * Test method for {@link java.beans.beancontext.BeanContext#instantiateChild(java.lang.String) public abstract
+     * java.lang.Object java.beans.beancontext.BeanContext.instantiateChild(java.lang.String) throws
+     * java.io.IOException,java.lang.ClassNotFoundException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_instantiateChild_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link java.beans.beancontext.BeanContext#removeBeanContextMembershipListener(java.beans.beancontext.BeanContextMembershipListener)
      * public abstract void
@@ -99,23 +116,6 @@ org.j8unit.repository.java.beans.DesignModeTests, org.j8unit.repository.java.bea
     @Test
     @Category(Draft.class)
     public default void test_removeBeanContextMembershipListener_BeanContextMembershipListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.beancontext.BeanContext#instantiateChild(java.lang.String) public abstract
-     * java.lang.Object java.beans.beancontext.BeanContext.instantiateChild(java.lang.String) throws
-     * java.io.IOException,java.lang.ClassNotFoundException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_instantiateChild_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

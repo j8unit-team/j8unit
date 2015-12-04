@@ -82,18 +82,18 @@ extends org.j8unit.repository.java.io.FilterOutputStreamClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.util.zip.DeflaterOutputStream#DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,int,boolean)
-     * public java.util.zip.DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,int,boolean)}.
+     * {@link java.util.zip.DeflaterOutputStream#DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,boolean)
+     * public java.util.zip.DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,boolean)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DeflaterOutputStream_OutputStream_Deflater_int_boolean()
+    public default void create_DeflaterOutputStream_OutputStream_Deflater_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.zip.DeflaterOutputStream sut = null; // = new
-                                                             // DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,int,boolean);
+                                                             // DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,boolean);
     }
 
     /**
@@ -114,18 +114,18 @@ extends org.j8unit.repository.java.io.FilterOutputStreamClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.util.zip.DeflaterOutputStream#DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,boolean)
-     * public java.util.zip.DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,boolean)}.
+     * {@link java.util.zip.DeflaterOutputStream#DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,int,boolean)
+     * public java.util.zip.DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,int,boolean)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DeflaterOutputStream_OutputStream_Deflater_boolean()
+    public default void create_DeflaterOutputStream_OutputStream_Deflater_int_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.zip.DeflaterOutputStream sut = null; // = new
-                                                             // DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,boolean);
+                                                             // DeflaterOutputStream(java.io.OutputStream,java.util.zip.Deflater,int,boolean);
     }
 
     @Override

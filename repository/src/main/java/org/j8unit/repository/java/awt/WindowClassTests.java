@@ -35,88 +35,6 @@ public abstract interface WindowClassTests<SUT extends Class<? extends java.awt.
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.java.awt.ContainerClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.Window#Window(java.awt.Frame) public java.awt.Window(java.awt.Frame)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Window_Frame()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Window sut = null; // = new Window(java.awt.Frame);
-    }
-
-    /**
-     * Test method for {@link java.awt.Window#Window(java.awt.Window,java.awt.GraphicsConfiguration) public
-     * java.awt.Window(java.awt.Window,java.awt.GraphicsConfiguration)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Window_Window_GraphicsConfiguration()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Window sut = null; // = new Window(java.awt.Window,java.awt.GraphicsConfiguration);
-    }
-
-    /**
-     * Test method for {@link java.awt.Window#Window(java.awt.Window) public java.awt.Window(java.awt.Window)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Window_Window()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Window sut = null; // = new Window(java.awt.Window);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.Window> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.Window.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Window#getWindows() public static java.awt.Window[] java.awt.Window.getWindows()}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWindows()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Window#getOwnerlessWindows() public static java.awt.Window[]
-     * java.awt.Window.getOwnerlessWindows()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOwnerlessWindows()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link java.awt.Window$Type class java.awt.Window$Type}, containing all class relevant test
      * methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
@@ -144,16 +62,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     @Category(J8UnitRepository.class)
     public static abstract interface TypeClassTests<SUT extends Class<? extends java.awt.Window.Type>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.Window.Type> {
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends java.awt.Window.Type> sut = createNewSUT();
-            // assert assignability
-            assertTrue(java.awt.Window.Type.class.isAssignableFrom(sut));
-        }
 
         /**
          * <p>
@@ -187,6 +95,98 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
             assert sut != null;
         }
 
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends java.awt.Window.Type> sut = createNewSUT();
+            // assert assignability
+            assertTrue(java.awt.Window.Type.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * Test method for {@link java.awt.Window#Window(java.awt.Frame) public java.awt.Window(java.awt.Frame)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Window_Frame()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Window sut = null; // = new Window(java.awt.Frame);
+    }
+
+    /**
+     * Test method for {@link java.awt.Window#Window(java.awt.Window) public java.awt.Window(java.awt.Window)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Window_Window()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Window sut = null; // = new Window(java.awt.Window);
+    }
+
+    /**
+     * Test method for {@link java.awt.Window#Window(java.awt.Window,java.awt.GraphicsConfiguration) public
+     * java.awt.Window(java.awt.Window,java.awt.GraphicsConfiguration)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Window_Window_GraphicsConfiguration()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Window sut = null; // = new Window(java.awt.Window,java.awt.GraphicsConfiguration);
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Window#getOwnerlessWindows() public static java.awt.Window[]
+     * java.awt.Window.getOwnerlessWindows()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOwnerlessWindows()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Window#getWindows() public static java.awt.Window[] java.awt.Window.getWindows()}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWindows()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.Window> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.Window.class.isAssignableFrom(sut));
     }
 
 }

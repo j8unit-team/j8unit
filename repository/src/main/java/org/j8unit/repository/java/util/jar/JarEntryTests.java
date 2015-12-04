@@ -39,22 +39,6 @@ extends org.j8unit.repository.java.util.zip.ZipEntryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.jar.JarEntry#getCodeSigners() public java.security.CodeSigner[]
-     * java.util.jar.JarEntry.getCodeSigners()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCodeSigners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.jar.JarEntry#getCertificates() public java.security.cert.Certificate[]
      * java.util.jar.JarEntry.getCertificates()}.
      * </p>
@@ -63,6 +47,22 @@ extends org.j8unit.repository.java.util.zip.ZipEntryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getCertificates()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.jar.JarEntry#getCodeSigners() public java.security.CodeSigner[]
+     * java.util.jar.JarEntry.getCodeSigners()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCodeSigners()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

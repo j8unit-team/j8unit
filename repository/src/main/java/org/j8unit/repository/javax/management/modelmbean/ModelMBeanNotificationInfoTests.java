@@ -24,40 +24,6 @@ extends org.j8unit.repository.javax.management.DescriptorAccessTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.management.modelmbean.ModelMBeanNotificationInfo#getDescriptor() public
-     * javax.management.Descriptor javax.management.modelmbean.ModelMBeanNotificationInfo.getDescriptor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getDescriptor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.modelmbean.ModelMBeanNotificationInfo#toString() public java.lang.String
-     * javax.management.modelmbean.ModelMBeanNotificationInfo.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.modelmbean.ModelMBeanNotificationInfo#clone() public java.lang.Object
      * javax.management.modelmbean.ModelMBeanNotificationInfo.clone()}.
      * </p>
@@ -67,6 +33,23 @@ extends org.j8unit.repository.javax.management.DescriptorAccessTests<SUT>, org.j
     @Category(Draft.class)
     @Override
     public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.modelmbean.ModelMBeanNotificationInfo#getDescriptor() public
+     * javax.management.Descriptor javax.management.modelmbean.ModelMBeanNotificationInfo.getDescriptor()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getDescriptor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -85,6 +68,23 @@ extends org.j8unit.repository.javax.management.DescriptorAccessTests<SUT>, org.j
     @Category(Draft.class)
     @Override
     public default void test_setDescriptor_Descriptor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.modelmbean.ModelMBeanNotificationInfo#toString() public java.lang.String
+     * javax.management.modelmbean.ModelMBeanNotificationInfo.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

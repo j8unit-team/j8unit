@@ -50,16 +50,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUIClassTests<S
         final javax.swing.plaf.basic.BasicRadioButtonMenuItemUI sut = null; // = new BasicRadioButtonMenuItemUI();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicRadioButtonMenuItemUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.basic.BasicRadioButtonMenuItemUI.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicRadioButtonMenuItemUI#createUI(javax.swing.JComponent) public
@@ -76,6 +66,16 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUIClassTests<S
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.basic.BasicRadioButtonMenuItemUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.basic.BasicRadioButtonMenuItemUI.class.isAssignableFrom(sut));
     }
 
 }

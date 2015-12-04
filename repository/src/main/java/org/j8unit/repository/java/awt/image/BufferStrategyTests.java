@@ -23,62 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.BufferStrategy#getDrawGraphics() public abstract java.awt.Graphics
-     * java.awt.image.BufferStrategy.getDrawGraphics()}.
+     * Test method for {@link java.awt.image.BufferStrategy#contentsLost() public abstract boolean
+     * java.awt.image.BufferStrategy.contentsLost()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDrawGraphics()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.BufferStrategy#show() public abstract void
-     * java.awt.image.BufferStrategy.show()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_show()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.BufferStrategy#getCapabilities() public abstract
-     * java.awt.BufferCapabilities java.awt.image.BufferStrategy.getCapabilities()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCapabilities()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.BufferStrategy#dispose() public void
-     * java.awt.image.BufferStrategy.dispose()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_dispose()
+    public default void test_contentsLost()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +55,62 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.BufferStrategy#contentsLost() public abstract boolean
-     * java.awt.image.BufferStrategy.contentsLost()}.
+     * Test method for {@link java.awt.image.BufferStrategy#dispose() public void
+     * java.awt.image.BufferStrategy.dispose()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_contentsLost()
+    public default void test_dispose()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.BufferStrategy#getCapabilities() public abstract
+     * java.awt.BufferCapabilities java.awt.image.BufferStrategy.getCapabilities()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCapabilities()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.BufferStrategy#getDrawGraphics() public abstract java.awt.Graphics
+     * java.awt.image.BufferStrategy.getDrawGraphics()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDrawGraphics()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.BufferStrategy#show() public abstract void
+     * java.awt.image.BufferStrategy.show()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_show()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

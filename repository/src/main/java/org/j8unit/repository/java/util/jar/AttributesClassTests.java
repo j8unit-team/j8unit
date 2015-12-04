@@ -37,56 +37,6 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, java.lang.Object, jav
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.jar.Attributes#Attributes(java.util.jar.Attributes) public
-     * java.util.jar.Attributes(java.util.jar.Attributes)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Attributes_Attributes()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.jar.Attributes sut = null; // = new Attributes(java.util.jar.Attributes);
-    }
-
-    /**
-     * Test method for {@link java.util.jar.Attributes#Attributes(int) public java.util.jar.Attributes(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Attributes_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.jar.Attributes sut = null; // = new Attributes(int);
-    }
-
-    /**
-     * Test method for {@link java.util.jar.Attributes#Attributes() public java.util.jar.Attributes()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Attributes()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.jar.Attributes sut = null; // = new Attributes();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.jar.Attributes> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.jar.Attributes.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link java.util.jar.Attributes$Name class java.util.jar.Attributes$Name}, containing all class
      * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
@@ -139,6 +89,56 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(java.util.jar.Attributes.Name.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link java.util.jar.Attributes#Attributes() public java.util.jar.Attributes()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Attributes()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.jar.Attributes sut = null; // = new Attributes();
+    }
+
+    /**
+     * Test method for {@link java.util.jar.Attributes#Attributes(java.util.jar.Attributes) public
+     * java.util.jar.Attributes(java.util.jar.Attributes)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Attributes_Attributes()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.jar.Attributes sut = null; // = new Attributes(java.util.jar.Attributes);
+    }
+
+    /**
+     * Test method for {@link java.util.jar.Attributes#Attributes(int) public java.util.jar.Attributes(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Attributes_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.jar.Attributes sut = null; // = new Attributes(int);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.jar.Attributes> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.jar.Attributes.class.isAssignableFrom(sut));
     }
 
 }

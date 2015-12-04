@@ -63,26 +63,16 @@ extends org.j8unit.repository.java.text.NumberFormatClassTests<SUT> {
         final java.text.ChoiceFormat sut = null; // = new ChoiceFormat(java.lang.String);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.text.ChoiceFormat> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.text.ChoiceFormat.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.text.ChoiceFormat#previousDouble(double) public static final double
-     * java.text.ChoiceFormat.previousDouble(double)}.
+     * Test method for {@link java.text.ChoiceFormat#nextDouble(double) public static final double
+     * java.text.ChoiceFormat.nextDouble(double)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_previousDouble_double()
+    public default void test_nextDouble_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -107,18 +97,28 @@ extends org.j8unit.repository.java.text.NumberFormatClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.ChoiceFormat#nextDouble(double) public static final double
-     * java.text.ChoiceFormat.nextDouble(double)}.
+     * Test method for {@link java.text.ChoiceFormat#previousDouble(double) public static final double
+     * java.text.ChoiceFormat.previousDouble(double)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextDouble_double()
+    public default void test_previousDouble_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.text.ChoiceFormat> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.text.ChoiceFormat.class.isAssignableFrom(sut));
     }
 
 }

@@ -25,6 +25,23 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.management.loading.ClassLoaderRepository#loadClass(java.lang.String) public abstract
+     * java.lang.Class javax.management.loading.ClassLoaderRepository.loadClass(java.lang.String) throws
+     * java.lang.ClassNotFoundException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_loadClass_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link javax.management.loading.ClassLoaderRepository#loadClassBefore(java.lang.ClassLoader,java.lang.String)
      * public abstract java.lang.Class
@@ -36,23 +53,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_loadClassBefore_ClassLoader_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.loading.ClassLoaderRepository#loadClass(java.lang.String) public abstract
-     * java.lang.Class javax.management.loading.ClassLoaderRepository.loadClass(java.lang.String) throws
-     * java.lang.ClassNotFoundException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_loadClass_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -49,20 +49,6 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.transaction.xa.XAException#XAException(java.lang.String) public
-     * javax.transaction.xa.XAException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_XAException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.transaction.xa.XAException sut = null; // = new XAException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.transaction.xa.XAException#XAException(int) public
      * javax.transaction.xa.XAException(int)}.
      */
@@ -74,6 +60,20 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.transaction.xa.XAException sut = null; // = new XAException(int);
+    }
+
+    /**
+     * Test method for {@link javax.transaction.xa.XAException#XAException(java.lang.String) public
+     * javax.transaction.xa.XAException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_XAException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.transaction.xa.XAException sut = null; // = new XAException(java.lang.String);
     }
 
     @Override

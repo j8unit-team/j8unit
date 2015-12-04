@@ -36,20 +36,6 @@ public abstract interface LinkLoopExceptionClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.javax.naming.LinkExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.LinkLoopException#LinkLoopException(java.lang.String) public
-     * javax.naming.LinkLoopException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LinkLoopException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.LinkLoopException sut = null; // = new LinkLoopException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.naming.LinkLoopException#LinkLoopException() public
      * javax.naming.LinkLoopException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.javax.naming.LinkExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.LinkLoopException sut = null; // = new LinkLoopException();
+    }
+
+    /**
+     * Test method for {@link javax.naming.LinkLoopException#LinkLoopException(java.lang.String) public
+     * javax.naming.LinkLoopException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LinkLoopException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.LinkLoopException sut = null; // = new LinkLoopException(java.lang.String);
     }
 
     @Override

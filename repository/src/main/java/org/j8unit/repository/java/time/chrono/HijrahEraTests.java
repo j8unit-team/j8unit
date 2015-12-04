@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.time.chrono.EraTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link java.time.chrono.HijrahEra#getValue() public int java.time.chrono.HijrahEra.getValue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.time.chrono.HijrahEra#range(java.time.temporal.TemporalField) public
      * java.time.temporal.ValueRange java.time.chrono.HijrahEra.range(java.time.temporal.TemporalField)}.
      * </p>
@@ -32,22 +48,6 @@ extends org.j8unit.repository.java.time.chrono.EraTests<SUT>, org.j8unit.reposit
     @Category(Draft.class)
     @Override
     public default void test_range_TemporalField()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.HijrahEra#getValue() public int java.time.chrono.HijrahEra.getValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

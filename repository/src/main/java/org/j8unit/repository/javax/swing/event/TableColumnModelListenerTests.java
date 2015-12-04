@@ -25,32 +25,14 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.event.TableColumnModelListener#columnMoved(javax.swing.event.TableColumnModelEvent) public
-     * abstract void javax.swing.event.TableColumnModelListener.columnMoved(javax.swing.event.TableColumnModelEvent)}.
+     * {@link javax.swing.event.TableColumnModelListener#columnAdded(javax.swing.event.TableColumnModelEvent) public
+     * abstract void javax.swing.event.TableColumnModelListener.columnAdded(javax.swing.event.TableColumnModelEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_columnMoved_TableColumnModelEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.event.TableColumnModelListener#columnSelectionChanged(javax.swing.event.ListSelectionEvent)
-     * public abstract void
-     * javax.swing.event.TableColumnModelListener.columnSelectionChanged(javax.swing.event.ListSelectionEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_columnSelectionChanged_ListSelectionEvent()
+    public default void test_columnAdded_TableColumnModelEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -77,6 +59,23 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for
+     * {@link javax.swing.event.TableColumnModelListener#columnMoved(javax.swing.event.TableColumnModelEvent) public
+     * abstract void javax.swing.event.TableColumnModelListener.columnMoved(javax.swing.event.TableColumnModelEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_columnMoved_TableColumnModelEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link javax.swing.event.TableColumnModelListener#columnRemoved(javax.swing.event.TableColumnModelEvent) public
      * abstract void javax.swing.event.TableColumnModelListener.columnRemoved(javax.swing.event.TableColumnModelEvent)}.
      * </p>
@@ -94,14 +93,15 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.event.TableColumnModelListener#columnAdded(javax.swing.event.TableColumnModelEvent) public
-     * abstract void javax.swing.event.TableColumnModelListener.columnAdded(javax.swing.event.TableColumnModelEvent)}.
+     * {@link javax.swing.event.TableColumnModelListener#columnSelectionChanged(javax.swing.event.ListSelectionEvent)
+     * public abstract void
+     * javax.swing.event.TableColumnModelListener.columnSelectionChanged(javax.swing.event.ListSelectionEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_columnAdded_TableColumnModelEvent()
+    public default void test_columnSelectionChanged_ListSelectionEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

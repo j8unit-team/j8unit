@@ -39,22 +39,6 @@ extends org.j8unit.repository.java.security.IdentityTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.Signer#toString() public java.lang.String java.security.Signer.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.Signer#setKeyPair(java.security.KeyPair) public final void
      * java.security.Signer.setKeyPair(java.security.KeyPair) throws
      * java.security.InvalidParameterException,java.security.KeyException}.
@@ -64,6 +48,22 @@ extends org.j8unit.repository.java.security.IdentityTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setKeyPair_KeyPair()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.Signer#toString() public java.lang.String java.security.Signer.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

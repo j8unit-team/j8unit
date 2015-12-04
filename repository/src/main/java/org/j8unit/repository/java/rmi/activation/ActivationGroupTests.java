@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.rmi.activation.ActivationInstantiatorTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.rmi.activation.ActivationGroup#inactiveObject(java.rmi.activation.ActivationID)
-     * public boolean java.rmi.activation.ActivationGroup.inactiveObject(java.rmi.activation.ActivationID) throws
-     * java.rmi.activation.ActivationException,java.rmi.activation.UnknownObjectException,java.rmi.RemoteException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_inactiveObject_ActivationID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.rmi.activation.ActivationGroup#activeObject(java.rmi.activation.ActivationID,java.rmi.Remote) public
      * abstract void java.rmi.activation.ActivationGroup.activeObject(java.rmi.activation.ActivationID,java.rmi.Remote)
@@ -51,6 +34,23 @@ extends org.j8unit.repository.java.rmi.activation.ActivationInstantiatorTests<SU
     @Test
     @Category(Draft.class)
     public default void test_activeObject_ActivationID_Remote()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.activation.ActivationGroup#inactiveObject(java.rmi.activation.ActivationID)
+     * public boolean java.rmi.activation.ActivationGroup.inactiveObject(java.rmi.activation.ActivationID) throws
+     * java.rmi.activation.ActivationException,java.rmi.activation.UnknownObjectException,java.rmi.RemoteException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_inactiveObject_ActivationID()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

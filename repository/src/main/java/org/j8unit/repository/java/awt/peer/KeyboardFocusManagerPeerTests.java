@@ -24,46 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.KeyboardFocusManagerPeer#setCurrentFocusOwner(java.awt.Component) public
-     * abstract void java.awt.peer.KeyboardFocusManagerPeer.setCurrentFocusOwner(java.awt.Component)}.
+     * Test method for {@link java.awt.peer.KeyboardFocusManagerPeer#clearGlobalFocusOwner(java.awt.Window) public
+     * abstract void java.awt.peer.KeyboardFocusManagerPeer.clearGlobalFocusOwner(java.awt.Window)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCurrentFocusOwner_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.peer.KeyboardFocusManagerPeer#setCurrentFocusedWindow(java.awt.Window) public
-     * abstract void java.awt.peer.KeyboardFocusManagerPeer.setCurrentFocusedWindow(java.awt.Window)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCurrentFocusedWindow_Window()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.peer.KeyboardFocusManagerPeer#getCurrentFocusOwner() public abstract
-     * java.awt.Component java.awt.peer.KeyboardFocusManagerPeer.getCurrentFocusOwner()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCurrentFocusOwner()
+    public default void test_clearGlobalFocusOwner_Window()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,14 +56,46 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.KeyboardFocusManagerPeer#clearGlobalFocusOwner(java.awt.Window) public
-     * abstract void java.awt.peer.KeyboardFocusManagerPeer.clearGlobalFocusOwner(java.awt.Window)}.
+     * Test method for {@link java.awt.peer.KeyboardFocusManagerPeer#getCurrentFocusOwner() public abstract
+     * java.awt.Component java.awt.peer.KeyboardFocusManagerPeer.getCurrentFocusOwner()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clearGlobalFocusOwner_Window()
+    public default void test_getCurrentFocusOwner()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.KeyboardFocusManagerPeer#setCurrentFocusedWindow(java.awt.Window) public
+     * abstract void java.awt.peer.KeyboardFocusManagerPeer.setCurrentFocusedWindow(java.awt.Window)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCurrentFocusedWindow_Window()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.KeyboardFocusManagerPeer#setCurrentFocusOwner(java.awt.Component) public
+     * abstract void java.awt.peer.KeyboardFocusManagerPeer.setCurrentFocusOwner(java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCurrentFocusOwner_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

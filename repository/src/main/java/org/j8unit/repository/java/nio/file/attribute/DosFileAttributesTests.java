@@ -23,38 +23,6 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests<S
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.attribute.DosFileAttributes#isHidden() public abstract boolean
-     * java.nio.file.attribute.DosFileAttributes.isHidden()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isHidden()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.DosFileAttributes#isSystem() public abstract boolean
-     * java.nio.file.attribute.DosFileAttributes.isSystem()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSystem()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.file.attribute.DosFileAttributes#isArchive() public abstract boolean
      * java.nio.file.attribute.DosFileAttributes.isArchive()}.
      * </p>
@@ -71,6 +39,22 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests<S
 
     /**
      * <p>
+     * Test method for {@link java.nio.file.attribute.DosFileAttributes#isHidden() public abstract boolean
+     * java.nio.file.attribute.DosFileAttributes.isHidden()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isHidden()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.file.attribute.DosFileAttributes#isReadOnly() public abstract boolean
      * java.nio.file.attribute.DosFileAttributes.isReadOnly()}.
      * </p>
@@ -79,6 +63,22 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests<S
     @Test
     @Category(Draft.class)
     public default void test_isReadOnly()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.DosFileAttributes#isSystem() public abstract boolean
+     * java.nio.file.attribute.DosFileAttributes.isSystem()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSystem()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

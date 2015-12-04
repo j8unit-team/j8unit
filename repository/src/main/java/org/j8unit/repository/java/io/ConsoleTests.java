@@ -23,13 +23,14 @@ extends org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.io.Console#writer() public java.io.PrintWriter java.io.Console.writer()}.
+     * Test method for {@link java.io.Console#flush() public void java.io.Console.flush()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writer()
+    @Override
+    public default void test_flush()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -54,37 +55,6 @@ extends org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.io.Console#readPassword(java.lang.String,java.lang.Object...) public char[]
-     * java.io.Console.readPassword(java.lang.String,java.lang.Object...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readPassword_String_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.Console#readPassword() public char[] java.io.Console.readPassword()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readPassword()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.io.Console#printf(java.lang.String,java.lang.Object...) public java.io.Console
      * java.io.Console.printf(java.lang.String,java.lang.Object...)}.
      * </p>
@@ -93,6 +63,21 @@ extends org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_printf_String_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.Console#reader() public java.io.Reader java.io.Console.reader()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -132,13 +117,13 @@ extends org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.io.Console#reader() public java.io.Reader java.io.Console.reader()}.
+     * Test method for {@link java.io.Console#readPassword() public char[] java.io.Console.readPassword()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reader()
+    public default void test_readPassword()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -147,14 +132,29 @@ extends org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.io.Console#flush() public void java.io.Console.flush()}.
+     * Test method for {@link java.io.Console#readPassword(java.lang.String,java.lang.Object...) public char[]
+     * java.io.Console.readPassword(java.lang.String,java.lang.Object...)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_flush()
+    public default void test_readPassword_String_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.Console#writer() public java.io.PrintWriter java.io.Console.writer()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

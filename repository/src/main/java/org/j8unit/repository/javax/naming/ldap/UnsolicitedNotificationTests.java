@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedResponseTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.UnsolicitedNotification#getReferrals() public abstract
-     * java.lang.String[] javax.naming.ldap.UnsolicitedNotification.getReferrals()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReferrals()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.naming.ldap.UnsolicitedNotification#getException() public abstract
      * javax.naming.NamingException javax.naming.ldap.UnsolicitedNotification.getException()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedResponseTests<SUT>, org.
     @Test
     @Category(Draft.class)
     public default void test_getException()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.ldap.UnsolicitedNotification#getReferrals() public abstract
+     * java.lang.String[] javax.naming.ldap.UnsolicitedNotification.getReferrals()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getReferrals()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

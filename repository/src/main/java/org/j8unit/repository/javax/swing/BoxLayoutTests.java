@@ -24,13 +24,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BoxLayout#getAxis() public final int javax.swing.BoxLayout.getAxis()}.
+     * Test method for {@link javax.swing.BoxLayout#addLayoutComponent(java.awt.Component,java.lang.Object) public void
+     * javax.swing.BoxLayout.addLayoutComponent(java.awt.Component,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAxis()
+    @Override
+    public default void test_addLayoutComponent_Component_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,15 +58,80 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BoxLayout#addLayoutComponent(java.awt.Component,java.lang.Object) public void
-     * javax.swing.BoxLayout.addLayoutComponent(java.awt.Component,java.lang.Object)}.
+     * Test method for {@link javax.swing.BoxLayout#getAxis() public final int javax.swing.BoxLayout.getAxis()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAxis()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BoxLayout#getLayoutAlignmentX(java.awt.Container) public synchronized float
+     * javax.swing.BoxLayout.getLayoutAlignmentX(java.awt.Container)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_addLayoutComponent_Component_Object()
+    public default void test_getLayoutAlignmentX_Container()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BoxLayout#getLayoutAlignmentY(java.awt.Container) public synchronized float
+     * javax.swing.BoxLayout.getLayoutAlignmentY(java.awt.Container)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getLayoutAlignmentY_Container()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BoxLayout#getTarget() public final java.awt.Container
+     * javax.swing.BoxLayout.getTarget()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTarget()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BoxLayout#invalidateLayout(java.awt.Container) public synchronized void
+     * javax.swing.BoxLayout.invalidateLayout(java.awt.Container)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_invalidateLayout_Container()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -107,23 +174,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BoxLayout#getLayoutAlignmentY(java.awt.Container) public synchronized float
-     * javax.swing.BoxLayout.getLayoutAlignmentY(java.awt.Container)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getLayoutAlignmentY_Container()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.BoxLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
      * javax.swing.BoxLayout.minimumLayoutSize(java.awt.Container)}.
      * </p>
@@ -141,15 +191,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BoxLayout#getLayoutAlignmentX(java.awt.Container) public synchronized float
-     * javax.swing.BoxLayout.getLayoutAlignmentX(java.awt.Container)}.
+     * Test method for {@link javax.swing.BoxLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
+     * javax.swing.BoxLayout.preferredLayoutSize(java.awt.Container)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getLayoutAlignmentX_Container()
+    public default void test_preferredLayoutSize_Container()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -167,56 +217,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_removeLayoutComponent_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BoxLayout#getTarget() public final java.awt.Container
-     * javax.swing.BoxLayout.getTarget()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTarget()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BoxLayout#invalidateLayout(java.awt.Container) public synchronized void
-     * javax.swing.BoxLayout.invalidateLayout(java.awt.Container)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_invalidateLayout_Container()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BoxLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
-     * javax.swing.BoxLayout.preferredLayoutSize(java.awt.Container)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_preferredLayoutSize_Container()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

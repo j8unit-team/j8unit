@@ -23,38 +23,6 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny.DynEnumOperations#get_as_ulong() public abstract int
-     * org.omg.DynamicAny.DynEnumOperations.get_as_ulong()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_as_ulong()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynEnumOperations#set_as_ulong(int) public abstract void
-     * org.omg.DynamicAny.DynEnumOperations.set_as_ulong(int) throws org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_set_as_ulong_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.DynamicAny.DynEnumOperations#get_as_string() public abstract java.lang.String
      * org.omg.DynamicAny.DynEnumOperations.get_as_string()}.
      * </p>
@@ -63,6 +31,22 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_get_as_string()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynEnumOperations#get_as_ulong() public abstract int
+     * org.omg.DynamicAny.DynEnumOperations.get_as_ulong()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_as_ulong()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -80,6 +64,22 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_set_as_string_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynEnumOperations#set_as_ulong(int) public abstract void
+     * org.omg.DynamicAny.DynEnumOperations.set_as_ulong(int) throws org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_set_as_ulong_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

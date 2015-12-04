@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.dgc.DGC#dirty(java.rmi.server.ObjID[],long,java.rmi.dgc.Lease) public abstract
-     * java.rmi.dgc.Lease java.rmi.dgc.DGC.dirty(java.rmi.server.ObjID[],long,java.rmi.dgc.Lease) throws
-     * java.rmi.RemoteException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_dirty_ObjIDArray_long_Lease()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.rmi.dgc.DGC#clean(java.rmi.server.ObjID[],long,java.rmi.dgc.VMID,boolean) public
      * abstract void java.rmi.dgc.DGC.clean(java.rmi.server.ObjID[],long,java.rmi.dgc.VMID,boolean) throws
      * java.rmi.RemoteException}.
@@ -49,6 +32,23 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_clean_ObjIDArray_long_VMID_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.dgc.DGC#dirty(java.rmi.server.ObjID[],long,java.rmi.dgc.Lease) public abstract
+     * java.rmi.dgc.Lease java.rmi.dgc.DGC.dirty(java.rmi.server.ObjID[],long,java.rmi.dgc.Lease) throws
+     * java.rmi.RemoteException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_dirty_ObjIDArray_long_Lease()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

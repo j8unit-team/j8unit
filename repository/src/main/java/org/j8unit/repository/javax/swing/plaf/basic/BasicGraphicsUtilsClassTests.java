@@ -49,14 +49,78 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final javax.swing.plaf.basic.BasicGraphicsUtils sut = null; // = new BasicGraphicsUtils();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.basic.BasicGraphicsUtils#drawBezel(java.awt.Graphics,int,int,int,int,boolean,boolean,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)
+     * public static void
+     * javax.swing.plaf.basic.BasicGraphicsUtils.drawBezel(java.awt.Graphics,int,int,int,int,boolean,boolean,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_drawBezel_Graphics_int_int_int_int_boolean_boolean_Color_Color_Color_Color()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicGraphicsUtils> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.basic.BasicGraphicsUtils.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.basic.BasicGraphicsUtils#drawDashedRect(java.awt.Graphics,int,int,int,int) public static
+     * void javax.swing.plaf.basic.BasicGraphicsUtils.drawDashedRect(java.awt.Graphics,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_drawDashedRect_Graphics_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.basic.BasicGraphicsUtils#drawEtchedRect(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)
+     * public static void
+     * javax.swing.plaf.basic.BasicGraphicsUtils.drawEtchedRect(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_drawEtchedRect_Graphics_int_int_int_int_Color_Color_Color_Color()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.basic.BasicGraphicsUtils#drawGroove(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color)
+     * public static void
+     * javax.swing.plaf.basic.BasicGraphicsUtils.drawGroove(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_drawGroove_Graphics_int_int_int_int_Color_Color()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -90,79 +154,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_drawString_Graphics_String_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicGraphicsUtils#drawGroove(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color)
-     * public static void
-     * javax.swing.plaf.basic.BasicGraphicsUtils.drawGroove(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_drawGroove_Graphics_int_int_int_int_Color_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicGraphicsUtils#drawEtchedRect(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)
-     * public static void
-     * javax.swing.plaf.basic.BasicGraphicsUtils.drawEtchedRect(java.awt.Graphics,int,int,int,int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_drawEtchedRect_Graphics_int_int_int_int_Color_Color_Color_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicGraphicsUtils#getGrooveInsets() public static java.awt.Insets
-     * javax.swing.plaf.basic.BasicGraphicsUtils.getGrooveInsets()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getGrooveInsets()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicGraphicsUtils#drawBezel(java.awt.Graphics,int,int,int,int,boolean,boolean,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)
-     * public static void
-     * javax.swing.plaf.basic.BasicGraphicsUtils.drawBezel(java.awt.Graphics,int,int,int,int,boolean,boolean,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_drawBezel_Graphics_int_int_int_int_boolean_boolean_Color_Color_Color_Color()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -206,15 +197,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicGraphicsUtils#drawDashedRect(java.awt.Graphics,int,int,int,int) public static
-     * void javax.swing.plaf.basic.BasicGraphicsUtils.drawDashedRect(java.awt.Graphics,int,int,int,int)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicGraphicsUtils#getGrooveInsets() public static java.awt.Insets
+     * javax.swing.plaf.basic.BasicGraphicsUtils.getGrooveInsets()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_drawDashedRect_Graphics_int_int_int_int()
+    public default void test_getGrooveInsets()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -237,6 +227,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.basic.BasicGraphicsUtils> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.basic.BasicGraphicsUtils.class.isAssignableFrom(sut));
     }
 
 }

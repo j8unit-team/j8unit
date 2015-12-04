@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, java.lang.Object>,
 
     /**
      * <p>
+     * Test method for {@link java.util.StringTokenizer#countTokens() public int
+     * java.util.StringTokenizer.countTokens()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_countTokens()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.StringTokenizer#hasMoreElements() public boolean
      * java.util.StringTokenizer.hasMoreElements()}.
      * </p>
@@ -32,38 +48,6 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, java.lang.Object>,
     @Category(Draft.class)
     @Override
     public default void test_hasMoreElements()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.StringTokenizer#nextToken(java.lang.String) public java.lang.String
-     * java.util.StringTokenizer.nextToken(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_nextToken_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.StringTokenizer#nextToken() public java.lang.String
-     * java.util.StringTokenizer.nextToken()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_nextToken()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,22 +72,6 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, java.lang.Object>,
 
     /**
      * <p>
-     * Test method for {@link java.util.StringTokenizer#countTokens() public int
-     * java.util.StringTokenizer.countTokens()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_countTokens()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.StringTokenizer#nextElement() public java.lang.Object
      * java.util.StringTokenizer.nextElement()}.
      * </p>
@@ -113,6 +81,38 @@ extends org.j8unit.repository.java.util.EnumerationTests<SUT, java.lang.Object>,
     @Category(Draft.class)
     @Override
     public default void test_nextElement()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.StringTokenizer#nextToken() public java.lang.String
+     * java.util.StringTokenizer.nextToken()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_nextToken()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.StringTokenizer#nextToken(java.lang.String) public java.lang.String
+     * java.util.StringTokenizer.nextToken(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_nextToken_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

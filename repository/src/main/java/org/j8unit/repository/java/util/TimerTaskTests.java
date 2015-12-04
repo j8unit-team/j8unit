@@ -23,6 +23,21 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
+     * Test method for {@link java.util.TimerTask#cancel() public boolean java.util.TimerTask.cancel()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_cancel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.TimerTask#run() public abstract void java.util.TimerTask.run()}.
      * </p>
      */
@@ -47,21 +62,6 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repositor
     @Test
     @Category(Draft.class)
     public default void test_scheduledExecutionTime()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.TimerTask#cancel() public boolean java.util.TimerTask.cancel()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_cancel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

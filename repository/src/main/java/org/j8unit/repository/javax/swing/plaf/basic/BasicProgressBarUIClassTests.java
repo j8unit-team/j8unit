@@ -36,47 +36,6 @@ public abstract interface BasicProgressBarUIClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.javax.swing.plaf.ProgressBarUIClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.plaf.basic.BasicProgressBarUI#BasicProgressBarUI() public
-     * javax.swing.plaf.basic.BasicProgressBarUI()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BasicProgressBarUI()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.plaf.basic.BasicProgressBarUI sut = null; // = new BasicProgressBarUI();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicProgressBarUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.basic.BasicProgressBarUI.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicProgressBarUI#createUI(javax.swing.JComponent) public static
-     * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicProgressBarUI.createUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.plaf.basic.BasicProgressBarUI$ChangeHandler class
      * javax.swing.plaf.basic.BasicProgressBarUI$ChangeHandler}, containing all class relevant test methods (at least
@@ -132,6 +91,47 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUIClassTests<SUT> {
             assertTrue(javax.swing.plaf.basic.BasicProgressBarUI.ChangeHandler.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.plaf.basic.BasicProgressBarUI#BasicProgressBarUI() public
+     * javax.swing.plaf.basic.BasicProgressBarUI()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BasicProgressBarUI()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.plaf.basic.BasicProgressBarUI sut = null; // = new BasicProgressBarUI();
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicProgressBarUI#createUI(javax.swing.JComponent) public static
+     * javax.swing.plaf.ComponentUI javax.swing.plaf.basic.BasicProgressBarUI.createUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.basic.BasicProgressBarUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.basic.BasicProgressBarUI.class.isAssignableFrom(sut));
     }
 
 }

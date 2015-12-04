@@ -37,22 +37,6 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.util.InvalidPropertiesFormatException#InvalidPropertiesFormatException(java.lang.Throwable) public
-     * java.util.InvalidPropertiesFormatException(java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InvalidPropertiesFormatException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.InvalidPropertiesFormatException sut = null; // = new
-                                                                     // InvalidPropertiesFormatException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
      * {@link java.util.InvalidPropertiesFormatException#InvalidPropertiesFormatException(java.lang.String) public
      * java.util.InvalidPropertiesFormatException(java.lang.String)}.
      */
@@ -65,6 +49,22 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.util.InvalidPropertiesFormatException sut = null; // = new
                                                                      // InvalidPropertiesFormatException(java.lang.String);
+    }
+
+    /**
+     * Test method for
+     * {@link java.util.InvalidPropertiesFormatException#InvalidPropertiesFormatException(java.lang.Throwable) public
+     * java.util.InvalidPropertiesFormatException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InvalidPropertiesFormatException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.InvalidPropertiesFormatException sut = null; // = new
+                                                                     // InvalidPropertiesFormatException(java.lang.Throwable);
     }
 
     @Override

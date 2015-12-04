@@ -23,57 +23,6 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.InflaterOutputStream#flush() public void
-     * java.util.zip.InflaterOutputStream.flush() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_flush()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.InflaterOutputStream#write(int) public void
-     * java.util.zip.InflaterOutputStream.write(int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_write_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.InflaterOutputStream#write(byte[],int,int) public void
-     * java.util.zip.InflaterOutputStream.write(byte[],int,int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_write_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.zip.InflaterOutputStream#close() public void
      * java.util.zip.InflaterOutputStream.close() throws java.io.IOException}.
      * </p>
@@ -99,6 +48,57 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_finish()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.InflaterOutputStream#flush() public void
+     * java.util.zip.InflaterOutputStream.flush() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_flush()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.InflaterOutputStream#write(byte[],int,int) public void
+     * java.util.zip.InflaterOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_write_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.InflaterOutputStream#write(int) public void
+     * java.util.zip.InflaterOutputStream.write(int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_write_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

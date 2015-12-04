@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.util.zip.ZipInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.jar.JarInputStream#getNextJarEntry() public java.util.jar.JarEntry
-     * java.util.jar.JarInputStream.getNextJarEntry() throws java.io.IOException}.
+     * Test method for {@link java.util.jar.JarInputStream#getManifest() public java.util.jar.Manifest
+     * java.util.jar.JarInputStream.getManifest()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNextJarEntry()
+    public default void test_getManifest()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,6 +56,22 @@ extends org.j8unit.repository.java.util.zip.ZipInputStreamTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.util.jar.JarInputStream#getNextJarEntry() public java.util.jar.JarEntry
+     * java.util.jar.JarInputStream.getNextJarEntry() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNextJarEntry()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.jar.JarInputStream#read(byte[],int,int) public int
      * java.util.jar.JarInputStream.read(byte[],int,int) throws java.io.IOException}.
      * </p>
@@ -65,22 +81,6 @@ extends org.j8unit.repository.java.util.zip.ZipInputStreamTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_read_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.jar.JarInputStream#getManifest() public java.util.jar.Manifest
-     * java.util.jar.JarInputStream.getManifest()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getManifest()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

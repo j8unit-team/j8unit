@@ -71,15 +71,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.Option#toString() public java.lang.String
-     * javax.swing.text.html.Option.toString()}.
+     * Test method for {@link javax.swing.text.html.Option#isSelected() public boolean
+     * javax.swing.text.html.Option.isSelected()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_isSelected()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,14 +103,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.Option#isSelected() public boolean
-     * javax.swing.text.html.Option.isSelected()}.
+     * Test method for {@link javax.swing.text.html.Option#toString() public java.lang.String
+     * javax.swing.text.html.Option.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isSelected()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

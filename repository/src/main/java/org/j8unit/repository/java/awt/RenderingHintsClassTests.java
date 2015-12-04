@@ -37,44 +37,6 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, java.lang.Object, jav
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.RenderingHints#RenderingHints(java.util.Map) public
-     * java.awt.RenderingHints(java.util.Map)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RenderingHints_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.RenderingHints sut = null; // = new RenderingHints(java.util.Map);
-    }
-
-    /**
-     * Test method for {@link java.awt.RenderingHints#RenderingHints(java.awt.RenderingHints.Key,java.lang.Object)
-     * public java.awt.RenderingHints(java.awt.RenderingHints$Key,java.lang.Object)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RenderingHints_Key_Object()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.RenderingHints sut = null; // = new RenderingHints(java.awt.RenderingHints.Key,java.lang.Object);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.RenderingHints> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.RenderingHints.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link java.awt.RenderingHints$Key class java.awt.RenderingHints$Key}, containing all class
      * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
@@ -113,6 +75,44 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(java.awt.RenderingHints.Key.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link java.awt.RenderingHints#RenderingHints(java.awt.RenderingHints.Key,java.lang.Object)
+     * public java.awt.RenderingHints(java.awt.RenderingHints$Key,java.lang.Object)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RenderingHints_Key_Object()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.RenderingHints sut = null; // = new RenderingHints(java.awt.RenderingHints.Key,java.lang.Object);
+    }
+
+    /**
+     * Test method for {@link java.awt.RenderingHints#RenderingHints(java.util.Map) public
+     * java.awt.RenderingHints(java.util.Map)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RenderingHints_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.RenderingHints sut = null; // = new RenderingHints(java.util.Map);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.RenderingHints> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.RenderingHints.class.isAssignableFrom(sut));
     }
 
 }

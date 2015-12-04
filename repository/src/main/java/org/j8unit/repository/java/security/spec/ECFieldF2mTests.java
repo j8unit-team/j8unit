@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.security.spec.ECFieldTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.ECFieldF2m#hashCode() public int
-     * java.security.spec.ECFieldF2m.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.spec.ECFieldF2m#equals(java.lang.Object) public boolean
      * java.security.spec.ECFieldF2m.equals(java.lang.Object)}.
      * </p>
@@ -49,6 +32,23 @@ extends org.j8unit.repository.java.security.spec.ECFieldTests<SUT>, org.j8unit.r
     @Category(Draft.class)
     @Override
     public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.ECFieldF2m#getFieldSize() public int
+     * java.security.spec.ECFieldF2m.getFieldSize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getFieldSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,23 +88,6 @@ extends org.j8unit.repository.java.security.spec.ECFieldTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.ECFieldF2m#getFieldSize() public int
-     * java.security.spec.ECFieldF2m.getFieldSize()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getFieldSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.spec.ECFieldF2m#getReductionPolynomial() public java.math.BigInteger
      * java.security.spec.ECFieldF2m.getReductionPolynomial()}.
      * </p>
@@ -113,6 +96,23 @@ extends org.j8unit.repository.java.security.spec.ECFieldTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_getReductionPolynomial()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.ECFieldF2m#hashCode() public int
+     * java.security.spec.ECFieldF2m.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

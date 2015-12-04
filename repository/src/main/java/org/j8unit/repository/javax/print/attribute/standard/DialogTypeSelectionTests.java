@@ -24,23 +24,6 @@ extends org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests<S
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.DialogTypeSelection#getName() public final java.lang.String
-     * javax.print.attribute.standard.DialogTypeSelection.getName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.print.attribute.standard.DialogTypeSelection#getCategory() public final
      * java.lang.Class javax.print.attribute.standard.DialogTypeSelection.getCategory()}.
      * </p>
@@ -50,6 +33,23 @@ extends org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests<S
     @Category(Draft.class)
     @Override
     public default void test_getCategory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.attribute.standard.DialogTypeSelection#getName() public final java.lang.String
+     * javax.print.attribute.standard.DialogTypeSelection.getName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

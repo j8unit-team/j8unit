@@ -48,32 +48,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.CORBA.PolicyHelper sut = null; // = new PolicyHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.CORBA.PolicyHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.CORBA.PolicyHelper.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.PolicyHelper#read(org.omg.CORBA.portable.InputStream) public static
-     * org.omg.CORBA.Policy org.omg.CORBA.PolicyHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link org.omg.CORBA.PolicyHelper#extract(org.omg.CORBA.Any) public static org.omg.CORBA.Policy
@@ -84,54 +58,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_extract_Any()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.PolicyHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.Policy)
-     * public static void org.omg.CORBA.PolicyHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.Policy)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_OutputStream_Policy()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.PolicyHelper#type() public static synchronized org.omg.CORBA.TypeCode
-     * org.omg.CORBA.PolicyHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.PolicyHelper#insert(org.omg.CORBA.Any,org.omg.CORBA.Policy) public static
-     * void org.omg.CORBA.PolicyHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.Policy)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_Any_Policy()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -156,6 +82,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.omg.CORBA.PolicyHelper#insert(org.omg.CORBA.Any,org.omg.CORBA.Policy) public static
+     * void org.omg.CORBA.PolicyHelper.insert(org.omg.CORBA.Any,org.omg.CORBA.Policy)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_Policy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.omg.CORBA.PolicyHelper#narrow(org.omg.CORBA.Object) public static org.omg.CORBA.Policy
      * org.omg.CORBA.PolicyHelper.narrow(org.omg.CORBA.Object)}.
      * </p>
@@ -168,6 +110,64 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.PolicyHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * org.omg.CORBA.Policy org.omg.CORBA.PolicyHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_read_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.PolicyHelper#type() public static synchronized org.omg.CORBA.TypeCode
+     * org.omg.CORBA.PolicyHelper.type()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_type()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.PolicyHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.Policy)
+     * public static void org.omg.CORBA.PolicyHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CORBA.Policy)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_Policy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.CORBA.PolicyHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.CORBA.PolicyHelper.class.isAssignableFrom(sut));
     }
 
 }

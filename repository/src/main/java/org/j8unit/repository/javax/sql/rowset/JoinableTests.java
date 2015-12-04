@@ -40,6 +40,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.sql.rowset.Joinable#getMatchColumnNames() public abstract java.lang.String[]
+     * javax.sql.rowset.Joinable.getMatchColumnNames() throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMatchColumnNames()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.sql.rowset.Joinable#setMatchColumn(int) public abstract void
      * javax.sql.rowset.Joinable.setMatchColumn(int) throws java.sql.SQLException}.
      * </p>
@@ -48,38 +64,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setMatchColumn_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.Joinable#setMatchColumn(java.lang.String[]) public abstract void
-     * javax.sql.rowset.Joinable.setMatchColumn(java.lang.String[]) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMatchColumn_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.Joinable#setMatchColumn(java.lang.String) public abstract void
-     * javax.sql.rowset.Joinable.setMatchColumn(java.lang.String) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMatchColumn_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,14 +88,62 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.Joinable#getMatchColumnNames() public abstract java.lang.String[]
-     * javax.sql.rowset.Joinable.getMatchColumnNames() throws java.sql.SQLException}.
+     * Test method for {@link javax.sql.rowset.Joinable#setMatchColumn(java.lang.String) public abstract void
+     * javax.sql.rowset.Joinable.setMatchColumn(java.lang.String) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMatchColumnNames()
+    public default void test_setMatchColumn_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.Joinable#setMatchColumn(java.lang.String[]) public abstract void
+     * javax.sql.rowset.Joinable.setMatchColumn(java.lang.String[]) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMatchColumn_StringArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.Joinable#unsetMatchColumn(int) public abstract void
+     * javax.sql.rowset.Joinable.unsetMatchColumn(int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unsetMatchColumn_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.Joinable#unsetMatchColumn(int[]) public abstract void
+     * javax.sql.rowset.Joinable.unsetMatchColumn(int[]) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unsetMatchColumn_intArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -144,38 +176,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_unsetMatchColumn_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.Joinable#unsetMatchColumn(int[]) public abstract void
-     * javax.sql.rowset.Joinable.unsetMatchColumn(int[]) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unsetMatchColumn_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.Joinable#unsetMatchColumn(int) public abstract void
-     * javax.sql.rowset.Joinable.unsetMatchColumn(int) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unsetMatchColumn_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

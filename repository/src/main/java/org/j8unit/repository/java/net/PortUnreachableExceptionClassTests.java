@@ -36,20 +36,6 @@ public abstract interface PortUnreachableExceptionClassTests<SUT extends Class<?
 extends org.j8unit.repository.java.net.SocketExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.net.PortUnreachableException#PortUnreachableException(java.lang.String) public
-     * java.net.PortUnreachableException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PortUnreachableException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.PortUnreachableException sut = null; // = new PortUnreachableException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.net.PortUnreachableException#PortUnreachableException() public
      * java.net.PortUnreachableException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.net.SocketExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.net.PortUnreachableException sut = null; // = new PortUnreachableException();
+    }
+
+    /**
+     * Test method for {@link java.net.PortUnreachableException#PortUnreachableException(java.lang.String) public
+     * java.net.PortUnreachableException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PortUnreachableException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.PortUnreachableException sut = null; // = new PortUnreachableException(java.lang.String);
     }
 
     @Override

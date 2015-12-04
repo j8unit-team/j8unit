@@ -23,31 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PolicyQualifierInfo#toString() public java.lang.String
-     * java.security.cert.PolicyQualifierInfo.toString()}.
+     * Test method for {@link java.security.cert.PolicyQualifierInfo#getEncoded() public final byte[]
+     * java.security.cert.PolicyQualifierInfo.getEncoded()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.PolicyQualifierInfo#getPolicyQualifierId() public final
-     * java.lang.String java.security.cert.PolicyQualifierInfo.getPolicyQualifierId()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPolicyQualifierId()
+    public default void test_getEncoded()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +55,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PolicyQualifierInfo#getEncoded() public final byte[]
-     * java.security.cert.PolicyQualifierInfo.getEncoded()}.
+     * Test method for {@link java.security.cert.PolicyQualifierInfo#getPolicyQualifierId() public final
+     * java.lang.String java.security.cert.PolicyQualifierInfo.getPolicyQualifierId()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getEncoded()
+    public default void test_getPolicyQualifierId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.PolicyQualifierInfo#toString() public java.lang.String
+     * java.security.cert.PolicyQualifierInfo.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

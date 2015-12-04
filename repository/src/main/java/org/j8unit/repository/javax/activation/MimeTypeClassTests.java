@@ -36,17 +36,16 @@ public abstract interface MimeTypeClassTests<SUT extends Class<? extends javax.a
 extends org.j8unit.repository.java.io.ExternalizableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.activation.MimeType#MimeType(java.lang.String,java.lang.String) public
-     * javax.activation.MimeType(java.lang.String,java.lang.String) throws javax.activation.MimeTypeParseException}.
+     * Test method for {@link javax.activation.MimeType#MimeType() public javax.activation.MimeType()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MimeType_String_String()
+    public default void create_MimeType()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.activation.MimeType sut = null; // = new MimeType(java.lang.String,java.lang.String);
+        final javax.activation.MimeType sut = null; // = new MimeType();
     }
 
     /**
@@ -64,16 +63,17 @@ extends org.j8unit.repository.java.io.ExternalizableClassTests<SUT>, org.j8unit.
     }
 
     /**
-     * Test method for {@link javax.activation.MimeType#MimeType() public javax.activation.MimeType()}.
+     * Test method for {@link javax.activation.MimeType#MimeType(java.lang.String,java.lang.String) public
+     * javax.activation.MimeType(java.lang.String,java.lang.String) throws javax.activation.MimeTypeParseException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MimeType()
+    public default void create_MimeType_String_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.activation.MimeType sut = null; // = new MimeType();
+        final javax.activation.MimeType sut = null; // = new MimeType(java.lang.String,java.lang.String);
     }
 
     @Override

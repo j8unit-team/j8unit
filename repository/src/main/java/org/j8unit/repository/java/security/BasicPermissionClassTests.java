@@ -36,20 +36,6 @@ public abstract interface BasicPermissionClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.security.PermissionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.BasicPermission#BasicPermission(java.lang.String,java.lang.String) public
-     * java.security.BasicPermission(java.lang.String,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BasicPermission_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.BasicPermission sut = null; // = new BasicPermission(java.lang.String,java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.security.BasicPermission#BasicPermission(java.lang.String) public
      * java.security.BasicPermission(java.lang.String)}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // create new instance
         @SuppressWarnings("unused")
         final java.security.BasicPermission sut = null; // = new BasicPermission(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.security.BasicPermission#BasicPermission(java.lang.String,java.lang.String) public
+     * java.security.BasicPermission(java.lang.String,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BasicPermission_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.BasicPermission sut = null; // = new BasicPermission(java.lang.String,java.lang.String);
     }
 
     @Override

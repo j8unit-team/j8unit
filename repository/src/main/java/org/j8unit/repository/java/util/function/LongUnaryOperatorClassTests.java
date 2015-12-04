@@ -36,15 +36,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface LongUnaryOperatorClassTests<SUT extends Class<? extends java.util.function.LongUnaryOperator>>
 extends J8UnitTest<SUT> {
 
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.function.LongUnaryOperator> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.function.LongUnaryOperator.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.util.function.LongUnaryOperator#identity() public static
@@ -59,6 +50,15 @@ extends J8UnitTest<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.function.LongUnaryOperator> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.function.LongUnaryOperator.class.isAssignableFrom(sut));
     }
 
 }

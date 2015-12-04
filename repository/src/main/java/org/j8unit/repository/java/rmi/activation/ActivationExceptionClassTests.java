@@ -36,19 +36,17 @@ public abstract interface ActivationExceptionClassTests<SUT extends Class<? exte
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.rmi.activation.ActivationException#ActivationException(java.lang.String,java.lang.Throwable) public
-     * java.rmi.activation.ActivationException(java.lang.String,java.lang.Throwable)}.
+     * Test method for {@link java.rmi.activation.ActivationException#ActivationException() public
+     * java.rmi.activation.ActivationException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ActivationException_String_Throwable()
+    public default void create_ActivationException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.rmi.activation.ActivationException sut = null; // = new
-                                                                  // ActivationException(java.lang.String,java.lang.Throwable);
+        final java.rmi.activation.ActivationException sut = null; // = new ActivationException();
     }
 
     /**
@@ -66,17 +64,19 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.rmi.activation.ActivationException#ActivationException() public
-     * java.rmi.activation.ActivationException()}.
+     * Test method for
+     * {@link java.rmi.activation.ActivationException#ActivationException(java.lang.String,java.lang.Throwable) public
+     * java.rmi.activation.ActivationException(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ActivationException()
+    public default void create_ActivationException_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.rmi.activation.ActivationException sut = null; // = new ActivationException();
+        final java.rmi.activation.ActivationException sut = null; // = new
+                                                                  // ActivationException(java.lang.String,java.lang.Throwable);
     }
 
     @Override

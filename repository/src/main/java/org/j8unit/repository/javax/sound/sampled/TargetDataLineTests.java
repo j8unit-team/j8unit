@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.TargetDataLine#read(byte[],int,int) public abstract int
-     * javax.sound.sampled.TargetDataLine.read(byte[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sound.sampled.TargetDataLine#open(javax.sound.sampled.AudioFormat) public abstract
      * void javax.sound.sampled.TargetDataLine.open(javax.sound.sampled.AudioFormat) throws
      * javax.sound.sampled.LineUnavailableException}.
@@ -65,6 +49,22 @@ extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_open_AudioFormat_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.TargetDataLine#read(byte[],int,int) public abstract int
+     * javax.sound.sampled.TargetDataLine.read(byte[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_read_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

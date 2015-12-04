@@ -35,48 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface TemporalAdjustersClassTests<SUT extends Class<? extends java.time.temporal.TemporalAdjusters>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.temporal.TemporalAdjusters> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.temporal.TemporalAdjusters.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.TemporalAdjusters#lastDayOfYear() public static
-     * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.lastDayOfYear()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lastDayOfYear()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.TemporalAdjusters#previousOrSame(java.time.DayOfWeek) public static
-     * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.previousOrSame(java.time.DayOfWeek)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_previousOrSame_DayOfWeek()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#dayOfWeekInMonth(int,java.time.DayOfWeek) public
@@ -88,38 +46,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_dayOfWeekInMonth_int_DayOfWeek()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.TemporalAdjusters#firstInMonth(java.time.DayOfWeek) public static
-     * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.firstInMonth(java.time.DayOfWeek)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_firstInMonth_DayOfWeek()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.TemporalAdjusters#nextOrSame(java.time.DayOfWeek) public static
-     * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.nextOrSame(java.time.DayOfWeek)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_nextOrSame_DayOfWeek()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -144,6 +70,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.time.temporal.TemporalAdjusters#firstDayOfNextMonth() public static
+     * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.firstDayOfNextMonth()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_firstDayOfNextMonth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#firstDayOfNextYear() public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.firstDayOfNextYear()}.
      * </p>
@@ -152,6 +94,38 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_firstDayOfNextYear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.TemporalAdjusters#firstDayOfYear() public static
+     * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.firstDayOfYear()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_firstDayOfYear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.TemporalAdjusters#firstInMonth(java.time.DayOfWeek) public static
+     * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.firstInMonth(java.time.DayOfWeek)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_firstInMonth_DayOfWeek()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -176,6 +150,38 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.time.temporal.TemporalAdjusters#lastDayOfYear() public static
+     * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.lastDayOfYear()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lastDayOfYear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.TemporalAdjusters#lastInMonth(java.time.DayOfWeek) public static
+     * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.lastInMonth(java.time.DayOfWeek)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lastInMonth_DayOfWeek()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#next(java.time.DayOfWeek) public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.next(java.time.DayOfWeek)}.
      * </p>
@@ -184,6 +190,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_next_DayOfWeek()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.TemporalAdjusters#nextOrSame(java.time.DayOfWeek) public static
+     * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.nextOrSame(java.time.DayOfWeek)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_nextOrSame_DayOfWeek()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -209,22 +231,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.TemporalAdjusters#firstDayOfYear() public static
-     * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.firstDayOfYear()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_firstDayOfYear()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.time.temporal.TemporalAdjusters#previous(java.time.DayOfWeek) public static
      * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.previous(java.time.DayOfWeek)}.
      * </p>
@@ -241,34 +247,28 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.TemporalAdjusters#lastInMonth(java.time.DayOfWeek) public static
-     * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.lastInMonth(java.time.DayOfWeek)}.
+     * Test method for {@link java.time.temporal.TemporalAdjusters#previousOrSame(java.time.DayOfWeek) public static
+     * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.previousOrSame(java.time.DayOfWeek)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_lastInMonth_DayOfWeek()
+    public default void test_previousOrSame_DayOfWeek()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.TemporalAdjusters#firstDayOfNextMonth() public static
-     * java.time.temporal.TemporalAdjuster java.time.temporal.TemporalAdjusters.firstDayOfNextMonth()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_firstDayOfNextMonth()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.time.temporal.TemporalAdjusters> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.temporal.TemporalAdjusters.class.isAssignableFrom(sut));
     }
 
 }

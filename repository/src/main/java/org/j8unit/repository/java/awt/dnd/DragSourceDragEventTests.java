@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.awt.dnd.DragSourceEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DragSourceDragEvent#getGestureModifiersEx() public int
-     * java.awt.dnd.DragSourceDragEvent.getGestureModifiersEx()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getGestureModifiersEx()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.dnd.DragSourceDragEvent#getDropAction() public int
      * java.awt.dnd.DragSourceDragEvent.getDropAction()}.
      * </p>
@@ -55,22 +39,6 @@ extends org.j8unit.repository.java.awt.dnd.DragSourceEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DragSourceDragEvent#getTargetActions() public int
-     * java.awt.dnd.DragSourceDragEvent.getTargetActions()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTargetActions()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.dnd.DragSourceDragEvent#getGestureModifiers() public int
      * java.awt.dnd.DragSourceDragEvent.getGestureModifiers()}.
      * </p>
@@ -79,6 +47,38 @@ extends org.j8unit.repository.java.awt.dnd.DragSourceEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getGestureModifiers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DragSourceDragEvent#getGestureModifiersEx() public int
+     * java.awt.dnd.DragSourceDragEvent.getGestureModifiersEx()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGestureModifiersEx()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DragSourceDragEvent#getTargetActions() public int
+     * java.awt.dnd.DragSourceDragEvent.getTargetActions()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTargetActions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

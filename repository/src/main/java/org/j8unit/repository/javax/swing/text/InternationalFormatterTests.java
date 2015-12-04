@@ -23,16 +23,15 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.InternationalFormatter#stringToValue(java.lang.String) public
-     * java.lang.Object javax.swing.text.InternationalFormatter.stringToValue(java.lang.String) throws
-     * java.text.ParseException}.
+     * Test method for {@link javax.swing.text.InternationalFormatter#clone() public java.lang.Object
+     * javax.swing.text.InternationalFormatter.clone() throws java.lang.CloneNotSupportedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_stringToValue_String()
+    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -41,14 +40,62 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.InternationalFormatter#setFormat(java.text.Format) public void
-     * javax.swing.text.InternationalFormatter.setFormat(java.text.Format)}.
+     * Test method for {@link javax.swing.text.InternationalFormatter#getFields(int) public java.text.Format$Field[]
+     * javax.swing.text.InternationalFormatter.getFields(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setFormat_Format()
+    public default void test_getFields_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.InternationalFormatter#getFormat() public java.text.Format
+     * javax.swing.text.InternationalFormatter.getFormat()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.InternationalFormatter#getMaximum() public java.lang.Comparable
+     * javax.swing.text.InternationalFormatter.getMaximum()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaximum()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.InternationalFormatter#getMinimum() public java.lang.Comparable
+     * javax.swing.text.InternationalFormatter.getMinimum()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMinimum()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,6 +121,22 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.text.InternationalFormatter#setFormat(java.text.Format) public void
+     * javax.swing.text.InternationalFormatter.setFormat(java.text.Format)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFormat_Format()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.text.InternationalFormatter#setMaximum(java.lang.Comparable) public void
      * javax.swing.text.InternationalFormatter.setMaximum(java.lang.Comparable)}.
      * </p>
@@ -82,56 +145,6 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setMaximum_Comparable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.InternationalFormatter#getFields(int) public java.text.Format$Field[]
-     * javax.swing.text.InternationalFormatter.getFields(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFields_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.InternationalFormatter#getMaximum() public java.lang.Comparable
-     * javax.swing.text.InternationalFormatter.getMaximum()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaximum()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.InternationalFormatter#valueToString(java.lang.Object) public
-     * java.lang.String javax.swing.text.InternationalFormatter.valueToString(java.lang.Object) throws
-     * java.text.ParseException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_valueToString_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -156,15 +169,16 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.InternationalFormatter#clone() public java.lang.Object
-     * javax.swing.text.InternationalFormatter.clone() throws java.lang.CloneNotSupportedException}.
+     * Test method for {@link javax.swing.text.InternationalFormatter#stringToValue(java.lang.String) public
+     * java.lang.Object javax.swing.text.InternationalFormatter.stringToValue(java.lang.String) throws
+     * java.text.ParseException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_clone()
+    public default void test_stringToValue_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -173,30 +187,16 @@ extends org.j8unit.repository.javax.swing.text.DefaultFormatterTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.InternationalFormatter#getMinimum() public java.lang.Comparable
-     * javax.swing.text.InternationalFormatter.getMinimum()}.
+     * Test method for {@link javax.swing.text.InternationalFormatter#valueToString(java.lang.Object) public
+     * java.lang.String javax.swing.text.InternationalFormatter.valueToString(java.lang.Object) throws
+     * java.text.ParseException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMinimum()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.InternationalFormatter#getFormat() public java.text.Format
-     * javax.swing.text.InternationalFormatter.getFormat()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFormat()
+    @Override
+    public default void test_valueToString_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

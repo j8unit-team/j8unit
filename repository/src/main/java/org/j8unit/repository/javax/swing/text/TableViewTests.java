@@ -23,23 +23,6 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.TableView#replace(int,int,javax.swing.text.View[]) public void
-     * javax.swing.text.TableView.replace(int,int,javax.swing.text.View[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_replace_int_int_ViewArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test class for {@link javax.swing.text.TableView$TableCell class javax.swing.text.TableView$TableCell},
      * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
      * </p>
@@ -71,30 +54,14 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.TableView.TableCell#setGridLocation(int,int) public void
-         * javax.swing.text.TableView$TableCell.setGridLocation(int,int)}.
+         * Test method for {@link javax.swing.text.TableView.TableCell#getGridColumn() public int
+         * javax.swing.text.TableView$TableCell.getGridColumn()}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_setGridLocation_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.text.TableView.TableCell#getRowCount() public int
-         * javax.swing.text.TableView$TableCell.getRowCount()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getRowCount()
+        public default void test_getGridColumn()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -119,14 +86,30 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.TableView.TableCell#getGridColumn() public int
-         * javax.swing.text.TableView$TableCell.getGridColumn()}.
+         * Test method for {@link javax.swing.text.TableView.TableCell#getRowCount() public int
+         * javax.swing.text.TableView$TableCell.getRowCount()}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_getGridColumn()
+        public default void test_getRowCount()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.text.TableView.TableCell#setGridLocation(int,int) public void
+         * javax.swing.text.TableView$TableCell.setGridLocation(int,int)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_setGridLocation_int_int()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -152,23 +135,6 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.swing.text.TableView.TableRow#replace(int,int,javax.swing.text.View[]) public
-         * void javax.swing.text.TableView$TableRow.replace(int,int,javax.swing.text.View[])}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_replace_int_int_ViewArray()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
          * Test method for {@link javax.swing.text.TableView.TableRow#getResizeWeight(int) public int
          * javax.swing.text.TableView$TableRow.getResizeWeight(int)}.
          * </p>
@@ -184,6 +150,40 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
             assert sut != null;
         }
 
+        /**
+         * <p>
+         * Test method for {@link javax.swing.text.TableView.TableRow#replace(int,int,javax.swing.text.View[]) public
+         * void javax.swing.text.TableView$TableRow.replace(int,int,javax.swing.text.View[])}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        @Override
+        public default void test_replace_int_int_ViewArray()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.TableView#replace(int,int,javax.swing.text.View[]) public void
+     * javax.swing.text.TableView.replace(int,int,javax.swing.text.View[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_replace_int_int_ViewArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

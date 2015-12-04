@@ -23,30 +23,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Dimension2D#setSize(double,double) public abstract void
-     * java.awt.geom.Dimension2D.setSize(double,double)}.
+     * Test method for {@link java.awt.geom.Dimension2D#clone() public java.lang.Object
+     * java.awt.geom.Dimension2D.clone()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSize_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Dimension2D#setSize(java.awt.geom.Dimension2D) public void
-     * java.awt.geom.Dimension2D.setSize(java.awt.geom.Dimension2D)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSize_Dimension2D()
+    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,14 +71,30 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Dimension2D#clone() public java.lang.Object
-     * java.awt.geom.Dimension2D.clone()}.
+     * Test method for {@link java.awt.geom.Dimension2D#setSize(java.awt.geom.Dimension2D) public void
+     * java.awt.geom.Dimension2D.setSize(java.awt.geom.Dimension2D)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clone()
+    public default void test_setSize_Dimension2D()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Dimension2D#setSize(double,double) public abstract void
+     * java.awt.geom.Dimension2D.setSize(double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSize_double_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

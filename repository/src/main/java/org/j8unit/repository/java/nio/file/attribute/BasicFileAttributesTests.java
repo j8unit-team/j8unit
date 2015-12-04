@@ -25,46 +25,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.attribute.BasicFileAttributes#isOther() public abstract boolean
-     * java.nio.file.attribute.BasicFileAttributes.isOther()}.
+     * Test method for {@link java.nio.file.attribute.BasicFileAttributes#creationTime() public abstract
+     * java.nio.file.attribute.FileTime java.nio.file.attribute.BasicFileAttributes.creationTime()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isOther()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.BasicFileAttributes#isDirectory() public abstract boolean
-     * java.nio.file.attribute.BasicFileAttributes.isDirectory()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isDirectory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.BasicFileAttributes#isRegularFile() public abstract boolean
-     * java.nio.file.attribute.BasicFileAttributes.isRegularFile()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isRegularFile()
+    public default void test_creationTime()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -89,14 +57,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.attribute.BasicFileAttributes#size() public abstract long
-     * java.nio.file.attribute.BasicFileAttributes.size()}.
+     * Test method for {@link java.nio.file.attribute.BasicFileAttributes#isDirectory() public abstract boolean
+     * java.nio.file.attribute.BasicFileAttributes.isDirectory()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_size()
+    public default void test_isDirectory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -105,14 +73,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.attribute.BasicFileAttributes#creationTime() public abstract
-     * java.nio.file.attribute.FileTime java.nio.file.attribute.BasicFileAttributes.creationTime()}.
+     * Test method for {@link java.nio.file.attribute.BasicFileAttributes#isOther() public abstract boolean
+     * java.nio.file.attribute.BasicFileAttributes.isOther()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_creationTime()
+    public default void test_isOther()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.BasicFileAttributes#isRegularFile() public abstract boolean
+     * java.nio.file.attribute.BasicFileAttributes.isRegularFile()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isRegularFile()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -161,6 +145,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_lastModifiedTime()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.BasicFileAttributes#size() public abstract long
+     * java.nio.file.attribute.BasicFileAttributes.size()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_size()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -37,38 +37,18 @@ extends org.j8unit.repository.javax.naming.BindingClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.naming.directory.SearchResult#SearchResult(java.lang.String,java.lang.String,java.lang.Object,javax.naming.directory.Attributes,boolean)
-     * public
-     * javax.naming.directory.SearchResult(java.lang.String,java.lang.String,java.lang.Object,javax.naming.directory.Attributes,boolean)}
-     * .
+     * {@link javax.naming.directory.SearchResult#SearchResult(java.lang.String,java.lang.Object,javax.naming.directory.Attributes)
+     * public javax.naming.directory.SearchResult(java.lang.String,java.lang.Object,javax.naming.directory.Attributes)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SearchResult_String_String_Object_Attributes_boolean()
+    public default void create_SearchResult_String_Object_Attributes()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.directory.SearchResult sut = null; // = new
-                                                              // SearchResult(java.lang.String,java.lang.String,java.lang.Object,javax.naming.directory.Attributes,boolean);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.naming.directory.SearchResult#SearchResult(java.lang.String,java.lang.String,java.lang.Object,javax.naming.directory.Attributes)
-     * public
-     * javax.naming.directory.SearchResult(java.lang.String,java.lang.String,java.lang.Object,javax.naming.directory.Attributes)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SearchResult_String_String_Object_Attributes()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.directory.SearchResult sut = null; // = new
-                                                              // SearchResult(java.lang.String,java.lang.String,java.lang.Object,javax.naming.directory.Attributes);
+                                                              // SearchResult(java.lang.String,java.lang.Object,javax.naming.directory.Attributes);
     }
 
     /**
@@ -91,18 +71,38 @@ extends org.j8unit.repository.javax.naming.BindingClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.naming.directory.SearchResult#SearchResult(java.lang.String,java.lang.Object,javax.naming.directory.Attributes)
-     * public javax.naming.directory.SearchResult(java.lang.String,java.lang.Object,javax.naming.directory.Attributes)}.
+     * {@link javax.naming.directory.SearchResult#SearchResult(java.lang.String,java.lang.String,java.lang.Object,javax.naming.directory.Attributes)
+     * public
+     * javax.naming.directory.SearchResult(java.lang.String,java.lang.String,java.lang.Object,javax.naming.directory.Attributes)}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SearchResult_String_Object_Attributes()
+    public default void create_SearchResult_String_String_Object_Attributes()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.directory.SearchResult sut = null; // = new
-                                                              // SearchResult(java.lang.String,java.lang.Object,javax.naming.directory.Attributes);
+                                                              // SearchResult(java.lang.String,java.lang.String,java.lang.Object,javax.naming.directory.Attributes);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.naming.directory.SearchResult#SearchResult(java.lang.String,java.lang.String,java.lang.Object,javax.naming.directory.Attributes,boolean)
+     * public
+     * javax.naming.directory.SearchResult(java.lang.String,java.lang.String,java.lang.Object,javax.naming.directory.Attributes,boolean)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SearchResult_String_String_Object_Attributes_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.directory.SearchResult sut = null; // = new
+                                                              // SearchResult(java.lang.String,java.lang.String,java.lang.Object,javax.naming.directory.Attributes,boolean);
     }
 
     @Override

@@ -23,6 +23,41 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
 
     /**
      * <p>
+     * Test class for {@link javax.xml.ws.soap.AddressingFeature$Responses class
+     * javax.xml.ws.soap.AddressingFeature$Responses}, containing all instance relevant test methods (i.&thinsp;e., test
+     * methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests.ResponsesClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface ResponsesTests<SUT extends javax.xml.ws.soap.AddressingFeature.Responses>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.xml.ws.soap.AddressingFeature.Responses> {
+
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.soap.AddressingFeature#getID() public java.lang.String
+     * javax.xml.ws.soap.AddressingFeature.getID()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.ws.soap.AddressingFeature#getResponses() public
      * javax.xml.ws.soap.AddressingFeature$Responses javax.xml.ws.soap.AddressingFeature.getResponses()}.
      * </p>
@@ -51,41 +86,6 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.ws.soap.AddressingFeature#getID() public java.lang.String
-     * javax.xml.ws.soap.AddressingFeature.getID()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test class for {@link javax.xml.ws.soap.AddressingFeature$Responses class
-     * javax.xml.ws.soap.AddressingFeature$Responses}, containing all instance relevant test methods (i.&thinsp;e., test
-     * methods of non-{@code static} methods).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureClassTests.ResponsesClassTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface ResponsesTests<SUT extends javax.xml.ws.soap.AddressingFeature.Responses>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.xml.ws.soap.AddressingFeature.Responses> {
-
     }
 
 }

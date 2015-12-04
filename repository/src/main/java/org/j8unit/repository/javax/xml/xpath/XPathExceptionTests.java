@@ -40,15 +40,15 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.xpath.XPathException#printStackTrace(java.io.PrintWriter) public void
-     * javax.xml.xpath.XPathException.printStackTrace(java.io.PrintWriter)}.
+     * Test method for {@link javax.xml.xpath.XPathException#printStackTrace() public void
+     * javax.xml.xpath.XPathException.printStackTrace()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_printStackTrace_PrintWriter()
+    public default void test_printStackTrace()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,15 +74,15 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.xpath.XPathException#printStackTrace() public void
-     * javax.xml.xpath.XPathException.printStackTrace()}.
+     * Test method for {@link javax.xml.xpath.XPathException#printStackTrace(java.io.PrintWriter) public void
+     * javax.xml.xpath.XPathException.printStackTrace(java.io.PrintWriter)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_printStackTrace()
+    public default void test_printStackTrace_PrintWriter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

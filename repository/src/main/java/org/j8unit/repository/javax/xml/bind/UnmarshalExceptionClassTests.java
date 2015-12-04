@@ -36,6 +36,35 @@ public abstract interface UnmarshalExceptionClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.xml.bind.UnmarshalException#UnmarshalException(java.lang.String) public
+     * javax.xml.bind.UnmarshalException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_UnmarshalException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.bind.UnmarshalException sut = null; // = new UnmarshalException(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.xml.bind.UnmarshalException#UnmarshalException(java.lang.String,java.lang.String)
+     * public javax.xml.bind.UnmarshalException(java.lang.String,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_UnmarshalException_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.bind.UnmarshalException sut = null; // = new
+                                                            // UnmarshalException(java.lang.String,java.lang.String);
+    }
+
+    /**
      * Test method for
      * {@link javax.xml.bind.UnmarshalException#UnmarshalException(java.lang.String,java.lang.String,java.lang.Throwable)
      * public javax.xml.bind.UnmarshalException(java.lang.String,java.lang.String,java.lang.Throwable)}.
@@ -78,35 +107,6 @@ extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.bind.UnmarshalException sut = null; // = new UnmarshalException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link javax.xml.bind.UnmarshalException#UnmarshalException(java.lang.String,java.lang.String)
-     * public javax.xml.bind.UnmarshalException(java.lang.String,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_UnmarshalException_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.bind.UnmarshalException sut = null; // = new
-                                                            // UnmarshalException(java.lang.String,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.bind.UnmarshalException#UnmarshalException(java.lang.String) public
-     * javax.xml.bind.UnmarshalException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_UnmarshalException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.bind.UnmarshalException sut = null; // = new UnmarshalException(java.lang.String);
     }
 
     @Override

@@ -23,14 +23,14 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.ListUI#locationToIndex(javax.swing.JList,java.awt.Point) public abstract
-     * int javax.swing.plaf.ListUI.locationToIndex(javax.swing.JList,java.awt.Point)}.
+     * Test method for {@link javax.swing.plaf.ListUI#getCellBounds(javax.swing.JList,int,int) public abstract
+     * java.awt.Rectangle javax.swing.plaf.ListUI.getCellBounds(javax.swing.JList,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_locationToIndex_JList_Point()
+    public default void test_getCellBounds_JList_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.ListUI#getCellBounds(javax.swing.JList,int,int) public abstract
-     * java.awt.Rectangle javax.swing.plaf.ListUI.getCellBounds(javax.swing.JList,int,int)}.
+     * Test method for {@link javax.swing.plaf.ListUI#locationToIndex(javax.swing.JList,java.awt.Point) public abstract
+     * int javax.swing.plaf.ListUI.locationToIndex(javax.swing.JList,java.awt.Point)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCellBounds_JList_int_int()
+    public default void test_locationToIndex_JList_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

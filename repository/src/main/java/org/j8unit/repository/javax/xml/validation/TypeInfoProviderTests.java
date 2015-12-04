@@ -23,38 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.validation.TypeInfoProvider#isIdAttribute(int) public abstract boolean
-     * javax.xml.validation.TypeInfoProvider.isIdAttribute(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isIdAttribute_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.validation.TypeInfoProvider#isSpecified(int) public abstract boolean
-     * javax.xml.validation.TypeInfoProvider.isSpecified(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSpecified_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.validation.TypeInfoProvider#getAttributeTypeInfo(int) public abstract
      * org.w3c.dom.TypeInfo javax.xml.validation.TypeInfoProvider.getAttributeTypeInfo(int)}.
      * </p>
@@ -79,6 +47,38 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getElementTypeInfo()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.TypeInfoProvider#isIdAttribute(int) public abstract boolean
+     * javax.xml.validation.TypeInfoProvider.isIdAttribute(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isIdAttribute_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.TypeInfoProvider#isSpecified(int) public abstract boolean
+     * javax.xml.validation.TypeInfoProvider.isSpecified(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSpecified_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

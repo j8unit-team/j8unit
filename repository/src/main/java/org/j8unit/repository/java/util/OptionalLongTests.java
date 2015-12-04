@@ -23,37 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalLong#getAsLong() public long java.util.OptionalLong.getAsLong()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAsLong()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.OptionalLong#orElseGet(java.util.function.LongSupplier) public long
-     * java.util.OptionalLong.orElseGet(java.util.function.LongSupplier)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_orElseGet_LongSupplier()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.OptionalLong#equals(java.lang.Object) public boolean
      * java.util.OptionalLong.equals(java.lang.Object)}.
      * </p>
@@ -71,14 +40,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalLong#ifPresent(java.util.function.LongConsumer) public void
-     * java.util.OptionalLong.ifPresent(java.util.function.LongConsumer)}.
+     * Test method for {@link java.util.OptionalLong#getAsLong() public long java.util.OptionalLong.getAsLong()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ifPresent_LongConsumer()
+    public default void test_getAsLong()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,13 +71,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalLong#isPresent() public boolean java.util.OptionalLong.isPresent()}.
+     * Test method for {@link java.util.OptionalLong#ifPresent(java.util.function.LongConsumer) public void
+     * java.util.OptionalLong.ifPresent(java.util.function.LongConsumer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isPresent()
+    public default void test_ifPresent_LongConsumer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -118,15 +87,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalLong#toString() public java.lang.String
-     * java.util.OptionalLong.toString()}.
+     * Test method for {@link java.util.OptionalLong#isPresent() public boolean java.util.OptionalLong.isPresent()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_isPresent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -150,6 +117,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.util.OptionalLong#orElseGet(java.util.function.LongSupplier) public long
+     * java.util.OptionalLong.orElseGet(java.util.function.LongSupplier)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_orElseGet_LongSupplier()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.OptionalLong#orElseThrow(java.util.function.Supplier) public long
      * java.util.OptionalLong.orElseThrow(java.util.function.Supplier) throws java.lang.Throwable}.
      * </p>
@@ -158,6 +141,23 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_orElseThrow_Supplier()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.OptionalLong#toString() public java.lang.String
+     * java.util.OptionalLong.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -34,16 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface JMXClassTests<SUT extends Class<? extends javax.management.JMX>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.management.JMX> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.management.JMX.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.management.JMX#isMXBeanInterface(java.lang.Class) public static boolean
@@ -101,6 +91,25 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
+     * {@link javax.management.JMX#newMXBeanProxy(javax.management.MBeanServerConnection,javax.management.ObjectName,java.lang.Class)
+     * public static java.lang.Object
+     * javax.management.JMX.newMXBeanProxy(javax.management.MBeanServerConnection,javax.management.ObjectName,java.lang.Class)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newMXBeanProxy_MBeanServerConnection_ObjectName_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link javax.management.JMX#newMXBeanProxy(javax.management.MBeanServerConnection,javax.management.ObjectName,java.lang.Class,boolean)
      * public static java.lang.Object
      * javax.management.JMX.newMXBeanProxy(javax.management.MBeanServerConnection,javax.management.ObjectName,java.lang.Class,boolean)}
@@ -117,23 +126,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.JMX#newMXBeanProxy(javax.management.MBeanServerConnection,javax.management.ObjectName,java.lang.Class)
-     * public static java.lang.Object
-     * javax.management.JMX.newMXBeanProxy(javax.management.MBeanServerConnection,javax.management.ObjectName,java.lang.Class)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_newMXBeanProxy_MBeanServerConnection_ObjectName_Class()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.management.JMX> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.management.JMX.class.isAssignableFrom(sut));
     }
 
 }

@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface LifespanPolicyValueClassTests<SUT extends Class<? extends org.omg.PortableServer.LifespanPolicyValue>>
 extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.PortableServer.LifespanPolicyValue> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.PortableServer.LifespanPolicyValue.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link org.omg.PortableServer.LifespanPolicyValue#from_int(int) public static
@@ -59,6 +49,16 @@ extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT>, o
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.PortableServer.LifespanPolicyValue> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.PortableServer.LifespanPolicyValue.class.isAssignableFrom(sut));
     }
 
 }

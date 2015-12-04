@@ -34,83 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ServiceClassTests<SUT extends Class<? extends javax.xml.ws.Service>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.ws.Service> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.ws.Service.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.ws.Service#create(java.net.URL,javax.xml.namespace.QName) public static
-     * javax.xml.ws.Service javax.xml.ws.Service.create(java.net.URL,javax.xml.namespace.QName)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_URL_QName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.ws.Service#create(javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...)
-     * public static javax.xml.ws.Service
-     * javax.xml.ws.Service.create(javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_QName_WebServiceFeatureArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.xml.ws.Service#create(java.net.URL,javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...)
-     * public static javax.xml.ws.Service
-     * javax.xml.ws.Service.create(java.net.URL,javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_URL_QName_WebServiceFeatureArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.ws.Service#create(javax.xml.namespace.QName) public static javax.xml.ws.Service
-     * javax.xml.ws.Service.create(javax.xml.namespace.QName)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_QName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test class for {@link javax.xml.ws.Service$Mode class javax.xml.ws.Service$Mode}, containing all class relevant
@@ -139,16 +62,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Category(J8UnitRepository.class)
     public static abstract interface ModeClassTests<SUT extends Class<? extends javax.xml.ws.Service.Mode>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.ws.Service.Mode> {
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.xml.ws.Service.Mode> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.xml.ws.Service.Mode.class.isAssignableFrom(sut));
-        }
 
         /**
          * <p>
@@ -182,6 +95,93 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assert sut != null;
         }
 
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.xml.ws.Service.Mode> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.xml.ws.Service.Mode.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.Service#create(javax.xml.namespace.QName) public static javax.xml.ws.Service
+     * javax.xml.ws.Service.create(javax.xml.namespace.QName)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_QName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.Service#create(javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...)
+     * public static javax.xml.ws.Service
+     * javax.xml.ws.Service.create(javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_QName_WebServiceFeatureArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.Service#create(java.net.URL,javax.xml.namespace.QName) public static
+     * javax.xml.ws.Service javax.xml.ws.Service.create(java.net.URL,javax.xml.namespace.QName)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_URL_QName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.xml.ws.Service#create(java.net.URL,javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...)
+     * public static javax.xml.ws.Service
+     * javax.xml.ws.Service.create(java.net.URL,javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_URL_QName_WebServiceFeatureArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.ws.Service> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.ws.Service.class.isAssignableFrom(sut));
     }
 
 }

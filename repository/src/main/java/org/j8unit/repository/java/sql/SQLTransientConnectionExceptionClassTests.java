@@ -36,70 +36,6 @@ public abstract interface SQLTransientConnectionExceptionClassTests<SUT extends 
 extends org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.sql.SQLTransientConnectionException#SQLTransientConnectionException(java.lang.Throwable) public
-     * java.sql.SQLTransientConnectionException(java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLTransientConnectionException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLTransientConnectionException sut = null; // = new
-                                                                   // SQLTransientConnectionException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLTransientConnectionException#SQLTransientConnectionException(java.lang.String,java.lang.Throwable)
-     * public java.sql.SQLTransientConnectionException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLTransientConnectionException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLTransientConnectionException sut = null; // = new
-                                                                   // SQLTransientConnectionException(java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLTransientConnectionException#SQLTransientConnectionException(java.lang.String,java.lang.String,java.lang.Throwable)
-     * public java.sql.SQLTransientConnectionException(java.lang.String,java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLTransientConnectionException_String_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLTransientConnectionException sut = null; // = new
-                                                                   // SQLTransientConnectionException(java.lang.String,java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLTransientConnectionException#SQLTransientConnectionException(java.lang.String,java.lang.String,int,java.lang.Throwable)
-     * public java.sql.SQLTransientConnectionException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLTransientConnectionException_String_String_int_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLTransientConnectionException sut = null; // = new
-                                                                   // SQLTransientConnectionException(java.lang.String,java.lang.String,int,java.lang.Throwable);
-    }
-
-    /**
      * Test method for {@link java.sql.SQLTransientConnectionException#SQLTransientConnectionException() public
      * java.sql.SQLTransientConnectionException()}.
      */
@@ -158,6 +94,70 @@ extends org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.sql.SQLTransientConnectionException sut = null; // = new
                                                                    // SQLTransientConnectionException(java.lang.String,java.lang.String,int);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLTransientConnectionException#SQLTransientConnectionException(java.lang.String,java.lang.String,int,java.lang.Throwable)
+     * public java.sql.SQLTransientConnectionException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLTransientConnectionException_String_String_int_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLTransientConnectionException sut = null; // = new
+                                                                   // SQLTransientConnectionException(java.lang.String,java.lang.String,int,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLTransientConnectionException#SQLTransientConnectionException(java.lang.String,java.lang.String,java.lang.Throwable)
+     * public java.sql.SQLTransientConnectionException(java.lang.String,java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLTransientConnectionException_String_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLTransientConnectionException sut = null; // = new
+                                                                   // SQLTransientConnectionException(java.lang.String,java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLTransientConnectionException#SQLTransientConnectionException(java.lang.String,java.lang.Throwable)
+     * public java.sql.SQLTransientConnectionException(java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLTransientConnectionException_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLTransientConnectionException sut = null; // = new
+                                                                   // SQLTransientConnectionException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLTransientConnectionException#SQLTransientConnectionException(java.lang.Throwable) public
+     * java.sql.SQLTransientConnectionException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLTransientConnectionException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLTransientConnectionException sut = null; // = new
+                                                                   // SQLTransientConnectionException(java.lang.Throwable);
     }
 
     @Override

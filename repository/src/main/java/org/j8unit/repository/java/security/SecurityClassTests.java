@@ -35,26 +35,16 @@ import org.junit.experimental.categories.Category;
 public abstract interface SecurityClassTests<SUT extends Class<? extends java.security.Security>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.security.Security> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.Security.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.security.Security#getProvider(java.lang.String) public static java.security.Provider
-     * java.security.Security.getProvider(java.lang.String)}.
+     * Test method for {@link java.security.Security#addProvider(java.security.Provider) public static int
+     * java.security.Security.addProvider(java.security.Provider)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getProvider_String()
+    public default void test_addProvider_Provider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,22 +69,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.Security#insertProviderAt(java.security.Provider,int) public static
-     * synchronized int java.security.Security.insertProviderAt(java.security.Provider,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insertProviderAt_Provider_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.Security#getAlgorithms(java.lang.String) public static java.util.Set
      * java.security.Security.getAlgorithms(java.lang.String)}.
      * </p>
@@ -103,22 +77,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAlgorithms_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.Security#removeProvider(java.lang.String) public static synchronized void
-     * java.security.Security.removeProvider(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeProvider_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,14 +101,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.Security#addProvider(java.security.Provider) public static int
-     * java.security.Security.addProvider(java.security.Provider)}.
+     * Test method for {@link java.security.Security#getProvider(java.lang.String) public static java.security.Provider
+     * java.security.Security.getProvider(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addProvider_Provider()
+    public default void test_getProvider_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -159,30 +117,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.Security#setProperty(java.lang.String,java.lang.String) public static void
-     * java.security.Security.setProperty(java.lang.String,java.lang.String)}.
+     * Test method for {@link java.security.Security#getProviders() public static java.security.Provider[]
+     * java.security.Security.getProviders()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setProperty_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.Security#getProviders(java.lang.String) public static
-     * java.security.Provider[] java.security.Security.getProviders(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProviders_String()
+    public default void test_getProviders()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -207,18 +149,76 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.Security#getProviders() public static java.security.Provider[]
-     * java.security.Security.getProviders()}.
+     * Test method for {@link java.security.Security#getProviders(java.lang.String) public static
+     * java.security.Provider[] java.security.Security.getProviders(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getProviders()
+    public default void test_getProviders_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.Security#insertProviderAt(java.security.Provider,int) public static
+     * synchronized int java.security.Security.insertProviderAt(java.security.Provider,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insertProviderAt_Provider_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.Security#removeProvider(java.lang.String) public static synchronized void
+     * java.security.Security.removeProvider(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeProvider_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.Security#setProperty(java.lang.String,java.lang.String) public static void
+     * java.security.Security.setProperty(java.lang.String,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setProperty_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.security.Security> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.Security.class.isAssignableFrom(sut));
     }
 
 }

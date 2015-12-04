@@ -62,6 +62,25 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
+     * {@link java.awt.image.renderable.RenderableImageProducer#removeConsumer(java.awt.image.ImageConsumer) public
+     * synchronized void java.awt.image.renderable.RenderableImageProducer.removeConsumer(java.awt.image.ImageConsumer)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_removeConsumer_ImageConsumer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link java.awt.image.renderable.RenderableImageProducer#requestTopDownLeftRightResend(java.awt.image.ImageConsumer)
      * public void
      * java.awt.image.renderable.RenderableImageProducer.requestTopDownLeftRightResend(java.awt.image.ImageConsumer)}.
@@ -80,17 +99,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderableImageProducer#removeConsumer(java.awt.image.ImageConsumer) public
-     * synchronized void java.awt.image.renderable.RenderableImageProducer.removeConsumer(java.awt.image.ImageConsumer)}
-     * .
+     * Test method for {@link java.awt.image.renderable.RenderableImageProducer#run() public void
+     * java.awt.image.renderable.RenderableImageProducer.run()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_removeConsumer_ImageConsumer()
+    public default void test_run()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -128,23 +145,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_startProduction_ImageConsumer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderableImageProducer#run() public void
-     * java.awt.image.renderable.RenderableImageProducer.run()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_run()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -41,31 +41,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanFeatureInfo#hashCode() public int
-     * javax.management.MBeanFeatureInfo.hashCode()}.
+     * Test method for {@link javax.management.MBeanFeatureInfo#getDescription() public java.lang.String
+     * javax.management.MBeanFeatureInfo.getDescription()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.MBeanFeatureInfo#getName() public java.lang.String
-     * javax.management.MBeanFeatureInfo.getName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getName()
+    public default void test_getDescription()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,14 +74,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanFeatureInfo#getDescription() public java.lang.String
-     * javax.management.MBeanFeatureInfo.getDescription()}.
+     * Test method for {@link javax.management.MBeanFeatureInfo#getName() public java.lang.String
+     * javax.management.MBeanFeatureInfo.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDescription()
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.MBeanFeatureInfo#hashCode() public int
+     * javax.management.MBeanFeatureInfo.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

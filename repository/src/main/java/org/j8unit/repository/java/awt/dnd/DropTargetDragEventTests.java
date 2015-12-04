@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDragEvent#getLocation() public java.awt.Point
-     * java.awt.dnd.DropTargetDragEvent.getLocation()}.
+     * Test method for {@link java.awt.dnd.DropTargetDragEvent#acceptDrag(int) public void
+     * java.awt.dnd.DropTargetDragEvent.acceptDrag(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLocation()
+    public default void test_acceptDrag_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,14 +39,30 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDragEvent#isDataFlavorSupported(java.awt.datatransfer.DataFlavor)
-     * public boolean java.awt.dnd.DropTargetDragEvent.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)}.
+     * Test method for {@link java.awt.dnd.DropTargetDragEvent#getCurrentDataFlavors() public
+     * java.awt.datatransfer.DataFlavor[] java.awt.dnd.DropTargetDragEvent.getCurrentDataFlavors()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDataFlavorSupported_DataFlavor()
+    public default void test_getCurrentDataFlavors()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.DropTargetDragEvent#getCurrentDataFlavorsAsList() public java.util.List
+     * java.awt.dnd.DropTargetDragEvent.getCurrentDataFlavorsAsList()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCurrentDataFlavorsAsList()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +87,14 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDragEvent#getCurrentDataFlavorsAsList() public java.util.List
-     * java.awt.dnd.DropTargetDragEvent.getCurrentDataFlavorsAsList()}.
+     * Test method for {@link java.awt.dnd.DropTargetDragEvent#getLocation() public java.awt.Point
+     * java.awt.dnd.DropTargetDragEvent.getLocation()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCurrentDataFlavorsAsList()
+    public default void test_getLocation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,30 +135,14 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDragEvent#getCurrentDataFlavors() public
-     * java.awt.datatransfer.DataFlavor[] java.awt.dnd.DropTargetDragEvent.getCurrentDataFlavors()}.
+     * Test method for {@link java.awt.dnd.DropTargetDragEvent#isDataFlavorSupported(java.awt.datatransfer.DataFlavor)
+     * public boolean java.awt.dnd.DropTargetDragEvent.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCurrentDataFlavors()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.DropTargetDragEvent#acceptDrag(int) public void
-     * java.awt.dnd.DropTargetDragEvent.acceptDrag(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_acceptDrag_int()
+    public default void test_isDataFlavorSupported_DataFlavor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

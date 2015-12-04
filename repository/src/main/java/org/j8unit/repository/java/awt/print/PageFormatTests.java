@@ -23,13 +23,46 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.PageFormat#getWidth() public double java.awt.print.PageFormat.getWidth()}.
+     * Test method for {@link java.awt.print.PageFormat#clone() public java.lang.Object
+     * java.awt.print.PageFormat.clone()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getWidth()
+    public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.print.PageFormat#getHeight() public double java.awt.print.PageFormat.getHeight()}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHeight()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.print.PageFormat#getImageableHeight() public double
+     * java.awt.print.PageFormat.getImageableHeight()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImageableHeight()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -54,54 +87,6 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.PageFormat#setPaper(java.awt.print.Paper) public void
-     * java.awt.print.PageFormat.setPaper(java.awt.print.Paper)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPaper_Paper()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.print.PageFormat#clone() public java.lang.Object
-     * java.awt.print.PageFormat.clone()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.print.PageFormat#getImageableY() public double
-     * java.awt.print.PageFormat.getImageableY()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImageableY()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.print.PageFormat#getImageableX() public double
      * java.awt.print.PageFormat.getImageableX()}.
      * </p>
@@ -118,14 +103,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.PageFormat#getPaper() public java.awt.print.Paper
-     * java.awt.print.PageFormat.getPaper()}.
+     * Test method for {@link java.awt.print.PageFormat#getImageableY() public double
+     * java.awt.print.PageFormat.getImageableY()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPaper()
+    public default void test_getImageableY()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -166,14 +151,29 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.PageFormat#getHeight() public double java.awt.print.PageFormat.getHeight()}
-     * .
+     * Test method for {@link java.awt.print.PageFormat#getPaper() public java.awt.print.Paper
+     * java.awt.print.PageFormat.getPaper()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getHeight()
+    public default void test_getPaper()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.print.PageFormat#getWidth() public double java.awt.print.PageFormat.getWidth()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWidth()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -198,14 +198,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.PageFormat#getImageableHeight() public double
-     * java.awt.print.PageFormat.getImageableHeight()}.
+     * Test method for {@link java.awt.print.PageFormat#setPaper(java.awt.print.Paper) public void
+     * java.awt.print.PageFormat.setPaper(java.awt.print.Paper)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getImageableHeight()
+    public default void test_setPaper_Paper()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

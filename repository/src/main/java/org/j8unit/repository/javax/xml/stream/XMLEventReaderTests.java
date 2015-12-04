@@ -30,14 +30,30 @@ extends org.j8unit.repository.java.util.IteratorTests {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLEventReader#nextTag() public abstract javax.xml.stream.events.XMLEvent
-     * javax.xml.stream.XMLEventReader.nextTag() throws javax.xml.stream.XMLStreamException}.
+     * Test method for {@link javax.xml.stream.XMLEventReader#close() public abstract void
+     * javax.xml.stream.XMLEventReader.close() throws javax.xml.stream.XMLStreamException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextTag()
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLEventReader#getElementText() public abstract java.lang.String
+     * javax.xml.stream.XMLEventReader.getElementText() throws javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getElementText()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -63,14 +79,15 @@ extends org.j8unit.repository.java.util.IteratorTests {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLEventReader#getElementText() public abstract java.lang.String
-     * javax.xml.stream.XMLEventReader.getElementText() throws javax.xml.stream.XMLStreamException}.
+     * Test method for {@link javax.xml.stream.XMLEventReader#hasNext() public abstract boolean
+     * javax.xml.stream.XMLEventReader.hasNext()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getElementText()
+    @Override
+    public default void test_hasNext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -96,31 +113,14 @@ extends org.j8unit.repository.java.util.IteratorTests {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLEventReader#hasNext() public abstract boolean
-     * javax.xml.stream.XMLEventReader.hasNext()}.
+     * Test method for {@link javax.xml.stream.XMLEventReader#nextTag() public abstract javax.xml.stream.events.XMLEvent
+     * javax.xml.stream.XMLEventReader.nextTag() throws javax.xml.stream.XMLStreamException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hasNext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLEventReader#close() public abstract void
-     * javax.xml.stream.XMLEventReader.close() throws javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_close()
+    public default void test_nextTag()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,20 +36,6 @@ public abstract interface FileInputStreamClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
 
     /**
-     * Test method for {@link java.io.FileInputStream#FileInputStream(java.io.FileDescriptor) public
-     * java.io.FileInputStream(java.io.FileDescriptor)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FileInputStream_FileDescriptor()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.FileInputStream sut = null; // = new FileInputStream(java.io.FileDescriptor);
-    }
-
-    /**
      * Test method for {@link java.io.FileInputStream#FileInputStream(java.io.File) public
      * java.io.FileInputStream(java.io.File) throws java.io.FileNotFoundException}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.FileInputStream sut = null; // = new FileInputStream(java.io.File);
+    }
+
+    /**
+     * Test method for {@link java.io.FileInputStream#FileInputStream(java.io.FileDescriptor) public
+     * java.io.FileInputStream(java.io.FileDescriptor)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FileInputStream_FileDescriptor()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.FileInputStream sut = null; // = new FileInputStream(java.io.FileDescriptor);
     }
 
     /**

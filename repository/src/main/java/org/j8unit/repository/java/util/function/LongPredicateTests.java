@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.function.LongPredicate#or(java.util.function.LongPredicate) public default
-     * java.util.function.LongPredicate java.util.function.LongPredicate.or(java.util.function.LongPredicate)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_or_LongPredicate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.function.LongPredicate#and(java.util.function.LongPredicate) public default
      * java.util.function.LongPredicate java.util.function.LongPredicate.and(java.util.function.LongPredicate)}.
      * </p>
@@ -64,6 +48,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_negate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.function.LongPredicate#or(java.util.function.LongPredicate) public default
+     * java.util.function.LongPredicate java.util.function.LongPredicate.or(java.util.function.LongPredicate)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_or_LongPredicate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

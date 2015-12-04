@@ -37,20 +37,6 @@ extends org.j8unit.repository.javax.swing.table.TableCellEditorClassTests<SUT>, 
 org.j8unit.repository.javax.swing.AbstractCellEditorClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.DefaultCellEditor#DefaultCellEditor(javax.swing.JComboBox) public
-     * javax.swing.DefaultCellEditor(javax.swing.JComboBox)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DefaultCellEditor_JComboBox()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.DefaultCellEditor sut = null; // = new DefaultCellEditor(javax.swing.JComboBox);
-    }
-
-    /**
      * Test method for {@link javax.swing.DefaultCellEditor#DefaultCellEditor(javax.swing.JCheckBox) public
      * javax.swing.DefaultCellEditor(javax.swing.JCheckBox)}.
      */
@@ -62,6 +48,20 @@ org.j8unit.repository.javax.swing.AbstractCellEditorClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.DefaultCellEditor sut = null; // = new DefaultCellEditor(javax.swing.JCheckBox);
+    }
+
+    /**
+     * Test method for {@link javax.swing.DefaultCellEditor#DefaultCellEditor(javax.swing.JComboBox) public
+     * javax.swing.DefaultCellEditor(javax.swing.JComboBox)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DefaultCellEditor_JComboBox()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.DefaultCellEditor sut = null; // = new DefaultCellEditor(javax.swing.JComboBox);
     }
 
     /**

@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.soap.MTOM#threshold() public abstract int javax.xml.ws.soap.MTOM.threshold()}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_threshold()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.ws.soap.MTOM#enabled() public abstract boolean javax.xml.ws.soap.MTOM.enabled()}
      * .
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_enabled()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.soap.MTOM#threshold() public abstract int javax.xml.ws.soap.MTOM.threshold()}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_threshold()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

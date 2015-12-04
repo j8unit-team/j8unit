@@ -23,46 +23,18 @@ extends org.j8unit.repository.java.awt.CompositeTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for {@link java.awt.AlphaComposite#hashCode() public int java.awt.AlphaComposite.hashCode()}.
+     * Test method for
+     * {@link java.awt.AlphaComposite#createContext(java.awt.image.ColorModel,java.awt.image.ColorModel,java.awt.RenderingHints)
+     * public java.awt.CompositeContext
+     * java.awt.AlphaComposite.createContext(java.awt.image.ColorModel,java.awt.image.ColorModel,java.awt.RenderingHints)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.AlphaComposite#getRule() public int java.awt.AlphaComposite.getRule()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRule()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.AlphaComposite#equals(java.lang.Object) public boolean
-     * java.awt.AlphaComposite.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_createContext_ColorModel_ColorModel_RenderingHints()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,6 +75,23 @@ extends org.j8unit.repository.java.awt.CompositeTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
+     * Test method for {@link java.awt.AlphaComposite#equals(java.lang.Object) public boolean
+     * java.awt.AlphaComposite.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.AlphaComposite#getAlpha() public float java.awt.AlphaComposite.getAlpha()}.
      * </p>
      */
@@ -118,18 +107,29 @@ extends org.j8unit.repository.java.awt.CompositeTests<SUT>, org.j8unit.repositor
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.AlphaComposite#createContext(java.awt.image.ColorModel,java.awt.image.ColorModel,java.awt.RenderingHints)
-     * public java.awt.CompositeContext
-     * java.awt.AlphaComposite.createContext(java.awt.image.ColorModel,java.awt.image.ColorModel,java.awt.RenderingHints)}
-     * .
+     * Test method for {@link java.awt.AlphaComposite#getRule() public int java.awt.AlphaComposite.getRule()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRule()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.AlphaComposite#hashCode() public int java.awt.AlphaComposite.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_createContext_ColorModel_ColorModel_RenderingHints()
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

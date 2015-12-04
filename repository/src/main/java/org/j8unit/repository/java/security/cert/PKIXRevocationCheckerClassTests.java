@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface PKIXRevocationCheckerClassTests<SUT extends Class<? extends java.security.cert.PKIXRevocationChecker>>
 extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.security.cert.PKIXRevocationChecker> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.cert.PKIXRevocationChecker.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link java.security.cert.PKIXRevocationChecker$Option class
@@ -75,14 +65,21 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
     public static abstract interface OptionClassTests<SUT extends Class<? extends java.security.cert.PKIXRevocationChecker.Option>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.cert.PKIXRevocationChecker.Option> {
 
-        @Override
+        /**
+         * <p>
+         * Test method for {@link java.security.cert.PKIXRevocationChecker.Option#valueOf(java.lang.String) public
+         * static java.security.cert.PKIXRevocationChecker$Option
+         * java.security.cert.PKIXRevocationChecker$Option.valueOf(java.lang.String)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @Category(Draft.class)
+        public default void test_valueOf_String()
         throws Exception {
-            // create new instance
-            final Class<? extends java.security.cert.PKIXRevocationChecker.Option> sut = createNewSUT();
-            // assert assignability
-            assertTrue(java.security.cert.PKIXRevocationChecker.Option.class.isAssignableFrom(sut));
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
         }
 
         /**
@@ -101,23 +98,26 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for {@link java.security.cert.PKIXRevocationChecker.Option#valueOf(java.lang.String) public
-         * static java.security.cert.PKIXRevocationChecker$Option
-         * java.security.cert.PKIXRevocationChecker$Option.valueOf(java.lang.String)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
+        public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
+            // create new instance
+            final Class<? extends java.security.cert.PKIXRevocationChecker.Option> sut = createNewSUT();
+            // assert assignability
+            assertTrue(java.security.cert.PKIXRevocationChecker.Option.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.security.cert.PKIXRevocationChecker> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.cert.PKIXRevocationChecker.class.isAssignableFrom(sut));
     }
 
 }

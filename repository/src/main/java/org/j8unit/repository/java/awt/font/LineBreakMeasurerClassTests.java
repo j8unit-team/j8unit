@@ -37,22 +37,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.awt.font.LineBreakMeasurer#LineBreakMeasurer(java.text.AttributedCharacterIterator,java.awt.font.FontRenderContext)
-     * public java.awt.font.LineBreakMeasurer(java.text.AttributedCharacterIterator,java.awt.font.FontRenderContext)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LineBreakMeasurer_AttributedCharacterIterator_FontRenderContext()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.font.LineBreakMeasurer sut = null; // = new
-                                                          // LineBreakMeasurer(java.text.AttributedCharacterIterator,java.awt.font.FontRenderContext);
-    }
-
-    /**
-     * Test method for
      * {@link java.awt.font.LineBreakMeasurer#LineBreakMeasurer(java.text.AttributedCharacterIterator,java.text.BreakIterator,java.awt.font.FontRenderContext)
      * public
      * java.awt.font.LineBreakMeasurer(java.text.AttributedCharacterIterator,java.text.BreakIterator,java.awt.font.FontRenderContext)}
@@ -67,6 +51,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.awt.font.LineBreakMeasurer sut = null; // = new
                                                           // LineBreakMeasurer(java.text.AttributedCharacterIterator,java.text.BreakIterator,java.awt.font.FontRenderContext);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.font.LineBreakMeasurer#LineBreakMeasurer(java.text.AttributedCharacterIterator,java.awt.font.FontRenderContext)
+     * public java.awt.font.LineBreakMeasurer(java.text.AttributedCharacterIterator,java.awt.font.FontRenderContext)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LineBreakMeasurer_AttributedCharacterIterator_FontRenderContext()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.font.LineBreakMeasurer sut = null; // = new
+                                                          // LineBreakMeasurer(java.text.AttributedCharacterIterator,java.awt.font.FontRenderContext);
     }
 
     @Override

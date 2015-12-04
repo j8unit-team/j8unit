@@ -23,125 +23,6 @@ extends org.j8unit.repository.javax.swing.plaf.TableHeaderUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicTableHeaderUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicTableHeaderUI.uninstallUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_uninstallUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicTableHeaderUI#paint(java.awt.Graphics,javax.swing.JComponent)
-     * public void javax.swing.plaf.basic.BasicTableHeaderUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paint_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicTableHeaderUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicTableHeaderUI.installUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_installUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicTableHeaderUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicTableHeaderUI.getMaximumSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMaximumSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicTableHeaderUI#getPreferredSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicTableHeaderUI.getPreferredSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPreferredSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicTableHeaderUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicTableHeaderUI.getMinimumSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMinimumSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicTableHeaderUI#getBaseline(javax.swing.JComponent,int,int)
-     * public int javax.swing.plaf.basic.BasicTableHeaderUI.getBaseline(javax.swing.JComponent,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBaseline_JComponent_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test class for {@link javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler class
      * javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler}, containing all instance relevant test methods
      * (i.&thinsp;e., test methods of non-{@code static} methods).
@@ -159,16 +40,16 @@ extends org.j8unit.repository.javax.swing.plaf.TableHeaderUITests<SUT> {
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler#mouseEntered(java.awt.event.MouseEvent)
+         * {@link javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler#mouseClicked(java.awt.event.MouseEvent)
          * public void
-         * javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler.mouseEntered(java.awt.event.MouseEvent)}.
+         * javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler.mouseClicked(java.awt.event.MouseEvent)}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
         @Override
-        public default void test_mouseEntered_MouseEvent()
+        public default void test_mouseClicked_MouseEvent()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -197,6 +78,25 @@ extends org.j8unit.repository.javax.swing.plaf.TableHeaderUITests<SUT> {
         /**
          * <p>
          * Test method for
+         * {@link javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler#mouseEntered(java.awt.event.MouseEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler.mouseEntered(java.awt.event.MouseEvent)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        @Override
+        public default void test_mouseEntered_MouseEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for
          * {@link javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler#mouseExited(java.awt.event.MouseEvent)
          * public void
          * javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler.mouseExited(java.awt.event.MouseEvent)}.
@@ -207,44 +107,6 @@ extends org.j8unit.repository.javax.swing.plaf.TableHeaderUITests<SUT> {
         @Category(Draft.class)
         @Override
         public default void test_mouseExited_MouseEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler#mouseClicked(java.awt.event.MouseEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler.mouseClicked(java.awt.event.MouseEvent)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_mouseClicked_MouseEvent()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler#mouseReleased(java.awt.event.MouseEvent)
-         * public void
-         * javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler.mouseReleased(java.awt.event.MouseEvent)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_mouseReleased_MouseEvent()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -289,6 +151,144 @@ extends org.j8unit.repository.javax.swing.plaf.TableHeaderUITests<SUT> {
             assert sut != null;
         }
 
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler#mouseReleased(java.awt.event.MouseEvent)
+         * public void
+         * javax.swing.plaf.basic.BasicTableHeaderUI$MouseInputHandler.mouseReleased(java.awt.event.MouseEvent)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        @Override
+        public default void test_mouseReleased_MouseEvent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicTableHeaderUI#getBaseline(javax.swing.JComponent,int,int)
+     * public int javax.swing.plaf.basic.BasicTableHeaderUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getBaseline_JComponent_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicTableHeaderUI#getMaximumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicTableHeaderUI.getMaximumSize(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMaximumSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicTableHeaderUI#getMinimumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicTableHeaderUI.getMinimumSize(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMinimumSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicTableHeaderUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicTableHeaderUI.getPreferredSize(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPreferredSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicTableHeaderUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicTableHeaderUI.installUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_installUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicTableHeaderUI#paint(java.awt.Graphics,javax.swing.JComponent)
+     * public void javax.swing.plaf.basic.BasicTableHeaderUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paint_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicTableHeaderUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicTableHeaderUI.uninstallUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_uninstallUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

@@ -37,19 +37,33 @@ public abstract interface CertificateParsingExceptionClassTests<SUT extends Clas
 extends org.j8unit.repository.java.security.cert.CertificateExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.security.cert.CertificateParsingException#CertificateParsingException(java.lang.Throwable) public
-     * java.security.cert.CertificateParsingException(java.lang.Throwable)}.
+     * Test method for {@link java.security.cert.CertificateParsingException#CertificateParsingException() public
+     * java.security.cert.CertificateParsingException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_CertificateParsingException_Throwable()
+    public default void create_CertificateParsingException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CertificateParsingException sut = null; // = new CertificateParsingException();
+    }
+
+    /**
+     * Test method for
+     * {@link java.security.cert.CertificateParsingException#CertificateParsingException(java.lang.String) public
+     * java.security.cert.CertificateParsingException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CertificateParsingException_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.security.cert.CertificateParsingException sut = null; // = new
-                                                                         // CertificateParsingException(java.lang.Throwable);
+                                                                         // CertificateParsingException(java.lang.String);
     }
 
     /**
@@ -70,32 +84,18 @@ extends org.j8unit.repository.java.security.cert.CertificateExceptionClassTests<
 
     /**
      * Test method for
-     * {@link java.security.cert.CertificateParsingException#CertificateParsingException(java.lang.String) public
-     * java.security.cert.CertificateParsingException(java.lang.String)}.
+     * {@link java.security.cert.CertificateParsingException#CertificateParsingException(java.lang.Throwable) public
+     * java.security.cert.CertificateParsingException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_CertificateParsingException_String()
+    public default void create_CertificateParsingException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.security.cert.CertificateParsingException sut = null; // = new
-                                                                         // CertificateParsingException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.security.cert.CertificateParsingException#CertificateParsingException() public
-     * java.security.cert.CertificateParsingException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CertificateParsingException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CertificateParsingException sut = null; // = new CertificateParsingException();
+                                                                         // CertificateParsingException(java.lang.Throwable);
     }
 
     @Override

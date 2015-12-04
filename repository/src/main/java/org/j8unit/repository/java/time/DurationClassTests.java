@@ -35,14 +35,36 @@ public abstract interface DurationClassTests<SUT extends Class<? extends java.ti
 extends org.j8unit.repository.java.time.temporal.TemporalAmountClassTests<SUT>, org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.Duration>,
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.time.Duration#between(java.time.temporal.Temporal,java.time.temporal.Temporal) public
+     * static java.time.Duration java.time.Duration.between(java.time.temporal.Temporal,java.time.temporal.Temporal)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_between_Temporal_Temporal()
     throws Exception {
-        // create new instance
-        final Class<? extends java.time.Duration> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.Duration.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.Duration#from(java.time.temporal.TemporalAmount) public static
+     * java.time.Duration java.time.Duration.from(java.time.temporal.TemporalAmount)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_from_TemporalAmount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -63,6 +85,22 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
+     * Test method for {@link java.time.Duration#ofDays(long) public static java.time.Duration
+     * java.time.Duration.ofDays(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ofDays_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.time.Duration#ofHours(long) public static java.time.Duration
      * java.time.Duration.ofHours(long)}.
      * </p>
@@ -71,6 +109,38 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_ofHours_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.Duration#ofMillis(long) public static java.time.Duration
+     * java.time.Duration.ofMillis(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ofMillis_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.Duration#ofMinutes(long) public static java.time.Duration
+     * java.time.Duration.ofMinutes(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ofMinutes_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,54 +197,6 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.time.Duration#ofMillis(long) public static java.time.Duration
-     * java.time.Duration.ofMillis(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ofMillis_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.Duration#between(java.time.temporal.Temporal,java.time.temporal.Temporal) public
-     * static java.time.Duration java.time.Duration.between(java.time.temporal.Temporal,java.time.temporal.Temporal)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_between_Temporal_Temporal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.Duration#ofMinutes(long) public static java.time.Duration
-     * java.time.Duration.ofMinutes(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ofMinutes_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.time.Duration#parse(java.lang.CharSequence) public static java.time.Duration
      * java.time.Duration.parse(java.lang.CharSequence)}.
      * </p>
@@ -189,36 +211,14 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.time.Duration#from(java.time.temporal.TemporalAmount) public static
-     * java.time.Duration java.time.Duration.from(java.time.temporal.TemporalAmount)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_from_TemporalAmount()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.Duration#ofDays(long) public static java.time.Duration
-     * java.time.Duration.ofDays(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ofDays_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.time.Duration> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.Duration.class.isAssignableFrom(sut));
     }
 
 }

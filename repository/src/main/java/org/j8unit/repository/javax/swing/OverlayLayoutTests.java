@@ -24,23 +24,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.OverlayLayout#addLayoutComponent(java.lang.String,java.awt.Component) public
-     * void javax.swing.OverlayLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addLayoutComponent_String_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.OverlayLayout#addLayoutComponent(java.awt.Component,java.lang.Object) public
      * void javax.swing.OverlayLayout.addLayoutComponent(java.awt.Component,java.lang.Object)}.
      * </p>
@@ -58,32 +41,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.OverlayLayout#layoutContainer(java.awt.Container) public void
-     * javax.swing.OverlayLayout.layoutContainer(java.awt.Container)}.
+     * Test method for {@link javax.swing.OverlayLayout#addLayoutComponent(java.lang.String,java.awt.Component) public
+     * void javax.swing.OverlayLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_layoutContainer_Container()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.OverlayLayout#maximumLayoutSize(java.awt.Container) public java.awt.Dimension
-     * javax.swing.OverlayLayout.maximumLayoutSize(java.awt.Container)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_maximumLayoutSize_Container()
+    public default void test_addLayoutComponent_String_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -118,6 +84,73 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getLayoutAlignmentY_Container()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.OverlayLayout#getTarget() public final java.awt.Container
+     * javax.swing.OverlayLayout.getTarget()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTarget()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.OverlayLayout#invalidateLayout(java.awt.Container) public void
+     * javax.swing.OverlayLayout.invalidateLayout(java.awt.Container)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_invalidateLayout_Container()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.OverlayLayout#layoutContainer(java.awt.Container) public void
+     * javax.swing.OverlayLayout.layoutContainer(java.awt.Container)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_layoutContainer_Container()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.OverlayLayout#maximumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * javax.swing.OverlayLayout.maximumLayoutSize(java.awt.Container)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_maximumLayoutSize_Container()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -169,39 +202,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_removeLayoutComponent_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.OverlayLayout#getTarget() public final java.awt.Container
-     * javax.swing.OverlayLayout.getTarget()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTarget()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.OverlayLayout#invalidateLayout(java.awt.Container) public void
-     * javax.swing.OverlayLayout.invalidateLayout(java.awt.Container)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_invalidateLayout_Container()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

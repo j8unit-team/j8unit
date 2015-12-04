@@ -23,6 +23,39 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.imageio.ImageTypeSpecifier#createBufferedImage(int,int) public
+     * java.awt.image.BufferedImage javax.imageio.ImageTypeSpecifier.createBufferedImage(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createBufferedImage_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageTypeSpecifier#equals(java.lang.Object) public boolean
+     * javax.imageio.ImageTypeSpecifier.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.imageio.ImageTypeSpecifier#getBitsPerBand(int) public int
      * javax.imageio.ImageTypeSpecifier.getBitsPerBand(int)}.
      * </p>
@@ -31,54 +64,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getBitsPerBand_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageTypeSpecifier#getNumBands() public int
-     * javax.imageio.ImageTypeSpecifier.getNumBands()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNumBands()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageTypeSpecifier#getSampleModel() public java.awt.image.SampleModel
-     * javax.imageio.ImageTypeSpecifier.getSampleModel()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSampleModel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageTypeSpecifier#getSampleModel(int,int) public java.awt.image.SampleModel
-     * javax.imageio.ImageTypeSpecifier.getSampleModel(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSampleModel_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +104,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageTypeSpecifier#createBufferedImage(int,int) public
-     * java.awt.image.BufferedImage javax.imageio.ImageTypeSpecifier.createBufferedImage(int,int)}.
+     * Test method for {@link javax.imageio.ImageTypeSpecifier#getNumBands() public int
+     * javax.imageio.ImageTypeSpecifier.getNumBands()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createBufferedImage_int_int()
+    public default void test_getNumBands()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -151,15 +136,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageTypeSpecifier#equals(java.lang.Object) public boolean
-     * javax.imageio.ImageTypeSpecifier.equals(java.lang.Object)}.
+     * Test method for {@link javax.imageio.ImageTypeSpecifier#getSampleModel() public java.awt.image.SampleModel
+     * javax.imageio.ImageTypeSpecifier.getSampleModel()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_getSampleModel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageTypeSpecifier#getSampleModel(int,int) public java.awt.image.SampleModel
+     * javax.imageio.ImageTypeSpecifier.getSampleModel(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSampleModel_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,17 +36,17 @@ public abstract interface IllformedLocaleExceptionClassTests<SUT extends Class<?
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.IllformedLocaleException#IllformedLocaleException(java.lang.String,int) public
-     * java.util.IllformedLocaleException(java.lang.String,int)}.
+     * Test method for {@link java.util.IllformedLocaleException#IllformedLocaleException() public
+     * java.util.IllformedLocaleException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_IllformedLocaleException_String_int()
+    public default void create_IllformedLocaleException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.IllformedLocaleException sut = null; // = new IllformedLocaleException(java.lang.String,int);
+        final java.util.IllformedLocaleException sut = null; // = new IllformedLocaleException();
     }
 
     /**
@@ -64,17 +64,17 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.util.IllformedLocaleException#IllformedLocaleException() public
-     * java.util.IllformedLocaleException()}.
+     * Test method for {@link java.util.IllformedLocaleException#IllformedLocaleException(java.lang.String,int) public
+     * java.util.IllformedLocaleException(java.lang.String,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_IllformedLocaleException()
+    public default void create_IllformedLocaleException_String_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.IllformedLocaleException sut = null; // = new IllformedLocaleException();
+        final java.util.IllformedLocaleException sut = null; // = new IllformedLocaleException(java.lang.String,int);
     }
 
     @Override

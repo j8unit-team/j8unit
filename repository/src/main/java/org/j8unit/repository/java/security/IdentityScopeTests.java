@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.security.IdentityTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.IdentityScope#toString() public java.lang.String
-     * java.security.IdentityScope.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.IdentityScope#addIdentity(java.security.Identity) public abstract void
      * java.security.IdentityScope.addIdentity(java.security.Identity) throws java.security.KeyManagementException}.
      * </p>
@@ -48,54 +31,6 @@ extends org.j8unit.repository.java.security.IdentityTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_addIdentity_Identity()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.IdentityScope#removeIdentity(java.security.Identity) public abstract void
-     * java.security.IdentityScope.removeIdentity(java.security.Identity) throws java.security.KeyManagementException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeIdentity_Identity()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.IdentityScope#identities() public abstract java.util.Enumeration
-     * java.security.IdentityScope.identities()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_identities()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.IdentityScope#getIdentity(java.security.PublicKey) public abstract
-     * java.security.Identity java.security.IdentityScope.getIdentity(java.security.PublicKey)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIdentity_PublicKey()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,6 +55,22 @@ extends org.j8unit.repository.java.security.IdentityTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.security.IdentityScope#getIdentity(java.security.PublicKey) public abstract
+     * java.security.Identity java.security.IdentityScope.getIdentity(java.security.PublicKey)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIdentity_PublicKey()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.security.IdentityScope#getIdentity(java.lang.String) public abstract
      * java.security.Identity java.security.IdentityScope.getIdentity(java.lang.String)}.
      * </p>
@@ -136,6 +87,38 @@ extends org.j8unit.repository.java.security.IdentityTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.security.IdentityScope#identities() public abstract java.util.Enumeration
+     * java.security.IdentityScope.identities()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_identities()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.IdentityScope#removeIdentity(java.security.Identity) public abstract void
+     * java.security.IdentityScope.removeIdentity(java.security.Identity) throws java.security.KeyManagementException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeIdentity_Identity()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.security.IdentityScope#size() public abstract int java.security.IdentityScope.size()}
      * .
      * </p>
@@ -144,6 +127,23 @@ extends org.j8unit.repository.java.security.IdentityTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_size()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.IdentityScope#toString() public java.lang.String
+     * java.security.IdentityScope.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

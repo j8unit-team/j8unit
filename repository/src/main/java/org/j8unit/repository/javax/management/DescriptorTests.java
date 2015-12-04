@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link javax.management.Descriptor#clone() public abstract java.lang.Object
+     * javax.management.Descriptor.clone() throws javax.management.RuntimeOperationsException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.Descriptor#equals(java.lang.Object) public abstract boolean
      * javax.management.Descriptor.equals(java.lang.Object)}.
      * </p>
@@ -39,14 +55,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.Descriptor#isValid() public abstract boolean
-     * javax.management.Descriptor.isValid() throws javax.management.RuntimeOperationsException}.
+     * Test method for {@link javax.management.Descriptor#getFieldNames() public abstract java.lang.String[]
+     * javax.management.Descriptor.getFieldNames()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isValid()
+    public default void test_getFieldNames()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +71,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.Descriptor#hashCode() public abstract int
-     * javax.management.Descriptor.hashCode()}.
+     * Test method for {@link javax.management.Descriptor#getFields() public abstract java.lang.String[]
+     * javax.management.Descriptor.getFields()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hashCode()
+    public default void test_getFields()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,14 +104,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.Descriptor#getFields() public abstract java.lang.String[]
-     * javax.management.Descriptor.getFields()}.
+     * Test method for {@link javax.management.Descriptor#getFieldValues(java.lang.String...) public abstract
+     * java.lang.Object[] javax.management.Descriptor.getFieldValues(java.lang.String...)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getFields()
+    public default void test_getFieldValues_StringArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,15 +120,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.Descriptor#setField(java.lang.String,java.lang.Object) public abstract
-     * void javax.management.Descriptor.setField(java.lang.String,java.lang.Object) throws
-     * javax.management.RuntimeOperationsException}.
+     * Test method for {@link javax.management.Descriptor#hashCode() public abstract int
+     * javax.management.Descriptor.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setField_String_Object()
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Descriptor#isValid() public abstract boolean
+     * javax.management.Descriptor.isValid() throws javax.management.RuntimeOperationsException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isValid()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -137,46 +168,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.Descriptor#getFieldNames() public abstract java.lang.String[]
-     * javax.management.Descriptor.getFieldNames()}.
+     * Test method for {@link javax.management.Descriptor#setField(java.lang.String,java.lang.Object) public abstract
+     * void javax.management.Descriptor.setField(java.lang.String,java.lang.Object) throws
+     * javax.management.RuntimeOperationsException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getFieldNames()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Descriptor#clone() public abstract java.lang.Object
-     * javax.management.Descriptor.clone() throws javax.management.RuntimeOperationsException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Descriptor#getFieldValues(java.lang.String...) public abstract
-     * java.lang.Object[] javax.management.Descriptor.getFieldValues(java.lang.String...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFieldValues_StringArray()
+    public default void test_setField_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

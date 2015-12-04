@@ -36,22 +36,6 @@ public abstract interface TreeModelEventClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.swing.event.TreeModelEvent#TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath) public
-     * javax.swing.event.TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TreeModelEvent_Object_TreePath()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.event.TreeModelEvent sut = null; // = new
-                                                           // TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath);
-    }
-
-    /**
      * Test method for {@link javax.swing.event.TreeModelEvent#TreeModelEvent(java.lang.Object,java.lang.Object[])
      * public javax.swing.event.TreeModelEvent(java.lang.Object,java.lang.Object[])}.
      */
@@ -63,22 +47,6 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.event.TreeModelEvent sut = null; // = new TreeModelEvent(java.lang.Object,java.lang.Object[]);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.swing.event.TreeModelEvent#TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath,int[],java.lang.Object[])
-     * public javax.swing.event.TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath,int[],java.lang.Object[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TreeModelEvent_Object_TreePath_intArray_ObjectArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.event.TreeModelEvent sut = null; // = new
-                                                           // TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath,int[],java.lang.Object[]);
     }
 
     /**
@@ -95,6 +63,38 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.swing.event.TreeModelEvent sut = null; // = new
                                                            // TreeModelEvent(java.lang.Object,java.lang.Object[],int[],java.lang.Object[]);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.event.TreeModelEvent#TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath) public
+     * javax.swing.event.TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TreeModelEvent_Object_TreePath()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.event.TreeModelEvent sut = null; // = new
+                                                           // TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.event.TreeModelEvent#TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath,int[],java.lang.Object[])
+     * public javax.swing.event.TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath,int[],java.lang.Object[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TreeModelEvent_Object_TreePath_intArray_ObjectArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.event.TreeModelEvent sut = null; // = new
+                                                           // TreeModelEvent(java.lang.Object,javax.swing.tree.TreePath,int[],java.lang.Object[]);
     }
 
     @Override

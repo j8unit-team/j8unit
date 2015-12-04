@@ -24,62 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanServerDelegateMBean#getImplementationVersion() public abstract
-     * java.lang.String javax.management.MBeanServerDelegateMBean.getImplementationVersion()}.
+     * Test method for {@link javax.management.MBeanServerDelegateMBean#getImplementationName() public abstract
+     * java.lang.String javax.management.MBeanServerDelegateMBean.getImplementationName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getImplementationVersion()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.MBeanServerDelegateMBean#getSpecificationVendor() public abstract
-     * java.lang.String javax.management.MBeanServerDelegateMBean.getSpecificationVendor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSpecificationVendor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.MBeanServerDelegateMBean#getMBeanServerId() public abstract
-     * java.lang.String javax.management.MBeanServerDelegateMBean.getMBeanServerId()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMBeanServerId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.MBeanServerDelegateMBean#getSpecificationVersion() public abstract
-     * java.lang.String javax.management.MBeanServerDelegateMBean.getSpecificationVersion()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSpecificationVersion()
+    public default void test_getImplementationName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,6 +56,38 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.management.MBeanServerDelegateMBean#getImplementationVersion() public abstract
+     * java.lang.String javax.management.MBeanServerDelegateMBean.getImplementationVersion()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImplementationVersion()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.MBeanServerDelegateMBean#getMBeanServerId() public abstract
+     * java.lang.String javax.management.MBeanServerDelegateMBean.getMBeanServerId()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMBeanServerId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.MBeanServerDelegateMBean#getSpecificationName() public abstract
      * java.lang.String javax.management.MBeanServerDelegateMBean.getSpecificationName()}.
      * </p>
@@ -120,14 +104,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanServerDelegateMBean#getImplementationName() public abstract
-     * java.lang.String javax.management.MBeanServerDelegateMBean.getImplementationName()}.
+     * Test method for {@link javax.management.MBeanServerDelegateMBean#getSpecificationVendor() public abstract
+     * java.lang.String javax.management.MBeanServerDelegateMBean.getSpecificationVendor()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getImplementationName()
+    public default void test_getSpecificationVendor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.MBeanServerDelegateMBean#getSpecificationVersion() public abstract
+     * java.lang.String javax.management.MBeanServerDelegateMBean.getSpecificationVersion()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSpecificationVersion()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

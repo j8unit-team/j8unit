@@ -36,87 +36,6 @@ public abstract interface HyperlinkEventClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.swing.event.HyperlinkEvent#HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.awt.event.InputEvent)
-     * public
-     * javax.swing.event.HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.awt.event.InputEvent)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HyperlinkEvent_Object_EventType_URL_String_Element_InputEvent()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.event.HyperlinkEvent sut = null; // = new
-                                                           // HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.awt.event.InputEvent);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.swing.event.HyperlinkEvent#HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String,javax.swing.text.Element)
-     * public
-     * javax.swing.event.HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,javax.swing.text.Element)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HyperlinkEvent_Object_EventType_URL_String_Element()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.event.HyperlinkEvent sut = null; // = new
-                                                           // HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String,javax.swing.text.Element);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.swing.event.HyperlinkEvent#HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String)
-     * public
-     * javax.swing.event.HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HyperlinkEvent_Object_EventType_URL_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.event.HyperlinkEvent sut = null; // = new
-                                                           // HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.swing.event.HyperlinkEvent#HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL)
-     * public
-     * javax.swing.event.HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HyperlinkEvent_Object_EventType_URL()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.event.HyperlinkEvent sut = null; // = new
-                                                           // HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.event.HyperlinkEvent> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.event.HyperlinkEvent.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.event.HyperlinkEvent$EventType class
      * javax.swing.event.HyperlinkEvent$EventType}, containing all class relevant test methods (at least the test
@@ -156,6 +75,87 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
             assertTrue(javax.swing.event.HyperlinkEvent.EventType.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.event.HyperlinkEvent#HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL)
+     * public
+     * javax.swing.event.HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HyperlinkEvent_Object_EventType_URL()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.event.HyperlinkEvent sut = null; // = new
+                                                           // HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.event.HyperlinkEvent#HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String)
+     * public
+     * javax.swing.event.HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HyperlinkEvent_Object_EventType_URL_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.event.HyperlinkEvent sut = null; // = new
+                                                           // HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.event.HyperlinkEvent#HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String,javax.swing.text.Element)
+     * public
+     * javax.swing.event.HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,javax.swing.text.Element)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HyperlinkEvent_Object_EventType_URL_String_Element()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.event.HyperlinkEvent sut = null; // = new
+                                                           // HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String,javax.swing.text.Element);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.event.HyperlinkEvent#HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.awt.event.InputEvent)
+     * public
+     * javax.swing.event.HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.awt.event.InputEvent)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HyperlinkEvent_Object_EventType_URL_String_Element_InputEvent()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.event.HyperlinkEvent sut = null; // = new
+                                                           // HyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.awt.event.InputEvent);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.event.HyperlinkEvent> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.event.HyperlinkEvent.class.isAssignableFrom(sut));
     }
 
 }

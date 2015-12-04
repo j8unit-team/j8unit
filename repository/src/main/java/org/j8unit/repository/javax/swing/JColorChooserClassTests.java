@@ -36,6 +36,19 @@ public abstract interface JColorChooserClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.swing.JColorChooser#JColorChooser() public javax.swing.JColorChooser()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JColorChooser()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JColorChooser sut = null; // = new JColorChooser();
+    }
+
+    /**
      * Test method for {@link javax.swing.JColorChooser#JColorChooser(java.awt.Color) public
      * javax.swing.JColorChooser(java.awt.Color)}.
      */
@@ -47,19 +60,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JColorChooser sut = null; // = new JColorChooser(java.awt.Color);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JColorChooser#JColorChooser() public javax.swing.JColorChooser()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JColorChooser()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JColorChooser sut = null; // = new JColorChooser();
     }
 
     /**
@@ -77,14 +77,23 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
                                                     // JColorChooser(javax.swing.colorchooser.ColorSelectionModel);
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.JColorChooser#createDialog(java.awt.Component,java.lang.String,boolean,javax.swing.JColorChooser,java.awt.event.ActionListener,java.awt.event.ActionListener)
+     * public static javax.swing.JDialog
+     * javax.swing.JColorChooser.createDialog(java.awt.Component,java.lang.String,boolean,javax.swing.JColorChooser,java.awt.event.ActionListener,java.awt.event.ActionListener)
+     * throws java.awt.HeadlessException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_createDialog_Component_String_boolean_JColorChooser_ActionListener_ActionListener()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.JColorChooser> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JColorChooser.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -105,23 +114,14 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.JColorChooser#createDialog(java.awt.Component,java.lang.String,boolean,javax.swing.JColorChooser,java.awt.event.ActionListener,java.awt.event.ActionListener)
-     * public static javax.swing.JDialog
-     * javax.swing.JColorChooser.createDialog(java.awt.Component,java.lang.String,boolean,javax.swing.JColorChooser,java.awt.event.ActionListener,java.awt.event.ActionListener)
-     * throws java.awt.HeadlessException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_createDialog_Component_String_boolean_JColorChooser_ActionListener_ActionListener()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.swing.JColorChooser> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.JColorChooser.class.isAssignableFrom(sut));
     }
 
 }

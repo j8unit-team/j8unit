@@ -37,17 +37,17 @@ extends org.j8unit.repository.javax.swing.MutableComboBoxModelClassTests<SUT, E>
 org.j8unit.repository.javax.swing.AbstractListModelClassTests<SUT, E> {
 
     /**
-     * Test method for {@link javax.swing.DefaultComboBoxModel#DefaultComboBoxModel(java.util.Vector) public
-     * javax.swing.DefaultComboBoxModel(java.util.Vector)}.
+     * Test method for {@link javax.swing.DefaultComboBoxModel#DefaultComboBoxModel() public
+     * javax.swing.DefaultComboBoxModel()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DefaultComboBoxModel_Vector()
+    public default void create_DefaultComboBoxModel()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.DefaultComboBoxModel<E> sut = null; // = new DefaultComboBoxModel(java.util.Vector);
+        final javax.swing.DefaultComboBoxModel<E> sut = null; // = new DefaultComboBoxModel();
     }
 
     /**
@@ -65,17 +65,17 @@ org.j8unit.repository.javax.swing.AbstractListModelClassTests<SUT, E> {
     }
 
     /**
-     * Test method for {@link javax.swing.DefaultComboBoxModel#DefaultComboBoxModel() public
-     * javax.swing.DefaultComboBoxModel()}.
+     * Test method for {@link javax.swing.DefaultComboBoxModel#DefaultComboBoxModel(java.util.Vector) public
+     * javax.swing.DefaultComboBoxModel(java.util.Vector)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DefaultComboBoxModel()
+    public default void create_DefaultComboBoxModel_Vector()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.DefaultComboBoxModel<E> sut = null; // = new DefaultComboBoxModel();
+        final javax.swing.DefaultComboBoxModel<E> sut = null; // = new DefaultComboBoxModel(java.util.Vector);
     }
 
     @Override

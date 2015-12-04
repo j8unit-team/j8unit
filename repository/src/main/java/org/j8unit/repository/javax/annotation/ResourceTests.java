@@ -23,14 +23,32 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.Resource#name() public abstract java.lang.String
-     * javax.annotation.Resource.name()}.
+     * Test class for {@link javax.annotation.Resource$AuthenticationType class
+     * javax.annotation.Resource$AuthenticationType}, containing all instance relevant test methods (i.&thinsp;e., test
+     * methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.annotation.ResourceClassTests.AuthenticationTypeClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface AuthenticationTypeTests<SUT extends javax.annotation.Resource.AuthenticationType>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.annotation.Resource.AuthenticationType> {
+
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.annotation.Resource#authenticationType() public abstract
+     * javax.annotation.Resource$AuthenticationType javax.annotation.Resource.authenticationType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_name()
+    public default void test_authenticationType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,30 +73,14 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.Resource#authenticationType() public abstract
-     * javax.annotation.Resource$AuthenticationType javax.annotation.Resource.authenticationType()}.
+     * Test method for {@link javax.annotation.Resource#lookup() public abstract java.lang.String
+     * javax.annotation.Resource.lookup()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_authenticationType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.annotation.Resource#type() public abstract java.lang.Class
-     * javax.annotation.Resource.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
+    public default void test_lookup()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,6 +105,22 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.annotation.Resource#name() public abstract java.lang.String
+     * javax.annotation.Resource.name()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.annotation.Resource#shareable() public abstract boolean
      * javax.annotation.Resource.shareable()}.
      * </p>
@@ -119,36 +137,18 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.Resource#lookup() public abstract java.lang.String
-     * javax.annotation.Resource.lookup()}.
+     * Test method for {@link javax.annotation.Resource#type() public abstract java.lang.Class
+     * javax.annotation.Resource.type()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_lookup()
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test class for {@link javax.annotation.Resource$AuthenticationType class
-     * javax.annotation.Resource$AuthenticationType}, containing all instance relevant test methods (i.&thinsp;e., test
-     * methods of non-{@code static} methods).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.annotation.ResourceClassTests.AuthenticationTypeClassTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface AuthenticationTypeTests<SUT extends javax.annotation.Resource.AuthenticationType>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.annotation.Resource.AuthenticationType> {
-
     }
 
 }

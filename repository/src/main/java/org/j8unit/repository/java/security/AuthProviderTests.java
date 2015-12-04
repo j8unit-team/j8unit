@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.security.ProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.AuthProvider#logout() public abstract void
-     * java.security.AuthProvider.logout() throws javax.security.auth.login.LoginException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_logout()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.security.AuthProvider#login(javax.security.auth.Subject,javax.security.auth.callback.CallbackHandler)
      * public abstract void
@@ -50,6 +34,22 @@ extends org.j8unit.repository.java.security.ProviderTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_login_Subject_CallbackHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.AuthProvider#logout() public abstract void
+     * java.security.AuthProvider.logout() throws javax.security.auth.login.LoginException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_logout()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

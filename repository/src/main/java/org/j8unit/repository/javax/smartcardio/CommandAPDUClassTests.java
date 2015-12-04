@@ -36,73 +36,17 @@ public abstract interface CommandAPDUClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.smartcardio.CommandAPDU#CommandAPDU(int,int,int,int,int) public
-     * javax.smartcardio.CommandAPDU(int,int,int,int,int)}.
+     * Test method for {@link javax.smartcardio.CommandAPDU#CommandAPDU(byte[]) public
+     * javax.smartcardio.CommandAPDU(byte[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_CommandAPDU_int_int_int_int_int()
+    public default void create_CommandAPDU_byteArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.smartcardio.CommandAPDU sut = null; // = new CommandAPDU(int,int,int,int,int);
-    }
-
-    /**
-     * Test method for {@link javax.smartcardio.CommandAPDU#CommandAPDU(int,int,int,int,byte[]) public
-     * javax.smartcardio.CommandAPDU(int,int,int,int,byte[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CommandAPDU_int_int_int_int_byteArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.smartcardio.CommandAPDU sut = null; // = new CommandAPDU(int,int,int,int,byte[]);
-    }
-
-    /**
-     * Test method for {@link javax.smartcardio.CommandAPDU#CommandAPDU(int,int,int,int,byte[],int,int) public
-     * javax.smartcardio.CommandAPDU(int,int,int,int,byte[],int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CommandAPDU_int_int_int_int_byteArray_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.smartcardio.CommandAPDU sut = null; // = new CommandAPDU(int,int,int,int,byte[],int,int);
-    }
-
-    /**
-     * Test method for {@link javax.smartcardio.CommandAPDU#CommandAPDU(int,int,int,int,byte[],int) public
-     * javax.smartcardio.CommandAPDU(int,int,int,int,byte[],int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CommandAPDU_int_int_int_int_byteArray_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.smartcardio.CommandAPDU sut = null; // = new CommandAPDU(int,int,int,int,byte[],int);
-    }
-
-    /**
-     * Test method for {@link javax.smartcardio.CommandAPDU#CommandAPDU(int,int,int,int,byte[],int,int,int) public
-     * javax.smartcardio.CommandAPDU(int,int,int,int,byte[],int,int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CommandAPDU_int_int_int_int_byteArray_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.smartcardio.CommandAPDU sut = null; // = new CommandAPDU(int,int,int,int,byte[],int,int,int);
+        final javax.smartcardio.CommandAPDU sut = null; // = new CommandAPDU(byte[]);
     }
 
     /**
@@ -117,20 +61,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // create new instance
         @SuppressWarnings("unused")
         final javax.smartcardio.CommandAPDU sut = null; // = new CommandAPDU(byte[],int,int);
-    }
-
-    /**
-     * Test method for {@link javax.smartcardio.CommandAPDU#CommandAPDU(byte[]) public
-     * javax.smartcardio.CommandAPDU(byte[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CommandAPDU_byteArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.smartcardio.CommandAPDU sut = null; // = new CommandAPDU(byte[]);
     }
 
     /**
@@ -159,6 +89,76 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // create new instance
         @SuppressWarnings("unused")
         final javax.smartcardio.CommandAPDU sut = null; // = new CommandAPDU(int,int,int,int);
+    }
+
+    /**
+     * Test method for {@link javax.smartcardio.CommandAPDU#CommandAPDU(int,int,int,int,byte[]) public
+     * javax.smartcardio.CommandAPDU(int,int,int,int,byte[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CommandAPDU_int_int_int_int_byteArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.smartcardio.CommandAPDU sut = null; // = new CommandAPDU(int,int,int,int,byte[]);
+    }
+
+    /**
+     * Test method for {@link javax.smartcardio.CommandAPDU#CommandAPDU(int,int,int,int,byte[],int) public
+     * javax.smartcardio.CommandAPDU(int,int,int,int,byte[],int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CommandAPDU_int_int_int_int_byteArray_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.smartcardio.CommandAPDU sut = null; // = new CommandAPDU(int,int,int,int,byte[],int);
+    }
+
+    /**
+     * Test method for {@link javax.smartcardio.CommandAPDU#CommandAPDU(int,int,int,int,byte[],int,int) public
+     * javax.smartcardio.CommandAPDU(int,int,int,int,byte[],int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CommandAPDU_int_int_int_int_byteArray_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.smartcardio.CommandAPDU sut = null; // = new CommandAPDU(int,int,int,int,byte[],int,int);
+    }
+
+    /**
+     * Test method for {@link javax.smartcardio.CommandAPDU#CommandAPDU(int,int,int,int,byte[],int,int,int) public
+     * javax.smartcardio.CommandAPDU(int,int,int,int,byte[],int,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CommandAPDU_int_int_int_int_byteArray_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.smartcardio.CommandAPDU sut = null; // = new CommandAPDU(int,int,int,int,byte[],int,int,int);
+    }
+
+    /**
+     * Test method for {@link javax.smartcardio.CommandAPDU#CommandAPDU(int,int,int,int,int) public
+     * javax.smartcardio.CommandAPDU(int,int,int,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CommandAPDU_int_int_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.smartcardio.CommandAPDU sut = null; // = new CommandAPDU(int,int,int,int,int);
     }
 
     @Override

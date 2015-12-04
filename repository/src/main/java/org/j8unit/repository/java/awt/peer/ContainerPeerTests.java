@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.ContainerPeer#beginValidate() public abstract void
-     * java.awt.peer.ContainerPeer.beginValidate()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_beginValidate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.peer.ContainerPeer#beginLayout() public abstract void
      * java.awt.peer.ContainerPeer.beginLayout()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_beginLayout()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.ContainerPeer#beginValidate() public abstract void
+     * java.awt.peer.ContainerPeer.beginValidate()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_beginValidate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -34,16 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface MacClassTests<SUT extends Class<? extends javax.crypto.Mac>>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.crypto.Mac> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.crypto.Mac.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.crypto.Mac#getInstance(java.lang.String) public static final javax.crypto.Mac
@@ -92,6 +82,16 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.crypto.Mac> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.crypto.Mac.class.isAssignableFrom(sut));
     }
 
 }

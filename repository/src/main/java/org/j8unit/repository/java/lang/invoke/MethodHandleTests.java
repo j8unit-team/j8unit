@@ -39,6 +39,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#asFixedArity() public java.lang.invoke.MethodHandle
+     * java.lang.invoke.MethodHandle.asFixedArity()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_asFixedArity()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.lang.invoke.MethodHandle#asSpreader(java.lang.Class,int) public
      * java.lang.invoke.MethodHandle java.lang.invoke.MethodHandle.asSpreader(java.lang.Class,int)}.
      * </p>
@@ -47,38 +63,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_asSpreader_Class_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#invokeExact(java.lang.Object...) public final native
-     * java.lang.Object java.lang.invoke.MethodHandle.invokeExact(java.lang.Object...) throws java.lang.Throwable}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_invokeExact_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#invoke(java.lang.Object...) public final native
-     * java.lang.Object java.lang.invoke.MethodHandle.invoke(java.lang.Object...) throws java.lang.Throwable}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_invoke_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,14 +119,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#type() public java.lang.invoke.MethodType
-     * java.lang.invoke.MethodHandle.type()}.
+     * Test method for {@link java.lang.invoke.MethodHandle#invoke(java.lang.Object...) public final native
+     * java.lang.Object java.lang.invoke.MethodHandle.invoke(java.lang.Object...) throws java.lang.Throwable}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_type()
+    public default void test_invoke_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -151,14 +135,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#isVarargsCollector() public boolean
-     * java.lang.invoke.MethodHandle.isVarargsCollector()}.
+     * Test method for {@link java.lang.invoke.MethodHandle#invokeExact(java.lang.Object...) public final native
+     * java.lang.Object java.lang.invoke.MethodHandle.invokeExact(java.lang.Object...) throws java.lang.Throwable}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isVarargsCollector()
+    public default void test_invokeExact_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandle#invokeWithArguments(java.util.List) public java.lang.Object
+     * java.lang.invoke.MethodHandle.invokeWithArguments(java.util.List) throws java.lang.Throwable}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_invokeWithArguments_List()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -184,14 +184,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#invokeWithArguments(java.util.List) public java.lang.Object
-     * java.lang.invoke.MethodHandle.invokeWithArguments(java.util.List) throws java.lang.Throwable}.
+     * Test method for {@link java.lang.invoke.MethodHandle#isVarargsCollector() public boolean
+     * java.lang.invoke.MethodHandle.isVarargsCollector()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_invokeWithArguments_List()
+    public default void test_isVarargsCollector()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -217,14 +217,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandle#asFixedArity() public java.lang.invoke.MethodHandle
-     * java.lang.invoke.MethodHandle.asFixedArity()}.
+     * Test method for {@link java.lang.invoke.MethodHandle#type() public java.lang.invoke.MethodType
+     * java.lang.invoke.MethodHandle.type()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_asFixedArity()
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

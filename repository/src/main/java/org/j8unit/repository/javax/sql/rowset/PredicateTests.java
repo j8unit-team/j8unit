@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.Predicate#evaluate(javax.sql.RowSet) public abstract boolean
-     * javax.sql.rowset.Predicate.evaluate(javax.sql.RowSet)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_evaluate_RowSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sql.rowset.Predicate#evaluate(java.lang.Object,int) public abstract boolean
      * javax.sql.rowset.Predicate.evaluate(java.lang.Object,int) throws java.sql.SQLException}.
      * </p>
@@ -64,6 +48,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_evaluate_Object_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.Predicate#evaluate(javax.sql.RowSet) public abstract boolean
+     * javax.sql.rowset.Predicate.evaluate(javax.sql.RowSet)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_evaluate_RowSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

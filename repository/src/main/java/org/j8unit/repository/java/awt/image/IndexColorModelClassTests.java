@@ -36,6 +36,20 @@ public abstract interface IndexColorModelClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.awt.image.ColorModelClassTests<SUT> {
 
     /**
+     * Test method for {@link java.awt.image.IndexColorModel#IndexColorModel(int,int,byte[],byte[],byte[]) public
+     * java.awt.image.IndexColorModel(int,int,byte[],byte[],byte[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_IndexColorModel_int_int_byteArray_byteArray_byteArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.IndexColorModel sut = null; // = new IndexColorModel(int,int,byte[],byte[],byte[]);
+    }
+
+    /**
      * Test method for {@link java.awt.image.IndexColorModel#IndexColorModel(int,int,byte[],byte[],byte[],byte[]) public
      * java.awt.image.IndexColorModel(int,int,byte[],byte[],byte[],byte[])}.
      */
@@ -47,49 +61,6 @@ extends org.j8unit.repository.java.awt.image.ColorModelClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.image.IndexColorModel sut = null; // = new IndexColorModel(int,int,byte[],byte[],byte[],byte[]);
-    }
-
-    /**
-     * Test method for {@link java.awt.image.IndexColorModel#IndexColorModel(int,int,byte[],int,boolean) public
-     * java.awt.image.IndexColorModel(int,int,byte[],int,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_IndexColorModel_int_int_byteArray_int_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.IndexColorModel sut = null; // = new IndexColorModel(int,int,byte[],int,boolean);
-    }
-
-    /**
-     * Test method for {@link java.awt.image.IndexColorModel#IndexColorModel(int,int,int[],int,int,java.math.BigInteger)
-     * public java.awt.image.IndexColorModel(int,int,int[],int,int,java.math.BigInteger)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_IndexColorModel_int_int_intArray_int_int_BigInteger()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.IndexColorModel sut = null; // = new
-                                                         // IndexColorModel(int,int,int[],int,int,java.math.BigInteger);
-    }
-
-    /**
-     * Test method for {@link java.awt.image.IndexColorModel#IndexColorModel(int,int,int[],int,boolean,int,int) public
-     * java.awt.image.IndexColorModel(int,int,int[],int,boolean,int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_IndexColorModel_int_int_intArray_int_boolean_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.IndexColorModel sut = null; // = new IndexColorModel(int,int,int[],int,boolean,int,int);
     }
 
     /**
@@ -107,17 +78,17 @@ extends org.j8unit.repository.java.awt.image.ColorModelClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.image.IndexColorModel#IndexColorModel(int,int,byte[],byte[],byte[]) public
-     * java.awt.image.IndexColorModel(int,int,byte[],byte[],byte[])}.
+     * Test method for {@link java.awt.image.IndexColorModel#IndexColorModel(int,int,byte[],int,boolean) public
+     * java.awt.image.IndexColorModel(int,int,byte[],int,boolean)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_IndexColorModel_int_int_byteArray_byteArray_byteArray()
+    public default void create_IndexColorModel_int_int_byteArray_int_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.image.IndexColorModel sut = null; // = new IndexColorModel(int,int,byte[],byte[],byte[]);
+        final java.awt.image.IndexColorModel sut = null; // = new IndexColorModel(int,int,byte[],int,boolean);
     }
 
     /**
@@ -132,6 +103,35 @@ extends org.j8unit.repository.java.awt.image.ColorModelClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.image.IndexColorModel sut = null; // = new IndexColorModel(int,int,byte[],int,boolean,int);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.IndexColorModel#IndexColorModel(int,int,int[],int,boolean,int,int) public
+     * java.awt.image.IndexColorModel(int,int,int[],int,boolean,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_IndexColorModel_int_int_intArray_int_boolean_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.IndexColorModel sut = null; // = new IndexColorModel(int,int,int[],int,boolean,int,int);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.IndexColorModel#IndexColorModel(int,int,int[],int,int,java.math.BigInteger)
+     * public java.awt.image.IndexColorModel(int,int,int[],int,int,java.math.BigInteger)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_IndexColorModel_int_int_intArray_int_int_BigInteger()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.IndexColorModel sut = null; // = new
+                                                         // IndexColorModel(int,int,int[],int,int,java.math.BigInteger);
     }
 
     @Override

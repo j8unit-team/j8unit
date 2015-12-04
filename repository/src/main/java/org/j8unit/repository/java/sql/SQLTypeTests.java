@@ -24,14 +24,13 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.SQLType#getVendor() public abstract java.lang.String
-     * java.sql.SQLType.getVendor()}.
+     * Test method for {@link java.sql.SQLType#getName() public abstract java.lang.String java.sql.SQLType.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getVendor()
+    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,13 +39,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.SQLType#getName() public abstract java.lang.String java.sql.SQLType.getName()}.
+     * Test method for {@link java.sql.SQLType#getVendor() public abstract java.lang.String
+     * java.sql.SQLType.getVendor()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName()
+    public default void test_getVendor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,6 +24,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.util.concurrent.locks.Lock#lock() public abstract void
+     * java.util.concurrent.locks.Lock.lock()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lock()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.concurrent.locks.Lock#lockInterruptibly() public abstract void
      * java.util.concurrent.locks.Lock.lockInterruptibly() throws java.lang.InterruptedException}.
      * </p>
@@ -40,22 +56,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.Lock#unlock() public abstract void
-     * java.util.concurrent.locks.Lock.unlock()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unlock()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.concurrent.locks.Lock#newCondition() public abstract
      * java.util.concurrent.locks.Condition java.util.concurrent.locks.Lock.newCondition()}.
      * </p>
@@ -64,22 +64,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_newCondition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.Lock#lock() public abstract void
-     * java.util.concurrent.locks.Lock.lock()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lock()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -113,6 +97,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_tryLock_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.locks.Lock#unlock() public abstract void
+     * java.util.concurrent.locks.Lock.unlock()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unlock()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

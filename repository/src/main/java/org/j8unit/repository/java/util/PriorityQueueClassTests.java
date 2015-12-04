@@ -36,17 +36,16 @@ public abstract interface PriorityQueueClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
 
     /**
-     * Test method for {@link java.util.PriorityQueue#PriorityQueue(int,java.util.Comparator) public
-     * java.util.PriorityQueue(int,java.util.Comparator)}.
+     * Test method for {@link java.util.PriorityQueue#PriorityQueue() public java.util.PriorityQueue()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_PriorityQueue_int_Comparator()
+    public default void create_PriorityQueue()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue(int,java.util.Comparator);
+        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue();
     }
 
     /**
@@ -61,6 +60,47 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // create new instance
         @SuppressWarnings("unused")
         final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue(java.util.Collection);
+    }
+
+    /**
+     * Test method for {@link java.util.PriorityQueue#PriorityQueue(java.util.Comparator) public
+     * java.util.PriorityQueue(java.util.Comparator)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PriorityQueue_Comparator()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue(java.util.Comparator);
+    }
+
+    /**
+     * Test method for {@link java.util.PriorityQueue#PriorityQueue(int) public java.util.PriorityQueue(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PriorityQueue_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue(int);
+    }
+
+    /**
+     * Test method for {@link java.util.PriorityQueue#PriorityQueue(int,java.util.Comparator) public
+     * java.util.PriorityQueue(int,java.util.Comparator)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PriorityQueue_int_Comparator()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue(int,java.util.Comparator);
     }
 
     /**
@@ -89,46 +129,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // create new instance
         @SuppressWarnings("unused")
         final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue(java.util.SortedSet);
-    }
-
-    /**
-     * Test method for {@link java.util.PriorityQueue#PriorityQueue() public java.util.PriorityQueue()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PriorityQueue()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue();
-    }
-
-    /**
-     * Test method for {@link java.util.PriorityQueue#PriorityQueue(int) public java.util.PriorityQueue(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PriorityQueue_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue(int);
-    }
-
-    /**
-     * Test method for {@link java.util.PriorityQueue#PriorityQueue(java.util.Comparator) public
-     * java.util.PriorityQueue(java.util.Comparator)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PriorityQueue_Comparator()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.PriorityQueue<E> sut = null; // = new PriorityQueue(java.util.Comparator);
     }
 
     @Override

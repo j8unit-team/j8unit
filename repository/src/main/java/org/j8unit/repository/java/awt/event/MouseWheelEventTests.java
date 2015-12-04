@@ -39,55 +39,6 @@ extends org.j8unit.repository.java.awt.event.MouseEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.MouseWheelEvent#paramString() public java.lang.String
-     * java.awt.event.MouseWheelEvent.paramString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paramString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.MouseWheelEvent#getWheelRotation() public int
-     * java.awt.event.MouseWheelEvent.getWheelRotation()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWheelRotation()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.MouseWheelEvent#getUnitsToScroll() public int
-     * java.awt.event.MouseWheelEvent.getUnitsToScroll()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUnitsToScroll()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.event.MouseWheelEvent#getScrollAmount() public int
      * java.awt.event.MouseWheelEvent.getScrollAmount()}.
      * </p>
@@ -112,6 +63,55 @@ extends org.j8unit.repository.java.awt.event.MouseEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getScrollType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.MouseWheelEvent#getUnitsToScroll() public int
+     * java.awt.event.MouseWheelEvent.getUnitsToScroll()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUnitsToScroll()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.MouseWheelEvent#getWheelRotation() public int
+     * java.awt.event.MouseWheelEvent.getWheelRotation()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWheelRotation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.MouseWheelEvent#paramString() public java.lang.String
+     * java.awt.event.MouseWheelEvent.paramString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paramString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

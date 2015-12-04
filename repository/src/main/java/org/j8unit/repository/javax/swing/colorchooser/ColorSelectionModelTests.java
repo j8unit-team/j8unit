@@ -42,14 +42,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.colorchooser.ColorSelectionModel#setSelectedColor(java.awt.Color) public
-     * abstract void javax.swing.colorchooser.ColorSelectionModel.setSelectedColor(java.awt.Color)}.
+     * Test method for {@link javax.swing.colorchooser.ColorSelectionModel#getSelectedColor() public abstract
+     * java.awt.Color javax.swing.colorchooser.ColorSelectionModel.getSelectedColor()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSelectedColor_Color()
+    public default void test_getSelectedColor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,14 +76,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.colorchooser.ColorSelectionModel#getSelectedColor() public abstract
-     * java.awt.Color javax.swing.colorchooser.ColorSelectionModel.getSelectedColor()}.
+     * Test method for {@link javax.swing.colorchooser.ColorSelectionModel#setSelectedColor(java.awt.Color) public
+     * abstract void javax.swing.colorchooser.ColorSelectionModel.setSelectedColor(java.awt.Color)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSelectedColor()
+    public default void test_setSelectedColor_Color()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

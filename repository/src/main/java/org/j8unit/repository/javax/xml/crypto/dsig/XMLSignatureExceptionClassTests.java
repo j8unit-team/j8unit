@@ -36,18 +36,31 @@ public abstract interface XMLSignatureExceptionClassTests<SUT extends Class<? ex
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureException#XMLSignatureException(java.lang.Throwable)
-     * public javax.xml.crypto.dsig.XMLSignatureException(java.lang.Throwable)}.
+     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureException#XMLSignatureException() public
+     * javax.xml.crypto.dsig.XMLSignatureException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_XMLSignatureException_Throwable()
+    public default void create_XMLSignatureException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.crypto.dsig.XMLSignatureException sut = null; // = new
-                                                                      // XMLSignatureException(java.lang.Throwable);
+        final javax.xml.crypto.dsig.XMLSignatureException sut = null; // = new XMLSignatureException();
+    }
+
+    /**
+     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureException#XMLSignatureException(java.lang.String) public
+     * javax.xml.crypto.dsig.XMLSignatureException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_XMLSignatureException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.crypto.dsig.XMLSignatureException sut = null; // = new XMLSignatureException(java.lang.String);
     }
 
     /**
@@ -67,31 +80,18 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureException#XMLSignatureException(java.lang.String) public
-     * javax.xml.crypto.dsig.XMLSignatureException(java.lang.String)}.
+     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureException#XMLSignatureException(java.lang.Throwable)
+     * public javax.xml.crypto.dsig.XMLSignatureException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_XMLSignatureException_String()
+    public default void create_XMLSignatureException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.crypto.dsig.XMLSignatureException sut = null; // = new XMLSignatureException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.crypto.dsig.XMLSignatureException#XMLSignatureException() public
-     * javax.xml.crypto.dsig.XMLSignatureException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_XMLSignatureException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.crypto.dsig.XMLSignatureException sut = null; // = new XMLSignatureException();
+        final javax.xml.crypto.dsig.XMLSignatureException sut = null; // = new
+                                                                      // XMLSignatureException(java.lang.Throwable);
     }
 
     @Override

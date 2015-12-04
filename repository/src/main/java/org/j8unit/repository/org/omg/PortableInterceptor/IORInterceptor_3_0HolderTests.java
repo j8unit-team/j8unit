@@ -25,15 +25,15 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
     /**
      * <p>
      * Test method for
-     * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Holder#_write(org.omg.CORBA.portable.OutputStream) public
-     * void org.omg.PortableInterceptor.IORInterceptor_3_0Holder._write(org.omg.CORBA.portable.OutputStream)}.
+     * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Holder#_read(org.omg.CORBA.portable.InputStream) public void
+     * org.omg.PortableInterceptor.IORInterceptor_3_0Holder._read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test__write_OutputStream()
+    public default void test__read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -60,15 +60,15 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
     /**
      * <p>
      * Test method for
-     * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Holder#_read(org.omg.CORBA.portable.InputStream) public void
-     * org.omg.PortableInterceptor.IORInterceptor_3_0Holder._read(org.omg.CORBA.portable.InputStream)}.
+     * {@link org.omg.PortableInterceptor.IORInterceptor_3_0Holder#_write(org.omg.CORBA.portable.OutputStream) public
+     * void org.omg.PortableInterceptor.IORInterceptor_3_0Holder._write(org.omg.CORBA.portable.OutputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test__read_InputStream()
+    public default void test__write_OutputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

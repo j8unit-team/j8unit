@@ -34,16 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface WebParamClassTests<SUT extends Class<? extends javax.jws.WebParam>>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.jws.WebParam> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.jws.WebParam.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.jws.WebParam$Mode class javax.jws.WebParam$Mode}, containing all class relevant test
@@ -73,14 +63,20 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     public static abstract interface ModeClassTests<SUT extends Class<? extends javax.jws.WebParam.Mode>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.jws.WebParam.Mode> {
 
-        @Override
+        /**
+         * <p>
+         * Test method for {@link javax.jws.WebParam.Mode#valueOf(java.lang.String) public static
+         * javax.jws.WebParam$Mode javax.jws.WebParam$Mode.valueOf(java.lang.String)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @Category(Draft.class)
+        public default void test_valueOf_String()
         throws Exception {
-            // create new instance
-            final Class<? extends javax.jws.WebParam.Mode> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.jws.WebParam.Mode.class.isAssignableFrom(sut));
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
         }
 
         /**
@@ -99,22 +95,26 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for {@link javax.jws.WebParam.Mode#valueOf(java.lang.String) public static
-         * javax.jws.WebParam$Mode javax.jws.WebParam$Mode.valueOf(java.lang.String)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
+        public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
+            // create new instance
+            final Class<? extends javax.jws.WebParam.Mode> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.jws.WebParam.Mode.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.jws.WebParam> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.jws.WebParam.class.isAssignableFrom(sut));
     }
 
 }

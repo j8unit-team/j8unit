@@ -36,70 +36,6 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
 org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JToolBar#JToolBar(java.lang.String,int) public
-     * javax.swing.JToolBar(java.lang.String,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JToolBar_String_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JToolBar sut = null; // = new JToolBar(java.lang.String,int);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JToolBar#JToolBar(java.lang.String) public
-     * javax.swing.JToolBar(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JToolBar_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JToolBar sut = null; // = new JToolBar(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JToolBar#JToolBar(int) public javax.swing.JToolBar(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JToolBar_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JToolBar sut = null; // = new JToolBar(int);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JToolBar#JToolBar() public javax.swing.JToolBar()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JToolBar()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JToolBar sut = null; // = new JToolBar();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.JToolBar> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JToolBar.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.JToolBar$Separator class javax.swing.JToolBar$Separator}, containing all class
      * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
@@ -165,6 +101,70 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
             assertTrue(javax.swing.JToolBar.Separator.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.JToolBar#JToolBar() public javax.swing.JToolBar()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JToolBar()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JToolBar sut = null; // = new JToolBar();
+    }
+
+    /**
+     * Test method for {@link javax.swing.JToolBar#JToolBar(int) public javax.swing.JToolBar(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JToolBar_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JToolBar sut = null; // = new JToolBar(int);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JToolBar#JToolBar(java.lang.String) public
+     * javax.swing.JToolBar(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JToolBar_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JToolBar sut = null; // = new JToolBar(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JToolBar#JToolBar(java.lang.String,int) public
+     * javax.swing.JToolBar(java.lang.String,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JToolBar_String_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JToolBar sut = null; // = new JToolBar(java.lang.String,int);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.JToolBar> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.JToolBar.class.isAssignableFrom(sut));
     }
 
 }

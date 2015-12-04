@@ -36,19 +36,33 @@ public abstract interface SimpleTimeZoneClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.util.TimeZoneClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.util.SimpleTimeZone#SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int,int,int,int)
-     * public java.util.SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int,int,int,int)}.
+     * Test method for {@link java.util.SimpleTimeZone#SimpleTimeZone(int,java.lang.String) public
+     * java.util.SimpleTimeZone(int,java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SimpleTimeZone_int_String_int_int_int_int_int_int_int_int_int_int_int()
+    public default void create_SimpleTimeZone_int_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.SimpleTimeZone sut = null; // = new SimpleTimeZone(int,java.lang.String);
+    }
+
+    /**
+     * Test method for
+     * {@link java.util.SimpleTimeZone#SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int) public
+     * java.util.SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SimpleTimeZone_int_String_int_int_int_int_int_int_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.SimpleTimeZone sut = null; // = new
-                                                   // SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int,int,int,int);
+                                                   // SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int);
     }
 
     /**
@@ -69,32 +83,18 @@ extends org.j8unit.repository.java.util.TimeZoneClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.util.SimpleTimeZone#SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int) public
-     * java.util.SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int)}.
+     * {@link java.util.SimpleTimeZone#SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int,int,int,int)
+     * public java.util.SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int,int,int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SimpleTimeZone_int_String_int_int_int_int_int_int_int_int()
+    public default void create_SimpleTimeZone_int_String_int_int_int_int_int_int_int_int_int_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.SimpleTimeZone sut = null; // = new
-                                                   // SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int);
-    }
-
-    /**
-     * Test method for {@link java.util.SimpleTimeZone#SimpleTimeZone(int,java.lang.String) public
-     * java.util.SimpleTimeZone(int,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SimpleTimeZone_int_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.SimpleTimeZone sut = null; // = new SimpleTimeZone(int,java.lang.String);
+                                                   // SimpleTimeZone(int,java.lang.String,int,int,int,int,int,int,int,int,int,int,int);
     }
 
     @Override

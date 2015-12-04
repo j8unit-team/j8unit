@@ -24,6 +24,26 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
 
     /**
      * <p>
+     * Test method for
+     * {@link javax.management.NotificationBroadcasterSupport#addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+     * public void
+     * javax.management.NotificationBroadcasterSupport.addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_addNotificationListener_NotificationListener_NotificationFilter_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.NotificationBroadcasterSupport#getNotificationInfo() public
      * javax.management.MBeanNotificationInfo[] javax.management.NotificationBroadcasterSupport.getNotificationInfo()}.
      * </p>
@@ -33,26 +53,6 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
     @Category(Draft.class)
     @Override
     public default void test_getNotificationInfo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.NotificationBroadcasterSupport#removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
-     * public void
-     * javax.management.NotificationBroadcasterSupport.removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
-     * throws javax.management.ListenerNotFoundException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_removeNotificationListener_NotificationListener_NotificationFilter_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -82,14 +82,17 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
     /**
      * <p>
      * Test method for
-     * {@link javax.management.NotificationBroadcasterSupport#sendNotification(javax.management.Notification) public
-     * void javax.management.NotificationBroadcasterSupport.sendNotification(javax.management.Notification)}.
+     * {@link javax.management.NotificationBroadcasterSupport#removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+     * public void
+     * javax.management.NotificationBroadcasterSupport.removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+     * throws javax.management.ListenerNotFoundException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_sendNotification_Notification()
+    @Override
+    public default void test_removeNotificationListener_NotificationListener_NotificationFilter_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -99,17 +102,14 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
     /**
      * <p>
      * Test method for
-     * {@link javax.management.NotificationBroadcasterSupport#addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
-     * public void
-     * javax.management.NotificationBroadcasterSupport.addNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)}
-     * .
+     * {@link javax.management.NotificationBroadcasterSupport#sendNotification(javax.management.Notification) public
+     * void javax.management.NotificationBroadcasterSupport.sendNotification(javax.management.Notification)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_addNotificationListener_NotificationListener_NotificationFilter_Object()
+    public default void test_sendNotification_Notification()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

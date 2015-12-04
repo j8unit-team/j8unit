@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.DatagramPacket#setSocketAddress(java.net.SocketAddress) public synchronized void
-     * java.net.DatagramPacket.setSocketAddress(java.net.SocketAddress)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSocketAddress_SocketAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.net.DatagramPacket#getAddress() public synchronized java.net.InetAddress
      * java.net.DatagramPacket.getAddress()}.
      * </p>
@@ -47,22 +31,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.DatagramPacket#getLength() public synchronized int
-     * java.net.DatagramPacket.getLength()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,14 +55,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.DatagramPacket#setPort(int) public synchronized void
-     * java.net.DatagramPacket.setPort(int)}.
+     * Test method for {@link java.net.DatagramPacket#getLength() public synchronized int
+     * java.net.DatagramPacket.getLength()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setPort_int()
+    public default void test_getLength()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.DatagramPacket#getOffset() public synchronized int
+     * java.net.DatagramPacket.getOffset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +103,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.DatagramPacket#setLength(int) public synchronized void
-     * java.net.DatagramPacket.setLength(int)}.
+     * Test method for {@link java.net.DatagramPacket#getSocketAddress() public synchronized java.net.SocketAddress
+     * java.net.DatagramPacket.getSocketAddress()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setLength_int()
+    public default void test_getSocketAddress()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,14 +119,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.DatagramPacket#getOffset() public synchronized int
-     * java.net.DatagramPacket.getOffset()}.
+     * Test method for {@link java.net.DatagramPacket#setAddress(java.net.InetAddress) public synchronized void
+     * java.net.DatagramPacket.setAddress(java.net.InetAddress)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOffset()
+    public default void test_setAddress_InetAddress()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -183,14 +167,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.DatagramPacket#getSocketAddress() public synchronized java.net.SocketAddress
-     * java.net.DatagramPacket.getSocketAddress()}.
+     * Test method for {@link java.net.DatagramPacket#setLength(int) public synchronized void
+     * java.net.DatagramPacket.setLength(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSocketAddress()
+    public default void test_setLength_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -199,14 +183,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.DatagramPacket#setAddress(java.net.InetAddress) public synchronized void
-     * java.net.DatagramPacket.setAddress(java.net.InetAddress)}.
+     * Test method for {@link java.net.DatagramPacket#setPort(int) public synchronized void
+     * java.net.DatagramPacket.setPort(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setAddress_InetAddress()
+    public default void test_setPort_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.DatagramPacket#setSocketAddress(java.net.SocketAddress) public synchronized void
+     * java.net.DatagramPacket.setSocketAddress(java.net.SocketAddress)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSocketAddress_SocketAddress()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

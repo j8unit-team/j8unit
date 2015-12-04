@@ -23,91 +23,6 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.BlockView#setParent(javax.swing.text.View) public void
-     * javax.swing.text.html.BlockView.setParent(javax.swing.text.View)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setParent_View()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.BlockView#getMaximumSpan(int) public float
-     * javax.swing.text.html.BlockView.getMaximumSpan(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMaximumSpan_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.BlockView#paint(java.awt.Graphics,java.awt.Shape) public void
-     * javax.swing.text.html.BlockView.paint(java.awt.Graphics,java.awt.Shape)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paint_Graphics_Shape()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.BlockView#getPreferredSpan(int) public float
-     * javax.swing.text.html.BlockView.getPreferredSpan(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPreferredSpan_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.BlockView#getMinimumSpan(int) public float
-     * javax.swing.text.html.BlockView.getMinimumSpan(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMinimumSpan_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.swing.text.html.BlockView#changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)
      * public void
@@ -120,23 +35,6 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_changedUpdate_DocumentEvent_Shape_ViewFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.BlockView#getAttributes() public javax.swing.text.AttributeSet
-     * javax.swing.text.html.BlockView.getAttributes()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAttributes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -162,6 +60,74 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.text.html.BlockView#getAttributes() public javax.swing.text.AttributeSet
+     * javax.swing.text.html.BlockView.getAttributes()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAttributes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.BlockView#getMaximumSpan(int) public float
+     * javax.swing.text.html.BlockView.getMaximumSpan(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMaximumSpan_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.BlockView#getMinimumSpan(int) public float
+     * javax.swing.text.html.BlockView.getMinimumSpan(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMinimumSpan_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.BlockView#getPreferredSpan(int) public float
+     * javax.swing.text.html.BlockView.getPreferredSpan(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPreferredSpan_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.text.html.BlockView#getResizeWeight(int) public int
      * javax.swing.text.html.BlockView.getResizeWeight(int)}.
      * </p>
@@ -171,6 +137,40 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getResizeWeight_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.BlockView#paint(java.awt.Graphics,java.awt.Shape) public void
+     * javax.swing.text.html.BlockView.paint(java.awt.Graphics,java.awt.Shape)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paint_Graphics_Shape()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.BlockView#setParent(javax.swing.text.View) public void
+     * javax.swing.text.html.BlockView.setParent(javax.swing.text.View)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setParent_View()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

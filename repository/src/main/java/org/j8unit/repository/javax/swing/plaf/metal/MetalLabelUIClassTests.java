@@ -49,16 +49,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLabelUIClassTests<SUT>
         final javax.swing.plaf.metal.MetalLabelUI sut = null; // = new MetalLabelUI();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.metal.MetalLabelUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.metal.MetalLabelUI.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalLabelUI#createUI(javax.swing.JComponent) public static
@@ -74,6 +64,16 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLabelUIClassTests<SUT>
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.metal.MetalLabelUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.metal.MetalLabelUI.class.isAssignableFrom(sut));
     }
 
 }

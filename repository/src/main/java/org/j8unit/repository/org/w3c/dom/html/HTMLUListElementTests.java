@@ -23,14 +23,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLUListElement#setCompact(boolean) public abstract void
-     * org.w3c.dom.html.HTMLUListElement.setCompact(boolean)}.
+     * Test method for {@link org.w3c.dom.html.HTMLUListElement#getCompact() public abstract boolean
+     * org.w3c.dom.html.HTMLUListElement.getCompact()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCompact_boolean()
+    public default void test_getCompact()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLUListElement#setType(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLUListElement.setType(java.lang.String)}.
+     * Test method for {@link org.w3c.dom.html.HTMLUListElement#setCompact(boolean) public abstract void
+     * org.w3c.dom.html.HTMLUListElement.setCompact(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setType_String()
+    public default void test_setCompact_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +71,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLUListElement#getCompact() public abstract boolean
-     * org.w3c.dom.html.HTMLUListElement.getCompact()}.
+     * Test method for {@link org.w3c.dom.html.HTMLUListElement#setType(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLUListElement.setType(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCompact()
+    public default void test_setType_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -37,30 +37,6 @@ extends org.j8unit.repository.javax.swing.ListCellRendererClassTests<SUT, java.l
 org.j8unit.repository.javax.swing.JLabelClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.DefaultListCellRenderer#DefaultListCellRenderer() public
-     * javax.swing.DefaultListCellRenderer()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DefaultListCellRenderer()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.DefaultListCellRenderer sut = null; // = new DefaultListCellRenderer();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.DefaultListCellRenderer> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.DefaultListCellRenderer.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.DefaultListCellRenderer$UIResource class
      * javax.swing.DefaultListCellRenderer$UIResource}, containing all class relevant test methods (at least the test
@@ -114,6 +90,30 @@ org.j8unit.repository.javax.swing.JLabelClassTests<SUT> {
             assertTrue(javax.swing.DefaultListCellRenderer.UIResource.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.DefaultListCellRenderer#DefaultListCellRenderer() public
+     * javax.swing.DefaultListCellRenderer()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DefaultListCellRenderer()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.DefaultListCellRenderer sut = null; // = new DefaultListCellRenderer();
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.DefaultListCellRenderer> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.DefaultListCellRenderer.class.isAssignableFrom(sut));
     }
 
 }

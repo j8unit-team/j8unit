@@ -35,17 +35,17 @@ public abstract interface MenuItemClassTests<SUT extends Class<? extends java.aw
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.java.awt.MenuComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.MenuItem#MenuItem(java.lang.String,java.awt.MenuShortcut) public
-     * java.awt.MenuItem(java.lang.String,java.awt.MenuShortcut) throws java.awt.HeadlessException}.
+     * Test method for {@link java.awt.MenuItem#MenuItem() public java.awt.MenuItem() throws java.awt.HeadlessException}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MenuItem_String_MenuShortcut()
+    public default void create_MenuItem()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.MenuItem sut = null; // = new MenuItem(java.lang.String,java.awt.MenuShortcut);
+        final java.awt.MenuItem sut = null; // = new MenuItem();
     }
 
     /**
@@ -63,17 +63,17 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     }
 
     /**
-     * Test method for {@link java.awt.MenuItem#MenuItem() public java.awt.MenuItem() throws java.awt.HeadlessException}
-     * .
+     * Test method for {@link java.awt.MenuItem#MenuItem(java.lang.String,java.awt.MenuShortcut) public
+     * java.awt.MenuItem(java.lang.String,java.awt.MenuShortcut) throws java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MenuItem()
+    public default void create_MenuItem_String_MenuShortcut()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.MenuItem sut = null; // = new MenuItem();
+        final java.awt.MenuItem sut = null; // = new MenuItem(java.lang.String,java.awt.MenuShortcut);
     }
 
     @Override

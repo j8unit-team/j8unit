@@ -23,6 +23,38 @@ extends org.j8unit.repository.javax.imageio.spi.RegisterableServiceTests<SUT>, o
 
     /**
      * <p>
+     * Test method for {@link javax.imageio.spi.IIOServiceProvider#getDescription(java.util.Locale) public abstract
+     * java.lang.String javax.imageio.spi.IIOServiceProvider.getDescription(java.util.Locale)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDescription_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.spi.IIOServiceProvider#getVendorName() public java.lang.String
+     * javax.imageio.spi.IIOServiceProvider.getVendorName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVendorName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.imageio.spi.IIOServiceProvider#getVersion() public java.lang.String
      * javax.imageio.spi.IIOServiceProvider.getVersion()}.
      * </p>
@@ -58,22 +90,6 @@ extends org.j8unit.repository.javax.imageio.spi.RegisterableServiceTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.IIOServiceProvider#getDescription(java.util.Locale) public abstract
-     * java.lang.String javax.imageio.spi.IIOServiceProvider.getDescription(java.util.Locale)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDescription_Locale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.imageio.spi.IIOServiceProvider#onRegistration(javax.imageio.spi.ServiceRegistry,java.lang.Class)
      * public void
@@ -85,22 +101,6 @@ extends org.j8unit.repository.javax.imageio.spi.RegisterableServiceTests<SUT>, o
     @Category(Draft.class)
     @Override
     public default void test_onRegistration_ServiceRegistry_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.spi.IIOServiceProvider#getVendorName() public java.lang.String
-     * javax.imageio.spi.IIOServiceProvider.getVendorName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVendorName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

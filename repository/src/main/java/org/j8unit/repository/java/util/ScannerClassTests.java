@@ -36,45 +36,17 @@ extends org.j8unit.repository.java.util.IteratorClassTests<SUT, java.lang.String
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.Scanner#Scanner(java.io.InputStream) public
-     * java.util.Scanner(java.io.InputStream)}.
+     * Test method for {@link java.util.Scanner#Scanner(java.io.File) public java.util.Scanner(java.io.File) throws
+     * java.io.FileNotFoundException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Scanner_InputStream()
+    public default void create_Scanner_File()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Scanner sut = null; // = new Scanner(java.io.InputStream);
-    }
-
-    /**
-     * Test method for {@link java.util.Scanner#Scanner(java.lang.Readable) public
-     * java.util.Scanner(java.lang.Readable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Scanner_Readable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.Scanner sut = null; // = new Scanner(java.lang.Readable);
-    }
-
-    /**
-     * Test method for {@link java.util.Scanner#Scanner(java.io.InputStream,java.lang.String) public
-     * java.util.Scanner(java.io.InputStream,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Scanner_InputStream_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.Scanner sut = null; // = new Scanner(java.io.InputStream,java.lang.String);
+        final java.util.Scanner sut = null; // = new Scanner(java.io.File);
     }
 
     /**
@@ -92,30 +64,73 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.util.Scanner#Scanner(java.io.File) public java.util.Scanner(java.io.File) throws
-     * java.io.FileNotFoundException}.
+     * Test method for {@link java.util.Scanner#Scanner(java.io.InputStream) public
+     * java.util.Scanner(java.io.InputStream)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Scanner_File()
+    public default void create_Scanner_InputStream()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Scanner sut = null; // = new Scanner(java.io.File);
+        final java.util.Scanner sut = null; // = new Scanner(java.io.InputStream);
     }
 
     /**
-     * Test method for {@link java.util.Scanner#Scanner(java.lang.String) public java.util.Scanner(java.lang.String)}.
+     * Test method for {@link java.util.Scanner#Scanner(java.io.InputStream,java.lang.String) public
+     * java.util.Scanner(java.io.InputStream,java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Scanner_String()
+    public default void create_Scanner_InputStream_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Scanner sut = null; // = new Scanner(java.lang.String);
+        final java.util.Scanner sut = null; // = new Scanner(java.io.InputStream,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.util.Scanner#Scanner(java.nio.file.Path) public java.util.Scanner(java.nio.file.Path)
+     * throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Scanner_Path()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.Scanner sut = null; // = new Scanner(java.nio.file.Path);
+    }
+
+    /**
+     * Test method for {@link java.util.Scanner#Scanner(java.nio.file.Path,java.lang.String) public
+     * java.util.Scanner(java.nio.file.Path,java.lang.String) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Scanner_Path_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.Scanner sut = null; // = new Scanner(java.nio.file.Path,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.util.Scanner#Scanner(java.lang.Readable) public
+     * java.util.Scanner(java.lang.Readable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Scanner_Readable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.Scanner sut = null; // = new Scanner(java.lang.Readable);
     }
 
     /**
@@ -147,31 +162,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.util.Scanner#Scanner(java.nio.file.Path,java.lang.String) public
-     * java.util.Scanner(java.nio.file.Path,java.lang.String) throws java.io.IOException}.
+     * Test method for {@link java.util.Scanner#Scanner(java.lang.String) public java.util.Scanner(java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Scanner_Path_String()
+    public default void create_Scanner_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Scanner sut = null; // = new Scanner(java.nio.file.Path,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.util.Scanner#Scanner(java.nio.file.Path) public java.util.Scanner(java.nio.file.Path)
-     * throws java.io.IOException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Scanner_Path()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.Scanner sut = null; // = new Scanner(java.nio.file.Path);
+        final java.util.Scanner sut = null; // = new Scanner(java.lang.String);
     }
 
     @Override

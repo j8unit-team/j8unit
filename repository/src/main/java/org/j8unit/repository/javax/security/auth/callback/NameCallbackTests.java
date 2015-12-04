@@ -24,14 +24,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.callback.NameCallback#getName() public java.lang.String
-     * javax.security.auth.callback.NameCallback.getName()}.
+     * Test method for {@link javax.security.auth.callback.NameCallback#getDefaultName() public java.lang.String
+     * javax.security.auth.callback.NameCallback.getDefaultName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName()
+    public default void test_getDefaultName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,14 +40,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.callback.NameCallback#setName(java.lang.String) public void
-     * javax.security.auth.callback.NameCallback.setName(java.lang.String)}.
+     * Test method for {@link javax.security.auth.callback.NameCallback#getName() public java.lang.String
+     * javax.security.auth.callback.NameCallback.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setName_String()
+    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +72,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.callback.NameCallback#getDefaultName() public java.lang.String
-     * javax.security.auth.callback.NameCallback.getDefaultName()}.
+     * Test method for {@link javax.security.auth.callback.NameCallback#setName(java.lang.String) public void
+     * javax.security.auth.callback.NameCallback.setName(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDefaultName()
+    public default void test_setName_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

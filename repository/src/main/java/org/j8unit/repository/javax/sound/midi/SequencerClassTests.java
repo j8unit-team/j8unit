@@ -33,16 +33,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface SequencerClassTests<SUT extends Class<? extends javax.sound.midi.Sequencer>>
 extends org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.sound.midi.Sequencer> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.sound.midi.Sequencer.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.sound.midi.Sequencer$SyncMode class javax.sound.midi.Sequencer$SyncMode}, containing
@@ -82,6 +72,16 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<SUT> {
             assertTrue(javax.sound.midi.Sequencer.SyncMode.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.sound.midi.Sequencer> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.sound.midi.Sequencer.class.isAssignableFrom(sut));
     }
 
 }

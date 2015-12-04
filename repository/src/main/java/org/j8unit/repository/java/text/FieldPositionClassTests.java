@@ -36,20 +36,6 @@ public abstract interface FieldPositionClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.text.FieldPosition#FieldPosition(java.text.Format.Field,int) public
-     * java.text.FieldPosition(java.text.Format$Field,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FieldPosition_Field_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.text.FieldPosition sut = null; // = new FieldPosition(java.text.Format.Field,int);
-    }
-
-    /**
      * Test method for {@link java.text.FieldPosition#FieldPosition(java.text.Format.Field) public
      * java.text.FieldPosition(java.text.Format$Field)}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.text.FieldPosition sut = null; // = new FieldPosition(java.text.Format.Field);
+    }
+
+    /**
+     * Test method for {@link java.text.FieldPosition#FieldPosition(java.text.Format.Field,int) public
+     * java.text.FieldPosition(java.text.Format$Field,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FieldPosition_Field_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.text.FieldPosition sut = null; // = new FieldPosition(java.text.Format.Field,int);
     }
 
     /**

@@ -35,35 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ActivatableClassTests<SUT extends Class<? extends java.rmi.activation.Activatable>>
 extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.rmi.activation.Activatable> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.rmi.activation.Activatable.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.rmi.activation.Activatable#exportObject(java.rmi.Remote,java.lang.String,java.rmi.MarshalledObject,boolean,int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)
-     * public static java.rmi.activation.ActivationID
-     * java.rmi.activation.Activatable.exportObject(java.rmi.Remote,java.lang.String,java.rmi.MarshalledObject,boolean,int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)
-     * throws java.rmi.activation.ActivationException,java.rmi.RemoteException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_exportObject_Remote_String_MarshalledObject_boolean_int_RMIClientSocketFactory_RMIServerSocketFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for
@@ -123,6 +94,25 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for
+     * {@link java.rmi.activation.Activatable#exportObject(java.rmi.Remote,java.lang.String,java.rmi.MarshalledObject,boolean,int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)
+     * public static java.rmi.activation.ActivationID
+     * java.rmi.activation.Activatable.exportObject(java.rmi.Remote,java.lang.String,java.rmi.MarshalledObject,boolean,int,java.rmi.server.RMIClientSocketFactory,java.rmi.server.RMIServerSocketFactory)
+     * throws java.rmi.activation.ActivationException,java.rmi.RemoteException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_exportObject_Remote_String_MarshalledObject_boolean_int_RMIClientSocketFactory_RMIServerSocketFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.rmi.activation.Activatable#inactive(java.rmi.activation.ActivationID) public static
      * boolean java.rmi.activation.Activatable.inactive(java.rmi.activation.ActivationID) throws
      * java.rmi.activation.UnknownObjectException,java.rmi.activation.ActivationException,java.rmi.RemoteException}.
@@ -132,23 +122,6 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_inactive_ActivationID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.rmi.activation.Activatable#unexportObject(java.rmi.Remote,boolean) public static
-     * boolean java.rmi.activation.Activatable.unexportObject(java.rmi.Remote,boolean) throws
-     * java.rmi.NoSuchObjectException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unexportObject_Remote_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -174,6 +147,23 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.rmi.activation.Activatable#unexportObject(java.rmi.Remote,boolean) public static
+     * boolean java.rmi.activation.Activatable.unexportObject(java.rmi.Remote,boolean) throws
+     * java.rmi.NoSuchObjectException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unexportObject_Remote_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.rmi.activation.Activatable#unregister(java.rmi.activation.ActivationID) public static
      * void java.rmi.activation.Activatable.unregister(java.rmi.activation.ActivationID) throws
      * java.rmi.activation.UnknownObjectException,java.rmi.activation.ActivationException,java.rmi.RemoteException}.
@@ -187,6 +177,16 @@ extends org.j8unit.repository.java.rmi.server.RemoteServerClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.rmi.activation.Activatable> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.rmi.activation.Activatable.class.isAssignableFrom(sut));
     }
 
 }

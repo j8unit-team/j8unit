@@ -36,60 +36,6 @@ public abstract interface MessageFormatClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
 
     /**
-     * Test method for {@link java.text.MessageFormat#MessageFormat(java.lang.String) public
-     * java.text.MessageFormat(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MessageFormat_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.text.MessageFormat sut = null; // = new MessageFormat(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.text.MessageFormat#MessageFormat(java.lang.String,java.util.Locale) public
-     * java.text.MessageFormat(java.lang.String,java.util.Locale)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MessageFormat_String_Locale()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.text.MessageFormat sut = null; // = new MessageFormat(java.lang.String,java.util.Locale);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.text.MessageFormat> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.text.MessageFormat.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.MessageFormat#format(java.lang.String,java.lang.Object...) public static
-     * java.lang.String java.text.MessageFormat.format(java.lang.String,java.lang.Object...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_format_String_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link java.text.MessageFormat$Field class java.text.MessageFormat$Field}, containing all class
      * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
@@ -128,6 +74,60 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
             assertTrue(java.text.MessageFormat.Field.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link java.text.MessageFormat#MessageFormat(java.lang.String) public
+     * java.text.MessageFormat(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MessageFormat_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.text.MessageFormat sut = null; // = new MessageFormat(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.text.MessageFormat#MessageFormat(java.lang.String,java.util.Locale) public
+     * java.text.MessageFormat(java.lang.String,java.util.Locale)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MessageFormat_String_Locale()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.text.MessageFormat sut = null; // = new MessageFormat(java.lang.String,java.util.Locale);
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.MessageFormat#format(java.lang.String,java.lang.Object...) public static
+     * java.lang.String java.text.MessageFormat.format(java.lang.String,java.lang.Object...)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_format_String_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.text.MessageFormat> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.text.MessageFormat.class.isAssignableFrom(sut));
     }
 
 }

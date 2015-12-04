@@ -37,67 +37,6 @@ extends org.j8unit.repository.javax.management.loading.MLetMBeanClassTests<SUT>,
 org.j8unit.repository.java.io.ExternalizableClassTests<SUT>, org.j8unit.repository.java.net.URLClassLoaderClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.management.loading.MLet#MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory)
-     * public javax.management.loading.MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MLet_URLArray_ClassLoader_URLStreamHandlerFactory()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.loading.MLet sut = null; // = new
-                                                        // MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory);
-    }
-
-    /**
-     * Test method for {@link javax.management.loading.MLet#MLet(java.net.URL[],boolean) public
-     * javax.management.loading.MLet(java.net.URL[],boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MLet_URLArray_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.loading.MLet sut = null; // = new MLet(java.net.URL[],boolean);
-    }
-
-    /**
-     * Test method for {@link javax.management.loading.MLet#MLet(java.net.URL[],java.lang.ClassLoader,boolean) public
-     * javax.management.loading.MLet(java.net.URL[],java.lang.ClassLoader,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MLet_URLArray_ClassLoader_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.loading.MLet sut = null; // = new MLet(java.net.URL[],java.lang.ClassLoader,boolean);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.management.loading.MLet#MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory,boolean)
-     * public
-     * javax.management.loading.MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MLet_URLArray_ClassLoader_URLStreamHandlerFactory_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.loading.MLet sut = null; // = new
-                                                        // MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory,boolean);
-    }
-
-    /**
      * Test method for {@link javax.management.loading.MLet#MLet() public javax.management.loading.MLet()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -125,6 +64,20 @@ org.j8unit.repository.java.io.ExternalizableClassTests<SUT>, org.j8unit.reposito
     }
 
     /**
+     * Test method for {@link javax.management.loading.MLet#MLet(java.net.URL[],boolean) public
+     * javax.management.loading.MLet(java.net.URL[],boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MLet_URLArray_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.loading.MLet sut = null; // = new MLet(java.net.URL[],boolean);
+    }
+
+    /**
      * Test method for {@link javax.management.loading.MLet#MLet(java.net.URL[],java.lang.ClassLoader) public
      * javax.management.loading.MLet(java.net.URL[],java.lang.ClassLoader)}.
      */
@@ -136,6 +89,53 @@ org.j8unit.repository.java.io.ExternalizableClassTests<SUT>, org.j8unit.reposito
         // create new instance
         @SuppressWarnings("unused")
         final javax.management.loading.MLet sut = null; // = new MLet(java.net.URL[],java.lang.ClassLoader);
+    }
+
+    /**
+     * Test method for {@link javax.management.loading.MLet#MLet(java.net.URL[],java.lang.ClassLoader,boolean) public
+     * javax.management.loading.MLet(java.net.URL[],java.lang.ClassLoader,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MLet_URLArray_ClassLoader_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.loading.MLet sut = null; // = new MLet(java.net.URL[],java.lang.ClassLoader,boolean);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.management.loading.MLet#MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory)
+     * public javax.management.loading.MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MLet_URLArray_ClassLoader_URLStreamHandlerFactory()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.loading.MLet sut = null; // = new
+                                                        // MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.management.loading.MLet#MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory,boolean)
+     * public
+     * javax.management.loading.MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MLet_URLArray_ClassLoader_URLStreamHandlerFactory_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.loading.MLet sut = null; // = new
+                                                        // MLet(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory,boolean);
     }
 
     @Override

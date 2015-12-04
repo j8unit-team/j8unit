@@ -23,15 +23,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.lang.StackTraceElement#toString() public java.lang.String
-     * java.lang.StackTraceElement.toString()}.
+     * Test method for {@link java.lang.StackTraceElement#equals(java.lang.Object) public boolean
+     * java.lang.StackTraceElement.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,22 +72,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.lang.StackTraceElement#isNativeMethod() public boolean
-     * java.lang.StackTraceElement.isNativeMethod()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isNativeMethod()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.StackTraceElement#getLineNumber() public int
      * java.lang.StackTraceElement.getLineNumber()}.
      * </p>
@@ -96,6 +80,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_getLineNumber()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.StackTraceElement#getMethodName() public java.lang.String
+     * java.lang.StackTraceElement.getMethodName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMethodName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,15 +120,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.lang.StackTraceElement#equals(java.lang.Object) public boolean
-     * java.lang.StackTraceElement.equals(java.lang.Object)}.
+     * Test method for {@link java.lang.StackTraceElement#isNativeMethod() public boolean
+     * java.lang.StackTraceElement.isNativeMethod()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_isNativeMethod()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -137,14 +136,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.lang.StackTraceElement#getMethodName() public java.lang.String
-     * java.lang.StackTraceElement.getMethodName()}.
+     * Test method for {@link java.lang.StackTraceElement#toString() public java.lang.String
+     * java.lang.StackTraceElement.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMethodName()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

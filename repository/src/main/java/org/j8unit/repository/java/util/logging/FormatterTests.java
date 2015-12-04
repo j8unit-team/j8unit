@@ -39,6 +39,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.util.logging.Formatter#formatMessage(java.util.logging.LogRecord) public synchronized
+     * java.lang.String java.util.logging.Formatter.formatMessage(java.util.logging.LogRecord)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_formatMessage_LogRecord()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.logging.Formatter#getHead(java.util.logging.Handler) public java.lang.String
      * java.util.logging.Formatter.getHead(java.util.logging.Handler)}.
      * </p>
@@ -63,22 +79,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getTail_Handler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.logging.Formatter#formatMessage(java.util.logging.LogRecord) public synchronized
-     * java.lang.String java.util.logging.Formatter.formatMessage(java.util.logging.LogRecord)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_formatMessage_LogRecord()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

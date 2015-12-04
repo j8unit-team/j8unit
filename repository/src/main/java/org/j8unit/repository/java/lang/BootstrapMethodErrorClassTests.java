@@ -36,17 +36,31 @@ public abstract interface BootstrapMethodErrorClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.java.lang.LinkageErrorClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.BootstrapMethodError#BootstrapMethodError(java.lang.Throwable) public
-     * java.lang.BootstrapMethodError(java.lang.Throwable)}.
+     * Test method for {@link java.lang.BootstrapMethodError#BootstrapMethodError() public
+     * java.lang.BootstrapMethodError()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BootstrapMethodError_Throwable()
+    public default void create_BootstrapMethodError()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.BootstrapMethodError sut = null; // = new BootstrapMethodError(java.lang.Throwable);
+        final java.lang.BootstrapMethodError sut = null; // = new BootstrapMethodError();
+    }
+
+    /**
+     * Test method for {@link java.lang.BootstrapMethodError#BootstrapMethodError(java.lang.String) public
+     * java.lang.BootstrapMethodError(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BootstrapMethodError_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.BootstrapMethodError sut = null; // = new BootstrapMethodError(java.lang.String);
     }
 
     /**
@@ -65,31 +79,17 @@ extends org.j8unit.repository.java.lang.LinkageErrorClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.lang.BootstrapMethodError#BootstrapMethodError(java.lang.String) public
-     * java.lang.BootstrapMethodError(java.lang.String)}.
+     * Test method for {@link java.lang.BootstrapMethodError#BootstrapMethodError(java.lang.Throwable) public
+     * java.lang.BootstrapMethodError(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BootstrapMethodError_String()
+    public default void create_BootstrapMethodError_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.BootstrapMethodError sut = null; // = new BootstrapMethodError(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.lang.BootstrapMethodError#BootstrapMethodError() public
-     * java.lang.BootstrapMethodError()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BootstrapMethodError()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.BootstrapMethodError sut = null; // = new BootstrapMethodError();
+        final java.lang.BootstrapMethodError sut = null; // = new BootstrapMethodError(java.lang.Throwable);
     }
 
     @Override

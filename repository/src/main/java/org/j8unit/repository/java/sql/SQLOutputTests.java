@@ -24,38 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.SQLOutput#writeTimestamp(java.sql.Timestamp) public abstract void
-     * java.sql.SQLOutput.writeTimestamp(java.sql.Timestamp) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeTimestamp_Timestamp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.SQLOutput#writeLong(long) public abstract void java.sql.SQLOutput.writeLong(long)
-     * throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeLong_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.sql.SQLOutput#writeArray(java.sql.Array) public abstract void
      * java.sql.SQLOutput.writeArray(java.sql.Array) throws java.sql.SQLException}.
      * </p>
@@ -72,78 +40,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.SQLOutput#writeDouble(double) public abstract void
-     * java.sql.SQLOutput.writeDouble(double) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.SQLOutput#writeAsciiStream(java.io.InputStream) public abstract void
+     * java.sql.SQLOutput.writeAsciiStream(java.io.InputStream) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeDouble_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.SQLOutput#writeClob(java.sql.Clob) public abstract void
-     * java.sql.SQLOutput.writeClob(java.sql.Clob) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeClob_Clob()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.SQLOutput#writeSQLXML(java.sql.SQLXML) public abstract void
-     * java.sql.SQLOutput.writeSQLXML(java.sql.SQLXML) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeSQLXML_SQLXML()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.SQLOutput#writeNString(java.lang.String) public abstract void
-     * java.sql.SQLOutput.writeNString(java.lang.String) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeNString_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.SQLOutput#writeRef(java.sql.Ref) public abstract void
-     * java.sql.SQLOutput.writeRef(java.sql.Ref) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeRef_Ref()
+    public default void test_writeAsciiStream_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -168,94 +72,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.SQLOutput#writeDate(java.sql.Date) public abstract void
-     * java.sql.SQLOutput.writeDate(java.sql.Date) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.SQLOutput#writeBinaryStream(java.io.InputStream) public abstract void
+     * java.sql.SQLOutput.writeBinaryStream(java.io.InputStream) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeDate_Date()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.SQLOutput#writeCharacterStream(java.io.Reader) public abstract void
-     * java.sql.SQLOutput.writeCharacterStream(java.io.Reader) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeCharacterStream_Reader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.SQLOutput#writeFloat(float) public abstract void
-     * java.sql.SQLOutput.writeFloat(float) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeFloat_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.SQLOutput#writeBytes(byte[]) public abstract void
-     * java.sql.SQLOutput.writeBytes(byte[]) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeBytes_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.SQLOutput#writeShort(short) public abstract void
-     * java.sql.SQLOutput.writeShort(short) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeShort_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.SQLOutput#writeStruct(java.sql.Struct) public abstract void
-     * java.sql.SQLOutput.writeStruct(java.sql.Struct) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeStruct_Struct()
+    public default void test_writeBinaryStream_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -296,38 +120,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.SQLOutput#writeString(java.lang.String) public abstract void
-     * java.sql.SQLOutput.writeString(java.lang.String) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeString_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.SQLOutput#writeBinaryStream(java.io.InputStream) public abstract void
-     * java.sql.SQLOutput.writeBinaryStream(java.io.InputStream) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeBinaryStream_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.sql.SQLOutput#writeByte(byte) public abstract void java.sql.SQLOutput.writeByte(byte)
      * throws java.sql.SQLException}.
      * </p>
@@ -344,14 +136,94 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.SQLOutput#writeTime(java.sql.Time) public abstract void
-     * java.sql.SQLOutput.writeTime(java.sql.Time) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.SQLOutput#writeBytes(byte[]) public abstract void
+     * java.sql.SQLOutput.writeBytes(byte[]) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeTime_Time()
+    public default void test_writeBytes_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.SQLOutput#writeCharacterStream(java.io.Reader) public abstract void
+     * java.sql.SQLOutput.writeCharacterStream(java.io.Reader) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeCharacterStream_Reader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.SQLOutput#writeClob(java.sql.Clob) public abstract void
+     * java.sql.SQLOutput.writeClob(java.sql.Clob) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeClob_Clob()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.SQLOutput#writeDate(java.sql.Date) public abstract void
+     * java.sql.SQLOutput.writeDate(java.sql.Date) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeDate_Date()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.SQLOutput#writeDouble(double) public abstract void
+     * java.sql.SQLOutput.writeDouble(double) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeDouble_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.SQLOutput#writeFloat(float) public abstract void
+     * java.sql.SQLOutput.writeFloat(float) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeFloat_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -376,14 +248,46 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.SQLOutput#writeURL(java.net.URL) public abstract void
-     * java.sql.SQLOutput.writeURL(java.net.URL) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.SQLOutput#writeLong(long) public abstract void java.sql.SQLOutput.writeLong(long)
+     * throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeURL_URL()
+    public default void test_writeLong_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.SQLOutput#writeNClob(java.sql.NClob) public abstract void
+     * java.sql.SQLOutput.writeNClob(java.sql.NClob) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeNClob_NClob()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.SQLOutput#writeNString(java.lang.String) public abstract void
+     * java.sql.SQLOutput.writeNString(java.lang.String) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeNString_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -424,14 +328,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.SQLOutput#writeNClob(java.sql.NClob) public abstract void
-     * java.sql.SQLOutput.writeNClob(java.sql.NClob) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.SQLOutput#writeRef(java.sql.Ref) public abstract void
+     * java.sql.SQLOutput.writeRef(java.sql.Ref) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeNClob_NClob()
+    public default void test_writeRef_Ref()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -456,14 +360,110 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.SQLOutput#writeAsciiStream(java.io.InputStream) public abstract void
-     * java.sql.SQLOutput.writeAsciiStream(java.io.InputStream) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.SQLOutput#writeShort(short) public abstract void
+     * java.sql.SQLOutput.writeShort(short) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeAsciiStream_InputStream()
+    public default void test_writeShort_short()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.SQLOutput#writeSQLXML(java.sql.SQLXML) public abstract void
+     * java.sql.SQLOutput.writeSQLXML(java.sql.SQLXML) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeSQLXML_SQLXML()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.SQLOutput#writeString(java.lang.String) public abstract void
+     * java.sql.SQLOutput.writeString(java.lang.String) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeString_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.SQLOutput#writeStruct(java.sql.Struct) public abstract void
+     * java.sql.SQLOutput.writeStruct(java.sql.Struct) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeStruct_Struct()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.SQLOutput#writeTime(java.sql.Time) public abstract void
+     * java.sql.SQLOutput.writeTime(java.sql.Time) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeTime_Time()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.SQLOutput#writeTimestamp(java.sql.Timestamp) public abstract void
+     * java.sql.SQLOutput.writeTimestamp(java.sql.Timestamp) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeTimestamp_Timestamp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.SQLOutput#writeURL(java.net.URL) public abstract void
+     * java.sql.SQLOutput.writeURL(java.net.URL) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeURL_URL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

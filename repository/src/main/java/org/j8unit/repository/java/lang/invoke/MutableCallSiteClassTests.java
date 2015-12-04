@@ -36,20 +36,6 @@ public abstract interface MutableCallSiteClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.lang.invoke.CallSiteClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.invoke.MutableCallSite#MutableCallSite(java.lang.invoke.MethodType) public
-     * java.lang.invoke.MutableCallSite(java.lang.invoke.MethodType)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MutableCallSite_MethodType()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.invoke.MutableCallSite sut = null; // = new MutableCallSite(java.lang.invoke.MethodType);
-    }
-
-    /**
      * Test method for {@link java.lang.invoke.MutableCallSite#MutableCallSite(java.lang.invoke.MethodHandle) public
      * java.lang.invoke.MutableCallSite(java.lang.invoke.MethodHandle)}.
      */
@@ -63,14 +49,18 @@ extends org.j8unit.repository.java.lang.invoke.CallSiteClassTests<SUT> {
         final java.lang.invoke.MutableCallSite sut = null; // = new MutableCallSite(java.lang.invoke.MethodHandle);
     }
 
-    @Override
+    /**
+     * Test method for {@link java.lang.invoke.MutableCallSite#MutableCallSite(java.lang.invoke.MethodType) public
+     * java.lang.invoke.MutableCallSite(java.lang.invoke.MethodType)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_MutableCallSite_MethodType()
     throws Exception {
         // create new instance
-        final Class<? extends java.lang.invoke.MutableCallSite> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.invoke.MutableCallSite.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final java.lang.invoke.MutableCallSite sut = null; // = new MutableCallSite(java.lang.invoke.MethodType);
     }
 
     /**
@@ -87,6 +77,16 @@ extends org.j8unit.repository.java.lang.invoke.CallSiteClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.lang.invoke.MutableCallSite> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.invoke.MutableCallSite.class.isAssignableFrom(sut));
     }
 
 }

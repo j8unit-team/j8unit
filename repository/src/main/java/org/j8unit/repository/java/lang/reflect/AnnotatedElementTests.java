@@ -24,14 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.AnnotatedElement#getDeclaredAnnotations() public abstract
-     * java.lang.annotation.Annotation[] java.lang.reflect.AnnotatedElement.getDeclaredAnnotations()}.
+     * Test method for {@link java.lang.reflect.AnnotatedElement#getAnnotation(java.lang.Class) public abstract
+     * java.lang.annotation.Annotation java.lang.reflect.AnnotatedElement.getAnnotation(java.lang.Class)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDeclaredAnnotations()
+    public default void test_getAnnotation_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,6 +56,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.lang.reflect.AnnotatedElement#getAnnotationsByType(java.lang.Class) public default
+     * java.lang.annotation.Annotation[] java.lang.reflect.AnnotatedElement.getAnnotationsByType(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAnnotationsByType_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.lang.reflect.AnnotatedElement#getDeclaredAnnotation(java.lang.Class) public default
      * java.lang.annotation.Annotation java.lang.reflect.AnnotatedElement.getDeclaredAnnotation(java.lang.Class)}.
      * </p>
@@ -72,14 +88,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.AnnotatedElement#getAnnotation(java.lang.Class) public abstract
-     * java.lang.annotation.Annotation java.lang.reflect.AnnotatedElement.getAnnotation(java.lang.Class)}.
+     * Test method for {@link java.lang.reflect.AnnotatedElement#getDeclaredAnnotations() public abstract
+     * java.lang.annotation.Annotation[] java.lang.reflect.AnnotatedElement.getDeclaredAnnotations()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAnnotation_Class()
+    public default void test_getDeclaredAnnotations()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -113,22 +129,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isAnnotationPresent_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.AnnotatedElement#getAnnotationsByType(java.lang.Class) public default
-     * java.lang.annotation.Annotation[] java.lang.reflect.AnnotatedElement.getAnnotationsByType(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAnnotationsByType_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

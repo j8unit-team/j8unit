@@ -47,14 +47,90 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.beans.Beans sut = null; // = new Beans();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.beans.Beans#getInstanceOf(java.lang.Object,java.lang.Class) public static
+     * java.lang.Object java.beans.Beans.getInstanceOf(java.lang.Object,java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getInstanceOf_Object_Class()
     throws Exception {
-        // create new instance
-        final Class<? extends java.beans.Beans> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.beans.Beans.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.Beans#instantiate(java.lang.ClassLoader,java.lang.String) public static
+     * java.lang.Object java.beans.Beans.instantiate(java.lang.ClassLoader,java.lang.String) throws
+     * java.io.IOException,java.lang.ClassNotFoundException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_instantiate_ClassLoader_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.beans.Beans#instantiate(java.lang.ClassLoader,java.lang.String,java.beans.beancontext.BeanContext)
+     * public static java.lang.Object
+     * java.beans.Beans.instantiate(java.lang.ClassLoader,java.lang.String,java.beans.beancontext.BeanContext) throws
+     * java.io.IOException,java.lang.ClassNotFoundException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_instantiate_ClassLoader_String_BeanContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.beans.Beans#instantiate(java.lang.ClassLoader,java.lang.String,java.beans.beancontext.BeanContext,java.beans.AppletInitializer)
+     * public static java.lang.Object
+     * java.beans.Beans.instantiate(java.lang.ClassLoader,java.lang.String,java.beans.beancontext.BeanContext,java.beans.AppletInitializer)
+     * throws java.io.IOException,java.lang.ClassNotFoundException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_instantiate_ClassLoader_String_BeanContext_AppletInitializer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.Beans#isDesignTime() public static boolean java.beans.Beans.isDesignTime()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isDesignTime()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -107,61 +183,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.beans.Beans#instantiate(java.lang.ClassLoader,java.lang.String) public static
-     * java.lang.Object java.beans.Beans.instantiate(java.lang.ClassLoader,java.lang.String) throws
-     * java.io.IOException,java.lang.ClassNotFoundException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_instantiate_ClassLoader_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.beans.Beans#instantiate(java.lang.ClassLoader,java.lang.String,java.beans.beancontext.BeanContext,java.beans.AppletInitializer)
-     * public static java.lang.Object
-     * java.beans.Beans.instantiate(java.lang.ClassLoader,java.lang.String,java.beans.beancontext.BeanContext,java.beans.AppletInitializer)
-     * throws java.io.IOException,java.lang.ClassNotFoundException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_instantiate_ClassLoader_String_BeanContext_AppletInitializer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.beans.Beans#instantiate(java.lang.ClassLoader,java.lang.String,java.beans.beancontext.BeanContext)
-     * public static java.lang.Object
-     * java.beans.Beans.instantiate(java.lang.ClassLoader,java.lang.String,java.beans.beancontext.BeanContext) throws
-     * java.io.IOException,java.lang.ClassNotFoundException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_instantiate_ClassLoader_String_BeanContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.beans.Beans#setGuiAvailable(boolean) public static void
      * java.beans.Beans.setGuiAvailable(boolean) throws java.lang.SecurityException}.
      * </p>
@@ -176,35 +197,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.beans.Beans#isDesignTime() public static boolean java.beans.Beans.isDesignTime()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_isDesignTime()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.Beans#getInstanceOf(java.lang.Object,java.lang.Class) public static
-     * java.lang.Object java.beans.Beans.getInstanceOf(java.lang.Object,java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInstanceOf_Object_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.beans.Beans> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.beans.Beans.class.isAssignableFrom(sut));
     }
 
 }

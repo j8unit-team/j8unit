@@ -48,59 +48,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.CORBA.ValueBaseHelper sut = null; // = new ValueBaseHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.CORBA.ValueBaseHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.CORBA.ValueBaseHelper.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.CORBA.ValueBaseHelper#write(org.omg.CORBA.portable.OutputStream,java.io.Serializable) public
-     * static void org.omg.CORBA.ValueBaseHelper.write(org.omg.CORBA.portable.OutputStream,java.io.Serializable)}.
+     * Test method for {@link org.omg.CORBA.ValueBaseHelper#extract(org.omg.CORBA.Any) public static
+     * java.io.Serializable org.omg.CORBA.ValueBaseHelper.extract(org.omg.CORBA.Any)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_OutputStream_Serializable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ValueBaseHelper#type() public static synchronized org.omg.CORBA.TypeCode
-     * org.omg.CORBA.ValueBaseHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ValueBaseHelper#insert(org.omg.CORBA.Any,java.io.Serializable) public static
-     * void org.omg.CORBA.ValueBaseHelper.insert(org.omg.CORBA.Any,java.io.Serializable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_Any_Serializable()
+    public default void test_extract_Any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -125,6 +82,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.omg.CORBA.ValueBaseHelper#insert(org.omg.CORBA.Any,java.io.Serializable) public static
+     * void org.omg.CORBA.ValueBaseHelper.insert(org.omg.CORBA.Any,java.io.Serializable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_Serializable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.omg.CORBA.ValueBaseHelper#read(org.omg.CORBA.portable.InputStream) public static
      * java.io.Serializable org.omg.CORBA.ValueBaseHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
@@ -141,18 +114,45 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ValueBaseHelper#extract(org.omg.CORBA.Any) public static
-     * java.io.Serializable org.omg.CORBA.ValueBaseHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for {@link org.omg.CORBA.ValueBaseHelper#type() public static synchronized org.omg.CORBA.TypeCode
+     * org.omg.CORBA.ValueBaseHelper.type()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_extract_Any()
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.CORBA.ValueBaseHelper#write(org.omg.CORBA.portable.OutputStream,java.io.Serializable) public
+     * static void org.omg.CORBA.ValueBaseHelper.write(org.omg.CORBA.portable.OutputStream,java.io.Serializable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_Serializable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.CORBA.ValueBaseHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.CORBA.ValueBaseHelper.class.isAssignableFrom(sut));
     }
 
 }

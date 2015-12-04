@@ -24,6 +24,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.ScrollPaneAdjustable#addAdjustmentListener(java.awt.event.AdjustmentListener)
+     * public synchronized void java.awt.ScrollPaneAdjustable.addAdjustmentListener(java.awt.event.AdjustmentListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_addAdjustmentListener_AdjustmentListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.ScrollPaneAdjustable#getAdjustmentListeners() public synchronized
      * java.awt.event.AdjustmentListener[] java.awt.ScrollPaneAdjustable.getAdjustmentListeners()}.
      * </p>
@@ -32,157 +49,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAdjustmentListeners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#getMinimum() public int
-     * java.awt.ScrollPaneAdjustable.getMinimum()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMinimum()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#toString() public java.lang.String
-     * java.awt.ScrollPaneAdjustable.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#setBlockIncrement(int) public synchronized void
-     * java.awt.ScrollPaneAdjustable.setBlockIncrement(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setBlockIncrement_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#getValueIsAdjusting() public boolean
-     * java.awt.ScrollPaneAdjustable.getValueIsAdjusting()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getValueIsAdjusting()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#setMinimum(int) public void
-     * java.awt.ScrollPaneAdjustable.setMinimum(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setMinimum_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#getValue() public int
-     * java.awt.ScrollPaneAdjustable.getValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#paramString() public java.lang.String
-     * java.awt.ScrollPaneAdjustable.paramString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_paramString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#getUnitIncrement() public int
-     * java.awt.ScrollPaneAdjustable.getUnitIncrement()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getUnitIncrement()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#setVisibleAmount(int) public void
-     * java.awt.ScrollPaneAdjustable.setVisibleAmount(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setVisibleAmount_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -208,6 +74,40 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.ScrollPaneAdjustable#getMaximum() public int
+     * java.awt.ScrollPaneAdjustable.getMaximum()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMaximum()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.ScrollPaneAdjustable#getMinimum() public int
+     * java.awt.ScrollPaneAdjustable.getMinimum()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMinimum()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.ScrollPaneAdjustable#getOrientation() public int
      * java.awt.ScrollPaneAdjustable.getOrientation()}.
      * </p>
@@ -225,15 +125,81 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#setUnitIncrement(int) public synchronized void
-     * java.awt.ScrollPaneAdjustable.setUnitIncrement(int)}.
+     * Test method for {@link java.awt.ScrollPaneAdjustable#getUnitIncrement() public int
+     * java.awt.ScrollPaneAdjustable.getUnitIncrement()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setUnitIncrement_int()
+    public default void test_getUnitIncrement()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.ScrollPaneAdjustable#getValue() public int
+     * java.awt.ScrollPaneAdjustable.getValue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.ScrollPaneAdjustable#getValueIsAdjusting() public boolean
+     * java.awt.ScrollPaneAdjustable.getValueIsAdjusting()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getValueIsAdjusting()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.ScrollPaneAdjustable#getVisibleAmount() public int
+     * java.awt.ScrollPaneAdjustable.getVisibleAmount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getVisibleAmount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.ScrollPaneAdjustable#paramString() public java.lang.String
+     * java.awt.ScrollPaneAdjustable.paramString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_paramString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -260,14 +226,66 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#setValueIsAdjusting(boolean) public void
-     * java.awt.ScrollPaneAdjustable.setValueIsAdjusting(boolean)}.
+     * Test method for {@link java.awt.ScrollPaneAdjustable#setBlockIncrement(int) public synchronized void
+     * java.awt.ScrollPaneAdjustable.setBlockIncrement(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setValueIsAdjusting_boolean()
+    @Override
+    public default void test_setBlockIncrement_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.ScrollPaneAdjustable#setMaximum(int) public void
+     * java.awt.ScrollPaneAdjustable.setMaximum(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setMaximum_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.ScrollPaneAdjustable#setMinimum(int) public void
+     * java.awt.ScrollPaneAdjustable.setMinimum(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setMinimum_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.ScrollPaneAdjustable#setUnitIncrement(int) public synchronized void
+     * java.awt.ScrollPaneAdjustable.setUnitIncrement(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setUnitIncrement_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -293,15 +311,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#getVisibleAmount() public int
-     * java.awt.ScrollPaneAdjustable.getVisibleAmount()}.
+     * Test method for {@link java.awt.ScrollPaneAdjustable#setValueIsAdjusting(boolean) public void
+     * java.awt.ScrollPaneAdjustable.setValueIsAdjusting(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getVisibleAmount()
+    public default void test_setValueIsAdjusting_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -310,15 +327,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#addAdjustmentListener(java.awt.event.AdjustmentListener)
-     * public synchronized void java.awt.ScrollPaneAdjustable.addAdjustmentListener(java.awt.event.AdjustmentListener)}.
+     * Test method for {@link java.awt.ScrollPaneAdjustable#setVisibleAmount(int) public void
+     * java.awt.ScrollPaneAdjustable.setVisibleAmount(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_addAdjustmentListener_AdjustmentListener()
+    public default void test_setVisibleAmount_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -327,32 +344,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#getMaximum() public int
-     * java.awt.ScrollPaneAdjustable.getMaximum()}.
+     * Test method for {@link java.awt.ScrollPaneAdjustable#toString() public java.lang.String
+     * java.awt.ScrollPaneAdjustable.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getMaximum()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.ScrollPaneAdjustable#setMaximum(int) public void
-     * java.awt.ScrollPaneAdjustable.setMaximum(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setMaximum_int()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

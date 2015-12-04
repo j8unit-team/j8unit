@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.awt.event.KeyEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.MenuKeyEvent#getPath() public javax.swing.MenuElement[]
-     * javax.swing.event.MenuKeyEvent.getPath()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.event.MenuKeyEvent#getMenuSelectionManager() public
      * javax.swing.MenuSelectionManager javax.swing.event.MenuKeyEvent.getMenuSelectionManager()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.awt.event.KeyEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMenuSelectionManager()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.event.MenuKeyEvent#getPath() public javax.swing.MenuElement[]
+     * javax.swing.event.MenuKeyEvent.getPath()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPath()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

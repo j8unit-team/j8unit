@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ParserFactoryClassTests<SUT extends Class<? extends org.xml.sax.helpers.ParserFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.xml.sax.helpers.ParserFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.xml.sax.helpers.ParserFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link org.xml.sax.helpers.ParserFactory#makeParser() public static org.xml.sax.Parser
@@ -79,6 +69,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.xml.sax.helpers.ParserFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.xml.sax.helpers.ParserFactory.class.isAssignableFrom(sut));
     }
 
 }

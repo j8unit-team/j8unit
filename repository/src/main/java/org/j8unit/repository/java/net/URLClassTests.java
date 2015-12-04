@@ -35,34 +35,6 @@ public abstract interface URLClassTests<SUT extends Class<? extends java.net.URL
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.net.URL#URL(java.net.URL,java.lang.String,java.net.URLStreamHandler) public
-     * java.net.URL(java.net.URL,java.lang.String,java.net.URLStreamHandler) throws java.net.MalformedURLException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_URL_URL_String_URLStreamHandler()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.URL sut = null; // = new URL(java.net.URL,java.lang.String,java.net.URLStreamHandler);
-    }
-
-    /**
-     * Test method for {@link java.net.URL#URL(java.net.URL,java.lang.String) public
-     * java.net.URL(java.net.URL,java.lang.String) throws java.net.MalformedURLException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_URL_URL_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.URL sut = null; // = new URL(java.net.URL,java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.net.URL#URL(java.lang.String) public java.net.URL(java.lang.String) throws
      * java.net.MalformedURLException}.
      */
@@ -91,20 +63,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     }
 
     /**
-     * Test method for {@link java.net.URL#URL(java.lang.String,java.lang.String,java.lang.String) public
-     * java.net.URL(java.lang.String,java.lang.String,java.lang.String) throws java.net.MalformedURLException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_URL_String_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.URL sut = null; // = new URL(java.lang.String,java.lang.String,java.lang.String);
-    }
-
-    /**
      * Test method for
      * {@link java.net.URL#URL(java.lang.String,java.lang.String,int,java.lang.String,java.net.URLStreamHandler) public
      * java.net.URL(java.lang.String,java.lang.String,int,java.lang.String,java.net.URLStreamHandler) throws
@@ -121,14 +79,46 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
                                        // URL(java.lang.String,java.lang.String,int,java.lang.String,java.net.URLStreamHandler);
     }
 
-    @Override
+    /**
+     * Test method for {@link java.net.URL#URL(java.lang.String,java.lang.String,java.lang.String) public
+     * java.net.URL(java.lang.String,java.lang.String,java.lang.String) throws java.net.MalformedURLException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_URL_String_String_String()
     throws Exception {
         // create new instance
-        final Class<? extends java.net.URL> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.net.URL.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final java.net.URL sut = null; // = new URL(java.lang.String,java.lang.String,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.net.URL#URL(java.net.URL,java.lang.String) public
+     * java.net.URL(java.net.URL,java.lang.String) throws java.net.MalformedURLException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_URL_URL_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.URL sut = null; // = new URL(java.net.URL,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.net.URL#URL(java.net.URL,java.lang.String,java.net.URLStreamHandler) public
+     * java.net.URL(java.net.URL,java.lang.String,java.net.URLStreamHandler) throws java.net.MalformedURLException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_URL_URL_String_URLStreamHandler()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.URL sut = null; // = new URL(java.net.URL,java.lang.String,java.net.URLStreamHandler);
     }
 
     /**
@@ -145,6 +135,16 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.net.URL> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.URL.class.isAssignableFrom(sut));
     }
 
 }

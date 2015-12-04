@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.awt.event.MouseMotionListenerTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.MouseMotionAdapter#mouseMoved(java.awt.event.MouseEvent) public void
-     * java.awt.event.MouseMotionAdapter.mouseMoved(java.awt.event.MouseEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_mouseMoved_MouseEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.event.MouseMotionAdapter#mouseDragged(java.awt.event.MouseEvent) public void
      * java.awt.event.MouseMotionAdapter.mouseDragged(java.awt.event.MouseEvent)}.
      * </p>
@@ -49,6 +32,23 @@ extends org.j8unit.repository.java.awt.event.MouseMotionListenerTests<SUT>, org.
     @Category(Draft.class)
     @Override
     public default void test_mouseDragged_MouseEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.MouseMotionAdapter#mouseMoved(java.awt.event.MouseEvent) public void
+     * java.awt.event.MouseMotionAdapter.mouseMoved(java.awt.event.MouseEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_mouseMoved_MouseEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

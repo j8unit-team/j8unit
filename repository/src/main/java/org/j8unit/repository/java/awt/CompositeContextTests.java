@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.CompositeContext#dispose() public abstract void
-     * java.awt.CompositeContext.dispose()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_dispose()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.awt.CompositeContext#compose(java.awt.image.Raster,java.awt.image.Raster,java.awt.image.WritableRaster)
      * public abstract void
@@ -50,6 +34,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_compose_Raster_Raster_WritableRaster()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.CompositeContext#dispose() public abstract void
+     * java.awt.CompositeContext.dispose()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_dispose()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

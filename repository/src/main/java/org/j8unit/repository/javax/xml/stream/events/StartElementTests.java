@@ -23,46 +23,15 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.events.StartElement#getNamespaceURI(java.lang.String) public abstract
-     * java.lang.String javax.xml.stream.events.StartElement.getNamespaceURI(java.lang.String)}.
+     * Test method for {@link javax.xml.stream.events.StartElement#getAttributeByName(javax.xml.namespace.QName) public
+     * abstract javax.xml.stream.events.Attribute
+     * javax.xml.stream.events.StartElement.getAttributeByName(javax.xml.namespace.QName)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNamespaceURI_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.events.StartElement#getNamespaceContext() public abstract
-     * javax.xml.namespace.NamespaceContext javax.xml.stream.events.StartElement.getNamespaceContext()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNamespaceContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.events.StartElement#getName() public abstract javax.xml.namespace.QName
-     * javax.xml.stream.events.StartElement.getName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getName()
+    public default void test_getAttributeByName_QName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,15 +56,30 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.events.StartElement#getAttributeByName(javax.xml.namespace.QName) public
-     * abstract javax.xml.stream.events.Attribute
-     * javax.xml.stream.events.StartElement.getAttributeByName(javax.xml.namespace.QName)}.
+     * Test method for {@link javax.xml.stream.events.StartElement#getName() public abstract javax.xml.namespace.QName
+     * javax.xml.stream.events.StartElement.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAttributeByName_QName()
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.events.StartElement#getNamespaceContext() public abstract
+     * javax.xml.namespace.NamespaceContext javax.xml.stream.events.StartElement.getNamespaceContext()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNamespaceContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -112,6 +96,22 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getNamespaces()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.events.StartElement#getNamespaceURI(java.lang.String) public abstract
+     * java.lang.String javax.xml.stream.events.StartElement.getNamespaceURI(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNamespaceURI_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

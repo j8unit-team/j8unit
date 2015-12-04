@@ -23,6 +23,39 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.io.PipedReader#close() public void java.io.PipedReader.close() throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.PipedReader#connect(java.io.PipedWriter) public void
+     * java.io.PipedReader.connect(java.io.PipedWriter) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_connect_PipedWriter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.io.PipedReader#read() public synchronized int java.io.PipedReader.read() throws
      * java.io.IOException}.
      * </p>
@@ -66,39 +99,6 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_ready()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.PipedReader#close() public void java.io.PipedReader.close() throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.PipedReader#connect(java.io.PipedWriter) public void
-     * java.io.PipedReader.connect(java.io.PipedWriter) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_connect_PipedWriter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

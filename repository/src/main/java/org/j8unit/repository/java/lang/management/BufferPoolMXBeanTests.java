@@ -23,30 +23,14 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.lang.management.BufferPoolMXBean#getName() public abstract java.lang.String
-     * java.lang.management.BufferPoolMXBean.getName()}.
+     * Test method for {@link java.lang.management.BufferPoolMXBean#getCount() public abstract long
+     * java.lang.management.BufferPoolMXBean.getCount()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.management.BufferPoolMXBean#getTotalCapacity() public abstract long
-     * java.lang.management.BufferPoolMXBean.getTotalCapacity()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTotalCapacity()
+    public default void test_getCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +55,30 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.lang.management.BufferPoolMXBean#getCount() public abstract long
-     * java.lang.management.BufferPoolMXBean.getCount()}.
+     * Test method for {@link java.lang.management.BufferPoolMXBean#getName() public abstract java.lang.String
+     * java.lang.management.BufferPoolMXBean.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCount()
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.management.BufferPoolMXBean#getTotalCapacity() public abstract long
+     * java.lang.management.BufferPoolMXBean.getTotalCapacity()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTotalCapacity()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

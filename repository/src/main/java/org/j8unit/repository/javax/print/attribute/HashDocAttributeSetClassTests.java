@@ -37,19 +37,33 @@ extends org.j8unit.repository.javax.print.attribute.DocAttributeSetClassTests<SU
 org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.print.attribute.HashDocAttributeSet#HashDocAttributeSet(javax.print.attribute.DocAttributeSet)
-     * public javax.print.attribute.HashDocAttributeSet(javax.print.attribute.DocAttributeSet)}.
+     * Test method for {@link javax.print.attribute.HashDocAttributeSet#HashDocAttributeSet() public
+     * javax.print.attribute.HashDocAttributeSet()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_HashDocAttributeSet_DocAttributeSet()
+    public default void create_HashDocAttributeSet()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.print.attribute.HashDocAttributeSet sut = null; // = new HashDocAttributeSet();
+    }
+
+    /**
+     * Test method for
+     * {@link javax.print.attribute.HashDocAttributeSet#HashDocAttributeSet(javax.print.attribute.DocAttribute) public
+     * javax.print.attribute.HashDocAttributeSet(javax.print.attribute.DocAttribute)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HashDocAttributeSet_DocAttribute()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.print.attribute.HashDocAttributeSet sut = null; // = new
-                                                                    // HashDocAttributeSet(javax.print.attribute.DocAttributeSet);
+                                                                    // HashDocAttributeSet(javax.print.attribute.DocAttribute);
     }
 
     /**
@@ -70,32 +84,18 @@ org.j8unit.repository.javax.print.attribute.HashAttributeSetClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.print.attribute.HashDocAttributeSet#HashDocAttributeSet(javax.print.attribute.DocAttribute) public
-     * javax.print.attribute.HashDocAttributeSet(javax.print.attribute.DocAttribute)}.
+     * {@link javax.print.attribute.HashDocAttributeSet#HashDocAttributeSet(javax.print.attribute.DocAttributeSet)
+     * public javax.print.attribute.HashDocAttributeSet(javax.print.attribute.DocAttributeSet)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_HashDocAttributeSet_DocAttribute()
+    public default void create_HashDocAttributeSet_DocAttributeSet()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.print.attribute.HashDocAttributeSet sut = null; // = new
-                                                                    // HashDocAttributeSet(javax.print.attribute.DocAttribute);
-    }
-
-    /**
-     * Test method for {@link javax.print.attribute.HashDocAttributeSet#HashDocAttributeSet() public
-     * javax.print.attribute.HashDocAttributeSet()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HashDocAttributeSet()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.print.attribute.HashDocAttributeSet sut = null; // = new HashDocAttributeSet();
+                                                                    // HashDocAttributeSet(javax.print.attribute.DocAttributeSet);
     }
 
     @Override

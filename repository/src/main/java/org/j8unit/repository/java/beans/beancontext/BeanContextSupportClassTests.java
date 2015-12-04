@@ -38,12 +38,6 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextClassTests, org.
 org.j8unit.repository.java.beans.PropertyChangeListenerClassTests, org.j8unit.repository.java.beans.VetoableChangeListenerClassTests,
 org.j8unit.repository.java.beans.beancontext.BeanContextChildSupportClassTests {
 
-    // The definition of the SUT factory method must be repeated
-    // because of the "rawtypes" nature of this test class (caused
-    // by the "rawtypes" nature of the class-under-test).
-    @Override
-    public abstract SUT createNewSUT();
-
     /**
      * Test method for {@link java.beans.beancontext.BeanContextSupport#BeanContextSupport() public
      * java.beans.beancontext.BeanContextSupport()}.
@@ -122,6 +116,12 @@ org.j8unit.repository.java.beans.beancontext.BeanContextChildSupportClassTests {
         final java.beans.beancontext.BeanContextSupport sut = null; // = new
                                                                     // BeanContextSupport(java.beans.beancontext.BeanContext,java.util.Locale,boolean,boolean);
     }
+
+    // The definition of the SUT factory method must be repeated
+    // because of the "rawtypes" nature of this test class (caused
+    // by the "rawtypes" nature of the class-under-test).
+    @Override
+    public abstract SUT createNewSUT();
 
     @Override
     @Test

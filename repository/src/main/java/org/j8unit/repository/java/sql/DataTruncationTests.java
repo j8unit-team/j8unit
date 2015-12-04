@@ -23,13 +23,13 @@ extends org.j8unit.repository.java.sql.SQLWarningTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.DataTruncation#getIndex() public int java.sql.DataTruncation.getIndex()}.
+     * Test method for {@link java.sql.DataTruncation#getDataSize() public int java.sql.DataTruncation.getDataSize()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getIndex()
+    public default void test_getDataSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -38,13 +38,13 @@ extends org.j8unit.repository.java.sql.SQLWarningTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.DataTruncation#getRead() public boolean java.sql.DataTruncation.getRead()}.
+     * Test method for {@link java.sql.DataTruncation#getIndex() public int java.sql.DataTruncation.getIndex()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRead()
+    public default void test_getIndex()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -69,13 +69,13 @@ extends org.j8unit.repository.java.sql.SQLWarningTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.DataTruncation#getDataSize() public int java.sql.DataTruncation.getDataSize()}.
+     * Test method for {@link java.sql.DataTruncation#getRead() public boolean java.sql.DataTruncation.getRead()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDataSize()
+    public default void test_getRead()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

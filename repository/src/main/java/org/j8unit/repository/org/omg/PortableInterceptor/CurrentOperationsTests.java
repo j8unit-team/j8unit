@@ -24,23 +24,6 @@ extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.CurrentOperations#set_slot(int,org.omg.CORBA.Any) public
-     * abstract void org.omg.PortableInterceptor.CurrentOperations.set_slot(int,org.omg.CORBA.Any) throws
-     * org.omg.PortableInterceptor.InvalidSlot}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_set_slot_int_Any()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.PortableInterceptor.CurrentOperations#get_slot(int) public abstract
      * org.omg.CORBA.Any org.omg.PortableInterceptor.CurrentOperations.get_slot(int) throws
      * org.omg.PortableInterceptor.InvalidSlot}.
@@ -50,6 +33,23 @@ extends org.j8unit.repository.org.omg.CORBA.CurrentOperationsTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_get_slot_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.CurrentOperations#set_slot(int,org.omg.CORBA.Any) public
+     * abstract void org.omg.PortableInterceptor.CurrentOperations.set_slot(int,org.omg.CORBA.Any) throws
+     * org.omg.PortableInterceptor.InvalidSlot}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_set_slot_int_Any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

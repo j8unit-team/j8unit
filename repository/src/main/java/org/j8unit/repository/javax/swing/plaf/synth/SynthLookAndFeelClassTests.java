@@ -49,26 +49,16 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
         final javax.swing.plaf.synth.SynthLookAndFeel sut = null; // = new SynthLookAndFeel();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.synth.SynthLookAndFeel> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.synth.SynthLookAndFeel.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getStyleFactory() public static
-     * javax.swing.plaf.synth.SynthStyleFactory javax.swing.plaf.synth.SynthLookAndFeel.getStyleFactory()}.
+     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#createUI(javax.swing.JComponent) public static
+     * javax.swing.plaf.ComponentUI javax.swing.plaf.synth.SynthLookAndFeel.createUI(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStyleFactory()
+    public default void test_createUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -85,23 +75,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
     @Test
     @Category(Draft.class)
     public default void test_getRegion_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.synth.SynthLookAndFeel#setStyleFactory(javax.swing.plaf.synth.SynthStyleFactory) public
-     * static void javax.swing.plaf.synth.SynthLookAndFeel.setStyleFactory(javax.swing.plaf.synth.SynthStyleFactory)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setStyleFactory_SynthStyleFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -128,6 +101,39 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getStyleFactory() public static
+     * javax.swing.plaf.synth.SynthStyleFactory javax.swing.plaf.synth.SynthLookAndFeel.getStyleFactory()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStyleFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.synth.SynthLookAndFeel#setStyleFactory(javax.swing.plaf.synth.SynthStyleFactory) public
+     * static void javax.swing.plaf.synth.SynthLookAndFeel.setStyleFactory(javax.swing.plaf.synth.SynthStyleFactory)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setStyleFactory_SynthStyleFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#updateStyles(java.awt.Component) public static
      * void javax.swing.plaf.synth.SynthLookAndFeel.updateStyles(java.awt.Component)}.
      * </p>
@@ -142,20 +148,14 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#createUI(javax.swing.JComponent) public static
-     * javax.swing.plaf.ComponentUI javax.swing.plaf.synth.SynthLookAndFeel.createUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_createUI_JComponent()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.swing.plaf.synth.SynthLookAndFeel> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.synth.SynthLookAndFeel.class.isAssignableFrom(sut));
     }
 
 }

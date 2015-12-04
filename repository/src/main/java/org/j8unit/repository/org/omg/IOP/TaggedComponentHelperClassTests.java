@@ -49,44 +49,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.IOP.TaggedComponentHelper sut = null; // = new TaggedComponentHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.IOP.TaggedComponentHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.IOP.TaggedComponentHelper.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.IOP.TaggedComponentHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.TaggedComponent)
-     * public static void
-     * org.omg.IOP.TaggedComponentHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.TaggedComponent)}.
+     * Test method for {@link org.omg.IOP.TaggedComponentHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.IOP.TaggedComponent org.omg.IOP.TaggedComponentHelper.extract(org.omg.CORBA.Any)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_OutputStream_TaggedComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.IOP.TaggedComponentHelper#type() public static synchronized org.omg.CORBA.TypeCode
-     * org.omg.IOP.TaggedComponentHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
+    public default void test_extract_Any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,18 +115,46 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.IOP.TaggedComponentHelper#extract(org.omg.CORBA.Any) public static
-     * org.omg.IOP.TaggedComponent org.omg.IOP.TaggedComponentHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for {@link org.omg.IOP.TaggedComponentHelper#type() public static synchronized org.omg.CORBA.TypeCode
+     * org.omg.IOP.TaggedComponentHelper.type()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_extract_Any()
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.IOP.TaggedComponentHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.TaggedComponent)
+     * public static void
+     * org.omg.IOP.TaggedComponentHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.TaggedComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_TaggedComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.IOP.TaggedComponentHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.IOP.TaggedComponentHelper.class.isAssignableFrom(sut));
     }
 
 }

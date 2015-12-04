@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface TypeKindClassTests<SUT extends Class<? extends javax.lang.model.type.TypeKind>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.type.TypeKind> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.type.TypeKind#valueOf(java.lang.String) public static
+     * javax.lang.model.type.TypeKind javax.lang.model.type.TypeKind.valueOf(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_valueOf_String()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.lang.model.type.TypeKind> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.lang.model.type.TypeKind.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -61,20 +67,14 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.typ
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.type.TypeKind#valueOf(java.lang.String) public static
-     * javax.lang.model.type.TypeKind javax.lang.model.type.TypeKind.valueOf(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_valueOf_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.lang.model.type.TypeKind> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.lang.model.type.TypeKind.class.isAssignableFrom(sut));
     }
 
 }

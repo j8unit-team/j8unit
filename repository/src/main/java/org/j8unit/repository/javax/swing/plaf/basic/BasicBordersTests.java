@@ -80,44 +80,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder class
-     * javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder}, containing all instance relevant test methods
-     * (i.&thinsp;e., test methods of non-{@code static} methods).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.RolloverButtonBorderClassTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface RolloverButtonBorderTests<SUT extends javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder>
-    extends org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ButtonBorderTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)
-         * public void
-         * javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}
-         * .
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_paintBorder_Component_Graphics_int_int_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
-     * <p>
      * Test class for {@link javax.swing.plaf.basic.BasicBorders$FieldBorder class
      * javax.swing.plaf.basic.BasicBorders$FieldBorder}, containing all instance relevant test methods (i.&thinsp;e.,
      * test methods of non-{@code static} methods).
@@ -165,6 +127,43 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @Category(Draft.class)
         @Override
         public default void test_paintBorder_Component_Graphics_int_int_int_int()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+    }
+
+    /**
+     * <p>
+     * Test class for {@link javax.swing.plaf.basic.BasicBorders$MarginBorder class
+     * javax.swing.plaf.basic.BasicBorders$MarginBorder}, containing all instance relevant test methods (i.&thinsp;e.,
+     * test methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.MarginBorderClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface MarginBorderTests<SUT extends javax.swing.plaf.basic.BasicBorders.MarginBorder>
+    extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicBorders.MarginBorder#getBorderInsets(java.awt.Component,java.awt.Insets)
+         * public java.awt.Insets
+         * javax.swing.plaf.basic.BasicBorders$MarginBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        @Override
+        public default void test_getBorderInsets_Component_Insets()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -232,43 +231,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicBorders$MarginBorder class
-     * javax.swing.plaf.basic.BasicBorders$MarginBorder}, containing all instance relevant test methods (i.&thinsp;e.,
-     * test methods of non-{@code static} methods).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.MarginBorderClassTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface MarginBorderTests<SUT extends javax.swing.plaf.basic.BasicBorders.MarginBorder>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicBorders.MarginBorder#getBorderInsets(java.awt.Component,java.awt.Insets)
-         * public java.awt.Insets
-         * javax.swing.plaf.basic.BasicBorders$MarginBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_getBorderInsets_Component_Insets()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
-     * <p>
      * Test class for {@link javax.swing.plaf.basic.BasicBorders$RadioButtonBorder class
      * javax.swing.plaf.basic.BasicBorders$RadioButtonBorder}, containing all instance relevant test methods
      * (i.&thinsp;e., test methods of non-{@code static} methods).
@@ -282,6 +244,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(J8UnitRepository.class)
     public static abstract interface RadioButtonBorderTests<SUT extends javax.swing.plaf.basic.BasicBorders.RadioButtonBorder>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ButtonBorderTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicBorders.RadioButtonBorder#getBorderInsets(java.awt.Component,java.awt.Insets)
+         * public java.awt.Insets
+         * javax.swing.plaf.basic.BasicBorders$RadioButtonBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        @Override
+        public default void test_getBorderInsets_Component_Insets()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
 
         /**
          * <p>
@@ -303,49 +284,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicBorders.RadioButtonBorder#getBorderInsets(java.awt.Component,java.awt.Insets)
-         * public java.awt.Insets
-         * javax.swing.plaf.basic.BasicBorders$RadioButtonBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_getBorderInsets_Component_Insets()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
     }
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicBorders$ToggleButtonBorder class
-     * javax.swing.plaf.basic.BasicBorders$ToggleButtonBorder}, containing all instance relevant test methods
+     * Test class for {@link javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder class
+     * javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder}, containing all instance relevant test methods
      * (i.&thinsp;e., test methods of non-{@code static} methods).
      * </p>
      *
      * @param SUT
      *            the type of the subject-under-test
      * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ToggleButtonBorderClassTests
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.RolloverButtonBorderClassTests
      */
     @Category(J8UnitRepository.class)
-    public static abstract interface ToggleButtonBorderTests<SUT extends javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder>
+    public static abstract interface RolloverButtonBorderTests<SUT extends javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ButtonBorderTests<SUT> {
 
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)
+         * {@link javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)
          * public void
-         * javax.swing.plaf.basic.BasicBorders$ToggleButtonBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}
+         * javax.swing.plaf.basic.BasicBorders$RolloverButtonBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}
          * .
          * </p>
          */
@@ -354,25 +316,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @Category(Draft.class)
         @Override
         public default void test_paintBorder_Component_Graphics_int_int_int_int()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder#getBorderInsets(java.awt.Component,java.awt.Insets)
-         * public java.awt.Insets
-         * javax.swing.plaf.basic.BasicBorders$ToggleButtonBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_getBorderInsets_Component_Insets()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -397,6 +340,24 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     public static abstract interface SplitPaneBorderTests<SUT extends javax.swing.plaf.basic.BasicBorders.SplitPaneBorder>
     extends org.j8unit.repository.javax.swing.border.BorderTests<SUT>, org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>,
     org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicBorders.SplitPaneBorder#getBorderInsets(java.awt.Component) public
+         * java.awt.Insets javax.swing.plaf.basic.BasicBorders$SplitPaneBorder.getBorderInsets(java.awt.Component)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        @Override
+        public default void test_getBorderInsets_Component()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
 
         /**
          * <p>
@@ -435,18 +396,57 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
+    }
+
+    /**
+     * <p>
+     * Test class for {@link javax.swing.plaf.basic.BasicBorders$ToggleButtonBorder class
+     * javax.swing.plaf.basic.BasicBorders$ToggleButtonBorder}, containing all instance relevant test methods
+     * (i.&thinsp;e., test methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ToggleButtonBorderClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface ToggleButtonBorderTests<SUT extends javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder>
+    extends org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ButtonBorderTests<SUT> {
+
         /**
          * <p>
          * Test method for
-         * {@link javax.swing.plaf.basic.BasicBorders.SplitPaneBorder#getBorderInsets(java.awt.Component) public
-         * java.awt.Insets javax.swing.plaf.basic.BasicBorders$SplitPaneBorder.getBorderInsets(java.awt.Component)}.
+         * {@link javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder#getBorderInsets(java.awt.Component,java.awt.Insets)
+         * public java.awt.Insets
+         * javax.swing.plaf.basic.BasicBorders$ToggleButtonBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
         @Override
-        public default void test_getBorderInsets_Component()
+        public default void test_getBorderInsets_Component_Insets()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for
+         * {@link javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)
+         * public void
+         * javax.swing.plaf.basic.BasicBorders$ToggleButtonBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}
+         * .
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        @Override
+        public default void test_paintBorder_Component_Graphics_int_int_int_int()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

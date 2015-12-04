@@ -23,29 +23,15 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MetaMessage#getType() public int javax.sound.midi.MetaMessage.getType()}.
+     * Test method for {@link javax.sound.midi.MetaMessage#clone() public java.lang.Object
+     * javax.sound.midi.MetaMessage.clone()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MetaMessage#setMessage(int,byte[],int) public void
-     * javax.sound.midi.MetaMessage.setMessage(int,byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMessage_int_byteArray_int()
+    @Override
+    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -70,15 +56,29 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MetaMessage#clone() public java.lang.Object
-     * javax.sound.midi.MetaMessage.clone()}.
+     * Test method for {@link javax.sound.midi.MetaMessage#getType() public int javax.sound.midi.MetaMessage.getType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_clone()
+    public default void test_getType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.midi.MetaMessage#setMessage(int,byte[],int) public void
+     * javax.sound.midi.MetaMessage.setMessage(int,byte[],int) throws javax.sound.midi.InvalidMidiDataException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMessage_int_byteArray_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

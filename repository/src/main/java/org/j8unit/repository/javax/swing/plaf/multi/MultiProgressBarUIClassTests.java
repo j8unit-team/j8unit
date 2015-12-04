@@ -49,16 +49,6 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUIClassTests<SUT> {
         final javax.swing.plaf.multi.MultiProgressBarUI sut = null; // = new MultiProgressBarUI();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.multi.MultiProgressBarUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.multi.MultiProgressBarUI.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.plaf.multi.MultiProgressBarUI#createUI(javax.swing.JComponent) public static
@@ -74,6 +64,16 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUIClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.multi.MultiProgressBarUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.multi.MultiProgressBarUI.class.isAssignableFrom(sut));
     }
 
 }

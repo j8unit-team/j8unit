@@ -24,14 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.PathIterator#isDone() public abstract boolean
-     * java.awt.geom.PathIterator.isDone()}.
+     * Test method for {@link java.awt.geom.PathIterator#currentSegment(double[]) public abstract int
+     * java.awt.geom.PathIterator.currentSegment(double[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDone()
+    public default void test_currentSegment_doubleArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,22 +56,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.PathIterator#currentSegment(double[]) public abstract int
-     * java.awt.geom.PathIterator.currentSegment(double[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_currentSegment_doubleArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.geom.PathIterator#getWindingRule() public abstract int
      * java.awt.geom.PathIterator.getWindingRule()}.
      * </p>
@@ -80,6 +64,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getWindingRule()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.PathIterator#isDone() public abstract boolean
+     * java.awt.geom.PathIterator.isDone()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isDone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

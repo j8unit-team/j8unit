@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.net.CacheResponseTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.SecureCacheResponse#getLocalPrincipal() public abstract java.security.Principal
-     * java.net.SecureCacheResponse.getLocalPrincipal()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocalPrincipal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.net.SecureCacheResponse#getCipherSuite() public abstract java.lang.String
      * java.net.SecureCacheResponse.getCipherSuite()}.
      * </p>
@@ -47,6 +31,38 @@ extends org.j8unit.repository.java.net.CacheResponseTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getCipherSuite()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.SecureCacheResponse#getLocalCertificateChain() public abstract java.util.List
+     * java.net.SecureCacheResponse.getLocalCertificateChain()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocalCertificateChain()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.SecureCacheResponse#getLocalPrincipal() public abstract java.security.Principal
+     * java.net.SecureCacheResponse.getLocalPrincipal()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocalPrincipal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,22 +95,6 @@ extends org.j8unit.repository.java.net.CacheResponseTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getServerCertificateChain()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.SecureCacheResponse#getLocalCertificateChain() public abstract java.util.List
-     * java.net.SecureCacheResponse.getLocalCertificateChain()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocalCertificateChain()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

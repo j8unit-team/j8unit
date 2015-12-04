@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface WeekFieldsClassTests<SUT extends Class<? extends java.time.temporal.WeekFields>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.WeekFields#of(java.time.DayOfWeek,int) public static
+     * java.time.temporal.WeekFields java.time.temporal.WeekFields.of(java.time.DayOfWeek,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_of_DayOfWeek_int()
     throws Exception {
-        // create new instance
-        final Class<? extends java.time.temporal.WeekFields> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.temporal.WeekFields.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -61,20 +67,14 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.WeekFields#of(java.time.DayOfWeek,int) public static
-     * java.time.temporal.WeekFields java.time.temporal.WeekFields.of(java.time.DayOfWeek,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_of_DayOfWeek_int()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.time.temporal.WeekFields> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.temporal.WeekFields.class.isAssignableFrom(sut));
     }
 
 }

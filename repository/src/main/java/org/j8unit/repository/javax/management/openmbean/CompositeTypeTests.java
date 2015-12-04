@@ -23,40 +23,6 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, java
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.CompositeType#isValue(java.lang.Object) public boolean
-     * javax.management.openmbean.CompositeType.isValue(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isValue_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.CompositeType#hashCode() public int
-     * javax.management.openmbean.CompositeType.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.openmbean.CompositeType#containsKey(java.lang.String) public boolean
      * javax.management.openmbean.CompositeType.containsKey(java.lang.String)}.
      * </p>
@@ -90,6 +56,22 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, java
 
     /**
      * <p>
+     * Test method for {@link javax.management.openmbean.CompositeType#getDescription(java.lang.String) public
+     * java.lang.String javax.management.openmbean.CompositeType.getDescription(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDescription_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.openmbean.CompositeType#getType(java.lang.String) public
      * javax.management.openmbean.OpenType javax.management.openmbean.CompositeType.getType(java.lang.String)}.
      * </p>
@@ -106,15 +88,32 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, java
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.CompositeType#toString() public java.lang.String
-     * javax.management.openmbean.CompositeType.toString()}.
+     * Test method for {@link javax.management.openmbean.CompositeType#hashCode() public int
+     * javax.management.openmbean.CompositeType.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.CompositeType#isValue(java.lang.Object) public boolean
+     * javax.management.openmbean.CompositeType.isValue(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isValue_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -139,14 +138,15 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeTests<SUT, java
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.CompositeType#getDescription(java.lang.String) public
-     * java.lang.String javax.management.openmbean.CompositeType.getDescription(java.lang.String)}.
+     * Test method for {@link javax.management.openmbean.CompositeType#toString() public java.lang.String
+     * javax.management.openmbean.CompositeType.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDescription_String()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

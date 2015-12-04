@@ -36,6 +36,61 @@ public abstract interface JRadioButtonClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JToggleButtonClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.swing.JRadioButton#JRadioButton() public javax.swing.JRadioButton()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JRadioButton()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JRadioButton sut = null; // = new JRadioButton();
+    }
+
+    /**
+     * Test method for {@link javax.swing.JRadioButton#JRadioButton(javax.swing.Action) public
+     * javax.swing.JRadioButton(javax.swing.Action)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JRadioButton_Action()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JRadioButton sut = null; // = new JRadioButton(javax.swing.Action);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JRadioButton#JRadioButton(javax.swing.Icon) public
+     * javax.swing.JRadioButton(javax.swing.Icon)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JRadioButton_Icon()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JRadioButton sut = null; // = new JRadioButton(javax.swing.Icon);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JRadioButton#JRadioButton(javax.swing.Icon,boolean) public
+     * javax.swing.JRadioButton(javax.swing.Icon,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JRadioButton_Icon_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JRadioButton sut = null; // = new JRadioButton(javax.swing.Icon,boolean);
+    }
+
+    /**
      * Test method for {@link javax.swing.JRadioButton#JRadioButton(java.lang.String) public
      * javax.swing.JRadioButton(java.lang.String)}.
      */
@@ -89,61 +144,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JRadioButton sut = null; // = new JRadioButton(java.lang.String,javax.swing.Icon,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JRadioButton#JRadioButton() public javax.swing.JRadioButton()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JRadioButton()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JRadioButton sut = null; // = new JRadioButton();
-    }
-
-    /**
-     * Test method for {@link javax.swing.JRadioButton#JRadioButton(javax.swing.Icon) public
-     * javax.swing.JRadioButton(javax.swing.Icon)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JRadioButton_Icon()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JRadioButton sut = null; // = new JRadioButton(javax.swing.Icon);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JRadioButton#JRadioButton(javax.swing.Action) public
-     * javax.swing.JRadioButton(javax.swing.Action)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JRadioButton_Action()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JRadioButton sut = null; // = new JRadioButton(javax.swing.Action);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JRadioButton#JRadioButton(javax.swing.Icon,boolean) public
-     * javax.swing.JRadioButton(javax.swing.Icon,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JRadioButton_Icon_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JRadioButton sut = null; // = new JRadioButton(javax.swing.Icon,boolean);
     }
 
     @Override

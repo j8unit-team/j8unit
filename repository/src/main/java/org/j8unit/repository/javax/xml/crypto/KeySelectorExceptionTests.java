@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.crypto.KeySelectorException#getCause() public java.lang.Throwable
+     * javax.xml.crypto.KeySelectorException.getCause()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getCause()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.crypto.KeySelectorException#printStackTrace() public void
      * javax.xml.crypto.KeySelectorException.printStackTrace()}.
      * </p>
@@ -66,23 +83,6 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_printStackTrace_PrintWriter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.KeySelectorException#getCause() public java.lang.Throwable
-     * javax.xml.crypto.KeySelectorException.getCause()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getCause()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

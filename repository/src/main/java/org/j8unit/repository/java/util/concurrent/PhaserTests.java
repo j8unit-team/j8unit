@@ -38,14 +38,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getRegisteredParties() public int
-     * java.util.concurrent.Phaser.getRegisteredParties()}.
+     * Test method for {@link java.util.concurrent.Phaser#arriveAndAwaitAdvance() public int
+     * java.util.concurrent.Phaser.arriveAndAwaitAdvance()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRegisteredParties()
+    public default void test_arriveAndAwaitAdvance()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -54,13 +54,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#register() public int java.util.concurrent.Phaser.register()}.
+     * Test method for {@link java.util.concurrent.Phaser#arriveAndDeregister() public int
+     * java.util.concurrent.Phaser.arriveAndDeregister()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_register()
+    public default void test_arriveAndDeregister()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -77,71 +78,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_awaitAdvance_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getPhase() public final int
-     * java.util.concurrent.Phaser.getPhase()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPhase()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getRoot() public java.util.concurrent.Phaser
-     * java.util.concurrent.Phaser.getRoot()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRoot()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getUnarrivedParties() public int
-     * java.util.concurrent.Phaser.getUnarrivedParties()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUnarrivedParties()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.Phaser#toString() public java.lang.String
-     * java.util.concurrent.Phaser.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -200,14 +136,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#isTerminated() public boolean
-     * java.util.concurrent.Phaser.isTerminated()}.
+     * Test method for {@link java.util.concurrent.Phaser#forceTermination() public void
+     * java.util.concurrent.Phaser.forceTermination()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isTerminated()
+    public default void test_forceTermination()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.Phaser#getArrivedParties() public int
+     * java.util.concurrent.Phaser.getArrivedParties()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getArrivedParties()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -232,14 +184,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#arriveAndAwaitAdvance() public int
-     * java.util.concurrent.Phaser.arriveAndAwaitAdvance()}.
+     * Test method for {@link java.util.concurrent.Phaser#getPhase() public final int
+     * java.util.concurrent.Phaser.getPhase()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_arriveAndAwaitAdvance()
+    public default void test_getPhase()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -248,14 +200,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#forceTermination() public void
-     * java.util.concurrent.Phaser.forceTermination()}.
+     * Test method for {@link java.util.concurrent.Phaser#getRegisteredParties() public int
+     * java.util.concurrent.Phaser.getRegisteredParties()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_forceTermination()
+    public default void test_getRegisteredParties()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -264,14 +216,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#arriveAndDeregister() public int
-     * java.util.concurrent.Phaser.arriveAndDeregister()}.
+     * Test method for {@link java.util.concurrent.Phaser#getRoot() public java.util.concurrent.Phaser
+     * java.util.concurrent.Phaser.getRoot()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_arriveAndDeregister()
+    public default void test_getRoot()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -280,14 +232,62 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Phaser#getArrivedParties() public int
-     * java.util.concurrent.Phaser.getArrivedParties()}.
+     * Test method for {@link java.util.concurrent.Phaser#getUnarrivedParties() public int
+     * java.util.concurrent.Phaser.getUnarrivedParties()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getArrivedParties()
+    public default void test_getUnarrivedParties()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.Phaser#isTerminated() public boolean
+     * java.util.concurrent.Phaser.isTerminated()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isTerminated()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.Phaser#register() public int java.util.concurrent.Phaser.register()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_register()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.Phaser#toString() public java.lang.String
+     * java.util.concurrent.Phaser.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

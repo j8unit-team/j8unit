@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.xml.soap.SOAPFaultElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.Detail#getDetailEntries() public abstract java.util.Iterator
-     * javax.xml.soap.Detail.getDetailEntries()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDetailEntries()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.soap.Detail#addDetailEntry(javax.xml.soap.Name) public abstract
      * javax.xml.soap.DetailEntry javax.xml.soap.Detail.addDetailEntry(javax.xml.soap.Name) throws
      * javax.xml.soap.SOAPException}.
@@ -65,6 +49,22 @@ extends org.j8unit.repository.javax.xml.soap.SOAPFaultElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_addDetailEntry_QName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.Detail#getDetailEntries() public abstract java.util.Iterator
+     * javax.xml.soap.Detail.getDetailEntries()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDetailEntries()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,85 +24,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.Relation#getRole(java.lang.String) public abstract
-     * java.util.List javax.management.relation.Relation.getRole(java.lang.String) throws
-     * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.RelationServiceNotRegisteredException}
-     * .
+     * Test method for {@link javax.management.relation.Relation#getAllRoles() public abstract
+     * javax.management.relation.RoleResult javax.management.relation.Relation.getAllRoles() throws
+     * javax.management.relation.RelationServiceNotRegisteredException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRole_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.Relation#getRoleCardinality(java.lang.String) public abstract
-     * java.lang.Integer javax.management.relation.Relation.getRoleCardinality(java.lang.String) throws
-     * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRoleCardinality_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.Relation#setRoles(javax.management.relation.RoleList) public
-     * abstract javax.management.relation.RoleResult
-     * javax.management.relation.Relation.setRoles(javax.management.relation.RoleList) throws
-     * java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.RelationNotFoundException}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRoles_RoleList()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.Relation#getRelationTypeName() public abstract java.lang.String
-     * javax.management.relation.Relation.getRelationTypeName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRelationTypeName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.Relation#getRoles(java.lang.String[]) public abstract
-     * javax.management.relation.RoleResult javax.management.relation.Relation.getRoles(java.lang.String[]) throws
-     * java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRoles_StringArray()
+    public default void test_getAllRoles()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,15 +73,82 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.Relation#getAllRoles() public abstract
-     * javax.management.relation.RoleResult javax.management.relation.Relation.getAllRoles() throws
-     * javax.management.relation.RelationServiceNotRegisteredException}.
+     * Test method for {@link javax.management.relation.Relation#getRelationServiceName() public abstract
+     * javax.management.ObjectName javax.management.relation.Relation.getRelationServiceName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAllRoles()
+    public default void test_getRelationServiceName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.Relation#getRelationTypeName() public abstract java.lang.String
+     * javax.management.relation.Relation.getRelationTypeName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRelationTypeName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.Relation#getRole(java.lang.String) public abstract
+     * java.util.List javax.management.relation.Relation.getRole(java.lang.String) throws
+     * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException,javax.management.relation.RelationServiceNotRegisteredException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRole_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.Relation#getRoleCardinality(java.lang.String) public abstract
+     * java.lang.Integer javax.management.relation.Relation.getRoleCardinality(java.lang.String) throws
+     * java.lang.IllegalArgumentException,javax.management.relation.RoleNotFoundException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRoleCardinality_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.Relation#getRoles(java.lang.String[]) public abstract
+     * javax.management.relation.RoleResult javax.management.relation.Relation.getRoles(java.lang.String[]) throws
+     * java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRoles_StringArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -172,22 +169,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_handleMBeanUnregistration_ObjectName_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.Relation#getRelationServiceName() public abstract
-     * javax.management.ObjectName javax.management.relation.Relation.getRelationServiceName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRelationServiceName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -222,6 +203,25 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setRole_Role()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.Relation#setRoles(javax.management.relation.RoleList) public
+     * abstract javax.management.relation.RoleResult
+     * javax.management.relation.Relation.setRoles(javax.management.relation.RoleList) throws
+     * java.lang.IllegalArgumentException,javax.management.relation.RelationServiceNotRegisteredException,javax.management.relation.RelationTypeNotFoundException,javax.management.relation.RelationNotFoundException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRoles_RoleList()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

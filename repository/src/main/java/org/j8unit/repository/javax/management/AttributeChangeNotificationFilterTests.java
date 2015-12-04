@@ -24,33 +24,14 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeChangeNotificationFilter#getEnabledAttributes() public
-     * synchronized java.util.Vector javax.management.AttributeChangeNotificationFilter.getEnabledAttributes()}.
+     * Test method for {@link javax.management.AttributeChangeNotificationFilter#disableAllAttributes() public
+     * synchronized void javax.management.AttributeChangeNotificationFilter.disableAllAttributes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getEnabledAttributes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.AttributeChangeNotificationFilter#isNotificationEnabled(javax.management.Notification)
-     * public synchronized boolean
-     * javax.management.AttributeChangeNotificationFilter.isNotificationEnabled(javax.management.Notification)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isNotificationEnabled_Notification()
+    public default void test_disableAllAttributes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,14 +73,33 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
 
     /**
      * <p>
-     * Test method for {@link javax.management.AttributeChangeNotificationFilter#disableAllAttributes() public
-     * synchronized void javax.management.AttributeChangeNotificationFilter.disableAllAttributes()}.
+     * Test method for {@link javax.management.AttributeChangeNotificationFilter#getEnabledAttributes() public
+     * synchronized java.util.Vector javax.management.AttributeChangeNotificationFilter.getEnabledAttributes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_disableAllAttributes()
+    public default void test_getEnabledAttributes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.AttributeChangeNotificationFilter#isNotificationEnabled(javax.management.Notification)
+     * public synchronized boolean
+     * javax.management.AttributeChangeNotificationFilter.isNotificationEnabled(javax.management.Notification)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isNotificationEnabled_Notification()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -50,6 +50,21 @@ extends org.j8unit.repository.java.awt.image.ImageConsumerClassTests<SUT>, org.j
     }
 
     /**
+     * Test method for {@link java.awt.image.PixelGrabber#PixelGrabber(java.awt.Image,int,int,int,int,int[],int,int)
+     * public java.awt.image.PixelGrabber(java.awt.Image,int,int,int,int,int[],int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PixelGrabber_Image_int_int_int_int_intArray_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.PixelGrabber sut = null; // = new
+                                                      // PixelGrabber(java.awt.Image,int,int,int,int,int[],int,int);
+    }
+
+    /**
      * Test method for
      * {@link java.awt.image.PixelGrabber#PixelGrabber(java.awt.image.ImageProducer,int,int,int,int,int[],int,int)
      * public java.awt.image.PixelGrabber(java.awt.image.ImageProducer,int,int,int,int,int[],int,int)}.
@@ -63,21 +78,6 @@ extends org.j8unit.repository.java.awt.image.ImageConsumerClassTests<SUT>, org.j
         @SuppressWarnings("unused")
         final java.awt.image.PixelGrabber sut = null; // = new
                                                       // PixelGrabber(java.awt.image.ImageProducer,int,int,int,int,int[],int,int);
-    }
-
-    /**
-     * Test method for {@link java.awt.image.PixelGrabber#PixelGrabber(java.awt.Image,int,int,int,int,int[],int,int)
-     * public java.awt.image.PixelGrabber(java.awt.Image,int,int,int,int,int[],int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PixelGrabber_Image_int_int_int_int_intArray_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.PixelGrabber sut = null; // = new
-                                                      // PixelGrabber(java.awt.Image,int,int,int,int,int[],int,int);
     }
 
     @Override

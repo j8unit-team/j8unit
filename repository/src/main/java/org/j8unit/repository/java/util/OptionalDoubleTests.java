@@ -23,30 +23,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalDouble#isPresent() public boolean java.util.OptionalDouble.isPresent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isPresent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.OptionalDouble#toString() public java.lang.String
-     * java.util.OptionalDouble.toString()}.
+     * Test method for {@link java.util.OptionalDouble#equals(java.lang.Object) public boolean
+     * java.util.OptionalDouble.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +56,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalDouble#orElse(double) public double
-     * java.util.OptionalDouble.orElse(double)}.
+     * Test method for {@link java.util.OptionalDouble#hashCode() public int java.util.OptionalDouble.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_orElse_double()
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,14 +72,45 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalDouble#orElseThrow(java.util.function.Supplier) public double
-     * java.util.OptionalDouble.orElseThrow(java.util.function.Supplier) throws java.lang.Throwable}.
+     * Test method for {@link java.util.OptionalDouble#ifPresent(java.util.function.DoubleConsumer) public void
+     * java.util.OptionalDouble.ifPresent(java.util.function.DoubleConsumer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_orElseThrow_Supplier()
+    public default void test_ifPresent_DoubleConsumer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.OptionalDouble#isPresent() public boolean java.util.OptionalDouble.isPresent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isPresent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.OptionalDouble#orElse(double) public double
+     * java.util.OptionalDouble.orElse(double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_orElse_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +135,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalDouble#hashCode() public int java.util.OptionalDouble.hashCode()}.
+     * Test method for {@link java.util.OptionalDouble#orElseThrow(java.util.function.Supplier) public double
+     * java.util.OptionalDouble.orElseThrow(java.util.function.Supplier) throws java.lang.Throwable}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
+    public default void test_orElseThrow_Supplier()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,31 +151,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.OptionalDouble#equals(java.lang.Object) public boolean
-     * java.util.OptionalDouble.equals(java.lang.Object)}.
+     * Test method for {@link java.util.OptionalDouble#toString() public java.lang.String
+     * java.util.OptionalDouble.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.OptionalDouble#ifPresent(java.util.function.DoubleConsumer) public void
-     * java.util.OptionalDouble.ifPresent(java.util.function.DoubleConsumer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ifPresent_DoubleConsumer()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

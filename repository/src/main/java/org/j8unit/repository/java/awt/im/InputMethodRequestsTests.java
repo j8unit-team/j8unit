@@ -42,14 +42,16 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.InputMethodRequests#getTextLocation(java.awt.font.TextHitInfo) public abstract
-     * java.awt.Rectangle java.awt.im.InputMethodRequests.getTextLocation(java.awt.font.TextHitInfo)}.
+     * Test method for
+     * {@link java.awt.im.InputMethodRequests#getCommittedText(int,int,java.text.AttributedCharacterIterator.Attribute[])
+     * public abstract java.text.AttributedCharacterIterator
+     * java.awt.im.InputMethodRequests.getCommittedText(int,int,java.text.AttributedCharacterIterator$Attribute[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTextLocation_TextHitInfo()
+    public default void test_getCommittedText_int_int_AttributeArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -66,6 +68,38 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getCommittedTextLength()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.InputMethodRequests#getInsertPositionOffset() public abstract int
+     * java.awt.im.InputMethodRequests.getInsertPositionOffset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInsertPositionOffset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.InputMethodRequests#getLocationOffset(int,int) public abstract
+     * java.awt.font.TextHitInfo java.awt.im.InputMethodRequests.getLocationOffset(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocationOffset_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,48 +126,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.InputMethodRequests#getInsertPositionOffset() public abstract int
-     * java.awt.im.InputMethodRequests.getInsertPositionOffset()}.
+     * Test method for {@link java.awt.im.InputMethodRequests#getTextLocation(java.awt.font.TextHitInfo) public abstract
+     * java.awt.Rectangle java.awt.im.InputMethodRequests.getTextLocation(java.awt.font.TextHitInfo)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInsertPositionOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.im.InputMethodRequests#getCommittedText(int,int,java.text.AttributedCharacterIterator.Attribute[])
-     * public abstract java.text.AttributedCharacterIterator
-     * java.awt.im.InputMethodRequests.getCommittedText(int,int,java.text.AttributedCharacterIterator$Attribute[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCommittedText_int_int_AttributeArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.im.InputMethodRequests#getLocationOffset(int,int) public abstract
-     * java.awt.font.TextHitInfo java.awt.im.InputMethodRequests.getLocationOffset(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocationOffset_int_int()
+    public default void test_getTextLocation_TextHitInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

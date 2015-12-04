@@ -36,6 +36,20 @@ public abstract interface ChannelBindingClassTests<SUT extends Class<? extends o
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link org.ietf.jgss.ChannelBinding#ChannelBinding(byte[]) public
+     * org.ietf.jgss.ChannelBinding(byte[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ChannelBinding_byteArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final org.ietf.jgss.ChannelBinding sut = null; // = new ChannelBinding(byte[]);
+    }
+
+    /**
      * Test method for
      * {@link org.ietf.jgss.ChannelBinding#ChannelBinding(java.net.InetAddress,java.net.InetAddress,byte[]) public
      * org.ietf.jgss.ChannelBinding(java.net.InetAddress,java.net.InetAddress,byte[])}.
@@ -49,20 +63,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final org.ietf.jgss.ChannelBinding sut = null; // = new
                                                        // ChannelBinding(java.net.InetAddress,java.net.InetAddress,byte[]);
-    }
-
-    /**
-     * Test method for {@link org.ietf.jgss.ChannelBinding#ChannelBinding(byte[]) public
-     * org.ietf.jgss.ChannelBinding(byte[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ChannelBinding_byteArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final org.ietf.jgss.ChannelBinding sut = null; // = new ChannelBinding(byte[]);
     }
 
     @Override

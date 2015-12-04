@@ -36,17 +36,31 @@ public abstract interface WebServiceExceptionClassTests<SUT extends Class<? exte
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.xml.ws.WebServiceException#WebServiceException(java.lang.Throwable) public
-     * javax.xml.ws.WebServiceException(java.lang.Throwable)}.
+     * Test method for {@link javax.xml.ws.WebServiceException#WebServiceException() public
+     * javax.xml.ws.WebServiceException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_WebServiceException_Throwable()
+    public default void create_WebServiceException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.ws.WebServiceException sut = null; // = new WebServiceException(java.lang.Throwable);
+        final javax.xml.ws.WebServiceException sut = null; // = new WebServiceException();
+    }
+
+    /**
+     * Test method for {@link javax.xml.ws.WebServiceException#WebServiceException(java.lang.String) public
+     * javax.xml.ws.WebServiceException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_WebServiceException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.ws.WebServiceException sut = null; // = new WebServiceException(java.lang.String);
     }
 
     /**
@@ -65,31 +79,17 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.xml.ws.WebServiceException#WebServiceException(java.lang.String) public
-     * javax.xml.ws.WebServiceException(java.lang.String)}.
+     * Test method for {@link javax.xml.ws.WebServiceException#WebServiceException(java.lang.Throwable) public
+     * javax.xml.ws.WebServiceException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_WebServiceException_String()
+    public default void create_WebServiceException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.ws.WebServiceException sut = null; // = new WebServiceException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.ws.WebServiceException#WebServiceException() public
-     * javax.xml.ws.WebServiceException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_WebServiceException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.ws.WebServiceException sut = null; // = new WebServiceException();
+        final javax.xml.ws.WebServiceException sut = null; // = new WebServiceException(java.lang.Throwable);
     }
 
     @Override

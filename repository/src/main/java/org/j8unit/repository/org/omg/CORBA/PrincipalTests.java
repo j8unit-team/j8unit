@@ -23,13 +23,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.Principal#name(byte[]) public void org.omg.CORBA.Principal.name(byte[])}.
+     * Test method for {@link org.omg.CORBA.Principal#name() public byte[] org.omg.CORBA.Principal.name()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_name_byteArray()
+    public default void test_name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -38,13 +38,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.Principal#name() public byte[] org.omg.CORBA.Principal.name()}.
+     * Test method for {@link org.omg.CORBA.Principal#name(byte[]) public void org.omg.CORBA.Principal.name(byte[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_name()
+    public default void test_name_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

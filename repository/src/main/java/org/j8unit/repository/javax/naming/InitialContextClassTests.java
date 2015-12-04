@@ -36,20 +36,6 @@ public abstract interface InitialContextClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.javax.naming.ContextClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.InitialContext#InitialContext(java.util.Hashtable) public
-     * javax.naming.InitialContext(java.util.Hashtable) throws javax.naming.NamingException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InitialContext_Hashtable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.InitialContext sut = null; // = new InitialContext(java.util.Hashtable);
-    }
-
-    /**
      * Test method for {@link javax.naming.InitialContext#InitialContext() public javax.naming.InitialContext() throws
      * javax.naming.NamingException}.
      */
@@ -63,14 +49,18 @@ extends org.j8unit.repository.javax.naming.ContextClassTests<SUT>, org.j8unit.re
         final javax.naming.InitialContext sut = null; // = new InitialContext();
     }
 
-    @Override
+    /**
+     * Test method for {@link javax.naming.InitialContext#InitialContext(java.util.Hashtable) public
+     * javax.naming.InitialContext(java.util.Hashtable) throws javax.naming.NamingException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_InitialContext_Hashtable()
     throws Exception {
         // create new instance
-        final Class<? extends javax.naming.InitialContext> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.naming.InitialContext.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final javax.naming.InitialContext sut = null; // = new InitialContext(java.util.Hashtable);
     }
 
     /**
@@ -103,6 +93,16 @@ extends org.j8unit.repository.javax.naming.ContextClassTests<SUT>, org.j8unit.re
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.naming.InitialContext> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.naming.InitialContext.class.isAssignableFrom(sut));
     }
 
 }

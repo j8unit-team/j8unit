@@ -36,30 +36,6 @@ public abstract interface MetalComboBoxEditorClassTests<SUT extends Class<? exte
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxEditor#MetalComboBoxEditor() public
-     * javax.swing.plaf.metal.MetalComboBoxEditor()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MetalComboBoxEditor()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.plaf.metal.MetalComboBoxEditor sut = null; // = new MetalComboBoxEditor();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.metal.MetalComboBoxEditor> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.metal.MetalComboBoxEditor.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.plaf.metal.MetalComboBoxEditor$UIResource class
      * javax.swing.plaf.metal.MetalComboBoxEditor$UIResource}, containing all class relevant test methods (at least the
@@ -113,6 +89,30 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClassTes
             assertTrue(javax.swing.plaf.metal.MetalComboBoxEditor.UIResource.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxEditor#MetalComboBoxEditor() public
+     * javax.swing.plaf.metal.MetalComboBoxEditor()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MetalComboBoxEditor()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.plaf.metal.MetalComboBoxEditor sut = null; // = new MetalComboBoxEditor();
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.metal.MetalComboBoxEditor> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.metal.MetalComboBoxEditor.class.isAssignableFrom(sut));
     }
 
 }

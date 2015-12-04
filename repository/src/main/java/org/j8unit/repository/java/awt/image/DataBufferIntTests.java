@@ -23,15 +23,46 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBufferInt#getElem(int,int) public int
-     * java.awt.image.DataBufferInt.getElem(int,int)}.
+     * Test method for {@link java.awt.image.DataBufferInt#getBankData() public int[][]
+     * java.awt.image.DataBufferInt.getBankData()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getElem_int_int()
+    public default void test_getBankData()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBufferInt#getData() public int[]
+     * java.awt.image.DataBufferInt.getData()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getData()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBufferInt#getData(int) public int[]
+     * java.awt.image.DataBufferInt.getData(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getData_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -49,6 +80,23 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getElem_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBufferInt#getElem(int,int) public int
+     * java.awt.image.DataBufferInt.getElem(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getElem_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -83,54 +131,6 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_setElem_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.DataBufferInt#getData(int) public int[]
-     * java.awt.image.DataBufferInt.getData(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getData_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.DataBufferInt#getData() public int[]
-     * java.awt.image.DataBufferInt.getData()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getData()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.DataBufferInt#getBankData() public int[][]
-     * java.awt.image.DataBufferInt.getBankData()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBankData()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

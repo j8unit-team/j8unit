@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.util.RandomTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.security.SecureRandom#generateSeed(int) public byte[]
+     * java.security.SecureRandom.generateSeed(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_generateSeed_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.security.SecureRandom#getAlgorithm() public java.lang.String
      * java.security.SecureRandom.getAlgorithm()}.
      * </p>
@@ -55,31 +71,15 @@ extends org.j8unit.repository.java.util.RandomTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.SecureRandom#generateSeed(int) public byte[]
-     * java.security.SecureRandom.generateSeed(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_generateSeed_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.SecureRandom#setSeed(long) public void
-     * java.security.SecureRandom.setSeed(long)}.
+     * Test method for {@link java.security.SecureRandom#nextBytes(byte[]) public synchronized void
+     * java.security.SecureRandom.nextBytes(byte[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setSeed_long()
+    public default void test_nextBytes_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,15 +104,15 @@ extends org.j8unit.repository.java.util.RandomTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.SecureRandom#nextBytes(byte[]) public synchronized void
-     * java.security.SecureRandom.nextBytes(byte[])}.
+     * Test method for {@link java.security.SecureRandom#setSeed(long) public void
+     * java.security.SecureRandom.setSeed(long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_nextBytes_byteArray()
+    public default void test_setSeed_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

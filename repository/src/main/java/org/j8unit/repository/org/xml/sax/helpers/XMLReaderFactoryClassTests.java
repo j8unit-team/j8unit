@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface XMLReaderFactoryClassTests<SUT extends Class<? extends org.xml.sax.helpers.XMLReaderFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.xml.sax.helpers.XMLReaderFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.xml.sax.helpers.XMLReaderFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link org.xml.sax.helpers.XMLReaderFactory#createXMLReader() public static org.xml.sax.XMLReader
@@ -76,6 +66,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.xml.sax.helpers.XMLReaderFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.xml.sax.helpers.XMLReaderFactory.class.isAssignableFrom(sut));
     }
 
 }

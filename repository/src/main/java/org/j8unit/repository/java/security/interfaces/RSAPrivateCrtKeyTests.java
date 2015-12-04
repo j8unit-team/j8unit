@@ -23,38 +23,6 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.interfaces.RSAPrivateCrtKey#getPrimeP() public abstract java.math.BigInteger
-     * java.security.interfaces.RSAPrivateCrtKey.getPrimeP()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrimeP()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.interfaces.RSAPrivateCrtKey#getPublicExponent() public abstract
-     * java.math.BigInteger java.security.interfaces.RSAPrivateCrtKey.getPublicExponent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPublicExponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.interfaces.RSAPrivateCrtKey#getCrtCoefficient() public abstract
      * java.math.BigInteger java.security.interfaces.RSAPrivateCrtKey.getCrtCoefficient()}.
      * </p>
@@ -103,6 +71,22 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.security.interfaces.RSAPrivateCrtKey#getPrimeP() public abstract java.math.BigInteger
+     * java.security.interfaces.RSAPrivateCrtKey.getPrimeP()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrimeP()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.security.interfaces.RSAPrivateCrtKey#getPrimeQ() public abstract java.math.BigInteger
      * java.security.interfaces.RSAPrivateCrtKey.getPrimeQ()}.
      * </p>
@@ -111,6 +95,22 @@ extends org.j8unit.repository.java.security.interfaces.RSAPrivateKeyTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getPrimeQ()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.interfaces.RSAPrivateCrtKey#getPublicExponent() public abstract
+     * java.math.BigInteger java.security.interfaces.RSAPrivateCrtKey.getPublicExponent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPublicExponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -40,6 +40,23 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialStruct#equals(java.lang.Object) public boolean
+     * javax.sql.rowset.serial.SerialStruct.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.sql.rowset.serial.SerialStruct#getAttributes() public java.lang.Object[]
      * javax.sql.rowset.serial.SerialStruct.getAttributes() throws javax.sql.rowset.serial.SerialException}.
      * </p>
@@ -75,15 +92,15 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialStruct#equals(java.lang.Object) public boolean
-     * javax.sql.rowset.serial.SerialStruct.equals(java.lang.Object)}.
+     * Test method for {@link javax.sql.rowset.serial.SerialStruct#getSQLTypeName() public java.lang.String
+     * javax.sql.rowset.serial.SerialStruct.getSQLTypeName() throws javax.sql.rowset.serial.SerialException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_getSQLTypeName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -101,23 +118,6 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     @Category(Draft.class)
     @Override
     public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialStruct#getSQLTypeName() public java.lang.String
-     * javax.sql.rowset.serial.SerialStruct.getSQLTypeName() throws javax.sql.rowset.serial.SerialException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSQLTypeName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

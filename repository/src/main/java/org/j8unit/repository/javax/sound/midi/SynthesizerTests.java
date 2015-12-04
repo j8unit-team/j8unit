@@ -23,38 +23,6 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Synthesizer#unloadAllInstruments(javax.sound.midi.Soundbank) public
-     * abstract void javax.sound.midi.Synthesizer.unloadAllInstruments(javax.sound.midi.Soundbank)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unloadAllInstruments_Soundbank()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.Synthesizer#isSoundbankSupported(javax.sound.midi.Soundbank) public
-     * abstract boolean javax.sound.midi.Synthesizer.isSoundbankSupported(javax.sound.midi.Soundbank)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSoundbankSupported_Soundbank()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sound.midi.Synthesizer#getAvailableInstruments() public abstract
      * javax.sound.midi.Instrument[] javax.sound.midi.Synthesizer.getAvailableInstruments()}.
      * </p>
@@ -63,6 +31,22 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAvailableInstruments()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.midi.Synthesizer#getChannels() public abstract javax.sound.midi.MidiChannel[]
+     * javax.sound.midi.Synthesizer.getChannels()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getChannels()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,6 +71,54 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.sound.midi.Synthesizer#getLatency() public abstract long
+     * javax.sound.midi.Synthesizer.getLatency()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLatency()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.midi.Synthesizer#getLoadedInstruments() public abstract
+     * javax.sound.midi.Instrument[] javax.sound.midi.Synthesizer.getLoadedInstruments()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLoadedInstruments()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.midi.Synthesizer#getMaxPolyphony() public abstract int
+     * javax.sound.midi.Synthesizer.getMaxPolyphony()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxPolyphony()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.sound.midi.Synthesizer#getVoiceStatus() public abstract
      * javax.sound.midi.VoiceStatus[] javax.sound.midi.Synthesizer.getVoiceStatus()}.
      * </p>
@@ -95,6 +127,38 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getVoiceStatus()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.midi.Synthesizer#isSoundbankSupported(javax.sound.midi.Soundbank) public
+     * abstract boolean javax.sound.midi.Synthesizer.isSoundbankSupported(javax.sound.midi.Soundbank)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSoundbankSupported_Soundbank()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.midi.Synthesizer#loadAllInstruments(javax.sound.midi.Soundbank) public
+     * abstract boolean javax.sound.midi.Synthesizer.loadAllInstruments(javax.sound.midi.Soundbank)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_loadAllInstruments_Soundbank()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -137,54 +201,6 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Synthesizer#loadAllInstruments(javax.sound.midi.Soundbank) public
-     * abstract boolean javax.sound.midi.Synthesizer.loadAllInstruments(javax.sound.midi.Soundbank)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_loadAllInstruments_Soundbank()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.Synthesizer#getLatency() public abstract long
-     * javax.sound.midi.Synthesizer.getLatency()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLatency()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.Synthesizer#getMaxPolyphony() public abstract int
-     * javax.sound.midi.Synthesizer.getMaxPolyphony()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaxPolyphony()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.sound.midi.Synthesizer#remapInstrument(javax.sound.midi.Instrument,javax.sound.midi.Instrument)
      * public abstract boolean
@@ -203,14 +219,14 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Synthesizer#getLoadedInstruments() public abstract
-     * javax.sound.midi.Instrument[] javax.sound.midi.Synthesizer.getLoadedInstruments()}.
+     * Test method for {@link javax.sound.midi.Synthesizer#unloadAllInstruments(javax.sound.midi.Soundbank) public
+     * abstract void javax.sound.midi.Synthesizer.unloadAllInstruments(javax.sound.midi.Soundbank)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLoadedInstruments()
+    public default void test_unloadAllInstruments_Soundbank()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -245,22 +261,6 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_unloadInstruments_Soundbank_PatchArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.Synthesizer#getChannels() public abstract javax.sound.midi.MidiChannel[]
-     * javax.sound.midi.Synthesizer.getChannels()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChannels()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

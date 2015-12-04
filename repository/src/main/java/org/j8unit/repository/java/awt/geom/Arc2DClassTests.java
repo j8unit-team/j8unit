@@ -34,16 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface Arc2DClassTests<SUT extends Class<? extends java.awt.geom.Arc2D>>
 extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.geom.Arc2D> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.geom.Arc2D.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link java.awt.geom.Arc2D$Double class java.awt.geom.Arc2D$Double}, containing all class relevant
@@ -74,17 +64,16 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Arc2DClassTests<SUT> {
 
         /**
-         * Test method for {@link java.awt.geom.Arc2D.Double#Double(java.awt.geom.Rectangle2D,double,double,int) public
-         * java.awt.geom.Arc2D$Double(java.awt.geom.Rectangle2D,double,double,int)}.
+         * Test method for {@link java.awt.geom.Arc2D.Double#Double() public java.awt.geom.Arc2D$Double()}.
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void create_Double_Rectangle2D_double_double_int()
+        public default void create_Double()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.awt.geom.Arc2D.Double sut = null; // = new Double(java.awt.geom.Rectangle2D,double,double,int);
+            final java.awt.geom.Arc2D.Double sut = null; // = new Double();
         }
 
         /**
@@ -115,16 +104,17 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
         }
 
         /**
-         * Test method for {@link java.awt.geom.Arc2D.Double#Double() public java.awt.geom.Arc2D$Double()}.
+         * Test method for {@link java.awt.geom.Arc2D.Double#Double(java.awt.geom.Rectangle2D,double,double,int) public
+         * java.awt.geom.Arc2D$Double(java.awt.geom.Rectangle2D,double,double,int)}.
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void create_Double()
+        public default void create_Double_Rectangle2D_double_double_int()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.awt.geom.Arc2D.Double sut = null; // = new Double();
+            final java.awt.geom.Arc2D.Double sut = null; // = new Double(java.awt.geom.Rectangle2D,double,double,int);
         }
 
         @Override
@@ -169,17 +159,16 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Arc2DClassTests<SUT> {
 
         /**
-         * Test method for {@link java.awt.geom.Arc2D.Float#Float(java.awt.geom.Rectangle2D,float,float,int) public
-         * java.awt.geom.Arc2D$Float(java.awt.geom.Rectangle2D,float,float,int)}.
+         * Test method for {@link java.awt.geom.Arc2D.Float#Float() public java.awt.geom.Arc2D$Float()}.
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void create_Float_Rectangle2D_float_float_int()
+        public default void create_Float()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.awt.geom.Arc2D.Float sut = null; // = new Float(java.awt.geom.Rectangle2D,float,float,int);
+            final java.awt.geom.Arc2D.Float sut = null; // = new Float();
         }
 
         /**
@@ -210,16 +199,17 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
         }
 
         /**
-         * Test method for {@link java.awt.geom.Arc2D.Float#Float() public java.awt.geom.Arc2D$Float()}.
+         * Test method for {@link java.awt.geom.Arc2D.Float#Float(java.awt.geom.Rectangle2D,float,float,int) public
+         * java.awt.geom.Arc2D$Float(java.awt.geom.Rectangle2D,float,float,int)}.
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void create_Float()
+        public default void create_Float_Rectangle2D_float_float_int()
         throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            final java.awt.geom.Arc2D.Float sut = null; // = new Float();
+            final java.awt.geom.Arc2D.Float sut = null; // = new Float(java.awt.geom.Rectangle2D,float,float,int);
         }
 
         @Override
@@ -232,6 +222,16 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
             assertTrue(java.awt.geom.Arc2D.Float.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.geom.Arc2D> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.geom.Arc2D.class.isAssignableFrom(sut));
     }
 
 }

@@ -36,31 +36,16 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
 org.j8unit.repository.javax.swing.AbstractButtonClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JMenuItem#JMenuItem(java.lang.String,int) public
-     * javax.swing.JMenuItem(java.lang.String,int)}.
+     * Test method for {@link javax.swing.JMenuItem#JMenuItem() public javax.swing.JMenuItem()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JMenuItem_String_int()
+    public default void create_JMenuItem()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JMenuItem sut = null; // = new JMenuItem(java.lang.String,int);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JMenuItem#JMenuItem(java.lang.String,javax.swing.Icon) public
-     * javax.swing.JMenuItem(java.lang.String,javax.swing.Icon)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JMenuItem_String_Icon()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JMenuItem sut = null; // = new JMenuItem(java.lang.String,javax.swing.Icon);
+        final javax.swing.JMenuItem sut = null; // = new JMenuItem();
     }
 
     /**
@@ -75,19 +60,6 @@ org.j8unit.repository.javax.swing.AbstractButtonClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JMenuItem sut = null; // = new JMenuItem(javax.swing.Action);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JMenuItem#JMenuItem() public javax.swing.JMenuItem()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JMenuItem()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JMenuItem sut = null; // = new JMenuItem();
     }
 
     /**
@@ -116,6 +88,34 @@ org.j8unit.repository.javax.swing.AbstractButtonClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JMenuItem sut = null; // = new JMenuItem(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JMenuItem#JMenuItem(java.lang.String,javax.swing.Icon) public
+     * javax.swing.JMenuItem(java.lang.String,javax.swing.Icon)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JMenuItem_String_Icon()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JMenuItem sut = null; // = new JMenuItem(java.lang.String,javax.swing.Icon);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JMenuItem#JMenuItem(java.lang.String,int) public
+     * javax.swing.JMenuItem(java.lang.String,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JMenuItem_String_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JMenuItem sut = null; // = new JMenuItem(java.lang.String,int);
     }
 
     @Override

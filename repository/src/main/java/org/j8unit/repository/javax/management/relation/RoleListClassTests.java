@@ -36,17 +36,17 @@ public abstract interface RoleListClassTests<SUT extends Class<? extends javax.m
 extends org.j8unit.repository.java.util.ArrayListClassTests<SUT, java.lang.Object> {
 
     /**
-     * Test method for {@link javax.management.relation.RoleList#RoleList(java.util.List) public
-     * javax.management.relation.RoleList(java.util.List) throws java.lang.IllegalArgumentException}.
+     * Test method for {@link javax.management.relation.RoleList#RoleList() public javax.management.relation.RoleList()}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RoleList_List()
+    public default void create_RoleList()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.management.relation.RoleList sut = null; // = new RoleList(java.util.List);
+        final javax.management.relation.RoleList sut = null; // = new RoleList();
     }
 
     /**
@@ -64,17 +64,17 @@ extends org.j8unit.repository.java.util.ArrayListClassTests<SUT, java.lang.Objec
     }
 
     /**
-     * Test method for {@link javax.management.relation.RoleList#RoleList() public javax.management.relation.RoleList()}
-     * .
+     * Test method for {@link javax.management.relation.RoleList#RoleList(java.util.List) public
+     * javax.management.relation.RoleList(java.util.List) throws java.lang.IllegalArgumentException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RoleList()
+    public default void create_RoleList_List()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.management.relation.RoleList sut = null; // = new RoleList();
+        final javax.management.relation.RoleList sut = null; // = new RoleList(java.util.List);
     }
 
     @Override

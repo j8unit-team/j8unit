@@ -37,19 +37,17 @@ extends org.j8unit.repository.java.awt.dnd.DropTargetListenerClassTests<SUT>, or
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.dnd.DropTarget#DropTarget(java.awt.Component,int,java.awt.dnd.DropTargetListener)
-     * public java.awt.dnd.DropTarget(java.awt.Component,int,java.awt.dnd.DropTargetListener) throws
+     * Test method for {@link java.awt.dnd.DropTarget#DropTarget() public java.awt.dnd.DropTarget() throws
      * java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DropTarget_Component_int_DropTargetListener()
+    public default void create_DropTarget()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.dnd.DropTarget sut = null; // = new
-                                                  // DropTarget(java.awt.Component,int,java.awt.dnd.DropTargetListener);
+        final java.awt.dnd.DropTarget sut = null; // = new DropTarget();
     }
 
     /**
@@ -69,17 +67,19 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.dnd.DropTarget#DropTarget() public java.awt.dnd.DropTarget() throws
+     * Test method for {@link java.awt.dnd.DropTarget#DropTarget(java.awt.Component,int,java.awt.dnd.DropTargetListener)
+     * public java.awt.dnd.DropTarget(java.awt.Component,int,java.awt.dnd.DropTargetListener) throws
      * java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DropTarget()
+    public default void create_DropTarget_Component_int_DropTargetListener()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.dnd.DropTarget sut = null; // = new DropTarget();
+        final java.awt.dnd.DropTarget sut = null; // = new
+                                                  // DropTarget(java.awt.Component,int,java.awt.dnd.DropTargetListener);
     }
 
     /**

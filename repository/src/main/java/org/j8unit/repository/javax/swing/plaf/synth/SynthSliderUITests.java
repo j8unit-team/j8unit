@@ -24,108 +24,6 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#propertyChange(java.beans.PropertyChangeEvent) public
-     * void javax.swing.plaf.synth.SynthSliderUI.propertyChange(java.beans.PropertyChangeEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_propertyChange_PropertyChangeEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#update(java.awt.Graphics,javax.swing.JComponent)
-     * public void javax.swing.plaf.synth.SynthSliderUI.update(java.awt.Graphics,javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_update_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#paint(java.awt.Graphics,javax.swing.JComponent)
-     * public void javax.swing.plaf.synth.SynthSliderUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paint_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#setThumbLocation(int,int) public void
-     * javax.swing.plaf.synth.SynthSliderUI.setThumbLocation(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setThumbLocation_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#valueForXPosition(int) public int
-     * javax.swing.plaf.synth.SynthSliderUI.valueForXPosition(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_valueForXPosition_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#getContext(javax.swing.JComponent) public
-     * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthSliderUI.getContext(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getContext_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#getBaseline(javax.swing.JComponent,int,int) public
      * int javax.swing.plaf.synth.SynthSliderUI.getBaseline(javax.swing.JComponent,int,int)}.
      * </p>
@@ -143,35 +41,15 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.synth.SynthSliderUI#paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)
-     * public void
-     * javax.swing.plaf.synth.SynthSliderUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
-     * .
+     * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#getContext(javax.swing.JComponent) public
+     * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthSliderUI.getContext(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_paintBorder_SynthContext_Graphics_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#valueForYPosition(int) public int
-     * javax.swing.plaf.synth.SynthSliderUI.valueForYPosition(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_valueForYPosition_int()
+    public default void test_getContext_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -206,6 +84,128 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getPreferredSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#paint(java.awt.Graphics,javax.swing.JComponent)
+     * public void javax.swing.plaf.synth.SynthSliderUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paint_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.synth.SynthSliderUI#paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)
+     * public void
+     * javax.swing.plaf.synth.SynthSliderUI.paintBorder(javax.swing.plaf.synth.SynthContext,java.awt.Graphics,int,int,int,int)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paintBorder_SynthContext_Graphics_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#propertyChange(java.beans.PropertyChangeEvent) public
+     * void javax.swing.plaf.synth.SynthSliderUI.propertyChange(java.beans.PropertyChangeEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_propertyChange_PropertyChangeEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#setThumbLocation(int,int) public void
+     * javax.swing.plaf.synth.SynthSliderUI.setThumbLocation(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setThumbLocation_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#update(java.awt.Graphics,javax.swing.JComponent)
+     * public void javax.swing.plaf.synth.SynthSliderUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_update_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#valueForXPosition(int) public int
+     * javax.swing.plaf.synth.SynthSliderUI.valueForXPosition(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_valueForXPosition_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthSliderUI#valueForYPosition(int) public int
+     * javax.swing.plaf.synth.SynthSliderUI.valueForYPosition(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_valueForYPosition_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

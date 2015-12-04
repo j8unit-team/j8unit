@@ -36,52 +36,6 @@ public abstract interface ActivationGroupDescClassTests<SUT extends Class<? exte
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.rmi.activation.ActivationGroupDesc#ActivationGroupDesc(java.util.Properties,java.rmi.activation.ActivationGroupDesc.CommandEnvironment)
-     * public
-     * java.rmi.activation.ActivationGroupDesc(java.util.Properties,java.rmi.activation.ActivationGroupDesc$CommandEnvironment)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ActivationGroupDesc_Properties_CommandEnvironment()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.rmi.activation.ActivationGroupDesc sut = null; // = new
-                                                                  // ActivationGroupDesc(java.util.Properties,java.rmi.activation.ActivationGroupDesc.CommandEnvironment);
-    }
-
-    /**
-     * Test method for
-     * {@link java.rmi.activation.ActivationGroupDesc#ActivationGroupDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject,java.util.Properties,java.rmi.activation.ActivationGroupDesc.CommandEnvironment)
-     * public
-     * java.rmi.activation.ActivationGroupDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject,java.util.Properties,java.rmi.activation.ActivationGroupDesc$CommandEnvironment)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ActivationGroupDesc_String_String_MarshalledObject_Properties_CommandEnvironment()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.rmi.activation.ActivationGroupDesc sut = null; // = new
-                                                                  // ActivationGroupDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject,java.util.Properties,java.rmi.activation.ActivationGroupDesc.CommandEnvironment);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.rmi.activation.ActivationGroupDesc> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.rmi.activation.ActivationGroupDesc.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link java.rmi.activation.ActivationGroupDesc$CommandEnvironment class
      * java.rmi.activation.ActivationGroupDesc$CommandEnvironment}, containing all class relevant test methods (at least
@@ -137,6 +91,52 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
             assertTrue(java.rmi.activation.ActivationGroupDesc.CommandEnvironment.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for
+     * {@link java.rmi.activation.ActivationGroupDesc#ActivationGroupDesc(java.util.Properties,java.rmi.activation.ActivationGroupDesc.CommandEnvironment)
+     * public
+     * java.rmi.activation.ActivationGroupDesc(java.util.Properties,java.rmi.activation.ActivationGroupDesc$CommandEnvironment)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ActivationGroupDesc_Properties_CommandEnvironment()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.rmi.activation.ActivationGroupDesc sut = null; // = new
+                                                                  // ActivationGroupDesc(java.util.Properties,java.rmi.activation.ActivationGroupDesc.CommandEnvironment);
+    }
+
+    /**
+     * Test method for
+     * {@link java.rmi.activation.ActivationGroupDesc#ActivationGroupDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject,java.util.Properties,java.rmi.activation.ActivationGroupDesc.CommandEnvironment)
+     * public
+     * java.rmi.activation.ActivationGroupDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject,java.util.Properties,java.rmi.activation.ActivationGroupDesc$CommandEnvironment)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ActivationGroupDesc_String_String_MarshalledObject_Properties_CommandEnvironment()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.rmi.activation.ActivationGroupDesc sut = null; // = new
+                                                                  // ActivationGroupDesc(java.lang.String,java.lang.String,java.rmi.MarshalledObject,java.util.Properties,java.rmi.activation.ActivationGroupDesc.CommandEnvironment);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.rmi.activation.ActivationGroupDesc> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.rmi.activation.ActivationGroupDesc.class.isAssignableFrom(sut));
     }
 
 }

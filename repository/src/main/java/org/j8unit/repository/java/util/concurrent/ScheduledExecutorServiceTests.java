@@ -25,16 +25,16 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.ScheduledExecutorService#scheduleAtFixedRate(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit)
+     * {@link java.util.concurrent.ScheduledExecutorService#schedule(java.util.concurrent.Callable,long,java.util.concurrent.TimeUnit)
      * public abstract java.util.concurrent.ScheduledFuture
-     * java.util.concurrent.ScheduledExecutorService.scheduleAtFixedRate(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit)}
+     * java.util.concurrent.ScheduledExecutorService.schedule(java.util.concurrent.Callable,long,java.util.concurrent.TimeUnit)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_scheduleAtFixedRate_Runnable_long_long_TimeUnit()
+    public default void test_schedule_Callable_long_TimeUnit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -62,16 +62,16 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.ScheduledExecutorService#schedule(java.util.concurrent.Callable,long,java.util.concurrent.TimeUnit)
+     * {@link java.util.concurrent.ScheduledExecutorService#scheduleAtFixedRate(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit)
      * public abstract java.util.concurrent.ScheduledFuture
-     * java.util.concurrent.ScheduledExecutorService.schedule(java.util.concurrent.Callable,long,java.util.concurrent.TimeUnit)}
+     * java.util.concurrent.ScheduledExecutorService.scheduleAtFixedRate(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_schedule_Callable_long_TimeUnit()
+    public default void test_scheduleAtFixedRate_Runnable_long_long_TimeUnit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

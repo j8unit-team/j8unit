@@ -34,15 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface DocumentEventClassTests<SUT extends Class<? extends javax.swing.event.DocumentEvent>>
 extends J8UnitTest<SUT> {
 
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.event.DocumentEvent> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.event.DocumentEvent.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.swing.event.DocumentEvent$ElementChange interface
@@ -123,6 +114,15 @@ extends J8UnitTest<SUT> {
             assertTrue(javax.swing.event.DocumentEvent.EventType.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.event.DocumentEvent> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.event.DocumentEvent.class.isAssignableFrom(sut));
     }
 
 }

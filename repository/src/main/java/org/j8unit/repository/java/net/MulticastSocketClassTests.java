@@ -36,17 +36,17 @@ public abstract interface MulticastSocketClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.net.DatagramSocketClassTests<SUT> {
 
     /**
-     * Test method for {@link java.net.MulticastSocket#MulticastSocket(java.net.SocketAddress) public
-     * java.net.MulticastSocket(java.net.SocketAddress) throws java.io.IOException}.
+     * Test method for {@link java.net.MulticastSocket#MulticastSocket() public java.net.MulticastSocket() throws
+     * java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MulticastSocket_SocketAddress()
+    public default void create_MulticastSocket()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.net.MulticastSocket sut = null; // = new MulticastSocket(java.net.SocketAddress);
+        final java.net.MulticastSocket sut = null; // = new MulticastSocket();
     }
 
     /**
@@ -64,17 +64,17 @@ extends org.j8unit.repository.java.net.DatagramSocketClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.net.MulticastSocket#MulticastSocket() public java.net.MulticastSocket() throws
-     * java.io.IOException}.
+     * Test method for {@link java.net.MulticastSocket#MulticastSocket(java.net.SocketAddress) public
+     * java.net.MulticastSocket(java.net.SocketAddress) throws java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MulticastSocket()
+    public default void create_MulticastSocket_SocketAddress()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.net.MulticastSocket sut = null; // = new MulticastSocket();
+        final java.net.MulticastSocket sut = null; // = new MulticastSocket(java.net.SocketAddress);
     }
 
     @Override

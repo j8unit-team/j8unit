@@ -38,24 +38,6 @@ org.j8unit.repository.javax.management.MBeanRegistrationClassTests<SUT>, org.j8u
 
     /**
      * Test method for
-     * {@link javax.management.relation.RelationSupport#RelationSupport(java.lang.String,javax.management.ObjectName,java.lang.String,javax.management.relation.RoleList)
-     * public
-     * javax.management.relation.RelationSupport(java.lang.String,javax.management.ObjectName,java.lang.String,javax.management.relation.RoleList)
-     * throws javax.management.relation.InvalidRoleValueException,java.lang.IllegalArgumentException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RelationSupport_String_ObjectName_String_RoleList()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.relation.RelationSupport sut = null; // = new
-                                                                    // RelationSupport(java.lang.String,javax.management.ObjectName,java.lang.String,javax.management.relation.RoleList);
-    }
-
-    /**
-     * Test method for
      * {@link javax.management.relation.RelationSupport#RelationSupport(java.lang.String,javax.management.ObjectName,javax.management.MBeanServer,java.lang.String,javax.management.relation.RoleList)
      * public
      * javax.management.relation.RelationSupport(java.lang.String,javax.management.ObjectName,javax.management.MBeanServer,java.lang.String,javax.management.relation.RoleList)
@@ -70,6 +52,24 @@ org.j8unit.repository.javax.management.MBeanRegistrationClassTests<SUT>, org.j8u
         @SuppressWarnings("unused")
         final javax.management.relation.RelationSupport sut = null; // = new
                                                                     // RelationSupport(java.lang.String,javax.management.ObjectName,javax.management.MBeanServer,java.lang.String,javax.management.relation.RoleList);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.management.relation.RelationSupport#RelationSupport(java.lang.String,javax.management.ObjectName,java.lang.String,javax.management.relation.RoleList)
+     * public
+     * javax.management.relation.RelationSupport(java.lang.String,javax.management.ObjectName,java.lang.String,javax.management.relation.RoleList)
+     * throws javax.management.relation.InvalidRoleValueException,java.lang.IllegalArgumentException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RelationSupport_String_ObjectName_String_RoleList()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.relation.RelationSupport sut = null; // = new
+                                                                    // RelationSupport(java.lang.String,javax.management.ObjectName,java.lang.String,javax.management.relation.RoleList);
     }
 
     @Override

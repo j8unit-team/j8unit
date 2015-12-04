@@ -24,15 +24,30 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link java.util.IdentityHashMap#values() public java.util.Collection
-     * java.util.IdentityHashMap.values()}.
+     * Test method for {@link java.util.IdentityHashMap#clear() public void java.util.IdentityHashMap.clear()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_values()
+    public default void test_clear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.IdentityHashMap#clone() public java.lang.Object
+     * java.util.IdentityHashMap.clone()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -58,15 +73,15 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link java.util.IdentityHashMap#forEach(java.util.function.BiConsumer) public void
-     * java.util.IdentityHashMap.forEach(java.util.function.BiConsumer)}.
+     * Test method for {@link java.util.IdentityHashMap#containsValue(java.lang.Object) public boolean
+     * java.util.IdentityHashMap.containsValue(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_forEach_BiConsumer()
+    public default void test_containsValue_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,14 +107,15 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link java.util.IdentityHashMap#clear() public void java.util.IdentityHashMap.clear()}.
+     * Test method for {@link java.util.IdentityHashMap#equals(java.lang.Object) public boolean
+     * java.util.IdentityHashMap.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_clear()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -108,82 +124,15 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link java.util.IdentityHashMap#isEmpty() public boolean java.util.IdentityHashMap.isEmpty()}.
+     * Test method for {@link java.util.IdentityHashMap#forEach(java.util.function.BiConsumer) public void
+     * java.util.IdentityHashMap.forEach(java.util.function.BiConsumer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isEmpty()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.IdentityHashMap#remove(java.lang.Object) public java.lang.Object
-     * java.util.IdentityHashMap.remove(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_remove_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.IdentityHashMap#put(java.lang.Object,java.lang.Object) public java.lang.Object
-     * java.util.IdentityHashMap.put(java.lang.Object,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_put_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.IdentityHashMap#containsValue(java.lang.Object) public boolean
-     * java.util.IdentityHashMap.containsValue(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_containsValue_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.IdentityHashMap#replaceAll(java.util.function.BiFunction) public void
-     * java.util.IdentityHashMap.replaceAll(java.util.function.BiFunction)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_replaceAll_BiFunction()
+    public default void test_forEach_BiConsumer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -209,15 +158,64 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link java.util.IdentityHashMap#equals(java.lang.Object) public boolean
-     * java.util.IdentityHashMap.equals(java.lang.Object)}.
+     * Test method for {@link java.util.IdentityHashMap#hashCode() public int java.util.IdentityHashMap.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.IdentityHashMap#isEmpty() public boolean java.util.IdentityHashMap.isEmpty()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isEmpty()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.IdentityHashMap#keySet() public java.util.Set
+     * java.util.IdentityHashMap.keySet()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_keySet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.IdentityHashMap#put(java.lang.Object,java.lang.Object) public java.lang.Object
+     * java.util.IdentityHashMap.put(java.lang.Object,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_put_Object_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -243,14 +241,32 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link java.util.IdentityHashMap#hashCode() public int java.util.IdentityHashMap.hashCode()}.
+     * Test method for {@link java.util.IdentityHashMap#remove(java.lang.Object) public java.lang.Object
+     * java.util.IdentityHashMap.remove(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode()
+    public default void test_remove_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.IdentityHashMap#replaceAll(java.util.function.BiFunction) public void
+     * java.util.IdentityHashMap.replaceAll(java.util.function.BiFunction)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_replaceAll_BiFunction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -275,31 +291,15 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link java.util.IdentityHashMap#clone() public java.lang.Object
-     * java.util.IdentityHashMap.clone()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.IdentityHashMap#keySet() public java.util.Set
-     * java.util.IdentityHashMap.keySet()}.
+     * Test method for {@link java.util.IdentityHashMap#values() public java.util.Collection
+     * java.util.IdentityHashMap.values()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_keySet()
+    public default void test_values()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

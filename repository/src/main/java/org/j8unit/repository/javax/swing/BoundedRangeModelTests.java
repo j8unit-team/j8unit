@@ -24,14 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BoundedRangeModel#getExtent() public abstract int
-     * javax.swing.BoundedRangeModel.getExtent()}.
+     * Test method for {@link javax.swing.BoundedRangeModel#addChangeListener(javax.swing.event.ChangeListener) public
+     * abstract void javax.swing.BoundedRangeModel.addChangeListener(javax.swing.event.ChangeListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getExtent()
+    public default void test_addChangeListener_ChangeListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,14 +40,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BoundedRangeModel#setMaximum(int) public abstract void
-     * javax.swing.BoundedRangeModel.setMaximum(int)}.
+     * Test method for {@link javax.swing.BoundedRangeModel#getExtent() public abstract int
+     * javax.swing.BoundedRangeModel.getExtent()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setMaximum_int()
+    public default void test_getExtent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +72,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BoundedRangeModel#addChangeListener(javax.swing.event.ChangeListener) public
-     * abstract void javax.swing.BoundedRangeModel.addChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for {@link javax.swing.BoundedRangeModel#getMinimum() public abstract int
+     * javax.swing.BoundedRangeModel.getMinimum()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addChangeListener_ChangeListener()
+    public default void test_getMinimum()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,6 +104,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.BoundedRangeModel#getValueIsAdjusting() public abstract boolean
+     * javax.swing.BoundedRangeModel.getValueIsAdjusting()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getValueIsAdjusting()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.BoundedRangeModel#removeChangeListener(javax.swing.event.ChangeListener)
      * public abstract void javax.swing.BoundedRangeModel.removeChangeListener(javax.swing.event.ChangeListener)}.
      * </p>
@@ -112,70 +128,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_removeChangeListener_ChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BoundedRangeModel#setValueIsAdjusting(boolean) public abstract void
-     * javax.swing.BoundedRangeModel.setValueIsAdjusting(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setValueIsAdjusting_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BoundedRangeModel#setValue(int) public abstract void
-     * javax.swing.BoundedRangeModel.setValue(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setValue_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BoundedRangeModel#getMinimum() public abstract int
-     * javax.swing.BoundedRangeModel.getMinimum()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinimum()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BoundedRangeModel#setRangeProperties(int,int,int,int,boolean) public abstract
-     * void javax.swing.BoundedRangeModel.setRangeProperties(int,int,int,int,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRangeProperties_int_int_int_int_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -200,14 +152,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BoundedRangeModel#getValueIsAdjusting() public abstract boolean
-     * javax.swing.BoundedRangeModel.getValueIsAdjusting()}.
+     * Test method for {@link javax.swing.BoundedRangeModel#setMaximum(int) public abstract void
+     * javax.swing.BoundedRangeModel.setMaximum(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getValueIsAdjusting()
+    public default void test_setMaximum_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -224,6 +176,54 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setMinimum_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BoundedRangeModel#setRangeProperties(int,int,int,int,boolean) public abstract
+     * void javax.swing.BoundedRangeModel.setRangeProperties(int,int,int,int,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRangeProperties_int_int_int_int_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BoundedRangeModel#setValue(int) public abstract void
+     * javax.swing.BoundedRangeModel.setValue(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setValue_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BoundedRangeModel#setValueIsAdjusting(boolean) public abstract void
+     * javax.swing.BoundedRangeModel.setValueIsAdjusting(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setValueIsAdjusting_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

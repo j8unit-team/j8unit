@@ -23,14 +23,30 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.WebRowSet#writeXml(java.io.Writer) public abstract void
-     * javax.sql.rowset.WebRowSet.writeXml(java.io.Writer) throws java.sql.SQLException}.
+     * Test method for {@link javax.sql.rowset.WebRowSet#readXml(java.io.InputStream) public abstract void
+     * javax.sql.rowset.WebRowSet.readXml(java.io.InputStream) throws java.sql.SQLException,java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeXml_Writer()
+    public default void test_readXml_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.WebRowSet#readXml(java.io.Reader) public abstract void
+     * javax.sql.rowset.WebRowSet.readXml(java.io.Reader) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readXml_Reader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,30 +104,14 @@ extends org.j8unit.repository.javax.sql.rowset.CachedRowSetTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.WebRowSet#readXml(java.io.Reader) public abstract void
-     * javax.sql.rowset.WebRowSet.readXml(java.io.Reader) throws java.sql.SQLException}.
+     * Test method for {@link javax.sql.rowset.WebRowSet#writeXml(java.io.Writer) public abstract void
+     * javax.sql.rowset.WebRowSet.writeXml(java.io.Writer) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_readXml_Reader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.WebRowSet#readXml(java.io.InputStream) public abstract void
-     * javax.sql.rowset.WebRowSet.readXml(java.io.InputStream) throws java.sql.SQLException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readXml_InputStream()
+    public default void test_writeXml_Writer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

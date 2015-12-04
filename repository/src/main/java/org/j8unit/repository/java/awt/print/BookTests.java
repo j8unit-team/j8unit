@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.awt.print.PageableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.Book#getNumberOfPages() public int java.awt.print.Book.getNumberOfPages()}.
+     * Test method for {@link java.awt.print.Book#append(java.awt.print.Printable,java.awt.print.PageFormat) public void
+     * java.awt.print.Book.append(java.awt.print.Printable,java.awt.print.PageFormat)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getNumberOfPages()
+    public default void test_append_Printable_PageFormat()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,15 +39,30 @@ extends org.j8unit.repository.java.awt.print.PageableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.Book#getPrintable(int) public java.awt.print.Printable
-     * java.awt.print.Book.getPrintable(int) throws java.lang.IndexOutOfBoundsException}.
+     * Test method for {@link java.awt.print.Book#append(java.awt.print.Printable,java.awt.print.PageFormat,int) public
+     * void java.awt.print.Book.append(java.awt.print.Printable,java.awt.print.PageFormat,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_append_Printable_PageFormat_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.print.Book#getNumberOfPages() public int java.awt.print.Book.getNumberOfPages()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getPrintable_int()
+    public default void test_getNumberOfPages()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,6 +88,23 @@ extends org.j8unit.repository.java.awt.print.PageableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
+     * Test method for {@link java.awt.print.Book#getPrintable(int) public java.awt.print.Printable
+     * java.awt.print.Book.getPrintable(int) throws java.lang.IndexOutOfBoundsException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPrintable_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.print.Book#setPage(int,java.awt.print.Printable,java.awt.print.PageFormat) public
      * void java.awt.print.Book.setPage(int,java.awt.print.Printable,java.awt.print.PageFormat) throws
      * java.lang.IndexOutOfBoundsException}.
@@ -82,38 +114,6 @@ extends org.j8unit.repository.java.awt.print.PageableTests<SUT>, org.j8unit.repo
     @Test
     @Category(Draft.class)
     public default void test_setPage_int_Printable_PageFormat()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.print.Book#append(java.awt.print.Printable,java.awt.print.PageFormat,int) public
-     * void java.awt.print.Book.append(java.awt.print.Printable,java.awt.print.PageFormat,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_append_Printable_PageFormat_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.print.Book#append(java.awt.print.Printable,java.awt.print.PageFormat) public void
-     * java.awt.print.Book.append(java.awt.print.Printable,java.awt.print.PageFormat)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_append_Printable_PageFormat()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

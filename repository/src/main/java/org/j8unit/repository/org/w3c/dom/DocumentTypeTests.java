@@ -23,38 +23,6 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.DocumentType#getPublicId() public abstract java.lang.String
-     * org.w3c.dom.DocumentType.getPublicId()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPublicId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.DocumentType#getNotations() public abstract org.w3c.dom.NamedNodeMap
-     * org.w3c.dom.DocumentType.getNotations()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNotations()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.DocumentType#getEntities() public abstract org.w3c.dom.NamedNodeMap
      * org.w3c.dom.DocumentType.getEntities()}.
      * </p>
@@ -63,6 +31,22 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getEntities()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.DocumentType#getInternalSubset() public abstract java.lang.String
+     * org.w3c.dom.DocumentType.getInternalSubset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInternalSubset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,14 +71,30 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.DocumentType#getInternalSubset() public abstract java.lang.String
-     * org.w3c.dom.DocumentType.getInternalSubset()}.
+     * Test method for {@link org.w3c.dom.DocumentType#getNotations() public abstract org.w3c.dom.NamedNodeMap
+     * org.w3c.dom.DocumentType.getNotations()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInternalSubset()
+    public default void test_getNotations()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.DocumentType#getPublicId() public abstract java.lang.String
+     * org.w3c.dom.DocumentType.getPublicId()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPublicId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

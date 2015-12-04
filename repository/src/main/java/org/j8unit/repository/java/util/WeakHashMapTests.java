@@ -23,140 +23,6 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.util.WeakHashMap#keySet() public java.util.Set java.util.WeakHashMap.keySet()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_keySet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#get(java.lang.Object) public java.lang.Object
-     * java.util.WeakHashMap.get(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_get_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#putAll(java.util.Map) public void
-     * java.util.WeakHashMap.putAll(java.util.Map)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_putAll_Map()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#size() public int java.util.WeakHashMap.size()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_size()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#remove(java.lang.Object) public java.lang.Object
-     * java.util.WeakHashMap.remove(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_remove_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#put(java.lang.Object,java.lang.Object) public java.lang.Object
-     * java.util.WeakHashMap.put(java.lang.Object,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_put_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#containsValue(java.lang.Object) public boolean
-     * java.util.WeakHashMap.containsValue(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_containsValue_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#replaceAll(java.util.function.BiFunction) public void
-     * java.util.WeakHashMap.replaceAll(java.util.function.BiFunction)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_replaceAll_BiFunction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.WeakHashMap#clear() public void java.util.WeakHashMap.clear()}.
      * </p>
      */
@@ -165,22 +31,6 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
     @Category(Draft.class)
     @Override
     public default void test_clear()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#isEmpty() public boolean java.util.WeakHashMap.isEmpty()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isEmpty()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -206,32 +56,15 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.util.WeakHashMap#forEach(java.util.function.BiConsumer) public void
-     * java.util.WeakHashMap.forEach(java.util.function.BiConsumer)}.
+     * Test method for {@link java.util.WeakHashMap#containsValue(java.lang.Object) public boolean
+     * java.util.WeakHashMap.containsValue(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_forEach_BiConsumer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.WeakHashMap#values() public java.util.Collection java.util.WeakHashMap.values()}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_values()
+    public default void test_containsValue_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -266,8 +99,42 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode()
+    public default void test_equals_Object()
     throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.WeakHashMap#forEach(java.util.function.BiConsumer) public void
+     * java.util.WeakHashMap.forEach(java.util.function.BiConsumer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_forEach_BiConsumer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.WeakHashMap#get(java.lang.Object) public java.lang.Object
+     * java.util.WeakHashMap.get(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_get_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -282,8 +149,141 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.reposito
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_hashCode()
     throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.WeakHashMap#isEmpty() public boolean java.util.WeakHashMap.isEmpty()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isEmpty()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.WeakHashMap#keySet() public java.util.Set java.util.WeakHashMap.keySet()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_keySet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.WeakHashMap#put(java.lang.Object,java.lang.Object) public java.lang.Object
+     * java.util.WeakHashMap.put(java.lang.Object,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_put_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.WeakHashMap#putAll(java.util.Map) public void
+     * java.util.WeakHashMap.putAll(java.util.Map)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_putAll_Map()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.WeakHashMap#remove(java.lang.Object) public java.lang.Object
+     * java.util.WeakHashMap.remove(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_remove_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.WeakHashMap#replaceAll(java.util.function.BiFunction) public void
+     * java.util.WeakHashMap.replaceAll(java.util.function.BiFunction)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_replaceAll_BiFunction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.WeakHashMap#size() public int java.util.WeakHashMap.size()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_size()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.WeakHashMap#values() public java.util.Collection java.util.WeakHashMap.values()}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_values()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

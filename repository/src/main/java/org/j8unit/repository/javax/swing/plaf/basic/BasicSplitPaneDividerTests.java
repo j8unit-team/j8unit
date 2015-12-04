@@ -24,57 +24,6 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getDividerSize() public int
-     * javax.swing.plaf.basic.BasicSplitPaneDivider.getDividerSize()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDividerSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#setBasicSplitPaneUI(javax.swing.plaf.basic.BasicSplitPaneUI)
-     * public void
-     * javax.swing.plaf.basic.BasicSplitPaneDivider.setBasicSplitPaneUI(javax.swing.plaf.basic.BasicSplitPaneUI)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBasicSplitPaneUI_BasicSplitPaneUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#paint(java.awt.Graphics) public void
-     * javax.swing.plaf.basic.BasicSplitPaneDivider.paint(java.awt.Graphics)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paint_Graphics()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getBasicSplitPaneUI() public
      * javax.swing.plaf.basic.BasicSplitPaneUI javax.swing.plaf.basic.BasicSplitPaneDivider.getBasicSplitPaneUI()}.
      * </p>
@@ -83,6 +32,38 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
     @Test
     @Category(Draft.class)
     public default void test_getBasicSplitPaneUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getBorder() public javax.swing.border.Border
+     * javax.swing.plaf.basic.BasicSplitPaneDivider.getBorder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBorder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getDividerSize() public int
+     * javax.swing.plaf.basic.BasicSplitPaneDivider.getDividerSize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDividerSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -100,6 +81,73 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
     @Category(Draft.class)
     @Override
     public default void test_getInsets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getMinimumSize() public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicSplitPaneDivider.getMinimumSize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMinimumSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getPreferredSize() public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicSplitPaneDivider.getPreferredSize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPreferredSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#isMouseOver() public boolean
+     * javax.swing.plaf.basic.BasicSplitPaneDivider.isMouseOver()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isMouseOver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#paint(java.awt.Graphics) public void
+     * javax.swing.plaf.basic.BasicSplitPaneDivider.paint(java.awt.Graphics)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paint_Graphics()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -126,48 +174,16 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#setDividerSize(int) public void
-     * javax.swing.plaf.basic.BasicSplitPaneDivider.setDividerSize(int)}.
+     * Test method for
+     * {@link javax.swing.plaf.basic.BasicSplitPaneDivider#setBasicSplitPaneUI(javax.swing.plaf.basic.BasicSplitPaneUI)
+     * public void
+     * javax.swing.plaf.basic.BasicSplitPaneDivider.setBasicSplitPaneUI(javax.swing.plaf.basic.BasicSplitPaneUI)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDividerSize_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getPreferredSize() public java.awt.Dimension
-     * javax.swing.plaf.basic.BasicSplitPaneDivider.getPreferredSize()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPreferredSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getMinimumSize() public java.awt.Dimension
-     * javax.swing.plaf.basic.BasicSplitPaneDivider.getMinimumSize()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMinimumSize()
+    public default void test_setBasicSplitPaneUI_BasicSplitPaneUI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -192,30 +208,14 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#getBorder() public javax.swing.border.Border
-     * javax.swing.plaf.basic.BasicSplitPaneDivider.getBorder()}.
+     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#setDividerSize(int) public void
+     * javax.swing.plaf.basic.BasicSplitPaneDivider.setDividerSize(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBorder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicSplitPaneDivider#isMouseOver() public boolean
-     * javax.swing.plaf.basic.BasicSplitPaneDivider.isMouseOver()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isMouseOver()
+    public default void test_setDividerSize_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

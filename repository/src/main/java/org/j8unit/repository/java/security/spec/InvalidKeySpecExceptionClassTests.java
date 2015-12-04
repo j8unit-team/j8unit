@@ -36,18 +36,31 @@ public abstract interface InvalidKeySpecExceptionClassTests<SUT extends Class<? 
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.spec.InvalidKeySpecException#InvalidKeySpecException(java.lang.Throwable)
-     * public java.security.spec.InvalidKeySpecException(java.lang.Throwable)}.
+     * Test method for {@link java.security.spec.InvalidKeySpecException#InvalidKeySpecException() public
+     * java.security.spec.InvalidKeySpecException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_InvalidKeySpecException_Throwable()
+    public default void create_InvalidKeySpecException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.spec.InvalidKeySpecException sut = null; // = new
-                                                                     // InvalidKeySpecException(java.lang.Throwable);
+        final java.security.spec.InvalidKeySpecException sut = null; // = new InvalidKeySpecException();
+    }
+
+    /**
+     * Test method for {@link java.security.spec.InvalidKeySpecException#InvalidKeySpecException(java.lang.String)
+     * public java.security.spec.InvalidKeySpecException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InvalidKeySpecException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.spec.InvalidKeySpecException sut = null; // = new InvalidKeySpecException(java.lang.String);
     }
 
     /**
@@ -67,31 +80,18 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     }
 
     /**
-     * Test method for {@link java.security.spec.InvalidKeySpecException#InvalidKeySpecException(java.lang.String)
-     * public java.security.spec.InvalidKeySpecException(java.lang.String)}.
+     * Test method for {@link java.security.spec.InvalidKeySpecException#InvalidKeySpecException(java.lang.Throwable)
+     * public java.security.spec.InvalidKeySpecException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_InvalidKeySpecException_String()
+    public default void create_InvalidKeySpecException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.spec.InvalidKeySpecException sut = null; // = new InvalidKeySpecException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.security.spec.InvalidKeySpecException#InvalidKeySpecException() public
-     * java.security.spec.InvalidKeySpecException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InvalidKeySpecException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.spec.InvalidKeySpecException sut = null; // = new InvalidKeySpecException();
+        final java.security.spec.InvalidKeySpecException sut = null; // = new
+                                                                     // InvalidKeySpecException(java.lang.Throwable);
     }
 
     @Override

@@ -40,134 +40,15 @@ extends org.j8unit.repository.javax.naming.directory.AttributesTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.BasicAttributes#toString() public java.lang.String
-     * javax.naming.directory.BasicAttributes.toString()}.
+     * Test method for {@link javax.naming.directory.BasicAttributes#equals(java.lang.Object) public boolean
+     * javax.naming.directory.BasicAttributes.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.directory.BasicAttributes#getIDs() public javax.naming.NamingEnumeration
-     * javax.naming.directory.BasicAttributes.getIDs()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getIDs()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.directory.BasicAttributes#remove(java.lang.String) public
-     * javax.naming.directory.Attribute javax.naming.directory.BasicAttributes.remove(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_remove_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.directory.BasicAttributes#put(java.lang.String,java.lang.Object) public
-     * javax.naming.directory.Attribute javax.naming.directory.BasicAttributes.put(java.lang.String,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_put_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.directory.BasicAttributes#put(javax.naming.directory.Attribute) public
-     * javax.naming.directory.Attribute javax.naming.directory.BasicAttributes.put(javax.naming.directory.Attribute)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_put_Attribute()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.directory.BasicAttributes#getAll() public javax.naming.NamingEnumeration
-     * javax.naming.directory.BasicAttributes.getAll()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAll()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.directory.BasicAttributes#isCaseIgnored() public boolean
-     * javax.naming.directory.BasicAttributes.isCaseIgnored()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isCaseIgnored()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.directory.BasicAttributes#size() public int
-     * javax.naming.directory.BasicAttributes.size()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_size()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -193,15 +74,32 @@ extends org.j8unit.repository.javax.naming.directory.AttributesTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.BasicAttributes#equals(java.lang.Object) public boolean
-     * javax.naming.directory.BasicAttributes.equals(java.lang.Object)}.
+     * Test method for {@link javax.naming.directory.BasicAttributes#getAll() public javax.naming.NamingEnumeration
+     * javax.naming.directory.BasicAttributes.getAll()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_getAll()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.directory.BasicAttributes#getIDs() public javax.naming.NamingEnumeration
+     * javax.naming.directory.BasicAttributes.getIDs()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getIDs()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -219,6 +117,108 @@ extends org.j8unit.repository.javax.naming.directory.AttributesTests<SUT>, org.j
     @Category(Draft.class)
     @Override
     public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.directory.BasicAttributes#isCaseIgnored() public boolean
+     * javax.naming.directory.BasicAttributes.isCaseIgnored()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isCaseIgnored()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.directory.BasicAttributes#put(javax.naming.directory.Attribute) public
+     * javax.naming.directory.Attribute javax.naming.directory.BasicAttributes.put(javax.naming.directory.Attribute)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_put_Attribute()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.directory.BasicAttributes#put(java.lang.String,java.lang.Object) public
+     * javax.naming.directory.Attribute javax.naming.directory.BasicAttributes.put(java.lang.String,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_put_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.directory.BasicAttributes#remove(java.lang.String) public
+     * javax.naming.directory.Attribute javax.naming.directory.BasicAttributes.remove(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_remove_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.directory.BasicAttributes#size() public int
+     * javax.naming.directory.BasicAttributes.size()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_size()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.directory.BasicAttributes#toString() public java.lang.String
+     * javax.naming.directory.BasicAttributes.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

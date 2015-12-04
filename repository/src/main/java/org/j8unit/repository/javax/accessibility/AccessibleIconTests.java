@@ -24,38 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleIcon#getAccessibleIconWidth() public abstract int
-     * javax.accessibility.AccessibleIcon.getAccessibleIconWidth()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleIconWidth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleIcon#setAccessibleIconDescription(java.lang.String) public
-     * abstract void javax.accessibility.AccessibleIcon.setAccessibleIconDescription(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAccessibleIconDescription_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.accessibility.AccessibleIcon#getAccessibleIconDescription() public abstract
      * java.lang.String javax.accessibility.AccessibleIcon.getAccessibleIconDescription()}.
      * </p>
@@ -80,6 +48,38 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAccessibleIconHeight()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleIcon#getAccessibleIconWidth() public abstract int
+     * javax.accessibility.AccessibleIcon.getAccessibleIconWidth()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleIconWidth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleIcon#setAccessibleIconDescription(java.lang.String) public
+     * abstract void javax.accessibility.AccessibleIcon.setAccessibleIconDescription(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAccessibleIconDescription_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

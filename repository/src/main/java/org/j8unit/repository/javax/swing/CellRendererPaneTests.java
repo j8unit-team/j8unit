@@ -57,23 +57,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.swing.CellRendererPane#update(java.awt.Graphics) public void
-     * javax.swing.CellRendererPane.update(java.awt.Graphics)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_update_Graphics()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.CellRendererPane#paint(java.awt.Graphics) public void
      * javax.swing.CellRendererPane.paint(java.awt.Graphics)}.
      * </p>
@@ -111,6 +94,25 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
+     * {@link javax.swing.CellRendererPane#paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,int,int,int,int,boolean)
+     * public void
+     * javax.swing.CellRendererPane.paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,int,int,int,int,boolean)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_paintComponent_Graphics_Component_Container_int_int_int_int_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link javax.swing.CellRendererPane#paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,java.awt.Rectangle)
      * public void
      * javax.swing.CellRendererPane.paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,java.awt.Rectangle)}
@@ -129,17 +131,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.CellRendererPane#paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,int,int,int,int,boolean)
-     * public void
-     * javax.swing.CellRendererPane.paintComponent(java.awt.Graphics,java.awt.Component,java.awt.Container,int,int,int,int,boolean)}
-     * .
+     * Test method for {@link javax.swing.CellRendererPane#update(java.awt.Graphics) public void
+     * javax.swing.CellRendererPane.update(java.awt.Graphics)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_paintComponent_Graphics_Component_Container_int_int_int_int_boolean()
+    @Override
+    public default void test_update_Graphics()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

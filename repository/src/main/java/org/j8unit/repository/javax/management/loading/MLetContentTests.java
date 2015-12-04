@@ -23,6 +23,70 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.management.loading.MLetContent#getAttributes() public java.util.Map
+     * javax.management.loading.MLetContent.getAttributes()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttributes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.loading.MLetContent#getCode() public java.lang.String
+     * javax.management.loading.MLetContent.getCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.loading.MLetContent#getCodeBase() public java.net.URL
+     * javax.management.loading.MLetContent.getCodeBase()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCodeBase()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.loading.MLetContent#getDocumentBase() public java.net.URL
+     * javax.management.loading.MLetContent.getDocumentBase()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDocumentBase()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.loading.MLetContent#getJarFiles() public java.lang.String
      * javax.management.loading.MLetContent.getJarFiles()}.
      * </p>
@@ -55,46 +119,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.loading.MLetContent#getAttributes() public java.util.Map
-     * javax.management.loading.MLetContent.getAttributes()}.
+     * Test method for {@link javax.management.loading.MLetContent#getParameterTypes() public java.util.List
+     * javax.management.loading.MLetContent.getParameterTypes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAttributes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.loading.MLetContent#getCodeBase() public java.net.URL
-     * javax.management.loading.MLetContent.getCodeBase()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCodeBase()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.loading.MLetContent#getVersion() public java.lang.String
-     * javax.management.loading.MLetContent.getVersion()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVersion()
+    public default void test_getParameterTypes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,22 +151,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.loading.MLetContent#getCode() public java.lang.String
-     * javax.management.loading.MLetContent.getCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.loading.MLetContent#getSerializedObject() public java.lang.String
      * javax.management.loading.MLetContent.getSerializedObject()}.
      * </p>
@@ -151,30 +167,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.loading.MLetContent#getParameterTypes() public java.util.List
-     * javax.management.loading.MLetContent.getParameterTypes()}.
+     * Test method for {@link javax.management.loading.MLetContent#getVersion() public java.lang.String
+     * javax.management.loading.MLetContent.getVersion()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParameterTypes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.loading.MLetContent#getDocumentBase() public java.net.URL
-     * javax.management.loading.MLetContent.getDocumentBase()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDocumentBase()
+    public default void test_getVersion()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

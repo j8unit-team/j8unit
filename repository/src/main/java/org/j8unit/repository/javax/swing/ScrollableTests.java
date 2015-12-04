@@ -24,54 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.Scrollable#getScrollableTracksViewportHeight() public abstract boolean
-     * javax.swing.Scrollable.getScrollableTracksViewportHeight()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getScrollableTracksViewportHeight()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.Scrollable#getScrollableUnitIncrement(java.awt.Rectangle,int,int) public
-     * abstract int javax.swing.Scrollable.getScrollableUnitIncrement(java.awt.Rectangle,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getScrollableUnitIncrement_Rectangle_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.Scrollable#getScrollableTracksViewportWidth() public abstract boolean
-     * javax.swing.Scrollable.getScrollableTracksViewportWidth()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getScrollableTracksViewportWidth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.Scrollable#getPreferredScrollableViewportSize() public abstract
      * java.awt.Dimension javax.swing.Scrollable.getPreferredScrollableViewportSize()}.
      * </p>
@@ -96,6 +48,54 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getScrollableBlockIncrement_Rectangle_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.Scrollable#getScrollableTracksViewportHeight() public abstract boolean
+     * javax.swing.Scrollable.getScrollableTracksViewportHeight()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getScrollableTracksViewportHeight()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.Scrollable#getScrollableTracksViewportWidth() public abstract boolean
+     * javax.swing.Scrollable.getScrollableTracksViewportWidth()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getScrollableTracksViewportWidth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.Scrollable#getScrollableUnitIncrement(java.awt.Rectangle,int,int) public
+     * abstract int javax.swing.Scrollable.getScrollableUnitIncrement(java.awt.Rectangle,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getScrollableUnitIncrement_Rectangle_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

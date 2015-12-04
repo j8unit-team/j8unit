@@ -24,30 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Element#isLeaf() public abstract boolean
-     * javax.swing.text.Element.isLeaf()}.
+     * Test method for {@link javax.swing.text.Element#getAttributes() public abstract javax.swing.text.AttributeSet
+     * javax.swing.text.Element.getAttributes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isLeaf()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Element#getElement(int) public abstract javax.swing.text.Element
-     * javax.swing.text.Element.getElement(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getElement_int()
+    public default void test_getAttributes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +56,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Element#getEndOffset() public abstract int
-     * javax.swing.text.Element.getEndOffset()}.
+     * Test method for {@link javax.swing.text.Element#getElement(int) public abstract javax.swing.text.Element
+     * javax.swing.text.Element.getElement(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getEndOffset()
+    public default void test_getElement_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,14 +88,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Element#getStartOffset() public abstract int
-     * javax.swing.text.Element.getStartOffset()}.
+     * Test method for {@link javax.swing.text.Element#getElementIndex(int) public abstract int
+     * javax.swing.text.Element.getElementIndex(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStartOffset()
+    public default void test_getElementIndex_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Element#getEndOffset() public abstract int
+     * javax.swing.text.Element.getEndOffset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEndOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -136,38 +136,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Element#getAttributes() public abstract javax.swing.text.AttributeSet
-     * javax.swing.text.Element.getAttributes()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttributes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Element#getElementIndex(int) public abstract int
-     * javax.swing.text.Element.getElementIndex(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getElementIndex_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.text.Element#getParentElement() public abstract javax.swing.text.Element
      * javax.swing.text.Element.getParentElement()}.
      * </p>
@@ -176,6 +144,38 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getParentElement()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Element#getStartOffset() public abstract int
+     * javax.swing.text.Element.getStartOffset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStartOffset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Element#isLeaf() public abstract boolean
+     * javax.swing.text.Element.isLeaf()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isLeaf()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,19 +36,17 @@ public abstract interface OutputStreamWriterClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.java.io.WriterClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.io.OutputStreamWriter#OutputStreamWriter(java.io.OutputStream,java.nio.charset.CharsetEncoder) public
-     * java.io.OutputStreamWriter(java.io.OutputStream,java.nio.charset.CharsetEncoder)}.
+     * Test method for {@link java.io.OutputStreamWriter#OutputStreamWriter(java.io.OutputStream) public
+     * java.io.OutputStreamWriter(java.io.OutputStream)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_OutputStreamWriter_OutputStream_CharsetEncoder()
+    public default void create_OutputStreamWriter_OutputStream()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.io.OutputStreamWriter sut = null; // = new
-                                                     // OutputStreamWriter(java.io.OutputStream,java.nio.charset.CharsetEncoder);
+        final java.io.OutputStreamWriter sut = null; // = new OutputStreamWriter(java.io.OutputStream);
     }
 
     /**
@@ -68,17 +66,19 @@ extends org.j8unit.repository.java.io.WriterClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.io.OutputStreamWriter#OutputStreamWriter(java.io.OutputStream) public
-     * java.io.OutputStreamWriter(java.io.OutputStream)}.
+     * Test method for
+     * {@link java.io.OutputStreamWriter#OutputStreamWriter(java.io.OutputStream,java.nio.charset.CharsetEncoder) public
+     * java.io.OutputStreamWriter(java.io.OutputStream,java.nio.charset.CharsetEncoder)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_OutputStreamWriter_OutputStream()
+    public default void create_OutputStreamWriter_OutputStream_CharsetEncoder()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.io.OutputStreamWriter sut = null; // = new OutputStreamWriter(java.io.OutputStream);
+        final java.io.OutputStreamWriter sut = null; // = new
+                                                     // OutputStreamWriter(java.io.OutputStream,java.nio.charset.CharsetEncoder);
     }
 
     /**

@@ -49,16 +49,6 @@ extends org.j8unit.repository.java.awt.image.RGBImageFilterClassTests<SUT> {
         final javax.swing.GrayFilter sut = null; // = new GrayFilter(boolean,int);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.GrayFilter> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.GrayFilter.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.GrayFilter#createDisabledImage(java.awt.Image) public static java.awt.Image
@@ -73,6 +63,16 @@ extends org.j8unit.repository.java.awt.image.RGBImageFilterClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.GrayFilter> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.GrayFilter.class.isAssignableFrom(sut));
     }
 
 }

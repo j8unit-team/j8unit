@@ -23,31 +23,15 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link javax.activation.URLDataSource#getName() public java.lang.String
-     * javax.activation.URLDataSource.getName()}.
+     * Test method for {@link javax.activation.URLDataSource#getContentType() public java.lang.String
+     * javax.activation.URLDataSource.getContentType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.activation.URLDataSource#getURL() public java.net.URL
-     * javax.activation.URLDataSource.getURL()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getURL()
+    public default void test_getContentType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,6 +57,23 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
+     * Test method for {@link javax.activation.URLDataSource#getName() public java.lang.String
+     * javax.activation.URLDataSource.getName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.activation.URLDataSource#getOutputStream() public java.io.OutputStream
      * javax.activation.URLDataSource.getOutputStream() throws java.io.IOException}.
      * </p>
@@ -90,15 +91,14 @@ extends org.j8unit.repository.javax.activation.DataSourceTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link javax.activation.URLDataSource#getContentType() public java.lang.String
-     * javax.activation.URLDataSource.getContentType()}.
+     * Test method for {@link javax.activation.URLDataSource#getURL() public java.net.URL
+     * javax.activation.URLDataSource.getURL()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getContentType()
+    public default void test_getURL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,15 +23,18 @@ extends org.j8unit.repository.javax.swing.text.TabableViewTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.LabelView#getForeground() public java.awt.Color
-     * javax.swing.text.LabelView.getForeground()}.
+     * Test method for
+     * {@link javax.swing.text.LabelView#changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)
+     * public void
+     * javax.swing.text.LabelView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getForeground()
+    public default void test_changedUpdate_DocumentEvent_Shape_ViewFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,15 +43,15 @@ extends org.j8unit.repository.javax.swing.text.TabableViewTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.LabelView#isUnderline() public boolean
-     * javax.swing.text.LabelView.isUnderline()}.
+     * Test method for {@link javax.swing.text.LabelView#getBackground() public java.awt.Color
+     * javax.swing.text.LabelView.getBackground()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isUnderline()
+    public default void test_getBackground()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,19 +77,51 @@ extends org.j8unit.repository.javax.swing.text.TabableViewTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.LabelView#isSuperscript() public boolean
-     * javax.swing.text.LabelView.isSuperscript()}.
+     * Test method for {@link javax.swing.text.LabelView#getForeground() public java.awt.Color
+     * javax.swing.text.LabelView.getForeground()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isSuperscript()
+    public default void test_getForeground()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPartialSpan_int_int()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getTabbedSpan_float_TabExpander()
+    throws Exception {
     }
 
     /**
@@ -125,18 +160,15 @@ extends org.j8unit.repository.javax.swing.text.TabableViewTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.LabelView#changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)
-     * public void
-     * javax.swing.text.LabelView.changedUpdate(javax.swing.event.DocumentEvent,java.awt.Shape,javax.swing.text.ViewFactory)}
-     * .
+     * Test method for {@link javax.swing.text.LabelView#isSuperscript() public boolean
+     * javax.swing.text.LabelView.isSuperscript()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_changedUpdate_DocumentEvent_Shape_ViewFactory()
+    public default void test_isSuperscript()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -145,51 +177,19 @@ extends org.j8unit.repository.javax.swing.text.TabableViewTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.LabelView#getBackground() public java.awt.Color
-     * javax.swing.text.LabelView.getBackground()}.
+     * Test method for {@link javax.swing.text.LabelView#isUnderline() public boolean
+     * javax.swing.text.LabelView.isUnderline()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getBackground()
+    public default void test_isUnderline()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getTabbedSpan_float_TabExpander()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPartialSpan_int_int()
-    throws Exception {
     }
 
 }

@@ -36,20 +36,6 @@ extends org.j8unit.repository.java.awt.AdjustableClassTests<SUT>, org.j8unit.rep
 org.j8unit.repository.java.awt.ComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.Scrollbar#Scrollbar(int) public java.awt.Scrollbar(int) throws
-     * java.awt.HeadlessException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Scrollbar_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Scrollbar sut = null; // = new Scrollbar(int);
-    }
-
-    /**
      * Test method for {@link java.awt.Scrollbar#Scrollbar() public java.awt.Scrollbar() throws
      * java.awt.HeadlessException}.
      */
@@ -61,6 +47,20 @@ org.j8unit.repository.java.awt.ComponentClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.Scrollbar sut = null; // = new Scrollbar();
+    }
+
+    /**
+     * Test method for {@link java.awt.Scrollbar#Scrollbar(int) public java.awt.Scrollbar(int) throws
+     * java.awt.HeadlessException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Scrollbar_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Scrollbar sut = null; // = new Scrollbar(int);
     }
 
     /**

@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.JarURLConnection#getJarFile() public abstract java.util.jar.JarFile
-     * java.net.JarURLConnection.getJarFile() throws java.io.IOException}.
+     * Test method for {@link java.net.JarURLConnection#getAttributes() public java.util.jar.Attributes
+     * java.net.JarURLConnection.getAttributes() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getJarFile()
+    public default void test_getAttributes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -47,6 +47,70 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getCertificates()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getEntryName() public java.lang.String
+     * java.net.JarURLConnection.getEntryName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEntryName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getJarEntry() public java.util.jar.JarEntry
+     * java.net.JarURLConnection.getJarEntry() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getJarEntry()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getJarFile() public abstract java.util.jar.JarFile
+     * java.net.JarURLConnection.getJarFile() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getJarFile()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.JarURLConnection#getJarFileURL() public java.net.URL
+     * java.net.JarURLConnection.getJarFileURL()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getJarFileURL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,70 +143,6 @@ extends org.j8unit.repository.java.net.URLConnectionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getManifest()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.JarURLConnection#getJarEntry() public java.util.jar.JarEntry
-     * java.net.JarURLConnection.getJarEntry() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getJarEntry()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.JarURLConnection#getEntryName() public java.lang.String
-     * java.net.JarURLConnection.getEntryName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEntryName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.JarURLConnection#getJarFileURL() public java.net.URL
-     * java.net.JarURLConnection.getJarFileURL()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getJarFileURL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.JarURLConnection#getAttributes() public java.util.jar.Attributes
-     * java.net.JarURLConnection.getAttributes() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttributes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

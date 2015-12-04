@@ -34,14 +34,21 @@ import org.junit.experimental.categories.Category;
 public abstract interface Inet6AddressClassTests<SUT extends Class<? extends java.net.Inet6Address>>
 extends org.j8unit.repository.java.net.InetAddressClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.net.Inet6Address#getByAddress(java.lang.String,byte[],int) public static
+     * java.net.Inet6Address java.net.Inet6Address.getByAddress(java.lang.String,byte[],int) throws
+     * java.net.UnknownHostException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getByAddress_String_byteArray_int()
     throws Exception {
-        // create new instance
-        final Class<? extends java.net.Inet6Address> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.net.Inet6Address.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -62,21 +69,14 @@ extends org.j8unit.repository.java.net.InetAddressClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.net.Inet6Address#getByAddress(java.lang.String,byte[],int) public static
-     * java.net.Inet6Address java.net.Inet6Address.getByAddress(java.lang.String,byte[],int) throws
-     * java.net.UnknownHostException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getByAddress_String_byteArray_int()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.net.Inet6Address> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.Inet6Address.class.isAssignableFrom(sut));
     }
 
 }

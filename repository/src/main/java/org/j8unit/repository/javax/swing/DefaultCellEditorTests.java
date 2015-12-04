@@ -24,18 +24,31 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.DefaultCellEditor#getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int)
-     * public java.awt.Component
-     * javax.swing.DefaultCellEditor.getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int)}
-     * .
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getTreeCellEditorComponent_JTree_Object_boolean_boolean_boolean_int()
+    public default void test_addCellEditorListener_CellEditorListener()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DefaultCellEditor#cancelCellEditing() public void
+     * javax.swing.DefaultCellEditor.cancelCellEditing()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_cancelCellEditing()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -44,15 +57,47 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#stopCellEditing() public boolean
-     * javax.swing.DefaultCellEditor.stopCellEditing()}.
+     * Test method for {@link javax.swing.DefaultCellEditor#getCellEditorValue() public java.lang.Object
+     * javax.swing.DefaultCellEditor.getCellEditorValue()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_stopCellEditing()
+    public default void test_getCellEditorValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DefaultCellEditor#getClickCountToStart() public int
+     * javax.swing.DefaultCellEditor.getClickCountToStart()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getClickCountToStart()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DefaultCellEditor#getComponent() public java.awt.Component
+     * javax.swing.DefaultCellEditor.getComponent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -80,47 +125,18 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#setClickCountToStart(int) public void
-     * javax.swing.DefaultCellEditor.setClickCountToStart(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setClickCountToStart_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#getComponent() public java.awt.Component
-     * javax.swing.DefaultCellEditor.getComponent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#cancelCellEditing() public void
-     * javax.swing.DefaultCellEditor.cancelCellEditing()}.
+     * Test method for
+     * {@link javax.swing.DefaultCellEditor#getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int)
+     * public java.awt.Component
+     * javax.swing.DefaultCellEditor.getTreeCellEditorComponent(javax.swing.JTree,java.lang.Object,boolean,boolean,boolean,int)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_cancelCellEditing()
+    public default void test_getTreeCellEditorComponent_JTree_Object_boolean_boolean_boolean_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -146,15 +162,30 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#getCellEditorValue() public java.lang.Object
-     * javax.swing.DefaultCellEditor.getCellEditorValue()}.
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getCellEditorValue()
+    public default void test_removeCellEditorListener_CellEditorListener()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DefaultCellEditor#setClickCountToStart(int) public void
+     * javax.swing.DefaultCellEditor.setClickCountToStart(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setClickCountToStart_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -180,50 +211,19 @@ org.j8unit.repository.javax.swing.AbstractCellEditorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultCellEditor#getClickCountToStart() public int
-     * javax.swing.DefaultCellEditor.getClickCountToStart()}.
+     * Test method for {@link javax.swing.DefaultCellEditor#stopCellEditing() public boolean
+     * javax.swing.DefaultCellEditor.stopCellEditing()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getClickCountToStart()
+    @Override
+    public default void test_stopCellEditing()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_removeCellEditorListener_CellEditorListener()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addCellEditorListener_CellEditorListener()
-    throws Exception {
     }
 
 }

@@ -36,31 +36,16 @@ public abstract interface CRLExceptionClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.cert.CRLException#CRLException(java.lang.Throwable) public
-     * java.security.cert.CRLException(java.lang.Throwable)}.
+     * Test method for {@link java.security.cert.CRLException#CRLException() public java.security.cert.CRLException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_CRLException_Throwable()
+    public default void create_CRLException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.cert.CRLException sut = null; // = new CRLException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link java.security.cert.CRLException#CRLException(java.lang.String,java.lang.Throwable) public
-     * java.security.cert.CRLException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CRLException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CRLException sut = null; // = new CRLException(java.lang.String,java.lang.Throwable);
+        final java.security.cert.CRLException sut = null; // = new CRLException();
     }
 
     /**
@@ -78,16 +63,31 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     }
 
     /**
-     * Test method for {@link java.security.cert.CRLException#CRLException() public java.security.cert.CRLException()}.
+     * Test method for {@link java.security.cert.CRLException#CRLException(java.lang.String,java.lang.Throwable) public
+     * java.security.cert.CRLException(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_CRLException()
+    public default void create_CRLException_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.cert.CRLException sut = null; // = new CRLException();
+        final java.security.cert.CRLException sut = null; // = new CRLException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link java.security.cert.CRLException#CRLException(java.lang.Throwable) public
+     * java.security.cert.CRLException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CRLException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CRLException sut = null; // = new CRLException(java.lang.Throwable);
     }
 
     @Override

@@ -23,6 +23,23 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
 
     /**
      * <p>
+     * Test class for {@link javax.sound.sampled.CompoundControl$Type class javax.sound.sampled.CompoundControl$Type},
+     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.sound.sampled.CompoundControlClassTests.TypeClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface TypeTests<SUT extends javax.sound.sampled.CompoundControl.Type>
+    extends org.j8unit.repository.javax.sound.sampled.ControlTests.TypeTests<SUT> {
+
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.sound.sampled.CompoundControl#getMemberControls() public
      * javax.sound.sampled.Control[] javax.sound.sampled.CompoundControl.getMemberControls()}.
      * </p>
@@ -52,23 +69,6 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test class for {@link javax.sound.sampled.CompoundControl$Type class javax.sound.sampled.CompoundControl$Type},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.sound.sampled.CompoundControlClassTests.TypeClassTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface TypeTests<SUT extends javax.sound.sampled.CompoundControl.Type>
-    extends org.j8unit.repository.javax.sound.sampled.ControlTests.TypeTests<SUT> {
-
     }
 
 }

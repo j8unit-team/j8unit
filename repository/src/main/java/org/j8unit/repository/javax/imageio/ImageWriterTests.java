@@ -23,64 +23,14 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriter#replaceImageMetadata(int,javax.imageio.metadata.IIOMetadata)
-     * public void javax.imageio.ImageWriter.replaceImageMetadata(int,javax.imageio.metadata.IIOMetadata) throws
-     * java.io.IOException}.
+     * Test method for {@link javax.imageio.ImageWriter#abort() public synchronized void
+     * javax.imageio.ImageWriter.abort()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_replaceImageMetadata_int_IIOMetadata()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#getOriginatingProvider() public javax.imageio.spi.ImageWriterSpi
-     * javax.imageio.ImageWriter.getOriginatingProvider()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOriginatingProvider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#prepareWriteSequence(javax.imageio.metadata.IIOMetadata) public
-     * void javax.imageio.ImageWriter.prepareWriteSequence(javax.imageio.metadata.IIOMetadata) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_prepareWriteSequence_IIOMetadata()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#removeImage(int) public void
-     * javax.imageio.ImageWriter.removeImage(int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeImage_int()
+    public default void test_abort()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -90,121 +40,14 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
     /**
      * <p>
      * Test method for
-     * {@link javax.imageio.ImageWriter#getNumThumbnailsSupported(javax.imageio.ImageTypeSpecifier,javax.imageio.ImageWriteParam,javax.imageio.metadata.IIOMetadata,javax.imageio.metadata.IIOMetadata)
-     * public int
-     * javax.imageio.ImageWriter.getNumThumbnailsSupported(javax.imageio.ImageTypeSpecifier,javax.imageio.ImageWriteParam,javax.imageio.metadata.IIOMetadata,javax.imageio.metadata.IIOMetadata)}
-     * .
+     * {@link javax.imageio.ImageWriter#addIIOWriteProgressListener(javax.imageio.event.IIOWriteProgressListener) public
+     * void javax.imageio.ImageWriter.addIIOWriteProgressListener(javax.imageio.event.IIOWriteProgressListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNumThumbnailsSupported_ImageTypeSpecifier_ImageWriteParam_IIOMetadata_IIOMetadata()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#getLocale() public java.util.Locale
-     * javax.imageio.ImageWriter.getLocale()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#canInsertImage(int) public boolean
-     * javax.imageio.ImageWriter.canInsertImage(int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canInsertImage_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.imageio.ImageWriter#removeIIOWriteWarningListener(javax.imageio.event.IIOWriteWarningListener)
-     * public void javax.imageio.ImageWriter.removeIIOWriteWarningListener(javax.imageio.event.IIOWriteWarningListener)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeIIOWriteWarningListener_IIOWriteWarningListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.imageio.ImageWriter#getDefaultImageMetadata(javax.imageio.ImageTypeSpecifier,javax.imageio.ImageWriteParam)
-     * public abstract javax.imageio.metadata.IIOMetadata
-     * javax.imageio.ImageWriter.getDefaultImageMetadata(javax.imageio.ImageTypeSpecifier,javax.imageio.ImageWriteParam)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultImageMetadata_ImageTypeSpecifier_ImageWriteParam()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.imageio.ImageWriter#replacePixels(java.awt.image.RenderedImage,javax.imageio.ImageWriteParam) public
-     * void javax.imageio.ImageWriter.replacePixels(java.awt.image.RenderedImage,javax.imageio.ImageWriteParam) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replacePixels_RenderedImage_ImageWriteParam()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.imageio.ImageWriter#replacePixels(java.awt.image.Raster,javax.imageio.ImageWriteParam) public void
-     * javax.imageio.ImageWriter.replacePixels(java.awt.image.Raster,javax.imageio.ImageWriteParam) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replacePixels_Raster_ImageWriteParam()
+    public default void test_addIIOWriteProgressListener_IIOWriteProgressListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -230,16 +73,14 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.imageio.ImageWriter#writeToSequence(javax.imageio.IIOImage,javax.imageio.ImageWriteParam) public
-     * void javax.imageio.ImageWriter.writeToSequence(javax.imageio.IIOImage,javax.imageio.ImageWriteParam) throws
-     * java.io.IOException}.
+     * Test method for {@link javax.imageio.ImageWriter#canInsertEmpty(int) public boolean
+     * javax.imageio.ImageWriter.canInsertEmpty(int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeToSequence_IIOImage_ImageWriteParam()
+    public default void test_canInsertEmpty_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -248,14 +89,14 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriter#getOutput() public java.lang.Object
-     * javax.imageio.ImageWriter.getOutput()}.
+     * Test method for {@link javax.imageio.ImageWriter#canInsertImage(int) public boolean
+     * javax.imageio.ImageWriter.canInsertImage(int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOutput()
+    public default void test_canInsertImage_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -264,14 +105,30 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriter#setOutput(java.lang.Object) public void
-     * javax.imageio.ImageWriter.setOutput(java.lang.Object)}.
+     * Test method for {@link javax.imageio.ImageWriter#canRemoveImage(int) public boolean
+     * javax.imageio.ImageWriter.canRemoveImage(int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setOutput_Object()
+    public default void test_canRemoveImage_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#canReplaceImageMetadata(int) public boolean
+     * javax.imageio.ImageWriter.canReplaceImageMetadata(int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_canReplaceImageMetadata_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -296,14 +153,62 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriter#endWriteSequence() public void
-     * javax.imageio.ImageWriter.endWriteSequence() throws java.io.IOException}.
+     * Test method for {@link javax.imageio.ImageWriter#canReplaceStreamMetadata() public boolean
+     * javax.imageio.ImageWriter.canReplaceStreamMetadata() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_endWriteSequence()
+    public default void test_canReplaceStreamMetadata()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#canWriteEmpty() public boolean
+     * javax.imageio.ImageWriter.canWriteEmpty() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_canWriteEmpty()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#canWriteRasters() public boolean
+     * javax.imageio.ImageWriter.canWriteRasters()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_canWriteRasters()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#canWriteSequence() public boolean
+     * javax.imageio.ImageWriter.canWriteSequence()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_canWriteSequence()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -333,16 +238,17 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
     /**
      * <p>
      * Test method for
-     * {@link javax.imageio.ImageWriter#prepareWriteEmpty(javax.imageio.metadata.IIOMetadata,javax.imageio.ImageTypeSpecifier,int,int,javax.imageio.metadata.IIOMetadata,java.util.List,javax.imageio.ImageWriteParam)
-     * public void
-     * javax.imageio.ImageWriter.prepareWriteEmpty(javax.imageio.metadata.IIOMetadata,javax.imageio.ImageTypeSpecifier,int,int,javax.imageio.metadata.IIOMetadata,java.util.List,javax.imageio.ImageWriteParam)
-     * throws java.io.IOException}.
+     * {@link javax.imageio.ImageWriter#convertStreamMetadata(javax.imageio.metadata.IIOMetadata,javax.imageio.ImageWriteParam)
+     * public abstract javax.imageio.metadata.IIOMetadata
+     * javax.imageio.ImageWriter.convertStreamMetadata(javax.imageio.metadata.IIOMetadata,javax.imageio.ImageWriteParam)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_prepareWriteEmpty_IIOMetadata_ImageTypeSpecifier_int_int_IIOMetadata_List_ImageWriteParam()
+    @Override
+    public default void test_convertStreamMetadata_IIOMetadata_ImageWriteParam()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -351,163 +257,13 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriter#removeAllIIOWriteProgressListeners() public void
-     * javax.imageio.ImageWriter.removeAllIIOWriteProgressListeners()}.
+     * Test method for {@link javax.imageio.ImageWriter#dispose() public void javax.imageio.ImageWriter.dispose()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeAllIIOWriteProgressListeners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#prepareReplacePixels(int,java.awt.Rectangle) public void
-     * javax.imageio.ImageWriter.prepareReplacePixels(int,java.awt.Rectangle) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_prepareReplacePixels_int_Rectangle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.imageio.ImageWriter#prepareInsertEmpty(int,javax.imageio.ImageTypeSpecifier,int,int,javax.imageio.metadata.IIOMetadata,java.util.List,javax.imageio.ImageWriteParam)
-     * public void
-     * javax.imageio.ImageWriter.prepareInsertEmpty(int,javax.imageio.ImageTypeSpecifier,int,int,javax.imageio.metadata.IIOMetadata,java.util.List,javax.imageio.ImageWriteParam)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_prepareInsertEmpty_int_ImageTypeSpecifier_int_int_IIOMetadata_List_ImageWriteParam()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#getDefaultWriteParam() public javax.imageio.ImageWriteParam
-     * javax.imageio.ImageWriter.getDefaultWriteParam()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultWriteParam()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#canRemoveImage(int) public boolean
-     * javax.imageio.ImageWriter.canRemoveImage(int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canRemoveImage_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#abort() public synchronized void
-     * javax.imageio.ImageWriter.abort()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_abort()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#canInsertEmpty(int) public boolean
-     * javax.imageio.ImageWriter.canInsertEmpty(int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canInsertEmpty_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.imageio.ImageWriter#writeInsert(int,javax.imageio.IIOImage,javax.imageio.ImageWriteParam) public
-     * void javax.imageio.ImageWriter.writeInsert(int,javax.imageio.IIOImage,javax.imageio.ImageWriteParam) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeInsert_int_IIOImage_ImageWriteParam()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#setLocale(java.util.Locale) public void
-     * javax.imageio.ImageWriter.setLocale(java.util.Locale)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLocale_Locale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#canReplaceImageMetadata(int) public boolean
-     * javax.imageio.ImageWriter.canReplaceImageMetadata(int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canReplaceImageMetadata_int()
+    public default void test_dispose()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -532,6 +288,22 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
 
     /**
      * <p>
+     * Test method for {@link javax.imageio.ImageWriter#endReplacePixels() public void
+     * javax.imageio.ImageWriter.endReplacePixels() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_endReplacePixels()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.imageio.ImageWriter#endWriteEmpty() public void
      * javax.imageio.ImageWriter.endWriteEmpty() throws java.io.IOException}.
      * </p>
@@ -548,13 +320,14 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriter#dispose() public void javax.imageio.ImageWriter.dispose()}.
+     * Test method for {@link javax.imageio.ImageWriter#endWriteSequence() public void
+     * javax.imageio.ImageWriter.endWriteSequence() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_dispose()
+    public default void test_endWriteSequence()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -563,13 +336,14 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriter#reset() public void javax.imageio.ImageWriter.reset()}.
+     * Test method for {@link javax.imageio.ImageWriter#getAvailableLocales() public java.util.Locale[]
+     * javax.imageio.ImageWriter.getAvailableLocales()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reset()
+    public default void test_getAvailableLocales()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -578,15 +352,17 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriter#replaceStreamMetadata(javax.imageio.metadata.IIOMetadata) public
-     * void javax.imageio.ImageWriter.replaceStreamMetadata(javax.imageio.metadata.IIOMetadata) throws
-     * java.io.IOException}.
+     * Test method for
+     * {@link javax.imageio.ImageWriter#getDefaultImageMetadata(javax.imageio.ImageTypeSpecifier,javax.imageio.ImageWriteParam)
+     * public abstract javax.imageio.metadata.IIOMetadata
+     * javax.imageio.ImageWriter.getDefaultImageMetadata(javax.imageio.ImageTypeSpecifier,javax.imageio.ImageWriteParam)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_replaceStreamMetadata_IIOMetadata()
+    public default void test_getDefaultImageMetadata_ImageTypeSpecifier_ImageWriteParam()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -595,14 +371,98 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriter#removeAllIIOWriteWarningListeners() public void
-     * javax.imageio.ImageWriter.removeAllIIOWriteWarningListeners()}.
+     * Test method for {@link javax.imageio.ImageWriter#getDefaultStreamMetadata(javax.imageio.ImageWriteParam) public
+     * abstract javax.imageio.metadata.IIOMetadata
+     * javax.imageio.ImageWriter.getDefaultStreamMetadata(javax.imageio.ImageWriteParam)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeAllIIOWriteWarningListeners()
+    public default void test_getDefaultStreamMetadata_ImageWriteParam()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#getDefaultWriteParam() public javax.imageio.ImageWriteParam
+     * javax.imageio.ImageWriter.getDefaultWriteParam()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaultWriteParam()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#getLocale() public java.util.Locale
+     * javax.imageio.ImageWriter.getLocale()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.imageio.ImageWriter#getNumThumbnailsSupported(javax.imageio.ImageTypeSpecifier,javax.imageio.ImageWriteParam,javax.imageio.metadata.IIOMetadata,javax.imageio.metadata.IIOMetadata)
+     * public int
+     * javax.imageio.ImageWriter.getNumThumbnailsSupported(javax.imageio.ImageTypeSpecifier,javax.imageio.ImageWriteParam,javax.imageio.metadata.IIOMetadata,javax.imageio.metadata.IIOMetadata)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNumThumbnailsSupported_ImageTypeSpecifier_ImageWriteParam_IIOMetadata_IIOMetadata()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#getOriginatingProvider() public javax.imageio.spi.ImageWriterSpi
+     * javax.imageio.ImageWriter.getOriginatingProvider()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOriginatingProvider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#getOutput() public java.lang.Object
+     * javax.imageio.ImageWriter.getOutput()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutput()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -631,17 +491,136 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
     /**
      * <p>
      * Test method for
-     * {@link javax.imageio.ImageWriter#convertStreamMetadata(javax.imageio.metadata.IIOMetadata,javax.imageio.ImageWriteParam)
-     * public abstract javax.imageio.metadata.IIOMetadata
-     * javax.imageio.ImageWriter.convertStreamMetadata(javax.imageio.metadata.IIOMetadata,javax.imageio.ImageWriteParam)}
+     * {@link javax.imageio.ImageWriter#prepareInsertEmpty(int,javax.imageio.ImageTypeSpecifier,int,int,javax.imageio.metadata.IIOMetadata,java.util.List,javax.imageio.ImageWriteParam)
+     * public void
+     * javax.imageio.ImageWriter.prepareInsertEmpty(int,javax.imageio.ImageTypeSpecifier,int,int,javax.imageio.metadata.IIOMetadata,java.util.List,javax.imageio.ImageWriteParam)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_prepareInsertEmpty_int_ImageTypeSpecifier_int_int_IIOMetadata_List_ImageWriteParam()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#prepareReplacePixels(int,java.awt.Rectangle) public void
+     * javax.imageio.ImageWriter.prepareReplacePixels(int,java.awt.Rectangle) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_prepareReplacePixels_int_Rectangle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.imageio.ImageWriter#prepareWriteEmpty(javax.imageio.metadata.IIOMetadata,javax.imageio.ImageTypeSpecifier,int,int,javax.imageio.metadata.IIOMetadata,java.util.List,javax.imageio.ImageWriteParam)
+     * public void
+     * javax.imageio.ImageWriter.prepareWriteEmpty(javax.imageio.metadata.IIOMetadata,javax.imageio.ImageTypeSpecifier,int,int,javax.imageio.metadata.IIOMetadata,java.util.List,javax.imageio.ImageWriteParam)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_prepareWriteEmpty_IIOMetadata_ImageTypeSpecifier_int_int_IIOMetadata_List_ImageWriteParam()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#prepareWriteSequence(javax.imageio.metadata.IIOMetadata) public
+     * void javax.imageio.ImageWriter.prepareWriteSequence(javax.imageio.metadata.IIOMetadata) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_prepareWriteSequence_IIOMetadata()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#removeAllIIOWriteProgressListeners() public void
+     * javax.imageio.ImageWriter.removeAllIIOWriteProgressListeners()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeAllIIOWriteProgressListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#removeAllIIOWriteWarningListeners() public void
+     * javax.imageio.ImageWriter.removeAllIIOWriteWarningListeners()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeAllIIOWriteWarningListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.imageio.ImageWriter#removeIIOWriteProgressListener(javax.imageio.event.IIOWriteProgressListener)
+     * public void
+     * javax.imageio.ImageWriter.removeIIOWriteProgressListener(javax.imageio.event.IIOWriteProgressListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeIIOWriteProgressListener_IIOWriteProgressListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.imageio.ImageWriter#removeIIOWriteWarningListener(javax.imageio.event.IIOWriteWarningListener)
+     * public void javax.imageio.ImageWriter.removeIIOWriteWarningListener(javax.imageio.event.IIOWriteWarningListener)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_convertStreamMetadata_IIOMetadata_ImageWriteParam()
+    public default void test_removeIIOWriteWarningListener_IIOWriteWarningListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -650,14 +629,14 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriter#canWriteEmpty() public boolean
-     * javax.imageio.ImageWriter.canWriteEmpty() throws java.io.IOException}.
+     * Test method for {@link javax.imageio.ImageWriter#removeImage(int) public void
+     * javax.imageio.ImageWriter.removeImage(int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_canWriteEmpty()
+    public default void test_removeImage_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -666,14 +645,131 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriter#getAvailableLocales() public java.util.Locale[]
-     * javax.imageio.ImageWriter.getAvailableLocales()}.
+     * Test method for {@link javax.imageio.ImageWriter#replaceImageMetadata(int,javax.imageio.metadata.IIOMetadata)
+     * public void javax.imageio.ImageWriter.replaceImageMetadata(int,javax.imageio.metadata.IIOMetadata) throws
+     * java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAvailableLocales()
+    public default void test_replaceImageMetadata_int_IIOMetadata()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.imageio.ImageWriter#replacePixels(java.awt.image.Raster,javax.imageio.ImageWriteParam) public void
+     * javax.imageio.ImageWriter.replacePixels(java.awt.image.Raster,javax.imageio.ImageWriteParam) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replacePixels_Raster_ImageWriteParam()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.imageio.ImageWriter#replacePixels(java.awt.image.RenderedImage,javax.imageio.ImageWriteParam) public
+     * void javax.imageio.ImageWriter.replacePixels(java.awt.image.RenderedImage,javax.imageio.ImageWriteParam) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replacePixels_RenderedImage_ImageWriteParam()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#replaceStreamMetadata(javax.imageio.metadata.IIOMetadata) public
+     * void javax.imageio.ImageWriter.replaceStreamMetadata(javax.imageio.metadata.IIOMetadata) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replaceStreamMetadata_IIOMetadata()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#reset() public void javax.imageio.ImageWriter.reset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#setLocale(java.util.Locale) public void
+     * javax.imageio.ImageWriter.setLocale(java.util.Locale)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLocale_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#setOutput(java.lang.Object) public void
+     * javax.imageio.ImageWriter.setOutput(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setOutput_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageWriter#write(javax.imageio.IIOImage) public void
+     * javax.imageio.ImageWriter.write(javax.imageio.IIOImage) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_IIOImage()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -717,14 +813,16 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageWriter#write(javax.imageio.IIOImage) public void
-     * javax.imageio.ImageWriter.write(javax.imageio.IIOImage) throws java.io.IOException}.
+     * Test method for
+     * {@link javax.imageio.ImageWriter#writeInsert(int,javax.imageio.IIOImage,javax.imageio.ImageWriteParam) public
+     * void javax.imageio.ImageWriter.writeInsert(int,javax.imageio.IIOImage,javax.imageio.ImageWriteParam) throws
+     * java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_IIOImage()
+    public default void test_writeInsert_int_IIOImage_ImageWriteParam()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -734,113 +832,15 @@ extends org.j8unit.repository.javax.imageio.ImageTranscoderTests<SUT>, org.j8uni
     /**
      * <p>
      * Test method for
-     * {@link javax.imageio.ImageWriter#removeIIOWriteProgressListener(javax.imageio.event.IIOWriteProgressListener)
-     * public void
-     * javax.imageio.ImageWriter.removeIIOWriteProgressListener(javax.imageio.event.IIOWriteProgressListener)}.
+     * {@link javax.imageio.ImageWriter#writeToSequence(javax.imageio.IIOImage,javax.imageio.ImageWriteParam) public
+     * void javax.imageio.ImageWriter.writeToSequence(javax.imageio.IIOImage,javax.imageio.ImageWriteParam) throws
+     * java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeIIOWriteProgressListener_IIOWriteProgressListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#getDefaultStreamMetadata(javax.imageio.ImageWriteParam) public
-     * abstract javax.imageio.metadata.IIOMetadata
-     * javax.imageio.ImageWriter.getDefaultStreamMetadata(javax.imageio.ImageWriteParam)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultStreamMetadata_ImageWriteParam()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#canReplaceStreamMetadata() public boolean
-     * javax.imageio.ImageWriter.canReplaceStreamMetadata() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canReplaceStreamMetadata()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#endReplacePixels() public void
-     * javax.imageio.ImageWriter.endReplacePixels() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_endReplacePixels()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.imageio.ImageWriter#addIIOWriteProgressListener(javax.imageio.event.IIOWriteProgressListener) public
-     * void javax.imageio.ImageWriter.addIIOWriteProgressListener(javax.imageio.event.IIOWriteProgressListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addIIOWriteProgressListener_IIOWriteProgressListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#canWriteSequence() public boolean
-     * javax.imageio.ImageWriter.canWriteSequence()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canWriteSequence()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageWriter#canWriteRasters() public boolean
-     * javax.imageio.ImageWriter.canWriteRasters()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canWriteRasters()
+    public default void test_writeToSequence_IIOImage_ImageWriteParam()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

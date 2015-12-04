@@ -35,46 +35,18 @@ import org.junit.experimental.categories.Category;
 public abstract interface AttributeSetUtilitiesClassTests<SUT extends Class<? extends javax.print.attribute.AttributeSetUtilities>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.print.attribute.AttributeSetUtilities> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.print.attribute.AttributeSetUtilities.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for
-     * {@link javax.print.attribute.AttributeSetUtilities#verifyAttributeValue(java.lang.Object,java.lang.Class) public
-     * static javax.print.attribute.Attribute
-     * javax.print.attribute.AttributeSetUtilities.verifyAttributeValue(java.lang.Object,java.lang.Class)}.
+     * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.AttributeSet) public
+     * static javax.print.attribute.AttributeSet
+     * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.AttributeSet)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_verifyAttributeValue_Object_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.PrintRequestAttributeSet)
-     * public static javax.print.attribute.PrintRequestAttributeSet
-     * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.PrintRequestAttributeSet)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_synchronizedView_PrintRequestAttributeSet()
+    public default void test_synchronizedView_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -102,24 +74,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.AttributeSet) public
-     * static javax.print.attribute.AttributeSet
-     * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.AttributeSet)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_synchronizedView_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.PrintJobAttributeSet)
      * public static javax.print.attribute.PrintJobAttributeSet
      * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.PrintJobAttributeSet)}.
@@ -138,6 +92,24 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
+     * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.PrintRequestAttributeSet)
+     * public static javax.print.attribute.PrintRequestAttributeSet
+     * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.PrintRequestAttributeSet)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_synchronizedView_PrintRequestAttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link javax.print.attribute.AttributeSetUtilities#synchronizedView(javax.print.attribute.PrintServiceAttributeSet)
      * public static javax.print.attribute.PrintServiceAttributeSet
      * javax.print.attribute.AttributeSetUtilities.synchronizedView(javax.print.attribute.PrintServiceAttributeSet)}.
@@ -147,43 +119,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_synchronizedView_PrintServiceAttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.print.attribute.AttributeSetUtilities#verifyCategoryForValue(java.lang.Class,javax.print.attribute.Attribute)
-     * public static void
-     * javax.print.attribute.AttributeSetUtilities.verifyCategoryForValue(java.lang.Class,javax.print.attribute.Attribute)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_verifyCategoryForValue_Class_Attribute()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.print.attribute.AttributeSetUtilities#verifyAttributeCategory(java.lang.Object,java.lang.Class)
-     * public static java.lang.Class
-     * javax.print.attribute.AttributeSetUtilities.verifyAttributeCategory(java.lang.Object,java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_verifyAttributeCategory_Object_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -229,24 +164,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.PrintRequestAttributeSet)
-     * public static javax.print.attribute.PrintRequestAttributeSet
-     * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.PrintRequestAttributeSet)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unmodifiableView_PrintRequestAttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.PrintJobAttributeSet)
      * public static javax.print.attribute.PrintJobAttributeSet
      * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.PrintJobAttributeSet)}.
@@ -256,6 +173,24 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_unmodifiableView_PrintJobAttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.print.attribute.AttributeSetUtilities#unmodifiableView(javax.print.attribute.PrintRequestAttributeSet)
+     * public static javax.print.attribute.PrintRequestAttributeSet
+     * javax.print.attribute.AttributeSetUtilities.unmodifiableView(javax.print.attribute.PrintRequestAttributeSet)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unmodifiableView_PrintRequestAttributeSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -278,6 +213,71 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.print.attribute.AttributeSetUtilities#verifyAttributeCategory(java.lang.Object,java.lang.Class)
+     * public static java.lang.Class
+     * javax.print.attribute.AttributeSetUtilities.verifyAttributeCategory(java.lang.Object,java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_verifyAttributeCategory_Object_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.print.attribute.AttributeSetUtilities#verifyAttributeValue(java.lang.Object,java.lang.Class) public
+     * static javax.print.attribute.Attribute
+     * javax.print.attribute.AttributeSetUtilities.verifyAttributeValue(java.lang.Object,java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_verifyAttributeValue_Object_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.print.attribute.AttributeSetUtilities#verifyCategoryForValue(java.lang.Class,javax.print.attribute.Attribute)
+     * public static void
+     * javax.print.attribute.AttributeSetUtilities.verifyCategoryForValue(java.lang.Class,javax.print.attribute.Attribute)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_verifyCategoryForValue_Class_Attribute()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.print.attribute.AttributeSetUtilities> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.print.attribute.AttributeSetUtilities.class.isAssignableFrom(sut));
     }
 
 }

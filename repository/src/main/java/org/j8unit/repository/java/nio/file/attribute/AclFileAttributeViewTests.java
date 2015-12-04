@@ -24,6 +24,22 @@ extends org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTest
 
     /**
      * <p>
+     * Test method for {@link java.nio.file.attribute.AclFileAttributeView#getAcl() public abstract java.util.List
+     * java.nio.file.attribute.AclFileAttributeView.getAcl() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAcl()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.file.attribute.AclFileAttributeView#name() public abstract java.lang.String
      * java.nio.file.attribute.AclFileAttributeView.name()}.
      * </p>
@@ -49,22 +65,6 @@ extends org.j8unit.repository.java.nio.file.attribute.FileOwnerAttributeViewTest
     @Test
     @Category(Draft.class)
     public default void test_setAcl_List()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.AclFileAttributeView#getAcl() public abstract java.util.List
-     * java.nio.file.attribute.AclFileAttributeView.getAcl() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAcl()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

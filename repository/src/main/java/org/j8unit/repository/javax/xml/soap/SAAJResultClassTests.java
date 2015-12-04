@@ -36,6 +36,20 @@ public abstract interface SAAJResultClassTests<SUT extends Class<? extends javax
 extends org.j8unit.repository.javax.xml.transform.dom.DOMResultClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.xml.soap.SAAJResult#SAAJResult() public javax.xml.soap.SAAJResult() throws
+     * javax.xml.soap.SOAPException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SAAJResult()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.soap.SAAJResult sut = null; // = new SAAJResult();
+    }
+
+    /**
      * Test method for {@link javax.xml.soap.SAAJResult#SAAJResult(javax.xml.soap.SOAPElement) public
      * javax.xml.soap.SAAJResult(javax.xml.soap.SOAPElement)}.
      */
@@ -75,20 +89,6 @@ extends org.j8unit.repository.javax.xml.transform.dom.DOMResultClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.soap.SAAJResult sut = null; // = new SAAJResult(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.soap.SAAJResult#SAAJResult() public javax.xml.soap.SAAJResult() throws
-     * javax.xml.soap.SOAPException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SAAJResult()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.soap.SAAJResult sut = null; // = new SAAJResult();
     }
 
     @Override

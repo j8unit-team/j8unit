@@ -35,106 +35,16 @@ import org.junit.experimental.categories.Category;
 public abstract interface ElementFilterClassTests<SUT extends Class<? extends javax.lang.model.util.ElementFilter>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.lang.model.util.ElementFilter> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.lang.model.util.ElementFilter.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link javax.lang.model.util.ElementFilter#typesIn(java.lang.Iterable) public static
-     * java.util.List javax.lang.model.util.ElementFilter.typesIn(java.lang.Iterable)}.
+     * Test method for {@link javax.lang.model.util.ElementFilter#constructorsIn(java.lang.Iterable) public static
+     * java.util.List javax.lang.model.util.ElementFilter.constructorsIn(java.lang.Iterable)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_typesIn_Iterable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.util.ElementFilter#typesIn(java.util.Set) public static java.util.Set
-     * javax.lang.model.util.ElementFilter.typesIn(java.util.Set)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_typesIn_Set()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.util.ElementFilter#fieldsIn(java.util.Set) public static java.util.Set
-     * javax.lang.model.util.ElementFilter.fieldsIn(java.util.Set)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fieldsIn_Set()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.util.ElementFilter#fieldsIn(java.lang.Iterable) public static
-     * java.util.List javax.lang.model.util.ElementFilter.fieldsIn(java.lang.Iterable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fieldsIn_Iterable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.util.ElementFilter#packagesIn(java.util.Set) public static java.util.Set
-     * javax.lang.model.util.ElementFilter.packagesIn(java.util.Set)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_packagesIn_Set()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.util.ElementFilter#packagesIn(java.lang.Iterable) public static
-     * java.util.List javax.lang.model.util.ElementFilter.packagesIn(java.lang.Iterable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_packagesIn_Iterable()
+    public default void test_constructorsIn_Iterable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -159,14 +69,30 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.util.ElementFilter#constructorsIn(java.lang.Iterable) public static
-     * java.util.List javax.lang.model.util.ElementFilter.constructorsIn(java.lang.Iterable)}.
+     * Test method for {@link javax.lang.model.util.ElementFilter#fieldsIn(java.lang.Iterable) public static
+     * java.util.List javax.lang.model.util.ElementFilter.fieldsIn(java.lang.Iterable)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_constructorsIn_Iterable()
+    public default void test_fieldsIn_Iterable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.util.ElementFilter#fieldsIn(java.util.Set) public static java.util.Set
+     * javax.lang.model.util.ElementFilter.fieldsIn(java.util.Set)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fieldsIn_Set()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -203,6 +129,80 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.util.ElementFilter#packagesIn(java.lang.Iterable) public static
+     * java.util.List javax.lang.model.util.ElementFilter.packagesIn(java.lang.Iterable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_packagesIn_Iterable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.util.ElementFilter#packagesIn(java.util.Set) public static java.util.Set
+     * javax.lang.model.util.ElementFilter.packagesIn(java.util.Set)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_packagesIn_Set()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.util.ElementFilter#typesIn(java.lang.Iterable) public static
+     * java.util.List javax.lang.model.util.ElementFilter.typesIn(java.lang.Iterable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_typesIn_Iterable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.util.ElementFilter#typesIn(java.util.Set) public static java.util.Set
+     * javax.lang.model.util.ElementFilter.typesIn(java.util.Set)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_typesIn_Set()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.lang.model.util.ElementFilter> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.lang.model.util.ElementFilter.class.isAssignableFrom(sut));
     }
 
 }

@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.LayoutManager#layoutContainer(java.awt.Container) public abstract void
-     * java.awt.LayoutManager.layoutContainer(java.awt.Container)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_layoutContainer_Container()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.LayoutManager#addLayoutComponent(java.lang.String,java.awt.Component) public
      * abstract void java.awt.LayoutManager.addLayoutComponent(java.lang.String,java.awt.Component)}.
      * </p>
@@ -48,6 +32,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_addLayoutComponent_String_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.LayoutManager#layoutContainer(java.awt.Container) public abstract void
+     * java.awt.LayoutManager.layoutContainer(java.awt.Container)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_layoutContainer_Container()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,84 +23,14 @@ extends org.j8unit.repository.javax.activation.CommandMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.activation.MailcapCommandMap#getPreferredCommands(java.lang.String) public
-     * synchronized javax.activation.CommandInfo[]
-     * javax.activation.MailcapCommandMap.getPreferredCommands(java.lang.String)}.
+     * Test method for {@link javax.activation.MailcapCommandMap#addMailcap(java.lang.String) public synchronized void
+     * javax.activation.MailcapCommandMap.addMailcap(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getPreferredCommands_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.activation.MailcapCommandMap#getCommand(java.lang.String,java.lang.String) public
-     * synchronized javax.activation.CommandInfo
-     * javax.activation.MailcapCommandMap.getCommand(java.lang.String,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getCommand_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.activation.MailcapCommandMap#getNativeCommands(java.lang.String) public synchronized
-     * java.lang.String[] javax.activation.MailcapCommandMap.getNativeCommands(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNativeCommands_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.activation.MailcapCommandMap#getMimeTypes() public synchronized java.lang.String[]
-     * javax.activation.MailcapCommandMap.getMimeTypes()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMimeTypes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.activation.MailcapCommandMap#getAllCommands(java.lang.String) public synchronized
-     * javax.activation.CommandInfo[] javax.activation.MailcapCommandMap.getAllCommands(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAllCommands_String()
+    public default void test_addMailcap_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,14 +57,84 @@ extends org.j8unit.repository.javax.activation.CommandMapTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.activation.MailcapCommandMap#addMailcap(java.lang.String) public synchronized void
-     * javax.activation.MailcapCommandMap.addMailcap(java.lang.String)}.
+     * Test method for {@link javax.activation.MailcapCommandMap#getAllCommands(java.lang.String) public synchronized
+     * javax.activation.CommandInfo[] javax.activation.MailcapCommandMap.getAllCommands(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addMailcap_String()
+    @Override
+    public default void test_getAllCommands_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.MailcapCommandMap#getCommand(java.lang.String,java.lang.String) public
+     * synchronized javax.activation.CommandInfo
+     * javax.activation.MailcapCommandMap.getCommand(java.lang.String,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getCommand_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.MailcapCommandMap#getMimeTypes() public synchronized java.lang.String[]
+     * javax.activation.MailcapCommandMap.getMimeTypes()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMimeTypes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.MailcapCommandMap#getNativeCommands(java.lang.String) public synchronized
+     * java.lang.String[] javax.activation.MailcapCommandMap.getNativeCommands(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNativeCommands_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.MailcapCommandMap#getPreferredCommands(java.lang.String) public
+     * synchronized javax.activation.CommandInfo[]
+     * javax.activation.MailcapCommandMap.getPreferredCommands(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPreferredCommands_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

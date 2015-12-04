@@ -39,23 +39,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicToolTipUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalToolTipUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.metal.MetalToolTipUI.installUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_installUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalToolTipUI#getPreferredSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.metal.MetalToolTipUI.getPreferredSize(javax.swing.JComponent)}.
      * </p>
@@ -73,15 +56,15 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicToolTipUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalToolTipUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.metal.MetalToolTipUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.metal.MetalToolTipUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.metal.MetalToolTipUI.installUI(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_uninstallUI_JComponent()
+    public default void test_installUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -99,6 +82,23 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicToolTipUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_paint_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalToolTipUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.metal.MetalToolTipUI.uninstallUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_uninstallUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

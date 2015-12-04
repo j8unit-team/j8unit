@@ -40,22 +40,6 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Transmitter#setReceiver(javax.sound.midi.Receiver) public abstract void
-     * javax.sound.midi.Transmitter.setReceiver(javax.sound.midi.Receiver)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setReceiver_Receiver()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sound.midi.Transmitter#getReceiver() public abstract javax.sound.midi.Receiver
      * javax.sound.midi.Transmitter.getReceiver()}.
      * </p>
@@ -64,6 +48,22 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getReceiver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.midi.Transmitter#setReceiver(javax.sound.midi.Receiver) public abstract void
+     * javax.sound.midi.Transmitter.setReceiver(javax.sound.midi.Receiver)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setReceiver_Receiver()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

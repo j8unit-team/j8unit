@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.naming.ldap.BasicControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.SortResponseControl#isSorted() public boolean
-     * javax.naming.ldap.SortResponseControl.isSorted()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSorted()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.naming.ldap.SortResponseControl#getAttributeID() public java.lang.String
      * javax.naming.ldap.SortResponseControl.getAttributeID()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.javax.naming.ldap.BasicControlTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAttributeID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.ldap.SortResponseControl#getException() public javax.naming.NamingException
+     * javax.naming.ldap.SortResponseControl.getException()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getException()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +71,14 @@ extends org.j8unit.repository.javax.naming.ldap.BasicControlTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.SortResponseControl#getException() public javax.naming.NamingException
-     * javax.naming.ldap.SortResponseControl.getException()}.
+     * Test method for {@link javax.naming.ldap.SortResponseControl#isSorted() public boolean
+     * javax.naming.ldap.SortResponseControl.isSorted()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getException()
+    public default void test_isSorted()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
+     * Test method for {@link java.net.URLClassLoader#close() public void java.net.URLClassLoader.close() throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.net.URLClassLoader#findResource(java.lang.String) public java.net.URL
      * java.net.URLClassLoader.findResource(java.lang.String)}.
      * </p>
@@ -31,6 +48,22 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_findResource_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.URLClassLoader#findResources(java.lang.String) public java.util.Enumeration
+     * java.net.URLClassLoader.findResources(java.lang.String) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_findResources_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,22 +89,6 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.net.URLClassLoader#findResources(java.lang.String) public java.util.Enumeration
-     * java.net.URLClassLoader.findResources(java.lang.String) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_findResources_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.net.URLClassLoader#getURLs() public java.net.URL[] java.net.URLClassLoader.getURLs()}
      * .
      * </p>
@@ -80,23 +97,6 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_getURLs()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.URLClassLoader#close() public void java.net.URLClassLoader.close() throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

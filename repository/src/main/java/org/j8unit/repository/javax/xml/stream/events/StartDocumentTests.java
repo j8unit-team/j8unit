@@ -23,30 +23,14 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.events.StartDocument#isStandalone() public abstract boolean
-     * javax.xml.stream.events.StartDocument.isStandalone()}.
+     * Test method for {@link javax.xml.stream.events.StartDocument#encodingSet() public abstract boolean
+     * javax.xml.stream.events.StartDocument.encodingSet()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isStandalone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.events.StartDocument#getVersion() public abstract java.lang.String
-     * javax.xml.stream.events.StartDocument.getVersion()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVersion()
+    public default void test_encodingSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,22 +55,6 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.events.StartDocument#encodingSet() public abstract boolean
-     * javax.xml.stream.events.StartDocument.encodingSet()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_encodingSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.stream.events.StartDocument#getSystemId() public abstract java.lang.String
      * javax.xml.stream.events.StartDocument.getSystemId()}.
      * </p>
@@ -95,6 +63,38 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getSystemId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.events.StartDocument#getVersion() public abstract java.lang.String
+     * javax.xml.stream.events.StartDocument.getVersion()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVersion()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.events.StartDocument#isStandalone() public abstract boolean
+     * javax.xml.stream.events.StartDocument.isStandalone()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isStandalone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

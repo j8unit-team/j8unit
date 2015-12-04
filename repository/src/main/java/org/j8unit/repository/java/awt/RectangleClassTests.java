@@ -36,29 +36,16 @@ extends org.j8unit.repository.java.awt.ShapeClassTests<SUT>, org.j8unit.reposito
 org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.Rectangle#Rectangle(int,int,int,int) public java.awt.Rectangle(int,int,int,int)}.
+     * Test method for {@link java.awt.Rectangle#Rectangle() public java.awt.Rectangle()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Rectangle_int_int_int_int()
+    public default void create_Rectangle()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Rectangle sut = null; // = new Rectangle(int,int,int,int);
-    }
-
-    /**
-     * Test method for {@link java.awt.Rectangle#Rectangle(int,int) public java.awt.Rectangle(int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Rectangle_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Rectangle sut = null; // = new Rectangle(int,int);
+        final java.awt.Rectangle sut = null; // = new Rectangle();
     }
 
     /**
@@ -76,6 +63,32 @@ org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<SUT> {
     }
 
     /**
+     * Test method for {@link java.awt.Rectangle#Rectangle(int,int) public java.awt.Rectangle(int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Rectangle_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Rectangle sut = null; // = new Rectangle(int,int);
+    }
+
+    /**
+     * Test method for {@link java.awt.Rectangle#Rectangle(int,int,int,int) public java.awt.Rectangle(int,int,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Rectangle_int_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Rectangle sut = null; // = new Rectangle(int,int,int,int);
+    }
+
+    /**
      * Test method for {@link java.awt.Rectangle#Rectangle(java.awt.Point) public java.awt.Rectangle(java.awt.Point)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -86,33 +99,6 @@ org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.Rectangle sut = null; // = new Rectangle(java.awt.Point);
-    }
-
-    /**
-     * Test method for {@link java.awt.Rectangle#Rectangle(java.awt.Rectangle) public
-     * java.awt.Rectangle(java.awt.Rectangle)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Rectangle_Rectangle()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Rectangle sut = null; // = new Rectangle(java.awt.Rectangle);
-    }
-
-    /**
-     * Test method for {@link java.awt.Rectangle#Rectangle() public java.awt.Rectangle()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Rectangle()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Rectangle sut = null; // = new Rectangle();
     }
 
     /**
@@ -127,6 +113,20 @@ org.j8unit.repository.java.awt.geom.Rectangle2DClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.Rectangle sut = null; // = new Rectangle(java.awt.Point,java.awt.Dimension);
+    }
+
+    /**
+     * Test method for {@link java.awt.Rectangle#Rectangle(java.awt.Rectangle) public
+     * java.awt.Rectangle(java.awt.Rectangle)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Rectangle_Rectangle()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Rectangle sut = null; // = new Rectangle(java.awt.Rectangle);
     }
 
     @Override

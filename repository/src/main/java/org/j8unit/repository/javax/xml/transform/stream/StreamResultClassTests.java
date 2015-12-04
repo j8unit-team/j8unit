@@ -36,6 +36,20 @@ public abstract interface StreamResultClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.javax.xml.transform.ResultClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.xml.transform.stream.StreamResult#StreamResult() public
+     * javax.xml.transform.stream.StreamResult()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_StreamResult()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.transform.stream.StreamResult sut = null; // = new StreamResult();
+    }
+
+    /**
      * Test method for {@link javax.xml.transform.stream.StreamResult#StreamResult(java.io.File) public
      * javax.xml.transform.stream.StreamResult(java.io.File)}.
      */
@@ -47,6 +61,20 @@ extends org.j8unit.repository.javax.xml.transform.ResultClassTests<SUT>, org.j8u
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.transform.stream.StreamResult sut = null; // = new StreamResult(java.io.File);
+    }
+
+    /**
+     * Test method for {@link javax.xml.transform.stream.StreamResult#StreamResult(java.io.OutputStream) public
+     * javax.xml.transform.stream.StreamResult(java.io.OutputStream)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_StreamResult_OutputStream()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.transform.stream.StreamResult sut = null; // = new StreamResult(java.io.OutputStream);
     }
 
     /**
@@ -75,34 +103,6 @@ extends org.j8unit.repository.javax.xml.transform.ResultClassTests<SUT>, org.j8u
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.transform.stream.StreamResult sut = null; // = new StreamResult(java.io.Writer);
-    }
-
-    /**
-     * Test method for {@link javax.xml.transform.stream.StreamResult#StreamResult(java.io.OutputStream) public
-     * javax.xml.transform.stream.StreamResult(java.io.OutputStream)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_StreamResult_OutputStream()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.transform.stream.StreamResult sut = null; // = new StreamResult(java.io.OutputStream);
-    }
-
-    /**
-     * Test method for {@link javax.xml.transform.stream.StreamResult#StreamResult() public
-     * javax.xml.transform.stream.StreamResult()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_StreamResult()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.transform.stream.StreamResult sut = null; // = new StreamResult();
     }
 
     @Override

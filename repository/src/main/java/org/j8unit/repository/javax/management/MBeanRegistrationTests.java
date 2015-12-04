@@ -40,22 +40,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanRegistration#preDeregister() public abstract void
-     * javax.management.MBeanRegistration.preDeregister() throws java.lang.Exception}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_preDeregister()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.MBeanRegistration#postRegister(java.lang.Boolean) public abstract void
      * javax.management.MBeanRegistration.postRegister(java.lang.Boolean)}.
      * </p>
@@ -64,6 +48,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_postRegister_Boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.MBeanRegistration#preDeregister() public abstract void
+     * javax.management.MBeanRegistration.preDeregister() throws java.lang.Exception}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_preDeregister()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

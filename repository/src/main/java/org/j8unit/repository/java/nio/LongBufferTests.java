@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.LongBuffer
 
     /**
      * <p>
-     * Test method for {@link java.nio.LongBuffer#toString() public java.lang.String java.nio.LongBuffer.toString()}.
+     * Test method for {@link java.nio.LongBuffer#array() public final long[] java.nio.LongBuffer.array()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_array()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.LongBuffer
 
     /**
      * <p>
-     * Test method for {@link java.nio.LongBuffer#order() public abstract java.nio.ByteOrder
-     * java.nio.LongBuffer.order()}.
+     * Test method for {@link java.nio.LongBuffer#asReadOnlyBuffer() public abstract java.nio.LongBuffer
+     * java.nio.LongBuffer.asReadOnlyBuffer()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_order()
+    public default void test_asReadOnlyBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,141 +71,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.LongBuffer
 
     /**
      * <p>
-     * Test method for {@link java.nio.LongBuffer#isDirect() public abstract boolean java.nio.LongBuffer.isDirect()}.
+     * Test method for {@link java.nio.LongBuffer#compact() public abstract java.nio.LongBuffer
+     * java.nio.LongBuffer.compact()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_isDirect()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.LongBuffer#hashCode() public int java.nio.LongBuffer.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.LongBuffer#get(long[],int,int) public java.nio.LongBuffer
-     * java.nio.LongBuffer.get(long[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_longArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.LongBuffer#get(long[]) public java.nio.LongBuffer
-     * java.nio.LongBuffer.get(long[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_longArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.LongBuffer#get() public abstract long java.nio.LongBuffer.get()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.LongBuffer#get(int) public abstract long java.nio.LongBuffer.get(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.LongBuffer#equals(java.lang.Object) public boolean
-     * java.nio.LongBuffer.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.LongBuffer#array() public final long[] java.nio.LongBuffer.array()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_array()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.LongBuffer#slice() public abstract java.nio.LongBuffer
-     * java.nio.LongBuffer.slice()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_slice()
+    public default void test_compact()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -246,6 +119,181 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.LongBuffer
 
     /**
      * <p>
+     * Test method for {@link java.nio.LongBuffer#equals(java.lang.Object) public boolean
+     * java.nio.LongBuffer.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.LongBuffer#get() public abstract long java.nio.LongBuffer.get()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.LongBuffer#get(int) public abstract long java.nio.LongBuffer.get(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.LongBuffer#get(long[]) public java.nio.LongBuffer
+     * java.nio.LongBuffer.get(long[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_longArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.LongBuffer#get(long[],int,int) public java.nio.LongBuffer
+     * java.nio.LongBuffer.get(long[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_longArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.LongBuffer#hasArray() public final boolean java.nio.LongBuffer.hasArray()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hasArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.LongBuffer#hashCode() public int java.nio.LongBuffer.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.LongBuffer#isDirect() public abstract boolean java.nio.LongBuffer.isDirect()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isDirect()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.LongBuffer#order() public abstract java.nio.ByteOrder
+     * java.nio.LongBuffer.order()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_order()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.LongBuffer#put(int,long) public abstract java.nio.LongBuffer
+     * java.nio.LongBuffer.put(int,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_int_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.LongBuffer#put(long) public abstract java.nio.LongBuffer
+     * java.nio.LongBuffer.put(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.LongBuffer#put(long[]) public final java.nio.LongBuffer
      * java.nio.LongBuffer.put(long[])}.
      * </p>
@@ -278,22 +326,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.LongBuffer
 
     /**
      * <p>
-     * Test method for {@link java.nio.LongBuffer#put(int,long) public abstract java.nio.LongBuffer
-     * java.nio.LongBuffer.put(int,long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_int_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.LongBuffer#put(java.nio.LongBuffer) public java.nio.LongBuffer
      * java.nio.LongBuffer.put(java.nio.LongBuffer)}.
      * </p>
@@ -310,14 +342,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.LongBuffer
 
     /**
      * <p>
-     * Test method for {@link java.nio.LongBuffer#put(long) public abstract java.nio.LongBuffer
-     * java.nio.LongBuffer.put(long)}.
+     * Test method for {@link java.nio.LongBuffer#slice() public abstract java.nio.LongBuffer
+     * java.nio.LongBuffer.slice()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_put_long()
+    public default void test_slice()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -326,46 +358,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.LongBuffer
 
     /**
      * <p>
-     * Test method for {@link java.nio.LongBuffer#asReadOnlyBuffer() public abstract java.nio.LongBuffer
-     * java.nio.LongBuffer.asReadOnlyBuffer()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_asReadOnlyBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.LongBuffer#hasArray() public final boolean java.nio.LongBuffer.hasArray()}.
+     * Test method for {@link java.nio.LongBuffer#toString() public java.lang.String java.nio.LongBuffer.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hasArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.LongBuffer#compact() public abstract java.nio.LongBuffer
-     * java.nio.LongBuffer.compact()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compact()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

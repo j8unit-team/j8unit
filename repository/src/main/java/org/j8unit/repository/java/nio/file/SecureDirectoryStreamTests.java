@@ -23,6 +23,38 @@ extends org.j8unit.repository.java.nio.file.DirectoryStreamTests<SUT, T> {
 
     /**
      * <p>
+     * Test method for {@link java.nio.file.SecureDirectoryStream#deleteDirectory(java.lang.Object) public abstract void
+     * java.nio.file.SecureDirectoryStream.deleteDirectory(java.lang.Object) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deleteDirectory_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.SecureDirectoryStream#deleteFile(java.lang.Object) public abstract void
+     * java.nio.file.SecureDirectoryStream.deleteFile(java.lang.Object) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deleteFile_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.file.SecureDirectoryStream#getFileAttributeView(java.lang.Class) public abstract
      * java.nio.file.attribute.FileAttributeView
      * java.nio.file.SecureDirectoryStream.getFileAttributeView(java.lang.Class)}.
@@ -60,41 +92,6 @@ extends org.j8unit.repository.java.nio.file.DirectoryStreamTests<SUT, T> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.SecureDirectoryStream#newByteChannel(java.lang.Object,java.util.Set,java.nio.file.attribute.FileAttribute...)
-     * public abstract java.nio.channels.SeekableByteChannel
-     * java.nio.file.SecureDirectoryStream.newByteChannel(java.lang.Object,java.util.Set,java.nio.file.attribute.FileAttribute...)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newByteChannel_Object_Set_FileAttributeArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.SecureDirectoryStream#deleteFile(java.lang.Object) public abstract void
-     * java.nio.file.SecureDirectoryStream.deleteFile(java.lang.Object) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deleteFile_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link java.nio.file.SecureDirectoryStream#move(java.lang.Object,java.nio.file.SecureDirectoryStream,java.lang.Object)
      * public abstract void
      * java.nio.file.SecureDirectoryStream.move(java.lang.Object,java.nio.file.SecureDirectoryStream,java.lang.Object)
@@ -113,14 +110,17 @@ extends org.j8unit.repository.java.nio.file.DirectoryStreamTests<SUT, T> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.SecureDirectoryStream#deleteDirectory(java.lang.Object) public abstract void
-     * java.nio.file.SecureDirectoryStream.deleteDirectory(java.lang.Object) throws java.io.IOException}.
+     * Test method for
+     * {@link java.nio.file.SecureDirectoryStream#newByteChannel(java.lang.Object,java.util.Set,java.nio.file.attribute.FileAttribute...)
+     * public abstract java.nio.channels.SeekableByteChannel
+     * java.nio.file.SecureDirectoryStream.newByteChannel(java.lang.Object,java.util.Set,java.nio.file.attribute.FileAttribute...)
+     * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_deleteDirectory_Object()
+    public default void test_newByteChannel_Object_Set_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

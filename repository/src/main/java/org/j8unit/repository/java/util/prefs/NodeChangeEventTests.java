@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.prefs.NodeChangeEvent#getParent() public java.util.prefs.Preferences
-     * java.util.prefs.NodeChangeEvent.getParent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.prefs.NodeChangeEvent#getChild() public java.util.prefs.Preferences
      * java.util.prefs.NodeChangeEvent.getChild()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getChild()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.prefs.NodeChangeEvent#getParent() public java.util.prefs.Preferences
+     * java.util.prefs.NodeChangeEvent.getParent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

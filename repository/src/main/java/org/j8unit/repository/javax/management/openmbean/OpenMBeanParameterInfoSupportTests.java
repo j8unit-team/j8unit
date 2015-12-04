@@ -24,125 +24,6 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#toString() public
-     * java.lang.String javax.management.openmbean.OpenMBeanParameterInfoSupport.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#hasMinValue() public boolean
-     * javax.management.openmbean.OpenMBeanParameterInfoSupport.hasMinValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hasMinValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#getOpenType() public
-     * javax.management.openmbean.OpenType javax.management.openmbean.OpenMBeanParameterInfoSupport.getOpenType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getOpenType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#isValue(java.lang.Object) public
-     * boolean javax.management.openmbean.OpenMBeanParameterInfoSupport.isValue(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isValue_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#getMinValue() public
-     * java.lang.Comparable javax.management.openmbean.OpenMBeanParameterInfoSupport.getMinValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMinValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#hasLegalValues() public boolean
-     * javax.management.openmbean.OpenMBeanParameterInfoSupport.hasLegalValues()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hasLegalValues()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#hashCode() public int
-     * javax.management.openmbean.OpenMBeanParameterInfoSupport.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#equals(java.lang.Object) public
      * boolean javax.management.openmbean.OpenMBeanParameterInfoSupport.equals(java.lang.Object)}.
      * </p>
@@ -152,23 +33,6 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
     @Category(Draft.class)
     @Override
     public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#getLegalValues() public
-     * java.util.Set javax.management.openmbean.OpenMBeanParameterInfoSupport.getLegalValues()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getLegalValues()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -194,15 +58,31 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#hasDefaultValue() public boolean
-     * javax.management.openmbean.OpenMBeanParameterInfoSupport.hasDefaultValue()}.
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hasDefaultValue()
+    public default void test_getDescription()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#getLegalValues() public
+     * java.util.Set javax.management.openmbean.OpenMBeanParameterInfoSupport.getLegalValues()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getLegalValues()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -228,15 +108,15 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#hasMaxValue() public boolean
-     * javax.management.openmbean.OpenMBeanParameterInfoSupport.hasMaxValue()}.
+     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#getMinValue() public
+     * java.lang.Comparable javax.management.openmbean.OpenMBeanParameterInfoSupport.getMinValue()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hasMaxValue()
+    public default void test_getMinValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -261,18 +141,138 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
 
     /**
      * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#getOpenType() public
+     * javax.management.openmbean.OpenType javax.management.openmbean.OpenMBeanParameterInfoSupport.getOpenType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getDescription()
+    public default void test_getOpenType()
     throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#hasDefaultValue() public boolean
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport.hasDefaultValue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hasDefaultValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#hashCode() public int
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#hasLegalValues() public boolean
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport.hasLegalValues()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hasLegalValues()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#hasMaxValue() public boolean
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport.hasMaxValue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hasMaxValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#hasMinValue() public boolean
+     * javax.management.openmbean.OpenMBeanParameterInfoSupport.hasMinValue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hasMinValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#isValue(java.lang.Object) public
+     * boolean javax.management.openmbean.OpenMBeanParameterInfoSupport.isValue(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isValue_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanParameterInfoSupport#toString() public
+     * java.lang.String javax.management.openmbean.OpenMBeanParameterInfoSupport.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

@@ -23,14 +23,30 @@ extends org.j8unit.repository.org.w3c.dom.DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLDocument#getLinks() public abstract org.w3c.dom.html.HTMLCollection
-     * org.w3c.dom.html.HTMLDocument.getLinks()}.
+     * Test method for {@link org.w3c.dom.html.HTMLDocument#close() public abstract void
+     * org.w3c.dom.html.HTMLDocument.close()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLinks()
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLDocument#getAnchors() public abstract org.w3c.dom.html.HTMLCollection
+     * org.w3c.dom.html.HTMLDocument.getAnchors()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAnchors()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,86 +87,6 @@ extends org.j8unit.repository.org.w3c.dom.DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLDocument#getAnchors() public abstract org.w3c.dom.html.HTMLCollection
-     * org.w3c.dom.html.HTMLDocument.getAnchors()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAnchors()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLDocument#setCookie(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLDocument.setCookie(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCookie_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLDocument#writeln(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLDocument.writeln(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeln_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLDocument#setTitle(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLDocument.setTitle(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTitle_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLDocument#setBody(org.w3c.dom.html.HTMLElement) public abstract void
-     * org.w3c.dom.html.HTMLDocument.setBody(org.w3c.dom.html.HTMLElement)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBody_HTMLElement()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLDocument#getCookie() public abstract java.lang.String
      * org.w3c.dom.html.HTMLDocument.getCookie()}.
      * </p>
@@ -167,22 +103,6 @@ extends org.j8unit.repository.org.w3c.dom.DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLDocument#getTitle() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLDocument.getTitle()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTitle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLDocument#getDomain() public abstract java.lang.String
      * org.w3c.dom.html.HTMLDocument.getDomain()}.
      * </p>
@@ -191,22 +111,6 @@ extends org.j8unit.repository.org.w3c.dom.DocumentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDomain()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLDocument#getURL() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLDocument.getURL()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getURL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -247,6 +151,86 @@ extends org.j8unit.repository.org.w3c.dom.DocumentTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLDocument#getImages() public abstract org.w3c.dom.html.HTMLCollection
+     * org.w3c.dom.html.HTMLDocument.getImages()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImages()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLDocument#getLinks() public abstract org.w3c.dom.html.HTMLCollection
+     * org.w3c.dom.html.HTMLDocument.getLinks()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLinks()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLDocument#getReferrer() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLDocument.getReferrer()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getReferrer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLDocument#getTitle() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLDocument.getTitle()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTitle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLDocument#getURL() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLDocument.getURL()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getURL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLDocument#open() public abstract void
      * org.w3c.dom.html.HTMLDocument.open()}.
      * </p>
@@ -263,14 +247,46 @@ extends org.j8unit.repository.org.w3c.dom.DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLDocument#getImages() public abstract org.w3c.dom.html.HTMLCollection
-     * org.w3c.dom.html.HTMLDocument.getImages()}.
+     * Test method for {@link org.w3c.dom.html.HTMLDocument#setBody(org.w3c.dom.html.HTMLElement) public abstract void
+     * org.w3c.dom.html.HTMLDocument.setBody(org.w3c.dom.html.HTMLElement)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getImages()
+    public default void test_setBody_HTMLElement()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLDocument#setCookie(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLDocument.setCookie(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCookie_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLDocument#setTitle(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLDocument.setTitle(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTitle_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -295,30 +311,14 @@ extends org.j8unit.repository.org.w3c.dom.DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLDocument#close() public abstract void
-     * org.w3c.dom.html.HTMLDocument.close()}.
+     * Test method for {@link org.w3c.dom.html.HTMLDocument#writeln(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLDocument.writeln(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLDocument#getReferrer() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLDocument.getReferrer()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReferrer()
+    public default void test_writeln_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

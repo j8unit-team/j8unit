@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E> {
 
     /**
      * <p>
+     * Test method for {@link java.util.concurrent.TransferQueue#getWaitingConsumerCount() public abstract int
+     * java.util.concurrent.TransferQueue.getWaitingConsumerCount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWaitingConsumerCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.concurrent.TransferQueue#hasWaitingConsumer() public abstract boolean
      * java.util.concurrent.TransferQueue.hasWaitingConsumer()}.
      * </p>
@@ -39,14 +55,14 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.TransferQueue#getWaitingConsumerCount() public abstract int
-     * java.util.concurrent.TransferQueue.getWaitingConsumerCount()}.
+     * Test method for {@link java.util.concurrent.TransferQueue#transfer(java.lang.Object) public abstract void
+     * java.util.concurrent.TransferQueue.transfer(java.lang.Object) throws java.lang.InterruptedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getWaitingConsumerCount()
+    public default void test_transfer_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -82,22 +98,6 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_tryTransfer_Object_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.TransferQueue#transfer(java.lang.Object) public abstract void
-     * java.util.concurrent.TransferQueue.transfer(java.lang.Object) throws java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_transfer_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -25,39 +25,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.IORInfoOperations#state() public abstract short
-     * org.omg.PortableInterceptor.IORInfoOperations.state()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_state()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.IORInfoOperations#add_ior_component(org.omg.IOP.TaggedComponent) public
-     * abstract void org.omg.PortableInterceptor.IORInfoOperations.add_ior_component(org.omg.IOP.TaggedComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_ior_component_TaggedComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.PortableInterceptor.IORInfoOperations#adapter_template() public abstract
      * org.omg.PortableInterceptor.ObjectReferenceTemplate
      * org.omg.PortableInterceptor.IORInfoOperations.adapter_template()}.
@@ -75,14 +42,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.IORInfoOperations#manager_id() public abstract int
-     * org.omg.PortableInterceptor.IORInfoOperations.manager_id()}.
+     * Test method for
+     * {@link org.omg.PortableInterceptor.IORInfoOperations#add_ior_component(org.omg.IOP.TaggedComponent) public
+     * abstract void org.omg.PortableInterceptor.IORInfoOperations.add_ior_component(org.omg.IOP.TaggedComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_manager_id()
+    public default void test_add_ior_component_TaggedComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -153,6 +121,38 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_get_effective_policy_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.IORInfoOperations#manager_id() public abstract int
+     * org.omg.PortableInterceptor.IORInfoOperations.manager_id()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_manager_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.IORInfoOperations#state() public abstract short
+     * org.omg.PortableInterceptor.IORInfoOperations.state()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_state()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

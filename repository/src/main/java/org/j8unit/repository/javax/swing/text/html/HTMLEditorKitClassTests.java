@@ -36,87 +36,6 @@ public abstract interface HTMLEditorKitClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.text.html.HTMLEditorKit#HTMLEditorKit() public
-     * javax.swing.text.html.HTMLEditorKit()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HTMLEditorKit()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.html.HTMLEditorKit sut = null; // = new HTMLEditorKit();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.html.HTMLEditorKit> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.html.HTMLEditorKit.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test class for {@link javax.swing.text.html.HTMLEditorKit$LinkController class
-     * javax.swing.text.html.HTMLEditorKit$LinkController}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.LinkControllerTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.LinkControllerTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface LinkControllerClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.LinkController>>
-    extends org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-    org.j8unit.repository.java.awt.event.MouseAdapterClassTests<SUT> {
-
-        /**
-         * Test method for {@link javax.swing.text.html.HTMLEditorKit.LinkController#LinkController() public
-         * javax.swing.text.html.HTMLEditorKit$LinkController()}.
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_LinkController()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.html.HTMLEditorKit.LinkController sut = null; // = new LinkController();
-        }
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.swing.text.html.HTMLEditorKit.LinkController> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.text.html.HTMLEditorKit.LinkController.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.text.html.HTMLEditorKit$HTMLFactory class
      * javax.swing.text.html.HTMLEditorKit$HTMLFactory}, containing all class relevant test methods (at least the test
@@ -168,62 +87,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
             final Class<? extends javax.swing.text.html.HTMLEditorKit.HTMLFactory> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.text.html.HTMLEditorKit.HTMLFactory.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Test class for {@link javax.swing.text.html.HTMLEditorKit$ParserCallback class
-     * javax.swing.text.html.HTMLEditorKit$ParserCallback}, containing all class relevant test methods (at least the
-     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserCallbackTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserCallbackTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface ParserCallbackClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.ParserCallback>>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
-
-        /**
-         * Test method for {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#ParserCallback() public
-         * javax.swing.text.html.HTMLEditorKit$ParserCallback()}.
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_ParserCallback()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.html.HTMLEditorKit.ParserCallback sut = null; // = new ParserCallback();
-        }
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.swing.text.html.HTMLEditorKit.ParserCallback> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.text.html.HTMLEditorKit.ParserCallback.class.isAssignableFrom(sut));
         }
 
     }
@@ -287,6 +150,197 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
 
     /**
      * <p>
+     * Test class for {@link javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction class
+     * javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction}, containing all class relevant test methods (at least
+     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
+     * containing the instance relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests}.
+     * </p>
+     *
+     * <p>
+     * In addition, there may be assertions concerning the class itself. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
+     * inheritable test method:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+     * constraints and further class specific requirements.
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface InsertHTMLTextActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction>>
+    extends org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests<SUT> {
+
+        /**
+         * Test method for
+         * {@link javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction#InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag)
+         * public
+         * javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag)}
+         * .
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void create_InsertHTMLTextAction_String_String_Tag_Tag()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction sut = null; // = new
+                                                                                       // InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag);
+        }
+
+        /**
+         * Test method for
+         * {@link javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction#InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag)
+         * public
+         * javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag)}
+         * .
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void create_InsertHTMLTextAction_String_String_Tag_Tag_Tag_Tag()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction sut = null; // = new
+                                                                                       // InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag);
+        }
+
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * <p>
+     * Test class for {@link javax.swing.text.html.HTMLEditorKit$LinkController class
+     * javax.swing.text.html.HTMLEditorKit$LinkController}, containing all class relevant test methods (at least the
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
+     * containing the instance relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.LinkControllerTests}.
+     * </p>
+     *
+     * <p>
+     * In addition, there may be assertions concerning the class itself. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
+     * inheritable test method:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+     * constraints and further class specific requirements.
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.LinkControllerTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface LinkControllerClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.LinkController>>
+    extends org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
+    org.j8unit.repository.java.awt.event.MouseAdapterClassTests<SUT> {
+
+        /**
+         * Test method for {@link javax.swing.text.html.HTMLEditorKit.LinkController#LinkController() public
+         * javax.swing.text.html.HTMLEditorKit$LinkController()}.
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void create_LinkController()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final javax.swing.text.html.HTMLEditorKit.LinkController sut = null; // = new LinkController();
+        }
+
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.swing.text.html.HTMLEditorKit.LinkController> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.swing.text.html.HTMLEditorKit.LinkController.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * <p>
+     * Test class for {@link javax.swing.text.html.HTMLEditorKit$ParserCallback class
+     * javax.swing.text.html.HTMLEditorKit$ParserCallback}, containing all class relevant test methods (at least the
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
+     * containing the instance relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserCallbackTests}.
+     * </p>
+     *
+     * <p>
+     * In addition, there may be assertions concerning the class itself. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
+     * inheritable test method:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+     * constraints and further class specific requirements.
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserCallbackTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface ParserCallbackClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.ParserCallback>>
+    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
+
+        /**
+         * Test method for {@link javax.swing.text.html.HTMLEditorKit.ParserCallback#ParserCallback() public
+         * javax.swing.text.html.HTMLEditorKit$ParserCallback()}.
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void create_ParserCallback()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final javax.swing.text.html.HTMLEditorKit.ParserCallback sut = null; // = new ParserCallback();
+        }
+
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.swing.text.html.HTMLEditorKit.ParserCallback> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.swing.text.html.HTMLEditorKit.ParserCallback.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * <p>
      * Test class for {@link javax.swing.text.html.HTMLEditorKit$Parser class
      * javax.swing.text.html.HTMLEditorKit$Parser}, containing all class relevant test methods (at least the test
      * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
@@ -342,81 +396,27 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     }
 
     /**
-     * <p>
-     * Test class for {@link javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction class
-     * javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests
+     * Test method for {@link javax.swing.text.html.HTMLEditorKit#HTMLEditorKit() public
+     * javax.swing.text.html.HTMLEditorKit()}.
      */
-    @Category(J8UnitRepository.class)
-    public static abstract interface InsertHTMLTextActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction>>
-    extends org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests<SUT> {
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HTMLEditorKit()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.html.HTMLEditorKit sut = null; // = new HTMLEditorKit();
+    }
 
-        /**
-         * Test method for
-         * {@link javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction#InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag)
-         * public
-         * javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag)}
-         * .
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_InsertHTMLTextAction_String_String_Tag_Tag_Tag_Tag()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction sut = null; // = new
-                                                                                       // InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag);
-        }
-
-        /**
-         * Test method for
-         * {@link javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction#InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag)
-         * public
-         * javax.swing.text.html.HTMLEditorKit$InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML$Tag,javax.swing.text.html.HTML$Tag)}
-         * .
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_InsertHTMLTextAction_String_String_Tag_Tag()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction sut = null; // = new
-                                                                                       // InsertHTMLTextAction(java.lang.String,java.lang.String,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag);
-        }
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction.class.isAssignableFrom(sut));
-        }
-
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.html.HTMLEditorKit> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.html.HTMLEditorKit.class.isAssignableFrom(sut));
     }
 
 }

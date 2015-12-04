@@ -36,17 +36,31 @@ public abstract interface KeySelectorExceptionClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.xml.crypto.KeySelectorException#KeySelectorException(java.lang.Throwable) public
-     * javax.xml.crypto.KeySelectorException(java.lang.Throwable)}.
+     * Test method for {@link javax.xml.crypto.KeySelectorException#KeySelectorException() public
+     * javax.xml.crypto.KeySelectorException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_KeySelectorException_Throwable()
+    public default void create_KeySelectorException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.crypto.KeySelectorException sut = null; // = new KeySelectorException(java.lang.Throwable);
+        final javax.xml.crypto.KeySelectorException sut = null; // = new KeySelectorException();
+    }
+
+    /**
+     * Test method for {@link javax.xml.crypto.KeySelectorException#KeySelectorException(java.lang.String) public
+     * javax.xml.crypto.KeySelectorException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_KeySelectorException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.crypto.KeySelectorException sut = null; // = new KeySelectorException(java.lang.String);
     }
 
     /**
@@ -66,31 +80,17 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.xml.crypto.KeySelectorException#KeySelectorException(java.lang.String) public
-     * javax.xml.crypto.KeySelectorException(java.lang.String)}.
+     * Test method for {@link javax.xml.crypto.KeySelectorException#KeySelectorException(java.lang.Throwable) public
+     * javax.xml.crypto.KeySelectorException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_KeySelectorException_String()
+    public default void create_KeySelectorException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.crypto.KeySelectorException sut = null; // = new KeySelectorException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.crypto.KeySelectorException#KeySelectorException() public
-     * javax.xml.crypto.KeySelectorException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_KeySelectorException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.crypto.KeySelectorException sut = null; // = new KeySelectorException();
+        final javax.xml.crypto.KeySelectorException sut = null; // = new KeySelectorException(java.lang.Throwable);
     }
 
     @Override

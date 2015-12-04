@@ -40,15 +40,16 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicLabelUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicLabelUI.installUI(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicLabelUI#getBaselineResizeBehavior(javax.swing.JComponent)
+     * public java.awt.Component$BaselineResizeBehavior
+     * javax.swing.plaf.basic.BasicLabelUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_installUI_JComponent()
+    public default void test_getBaselineResizeBehavior_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,23 +75,6 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicLabelUI#getPreferredSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicLabelUI.getPreferredSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPreferredSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicLabelUI#getMinimumSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.basic.BasicLabelUI.getMinimumSize(javax.swing.JComponent)}.
      * </p>
@@ -108,16 +92,15 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicLabelUI#getBaselineResizeBehavior(javax.swing.JComponent)
-     * public java.awt.Component$BaselineResizeBehavior
-     * javax.swing.plaf.basic.BasicLabelUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicLabelUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicLabelUI.getPreferredSize(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getBaselineResizeBehavior_JComponent()
+    public default void test_getPreferredSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -126,15 +109,15 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicLabelUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicLabelUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicLabelUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicLabelUI.installUI(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_uninstallUI_JComponent()
+    public default void test_installUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -169,6 +152,23 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
     @Category(Draft.class)
     @Override
     public default void test_propertyChange_PropertyChangeEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicLabelUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicLabelUI.uninstallUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_uninstallUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

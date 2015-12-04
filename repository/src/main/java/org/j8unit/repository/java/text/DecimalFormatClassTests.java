@@ -36,18 +36,16 @@ public abstract interface DecimalFormatClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.text.NumberFormatClassTests<SUT> {
 
     /**
-     * Test method for {@link java.text.DecimalFormat#DecimalFormat(java.lang.String,java.text.DecimalFormatSymbols)
-     * public java.text.DecimalFormat(java.lang.String,java.text.DecimalFormatSymbols)}.
+     * Test method for {@link java.text.DecimalFormat#DecimalFormat() public java.text.DecimalFormat()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DecimalFormat_String_DecimalFormatSymbols()
+    public default void create_DecimalFormat()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.text.DecimalFormat sut = null; // = new
-                                                  // DecimalFormat(java.lang.String,java.text.DecimalFormatSymbols);
+        final java.text.DecimalFormat sut = null; // = new DecimalFormat();
     }
 
     /**
@@ -65,16 +63,18 @@ extends org.j8unit.repository.java.text.NumberFormatClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.text.DecimalFormat#DecimalFormat() public java.text.DecimalFormat()}.
+     * Test method for {@link java.text.DecimalFormat#DecimalFormat(java.lang.String,java.text.DecimalFormatSymbols)
+     * public java.text.DecimalFormat(java.lang.String,java.text.DecimalFormatSymbols)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DecimalFormat()
+    public default void create_DecimalFormat_String_DecimalFormatSymbols()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.text.DecimalFormat sut = null; // = new DecimalFormat();
+        final java.text.DecimalFormat sut = null; // = new
+                                                  // DecimalFormat(java.lang.String,java.text.DecimalFormatSymbols);
     }
 
     @Override

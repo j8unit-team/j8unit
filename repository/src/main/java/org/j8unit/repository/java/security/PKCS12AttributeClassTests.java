@@ -36,20 +36,6 @@ public abstract interface PKCS12AttributeClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests.AttributeClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.PKCS12Attribute#PKCS12Attribute(java.lang.String,java.lang.String) public
-     * java.security.PKCS12Attribute(java.lang.String,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PKCS12Attribute_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.PKCS12Attribute sut = null; // = new PKCS12Attribute(java.lang.String,java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.security.PKCS12Attribute#PKCS12Attribute(byte[]) public
      * java.security.PKCS12Attribute(byte[])}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests.A
         // create new instance
         @SuppressWarnings("unused")
         final java.security.PKCS12Attribute sut = null; // = new PKCS12Attribute(byte[]);
+    }
+
+    /**
+     * Test method for {@link java.security.PKCS12Attribute#PKCS12Attribute(java.lang.String,java.lang.String) public
+     * java.security.PKCS12Attribute(java.lang.String,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PKCS12Attribute_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.PKCS12Attribute sut = null; // = new PKCS12Attribute(java.lang.String,java.lang.String);
     }
 
     @Override

@@ -36,17 +36,31 @@ public abstract interface DefaultTableModelClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.javax.swing.table.AbstractTableModelClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.table.DefaultTableModel#DefaultTableModel(java.util.Vector,int) public
-     * javax.swing.table.DefaultTableModel(java.util.Vector,int)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#DefaultTableModel() public
+     * javax.swing.table.DefaultTableModel()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DefaultTableModel_Vector_int()
+    public default void create_DefaultTableModel()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.table.DefaultTableModel sut = null; // = new DefaultTableModel(java.util.Vector,int);
+        final javax.swing.table.DefaultTableModel sut = null; // = new DefaultTableModel();
+    }
+
+    /**
+     * Test method for {@link javax.swing.table.DefaultTableModel#DefaultTableModel(int,int) public
+     * javax.swing.table.DefaultTableModel(int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DefaultTableModel_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.table.DefaultTableModel sut = null; // = new DefaultTableModel(int,int);
     }
 
     /**
@@ -61,21 +75,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.table.DefaultTableModel sut = null; // = new DefaultTableModel(java.lang.Object[],int);
-    }
-
-    /**
-     * Test method for {@link javax.swing.table.DefaultTableModel#DefaultTableModel(java.util.Vector,java.util.Vector)
-     * public javax.swing.table.DefaultTableModel(java.util.Vector,java.util.Vector)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DefaultTableModel_Vector_Vector()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.table.DefaultTableModel sut = null; // = new
-                                                              // DefaultTableModel(java.util.Vector,java.util.Vector);
     }
 
     /**
@@ -95,31 +94,32 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     }
 
     /**
-     * Test method for {@link javax.swing.table.DefaultTableModel#DefaultTableModel(int,int) public
-     * javax.swing.table.DefaultTableModel(int,int)}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#DefaultTableModel(java.util.Vector,int) public
+     * javax.swing.table.DefaultTableModel(java.util.Vector,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DefaultTableModel_int_int()
+    public default void create_DefaultTableModel_Vector_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.table.DefaultTableModel sut = null; // = new DefaultTableModel(int,int);
+        final javax.swing.table.DefaultTableModel sut = null; // = new DefaultTableModel(java.util.Vector,int);
     }
 
     /**
-     * Test method for {@link javax.swing.table.DefaultTableModel#DefaultTableModel() public
-     * javax.swing.table.DefaultTableModel()}.
+     * Test method for {@link javax.swing.table.DefaultTableModel#DefaultTableModel(java.util.Vector,java.util.Vector)
+     * public javax.swing.table.DefaultTableModel(java.util.Vector,java.util.Vector)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DefaultTableModel()
+    public default void create_DefaultTableModel_Vector_Vector()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.table.DefaultTableModel sut = null; // = new DefaultTableModel();
+        final javax.swing.table.DefaultTableModel sut = null; // = new
+                                                              // DefaultTableModel(java.util.Vector,java.util.Vector);
     }
 
     @Override

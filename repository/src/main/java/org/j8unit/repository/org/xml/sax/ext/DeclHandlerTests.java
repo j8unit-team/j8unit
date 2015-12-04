@@ -24,14 +24,17 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ext.DeclHandler#elementDecl(java.lang.String,java.lang.String) public abstract
-     * void org.xml.sax.ext.DeclHandler.elementDecl(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}.
+     * Test method for
+     * {@link org.xml.sax.ext.DeclHandler#attributeDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * public abstract void
+     * org.xml.sax.ext.DeclHandler.attributeDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * throws org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_elementDecl_String_String()
+    public default void test_attributeDecl_String_String_String_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,15 +43,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ext.DeclHandler#internalEntityDecl(java.lang.String,java.lang.String) public
-     * abstract void org.xml.sax.ext.DeclHandler.internalEntityDecl(java.lang.String,java.lang.String) throws
-     * org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.ext.DeclHandler#elementDecl(java.lang.String,java.lang.String) public abstract
+     * void org.xml.sax.ext.DeclHandler.elementDecl(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_internalEntityDecl_String_String()
+    public default void test_elementDecl_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -75,17 +77,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.xml.sax.ext.DeclHandler#attributeDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-     * public abstract void
-     * org.xml.sax.ext.DeclHandler.attributeDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-     * throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.ext.DeclHandler#internalEntityDecl(java.lang.String,java.lang.String) public
+     * abstract void org.xml.sax.ext.DeclHandler.internalEntityDecl(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_attributeDecl_String_String_String_String_String()
+    public default void test_internalEntityDecl_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

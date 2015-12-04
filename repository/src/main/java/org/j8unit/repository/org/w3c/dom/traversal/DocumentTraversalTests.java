@@ -25,25 +25,6 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link org.w3c.dom.traversal.DocumentTraversal#createTreeWalker(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean)
-     * public abstract org.w3c.dom.traversal.TreeWalker
-     * org.w3c.dom.traversal.DocumentTraversal.createTreeWalker(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean)
-     * throws org.w3c.dom.DOMException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createTreeWalker_Node_int_NodeFilter_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link org.w3c.dom.traversal.DocumentTraversal#createNodeIterator(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean)
      * public abstract org.w3c.dom.traversal.NodeIterator
      * org.w3c.dom.traversal.DocumentTraversal.createNodeIterator(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean)
@@ -54,6 +35,25 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createNodeIterator_Node_int_NodeFilter_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.w3c.dom.traversal.DocumentTraversal#createTreeWalker(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean)
+     * public abstract org.w3c.dom.traversal.TreeWalker
+     * org.w3c.dom.traversal.DocumentTraversal.createTreeWalker(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean)
+     * throws org.w3c.dom.DOMException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createTreeWalker_Node_int_NodeFilter_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

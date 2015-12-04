@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface LockSupportClassTests<SUT extends Class<? extends java.util.concurrent.locks.LockSupport>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.concurrent.locks.LockSupport> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.concurrent.locks.LockSupport.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.util.concurrent.locks.LockSupport#getBlocker(java.lang.Thread) public static
@@ -55,6 +45,70 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getBlocker_Thread()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.locks.LockSupport#park() public static void
+     * java.util.concurrent.locks.LockSupport.park()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_park()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.locks.LockSupport#park(java.lang.Object) public static void
+     * java.util.concurrent.locks.LockSupport.park(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_park_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.locks.LockSupport#parkNanos(long) public static void
+     * java.util.concurrent.locks.LockSupport.parkNanos(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parkNanos_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.locks.LockSupport#parkNanos(java.lang.Object,long) public static void
+     * java.util.concurrent.locks.LockSupport.parkNanos(java.lang.Object,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parkNanos_Object_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -109,68 +163,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.LockSupport#parkNanos(java.lang.Object,long) public static void
-     * java.util.concurrent.locks.LockSupport.parkNanos(java.lang.Object,long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_parkNanos_Object_long()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.LockSupport#parkNanos(long) public static void
-     * java.util.concurrent.locks.LockSupport.parkNanos(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parkNanos_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.LockSupport#park() public static void
-     * java.util.concurrent.locks.LockSupport.park()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_park()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.LockSupport#park(java.lang.Object) public static void
-     * java.util.concurrent.locks.LockSupport.park(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_park_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.util.concurrent.locks.LockSupport> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.concurrent.locks.LockSupport.class.isAssignableFrom(sut));
     }
 
 }

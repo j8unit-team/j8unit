@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface URLConnectionClassTests<SUT extends Class<? extends java.net.URLConnection>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.net.URLConnection#getDefaultAllowUserInteraction() public static boolean
+     * java.net.URLConnection.getDefaultAllowUserInteraction()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getDefaultAllowUserInteraction()
     throws Exception {
-        // create new instance
-        final Class<? extends java.net.URLConnection> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.net.URLConnection.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -63,14 +69,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.URLConnection#setDefaultRequestProperty(java.lang.String,java.lang.String) public
-     * static void java.net.URLConnection.setDefaultRequestProperty(java.lang.String,java.lang.String)}.
+     * Test method for {@link java.net.URLConnection#getFileNameMap() public static synchronized java.net.FileNameMap
+     * java.net.URLConnection.getFileNameMap()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDefaultRequestProperty_String_String()
+    public default void test_getFileNameMap()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,14 +85,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.URLConnection#getDefaultAllowUserInteraction() public static boolean
-     * java.net.URLConnection.getDefaultAllowUserInteraction()}.
+     * Test method for {@link java.net.URLConnection#guessContentTypeFromName(java.lang.String) public static
+     * java.lang.String java.net.URLConnection.guessContentTypeFromName(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDefaultAllowUserInteraction()
+    public default void test_guessContentTypeFromName_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -128,38 +134,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.URLConnection#guessContentTypeFromName(java.lang.String) public static
-     * java.lang.String java.net.URLConnection.guessContentTypeFromName(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_guessContentTypeFromName_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.URLConnection#getFileNameMap() public static synchronized java.net.FileNameMap
-     * java.net.URLConnection.getFileNameMap()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFileNameMap()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.net.URLConnection#setDefaultAllowUserInteraction(boolean) public static void
      * java.net.URLConnection.setDefaultAllowUserInteraction(boolean)}.
      * </p>
@@ -168,6 +142,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setDefaultAllowUserInteraction_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.URLConnection#setDefaultRequestProperty(java.lang.String,java.lang.String) public
+     * static void java.net.URLConnection.setDefaultRequestProperty(java.lang.String,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDefaultRequestProperty_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -188,6 +178,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.net.URLConnection> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.URLConnection.class.isAssignableFrom(sut));
     }
 
 }

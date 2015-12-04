@@ -50,59 +50,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.PortableInterceptor.AdapterManagerIdHelper sut = null; // = new AdapterManagerIdHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.PortableInterceptor.AdapterManagerIdHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.PortableInterceptor.AdapterManagerIdHelper.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.AdapterManagerIdHelper#write(org.omg.CORBA.portable.OutputStream,int) public
-     * static void org.omg.PortableInterceptor.AdapterManagerIdHelper.write(org.omg.CORBA.portable.OutputStream,int)}.
+     * Test method for {@link org.omg.PortableInterceptor.AdapterManagerIdHelper#extract(org.omg.CORBA.Any) public
+     * static int org.omg.PortableInterceptor.AdapterManagerIdHelper.extract(org.omg.CORBA.Any)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_OutputStream_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.AdapterManagerIdHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.AdapterManagerIdHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.AdapterManagerIdHelper#insert(org.omg.CORBA.Any,int) public
-     * static void org.omg.PortableInterceptor.AdapterManagerIdHelper.insert(org.omg.CORBA.Any,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_Any_int()
+    public default void test_extract_Any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,6 +76,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.AdapterManagerIdHelper#insert(org.omg.CORBA.Any,int) public
+     * static void org.omg.PortableInterceptor.AdapterManagerIdHelper.insert(org.omg.CORBA.Any,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -144,18 +117,45 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.AdapterManagerIdHelper#extract(org.omg.CORBA.Any) public
-     * static int org.omg.PortableInterceptor.AdapterManagerIdHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for {@link org.omg.PortableInterceptor.AdapterManagerIdHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.AdapterManagerIdHelper.type()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_extract_Any()
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableInterceptor.AdapterManagerIdHelper#write(org.omg.CORBA.portable.OutputStream,int) public
+     * static void org.omg.PortableInterceptor.AdapterManagerIdHelper.write(org.omg.CORBA.portable.OutputStream,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.PortableInterceptor.AdapterManagerIdHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.PortableInterceptor.AdapterManagerIdHelper.class.isAssignableFrom(sut));
     }
 
 }

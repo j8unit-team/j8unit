@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ThreadInfoClassTests<SUT extends Class<? extends java.lang.management.ThreadInfo>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.lang.management.ThreadInfo> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.management.ThreadInfo.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.lang.management.ThreadInfo#from(javax.management.openmbean.CompositeData) public
@@ -60,6 +50,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.lang.management.ThreadInfo> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.management.ThreadInfo.class.isAssignableFrom(sut));
     }
 
 }

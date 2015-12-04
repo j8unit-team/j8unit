@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface CRLReasonClassTests<SUT extends Class<? extends java.security.cert.CRLReason>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.cert.CRLReason> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.security.cert.CRLReason> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.cert.CRLReason.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.security.cert.CRLReason#valueOf(java.lang.String) public static
@@ -75,6 +65,16 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.cert.C
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.security.cert.CRLReason> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.cert.CRLReason.class.isAssignableFrom(sut));
     }
 
 }

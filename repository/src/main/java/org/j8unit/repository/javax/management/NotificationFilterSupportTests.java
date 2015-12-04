@@ -23,23 +23,6 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
 
     /**
      * <p>
-     * Test method for {@link javax.management.NotificationFilterSupport#enableType(java.lang.String) public
-     * synchronized void javax.management.NotificationFilterSupport.enableType(java.lang.String) throws
-     * java.lang.IllegalArgumentException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_enableType_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.NotificationFilterSupport#disableAllTypes() public synchronized void
      * javax.management.NotificationFilterSupport.disableAllTypes()}.
      * </p>
@@ -56,17 +39,31 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.NotificationFilterSupport#isNotificationEnabled(javax.management.Notification) public
-     * synchronized boolean
-     * javax.management.NotificationFilterSupport.isNotificationEnabled(javax.management.Notification)}.
+     * Test method for {@link javax.management.NotificationFilterSupport#disableType(java.lang.String) public
+     * synchronized void javax.management.NotificationFilterSupport.disableType(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_isNotificationEnabled_Notification()
+    public default void test_disableType_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.NotificationFilterSupport#enableType(java.lang.String) public
+     * synchronized void javax.management.NotificationFilterSupport.enableType(java.lang.String) throws
+     * java.lang.IllegalArgumentException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_enableType_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,14 +88,17 @@ extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org
 
     /**
      * <p>
-     * Test method for {@link javax.management.NotificationFilterSupport#disableType(java.lang.String) public
-     * synchronized void javax.management.NotificationFilterSupport.disableType(java.lang.String)}.
+     * Test method for
+     * {@link javax.management.NotificationFilterSupport#isNotificationEnabled(javax.management.Notification) public
+     * synchronized boolean
+     * javax.management.NotificationFilterSupport.isNotificationEnabled(javax.management.Notification)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_disableType_String()
+    @Override
+    public default void test_isNotificationEnabled_Notification()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

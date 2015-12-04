@@ -37,47 +37,63 @@ extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.
 org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.swing.tree.DefaultTreeCellEditor#DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer)
-     * public javax.swing.tree.DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer)}.
+     * <p>
+     * Test class for {@link javax.swing.tree.DefaultTreeCellEditor$DefaultTextField class
+     * javax.swing.tree.DefaultTreeCellEditor$DefaultTextField}, containing all class relevant test methods (at least
+     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
+     * containing the instance relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.DefaultTextFieldTests}.
+     * </p>
+     *
+     * <p>
+     * In addition, there may be assertions concerning the class itself. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
+     * inheritable test method:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+     * constraints and further class specific requirements.
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.DefaultTextFieldTests
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DefaultTreeCellEditor_JTree_DefaultTreeCellRenderer()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.tree.DefaultTreeCellEditor sut = null; // = new
-                                                                 // DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer);
-    }
+    @Category(J8UnitRepository.class)
+    public static abstract interface DefaultTextFieldClassTests<SUT extends Class<? extends javax.swing.tree.DefaultTreeCellEditor.DefaultTextField>>
+    extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
 
-    /**
-     * Test method for
-     * {@link javax.swing.tree.DefaultTreeCellEditor#DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer,javax.swing.tree.TreeCellEditor)
-     * public
-     * javax.swing.tree.DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer,javax.swing.tree.TreeCellEditor)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DefaultTreeCellEditor_JTree_DefaultTreeCellRenderer_TreeCellEditor()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.tree.DefaultTreeCellEditor sut = null; // = new
-                                                                 // DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer,javax.swing.tree.TreeCellEditor);
-    }
+        /**
+         * Test method for
+         * {@link javax.swing.tree.DefaultTreeCellEditor.DefaultTextField#DefaultTextField(javax.swing.tree.DefaultTreeCellEditor,javax.swing.border.Border)
+         * public
+         * javax.swing.tree.DefaultTreeCellEditor$DefaultTextField(javax.swing.tree.DefaultTreeCellEditor,javax.swing.border.Border)}
+         * .
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void create_DefaultTextField_DefaultTreeCellEditor_Border()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final javax.swing.tree.DefaultTreeCellEditor.DefaultTextField sut = null; // = new
+                                                                                      // DefaultTextField(javax.swing.tree.DefaultTreeCellEditor,javax.swing.border.Border);
+        }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.tree.DefaultTreeCellEditor> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.tree.DefaultTreeCellEditor.class.isAssignableFrom(sut));
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.swing.tree.DefaultTreeCellEditor.DefaultTextField> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.swing.tree.DefaultTreeCellEditor.DefaultTextField.class.isAssignableFrom(sut));
+        }
+
     }
 
     /**
@@ -139,63 +155,47 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests<SUT>, or
     }
 
     /**
-     * <p>
-     * Test class for {@link javax.swing.tree.DefaultTreeCellEditor$DefaultTextField class
-     * javax.swing.tree.DefaultTreeCellEditor$DefaultTextField}, containing all class relevant test methods (at least
-     * the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.DefaultTextFieldTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.DefaultTextFieldTests
+     * Test method for
+     * {@link javax.swing.tree.DefaultTreeCellEditor#DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer)
+     * public javax.swing.tree.DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer)}.
      */
-    @Category(J8UnitRepository.class)
-    public static abstract interface DefaultTextFieldClassTests<SUT extends Class<? extends javax.swing.tree.DefaultTreeCellEditor.DefaultTextField>>
-    extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DefaultTreeCellEditor_JTree_DefaultTreeCellRenderer()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.tree.DefaultTreeCellEditor sut = null; // = new
+                                                                 // DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer);
+    }
 
-        /**
-         * Test method for
-         * {@link javax.swing.tree.DefaultTreeCellEditor.DefaultTextField#DefaultTextField(javax.swing.tree.DefaultTreeCellEditor,javax.swing.border.Border)
-         * public
-         * javax.swing.tree.DefaultTreeCellEditor$DefaultTextField(javax.swing.tree.DefaultTreeCellEditor,javax.swing.border.Border)}
-         * .
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_DefaultTextField_DefaultTreeCellEditor_Border()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.tree.DefaultTreeCellEditor.DefaultTextField sut = null; // = new
-                                                                                      // DefaultTextField(javax.swing.tree.DefaultTreeCellEditor,javax.swing.border.Border);
-        }
+    /**
+     * Test method for
+     * {@link javax.swing.tree.DefaultTreeCellEditor#DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer,javax.swing.tree.TreeCellEditor)
+     * public
+     * javax.swing.tree.DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer,javax.swing.tree.TreeCellEditor)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DefaultTreeCellEditor_JTree_DefaultTreeCellRenderer_TreeCellEditor()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.tree.DefaultTreeCellEditor sut = null; // = new
+                                                                 // DefaultTreeCellEditor(javax.swing.JTree,javax.swing.tree.DefaultTreeCellRenderer,javax.swing.tree.TreeCellEditor);
+    }
 
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.swing.tree.DefaultTreeCellEditor.DefaultTextField> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.tree.DefaultTreeCellEditor.DefaultTextField.class.isAssignableFrom(sut));
-        }
-
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.tree.DefaultTreeCellEditor> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.tree.DefaultTreeCellEditor.class.isAssignableFrom(sut));
     }
 
 }

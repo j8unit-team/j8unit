@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.activation.FileTypeMap#getContentType(java.lang.String) public abstract
-     * java.lang.String javax.activation.FileTypeMap.getContentType(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getContentType_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.activation.FileTypeMap#getContentType(java.io.File) public abstract java.lang.String
      * javax.activation.FileTypeMap.getContentType(java.io.File)}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getContentType_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.FileTypeMap#getContentType(java.lang.String) public abstract
+     * java.lang.String javax.activation.FileTypeMap.getContentType(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getContentType_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

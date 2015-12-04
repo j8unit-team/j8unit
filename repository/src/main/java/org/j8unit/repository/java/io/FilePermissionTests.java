@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.io.FilePermission#hashCode() public int java.io.FilePermission.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.io.FilePermission#equals(java.lang.Object) public boolean
      * java.io.FilePermission.equals(java.lang.Object)}.
      * </p>
@@ -56,15 +40,31 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.io.FilePermission#newPermissionCollection() public java.security.PermissionCollection
-     * java.io.FilePermission.newPermissionCollection()}.
+     * Test method for {@link java.io.FilePermission#getActions() public java.lang.String
+     * java.io.FilePermission.getActions()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_newPermissionCollection()
+    public default void test_getActions()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.FilePermission#hashCode() public int java.io.FilePermission.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -90,15 +90,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.io.FilePermission#getActions() public java.lang.String
-     * java.io.FilePermission.getActions()}.
+     * Test method for {@link java.io.FilePermission#newPermissionCollection() public java.security.PermissionCollection
+     * java.io.FilePermission.newPermissionCollection()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getActions()
+    public default void test_newPermissionCollection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

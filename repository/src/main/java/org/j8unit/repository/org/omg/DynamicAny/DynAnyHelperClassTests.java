@@ -48,32 +48,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.DynamicAny.DynAnyHelper sut = null; // = new DynAnyHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.DynamicAny.DynAnyHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.DynamicAny.DynAnyHelper.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynAnyHelper#read(org.omg.CORBA.portable.InputStream) public static
-     * org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynAnyHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link org.omg.DynamicAny.DynAnyHelper#extract(org.omg.CORBA.Any) public static
@@ -92,16 +66,62 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.DynamicAny.DynAnyHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.DynAny)
-     * public static void
-     * org.omg.DynamicAny.DynAnyHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.DynAny)}.
+     * Test method for {@link org.omg.DynamicAny.DynAnyHelper#id() public static java.lang.String
+     * org.omg.DynamicAny.DynAnyHelper.id()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_OutputStream_DynAny()
+    public default void test_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynAnyHelper#insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynAny) public
+     * static void org.omg.DynamicAny.DynAnyHelper.insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynAny)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_DynAny()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynAnyHelper#narrow(org.omg.CORBA.Object) public static
+     * org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynAnyHelper.narrow(org.omg.CORBA.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_narrow_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynAnyHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynAnyHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -142,50 +162,30 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny.DynAnyHelper#insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynAny) public
-     * static void org.omg.DynamicAny.DynAnyHelper.insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynAny)}.
+     * Test method for
+     * {@link org.omg.DynamicAny.DynAnyHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.DynAny)
+     * public static void
+     * org.omg.DynamicAny.DynAnyHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.DynamicAny.DynAny)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_insert_Any_DynAny()
+    public default void test_write_OutputStream_DynAny()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynAnyHelper#id() public static java.lang.String
-     * org.omg.DynamicAny.DynAnyHelper.id()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_id()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynAnyHelper#narrow(org.omg.CORBA.Object) public static
-     * org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynAnyHelper.narrow(org.omg.CORBA.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_narrow_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.DynamicAny.DynAnyHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.DynamicAny.DynAnyHelper.class.isAssignableFrom(sut));
     }
 
 }

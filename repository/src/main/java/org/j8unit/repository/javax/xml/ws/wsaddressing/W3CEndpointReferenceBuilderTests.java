@@ -41,15 +41,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder#metadata(org.w3c.dom.Element) public
-     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder
-     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder.metadata(org.w3c.dom.Element)}.
+     * Test method for
+     * {@link javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder#attribute(javax.xml.namespace.QName,java.lang.String)
+     * public javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder
+     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder.attribute(javax.xml.namespace.QName,java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_metadata_Element()
+    public default void test_attribute_QName_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -66,6 +67,23 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_build()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder#element(org.w3c.dom.Element) public
+     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder
+     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder.element(org.w3c.dom.Element)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_element_Element()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -93,42 +111,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder#wsdlDocumentLocation(java.lang.String) public
-     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder
-     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder.wsdlDocumentLocation(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wsdlDocumentLocation_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder#attribute(javax.xml.namespace.QName,java.lang.String)
-     * public javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder
-     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder.attribute(javax.xml.namespace.QName,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_attribute_QName_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder#interfaceName(javax.xml.namespace.QName) public
      * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder
      * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder.interfaceName(javax.xml.namespace.QName)}.
@@ -138,6 +120,41 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_interfaceName_QName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder#metadata(org.w3c.dom.Element) public
+     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder
+     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder.metadata(org.w3c.dom.Element)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_metadata_Element()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder#referenceParameter(org.w3c.dom.Element) public
+     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder
+     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder.referenceParameter(org.w3c.dom.Element)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_referenceParameter_Element()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -164,33 +181,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder#element(org.w3c.dom.Element) public
-     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder
-     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder.element(org.w3c.dom.Element)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_element_Element()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
-     * {@link javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder#referenceParameter(org.w3c.dom.Element) public
+     * {@link javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder#wsdlDocumentLocation(java.lang.String) public
      * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder
-     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder.referenceParameter(org.w3c.dom.Element)}.
+     * javax.xml.ws.wsaddressing.W3CEndpointReferenceBuilder.wsdlDocumentLocation(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_referenceParameter_Element()
+    public default void test_wsdlDocumentLocation_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

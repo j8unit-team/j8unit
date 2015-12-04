@@ -23,30 +23,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.DoubleBuff
 
     /**
      * <p>
-     * Test method for {@link java.nio.DoubleBuffer#compact() public abstract java.nio.DoubleBuffer
-     * java.nio.DoubleBuffer.compact()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compact()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.DoubleBuffer#hasArray() public final boolean java.nio.DoubleBuffer.hasArray()}.
+     * Test method for {@link java.nio.DoubleBuffer#array() public final double[] java.nio.DoubleBuffer.array()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hasArray()
+    public default void test_array()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,78 +39,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.DoubleBuff
 
     /**
      * <p>
-     * Test method for {@link java.nio.DoubleBuffer#put(double[]) public final java.nio.DoubleBuffer
-     * java.nio.DoubleBuffer.put(double[])}.
+     * Test method for {@link java.nio.DoubleBuffer#arrayOffset() public final int java.nio.DoubleBuffer.arrayOffset()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_put_doubleArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.DoubleBuffer#put(double[],int,int) public java.nio.DoubleBuffer
-     * java.nio.DoubleBuffer.put(double[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_doubleArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.DoubleBuffer#put(int,double) public abstract java.nio.DoubleBuffer
-     * java.nio.DoubleBuffer.put(int,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_int_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.DoubleBuffer#put(java.nio.DoubleBuffer) public java.nio.DoubleBuffer
-     * java.nio.DoubleBuffer.put(java.nio.DoubleBuffer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_DoubleBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.DoubleBuffer#put(double) public abstract java.nio.DoubleBuffer
-     * java.nio.DoubleBuffer.put(double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_double()
+    @Override
+    public default void test_arrayOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,6 +63,22 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.DoubleBuff
     @Test
     @Category(Draft.class)
     public default void test_asReadOnlyBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.DoubleBuffer#compact() public abstract java.nio.DoubleBuffer
+     * java.nio.DoubleBuffer.compact()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compact()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -183,14 +119,30 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.DoubleBuff
 
     /**
      * <p>
-     * Test method for {@link java.nio.DoubleBuffer#get(double[],int,int) public java.nio.DoubleBuffer
-     * java.nio.DoubleBuffer.get(double[],int,int)}.
+     * Test method for {@link java.nio.DoubleBuffer#equals(java.lang.Object) public boolean
+     * java.nio.DoubleBuffer.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get_doubleArray_int_int()
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.DoubleBuffer#get() public abstract double java.nio.DoubleBuffer.get()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -215,13 +167,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.DoubleBuff
 
     /**
      * <p>
-     * Test method for {@link java.nio.DoubleBuffer#get() public abstract double java.nio.DoubleBuffer.get()}.
+     * Test method for {@link java.nio.DoubleBuffer#get(double[],int,int) public java.nio.DoubleBuffer
+     * java.nio.DoubleBuffer.get(double[],int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get()
+    public default void test_get_doubleArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -245,15 +198,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.DoubleBuff
 
     /**
      * <p>
-     * Test method for {@link java.nio.DoubleBuffer#equals(java.lang.Object) public boolean
-     * java.nio.DoubleBuffer.equals(java.lang.Object)}.
+     * Test method for {@link java.nio.DoubleBuffer#hasArray() public final boolean java.nio.DoubleBuffer.hasArray()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_hasArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -270,54 +222,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.DoubleBuff
     @Category(Draft.class)
     @Override
     public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.DoubleBuffer#array() public final double[] java.nio.DoubleBuffer.array()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_array()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.DoubleBuffer#slice() public abstract java.nio.DoubleBuffer
-     * java.nio.DoubleBuffer.slice()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_slice()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.DoubleBuffer#order() public abstract java.nio.ByteOrder
-     * java.nio.DoubleBuffer.order()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_order()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -343,6 +247,118 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.DoubleBuff
 
     /**
      * <p>
+     * Test method for {@link java.nio.DoubleBuffer#order() public abstract java.nio.ByteOrder
+     * java.nio.DoubleBuffer.order()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_order()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.DoubleBuffer#put(double) public abstract java.nio.DoubleBuffer
+     * java.nio.DoubleBuffer.put(double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.DoubleBuffer#put(double[]) public final java.nio.DoubleBuffer
+     * java.nio.DoubleBuffer.put(double[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_doubleArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.DoubleBuffer#put(double[],int,int) public java.nio.DoubleBuffer
+     * java.nio.DoubleBuffer.put(double[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_doubleArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.DoubleBuffer#put(java.nio.DoubleBuffer) public java.nio.DoubleBuffer
+     * java.nio.DoubleBuffer.put(java.nio.DoubleBuffer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_DoubleBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.DoubleBuffer#put(int,double) public abstract java.nio.DoubleBuffer
+     * java.nio.DoubleBuffer.put(int,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_int_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.DoubleBuffer#slice() public abstract java.nio.DoubleBuffer
+     * java.nio.DoubleBuffer.slice()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_slice()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.DoubleBuffer#toString() public java.lang.String java.nio.DoubleBuffer.toString()}
      * .
      * </p>
@@ -352,22 +368,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.DoubleBuff
     @Category(Draft.class)
     @Override
     public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.DoubleBuffer#arrayOffset() public final int java.nio.DoubleBuffer.arrayOffset()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_arrayOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

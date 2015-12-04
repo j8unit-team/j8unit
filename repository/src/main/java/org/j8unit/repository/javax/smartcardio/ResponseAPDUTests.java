@@ -23,6 +23,55 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link javax.smartcardio.ResponseAPDU#equals(java.lang.Object) public boolean
+     * javax.smartcardio.ResponseAPDU.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.ResponseAPDU#getBytes() public byte[]
+     * javax.smartcardio.ResponseAPDU.getBytes()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBytes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.ResponseAPDU#getData() public byte[]
+     * javax.smartcardio.ResponseAPDU.getData()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getData()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.smartcardio.ResponseAPDU#getNr() public int javax.smartcardio.ResponseAPDU.getNr()}.
      * </p>
      */
@@ -53,14 +102,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.smartcardio.ResponseAPDU#getSW2() public int
-     * javax.smartcardio.ResponseAPDU.getSW2()}.
+     * Test method for {@link javax.smartcardio.ResponseAPDU#getSW1() public int
+     * javax.smartcardio.ResponseAPDU.getSW1()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSW2()
+    public default void test_getSW1()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -69,15 +118,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.smartcardio.ResponseAPDU#equals(java.lang.Object) public boolean
-     * javax.smartcardio.ResponseAPDU.equals(java.lang.Object)}.
+     * Test method for {@link javax.smartcardio.ResponseAPDU#getSW2() public int
+     * javax.smartcardio.ResponseAPDU.getSW2()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_getSW2()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -112,54 +160,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Category(Draft.class)
     @Override
     public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.smartcardio.ResponseAPDU#getSW1() public int
-     * javax.smartcardio.ResponseAPDU.getSW1()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSW1()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.smartcardio.ResponseAPDU#getBytes() public byte[]
-     * javax.smartcardio.ResponseAPDU.getBytes()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBytes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.smartcardio.ResponseAPDU#getData() public byte[]
-     * javax.smartcardio.ResponseAPDU.getData()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getData()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

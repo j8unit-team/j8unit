@@ -24,6 +24,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.Shape#contains(double,double) public abstract boolean
+     * java.awt.Shape.contains(double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_contains_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.Shape#contains(double,double,double,double) public abstract boolean
      * java.awt.Shape.contains(double,double,double,double)}.
      * </p>
@@ -56,22 +72,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Shape#contains(double,double) public abstract boolean
-     * java.awt.Shape.contains(double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_contains_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.Shape#contains(java.awt.geom.Rectangle2D) public abstract boolean
      * java.awt.Shape.contains(java.awt.geom.Rectangle2D)}.
      * </p>
@@ -80,6 +80,37 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_contains_Rectangle2D()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Shape#getBounds() public abstract java.awt.Rectangle java.awt.Shape.getBounds()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBounds()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Shape#getBounds2D() public abstract java.awt.geom.Rectangle2D
+     * java.awt.Shape.getBounds2D()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBounds2D()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,22 +151,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Shape#intersects(java.awt.geom.Rectangle2D) public abstract boolean
-     * java.awt.Shape.intersects(java.awt.geom.Rectangle2D)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_intersects_Rectangle2D()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.Shape#intersects(double,double,double,double) public abstract boolean
      * java.awt.Shape.intersects(double,double,double,double)}.
      * </p>
@@ -152,29 +167,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Shape#getBounds2D() public abstract java.awt.geom.Rectangle2D
-     * java.awt.Shape.getBounds2D()}.
+     * Test method for {@link java.awt.Shape#intersects(java.awt.geom.Rectangle2D) public abstract boolean
+     * java.awt.Shape.intersects(java.awt.geom.Rectangle2D)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBounds2D()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Shape#getBounds() public abstract java.awt.Rectangle java.awt.Shape.getBounds()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBounds()
+    public default void test_intersects_Rectangle2D()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

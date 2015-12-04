@@ -24,24 +24,6 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.metal.MetalCheckBoxIcon#paintIcon(java.awt.Component,java.awt.Graphics,int,int) public
-     * void javax.swing.plaf.metal.MetalCheckBoxIcon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paintIcon_Component_Graphics_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalCheckBoxIcon#getIconHeight() public int
      * javax.swing.plaf.metal.MetalCheckBoxIcon.getIconHeight()}.
      * </p>
@@ -68,6 +50,24 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     @Category(Draft.class)
     @Override
     public default void test_getIconWidth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.metal.MetalCheckBoxIcon#paintIcon(java.awt.Component,java.awt.Graphics,int,int) public
+     * void javax.swing.plaf.metal.MetalCheckBoxIcon.paintIcon(java.awt.Component,java.awt.Graphics,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paintIcon_Component_Graphics_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,48 +36,6 @@ public abstract interface DataBufferUShortClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.java.awt.image.DataBufferClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.image.DataBufferUShort#DataBufferUShort(short[][],int,int[]) public
-     * java.awt.image.DataBufferUShort(short[][],int,int[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DataBufferUShort_shortArrayArray_int_intArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.DataBufferUShort sut = null; // = new DataBufferUShort(short[][],int,int[]);
-    }
-
-    /**
-     * Test method for {@link java.awt.image.DataBufferUShort#DataBufferUShort(short[][],int) public
-     * java.awt.image.DataBufferUShort(short[][],int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DataBufferUShort_shortArrayArray_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.DataBufferUShort sut = null; // = new DataBufferUShort(short[][],int);
-    }
-
-    /**
-     * Test method for {@link java.awt.image.DataBufferUShort#DataBufferUShort(short[],int,int) public
-     * java.awt.image.DataBufferUShort(short[],int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DataBufferUShort_shortArray_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.DataBufferUShort sut = null; // = new DataBufferUShort(short[],int,int);
-    }
-
-    /**
      * Test method for {@link java.awt.image.DataBufferUShort#DataBufferUShort(int) public
      * java.awt.image.DataBufferUShort(int)}.
      */
@@ -117,6 +75,48 @@ extends org.j8unit.repository.java.awt.image.DataBufferClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.image.DataBufferUShort sut = null; // = new DataBufferUShort(short[],int);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.DataBufferUShort#DataBufferUShort(short[],int,int) public
+     * java.awt.image.DataBufferUShort(short[],int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DataBufferUShort_shortArray_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.DataBufferUShort sut = null; // = new DataBufferUShort(short[],int,int);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.DataBufferUShort#DataBufferUShort(short[][],int) public
+     * java.awt.image.DataBufferUShort(short[][],int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DataBufferUShort_shortArrayArray_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.DataBufferUShort sut = null; // = new DataBufferUShort(short[][],int);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.DataBufferUShort#DataBufferUShort(short[][],int,int[]) public
+     * java.awt.image.DataBufferUShort(short[][],int,int[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DataBufferUShort_shortArrayArray_int_intArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.DataBufferUShort sut = null; // = new DataBufferUShort(short[][],int,int[]);
     }
 
     @Override

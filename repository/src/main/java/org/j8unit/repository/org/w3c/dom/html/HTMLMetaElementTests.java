@@ -23,22 +23,6 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLMetaElement#setHttpEquiv(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLMetaElement.setHttpEquiv(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setHttpEquiv_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLMetaElement#getContent() public abstract java.lang.String
      * org.w3c.dom.html.HTMLMetaElement.getContent()}.
      * </p>
@@ -55,30 +39,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLMetaElement#setName(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLMetaElement.setName(java.lang.String)}.
+     * Test method for {@link org.w3c.dom.html.HTMLMetaElement#getHttpEquiv() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLMetaElement.getHttpEquiv()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setName_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLMetaElement#setContent(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLMetaElement.setContent(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setContent_String()
+    public default void test_getHttpEquiv()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +87,46 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLMetaElement#getHttpEquiv() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLMetaElement.getHttpEquiv()}.
+     * Test method for {@link org.w3c.dom.html.HTMLMetaElement#setContent(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLMetaElement.setContent(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getHttpEquiv()
+    public default void test_setContent_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLMetaElement#setHttpEquiv(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLMetaElement.setHttpEquiv(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setHttpEquiv_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLMetaElement#setName(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLMetaElement.setName(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setName_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

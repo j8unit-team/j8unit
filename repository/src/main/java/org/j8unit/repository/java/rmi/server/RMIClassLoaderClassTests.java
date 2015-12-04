@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface RMIClassLoaderClassTests<SUT extends Class<? extends java.rmi.server.RMIClassLoader>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.rmi.server.RMIClassLoader> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.rmi.server.RMIClassLoader.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.rmi.server.RMIClassLoader#getClassAnnotation(java.lang.Class) public static
@@ -55,41 +45,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getClassAnnotation_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.rmi.server.RMIClassLoader#loadProxyClass(java.lang.String,java.lang.String[],java.lang.ClassLoader)
-     * public static java.lang.Class
-     * java.rmi.server.RMIClassLoader.loadProxyClass(java.lang.String,java.lang.String[],java.lang.ClassLoader) throws
-     * java.lang.ClassNotFoundException,java.net.MalformedURLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_loadProxyClass_String_StringArray_ClassLoader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.rmi.server.RMIClassLoader#getSecurityContext(java.lang.ClassLoader) public static
-     * java.lang.Object java.rmi.server.RMIClassLoader.getSecurityContext(java.lang.ClassLoader)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSecurityContext_ClassLoader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -131,6 +86,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.rmi.server.RMIClassLoader#getSecurityContext(java.lang.ClassLoader) public static
+     * java.lang.Object java.rmi.server.RMIClassLoader.getSecurityContext(java.lang.ClassLoader)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSecurityContext_ClassLoader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.rmi.server.RMIClassLoader#loadClass(java.lang.String) public static java.lang.Class
      * java.rmi.server.RMIClassLoader.loadClass(java.lang.String) throws
      * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
@@ -140,6 +111,23 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_loadClass_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.server.RMIClassLoader#loadClass(java.lang.String,java.lang.String) public static
+     * java.lang.Class java.rmi.server.RMIClassLoader.loadClass(java.lang.String,java.lang.String) throws
+     * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_loadClass_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -167,23 +155,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.server.RMIClassLoader#loadClass(java.lang.String,java.lang.String) public static
-     * java.lang.Class java.rmi.server.RMIClassLoader.loadClass(java.lang.String,java.lang.String) throws
-     * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_loadClass_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.rmi.server.RMIClassLoader#loadClass(java.net.URL,java.lang.String) public static
      * java.lang.Class java.rmi.server.RMIClassLoader.loadClass(java.net.URL,java.lang.String) throws
      * java.net.MalformedURLException,java.lang.ClassNotFoundException}.
@@ -197,6 +168,35 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.rmi.server.RMIClassLoader#loadProxyClass(java.lang.String,java.lang.String[],java.lang.ClassLoader)
+     * public static java.lang.Class
+     * java.rmi.server.RMIClassLoader.loadProxyClass(java.lang.String,java.lang.String[],java.lang.ClassLoader) throws
+     * java.lang.ClassNotFoundException,java.net.MalformedURLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_loadProxyClass_String_StringArray_ClassLoader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.rmi.server.RMIClassLoader> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.rmi.server.RMIClassLoader.class.isAssignableFrom(sut));
     }
 
 }

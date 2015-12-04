@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface SSLContextClassTests<SUT extends Class<? extends javax.net.ssl.SSLContext>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.net.ssl.SSLContext> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.net.ssl.SSLContext.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.net.ssl.SSLContext#getDefault() public static synchronized javax.net.ssl.SSLContext
@@ -55,40 +45,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDefault()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLContext#getInstance(java.lang.String,java.lang.String) public static
-     * javax.net.ssl.SSLContext javax.net.ssl.SSLContext.getInstance(java.lang.String,java.lang.String) throws
-     * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInstance_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLContext#getInstance(java.lang.String,java.security.Provider) public
-     * static javax.net.ssl.SSLContext javax.net.ssl.SSLContext.getInstance(java.lang.String,java.security.Provider)
-     * throws java.security.NoSuchAlgorithmException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInstance_String_Provider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -114,6 +70,40 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.net.ssl.SSLContext#getInstance(java.lang.String,java.security.Provider) public
+     * static javax.net.ssl.SSLContext javax.net.ssl.SSLContext.getInstance(java.lang.String,java.security.Provider)
+     * throws java.security.NoSuchAlgorithmException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInstance_String_Provider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.SSLContext#getInstance(java.lang.String,java.lang.String) public static
+     * javax.net.ssl.SSLContext javax.net.ssl.SSLContext.getInstance(java.lang.String,java.lang.String) throws
+     * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInstance_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.net.ssl.SSLContext#setDefault(javax.net.ssl.SSLContext) public static synchronized
      * void javax.net.ssl.SSLContext.setDefault(javax.net.ssl.SSLContext)}.
      * </p>
@@ -126,6 +116,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.net.ssl.SSLContext> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.net.ssl.SSLContext.class.isAssignableFrom(sut));
     }
 
 }

@@ -36,17 +36,16 @@ extends org.j8unit.repository.java.awt.LayoutManagerClassTests<SUT>, org.j8unit.
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.GridLayout#GridLayout(int,int,int,int) public
-     * java.awt.GridLayout(int,int,int,int)}.
+     * Test method for {@link java.awt.GridLayout#GridLayout() public java.awt.GridLayout()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_GridLayout_int_int_int_int()
+    public default void create_GridLayout()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.GridLayout sut = null; // = new GridLayout(int,int,int,int);
+        final java.awt.GridLayout sut = null; // = new GridLayout();
     }
 
     /**
@@ -63,16 +62,17 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.GridLayout#GridLayout() public java.awt.GridLayout()}.
+     * Test method for {@link java.awt.GridLayout#GridLayout(int,int,int,int) public
+     * java.awt.GridLayout(int,int,int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_GridLayout()
+    public default void create_GridLayout_int_int_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.GridLayout sut = null; // = new GridLayout();
+        final java.awt.GridLayout sut = null; // = new GridLayout(int,int,int,int);
     }
 
     @Override

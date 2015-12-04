@@ -36,17 +36,17 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.io.File#File(java.lang.String,java.lang.String) public
-     * java.io.File(java.lang.String,java.lang.String)}.
+     * Test method for {@link java.io.File#File(java.io.File,java.lang.String) public
+     * java.io.File(java.io.File,java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_File_String_String()
+    public default void create_File_File_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.io.File sut = null; // = new File(java.lang.String,java.lang.String);
+        final java.io.File sut = null; // = new File(java.io.File,java.lang.String);
     }
 
     /**
@@ -63,17 +63,17 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.io.File#File(java.io.File,java.lang.String) public
-     * java.io.File(java.io.File,java.lang.String)}.
+     * Test method for {@link java.io.File#File(java.lang.String,java.lang.String) public
+     * java.io.File(java.lang.String,java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_File_File_String()
+    public default void create_File_String_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.io.File sut = null; // = new File(java.io.File,java.lang.String);
+        final java.io.File sut = null; // = new File(java.lang.String,java.lang.String);
     }
 
     /**
@@ -89,14 +89,20 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.io.File sut = null; // = new File(java.net.URI);
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.io.File#createTempFile(java.lang.String,java.lang.String) public static java.io.File
+     * java.io.File.createTempFile(java.lang.String,java.lang.String) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_createTempFile_String_String()
     throws Exception {
-        // create new instance
-        final Class<? extends java.io.File> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.io.File.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -118,22 +124,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.File#createTempFile(java.lang.String,java.lang.String) public static java.io.File
-     * java.io.File.createTempFile(java.lang.String,java.lang.String) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createTempFile_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.io.File#listRoots() public static java.io.File[] java.io.File.listRoots()}.
      * </p>
      */
@@ -145,6 +135,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.io.File> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.io.File.class.isAssignableFrom(sut));
     }
 
 }

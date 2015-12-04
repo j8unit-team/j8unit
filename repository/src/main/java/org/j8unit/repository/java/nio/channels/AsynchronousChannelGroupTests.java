@@ -41,38 +41,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.AsynchronousChannelGroup#shutdownNow() public abstract void
-     * java.nio.channels.AsynchronousChannelGroup.shutdownNow() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_shutdownNow()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.AsynchronousChannelGroup#shutdown() public abstract void
-     * java.nio.channels.AsynchronousChannelGroup.shutdown()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_shutdown()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.channels.AsynchronousChannelGroup#isShutdown() public abstract boolean
      * java.nio.channels.AsynchronousChannelGroup.isShutdown()}.
      * </p>
@@ -81,6 +49,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isShutdown()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.AsynchronousChannelGroup#isTerminated() public abstract boolean
+     * java.nio.channels.AsynchronousChannelGroup.isTerminated()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isTerminated()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -105,14 +89,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.AsynchronousChannelGroup#isTerminated() public abstract boolean
-     * java.nio.channels.AsynchronousChannelGroup.isTerminated()}.
+     * Test method for {@link java.nio.channels.AsynchronousChannelGroup#shutdown() public abstract void
+     * java.nio.channels.AsynchronousChannelGroup.shutdown()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isTerminated()
+    public default void test_shutdown()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.AsynchronousChannelGroup#shutdownNow() public abstract void
+     * java.nio.channels.AsynchronousChannelGroup.shutdownNow() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_shutdownNow()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

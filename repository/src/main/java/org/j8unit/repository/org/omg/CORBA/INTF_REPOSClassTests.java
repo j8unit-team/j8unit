@@ -36,18 +36,16 @@ public abstract interface INTF_REPOSClassTests<SUT extends Class<? extends org.o
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link org.omg.CORBA.INTF_REPOS#INTF_REPOS(java.lang.String,int,org.omg.CORBA.CompletionStatus)
-     * public org.omg.CORBA.INTF_REPOS(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for {@link org.omg.CORBA.INTF_REPOS#INTF_REPOS() public org.omg.CORBA.INTF_REPOS()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_INTF_REPOS_String_int_CompletionStatus()
+    public default void create_INTF_REPOS()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.INTF_REPOS sut = null; // = new
-                                                   // INTF_REPOS(java.lang.String,int,org.omg.CORBA.CompletionStatus);
+        final org.omg.CORBA.INTF_REPOS sut = null; // = new INTF_REPOS();
     }
 
     /**
@@ -79,16 +77,18 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link org.omg.CORBA.INTF_REPOS#INTF_REPOS() public org.omg.CORBA.INTF_REPOS()}.
+     * Test method for {@link org.omg.CORBA.INTF_REPOS#INTF_REPOS(java.lang.String,int,org.omg.CORBA.CompletionStatus)
+     * public org.omg.CORBA.INTF_REPOS(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_INTF_REPOS()
+    public default void create_INTF_REPOS_String_int_CompletionStatus()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.INTF_REPOS sut = null; // = new INTF_REPOS();
+        final org.omg.CORBA.INTF_REPOS sut = null; // = new
+                                                   // INTF_REPOS(java.lang.String,int,org.omg.CORBA.CompletionStatus);
     }
 
     @Override

@@ -25,127 +25,19 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#postDeregister() public void
-     * javax.management.modelmbean.RequiredModelMBean.postDeregister()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_postDeregister()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#preDeregister() public void
-     * javax.management.modelmbean.RequiredModelMBean.preDeregister() throws java.lang.Exception}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_preDeregister()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#getAttributes(java.lang.String[]) public
-     * javax.management.AttributeList javax.management.modelmbean.RequiredModelMBean.getAttributes(java.lang.String[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAttributes_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
-     * {@link javax.management.modelmbean.RequiredModelMBean#setManagedResource(java.lang.Object,java.lang.String)
-     * public void javax.management.modelmbean.RequiredModelMBean.setManagedResource(java.lang.Object,java.lang.String)
+     * {@link javax.management.modelmbean.RequiredModelMBean#addAttributeChangeNotificationListener(javax.management.NotificationListener,java.lang.String,java.lang.Object)
+     * public void
+     * javax.management.modelmbean.RequiredModelMBean.addAttributeChangeNotificationListener(javax.management.NotificationListener,java.lang.String,java.lang.Object)
      * throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException,javax.management.modelmbean.InvalidTargetObjectTypeException}
-     * .
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException,java.lang.IllegalArgumentException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setManagedResource_Object_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.modelmbean.RequiredModelMBean#sendAttributeChangeNotification(javax.management.AttributeChangeNotification)
-     * public void
-     * javax.management.modelmbean.RequiredModelMBean.sendAttributeChangeNotification(javax.management.AttributeChangeNotification)
-     * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_sendAttributeChangeNotification_AttributeChangeNotification()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.modelmbean.RequiredModelMBean#sendAttributeChangeNotification(javax.management.Attribute,javax.management.Attribute)
-     * public void
-     * javax.management.modelmbean.RequiredModelMBean.sendAttributeChangeNotification(javax.management.Attribute,javax.management.Attribute)
-     * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_sendAttributeChangeNotification_Attribute_Attribute()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#getNotificationInfo() public
-     * javax.management.MBeanNotificationInfo[] javax.management.modelmbean.RequiredModelMBean.getNotificationInfo()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getNotificationInfo()
+    public default void test_addAttributeChangeNotificationListener_NotificationListener_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -174,12 +66,9 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.modelmbean.RequiredModelMBean#removeAttributeChangeNotificationListener(javax.management.NotificationListener,java.lang.String)
-     * public void
-     * javax.management.modelmbean.RequiredModelMBean.removeAttributeChangeNotificationListener(javax.management.NotificationListener,java.lang.String)
-     * throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.ListenerNotFoundException}
+     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#getAttribute(java.lang.String) public
+     * java.lang.Object javax.management.modelmbean.RequiredModelMBean.getAttribute(java.lang.String) throws
+     * javax.management.AttributeNotFoundException,javax.management.MBeanException,javax.management.ReflectionException}
      * .
      * </p>
      */
@@ -187,7 +76,7 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_removeAttributeChangeNotificationListener_NotificationListener_String()
+    public default void test_getAttribute_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -196,17 +85,15 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#store() public void
-     * javax.management.modelmbean.RequiredModelMBean.store() throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException}
-     * .
+     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#getAttributes(java.lang.String[]) public
+     * javax.management.AttributeList javax.management.modelmbean.RequiredModelMBean.getAttributes(java.lang.String[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_store()
+    public default void test_getAttributes_StringArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -215,17 +102,15 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.modelmbean.RequiredModelMBean#setAttributes(javax.management.AttributeList) public
-     * javax.management.AttributeList
-     * javax.management.modelmbean.RequiredModelMBean.setAttributes(javax.management.AttributeList)}.
+     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#getMBeanInfo() public
+     * javax.management.MBeanInfo javax.management.modelmbean.RequiredModelMBean.getMBeanInfo()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setAttributes_AttributeList()
+    public default void test_getMBeanInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -234,35 +119,15 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#sendNotification(java.lang.String) public
-     * void javax.management.modelmbean.RequiredModelMBean.sendNotification(java.lang.String) throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#getNotificationInfo() public
+     * javax.management.MBeanNotificationInfo[] javax.management.modelmbean.RequiredModelMBean.getNotificationInfo()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_sendNotification_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.modelmbean.RequiredModelMBean#sendNotification(javax.management.Notification) public void
-     * javax.management.modelmbean.RequiredModelMBean.sendNotification(javax.management.Notification) throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_sendNotification_Notification()
+    public default void test_getNotificationInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -310,17 +175,49 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#getAttribute(java.lang.String) public
-     * java.lang.Object javax.management.modelmbean.RequiredModelMBean.getAttribute(java.lang.String) throws
-     * javax.management.AttributeNotFoundException,javax.management.MBeanException,javax.management.ReflectionException}
-     * .
+     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#postDeregister() public void
+     * javax.management.modelmbean.RequiredModelMBean.postDeregister()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAttribute_String()
+    public default void test_postDeregister()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#postRegister(java.lang.Boolean) public void
+     * javax.management.modelmbean.RequiredModelMBean.postRegister(java.lang.Boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_postRegister_Boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#preDeregister() public void
+     * javax.management.modelmbean.RequiredModelMBean.preDeregister() throws java.lang.Exception}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_preDeregister()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -330,17 +227,17 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for
-     * {@link javax.management.modelmbean.RequiredModelMBean#setModelMBeanInfo(javax.management.modelmbean.ModelMBeanInfo)
-     * public void
-     * javax.management.modelmbean.RequiredModelMBean.setModelMBeanInfo(javax.management.modelmbean.ModelMBeanInfo)
-     * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     * {@link javax.management.modelmbean.RequiredModelMBean#preRegister(javax.management.MBeanServer,javax.management.ObjectName)
+     * public javax.management.ObjectName
+     * javax.management.modelmbean.RequiredModelMBean.preRegister(javax.management.MBeanServer,javax.management.ObjectName)
+     * throws java.lang.Exception}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setModelMBeanInfo_ModelMBeanInfo()
+    public default void test_preRegister_MBeanServer_ObjectName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -349,9 +246,12 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#setAttribute(javax.management.Attribute)
-     * public void javax.management.modelmbean.RequiredModelMBean.setAttribute(javax.management.Attribute) throws
-     * javax.management.AttributeNotFoundException,javax.management.InvalidAttributeValueException,javax.management.MBeanException,javax.management.ReflectionException}
+     * Test method for
+     * {@link javax.management.modelmbean.RequiredModelMBean#removeAttributeChangeNotificationListener(javax.management.NotificationListener,java.lang.String)
+     * public void
+     * javax.management.modelmbean.RequiredModelMBean.removeAttributeChangeNotificationListener(javax.management.NotificationListener,java.lang.String)
+     * throws
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.ListenerNotFoundException}
      * .
      * </p>
      */
@@ -359,7 +259,7 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setAttribute_Attribute()
+    public default void test_removeAttributeChangeNotificationListener_NotificationListener_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -408,56 +308,18 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#getMBeanInfo() public
-     * javax.management.MBeanInfo javax.management.modelmbean.RequiredModelMBean.getMBeanInfo()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMBeanInfo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
-     * {@link javax.management.modelmbean.RequiredModelMBean#preRegister(javax.management.MBeanServer,javax.management.ObjectName)
-     * public javax.management.ObjectName
-     * javax.management.modelmbean.RequiredModelMBean.preRegister(javax.management.MBeanServer,javax.management.ObjectName)
-     * throws java.lang.Exception}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_preRegister_MBeanServer_ObjectName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.modelmbean.RequiredModelMBean#addAttributeChangeNotificationListener(javax.management.NotificationListener,java.lang.String,java.lang.Object)
+     * {@link javax.management.modelmbean.RequiredModelMBean#sendAttributeChangeNotification(javax.management.Attribute,javax.management.Attribute)
      * public void
-     * javax.management.modelmbean.RequiredModelMBean.addAttributeChangeNotificationListener(javax.management.NotificationListener,java.lang.String,java.lang.Object)
-     * throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException,java.lang.IllegalArgumentException}.
+     * javax.management.modelmbean.RequiredModelMBean.sendAttributeChangeNotification(javax.management.Attribute,javax.management.Attribute)
+     * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_addAttributeChangeNotificationListener_NotificationListener_String_Object()
+    public default void test_sendAttributeChangeNotification_Attribute_Attribute()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -466,15 +328,153 @@ org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#postRegister(java.lang.Boolean) public void
-     * javax.management.modelmbean.RequiredModelMBean.postRegister(java.lang.Boolean)}.
+     * Test method for
+     * {@link javax.management.modelmbean.RequiredModelMBean#sendAttributeChangeNotification(javax.management.AttributeChangeNotification)
+     * public void
+     * javax.management.modelmbean.RequiredModelMBean.sendAttributeChangeNotification(javax.management.AttributeChangeNotification)
+     * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_postRegister_Boolean()
+    public default void test_sendAttributeChangeNotification_AttributeChangeNotification()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.modelmbean.RequiredModelMBean#sendNotification(javax.management.Notification) public void
+     * javax.management.modelmbean.RequiredModelMBean.sendNotification(javax.management.Notification) throws
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_sendNotification_Notification()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#sendNotification(java.lang.String) public
+     * void javax.management.modelmbean.RequiredModelMBean.sendNotification(java.lang.String) throws
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_sendNotification_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#setAttribute(javax.management.Attribute)
+     * public void javax.management.modelmbean.RequiredModelMBean.setAttribute(javax.management.Attribute) throws
+     * javax.management.AttributeNotFoundException,javax.management.InvalidAttributeValueException,javax.management.MBeanException,javax.management.ReflectionException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setAttribute_Attribute()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.modelmbean.RequiredModelMBean#setAttributes(javax.management.AttributeList) public
+     * javax.management.AttributeList
+     * javax.management.modelmbean.RequiredModelMBean.setAttributes(javax.management.AttributeList)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setAttributes_AttributeList()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.modelmbean.RequiredModelMBean#setManagedResource(java.lang.Object,java.lang.String)
+     * public void javax.management.modelmbean.RequiredModelMBean.setManagedResource(java.lang.Object,java.lang.String)
+     * throws
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException,javax.management.modelmbean.InvalidTargetObjectTypeException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setManagedResource_Object_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.modelmbean.RequiredModelMBean#setModelMBeanInfo(javax.management.modelmbean.ModelMBeanInfo)
+     * public void
+     * javax.management.modelmbean.RequiredModelMBean.setModelMBeanInfo(javax.management.modelmbean.ModelMBeanInfo)
+     * throws javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setModelMBeanInfo_ModelMBeanInfo()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.modelmbean.RequiredModelMBean#store() public void
+     * javax.management.modelmbean.RequiredModelMBean.store() throws
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.InstanceNotFoundException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_store()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

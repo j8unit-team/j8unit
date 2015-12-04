@@ -23,30 +23,14 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.jws.WebService#wsdlLocation() public abstract java.lang.String
-     * javax.jws.WebService.wsdlLocation()}.
+     * Test method for {@link javax.jws.WebService#endpointInterface() public abstract java.lang.String
+     * javax.jws.WebService.endpointInterface()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_wsdlLocation()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.jws.WebService#targetNamespace() public abstract java.lang.String
-     * javax.jws.WebService.targetNamespace()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_targetNamespace()
+    public default void test_endpointInterface()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -62,22 +46,6 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.jws.WebService#endpointInterface() public abstract java.lang.String
-     * javax.jws.WebService.endpointInterface()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_endpointInterface()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -110,6 +78,38 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_serviceName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.jws.WebService#targetNamespace() public abstract java.lang.String
+     * javax.jws.WebService.targetNamespace()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_targetNamespace()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.jws.WebService#wsdlLocation() public abstract java.lang.String
+     * javax.jws.WebService.wsdlLocation()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wsdlLocation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

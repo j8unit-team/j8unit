@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface CardTerminalsClassTests<SUT extends Class<? extends javax.smartcardio.CardTerminals>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.smartcardio.CardTerminals> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.smartcardio.CardTerminals.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.smartcardio.CardTerminals$State class javax.smartcardio.CardTerminals$State},
@@ -74,14 +64,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public static abstract interface StateClassTests<SUT extends Class<? extends javax.smartcardio.CardTerminals.State>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.smartcardio.CardTerminals.State> {
 
-        @Override
+        /**
+         * <p>
+         * Test method for {@link javax.smartcardio.CardTerminals.State#valueOf(java.lang.String) public static
+         * javax.smartcardio.CardTerminals$State javax.smartcardio.CardTerminals$State.valueOf(java.lang.String)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @Category(Draft.class)
+        public default void test_valueOf_String()
         throws Exception {
-            // create new instance
-            final Class<? extends javax.smartcardio.CardTerminals.State> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.smartcardio.CardTerminals.State.class.isAssignableFrom(sut));
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
         }
 
         /**
@@ -100,22 +96,26 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for {@link javax.smartcardio.CardTerminals.State#valueOf(java.lang.String) public static
-         * javax.smartcardio.CardTerminals$State javax.smartcardio.CardTerminals$State.valueOf(java.lang.String)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
+        public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
+            // create new instance
+            final Class<? extends javax.smartcardio.CardTerminals.State> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.smartcardio.CardTerminals.State.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.smartcardio.CardTerminals> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.smartcardio.CardTerminals.class.isAssignableFrom(sut));
     }
 
 }

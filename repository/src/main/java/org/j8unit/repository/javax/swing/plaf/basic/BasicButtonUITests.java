@@ -23,15 +23,15 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicButtonUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#getBaseline(javax.swing.JComponent,int,int) public
+     * int javax.swing.plaf.basic.BasicButtonUI.getBaseline(javax.swing.JComponent,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_uninstallUI_JComponent()
+    public default void test_getBaseline_JComponent_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,15 +40,16 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#paint(java.awt.Graphics,javax.swing.JComponent)
-     * public void javax.swing.plaf.basic.BasicButtonUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#getBaselineResizeBehavior(javax.swing.JComponent)
+     * public java.awt.Component$BaselineResizeBehavior
+     * javax.swing.plaf.basic.BasicButtonUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_paint_Graphics_JComponent()
+    public default void test_getBaselineResizeBehavior_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,15 +74,15 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#getBaseline(javax.swing.JComponent,int,int) public
-     * int javax.swing.plaf.basic.BasicButtonUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#getMaximumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicButtonUI.getMaximumSize(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getBaseline_JComponent_int_int()
+    public default void test_getMaximumSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -99,24 +100,6 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getMinimumSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#getBaselineResizeBehavior(javax.swing.JComponent)
-     * public java.awt.Component$BaselineResizeBehavior
-     * javax.swing.plaf.basic.BasicButtonUI.getBaselineResizeBehavior(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBaselineResizeBehavior_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -159,15 +142,32 @@ extends org.j8unit.repository.javax.swing.plaf.ButtonUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicButtonUI.getMaximumSize(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#paint(java.awt.Graphics,javax.swing.JComponent)
+     * public void javax.swing.plaf.basic.BasicButtonUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getMaximumSize_JComponent()
+    public default void test_paint_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicButtonUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicButtonUI.uninstallUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_uninstallUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

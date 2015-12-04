@@ -23,49 +23,15 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getPreferredSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiTabbedPaneUI.getPreferredSize(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#contains(javax.swing.JComponent,int,int) public
+     * boolean javax.swing.plaf.multi.MultiTabbedPaneUI.contains(javax.swing.JComponent,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getPreferredSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiTabbedPaneUI.installUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_installUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiTabbedPaneUI.getMinimumSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMinimumSize_JComponent()
+    public default void test_contains_JComponent_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,40 +58,6 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getTabRunCount(javax.swing.JTabbedPane) public
-     * int javax.swing.plaf.multi.MultiTabbedPaneUI.getTabRunCount(javax.swing.JTabbedPane)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getTabRunCount_JTabbedPane()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#contains(javax.swing.JComponent,int,int) public
-     * boolean javax.swing.plaf.multi.MultiTabbedPaneUI.contains(javax.swing.JComponent,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_contains_JComponent_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
      * javax.swing.plaf.multi.MultiTabbedPaneUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
@@ -136,23 +68,6 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getAccessibleChildrenCount_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiTabbedPaneUI.uninstallUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_uninstallUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -178,14 +93,32 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getUIs() public javax.swing.plaf.ComponentUI[]
-     * javax.swing.plaf.multi.MultiTabbedPaneUI.getUIs()}.
+     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getMinimumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.multi.MultiTabbedPaneUI.getMinimumSize(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getUIs()
+    @Override
+    public default void test_getMinimumSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.multi.MultiTabbedPaneUI.getPreferredSize(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPreferredSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -211,15 +144,15 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#tabForCoordinate(javax.swing.JTabbedPane,int,int)
-     * public int javax.swing.plaf.multi.MultiTabbedPaneUI.tabForCoordinate(javax.swing.JTabbedPane,int,int)}.
+     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getTabRunCount(javax.swing.JTabbedPane) public
+     * int javax.swing.plaf.multi.MultiTabbedPaneUI.getTabRunCount(javax.swing.JTabbedPane)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_tabForCoordinate_JTabbedPane_int_int()
+    public default void test_getTabRunCount_JTabbedPane()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -228,15 +161,31 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#update(java.awt.Graphics,javax.swing.JComponent)
-     * public void javax.swing.plaf.multi.MultiTabbedPaneUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#getUIs() public javax.swing.plaf.ComponentUI[]
+     * javax.swing.plaf.multi.MultiTabbedPaneUI.getUIs()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUIs()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiTabbedPaneUI.installUI(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_update_Graphics_JComponent()
+    public default void test_installUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -254,6 +203,57 @@ extends org.j8unit.repository.javax.swing.plaf.TabbedPaneUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_paint_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#tabForCoordinate(javax.swing.JTabbedPane,int,int)
+     * public int javax.swing.plaf.multi.MultiTabbedPaneUI.tabForCoordinate(javax.swing.JTabbedPane,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_tabForCoordinate_JTabbedPane_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiTabbedPaneUI.uninstallUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_uninstallUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiTabbedPaneUI#update(java.awt.Graphics,javax.swing.JComponent)
+     * public void javax.swing.plaf.multi.MultiTabbedPaneUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_update_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

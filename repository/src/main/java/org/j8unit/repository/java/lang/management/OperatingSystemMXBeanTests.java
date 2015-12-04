@@ -24,6 +24,22 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
+     * Test method for {@link java.lang.management.OperatingSystemMXBean#getArch() public abstract java.lang.String
+     * java.lang.management.OperatingSystemMXBean.getArch()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getArch()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.lang.management.OperatingSystemMXBean#getAvailableProcessors() public abstract int
      * java.lang.management.OperatingSystemMXBean.getAvailableProcessors()}.
      * </p>
@@ -64,22 +80,6 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
     @Test
     @Category(Draft.class)
     public default void test_getSystemLoadAverage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.management.OperatingSystemMXBean#getArch() public abstract java.lang.String
-     * java.lang.management.OperatingSystemMXBean.getArch()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getArch()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -39,22 +39,6 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.DSAGenParameterSpec#getSubprimeQLength() public int
-     * java.security.spec.DSAGenParameterSpec.getSubprimeQLength()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSubprimeQLength()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.spec.DSAGenParameterSpec#getSeedLength() public int
      * java.security.spec.DSAGenParameterSpec.getSeedLength()}.
      * </p>
@@ -63,6 +47,22 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_getSeedLength()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.DSAGenParameterSpec#getSubprimeQLength() public int
+     * java.security.spec.DSAGenParameterSpec.getSubprimeQLength()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSubprimeQLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

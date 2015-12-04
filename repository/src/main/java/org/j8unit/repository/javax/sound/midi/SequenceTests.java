@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Sequence#getTracks() public javax.sound.midi.Track[]
-     * javax.sound.midi.Sequence.getTracks()}.
+     * Test method for {@link javax.sound.midi.Sequence#createTrack() public javax.sound.midi.Track
+     * javax.sound.midi.Sequence.createTrack()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTracks()
+    public default void test_createTrack()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,14 +39,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Sequence#getTickLength() public long
-     * javax.sound.midi.Sequence.getTickLength()}.
+     * Test method for {@link javax.sound.midi.Sequence#deleteTrack(javax.sound.midi.Track) public boolean
+     * javax.sound.midi.Sequence.deleteTrack(javax.sound.midi.Track)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTickLength()
+    public default void test_deleteTrack_Track()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.midi.Sequence#getDivisionType() public float
+     * javax.sound.midi.Sequence.getDivisionType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDivisionType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +119,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Sequence#createTrack() public javax.sound.midi.Track
-     * javax.sound.midi.Sequence.createTrack()}.
+     * Test method for {@link javax.sound.midi.Sequence#getTickLength() public long
+     * javax.sound.midi.Sequence.getTickLength()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createTrack()
+    public default void test_getTickLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,30 +135,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Sequence#deleteTrack(javax.sound.midi.Track) public boolean
-     * javax.sound.midi.Sequence.deleteTrack(javax.sound.midi.Track)}.
+     * Test method for {@link javax.sound.midi.Sequence#getTracks() public javax.sound.midi.Track[]
+     * javax.sound.midi.Sequence.getTracks()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_deleteTrack_Track()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.Sequence#getDivisionType() public float
-     * javax.sound.midi.Sequence.getDivisionType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDivisionType()
+    public default void test_getTracks()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

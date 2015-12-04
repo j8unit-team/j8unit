@@ -36,31 +36,16 @@ public abstract interface ShortMessageClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.javax.sound.midi.MidiMessageClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.sound.midi.ShortMessage#ShortMessage(int,int,int,int) public
-     * javax.sound.midi.ShortMessage(int,int,int,int) throws javax.sound.midi.InvalidMidiDataException}.
+     * Test method for {@link javax.sound.midi.ShortMessage#ShortMessage() public javax.sound.midi.ShortMessage()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ShortMessage_int_int_int_int()
+    public default void create_ShortMessage()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.sound.midi.ShortMessage sut = null; // = new ShortMessage(int,int,int,int);
-    }
-
-    /**
-     * Test method for {@link javax.sound.midi.ShortMessage#ShortMessage(int,int,int) public
-     * javax.sound.midi.ShortMessage(int,int,int) throws javax.sound.midi.InvalidMidiDataException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ShortMessage_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.sound.midi.ShortMessage sut = null; // = new ShortMessage(int,int,int);
+        final javax.sound.midi.ShortMessage sut = null; // = new ShortMessage();
     }
 
     /**
@@ -78,16 +63,31 @@ extends org.j8unit.repository.javax.sound.midi.MidiMessageClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.sound.midi.ShortMessage#ShortMessage() public javax.sound.midi.ShortMessage()}.
+     * Test method for {@link javax.sound.midi.ShortMessage#ShortMessage(int,int,int) public
+     * javax.sound.midi.ShortMessage(int,int,int) throws javax.sound.midi.InvalidMidiDataException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ShortMessage()
+    public default void create_ShortMessage_int_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.sound.midi.ShortMessage sut = null; // = new ShortMessage();
+        final javax.sound.midi.ShortMessage sut = null; // = new ShortMessage(int,int,int);
+    }
+
+    /**
+     * Test method for {@link javax.sound.midi.ShortMessage#ShortMessage(int,int,int,int) public
+     * javax.sound.midi.ShortMessage(int,int,int,int) throws javax.sound.midi.InvalidMidiDataException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ShortMessage_int_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.sound.midi.ShortMessage sut = null; // = new ShortMessage(int,int,int,int);
     }
 
     @Override

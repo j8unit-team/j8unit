@@ -36,6 +36,20 @@ public abstract interface InsufficientResourcesExceptionClassTests<SUT extends C
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.naming.InsufficientResourcesException#InsufficientResourcesException() public
+     * javax.naming.InsufficientResourcesException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InsufficientResourcesException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.InsufficientResourcesException sut = null; // = new InsufficientResourcesException();
+    }
+
+    /**
      * Test method for
      * {@link javax.naming.InsufficientResourcesException#InsufficientResourcesException(java.lang.String) public
      * javax.naming.InsufficientResourcesException(java.lang.String)}.
@@ -49,20 +63,6 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.naming.InsufficientResourcesException sut = null; // = new
                                                                       // InsufficientResourcesException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.naming.InsufficientResourcesException#InsufficientResourcesException() public
-     * javax.naming.InsufficientResourcesException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InsufficientResourcesException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.InsufficientResourcesException sut = null; // = new InsufficientResourcesException();
     }
 
     @Override

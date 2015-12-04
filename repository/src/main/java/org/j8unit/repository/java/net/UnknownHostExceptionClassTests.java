@@ -36,20 +36,6 @@ public abstract interface UnknownHostExceptionClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.net.UnknownHostException#UnknownHostException(java.lang.String) public
-     * java.net.UnknownHostException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_UnknownHostException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.UnknownHostException sut = null; // = new UnknownHostException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.net.UnknownHostException#UnknownHostException() public
      * java.net.UnknownHostException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.net.UnknownHostException sut = null; // = new UnknownHostException();
+    }
+
+    /**
+     * Test method for {@link java.net.UnknownHostException#UnknownHostException(java.lang.String) public
+     * java.net.UnknownHostException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_UnknownHostException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.UnknownHostException sut = null; // = new UnknownHostException(java.lang.String);
     }
 
     @Override

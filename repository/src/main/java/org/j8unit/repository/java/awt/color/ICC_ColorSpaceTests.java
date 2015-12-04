@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.awt.color.ColorSpaceTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#getProfile() public java.awt.color.ICC_Profile
-     * java.awt.color.ICC_ColorSpace.getProfile()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProfile()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.color.ICC_ColorSpace#fromCIEXYZ(float[]) public float[]
      * java.awt.color.ICC_ColorSpace.fromCIEXYZ(float[])}.
      * </p>
@@ -48,40 +32,6 @@ extends org.j8unit.repository.java.awt.color.ColorSpaceTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_fromCIEXYZ_floatArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#toRGB(float[]) public float[]
-     * java.awt.color.ICC_ColorSpace.toRGB(float[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toRGB_floatArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.color.ICC_ColorSpace#getMaxValue(int) public float
-     * java.awt.color.ICC_ColorSpace.getMaxValue(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMaxValue_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -107,6 +57,23 @@ extends org.j8unit.repository.java.awt.color.ColorSpaceTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.color.ICC_ColorSpace#getMaxValue(int) public float
+     * java.awt.color.ICC_ColorSpace.getMaxValue(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMaxValue_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.color.ICC_ColorSpace#getMinValue(int) public float
      * java.awt.color.ICC_ColorSpace.getMinValue(int)}.
      * </p>
@@ -124,6 +91,22 @@ extends org.j8unit.repository.java.awt.color.ColorSpaceTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.color.ICC_ColorSpace#getProfile() public java.awt.color.ICC_Profile
+     * java.awt.color.ICC_ColorSpace.getProfile()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProfile()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.color.ICC_ColorSpace#toCIEXYZ(float[]) public float[]
      * java.awt.color.ICC_ColorSpace.toCIEXYZ(float[])}.
      * </p>
@@ -133,6 +116,23 @@ extends org.j8unit.repository.java.awt.color.ColorSpaceTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_toCIEXYZ_floatArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.color.ICC_ColorSpace#toRGB(float[]) public float[]
+     * java.awt.color.ICC_ColorSpace.toRGB(float[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toRGB_floatArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

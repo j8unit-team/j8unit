@@ -23,6 +23,23 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIServerTests<SUT>, o
 
     /**
      * <p>
+     * Test method for {@link javax.management.remote.rmi._RMIServer_Stub#_ids() public java.lang.String[]
+     * javax.management.remote.rmi._RMIServer_Stub._ids()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test__ids()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.remote.rmi._RMIServer_Stub#getVersion() public java.lang.String
      * javax.management.remote.rmi._RMIServer_Stub.getVersion() throws java.rmi.RemoteException}.
      * </p>
@@ -50,23 +67,6 @@ extends org.j8unit.repository.javax.management.remote.rmi.RMIServerTests<SUT>, o
     @Category(Draft.class)
     @Override
     public default void test_newClient_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.remote.rmi._RMIServer_Stub#_ids() public java.lang.String[]
-     * javax.management.remote.rmi._RMIServer_Stub._ids()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test__ids()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

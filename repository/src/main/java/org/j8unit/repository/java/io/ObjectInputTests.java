@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectInput#skip(long) public abstract long java.io.ObjectInput.skip(long) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_skip_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.io.ObjectInput#available() public abstract int java.io.ObjectInput.available() throws
      * java.io.IOException}.
      * </p>
@@ -47,22 +31,6 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_available()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.ObjectInput#readObject() public abstract java.lang.Object
-     * java.io.ObjectInput.readObject() throws java.lang.ClassNotFoundException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readObject()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,14 +56,14 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectInput#read(byte[],int,int) public abstract int
-     * java.io.ObjectInput.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for {@link java.io.ObjectInput#read() public abstract int java.io.ObjectInput.read() throws
+     * java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_read_byteArray_int_int()
+    public default void test_read()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,14 +88,46 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectInput#read() public abstract int java.io.ObjectInput.read() throws
+     * Test method for {@link java.io.ObjectInput#read(byte[],int,int) public abstract int
+     * java.io.ObjectInput.read(byte[],int,int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_read_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.ObjectInput#readObject() public abstract java.lang.Object
+     * java.io.ObjectInput.readObject() throws java.lang.ClassNotFoundException,java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readObject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.ObjectInput#skip(long) public abstract long java.io.ObjectInput.skip(long) throws
      * java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_read()
+    public default void test_skip_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

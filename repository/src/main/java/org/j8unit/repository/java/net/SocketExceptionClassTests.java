@@ -36,6 +36,19 @@ public abstract interface SocketExceptionClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link java.net.SocketException#SocketException() public java.net.SocketException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SocketException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.SocketException sut = null; // = new SocketException();
+    }
+
+    /**
      * Test method for {@link java.net.SocketException#SocketException(java.lang.String) public
      * java.net.SocketException(java.lang.String)}.
      */
@@ -47,19 +60,6 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.net.SocketException sut = null; // = new SocketException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.net.SocketException#SocketException() public java.net.SocketException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SocketException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.SocketException sut = null; // = new SocketException();
     }
 
     @Override

@@ -24,6 +24,74 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.renderable.RenderableImage#createDefaultRendering() public abstract
+     * java.awt.image.RenderedImage java.awt.image.renderable.RenderableImage.createDefaultRendering()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createDefaultRendering()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.renderable.RenderableImage#createRendering(java.awt.image.renderable.RenderContext) public
+     * abstract java.awt.image.RenderedImage
+     * java.awt.image.renderable.RenderableImage.createRendering(java.awt.image.renderable.RenderContext)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createRendering_RenderContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.renderable.RenderableImage#createScaledRendering(int,int,java.awt.RenderingHints) public
+     * abstract java.awt.image.RenderedImage
+     * java.awt.image.renderable.RenderableImage.createScaledRendering(int,int,java.awt.RenderingHints)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createScaledRendering_int_int_RenderingHints()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.renderable.RenderableImage#getHeight() public abstract float
+     * java.awt.image.renderable.RenderableImage.getHeight()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHeight()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.image.renderable.RenderableImage#getMinX() public abstract float
      * java.awt.image.renderable.RenderableImage.getMinX()}.
      * </p>
@@ -48,6 +116,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMinY()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.renderable.RenderableImage#getProperty(java.lang.String) public abstract
+     * java.lang.Object java.awt.image.renderable.RenderableImage.getProperty(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProperty_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,22 +172,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.renderable.RenderableImage#createDefaultRendering() public abstract
-     * java.awt.image.RenderedImage java.awt.image.renderable.RenderableImage.createDefaultRendering()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createDefaultRendering()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.image.renderable.RenderableImage#getWidth() public abstract float
      * java.awt.image.renderable.RenderableImage.getWidth()}.
      * </p>
@@ -112,74 +180,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getWidth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderableImage#createScaledRendering(int,int,java.awt.RenderingHints) public
-     * abstract java.awt.image.RenderedImage
-     * java.awt.image.renderable.RenderableImage.createScaledRendering(int,int,java.awt.RenderingHints)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createScaledRendering_int_int_RenderingHints()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderableImage#createRendering(java.awt.image.renderable.RenderContext) public
-     * abstract java.awt.image.RenderedImage
-     * java.awt.image.renderable.RenderableImage.createRendering(java.awt.image.renderable.RenderContext)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createRendering_RenderContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderableImage#getHeight() public abstract float
-     * java.awt.image.renderable.RenderableImage.getHeight()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHeight()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderableImage#getProperty(java.lang.String) public abstract
-     * java.lang.Object java.awt.image.renderable.RenderableImage.getProperty(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProperty_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -35,17 +35,17 @@ public abstract interface JarFileClassTests<SUT extends Class<? extends java.uti
 extends org.j8unit.repository.java.util.zip.ZipFileClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.jar.JarFile#JarFile(java.io.File,boolean,int) public
-     * java.util.jar.JarFile(java.io.File,boolean,int) throws java.io.IOException}.
+     * Test method for {@link java.util.jar.JarFile#JarFile(java.io.File) public java.util.jar.JarFile(java.io.File)
+     * throws java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JarFile_File_boolean_int()
+    public default void create_JarFile_File()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.jar.JarFile sut = null; // = new JarFile(java.io.File,boolean,int);
+        final java.util.jar.JarFile sut = null; // = new JarFile(java.io.File);
     }
 
     /**
@@ -63,31 +63,17 @@ extends org.j8unit.repository.java.util.zip.ZipFileClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.util.jar.JarFile#JarFile(java.io.File) public java.util.jar.JarFile(java.io.File)
-     * throws java.io.IOException}.
+     * Test method for {@link java.util.jar.JarFile#JarFile(java.io.File,boolean,int) public
+     * java.util.jar.JarFile(java.io.File,boolean,int) throws java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JarFile_File()
+    public default void create_JarFile_File_boolean_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.jar.JarFile sut = null; // = new JarFile(java.io.File);
-    }
-
-    /**
-     * Test method for {@link java.util.jar.JarFile#JarFile(java.lang.String,boolean) public
-     * java.util.jar.JarFile(java.lang.String,boolean) throws java.io.IOException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JarFile_String_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.jar.JarFile sut = null; // = new JarFile(java.lang.String,boolean);
+        final java.util.jar.JarFile sut = null; // = new JarFile(java.io.File,boolean,int);
     }
 
     /**
@@ -102,6 +88,20 @@ extends org.j8unit.repository.java.util.zip.ZipFileClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.jar.JarFile sut = null; // = new JarFile(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.util.jar.JarFile#JarFile(java.lang.String,boolean) public
+     * java.util.jar.JarFile(java.lang.String,boolean) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JarFile_String_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.jar.JarFile sut = null; // = new JarFile(java.lang.String,boolean);
     }
 
     @Override

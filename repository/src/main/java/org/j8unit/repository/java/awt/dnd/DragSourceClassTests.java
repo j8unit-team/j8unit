@@ -49,26 +49,16 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         final java.awt.dnd.DragSource sut = null; // = new DragSource();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.dnd.DragSource> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.dnd.DragSource.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DragSource#isDragImageSupported() public static boolean
-     * java.awt.dnd.DragSource.isDragImageSupported()}.
+     * Test method for {@link java.awt.dnd.DragSource#getDefaultDragSource() public static java.awt.dnd.DragSource
+     * java.awt.dnd.DragSource.getDefaultDragSource()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDragImageSupported()
+    public default void test_getDefaultDragSource()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -93,18 +83,28 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.DragSource#getDefaultDragSource() public static java.awt.dnd.DragSource
-     * java.awt.dnd.DragSource.getDefaultDragSource()}.
+     * Test method for {@link java.awt.dnd.DragSource#isDragImageSupported() public static boolean
+     * java.awt.dnd.DragSource.isDragImageSupported()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDefaultDragSource()
+    public default void test_isDragImageSupported()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.dnd.DragSource> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.dnd.DragSource.class.isAssignableFrom(sut));
     }
 
 }

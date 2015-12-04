@@ -37,20 +37,6 @@ extends org.j8unit.repository.java.sql.BlobClassTests<SUT>, org.j8unit.repositor
 org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.sql.rowset.serial.SerialBlob#SerialBlob(byte[]) public
-     * javax.sql.rowset.serial.SerialBlob(byte[]) throws javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SerialBlob_byteArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.sql.rowset.serial.SerialBlob sut = null; // = new SerialBlob(byte[]);
-    }
-
-    /**
      * Test method for {@link javax.sql.rowset.serial.SerialBlob#SerialBlob(java.sql.Blob) public
      * javax.sql.rowset.serial.SerialBlob(java.sql.Blob) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
@@ -63,6 +49,20 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
         // create new instance
         @SuppressWarnings("unused")
         final javax.sql.rowset.serial.SerialBlob sut = null; // = new SerialBlob(java.sql.Blob);
+    }
+
+    /**
+     * Test method for {@link javax.sql.rowset.serial.SerialBlob#SerialBlob(byte[]) public
+     * javax.sql.rowset.serial.SerialBlob(byte[]) throws javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SerialBlob_byteArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.sql.rowset.serial.SerialBlob sut = null; // = new SerialBlob(byte[]);
     }
 
     @Override

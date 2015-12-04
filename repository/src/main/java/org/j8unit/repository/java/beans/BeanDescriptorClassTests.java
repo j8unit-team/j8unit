@@ -36,20 +36,6 @@ public abstract interface BeanDescriptorClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.beans.FeatureDescriptorClassTests<SUT> {
 
     /**
-     * Test method for {@link java.beans.BeanDescriptor#BeanDescriptor(java.lang.Class,java.lang.Class) public
-     * java.beans.BeanDescriptor(java.lang.Class,java.lang.Class)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BeanDescriptor_Class_Class()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.beans.BeanDescriptor sut = null; // = new BeanDescriptor(java.lang.Class,java.lang.Class);
-    }
-
-    /**
      * Test method for {@link java.beans.BeanDescriptor#BeanDescriptor(java.lang.Class) public
      * java.beans.BeanDescriptor(java.lang.Class)}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.beans.FeatureDescriptorClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.beans.BeanDescriptor sut = null; // = new BeanDescriptor(java.lang.Class);
+    }
+
+    /**
+     * Test method for {@link java.beans.BeanDescriptor#BeanDescriptor(java.lang.Class,java.lang.Class) public
+     * java.beans.BeanDescriptor(java.lang.Class,java.lang.Class)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BeanDescriptor_Class_Class()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.beans.BeanDescriptor sut = null; // = new BeanDescriptor(java.lang.Class,java.lang.Class);
     }
 
     @Override

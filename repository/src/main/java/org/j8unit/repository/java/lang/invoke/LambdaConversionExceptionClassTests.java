@@ -36,6 +36,51 @@ public abstract interface LambdaConversionExceptionClassTests<SUT extends Class<
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link java.lang.invoke.LambdaConversionException#LambdaConversionException() public
+     * java.lang.invoke.LambdaConversionException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LambdaConversionException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.invoke.LambdaConversionException sut = null; // = new LambdaConversionException();
+    }
+
+    /**
+     * Test method for {@link java.lang.invoke.LambdaConversionException#LambdaConversionException(java.lang.String)
+     * public java.lang.invoke.LambdaConversionException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LambdaConversionException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.invoke.LambdaConversionException sut = null; // = new
+                                                                     // LambdaConversionException(java.lang.String);
+    }
+
+    /**
+     * Test method for
+     * {@link java.lang.invoke.LambdaConversionException#LambdaConversionException(java.lang.String,java.lang.Throwable)
+     * public java.lang.invoke.LambdaConversionException(java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LambdaConversionException_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.invoke.LambdaConversionException sut = null; // = new
+                                                                     // LambdaConversionException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
      * Test method for
      * {@link java.lang.invoke.LambdaConversionException#LambdaConversionException(java.lang.String,java.lang.Throwable,boolean,boolean)
      * public java.lang.invoke.LambdaConversionException(java.lang.String,java.lang.Throwable,boolean,boolean)}.
@@ -64,51 +109,6 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.lang.invoke.LambdaConversionException sut = null; // = new
                                                                      // LambdaConversionException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.lang.invoke.LambdaConversionException#LambdaConversionException(java.lang.String,java.lang.Throwable)
-     * public java.lang.invoke.LambdaConversionException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LambdaConversionException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.invoke.LambdaConversionException sut = null; // = new
-                                                                     // LambdaConversionException(java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link java.lang.invoke.LambdaConversionException#LambdaConversionException(java.lang.String)
-     * public java.lang.invoke.LambdaConversionException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LambdaConversionException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.invoke.LambdaConversionException sut = null; // = new
-                                                                     // LambdaConversionException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.lang.invoke.LambdaConversionException#LambdaConversionException() public
-     * java.lang.invoke.LambdaConversionException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LambdaConversionException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.invoke.LambdaConversionException sut = null; // = new LambdaConversionException();
     }
 
     @Override

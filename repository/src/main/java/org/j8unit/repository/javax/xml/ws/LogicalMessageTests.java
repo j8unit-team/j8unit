@@ -24,30 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.LogicalMessage#setPayload(javax.xml.transform.Source) public abstract void
-     * javax.xml.ws.LogicalMessage.setPayload(javax.xml.transform.Source)}.
+     * Test method for {@link javax.xml.ws.LogicalMessage#getPayload() public abstract javax.xml.transform.Source
+     * javax.xml.ws.LogicalMessage.getPayload()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setPayload_Source()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.ws.LogicalMessage#setPayload(java.lang.Object,javax.xml.bind.JAXBContext) public
-     * abstract void javax.xml.ws.LogicalMessage.setPayload(java.lang.Object,javax.xml.bind.JAXBContext)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPayload_Object_JAXBContext()
+    public default void test_getPayload()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +56,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.LogicalMessage#getPayload() public abstract javax.xml.transform.Source
-     * javax.xml.ws.LogicalMessage.getPayload()}.
+     * Test method for {@link javax.xml.ws.LogicalMessage#setPayload(java.lang.Object,javax.xml.bind.JAXBContext) public
+     * abstract void javax.xml.ws.LogicalMessage.setPayload(java.lang.Object,javax.xml.bind.JAXBContext)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPayload()
+    public default void test_setPayload_Object_JAXBContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.LogicalMessage#setPayload(javax.xml.transform.Source) public abstract void
+     * javax.xml.ws.LogicalMessage.setPayload(javax.xml.transform.Source)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPayload_Source()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

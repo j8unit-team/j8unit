@@ -41,23 +41,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.ErrorListener#warning(javax.xml.transform.TransformerException) public
-     * abstract void javax.xml.transform.ErrorListener.warning(javax.xml.transform.TransformerException) throws
-     * javax.xml.transform.TransformerException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_warning_TransformerException()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.transform.ErrorListener#fatalError(javax.xml.transform.TransformerException)
      * public abstract void javax.xml.transform.ErrorListener.fatalError(javax.xml.transform.TransformerException)
      * throws javax.xml.transform.TransformerException}.
@@ -67,6 +50,23 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_fatalError_TransformerException()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.ErrorListener#warning(javax.xml.transform.TransformerException) public
+     * abstract void javax.xml.transform.ErrorListener.warning(javax.xml.transform.TransformerException) throws
+     * javax.xml.transform.TransformerException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_warning_TransformerException()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

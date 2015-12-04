@@ -37,6 +37,20 @@ extends org.j8unit.repository.java.awt.image.BufferedImageOpClassTests<SUT>, org
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.awt.image.ConvolveOp#ConvolveOp(java.awt.image.Kernel) public
+     * java.awt.image.ConvolveOp(java.awt.image.Kernel)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ConvolveOp_Kernel()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.ConvolveOp sut = null; // = new ConvolveOp(java.awt.image.Kernel);
+    }
+
+    /**
      * Test method for {@link java.awt.image.ConvolveOp#ConvolveOp(java.awt.image.Kernel,int,java.awt.RenderingHints)
      * public java.awt.image.ConvolveOp(java.awt.image.Kernel,int,java.awt.RenderingHints)}.
      */
@@ -49,20 +63,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.awt.image.ConvolveOp sut = null; // = new
                                                     // ConvolveOp(java.awt.image.Kernel,int,java.awt.RenderingHints);
-    }
-
-    /**
-     * Test method for {@link java.awt.image.ConvolveOp#ConvolveOp(java.awt.image.Kernel) public
-     * java.awt.image.ConvolveOp(java.awt.image.Kernel)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ConvolveOp_Kernel()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.ConvolveOp sut = null; // = new ConvolveOp(java.awt.image.Kernel);
     }
 
     @Override

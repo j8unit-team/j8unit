@@ -23,23 +23,6 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.stax.StAXSource#setSystemId(java.lang.String) public void
-     * javax.xml.transform.stax.StAXSource.setSystemId(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setSystemId_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.transform.stax.StAXSource#getSystemId() public java.lang.String
      * javax.xml.transform.stax.StAXSource.getSystemId()}.
      * </p>
@@ -81,6 +64,23 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_getXMLStreamReader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.stax.StAXSource#setSystemId(java.lang.String) public void
+     * javax.xml.transform.stax.StAXSource.setSystemId(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setSystemId_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

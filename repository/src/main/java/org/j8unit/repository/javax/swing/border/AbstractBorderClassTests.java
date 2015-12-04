@@ -50,16 +50,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final javax.swing.border.AbstractBorder sut = null; // = new AbstractBorder();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.border.AbstractBorder> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.border.AbstractBorder.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for
@@ -77,6 +67,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.border.AbstractBorder> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.border.AbstractBorder.class.isAssignableFrom(sut));
     }
 
 }

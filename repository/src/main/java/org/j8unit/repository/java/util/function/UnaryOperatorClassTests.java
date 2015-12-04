@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface UnaryOperatorClassTests<SUT extends Class<? extends java.util.function.UnaryOperator<T>>, T>
 extends org.j8unit.repository.java.util.function.FunctionClassTests<SUT, T, T> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.function.UnaryOperator<T>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.function.UnaryOperator.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.util.function.UnaryOperator#identity() public static java.util.function.UnaryOperator
@@ -60,6 +50,16 @@ extends org.j8unit.repository.java.util.function.FunctionClassTests<SUT, T, T> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.function.UnaryOperator<T>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.function.UnaryOperator.class.isAssignableFrom(sut));
     }
 
 }

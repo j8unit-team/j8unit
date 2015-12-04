@@ -36,15 +36,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface PredicateClassTests<SUT extends Class<? extends java.util.function.Predicate<T>>, T>
 extends J8UnitTest<SUT> {
 
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.function.Predicate<T>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.function.Predicate.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.util.function.Predicate#isEqual(java.lang.Object) public static
@@ -59,6 +50,15 @@ extends J8UnitTest<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.function.Predicate<T>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.function.Predicate.class.isAssignableFrom(sut));
     }
 
 }

@@ -36,15 +36,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface DiagnosticClassTests<SUT extends Class<? extends javax.tools.Diagnostic<S>>, S>
 extends J8UnitTest<SUT> {
 
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.tools.Diagnostic<S>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.tools.Diagnostic.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.tools.Diagnostic$Kind class javax.tools.Diagnostic$Kind}, containing all class
@@ -73,16 +64,6 @@ extends J8UnitTest<SUT> {
     @Category(J8UnitRepository.class)
     public static abstract interface KindClassTests<SUT extends Class<? extends javax.tools.Diagnostic.Kind>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.tools.Diagnostic.Kind> {
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.tools.Diagnostic.Kind> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.tools.Diagnostic.Kind.class.isAssignableFrom(sut));
-        }
 
         /**
          * <p>
@@ -116,6 +97,25 @@ extends J8UnitTest<SUT> {
             assert sut != null;
         }
 
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.tools.Diagnostic.Kind> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.tools.Diagnostic.Kind.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.tools.Diagnostic<S>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.tools.Diagnostic.class.isAssignableFrom(sut));
     }
 
 }

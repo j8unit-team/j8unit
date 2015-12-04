@@ -23,16 +23,34 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusStyle#getPainter(javax.swing.plaf.synth.SynthContext) public
-     * javax.swing.plaf.synth.SynthPainter
-     * javax.swing.plaf.nimbus.NimbusStyle.getPainter(javax.swing.plaf.synth.SynthContext)}.
+     * Test method for
+     * {@link javax.swing.plaf.nimbus.NimbusStyle#get(javax.swing.plaf.synth.SynthContext,java.lang.Object) public
+     * java.lang.Object javax.swing.plaf.nimbus.NimbusStyle.get(javax.swing.plaf.synth.SynthContext,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getPainter_SynthContext()
+    public default void test_get_SynthContext_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.nimbus.NimbusStyle#getBackgroundPainter(javax.swing.plaf.synth.SynthContext) public
+     * javax.swing.Painter
+     * javax.swing.plaf.nimbus.NimbusStyle.getBackgroundPainter(javax.swing.plaf.synth.SynthContext)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBackgroundPainter_SynthContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -50,6 +68,24 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getBorderPainter_SynthContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.nimbus.NimbusStyle#getForegroundPainter(javax.swing.plaf.synth.SynthContext) public
+     * javax.swing.Painter
+     * javax.swing.plaf.nimbus.NimbusStyle.getForegroundPainter(javax.swing.plaf.synth.SynthContext)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getForegroundPainter_SynthContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -77,51 +113,16 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.nimbus.NimbusStyle#getBackgroundPainter(javax.swing.plaf.synth.SynthContext) public
-     * javax.swing.Painter
-     * javax.swing.plaf.nimbus.NimbusStyle.getBackgroundPainter(javax.swing.plaf.synth.SynthContext)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBackgroundPainter_SynthContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.nimbus.NimbusStyle#isOpaque(javax.swing.plaf.synth.SynthContext) public
-     * boolean javax.swing.plaf.nimbus.NimbusStyle.isOpaque(javax.swing.plaf.synth.SynthContext)}.
+     * Test method for {@link javax.swing.plaf.nimbus.NimbusStyle#getPainter(javax.swing.plaf.synth.SynthContext) public
+     * javax.swing.plaf.synth.SynthPainter
+     * javax.swing.plaf.nimbus.NimbusStyle.getPainter(javax.swing.plaf.synth.SynthContext)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isOpaque_SynthContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.nimbus.NimbusStyle#getForegroundPainter(javax.swing.plaf.synth.SynthContext) public
-     * javax.swing.Painter
-     * javax.swing.plaf.nimbus.NimbusStyle.getForegroundPainter(javax.swing.plaf.synth.SynthContext)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getForegroundPainter_SynthContext()
+    public default void test_getPainter_SynthContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -147,16 +148,15 @@ extends org.j8unit.repository.javax.swing.plaf.synth.SynthStyleTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.nimbus.NimbusStyle#get(javax.swing.plaf.synth.SynthContext,java.lang.Object) public
-     * java.lang.Object javax.swing.plaf.nimbus.NimbusStyle.get(javax.swing.plaf.synth.SynthContext,java.lang.Object)}.
+     * Test method for {@link javax.swing.plaf.nimbus.NimbusStyle#isOpaque(javax.swing.plaf.synth.SynthContext) public
+     * boolean javax.swing.plaf.nimbus.NimbusStyle.isOpaque(javax.swing.plaf.synth.SynthContext)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_get_SynthContext_Object()
+    public default void test_isOpaque_SynthContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

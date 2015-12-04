@@ -36,70 +36,6 @@ public abstract interface SQLTransactionRollbackExceptionClassTests<SUT extends 
 extends org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.sql.SQLTransactionRollbackException#SQLTransactionRollbackException(java.lang.Throwable) public
-     * java.sql.SQLTransactionRollbackException(java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLTransactionRollbackException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLTransactionRollbackException sut = null; // = new
-                                                                   // SQLTransactionRollbackException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLTransactionRollbackException#SQLTransactionRollbackException(java.lang.String,java.lang.Throwable)
-     * public java.sql.SQLTransactionRollbackException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLTransactionRollbackException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLTransactionRollbackException sut = null; // = new
-                                                                   // SQLTransactionRollbackException(java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLTransactionRollbackException#SQLTransactionRollbackException(java.lang.String,java.lang.String,java.lang.Throwable)
-     * public java.sql.SQLTransactionRollbackException(java.lang.String,java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLTransactionRollbackException_String_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLTransactionRollbackException sut = null; // = new
-                                                                   // SQLTransactionRollbackException(java.lang.String,java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLTransactionRollbackException#SQLTransactionRollbackException(java.lang.String,java.lang.String,int,java.lang.Throwable)
-     * public java.sql.SQLTransactionRollbackException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLTransactionRollbackException_String_String_int_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLTransactionRollbackException sut = null; // = new
-                                                                   // SQLTransactionRollbackException(java.lang.String,java.lang.String,int,java.lang.Throwable);
-    }
-
-    /**
      * Test method for {@link java.sql.SQLTransactionRollbackException#SQLTransactionRollbackException() public
      * java.sql.SQLTransactionRollbackException()}.
      */
@@ -158,6 +94,70 @@ extends org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.sql.SQLTransactionRollbackException sut = null; // = new
                                                                    // SQLTransactionRollbackException(java.lang.String,java.lang.String,int);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLTransactionRollbackException#SQLTransactionRollbackException(java.lang.String,java.lang.String,int,java.lang.Throwable)
+     * public java.sql.SQLTransactionRollbackException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLTransactionRollbackException_String_String_int_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLTransactionRollbackException sut = null; // = new
+                                                                   // SQLTransactionRollbackException(java.lang.String,java.lang.String,int,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLTransactionRollbackException#SQLTransactionRollbackException(java.lang.String,java.lang.String,java.lang.Throwable)
+     * public java.sql.SQLTransactionRollbackException(java.lang.String,java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLTransactionRollbackException_String_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLTransactionRollbackException sut = null; // = new
+                                                                   // SQLTransactionRollbackException(java.lang.String,java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLTransactionRollbackException#SQLTransactionRollbackException(java.lang.String,java.lang.Throwable)
+     * public java.sql.SQLTransactionRollbackException(java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLTransactionRollbackException_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLTransactionRollbackException sut = null; // = new
+                                                                   // SQLTransactionRollbackException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLTransactionRollbackException#SQLTransactionRollbackException(java.lang.Throwable) public
+     * java.sql.SQLTransactionRollbackException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLTransactionRollbackException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLTransactionRollbackException sut = null; // = new
+                                                                   // SQLTransactionRollbackException(java.lang.Throwable);
     }
 
     @Override

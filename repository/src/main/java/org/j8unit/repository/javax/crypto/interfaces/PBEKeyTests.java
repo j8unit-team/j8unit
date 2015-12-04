@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.interfaces.PBEKey#getSalt() public abstract byte[]
-     * javax.crypto.interfaces.PBEKey.getSalt()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSalt()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.crypto.interfaces.PBEKey#getIterationCount() public abstract int
      * javax.crypto.interfaces.PBEKey.getIterationCount()}.
      * </p>
@@ -63,6 +47,22 @@ extends org.j8unit.repository.javax.crypto.SecretKeyTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getPassword()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.crypto.interfaces.PBEKey#getSalt() public abstract byte[]
+     * javax.crypto.interfaces.PBEKey.getSalt()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSalt()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

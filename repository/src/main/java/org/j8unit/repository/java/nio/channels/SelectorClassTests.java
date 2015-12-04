@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface SelectorClassTests<SUT extends Class<? extends java.nio.channels.Selector>>
 extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.channels.Selector> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.channels.Selector.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.nio.channels.Selector#open() public static java.nio.channels.Selector
@@ -59,6 +49,16 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.channels.Selector> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.channels.Selector.class.isAssignableFrom(sut));
     }
 
 }

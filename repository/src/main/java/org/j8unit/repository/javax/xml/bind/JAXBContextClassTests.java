@@ -35,35 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface JAXBContextClassTests<SUT extends Class<? extends javax.xml.bind.JAXBContext>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.bind.JAXBContext> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.bind.JAXBContext.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.xml.bind.JAXBContext#newInstance(java.lang.String,java.lang.ClassLoader,java.util.Map) public static
-     * javax.xml.bind.JAXBContext
-     * javax.xml.bind.JAXBContext.newInstance(java.lang.String,java.lang.ClassLoader,java.util.Map) throws
-     * javax.xml.bind.JAXBException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newInstance_String_ClassLoader_Map()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link javax.xml.bind.JAXBContext#newInstance(java.lang.Class...) public static
@@ -100,6 +71,23 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.bind.JAXBContext#newInstance(java.lang.String) public static
+     * javax.xml.bind.JAXBContext javax.xml.bind.JAXBContext.newInstance(java.lang.String) throws
+     * javax.xml.bind.JAXBException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newInstance_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.bind.JAXBContext#newInstance(java.lang.String,java.lang.ClassLoader) public
      * static javax.xml.bind.JAXBContext javax.xml.bind.JAXBContext.newInstance(java.lang.String,java.lang.ClassLoader)
      * throws javax.xml.bind.JAXBException}.
@@ -117,19 +105,31 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.JAXBContext#newInstance(java.lang.String) public static
-     * javax.xml.bind.JAXBContext javax.xml.bind.JAXBContext.newInstance(java.lang.String) throws
+     * Test method for
+     * {@link javax.xml.bind.JAXBContext#newInstance(java.lang.String,java.lang.ClassLoader,java.util.Map) public static
+     * javax.xml.bind.JAXBContext
+     * javax.xml.bind.JAXBContext.newInstance(java.lang.String,java.lang.ClassLoader,java.util.Map) throws
      * javax.xml.bind.JAXBException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newInstance_String()
+    public default void test_newInstance_String_ClassLoader_Map()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.bind.JAXBContext> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.bind.JAXBContext.class.isAssignableFrom(sut));
     }
 
 }

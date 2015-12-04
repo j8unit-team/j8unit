@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.sasl.SaslServerFactory#getMechanismNames(java.util.Map) public abstract
-     * java.lang.String[] javax.security.sasl.SaslServerFactory.getMechanismNames(java.util.Map)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMechanismNames_Map()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.security.sasl.SaslServerFactory#createSaslServer(java.lang.String,java.lang.String,java.lang.String,java.util.Map,javax.security.auth.callback.CallbackHandler)
      * public abstract javax.security.sasl.SaslServer
@@ -51,6 +35,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createSaslServer_String_String_String_Map_CallbackHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.sasl.SaslServerFactory#getMechanismNames(java.util.Map) public abstract
+     * java.lang.String[] javax.security.sasl.SaslServerFactory.getMechanismNames(java.util.Map)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMechanismNames_Map()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

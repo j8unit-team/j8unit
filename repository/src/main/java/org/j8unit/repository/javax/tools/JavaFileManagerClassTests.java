@@ -35,16 +35,6 @@ public abstract interface JavaFileManagerClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.io.FlushableClassTests<SUT>,
 org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.tools.JavaFileManager> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.tools.JavaFileManager.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.tools.JavaFileManager$Location interface javax.tools.JavaFileManager$Location},
@@ -83,6 +73,16 @@ org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
             assertTrue(javax.tools.JavaFileManager.Location.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.tools.JavaFileManager> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.tools.JavaFileManager.class.isAssignableFrom(sut));
     }
 
 }

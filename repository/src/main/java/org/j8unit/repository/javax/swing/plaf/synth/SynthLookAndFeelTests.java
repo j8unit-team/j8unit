@@ -23,6 +23,23 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getDefaults() public javax.swing.UIDefaults
+     * javax.swing.plaf.synth.SynthLookAndFeel.getDefaults()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getDefaults()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getDescription() public java.lang.String
      * javax.swing.plaf.synth.SynthLookAndFeel.getDescription()}.
      * </p>
@@ -57,6 +74,23 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getName() public java.lang.String
+     * javax.swing.plaf.synth.SynthLookAndFeel.getName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#initialize() public void
      * javax.swing.plaf.synth.SynthLookAndFeel.initialize()}.
      * </p>
@@ -74,40 +108,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#uninitialize() public void
-     * javax.swing.plaf.synth.SynthLookAndFeel.uninitialize()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_uninitialize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getDefaults() public javax.swing.UIDefaults
-     * javax.swing.plaf.synth.SynthLookAndFeel.getDefaults()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getDefaults()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#isNativeLookAndFeel() public boolean
      * javax.swing.plaf.synth.SynthLookAndFeel.isNativeLookAndFeel()}.
      * </p>
@@ -117,6 +117,23 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
     @Category(Draft.class)
     @Override
     public default void test_isNativeLookAndFeel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#isSupportedLookAndFeel() public boolean
+     * javax.swing.plaf.synth.SynthLookAndFeel.isSupportedLookAndFeel()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isSupportedLookAndFeel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -158,40 +175,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#isSupportedLookAndFeel() public boolean
-     * javax.swing.plaf.synth.SynthLookAndFeel.isSupportedLookAndFeel()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isSupportedLookAndFeel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#getName() public java.lang.String
-     * javax.swing.plaf.synth.SynthLookAndFeel.getName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#shouldUpdateStyleOnAncestorChanged() public
      * boolean javax.swing.plaf.synth.SynthLookAndFeel.shouldUpdateStyleOnAncestorChanged()}.
      * </p>
@@ -200,6 +183,23 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelTests<SUT> 
     @Test
     @Category(Draft.class)
     public default void test_shouldUpdateStyleOnAncestorChanged()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthLookAndFeel#uninitialize() public void
+     * javax.swing.plaf.synth.SynthLookAndFeel.uninitialize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_uninitialize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

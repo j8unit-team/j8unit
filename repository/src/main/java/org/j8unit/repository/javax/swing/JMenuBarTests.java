@@ -40,46 +40,14 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenuBar#getComponentAtIndex(int) public java.awt.Component
-     * javax.swing.JMenuBar.getComponentAtIndex(int)}.
+     * Test method for {@link javax.swing.JMenuBar#addNotify() public void javax.swing.JMenuBar.addNotify()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getComponentAtIndex_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenuBar#getSelectionModel() public javax.swing.SingleSelectionModel
-     * javax.swing.JMenuBar.getSelectionModel()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectionModel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenuBar#setMargin(java.awt.Insets) public void
-     * javax.swing.JMenuBar.setMargin(java.awt.Insets)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMargin_Insets()
+    @Override
+    public default void test_addNotify()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -105,119 +73,6 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenuBar#getUI() public javax.swing.plaf.MenuBarUI
-     * javax.swing.JMenuBar.getUI()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenuBar#menuSelectionChanged(boolean) public void
-     * javax.swing.JMenuBar.menuSelectionChanged(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_menuSelectionChanged_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenuBar#getHelpMenu() public javax.swing.JMenu
-     * javax.swing.JMenuBar.getHelpMenu()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHelpMenu()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenuBar#setUI(javax.swing.plaf.MenuBarUI) public void
-     * javax.swing.JMenuBar.setUI(javax.swing.plaf.MenuBarUI)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setUI_MenuBarUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenuBar#setSelectionModel(javax.swing.SingleSelectionModel) public void
-     * javax.swing.JMenuBar.setSelectionModel(javax.swing.SingleSelectionModel)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSelectionModel_SingleSelectionModel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenuBar#addNotify() public void javax.swing.JMenuBar.addNotify()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addNotify()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenuBar#removeNotify() public void javax.swing.JMenuBar.removeNotify()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_removeNotify()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.JMenuBar#getComponent() public java.awt.Component
      * javax.swing.JMenuBar.getComponent()}.
      * </p>
@@ -235,30 +90,14 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenuBar#setHelpMenu(javax.swing.JMenu) public void
-     * javax.swing.JMenuBar.setHelpMenu(javax.swing.JMenu)}.
+     * Test method for {@link javax.swing.JMenuBar#getComponentAtIndex(int) public java.awt.Component
+     * javax.swing.JMenuBar.getComponentAtIndex(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setHelpMenu_JMenu()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JMenuBar#setSelected(java.awt.Component) public void
-     * javax.swing.JMenuBar.setSelected(java.awt.Component)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSelected_Component()
+    public default void test_getComponentAtIndex_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -283,6 +122,22 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.JMenuBar#getHelpMenu() public javax.swing.JMenu
+     * javax.swing.JMenuBar.getHelpMenu()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHelpMenu()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.JMenuBar#getMargin() public java.awt.Insets javax.swing.JMenuBar.getMargin()}.
      * </p>
      */
@@ -298,14 +153,14 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenuBar#updateUI() public void javax.swing.JMenuBar.updateUI()}.
+     * Test method for {@link javax.swing.JMenuBar#getMenu(int) public javax.swing.JMenu
+     * javax.swing.JMenuBar.getMenu(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_updateUI()
+    public default void test_getMenu_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -314,14 +169,13 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenuBar#setBorderPainted(boolean) public void
-     * javax.swing.JMenuBar.setBorderPainted(boolean)}.
+     * Test method for {@link javax.swing.JMenuBar#getMenuCount() public int javax.swing.JMenuBar.getMenuCount()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setBorderPainted_boolean()
+    public default void test_getMenuCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -330,35 +184,14 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenuBar#getUIClassID() public java.lang.String
-     * javax.swing.JMenuBar.getUIClassID()}.
+     * Test method for {@link javax.swing.JMenuBar#getSelectionModel() public javax.swing.SingleSelectionModel
+     * javax.swing.JMenuBar.getSelectionModel()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getUIClassID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.JMenuBar#processKeyEvent(java.awt.event.KeyEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)
-     * public void
-     * javax.swing.JMenuBar.processKeyEvent(java.awt.event.KeyEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_processKeyEvent_KeyEvent_MenuElementArray_MenuSelectionManager()
+    public default void test_getSelectionModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -384,14 +217,31 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenuBar#getMenu(int) public javax.swing.JMenu
-     * javax.swing.JMenuBar.getMenu(int)}.
+     * Test method for {@link javax.swing.JMenuBar#getUI() public javax.swing.plaf.MenuBarUI
+     * javax.swing.JMenuBar.getUI()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMenu_int()
+    public default void test_getUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JMenuBar#getUIClassID() public java.lang.String
+     * javax.swing.JMenuBar.getUIClassID()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getUIClassID()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -431,13 +281,35 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JMenuBar#getMenuCount() public int javax.swing.JMenuBar.getMenuCount()}.
+     * Test method for {@link javax.swing.JMenuBar#menuSelectionChanged(boolean) public void
+     * javax.swing.JMenuBar.menuSelectionChanged(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMenuCount()
+    @Override
+    public default void test_menuSelectionChanged_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.JMenuBar#processKeyEvent(java.awt.event.KeyEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)
+     * public void
+     * javax.swing.JMenuBar.processKeyEvent(java.awt.event.KeyEvent,javax.swing.MenuElement[],javax.swing.MenuSelectionManager)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_processKeyEvent_KeyEvent_MenuElementArray_MenuSelectionManager()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -458,6 +330,134 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_processMouseEvent_MouseEvent_MenuElementArray_MenuSelectionManager()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JMenuBar#removeNotify() public void javax.swing.JMenuBar.removeNotify()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_removeNotify()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JMenuBar#setBorderPainted(boolean) public void
+     * javax.swing.JMenuBar.setBorderPainted(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setBorderPainted_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JMenuBar#setHelpMenu(javax.swing.JMenu) public void
+     * javax.swing.JMenuBar.setHelpMenu(javax.swing.JMenu)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setHelpMenu_JMenu()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JMenuBar#setMargin(java.awt.Insets) public void
+     * javax.swing.JMenuBar.setMargin(java.awt.Insets)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMargin_Insets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JMenuBar#setSelected(java.awt.Component) public void
+     * javax.swing.JMenuBar.setSelected(java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSelected_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JMenuBar#setSelectionModel(javax.swing.SingleSelectionModel) public void
+     * javax.swing.JMenuBar.setSelectionModel(javax.swing.SingleSelectionModel)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSelectionModel_SingleSelectionModel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JMenuBar#setUI(javax.swing.plaf.MenuBarUI) public void
+     * javax.swing.JMenuBar.setUI(javax.swing.plaf.MenuBarUI)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setUI_MenuBarUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JMenuBar#updateUI() public void javax.swing.JMenuBar.updateUI()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_updateUI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

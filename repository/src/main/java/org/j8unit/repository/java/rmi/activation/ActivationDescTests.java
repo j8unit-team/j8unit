@@ -23,39 +23,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.rmi.activation.ActivationDesc#getRestartMode() public boolean
-     * java.rmi.activation.ActivationDesc.getRestartMode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRestartMode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.rmi.activation.ActivationDesc#hashCode() public int
-     * java.rmi.activation.ActivationDesc.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.rmi.activation.ActivationDesc#equals(java.lang.Object) public boolean
      * java.rmi.activation.ActivationDesc.equals(java.lang.Object)}.
      * </p>
@@ -73,14 +40,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.rmi.activation.ActivationDesc#getLocation() public java.lang.String
-     * java.rmi.activation.ActivationDesc.getLocation()}.
+     * Test method for {@link java.rmi.activation.ActivationDesc#getClassName() public java.lang.String
+     * java.rmi.activation.ActivationDesc.getClassName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLocation()
+    public default void test_getClassName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,14 +88,47 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.rmi.activation.ActivationDesc#getClassName() public java.lang.String
-     * java.rmi.activation.ActivationDesc.getClassName()}.
+     * Test method for {@link java.rmi.activation.ActivationDesc#getLocation() public java.lang.String
+     * java.rmi.activation.ActivationDesc.getLocation()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getClassName()
+    public default void test_getLocation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.activation.ActivationDesc#getRestartMode() public boolean
+     * java.rmi.activation.ActivationDesc.getRestartMode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRestartMode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.activation.ActivationDesc#hashCode() public int
+     * java.rmi.activation.ActivationDesc.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

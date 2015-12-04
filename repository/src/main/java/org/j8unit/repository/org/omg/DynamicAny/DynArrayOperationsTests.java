@@ -39,6 +39,22 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.omg.DynamicAny.DynArrayOperations#get_elements_as_dyn_any() public abstract
+     * org.omg.DynamicAny.DynAny[] org.omg.DynamicAny.DynArrayOperations.get_elements_as_dyn_any()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_elements_as_dyn_any()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.omg.DynamicAny.DynArrayOperations#set_elements(org.omg.CORBA.Any[]) public abstract
      * void org.omg.DynamicAny.DynArrayOperations.set_elements(org.omg.CORBA.Any[]) throws
      * org.omg.DynamicAny.DynAnyPackage.TypeMismatch,org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
@@ -48,22 +64,6 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_set_elements_AnyArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynArrayOperations#get_elements_as_dyn_any() public abstract
-     * org.omg.DynamicAny.DynAny[] org.omg.DynamicAny.DynArrayOperations.get_elements_as_dyn_any()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_elements_as_dyn_any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

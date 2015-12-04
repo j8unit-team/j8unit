@@ -24,47 +24,14 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.event.IIOReadProgressListener#sequenceComplete(javax.imageio.ImageReader)
-     * public abstract void javax.imageio.event.IIOReadProgressListener.sequenceComplete(javax.imageio.ImageReader)}.
+     * Test method for {@link javax.imageio.event.IIOReadProgressListener#imageComplete(javax.imageio.ImageReader)
+     * public abstract void javax.imageio.event.IIOReadProgressListener.imageComplete(javax.imageio.ImageReader)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_sequenceComplete_ImageReader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.imageio.event.IIOReadProgressListener#thumbnailProgress(javax.imageio.ImageReader,float) public
-     * abstract void javax.imageio.event.IIOReadProgressListener.thumbnailProgress(javax.imageio.ImageReader,float)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_thumbnailProgress_ImageReader_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.event.IIOReadProgressListener#readAborted(javax.imageio.ImageReader) public
-     * abstract void javax.imageio.event.IIOReadProgressListener.readAborted(javax.imageio.ImageReader)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readAborted_ImageReader()
+    public default void test_imageComplete_ImageReader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -105,6 +72,38 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.imageio.event.IIOReadProgressListener#readAborted(javax.imageio.ImageReader) public
+     * abstract void javax.imageio.event.IIOReadProgressListener.readAborted(javax.imageio.ImageReader)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readAborted_ImageReader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.event.IIOReadProgressListener#sequenceComplete(javax.imageio.ImageReader)
+     * public abstract void javax.imageio.event.IIOReadProgressListener.sequenceComplete(javax.imageio.ImageReader)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sequenceComplete_ImageReader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.imageio.event.IIOReadProgressListener#sequenceStarted(javax.imageio.ImageReader,int)
      * public abstract void javax.imageio.event.IIOReadProgressListener.sequenceStarted(javax.imageio.ImageReader,int)}.
      * </p>
@@ -137,14 +136,15 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.event.IIOReadProgressListener#imageComplete(javax.imageio.ImageReader)
-     * public abstract void javax.imageio.event.IIOReadProgressListener.imageComplete(javax.imageio.ImageReader)}.
+     * Test method for
+     * {@link javax.imageio.event.IIOReadProgressListener#thumbnailProgress(javax.imageio.ImageReader,float) public
+     * abstract void javax.imageio.event.IIOReadProgressListener.thumbnailProgress(javax.imageio.ImageReader,float)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_imageComplete_ImageReader()
+    public default void test_thumbnailProgress_ImageReader_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

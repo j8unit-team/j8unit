@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBufferUShort#getData(int) public short[]
-     * java.awt.image.DataBufferUShort.getData(int)}.
+     * Test method for {@link java.awt.image.DataBufferUShort#getBankData() public short[][]
+     * java.awt.image.DataBufferUShort.getBankData()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getData_int()
+    public default void test_getBankData()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,48 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBufferUShort#getBankData() public short[][]
-     * java.awt.image.DataBufferUShort.getBankData()}.
+     * Test method for {@link java.awt.image.DataBufferUShort#getData(int) public short[]
+     * java.awt.image.DataBufferUShort.getData(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBankData()
+    public default void test_getData_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBufferUShort#getElem(int) public int
+     * java.awt.image.DataBufferUShort.getElem(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getElem_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBufferUShort#getElem(int,int) public int
+     * java.awt.image.DataBufferUShort.getElem(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getElem_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -97,40 +131,6 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_setElem_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.DataBufferUShort#getElem(int,int) public int
-     * java.awt.image.DataBufferUShort.getElem(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getElem_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.DataBufferUShort#getElem(int) public int
-     * java.awt.image.DataBufferUShort.getElem(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getElem_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

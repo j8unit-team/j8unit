@@ -36,6 +36,20 @@ public abstract interface PropertyExceptionClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.xml.bind.PropertyException#PropertyException(java.lang.String) public
+     * javax.xml.bind.PropertyException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PropertyException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.bind.PropertyException sut = null; // = new PropertyException(java.lang.String);
+    }
+
+    /**
      * Test method for {@link javax.xml.bind.PropertyException#PropertyException(java.lang.String,java.lang.Object)
      * public javax.xml.bind.PropertyException(java.lang.String,java.lang.Object)}.
      */
@@ -48,6 +62,21 @@ extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.xml.bind.PropertyException sut = null; // = new
                                                            // PropertyException(java.lang.String,java.lang.Object);
+    }
+
+    /**
+     * Test method for {@link javax.xml.bind.PropertyException#PropertyException(java.lang.String,java.lang.String)
+     * public javax.xml.bind.PropertyException(java.lang.String,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PropertyException_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.bind.PropertyException sut = null; // = new
+                                                           // PropertyException(java.lang.String,java.lang.String);
     }
 
     /**
@@ -93,35 +122,6 @@ extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.bind.PropertyException sut = null; // = new PropertyException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link javax.xml.bind.PropertyException#PropertyException(java.lang.String,java.lang.String)
-     * public javax.xml.bind.PropertyException(java.lang.String,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PropertyException_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.bind.PropertyException sut = null; // = new
-                                                           // PropertyException(java.lang.String,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.bind.PropertyException#PropertyException(java.lang.String) public
-     * javax.xml.bind.PropertyException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PropertyException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.bind.PropertyException sut = null; // = new PropertyException(java.lang.String);
     }
 
     @Override

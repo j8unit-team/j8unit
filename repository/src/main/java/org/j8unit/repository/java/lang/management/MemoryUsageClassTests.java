@@ -49,16 +49,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.lang.management.MemoryUsage sut = null; // = new MemoryUsage(long,long,long,long);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.lang.management.MemoryUsage> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.management.MemoryUsage.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.lang.management.MemoryUsage#from(javax.management.openmbean.CompositeData) public
@@ -74,6 +64,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.lang.management.MemoryUsage> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.management.MemoryUsage.class.isAssignableFrom(sut));
     }
 
 }

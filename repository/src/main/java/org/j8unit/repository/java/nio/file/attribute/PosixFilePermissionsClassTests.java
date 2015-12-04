@@ -35,32 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface PosixFilePermissionsClassTests<SUT extends Class<? extends java.nio.file.attribute.PosixFilePermissions>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.file.attribute.PosixFilePermissions> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.file.attribute.PosixFilePermissions.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.PosixFilePermissions#toString(java.util.Set) public static
-     * java.lang.String java.nio.file.attribute.PosixFilePermissions.toString(java.util.Set)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString_Set()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link java.nio.file.attribute.PosixFilePermissions#asFileAttribute(java.util.Set) public static
@@ -92,6 +66,32 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.PosixFilePermissions#toString(java.util.Set) public static
+     * java.lang.String java.nio.file.attribute.PosixFilePermissions.toString(java.util.Set)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_Set()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.file.attribute.PosixFilePermissions> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.file.attribute.PosixFilePermissions.class.isAssignableFrom(sut));
     }
 
 }

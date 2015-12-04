@@ -23,25 +23,6 @@ extends org.j8unit.repository.javax.swing.text.AbstractDocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.PlainDocument#insertString(int,java.lang.String,javax.swing.text.AttributeSet) public
-     * void javax.swing.text.PlainDocument.insertString(int,java.lang.String,javax.swing.text.AttributeSet) throws
-     * javax.swing.text.BadLocationException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_insertString_int_String_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.text.PlainDocument#getDefaultRootElement() public javax.swing.text.Element
      * javax.swing.text.PlainDocument.getDefaultRootElement()}.
      * </p>
@@ -68,6 +49,25 @@ extends org.j8unit.repository.javax.swing.text.AbstractDocumentTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getParagraphElement_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.PlainDocument#insertString(int,java.lang.String,javax.swing.text.AttributeSet) public
+     * void javax.swing.text.PlainDocument.insertString(int,java.lang.String,javax.swing.text.AttributeSet) throws
+     * javax.swing.text.BadLocationException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_insertString_int_String_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

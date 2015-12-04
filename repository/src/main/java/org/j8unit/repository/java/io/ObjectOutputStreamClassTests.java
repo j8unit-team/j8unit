@@ -37,30 +37,6 @@ extends org.j8unit.repository.java.io.ObjectOutputClassTests<SUT>, org.j8unit.re
 org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
 
     /**
-     * Test method for {@link java.io.ObjectOutputStream#ObjectOutputStream(java.io.OutputStream) public
-     * java.io.ObjectOutputStream(java.io.OutputStream) throws java.io.IOException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ObjectOutputStream_OutputStream()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.ObjectOutputStream sut = null; // = new ObjectOutputStream(java.io.OutputStream);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.io.ObjectOutputStream> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.io.ObjectOutputStream.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link java.io.ObjectOutputStream$PutField class java.io.ObjectOutputStream$PutField}, containing
      * all class relevant test methods (at least the test methods of accessible constructors and of accessible
@@ -113,6 +89,30 @@ org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
             assertTrue(java.io.ObjectOutputStream.PutField.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link java.io.ObjectOutputStream#ObjectOutputStream(java.io.OutputStream) public
+     * java.io.ObjectOutputStream(java.io.OutputStream) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ObjectOutputStream_OutputStream()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.ObjectOutputStream sut = null; // = new ObjectOutputStream(java.io.OutputStream);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.io.ObjectOutputStream> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.io.ObjectOutputStream.class.isAssignableFrom(sut));
     }
 
 }

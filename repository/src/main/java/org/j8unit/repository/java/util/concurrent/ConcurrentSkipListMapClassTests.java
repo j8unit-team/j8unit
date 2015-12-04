@@ -51,6 +51,21 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     }
 
     /**
+     * Test method for {@link java.util.concurrent.ConcurrentSkipListMap#ConcurrentSkipListMap(java.util.Comparator)
+     * public java.util.concurrent.ConcurrentSkipListMap(java.util.Comparator)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ConcurrentSkipListMap_Comparator()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.ConcurrentSkipListMap<K, V> sut = null; // = new
+                                                                           // ConcurrentSkipListMap(java.util.Comparator);
+    }
+
+    /**
      * Test method for {@link java.util.concurrent.ConcurrentSkipListMap#ConcurrentSkipListMap(java.util.Map) public
      * java.util.concurrent.ConcurrentSkipListMap(java.util.Map)}.
      */
@@ -78,21 +93,6 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         @SuppressWarnings("unused")
         final java.util.concurrent.ConcurrentSkipListMap<K, V> sut = null; // = new
                                                                            // ConcurrentSkipListMap(java.util.SortedMap);
-    }
-
-    /**
-     * Test method for {@link java.util.concurrent.ConcurrentSkipListMap#ConcurrentSkipListMap(java.util.Comparator)
-     * public java.util.concurrent.ConcurrentSkipListMap(java.util.Comparator)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ConcurrentSkipListMap_Comparator()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.ConcurrentSkipListMap<K, V> sut = null; // = new
-                                                                           // ConcurrentSkipListMap(java.util.Comparator);
     }
 
     @Override

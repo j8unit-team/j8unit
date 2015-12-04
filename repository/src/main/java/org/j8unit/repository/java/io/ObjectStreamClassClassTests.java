@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface ObjectStreamClassClassTests<SUT extends Class<? extends java.io.ObjectStreamClass>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.io.ObjectStreamClass#lookup(java.lang.Class) public static java.io.ObjectStreamClass
+     * java.io.ObjectStreamClass.lookup(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_lookup_Class()
     throws Exception {
-        // create new instance
-        final Class<? extends java.io.ObjectStreamClass> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.io.ObjectStreamClass.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -61,20 +67,14 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.io.ObjectStreamClass#lookup(java.lang.Class) public static java.io.ObjectStreamClass
-     * java.io.ObjectStreamClass.lookup(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_lookup_Class()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.io.ObjectStreamClass> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.io.ObjectStreamClass.class.isAssignableFrom(sut));
     }
 
 }

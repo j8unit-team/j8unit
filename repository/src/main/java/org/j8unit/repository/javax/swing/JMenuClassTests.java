@@ -36,17 +36,16 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
 org.j8unit.repository.javax.swing.JMenuItemClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JMenu#JMenu(java.lang.String,boolean) public
-     * javax.swing.JMenu(java.lang.String,boolean)}.
+     * Test method for {@link javax.swing.JMenu#JMenu() public javax.swing.JMenu()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JMenu_String_boolean()
+    public default void create_JMenu()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JMenu sut = null; // = new JMenu(java.lang.String,boolean);
+        final javax.swing.JMenu sut = null; // = new JMenu();
     }
 
     /**
@@ -76,16 +75,17 @@ org.j8unit.repository.javax.swing.JMenuItemClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.JMenu#JMenu() public javax.swing.JMenu()}.
+     * Test method for {@link javax.swing.JMenu#JMenu(java.lang.String,boolean) public
+     * javax.swing.JMenu(java.lang.String,boolean)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JMenu()
+    public default void create_JMenu_String_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JMenu sut = null; // = new JMenu();
+        final javax.swing.JMenu sut = null; // = new JMenu(java.lang.String,boolean);
     }
 
     @Override

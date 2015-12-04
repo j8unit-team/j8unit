@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilder#setErrorHandler(org.xml.sax.ErrorHandler) public
-     * abstract void javax.xml.parsers.DocumentBuilder.setErrorHandler(org.xml.sax.ErrorHandler)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setErrorHandler_ErrorHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.parsers.DocumentBuilder#getDOMImplementation() public abstract
      * org.w3c.dom.DOMImplementation javax.xml.parsers.DocumentBuilder.getDOMImplementation()}.
      * </p>
@@ -47,6 +31,54 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDOMImplementation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilder#getSchema() public javax.xml.validation.Schema
+     * javax.xml.parsers.DocumentBuilder.getSchema()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSchema()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilder#isNamespaceAware() public abstract boolean
+     * javax.xml.parsers.DocumentBuilder.isNamespaceAware()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isNamespaceAware()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilder#isValidating() public abstract boolean
+     * javax.xml.parsers.DocumentBuilder.isValidating()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isValidating()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,86 +119,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilder#reset() public void
-     * javax.xml.parsers.DocumentBuilder.reset()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_reset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilder#isNamespaceAware() public abstract boolean
-     * javax.xml.parsers.DocumentBuilder.isNamespaceAware()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isNamespaceAware()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilder#setEntityResolver(org.xml.sax.EntityResolver) public
-     * abstract void javax.xml.parsers.DocumentBuilder.setEntityResolver(org.xml.sax.EntityResolver)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setEntityResolver_EntityResolver()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilder#isValidating() public abstract boolean
-     * javax.xml.parsers.DocumentBuilder.isValidating()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isValidating()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilder#getSchema() public javax.xml.validation.Schema
-     * javax.xml.parsers.DocumentBuilder.getSchema()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSchema()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.parsers.DocumentBuilder#parse(java.io.File) public org.w3c.dom.Document
      * javax.xml.parsers.DocumentBuilder.parse(java.io.File) throws org.xml.sax.SAXException,java.io.IOException}.
      * </p>
@@ -175,22 +127,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_parse_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilder#parse(java.lang.String) public org.w3c.dom.Document
-     * javax.xml.parsers.DocumentBuilder.parse(java.lang.String) throws org.xml.sax.SAXException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parse_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -216,6 +152,23 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilder#parse(java.io.InputStream) public org.w3c.dom.Document
+     * javax.xml.parsers.DocumentBuilder.parse(java.io.InputStream) throws org.xml.sax.SAXException,java.io.IOException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parse_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.parsers.DocumentBuilder#parse(java.io.InputStream,java.lang.String) public
      * org.w3c.dom.Document javax.xml.parsers.DocumentBuilder.parse(java.io.InputStream,java.lang.String) throws
      * org.xml.sax.SAXException,java.io.IOException}.
@@ -233,15 +186,62 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilder#parse(java.io.InputStream) public org.w3c.dom.Document
-     * javax.xml.parsers.DocumentBuilder.parse(java.io.InputStream) throws org.xml.sax.SAXException,java.io.IOException}
-     * .
+     * Test method for {@link javax.xml.parsers.DocumentBuilder#parse(java.lang.String) public org.w3c.dom.Document
+     * javax.xml.parsers.DocumentBuilder.parse(java.lang.String) throws org.xml.sax.SAXException,java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parse_InputStream()
+    public default void test_parse_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilder#reset() public void
+     * javax.xml.parsers.DocumentBuilder.reset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilder#setEntityResolver(org.xml.sax.EntityResolver) public
+     * abstract void javax.xml.parsers.DocumentBuilder.setEntityResolver(org.xml.sax.EntityResolver)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setEntityResolver_EntityResolver()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilder#setErrorHandler(org.xml.sax.ErrorHandler) public
+     * abstract void javax.xml.parsers.DocumentBuilder.setErrorHandler(org.xml.sax.ErrorHandler)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setErrorHandler_ErrorHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

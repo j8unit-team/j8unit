@@ -35,26 +35,32 @@ public abstract interface EnumSetClassTests<SUT extends Class<? extends java.uti
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.EnumSet<E>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.EnumSet.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.util.EnumSet#copyOf(java.util.EnumSet) public static java.util.EnumSet
-     * java.util.EnumSet.copyOf(java.util.EnumSet)}.
+     * Test method for {@link java.util.EnumSet#allOf(java.lang.Class) public static java.util.EnumSet
+     * java.util.EnumSet.allOf(java.lang.Class)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_copyOf_EnumSet()
+    public default void test_allOf_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.EnumSet#complementOf(java.util.EnumSet) public static java.util.EnumSet
+     * java.util.EnumSet.complementOf(java.util.EnumSet)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_complementOf_EnumSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,6 +85,22 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
 
     /**
      * <p>
+     * Test method for {@link java.util.EnumSet#copyOf(java.util.EnumSet) public static java.util.EnumSet
+     * java.util.EnumSet.copyOf(java.util.EnumSet)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_copyOf_EnumSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.EnumSet#noneOf(java.lang.Class) public static java.util.EnumSet
      * java.util.EnumSet.noneOf(java.lang.Class)}.
      * </p>
@@ -87,56 +109,6 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_noneOf_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.EnumSet#range(java.lang.Enum,java.lang.Enum) public static java.util.EnumSet
-     * java.util.EnumSet.range(java.lang.Enum,java.lang.Enum)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_range_Enum_Enum()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.EnumSet#of(java.lang.Enum,java.lang.Enum,java.lang.Enum,java.lang.Enum,java.lang.Enum) public
-     * static java.util.EnumSet
-     * java.util.EnumSet.of(java.lang.Enum,java.lang.Enum,java.lang.Enum,java.lang.Enum,java.lang.Enum)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_Enum_Enum_Enum_Enum_Enum()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.EnumSet#of(java.lang.Enum,java.lang.Enum...) public static java.util.EnumSet
-     * java.util.EnumSet.of(java.lang.Enum,java.lang.Enum...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_Enum_EnumArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -209,14 +181,16 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.EnumSet#complementOf(java.util.EnumSet) public static java.util.EnumSet
-     * java.util.EnumSet.complementOf(java.util.EnumSet)}.
+     * Test method for
+     * {@link java.util.EnumSet#of(java.lang.Enum,java.lang.Enum,java.lang.Enum,java.lang.Enum,java.lang.Enum) public
+     * static java.util.EnumSet
+     * java.util.EnumSet.of(java.lang.Enum,java.lang.Enum,java.lang.Enum,java.lang.Enum,java.lang.Enum)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_complementOf_EnumSet()
+    public default void test_of_Enum_Enum_Enum_Enum_Enum()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -225,18 +199,44 @@ org.j8unit.repository.java.util.AbstractSetClassTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.EnumSet#allOf(java.lang.Class) public static java.util.EnumSet
-     * java.util.EnumSet.allOf(java.lang.Class)}.
+     * Test method for {@link java.util.EnumSet#of(java.lang.Enum,java.lang.Enum...) public static java.util.EnumSet
+     * java.util.EnumSet.of(java.lang.Enum,java.lang.Enum...)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_allOf_Class()
+    public default void test_of_Enum_EnumArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.EnumSet#range(java.lang.Enum,java.lang.Enum) public static java.util.EnumSet
+     * java.util.EnumSet.range(java.lang.Enum,java.lang.Enum)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_range_Enum_Enum()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.EnumSet<E>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.EnumSet.class.isAssignableFrom(sut));
     }
 
 }

@@ -24,38 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.WebServiceContext#getUserPrincipal() public abstract java.security.Principal
-     * javax.xml.ws.WebServiceContext.getUserPrincipal()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUserPrincipal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.ws.WebServiceContext#isUserInRole(java.lang.String) public abstract boolean
-     * javax.xml.ws.WebServiceContext.isUserInRole(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isUserInRole_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.xml.ws.WebServiceContext#getEndpointReference(java.lang.Class,org.w3c.dom.Element...) public
      * abstract javax.xml.ws.EndpointReference
@@ -99,6 +67,38 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMessageContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.WebServiceContext#getUserPrincipal() public abstract java.security.Principal
+     * javax.xml.ws.WebServiceContext.getUserPrincipal()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUserPrincipal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.WebServiceContext#isUserInRole(java.lang.String) public abstract boolean
+     * javax.xml.ws.WebServiceContext.isUserInRole(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isUserInRole_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

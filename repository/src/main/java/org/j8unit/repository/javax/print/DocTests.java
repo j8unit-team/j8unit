@@ -24,14 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.Doc#getPrintData() public abstract java.lang.Object
-     * javax.print.Doc.getPrintData() throws java.io.IOException}.
+     * Test method for {@link javax.print.Doc#getAttributes() public abstract javax.print.attribute.DocAttributeSet
+     * javax.print.Doc.getAttributes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrintData()
+    public default void test_getAttributes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,14 +56,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.Doc#getStreamForBytes() public abstract java.io.InputStream
-     * javax.print.Doc.getStreamForBytes() throws java.io.IOException}.
+     * Test method for {@link javax.print.Doc#getPrintData() public abstract java.lang.Object
+     * javax.print.Doc.getPrintData() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStreamForBytes()
+    public default void test_getPrintData()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,14 +88,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.Doc#getAttributes() public abstract javax.print.attribute.DocAttributeSet
-     * javax.print.Doc.getAttributes()}.
+     * Test method for {@link javax.print.Doc#getStreamForBytes() public abstract java.io.InputStream
+     * javax.print.Doc.getStreamForBytes() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAttributes()
+    public default void test_getStreamForBytes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

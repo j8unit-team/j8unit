@@ -44,6 +44,40 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for
+     * {@link java.util.concurrent.atomic.AtomicReferenceArray#compareAndSet(int,java.lang.Object,java.lang.Object)
+     * public final boolean
+     * java.util.concurrent.atomic.AtomicReferenceArray.compareAndSet(int,java.lang.Object,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compareAndSet_int_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceArray#get(int) public final java.lang.Object
+     * java.util.concurrent.atomic.AtomicReferenceArray.get(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link java.util.concurrent.atomic.AtomicReferenceArray#getAndAccumulate(int,java.lang.Object,java.util.function.BinaryOperator)
      * public final java.lang.Object
      * java.util.concurrent.atomic.AtomicReferenceArray.getAndAccumulate(int,java.lang.Object,java.util.function.BinaryOperator)}
@@ -96,6 +130,54 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceArray#lazySet(int,java.lang.Object) public
+     * final void java.util.concurrent.atomic.AtomicReferenceArray.lazySet(int,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lazySet_int_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceArray#length() public final int
+     * java.util.concurrent.atomic.AtomicReferenceArray.length()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_length()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceArray#set(int,java.lang.Object) public final
+     * void java.util.concurrent.atomic.AtomicReferenceArray.set(int,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_set_int_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.concurrent.atomic.AtomicReferenceArray#toString() public java.lang.String
      * java.util.concurrent.atomic.AtomicReferenceArray.toString()}.
      * </p>
@@ -131,72 +213,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceArray#length() public final int
-     * java.util.concurrent.atomic.AtomicReferenceArray.length()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_length()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceArray#lazySet(int,java.lang.Object) public
-     * final void java.util.concurrent.atomic.AtomicReferenceArray.lazySet(int,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lazySet_int_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceArray#get(int) public final java.lang.Object
-     * java.util.concurrent.atomic.AtomicReferenceArray.get(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicReferenceArray#compareAndSet(int,java.lang.Object,java.lang.Object)
-     * public final boolean
-     * java.util.concurrent.atomic.AtomicReferenceArray.compareAndSet(int,java.lang.Object,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compareAndSet_int_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.util.concurrent.atomic.AtomicReferenceArray#weakCompareAndSet(int,java.lang.Object,java.lang.Object)
      * public final boolean
@@ -207,22 +223,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_weakCompareAndSet_int_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceArray#set(int,java.lang.Object) public final
-     * void java.util.concurrent.atomic.AtomicReferenceArray.set(int,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_set_int_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

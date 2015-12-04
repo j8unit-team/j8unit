@@ -36,19 +36,16 @@ public abstract interface BAD_INV_ORDERClassTests<SUT extends Class<? extends or
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link org.omg.CORBA.BAD_INV_ORDER#BAD_INV_ORDER(java.lang.String,int,org.omg.CORBA.CompletionStatus) public
-     * org.omg.CORBA.BAD_INV_ORDER(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for {@link org.omg.CORBA.BAD_INV_ORDER#BAD_INV_ORDER() public org.omg.CORBA.BAD_INV_ORDER()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BAD_INV_ORDER_String_int_CompletionStatus()
+    public default void create_BAD_INV_ORDER()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.BAD_INV_ORDER sut = null; // = new
-                                                      // BAD_INV_ORDER(java.lang.String,int,org.omg.CORBA.CompletionStatus);
+        final org.omg.CORBA.BAD_INV_ORDER sut = null; // = new BAD_INV_ORDER();
     }
 
     /**
@@ -80,16 +77,19 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link org.omg.CORBA.BAD_INV_ORDER#BAD_INV_ORDER() public org.omg.CORBA.BAD_INV_ORDER()}.
+     * Test method for
+     * {@link org.omg.CORBA.BAD_INV_ORDER#BAD_INV_ORDER(java.lang.String,int,org.omg.CORBA.CompletionStatus) public
+     * org.omg.CORBA.BAD_INV_ORDER(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BAD_INV_ORDER()
+    public default void create_BAD_INV_ORDER_String_int_CompletionStatus()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.BAD_INV_ORDER sut = null; // = new BAD_INV_ORDER();
+        final org.omg.CORBA.BAD_INV_ORDER sut = null; // = new
+                                                      // BAD_INV_ORDER(java.lang.String,int,org.omg.CORBA.CompletionStatus);
     }
 
     @Override

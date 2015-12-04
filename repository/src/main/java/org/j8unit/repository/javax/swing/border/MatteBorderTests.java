@@ -23,39 +23,6 @@ extends org.j8unit.repository.javax.swing.border.EmptyBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.MatteBorder#isBorderOpaque() public boolean
-     * javax.swing.border.MatteBorder.isBorderOpaque()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isBorderOpaque()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.MatteBorder#getMatteColor() public java.awt.Color
-     * javax.swing.border.MatteBorder.getMatteColor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMatteColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.border.MatteBorder#getBorderInsets() public java.awt.Insets
      * javax.swing.border.MatteBorder.getBorderInsets()}.
      * </p>
@@ -90,16 +57,14 @@ extends org.j8unit.repository.javax.swing.border.EmptyBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.border.MatteBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int) public
-     * void javax.swing.border.MatteBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     * Test method for {@link javax.swing.border.MatteBorder#getMatteColor() public java.awt.Color
+     * javax.swing.border.MatteBorder.getMatteColor()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_paintBorder_Component_Graphics_int_int_int_int()
+    public default void test_getMatteColor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -116,6 +81,41 @@ extends org.j8unit.repository.javax.swing.border.EmptyBorderTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getTileIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.MatteBorder#isBorderOpaque() public boolean
+     * javax.swing.border.MatteBorder.isBorderOpaque()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isBorderOpaque()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.border.MatteBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int) public
+     * void javax.swing.border.MatteBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paintBorder_Component_Graphics_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -25,6 +25,78 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
+     * {@link java.awt.datatransfer.SystemFlavorMap#addFlavorForUnencodedNative(java.lang.String,java.awt.datatransfer.DataFlavor)
+     * public synchronized void
+     * java.awt.datatransfer.SystemFlavorMap.addFlavorForUnencodedNative(java.lang.String,java.awt.datatransfer.DataFlavor)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addFlavorForUnencodedNative_String_DataFlavor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.datatransfer.SystemFlavorMap#addUnencodedNativeForFlavor(java.awt.datatransfer.DataFlavor,java.lang.String)
+     * public synchronized void
+     * java.awt.datatransfer.SystemFlavorMap.addUnencodedNativeForFlavor(java.awt.datatransfer.DataFlavor,java.lang.String)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addUnencodedNativeForFlavor_DataFlavor_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.SystemFlavorMap#getFlavorsForNative(java.lang.String) public
+     * synchronized java.util.List java.awt.datatransfer.SystemFlavorMap.getFlavorsForNative(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getFlavorsForNative_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.SystemFlavorMap#getFlavorsForNatives(java.lang.String[]) public
+     * synchronized java.util.Map java.awt.datatransfer.SystemFlavorMap.getFlavorsForNatives(java.lang.String[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getFlavorsForNatives_StringArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link java.awt.datatransfer.SystemFlavorMap#getNativesForFlavor(java.awt.datatransfer.DataFlavor) public
      * synchronized java.util.List
      * java.awt.datatransfer.SystemFlavorMap.getNativesForFlavor(java.awt.datatransfer.DataFlavor)}.
@@ -35,24 +107,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getNativesForFlavor_DataFlavor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.datatransfer.SystemFlavorMap#setNativesForFlavor(java.awt.datatransfer.DataFlavor,java.lang.String[])
-     * public synchronized void
-     * java.awt.datatransfer.SystemFlavorMap.setNativesForFlavor(java.awt.datatransfer.DataFlavor,java.lang.String[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setNativesForFlavor_DataFlavor_StringArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -80,42 +134,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.datatransfer.SystemFlavorMap#getFlavorsForNative(java.lang.String) public
-     * synchronized java.util.List java.awt.datatransfer.SystemFlavorMap.getFlavorsForNative(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getFlavorsForNative_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.datatransfer.SystemFlavorMap#addFlavorForUnencodedNative(java.lang.String,java.awt.datatransfer.DataFlavor)
-     * public synchronized void
-     * java.awt.datatransfer.SystemFlavorMap.addFlavorForUnencodedNative(java.lang.String,java.awt.datatransfer.DataFlavor)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addFlavorForUnencodedNative_String_DataFlavor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.awt.datatransfer.SystemFlavorMap#setFlavorsForNative(java.lang.String,java.awt.datatransfer.DataFlavor[])
      * public synchronized void
@@ -134,34 +152,16 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.datatransfer.SystemFlavorMap#getFlavorsForNatives(java.lang.String[]) public
-     * synchronized java.util.Map java.awt.datatransfer.SystemFlavorMap.getFlavorsForNatives(java.lang.String[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getFlavorsForNatives_StringArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
-     * {@link java.awt.datatransfer.SystemFlavorMap#addUnencodedNativeForFlavor(java.awt.datatransfer.DataFlavor,java.lang.String)
+     * {@link java.awt.datatransfer.SystemFlavorMap#setNativesForFlavor(java.awt.datatransfer.DataFlavor,java.lang.String[])
      * public synchronized void
-     * java.awt.datatransfer.SystemFlavorMap.addUnencodedNativeForFlavor(java.awt.datatransfer.DataFlavor,java.lang.String)}
-     * .
+     * java.awt.datatransfer.SystemFlavorMap.setNativesForFlavor(java.awt.datatransfer.DataFlavor,java.lang.String[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addUnencodedNativeForFlavor_DataFlavor_String()
+    public default void test_setNativesForFlavor_DataFlavor_StringArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

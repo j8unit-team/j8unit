@@ -36,17 +36,31 @@ public abstract interface SignatureExceptionClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.SignatureException#SignatureException(java.lang.Throwable) public
-     * java.security.SignatureException(java.lang.Throwable)}.
+     * Test method for {@link java.security.SignatureException#SignatureException() public
+     * java.security.SignatureException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SignatureException_Throwable()
+    public default void create_SignatureException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.SignatureException sut = null; // = new SignatureException(java.lang.Throwable);
+        final java.security.SignatureException sut = null; // = new SignatureException();
+    }
+
+    /**
+     * Test method for {@link java.security.SignatureException#SignatureException(java.lang.String) public
+     * java.security.SignatureException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SignatureException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.SignatureException sut = null; // = new SignatureException(java.lang.String);
     }
 
     /**
@@ -65,31 +79,17 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     }
 
     /**
-     * Test method for {@link java.security.SignatureException#SignatureException(java.lang.String) public
-     * java.security.SignatureException(java.lang.String)}.
+     * Test method for {@link java.security.SignatureException#SignatureException(java.lang.Throwable) public
+     * java.security.SignatureException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SignatureException_String()
+    public default void create_SignatureException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.SignatureException sut = null; // = new SignatureException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.security.SignatureException#SignatureException() public
-     * java.security.SignatureException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SignatureException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.SignatureException sut = null; // = new SignatureException();
+        final java.security.SignatureException sut = null; // = new SignatureException(java.lang.Throwable);
     }
 
     @Override

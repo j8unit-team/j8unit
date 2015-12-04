@@ -23,15 +23,46 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.smartcardio.CardChannel#transmit(javax.smartcardio.CommandAPDU) public abstract
-     * javax.smartcardio.ResponseAPDU javax.smartcardio.CardChannel.transmit(javax.smartcardio.CommandAPDU) throws
-     * javax.smartcardio.CardException}.
+     * Test method for {@link javax.smartcardio.CardChannel#close() public abstract void
+     * javax.smartcardio.CardChannel.close() throws javax.smartcardio.CardException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_transmit_CommandAPDU()
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.CardChannel#getCard() public abstract javax.smartcardio.Card
+     * javax.smartcardio.CardChannel.getCard()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCard()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.CardChannel#getChannelNumber() public abstract int
+     * javax.smartcardio.CardChannel.getChannelNumber()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getChannelNumber()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,46 +88,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.smartcardio.CardChannel#getCard() public abstract javax.smartcardio.Card
-     * javax.smartcardio.CardChannel.getCard()}.
+     * Test method for {@link javax.smartcardio.CardChannel#transmit(javax.smartcardio.CommandAPDU) public abstract
+     * javax.smartcardio.ResponseAPDU javax.smartcardio.CardChannel.transmit(javax.smartcardio.CommandAPDU) throws
+     * javax.smartcardio.CardException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCard()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.smartcardio.CardChannel#close() public abstract void
-     * javax.smartcardio.CardChannel.close() throws javax.smartcardio.CardException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.smartcardio.CardChannel#getChannelNumber() public abstract int
-     * javax.smartcardio.CardChannel.getChannelNumber()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChannelNumber()
+    public default void test_transmit_CommandAPDU()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

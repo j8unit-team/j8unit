@@ -24,6 +24,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.sql.RowSetInternal#getConnection() public abstract java.sql.Connection
+     * javax.sql.RowSetInternal.getConnection() throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getConnection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.sql.RowSetInternal#getOriginal() public abstract java.sql.ResultSet
      * javax.sql.RowSetInternal.getOriginal() throws java.sql.SQLException}.
      * </p>
@@ -80,22 +96,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setMetaData_RowSetMetaData()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.RowSetInternal#getConnection() public abstract java.sql.Connection
-     * javax.sql.RowSetInternal.getConnection() throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getConnection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

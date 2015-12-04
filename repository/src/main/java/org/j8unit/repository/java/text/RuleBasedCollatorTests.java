@@ -23,6 +23,40 @@ extends org.j8unit.repository.java.text.CollatorTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.text.RuleBasedCollator#clone() public java.lang.Object
+     * java.text.RuleBasedCollator.clone()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.RuleBasedCollator#compare(java.lang.String,java.lang.String) public synchronized
+     * int java.text.RuleBasedCollator.compare(java.lang.String,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_compare_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.text.RuleBasedCollator#equals(java.lang.Object) public boolean
      * java.text.RuleBasedCollator.equals(java.lang.Object)}.
      * </p>
@@ -32,39 +66,6 @@ extends org.j8unit.repository.java.text.CollatorTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.RuleBasedCollator#hashCode() public int java.text.RuleBasedCollator.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.RuleBasedCollator#getCollationKey(java.lang.String) public synchronized
-     * java.text.CollationKey java.text.RuleBasedCollator.getCollationKey(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getCollationKey_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,32 +107,15 @@ extends org.j8unit.repository.java.text.CollatorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.RuleBasedCollator#compare(java.lang.String,java.lang.String) public synchronized
-     * int java.text.RuleBasedCollator.compare(java.lang.String,java.lang.String)}.
+     * Test method for {@link java.text.RuleBasedCollator#getCollationKey(java.lang.String) public synchronized
+     * java.text.CollationKey java.text.RuleBasedCollator.getCollationKey(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_compare_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.RuleBasedCollator#clone() public java.lang.Object
-     * java.text.RuleBasedCollator.clone()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_clone()
+    public default void test_getCollationKey_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -148,6 +132,22 @@ extends org.j8unit.repository.java.text.CollatorTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getRules()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.RuleBasedCollator#hashCode() public int java.text.RuleBasedCollator.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

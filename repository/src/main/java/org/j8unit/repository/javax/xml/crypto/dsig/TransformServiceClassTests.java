@@ -35,29 +35,18 @@ import org.junit.experimental.categories.Category;
 public abstract interface TransformServiceClassTests<SUT extends Class<? extends javax.xml.crypto.dsig.TransformService>>
 extends org.j8unit.repository.javax.xml.crypto.dsig.TransformClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.crypto.dsig.TransformService> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.crypto.dsig.TransformService.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for
-     * {@link javax.xml.crypto.dsig.TransformService#getInstance(java.lang.String,java.lang.String,java.lang.String)
+     * Test method for {@link javax.xml.crypto.dsig.TransformService#getInstance(java.lang.String,java.lang.String)
      * public static javax.xml.crypto.dsig.TransformService
-     * javax.xml.crypto.dsig.TransformService.getInstance(java.lang.String,java.lang.String,java.lang.String) throws
-     * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
+     * javax.xml.crypto.dsig.TransformService.getInstance(java.lang.String,java.lang.String) throws
+     * java.security.NoSuchAlgorithmException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInstance_String_String_String()
+    public default void test_getInstance_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -85,20 +74,31 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.TransformClassTests<SUT>, or
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dsig.TransformService#getInstance(java.lang.String,java.lang.String)
+     * Test method for
+     * {@link javax.xml.crypto.dsig.TransformService#getInstance(java.lang.String,java.lang.String,java.lang.String)
      * public static javax.xml.crypto.dsig.TransformService
-     * javax.xml.crypto.dsig.TransformService.getInstance(java.lang.String,java.lang.String) throws
-     * java.security.NoSuchAlgorithmException}.
+     * javax.xml.crypto.dsig.TransformService.getInstance(java.lang.String,java.lang.String,java.lang.String) throws
+     * java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInstance_String_String()
+    public default void test_getInstance_String_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.crypto.dsig.TransformService> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.crypto.dsig.TransformService.class.isAssignableFrom(sut));
     }
 
 }

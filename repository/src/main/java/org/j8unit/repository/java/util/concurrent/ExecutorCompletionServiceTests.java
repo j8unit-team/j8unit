@@ -24,6 +24,23 @@ extends org.j8unit.repository.java.util.concurrent.CompletionServiceTests<SUT, V
 
     /**
      * <p>
+     * Test method for {@link java.util.concurrent.ExecutorCompletionService#poll() public java.util.concurrent.Future
+     * java.util.concurrent.ExecutorCompletionService.poll()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_poll()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.concurrent.ExecutorCompletionService#poll(long,java.util.concurrent.TimeUnit)
      * public java.util.concurrent.Future
      * java.util.concurrent.ExecutorCompletionService.poll(long,java.util.concurrent.TimeUnit) throws
@@ -35,23 +52,6 @@ extends org.j8unit.repository.java.util.concurrent.CompletionServiceTests<SUT, V
     @Category(Draft.class)
     @Override
     public default void test_poll_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.ExecutorCompletionService#poll() public java.util.concurrent.Future
-     * java.util.concurrent.ExecutorCompletionService.poll()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_poll()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

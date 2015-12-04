@@ -24,17 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.dnd.peer.DragSourceContextPeer#startDrag(java.awt.dnd.DragSourceContext,java.awt.Cursor,java.awt.Image,java.awt.Point)
-     * public abstract void
-     * java.awt.dnd.peer.DragSourceContextPeer.startDrag(java.awt.dnd.DragSourceContext,java.awt.Cursor,java.awt.Image,java.awt.Point)
-     * throws java.awt.dnd.InvalidDnDOperationException}.
+     * Test method for {@link java.awt.dnd.peer.DragSourceContextPeer#getCursor() public abstract java.awt.Cursor
+     * java.awt.dnd.peer.DragSourceContextPeer.getCursor()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_startDrag_DragSourceContext_Cursor_Image_Point()
+    public default void test_getCursor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -60,14 +57,17 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.peer.DragSourceContextPeer#transferablesFlavorsChanged() public abstract void
-     * java.awt.dnd.peer.DragSourceContextPeer.transferablesFlavorsChanged()}.
+     * Test method for
+     * {@link java.awt.dnd.peer.DragSourceContextPeer#startDrag(java.awt.dnd.DragSourceContext,java.awt.Cursor,java.awt.Image,java.awt.Point)
+     * public abstract void
+     * java.awt.dnd.peer.DragSourceContextPeer.startDrag(java.awt.dnd.DragSourceContext,java.awt.Cursor,java.awt.Image,java.awt.Point)
+     * throws java.awt.dnd.InvalidDnDOperationException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_transferablesFlavorsChanged()
+    public default void test_startDrag_DragSourceContext_Cursor_Image_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,14 +76,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.dnd.peer.DragSourceContextPeer#getCursor() public abstract java.awt.Cursor
-     * java.awt.dnd.peer.DragSourceContextPeer.getCursor()}.
+     * Test method for {@link java.awt.dnd.peer.DragSourceContextPeer#transferablesFlavorsChanged() public abstract void
+     * java.awt.dnd.peer.DragSourceContextPeer.transferablesFlavorsChanged()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCursor()
+    public default void test_transferablesFlavorsChanged()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

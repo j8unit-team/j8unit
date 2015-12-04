@@ -37,6 +37,19 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
 org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
 
     /**
+     * Test method for {@link java.util.Vector#Vector() public java.util.Vector()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Vector()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.Vector<E> sut = null; // = new Vector();
+    }
+
+    /**
      * Test method for {@link java.util.Vector#Vector(java.util.Collection) public
      * java.util.Vector(java.util.Collection)}.
      */
@@ -48,19 +61,6 @@ org.j8unit.repository.java.util.AbstractListClassTests<SUT, E> {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.Vector<E> sut = null; // = new Vector(java.util.Collection);
-    }
-
-    /**
-     * Test method for {@link java.util.Vector#Vector() public java.util.Vector()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Vector()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.Vector<E> sut = null; // = new Vector();
     }
 
     /**

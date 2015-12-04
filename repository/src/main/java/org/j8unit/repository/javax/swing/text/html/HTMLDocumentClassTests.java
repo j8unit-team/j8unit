@@ -36,61 +36,6 @@ public abstract interface HTMLDocumentClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.AbstractDocument.Content,javax.swing.text.html.StyleSheet)
-     * public
-     * javax.swing.text.html.HTMLDocument(javax.swing.text.AbstractDocument$Content,javax.swing.text.html.StyleSheet)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HTMLDocument_Content_StyleSheet()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.html.HTMLDocument sut = null; // = new
-                                                             // HTMLDocument(javax.swing.text.AbstractDocument.Content,javax.swing.text.html.StyleSheet);
-    }
-
-    /**
-     * Test method for {@link javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.html.StyleSheet) public
-     * javax.swing.text.html.HTMLDocument(javax.swing.text.html.StyleSheet)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HTMLDocument_StyleSheet()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.html.HTMLDocument sut = null; // = new HTMLDocument(javax.swing.text.html.StyleSheet);
-    }
-
-    /**
-     * Test method for {@link javax.swing.text.html.HTMLDocument#HTMLDocument() public
-     * javax.swing.text.html.HTMLDocument()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HTMLDocument()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.html.HTMLDocument sut = null; // = new HTMLDocument();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.html.HTMLDocument> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.html.HTMLDocument.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.text.html.HTMLDocument$BlockElement class
      * javax.swing.text.html.HTMLDocument$BlockElement}, containing all class relevant test methods (at least the test
@@ -152,66 +97,6 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
     /**
      * <p>
-     * Test class for {@link javax.swing.text.html.HTMLDocument$RunElement class
-     * javax.swing.text.html.HTMLDocument$RunElement}, containing all class relevant test methods (at least the test
-     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
-     * containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface RunElementClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.RunElement>>
-    extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.LeafElementClassTests<SUT> {
-
-        /**
-         * Test method for
-         * {@link javax.swing.text.html.HTMLDocument.RunElement#RunElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int)
-         * public
-         * javax.swing.text.html.HTMLDocument$RunElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int)}
-         * .
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_RunElement_HTMLDocument_Element_AttributeSet_int_int()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.html.HTMLDocument.RunElement sut = null; // = new
-                                                                            // RunElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int);
-        }
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.swing.text.html.HTMLDocument.RunElement> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.text.html.HTMLDocument.RunElement.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
      * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader class
      * javax.swing.text.html.HTMLDocument$HTMLReader}, containing all class relevant test methods (at least the test
      * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
@@ -241,116 +126,12 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
     extends org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserCallbackClassTests<SUT> {
 
         /**
-         * Test method for
-         * {@link javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument,int,int,int,javax.swing.text.html.HTML.Tag)
-         * public
-         * javax.swing.text.html.HTMLDocument$HTMLReader(javax.swing.text.html.HTMLDocument,int,int,int,javax.swing.text.html.HTML$Tag)}
-         * .
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_HTMLReader_HTMLDocument_int_int_int_Tag()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.html.HTMLDocument.HTMLReader sut = null; // = new
-                                                                            // HTMLReader(javax.swing.text.html.HTMLDocument,int,int,int,javax.swing.text.html.HTML.Tag);
-        }
-
-        /**
-         * Test method for
-         * {@link javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument,int)
-         * public javax.swing.text.html.HTMLDocument$HTMLReader(javax.swing.text.html.HTMLDocument,int)}.
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_HTMLReader_HTMLDocument_int()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.swing.text.html.HTMLDocument.HTMLReader sut = null; // = new
-                                                                            // HTMLReader(javax.swing.text.html.HTMLDocument,int);
-        }
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.class.isAssignableFrom(sut));
-        }
-
-        /**
          * <p>
-         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction class
-         * javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction}, containing all class relevant test methods
-         * (at least the test methods of accessible constructors and of accessible {@code static} methods). The
-         * counterpart test class containing the instance relevant test methods is
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests}.
-         * </p>
-         *
-         * <p>
-         * In addition, there may be assertions concerning the class itself. For example,
-         * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS,
-         * Sec.&thinsp;9.6.1</a> Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides
-         * a corresponding, inheritable test method:
-         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-         * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
-         * runtime constraints and further class specific requirements.
-         * </p>
-         *
-         * @param SUT
-         *            the type of the subject-under-test
-         * @since 0.9.0
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests
-         */
-        @Category(J8UnitRepository.class)
-        public static abstract interface ParagraphActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction>>
-        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<SUT> {
-
-            /**
-             * Test method for
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction#ParagraphAction(javax.swing.text.html.HTMLDocument.HTMLReader)
-             * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
-             * .
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public default void create_ParagraphAction_HTMLReader()
-            throws Exception {
-                // create new instance
-                @SuppressWarnings("unused")
-                final javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction sut = null; // = new
-                                                                                                // ParagraphAction(javax.swing.text.html.HTMLDocument.HTMLReader);
-            }
-
-            @Override
-            @Test
-            public default void testBaseTypeIsAssignableFromCurrentType()
-            throws Exception {
-                // create new instance
-                final Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction> sut = createNewSUT();
-                // assert assignability
-                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction.class.isAssignableFrom(sut));
-            }
-
-        }
-
-        /**
-         * <p>
-         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction class
-         * javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction}, containing all class relevant test methods (at
+         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction class
+         * javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction}, containing all class relevant test methods (at
          * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
          * test class containing the instance relevant test methods is
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests}.
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests}.
          * </p>
          *
          * <p>
@@ -368,28 +149,28 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * @param SUT
          *            the type of the subject-under-test
          * @since 0.9.0
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests
+         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests
          */
         @Category(J8UnitRepository.class)
-        public static abstract interface SpecialActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction>>
+        public static abstract interface BlockActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction>>
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
 
             /**
              * Test method for
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction#SpecialAction(javax.swing.text.html.HTMLDocument.HTMLReader)
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction#BlockAction(javax.swing.text.html.HTMLDocument.HTMLReader)
              * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
+             * javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
              * .
              */
             @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
             @Test
             @Category(Draft.class)
-            public default void create_SpecialAction_HTMLReader()
+            public default void create_BlockAction_HTMLReader()
             throws Exception {
                 // create new instance
                 @SuppressWarnings("unused")
-                final javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction sut = null; // = new
-                                                                                              // SpecialAction(javax.swing.text.html.HTMLDocument.HTMLReader);
+                final javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction sut = null; // = new
+                                                                                            // BlockAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
             @Override
@@ -397,9 +178,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
             public default void testBaseTypeIsAssignableFromCurrentType()
             throws Exception {
                 // create new instance
-                final Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction> sut = createNewSUT();
+                final Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction> sut = createNewSUT();
                 // assert assignability
-                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction.class.isAssignableFrom(sut));
+                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction.class.isAssignableFrom(sut));
             }
 
         }
@@ -525,6 +306,66 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
         /**
          * <p>
+         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction class
+         * javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction}, containing all class relevant test methods (at
+         * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
+         * test class containing the instance relevant test methods is
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests}.
+         * </p>
+         *
+         * <p>
+         * In addition, there may be assertions concerning the class itself. For example,
+         * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+         * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS,
+         * Sec.&thinsp;9.6.1</a> Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides
+         * a corresponding, inheritable test method:
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+         * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
+         * runtime constraints and further class specific requirements.
+         * </p>
+         *
+         * @param SUT
+         *            the type of the subject-under-test
+         * @since 0.9.0
+         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests
+         */
+        @Category(J8UnitRepository.class)
+        public static abstract interface HiddenActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction>>
+        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
+
+            /**
+             * Test method for
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction#HiddenAction(javax.swing.text.html.HTMLDocument.HTMLReader)
+             * public
+             * javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
+             * .
+             */
+            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+            @Test
+            @Category(Draft.class)
+            public default void create_HiddenAction_HTMLReader()
+            throws Exception {
+                // create new instance
+                @SuppressWarnings("unused")
+                final javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction sut = null; // = new
+                                                                                             // HiddenAction(javax.swing.text.html.HTMLDocument.HTMLReader);
+            }
+
+            @Override
+            @Test
+            public default void testBaseTypeIsAssignableFromCurrentType()
+            throws Exception {
+                // create new instance
+                final Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction> sut = createNewSUT();
+                // assert assignability
+                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction.class.isAssignableFrom(sut));
+            }
+
+        }
+
+        /**
+         * <p>
          * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction class
          * javax.swing.text.html.HTMLDocument$HTMLReader$IsindexAction}, containing all class relevant test methods (at
          * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
@@ -579,6 +420,66 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
                 final Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction> sut = createNewSUT();
                 // assert assignability
                 assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction.class.isAssignableFrom(sut));
+            }
+
+        }
+
+        /**
+         * <p>
+         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction class
+         * javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction}, containing all class relevant test methods
+         * (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+         * counterpart test class containing the instance relevant test methods is
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests}.
+         * </p>
+         *
+         * <p>
+         * In addition, there may be assertions concerning the class itself. For example,
+         * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+         * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS,
+         * Sec.&thinsp;9.6.1</a> Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides
+         * a corresponding, inheritable test method:
+         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+         * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
+         * runtime constraints and further class specific requirements.
+         * </p>
+         *
+         * @param SUT
+         *            the type of the subject-under-test
+         * @since 0.9.0
+         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests
+         */
+        @Category(J8UnitRepository.class)
+        public static abstract interface ParagraphActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction>>
+        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<SUT> {
+
+            /**
+             * Test method for
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction#ParagraphAction(javax.swing.text.html.HTMLDocument.HTMLReader)
+             * public
+             * javax.swing.text.html.HTMLDocument$HTMLReader$ParagraphAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
+             * .
+             */
+            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+            @Test
+            @Category(Draft.class)
+            public default void create_ParagraphAction_HTMLReader()
+            throws Exception {
+                // create new instance
+                @SuppressWarnings("unused")
+                final javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction sut = null; // = new
+                                                                                                // ParagraphAction(javax.swing.text.html.HTMLDocument.HTMLReader);
+            }
+
+            @Override
+            @Test
+            public default void testBaseTypeIsAssignableFromCurrentType()
+            throws Exception {
+                // create new instance
+                final Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction> sut = createNewSUT();
+                // assert assignability
+                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction.class.isAssignableFrom(sut));
             }
 
         }
@@ -644,11 +545,11 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
         /**
          * <p>
-         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction class
-         * javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction}, containing all class relevant test methods (at
+         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction class
+         * javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction}, containing all class relevant test methods (at
          * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
          * test class containing the instance relevant test methods is
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests}.
+         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests}.
          * </p>
          *
          * <p>
@@ -666,28 +567,28 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * @param SUT
          *            the type of the subject-under-test
          * @since 0.9.0
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests
+         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests
          */
         @Category(J8UnitRepository.class)
-        public static abstract interface BlockActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction>>
+        public static abstract interface SpecialActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction>>
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
 
             /**
              * Test method for
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction#BlockAction(javax.swing.text.html.HTMLDocument.HTMLReader)
+             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction#SpecialAction(javax.swing.text.html.HTMLDocument.HTMLReader)
              * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$BlockAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
+             * javax.swing.text.html.HTMLDocument$HTMLReader$SpecialAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
              * .
              */
             @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
             @Test
             @Category(Draft.class)
-            public default void create_BlockAction_HTMLReader()
+            public default void create_SpecialAction_HTMLReader()
             throws Exception {
                 // create new instance
                 @SuppressWarnings("unused")
-                final javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction sut = null; // = new
-                                                                                            // BlockAction(javax.swing.text.html.HTMLDocument.HTMLReader);
+                final javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction sut = null; // = new
+                                                                                              // SpecialAction(javax.swing.text.html.HTMLDocument.HTMLReader);
             }
 
             @Override
@@ -695,69 +596,9 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
             public default void testBaseTypeIsAssignableFromCurrentType()
             throws Exception {
                 // create new instance
-                final Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction> sut = createNewSUT();
+                final Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction> sut = createNewSUT();
                 // assert assignability
-                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction.class.isAssignableFrom(sut));
-            }
-
-        }
-
-        /**
-         * <p>
-         * Test class for {@link javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction class
-         * javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction}, containing all class relevant test methods (at
-         * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart
-         * test class containing the instance relevant test methods is
-         * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests}.
-         * </p>
-         *
-         * <p>
-         * In addition, there may be assertions concerning the class itself. For example,
-         * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-         * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-         * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS,
-         * Sec.&thinsp;9.6.1</a> Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides
-         * a corresponding, inheritable test method:
-         * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-         * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
-         * runtime constraints and further class specific requirements.
-         * </p>
-         *
-         * @param SUT
-         *            the type of the subject-under-test
-         * @since 0.9.0
-         * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests
-         */
-        @Category(J8UnitRepository.class)
-        public static abstract interface HiddenActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction>>
-        extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
-
-            /**
-             * Test method for
-             * {@link javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction#HiddenAction(javax.swing.text.html.HTMLDocument.HTMLReader)
-             * public
-             * javax.swing.text.html.HTMLDocument$HTMLReader$HiddenAction(javax.swing.text.html.HTMLDocument$HTMLReader)}
-             * .
-             */
-            @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-            @Test
-            @Category(Draft.class)
-            public default void create_HiddenAction_HTMLReader()
-            throws Exception {
-                // create new instance
-                @SuppressWarnings("unused")
-                final javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction sut = null; // = new
-                                                                                             // HiddenAction(javax.swing.text.html.HTMLDocument.HTMLReader);
-            }
-
-            @Override
-            @Test
-            public default void testBaseTypeIsAssignableFromCurrentType()
-            throws Exception {
-                // create new instance
-                final Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction> sut = createNewSUT();
-                // assert assignability
-                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction.class.isAssignableFrom(sut));
+                assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction.class.isAssignableFrom(sut));
             }
 
         }
@@ -821,6 +662,50 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
 
         }
 
+        /**
+         * Test method for
+         * {@link javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument,int)
+         * public javax.swing.text.html.HTMLDocument$HTMLReader(javax.swing.text.html.HTMLDocument,int)}.
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void create_HTMLReader_HTMLDocument_int()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final javax.swing.text.html.HTMLDocument.HTMLReader sut = null; // = new
+                                                                            // HTMLReader(javax.swing.text.html.HTMLDocument,int);
+        }
+
+        /**
+         * Test method for
+         * {@link javax.swing.text.html.HTMLDocument.HTMLReader#HTMLReader(javax.swing.text.html.HTMLDocument,int,int,int,javax.swing.text.html.HTML.Tag)
+         * public
+         * javax.swing.text.html.HTMLDocument$HTMLReader(javax.swing.text.html.HTMLDocument,int,int,int,javax.swing.text.html.HTML$Tag)}
+         * .
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void create_HTMLReader_HTMLDocument_int_int_int_Tag()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final javax.swing.text.html.HTMLDocument.HTMLReader sut = null; // = new
+                                                                            // HTMLReader(javax.swing.text.html.HTMLDocument,int,int,int,javax.swing.text.html.HTML.Tag);
+        }
+
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.swing.text.html.HTMLDocument.HTMLReader.class.isAssignableFrom(sut));
+        }
+
     }
 
     /**
@@ -877,6 +762,121 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
             assertTrue(javax.swing.text.html.HTMLDocument.Iterator.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * <p>
+     * Test class for {@link javax.swing.text.html.HTMLDocument$RunElement class
+     * javax.swing.text.html.HTMLDocument$RunElement}, containing all class relevant test methods (at least the test
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
+     * containing the instance relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests}.
+     * </p>
+     *
+     * <p>
+     * In addition, there may be assertions concerning the class itself. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
+     * inheritable test method:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+     * constraints and further class specific requirements.
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface RunElementClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.RunElement>>
+    extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.LeafElementClassTests<SUT> {
+
+        /**
+         * Test method for
+         * {@link javax.swing.text.html.HTMLDocument.RunElement#RunElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int)
+         * public
+         * javax.swing.text.html.HTMLDocument$RunElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int)}
+         * .
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void create_RunElement_HTMLDocument_Element_AttributeSet_int_int()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final javax.swing.text.html.HTMLDocument.RunElement sut = null; // = new
+                                                                            // RunElement(javax.swing.text.html.HTMLDocument,javax.swing.text.Element,javax.swing.text.AttributeSet,int,int);
+        }
+
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.swing.text.html.HTMLDocument.RunElement> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.swing.text.html.HTMLDocument.RunElement.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * Test method for {@link javax.swing.text.html.HTMLDocument#HTMLDocument() public
+     * javax.swing.text.html.HTMLDocument()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HTMLDocument()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.html.HTMLDocument sut = null; // = new HTMLDocument();
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.AbstractDocument.Content,javax.swing.text.html.StyleSheet)
+     * public
+     * javax.swing.text.html.HTMLDocument(javax.swing.text.AbstractDocument$Content,javax.swing.text.html.StyleSheet)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HTMLDocument_Content_StyleSheet()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.html.HTMLDocument sut = null; // = new
+                                                             // HTMLDocument(javax.swing.text.AbstractDocument.Content,javax.swing.text.html.StyleSheet);
+    }
+
+    /**
+     * Test method for {@link javax.swing.text.html.HTMLDocument#HTMLDocument(javax.swing.text.html.StyleSheet) public
+     * javax.swing.text.html.HTMLDocument(javax.swing.text.html.StyleSheet)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HTMLDocument_StyleSheet()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.html.HTMLDocument sut = null; // = new HTMLDocument(javax.swing.text.html.StyleSheet);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.html.HTMLDocument> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.html.HTMLDocument.class.isAssignableFrom(sut));
     }
 
 }

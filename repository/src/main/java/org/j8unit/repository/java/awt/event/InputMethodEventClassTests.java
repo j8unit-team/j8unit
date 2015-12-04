@@ -37,23 +37,6 @@ extends org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.awt.event.InputMethodEvent#InputMethodEvent(java.awt.Component,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo)
-     * public
-     * java.awt.event.InputMethodEvent(java.awt.Component,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InputMethodEvent_Component_int_TextHitInfo_TextHitInfo()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.event.InputMethodEvent sut = null; // = new
-                                                          // InputMethodEvent(java.awt.Component,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo);
-    }
-
-    /**
-     * Test method for
      * {@link java.awt.event.InputMethodEvent#InputMethodEvent(java.awt.Component,int,java.text.AttributedCharacterIterator,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo)
      * public
      * java.awt.event.InputMethodEvent(java.awt.Component,int,java.text.AttributedCharacterIterator,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo)}
@@ -86,6 +69,23 @@ extends org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.awt.event.InputMethodEvent sut = null; // = new
                                                           // InputMethodEvent(java.awt.Component,int,long,java.text.AttributedCharacterIterator,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.event.InputMethodEvent#InputMethodEvent(java.awt.Component,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo)
+     * public
+     * java.awt.event.InputMethodEvent(java.awt.Component,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InputMethodEvent_Component_int_TextHitInfo_TextHitInfo()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.event.InputMethodEvent sut = null; // = new
+                                                          // InputMethodEvent(java.awt.Component,int,java.awt.font.TextHitInfo,java.awt.font.TextHitInfo);
     }
 
     @Override

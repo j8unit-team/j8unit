@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.time.chrono.ChronologyTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.AbstractChronology#toString() public java.lang.String
-     * java.time.chrono.AbstractChronology.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.time.chrono.AbstractChronology#compareTo(java.time.chrono.Chronology) public int
      * java.time.chrono.AbstractChronology.compareTo(java.time.chrono.Chronology)}.
      * </p>
@@ -49,23 +32,6 @@ extends org.j8unit.repository.java.time.chrono.ChronologyTests<SUT>, org.j8unit.
     @Category(Draft.class)
     @Override
     public default void test_compareTo_Chronology()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.AbstractChronology#hashCode() public int
-     * java.time.chrono.AbstractChronology.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,6 +57,23 @@ extends org.j8unit.repository.java.time.chrono.ChronologyTests<SUT>, org.j8unit.
 
     /**
      * <p>
+     * Test method for {@link java.time.chrono.AbstractChronology#hashCode() public int
+     * java.time.chrono.AbstractChronology.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link java.time.chrono.AbstractChronology#resolveDate(java.util.Map,java.time.format.ResolverStyle) public
      * java.time.chrono.ChronoLocalDate
@@ -102,6 +85,23 @@ extends org.j8unit.repository.java.time.chrono.ChronologyTests<SUT>, org.j8unit.
     @Category(Draft.class)
     @Override
     public default void test_resolveDate_Map_ResolverStyle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.chrono.AbstractChronology#toString() public java.lang.String
+     * java.time.chrono.AbstractChronology.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

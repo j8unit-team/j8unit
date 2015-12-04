@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.WebFault#messageName() public abstract java.lang.String
-     * javax.xml.ws.WebFault.messageName()}.
+     * Test method for {@link javax.xml.ws.WebFault#faultBean() public abstract java.lang.String
+     * javax.xml.ws.WebFault.faultBean()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_messageName()
+    public default void test_faultBean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,14 +39,14 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.WebFault#targetNamespace() public abstract java.lang.String
-     * javax.xml.ws.WebFault.targetNamespace()}.
+     * Test method for {@link javax.xml.ws.WebFault#messageName() public abstract java.lang.String
+     * javax.xml.ws.WebFault.messageName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_targetNamespace()
+    public default void test_messageName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +71,14 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.WebFault#faultBean() public abstract java.lang.String
-     * javax.xml.ws.WebFault.faultBean()}.
+     * Test method for {@link javax.xml.ws.WebFault#targetNamespace() public abstract java.lang.String
+     * javax.xml.ws.WebFault.targetNamespace()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_faultBean()
+    public default void test_targetNamespace()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

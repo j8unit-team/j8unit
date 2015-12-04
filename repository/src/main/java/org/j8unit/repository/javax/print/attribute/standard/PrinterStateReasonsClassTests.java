@@ -38,32 +38,17 @@ extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeClassTe
 org.j8unit.repository.java.util.HashMapClassTests<SUT, javax.print.attribute.standard.PrinterStateReason, javax.print.attribute.standard.Severity> {
 
     /**
-     * Test method for {@link javax.print.attribute.standard.PrinterStateReasons#PrinterStateReasons(java.util.Map)
-     * public javax.print.attribute.standard.PrinterStateReasons(java.util.Map)}.
+     * Test method for {@link javax.print.attribute.standard.PrinterStateReasons#PrinterStateReasons() public
+     * javax.print.attribute.standard.PrinterStateReasons()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_PrinterStateReasons_Map()
+    public default void create_PrinterStateReasons()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.print.attribute.standard.PrinterStateReasons sut = null; // = new
-                                                                             // PrinterStateReasons(java.util.Map);
-    }
-
-    /**
-     * Test method for {@link javax.print.attribute.standard.PrinterStateReasons#PrinterStateReasons(int,float) public
-     * javax.print.attribute.standard.PrinterStateReasons(int,float)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PrinterStateReasons_int_float()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.print.attribute.standard.PrinterStateReasons sut = null; // = new PrinterStateReasons(int,float);
+        final javax.print.attribute.standard.PrinterStateReasons sut = null; // = new PrinterStateReasons();
     }
 
     /**
@@ -81,17 +66,32 @@ org.j8unit.repository.java.util.HashMapClassTests<SUT, javax.print.attribute.sta
     }
 
     /**
-     * Test method for {@link javax.print.attribute.standard.PrinterStateReasons#PrinterStateReasons() public
-     * javax.print.attribute.standard.PrinterStateReasons()}.
+     * Test method for {@link javax.print.attribute.standard.PrinterStateReasons#PrinterStateReasons(int,float) public
+     * javax.print.attribute.standard.PrinterStateReasons(int,float)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_PrinterStateReasons()
+    public default void create_PrinterStateReasons_int_float()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.print.attribute.standard.PrinterStateReasons sut = null; // = new PrinterStateReasons();
+        final javax.print.attribute.standard.PrinterStateReasons sut = null; // = new PrinterStateReasons(int,float);
+    }
+
+    /**
+     * Test method for {@link javax.print.attribute.standard.PrinterStateReasons#PrinterStateReasons(java.util.Map)
+     * public javax.print.attribute.standard.PrinterStateReasons(java.util.Map)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PrinterStateReasons_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.print.attribute.standard.PrinterStateReasons sut = null; // = new
+                                                                             // PrinterStateReasons(java.util.Map);
     }
 
     @Override

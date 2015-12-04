@@ -36,20 +36,6 @@ public abstract interface SNIHostNameClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.javax.net.ssl.SNIServerNameClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.net.ssl.SNIHostName#SNIHostName(java.lang.String) public
-     * javax.net.ssl.SNIHostName(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SNIHostName_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.net.ssl.SNIHostName sut = null; // = new SNIHostName(java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.net.ssl.SNIHostName#SNIHostName(byte[]) public javax.net.ssl.SNIHostName(byte[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -62,14 +48,18 @@ extends org.j8unit.repository.javax.net.ssl.SNIServerNameClassTests<SUT> {
         final javax.net.ssl.SNIHostName sut = null; // = new SNIHostName(byte[]);
     }
 
-    @Override
+    /**
+     * Test method for {@link javax.net.ssl.SNIHostName#SNIHostName(java.lang.String) public
+     * javax.net.ssl.SNIHostName(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_SNIHostName_String()
     throws Exception {
         // create new instance
-        final Class<? extends javax.net.ssl.SNIHostName> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.net.ssl.SNIHostName.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final javax.net.ssl.SNIHostName sut = null; // = new SNIHostName(java.lang.String);
     }
 
     /**
@@ -86,6 +76,16 @@ extends org.j8unit.repository.javax.net.ssl.SNIServerNameClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.net.ssl.SNIHostName> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.net.ssl.SNIHostName.class.isAssignableFrom(sut));
     }
 
 }

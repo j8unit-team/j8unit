@@ -24,15 +24,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.function.IntUnaryOperator#compose(java.util.function.IntUnaryOperator) public
+     * Test method for {@link java.util.function.IntUnaryOperator#andThen(java.util.function.IntUnaryOperator) public
      * default java.util.function.IntUnaryOperator
-     * java.util.function.IntUnaryOperator.compose(java.util.function.IntUnaryOperator)}.
+     * java.util.function.IntUnaryOperator.andThen(java.util.function.IntUnaryOperator)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_compose_IntUnaryOperator()
+    public default void test_andThen_IntUnaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,15 +57,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.function.IntUnaryOperator#andThen(java.util.function.IntUnaryOperator) public
+     * Test method for {@link java.util.function.IntUnaryOperator#compose(java.util.function.IntUnaryOperator) public
      * default java.util.function.IntUnaryOperator
-     * java.util.function.IntUnaryOperator.andThen(java.util.function.IntUnaryOperator)}.
+     * java.util.function.IntUnaryOperator.compose(java.util.function.IntUnaryOperator)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_andThen_IntUnaryOperator()
+    public default void test_compose_IntUnaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

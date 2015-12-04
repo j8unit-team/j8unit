@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface HttpsURLConnectionClassTests<SUT extends Class<? extends javax.net.ssl.HttpsURLConnection>>
 extends org.j8unit.repository.java.net.HttpURLConnectionClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.HttpsURLConnection#getDefaultHostnameVerifier() public static
+     * javax.net.ssl.HostnameVerifier javax.net.ssl.HttpsURLConnection.getDefaultHostnameVerifier()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getDefaultHostnameVerifier()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.net.ssl.HttpsURLConnection> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.net.ssl.HttpsURLConnection.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -95,20 +101,14 @@ extends org.j8unit.repository.java.net.HttpURLConnectionClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.HttpsURLConnection#getDefaultHostnameVerifier() public static
-     * javax.net.ssl.HostnameVerifier javax.net.ssl.HttpsURLConnection.getDefaultHostnameVerifier()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getDefaultHostnameVerifier()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.net.ssl.HttpsURLConnection> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.net.ssl.HttpsURLConnection.class.isAssignableFrom(sut));
     }
 
 }

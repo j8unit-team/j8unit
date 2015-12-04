@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.PixelInterleavedSampleModel#createCompatibleSampleModel(int,int) public
+     * java.awt.image.SampleModel java.awt.image.PixelInterleavedSampleModel.createCompatibleSampleModel(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createCompatibleSampleModel_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.image.PixelInterleavedSampleModel#createSubsetSampleModel(int[]) public
      * java.awt.image.SampleModel java.awt.image.PixelInterleavedSampleModel.createSubsetSampleModel(int[])}.
      * </p>
@@ -49,23 +66,6 @@ extends org.j8unit.repository.java.awt.image.ComponentSampleModelTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.PixelInterleavedSampleModel#createCompatibleSampleModel(int,int) public
-     * java.awt.image.SampleModel java.awt.image.PixelInterleavedSampleModel.createCompatibleSampleModel(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createCompatibleSampleModel_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

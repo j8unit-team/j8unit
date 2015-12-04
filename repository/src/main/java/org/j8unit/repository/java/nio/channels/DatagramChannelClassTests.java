@@ -37,14 +37,20 @@ extends org.j8unit.repository.java.nio.channels.ByteChannelClassTests<SUT>, org.
 org.j8unit.repository.java.nio.channels.GatheringByteChannelClassTests<SUT>, org.j8unit.repository.java.nio.channels.MulticastChannelClassTests<SUT>,
 org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.DatagramChannel#open() public static java.nio.channels.DatagramChannel
+     * java.nio.channels.DatagramChannel.open() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_open()
     throws Exception {
-        // create new instance
-        final Class<? extends java.nio.channels.DatagramChannel> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.channels.DatagramChannel.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -64,20 +70,14 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelClassTests<
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.DatagramChannel#open() public static java.nio.channels.DatagramChannel
-     * java.nio.channels.DatagramChannel.open() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_open()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.nio.channels.DatagramChannel> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.channels.DatagramChannel.class.isAssignableFrom(sut));
     }
 
 }

@@ -23,15 +23,14 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.ItemEvent#paramString() public java.lang.String
-     * java.awt.event.ItemEvent.paramString()}.
+     * Test method for {@link java.awt.event.ItemEvent#getItem() public java.lang.Object
+     * java.awt.event.ItemEvent.getItem()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_paramString()
+    public default void test_getItem()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,22 +55,6 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.ItemEvent#getItem() public java.lang.Object
-     * java.awt.event.ItemEvent.getItem()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getItem()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.event.ItemEvent#getStateChange() public int
      * java.awt.event.ItemEvent.getStateChange()}.
      * </p>
@@ -80,6 +63,23 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getStateChange()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.ItemEvent#paramString() public java.lang.String
+     * java.awt.event.ItemEvent.paramString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paramString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.StatementEvent#getStatement() public java.sql.PreparedStatement
-     * javax.sql.StatementEvent.getStatement()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getStatement()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sql.StatementEvent#getSQLException() public java.sql.SQLException
      * javax.sql.StatementEvent.getSQLException()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getSQLException()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.StatementEvent#getStatement() public java.sql.PreparedStatement
+     * javax.sql.StatementEvent.getStatement()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStatement()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

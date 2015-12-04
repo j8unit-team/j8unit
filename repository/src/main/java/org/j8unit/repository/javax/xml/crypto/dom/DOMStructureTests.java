@@ -23,6 +23,22 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT>, org.j8uni
 
     /**
      * <p>
+     * Test method for {@link javax.xml.crypto.dom.DOMStructure#getNode() public org.w3c.dom.Node
+     * javax.xml.crypto.dom.DOMStructure.getNode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.crypto.dom.DOMStructure#isFeatureSupported(java.lang.String) public boolean
      * javax.xml.crypto.dom.DOMStructure.isFeatureSupported(java.lang.String)}.
      * </p>
@@ -32,22 +48,6 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT>, org.j8uni
     @Category(Draft.class)
     @Override
     public default void test_isFeatureSupported_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.dom.DOMStructure#getNode() public org.w3c.dom.Node
-     * javax.xml.crypto.dom.DOMStructure.getNode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

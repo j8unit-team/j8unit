@@ -50,14 +50,56 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.CosNaming.NamingContextPackage.CannotProceedHelper sut = null; // = new CannotProceedHelper();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#extract(org.omg.CORBA.Any)
+     * public static org.omg.CosNaming.NamingContextPackage.CannotProceed
+     * org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.extract(org.omg.CORBA.Any)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_extract_Any()
     throws Exception {
-        // create new instance
-        final Class<? extends org.omg.CosNaming.NamingContextPackage.CannotProceedHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#id() public static
+     * java.lang.String org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.id()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#insert(org.omg.CORBA.Any,org.omg.CosNaming.NamingContextPackage.CannotProceed)
+     * public static void
+     * org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.insert(org.omg.CORBA.Any,org.omg.CosNaming.NamingContextPackage.CannotProceed)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_CannotProceed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -72,23 +114,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#extract(org.omg.CORBA.Any)
-     * public static org.omg.CosNaming.NamingContextPackage.CannotProceed
-     * org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.extract(org.omg.CORBA.Any)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_extract_Any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -130,39 +155,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#id() public static
-     * java.lang.String org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.id()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_id()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.CosNaming.NamingContextPackage.CannotProceedHelper#insert(org.omg.CORBA.Any,org.omg.CosNaming.NamingContextPackage.CannotProceed)
-     * public static void
-     * org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.insert(org.omg.CORBA.Any,org.omg.CosNaming.NamingContextPackage.CannotProceed)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_Any_CannotProceed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.CosNaming.NamingContextPackage.CannotProceedHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.CosNaming.NamingContextPackage.CannotProceedHelper.class.isAssignableFrom(sut));
     }
 
 }

@@ -59,39 +59,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertificateFactorySpi#engineGetCertPathEncodings() public
-     * java.util.Iterator java.security.cert.CertificateFactorySpi.engineGetCertPathEncodings()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_engineGetCertPathEncodings()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.CertificateFactorySpi#engineGenerateCertPath(java.util.List) public
-     * java.security.cert.CertPath java.security.cert.CertificateFactorySpi.engineGenerateCertPath(java.util.List)
-     * throws java.security.cert.CertificateException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_engineGenerateCertPath_List()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.cert.CertificateFactorySpi#engineGenerateCertPath(java.io.InputStream)
      * public java.security.cert.CertPath
      * java.security.cert.CertificateFactorySpi.engineGenerateCertPath(java.io.InputStream) throws
@@ -129,15 +96,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertificateFactorySpi#engineGenerateCRLs(java.io.InputStream) public
-     * abstract java.util.Collection java.security.cert.CertificateFactorySpi.engineGenerateCRLs(java.io.InputStream)
-     * throws java.security.cert.CRLException}.
+     * Test method for {@link java.security.cert.CertificateFactorySpi#engineGenerateCertPath(java.util.List) public
+     * java.security.cert.CertPath java.security.cert.CertificateFactorySpi.engineGenerateCertPath(java.util.List)
+     * throws java.security.cert.CertificateException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_engineGenerateCRLs_InputStream()
+    public default void test_engineGenerateCertPath_List()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -155,6 +122,39 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_engineGenerateCRL_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CertificateFactorySpi#engineGenerateCRLs(java.io.InputStream) public
+     * abstract java.util.Collection java.security.cert.CertificateFactorySpi.engineGenerateCRLs(java.io.InputStream)
+     * throws java.security.cert.CRLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_engineGenerateCRLs_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CertificateFactorySpi#engineGetCertPathEncodings() public
+     * java.util.Iterator java.security.cert.CertificateFactorySpi.engineGetCertPathEncodings()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_engineGetCertPathEncodings()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

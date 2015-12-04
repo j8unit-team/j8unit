@@ -37,21 +37,6 @@ extends org.j8unit.repository.java.sql.ArrayClassTests<SUT>, org.j8unit.reposito
 org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.sql.rowset.serial.SerialArray#SerialArray(java.sql.Array,java.util.Map) public
-     * javax.sql.rowset.serial.SerialArray(java.sql.Array,java.util.Map) throws
-     * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SerialArray_Array_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.sql.rowset.serial.SerialArray sut = null; // = new SerialArray(java.sql.Array,java.util.Map);
-    }
-
-    /**
      * Test method for {@link javax.sql.rowset.serial.SerialArray#SerialArray(java.sql.Array) public
      * javax.sql.rowset.serial.SerialArray(java.sql.Array) throws
      * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
@@ -64,6 +49,21 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
         // create new instance
         @SuppressWarnings("unused")
         final javax.sql.rowset.serial.SerialArray sut = null; // = new SerialArray(java.sql.Array);
+    }
+
+    /**
+     * Test method for {@link javax.sql.rowset.serial.SerialArray#SerialArray(java.sql.Array,java.util.Map) public
+     * javax.sql.rowset.serial.SerialArray(java.sql.Array,java.util.Map) throws
+     * javax.sql.rowset.serial.SerialException,java.sql.SQLException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SerialArray_Array_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.sql.rowset.serial.SerialArray sut = null; // = new SerialArray(java.sql.Array,java.util.Map);
     }
 
     @Override

@@ -24,14 +24,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.activation.DataContentHandler#getTransferDataFlavors() public abstract
-     * java.awt.datatransfer.DataFlavor[] javax.activation.DataContentHandler.getTransferDataFlavors()}.
+     * Test method for {@link javax.activation.DataContentHandler#getContent(javax.activation.DataSource) public
+     * abstract java.lang.Object javax.activation.DataContentHandler.getContent(javax.activation.DataSource) throws
+     * java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTransferDataFlavors()
+    public default void test_getContent_DataSource()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -59,6 +60,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.activation.DataContentHandler#getTransferDataFlavors() public abstract
+     * java.awt.datatransfer.DataFlavor[] javax.activation.DataContentHandler.getTransferDataFlavors()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTransferDataFlavors()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link javax.activation.DataContentHandler#writeTo(java.lang.Object,java.lang.String,java.io.OutputStream) public
      * abstract void javax.activation.DataContentHandler.writeTo(java.lang.Object,java.lang.String,java.io.OutputStream)
@@ -69,23 +86,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_writeTo_Object_String_OutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.activation.DataContentHandler#getContent(javax.activation.DataSource) public
-     * abstract java.lang.Object javax.activation.DataContentHandler.getContent(javax.activation.DataSource) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getContent_DataSource()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

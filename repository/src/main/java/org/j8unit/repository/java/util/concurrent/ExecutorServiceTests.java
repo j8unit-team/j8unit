@@ -23,14 +23,15 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.ExecutorService#shutdown() public abstract void
-     * java.util.concurrent.ExecutorService.shutdown()}.
+     * Test method for {@link java.util.concurrent.ExecutorService#awaitTermination(long,java.util.concurrent.TimeUnit)
+     * public abstract boolean java.util.concurrent.ExecutorService.awaitTermination(long,java.util.concurrent.TimeUnit)
+     * throws java.lang.InterruptedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_shutdown()
+    public default void test_awaitTermination_long_TimeUnit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,14 +40,34 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.ExecutorService#isShutdown() public abstract boolean
-     * java.util.concurrent.ExecutorService.isShutdown()}.
+     * Test method for {@link java.util.concurrent.ExecutorService#invokeAll(java.util.Collection) public abstract
+     * java.util.List java.util.concurrent.ExecutorService.invokeAll(java.util.Collection) throws
+     * java.lang.InterruptedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isShutdown()
+    public default void test_invokeAll_Collection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.ExecutorService#invokeAll(java.util.Collection,long,java.util.concurrent.TimeUnit)
+     * public abstract java.util.List
+     * java.util.concurrent.ExecutorService.invokeAll(java.util.Collection,long,java.util.concurrent.TimeUnit) throws
+     * java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_invokeAll_Collection_long_TimeUnit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,6 +112,54 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.util.concurrent.ExecutorService#isShutdown() public abstract boolean
+     * java.util.concurrent.ExecutorService.isShutdown()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isShutdown()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.ExecutorService#isTerminated() public abstract boolean
+     * java.util.concurrent.ExecutorService.isTerminated()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isTerminated()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.ExecutorService#shutdown() public abstract void
+     * java.util.concurrent.ExecutorService.shutdown()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_shutdown()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.concurrent.ExecutorService#shutdownNow() public abstract java.util.List
      * java.util.concurrent.ExecutorService.shutdownNow()}.
      * </p>
@@ -99,76 +168,6 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_shutdownNow()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.ExecutorService#awaitTermination(long,java.util.concurrent.TimeUnit)
-     * public abstract boolean java.util.concurrent.ExecutorService.awaitTermination(long,java.util.concurrent.TimeUnit)
-     * throws java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_awaitTermination_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.ExecutorService#invokeAll(java.util.Collection,long,java.util.concurrent.TimeUnit)
-     * public abstract java.util.List
-     * java.util.concurrent.ExecutorService.invokeAll(java.util.Collection,long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_invokeAll_Collection_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.ExecutorService#invokeAll(java.util.Collection) public abstract
-     * java.util.List java.util.concurrent.ExecutorService.invokeAll(java.util.Collection) throws
-     * java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_invokeAll_Collection()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.ExecutorService#submit(java.lang.Runnable,java.lang.Object) public
-     * abstract java.util.concurrent.Future
-     * java.util.concurrent.ExecutorService.submit(java.lang.Runnable,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_submit_Runnable_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -209,14 +208,15 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.ExecutorService#isTerminated() public abstract boolean
-     * java.util.concurrent.ExecutorService.isTerminated()}.
+     * Test method for {@link java.util.concurrent.ExecutorService#submit(java.lang.Runnable,java.lang.Object) public
+     * abstract java.util.concurrent.Future
+     * java.util.concurrent.ExecutorService.submit(java.lang.Runnable,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isTerminated()
+    public default void test_submit_Runnable_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

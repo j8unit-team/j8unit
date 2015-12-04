@@ -23,14 +23,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JCheckBox#updateUI() public void javax.swing.JCheckBox.updateUI()}.
+     * Test method for {@link javax.swing.JCheckBox#getAccessibleContext() public javax.accessibility.AccessibleContext
+     * javax.swing.JCheckBox.getAccessibleContext()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_updateUI()
+    public default void test_getAccessibleContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,6 +57,22 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
+     * Test method for {@link javax.swing.JCheckBox#isBorderPaintedFlat() public boolean
+     * javax.swing.JCheckBox.isBorderPaintedFlat()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isBorderPaintedFlat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.JCheckBox#setBorderPaintedFlat(boolean) public void
      * javax.swing.JCheckBox.setBorderPaintedFlat(boolean)}.
      * </p>
@@ -72,31 +89,14 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JCheckBox#getAccessibleContext() public javax.accessibility.AccessibleContext
-     * javax.swing.JCheckBox.getAccessibleContext()}.
+     * Test method for {@link javax.swing.JCheckBox#updateUI() public void javax.swing.JCheckBox.updateUI()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAccessibleContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JCheckBox#isBorderPaintedFlat() public boolean
-     * javax.swing.JCheckBox.isBorderPaintedFlat()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isBorderPaintedFlat()
+    public default void test_updateUI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -41,22 +41,6 @@ extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryTests<SUT>, 
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.ssl.SslRMIServerSocketFactory#getNeedClientAuth() public final boolean
-     * javax.rmi.ssl.SslRMIServerSocketFactory.getNeedClientAuth()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNeedClientAuth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.rmi.ssl.SslRMIServerSocketFactory#equals(java.lang.Object) public boolean
      * javax.rmi.ssl.SslRMIServerSocketFactory.equals(java.lang.Object)}.
      * </p>
@@ -66,23 +50,6 @@ extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryTests<SUT>, 
     @Category(Draft.class)
     @Override
     public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.rmi.ssl.SslRMIServerSocketFactory#hashCode() public int
-     * javax.rmi.ssl.SslRMIServerSocketFactory.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -115,6 +82,39 @@ extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryTests<SUT>, 
     @Test
     @Category(Draft.class)
     public default void test_getEnabledProtocols()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.rmi.ssl.SslRMIServerSocketFactory#getNeedClientAuth() public final boolean
+     * javax.rmi.ssl.SslRMIServerSocketFactory.getNeedClientAuth()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNeedClientAuth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.rmi.ssl.SslRMIServerSocketFactory#hashCode() public int
+     * javax.rmi.ssl.SslRMIServerSocketFactory.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

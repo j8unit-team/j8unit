@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.print.StreamPrintServiceFactory#getOutputFormat() public abstract java.lang.String
+     * javax.print.StreamPrintServiceFactory.getOutputFormat()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutputFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.print.StreamPrintServiceFactory#getPrintService(java.io.OutputStream) public
      * abstract javax.print.StreamPrintService
      * javax.print.StreamPrintServiceFactory.getPrintService(java.io.OutputStream)}.
@@ -32,22 +48,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getPrintService_OutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.StreamPrintServiceFactory#getOutputFormat() public abstract java.lang.String
-     * javax.print.StreamPrintServiceFactory.getOutputFormat()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOutputFormat()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

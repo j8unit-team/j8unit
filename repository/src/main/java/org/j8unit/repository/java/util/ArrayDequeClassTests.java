@@ -49,19 +49,6 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     }
 
     /**
-     * Test method for {@link java.util.ArrayDeque#ArrayDeque(int) public java.util.ArrayDeque(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ArrayDeque_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.ArrayDeque<E> sut = null; // = new ArrayDeque(int);
-    }
-
-    /**
      * Test method for {@link java.util.ArrayDeque#ArrayDeque(java.util.Collection) public
      * java.util.ArrayDeque(java.util.Collection)}.
      */
@@ -73,6 +60,19 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         // create new instance
         @SuppressWarnings("unused")
         final java.util.ArrayDeque<E> sut = null; // = new ArrayDeque(java.util.Collection);
+    }
+
+    /**
+     * Test method for {@link java.util.ArrayDeque#ArrayDeque(int) public java.util.ArrayDeque(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ArrayDeque_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.ArrayDeque<E> sut = null; // = new ArrayDeque(int);
     }
 
     @Override

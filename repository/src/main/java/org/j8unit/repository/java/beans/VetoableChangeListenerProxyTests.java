@@ -24,6 +24,22 @@ org.j8unit.repository.java.util.EventListenerProxyTests<SUT, java.beans.Vetoable
 
     /**
      * <p>
+     * Test method for {@link java.beans.VetoableChangeListenerProxy#getPropertyName() public java.lang.String
+     * java.beans.VetoableChangeListenerProxy.getPropertyName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPropertyName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.beans.VetoableChangeListenerProxy#vetoableChange(java.beans.PropertyChangeEvent)
      * public void java.beans.VetoableChangeListenerProxy.vetoableChange(java.beans.PropertyChangeEvent) throws
      * java.beans.PropertyVetoException}.
@@ -34,22 +50,6 @@ org.j8unit.repository.java.util.EventListenerProxyTests<SUT, java.beans.Vetoable
     @Category(Draft.class)
     @Override
     public default void test_vetoableChange_PropertyChangeEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.VetoableChangeListenerProxy#getPropertyName() public java.lang.String
-     * java.beans.VetoableChangeListenerProxy.getPropertyName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPropertyName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

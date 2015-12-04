@@ -23,15 +23,15 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.element.PackageElement#getQualifiedName() public abstract
-     * javax.lang.model.element.Name javax.lang.model.element.PackageElement.getQualifiedName()}.
+     * Test method for {@link javax.lang.model.element.PackageElement#getEnclosedElements() public abstract
+     * java.util.List javax.lang.model.element.PackageElement.getEnclosedElements()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getQualifiedName()
+    public default void test_getEnclosedElements()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,31 +57,15 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.element.PackageElement#isUnnamed() public abstract boolean
-     * javax.lang.model.element.PackageElement.isUnnamed()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isUnnamed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.element.PackageElement#getEnclosedElements() public abstract
-     * java.util.List javax.lang.model.element.PackageElement.getEnclosedElements()}.
+     * Test method for {@link javax.lang.model.element.PackageElement#getQualifiedName() public abstract
+     * javax.lang.model.element.Name javax.lang.model.element.PackageElement.getQualifiedName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getEnclosedElements()
+    public default void test_getQualifiedName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -99,6 +83,22 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT>, org.j8
     @Category(Draft.class)
     @Override
     public default void test_getSimpleName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.element.PackageElement#isUnnamed() public abstract boolean
+     * javax.lang.model.element.PackageElement.isUnnamed()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isUnnamed()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

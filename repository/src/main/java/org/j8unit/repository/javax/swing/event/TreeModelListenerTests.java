@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.TreeModelListener#treeNodesInserted(javax.swing.event.TreeModelEvent)
-     * public abstract void javax.swing.event.TreeModelListener.treeNodesInserted(javax.swing.event.TreeModelEvent)}.
+     * Test method for {@link javax.swing.event.TreeModelListener#treeNodesChanged(javax.swing.event.TreeModelEvent)
+     * public abstract void javax.swing.event.TreeModelListener.treeNodesChanged(javax.swing.event.TreeModelEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_treeNodesInserted_TreeModelEvent()
+    public default void test_treeNodesChanged_TreeModelEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,14 +39,14 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.TreeModelListener#treeStructureChanged(javax.swing.event.TreeModelEvent)
-     * public abstract void javax.swing.event.TreeModelListener.treeStructureChanged(javax.swing.event.TreeModelEvent)}.
+     * Test method for {@link javax.swing.event.TreeModelListener#treeNodesInserted(javax.swing.event.TreeModelEvent)
+     * public abstract void javax.swing.event.TreeModelListener.treeNodesInserted(javax.swing.event.TreeModelEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_treeStructureChanged_TreeModelEvent()
+    public default void test_treeNodesInserted_TreeModelEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +71,14 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.TreeModelListener#treeNodesChanged(javax.swing.event.TreeModelEvent)
-     * public abstract void javax.swing.event.TreeModelListener.treeNodesChanged(javax.swing.event.TreeModelEvent)}.
+     * Test method for {@link javax.swing.event.TreeModelListener#treeStructureChanged(javax.swing.event.TreeModelEvent)
+     * public abstract void javax.swing.event.TreeModelListener.treeStructureChanged(javax.swing.event.TreeModelEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_treeNodesChanged_TreeModelEvent()
+    public default void test_treeStructureChanged_TreeModelEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

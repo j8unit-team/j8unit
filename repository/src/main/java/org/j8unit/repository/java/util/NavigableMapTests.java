@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
+     * Test method for {@link java.util.NavigableMap#ceilingEntry(java.lang.Object) public abstract java.util.Map$Entry
+     * java.util.NavigableMap.ceilingEntry(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ceilingEntry_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.NavigableMap#ceilingKey(java.lang.Object) public abstract java.lang.Object
      * java.util.NavigableMap.ceilingKey(java.lang.Object)}.
      * </p>
@@ -31,120 +47,6 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
     @Test
     @Category(Draft.class)
     public default void test_ceilingKey_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.NavigableMap#pollLastEntry() public abstract java.util.Map$Entry
-     * java.util.NavigableMap.pollLastEntry()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_pollLastEntry()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.NavigableMap#navigableKeySet() public abstract java.util.NavigableSet
-     * java.util.NavigableMap.navigableKeySet()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_navigableKeySet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.NavigableMap#higherEntry(java.lang.Object) public abstract java.util.Map$Entry
-     * java.util.NavigableMap.higherEntry(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_higherEntry_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.NavigableMap#descendingMap() public abstract java.util.NavigableMap
-     * java.util.NavigableMap.descendingMap()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_descendingMap()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.NavigableMap#floorEntry(java.lang.Object) public abstract java.util.Map$Entry
-     * java.util.NavigableMap.floorEntry(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_floorEntry_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.NavigableMap#subMap(java.lang.Object,java.lang.Object) public abstract
-     * java.util.SortedMap java.util.NavigableMap.subMap(java.lang.Object,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_subMap_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.NavigableMap#subMap(java.lang.Object,boolean,java.lang.Object,boolean) public
-     * abstract java.util.NavigableMap java.util.NavigableMap.subMap(java.lang.Object,boolean,java.lang.Object,boolean)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_subMap_Object_boolean_Object_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -169,95 +71,14 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.NavigableMap#floorKey(java.lang.Object) public abstract java.lang.Object
-     * java.util.NavigableMap.floorKey(java.lang.Object)}.
+     * Test method for {@link java.util.NavigableMap#descendingMap() public abstract java.util.NavigableMap
+     * java.util.NavigableMap.descendingMap()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_floorKey_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.NavigableMap#lowerEntry(java.lang.Object) public abstract java.util.Map$Entry
-     * java.util.NavigableMap.lowerEntry(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lowerEntry_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.NavigableMap#ceilingEntry(java.lang.Object) public abstract java.util.Map$Entry
-     * java.util.NavigableMap.ceilingEntry(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ceilingEntry_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.NavigableMap#tailMap(java.lang.Object,boolean) public abstract
-     * java.util.NavigableMap java.util.NavigableMap.tailMap(java.lang.Object,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_tailMap_Object_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.NavigableMap#tailMap(java.lang.Object) public abstract java.util.SortedMap
-     * java.util.NavigableMap.tailMap(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_tailMap_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.NavigableMap#lowerKey(java.lang.Object) public abstract java.lang.Object
-     * java.util.NavigableMap.lowerKey(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lowerKey_Object()
+    public default void test_descendingMap()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -282,14 +103,30 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.NavigableMap#headMap(java.lang.Object,boolean) public abstract
-     * java.util.NavigableMap java.util.NavigableMap.headMap(java.lang.Object,boolean)}.
+     * Test method for {@link java.util.NavigableMap#floorEntry(java.lang.Object) public abstract java.util.Map$Entry
+     * java.util.NavigableMap.floorEntry(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_headMap_Object_boolean()
+    public default void test_floorEntry_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.NavigableMap#floorKey(java.lang.Object) public abstract java.lang.Object
+     * java.util.NavigableMap.floorKey(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_floorKey_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -315,6 +152,38 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
+     * Test method for {@link java.util.NavigableMap#headMap(java.lang.Object,boolean) public abstract
+     * java.util.NavigableMap java.util.NavigableMap.headMap(java.lang.Object,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_headMap_Object_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.NavigableMap#higherEntry(java.lang.Object) public abstract java.util.Map$Entry
+     * java.util.NavigableMap.higherEntry(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_higherEntry_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.NavigableMap#higherKey(java.lang.Object) public abstract java.lang.Object
      * java.util.NavigableMap.higherKey(java.lang.Object)}.
      * </p>
@@ -323,6 +192,70 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
     @Test
     @Category(Draft.class)
     public default void test_higherKey_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.NavigableMap#lastEntry() public abstract java.util.Map$Entry
+     * java.util.NavigableMap.lastEntry()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lastEntry()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.NavigableMap#lowerEntry(java.lang.Object) public abstract java.util.Map$Entry
+     * java.util.NavigableMap.lowerEntry(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lowerEntry_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.NavigableMap#lowerKey(java.lang.Object) public abstract java.lang.Object
+     * java.util.NavigableMap.lowerKey(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lowerKey_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.NavigableMap#navigableKeySet() public abstract java.util.NavigableSet
+     * java.util.NavigableMap.navigableKeySet()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_navigableKeySet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -347,14 +280,81 @@ extends org.j8unit.repository.java.util.SortedMapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.NavigableMap#lastEntry() public abstract java.util.Map$Entry
-     * java.util.NavigableMap.lastEntry()}.
+     * Test method for {@link java.util.NavigableMap#pollLastEntry() public abstract java.util.Map$Entry
+     * java.util.NavigableMap.pollLastEntry()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_lastEntry()
+    public default void test_pollLastEntry()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.NavigableMap#subMap(java.lang.Object,boolean,java.lang.Object,boolean) public
+     * abstract java.util.NavigableMap java.util.NavigableMap.subMap(java.lang.Object,boolean,java.lang.Object,boolean)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_subMap_Object_boolean_Object_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.NavigableMap#subMap(java.lang.Object,java.lang.Object) public abstract
+     * java.util.SortedMap java.util.NavigableMap.subMap(java.lang.Object,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_subMap_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.NavigableMap#tailMap(java.lang.Object) public abstract java.util.SortedMap
+     * java.util.NavigableMap.tailMap(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_tailMap_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.NavigableMap#tailMap(java.lang.Object,boolean) public abstract
+     * java.util.NavigableMap java.util.NavigableMap.tailMap(java.lang.Object,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_tailMap_Object_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

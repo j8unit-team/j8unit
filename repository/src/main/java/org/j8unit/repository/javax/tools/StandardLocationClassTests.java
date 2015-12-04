@@ -36,26 +36,16 @@ public abstract interface StandardLocationClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClassTests<SUT>,
 org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.tools.StandardLocation> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.tools.StandardLocation> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.tools.StandardLocation.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link javax.tools.StandardLocation#values() public static javax.tools.StandardLocation[]
-     * javax.tools.StandardLocation.values()}.
+     * Test method for {@link javax.tools.StandardLocation#locationFor(java.lang.String) public static
+     * javax.tools.JavaFileManager$Location javax.tools.StandardLocation.locationFor(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_values()
+    public default void test_locationFor_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -80,18 +70,28 @@ org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.tools.StandardLocation
 
     /**
      * <p>
-     * Test method for {@link javax.tools.StandardLocation#locationFor(java.lang.String) public static
-     * javax.tools.JavaFileManager$Location javax.tools.StandardLocation.locationFor(java.lang.String)}.
+     * Test method for {@link javax.tools.StandardLocation#values() public static javax.tools.StandardLocation[]
+     * javax.tools.StandardLocation.values()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_locationFor_String()
+    public default void test_values()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.tools.StandardLocation> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.tools.StandardLocation.class.isAssignableFrom(sut));
     }
 
 }

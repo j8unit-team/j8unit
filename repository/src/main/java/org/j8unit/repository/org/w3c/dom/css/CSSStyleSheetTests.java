@@ -23,22 +23,6 @@ extends org.j8unit.repository.org.w3c.dom.stylesheets.StyleSheetTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.css.CSSStyleSheet#getCssRules() public abstract org.w3c.dom.css.CSSRuleList
-     * org.w3c.dom.css.CSSStyleSheet.getCssRules()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCssRules()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.css.CSSStyleSheet#deleteRule(int) public abstract void
      * org.w3c.dom.css.CSSStyleSheet.deleteRule(int) throws org.w3c.dom.DOMException}.
      * </p>
@@ -55,14 +39,14 @@ extends org.j8unit.repository.org.w3c.dom.stylesheets.StyleSheetTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.css.CSSStyleSheet#insertRule(java.lang.String,int) public abstract int
-     * org.w3c.dom.css.CSSStyleSheet.insertRule(java.lang.String,int) throws org.w3c.dom.DOMException}.
+     * Test method for {@link org.w3c.dom.css.CSSStyleSheet#getCssRules() public abstract org.w3c.dom.css.CSSRuleList
+     * org.w3c.dom.css.CSSStyleSheet.getCssRules()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_insertRule_String_int()
+    public default void test_getCssRules()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,6 +63,22 @@ extends org.j8unit.repository.org.w3c.dom.stylesheets.StyleSheetTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getOwnerRule()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.css.CSSStyleSheet#insertRule(java.lang.String,int) public abstract int
+     * org.w3c.dom.css.CSSStyleSheet.insertRule(java.lang.String,int) throws org.w3c.dom.DOMException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insertRule_String_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

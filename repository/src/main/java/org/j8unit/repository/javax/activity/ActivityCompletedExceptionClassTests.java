@@ -36,6 +36,35 @@ public abstract interface ActivityCompletedExceptionClassTests<SUT extends Class
 extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.activity.ActivityCompletedException#ActivityCompletedException() public
+     * javax.activity.ActivityCompletedException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ActivityCompletedException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.activity.ActivityCompletedException sut = null; // = new ActivityCompletedException();
+    }
+
+    /**
+     * Test method for {@link javax.activity.ActivityCompletedException#ActivityCompletedException(java.lang.String)
+     * public javax.activity.ActivityCompletedException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ActivityCompletedException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.activity.ActivityCompletedException sut = null; // = new
+                                                                    // ActivityCompletedException(java.lang.String);
+    }
+
+    /**
      * Test method for
      * {@link javax.activity.ActivityCompletedException#ActivityCompletedException(java.lang.String,java.lang.Throwable)
      * public javax.activity.ActivityCompletedException(java.lang.String,java.lang.Throwable)}.
@@ -64,35 +93,6 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.activity.ActivityCompletedException sut = null; // = new
                                                                     // ActivityCompletedException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link javax.activity.ActivityCompletedException#ActivityCompletedException(java.lang.String)
-     * public javax.activity.ActivityCompletedException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ActivityCompletedException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.activity.ActivityCompletedException sut = null; // = new
-                                                                    // ActivityCompletedException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.activity.ActivityCompletedException#ActivityCompletedException() public
-     * javax.activity.ActivityCompletedException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ActivityCompletedException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.activity.ActivityCompletedException sut = null; // = new ActivityCompletedException();
     }
 
     @Override

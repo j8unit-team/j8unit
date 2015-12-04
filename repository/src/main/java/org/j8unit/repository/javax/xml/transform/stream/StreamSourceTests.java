@@ -23,15 +23,14 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.stream.StreamSource#setSystemId(java.lang.String) public void
-     * javax.xml.transform.stream.StreamSource.setSystemId(java.lang.String)}.
+     * Test method for {@link javax.xml.transform.stream.StreamSource#getInputStream() public java.io.InputStream
+     * javax.xml.transform.stream.StreamSource.getInputStream()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_setSystemId_String()
+    public default void test_getInputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,30 +39,14 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.stream.StreamSource#setSystemId(java.io.File) public void
-     * javax.xml.transform.stream.StreamSource.setSystemId(java.io.File)}.
+     * Test method for {@link javax.xml.transform.stream.StreamSource#getPublicId() public java.lang.String
+     * javax.xml.transform.stream.StreamSource.getPublicId()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSystemId_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.stream.StreamSource#setInputStream(java.io.InputStream) public void
-     * javax.xml.transform.stream.StreamSource.setInputStream(java.io.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setInputStream_InputStream()
+    public default void test_getPublicId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -80,22 +63,6 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_getReader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.stream.StreamSource#setReader(java.io.Reader) public void
-     * javax.xml.transform.stream.StreamSource.setReader(java.io.Reader)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setReader_Reader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,30 +88,14 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.stream.StreamSource#getPublicId() public java.lang.String
-     * javax.xml.transform.stream.StreamSource.getPublicId()}.
+     * Test method for {@link javax.xml.transform.stream.StreamSource#setInputStream(java.io.InputStream) public void
+     * javax.xml.transform.stream.StreamSource.setInputStream(java.io.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPublicId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.stream.StreamSource#getInputStream() public java.io.InputStream
-     * javax.xml.transform.stream.StreamSource.getInputStream()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInputStream()
+    public default void test_setInputStream_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -161,6 +112,55 @@ extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_setPublicId_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.stream.StreamSource#setReader(java.io.Reader) public void
+     * javax.xml.transform.stream.StreamSource.setReader(java.io.Reader)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setReader_Reader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.stream.StreamSource#setSystemId(java.io.File) public void
+     * javax.xml.transform.stream.StreamSource.setSystemId(java.io.File)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSystemId_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.stream.StreamSource#setSystemId(java.lang.String) public void
+     * javax.xml.transform.stream.StreamSource.setSystemId(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setSystemId_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

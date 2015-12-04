@@ -24,22 +24,6 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.UnsolicitedNotificationEvent#getNotification() public
-     * javax.naming.ldap.UnsolicitedNotification javax.naming.ldap.UnsolicitedNotificationEvent.getNotification()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNotification()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.naming.ldap.UnsolicitedNotificationEvent#dispatch(javax.naming.ldap.UnsolicitedNotificationListener)
      * public void
@@ -50,6 +34,22 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_dispatch_UnsolicitedNotificationListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.ldap.UnsolicitedNotificationEvent#getNotification() public
+     * javax.naming.ldap.UnsolicitedNotification javax.naming.ldap.UnsolicitedNotificationEvent.getNotification()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNotification()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

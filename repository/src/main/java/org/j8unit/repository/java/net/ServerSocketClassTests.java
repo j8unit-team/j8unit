@@ -35,31 +35,17 @@ public abstract interface ServerSocketClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.net.ServerSocket#ServerSocket(int,int,java.net.InetAddress) public
-     * java.net.ServerSocket(int,int,java.net.InetAddress) throws java.io.IOException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ServerSocket_int_int_InetAddress()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.ServerSocket sut = null; // = new ServerSocket(int,int,java.net.InetAddress);
-    }
-
-    /**
-     * Test method for {@link java.net.ServerSocket#ServerSocket(int,int) public java.net.ServerSocket(int,int) throws
+     * Test method for {@link java.net.ServerSocket#ServerSocket() public java.net.ServerSocket() throws
      * java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ServerSocket_int_int()
+    public default void create_ServerSocket()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.net.ServerSocket sut = null; // = new ServerSocket(int,int);
+        final java.net.ServerSocket sut = null; // = new ServerSocket();
     }
 
     /**
@@ -77,27 +63,31 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
     }
 
     /**
-     * Test method for {@link java.net.ServerSocket#ServerSocket() public java.net.ServerSocket() throws
+     * Test method for {@link java.net.ServerSocket#ServerSocket(int,int) public java.net.ServerSocket(int,int) throws
      * java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ServerSocket()
+    public default void create_ServerSocket_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.net.ServerSocket sut = null; // = new ServerSocket();
+        final java.net.ServerSocket sut = null; // = new ServerSocket(int,int);
     }
 
-    @Override
+    /**
+     * Test method for {@link java.net.ServerSocket#ServerSocket(int,int,java.net.InetAddress) public
+     * java.net.ServerSocket(int,int,java.net.InetAddress) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_ServerSocket_int_int_InetAddress()
     throws Exception {
         // create new instance
-        final Class<? extends java.net.ServerSocket> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.net.ServerSocket.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final java.net.ServerSocket sut = null; // = new ServerSocket(int,int,java.net.InetAddress);
     }
 
     /**
@@ -114,6 +104,16 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.net.ServerSocket> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.ServerSocket.class.isAssignableFrom(sut));
     }
 
 }

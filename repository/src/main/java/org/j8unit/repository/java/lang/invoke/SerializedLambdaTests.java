@@ -23,38 +23,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.SerializedLambda#getImplMethodName() public java.lang.String
-     * java.lang.invoke.SerializedLambda.getImplMethodName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImplMethodName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.SerializedLambda#getImplClass() public java.lang.String
-     * java.lang.invoke.SerializedLambda.getImplClass()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImplClass()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.invoke.SerializedLambda#getCapturedArg(int) public java.lang.Object
      * java.lang.invoke.SerializedLambda.getCapturedArg(int)}.
      * </p>
@@ -63,38 +31,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_getCapturedArg_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.SerializedLambda#getCapturingClass() public java.lang.String
-     * java.lang.invoke.SerializedLambda.getCapturingClass()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCapturingClass()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.SerializedLambda#getFunctionalInterfaceMethodSignature() public
-     * java.lang.String java.lang.invoke.SerializedLambda.getFunctionalInterfaceMethodSignature()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFunctionalInterfaceMethodSignature()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,30 +55,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.SerializedLambda#getFunctionalInterfaceMethodName() public
-     * java.lang.String java.lang.invoke.SerializedLambda.getFunctionalInterfaceMethodName()}.
+     * Test method for {@link java.lang.invoke.SerializedLambda#getCapturingClass() public java.lang.String
+     * java.lang.invoke.SerializedLambda.getCapturingClass()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getFunctionalInterfaceMethodName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.SerializedLambda#getImplMethodSignature() public java.lang.String
-     * java.lang.invoke.SerializedLambda.getImplMethodSignature()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImplMethodSignature()
+    public default void test_getCapturingClass()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -167,15 +87,46 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.SerializedLambda#toString() public java.lang.String
-     * java.lang.invoke.SerializedLambda.toString()}.
+     * Test method for {@link java.lang.invoke.SerializedLambda#getFunctionalInterfaceMethodName() public
+     * java.lang.String java.lang.invoke.SerializedLambda.getFunctionalInterfaceMethodName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getFunctionalInterfaceMethodName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.SerializedLambda#getFunctionalInterfaceMethodSignature() public
+     * java.lang.String java.lang.invoke.SerializedLambda.getFunctionalInterfaceMethodSignature()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFunctionalInterfaceMethodSignature()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.SerializedLambda#getImplClass() public java.lang.String
+     * java.lang.invoke.SerializedLambda.getImplClass()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImplClass()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -200,6 +151,38 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link java.lang.invoke.SerializedLambda#getImplMethodName() public java.lang.String
+     * java.lang.invoke.SerializedLambda.getImplMethodName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImplMethodName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.SerializedLambda#getImplMethodSignature() public java.lang.String
+     * java.lang.invoke.SerializedLambda.getImplMethodSignature()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImplMethodSignature()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.lang.invoke.SerializedLambda#getInstantiatedMethodType() public final
      * java.lang.String java.lang.invoke.SerializedLambda.getInstantiatedMethodType()}.
      * </p>
@@ -208,6 +191,23 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_getInstantiatedMethodType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.SerializedLambda#toString() public java.lang.String
+     * java.lang.invoke.SerializedLambda.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

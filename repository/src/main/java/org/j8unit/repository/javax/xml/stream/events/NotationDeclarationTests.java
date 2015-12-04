@@ -24,22 +24,6 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.events.NotationDeclaration#getPublicId() public abstract java.lang.String
-     * javax.xml.stream.events.NotationDeclaration.getPublicId()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPublicId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.stream.events.NotationDeclaration#getName() public abstract java.lang.String
      * javax.xml.stream.events.NotationDeclaration.getName()}.
      * </p>
@@ -48,6 +32,22 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.events.NotationDeclaration#getPublicId() public abstract java.lang.String
+     * javax.xml.stream.events.NotationDeclaration.getPublicId()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPublicId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

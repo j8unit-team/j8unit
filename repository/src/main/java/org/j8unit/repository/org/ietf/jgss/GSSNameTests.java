@@ -24,37 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.GSSName#toString() public abstract java.lang.String
-     * org.ietf.jgss.GSSName.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.ietf.jgss.GSSName#isMN() public abstract boolean org.ietf.jgss.GSSName.isMN()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isMN()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.ietf.jgss.GSSName#canonicalize(org.ietf.jgss.Oid) public abstract
      * org.ietf.jgss.GSSName org.ietf.jgss.GSSName.canonicalize(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
      * </p>
@@ -63,53 +32,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_canonicalize_Oid()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.ietf.jgss.GSSName#export() public abstract byte[] org.ietf.jgss.GSSName.export()
-     * throws org.ietf.jgss.GSSException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_export()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.ietf.jgss.GSSName#isAnonymous() public abstract boolean
-     * org.ietf.jgss.GSSName.isAnonymous()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isAnonymous()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.ietf.jgss.GSSName#hashCode() public abstract int org.ietf.jgss.GSSName.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -150,6 +72,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.ietf.jgss.GSSName#export() public abstract byte[] org.ietf.jgss.GSSName.export()
+     * throws org.ietf.jgss.GSSException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_export()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.ietf.jgss.GSSName#getStringNameType() public abstract org.ietf.jgss.Oid
      * org.ietf.jgss.GSSName.getStringNameType() throws org.ietf.jgss.GSSException}.
      * </p>
@@ -158,6 +96,68 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getStringNameType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.ietf.jgss.GSSName#hashCode() public abstract int org.ietf.jgss.GSSName.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.ietf.jgss.GSSName#isAnonymous() public abstract boolean
+     * org.ietf.jgss.GSSName.isAnonymous()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isAnonymous()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.ietf.jgss.GSSName#isMN() public abstract boolean org.ietf.jgss.GSSName.isMN()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isMN()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.ietf.jgss.GSSName#toString() public abstract java.lang.String
+     * org.ietf.jgss.GSSName.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

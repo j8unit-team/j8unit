@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableServer.portable.Delegate#non_existent(org.omg.PortableServer.Servant)
-     * public abstract boolean org.omg.PortableServer.portable.Delegate.non_existent(org.omg.PortableServer.Servant)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_non_existent_Servant()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.PortableServer.portable.Delegate#default_POA(org.omg.PortableServer.Servant)
      * public abstract org.omg.PortableServer.POA
      * org.omg.PortableServer.portable.Delegate.default_POA(org.omg.PortableServer.Servant)}.
@@ -57,14 +41,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableServer.portable.Delegate#object_id(org.omg.PortableServer.Servant) public
-     * abstract byte[] org.omg.PortableServer.portable.Delegate.object_id(org.omg.PortableServer.Servant)}.
+     * Test method for {@link org.omg.PortableServer.portable.Delegate#get_interface_def(org.omg.PortableServer.Servant)
+     * public abstract org.omg.CORBA.Object
+     * org.omg.PortableServer.portable.Delegate.get_interface_def(org.omg.PortableServer.Servant)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_object_id_Servant()
+    public default void test_get_interface_def_Servant()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -90,14 +75,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableServer.portable.Delegate#orb(org.omg.PortableServer.Servant) public
-     * abstract org.omg.CORBA.ORB org.omg.PortableServer.portable.Delegate.orb(org.omg.PortableServer.Servant)}.
+     * Test method for {@link org.omg.PortableServer.portable.Delegate#non_existent(org.omg.PortableServer.Servant)
+     * public abstract boolean org.omg.PortableServer.portable.Delegate.non_existent(org.omg.PortableServer.Servant)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_orb_Servant()
+    public default void test_non_existent_Servant()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,15 +91,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableServer.portable.Delegate#this_object(org.omg.PortableServer.Servant)
-     * public abstract org.omg.CORBA.Object
-     * org.omg.PortableServer.portable.Delegate.this_object(org.omg.PortableServer.Servant)}.
+     * Test method for {@link org.omg.PortableServer.portable.Delegate#object_id(org.omg.PortableServer.Servant) public
+     * abstract byte[] org.omg.PortableServer.portable.Delegate.object_id(org.omg.PortableServer.Servant)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_this_object_Servant()
+    public default void test_object_id_Servant()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.portable.Delegate#orb(org.omg.PortableServer.Servant) public
+     * abstract org.omg.CORBA.ORB org.omg.PortableServer.portable.Delegate.orb(org.omg.PortableServer.Servant)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_orb_Servant()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -140,15 +140,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableServer.portable.Delegate#get_interface_def(org.omg.PortableServer.Servant)
+     * Test method for {@link org.omg.PortableServer.portable.Delegate#this_object(org.omg.PortableServer.Servant)
      * public abstract org.omg.CORBA.Object
-     * org.omg.PortableServer.portable.Delegate.get_interface_def(org.omg.PortableServer.Servant)}.
+     * org.omg.PortableServer.portable.Delegate.this_object(org.omg.PortableServer.Servant)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get_interface_def_Servant()
+    public default void test_this_object_Servant()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

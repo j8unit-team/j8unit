@@ -36,17 +36,31 @@ public abstract interface CertificateExceptionClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.cert.CertificateException#CertificateException(java.lang.Throwable) public
-     * java.security.cert.CertificateException(java.lang.Throwable)}.
+     * Test method for {@link java.security.cert.CertificateException#CertificateException() public
+     * java.security.cert.CertificateException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_CertificateException_Throwable()
+    public default void create_CertificateException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.cert.CertificateException sut = null; // = new CertificateException(java.lang.Throwable);
+        final java.security.cert.CertificateException sut = null; // = new CertificateException();
+    }
+
+    /**
+     * Test method for {@link java.security.cert.CertificateException#CertificateException(java.lang.String) public
+     * java.security.cert.CertificateException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CertificateException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CertificateException sut = null; // = new CertificateException(java.lang.String);
     }
 
     /**
@@ -66,31 +80,17 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     }
 
     /**
-     * Test method for {@link java.security.cert.CertificateException#CertificateException(java.lang.String) public
-     * java.security.cert.CertificateException(java.lang.String)}.
+     * Test method for {@link java.security.cert.CertificateException#CertificateException(java.lang.Throwable) public
+     * java.security.cert.CertificateException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_CertificateException_String()
+    public default void create_CertificateException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.cert.CertificateException sut = null; // = new CertificateException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.security.cert.CertificateException#CertificateException() public
-     * java.security.cert.CertificateException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CertificateException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CertificateException sut = null; // = new CertificateException();
+        final java.security.cert.CertificateException sut = null; // = new CertificateException(java.lang.Throwable);
     }
 
     @Override

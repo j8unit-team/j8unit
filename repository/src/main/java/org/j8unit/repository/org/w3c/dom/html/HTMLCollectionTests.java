@@ -24,6 +24,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLCollection#getLength() public abstract int
+     * org.w3c.dom.html.HTMLCollection.getLength()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLength()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLCollection#item(int) public abstract org.w3c.dom.Node
      * org.w3c.dom.html.HTMLCollection.item(int)}.
      * </p>
@@ -48,22 +64,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_namedItem_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLCollection#getLength() public abstract int
-     * org.w3c.dom.html.HTMLCollection.getLength()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

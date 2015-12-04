@@ -48,16 +48,6 @@ extends org.j8unit.repository.java.awt.TransparencyClassTests<SUT>, org.j8unit.r
         final java.awt.image.ColorModel sut = null; // = new ColorModel(int);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.image.ColorModel> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.image.ColorModel.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.awt.image.ColorModel#getRGBdefault() public static java.awt.image.ColorModel
@@ -72,6 +62,16 @@ extends org.j8unit.repository.java.awt.TransparencyClassTests<SUT>, org.j8unit.r
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.image.ColorModel> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.image.ColorModel.class.isAssignableFrom(sut));
     }
 
 }

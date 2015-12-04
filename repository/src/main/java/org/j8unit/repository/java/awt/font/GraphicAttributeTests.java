@@ -39,30 +39,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GraphicAttribute#getBounds() public java.awt.geom.Rectangle2D
-     * java.awt.font.GraphicAttribute.getBounds()}.
+     * Test method for {@link java.awt.font.GraphicAttribute#getAdvance() public abstract float
+     * java.awt.font.GraphicAttribute.getAdvance()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBounds()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.GraphicAttribute#getDescent() public abstract float
-     * java.awt.font.GraphicAttribute.getDescent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDescent()
+    public default void test_getAdvance()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +87,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GraphicAttribute#getOutline(java.awt.geom.AffineTransform) public
-     * java.awt.Shape java.awt.font.GraphicAttribute.getOutline(java.awt.geom.AffineTransform)}.
+     * Test method for {@link java.awt.font.GraphicAttribute#getBounds() public java.awt.geom.Rectangle2D
+     * java.awt.font.GraphicAttribute.getBounds()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOutline_AffineTransform()
+    public default void test_getBounds()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +103,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GraphicAttribute#getAdvance() public abstract float
-     * java.awt.font.GraphicAttribute.getAdvance()}.
+     * Test method for {@link java.awt.font.GraphicAttribute#getDescent() public abstract float
+     * java.awt.font.GraphicAttribute.getDescent()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAdvance()
+    public default void test_getDescent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,6 +127,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getJustificationInfo()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.GraphicAttribute#getOutline(java.awt.geom.AffineTransform) public
+     * java.awt.Shape java.awt.font.GraphicAttribute.getOutline(java.awt.geom.AffineTransform)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutline_AffineTransform()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

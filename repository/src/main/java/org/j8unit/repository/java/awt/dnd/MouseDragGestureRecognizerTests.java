@@ -24,6 +24,74 @@ org.j8unit.repository.java.awt.dnd.DragGestureRecognizerTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.dnd.MouseDragGestureRecognizer#mouseClicked(java.awt.event.MouseEvent) public
+     * void java.awt.dnd.MouseDragGestureRecognizer.mouseClicked(java.awt.event.MouseEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_mouseClicked_MouseEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.MouseDragGestureRecognizer#mouseDragged(java.awt.event.MouseEvent) public
+     * void java.awt.dnd.MouseDragGestureRecognizer.mouseDragged(java.awt.event.MouseEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_mouseDragged_MouseEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.MouseDragGestureRecognizer#mouseEntered(java.awt.event.MouseEvent) public
+     * void java.awt.dnd.MouseDragGestureRecognizer.mouseEntered(java.awt.event.MouseEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_mouseEntered_MouseEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.dnd.MouseDragGestureRecognizer#mouseExited(java.awt.event.MouseEvent) public void
+     * java.awt.dnd.MouseDragGestureRecognizer.mouseExited(java.awt.event.MouseEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_mouseExited_MouseEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.dnd.MouseDragGestureRecognizer#mouseMoved(java.awt.event.MouseEvent) public void
      * java.awt.dnd.MouseDragGestureRecognizer.mouseMoved(java.awt.event.MouseEvent)}.
      * </p>
@@ -67,74 +135,6 @@ org.j8unit.repository.java.awt.dnd.DragGestureRecognizerTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_mouseReleased_MouseEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.MouseDragGestureRecognizer#mouseEntered(java.awt.event.MouseEvent) public
-     * void java.awt.dnd.MouseDragGestureRecognizer.mouseEntered(java.awt.event.MouseEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_mouseEntered_MouseEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.MouseDragGestureRecognizer#mouseDragged(java.awt.event.MouseEvent) public
-     * void java.awt.dnd.MouseDragGestureRecognizer.mouseDragged(java.awt.event.MouseEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_mouseDragged_MouseEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.MouseDragGestureRecognizer#mouseExited(java.awt.event.MouseEvent) public void
-     * java.awt.dnd.MouseDragGestureRecognizer.mouseExited(java.awt.event.MouseEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_mouseExited_MouseEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.dnd.MouseDragGestureRecognizer#mouseClicked(java.awt.event.MouseEvent) public
-     * void java.awt.dnd.MouseDragGestureRecognizer.mouseClicked(java.awt.event.MouseEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_mouseClicked_MouseEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

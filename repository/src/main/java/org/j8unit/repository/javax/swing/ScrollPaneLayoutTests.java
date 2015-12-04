@@ -24,51 +24,19 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ScrollPaneLayout#getVerticalScrollBarPolicy() public int
-     * javax.swing.ScrollPaneLayout.getVerticalScrollBarPolicy()}.
+     * Test class for {@link javax.swing.ScrollPaneLayout$UIResource class javax.swing.ScrollPaneLayout$UIResource},
+     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
      * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests.UIResourceClassTests
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVerticalScrollBarPolicy()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    @Category(J8UnitRepository.class)
+    public static abstract interface UIResourceTests<SUT extends javax.swing.ScrollPaneLayout.UIResource>
+    extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.repository.javax.swing.ScrollPaneLayoutTests<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ScrollPaneLayout#layoutContainer(java.awt.Container) public void
-     * javax.swing.ScrollPaneLayout.layoutContainer(java.awt.Container)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_layoutContainer_Container()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ScrollPaneLayout#getRowHeader() public javax.swing.JViewport
-     * javax.swing.ScrollPaneLayout.getRowHeader()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowHeader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
     }
 
     /**
@@ -90,79 +58,14 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ScrollPaneLayout#getVerticalScrollBar() public javax.swing.JScrollBar
-     * javax.swing.ScrollPaneLayout.getVerticalScrollBar()}.
+     * Test method for {@link javax.swing.ScrollPaneLayout#getColumnHeader() public javax.swing.JViewport
+     * javax.swing.ScrollPaneLayout.getColumnHeader()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getVerticalScrollBar()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ScrollPaneLayout#syncWithScrollPane(javax.swing.JScrollPane) public void
-     * javax.swing.ScrollPaneLayout.syncWithScrollPane(javax.swing.JScrollPane)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_syncWithScrollPane_JScrollPane()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ScrollPaneLayout#setHorizontalScrollBarPolicy(int) public void
-     * javax.swing.ScrollPaneLayout.setHorizontalScrollBarPolicy(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setHorizontalScrollBarPolicy_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ScrollPaneLayout#minimumLayoutSize(java.awt.Container) public
-     * java.awt.Dimension javax.swing.ScrollPaneLayout.minimumLayoutSize(java.awt.Container)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_minimumLayoutSize_Container()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ScrollPaneLayout#getViewport() public javax.swing.JViewport
-     * javax.swing.ScrollPaneLayout.getViewport()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getViewport()
+    public default void test_getColumnHeader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -203,6 +106,86 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
+     * Test method for {@link javax.swing.ScrollPaneLayout#getHorizontalScrollBarPolicy() public int
+     * javax.swing.ScrollPaneLayout.getHorizontalScrollBarPolicy()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHorizontalScrollBarPolicy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ScrollPaneLayout#getRowHeader() public javax.swing.JViewport
+     * javax.swing.ScrollPaneLayout.getRowHeader()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRowHeader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ScrollPaneLayout#getVerticalScrollBar() public javax.swing.JScrollBar
+     * javax.swing.ScrollPaneLayout.getVerticalScrollBar()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVerticalScrollBar()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ScrollPaneLayout#getVerticalScrollBarPolicy() public int
+     * javax.swing.ScrollPaneLayout.getVerticalScrollBarPolicy()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVerticalScrollBarPolicy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ScrollPaneLayout#getViewport() public javax.swing.JViewport
+     * javax.swing.ScrollPaneLayout.getViewport()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getViewport()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#getViewportBorderBounds(javax.swing.JScrollPane) public
      * java.awt.Rectangle javax.swing.ScrollPaneLayout.getViewportBorderBounds(javax.swing.JScrollPane)}.
      * </p>
@@ -219,14 +202,15 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ScrollPaneLayout#setVerticalScrollBarPolicy(int) public void
-     * javax.swing.ScrollPaneLayout.setVerticalScrollBarPolicy(int)}.
+     * Test method for {@link javax.swing.ScrollPaneLayout#layoutContainer(java.awt.Container) public void
+     * javax.swing.ScrollPaneLayout.layoutContainer(java.awt.Container)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setVerticalScrollBarPolicy_int()
+    @Override
+    public default void test_layoutContainer_Container()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -235,14 +219,15 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ScrollPaneLayout#getHorizontalScrollBarPolicy() public int
-     * javax.swing.ScrollPaneLayout.getHorizontalScrollBarPolicy()}.
+     * Test method for {@link javax.swing.ScrollPaneLayout#minimumLayoutSize(java.awt.Container) public
+     * java.awt.Dimension javax.swing.ScrollPaneLayout.minimumLayoutSize(java.awt.Container)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getHorizontalScrollBarPolicy()
+    @Override
+    public default void test_minimumLayoutSize_Container()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -268,22 +253,6 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ScrollPaneLayout#getColumnHeader() public javax.swing.JViewport
-     * javax.swing.ScrollPaneLayout.getColumnHeader()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getColumnHeader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.ScrollPaneLayout#removeLayoutComponent(java.awt.Component) public void
      * javax.swing.ScrollPaneLayout.removeLayoutComponent(java.awt.Component)}.
      * </p>
@@ -301,19 +270,50 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test class for {@link javax.swing.ScrollPaneLayout$UIResource class javax.swing.ScrollPaneLayout$UIResource},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Test method for {@link javax.swing.ScrollPaneLayout#setHorizontalScrollBarPolicy(int) public void
+     * javax.swing.ScrollPaneLayout.setHorizontalScrollBarPolicy(int)}.
      * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests.UIResourceClassTests
      */
-    @Category(J8UnitRepository.class)
-    public static abstract interface UIResourceTests<SUT extends javax.swing.ScrollPaneLayout.UIResource>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.repository.javax.swing.ScrollPaneLayoutTests<SUT> {
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setHorizontalScrollBarPolicy_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ScrollPaneLayout#setVerticalScrollBarPolicy(int) public void
+     * javax.swing.ScrollPaneLayout.setVerticalScrollBarPolicy(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setVerticalScrollBarPolicy_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ScrollPaneLayout#syncWithScrollPane(javax.swing.JScrollPane) public void
+     * javax.swing.ScrollPaneLayout.syncWithScrollPane(javax.swing.JScrollPane)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_syncWithScrollPane_JScrollPane()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

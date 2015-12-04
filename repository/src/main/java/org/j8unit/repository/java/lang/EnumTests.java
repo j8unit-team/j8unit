@@ -24,14 +24,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Enum#hashCode() public final int java.lang.Enum.hashCode()}.
+     * Test method for {@link java.lang.Enum#compareTo(java.lang.Enum) public final int
+     * java.lang.Enum.compareTo(java.lang.Enum)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
+    public default void test_compareTo_Enum()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,13 +73,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Enum#ordinal() public final int java.lang.Enum.ordinal()}.
+     * Test method for {@link java.lang.Enum#hashCode() public final int java.lang.Enum.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ordinal()
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +104,13 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Enum#toString() public java.lang.String java.lang.Enum.toString()}.
+     * Test method for {@link java.lang.Enum#ordinal() public final int java.lang.Enum.ordinal()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_ordinal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +119,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.Enum#compareTo(java.lang.Enum) public final int
-     * java.lang.Enum.compareTo(java.lang.Enum)}.
+     * Test method for {@link java.lang.Enum#toString() public java.lang.String java.lang.Enum.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_compareTo_Enum()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

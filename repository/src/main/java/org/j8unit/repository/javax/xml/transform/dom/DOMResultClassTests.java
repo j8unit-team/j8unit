@@ -36,47 +36,16 @@ public abstract interface DOMResultClassTests<SUT extends Class<? extends javax.
 extends org.j8unit.repository.javax.xml.transform.ResultClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.xml.transform.dom.DOMResult#DOMResult(org.w3c.dom.Node,org.w3c.dom.Node,java.lang.String) public
-     * javax.xml.transform.dom.DOMResult(org.w3c.dom.Node,org.w3c.dom.Node,java.lang.String)}.
+     * Test method for {@link javax.xml.transform.dom.DOMResult#DOMResult() public javax.xml.transform.dom.DOMResult()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DOMResult_Node_Node_String()
+    public default void create_DOMResult()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.transform.dom.DOMResult sut = null; // = new
-                                                            // DOMResult(org.w3c.dom.Node,org.w3c.dom.Node,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.transform.dom.DOMResult#DOMResult(org.w3c.dom.Node,org.w3c.dom.Node) public
-     * javax.xml.transform.dom.DOMResult(org.w3c.dom.Node,org.w3c.dom.Node)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DOMResult_Node_Node()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.transform.dom.DOMResult sut = null; // = new DOMResult(org.w3c.dom.Node,org.w3c.dom.Node);
-    }
-
-    /**
-     * Test method for {@link javax.xml.transform.dom.DOMResult#DOMResult(org.w3c.dom.Node,java.lang.String) public
-     * javax.xml.transform.dom.DOMResult(org.w3c.dom.Node,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DOMResult_Node_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.transform.dom.DOMResult sut = null; // = new DOMResult(org.w3c.dom.Node,java.lang.String);
+        final javax.xml.transform.dom.DOMResult sut = null; // = new DOMResult();
     }
 
     /**
@@ -94,16 +63,47 @@ extends org.j8unit.repository.javax.xml.transform.ResultClassTests<SUT>, org.j8u
     }
 
     /**
-     * Test method for {@link javax.xml.transform.dom.DOMResult#DOMResult() public javax.xml.transform.dom.DOMResult()}.
+     * Test method for {@link javax.xml.transform.dom.DOMResult#DOMResult(org.w3c.dom.Node,org.w3c.dom.Node) public
+     * javax.xml.transform.dom.DOMResult(org.w3c.dom.Node,org.w3c.dom.Node)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DOMResult()
+    public default void create_DOMResult_Node_Node()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.transform.dom.DOMResult sut = null; // = new DOMResult();
+        final javax.xml.transform.dom.DOMResult sut = null; // = new DOMResult(org.w3c.dom.Node,org.w3c.dom.Node);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.xml.transform.dom.DOMResult#DOMResult(org.w3c.dom.Node,org.w3c.dom.Node,java.lang.String) public
+     * javax.xml.transform.dom.DOMResult(org.w3c.dom.Node,org.w3c.dom.Node,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DOMResult_Node_Node_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.transform.dom.DOMResult sut = null; // = new
+                                                            // DOMResult(org.w3c.dom.Node,org.w3c.dom.Node,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.xml.transform.dom.DOMResult#DOMResult(org.w3c.dom.Node,java.lang.String) public
+     * javax.xml.transform.dom.DOMResult(org.w3c.dom.Node,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DOMResult_Node_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.transform.dom.DOMResult sut = null; // = new DOMResult(org.w3c.dom.Node,java.lang.String);
     }
 
     @Override

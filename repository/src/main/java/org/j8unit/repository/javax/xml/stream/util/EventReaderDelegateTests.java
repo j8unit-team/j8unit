@@ -30,40 +30,6 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.util.EventReaderDelegate#remove() public void
-     * javax.xml.stream.util.EventReaderDelegate.remove()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_remove()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.util.EventReaderDelegate#peek() public javax.xml.stream.events.XMLEvent
-     * javax.xml.stream.util.EventReaderDelegate.peek() throws javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_peek()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.stream.util.EventReaderDelegate#close() public void
      * javax.xml.stream.util.EventReaderDelegate.close() throws javax.xml.stream.XMLStreamException}.
      * </p>
@@ -81,49 +47,15 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.util.EventReaderDelegate#hasNext() public boolean
-     * javax.xml.stream.util.EventReaderDelegate.hasNext()}.
+     * Test method for {@link javax.xml.stream.util.EventReaderDelegate#getElementText() public java.lang.String
+     * javax.xml.stream.util.EventReaderDelegate.getElementText() throws javax.xml.stream.XMLStreamException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hasNext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.util.EventReaderDelegate#setParent(javax.xml.stream.XMLEventReader)
-     * public void javax.xml.stream.util.EventReaderDelegate.setParent(javax.xml.stream.XMLEventReader)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setParent_XMLEventReader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.util.EventReaderDelegate#nextEvent() public
-     * javax.xml.stream.events.XMLEvent javax.xml.stream.util.EventReaderDelegate.nextEvent() throws
-     * javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_nextEvent()
+    public default void test_getElementText()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -140,23 +72,6 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_getParent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.util.EventReaderDelegate#getElementText() public java.lang.String
-     * javax.xml.stream.util.EventReaderDelegate.getElementText() throws javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getElementText()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -183,6 +98,23 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
 
     /**
      * <p>
+     * Test method for {@link javax.xml.stream.util.EventReaderDelegate#hasNext() public boolean
+     * javax.xml.stream.util.EventReaderDelegate.hasNext()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hasNext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.stream.util.EventReaderDelegate#next() public java.lang.Object
      * javax.xml.stream.util.EventReaderDelegate.next()}.
      * </p>
@@ -192,6 +124,24 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
     @Category(Draft.class)
     @Override
     public default void test_next()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.util.EventReaderDelegate#nextEvent() public
+     * javax.xml.stream.events.XMLEvent javax.xml.stream.util.EventReaderDelegate.nextEvent() throws
+     * javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_nextEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -210,6 +160,56 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.r
     @Category(Draft.class)
     @Override
     public default void test_nextTag()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.util.EventReaderDelegate#peek() public javax.xml.stream.events.XMLEvent
+     * javax.xml.stream.util.EventReaderDelegate.peek() throws javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_peek()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.util.EventReaderDelegate#remove() public void
+     * javax.xml.stream.util.EventReaderDelegate.remove()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_remove()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.util.EventReaderDelegate#setParent(javax.xml.stream.XMLEventReader)
+     * public void javax.xml.stream.util.EventReaderDelegate.setParent(javax.xml.stream.XMLEventReader)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setParent_XMLEventReader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

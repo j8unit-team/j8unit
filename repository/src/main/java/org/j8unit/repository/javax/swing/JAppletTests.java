@@ -24,56 +24,6 @@ org.j8unit.repository.java.applet.AppletTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JApplet#getGlassPane() public java.awt.Component
-     * javax.swing.JApplet.getGlassPane()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getGlassPane()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JApplet#getRootPane() public javax.swing.JRootPane
-     * javax.swing.JApplet.getRootPane()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getRootPane()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JApplet#setJMenuBar(javax.swing.JMenuBar) public void
-     * javax.swing.JApplet.setJMenuBar(javax.swing.JMenuBar)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setJMenuBar_JMenuBar()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.JApplet#getAccessibleContext() public javax.accessibility.AccessibleContext
      * javax.swing.JApplet.getAccessibleContext()}.
      * </p>
@@ -83,40 +33,6 @@ org.j8unit.repository.java.applet.AppletTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getAccessibleContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JApplet#remove(java.awt.Component) public void
-     * javax.swing.JApplet.remove(java.awt.Component)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_remove_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JApplet#update(java.awt.Graphics) public void
-     * javax.swing.JApplet.update(java.awt.Graphics)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_update_Graphics()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -142,15 +58,32 @@ org.j8unit.repository.java.applet.AppletTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JApplet#setLayout(java.awt.LayoutManager) public void
-     * javax.swing.JApplet.setLayout(java.awt.LayoutManager)}.
+     * Test method for {@link javax.swing.JApplet#getGlassPane() public java.awt.Component
+     * javax.swing.JApplet.getGlassPane()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setLayout_LayoutManager()
+    public default void test_getGlassPane()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JApplet#getGraphics() public java.awt.Graphics
+     * javax.swing.JApplet.getGraphics()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getGraphics()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -167,89 +100,6 @@ org.j8unit.repository.java.applet.AppletTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getJMenuBar()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JApplet#setLayeredPane(javax.swing.JLayeredPane) public void
-     * javax.swing.JApplet.setLayeredPane(javax.swing.JLayeredPane)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setLayeredPane_JLayeredPane()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JApplet#setTransferHandler(javax.swing.TransferHandler) public void
-     * javax.swing.JApplet.setTransferHandler(javax.swing.TransferHandler)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTransferHandler_TransferHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JApplet#getTransferHandler() public javax.swing.TransferHandler
-     * javax.swing.JApplet.getTransferHandler()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTransferHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JApplet#repaint(long,int,int,int,int) public void
-     * javax.swing.JApplet.repaint(long,int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_repaint_long_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JApplet#setGlassPane(java.awt.Component) public void
-     * javax.swing.JApplet.setGlassPane(java.awt.Component)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setGlassPane_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -275,6 +125,73 @@ org.j8unit.repository.java.applet.AppletTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.JApplet#getRootPane() public javax.swing.JRootPane
+     * javax.swing.JApplet.getRootPane()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getRootPane()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JApplet#getTransferHandler() public javax.swing.TransferHandler
+     * javax.swing.JApplet.getTransferHandler()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTransferHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JApplet#remove(java.awt.Component) public void
+     * javax.swing.JApplet.remove(java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_remove_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JApplet#repaint(long,int,int,int,int) public void
+     * javax.swing.JApplet.repaint(long,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_repaint_long_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.JApplet#setContentPane(java.awt.Container) public void
      * javax.swing.JApplet.setContentPane(java.awt.Container)}.
      * </p>
@@ -292,15 +209,98 @@ org.j8unit.repository.java.applet.AppletTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JApplet#getGraphics() public java.awt.Graphics
-     * javax.swing.JApplet.getGraphics()}.
+     * Test method for {@link javax.swing.JApplet#setGlassPane(java.awt.Component) public void
+     * javax.swing.JApplet.setGlassPane(java.awt.Component)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getGraphics()
+    public default void test_setGlassPane_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JApplet#setJMenuBar(javax.swing.JMenuBar) public void
+     * javax.swing.JApplet.setJMenuBar(javax.swing.JMenuBar)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setJMenuBar_JMenuBar()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JApplet#setLayeredPane(javax.swing.JLayeredPane) public void
+     * javax.swing.JApplet.setLayeredPane(javax.swing.JLayeredPane)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setLayeredPane_JLayeredPane()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JApplet#setLayout(java.awt.LayoutManager) public void
+     * javax.swing.JApplet.setLayout(java.awt.LayoutManager)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setLayout_LayoutManager()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JApplet#setTransferHandler(javax.swing.TransferHandler) public void
+     * javax.swing.JApplet.setTransferHandler(javax.swing.TransferHandler)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTransferHandler_TransferHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JApplet#update(java.awt.Graphics) public void
+     * javax.swing.JApplet.update(java.awt.Graphics)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_update_Graphics()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

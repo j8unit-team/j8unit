@@ -35,31 +35,16 @@ public abstract interface ThrowableClassTests<SUT extends Class<? extends java.l
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.Throwable#Throwable(java.lang.Throwable) public
-     * java.lang.Throwable(java.lang.Throwable)}.
+     * Test method for {@link java.lang.Throwable#Throwable() public java.lang.Throwable()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Throwable_Throwable()
+    public default void create_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.Throwable sut = null; // = new Throwable(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link java.lang.Throwable#Throwable(java.lang.String,java.lang.Throwable) public
-     * java.lang.Throwable(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Throwable_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.Throwable sut = null; // = new Throwable(java.lang.String,java.lang.Throwable);
+        final java.lang.Throwable sut = null; // = new Throwable();
     }
 
     /**
@@ -77,16 +62,31 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     }
 
     /**
-     * Test method for {@link java.lang.Throwable#Throwable() public java.lang.Throwable()}.
+     * Test method for {@link java.lang.Throwable#Throwable(java.lang.String,java.lang.Throwable) public
+     * java.lang.Throwable(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Throwable()
+    public default void create_Throwable_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.Throwable sut = null; // = new Throwable();
+        final java.lang.Throwable sut = null; // = new Throwable(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link java.lang.Throwable#Throwable(java.lang.Throwable) public
+     * java.lang.Throwable(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Throwable_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.Throwable sut = null; // = new Throwable(java.lang.Throwable);
     }
 
     @Override

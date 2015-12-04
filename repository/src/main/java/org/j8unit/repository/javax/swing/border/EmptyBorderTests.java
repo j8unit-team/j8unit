@@ -23,6 +23,39 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link javax.swing.border.EmptyBorder#getBorderInsets() public java.awt.Insets
+     * javax.swing.border.EmptyBorder.getBorderInsets()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBorderInsets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.EmptyBorder#getBorderInsets(java.awt.Component,java.awt.Insets) public
+     * java.awt.Insets javax.swing.border.EmptyBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getBorderInsets_Component_Insets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.border.EmptyBorder#isBorderOpaque() public boolean
      * javax.swing.border.EmptyBorder.isBorderOpaque()}.
      * </p>
@@ -50,39 +83,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Category(Draft.class)
     @Override
     public default void test_paintBorder_Component_Graphics_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.EmptyBorder#getBorderInsets() public java.awt.Insets
-     * javax.swing.border.EmptyBorder.getBorderInsets()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBorderInsets()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.EmptyBorder#getBorderInsets(java.awt.Component,java.awt.Insets) public
-     * java.awt.Insets javax.swing.border.EmptyBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBorderInsets_Component_Insets()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

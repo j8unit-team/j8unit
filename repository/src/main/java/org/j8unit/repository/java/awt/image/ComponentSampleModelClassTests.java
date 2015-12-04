@@ -36,6 +36,20 @@ public abstract interface ComponentSampleModelClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.java.awt.image.SampleModelClassTests<SUT> {
 
     /**
+     * Test method for {@link java.awt.image.ComponentSampleModel#ComponentSampleModel(int,int,int,int,int,int[]) public
+     * java.awt.image.ComponentSampleModel(int,int,int,int,int,int[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ComponentSampleModel_int_int_int_int_int_intArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.ComponentSampleModel sut = null; // = new ComponentSampleModel(int,int,int,int,int,int[]);
+    }
+
+    /**
      * Test method for {@link java.awt.image.ComponentSampleModel#ComponentSampleModel(int,int,int,int,int,int[],int[])
      * public java.awt.image.ComponentSampleModel(int,int,int,int,int,int[],int[])}.
      */
@@ -48,20 +62,6 @@ extends org.j8unit.repository.java.awt.image.SampleModelClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.awt.image.ComponentSampleModel sut = null; // = new
                                                               // ComponentSampleModel(int,int,int,int,int,int[],int[]);
-    }
-
-    /**
-     * Test method for {@link java.awt.image.ComponentSampleModel#ComponentSampleModel(int,int,int,int,int,int[]) public
-     * java.awt.image.ComponentSampleModel(int,int,int,int,int,int[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ComponentSampleModel_int_int_int_int_int_intArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.ComponentSampleModel sut = null; // = new ComponentSampleModel(int,int,int,int,int,int[]);
     }
 
     @Override

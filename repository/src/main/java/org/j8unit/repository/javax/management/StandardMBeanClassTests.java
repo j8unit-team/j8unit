@@ -37,21 +37,6 @@ extends org.j8unit.repository.javax.management.DynamicMBeanClassTests<SUT>, org.
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.management.StandardMBean#StandardMBean(java.lang.Object,java.lang.Class,boolean)
-     * public javax.management.StandardMBean(java.lang.Object,java.lang.Class,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_StandardMBean_Object_Class_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.StandardMBean sut = null; // = new
-                                                         // StandardMBean(java.lang.Object,java.lang.Class,boolean);
-    }
-
-    /**
      * Test method for {@link javax.management.StandardMBean#StandardMBean(java.lang.Object,java.lang.Class) public
      * javax.management.StandardMBean(java.lang.Object,java.lang.Class) throws
      * javax.management.NotCompliantMBeanException}.
@@ -64,6 +49,21 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.management.StandardMBean sut = null; // = new StandardMBean(java.lang.Object,java.lang.Class);
+    }
+
+    /**
+     * Test method for {@link javax.management.StandardMBean#StandardMBean(java.lang.Object,java.lang.Class,boolean)
+     * public javax.management.StandardMBean(java.lang.Object,java.lang.Class,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_StandardMBean_Object_Class_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.StandardMBean sut = null; // = new
+                                                         // StandardMBean(java.lang.Object,java.lang.Class,boolean);
     }
 
     @Override

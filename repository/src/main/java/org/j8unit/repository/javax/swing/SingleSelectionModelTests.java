@@ -24,38 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SingleSelectionModel#clearSelection() public abstract void
-     * javax.swing.SingleSelectionModel.clearSelection()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clearSelection()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.SingleSelectionModel#removeChangeListener(javax.swing.event.ChangeListener)
-     * public abstract void javax.swing.SingleSelectionModel.removeChangeListener(javax.swing.event.ChangeListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeChangeListener_ChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.SingleSelectionModel#addChangeListener(javax.swing.event.ChangeListener)
      * public abstract void javax.swing.SingleSelectionModel.addChangeListener(javax.swing.event.ChangeListener)}.
      * </p>
@@ -72,14 +40,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SingleSelectionModel#setSelectedIndex(int) public abstract void
-     * javax.swing.SingleSelectionModel.setSelectedIndex(int)}.
+     * Test method for {@link javax.swing.SingleSelectionModel#clearSelection() public abstract void
+     * javax.swing.SingleSelectionModel.clearSelection()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSelectedIndex_int()
+    public default void test_clearSelection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -112,6 +80,38 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isSelected()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.SingleSelectionModel#removeChangeListener(javax.swing.event.ChangeListener)
+     * public abstract void javax.swing.SingleSelectionModel.removeChangeListener(javax.swing.event.ChangeListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeChangeListener_ChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.SingleSelectionModel#setSelectedIndex(int) public abstract void
+     * javax.swing.SingleSelectionModel.setSelectedIndex(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSelectedIndex_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

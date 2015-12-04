@@ -36,30 +36,16 @@ public abstract interface GeneralPathClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.awt.geom.Path2DClassTests.FloatClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.geom.GeneralPath#GeneralPath(java.awt.Shape) public
-     * java.awt.geom.GeneralPath(java.awt.Shape)}.
+     * Test method for {@link java.awt.geom.GeneralPath#GeneralPath() public java.awt.geom.GeneralPath()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_GeneralPath_Shape()
+    public default void create_GeneralPath()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.geom.GeneralPath sut = null; // = new GeneralPath(java.awt.Shape);
-    }
-
-    /**
-     * Test method for {@link java.awt.geom.GeneralPath#GeneralPath(int,int) public java.awt.geom.GeneralPath(int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_GeneralPath_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.geom.GeneralPath sut = null; // = new GeneralPath(int,int);
+        final java.awt.geom.GeneralPath sut = null; // = new GeneralPath();
     }
 
     /**
@@ -76,16 +62,30 @@ extends org.j8unit.repository.java.awt.geom.Path2DClassTests.FloatClassTests<SUT
     }
 
     /**
-     * Test method for {@link java.awt.geom.GeneralPath#GeneralPath() public java.awt.geom.GeneralPath()}.
+     * Test method for {@link java.awt.geom.GeneralPath#GeneralPath(int,int) public java.awt.geom.GeneralPath(int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_GeneralPath()
+    public default void create_GeneralPath_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.geom.GeneralPath sut = null; // = new GeneralPath();
+        final java.awt.geom.GeneralPath sut = null; // = new GeneralPath(int,int);
+    }
+
+    /**
+     * Test method for {@link java.awt.geom.GeneralPath#GeneralPath(java.awt.Shape) public
+     * java.awt.geom.GeneralPath(java.awt.Shape)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_GeneralPath_Shape()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.geom.GeneralPath sut = null; // = new GeneralPath(java.awt.Shape);
     }
 
     @Override

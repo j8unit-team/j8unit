@@ -35,59 +35,17 @@ import org.junit.experimental.categories.Category;
 public abstract interface DateTimeFormatterClassTests<SUT extends Class<? extends java.time.format.DateTimeFormatter>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.format.DateTimeFormatter> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.format.DateTimeFormatter.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatter#ofLocalizedTime(java.time.format.FormatStyle) public
+     * Test method for {@link java.time.format.DateTimeFormatter#ofLocalizedDate(java.time.format.FormatStyle) public
      * static java.time.format.DateTimeFormatter
-     * java.time.format.DateTimeFormatter.ofLocalizedTime(java.time.format.FormatStyle)}.
+     * java.time.format.DateTimeFormatter.ofLocalizedDate(java.time.format.FormatStyle)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ofLocalizedTime_FormatStyle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatter#parsedExcessDays() public static final
-     * java.time.temporal.TemporalQuery java.time.format.DateTimeFormatter.parsedExcessDays()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parsedExcessDays()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.format.DateTimeFormatter#parsedLeapSecond() public static final
-     * java.time.temporal.TemporalQuery java.time.format.DateTimeFormatter.parsedLeapSecond()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parsedLeapSecond()
+    public default void test_ofLocalizedDate_FormatStyle()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -132,15 +90,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.format.DateTimeFormatter#ofLocalizedDate(java.time.format.FormatStyle) public
+     * Test method for {@link java.time.format.DateTimeFormatter#ofLocalizedTime(java.time.format.FormatStyle) public
      * static java.time.format.DateTimeFormatter
-     * java.time.format.DateTimeFormatter.ofLocalizedDate(java.time.format.FormatStyle)}.
+     * java.time.format.DateTimeFormatter.ofLocalizedTime(java.time.format.FormatStyle)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ofLocalizedDate_FormatStyle()
+    public default void test_ofLocalizedTime_FormatStyle()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -178,6 +136,48 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.format.DateTimeFormatter#parsedExcessDays() public static final
+     * java.time.temporal.TemporalQuery java.time.format.DateTimeFormatter.parsedExcessDays()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parsedExcessDays()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.format.DateTimeFormatter#parsedLeapSecond() public static final
+     * java.time.temporal.TemporalQuery java.time.format.DateTimeFormatter.parsedLeapSecond()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parsedLeapSecond()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.format.DateTimeFormatter> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.format.DateTimeFormatter.class.isAssignableFrom(sut));
     }
 
 }

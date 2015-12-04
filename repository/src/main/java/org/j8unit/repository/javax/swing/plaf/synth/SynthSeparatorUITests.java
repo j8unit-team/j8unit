@@ -41,15 +41,15 @@ org.j8unit.repository.javax.swing.plaf.SeparatorUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.synth.SynthSeparatorUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#getMaximumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.synth.SynthSeparatorUI.getMaximumSize(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_uninstallUI_JComponent()
+    public default void test_getMaximumSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -58,15 +58,15 @@ org.j8unit.repository.javax.swing.plaf.SeparatorUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#propertyChange(java.beans.PropertyChangeEvent)
-     * public void javax.swing.plaf.synth.SynthSeparatorUI.propertyChange(java.beans.PropertyChangeEvent)}.
+     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#getMinimumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.synth.SynthSeparatorUI.getMinimumSize(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_propertyChange_PropertyChangeEvent()
+    public default void test_getMinimumSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,15 +92,14 @@ org.j8unit.repository.javax.swing.plaf.SeparatorUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.synth.SynthSeparatorUI.installUI(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#installDefaults(javax.swing.JSeparator) public
+     * void javax.swing.plaf.synth.SynthSeparatorUI.installDefaults(javax.swing.JSeparator)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_installUI_JComponent()
+    public default void test_installDefaults_JSeparator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -125,15 +124,32 @@ org.j8unit.repository.javax.swing.plaf.SeparatorUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.synth.SynthSeparatorUI.getMinimumSize(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.synth.SynthSeparatorUI.installUI(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getMinimumSize_JComponent()
+    public default void test_installUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#paint(java.awt.Graphics,javax.swing.JComponent)
+     * public void javax.swing.plaf.synth.SynthSeparatorUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paint_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -162,6 +178,23 @@ org.j8unit.repository.javax.swing.plaf.SeparatorUITests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#propertyChange(java.beans.PropertyChangeEvent)
+     * public void javax.swing.plaf.synth.SynthSeparatorUI.propertyChange(java.beans.PropertyChangeEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_propertyChange_PropertyChangeEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#uninstallDefaults(javax.swing.JSeparator) public
      * void javax.swing.plaf.synth.SynthSeparatorUI.uninstallDefaults(javax.swing.JSeparator)}.
      * </p>
@@ -170,6 +203,39 @@ org.j8unit.repository.javax.swing.plaf.SeparatorUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_uninstallDefaults_JSeparator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#uninstallListeners(javax.swing.JSeparator) public
+     * void javax.swing.plaf.synth.SynthSeparatorUI.uninstallListeners(javax.swing.JSeparator)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_uninstallListeners_JSeparator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.synth.SynthSeparatorUI.uninstallUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_uninstallUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -187,72 +253,6 @@ org.j8unit.repository.javax.swing.plaf.SeparatorUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_update_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#paint(java.awt.Graphics,javax.swing.JComponent)
-     * public void javax.swing.plaf.synth.SynthSeparatorUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paint_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.synth.SynthSeparatorUI.getMaximumSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMaximumSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#installDefaults(javax.swing.JSeparator) public
-     * void javax.swing.plaf.synth.SynthSeparatorUI.installDefaults(javax.swing.JSeparator)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_installDefaults_JSeparator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthSeparatorUI#uninstallListeners(javax.swing.JSeparator) public
-     * void javax.swing.plaf.synth.SynthSeparatorUI.uninstallListeners(javax.swing.JSeparator)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_uninstallListeners_JSeparator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

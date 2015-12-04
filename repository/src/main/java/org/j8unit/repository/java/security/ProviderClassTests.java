@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ProviderClassTests<SUT extends Class<? extends java.security.Provider>>
 extends org.j8unit.repository.java.util.PropertiesClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.security.Provider> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.Provider.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link java.security.Provider$Service class java.security.Provider$Service}, containing all class
@@ -102,6 +92,16 @@ extends org.j8unit.repository.java.util.PropertiesClassTests<SUT> {
             assertTrue(java.security.Provider.Service.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.security.Provider> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.Provider.class.isAssignableFrom(sut));
     }
 
 }

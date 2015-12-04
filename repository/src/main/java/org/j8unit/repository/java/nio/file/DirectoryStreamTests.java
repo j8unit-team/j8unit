@@ -24,23 +24,6 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.DirectoryStream#iterator() public abstract java.util.Iterator
-     * java.nio.file.DirectoryStream.iterator()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_iterator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test class for {@link java.nio.file.DirectoryStream$Filter interface java.nio.file.DirectoryStream$Filter},
      * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
      * </p>
@@ -70,6 +53,23 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
             assert sut != null;
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.DirectoryStream#iterator() public abstract java.util.Iterator
+     * java.nio.file.DirectoryStream.iterator()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_iterator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

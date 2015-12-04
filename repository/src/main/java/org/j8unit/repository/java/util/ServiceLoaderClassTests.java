@@ -35,32 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ServiceLoaderClassTests<SUT extends Class<? extends java.util.ServiceLoader<S>>, S>
 extends org.j8unit.repository.java.lang.IterableClassTests<SUT, S>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.ServiceLoader<S>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.ServiceLoader.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.ServiceLoader#loadInstalled(java.lang.Class) public static
-     * java.util.ServiceLoader java.util.ServiceLoader.loadInstalled(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_loadInstalled_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link java.util.ServiceLoader#load(java.lang.Class) public static java.util.ServiceLoader
@@ -91,6 +65,32 @@ extends org.j8unit.repository.java.lang.IterableClassTests<SUT, S>, org.j8unit.r
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.ServiceLoader#loadInstalled(java.lang.Class) public static
+     * java.util.ServiceLoader java.util.ServiceLoader.loadInstalled(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_loadInstalled_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.ServiceLoader<S>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.ServiceLoader.class.isAssignableFrom(sut));
     }
 
 }

@@ -23,14 +23,31 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.WatchService#take() public abstract java.nio.file.WatchKey
-     * java.nio.file.WatchService.take() throws java.lang.InterruptedException}.
+     * Test method for {@link java.nio.file.WatchService#close() public abstract void java.nio.file.WatchService.close()
+     * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_take()
+    @Override
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.WatchService#poll() public abstract java.nio.file.WatchKey
+     * java.nio.file.WatchService.poll()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_poll()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,31 +73,14 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.WatchService#poll() public abstract java.nio.file.WatchKey
-     * java.nio.file.WatchService.poll()}.
+     * Test method for {@link java.nio.file.WatchService#take() public abstract java.nio.file.WatchKey
+     * java.nio.file.WatchService.take() throws java.lang.InterruptedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_poll()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.WatchService#close() public abstract void java.nio.file.WatchService.close()
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
+    public default void test_take()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

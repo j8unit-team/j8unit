@@ -36,6 +36,34 @@ public abstract interface ActivityRequiredExceptionClassTests<SUT extends Class<
 extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.activity.ActivityRequiredException#ActivityRequiredException() public
+     * javax.activity.ActivityRequiredException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ActivityRequiredException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.activity.ActivityRequiredException sut = null; // = new ActivityRequiredException();
+    }
+
+    /**
+     * Test method for {@link javax.activity.ActivityRequiredException#ActivityRequiredException(java.lang.String)
+     * public javax.activity.ActivityRequiredException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ActivityRequiredException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.activity.ActivityRequiredException sut = null; // = new ActivityRequiredException(java.lang.String);
+    }
+
+    /**
      * Test method for
      * {@link javax.activity.ActivityRequiredException#ActivityRequiredException(java.lang.String,java.lang.Throwable)
      * public javax.activity.ActivityRequiredException(java.lang.String,java.lang.Throwable)}.
@@ -64,34 +92,6 @@ extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.activity.ActivityRequiredException sut = null; // = new
                                                                    // ActivityRequiredException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link javax.activity.ActivityRequiredException#ActivityRequiredException(java.lang.String)
-     * public javax.activity.ActivityRequiredException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ActivityRequiredException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.activity.ActivityRequiredException sut = null; // = new ActivityRequiredException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.activity.ActivityRequiredException#ActivityRequiredException() public
-     * javax.activity.ActivityRequiredException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ActivityRequiredException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.activity.ActivityRequiredException sut = null; // = new ActivityRequiredException();
     }
 
     @Override

@@ -23,49 +23,14 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicArrowButton#getMinimumSize() public java.awt.Dimension
-     * javax.swing.plaf.basic.BasicArrowButton.getMinimumSize()}.
+     * Test method for {@link javax.swing.plaf.basic.BasicArrowButton#getDirection() public int
+     * javax.swing.plaf.basic.BasicArrowButton.getDirection()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getMinimumSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicArrowButton#paintTriangle(java.awt.Graphics,int,int,int,int,boolean) public
-     * void javax.swing.plaf.basic.BasicArrowButton.paintTriangle(java.awt.Graphics,int,int,int,int,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_paintTriangle_Graphics_int_int_int_int_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicArrowButton#getPreferredSize() public java.awt.Dimension
-     * javax.swing.plaf.basic.BasicArrowButton.getPreferredSize()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPreferredSize()
+    public default void test_getDirection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,14 +56,32 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicArrowButton#getDirection() public int
-     * javax.swing.plaf.basic.BasicArrowButton.getDirection()}.
+     * Test method for {@link javax.swing.plaf.basic.BasicArrowButton#getMinimumSize() public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicArrowButton.getMinimumSize()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDirection()
+    @Override
+    public default void test_getMinimumSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicArrowButton#getPreferredSize() public java.awt.Dimension
+     * javax.swing.plaf.basic.BasicArrowButton.getPreferredSize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPreferredSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -133,6 +116,23 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
     @Category(Draft.class)
     @Override
     public default void test_paint_Graphics()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.basic.BasicArrowButton#paintTriangle(java.awt.Graphics,int,int,int,int,boolean) public
+     * void javax.swing.plaf.basic.BasicArrowButton.paintTriangle(java.awt.Graphics,int,int,int,int,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_paintTriangle_Graphics_int_int_int_int_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ControlFactoryClassTests<SUT extends Class<? extends javax.naming.ldap.ControlFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.naming.ldap.ControlFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.naming.ldap.ControlFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for
@@ -62,6 +52,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.naming.ldap.ControlFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.naming.ldap.ControlFactory.class.isAssignableFrom(sut));
     }
 
 }

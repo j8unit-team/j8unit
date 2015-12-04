@@ -24,56 +24,6 @@ org.j8unit.repository.javax.lang.model.element.QualifiedNameableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.element.TypeElement#getSimpleName() public abstract
-     * javax.lang.model.element.Name javax.lang.model.element.TypeElement.getSimpleName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSimpleName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.element.TypeElement#getTypeParameters() public abstract java.util.List
-     * javax.lang.model.element.TypeElement.getTypeParameters()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getTypeParameters()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.element.TypeElement#getInterfaces() public abstract java.util.List
-     * javax.lang.model.element.TypeElement.getInterfaces()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInterfaces()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.lang.model.element.TypeElement#getEnclosedElements() public abstract java.util.List
      * javax.lang.model.element.TypeElement.getEnclosedElements()}.
      * </p>
@@ -83,39 +33,6 @@ org.j8unit.repository.javax.lang.model.element.QualifiedNameableTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getEnclosedElements()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.element.TypeElement#getSuperclass() public abstract
-     * javax.lang.model.type.TypeMirror javax.lang.model.element.TypeElement.getSuperclass()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSuperclass()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.element.TypeElement#getQualifiedName() public abstract
-     * javax.lang.model.element.Name javax.lang.model.element.TypeElement.getQualifiedName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getQualifiedName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -141,6 +58,22 @@ org.j8unit.repository.javax.lang.model.element.QualifiedNameableTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.lang.model.element.TypeElement#getInterfaces() public abstract java.util.List
+     * javax.lang.model.element.TypeElement.getInterfaces()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInterfaces()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.lang.model.element.TypeElement#getNestingKind() public abstract
      * javax.lang.model.element.NestingKind javax.lang.model.element.TypeElement.getNestingKind()}.
      * </p>
@@ -149,6 +82,73 @@ org.j8unit.repository.javax.lang.model.element.QualifiedNameableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getNestingKind()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.element.TypeElement#getQualifiedName() public abstract
+     * javax.lang.model.element.Name javax.lang.model.element.TypeElement.getQualifiedName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getQualifiedName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.element.TypeElement#getSimpleName() public abstract
+     * javax.lang.model.element.Name javax.lang.model.element.TypeElement.getSimpleName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getSimpleName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.element.TypeElement#getSuperclass() public abstract
+     * javax.lang.model.type.TypeMirror javax.lang.model.element.TypeElement.getSuperclass()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSuperclass()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.element.TypeElement#getTypeParameters() public abstract java.util.List
+     * javax.lang.model.element.TypeElement.getTypeParameters()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getTypeParameters()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

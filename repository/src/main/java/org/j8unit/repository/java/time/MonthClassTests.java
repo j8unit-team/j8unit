@@ -35,25 +35,16 @@ public abstract interface MonthClassTests<SUT extends Class<? extends java.time.
 extends org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT>,
 org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.Month> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.Month> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.Month.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.time.Month#values() public static java.time.Month[] java.time.Month.values()}.
+     * Test method for {@link java.time.Month#from(java.time.temporal.TemporalAccessor) public static java.time.Month
+     * java.time.Month.from(java.time.temporal.TemporalAccessor)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_values()
+    public default void test_from_TemporalAccessor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -93,18 +84,27 @@ org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.Month> {
 
     /**
      * <p>
-     * Test method for {@link java.time.Month#from(java.time.temporal.TemporalAccessor) public static java.time.Month
-     * java.time.Month.from(java.time.temporal.TemporalAccessor)}.
+     * Test method for {@link java.time.Month#values() public static java.time.Month[] java.time.Month.values()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_from_TemporalAccessor()
+    public default void test_values()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.Month> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.Month.class.isAssignableFrom(sut));
     }
 
 }

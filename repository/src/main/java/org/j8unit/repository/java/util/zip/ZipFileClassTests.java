@@ -35,34 +35,6 @@ public abstract interface ZipFileClassTests<SUT extends Class<? extends java.uti
 extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.zip.ZipFile#ZipFile(java.lang.String,java.nio.charset.Charset) public
-     * java.util.zip.ZipFile(java.lang.String,java.nio.charset.Charset) throws java.io.IOException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ZipFile_String_Charset()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.zip.ZipFile sut = null; // = new ZipFile(java.lang.String,java.nio.charset.Charset);
-    }
-
-    /**
-     * Test method for {@link java.util.zip.ZipFile#ZipFile(java.io.File,int,java.nio.charset.Charset) public
-     * java.util.zip.ZipFile(java.io.File,int,java.nio.charset.Charset) throws java.io.IOException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ZipFile_File_int_Charset()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.zip.ZipFile sut = null; // = new ZipFile(java.io.File,int,java.nio.charset.Charset);
-    }
-
-    /**
      * Test method for {@link java.util.zip.ZipFile#ZipFile(java.io.File) public java.util.zip.ZipFile(java.io.File)
      * throws java.util.zip.ZipException,java.io.IOException}.
      */
@@ -91,6 +63,34 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
     }
 
     /**
+     * Test method for {@link java.util.zip.ZipFile#ZipFile(java.io.File,int) public
+     * java.util.zip.ZipFile(java.io.File,int) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ZipFile_File_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.zip.ZipFile sut = null; // = new ZipFile(java.io.File,int);
+    }
+
+    /**
+     * Test method for {@link java.util.zip.ZipFile#ZipFile(java.io.File,int,java.nio.charset.Charset) public
+     * java.util.zip.ZipFile(java.io.File,int,java.nio.charset.Charset) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ZipFile_File_int_Charset()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.zip.ZipFile sut = null; // = new ZipFile(java.io.File,int,java.nio.charset.Charset);
+    }
+
+    /**
      * Test method for {@link java.util.zip.ZipFile#ZipFile(java.lang.String) public
      * java.util.zip.ZipFile(java.lang.String) throws java.io.IOException}.
      */
@@ -105,17 +105,17 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
     }
 
     /**
-     * Test method for {@link java.util.zip.ZipFile#ZipFile(java.io.File,int) public
-     * java.util.zip.ZipFile(java.io.File,int) throws java.io.IOException}.
+     * Test method for {@link java.util.zip.ZipFile#ZipFile(java.lang.String,java.nio.charset.Charset) public
+     * java.util.zip.ZipFile(java.lang.String,java.nio.charset.Charset) throws java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ZipFile_File_int()
+    public default void create_ZipFile_String_Charset()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.zip.ZipFile sut = null; // = new ZipFile(java.io.File,int);
+        final java.util.zip.ZipFile sut = null; // = new ZipFile(java.lang.String,java.nio.charset.Charset);
     }
 
     @Override

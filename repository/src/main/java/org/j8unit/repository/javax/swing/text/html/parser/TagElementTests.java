@@ -23,38 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.TagElement#isPreformatted() public boolean
-     * javax.swing.text.html.parser.TagElement.isPreformatted()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isPreformatted()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.TagElement#getHTMLTag() public javax.swing.text.html.HTML$Tag
-     * javax.swing.text.html.parser.TagElement.getHTMLTag()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHTMLTag()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.text.html.parser.TagElement#breaksFlow() public boolean
      * javax.swing.text.html.parser.TagElement.breaksFlow()}.
      * </p>
@@ -63,6 +31,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_breaksFlow()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.TagElement#fictional() public boolean
+     * javax.swing.text.html.parser.TagElement.fictional()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fictional()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,14 +71,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.TagElement#fictional() public boolean
-     * javax.swing.text.html.parser.TagElement.fictional()}.
+     * Test method for {@link javax.swing.text.html.parser.TagElement#getHTMLTag() public javax.swing.text.html.HTML$Tag
+     * javax.swing.text.html.parser.TagElement.getHTMLTag()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_fictional()
+    public default void test_getHTMLTag()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.TagElement#isPreformatted() public boolean
+     * javax.swing.text.html.parser.TagElement.isPreformatted()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isPreformatted()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

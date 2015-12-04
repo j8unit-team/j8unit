@@ -36,17 +36,31 @@ public abstract interface TransformExceptionClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.xml.crypto.dsig.TransformException#TransformException(java.lang.Throwable) public
-     * javax.xml.crypto.dsig.TransformException(java.lang.Throwable)}.
+     * Test method for {@link javax.xml.crypto.dsig.TransformException#TransformException() public
+     * javax.xml.crypto.dsig.TransformException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_TransformException_Throwable()
+    public default void create_TransformException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.crypto.dsig.TransformException sut = null; // = new TransformException(java.lang.Throwable);
+        final javax.xml.crypto.dsig.TransformException sut = null; // = new TransformException();
+    }
+
+    /**
+     * Test method for {@link javax.xml.crypto.dsig.TransformException#TransformException(java.lang.String) public
+     * javax.xml.crypto.dsig.TransformException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TransformException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.crypto.dsig.TransformException sut = null; // = new TransformException(java.lang.String);
     }
 
     /**
@@ -66,31 +80,17 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.xml.crypto.dsig.TransformException#TransformException(java.lang.String) public
-     * javax.xml.crypto.dsig.TransformException(java.lang.String)}.
+     * Test method for {@link javax.xml.crypto.dsig.TransformException#TransformException(java.lang.Throwable) public
+     * javax.xml.crypto.dsig.TransformException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_TransformException_String()
+    public default void create_TransformException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.crypto.dsig.TransformException sut = null; // = new TransformException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.crypto.dsig.TransformException#TransformException() public
-     * javax.xml.crypto.dsig.TransformException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TransformException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.crypto.dsig.TransformException sut = null; // = new TransformException();
+        final javax.xml.crypto.dsig.TransformException sut = null; // = new TransformException(java.lang.Throwable);
     }
 
     @Override

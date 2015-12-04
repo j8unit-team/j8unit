@@ -25,48 +25,31 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.MinguoDate#lengthOfMonth() public int
-     * java.time.chrono.MinguoDate.lengthOfMonth()}.
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_lengthOfMonth()
+    public default void test_adjustInto_Temporal()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.MinguoDate#hashCode() public int java.time.chrono.MinguoDate.hashCode()}.
+     * Test method for {@link java.time.chrono.MinguoDate#atTime(java.time.LocalTime) public final
+     * java.time.chrono.ChronoLocalDateTime java.time.chrono.MinguoDate.atTime(java.time.LocalTime)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.MinguoDate#getEra() public java.time.chrono.MinguoEra
-     * java.time.chrono.MinguoDate.getEra()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getEra()
+    public default void test_atTime_LocalTime()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,74 +75,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.MinguoDate#getLong(java.time.temporal.TemporalField) public long
-     * java.time.chrono.MinguoDate.getLong(java.time.temporal.TemporalField)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getLong_TemporalField()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.MinguoDate#atTime(java.time.LocalTime) public final
-     * java.time.chrono.ChronoLocalDateTime java.time.chrono.MinguoDate.atTime(java.time.LocalTime)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_atTime_LocalTime()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.MinguoDate#with(java.time.temporal.TemporalAdjuster) public
-     * java.time.chrono.MinguoDate java.time.chrono.MinguoDate.with(java.time.temporal.TemporalAdjuster)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_with_TemporalAdjuster()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.chrono.MinguoDate#with(java.time.temporal.TemporalField,long) public
-     * java.time.chrono.MinguoDate java.time.chrono.MinguoDate.with(java.time.temporal.TemporalField,long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_with_TemporalField_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.time.chrono.MinguoDate#getChronology() public java.time.chrono.MinguoChronology
      * java.time.chrono.MinguoDate.getChronology()}.
      * </p>
@@ -177,15 +92,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.MinguoDate#until(java.time.chrono.ChronoLocalDate) public
-     * java.time.chrono.ChronoPeriod java.time.chrono.MinguoDate.until(java.time.chrono.ChronoLocalDate)}.
+     * Test method for {@link java.time.chrono.MinguoDate#getEra() public java.time.chrono.MinguoEra
+     * java.time.chrono.MinguoDate.getEra()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_until_ChronoLocalDate()
+    public default void test_getEra()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -194,15 +109,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.MinguoDate#toEpochDay() public long
-     * java.time.chrono.MinguoDate.toEpochDay()}.
+     * Test method for {@link java.time.chrono.MinguoDate#getLong(java.time.temporal.TemporalField) public long
+     * java.time.chrono.MinguoDate.getLong(java.time.temporal.TemporalField)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toEpochDay()
+    public default void test_getLong_TemporalField()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -211,15 +126,63 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.chrono.MinguoDate#minus(java.time.temporal.TemporalAmount) public
-     * java.time.chrono.MinguoDate java.time.chrono.MinguoDate.minus(java.time.temporal.TemporalAmount)}.
+     * Test method for {@link java.time.chrono.MinguoDate#hashCode() public int java.time.chrono.MinguoDate.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_minus_TemporalAmount()
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isSupported_TemporalField()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isSupported_TemporalUnit()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.chrono.MinguoDate#lengthOfMonth() public int
+     * java.time.chrono.MinguoDate.lengthOfMonth()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_lengthOfMonth()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -237,6 +200,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_minus_long_TemporalUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.chrono.MinguoDate#minus(java.time.temporal.TemporalAmount) public
+     * java.time.chrono.MinguoDate java.time.chrono.MinguoDate.minus(java.time.temporal.TemporalAmount)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_minus_TemporalAmount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -279,6 +259,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_query_TemporalQuery()
+    throws Exception {
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.time.chrono.MinguoDate#range(java.time.temporal.TemporalField) public
      * java.time.temporal.ValueRange java.time.chrono.MinguoDate.range(java.time.temporal.TemporalField)}.
      * </p>
@@ -296,66 +292,19 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * Test method for {@link java.time.chrono.MinguoDate#toEpochDay() public long
+     * java.time.chrono.MinguoDate.toEpochDay()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_query_TemporalQuery()
+    public default void test_toEpochDay()
     throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_adjustInto_Temporal()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isSupported_TemporalUnit()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isSupported_TemporalField()
-    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -376,6 +325,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.time.chrono.MinguoDate#until(java.time.chrono.ChronoLocalDate) public
+     * java.time.chrono.ChronoPeriod java.time.chrono.MinguoDate.until(java.time.chrono.ChronoLocalDate)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_until_ChronoLocalDate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
      * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
      * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
@@ -388,6 +354,40 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Override
     public default void test_until_Temporal_TemporalUnit()
     throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.chrono.MinguoDate#with(java.time.temporal.TemporalAdjuster) public
+     * java.time.chrono.MinguoDate java.time.chrono.MinguoDate.with(java.time.temporal.TemporalAdjuster)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_with_TemporalAdjuster()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.chrono.MinguoDate#with(java.time.temporal.TemporalField,long) public
+     * java.time.chrono.MinguoDate java.time.chrono.MinguoDate.with(java.time.temporal.TemporalField,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_with_TemporalField_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

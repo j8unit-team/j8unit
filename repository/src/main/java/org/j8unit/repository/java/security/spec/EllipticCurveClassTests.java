@@ -37,6 +37,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * Test method for
+     * {@link java.security.spec.EllipticCurve#EllipticCurve(java.security.spec.ECField,java.math.BigInteger,java.math.BigInteger)
+     * public java.security.spec.EllipticCurve(java.security.spec.ECField,java.math.BigInteger,java.math.BigInteger)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_EllipticCurve_ECField_BigInteger_BigInteger()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.spec.EllipticCurve sut = null; // = new
+                                                           // EllipticCurve(java.security.spec.ECField,java.math.BigInteger,java.math.BigInteger);
+    }
+
+    /**
+     * Test method for
      * {@link java.security.spec.EllipticCurve#EllipticCurve(java.security.spec.ECField,java.math.BigInteger,java.math.BigInteger,byte[])
      * public
      * java.security.spec.EllipticCurve(java.security.spec.ECField,java.math.BigInteger,java.math.BigInteger,byte[])}.
@@ -50,22 +66,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.security.spec.EllipticCurve sut = null; // = new
                                                            // EllipticCurve(java.security.spec.ECField,java.math.BigInteger,java.math.BigInteger,byte[]);
-    }
-
-    /**
-     * Test method for
-     * {@link java.security.spec.EllipticCurve#EllipticCurve(java.security.spec.ECField,java.math.BigInteger,java.math.BigInteger)
-     * public java.security.spec.EllipticCurve(java.security.spec.ECField,java.math.BigInteger,java.math.BigInteger)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_EllipticCurve_ECField_BigInteger_BigInteger()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.spec.EllipticCurve sut = null; // = new
-                                                           // EllipticCurve(java.security.spec.ECField,java.math.BigInteger,java.math.BigInteger);
     }
 
     @Override

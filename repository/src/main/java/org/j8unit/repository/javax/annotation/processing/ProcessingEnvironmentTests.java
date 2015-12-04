@@ -25,14 +25,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getOptions() public abstract
-     * java.util.Map javax.annotation.processing.ProcessingEnvironment.getOptions()}.
+     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getElementUtils() public abstract
+     * javax.lang.model.util.Elements javax.annotation.processing.ProcessingEnvironment.getElementUtils()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOptions()
+    public default void test_getElementUtils()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -89,14 +89,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getElementUtils() public abstract
-     * javax.lang.model.util.Elements javax.annotation.processing.ProcessingEnvironment.getElementUtils()}.
+     * Test method for {@link javax.annotation.processing.ProcessingEnvironment#getOptions() public abstract
+     * java.util.Map javax.annotation.processing.ProcessingEnvironment.getOptions()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getElementUtils()
+    public default void test_getOptions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

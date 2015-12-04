@@ -33,16 +33,6 @@ public abstract interface FormatClassTests<SUT extends Class<? extends java.text
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.text.Format> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.text.Format.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link java.text.Format$Field class java.text.Format$Field}, containing all class relevant test
@@ -82,6 +72,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(java.text.Format.Field.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.text.Format> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.text.Format.class.isAssignableFrom(sut));
     }
 
 }

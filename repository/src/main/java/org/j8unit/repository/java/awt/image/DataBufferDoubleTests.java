@@ -23,15 +23,14 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBufferDouble#setElemDouble(int,double) public void
-     * java.awt.image.DataBufferDouble.setElemDouble(int,double)}.
+     * Test method for {@link java.awt.image.DataBufferDouble#getBankData() public double[][]
+     * java.awt.image.DataBufferDouble.getBankData()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_setElemDouble_int_double()
+    public default void test_getBankData()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,15 +39,14 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBufferDouble#setElemDouble(int,int,double) public void
-     * java.awt.image.DataBufferDouble.setElemDouble(int,int,double)}.
+     * Test method for {@link java.awt.image.DataBufferDouble#getData() public double[]
+     * java.awt.image.DataBufferDouble.getData()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_setElemDouble_int_int_double()
+    public default void test_getData()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,15 +55,14 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBufferDouble#setElem(int,int,int) public void
-     * java.awt.image.DataBufferDouble.setElem(int,int,int)}.
+     * Test method for {@link java.awt.image.DataBufferDouble#getData(int) public double[]
+     * java.awt.image.DataBufferDouble.getData(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_setElem_int_int_int()
+    public default void test_getData_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,15 +71,66 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBufferDouble#setElem(int,int) public void
-     * java.awt.image.DataBufferDouble.setElem(int,int)}.
+     * Test method for {@link java.awt.image.DataBufferDouble#getElem(int) public int
+     * java.awt.image.DataBufferDouble.getElem(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setElem_int_int()
+    public default void test_getElem_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBufferDouble#getElem(int,int) public int
+     * java.awt.image.DataBufferDouble.getElem(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getElem_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBufferDouble#getElemDouble(int) public double
+     * java.awt.image.DataBufferDouble.getElemDouble(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getElemDouble_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.DataBufferDouble#getElemDouble(int,int) public double
+     * java.awt.image.DataBufferDouble.getElemDouble(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getElemDouble_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -125,15 +173,15 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBufferDouble#getElem(int,int) public int
-     * java.awt.image.DataBufferDouble.getElem(int,int)}.
+     * Test method for {@link java.awt.image.DataBufferDouble#setElem(int,int) public void
+     * java.awt.image.DataBufferDouble.setElem(int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getElem_int_int()
+    public default void test_setElem_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -142,15 +190,15 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBufferDouble#getElem(int) public int
-     * java.awt.image.DataBufferDouble.getElem(int)}.
+     * Test method for {@link java.awt.image.DataBufferDouble#setElem(int,int,int) public void
+     * java.awt.image.DataBufferDouble.setElem(int,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getElem_int()
+    public default void test_setElem_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -159,63 +207,15 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBufferDouble#getData(int) public double[]
-     * java.awt.image.DataBufferDouble.getData(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getData_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.DataBufferDouble#getData() public double[]
-     * java.awt.image.DataBufferDouble.getData()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getData()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.DataBufferDouble#getBankData() public double[][]
-     * java.awt.image.DataBufferDouble.getBankData()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBankData()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.DataBufferDouble#getElemDouble(int,int) public double
-     * java.awt.image.DataBufferDouble.getElemDouble(int,int)}.
+     * Test method for {@link java.awt.image.DataBufferDouble#setElemDouble(int,double) public void
+     * java.awt.image.DataBufferDouble.setElemDouble(int,double)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getElemDouble_int_int()
+    public default void test_setElemDouble_int_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -224,15 +224,15 @@ extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.DataBufferDouble#getElemDouble(int) public double
-     * java.awt.image.DataBufferDouble.getElemDouble(int)}.
+     * Test method for {@link java.awt.image.DataBufferDouble#setElemDouble(int,int,double) public void
+     * java.awt.image.DataBufferDouble.setElemDouble(int,int,double)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getElemDouble_int()
+    public default void test_setElemDouble_int_int_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

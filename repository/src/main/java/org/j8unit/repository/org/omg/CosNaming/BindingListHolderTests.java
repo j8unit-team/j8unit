@@ -23,6 +23,23 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
 
     /**
      * <p>
+     * Test method for {@link org.omg.CosNaming.BindingListHolder#_read(org.omg.CORBA.portable.InputStream) public void
+     * org.omg.CosNaming.BindingListHolder._read(org.omg.CORBA.portable.InputStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test__read_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.omg.CosNaming.BindingListHolder#_type() public org.omg.CORBA.TypeCode
      * org.omg.CosNaming.BindingListHolder._type()}.
      * </p>
@@ -49,23 +66,6 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
     @Category(Draft.class)
     @Override
     public default void test__write_OutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CosNaming.BindingListHolder#_read(org.omg.CORBA.portable.InputStream) public void
-     * org.omg.CosNaming.BindingListHolder._read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test__read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

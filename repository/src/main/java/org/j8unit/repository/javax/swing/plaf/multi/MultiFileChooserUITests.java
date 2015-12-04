@@ -23,111 +23,6 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#getAccessibleChild(javax.swing.JComponent,int)
-     * public javax.accessibility.Accessible
-     * javax.swing.plaf.multi.MultiFileChooserUI.getAccessibleChild(javax.swing.JComponent,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAccessibleChild_JComponent_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiFileChooserUI.getMinimumSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMinimumSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiFileChooserUI.installUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_installUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#getApproveButtonText(javax.swing.JFileChooser)
-     * public java.lang.String javax.swing.plaf.multi.MultiFileChooserUI.getApproveButtonText(javax.swing.JFileChooser)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getApproveButtonText_JFileChooser()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#getFileView(javax.swing.JFileChooser) public
-     * javax.swing.filechooser.FileView javax.swing.plaf.multi.MultiFileChooserUI.getFileView(javax.swing.JFileChooser)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getFileView_JFileChooser()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#getPreferredSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiFileChooserUI.getPreferredSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPreferredSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#contains(javax.swing.JComponent,int,int) public
      * boolean javax.swing.plaf.multi.MultiFileChooserUI.contains(javax.swing.JComponent,int,int)}.
      * </p>
@@ -164,6 +59,42 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#getAcceptAllFileFilter(javax.swing.JFileChooser)
+     * public javax.swing.filechooser.FileFilter
+     * javax.swing.plaf.multi.MultiFileChooserUI.getAcceptAllFileFilter(javax.swing.JFileChooser)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAcceptAllFileFilter_JFileChooser()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#getAccessibleChild(javax.swing.JComponent,int)
+     * public javax.accessibility.Accessible
+     * javax.swing.plaf.multi.MultiFileChooserUI.getAccessibleChild(javax.swing.JComponent,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAccessibleChild_JComponent_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link javax.swing.plaf.multi.MultiFileChooserUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
      * javax.swing.plaf.multi.MultiFileChooserUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
@@ -174,6 +105,24 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getAccessibleChildrenCount_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#getApproveButtonText(javax.swing.JFileChooser)
+     * public java.lang.String javax.swing.plaf.multi.MultiFileChooserUI.getApproveButtonText(javax.swing.JFileChooser)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getApproveButtonText_JFileChooser()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -199,15 +148,16 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiFileChooserUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#getFileView(javax.swing.JFileChooser) public
+     * javax.swing.filechooser.FileView javax.swing.plaf.multi.MultiFileChooserUI.getFileView(javax.swing.JFileChooser)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_uninstallUI_JComponent()
+    public default void test_getFileView_JFileChooser()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -233,15 +183,32 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#rescanCurrentDirectory(javax.swing.JFileChooser)
-     * public void javax.swing.plaf.multi.MultiFileChooserUI.rescanCurrentDirectory(javax.swing.JFileChooser)}.
+     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#getMinimumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.multi.MultiFileChooserUI.getMinimumSize(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_rescanCurrentDirectory_JFileChooser()
+    public default void test_getMinimumSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.multi.MultiFileChooserUI.getPreferredSize(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPreferredSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -266,15 +233,15 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#update(java.awt.Graphics,javax.swing.JComponent)
-     * public void javax.swing.plaf.multi.MultiFileChooserUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiFileChooserUI.installUI(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_update_Graphics_JComponent()
+    public default void test_installUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -300,16 +267,49 @@ extends org.j8unit.repository.javax.swing.plaf.FileChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#getAcceptAllFileFilter(javax.swing.JFileChooser)
-     * public javax.swing.filechooser.FileFilter
-     * javax.swing.plaf.multi.MultiFileChooserUI.getAcceptAllFileFilter(javax.swing.JFileChooser)}.
+     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#rescanCurrentDirectory(javax.swing.JFileChooser)
+     * public void javax.swing.plaf.multi.MultiFileChooserUI.rescanCurrentDirectory(javax.swing.JFileChooser)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAcceptAllFileFilter_JFileChooser()
+    public default void test_rescanCurrentDirectory_JFileChooser()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiFileChooserUI.uninstallUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_uninstallUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiFileChooserUI#update(java.awt.Graphics,javax.swing.JComponent)
+     * public void javax.swing.plaf.multi.MultiFileChooserUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_update_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,46 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetEncoder#flush(java.nio.ByteBuffer) public final
-     * java.nio.charset.CoderResult java.nio.charset.CharsetEncoder.flush(java.nio.ByteBuffer)}.
+     * Test method for {@link java.nio.charset.CharsetEncoder#averageBytesPerChar() public final float
+     * java.nio.charset.CharsetEncoder.averageBytesPerChar()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_flush_ByteBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.CharsetEncoder#malformedInputAction() public
-     * java.nio.charset.CodingErrorAction java.nio.charset.CharsetEncoder.malformedInputAction()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_malformedInputAction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.CharsetEncoder#canEncode(java.lang.CharSequence) public boolean
-     * java.nio.charset.CharsetEncoder.canEncode(java.lang.CharSequence)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canEncode_CharSequence()
+    public default void test_averageBytesPerChar()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,112 +55,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetEncoder#unmappableCharacterAction() public
-     * java.nio.charset.CodingErrorAction java.nio.charset.CharsetEncoder.unmappableCharacterAction()}.
+     * Test method for {@link java.nio.charset.CharsetEncoder#canEncode(java.lang.CharSequence) public boolean
+     * java.nio.charset.CharsetEncoder.canEncode(java.lang.CharSequence)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_unmappableCharacterAction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.CharsetEncoder#replacement() public final byte[]
-     * java.nio.charset.CharsetEncoder.replacement()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replacement()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.CharsetEncoder#replaceWith(byte[]) public final
-     * java.nio.charset.CharsetEncoder java.nio.charset.CharsetEncoder.replaceWith(byte[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replaceWith_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.CharsetEncoder#reset() public final java.nio.charset.CharsetEncoder
-     * java.nio.charset.CharsetEncoder.reset()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_reset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.CharsetEncoder#onMalformedInput(java.nio.charset.CodingErrorAction)
-     * public final java.nio.charset.CharsetEncoder
-     * java.nio.charset.CharsetEncoder.onMalformedInput(java.nio.charset.CodingErrorAction)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_onMalformedInput_CodingErrorAction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.CharsetEncoder#averageBytesPerChar() public final float
-     * java.nio.charset.CharsetEncoder.averageBytesPerChar()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_averageBytesPerChar()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.CharsetEncoder#onUnmappableCharacter(java.nio.charset.CodingErrorAction)
-     * public final java.nio.charset.CharsetEncoder
-     * java.nio.charset.CharsetEncoder.onUnmappableCharacter(java.nio.charset.CodingErrorAction)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_onUnmappableCharacter_CodingErrorAction()
+    public default void test_canEncode_CharSequence()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -251,6 +121,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.nio.charset.CharsetEncoder#flush(java.nio.ByteBuffer) public final
+     * java.nio.charset.CoderResult java.nio.charset.CharsetEncoder.flush(java.nio.ByteBuffer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_flush_ByteBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.charset.CharsetEncoder#isLegalReplacement(byte[]) public boolean
      * java.nio.charset.CharsetEncoder.isLegalReplacement(byte[])}.
      * </p>
@@ -267,6 +153,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.nio.charset.CharsetEncoder#malformedInputAction() public
+     * java.nio.charset.CodingErrorAction java.nio.charset.CharsetEncoder.malformedInputAction()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_malformedInputAction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.charset.CharsetEncoder#maxBytesPerChar() public final float
      * java.nio.charset.CharsetEncoder.maxBytesPerChar()}.
      * </p>
@@ -275,6 +177,104 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_maxBytesPerChar()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.charset.CharsetEncoder#onMalformedInput(java.nio.charset.CodingErrorAction)
+     * public final java.nio.charset.CharsetEncoder
+     * java.nio.charset.CharsetEncoder.onMalformedInput(java.nio.charset.CodingErrorAction)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_onMalformedInput_CodingErrorAction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.charset.CharsetEncoder#onUnmappableCharacter(java.nio.charset.CodingErrorAction)
+     * public final java.nio.charset.CharsetEncoder
+     * java.nio.charset.CharsetEncoder.onUnmappableCharacter(java.nio.charset.CodingErrorAction)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_onUnmappableCharacter_CodingErrorAction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.charset.CharsetEncoder#replacement() public final byte[]
+     * java.nio.charset.CharsetEncoder.replacement()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replacement()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.charset.CharsetEncoder#replaceWith(byte[]) public final
+     * java.nio.charset.CharsetEncoder java.nio.charset.CharsetEncoder.replaceWith(byte[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replaceWith_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.charset.CharsetEncoder#reset() public final java.nio.charset.CharsetEncoder
+     * java.nio.charset.CharsetEncoder.reset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.charset.CharsetEncoder#unmappableCharacterAction() public
+     * java.nio.charset.CodingErrorAction java.nio.charset.CharsetEncoder.unmappableCharacterAction()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unmappableCharacterAction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,35 +24,16 @@ extends org.j8unit.repository.javax.net.ssl.X509TrustManagerTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link javax.net.ssl.X509ExtendedTrustManager#checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String,javax.net.ssl.SSLEngine)
+     * {@link javax.net.ssl.X509ExtendedTrustManager#checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String,java.net.Socket)
      * public abstract void
-     * javax.net.ssl.X509ExtendedTrustManager.checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String,javax.net.ssl.SSLEngine)
+     * javax.net.ssl.X509ExtendedTrustManager.checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String,java.net.Socket)
      * throws java.security.cert.CertificateException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_checkServerTrusted_X509CertificateArray_String_SSLEngine()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.net.ssl.X509ExtendedTrustManager#checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String,java.net.Socket)
-     * public abstract void
-     * javax.net.ssl.X509ExtendedTrustManager.checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String,java.net.Socket)
-     * throws java.security.cert.CertificateException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_checkServerTrusted_X509CertificateArray_String_Socket()
+    public default void test_checkClientTrusted_X509CertificateArray_String_Socket()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -81,16 +62,35 @@ extends org.j8unit.repository.javax.net.ssl.X509TrustManagerTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link javax.net.ssl.X509ExtendedTrustManager#checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String,java.net.Socket)
+     * {@link javax.net.ssl.X509ExtendedTrustManager#checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String,java.net.Socket)
      * public abstract void
-     * javax.net.ssl.X509ExtendedTrustManager.checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String,java.net.Socket)
+     * javax.net.ssl.X509ExtendedTrustManager.checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String,java.net.Socket)
      * throws java.security.cert.CertificateException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_checkClientTrusted_X509CertificateArray_String_Socket()
+    public default void test_checkServerTrusted_X509CertificateArray_String_Socket()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.net.ssl.X509ExtendedTrustManager#checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String,javax.net.ssl.SSLEngine)
+     * public abstract void
+     * javax.net.ssl.X509ExtendedTrustManager.checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String,javax.net.ssl.SSLEngine)
+     * throws java.security.cert.CertificateException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_checkServerTrusted_X509CertificateArray_String_SSLEngine()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

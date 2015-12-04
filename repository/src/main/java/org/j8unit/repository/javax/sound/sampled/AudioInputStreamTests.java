@@ -40,32 +40,15 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioInputStream#reset() public void
-     * javax.sound.sampled.AudioInputStream.reset() throws java.io.IOException}.
+     * Test method for {@link javax.sound.sampled.AudioInputStream#close() public void
+     * javax.sound.sampled.AudioInputStream.close() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_reset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioInputStream#skip(long) public long
-     * javax.sound.sampled.AudioInputStream.skip(long) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_skip_long()
+    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -82,23 +65,6 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getFormat()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.AudioInputStream#close() public void
-     * javax.sound.sampled.AudioInputStream.close() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -140,15 +106,15 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioInputStream#read(byte[]) public int
-     * javax.sound.sampled.AudioInputStream.read(byte[]) throws java.io.IOException}.
+     * Test method for {@link javax.sound.sampled.AudioInputStream#markSupported() public boolean
+     * javax.sound.sampled.AudioInputStream.markSupported()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_read_byteArray()
+    public default void test_markSupported()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -174,6 +140,23 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.sound.sampled.AudioInputStream#read(byte[]) public int
+     * javax.sound.sampled.AudioInputStream.read(byte[]) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_read_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.sound.sampled.AudioInputStream#read(byte[],int,int) public int
      * javax.sound.sampled.AudioInputStream.read(byte[],int,int) throws java.io.IOException}.
      * </p>
@@ -191,15 +174,32 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.AudioInputStream#markSupported() public boolean
-     * javax.sound.sampled.AudioInputStream.markSupported()}.
+     * Test method for {@link javax.sound.sampled.AudioInputStream#reset() public void
+     * javax.sound.sampled.AudioInputStream.reset() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_markSupported()
+    public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.AudioInputStream#skip(long) public long
+     * javax.sound.sampled.AudioInputStream.skip(long) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_skip_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

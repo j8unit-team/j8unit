@@ -25,15 +25,15 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#iterator() public synchronized java.util.Iterator
-     * java.util.Vector.iterator()}.
+     * Test method for {@link java.util.Vector#add(int,java.lang.Object) public void
+     * java.util.Vector.add(int,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_iterator()
+    public default void test_add_int_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -42,15 +42,15 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#removeAll(java.util.Collection) public synchronized boolean
-     * java.util.Vector.removeAll(java.util.Collection)}.
+     * Test method for {@link java.util.Vector#add(java.lang.Object) public synchronized boolean
+     * java.util.Vector.add(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_removeAll_Collection()
+    public default void test_add_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -59,15 +59,15 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#toArray() public synchronized java.lang.Object[]
-     * java.util.Vector.toArray()}.
+     * Test method for {@link java.util.Vector#addAll(java.util.Collection) public synchronized boolean
+     * java.util.Vector.addAll(java.util.Collection)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toArray()
+    public default void test_addAll_Collection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,15 +76,15 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#toArray(java.lang.Object[]) public synchronized java.lang.Object[]
-     * java.util.Vector.toArray(java.lang.Object[])}.
+     * Test method for {@link java.util.Vector#addAll(int,java.util.Collection) public synchronized boolean
+     * java.util.Vector.addAll(int,java.util.Collection)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toArray_ObjectArray()
+    public default void test_addAll_int_Collection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -93,14 +93,14 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#removeAllElements() public synchronized void
-     * java.util.Vector.removeAllElements()}.
+     * Test method for {@link java.util.Vector#addElement(java.lang.Object) public synchronized void
+     * java.util.Vector.addElement(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeAllElements()
+    public default void test_addElement_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -109,14 +109,13 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#indexOf(java.lang.Object,int) public synchronized int
-     * java.util.Vector.indexOf(java.lang.Object,int)}.
+     * Test method for {@link java.util.Vector#capacity() public synchronized int java.util.Vector.capacity()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_indexOf_Object_int()
+    public default void test_capacity()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -125,15 +124,14 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#indexOf(java.lang.Object) public int
-     * java.util.Vector.indexOf(java.lang.Object)}.
+     * Test method for {@link java.util.Vector#clear() public void java.util.Vector.clear()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_indexOf_Object()
+    public default void test_clear()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -142,14 +140,13 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#firstElement() public synchronized java.lang.Object
-     * java.util.Vector.firstElement()}.
+     * Test method for {@link java.util.Vector#clone() public synchronized java.lang.Object java.util.Vector.clone()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_firstElement()
+    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -175,30 +172,15 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#lastElement() public synchronized java.lang.Object
-     * java.util.Vector.lastElement()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lastElement()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#size() public synchronized int java.util.Vector.size()}.
+     * Test method for {@link java.util.Vector#containsAll(java.util.Collection) public synchronized boolean
+     * java.util.Vector.containsAll(java.util.Collection)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_size()
+    public default void test_containsAll_Collection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -207,14 +189,45 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#addElement(java.lang.Object) public synchronized void
-     * java.util.Vector.addElement(java.lang.Object)}.
+     * Test method for {@link java.util.Vector#copyInto(java.lang.Object[]) public synchronized void
+     * java.util.Vector.copyInto(java.lang.Object[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addElement_Object()
+    public default void test_copyInto_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#elementAt(int) public synchronized java.lang.Object
+     * java.util.Vector.elementAt(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_elementAt_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#elements() public java.util.Enumeration java.util.Vector.elements()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_elements()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -231,6 +244,219 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_ensureCapacity_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#equals(java.lang.Object) public synchronized boolean
+     * java.util.Vector.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#firstElement() public synchronized java.lang.Object
+     * java.util.Vector.firstElement()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_firstElement()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#forEach(java.util.function.Consumer) public synchronized void
+     * java.util.Vector.forEach(java.util.function.Consumer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_forEach_Consumer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#get(int) public synchronized java.lang.Object java.util.Vector.get(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_get_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#hashCode() public synchronized int java.util.Vector.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#indexOf(java.lang.Object) public int
+     * java.util.Vector.indexOf(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_indexOf_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#indexOf(java.lang.Object,int) public synchronized int
+     * java.util.Vector.indexOf(java.lang.Object,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_indexOf_Object_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#insertElementAt(java.lang.Object,int) public synchronized void
+     * java.util.Vector.insertElementAt(java.lang.Object,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insertElementAt_Object_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#isEmpty() public synchronized boolean java.util.Vector.isEmpty()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isEmpty()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#iterator() public synchronized java.util.Iterator
+     * java.util.Vector.iterator()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_iterator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#lastElement() public synchronized java.lang.Object
+     * java.util.Vector.lastElement()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lastElement()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#lastIndexOf(java.lang.Object) public synchronized int
+     * java.util.Vector.lastIndexOf(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_lastIndexOf_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#lastIndexOf(java.lang.Object,int) public synchronized int
+     * java.util.Vector.lastIndexOf(java.lang.Object,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lastIndexOf_Object_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -273,217 +499,6 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#add(java.lang.Object) public synchronized boolean
-     * java.util.Vector.add(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_add_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#add(int,java.lang.Object) public void
-     * java.util.Vector.add(int,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_add_int_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#copyInto(java.lang.Object[]) public synchronized void
-     * java.util.Vector.copyInto(java.lang.Object[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyInto_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#spliterator() public java.util.Spliterator
-     * java.util.Vector.spliterator()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_spliterator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#sort(java.util.Comparator) public synchronized void
-     * java.util.Vector.sort(java.util.Comparator)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_sort_Comparator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#removeIf(java.util.function.Predicate) public synchronized boolean
-     * java.util.Vector.removeIf(java.util.function.Predicate)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_removeIf_Predicate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#setSize(int) public synchronized void java.util.Vector.setSize(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSize_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#get(int) public synchronized java.lang.Object java.util.Vector.get(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_get_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#hashCode() public synchronized int java.util.Vector.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#setElementAt(java.lang.Object,int) public synchronized void
-     * java.util.Vector.setElementAt(java.lang.Object,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setElementAt_Object_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#elementAt(int) public synchronized java.lang.Object
-     * java.util.Vector.elementAt(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_elementAt_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#removeElementAt(int) public synchronized void
-     * java.util.Vector.removeElementAt(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeElementAt_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#capacity() public synchronized int java.util.Vector.capacity()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_capacity()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.Vector#remove(int) public synchronized java.lang.Object
      * java.util.Vector.remove(int)}.
      * </p>
@@ -518,6 +533,88 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
+     * Test method for {@link java.util.Vector#removeAll(java.util.Collection) public synchronized boolean
+     * java.util.Vector.removeAll(java.util.Collection)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_removeAll_Collection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#removeAllElements() public synchronized void
+     * java.util.Vector.removeAllElements()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeAllElements()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#removeElement(java.lang.Object) public synchronized boolean
+     * java.util.Vector.removeElement(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeElement_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#removeElementAt(int) public synchronized void
+     * java.util.Vector.removeElementAt(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeElementAt_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#removeIf(java.util.function.Predicate) public synchronized boolean
+     * java.util.Vector.removeIf(java.util.function.Predicate)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_removeIf_Predicate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.Vector#replaceAll(java.util.function.UnaryOperator) public synchronized void
      * java.util.Vector.replaceAll(java.util.function.UnaryOperator)}.
      * </p>
@@ -527,153 +624,6 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
     @Category(Draft.class)
     @Override
     public default void test_replaceAll_UnaryOperator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#insertElementAt(java.lang.Object,int) public synchronized void
-     * java.util.Vector.insertElementAt(java.lang.Object,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insertElementAt_Object_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#lastIndexOf(java.lang.Object,int) public synchronized int
-     * java.util.Vector.lastIndexOf(java.lang.Object,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lastIndexOf_Object_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#lastIndexOf(java.lang.Object) public synchronized int
-     * java.util.Vector.lastIndexOf(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_lastIndexOf_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#equals(java.lang.Object) public synchronized boolean
-     * java.util.Vector.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#elements() public java.util.Enumeration java.util.Vector.elements()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_elements()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#addAll(int,java.util.Collection) public synchronized boolean
-     * java.util.Vector.addAll(int,java.util.Collection)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addAll_int_Collection()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#addAll(java.util.Collection) public synchronized boolean
-     * java.util.Vector.addAll(java.util.Collection)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addAll_Collection()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#toString() public synchronized java.lang.String
-     * java.util.Vector.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Vector#clone() public synchronized java.lang.Object java.util.Vector.clone()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -699,22 +649,6 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#removeElement(java.lang.Object) public synchronized boolean
-     * java.util.Vector.removeElement(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeElement_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.Vector#set(int,java.lang.Object) public synchronized java.lang.Object
      * java.util.Vector.set(int,java.lang.Object)}.
      * </p>
@@ -732,13 +666,79 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#trimToSize() public synchronized void java.util.Vector.trimToSize()}.
+     * Test method for {@link java.util.Vector#setElementAt(java.lang.Object,int) public synchronized void
+     * java.util.Vector.setElementAt(java.lang.Object,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_trimToSize()
+    public default void test_setElementAt_Object_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#setSize(int) public synchronized void java.util.Vector.setSize(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSize_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#size() public synchronized int java.util.Vector.size()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_size()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#sort(java.util.Comparator) public synchronized void
+     * java.util.Vector.sort(java.util.Comparator)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_sort_Comparator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Vector#spliterator() public java.util.Spliterator
+     * java.util.Vector.spliterator()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_spliterator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -764,15 +764,15 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#containsAll(java.util.Collection) public synchronized boolean
-     * java.util.Vector.containsAll(java.util.Collection)}.
+     * Test method for {@link java.util.Vector#toArray() public synchronized java.lang.Object[]
+     * java.util.Vector.toArray()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_containsAll_Collection()
+    public default void test_toArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -781,15 +781,15 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#forEach(java.util.function.Consumer) public synchronized void
-     * java.util.Vector.forEach(java.util.function.Consumer)}.
+     * Test method for {@link java.util.Vector#toArray(java.lang.Object[]) public synchronized java.lang.Object[]
+     * java.util.Vector.toArray(java.lang.Object[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_forEach_Consumer()
+    public default void test_toArray_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -798,14 +798,15 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#clear() public void java.util.Vector.clear()}.
+     * Test method for {@link java.util.Vector#toString() public synchronized java.lang.String
+     * java.util.Vector.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_clear()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -814,14 +815,13 @@ org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Vector#isEmpty() public synchronized boolean java.util.Vector.isEmpty()}.
+     * Test method for {@link java.util.Vector#trimToSize() public synchronized void java.util.Vector.trimToSize()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_isEmpty()
+    public default void test_trimToSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

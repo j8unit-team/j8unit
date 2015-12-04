@@ -24,109 +24,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultDesktopManager#endResizingFrame(javax.swing.JComponent) public void
-     * javax.swing.DefaultDesktopManager.endResizingFrame(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_endResizingFrame_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultDesktopManager#endDraggingFrame(javax.swing.JComponent) public void
-     * javax.swing.DefaultDesktopManager.endDraggingFrame(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_endDraggingFrame_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.DefaultDesktopManager#setBoundsForFrame(javax.swing.JComponent,int,int,int,int) public void
-     * javax.swing.DefaultDesktopManager.setBoundsForFrame(javax.swing.JComponent,int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setBoundsForFrame_JComponent_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultDesktopManager#deactivateFrame(javax.swing.JInternalFrame) public void
-     * javax.swing.DefaultDesktopManager.deactivateFrame(javax.swing.JInternalFrame)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_deactivateFrame_JInternalFrame()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultDesktopManager#resizeFrame(javax.swing.JComponent,int,int,int,int)
-     * public void javax.swing.DefaultDesktopManager.resizeFrame(javax.swing.JComponent,int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_resizeFrame_JComponent_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DefaultDesktopManager#dragFrame(javax.swing.JComponent,int,int) public void
-     * javax.swing.DefaultDesktopManager.dragFrame(javax.swing.JComponent,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_dragFrame_JComponent_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.DefaultDesktopManager#activateFrame(javax.swing.JInternalFrame) public void
      * javax.swing.DefaultDesktopManager.activateFrame(javax.swing.JInternalFrame)}.
      * </p>
@@ -136,6 +33,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_activateFrame_JInternalFrame()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DefaultDesktopManager#beginDraggingFrame(javax.swing.JComponent) public void
+     * javax.swing.DefaultDesktopManager.beginDraggingFrame(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_beginDraggingFrame_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -178,6 +92,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.DefaultDesktopManager#deactivateFrame(javax.swing.JInternalFrame) public void
+     * javax.swing.DefaultDesktopManager.deactivateFrame(javax.swing.JInternalFrame)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_deactivateFrame_JInternalFrame()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.DefaultDesktopManager#deiconifyFrame(javax.swing.JInternalFrame) public void
      * javax.swing.DefaultDesktopManager.deiconifyFrame(javax.swing.JInternalFrame)}.
      * </p>
@@ -195,15 +126,66 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultDesktopManager#openFrame(javax.swing.JInternalFrame) public void
-     * javax.swing.DefaultDesktopManager.openFrame(javax.swing.JInternalFrame)}.
+     * Test method for {@link javax.swing.DefaultDesktopManager#dragFrame(javax.swing.JComponent,int,int) public void
+     * javax.swing.DefaultDesktopManager.dragFrame(javax.swing.JComponent,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_openFrame_JInternalFrame()
+    public default void test_dragFrame_JComponent_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DefaultDesktopManager#endDraggingFrame(javax.swing.JComponent) public void
+     * javax.swing.DefaultDesktopManager.endDraggingFrame(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_endDraggingFrame_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DefaultDesktopManager#endResizingFrame(javax.swing.JComponent) public void
+     * javax.swing.DefaultDesktopManager.endResizingFrame(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_endResizingFrame_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DefaultDesktopManager#iconifyFrame(javax.swing.JInternalFrame) public void
+     * javax.swing.DefaultDesktopManager.iconifyFrame(javax.swing.JInternalFrame)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_iconifyFrame_JInternalFrame()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -229,23 +211,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultDesktopManager#beginDraggingFrame(javax.swing.JComponent) public void
-     * javax.swing.DefaultDesktopManager.beginDraggingFrame(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_beginDraggingFrame_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.DefaultDesktopManager#minimizeFrame(javax.swing.JInternalFrame) public void
      * javax.swing.DefaultDesktopManager.minimizeFrame(javax.swing.JInternalFrame)}.
      * </p>
@@ -263,15 +228,50 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DefaultDesktopManager#iconifyFrame(javax.swing.JInternalFrame) public void
-     * javax.swing.DefaultDesktopManager.iconifyFrame(javax.swing.JInternalFrame)}.
+     * Test method for {@link javax.swing.DefaultDesktopManager#openFrame(javax.swing.JInternalFrame) public void
+     * javax.swing.DefaultDesktopManager.openFrame(javax.swing.JInternalFrame)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_iconifyFrame_JInternalFrame()
+    public default void test_openFrame_JInternalFrame()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DefaultDesktopManager#resizeFrame(javax.swing.JComponent,int,int,int,int)
+     * public void javax.swing.DefaultDesktopManager.resizeFrame(javax.swing.JComponent,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_resizeFrame_JComponent_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.DefaultDesktopManager#setBoundsForFrame(javax.swing.JComponent,int,int,int,int) public void
+     * javax.swing.DefaultDesktopManager.setBoundsForFrame(javax.swing.JComponent,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setBoundsForFrame_JComponent_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

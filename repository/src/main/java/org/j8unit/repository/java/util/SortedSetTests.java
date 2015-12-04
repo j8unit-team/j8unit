@@ -23,6 +23,53 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E> {
 
     /**
      * <p>
+     * Test method for {@link java.util.SortedSet#comparator() public abstract java.util.Comparator
+     * java.util.SortedSet.comparator()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_comparator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.SortedSet#first() public abstract java.lang.Object java.util.SortedSet.first()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_first()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.SortedSet#headSet(java.lang.Object) public abstract java.util.SortedSet
+     * java.util.SortedSet.headSet(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_headSet_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.SortedSet#last() public abstract java.lang.Object java.util.SortedSet.last()}.
      * </p>
      */
@@ -55,14 +102,14 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.SortedSet#headSet(java.lang.Object) public abstract java.util.SortedSet
-     * java.util.SortedSet.headSet(java.lang.Object)}.
+     * Test method for {@link java.util.SortedSet#subSet(java.lang.Object,java.lang.Object) public abstract
+     * java.util.SortedSet java.util.SortedSet.subSet(java.lang.Object,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_headSet_Object()
+    public default void test_subSet_Object_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,53 +126,6 @@ extends org.j8unit.repository.java.util.SetTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_tailSet_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.SortedSet#comparator() public abstract java.util.Comparator
-     * java.util.SortedSet.comparator()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_comparator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.SortedSet#first() public abstract java.lang.Object java.util.SortedSet.first()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_first()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.SortedSet#subSet(java.lang.Object,java.lang.Object) public abstract
-     * java.util.SortedSet java.util.SortedSet.subSet(java.lang.Object,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_subSet_Object_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

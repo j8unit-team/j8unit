@@ -35,29 +35,16 @@ import org.junit.experimental.categories.Category;
 public abstract interface ExecutorsClassTests<SUT extends Class<? extends java.util.concurrent.Executors>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.concurrent.Executors> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.concurrent.Executors.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for
-     * {@link java.util.concurrent.Executors#unconfigurableScheduledExecutorService(java.util.concurrent.ScheduledExecutorService)
-     * public static java.util.concurrent.ScheduledExecutorService
-     * java.util.concurrent.Executors.unconfigurableScheduledExecutorService(java.util.concurrent.ScheduledExecutorService)}
-     * .
+     * Test method for {@link java.util.concurrent.Executors#callable(java.security.PrivilegedAction) public static
+     * java.util.concurrent.Callable java.util.concurrent.Executors.callable(java.security.PrivilegedAction)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_unconfigurableScheduledExecutorService_ScheduledExecutorService()
+    public default void test_callable_PrivilegedAction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -66,14 +53,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Executors#newWorkStealingPool(int) public static
-     * java.util.concurrent.ExecutorService java.util.concurrent.Executors.newWorkStealingPool(int)}.
+     * Test method for {@link java.util.concurrent.Executors#callable(java.security.PrivilegedExceptionAction) public
+     * static java.util.concurrent.Callable
+     * java.util.concurrent.Executors.callable(java.security.PrivilegedExceptionAction)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newWorkStealingPool_int()
+    public default void test_callable_PrivilegedExceptionAction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -82,14 +70,62 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Executors#newWorkStealingPool() public static
-     * java.util.concurrent.ExecutorService java.util.concurrent.Executors.newWorkStealingPool()}.
+     * Test method for {@link java.util.concurrent.Executors#callable(java.lang.Runnable) public static
+     * java.util.concurrent.Callable java.util.concurrent.Executors.callable(java.lang.Runnable)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newWorkStealingPool()
+    public default void test_callable_Runnable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.Executors#callable(java.lang.Runnable,java.lang.Object) public static
+     * java.util.concurrent.Callable java.util.concurrent.Executors.callable(java.lang.Runnable,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_callable_Runnable_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.Executors#defaultThreadFactory() public static
+     * java.util.concurrent.ThreadFactory java.util.concurrent.Executors.defaultThreadFactory()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_defaultThreadFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.Executors#newCachedThreadPool() public static
+     * java.util.concurrent.ExecutorService java.util.concurrent.Executors.newCachedThreadPool()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newCachedThreadPool()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -115,14 +151,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Executors#newCachedThreadPool() public static
-     * java.util.concurrent.ExecutorService java.util.concurrent.Executors.newCachedThreadPool()}.
+     * Test method for {@link java.util.concurrent.Executors#newFixedThreadPool(int) public static
+     * java.util.concurrent.ExecutorService java.util.concurrent.Executors.newFixedThreadPool(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newCachedThreadPool()
+    public default void test_newFixedThreadPool_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -131,83 +167,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Executors#newSingleThreadExecutor(java.util.concurrent.ThreadFactory)
+     * Test method for {@link java.util.concurrent.Executors#newFixedThreadPool(int,java.util.concurrent.ThreadFactory)
      * public static java.util.concurrent.ExecutorService
-     * java.util.concurrent.Executors.newSingleThreadExecutor(java.util.concurrent.ThreadFactory)}.
+     * java.util.concurrent.Executors.newFixedThreadPool(int,java.util.concurrent.ThreadFactory)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newSingleThreadExecutor_ThreadFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.Executors#newSingleThreadExecutor() public static
-     * java.util.concurrent.ExecutorService java.util.concurrent.Executors.newSingleThreadExecutor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newSingleThreadExecutor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.Executors#privilegedCallableUsingCurrentClassLoader(java.util.concurrent.Callable)
-     * public static java.util.concurrent.Callable
-     * java.util.concurrent.Executors.privilegedCallableUsingCurrentClassLoader(java.util.concurrent.Callable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_privilegedCallableUsingCurrentClassLoader_Callable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.Executors#newSingleThreadScheduledExecutor(java.util.concurrent.ThreadFactory) public
-     * static java.util.concurrent.ScheduledExecutorService
-     * java.util.concurrent.Executors.newSingleThreadScheduledExecutor(java.util.concurrent.ThreadFactory)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newSingleThreadScheduledExecutor_ThreadFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.Executors#newSingleThreadScheduledExecutor() public static
-     * java.util.concurrent.ScheduledExecutorService java.util.concurrent.Executors.newSingleThreadScheduledExecutor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newSingleThreadScheduledExecutor()
+    public default void test_newFixedThreadPool_int_ThreadFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -250,14 +218,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Executors#newFixedThreadPool(int) public static
-     * java.util.concurrent.ExecutorService java.util.concurrent.Executors.newFixedThreadPool(int)}.
+     * Test method for {@link java.util.concurrent.Executors#newSingleThreadExecutor() public static
+     * java.util.concurrent.ExecutorService java.util.concurrent.Executors.newSingleThreadExecutor()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newFixedThreadPool_int()
+    public default void test_newSingleThreadExecutor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -266,15 +234,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Executors#newFixedThreadPool(int,java.util.concurrent.ThreadFactory)
+     * Test method for {@link java.util.concurrent.Executors#newSingleThreadExecutor(java.util.concurrent.ThreadFactory)
      * public static java.util.concurrent.ExecutorService
-     * java.util.concurrent.Executors.newFixedThreadPool(int,java.util.concurrent.ThreadFactory)}.
+     * java.util.concurrent.Executors.newSingleThreadExecutor(java.util.concurrent.ThreadFactory)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newFixedThreadPool_int_ThreadFactory()
+    public default void test_newSingleThreadExecutor_ThreadFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -283,14 +251,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Executors#callable(java.lang.Runnable,java.lang.Object) public static
-     * java.util.concurrent.Callable java.util.concurrent.Executors.callable(java.lang.Runnable,java.lang.Object)}.
+     * Test method for {@link java.util.concurrent.Executors#newSingleThreadScheduledExecutor() public static
+     * java.util.concurrent.ScheduledExecutorService java.util.concurrent.Executors.newSingleThreadScheduledExecutor()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_callable_Runnable_Object()
+    public default void test_newSingleThreadScheduledExecutor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -299,15 +267,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Executors#callable(java.security.PrivilegedExceptionAction) public
-     * static java.util.concurrent.Callable
-     * java.util.concurrent.Executors.callable(java.security.PrivilegedExceptionAction)}.
+     * Test method for
+     * {@link java.util.concurrent.Executors#newSingleThreadScheduledExecutor(java.util.concurrent.ThreadFactory) public
+     * static java.util.concurrent.ScheduledExecutorService
+     * java.util.concurrent.Executors.newSingleThreadScheduledExecutor(java.util.concurrent.ThreadFactory)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_callable_PrivilegedExceptionAction()
+    public default void test_newSingleThreadScheduledExecutor_ThreadFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -316,14 +285,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Executors#callable(java.security.PrivilegedAction) public static
-     * java.util.concurrent.Callable java.util.concurrent.Executors.callable(java.security.PrivilegedAction)}.
+     * Test method for {@link java.util.concurrent.Executors#newWorkStealingPool() public static
+     * java.util.concurrent.ExecutorService java.util.concurrent.Executors.newWorkStealingPool()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_callable_PrivilegedAction()
+    public default void test_newWorkStealingPool()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -332,30 +301,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Executors#callable(java.lang.Runnable) public static
-     * java.util.concurrent.Callable java.util.concurrent.Executors.callable(java.lang.Runnable)}.
+     * Test method for {@link java.util.concurrent.Executors#newWorkStealingPool(int) public static
+     * java.util.concurrent.ExecutorService java.util.concurrent.Executors.newWorkStealingPool(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_callable_Runnable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.Executors#privilegedThreadFactory() public static
-     * java.util.concurrent.ThreadFactory java.util.concurrent.Executors.privilegedThreadFactory()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_privilegedThreadFactory()
+    public default void test_newWorkStealingPool_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -381,14 +334,32 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Executors#defaultThreadFactory() public static
-     * java.util.concurrent.ThreadFactory java.util.concurrent.Executors.defaultThreadFactory()}.
+     * Test method for
+     * {@link java.util.concurrent.Executors#privilegedCallableUsingCurrentClassLoader(java.util.concurrent.Callable)
+     * public static java.util.concurrent.Callable
+     * java.util.concurrent.Executors.privilegedCallableUsingCurrentClassLoader(java.util.concurrent.Callable)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_defaultThreadFactory()
+    public default void test_privilegedCallableUsingCurrentClassLoader_Callable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.Executors#privilegedThreadFactory() public static
+     * java.util.concurrent.ThreadFactory java.util.concurrent.Executors.privilegedThreadFactory()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_privilegedThreadFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -411,6 +382,35 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.Executors#unconfigurableScheduledExecutorService(java.util.concurrent.ScheduledExecutorService)
+     * public static java.util.concurrent.ScheduledExecutorService
+     * java.util.concurrent.Executors.unconfigurableScheduledExecutorService(java.util.concurrent.ScheduledExecutorService)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unconfigurableScheduledExecutorService_ScheduledExecutorService()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.concurrent.Executors> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.concurrent.Executors.class.isAssignableFrom(sut));
     }
 
 }

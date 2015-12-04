@@ -37,20 +37,6 @@ extends org.j8unit.repository.java.security.PrincipalClassTests<SUT>, org.j8unit
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.security.auth.x500.X500Principal#X500Principal(java.io.InputStream) public
-     * javax.security.auth.x500.X500Principal(java.io.InputStream)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_X500Principal_InputStream()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.security.auth.x500.X500Principal sut = null; // = new X500Principal(java.io.InputStream);
-    }
-
-    /**
      * Test method for {@link javax.security.auth.x500.X500Principal#X500Principal(byte[]) public
      * javax.security.auth.x500.X500Principal(byte[])}.
      */
@@ -65,17 +51,17 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.security.auth.x500.X500Principal#X500Principal(java.lang.String,java.util.Map)
-     * public javax.security.auth.x500.X500Principal(java.lang.String,java.util.Map)}.
+     * Test method for {@link javax.security.auth.x500.X500Principal#X500Principal(java.io.InputStream) public
+     * javax.security.auth.x500.X500Principal(java.io.InputStream)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_X500Principal_String_Map()
+    public default void create_X500Principal_InputStream()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.security.auth.x500.X500Principal sut = null; // = new X500Principal(java.lang.String,java.util.Map);
+        final javax.security.auth.x500.X500Principal sut = null; // = new X500Principal(java.io.InputStream);
     }
 
     /**
@@ -90,6 +76,20 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.security.auth.x500.X500Principal sut = null; // = new X500Principal(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.security.auth.x500.X500Principal#X500Principal(java.lang.String,java.util.Map)
+     * public javax.security.auth.x500.X500Principal(java.lang.String,java.util.Map)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_X500Principal_String_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.security.auth.x500.X500Principal sut = null; // = new X500Principal(java.lang.String,java.util.Map);
     }
 
     @Override

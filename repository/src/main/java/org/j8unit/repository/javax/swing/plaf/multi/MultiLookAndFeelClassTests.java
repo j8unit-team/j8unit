@@ -49,16 +49,6 @@ extends org.j8unit.repository.javax.swing.LookAndFeelClassTests<SUT> {
         final javax.swing.plaf.multi.MultiLookAndFeel sut = null; // = new MultiLookAndFeel();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.multi.MultiLookAndFeel> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.multi.MultiLookAndFeel.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for
@@ -76,6 +66,16 @@ extends org.j8unit.repository.javax.swing.LookAndFeelClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.multi.MultiLookAndFeel> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.multi.MultiLookAndFeel.class.isAssignableFrom(sut));
     }
 
 }

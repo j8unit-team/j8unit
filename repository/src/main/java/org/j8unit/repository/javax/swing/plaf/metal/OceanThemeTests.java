@@ -23,57 +23,6 @@ extends org.j8unit.repository.javax.swing.plaf.metal.DefaultMetalThemeTests<SUT>
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.OceanTheme#getInactiveControlTextColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.OceanTheme.getInactiveControlTextColor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getInactiveControlTextColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.OceanTheme#getMenuDisabledForeground() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.OceanTheme.getMenuDisabledForeground()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMenuDisabledForeground()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.OceanTheme#getDesktopColor() public
-     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.OceanTheme.getDesktopColor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getDesktopColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.metal.OceanTheme#addCustomEntriesToTable(javax.swing.UIDefaults) public
      * void javax.swing.plaf.metal.OceanTheme.addCustomEntriesToTable(javax.swing.UIDefaults)}.
      * </p>
@@ -100,6 +49,57 @@ extends org.j8unit.repository.javax.swing.plaf.metal.DefaultMetalThemeTests<SUT>
     @Category(Draft.class)
     @Override
     public default void test_getControlTextColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.OceanTheme#getDesktopColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.OceanTheme.getDesktopColor()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getDesktopColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.OceanTheme#getInactiveControlTextColor() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.OceanTheme.getInactiveControlTextColor()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getInactiveControlTextColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.OceanTheme#getMenuDisabledForeground() public
+     * javax.swing.plaf.ColorUIResource javax.swing.plaf.metal.OceanTheme.getMenuDisabledForeground()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMenuDisabledForeground()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

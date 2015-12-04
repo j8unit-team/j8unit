@@ -34,48 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface DesktopClassTests<SUT extends Class<? extends java.awt.Desktop>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.Desktop> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.Desktop.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Desktop#isDesktopSupported() public static boolean
-     * java.awt.Desktop.isDesktopSupported()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isDesktopSupported()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Desktop#getDesktop() public static synchronized java.awt.Desktop
-     * java.awt.Desktop.getDesktop()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDesktop()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test class for {@link java.awt.Desktop$Action class java.awt.Desktop$Action}, containing all class relevant test
@@ -105,14 +63,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public static abstract interface ActionClassTests<SUT extends Class<? extends java.awt.Desktop.Action>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.Desktop.Action> {
 
-        @Override
+        /**
+         * <p>
+         * Test method for {@link java.awt.Desktop.Action#valueOf(java.lang.String) public static
+         * java.awt.Desktop$Action java.awt.Desktop$Action.valueOf(java.lang.String)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @Category(Draft.class)
+        public default void test_valueOf_String()
         throws Exception {
-            // create new instance
-            final Class<? extends java.awt.Desktop.Action> sut = createNewSUT();
-            // assert assignability
-            assertTrue(java.awt.Desktop.Action.class.isAssignableFrom(sut));
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
         }
 
         /**
@@ -131,22 +95,58 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for {@link java.awt.Desktop.Action#valueOf(java.lang.String) public static
-         * java.awt.Desktop$Action java.awt.Desktop$Action.valueOf(java.lang.String)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
+        public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
+            // create new instance
+            final Class<? extends java.awt.Desktop.Action> sut = createNewSUT();
+            // assert assignability
+            assertTrue(java.awt.Desktop.Action.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Desktop#getDesktop() public static synchronized java.awt.Desktop
+     * java.awt.Desktop.getDesktop()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDesktop()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Desktop#isDesktopSupported() public static boolean
+     * java.awt.Desktop.isDesktopSupported()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isDesktopSupported()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.Desktop> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.Desktop.class.isAssignableFrom(sut));
     }
 
 }

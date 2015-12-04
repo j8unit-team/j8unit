@@ -36,19 +36,17 @@ public abstract interface AccessibleRelationClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.javax.accessibility.AccessibleBundleClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.accessibility.AccessibleRelation#AccessibleRelation(java.lang.String,java.lang.Object[]) public
-     * javax.accessibility.AccessibleRelation(java.lang.String,java.lang.Object[])}.
+     * Test method for {@link javax.accessibility.AccessibleRelation#AccessibleRelation(java.lang.String) public
+     * javax.accessibility.AccessibleRelation(java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_AccessibleRelation_String_ObjectArray()
+    public default void create_AccessibleRelation_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.accessibility.AccessibleRelation sut = null; // = new
-                                                                 // AccessibleRelation(java.lang.String,java.lang.Object[]);
+        final javax.accessibility.AccessibleRelation sut = null; // = new AccessibleRelation(java.lang.String);
     }
 
     /**
@@ -68,17 +66,19 @@ extends org.j8unit.repository.javax.accessibility.AccessibleBundleClassTests<SUT
     }
 
     /**
-     * Test method for {@link javax.accessibility.AccessibleRelation#AccessibleRelation(java.lang.String) public
-     * javax.accessibility.AccessibleRelation(java.lang.String)}.
+     * Test method for
+     * {@link javax.accessibility.AccessibleRelation#AccessibleRelation(java.lang.String,java.lang.Object[]) public
+     * javax.accessibility.AccessibleRelation(java.lang.String,java.lang.Object[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_AccessibleRelation_String()
+    public default void create_AccessibleRelation_String_ObjectArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.accessibility.AccessibleRelation sut = null; // = new AccessibleRelation(java.lang.String);
+        final javax.accessibility.AccessibleRelation sut = null; // = new
+                                                                 // AccessibleRelation(java.lang.String,java.lang.Object[]);
     }
 
     @Override

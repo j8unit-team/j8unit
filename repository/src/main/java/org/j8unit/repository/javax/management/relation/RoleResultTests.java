@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link javax.management.relation.RoleResult#getRoles() public javax.management.relation.RoleList
+     * javax.management.relation.RoleResult.getRoles()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRoles()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.relation.RoleResult#getRolesUnresolved() public
      * javax.management.relation.RoleUnresolvedList javax.management.relation.RoleResult.getRolesUnresolved()}.
      * </p>
@@ -39,14 +55,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RoleResult#getRoles() public javax.management.relation.RoleList
-     * javax.management.relation.RoleResult.getRoles()}.
+     * Test method for {@link javax.management.relation.RoleResult#setRoles(javax.management.relation.RoleList) public
+     * void javax.management.relation.RoleResult.setRoles(javax.management.relation.RoleList)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRoles()
+    public default void test_setRoles_RoleList()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -65,22 +81,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_setRolesUnresolved_RoleUnresolvedList()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.RoleResult#setRoles(javax.management.relation.RoleList) public
-     * void javax.management.relation.RoleResult.setRoles(javax.management.relation.RoleList)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRoles_RoleList()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

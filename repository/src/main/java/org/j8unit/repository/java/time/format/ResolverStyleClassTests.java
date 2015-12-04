@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ResolverStyleClassTests<SUT extends Class<? extends java.time.format.ResolverStyle>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.format.ResolverStyle> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.format.ResolverStyle> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.format.ResolverStyle.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.time.format.ResolverStyle#valueOf(java.lang.String) public static
@@ -75,6 +65,16 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.format.Res
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.format.ResolverStyle> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.format.ResolverStyle.class.isAssignableFrom(sut));
     }
 
 }

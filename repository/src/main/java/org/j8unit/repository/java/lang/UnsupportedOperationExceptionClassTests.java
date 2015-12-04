@@ -36,18 +36,32 @@ public abstract interface UnsupportedOperationExceptionClassTests<SUT extends Cl
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.UnsupportedOperationException#UnsupportedOperationException(java.lang.Throwable)
-     * public java.lang.UnsupportedOperationException(java.lang.Throwable)}.
+     * Test method for {@link java.lang.UnsupportedOperationException#UnsupportedOperationException() public
+     * java.lang.UnsupportedOperationException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_UnsupportedOperationException_Throwable()
+    public default void create_UnsupportedOperationException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.UnsupportedOperationException sut = null; // = new UnsupportedOperationException();
+    }
+
+    /**
+     * Test method for {@link java.lang.UnsupportedOperationException#UnsupportedOperationException(java.lang.String)
+     * public java.lang.UnsupportedOperationException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_UnsupportedOperationException_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.lang.UnsupportedOperationException sut = null; // = new
-                                                                  // UnsupportedOperationException(java.lang.Throwable);
+                                                                  // UnsupportedOperationException(java.lang.String);
     }
 
     /**
@@ -67,32 +81,18 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.lang.UnsupportedOperationException#UnsupportedOperationException(java.lang.String)
-     * public java.lang.UnsupportedOperationException(java.lang.String)}.
+     * Test method for {@link java.lang.UnsupportedOperationException#UnsupportedOperationException(java.lang.Throwable)
+     * public java.lang.UnsupportedOperationException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_UnsupportedOperationException_String()
+    public default void create_UnsupportedOperationException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.lang.UnsupportedOperationException sut = null; // = new
-                                                                  // UnsupportedOperationException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.lang.UnsupportedOperationException#UnsupportedOperationException() public
-     * java.lang.UnsupportedOperationException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_UnsupportedOperationException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.UnsupportedOperationException sut = null; // = new UnsupportedOperationException();
+                                                                  // UnsupportedOperationException(java.lang.Throwable);
     }
 
     @Override

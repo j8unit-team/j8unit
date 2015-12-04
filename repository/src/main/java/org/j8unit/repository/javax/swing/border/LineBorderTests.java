@@ -23,6 +23,23 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.border.LineBorder#getBorderInsets(java.awt.Component,java.awt.Insets) public
+     * java.awt.Insets javax.swing.border.LineBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getBorderInsets_Component_Insets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.border.LineBorder#getLineColor() public java.awt.Color
      * javax.swing.border.LineBorder.getLineColor()}.
      * </p>
@@ -31,6 +48,38 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getLineColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.LineBorder#getRoundedCorners() public boolean
+     * javax.swing.border.LineBorder.getRoundedCorners()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRoundedCorners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.LineBorder#getThickness() public int
+     * javax.swing.border.LineBorder.getThickness()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getThickness()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,22 +105,6 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.LineBorder#getRoundedCorners() public boolean
-     * javax.swing.border.LineBorder.getRoundedCorners()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRoundedCorners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.swing.border.LineBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int) public
      * void javax.swing.border.LineBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
@@ -82,39 +115,6 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_paintBorder_Component_Graphics_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.LineBorder#getThickness() public int
-     * javax.swing.border.LineBorder.getThickness()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getThickness()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.LineBorder#getBorderInsets(java.awt.Component,java.awt.Insets) public
-     * java.awt.Insets javax.swing.border.LineBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBorderInsets_Component_Insets()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

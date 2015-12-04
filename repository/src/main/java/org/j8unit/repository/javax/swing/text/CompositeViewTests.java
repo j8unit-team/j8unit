@@ -23,15 +23,15 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.CompositeView#getViewIndex(int,javax.swing.text.Position.Bias) public int
-     * javax.swing.text.CompositeView.getViewIndex(int,javax.swing.text.Position$Bias)}.
+     * Test method for {@link javax.swing.text.CompositeView#getChildAllocation(int,java.awt.Shape) public
+     * java.awt.Shape javax.swing.text.CompositeView.getChildAllocation(int,java.awt.Shape)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getViewIndex_int_Bias()
+    public default void test_getChildAllocation_int_Shape()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -41,16 +41,68 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.CompositeView#viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[])
+     * {@link javax.swing.text.CompositeView#getNextVisualPositionFrom(int,javax.swing.text.Position.Bias,java.awt.Shape,int,javax.swing.text.Position.Bias[])
      * public int
-     * javax.swing.text.CompositeView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
+     * javax.swing.text.CompositeView.getNextVisualPositionFrom(int,javax.swing.text.Position$Bias,java.awt.Shape,int,javax.swing.text.Position$Bias[])
+     * throws javax.swing.text.BadLocationException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_viewToModel_float_float_Shape_BiasArray()
+    public default void test_getNextVisualPositionFrom_int_Bias_Shape_int_BiasArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.CompositeView#getView(int) public javax.swing.text.View
+     * javax.swing.text.CompositeView.getView(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getView_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.CompositeView#getViewCount() public int
+     * javax.swing.text.CompositeView.getViewCount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getViewCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.CompositeView#getViewIndex(int,javax.swing.text.Position.Bias) public int
+     * javax.swing.text.CompositeView.getViewIndex(int,javax.swing.text.Position$Bias)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getViewIndex_int_Bias()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -98,32 +150,15 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.CompositeView#getView(int) public javax.swing.text.View
-     * javax.swing.text.CompositeView.getView(int)}.
+     * Test method for {@link javax.swing.text.CompositeView#replace(int,int,javax.swing.text.View[]) public void
+     * javax.swing.text.CompositeView.replace(int,int,javax.swing.text.View[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getView_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.CompositeView#getViewCount() public int
-     * javax.swing.text.CompositeView.getViewCount()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getViewCount()
+    public default void test_replace_int_int_ViewArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -150,51 +185,16 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.text.CompositeView#getNextVisualPositionFrom(int,javax.swing.text.Position.Bias,java.awt.Shape,int,javax.swing.text.Position.Bias[])
+     * {@link javax.swing.text.CompositeView#viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[])
      * public int
-     * javax.swing.text.CompositeView.getNextVisualPositionFrom(int,javax.swing.text.Position$Bias,java.awt.Shape,int,javax.swing.text.Position$Bias[])
-     * throws javax.swing.text.BadLocationException}.
+     * javax.swing.text.CompositeView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getNextVisualPositionFrom_int_Bias_Shape_int_BiasArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.CompositeView#replace(int,int,javax.swing.text.View[]) public void
-     * javax.swing.text.CompositeView.replace(int,int,javax.swing.text.View[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_replace_int_int_ViewArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.CompositeView#getChildAllocation(int,java.awt.Shape) public
-     * java.awt.Shape javax.swing.text.CompositeView.getChildAllocation(int,java.awt.Shape)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getChildAllocation_int_Shape()
+    public default void test_viewToModel_float_float_Shape_BiasArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

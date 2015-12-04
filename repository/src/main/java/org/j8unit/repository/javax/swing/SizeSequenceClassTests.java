@@ -36,29 +36,16 @@ public abstract interface SizeSequenceClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.SizeSequence#SizeSequence(int[]) public javax.swing.SizeSequence(int[])}.
+     * Test method for {@link javax.swing.SizeSequence#SizeSequence() public javax.swing.SizeSequence()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SizeSequence_intArray()
+    public default void create_SizeSequence()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.SizeSequence sut = null; // = new SizeSequence(int[]);
-    }
-
-    /**
-     * Test method for {@link javax.swing.SizeSequence#SizeSequence(int,int) public javax.swing.SizeSequence(int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SizeSequence_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.SizeSequence sut = null; // = new SizeSequence(int,int);
+        final javax.swing.SizeSequence sut = null; // = new SizeSequence();
     }
 
     /**
@@ -75,16 +62,29 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.SizeSequence#SizeSequence() public javax.swing.SizeSequence()}.
+     * Test method for {@link javax.swing.SizeSequence#SizeSequence(int,int) public javax.swing.SizeSequence(int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SizeSequence()
+    public default void create_SizeSequence_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.SizeSequence sut = null; // = new SizeSequence();
+        final javax.swing.SizeSequence sut = null; // = new SizeSequence(int,int);
+    }
+
+    /**
+     * Test method for {@link javax.swing.SizeSequence#SizeSequence(int[]) public javax.swing.SizeSequence(int[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SizeSequence_intArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.SizeSequence sut = null; // = new SizeSequence(int[]);
     }
 
     @Override

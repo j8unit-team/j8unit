@@ -23,164 +23,15 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeFloat(float) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeFloat(float) throws java.io.IOException}.
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#flushBefore(long) public abstract void
+     * javax.imageio.stream.ImageOutputStream.flushBefore(long) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_writeFloat_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeInts(int[],int,int) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeInts(int[],int,int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeInts_intArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeByte(int) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeByte(int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_writeByte_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeBits(long,int) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeBits(long,int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeBits_long_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeInt(int) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeInt(int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_writeInt_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeDouble(double) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeDouble(double) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_writeDouble_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeLongs(long[],int,int) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeLongs(long[],int,int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeLongs_longArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeBoolean(boolean) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeBoolean(boolean) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_writeBoolean_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeBit(int) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeBit(int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeBit_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#write(byte[],int,int) public abstract void
-     * javax.imageio.stream.ImageOutputStream.write(byte[],int,int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_write_byteArray_int_int()
+    public default void test_flushBefore_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -206,6 +57,23 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#write(byte[],int,int) public abstract void
+     * javax.imageio.stream.ImageOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_write_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.imageio.stream.ImageOutputStream#write(int) public abstract void
      * javax.imageio.stream.ImageOutputStream.write(int) throws java.io.IOException}.
      * </p>
@@ -223,14 +91,98 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeFloats(float[],int,int) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeFloats(float[],int,int) throws java.io.IOException}.
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeBit(int) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeBit(int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeFloats_floatArray_int_int()
+    public default void test_writeBit_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeBits(long,int) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeBits(long,int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeBits_long_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeBoolean(boolean) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeBoolean(boolean) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_writeBoolean_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeByte(int) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeByte(int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_writeByte_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeBytes(java.lang.String) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeBytes(java.lang.String) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_writeBytes_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeChar(int) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeChar(int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_writeChar_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -272,32 +224,15 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeShort(int) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeShort(int) throws java.io.IOException}.
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeDouble(double) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeDouble(double) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_writeShort_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeUTF(java.lang.String) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeUTF(java.lang.String) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_writeUTF_String()
+    public default void test_writeDouble_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -322,14 +257,15 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeShorts(short[],int,int) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeShorts(short[],int,int) throws java.io.IOException}.
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeFloat(float) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeFloat(float) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeShorts_shortArray_int_int()
+    @Override
+    public default void test_writeFloat_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -338,15 +274,14 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeBytes(java.lang.String) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeBytes(java.lang.String) throws java.io.IOException}.
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeFloats(float[],int,int) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeFloats(float[],int,int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_writeBytes_String()
+    public default void test_writeFloats_floatArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -355,15 +290,31 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#flushBefore(long) public abstract void
-     * javax.imageio.stream.ImageOutputStream.flushBefore(long) throws java.io.IOException}.
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeInt(int) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeInt(int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_flushBefore_long()
+    public default void test_writeInt_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeInts(int[],int,int) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeInts(int[],int,int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeInts_intArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -389,15 +340,64 @@ extends org.j8unit.repository.javax.imageio.stream.ImageInputStreamTests<SUT>, o
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeChar(int) public abstract void
-     * javax.imageio.stream.ImageOutputStream.writeChar(int) throws java.io.IOException}.
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeLongs(long[],int,int) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeLongs(long[],int,int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeLongs_longArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeShort(int) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeShort(int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_writeChar_int()
+    public default void test_writeShort_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeShorts(short[],int,int) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeShorts(short[],int,int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeShorts_shortArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.stream.ImageOutputStream#writeUTF(java.lang.String) public abstract void
+     * javax.imageio.stream.ImageOutputStream.writeUTF(java.lang.String) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_writeUTF_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,31 +23,15 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.PackedColorModel#isCompatibleSampleModel(java.awt.image.SampleModel) public
-     * boolean java.awt.image.PackedColorModel.isCompatibleSampleModel(java.awt.image.SampleModel)}.
+     * Test method for {@link java.awt.image.PackedColorModel#createCompatibleSampleModel(int,int) public
+     * java.awt.image.SampleModel java.awt.image.PackedColorModel.createCompatibleSampleModel(int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isCompatibleSampleModel_SampleModel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.PackedColorModel#getMask(int) public final int
-     * java.awt.image.PackedColorModel.getMask(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMask_int()
+    public default void test_createCompatibleSampleModel_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,15 +57,31 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.PackedColorModel#createCompatibleSampleModel(int,int) public
-     * java.awt.image.SampleModel java.awt.image.PackedColorModel.createCompatibleSampleModel(int,int)}.
+     * Test method for {@link java.awt.image.PackedColorModel#getAlphaRaster(java.awt.image.WritableRaster) public
+     * java.awt.image.WritableRaster java.awt.image.PackedColorModel.getAlphaRaster(java.awt.image.WritableRaster)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_createCompatibleSampleModel_int_int()
+    public default void test_getAlphaRaster_WritableRaster()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.PackedColorModel#getMask(int) public final int
+     * java.awt.image.PackedColorModel.getMask(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMask_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,15 +106,15 @@ extends org.j8unit.repository.java.awt.image.ColorModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.PackedColorModel#getAlphaRaster(java.awt.image.WritableRaster) public
-     * java.awt.image.WritableRaster java.awt.image.PackedColorModel.getAlphaRaster(java.awt.image.WritableRaster)}.
+     * Test method for {@link java.awt.image.PackedColorModel#isCompatibleSampleModel(java.awt.image.SampleModel) public
+     * boolean java.awt.image.PackedColorModel.isCompatibleSampleModel(java.awt.image.SampleModel)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAlphaRaster_WritableRaster()
+    public default void test_isCompatibleSampleModel_SampleModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

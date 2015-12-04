@@ -36,30 +36,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.print.DocFlavor#DocFlavor(java.lang.String,java.lang.String) public
-     * javax.print.DocFlavor(java.lang.String,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DocFlavor_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.print.DocFlavor sut = null; // = new DocFlavor(java.lang.String,java.lang.String);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.print.DocFlavor> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.print.DocFlavor.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.print.DocFlavor$BYTE_ARRAY class javax.print.DocFlavor$BYTE_ARRAY}, containing all
      * class relevant test methods (at least the test methods of accessible constructors and of accessible
@@ -110,226 +86,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             final Class<? extends javax.print.DocFlavor.BYTE_ARRAY> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.print.DocFlavor.BYTE_ARRAY.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Test class for {@link javax.print.DocFlavor$INPUT_STREAM class javax.print.DocFlavor$INPUT_STREAM}, containing
-     * all class relevant test methods (at least the test methods of accessible constructors and of accessible
-     * {@code static} methods). The counterpart test class containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.print.DocFlavorTests.INPUT_STREAMTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.print.DocFlavorTests.INPUT_STREAMTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface INPUT_STREAMClassTests<SUT extends Class<? extends javax.print.DocFlavor.INPUT_STREAM>>
-    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
-
-        /**
-         * Test method for {@link javax.print.DocFlavor.INPUT_STREAM#INPUT_STREAM(java.lang.String) public
-         * javax.print.DocFlavor$INPUT_STREAM(java.lang.String)}.
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_INPUT_STREAM_String()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.print.DocFlavor.INPUT_STREAM sut = null; // = new INPUT_STREAM(java.lang.String);
-        }
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.print.DocFlavor.INPUT_STREAM> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.print.DocFlavor.INPUT_STREAM.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Test class for {@link javax.print.DocFlavor$URL class javax.print.DocFlavor$URL}, containing all class relevant
-     * test methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
-     * counterpart test class containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.print.DocFlavorTests.URLTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.print.DocFlavorTests.URLTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface URLClassTests<SUT extends Class<? extends javax.print.DocFlavor.URL>>
-    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
-
-        /**
-         * Test method for {@link javax.print.DocFlavor.URL#URL(java.lang.String) public
-         * javax.print.DocFlavor$URL(java.lang.String)}.
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_URL_String()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.print.DocFlavor.URL sut = null; // = new URL(java.lang.String);
-        }
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.print.DocFlavor.URL> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.print.DocFlavor.URL.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Test class for {@link javax.print.DocFlavor$STRING class javax.print.DocFlavor$STRING}, containing all class
-     * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
-     * methods). The counterpart test class containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.print.DocFlavorTests.STRINGTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.print.DocFlavorTests.STRINGTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface STRINGClassTests<SUT extends Class<? extends javax.print.DocFlavor.STRING>>
-    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
-
-        /**
-         * Test method for {@link javax.print.DocFlavor.STRING#STRING(java.lang.String) public
-         * javax.print.DocFlavor$STRING(java.lang.String)}.
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_STRING_String()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.print.DocFlavor.STRING sut = null; // = new STRING(java.lang.String);
-        }
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.print.DocFlavor.STRING> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.print.DocFlavor.STRING.class.isAssignableFrom(sut));
-        }
-
-    }
-
-    /**
-     * <p>
-     * Test class for {@link javax.print.DocFlavor$READER class javax.print.DocFlavor$READER}, containing all class
-     * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
-     * methods). The counterpart test class containing the instance relevant test methods is
-     * {@link org.j8unit.repository.javax.print.DocFlavorTests.READERTests}.
-     * </p>
-     *
-     * <p>
-     * In addition, there may be assertions concerning the class itself. For example,
-     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
-     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
-     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
-     * inheritable test method:
-     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
-     * constraints and further class specific requirements.
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.print.DocFlavorTests.READERTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface READERClassTests<SUT extends Class<? extends javax.print.DocFlavor.READER>>
-    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
-
-        /**
-         * Test method for {@link javax.print.DocFlavor.READER#READER(java.lang.String) public
-         * javax.print.DocFlavor$READER(java.lang.String)}.
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void create_READER_String()
-        throws Exception {
-            // create new instance
-            @SuppressWarnings("unused")
-            final javax.print.DocFlavor.READER sut = null; // = new READER(java.lang.String);
-        }
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.print.DocFlavor.READER> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.print.DocFlavor.READER.class.isAssignableFrom(sut));
         }
 
     }
@@ -391,6 +147,116 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test class for {@link javax.print.DocFlavor$INPUT_STREAM class javax.print.DocFlavor$INPUT_STREAM}, containing
+     * all class relevant test methods (at least the test methods of accessible constructors and of accessible
+     * {@code static} methods). The counterpart test class containing the instance relevant test methods is
+     * {@link org.j8unit.repository.javax.print.DocFlavorTests.INPUT_STREAMTests}.
+     * </p>
+     *
+     * <p>
+     * In addition, there may be assertions concerning the class itself. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
+     * inheritable test method:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+     * constraints and further class specific requirements.
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.print.DocFlavorTests.INPUT_STREAMTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface INPUT_STREAMClassTests<SUT extends Class<? extends javax.print.DocFlavor.INPUT_STREAM>>
+    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
+
+        /**
+         * Test method for {@link javax.print.DocFlavor.INPUT_STREAM#INPUT_STREAM(java.lang.String) public
+         * javax.print.DocFlavor$INPUT_STREAM(java.lang.String)}.
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void create_INPUT_STREAM_String()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final javax.print.DocFlavor.INPUT_STREAM sut = null; // = new INPUT_STREAM(java.lang.String);
+        }
+
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.print.DocFlavor.INPUT_STREAM> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.print.DocFlavor.INPUT_STREAM.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * <p>
+     * Test class for {@link javax.print.DocFlavor$READER class javax.print.DocFlavor$READER}, containing all class
+     * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
+     * methods). The counterpart test class containing the instance relevant test methods is
+     * {@link org.j8unit.repository.javax.print.DocFlavorTests.READERTests}.
+     * </p>
+     *
+     * <p>
+     * In addition, there may be assertions concerning the class itself. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
+     * inheritable test method:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+     * constraints and further class specific requirements.
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.print.DocFlavorTests.READERTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface READERClassTests<SUT extends Class<? extends javax.print.DocFlavor.READER>>
+    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
+
+        /**
+         * Test method for {@link javax.print.DocFlavor.READER#READER(java.lang.String) public
+         * javax.print.DocFlavor$READER(java.lang.String)}.
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void create_READER_String()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final javax.print.DocFlavor.READER sut = null; // = new READER(java.lang.String);
+        }
+
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.print.DocFlavor.READER> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.print.DocFlavor.READER.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * <p>
      * Test class for {@link javax.print.DocFlavor$SERVICE_FORMATTED class javax.print.DocFlavor$SERVICE_FORMATTED},
      * containing all class relevant test methods (at least the test methods of accessible constructors and of
      * accessible {@code static} methods). The counterpart test class containing the instance relevant test methods is
@@ -442,6 +308,140 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(javax.print.DocFlavor.SERVICE_FORMATTED.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * <p>
+     * Test class for {@link javax.print.DocFlavor$STRING class javax.print.DocFlavor$STRING}, containing all class
+     * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
+     * methods). The counterpart test class containing the instance relevant test methods is
+     * {@link org.j8unit.repository.javax.print.DocFlavorTests.STRINGTests}.
+     * </p>
+     *
+     * <p>
+     * In addition, there may be assertions concerning the class itself. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
+     * inheritable test method:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+     * constraints and further class specific requirements.
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.print.DocFlavorTests.STRINGTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface STRINGClassTests<SUT extends Class<? extends javax.print.DocFlavor.STRING>>
+    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
+
+        /**
+         * Test method for {@link javax.print.DocFlavor.STRING#STRING(java.lang.String) public
+         * javax.print.DocFlavor$STRING(java.lang.String)}.
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void create_STRING_String()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final javax.print.DocFlavor.STRING sut = null; // = new STRING(java.lang.String);
+        }
+
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.print.DocFlavor.STRING> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.print.DocFlavor.STRING.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * <p>
+     * Test class for {@link javax.print.DocFlavor$URL class javax.print.DocFlavor$URL}, containing all class relevant
+     * test methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+     * counterpart test class containing the instance relevant test methods is
+     * {@link org.j8unit.repository.javax.print.DocFlavorTests.URLTests}.
+     * </p>
+     *
+     * <p>
+     * In addition, there may be assertions concerning the class itself. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
+     * inheritable test method:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+     * constraints and further class specific requirements.
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.print.DocFlavorTests.URLTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface URLClassTests<SUT extends Class<? extends javax.print.DocFlavor.URL>>
+    extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
+
+        /**
+         * Test method for {@link javax.print.DocFlavor.URL#URL(java.lang.String) public
+         * javax.print.DocFlavor$URL(java.lang.String)}.
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void create_URL_String()
+        throws Exception {
+            // create new instance
+            @SuppressWarnings("unused")
+            final javax.print.DocFlavor.URL sut = null; // = new URL(java.lang.String);
+        }
+
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.print.DocFlavor.URL> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.print.DocFlavor.URL.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * Test method for {@link javax.print.DocFlavor#DocFlavor(java.lang.String,java.lang.String) public
+     * javax.print.DocFlavor(java.lang.String,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DocFlavor_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.print.DocFlavor sut = null; // = new DocFlavor(java.lang.String,java.lang.String);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.print.DocFlavor> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.print.DocFlavor.class.isAssignableFrom(sut));
     }
 
 }

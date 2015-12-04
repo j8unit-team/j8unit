@@ -49,14 +49,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.IOP.CodecFactoryHelper sut = null; // = new CodecFactoryHelper();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link org.omg.IOP.CodecFactoryHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.IOP.CodecFactory org.omg.IOP.CodecFactoryHelper.extract(org.omg.CORBA.Any)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_extract_Any()
     throws Exception {
-        // create new instance
-        final Class<? extends org.omg.IOP.CodecFactoryHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.IOP.CodecFactoryHelper.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -69,6 +75,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.IOP.CodecFactoryHelper#insert(org.omg.CORBA.Any,org.omg.IOP.CodecFactory) public
+     * static void org.omg.IOP.CodecFactoryHelper.insert(org.omg.CORBA.Any,org.omg.IOP.CodecFactory)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_CodecFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -93,14 +115,30 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.IOP.CodecFactoryHelper#insert(org.omg.CORBA.Any,org.omg.IOP.CodecFactory) public
-     * static void org.omg.IOP.CodecFactoryHelper.insert(org.omg.CORBA.Any,org.omg.IOP.CodecFactory)}.
+     * Test method for {@link org.omg.IOP.CodecFactoryHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * org.omg.IOP.CodecFactory org.omg.IOP.CodecFactoryHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_insert_Any_CodecFactory()
+    public default void test_read_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.IOP.CodecFactoryHelper#type() public static synchronized org.omg.CORBA.TypeCode
+     * org.omg.IOP.CodecFactoryHelper.type()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -140,52 +178,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link org.omg.IOP.CodecFactoryHelper#type() public static synchronized org.omg.CORBA.TypeCode
-     * org.omg.IOP.CodecFactoryHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_type()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.IOP.CodecFactoryHelper#read(org.omg.CORBA.portable.InputStream) public static
-     * org.omg.IOP.CodecFactory org.omg.IOP.CodecFactoryHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.IOP.CodecFactoryHelper#extract(org.omg.CORBA.Any) public static
-     * org.omg.IOP.CodecFactory org.omg.IOP.CodecFactoryHelper.extract(org.omg.CORBA.Any)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_extract_Any()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.IOP.CodecFactoryHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.IOP.CodecFactoryHelper.class.isAssignableFrom(sut));
     }
 
 }

@@ -50,20 +50,6 @@ extends org.j8unit.repository.javax.naming.ldap.BasicControlClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.naming.ldap.SortControl#SortControl(java.lang.String[],boolean) public
-     * javax.naming.ldap.SortControl(java.lang.String[],boolean) throws java.io.IOException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SortControl_StringArray_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.ldap.SortControl sut = null; // = new SortControl(java.lang.String[],boolean);
-    }
-
-    /**
      * Test method for {@link javax.naming.ldap.SortControl#SortControl(java.lang.String,boolean) public
      * javax.naming.ldap.SortControl(java.lang.String,boolean) throws java.io.IOException}.
      */
@@ -75,6 +61,20 @@ extends org.j8unit.repository.javax.naming.ldap.BasicControlClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.ldap.SortControl sut = null; // = new SortControl(java.lang.String,boolean);
+    }
+
+    /**
+     * Test method for {@link javax.naming.ldap.SortControl#SortControl(java.lang.String[],boolean) public
+     * javax.naming.ldap.SortControl(java.lang.String[],boolean) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SortControl_StringArray_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.ldap.SortControl sut = null; // = new SortControl(java.lang.String[],boolean);
     }
 
     @Override

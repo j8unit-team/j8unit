@@ -49,14 +49,21 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final javax.management.DefaultLoaderRepository sut = null; // = new DefaultLoaderRepository();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.management.DefaultLoaderRepository#loadClass(java.lang.String) public static
+     * java.lang.Class javax.management.DefaultLoaderRepository.loadClass(java.lang.String) throws
+     * java.lang.ClassNotFoundException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_loadClass_String()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.management.DefaultLoaderRepository> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.management.DefaultLoaderRepository.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -78,21 +85,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.management.DefaultLoaderRepository#loadClass(java.lang.String) public static
-     * java.lang.Class javax.management.DefaultLoaderRepository.loadClass(java.lang.String) throws
-     * java.lang.ClassNotFoundException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_loadClass_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.management.DefaultLoaderRepository> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.management.DefaultLoaderRepository.class.isAssignableFrom(sut));
     }
 
 }

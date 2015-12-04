@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TabbedPaneUI#tabForCoordinate(javax.swing.JTabbedPane,int,int) public
-     * abstract int javax.swing.plaf.TabbedPaneUI.tabForCoordinate(javax.swing.JTabbedPane,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_tabForCoordinate_JTabbedPane_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.TabbedPaneUI#getTabBounds(javax.swing.JTabbedPane,int) public abstract
      * java.awt.Rectangle javax.swing.plaf.TabbedPaneUI.getTabBounds(javax.swing.JTabbedPane,int)}.
      * </p>
@@ -63,6 +47,22 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getTabRunCount_JTabbedPane()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.TabbedPaneUI#tabForCoordinate(javax.swing.JTabbedPane,int,int) public
+     * abstract int javax.swing.plaf.TabbedPaneUI.tabForCoordinate(javax.swing.JTabbedPane,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_tabForCoordinate_JTabbedPane_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

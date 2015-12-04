@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface TerminalFactoryClassTests<SUT extends Class<? extends javax.smartcardio.TerminalFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.smartcardio.TerminalFactory#getDefault() public static
+     * javax.smartcardio.TerminalFactory javax.smartcardio.TerminalFactory.getDefault()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getDefault()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.smartcardio.TerminalFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.smartcardio.TerminalFactory.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -55,25 +61,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDefaultType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.smartcardio.TerminalFactory#getInstance(java.lang.String,java.lang.Object,java.security.Provider)
-     * public static javax.smartcardio.TerminalFactory
-     * javax.smartcardio.TerminalFactory.getInstance(java.lang.String,java.lang.Object,java.security.Provider) throws
-     * java.security.NoSuchAlgorithmException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInstance_String_Object_Provider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -101,6 +88,25 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
+     * {@link javax.smartcardio.TerminalFactory#getInstance(java.lang.String,java.lang.Object,java.security.Provider)
+     * public static javax.smartcardio.TerminalFactory
+     * javax.smartcardio.TerminalFactory.getInstance(java.lang.String,java.lang.Object,java.security.Provider) throws
+     * java.security.NoSuchAlgorithmException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInstance_String_Object_Provider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link javax.smartcardio.TerminalFactory#getInstance(java.lang.String,java.lang.Object,java.lang.String) public
      * static javax.smartcardio.TerminalFactory
      * javax.smartcardio.TerminalFactory.getInstance(java.lang.String,java.lang.Object,java.lang.String) throws
@@ -117,20 +123,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.smartcardio.TerminalFactory#getDefault() public static
-     * javax.smartcardio.TerminalFactory javax.smartcardio.TerminalFactory.getDefault()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getDefault()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.smartcardio.TerminalFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.smartcardio.TerminalFactory.class.isAssignableFrom(sut));
     }
 
 }

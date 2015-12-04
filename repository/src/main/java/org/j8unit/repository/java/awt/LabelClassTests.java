@@ -35,17 +35,16 @@ public abstract interface LabelClassTests<SUT extends Class<? extends java.awt.L
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.java.awt.ComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.Label#Label(java.lang.String,int) public java.awt.Label(java.lang.String,int)
-     * throws java.awt.HeadlessException}.
+     * Test method for {@link java.awt.Label#Label() public java.awt.Label() throws java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Label_String_int()
+    public default void create_Label()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Label sut = null; // = new Label(java.lang.String,int);
+        final java.awt.Label sut = null; // = new Label();
     }
 
     /**
@@ -63,16 +62,17 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     }
 
     /**
-     * Test method for {@link java.awt.Label#Label() public java.awt.Label() throws java.awt.HeadlessException}.
+     * Test method for {@link java.awt.Label#Label(java.lang.String,int) public java.awt.Label(java.lang.String,int)
+     * throws java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Label()
+    public default void create_Label_String_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Label sut = null; // = new Label();
+        final java.awt.Label sut = null; // = new Label(java.lang.String,int);
     }
 
     @Override

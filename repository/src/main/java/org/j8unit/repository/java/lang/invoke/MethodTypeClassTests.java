@@ -35,114 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface MethodTypeClassTests<SUT extends Class<? extends java.lang.invoke.MethodType>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.lang.invoke.MethodType> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.invoke.MethodType.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.MethodType#methodType(java.lang.Class,java.lang.invoke.MethodType) public
-     * static java.lang.invoke.MethodType
-     * java.lang.invoke.MethodType.methodType(java.lang.Class,java.lang.invoke.MethodType)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_methodType_Class_MethodType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.MethodType#methodType(java.lang.Class,java.lang.Class) public static
-     * java.lang.invoke.MethodType java.lang.invoke.MethodType.methodType(java.lang.Class,java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_methodType_Class_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.MethodType#methodType(java.lang.Class,java.util.List) public static
-     * java.lang.invoke.MethodType java.lang.invoke.MethodType.methodType(java.lang.Class,java.util.List)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_methodType_Class_List()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.MethodType#methodType(java.lang.Class,java.lang.Class,java.lang.Class...)
-     * public static java.lang.invoke.MethodType
-     * java.lang.invoke.MethodType.methodType(java.lang.Class,java.lang.Class,java.lang.Class...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_methodType_Class_Class_ClassArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.MethodType#methodType(java.lang.Class,java.lang.Class[]) public static
-     * java.lang.invoke.MethodType java.lang.invoke.MethodType.methodType(java.lang.Class,java.lang.Class[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_methodType_Class_ClassArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.MethodType#methodType(java.lang.Class) public static
-     * java.lang.invoke.MethodType java.lang.invoke.MethodType.methodType(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_methodType_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for
@@ -192,6 +84,114 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodType#methodType(java.lang.Class) public static
+     * java.lang.invoke.MethodType java.lang.invoke.MethodType.methodType(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_methodType_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodType#methodType(java.lang.Class,java.lang.Class) public static
+     * java.lang.invoke.MethodType java.lang.invoke.MethodType.methodType(java.lang.Class,java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_methodType_Class_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodType#methodType(java.lang.Class,java.lang.Class,java.lang.Class...)
+     * public static java.lang.invoke.MethodType
+     * java.lang.invoke.MethodType.methodType(java.lang.Class,java.lang.Class,java.lang.Class...)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_methodType_Class_Class_ClassArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodType#methodType(java.lang.Class,java.lang.Class[]) public static
+     * java.lang.invoke.MethodType java.lang.invoke.MethodType.methodType(java.lang.Class,java.lang.Class[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_methodType_Class_ClassArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodType#methodType(java.lang.Class,java.util.List) public static
+     * java.lang.invoke.MethodType java.lang.invoke.MethodType.methodType(java.lang.Class,java.util.List)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_methodType_Class_List()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodType#methodType(java.lang.Class,java.lang.invoke.MethodType) public
+     * static java.lang.invoke.MethodType
+     * java.lang.invoke.MethodType.methodType(java.lang.Class,java.lang.invoke.MethodType)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_methodType_Class_MethodType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.lang.invoke.MethodType> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.invoke.MethodType.class.isAssignableFrom(sut));
     }
 
 }

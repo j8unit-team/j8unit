@@ -36,20 +36,6 @@ public abstract interface ByteLookupTableClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.awt.image.LookupTableClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.image.ByteLookupTable#ByteLookupTable(int,byte[][]) public
-     * java.awt.image.ByteLookupTable(int,byte[][])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ByteLookupTable_int_byteArrayArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.ByteLookupTable sut = null; // = new ByteLookupTable(int,byte[][]);
-    }
-
-    /**
      * Test method for {@link java.awt.image.ByteLookupTable#ByteLookupTable(int,byte[]) public
      * java.awt.image.ByteLookupTable(int,byte[])}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.awt.image.LookupTableClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.image.ByteLookupTable sut = null; // = new ByteLookupTable(int,byte[]);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.ByteLookupTable#ByteLookupTable(int,byte[][]) public
+     * java.awt.image.ByteLookupTable(int,byte[][])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ByteLookupTable_int_byteArrayArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.ByteLookupTable sut = null; // = new ByteLookupTable(int,byte[][]);
     }
 
     @Override

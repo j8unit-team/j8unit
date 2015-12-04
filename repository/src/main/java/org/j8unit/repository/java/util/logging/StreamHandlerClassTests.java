@@ -36,6 +36,19 @@ public abstract interface StreamHandlerClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.util.logging.HandlerClassTests<SUT> {
 
     /**
+     * Test method for {@link java.util.logging.StreamHandler#StreamHandler() public java.util.logging.StreamHandler()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_StreamHandler()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.logging.StreamHandler sut = null; // = new StreamHandler();
+    }
+
+    /**
      * Test method for
      * {@link java.util.logging.StreamHandler#StreamHandler(java.io.OutputStream,java.util.logging.Formatter) public
      * java.util.logging.StreamHandler(java.io.OutputStream,java.util.logging.Formatter)}.
@@ -49,19 +62,6 @@ extends org.j8unit.repository.java.util.logging.HandlerClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.util.logging.StreamHandler sut = null; // = new
                                                           // StreamHandler(java.io.OutputStream,java.util.logging.Formatter);
-    }
-
-    /**
-     * Test method for {@link java.util.logging.StreamHandler#StreamHandler() public java.util.logging.StreamHandler()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_StreamHandler()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.logging.StreamHandler sut = null; // = new StreamHandler();
     }
 
     @Override

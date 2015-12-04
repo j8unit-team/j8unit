@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.PooledConnection#close() public abstract void javax.sql.PooledConnection.close()
-     * throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sql.PooledConnection#addConnectionEventListener(javax.sql.ConnectionEventListener)
      * public abstract void javax.sql.PooledConnection.addConnectionEventListener(javax.sql.ConnectionEventListener)}.
      * </p>
@@ -72,15 +56,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.sql.PooledConnection#removeConnectionEventListener(javax.sql.ConnectionEventListener) public
-     * abstract void javax.sql.PooledConnection.removeConnectionEventListener(javax.sql.ConnectionEventListener)}.
+     * Test method for {@link javax.sql.PooledConnection#close() public abstract void javax.sql.PooledConnection.close()
+     * throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeConnectionEventListener_ConnectionEventListener()
+    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -97,6 +80,23 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getConnection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.sql.PooledConnection#removeConnectionEventListener(javax.sql.ConnectionEventListener) public
+     * abstract void javax.sql.PooledConnection.removeConnectionEventListener(javax.sql.ConnectionEventListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeConnectionEventListener_ConnectionEventListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

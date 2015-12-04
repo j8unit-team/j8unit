@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.print.event.PrintEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.event.PrintJobEvent#getPrintJob() public javax.print.DocPrintJob
-     * javax.print.event.PrintJobEvent.getPrintJob()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrintJob()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.print.event.PrintJobEvent#getPrintEventType() public int
      * javax.print.event.PrintJobEvent.getPrintEventType()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.javax.print.event.PrintEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getPrintEventType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.event.PrintJobEvent#getPrintJob() public javax.print.DocPrintJob
+     * javax.print.event.PrintJobEvent.getPrintJob()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrintJob()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,14 +23,14 @@ extends org.j8unit.repository.javax.xml.crypto.DataTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.OctetStreamData#getURI() public java.lang.String
-     * javax.xml.crypto.OctetStreamData.getURI()}.
+     * Test method for {@link javax.xml.crypto.OctetStreamData#getMimeType() public java.lang.String
+     * javax.xml.crypto.OctetStreamData.getMimeType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getURI()
+    public default void test_getMimeType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.javax.xml.crypto.DataTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.OctetStreamData#getMimeType() public java.lang.String
-     * javax.xml.crypto.OctetStreamData.getMimeType()}.
+     * Test method for {@link javax.xml.crypto.OctetStreamData#getURI() public java.lang.String
+     * javax.xml.crypto.OctetStreamData.getURI()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMimeType()
+    public default void test_getURI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

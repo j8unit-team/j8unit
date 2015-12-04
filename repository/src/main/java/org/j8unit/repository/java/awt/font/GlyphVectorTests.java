@@ -23,78 +23,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getNumGlyphs() public abstract int
-     * java.awt.font.GlyphVector.getNumGlyphs()}.
+     * Test method for {@link java.awt.font.GlyphVector#equals(java.awt.font.GlyphVector) public abstract boolean
+     * java.awt.font.GlyphVector.equals(java.awt.font.GlyphVector)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNumGlyphs()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphCodes(int,int,int[]) public abstract int[]
-     * java.awt.font.GlyphVector.getGlyphCodes(int,int,int[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getGlyphCodes_int_int_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#setGlyphPosition(int,java.awt.geom.Point2D) public abstract void
-     * java.awt.font.GlyphVector.setGlyphPosition(int,java.awt.geom.Point2D)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setGlyphPosition_int_Point2D()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphLogicalBounds(int) public abstract java.awt.Shape
-     * java.awt.font.GlyphVector.getGlyphLogicalBounds(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getGlyphLogicalBounds_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getPixelBounds(java.awt.font.FontRenderContext,float,float)
-     * public java.awt.Rectangle java.awt.font.GlyphVector.getPixelBounds(java.awt.font.FontRenderContext,float,float)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPixelBounds_FontRenderContext_float_float()
+    public default void test_equals_GlyphVector()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +55,46 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#setGlyphTransform(int,java.awt.geom.AffineTransform) public
-     * abstract void java.awt.font.GlyphVector.setGlyphTransform(int,java.awt.geom.AffineTransform)}.
+     * Test method for {@link java.awt.font.GlyphVector#getFontRenderContext() public abstract
+     * java.awt.font.FontRenderContext java.awt.font.GlyphVector.getFontRenderContext()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setGlyphTransform_int_AffineTransform()
+    public default void test_getFontRenderContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.GlyphVector#getGlyphCharIndex(int) public int
+     * java.awt.font.GlyphVector.getGlyphCharIndex(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGlyphCharIndex_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.GlyphVector#getGlyphCharIndices(int,int,int[]) public int[]
+     * java.awt.font.GlyphVector.getGlyphCharIndices(int,int,int[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGlyphCharIndices_int_int_intArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -151,14 +119,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphPositions(int,int,float[]) public abstract float[]
-     * java.awt.font.GlyphVector.getGlyphPositions(int,int,float[])}.
+     * Test method for {@link java.awt.font.GlyphVector#getGlyphCodes(int,int,int[]) public abstract int[]
+     * java.awt.font.GlyphVector.getGlyphCodes(int,int,int[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getGlyphPositions_int_int_floatArray()
+    public default void test_getGlyphCodes_int_int_intArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -167,14 +135,46 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphOutline(int,float,float) public java.awt.Shape
-     * java.awt.font.GlyphVector.getGlyphOutline(int,float,float)}.
+     * Test method for {@link java.awt.font.GlyphVector#getGlyphJustificationInfo(int) public abstract
+     * java.awt.font.GlyphJustificationInfo java.awt.font.GlyphVector.getGlyphJustificationInfo(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getGlyphOutline_int_float_float()
+    public default void test_getGlyphJustificationInfo_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.GlyphVector#getGlyphLogicalBounds(int) public abstract java.awt.Shape
+     * java.awt.font.GlyphVector.getGlyphLogicalBounds(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGlyphLogicalBounds_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.GlyphVector#getGlyphMetrics(int) public abstract java.awt.font.GlyphMetrics
+     * java.awt.font.GlyphVector.getGlyphMetrics(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGlyphMetrics_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -199,62 +199,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphTransform(int) public abstract
-     * java.awt.geom.AffineTransform java.awt.font.GlyphVector.getGlyphTransform(int)}.
+     * Test method for {@link java.awt.font.GlyphVector#getGlyphOutline(int,float,float) public java.awt.Shape
+     * java.awt.font.GlyphVector.getGlyphOutline(int,float,float)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getGlyphTransform_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#equals(java.awt.font.GlyphVector) public abstract boolean
-     * java.awt.font.GlyphVector.equals(java.awt.font.GlyphVector)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_GlyphVector()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphPosition(int) public abstract java.awt.geom.Point2D
-     * java.awt.font.GlyphVector.getGlyphPosition(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getGlyphPosition_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getVisualBounds() public abstract java.awt.geom.Rectangle2D
-     * java.awt.font.GlyphVector.getVisualBounds()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVisualBounds()
+    public default void test_getGlyphOutline_int_float_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -281,14 +233,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getLogicalBounds() public abstract java.awt.geom.Rectangle2D
-     * java.awt.font.GlyphVector.getLogicalBounds()}.
+     * Test method for {@link java.awt.font.GlyphVector#getGlyphPosition(int) public abstract java.awt.geom.Point2D
+     * java.awt.font.GlyphVector.getGlyphPosition(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLogicalBounds()
+    public default void test_getGlyphPosition_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -297,14 +249,30 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphCharIndices(int,int,int[]) public int[]
-     * java.awt.font.GlyphVector.getGlyphCharIndices(int,int,int[])}.
+     * Test method for {@link java.awt.font.GlyphVector#getGlyphPositions(int,int,float[]) public abstract float[]
+     * java.awt.font.GlyphVector.getGlyphPositions(int,int,float[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getGlyphCharIndices_int_int_intArray()
+    public default void test_getGlyphPositions_int_int_floatArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.GlyphVector#getGlyphTransform(int) public abstract
+     * java.awt.geom.AffineTransform java.awt.font.GlyphVector.getGlyphTransform(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGlyphTransform_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -345,14 +313,30 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphCharIndex(int) public int
-     * java.awt.font.GlyphVector.getGlyphCharIndex(int)}.
+     * Test method for {@link java.awt.font.GlyphVector#getLogicalBounds() public abstract java.awt.geom.Rectangle2D
+     * java.awt.font.GlyphVector.getLogicalBounds()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getGlyphCharIndex_int()
+    public default void test_getLogicalBounds()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.GlyphVector#getNumGlyphs() public abstract int
+     * java.awt.font.GlyphVector.getNumGlyphs()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNumGlyphs()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -393,14 +377,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getFontRenderContext() public abstract
-     * java.awt.font.FontRenderContext java.awt.font.GlyphVector.getFontRenderContext()}.
+     * Test method for {@link java.awt.font.GlyphVector#getPixelBounds(java.awt.font.FontRenderContext,float,float)
+     * public java.awt.Rectangle java.awt.font.GlyphVector.getPixelBounds(java.awt.font.FontRenderContext,float,float)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getFontRenderContext()
+    public default void test_getPixelBounds_FontRenderContext_float_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -409,30 +393,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphMetrics(int) public abstract java.awt.font.GlyphMetrics
-     * java.awt.font.GlyphVector.getGlyphMetrics(int)}.
+     * Test method for {@link java.awt.font.GlyphVector#getVisualBounds() public abstract java.awt.geom.Rectangle2D
+     * java.awt.font.GlyphVector.getVisualBounds()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getGlyphMetrics_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.GlyphVector#getGlyphJustificationInfo(int) public abstract
-     * java.awt.font.GlyphJustificationInfo java.awt.font.GlyphVector.getGlyphJustificationInfo(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getGlyphJustificationInfo_int()
+    public default void test_getVisualBounds()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -449,6 +417,38 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     @Test
     @Category(Draft.class)
     public default void test_performDefaultLayout()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.GlyphVector#setGlyphPosition(int,java.awt.geom.Point2D) public abstract void
+     * java.awt.font.GlyphVector.setGlyphPosition(int,java.awt.geom.Point2D)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setGlyphPosition_int_Point2D()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.GlyphVector#setGlyphTransform(int,java.awt.geom.AffineTransform) public
+     * abstract void java.awt.font.GlyphVector.setGlyphTransform(int,java.awt.geom.AffineTransform)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setGlyphTransform_int_AffineTransform()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

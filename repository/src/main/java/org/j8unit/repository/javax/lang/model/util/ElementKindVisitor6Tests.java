@@ -24,16 +24,17 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.ElementKindVisitor6#visitTypeAsClass(javax.lang.model.element.TypeElement,java.lang.Object)
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitExecutable(javax.lang.model.element.ExecutableElement,java.lang.Object)
      * public java.lang.Object
-     * javax.lang.model.util.ElementKindVisitor6.visitTypeAsClass(javax.lang.model.element.TypeElement,java.lang.Object)}
+     * javax.lang.model.util.ElementKindVisitor6.visitExecutable(javax.lang.model.element.ExecutableElement,java.lang.Object)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_visitTypeAsClass_TypeElement_Object()
+    @Override
+    public default void test_visitExecutable_ExecutableElement_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -62,16 +63,16 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsField(javax.lang.model.element.VariableElement,java.lang.Object)
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitExecutableAsInstanceInit(javax.lang.model.element.ExecutableElement,java.lang.Object)
      * public java.lang.Object
-     * javax.lang.model.util.ElementKindVisitor6.visitVariableAsField(javax.lang.model.element.VariableElement,java.lang.Object)}
+     * javax.lang.model.util.ElementKindVisitor6.visitExecutableAsInstanceInit(javax.lang.model.element.ExecutableElement,java.lang.Object)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_visitVariableAsField_VariableElement_Object()
+    public default void test_visitExecutableAsInstanceInit_ExecutableElement_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -81,16 +82,35 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.ElementKindVisitor6#visitTypeAsAnnotationType(javax.lang.model.element.TypeElement,java.lang.Object)
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitExecutableAsMethod(javax.lang.model.element.ExecutableElement,java.lang.Object)
      * public java.lang.Object
-     * javax.lang.model.util.ElementKindVisitor6.visitTypeAsAnnotationType(javax.lang.model.element.TypeElement,java.lang.Object)}
+     * javax.lang.model.util.ElementKindVisitor6.visitExecutableAsMethod(javax.lang.model.element.ExecutableElement,java.lang.Object)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_visitTypeAsAnnotationType_TypeElement_Object()
+    public default void test_visitExecutableAsMethod_ExecutableElement_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitExecutableAsStaticInit(javax.lang.model.element.ExecutableElement,java.lang.Object)
+     * public java.lang.Object
+     * javax.lang.model.util.ElementKindVisitor6.visitExecutableAsStaticInit(javax.lang.model.element.ExecutableElement,java.lang.Object)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_visitExecutableAsStaticInit_ExecutableElement_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,17 +140,16 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.ElementKindVisitor6#visitExecutable(javax.lang.model.element.ExecutableElement,java.lang.Object)
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitType(javax.lang.model.element.TypeElement,java.lang.Object)
      * public java.lang.Object
-     * javax.lang.model.util.ElementKindVisitor6.visitExecutable(javax.lang.model.element.ExecutableElement,java.lang.Object)}
-     * .
+     * javax.lang.model.util.ElementKindVisitor6.visitType(javax.lang.model.element.TypeElement,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_visitExecutable_ExecutableElement_Object()
+    public default void test_visitType_TypeElement_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -140,17 +159,16 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariable(javax.lang.model.element.VariableElement,java.lang.Object)
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitTypeAsAnnotationType(javax.lang.model.element.TypeElement,java.lang.Object)
      * public java.lang.Object
-     * javax.lang.model.util.ElementKindVisitor6.visitVariable(javax.lang.model.element.VariableElement,java.lang.Object)}
+     * javax.lang.model.util.ElementKindVisitor6.visitTypeAsAnnotationType(javax.lang.model.element.TypeElement,java.lang.Object)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_visitVariable_VariableElement_Object()
+    public default void test_visitTypeAsAnnotationType_TypeElement_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -160,16 +178,54 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsLocalVariable(javax.lang.model.element.VariableElement,java.lang.Object)
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitTypeAsClass(javax.lang.model.element.TypeElement,java.lang.Object)
      * public java.lang.Object
-     * javax.lang.model.util.ElementKindVisitor6.visitVariableAsLocalVariable(javax.lang.model.element.VariableElement,java.lang.Object)}
+     * javax.lang.model.util.ElementKindVisitor6.visitTypeAsClass(javax.lang.model.element.TypeElement,java.lang.Object)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_visitVariableAsLocalVariable_VariableElement_Object()
+    public default void test_visitTypeAsClass_TypeElement_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitTypeAsEnum(javax.lang.model.element.TypeElement,java.lang.Object)
+     * public java.lang.Object
+     * javax.lang.model.util.ElementKindVisitor6.visitTypeAsEnum(javax.lang.model.element.TypeElement,java.lang.Object)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_visitTypeAsEnum_TypeElement_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitTypeAsInterface(javax.lang.model.element.TypeElement,java.lang.Object)
+     * public java.lang.Object
+     * javax.lang.model.util.ElementKindVisitor6.visitTypeAsInterface(javax.lang.model.element.TypeElement,java.lang.Object)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_visitTypeAsInterface_TypeElement_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -199,149 +255,17 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.ElementKindVisitor6#visitExecutableAsMethod(javax.lang.model.element.ExecutableElement,java.lang.Object)
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariable(javax.lang.model.element.VariableElement,java.lang.Object)
      * public java.lang.Object
-     * javax.lang.model.util.ElementKindVisitor6.visitExecutableAsMethod(javax.lang.model.element.ExecutableElement,java.lang.Object)}
+     * javax.lang.model.util.ElementKindVisitor6.visitVariable(javax.lang.model.element.VariableElement,java.lang.Object)}
      * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_visitExecutableAsMethod_ExecutableElement_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.ElementKindVisitor6#visitTypeAsInterface(javax.lang.model.element.TypeElement,java.lang.Object)
-     * public java.lang.Object
-     * javax.lang.model.util.ElementKindVisitor6.visitTypeAsInterface(javax.lang.model.element.TypeElement,java.lang.Object)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_visitTypeAsInterface_TypeElement_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsExceptionParameter(javax.lang.model.element.VariableElement,java.lang.Object)
-     * public java.lang.Object
-     * javax.lang.model.util.ElementKindVisitor6.visitVariableAsExceptionParameter(javax.lang.model.element.VariableElement,java.lang.Object)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_visitVariableAsExceptionParameter_VariableElement_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.ElementKindVisitor6#visitTypeAsEnum(javax.lang.model.element.TypeElement,java.lang.Object)
-     * public java.lang.Object
-     * javax.lang.model.util.ElementKindVisitor6.visitTypeAsEnum(javax.lang.model.element.TypeElement,java.lang.Object)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_visitTypeAsEnum_TypeElement_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.ElementKindVisitor6#visitExecutableAsInstanceInit(javax.lang.model.element.ExecutableElement,java.lang.Object)
-     * public java.lang.Object
-     * javax.lang.model.util.ElementKindVisitor6.visitExecutableAsInstanceInit(javax.lang.model.element.ExecutableElement,java.lang.Object)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_visitExecutableAsInstanceInit_ExecutableElement_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsResourceVariable(javax.lang.model.element.VariableElement,java.lang.Object)
-     * public java.lang.Object
-     * javax.lang.model.util.ElementKindVisitor6.visitVariableAsResourceVariable(javax.lang.model.element.VariableElement,java.lang.Object)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_visitVariableAsResourceVariable_VariableElement_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.ElementKindVisitor6#visitType(javax.lang.model.element.TypeElement,java.lang.Object)
-     * public java.lang.Object
-     * javax.lang.model.util.ElementKindVisitor6.visitType(javax.lang.model.element.TypeElement,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_visitType_TypeElement_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.ElementKindVisitor6#visitExecutableAsStaticInit(javax.lang.model.element.ExecutableElement,java.lang.Object)
-     * public java.lang.Object
-     * javax.lang.model.util.ElementKindVisitor6.visitExecutableAsStaticInit(javax.lang.model.element.ExecutableElement,java.lang.Object)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_visitExecutableAsStaticInit_ExecutableElement_Object()
+    public default void test_visitVariable_VariableElement_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -370,6 +294,63 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     /**
      * <p>
      * Test method for
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsExceptionParameter(javax.lang.model.element.VariableElement,java.lang.Object)
+     * public java.lang.Object
+     * javax.lang.model.util.ElementKindVisitor6.visitVariableAsExceptionParameter(javax.lang.model.element.VariableElement,java.lang.Object)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_visitVariableAsExceptionParameter_VariableElement_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsField(javax.lang.model.element.VariableElement,java.lang.Object)
+     * public java.lang.Object
+     * javax.lang.model.util.ElementKindVisitor6.visitVariableAsField(javax.lang.model.element.VariableElement,java.lang.Object)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_visitVariableAsField_VariableElement_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsLocalVariable(javax.lang.model.element.VariableElement,java.lang.Object)
+     * public java.lang.Object
+     * javax.lang.model.util.ElementKindVisitor6.visitVariableAsLocalVariable(javax.lang.model.element.VariableElement,java.lang.Object)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_visitVariableAsLocalVariable_VariableElement_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsParameter(javax.lang.model.element.VariableElement,java.lang.Object)
      * public java.lang.Object
      * javax.lang.model.util.ElementKindVisitor6.visitVariableAsParameter(javax.lang.model.element.VariableElement,java.lang.Object)}
@@ -380,6 +361,25 @@ extends org.j8unit.repository.javax.lang.model.util.SimpleElementVisitor6Tests<S
     @Test
     @Category(Draft.class)
     public default void test_visitVariableAsParameter_VariableElement_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.util.ElementKindVisitor6#visitVariableAsResourceVariable(javax.lang.model.element.VariableElement,java.lang.Object)
+     * public java.lang.Object
+     * javax.lang.model.util.ElementKindVisitor6.visitVariableAsResourceVariable(javax.lang.model.element.VariableElement,java.lang.Object)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_visitVariableAsResourceVariable_VariableElement_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

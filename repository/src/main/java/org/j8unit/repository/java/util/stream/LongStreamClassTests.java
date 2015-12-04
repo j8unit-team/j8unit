@@ -35,163 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface LongStreamClassTests<SUT extends Class<? extends java.util.stream.LongStream>>
 extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.lang.Long, java.util.stream.LongStream> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.stream.LongStream> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.stream.LongStream.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.LongStream#of(long) public static java.util.stream.LongStream
-     * java.util.stream.LongStream.of(long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.LongStream#of(long...) public static java.util.stream.LongStream
-     * java.util.stream.LongStream.of(long...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_longArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.LongStream#rangeClosed(long,long) public static
-     * java.util.stream.LongStream java.util.stream.LongStream.rangeClosed(long,long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_rangeClosed_long_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.stream.LongStream#concat(java.util.stream.LongStream,java.util.stream.LongStream) public static
-     * java.util.stream.LongStream
-     * java.util.stream.LongStream.concat(java.util.stream.LongStream,java.util.stream.LongStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_concat_LongStream_LongStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.LongStream#range(long,long) public static java.util.stream.LongStream
-     * java.util.stream.LongStream.range(long,long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_range_long_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.LongStream#builder() public static java.util.stream.LongStream$Builder
-     * java.util.stream.LongStream.builder()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_builder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.LongStream#empty() public static java.util.stream.LongStream
-     * java.util.stream.LongStream.empty()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_empty()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.LongStream#iterate(long,java.util.function.LongUnaryOperator) public
-     * static java.util.stream.LongStream
-     * java.util.stream.LongStream.iterate(long,java.util.function.LongUnaryOperator)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_iterate_long_LongUnaryOperator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.LongStream#generate(java.util.function.LongSupplier) public static
-     * java.util.stream.LongStream java.util.stream.LongStream.generate(java.util.function.LongSupplier)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_generate_LongSupplier()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test class for {@link java.util.stream.LongStream$Builder interface java.util.stream.LongStream$Builder},
@@ -231,6 +74,163 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
             assertTrue(java.util.stream.LongStream.Builder.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.LongStream#builder() public static java.util.stream.LongStream$Builder
+     * java.util.stream.LongStream.builder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_builder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.stream.LongStream#concat(java.util.stream.LongStream,java.util.stream.LongStream) public static
+     * java.util.stream.LongStream
+     * java.util.stream.LongStream.concat(java.util.stream.LongStream,java.util.stream.LongStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_concat_LongStream_LongStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.LongStream#empty() public static java.util.stream.LongStream
+     * java.util.stream.LongStream.empty()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_empty()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.LongStream#generate(java.util.function.LongSupplier) public static
+     * java.util.stream.LongStream java.util.stream.LongStream.generate(java.util.function.LongSupplier)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_generate_LongSupplier()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.LongStream#iterate(long,java.util.function.LongUnaryOperator) public
+     * static java.util.stream.LongStream
+     * java.util.stream.LongStream.iterate(long,java.util.function.LongUnaryOperator)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_iterate_long_LongUnaryOperator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.LongStream#of(long) public static java.util.stream.LongStream
+     * java.util.stream.LongStream.of(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.LongStream#of(long...) public static java.util.stream.LongStream
+     * java.util.stream.LongStream.of(long...)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_longArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.LongStream#range(long,long) public static java.util.stream.LongStream
+     * java.util.stream.LongStream.range(long,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_range_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.LongStream#rangeClosed(long,long) public static
+     * java.util.stream.LongStream java.util.stream.LongStream.rangeClosed(long,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_rangeClosed_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.stream.LongStream> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.stream.LongStream.class.isAssignableFrom(sut));
     }
 
 }

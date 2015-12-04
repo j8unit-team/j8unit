@@ -35,31 +35,16 @@ public abstract interface IOExceptionClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.io.IOException#IOException(java.lang.Throwable) public
-     * java.io.IOException(java.lang.Throwable)}.
+     * Test method for {@link java.io.IOException#IOException() public java.io.IOException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_IOException_Throwable()
+    public default void create_IOException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.io.IOException sut = null; // = new IOException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link java.io.IOException#IOException(java.lang.String,java.lang.Throwable) public
-     * java.io.IOException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_IOException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.IOException sut = null; // = new IOException(java.lang.String,java.lang.Throwable);
+        final java.io.IOException sut = null; // = new IOException();
     }
 
     /**
@@ -77,16 +62,31 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.io.IOException#IOException() public java.io.IOException()}.
+     * Test method for {@link java.io.IOException#IOException(java.lang.String,java.lang.Throwable) public
+     * java.io.IOException(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_IOException()
+    public default void create_IOException_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.io.IOException sut = null; // = new IOException();
+        final java.io.IOException sut = null; // = new IOException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link java.io.IOException#IOException(java.lang.Throwable) public
+     * java.io.IOException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_IOException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.IOException sut = null; // = new IOException(java.lang.Throwable);
     }
 
     @Override

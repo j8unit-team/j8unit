@@ -24,14 +24,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ImageProducer#startProduction(java.awt.image.ImageConsumer) public abstract
-     * void java.awt.image.ImageProducer.startProduction(java.awt.image.ImageConsumer)}.
+     * Test method for {@link java.awt.image.ImageProducer#addConsumer(java.awt.image.ImageConsumer) public abstract
+     * void java.awt.image.ImageProducer.addConsumer(java.awt.image.ImageConsumer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_startProduction_ImageConsumer()
+    public default void test_addConsumer_ImageConsumer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.ImageProducer#isConsumer(java.awt.image.ImageConsumer) public abstract
+     * boolean java.awt.image.ImageProducer.isConsumer(java.awt.image.ImageConsumer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isConsumer_ImageConsumer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,30 +88,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ImageProducer#isConsumer(java.awt.image.ImageConsumer) public abstract
-     * boolean java.awt.image.ImageProducer.isConsumer(java.awt.image.ImageConsumer)}.
+     * Test method for {@link java.awt.image.ImageProducer#startProduction(java.awt.image.ImageConsumer) public abstract
+     * void java.awt.image.ImageProducer.startProduction(java.awt.image.ImageConsumer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isConsumer_ImageConsumer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ImageProducer#addConsumer(java.awt.image.ImageConsumer) public abstract
-     * void java.awt.image.ImageProducer.addConsumer(java.awt.image.ImageConsumer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addConsumer_ImageConsumer()
+    public default void test_startProduction_ImageConsumer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

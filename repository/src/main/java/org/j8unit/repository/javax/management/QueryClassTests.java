@@ -48,27 +48,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final javax.management.Query sut = null; // = new Query();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.management.Query> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.management.Query.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link javax.management.Query#leq(javax.management.ValueExp,javax.management.ValueExp) public
-     * static javax.management.QueryExp javax.management.Query.leq(javax.management.ValueExp,javax.management.ValueExp)}
+     * Test method for {@link javax.management.Query#and(javax.management.QueryExp,javax.management.QueryExp) public
+     * static javax.management.QueryExp javax.management.Query.and(javax.management.QueryExp,javax.management.QueryExp)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_leq_ValueExp_ValueExp()
+    public default void test_and_QueryExp_QueryExp()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -77,30 +67,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#classattr() public static javax.management.AttributeValueExp
-     * javax.management.Query.classattr()}.
+     * Test method for
+     * {@link javax.management.Query#anySubString(javax.management.AttributeValueExp,javax.management.StringValueExp)
+     * public static javax.management.QueryExp
+     * javax.management.Query.anySubString(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_classattr()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#attr(java.lang.String,java.lang.String) public static
-     * javax.management.AttributeValueExp javax.management.Query.attr(java.lang.String,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_attr_String_String()
+    public default void test_anySubString_AttributeValueExp_StringValueExp()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -125,14 +101,365 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.Query#value(long) public static javax.management.ValueExp
-     * javax.management.Query.value(long)}.
+     * Test method for {@link javax.management.Query#attr(java.lang.String,java.lang.String) public static
+     * javax.management.AttributeValueExp javax.management.Query.attr(java.lang.String,java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_value_long()
+    public default void test_attr_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.Query#between(javax.management.ValueExp,javax.management.ValueExp,javax.management.ValueExp)
+     * public static javax.management.QueryExp
+     * javax.management.Query.between(javax.management.ValueExp,javax.management.ValueExp,javax.management.ValueExp)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_between_ValueExp_ValueExp_ValueExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#classattr() public static javax.management.AttributeValueExp
+     * javax.management.Query.classattr()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_classattr()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#div(javax.management.ValueExp,javax.management.ValueExp) public
+     * static javax.management.ValueExp javax.management.Query.div(javax.management.ValueExp,javax.management.ValueExp)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_div_ValueExp_ValueExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#eq(javax.management.ValueExp,javax.management.ValueExp) public
+     * static javax.management.QueryExp javax.management.Query.eq(javax.management.ValueExp,javax.management.ValueExp)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_eq_ValueExp_ValueExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.Query#finalSubString(javax.management.AttributeValueExp,javax.management.StringValueExp)
+     * public static javax.management.QueryExp
+     * javax.management.Query.finalSubString(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_finalSubString_AttributeValueExp_StringValueExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#geq(javax.management.ValueExp,javax.management.ValueExp) public
+     * static javax.management.QueryExp javax.management.Query.geq(javax.management.ValueExp,javax.management.ValueExp)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_geq_ValueExp_ValueExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#gt(javax.management.ValueExp,javax.management.ValueExp) public
+     * static javax.management.QueryExp javax.management.Query.gt(javax.management.ValueExp,javax.management.ValueExp)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_gt_ValueExp_ValueExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#in(javax.management.ValueExp,javax.management.ValueExp[]) public
+     * static javax.management.QueryExp
+     * javax.management.Query.in(javax.management.ValueExp,javax.management.ValueExp[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_in_ValueExp_ValueExpArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.Query#initialSubString(javax.management.AttributeValueExp,javax.management.StringValueExp)
+     * public static javax.management.QueryExp
+     * javax.management.Query.initialSubString(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_initialSubString_AttributeValueExp_StringValueExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#isInstanceOf(javax.management.StringValueExp) public static
+     * javax.management.QueryExp javax.management.Query.isInstanceOf(javax.management.StringValueExp)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isInstanceOf_StringValueExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#leq(javax.management.ValueExp,javax.management.ValueExp) public
+     * static javax.management.QueryExp javax.management.Query.leq(javax.management.ValueExp,javax.management.ValueExp)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_leq_ValueExp_ValueExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#lt(javax.management.ValueExp,javax.management.ValueExp) public
+     * static javax.management.QueryExp javax.management.Query.lt(javax.management.ValueExp,javax.management.ValueExp)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lt_ValueExp_ValueExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.Query#match(javax.management.AttributeValueExp,javax.management.StringValueExp) public
+     * static javax.management.QueryExp
+     * javax.management.Query.match(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_match_AttributeValueExp_StringValueExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#minus(javax.management.ValueExp,javax.management.ValueExp) public
+     * static javax.management.ValueExp
+     * javax.management.Query.minus(javax.management.ValueExp,javax.management.ValueExp)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_minus_ValueExp_ValueExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#not(javax.management.QueryExp) public static
+     * javax.management.QueryExp javax.management.Query.not(javax.management.QueryExp)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_not_QueryExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#or(javax.management.QueryExp,javax.management.QueryExp) public
+     * static javax.management.QueryExp javax.management.Query.or(javax.management.QueryExp,javax.management.QueryExp)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_or_QueryExp_QueryExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#plus(javax.management.ValueExp,javax.management.ValueExp) public
+     * static javax.management.ValueExp
+     * javax.management.Query.plus(javax.management.ValueExp,javax.management.ValueExp)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_plus_ValueExp_ValueExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#times(javax.management.ValueExp,javax.management.ValueExp) public
+     * static javax.management.ValueExp
+     * javax.management.Query.times(javax.management.ValueExp,javax.management.ValueExp)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_times_ValueExp_ValueExp()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#value(boolean) public static javax.management.ValueExp
+     * javax.management.Query.value(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_value_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#value(double) public static javax.management.ValueExp
+     * javax.management.Query.value(double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_value_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#value(float) public static javax.management.ValueExp
+     * javax.management.Query.value(float)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_value_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -149,6 +476,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_value_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.Query#value(long) public static javax.management.ValueExp
+     * javax.management.Query.value(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_value_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -187,357 +530,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#value(float) public static javax.management.ValueExp
-     * javax.management.Query.value(float)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_value_float()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#value(double) public static javax.management.ValueExp
-     * javax.management.Query.value(double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_value_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#value(boolean) public static javax.management.ValueExp
-     * javax.management.Query.value(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_value_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.Query#between(javax.management.ValueExp,javax.management.ValueExp,javax.management.ValueExp)
-     * public static javax.management.QueryExp
-     * javax.management.Query.between(javax.management.ValueExp,javax.management.ValueExp,javax.management.ValueExp)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_between_ValueExp_ValueExp_ValueExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#div(javax.management.ValueExp,javax.management.ValueExp) public
-     * static javax.management.ValueExp javax.management.Query.div(javax.management.ValueExp,javax.management.ValueExp)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_div_ValueExp_ValueExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.Query#finalSubString(javax.management.AttributeValueExp,javax.management.StringValueExp)
-     * public static javax.management.QueryExp
-     * javax.management.Query.finalSubString(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_finalSubString_AttributeValueExp_StringValueExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#not(javax.management.QueryExp) public static
-     * javax.management.QueryExp javax.management.Query.not(javax.management.QueryExp)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_not_QueryExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#geq(javax.management.ValueExp,javax.management.ValueExp) public
-     * static javax.management.QueryExp javax.management.Query.geq(javax.management.ValueExp,javax.management.ValueExp)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_geq_ValueExp_ValueExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#times(javax.management.ValueExp,javax.management.ValueExp) public
-     * static javax.management.ValueExp
-     * javax.management.Query.times(javax.management.ValueExp,javax.management.ValueExp)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_times_ValueExp_ValueExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#and(javax.management.QueryExp,javax.management.QueryExp) public
-     * static javax.management.QueryExp javax.management.Query.and(javax.management.QueryExp,javax.management.QueryExp)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_and_QueryExp_QueryExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#lt(javax.management.ValueExp,javax.management.ValueExp) public
-     * static javax.management.QueryExp javax.management.Query.lt(javax.management.ValueExp,javax.management.ValueExp)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lt_ValueExp_ValueExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#minus(javax.management.ValueExp,javax.management.ValueExp) public
-     * static javax.management.ValueExp
-     * javax.management.Query.minus(javax.management.ValueExp,javax.management.ValueExp)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_minus_ValueExp_ValueExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#isInstanceOf(javax.management.StringValueExp) public static
-     * javax.management.QueryExp javax.management.Query.isInstanceOf(javax.management.StringValueExp)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isInstanceOf_StringValueExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.Query#match(javax.management.AttributeValueExp,javax.management.StringValueExp) public
-     * static javax.management.QueryExp
-     * javax.management.Query.match(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_match_AttributeValueExp_StringValueExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#eq(javax.management.ValueExp,javax.management.ValueExp) public
-     * static javax.management.QueryExp javax.management.Query.eq(javax.management.ValueExp,javax.management.ValueExp)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_eq_ValueExp_ValueExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#gt(javax.management.ValueExp,javax.management.ValueExp) public
-     * static javax.management.QueryExp javax.management.Query.gt(javax.management.ValueExp,javax.management.ValueExp)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_gt_ValueExp_ValueExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#plus(javax.management.ValueExp,javax.management.ValueExp) public
-     * static javax.management.ValueExp
-     * javax.management.Query.plus(javax.management.ValueExp,javax.management.ValueExp)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_plus_ValueExp_ValueExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#or(javax.management.QueryExp,javax.management.QueryExp) public
-     * static javax.management.QueryExp javax.management.Query.or(javax.management.QueryExp,javax.management.QueryExp)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_or_QueryExp_QueryExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.Query#anySubString(javax.management.AttributeValueExp,javax.management.StringValueExp)
-     * public static javax.management.QueryExp
-     * javax.management.Query.anySubString(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_anySubString_AttributeValueExp_StringValueExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.Query#initialSubString(javax.management.AttributeValueExp,javax.management.StringValueExp)
-     * public static javax.management.QueryExp
-     * javax.management.Query.initialSubString(javax.management.AttributeValueExp,javax.management.StringValueExp)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_initialSubString_AttributeValueExp_StringValueExp()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.Query#in(javax.management.ValueExp,javax.management.ValueExp[]) public
-     * static javax.management.QueryExp
-     * javax.management.Query.in(javax.management.ValueExp,javax.management.ValueExp[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_in_ValueExp_ValueExpArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.management.Query> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.management.Query.class.isAssignableFrom(sut));
     }
 
 }

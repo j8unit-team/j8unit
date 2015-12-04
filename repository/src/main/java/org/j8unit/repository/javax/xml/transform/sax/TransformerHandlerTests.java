@@ -25,15 +25,14 @@ org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.sax.TransformerHandler#setResult(javax.xml.transform.Result) public
-     * abstract void javax.xml.transform.sax.TransformerHandler.setResult(javax.xml.transform.Result) throws
-     * java.lang.IllegalArgumentException}.
+     * Test method for {@link javax.xml.transform.sax.TransformerHandler#getSystemId() public abstract java.lang.String
+     * javax.xml.transform.sax.TransformerHandler.getSystemId()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setResult_Result()
+    public default void test_getSystemId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -58,14 +57,15 @@ org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.sax.TransformerHandler#setSystemId(java.lang.String) public abstract
-     * void javax.xml.transform.sax.TransformerHandler.setSystemId(java.lang.String)}.
+     * Test method for {@link javax.xml.transform.sax.TransformerHandler#setResult(javax.xml.transform.Result) public
+     * abstract void javax.xml.transform.sax.TransformerHandler.setResult(javax.xml.transform.Result) throws
+     * java.lang.IllegalArgumentException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSystemId_String()
+    public default void test_setResult_Result()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,14 +74,14 @@ org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.sax.TransformerHandler#getSystemId() public abstract java.lang.String
-     * javax.xml.transform.sax.TransformerHandler.getSystemId()}.
+     * Test method for {@link javax.xml.transform.sax.TransformerHandler#setSystemId(java.lang.String) public abstract
+     * void javax.xml.transform.sax.TransformerHandler.setSystemId(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSystemId()
+    public default void test_setSystemId_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

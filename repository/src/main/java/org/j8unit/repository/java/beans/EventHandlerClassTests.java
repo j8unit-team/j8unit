@@ -51,16 +51,6 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerClassTests<SUT>
                                                   // EventHandler(java.lang.Object,java.lang.String,java.lang.String,java.lang.String);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.beans.EventHandler> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.beans.EventHandler.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.beans.EventHandler#create(java.lang.Class,java.lang.Object,java.lang.String) public
@@ -112,6 +102,16 @@ extends org.j8unit.repository.java.lang.reflect.InvocationHandlerClassTests<SUT>
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.beans.EventHandler> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.beans.EventHandler.class.isAssignableFrom(sut));
     }
 
 }

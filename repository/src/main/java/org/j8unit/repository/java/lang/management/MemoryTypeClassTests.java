@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface MemoryTypeClassTests<SUT extends Class<? extends java.lang.management.MemoryType>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.lang.management.MemoryType> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.lang.management.MemoryType#valueOf(java.lang.String) public static
+     * java.lang.management.MemoryType java.lang.management.MemoryType.valueOf(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_valueOf_String()
     throws Exception {
-        // create new instance
-        final Class<? extends java.lang.management.MemoryType> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.management.MemoryType.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -61,20 +67,14 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.lang.management
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.lang.management.MemoryType#valueOf(java.lang.String) public static
-     * java.lang.management.MemoryType java.lang.management.MemoryType.valueOf(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_valueOf_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.lang.management.MemoryType> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.management.MemoryType.class.isAssignableFrom(sut));
     }
 
 }

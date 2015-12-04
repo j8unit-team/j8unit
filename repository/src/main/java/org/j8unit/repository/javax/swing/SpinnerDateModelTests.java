@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerDateModel#setStart(java.lang.Comparable) public void
-     * javax.swing.SpinnerDateModel.setStart(java.lang.Comparable)}.
+     * Test method for {@link javax.swing.SpinnerDateModel#getCalendarField() public int
+     * javax.swing.SpinnerDateModel.getCalendarField()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setStart_Comparable()
+    public default void test_getCalendarField()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,31 +39,47 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerDateModel#setValue(java.lang.Object) public void
-     * javax.swing.SpinnerDateModel.setValue(java.lang.Object)}.
+     * Test method for {@link javax.swing.SpinnerDateModel#getDate() public java.util.Date
+     * javax.swing.SpinnerDateModel.getDate()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.SpinnerDateModel#getEnd() public java.lang.Comparable
+     * javax.swing.SpinnerDateModel.getEnd()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEnd()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.SpinnerDateModel#getNextValue() public java.lang.Object
+     * javax.swing.SpinnerDateModel.getNextValue()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setValue_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.SpinnerDateModel#getStart() public java.lang.Comparable
-     * javax.swing.SpinnerDateModel.getStart()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getStart()
+    public default void test_getNextValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -81,6 +97,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Category(Draft.class)
     @Override
     public default void test_getPreviousValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.SpinnerDateModel#getStart() public java.lang.Comparable
+     * javax.swing.SpinnerDateModel.getStart()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStart()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -122,38 +154,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerDateModel#getEnd() public java.lang.Comparable
-     * javax.swing.SpinnerDateModel.getEnd()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEnd()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.SpinnerDateModel#getDate() public java.util.Date
-     * javax.swing.SpinnerDateModel.getDate()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.SpinnerDateModel#setEnd(java.lang.Comparable) public void
      * javax.swing.SpinnerDateModel.setEnd(java.lang.Comparable)}.
      * </p>
@@ -170,15 +170,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerDateModel#getNextValue() public java.lang.Object
-     * javax.swing.SpinnerDateModel.getNextValue()}.
+     * Test method for {@link javax.swing.SpinnerDateModel#setStart(java.lang.Comparable) public void
+     * javax.swing.SpinnerDateModel.setStart(java.lang.Comparable)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getNextValue()
+    public default void test_setStart_Comparable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -187,14 +186,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerDateModel#getCalendarField() public int
-     * javax.swing.SpinnerDateModel.getCalendarField()}.
+     * Test method for {@link javax.swing.SpinnerDateModel#setValue(java.lang.Object) public void
+     * javax.swing.SpinnerDateModel.setValue(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCalendarField()
+    @Override
+    public default void test_setValue_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,18 +36,32 @@ public abstract interface ReflectiveOperationExceptionClassTests<SUT extends Cla
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.ReflectiveOperationException#ReflectiveOperationException(java.lang.Throwable)
-     * public java.lang.ReflectiveOperationException(java.lang.Throwable)}.
+     * Test method for {@link java.lang.ReflectiveOperationException#ReflectiveOperationException() public
+     * java.lang.ReflectiveOperationException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ReflectiveOperationException_Throwable()
+    public default void create_ReflectiveOperationException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.ReflectiveOperationException sut = null; // = new ReflectiveOperationException();
+    }
+
+    /**
+     * Test method for {@link java.lang.ReflectiveOperationException#ReflectiveOperationException(java.lang.String)
+     * public java.lang.ReflectiveOperationException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ReflectiveOperationException_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.lang.ReflectiveOperationException sut = null; // = new
-                                                                 // ReflectiveOperationException(java.lang.Throwable);
+                                                                 // ReflectiveOperationException(java.lang.String);
     }
 
     /**
@@ -67,32 +81,18 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.lang.ReflectiveOperationException#ReflectiveOperationException(java.lang.String)
-     * public java.lang.ReflectiveOperationException(java.lang.String)}.
+     * Test method for {@link java.lang.ReflectiveOperationException#ReflectiveOperationException(java.lang.Throwable)
+     * public java.lang.ReflectiveOperationException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ReflectiveOperationException_String()
+    public default void create_ReflectiveOperationException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.lang.ReflectiveOperationException sut = null; // = new
-                                                                 // ReflectiveOperationException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.lang.ReflectiveOperationException#ReflectiveOperationException() public
-     * java.lang.ReflectiveOperationException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ReflectiveOperationException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.ReflectiveOperationException sut = null; // = new ReflectiveOperationException();
+                                                                 // ReflectiveOperationException(java.lang.Throwable);
     }
 
     @Override

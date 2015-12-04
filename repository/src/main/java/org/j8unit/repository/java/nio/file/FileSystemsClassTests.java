@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface FileSystemsClassTests<SUT extends Class<? extends java.nio.file.FileSystems>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.file.FileSystems> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.file.FileSystems.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.nio.file.FileSystems#getDefault() public static java.nio.file.FileSystem
@@ -96,6 +86,23 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.nio.file.FileSystems#newFileSystem(java.net.URI,java.util.Map) public static
+     * java.nio.file.FileSystem java.nio.file.FileSystems.newFileSystem(java.net.URI,java.util.Map) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newFileSystem_URI_Map()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.file.FileSystems#newFileSystem(java.net.URI,java.util.Map,java.lang.ClassLoader)
      * public static java.nio.file.FileSystem
      * java.nio.file.FileSystems.newFileSystem(java.net.URI,java.util.Map,java.lang.ClassLoader) throws
@@ -112,21 +119,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.FileSystems#newFileSystem(java.net.URI,java.util.Map) public static
-     * java.nio.file.FileSystem java.nio.file.FileSystems.newFileSystem(java.net.URI,java.util.Map) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_newFileSystem_URI_Map()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.nio.file.FileSystems> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.file.FileSystems.class.isAssignableFrom(sut));
     }
 
 }

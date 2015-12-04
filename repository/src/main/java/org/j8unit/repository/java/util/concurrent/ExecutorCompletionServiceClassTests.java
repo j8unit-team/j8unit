@@ -38,6 +38,22 @@ extends org.j8unit.repository.java.util.concurrent.CompletionServiceClassTests<S
 
     /**
      * Test method for
+     * {@link java.util.concurrent.ExecutorCompletionService#ExecutorCompletionService(java.util.concurrent.Executor)
+     * public java.util.concurrent.ExecutorCompletionService(java.util.concurrent.Executor)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ExecutorCompletionService_Executor()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.ExecutorCompletionService<V> sut = null; // = new
+                                                                            // ExecutorCompletionService(java.util.concurrent.Executor);
+    }
+
+    /**
+     * Test method for
      * {@link java.util.concurrent.ExecutorCompletionService#ExecutorCompletionService(java.util.concurrent.Executor,java.util.concurrent.BlockingQueue)
      * public
      * java.util.concurrent.ExecutorCompletionService(java.util.concurrent.Executor,java.util.concurrent.BlockingQueue)}
@@ -52,22 +68,6 @@ extends org.j8unit.repository.java.util.concurrent.CompletionServiceClassTests<S
         @SuppressWarnings("unused")
         final java.util.concurrent.ExecutorCompletionService<V> sut = null; // = new
                                                                             // ExecutorCompletionService(java.util.concurrent.Executor,java.util.concurrent.BlockingQueue);
-    }
-
-    /**
-     * Test method for
-     * {@link java.util.concurrent.ExecutorCompletionService#ExecutorCompletionService(java.util.concurrent.Executor)
-     * public java.util.concurrent.ExecutorCompletionService(java.util.concurrent.Executor)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ExecutorCompletionService_Executor()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.ExecutorCompletionService<V> sut = null; // = new
-                                                                            // ExecutorCompletionService(java.util.concurrent.Executor);
     }
 
     @Override

@@ -25,57 +25,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.CompositeDataSupport#containsValue(java.lang.Object) public
-     * boolean javax.management.openmbean.CompositeDataSupport.containsValue(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_containsValue_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.CompositeDataSupport#toString() public java.lang.String
-     * javax.management.openmbean.CompositeDataSupport.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.CompositeDataSupport#hashCode() public int
-     * javax.management.openmbean.CompositeDataSupport.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.openmbean.CompositeDataSupport#containsKey(java.lang.String) public
      * boolean javax.management.openmbean.CompositeDataSupport.containsKey(java.lang.String)}.
      * </p>
@@ -93,15 +42,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.CompositeDataSupport#get(java.lang.String) public
-     * java.lang.Object javax.management.openmbean.CompositeDataSupport.get(java.lang.String)}.
+     * Test method for {@link javax.management.openmbean.CompositeDataSupport#containsValue(java.lang.Object) public
+     * boolean javax.management.openmbean.CompositeDataSupport.containsValue(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_get_String()
+    public default void test_containsValue_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,15 +76,32 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.CompositeDataSupport#values() public java.util.Collection
-     * javax.management.openmbean.CompositeDataSupport.values()}.
+     * Test method for {@link javax.management.openmbean.CompositeDataSupport#get(java.lang.String) public
+     * java.lang.Object javax.management.openmbean.CompositeDataSupport.get(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_values()
+    public default void test_get_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.CompositeDataSupport#getAll(java.lang.String[]) public
+     * java.lang.Object[] javax.management.openmbean.CompositeDataSupport.getAll(java.lang.String[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAll_StringArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -161,15 +127,49 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.CompositeDataSupport#getAll(java.lang.String[]) public
-     * java.lang.Object[] javax.management.openmbean.CompositeDataSupport.getAll(java.lang.String[])}.
+     * Test method for {@link javax.management.openmbean.CompositeDataSupport#hashCode() public int
+     * javax.management.openmbean.CompositeDataSupport.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAll_StringArray()
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.CompositeDataSupport#toString() public java.lang.String
+     * javax.management.openmbean.CompositeDataSupport.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.CompositeDataSupport#values() public java.util.Collection
+     * javax.management.openmbean.CompositeDataSupport.values()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_values()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

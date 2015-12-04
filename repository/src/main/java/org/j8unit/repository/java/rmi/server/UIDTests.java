@@ -23,30 +23,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.rmi.server.UID#write(java.io.DataOutput) public void
-     * java.rmi.server.UID.write(java.io.DataOutput) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_DataOutput()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.rmi.server.UID#toString() public java.lang.String java.rmi.server.UID.toString()}.
+     * Test method for {@link java.rmi.server.UID#equals(java.lang.Object) public boolean
+     * java.rmi.server.UID.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,15 +56,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.rmi.server.UID#equals(java.lang.Object) public boolean
-     * java.rmi.server.UID.equals(java.lang.Object)}.
+     * Test method for {@link java.rmi.server.UID#toString() public java.lang.String java.rmi.server.UID.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.server.UID#write(java.io.DataOutput) public void
+     * java.rmi.server.UID.write(java.io.DataOutput) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_DataOutput()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

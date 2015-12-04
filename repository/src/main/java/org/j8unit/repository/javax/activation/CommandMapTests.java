@@ -23,66 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.activation.CommandMap#getPreferredCommands(java.lang.String) public abstract
-     * javax.activation.CommandInfo[] javax.activation.CommandMap.getPreferredCommands(java.lang.String)}.
+     * Test method for {@link javax.activation.CommandMap#createDataContentHandler(java.lang.String) public abstract
+     * javax.activation.DataContentHandler javax.activation.CommandMap.createDataContentHandler(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPreferredCommands_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.activation.CommandMap#getPreferredCommands(java.lang.String,javax.activation.DataSource) public
-     * javax.activation.CommandInfo[]
-     * javax.activation.CommandMap.getPreferredCommands(java.lang.String,javax.activation.DataSource)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPreferredCommands_String_DataSource()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.activation.CommandMap#getCommand(java.lang.String,java.lang.String,javax.activation.DataSource)
-     * public javax.activation.CommandInfo
-     * javax.activation.CommandMap.getCommand(java.lang.String,java.lang.String,javax.activation.DataSource)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCommand_String_String_DataSource()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.activation.CommandMap#getCommand(java.lang.String,java.lang.String) public abstract
-     * javax.activation.CommandInfo javax.activation.CommandMap.getCommand(java.lang.String,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCommand_String_String()
+    public default void test_createDataContentHandler_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -101,38 +49,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createDataContentHandler_String_DataSource()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.activation.CommandMap#createDataContentHandler(java.lang.String) public abstract
-     * javax.activation.DataContentHandler javax.activation.CommandMap.createDataContentHandler(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createDataContentHandler_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.activation.CommandMap#getMimeTypes() public java.lang.String[]
-     * javax.activation.CommandMap.getMimeTypes()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMimeTypes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -166,6 +82,90 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAllCommands_String_DataSource()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.CommandMap#getCommand(java.lang.String,java.lang.String) public abstract
+     * javax.activation.CommandInfo javax.activation.CommandMap.getCommand(java.lang.String,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCommand_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.activation.CommandMap#getCommand(java.lang.String,java.lang.String,javax.activation.DataSource)
+     * public javax.activation.CommandInfo
+     * javax.activation.CommandMap.getCommand(java.lang.String,java.lang.String,javax.activation.DataSource)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCommand_String_String_DataSource()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.CommandMap#getMimeTypes() public java.lang.String[]
+     * javax.activation.CommandMap.getMimeTypes()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMimeTypes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.activation.CommandMap#getPreferredCommands(java.lang.String) public abstract
+     * javax.activation.CommandInfo[] javax.activation.CommandMap.getPreferredCommands(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPreferredCommands_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.activation.CommandMap#getPreferredCommands(java.lang.String,javax.activation.DataSource) public
+     * javax.activation.CommandInfo[]
+     * javax.activation.CommandMap.getPreferredCommands(java.lang.String,javax.activation.DataSource)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPreferredCommands_String_DataSource()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -34,14 +34,116 @@ import org.junit.experimental.categories.Category;
 public abstract interface JAXBClassTests<SUT extends Class<? extends javax.xml.bind.JAXB>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.JAXB#marshal(java.lang.Object,java.io.File) public static void
+     * javax.xml.bind.JAXB.marshal(java.lang.Object,java.io.File)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_marshal_Object_File()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.bind.JAXB> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.bind.JAXB.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.JAXB#marshal(java.lang.Object,java.io.OutputStream) public static void
+     * javax.xml.bind.JAXB.marshal(java.lang.Object,java.io.OutputStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_marshal_Object_OutputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.JAXB#marshal(java.lang.Object,javax.xml.transform.Result) public static
+     * void javax.xml.bind.JAXB.marshal(java.lang.Object,javax.xml.transform.Result)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_marshal_Object_Result()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.JAXB#marshal(java.lang.Object,java.lang.String) public static void
+     * javax.xml.bind.JAXB.marshal(java.lang.Object,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_marshal_Object_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.JAXB#marshal(java.lang.Object,java.net.URI) public static void
+     * javax.xml.bind.JAXB.marshal(java.lang.Object,java.net.URI)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_marshal_Object_URI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.JAXB#marshal(java.lang.Object,java.net.URL) public static void
+     * javax.xml.bind.JAXB.marshal(java.lang.Object,java.net.URL)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_marshal_Object_URL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.JAXB#marshal(java.lang.Object,java.io.Writer) public static void
+     * javax.xml.bind.JAXB.marshal(java.lang.Object,java.io.Writer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_marshal_Object_Writer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -54,6 +156,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_unmarshal_File_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.JAXB#unmarshal(java.io.InputStream,java.lang.Class) public static
+     * java.lang.Object javax.xml.bind.JAXB.unmarshal(java.io.InputStream,java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unmarshal_InputStream_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -94,6 +212,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.bind.JAXB#unmarshal(java.lang.String,java.lang.Class) public static
+     * java.lang.Object javax.xml.bind.JAXB.unmarshal(java.lang.String,java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unmarshal_String_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.bind.JAXB#unmarshal(java.net.URI,java.lang.Class) public static java.lang.Object
      * javax.xml.bind.JAXB.unmarshal(java.net.URI,java.lang.Class)}.
      * </p>
@@ -124,148 +258,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.JAXB#unmarshal(java.io.InputStream,java.lang.Class) public static
-     * java.lang.Object javax.xml.bind.JAXB.unmarshal(java.io.InputStream,java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_unmarshal_InputStream_Class()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.JAXB#unmarshal(java.lang.String,java.lang.Class) public static
-     * java.lang.Object javax.xml.bind.JAXB.unmarshal(java.lang.String,java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unmarshal_String_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.JAXB#marshal(java.lang.Object,java.net.URI) public static void
-     * javax.xml.bind.JAXB.marshal(java.lang.Object,java.net.URI)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_marshal_Object_URI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.JAXB#marshal(java.lang.Object,java.lang.String) public static void
-     * javax.xml.bind.JAXB.marshal(java.lang.Object,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_marshal_Object_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.JAXB#marshal(java.lang.Object,java.net.URL) public static void
-     * javax.xml.bind.JAXB.marshal(java.lang.Object,java.net.URL)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_marshal_Object_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.JAXB#marshal(java.lang.Object,java.io.File) public static void
-     * javax.xml.bind.JAXB.marshal(java.lang.Object,java.io.File)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_marshal_Object_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.JAXB#marshal(java.lang.Object,java.io.OutputStream) public static void
-     * javax.xml.bind.JAXB.marshal(java.lang.Object,java.io.OutputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_marshal_Object_OutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.JAXB#marshal(java.lang.Object,java.io.Writer) public static void
-     * javax.xml.bind.JAXB.marshal(java.lang.Object,java.io.Writer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_marshal_Object_Writer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.JAXB#marshal(java.lang.Object,javax.xml.transform.Result) public static
-     * void javax.xml.bind.JAXB.marshal(java.lang.Object,javax.xml.transform.Result)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_marshal_Object_Result()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.xml.bind.JAXB> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.bind.JAXB.class.isAssignableFrom(sut));
     }
 
 }

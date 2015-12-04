@@ -36,20 +36,6 @@ public abstract interface BufferedReaderClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.io.ReaderClassTests<SUT> {
 
     /**
-     * Test method for {@link java.io.BufferedReader#BufferedReader(java.io.Reader,int) public
-     * java.io.BufferedReader(java.io.Reader,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BufferedReader_Reader_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.BufferedReader sut = null; // = new BufferedReader(java.io.Reader,int);
-    }
-
-    /**
      * Test method for {@link java.io.BufferedReader#BufferedReader(java.io.Reader) public
      * java.io.BufferedReader(java.io.Reader)}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.io.ReaderClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.BufferedReader sut = null; // = new BufferedReader(java.io.Reader);
+    }
+
+    /**
+     * Test method for {@link java.io.BufferedReader#BufferedReader(java.io.Reader,int) public
+     * java.io.BufferedReader(java.io.Reader,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BufferedReader_Reader_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.BufferedReader sut = null; // = new BufferedReader(java.io.Reader,int);
     }
 
     @Override

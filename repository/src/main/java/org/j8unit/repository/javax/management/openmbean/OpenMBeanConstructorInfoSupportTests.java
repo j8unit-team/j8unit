@@ -25,23 +25,6 @@ org.j8unit.repository.javax.management.MBeanConstructorInfoTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanConstructorInfoSupport#toString() public
-     * java.lang.String javax.management.openmbean.OpenMBeanConstructorInfoSupport.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.openmbean.OpenMBeanConstructorInfoSupport#equals(java.lang.Object) public
      * boolean javax.management.openmbean.OpenMBeanConstructorInfoSupport.equals(java.lang.Object)}.
      * </p>
@@ -55,39 +38,6 @@ org.j8unit.repository.javax.management.MBeanConstructorInfoTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanConstructorInfoSupport#hashCode() public int
-     * javax.management.openmbean.OpenMBeanConstructorInfoSupport.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getName()
-    throws Exception {
     }
 
     /**
@@ -118,8 +68,58 @@ org.j8unit.repository.javax.management.MBeanConstructorInfoTests<SUT> {
     @Test
     @Category(Draft.class)
     @Override
+    public default void test_getName()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
     public default void test_getSignature()
     throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanConstructorInfoSupport#hashCode() public int
+     * javax.management.openmbean.OpenMBeanConstructorInfoSupport.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanConstructorInfoSupport#toString() public
+     * java.lang.String javax.management.openmbean.OpenMBeanConstructorInfoSupport.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

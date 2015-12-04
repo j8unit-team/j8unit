@@ -40,23 +40,6 @@ extends org.j8unit.repository.java.lang.invoke.CallSiteTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.ConstantCallSite#setTarget(java.lang.invoke.MethodHandle) public final
-     * void java.lang.invoke.ConstantCallSite.setTarget(java.lang.invoke.MethodHandle)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setTarget_MethodHandle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.invoke.ConstantCallSite#getTarget() public final java.lang.invoke.MethodHandle
      * java.lang.invoke.ConstantCallSite.getTarget()}.
      * </p>
@@ -66,6 +49,23 @@ extends org.j8unit.repository.java.lang.invoke.CallSiteTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getTarget()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.ConstantCallSite#setTarget(java.lang.invoke.MethodHandle) public final
+     * void java.lang.invoke.ConstantCallSite.setTarget(java.lang.invoke.MethodHandle)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setTarget_MethodHandle()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

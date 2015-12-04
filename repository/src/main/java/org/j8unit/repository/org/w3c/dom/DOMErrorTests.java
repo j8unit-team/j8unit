@@ -24,6 +24,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.w3c.dom.DOMError#getLocation() public abstract org.w3c.dom.DOMLocator
+     * org.w3c.dom.DOMError.getLocation()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.w3c.dom.DOMError#getMessage() public abstract java.lang.String
      * org.w3c.dom.DOMError.getMessage()}.
      * </p>
@@ -72,14 +88,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.DOMError#getLocation() public abstract org.w3c.dom.DOMLocator
-     * org.w3c.dom.DOMError.getLocation()}.
+     * Test method for {@link org.w3c.dom.DOMError#getSeverity() public abstract short
+     * org.w3c.dom.DOMError.getSeverity()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLocation()
+    public default void test_getSeverity()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -96,22 +112,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.DOMError#getSeverity() public abstract short
-     * org.w3c.dom.DOMError.getSeverity()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSeverity()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

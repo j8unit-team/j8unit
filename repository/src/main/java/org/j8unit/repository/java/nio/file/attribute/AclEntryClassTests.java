@@ -35,49 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface AclEntryClassTests<SUT extends Class<? extends java.nio.file.attribute.AclEntry>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.file.attribute.AclEntry> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.file.attribute.AclEntry.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.AclEntry#newBuilder(java.nio.file.attribute.AclEntry) public
-     * static java.nio.file.attribute.AclEntry$Builder
-     * java.nio.file.attribute.AclEntry.newBuilder(java.nio.file.attribute.AclEntry)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newBuilder_AclEntry()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.AclEntry#newBuilder() public static
-     * java.nio.file.attribute.AclEntry$Builder java.nio.file.attribute.AclEntry.newBuilder()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newBuilder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test class for {@link java.nio.file.attribute.AclEntry$Builder class java.nio.file.attribute.AclEntry$Builder},
@@ -117,6 +74,49 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(java.nio.file.attribute.AclEntry.Builder.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.AclEntry#newBuilder() public static
+     * java.nio.file.attribute.AclEntry$Builder java.nio.file.attribute.AclEntry.newBuilder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newBuilder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.AclEntry#newBuilder(java.nio.file.attribute.AclEntry) public
+     * static java.nio.file.attribute.AclEntry$Builder
+     * java.nio.file.attribute.AclEntry.newBuilder(java.nio.file.attribute.AclEntry)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newBuilder_AclEntry()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.file.attribute.AclEntry> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.file.attribute.AclEntry.class.isAssignableFrom(sut));
     }
 
 }

@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.KeyManagerFactory#getProvider() public final java.security.Provider
-     * javax.net.ssl.KeyManagerFactory.getProvider()}.
+     * Test method for {@link javax.net.ssl.KeyManagerFactory#getAlgorithm() public final java.lang.String
+     * javax.net.ssl.KeyManagerFactory.getAlgorithm()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getProvider()
+    public default void test_getAlgorithm()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -47,6 +47,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getKeyManagers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.KeyManagerFactory#getProvider() public final java.security.Provider
+     * javax.net.ssl.KeyManagerFactory.getProvider()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProvider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -81,22 +97,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_init_ManagerFactoryParameters()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.KeyManagerFactory#getAlgorithm() public final java.lang.String
-     * javax.net.ssl.KeyManagerFactory.getAlgorithm()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAlgorithm()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

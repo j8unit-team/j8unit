@@ -36,17 +36,16 @@ public abstract interface DOMSourceClassTests<SUT extends Class<? extends javax.
 extends org.j8unit.repository.javax.xml.transform.SourceClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.xml.transform.dom.DOMSource#DOMSource(org.w3c.dom.Node,java.lang.String) public
-     * javax.xml.transform.dom.DOMSource(org.w3c.dom.Node,java.lang.String)}.
+     * Test method for {@link javax.xml.transform.dom.DOMSource#DOMSource() public javax.xml.transform.dom.DOMSource()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DOMSource_Node_String()
+    public default void create_DOMSource()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.transform.dom.DOMSource sut = null; // = new DOMSource(org.w3c.dom.Node,java.lang.String);
+        final javax.xml.transform.dom.DOMSource sut = null; // = new DOMSource();
     }
 
     /**
@@ -64,16 +63,17 @@ extends org.j8unit.repository.javax.xml.transform.SourceClassTests<SUT>, org.j8u
     }
 
     /**
-     * Test method for {@link javax.xml.transform.dom.DOMSource#DOMSource() public javax.xml.transform.dom.DOMSource()}.
+     * Test method for {@link javax.xml.transform.dom.DOMSource#DOMSource(org.w3c.dom.Node,java.lang.String) public
+     * javax.xml.transform.dom.DOMSource(org.w3c.dom.Node,java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DOMSource()
+    public default void create_DOMSource_Node_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.transform.dom.DOMSource sut = null; // = new DOMSource();
+        final javax.xml.transform.dom.DOMSource sut = null; // = new DOMSource(org.w3c.dom.Node,java.lang.String);
     }
 
     @Override

@@ -50,16 +50,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.awt.KeyboardFocusManager sut = null; // = new KeyboardFocusManager();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.KeyboardFocusManager> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.KeyboardFocusManager.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.awt.KeyboardFocusManager#getCurrentKeyboardFocusManager() public static
@@ -92,6 +82,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.KeyboardFocusManager> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.KeyboardFocusManager.class.isAssignableFrom(sut));
     }
 
 }

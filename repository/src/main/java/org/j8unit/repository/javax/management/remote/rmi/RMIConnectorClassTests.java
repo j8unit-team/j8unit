@@ -38,22 +38,6 @@ org.j8unit.repository.javax.management.remote.JMXAddressableClassTests<SUT>, org
 
     /**
      * Test method for
-     * {@link javax.management.remote.rmi.RMIConnector#RMIConnector(javax.management.remote.rmi.RMIServer,java.util.Map)
-     * public javax.management.remote.rmi.RMIConnector(javax.management.remote.rmi.RMIServer,java.util.Map)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RMIConnector_RMIServer_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.remote.rmi.RMIConnector sut = null; // = new
-                                                                   // RMIConnector(javax.management.remote.rmi.RMIServer,java.util.Map);
-    }
-
-    /**
-     * Test method for
      * {@link javax.management.remote.rmi.RMIConnector#RMIConnector(javax.management.remote.JMXServiceURL,java.util.Map)
      * public javax.management.remote.rmi.RMIConnector(javax.management.remote.JMXServiceURL,java.util.Map)}.
      */
@@ -66,6 +50,22 @@ org.j8unit.repository.javax.management.remote.JMXAddressableClassTests<SUT>, org
         @SuppressWarnings("unused")
         final javax.management.remote.rmi.RMIConnector sut = null; // = new
                                                                    // RMIConnector(javax.management.remote.JMXServiceURL,java.util.Map);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnector#RMIConnector(javax.management.remote.rmi.RMIServer,java.util.Map)
+     * public javax.management.remote.rmi.RMIConnector(javax.management.remote.rmi.RMIServer,java.util.Map)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RMIConnector_RMIServer_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.remote.rmi.RMIConnector sut = null; // = new
+                                                                   // RMIConnector(javax.management.remote.rmi.RMIServer,java.util.Map);
     }
 
     @Override

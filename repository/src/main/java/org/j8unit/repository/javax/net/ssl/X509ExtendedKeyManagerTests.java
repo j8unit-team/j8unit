@@ -24,25 +24,6 @@ extends org.j8unit.repository.javax.net.ssl.X509KeyManagerTests<SUT>, org.j8unit
     /**
      * <p>
      * Test method for
-     * {@link javax.net.ssl.X509ExtendedKeyManager#chooseEngineServerAlias(java.lang.String,java.security.Principal[],javax.net.ssl.SSLEngine)
-     * public java.lang.String
-     * javax.net.ssl.X509ExtendedKeyManager.chooseEngineServerAlias(java.lang.String,java.security.Principal[],javax.net.ssl.SSLEngine)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_chooseEngineServerAlias_String_PrincipalArray_SSLEngine()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link javax.net.ssl.X509ExtendedKeyManager#chooseEngineClientAlias(java.lang.String[],java.security.Principal[],javax.net.ssl.SSLEngine)
      * public java.lang.String
      * javax.net.ssl.X509ExtendedKeyManager.chooseEngineClientAlias(java.lang.String[],java.security.Principal[],javax.net.ssl.SSLEngine)}
@@ -53,6 +34,25 @@ extends org.j8unit.repository.javax.net.ssl.X509KeyManagerTests<SUT>, org.j8unit
     @Test
     @Category(Draft.class)
     public default void test_chooseEngineClientAlias_StringArray_PrincipalArray_SSLEngine()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.net.ssl.X509ExtendedKeyManager#chooseEngineServerAlias(java.lang.String,java.security.Principal[],javax.net.ssl.SSLEngine)
+     * public java.lang.String
+     * javax.net.ssl.X509ExtendedKeyManager.chooseEngineServerAlias(java.lang.String,java.security.Principal[],javax.net.ssl.SSLEngine)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_chooseEngineServerAlias_String_PrincipalArray_SSLEngine()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

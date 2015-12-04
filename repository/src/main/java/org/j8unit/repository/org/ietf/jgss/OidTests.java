@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.ietf.jgss.Oid#containedIn(org.ietf.jgss.Oid[]) public boolean
+     * org.ietf.jgss.Oid.containedIn(org.ietf.jgss.Oid[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_containedIn_OidArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.ietf.jgss.Oid#equals(java.lang.Object) public boolean
      * org.ietf.jgss.Oid.equals(java.lang.Object)}.
      * </p>
@@ -32,22 +48,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.ietf.jgss.Oid#hashCode() public int org.ietf.jgss.Oid.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +72,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.Oid#toString() public java.lang.String org.ietf.jgss.Oid.toString()}.
+     * Test method for {@link org.ietf.jgss.Oid#hashCode() public int org.ietf.jgss.Oid.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,14 +88,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.Oid#containedIn(org.ietf.jgss.Oid[]) public boolean
-     * org.ietf.jgss.Oid.containedIn(org.ietf.jgss.Oid[])}.
+     * Test method for {@link org.ietf.jgss.Oid#toString() public java.lang.String org.ietf.jgss.Oid.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_containedIn_OidArray()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

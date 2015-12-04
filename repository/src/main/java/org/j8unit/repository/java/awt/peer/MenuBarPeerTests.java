@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.awt.peer.MenuComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.MenuBarPeer#delMenu(int) public abstract void
-     * java.awt.peer.MenuBarPeer.delMenu(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_delMenu_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.peer.MenuBarPeer#addHelpMenu(java.awt.Menu) public abstract void
      * java.awt.peer.MenuBarPeer.addHelpMenu(java.awt.Menu)}.
      * </p>
@@ -63,6 +47,22 @@ extends org.j8unit.repository.java.awt.peer.MenuComponentPeerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_addMenu_Menu()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.MenuBarPeer#delMenu(int) public abstract void
+     * java.awt.peer.MenuBarPeer.delMenu(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_delMenu_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

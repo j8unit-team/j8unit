@@ -36,48 +36,6 @@ public abstract interface DataBufferIntClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.awt.image.DataBufferClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.image.DataBufferInt#DataBufferInt(int[][],int,int[]) public
-     * java.awt.image.DataBufferInt(int[][],int,int[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DataBufferInt_intArrayArray_int_intArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.DataBufferInt sut = null; // = new DataBufferInt(int[][],int,int[]);
-    }
-
-    /**
-     * Test method for {@link java.awt.image.DataBufferInt#DataBufferInt(int[][],int) public
-     * java.awt.image.DataBufferInt(int[][],int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DataBufferInt_intArrayArray_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.DataBufferInt sut = null; // = new DataBufferInt(int[][],int);
-    }
-
-    /**
-     * Test method for {@link java.awt.image.DataBufferInt#DataBufferInt(int[],int,int) public
-     * java.awt.image.DataBufferInt(int[],int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DataBufferInt_intArray_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.DataBufferInt sut = null; // = new DataBufferInt(int[],int,int);
-    }
-
-    /**
      * Test method for {@link java.awt.image.DataBufferInt#DataBufferInt(int) public java.awt.image.DataBufferInt(int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -116,6 +74,48 @@ extends org.j8unit.repository.java.awt.image.DataBufferClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.image.DataBufferInt sut = null; // = new DataBufferInt(int[],int);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.DataBufferInt#DataBufferInt(int[],int,int) public
+     * java.awt.image.DataBufferInt(int[],int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DataBufferInt_intArray_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.DataBufferInt sut = null; // = new DataBufferInt(int[],int,int);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.DataBufferInt#DataBufferInt(int[][],int) public
+     * java.awt.image.DataBufferInt(int[][],int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DataBufferInt_intArrayArray_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.DataBufferInt sut = null; // = new DataBufferInt(int[][],int);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.DataBufferInt#DataBufferInt(int[][],int,int[]) public
+     * java.awt.image.DataBufferInt(int[][],int,int[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DataBufferInt_intArrayArray_int_intArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.DataBufferInt sut = null; // = new DataBufferInt(int[][],int,int[]);
     }
 
     @Override

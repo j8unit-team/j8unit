@@ -38,71 +38,6 @@ org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.r
 org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JComboBox#JComboBox() public javax.swing.JComboBox()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JComboBox()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JComboBox<E> sut = null; // = new JComboBox();
-    }
-
-    /**
-     * Test method for {@link javax.swing.JComboBox#JComboBox(java.util.Vector) public
-     * javax.swing.JComboBox(java.util.Vector)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JComboBox_Vector()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JComboBox<E> sut = null; // = new JComboBox(java.util.Vector);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JComboBox#JComboBox(java.lang.Object[]) public
-     * javax.swing.JComboBox(java.lang.Object[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JComboBox_ObjectArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JComboBox<E> sut = null; // = new JComboBox(java.lang.Object[]);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JComboBox#JComboBox(javax.swing.ComboBoxModel) public
-     * javax.swing.JComboBox(javax.swing.ComboBoxModel)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JComboBox_ComboBoxModel()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JComboBox<E> sut = null; // = new JComboBox(javax.swing.ComboBoxModel);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.JComboBox<E>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JComboBox.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.JComboBox$KeySelectionManager interface
      * javax.swing.JComboBox$KeySelectionManager}, containing all class relevant test methods (at least the test methods
@@ -141,6 +76,71 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
             assertTrue(javax.swing.JComboBox.KeySelectionManager.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.JComboBox#JComboBox() public javax.swing.JComboBox()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JComboBox()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JComboBox<E> sut = null; // = new JComboBox();
+    }
+
+    /**
+     * Test method for {@link javax.swing.JComboBox#JComboBox(javax.swing.ComboBoxModel) public
+     * javax.swing.JComboBox(javax.swing.ComboBoxModel)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JComboBox_ComboBoxModel()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JComboBox<E> sut = null; // = new JComboBox(javax.swing.ComboBoxModel);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JComboBox#JComboBox(java.lang.Object[]) public
+     * javax.swing.JComboBox(java.lang.Object[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JComboBox_ObjectArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JComboBox<E> sut = null; // = new JComboBox(java.lang.Object[]);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JComboBox#JComboBox(java.util.Vector) public
+     * javax.swing.JComboBox(java.util.Vector)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JComboBox_Vector()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JComboBox<E> sut = null; // = new JComboBox(java.util.Vector);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.JComboBox<E>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.JComboBox.class.isAssignableFrom(sut));
     }
 
 }

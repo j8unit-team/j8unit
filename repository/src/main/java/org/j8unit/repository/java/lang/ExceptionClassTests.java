@@ -35,31 +35,16 @@ public abstract interface ExceptionClassTests<SUT extends Class<? extends java.l
 extends org.j8unit.repository.java.lang.ThrowableClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.Exception#Exception(java.lang.Throwable) public
-     * java.lang.Exception(java.lang.Throwable)}.
+     * Test method for {@link java.lang.Exception#Exception() public java.lang.Exception()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Exception_Throwable()
+    public default void create_Exception()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.Exception sut = null; // = new Exception(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link java.lang.Exception#Exception(java.lang.String,java.lang.Throwable) public
-     * java.lang.Exception(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Exception_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.Exception sut = null; // = new Exception(java.lang.String,java.lang.Throwable);
+        final java.lang.Exception sut = null; // = new Exception();
     }
 
     /**
@@ -77,16 +62,31 @@ extends org.j8unit.repository.java.lang.ThrowableClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.lang.Exception#Exception() public java.lang.Exception()}.
+     * Test method for {@link java.lang.Exception#Exception(java.lang.String,java.lang.Throwable) public
+     * java.lang.Exception(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Exception()
+    public default void create_Exception_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.Exception sut = null; // = new Exception();
+        final java.lang.Exception sut = null; // = new Exception(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link java.lang.Exception#Exception(java.lang.Throwable) public
+     * java.lang.Exception(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Exception_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.Exception sut = null; // = new Exception(java.lang.Throwable);
     }
 
     @Override

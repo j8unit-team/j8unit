@@ -36,21 +36,17 @@ public abstract interface AttributedStringClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.text.AttributedString#AttributedString(java.text.AttributedCharacterIterator,int,int,java.text.AttributedCharacterIterator.Attribute[])
-     * public
-     * java.text.AttributedString(java.text.AttributedCharacterIterator,int,int,java.text.AttributedCharacterIterator$Attribute[])}
-     * .
+     * Test method for {@link java.text.AttributedString#AttributedString(java.text.AttributedCharacterIterator) public
+     * java.text.AttributedString(java.text.AttributedCharacterIterator)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_AttributedString_AttributedCharacterIterator_int_int_AttributeArray()
+    public default void create_AttributedString_AttributedCharacterIterator()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.text.AttributedString sut = null; // = new
-                                                     // AttributedString(java.text.AttributedCharacterIterator,int,int,java.text.AttributedCharacterIterator.Attribute[]);
+        final java.text.AttributedString sut = null; // = new AttributedString(java.text.AttributedCharacterIterator);
     }
 
     /**
@@ -69,17 +65,21 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.text.AttributedString#AttributedString(java.text.AttributedCharacterIterator) public
-     * java.text.AttributedString(java.text.AttributedCharacterIterator)}.
+     * Test method for
+     * {@link java.text.AttributedString#AttributedString(java.text.AttributedCharacterIterator,int,int,java.text.AttributedCharacterIterator.Attribute[])
+     * public
+     * java.text.AttributedString(java.text.AttributedCharacterIterator,int,int,java.text.AttributedCharacterIterator$Attribute[])}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_AttributedString_AttributedCharacterIterator()
+    public default void create_AttributedString_AttributedCharacterIterator_int_int_AttributeArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.text.AttributedString sut = null; // = new AttributedString(java.text.AttributedCharacterIterator);
+        final java.text.AttributedString sut = null; // = new
+                                                     // AttributedString(java.text.AttributedCharacterIterator,int,int,java.text.AttributedCharacterIterator.Attribute[]);
     }
 
     /**

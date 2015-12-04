@@ -23,14 +23,13 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
 
     /**
      * <p>
-     * Test method for {@link java.lang.ThreadGroup#parentOf(java.lang.ThreadGroup) public final boolean
-     * java.lang.ThreadGroup.parentOf(java.lang.ThreadGroup)}.
+     * Test method for {@link java.lang.ThreadGroup#activeCount() public int java.lang.ThreadGroup.activeCount()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parentOf_ThreadGroup()
+    public default void test_activeCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,13 +38,30 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
 
     /**
      * <p>
-     * Test method for {@link java.lang.ThreadGroup#destroy() public final void java.lang.ThreadGroup.destroy()}.
+     * Test method for {@link java.lang.ThreadGroup#activeGroupCount() public int
+     * java.lang.ThreadGroup.activeGroupCount()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_destroy()
+    public default void test_activeGroupCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.ThreadGroup#allowThreadSuspension(boolean) public boolean
+     * java.lang.ThreadGroup.allowThreadSuspension(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_allowThreadSuspension_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -70,13 +86,13 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
 
     /**
      * <p>
-     * Test method for {@link java.lang.ThreadGroup#list() public void java.lang.ThreadGroup.list()}.
+     * Test method for {@link java.lang.ThreadGroup#destroy() public final void java.lang.ThreadGroup.destroy()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_list()
+    public default void test_destroy()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -85,14 +101,14 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
 
     /**
      * <p>
-     * Test method for {@link java.lang.ThreadGroup#getName() public final java.lang.String
-     * java.lang.ThreadGroup.getName()}.
+     * Test method for {@link java.lang.ThreadGroup#enumerate(java.lang.Thread[]) public int
+     * java.lang.ThreadGroup.enumerate(java.lang.Thread[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName()
+    public default void test_enumerate_ThreadArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -101,125 +117,14 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
 
     /**
      * <p>
-     * Test method for {@link java.lang.ThreadGroup#getParent() public final java.lang.ThreadGroup
-     * java.lang.ThreadGroup.getParent()}.
+     * Test method for {@link java.lang.ThreadGroup#enumerate(java.lang.Thread[],boolean) public int
+     * java.lang.ThreadGroup.enumerate(java.lang.Thread[],boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.ThreadGroup#activeCount() public int java.lang.ThreadGroup.activeCount()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_activeCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.ThreadGroup#resume() public final void java.lang.ThreadGroup.resume()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_resume()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.ThreadGroup#suspend() public final void java.lang.ThreadGroup.suspend()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_suspend()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.ThreadGroup#setMaxPriority(int) public final void
-     * java.lang.ThreadGroup.setMaxPriority(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMaxPriority_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.ThreadGroup#isDestroyed() public synchronized boolean
-     * java.lang.ThreadGroup.isDestroyed()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isDestroyed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.ThreadGroup#uncaughtException(java.lang.Thread,java.lang.Throwable) public void
-     * java.lang.ThreadGroup.uncaughtException(java.lang.Thread,java.lang.Throwable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_uncaughtException_Thread_Throwable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.ThreadGroup#toString() public java.lang.String java.lang.ThreadGroup.toString()}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_enumerate_ThreadArray_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -260,14 +165,14 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
 
     /**
      * <p>
-     * Test method for {@link java.lang.ThreadGroup#enumerate(java.lang.Thread[],boolean) public int
-     * java.lang.ThreadGroup.enumerate(java.lang.Thread[],boolean)}.
+     * Test method for {@link java.lang.ThreadGroup#getMaxPriority() public final int
+     * java.lang.ThreadGroup.getMaxPriority()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_enumerate_ThreadArray_boolean()
+    public default void test_getMaxPriority()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -276,14 +181,14 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
 
     /**
      * <p>
-     * Test method for {@link java.lang.ThreadGroup#enumerate(java.lang.Thread[]) public int
-     * java.lang.ThreadGroup.enumerate(java.lang.Thread[])}.
+     * Test method for {@link java.lang.ThreadGroup#getName() public final java.lang.String
+     * java.lang.ThreadGroup.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_enumerate_ThreadArray()
+    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -292,14 +197,14 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
 
     /**
      * <p>
-     * Test method for {@link java.lang.ThreadGroup#activeGroupCount() public int
-     * java.lang.ThreadGroup.activeGroupCount()}.
+     * Test method for {@link java.lang.ThreadGroup#getParent() public final java.lang.ThreadGroup
+     * java.lang.ThreadGroup.getParent()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_activeGroupCount()
+    public default void test_getParent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -323,14 +228,13 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
 
     /**
      * <p>
-     * Test method for {@link java.lang.ThreadGroup#getMaxPriority() public final int
-     * java.lang.ThreadGroup.getMaxPriority()}.
+     * Test method for {@link java.lang.ThreadGroup#isDaemon() public final boolean java.lang.ThreadGroup.isDaemon()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMaxPriority()
+    public default void test_isDaemon()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -339,14 +243,60 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
 
     /**
      * <p>
-     * Test method for {@link java.lang.ThreadGroup#allowThreadSuspension(boolean) public boolean
-     * java.lang.ThreadGroup.allowThreadSuspension(boolean)}.
+     * Test method for {@link java.lang.ThreadGroup#isDestroyed() public synchronized boolean
+     * java.lang.ThreadGroup.isDestroyed()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_allowThreadSuspension_boolean()
+    public default void test_isDestroyed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.ThreadGroup#list() public void java.lang.ThreadGroup.list()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_list()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.ThreadGroup#parentOf(java.lang.ThreadGroup) public final boolean
+     * java.lang.ThreadGroup.parentOf(java.lang.ThreadGroup)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parentOf_ThreadGroup()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.ThreadGroup#resume() public final void java.lang.ThreadGroup.resume()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_resume()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -371,13 +321,14 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
 
     /**
      * <p>
-     * Test method for {@link java.lang.ThreadGroup#isDaemon() public final boolean java.lang.ThreadGroup.isDaemon()}.
+     * Test method for {@link java.lang.ThreadGroup#setMaxPriority(int) public final void
+     * java.lang.ThreadGroup.setMaxPriority(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDaemon()
+    public default void test_setMaxPriority_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -393,6 +344,55 @@ extends org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTest
     @Test
     @Category(Draft.class)
     public default void test_stop()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.ThreadGroup#suspend() public final void java.lang.ThreadGroup.suspend()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_suspend()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.ThreadGroup#toString() public java.lang.String java.lang.ThreadGroup.toString()}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.ThreadGroup#uncaughtException(java.lang.Thread,java.lang.Throwable) public void
+     * java.lang.ThreadGroup.uncaughtException(java.lang.Thread,java.lang.Throwable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_uncaughtException_Thread_Throwable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

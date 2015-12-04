@@ -23,14 +23,212 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Area#subtract(java.awt.geom.Area) public void
-     * java.awt.geom.Area.subtract(java.awt.geom.Area)}.
+     * Test method for {@link java.awt.geom.Area#add(java.awt.geom.Area) public void
+     * java.awt.geom.Area.add(java.awt.geom.Area)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_subtract_Area()
+    public default void test_add_Area()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Area#clone() public java.lang.Object java.awt.geom.Area.clone()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Area#contains(double,double) public boolean
+     * java.awt.geom.Area.contains(double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_contains_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Area#contains(double,double,double,double) public boolean
+     * java.awt.geom.Area.contains(double,double,double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_contains_double_double_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Area#contains(java.awt.geom.Point2D) public boolean
+     * java.awt.geom.Area.contains(java.awt.geom.Point2D)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_contains_Point2D()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Area#contains(java.awt.geom.Rectangle2D) public boolean
+     * java.awt.geom.Area.contains(java.awt.geom.Rectangle2D)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_contains_Rectangle2D()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Area#createTransformedArea(java.awt.geom.AffineTransform) public
+     * java.awt.geom.Area java.awt.geom.Area.createTransformedArea(java.awt.geom.AffineTransform)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createTransformedArea_AffineTransform()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Area#equals(java.awt.geom.Area) public boolean
+     * java.awt.geom.Area.equals(java.awt.geom.Area)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_Area()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Area#exclusiveOr(java.awt.geom.Area) public void
+     * java.awt.geom.Area.exclusiveOr(java.awt.geom.Area)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_exclusiveOr_Area()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Area#getBounds() public java.awt.Rectangle java.awt.geom.Area.getBounds()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getBounds()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Area#getBounds2D() public java.awt.geom.Rectangle2D
+     * java.awt.geom.Area.getBounds2D()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getBounds2D()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Area#getPathIterator(java.awt.geom.AffineTransform) public
+     * java.awt.geom.PathIterator java.awt.geom.Area.getPathIterator(java.awt.geom.AffineTransform)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPathIterator_AffineTransform()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Area#getPathIterator(java.awt.geom.AffineTransform,double) public
+     * java.awt.geom.PathIterator java.awt.geom.Area.getPathIterator(java.awt.geom.AffineTransform,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPathIterator_AffineTransform_double()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -89,68 +287,6 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Area#isSingular() public boolean java.awt.geom.Area.isSingular()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSingular()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Area#add(java.awt.geom.Area) public void
-     * java.awt.geom.Area.add(java.awt.geom.Area)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_Area()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Area#getBounds() public java.awt.Rectangle java.awt.geom.Area.getBounds()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBounds()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Area#isRectangular() public boolean java.awt.geom.Area.isRectangular()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isRectangular()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.geom.Area#isEmpty() public boolean java.awt.geom.Area.isEmpty()}.
      * </p>
      */
@@ -158,172 +294,6 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     @Test
     @Category(Draft.class)
     public default void test_isEmpty()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Area#equals(java.awt.geom.Area) public boolean
-     * java.awt.geom.Area.equals(java.awt.geom.Area)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_Area()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Area#getPathIterator(java.awt.geom.AffineTransform,double) public
-     * java.awt.geom.PathIterator java.awt.geom.Area.getPathIterator(java.awt.geom.AffineTransform,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPathIterator_AffineTransform_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Area#getPathIterator(java.awt.geom.AffineTransform) public
-     * java.awt.geom.PathIterator java.awt.geom.Area.getPathIterator(java.awt.geom.AffineTransform)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPathIterator_AffineTransform()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Area#contains(double,double) public boolean
-     * java.awt.geom.Area.contains(double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_contains_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Area#contains(java.awt.geom.Point2D) public boolean
-     * java.awt.geom.Area.contains(java.awt.geom.Point2D)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_contains_Point2D()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Area#contains(double,double,double,double) public boolean
-     * java.awt.geom.Area.contains(double,double,double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_contains_double_double_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Area#contains(java.awt.geom.Rectangle2D) public boolean
-     * java.awt.geom.Area.contains(java.awt.geom.Rectangle2D)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_contains_Rectangle2D()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Area#transform(java.awt.geom.AffineTransform) public void
-     * java.awt.geom.Area.transform(java.awt.geom.AffineTransform)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_transform_AffineTransform()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Area#exclusiveOr(java.awt.geom.Area) public void
-     * java.awt.geom.Area.exclusiveOr(java.awt.geom.Area)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_exclusiveOr_Area()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.Area#createTransformedArea(java.awt.geom.AffineTransform) public
-     * java.awt.geom.Area java.awt.geom.Area.createTransformedArea(java.awt.geom.AffineTransform)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createTransformedArea_AffineTransform()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -347,13 +317,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Area#clone() public java.lang.Object java.awt.geom.Area.clone()}.
+     * Test method for {@link java.awt.geom.Area#isRectangular() public boolean java.awt.geom.Area.isRectangular()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clone()
+    public default void test_isRectangular()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -362,15 +332,13 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.Area#getBounds2D() public java.awt.geom.Rectangle2D
-     * java.awt.geom.Area.getBounds2D()}.
+     * Test method for {@link java.awt.geom.Area#isSingular() public boolean java.awt.geom.Area.isSingular()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getBounds2D()
+    public default void test_isSingular()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -386,6 +354,38 @@ extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.ja
     @Test
     @Category(Draft.class)
     public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Area#subtract(java.awt.geom.Area) public void
+     * java.awt.geom.Area.subtract(java.awt.geom.Area)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_subtract_Area()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.Area#transform(java.awt.geom.AffineTransform) public void
+     * java.awt.geom.Area.transform(java.awt.geom.AffineTransform)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_transform_AffineTransform()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

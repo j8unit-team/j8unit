@@ -36,6 +36,33 @@ public abstract interface MTOMFeatureClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.xml.ws.soap.MTOMFeature#MTOMFeature() public javax.xml.ws.soap.MTOMFeature()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MTOMFeature()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.ws.soap.MTOMFeature sut = null; // = new MTOMFeature();
+    }
+
+    /**
+     * Test method for {@link javax.xml.ws.soap.MTOMFeature#MTOMFeature(boolean) public
+     * javax.xml.ws.soap.MTOMFeature(boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MTOMFeature_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.ws.soap.MTOMFeature sut = null; // = new MTOMFeature(boolean);
+    }
+
+    /**
      * Test method for {@link javax.xml.ws.soap.MTOMFeature#MTOMFeature(boolean,int) public
      * javax.xml.ws.soap.MTOMFeature(boolean,int)}.
      */
@@ -60,33 +87,6 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.ws.soap.MTOMFeature sut = null; // = new MTOMFeature(int);
-    }
-
-    /**
-     * Test method for {@link javax.xml.ws.soap.MTOMFeature#MTOMFeature(boolean) public
-     * javax.xml.ws.soap.MTOMFeature(boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MTOMFeature_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.ws.soap.MTOMFeature sut = null; // = new MTOMFeature(boolean);
-    }
-
-    /**
-     * Test method for {@link javax.xml.ws.soap.MTOMFeature#MTOMFeature() public javax.xml.ws.soap.MTOMFeature()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MTOMFeature()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.ws.soap.MTOMFeature sut = null; // = new MTOMFeature();
     }
 
     @Override

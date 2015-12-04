@@ -35,32 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface DecimalStyleClassTests<SUT extends Class<? extends java.time.format.DecimalStyle>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.format.DecimalStyle> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.format.DecimalStyle.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.format.DecimalStyle#ofDefaultLocale() public static
-     * java.time.format.DecimalStyle java.time.format.DecimalStyle.ofDefaultLocale()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ofDefaultLocale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link java.time.format.DecimalStyle#getAvailableLocales() public static java.util.Set
@@ -91,6 +65,32 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.format.DecimalStyle#ofDefaultLocale() public static
+     * java.time.format.DecimalStyle java.time.format.DecimalStyle.ofDefaultLocale()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ofDefaultLocale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.format.DecimalStyle> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.format.DecimalStyle.class.isAssignableFrom(sut));
     }
 
 }

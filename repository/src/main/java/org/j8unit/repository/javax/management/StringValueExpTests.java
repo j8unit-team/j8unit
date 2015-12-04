@@ -23,40 +23,6 @@ extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.management.StringValueExp#setMBeanServer(javax.management.MBeanServer) public void
-     * javax.management.StringValueExp.setMBeanServer(javax.management.MBeanServer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setMBeanServer_MBeanServer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.StringValueExp#toString() public java.lang.String
-     * javax.management.StringValueExp.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.StringValueExp#apply(javax.management.ObjectName) public
      * javax.management.ValueExp javax.management.StringValueExp.apply(javax.management.ObjectName) throws
      * javax.management.BadStringOperationException,javax.management.BadBinaryOpValueExpException,javax.management.BadAttributeValueExpException,javax.management.InvalidApplicationException}
@@ -84,6 +50,40 @@ extends org.j8unit.repository.javax.management.ValueExpTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_getValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.StringValueExp#setMBeanServer(javax.management.MBeanServer) public void
+     * javax.management.StringValueExp.setMBeanServer(javax.management.MBeanServer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setMBeanServer_MBeanServer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.StringValueExp#toString() public java.lang.String
+     * javax.management.StringValueExp.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

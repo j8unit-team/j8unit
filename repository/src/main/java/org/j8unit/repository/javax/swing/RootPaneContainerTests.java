@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.RootPaneContainer#setContentPane(java.awt.Container) public abstract void
-     * javax.swing.RootPaneContainer.setContentPane(java.awt.Container)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setContentPane_Container()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.RootPaneContainer#getContentPane() public abstract java.awt.Container
      * javax.swing.RootPaneContainer.getContentPane()}.
      * </p>
@@ -48,6 +32,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getContentPane()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.RootPaneContainer#getGlassPane() public abstract java.awt.Component
+     * javax.swing.RootPaneContainer.getGlassPane()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getGlassPane()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,22 +72,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.RootPaneContainer#setGlassPane(java.awt.Component) public abstract void
-     * javax.swing.RootPaneContainer.setGlassPane(java.awt.Component)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setGlassPane_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.RootPaneContainer#getRootPane() public abstract javax.swing.JRootPane
      * javax.swing.RootPaneContainer.getRootPane()}.
      * </p>
@@ -104,14 +88,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.RootPaneContainer#getGlassPane() public abstract java.awt.Component
-     * javax.swing.RootPaneContainer.getGlassPane()}.
+     * Test method for {@link javax.swing.RootPaneContainer#setContentPane(java.awt.Container) public abstract void
+     * javax.swing.RootPaneContainer.setContentPane(java.awt.Container)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getGlassPane()
+    public default void test_setContentPane_Container()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.RootPaneContainer#setGlassPane(java.awt.Component) public abstract void
+     * javax.swing.RootPaneContainer.setGlassPane(java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setGlassPane_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

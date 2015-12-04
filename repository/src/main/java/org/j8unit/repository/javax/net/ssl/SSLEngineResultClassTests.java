@@ -36,34 +36,6 @@ public abstract interface SSLEngineResultClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.net.ssl.SSLEngineResult#SSLEngineResult(javax.net.ssl.SSLEngineResult.Status,javax.net.ssl.SSLEngineResult.HandshakeStatus,int,int)
-     * public
-     * javax.net.ssl.SSLEngineResult(javax.net.ssl.SSLEngineResult$Status,javax.net.ssl.SSLEngineResult$HandshakeStatus,int,int)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SSLEngineResult_Status_HandshakeStatus_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.net.ssl.SSLEngineResult sut = null; // = new
-                                                        // SSLEngineResult(javax.net.ssl.SSLEngineResult.Status,javax.net.ssl.SSLEngineResult.HandshakeStatus,int,int);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.net.ssl.SSLEngineResult> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.net.ssl.SSLEngineResult.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.net.ssl.SSLEngineResult$HandshakeStatus class
      * javax.net.ssl.SSLEngineResult$HandshakeStatus}, containing all class relevant test methods (at least the test
@@ -93,14 +65,21 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public static abstract interface HandshakeStatusClassTests<SUT extends Class<? extends javax.net.ssl.SSLEngineResult.HandshakeStatus>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.net.ssl.SSLEngineResult.HandshakeStatus> {
 
-        @Override
+        /**
+         * <p>
+         * Test method for {@link javax.net.ssl.SSLEngineResult.HandshakeStatus#valueOf(java.lang.String) public static
+         * javax.net.ssl.SSLEngineResult$HandshakeStatus
+         * javax.net.ssl.SSLEngineResult$HandshakeStatus.valueOf(java.lang.String)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @Category(Draft.class)
+        public default void test_valueOf_String()
         throws Exception {
-            // create new instance
-            final Class<? extends javax.net.ssl.SSLEngineResult.HandshakeStatus> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.net.ssl.SSLEngineResult.HandshakeStatus.class.isAssignableFrom(sut));
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
         }
 
         /**
@@ -119,21 +98,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for {@link javax.net.ssl.SSLEngineResult.HandshakeStatus#valueOf(java.lang.String) public static
-         * javax.net.ssl.SSLEngineResult$HandshakeStatus
-         * javax.net.ssl.SSLEngineResult$HandshakeStatus.valueOf(java.lang.String)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
+        public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
+            // create new instance
+            final Class<? extends javax.net.ssl.SSLEngineResult.HandshakeStatus> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.net.ssl.SSLEngineResult.HandshakeStatus.class.isAssignableFrom(sut));
         }
 
     }
@@ -167,16 +139,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     public static abstract interface StatusClassTests<SUT extends Class<? extends javax.net.ssl.SSLEngineResult.Status>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.net.ssl.SSLEngineResult.Status> {
 
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.net.ssl.SSLEngineResult.Status> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.net.ssl.SSLEngineResult.Status.class.isAssignableFrom(sut));
-        }
-
         /**
          * <p>
          * Test method for {@link javax.net.ssl.SSLEngineResult.Status#valueOf(java.lang.String) public static
@@ -209,6 +171,44 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assert sut != null;
         }
 
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.net.ssl.SSLEngineResult.Status> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.net.ssl.SSLEngineResult.Status.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * Test method for
+     * {@link javax.net.ssl.SSLEngineResult#SSLEngineResult(javax.net.ssl.SSLEngineResult.Status,javax.net.ssl.SSLEngineResult.HandshakeStatus,int,int)
+     * public
+     * javax.net.ssl.SSLEngineResult(javax.net.ssl.SSLEngineResult$Status,javax.net.ssl.SSLEngineResult$HandshakeStatus,int,int)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SSLEngineResult_Status_HandshakeStatus_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.net.ssl.SSLEngineResult sut = null; // = new
+                                                        // SSLEngineResult(javax.net.ssl.SSLEngineResult.Status,javax.net.ssl.SSLEngineResult.HandshakeStatus,int,int);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.net.ssl.SSLEngineResult> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.net.ssl.SSLEngineResult.class.isAssignableFrom(sut));
     }
 
 }

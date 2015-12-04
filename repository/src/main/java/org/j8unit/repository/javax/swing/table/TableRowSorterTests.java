@@ -23,14 +23,15 @@ extends org.j8unit.repository.javax.swing.DefaultRowSorterTests<SUT, M, java.lan
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableRowSorter#setModel(javax.swing.table.TableModel) public void
-     * javax.swing.table.TableRowSorter.setModel(javax.swing.table.TableModel)}.
+     * Test method for {@link javax.swing.table.TableRowSorter#getComparator(int) public java.util.Comparator
+     * javax.swing.table.TableRowSorter.getComparator(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setModel_TableModel()
+    @Override
+    public default void test_getComparator_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,15 +56,14 @@ extends org.j8unit.repository.javax.swing.DefaultRowSorterTests<SUT, M, java.lan
 
     /**
      * <p>
-     * Test method for {@link javax.swing.table.TableRowSorter#getComparator(int) public java.util.Comparator
-     * javax.swing.table.TableRowSorter.getComparator(int)}.
+     * Test method for {@link javax.swing.table.TableRowSorter#setModel(javax.swing.table.TableModel) public void
+     * javax.swing.table.TableRowSorter.setModel(javax.swing.table.TableModel)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getComparator_int()
+    public default void test_setModel_TableModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

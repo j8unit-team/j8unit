@@ -36,12 +36,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface EventReaderDelegateClassTests<SUT extends Class<? extends javax.xml.stream.util.EventReaderDelegate>>
 extends org.j8unit.repository.javax.xml.stream.XMLEventReaderClassTests, org.j8unit.repository.java.lang.ObjectClassTests {
 
-    // The definition of the SUT factory method must be repeated
-    // because of the "rawtypes" nature of this test class (caused
-    // by the "rawtypes" nature of the class-under-test).
-    @Override
-    public abstract SUT createNewSUT();
-
     /**
      * Test method for {@link javax.xml.stream.util.EventReaderDelegate#EventReaderDelegate() public
      * javax.xml.stream.util.EventReaderDelegate()}.
@@ -71,6 +65,12 @@ extends org.j8unit.repository.javax.xml.stream.XMLEventReaderClassTests, org.j8u
         final javax.xml.stream.util.EventReaderDelegate sut = null; // = new
                                                                     // EventReaderDelegate(javax.xml.stream.XMLEventReader);
     }
+
+    // The definition of the SUT factory method must be repeated
+    // because of the "rawtypes" nature of this test class (caused
+    // by the "rawtypes" nature of the class-under-test).
+    @Override
+    public abstract SUT createNewSUT();
 
     @Override
     @Test

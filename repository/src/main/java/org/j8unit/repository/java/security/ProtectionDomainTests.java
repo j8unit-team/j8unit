@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.ProtectionDomain#getPermissions() public final
-     * java.security.PermissionCollection java.security.ProtectionDomain.getPermissions()}.
+     * Test method for {@link java.security.ProtectionDomain#getClassLoader() public final java.lang.ClassLoader
+     * java.security.ProtectionDomain.getClassLoader()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPermissions()
+    public default void test_getClassLoader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.ProtectionDomain#implies(java.security.Permission) public boolean
-     * java.security.ProtectionDomain.implies(java.security.Permission)}.
+     * Test method for {@link java.security.ProtectionDomain#getPermissions() public final
+     * java.security.PermissionCollection java.security.ProtectionDomain.getPermissions()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_implies_Permission()
+    public default void test_getPermissions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,6 +87,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.security.ProtectionDomain#implies(java.security.Permission) public boolean
+     * java.security.ProtectionDomain.implies(java.security.Permission)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_implies_Permission()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.security.ProtectionDomain#toString() public java.lang.String
      * java.security.ProtectionDomain.toString()}.
      * </p>
@@ -96,22 +112,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.ProtectionDomain#getClassLoader() public final java.lang.ClassLoader
-     * java.security.ProtectionDomain.getClassLoader()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getClassLoader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

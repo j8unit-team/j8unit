@@ -37,19 +37,18 @@ extends org.j8unit.repository.java.awt.event.MouseEventClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.awt.event.MouseWheelEvent#MouseWheelEvent(java.awt.Component,int,long,int,int,int,int,int,int,boolean,int,int,int,double)
-     * public
-     * java.awt.event.MouseWheelEvent(java.awt.Component,int,long,int,int,int,int,int,int,boolean,int,int,int,double)}.
+     * {@link java.awt.event.MouseWheelEvent#MouseWheelEvent(java.awt.Component,int,long,int,int,int,int,boolean,int,int,int)
+     * public java.awt.event.MouseWheelEvent(java.awt.Component,int,long,int,int,int,int,boolean,int,int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MouseWheelEvent_Component_int_long_int_int_int_int_int_int_boolean_int_int_int_double()
+    public default void create_MouseWheelEvent_Component_int_long_int_int_int_int_boolean_int_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.event.MouseWheelEvent sut = null; // = new
-                                                         // MouseWheelEvent(java.awt.Component,int,long,int,int,int,int,int,int,boolean,int,int,int,double);
+                                                         // MouseWheelEvent(java.awt.Component,int,long,int,int,int,int,boolean,int,int,int);
     }
 
     /**
@@ -70,18 +69,19 @@ extends org.j8unit.repository.java.awt.event.MouseEventClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.awt.event.MouseWheelEvent#MouseWheelEvent(java.awt.Component,int,long,int,int,int,int,boolean,int,int,int)
-     * public java.awt.event.MouseWheelEvent(java.awt.Component,int,long,int,int,int,int,boolean,int,int,int)}.
+     * {@link java.awt.event.MouseWheelEvent#MouseWheelEvent(java.awt.Component,int,long,int,int,int,int,int,int,boolean,int,int,int,double)
+     * public
+     * java.awt.event.MouseWheelEvent(java.awt.Component,int,long,int,int,int,int,int,int,boolean,int,int,int,double)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MouseWheelEvent_Component_int_long_int_int_int_int_boolean_int_int_int()
+    public default void create_MouseWheelEvent_Component_int_long_int_int_int_int_int_int_boolean_int_int_int_double()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.event.MouseWheelEvent sut = null; // = new
-                                                         // MouseWheelEvent(java.awt.Component,int,long,int,int,int,int,boolean,int,int,int);
+                                                         // MouseWheelEvent(java.awt.Component,int,long,int,int,int,int,int,int,boolean,int,int,int,double);
     }
 
     @Override

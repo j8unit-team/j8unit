@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.handler.PortInfo#getPortName() public abstract javax.xml.namespace.QName
-     * javax.xml.ws.handler.PortInfo.getPortName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPortName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.ws.handler.PortInfo#getBindingID() public abstract java.lang.String
      * javax.xml.ws.handler.PortInfo.getBindingID()}.
      * </p>
@@ -48,6 +32,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getBindingID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.handler.PortInfo#getPortName() public abstract javax.xml.namespace.QName
+     * javax.xml.ws.handler.PortInfo.getPortName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPortName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

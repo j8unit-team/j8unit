@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.spec.PBEParameterSpec#getSalt() public byte[]
-     * javax.crypto.spec.PBEParameterSpec.getSalt()}.
+     * Test method for {@link javax.crypto.spec.PBEParameterSpec#getIterationCount() public int
+     * javax.crypto.spec.PBEParameterSpec.getIterationCount()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSalt()
+    public default void test_getIterationCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.spec.PBEParameterSpec#getIterationCount() public int
-     * javax.crypto.spec.PBEParameterSpec.getIterationCount()}.
+     * Test method for {@link javax.crypto.spec.PBEParameterSpec#getSalt() public byte[]
+     * javax.crypto.spec.PBEParameterSpec.getSalt()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getIterationCount()
+    public default void test_getSalt()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

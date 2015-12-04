@@ -36,20 +36,6 @@ public abstract interface BMPImageWriteParamClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.javax.imageio.ImageWriteParamClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.imageio.plugins.bmp.BMPImageWriteParam#BMPImageWriteParam(java.util.Locale) public
-     * javax.imageio.plugins.bmp.BMPImageWriteParam(java.util.Locale)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BMPImageWriteParam_Locale()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.imageio.plugins.bmp.BMPImageWriteParam sut = null; // = new BMPImageWriteParam(java.util.Locale);
-    }
-
-    /**
      * Test method for {@link javax.imageio.plugins.bmp.BMPImageWriteParam#BMPImageWriteParam() public
      * javax.imageio.plugins.bmp.BMPImageWriteParam()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.imageio.plugins.bmp.BMPImageWriteParam sut = null; // = new BMPImageWriteParam();
+    }
+
+    /**
+     * Test method for {@link javax.imageio.plugins.bmp.BMPImageWriteParam#BMPImageWriteParam(java.util.Locale) public
+     * javax.imageio.plugins.bmp.BMPImageWriteParam(java.util.Locale)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BMPImageWriteParam_Locale()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.imageio.plugins.bmp.BMPImageWriteParam sut = null; // = new BMPImageWriteParam(java.util.Locale);
     }
 
     @Override

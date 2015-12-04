@@ -24,57 +24,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ConvolveOp#getRenderingHints() public final java.awt.RenderingHints
-     * java.awt.image.ConvolveOp.getRenderingHints()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getRenderingHints()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ConvolveOp#getBounds2D(java.awt.image.Raster) public final
-     * java.awt.geom.Rectangle2D java.awt.image.ConvolveOp.getBounds2D(java.awt.image.Raster)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBounds2D_Raster()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ConvolveOp#getBounds2D(java.awt.image.BufferedImage) public final
-     * java.awt.geom.Rectangle2D java.awt.image.ConvolveOp.getBounds2D(java.awt.image.BufferedImage)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBounds2D_BufferedImage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.awt.image.ConvolveOp#createCompatibleDestImage(java.awt.image.BufferedImage,java.awt.image.ColorModel)
      * public java.awt.image.BufferedImage
@@ -111,14 +60,17 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ConvolveOp#getKernel() public final java.awt.image.Kernel
-     * java.awt.image.ConvolveOp.getKernel()}.
+     * Test method for
+     * {@link java.awt.image.ConvolveOp#filter(java.awt.image.BufferedImage,java.awt.image.BufferedImage) public final
+     * java.awt.image.BufferedImage
+     * java.awt.image.ConvolveOp.filter(java.awt.image.BufferedImage,java.awt.image.BufferedImage)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getKernel()
+    @Override
+    public default void test_filter_BufferedImage_BufferedImage()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -145,17 +97,64 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.ConvolveOp#filter(java.awt.image.BufferedImage,java.awt.image.BufferedImage) public final
-     * java.awt.image.BufferedImage
-     * java.awt.image.ConvolveOp.filter(java.awt.image.BufferedImage,java.awt.image.BufferedImage)}.
+     * Test method for {@link java.awt.image.ConvolveOp#getBounds2D(java.awt.image.BufferedImage) public final
+     * java.awt.geom.Rectangle2D java.awt.image.ConvolveOp.getBounds2D(java.awt.image.BufferedImage)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_filter_BufferedImage_BufferedImage()
+    public default void test_getBounds2D_BufferedImage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.ConvolveOp#getBounds2D(java.awt.image.Raster) public final
+     * java.awt.geom.Rectangle2D java.awt.image.ConvolveOp.getBounds2D(java.awt.image.Raster)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getBounds2D_Raster()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.ConvolveOp#getEdgeCondition() public int
+     * java.awt.image.ConvolveOp.getEdgeCondition()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEdgeCondition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.ConvolveOp#getKernel() public final java.awt.image.Kernel
+     * java.awt.image.ConvolveOp.getKernel()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getKernel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -181,14 +180,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.ConvolveOp#getEdgeCondition() public int
-     * java.awt.image.ConvolveOp.getEdgeCondition()}.
+     * Test method for {@link java.awt.image.ConvolveOp#getRenderingHints() public final java.awt.RenderingHints
+     * java.awt.image.ConvolveOp.getRenderingHints()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getEdgeCondition()
+    @Override
+    public default void test_getRenderingHints()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

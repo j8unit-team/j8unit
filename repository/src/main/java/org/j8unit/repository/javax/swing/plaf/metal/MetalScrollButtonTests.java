@@ -39,23 +39,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#paint(java.awt.Graphics) public void
-     * javax.swing.plaf.metal.MetalScrollButton.paint(java.awt.Graphics)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paint_Graphics()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#getMaximumSize() public java.awt.Dimension
      * javax.swing.plaf.metal.MetalScrollButton.getMaximumSize()}.
      * </p>
@@ -65,6 +48,23 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
     @Category(Draft.class)
     @Override
     public default void test_getMaximumSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#getMinimumSize() public java.awt.Dimension
+     * javax.swing.plaf.metal.MetalScrollButton.getMinimumSize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMinimumSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -90,14 +90,15 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#setFreeStanding(boolean) public void
-     * javax.swing.plaf.metal.MetalScrollButton.setFreeStanding(boolean)}.
+     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#paint(java.awt.Graphics) public void
+     * javax.swing.plaf.metal.MetalScrollButton.paint(java.awt.Graphics)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setFreeStanding_boolean()
+    @Override
+    public default void test_paint_Graphics()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,15 +107,14 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#getMinimumSize() public java.awt.Dimension
-     * javax.swing.plaf.metal.MetalScrollButton.getMinimumSize()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalScrollButton#setFreeStanding(boolean) public void
+     * javax.swing.plaf.metal.MetalScrollButton.setFreeStanding(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getMinimumSize()
+    public default void test_setFreeStanding_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

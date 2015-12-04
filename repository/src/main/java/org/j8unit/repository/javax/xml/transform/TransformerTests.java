@@ -23,47 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.Transformer#getOutputProperty(java.lang.String) public abstract
-     * java.lang.String javax.xml.transform.Transformer.getOutputProperty(java.lang.String) throws
-     * java.lang.IllegalArgumentException}.
+     * Test method for {@link javax.xml.transform.Transformer#clearParameters() public abstract void
+     * javax.xml.transform.Transformer.clearParameters()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOutputProperty_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.Transformer#getOutputProperties() public abstract java.util.Properties
-     * javax.xml.transform.Transformer.getOutputProperties()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOutputProperties()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.Transformer#setOutputProperties(java.util.Properties) public abstract
-     * void javax.xml.transform.Transformer.setOutputProperties(java.util.Properties)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setOutputProperties_Properties()
+    public default void test_clearParameters()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,16 +55,63 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.xml.transform.Transformer#transform(javax.xml.transform.Source,javax.xml.transform.Result) public
-     * abstract void javax.xml.transform.Transformer.transform(javax.xml.transform.Source,javax.xml.transform.Result)
-     * throws javax.xml.transform.TransformerException}.
+     * Test method for {@link javax.xml.transform.Transformer#getOutputProperties() public abstract java.util.Properties
+     * javax.xml.transform.Transformer.getOutputProperties()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_transform_Source_Result()
+    public default void test_getOutputProperties()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.Transformer#getOutputProperty(java.lang.String) public abstract
+     * java.lang.String javax.xml.transform.Transformer.getOutputProperty(java.lang.String) throws
+     * java.lang.IllegalArgumentException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutputProperty_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.Transformer#getParameter(java.lang.String) public abstract
+     * java.lang.Object javax.xml.transform.Transformer.getParameter(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParameter_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.Transformer#getURIResolver() public abstract
+     * javax.xml.transform.URIResolver javax.xml.transform.Transformer.getURIResolver()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getURIResolver()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -139,30 +153,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.Transformer#setParameter(java.lang.String,java.lang.Object) public
-     * abstract void javax.xml.transform.Transformer.setParameter(java.lang.String,java.lang.Object)}.
+     * Test method for {@link javax.xml.transform.Transformer#setOutputProperties(java.util.Properties) public abstract
+     * void javax.xml.transform.Transformer.setOutputProperties(java.util.Properties)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setParameter_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.Transformer#getURIResolver() public abstract
-     * javax.xml.transform.URIResolver javax.xml.transform.Transformer.getURIResolver()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getURIResolver()
+    public default void test_setOutputProperties_Properties()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -188,14 +186,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.Transformer#clearParameters() public abstract void
-     * javax.xml.transform.Transformer.clearParameters()}.
+     * Test method for {@link javax.xml.transform.Transformer#setParameter(java.lang.String,java.lang.Object) public
+     * abstract void javax.xml.transform.Transformer.setParameter(java.lang.String,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clearParameters()
+    public default void test_setParameter_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -220,14 +218,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.Transformer#getParameter(java.lang.String) public abstract
-     * java.lang.Object javax.xml.transform.Transformer.getParameter(java.lang.String)}.
+     * Test method for
+     * {@link javax.xml.transform.Transformer#transform(javax.xml.transform.Source,javax.xml.transform.Result) public
+     * abstract void javax.xml.transform.Transformer.transform(javax.xml.transform.Source,javax.xml.transform.Result)
+     * throws javax.xml.transform.TransformerException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParameter_String()
+    public default void test_transform_Source_Result()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

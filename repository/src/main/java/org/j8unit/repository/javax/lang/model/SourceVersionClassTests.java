@@ -35,32 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface SourceVersionClassTests<SUT extends Class<? extends javax.lang.model.SourceVersion>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.SourceVersion> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.lang.model.SourceVersion> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.lang.model.SourceVersion.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.SourceVersion#latestSupported() public static
-     * javax.lang.model.SourceVersion javax.lang.model.SourceVersion.latestSupported()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_latestSupported()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link javax.lang.model.SourceVersion#isIdentifier(java.lang.CharSequence) public static boolean
@@ -71,54 +45,6 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.Sou
     @Test
     @Category(Draft.class)
     public default void test_isIdentifier_CharSequence()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.SourceVersion#isName(java.lang.CharSequence) public static boolean
-     * javax.lang.model.SourceVersion.isName(java.lang.CharSequence)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isName_CharSequence()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.SourceVersion#values() public static javax.lang.model.SourceVersion[]
-     * javax.lang.model.SourceVersion.values()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_values()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.SourceVersion#valueOf(java.lang.String) public static
-     * javax.lang.model.SourceVersion javax.lang.model.SourceVersion.valueOf(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_valueOf_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,6 +69,22 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.Sou
 
     /**
      * <p>
+     * Test method for {@link javax.lang.model.SourceVersion#isName(java.lang.CharSequence) public static boolean
+     * javax.lang.model.SourceVersion.isName(java.lang.CharSequence)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isName_CharSequence()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.lang.model.SourceVersion#latest() public static javax.lang.model.SourceVersion
      * javax.lang.model.SourceVersion.latest()}.
      * </p>
@@ -155,6 +97,64 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.Sou
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.SourceVersion#latestSupported() public static
+     * javax.lang.model.SourceVersion javax.lang.model.SourceVersion.latestSupported()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_latestSupported()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.SourceVersion#valueOf(java.lang.String) public static
+     * javax.lang.model.SourceVersion javax.lang.model.SourceVersion.valueOf(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_valueOf_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.SourceVersion#values() public static javax.lang.model.SourceVersion[]
+     * javax.lang.model.SourceVersion.values()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_values()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.lang.model.SourceVersion> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.lang.model.SourceVersion.class.isAssignableFrom(sut));
     }
 
 }

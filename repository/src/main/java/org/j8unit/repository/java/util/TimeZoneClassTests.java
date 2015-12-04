@@ -48,48 +48,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.util.TimeZone sut = null; // = new TimeZone();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.TimeZone> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.TimeZone.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.TimeZone#getTimeZone(java.time.ZoneId) public static java.util.TimeZone
-     * java.util.TimeZone.getTimeZone(java.time.ZoneId)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTimeZone_ZoneId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.TimeZone#getTimeZone(java.lang.String) public static synchronized
-     * java.util.TimeZone java.util.TimeZone.getTimeZone(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTimeZone_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link java.util.TimeZone#getAvailableIDs() public static synchronized java.lang.String[]
@@ -124,6 +82,54 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.util.TimeZone#getDefault() public static java.util.TimeZone
+     * java.util.TimeZone.getDefault()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefault()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.TimeZone#getTimeZone(java.lang.String) public static synchronized
+     * java.util.TimeZone java.util.TimeZone.getTimeZone(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTimeZone_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.TimeZone#getTimeZone(java.time.ZoneId) public static java.util.TimeZone
+     * java.util.TimeZone.getTimeZone(java.time.ZoneId)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTimeZone_ZoneId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.TimeZone#setDefault(java.util.TimeZone) public static void
      * java.util.TimeZone.setDefault(java.util.TimeZone)}.
      * </p>
@@ -138,20 +144,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.util.TimeZone#getDefault() public static java.util.TimeZone
-     * java.util.TimeZone.getDefault()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getDefault()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.util.TimeZone> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.TimeZone.class.isAssignableFrom(sut));
     }
 
 }

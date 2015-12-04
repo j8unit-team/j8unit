@@ -36,20 +36,6 @@ public abstract interface StreamTokenizerClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.io.StreamTokenizer#StreamTokenizer(java.io.Reader) public
-     * java.io.StreamTokenizer(java.io.Reader)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_StreamTokenizer_Reader()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.StreamTokenizer sut = null; // = new StreamTokenizer(java.io.Reader);
-    }
-
-    /**
      * Test method for {@link java.io.StreamTokenizer#StreamTokenizer(java.io.InputStream) public
      * java.io.StreamTokenizer(java.io.InputStream)}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.StreamTokenizer sut = null; // = new StreamTokenizer(java.io.InputStream);
+    }
+
+    /**
+     * Test method for {@link java.io.StreamTokenizer#StreamTokenizer(java.io.Reader) public
+     * java.io.StreamTokenizer(java.io.Reader)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_StreamTokenizer_Reader()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.StreamTokenizer sut = null; // = new StreamTokenizer(java.io.Reader);
     }
 
     @Override

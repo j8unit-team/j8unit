@@ -56,14 +56,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.CommonDataSource#setLogWriter(java.io.PrintWriter) public abstract void
-     * javax.sql.CommonDataSource.setLogWriter(java.io.PrintWriter) throws java.sql.SQLException}.
+     * Test method for {@link javax.sql.CommonDataSource#getParentLogger() public abstract java.util.logging.Logger
+     * javax.sql.CommonDataSource.getParentLogger() throws java.sql.SQLFeatureNotSupportedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setLogWriter_PrintWriter()
+    public default void test_getParentLogger()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,14 +88,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.CommonDataSource#getParentLogger() public abstract java.util.logging.Logger
-     * javax.sql.CommonDataSource.getParentLogger() throws java.sql.SQLFeatureNotSupportedException}.
+     * Test method for {@link javax.sql.CommonDataSource#setLogWriter(java.io.PrintWriter) public abstract void
+     * javax.sql.CommonDataSource.setLogWriter(java.io.PrintWriter) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParentLogger()
+    public default void test_setLogWriter_PrintWriter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

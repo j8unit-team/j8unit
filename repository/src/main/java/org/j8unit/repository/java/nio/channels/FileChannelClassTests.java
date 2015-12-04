@@ -37,52 +37,6 @@ extends org.j8unit.repository.java.nio.channels.SeekableByteChannelClassTests<SU
 org.j8unit.repository.java.nio.channels.ScatteringByteChannelClassTests<SUT>,
 org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.channels.FileChannel> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.channels.FileChannel.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.FileChannel#open(java.nio.file.Path,java.nio.file.OpenOption...) public
-     * static java.nio.channels.FileChannel
-     * java.nio.channels.FileChannel.open(java.nio.file.Path,java.nio.file.OpenOption...) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_open_Path_OpenOptionArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.nio.channels.FileChannel#open(java.nio.file.Path,java.util.Set,java.nio.file.attribute.FileAttribute...)
-     * public static java.nio.channels.FileChannel
-     * java.nio.channels.FileChannel.open(java.nio.file.Path,java.util.Set,java.nio.file.attribute.FileAttribute...)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_open_Path_Set_FileAttributeArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test class for {@link java.nio.channels.FileChannel$MapMode class java.nio.channels.FileChannel$MapMode},
@@ -122,6 +76,52 @@ org.j8unit.repository.java.nio.channels.spi.AbstractInterruptibleChannelClassTes
             assertTrue(java.nio.channels.FileChannel.MapMode.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.FileChannel#open(java.nio.file.Path,java.nio.file.OpenOption...) public
+     * static java.nio.channels.FileChannel
+     * java.nio.channels.FileChannel.open(java.nio.file.Path,java.nio.file.OpenOption...) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_open_Path_OpenOptionArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.nio.channels.FileChannel#open(java.nio.file.Path,java.util.Set,java.nio.file.attribute.FileAttribute...)
+     * public static java.nio.channels.FileChannel
+     * java.nio.channels.FileChannel.open(java.nio.file.Path,java.util.Set,java.nio.file.attribute.FileAttribute...)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_open_Path_Set_FileAttributeArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.channels.FileChannel> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.channels.FileChannel.class.isAssignableFrom(sut));
     }
 
 }

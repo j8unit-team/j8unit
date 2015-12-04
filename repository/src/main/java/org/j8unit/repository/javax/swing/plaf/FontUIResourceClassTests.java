@@ -36,20 +36,6 @@ public abstract interface FontUIResourceClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.java.awt.FontClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.plaf.FontUIResource#FontUIResource(java.lang.String,int,int) public
-     * javax.swing.plaf.FontUIResource(java.lang.String,int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FontUIResource_String_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.plaf.FontUIResource sut = null; // = new FontUIResource(java.lang.String,int,int);
-    }
-
-    /**
      * Test method for {@link javax.swing.plaf.FontUIResource#FontUIResource(java.awt.Font) public
      * javax.swing.plaf.FontUIResource(java.awt.Font)}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.plaf.FontUIResource sut = null; // = new FontUIResource(java.awt.Font);
+    }
+
+    /**
+     * Test method for {@link javax.swing.plaf.FontUIResource#FontUIResource(java.lang.String,int,int) public
+     * javax.swing.plaf.FontUIResource(java.lang.String,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FontUIResource_String_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.plaf.FontUIResource sut = null; // = new FontUIResource(java.lang.String,int,int);
     }
 
     @Override

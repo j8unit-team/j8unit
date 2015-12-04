@@ -24,14 +24,15 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanAttributeInfo#isIs() public abstract boolean
-     * javax.management.openmbean.OpenMBeanAttributeInfo.isIs()}.
+     * Test method for {@link javax.management.openmbean.OpenMBeanAttributeInfo#equals(java.lang.Object) public abstract
+     * boolean javax.management.openmbean.OpenMBeanAttributeInfo.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isIs()
+    @Override
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,31 +58,14 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanAttributeInfo#equals(java.lang.Object) public abstract
-     * boolean javax.management.openmbean.OpenMBeanAttributeInfo.equals(java.lang.Object)}.
+     * Test method for {@link javax.management.openmbean.OpenMBeanAttributeInfo#isIs() public abstract boolean
+     * javax.management.openmbean.OpenMBeanAttributeInfo.isIs()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanAttributeInfo#isWritable() public abstract boolean
-     * javax.management.openmbean.OpenMBeanAttributeInfo.isWritable()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isWritable()
+    public default void test_isIs()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -98,6 +82,22 @@ extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoT
     @Test
     @Category(Draft.class)
     public default void test_isReadable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanAttributeInfo#isWritable() public abstract boolean
+     * javax.management.openmbean.OpenMBeanAttributeInfo.isWritable()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isWritable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

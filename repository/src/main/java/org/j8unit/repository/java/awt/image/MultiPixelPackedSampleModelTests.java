@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#createCompatibleSampleModel(int,int) public
+     * java.awt.image.SampleModel java.awt.image.MultiPixelPackedSampleModel.createCompatibleSampleModel(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createCompatibleSampleModel_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#createDataBuffer() public
      * java.awt.image.DataBuffer java.awt.image.MultiPixelPackedSampleModel.createDataBuffer()}.
      * </p>
@@ -40,15 +57,15 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getTransferType() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getTransferType()}.
+     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#createSubsetSampleModel(int[]) public
+     * java.awt.image.SampleModel java.awt.image.MultiPixelPackedSampleModel.createSubsetSampleModel(int[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getTransferType()
+    public default void test_createSubsetSampleModel_intArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,14 +91,14 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getScanlineStride() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getScanlineStride()}.
+     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getBitOffset(int) public int
+     * java.awt.image.MultiPixelPackedSampleModel.getBitOffset(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getScanlineStride()
+    public default void test_getBitOffset_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -90,84 +107,14 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#hashCode() public int
-     * java.awt.image.MultiPixelPackedSampleModel.hashCode()}.
+     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getDataBitOffset() public int
+     * java.awt.image.MultiPixelPackedSampleModel.getDataBitOffset()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#createCompatibleSampleModel(int,int) public
-     * java.awt.image.SampleModel java.awt.image.MultiPixelPackedSampleModel.createCompatibleSampleModel(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createCompatibleSampleModel_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getPixelBitStride() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getPixelBitStride()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPixelBitStride()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#setSample(int,int,int,int,java.awt.image.DataBuffer) public
-     * void java.awt.image.MultiPixelPackedSampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setSample_int_int_int_int_DataBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#getSample(int,int,int,java.awt.image.DataBuffer) public int
-     * java.awt.image.MultiPixelPackedSampleModel.getSample(int,int,int,java.awt.image.DataBuffer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSample_int_int_int_DataBuffer()
+    public default void test_getDataBitOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -195,17 +142,15 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#setDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)
-     * public void
-     * java.awt.image.MultiPixelPackedSampleModel.setDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
+     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getNumDataElements() public int
+     * java.awt.image.MultiPixelPackedSampleModel.getNumDataElements()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setDataElements_int_int_Object_DataBuffer()
+    public default void test_getNumDataElements()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -230,73 +175,6 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getDataBitOffset() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getDataBitOffset()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDataBitOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getBitOffset(int) public int
-     * java.awt.image.MultiPixelPackedSampleModel.getBitOffset(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBitOffset_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.image.MultiPixelPackedSampleModel#setPixel(int,int,int[],java.awt.image.DataBuffer) public void
-     * java.awt.image.MultiPixelPackedSampleModel.setPixel(int,int,int[],java.awt.image.DataBuffer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setPixel_int_int_intArray_DataBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#createSubsetSampleModel(int[]) public
-     * java.awt.image.SampleModel java.awt.image.MultiPixelPackedSampleModel.createSubsetSampleModel(int[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createSubsetSampleModel_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.awt.image.MultiPixelPackedSampleModel#getPixel(int,int,int[],java.awt.image.DataBuffer) public int[]
      * java.awt.image.MultiPixelPackedSampleModel.getPixel(int,int,int[],java.awt.image.DataBuffer)}.
@@ -307,6 +185,40 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getPixel_int_int_intArray_DataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getPixelBitStride() public int
+     * java.awt.image.MultiPixelPackedSampleModel.getPixelBitStride()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPixelBitStride()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.MultiPixelPackedSampleModel#getSample(int,int,int,java.awt.image.DataBuffer) public int
+     * java.awt.image.MultiPixelPackedSampleModel.getSample(int,int,int,java.awt.image.DataBuffer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getSample_int_int_int_DataBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -349,15 +261,103 @@ extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getNumDataElements() public int
-     * java.awt.image.MultiPixelPackedSampleModel.getNumDataElements()}.
+     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getScanlineStride() public int
+     * java.awt.image.MultiPixelPackedSampleModel.getScanlineStride()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getScanlineStride()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#getTransferType() public int
+     * java.awt.image.MultiPixelPackedSampleModel.getTransferType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getNumDataElements()
+    public default void test_getTransferType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.MultiPixelPackedSampleModel#hashCode() public int
+     * java.awt.image.MultiPixelPackedSampleModel.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.MultiPixelPackedSampleModel#setDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)
+     * public void
+     * java.awt.image.MultiPixelPackedSampleModel.setDataElements(int,int,java.lang.Object,java.awt.image.DataBuffer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setDataElements_int_int_Object_DataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.MultiPixelPackedSampleModel#setPixel(int,int,int[],java.awt.image.DataBuffer) public void
+     * java.awt.image.MultiPixelPackedSampleModel.setPixel(int,int,int[],java.awt.image.DataBuffer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setPixel_int_int_intArray_DataBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.MultiPixelPackedSampleModel#setSample(int,int,int,int,java.awt.image.DataBuffer) public
+     * void java.awt.image.MultiPixelPackedSampleModel.setSample(int,int,int,int,java.awt.image.DataBuffer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setSample_int_int_int_int_DataBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

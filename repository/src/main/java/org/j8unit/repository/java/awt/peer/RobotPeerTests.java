@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.RobotPeer#mouseRelease(int) public abstract void
-     * java.awt.peer.RobotPeer.mouseRelease(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_mouseRelease_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.peer.RobotPeer#dispose() public abstract void java.awt.peer.RobotPeer.dispose()}.
      * </p>
      */
@@ -47,38 +31,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_dispose()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.peer.RobotPeer#getRGBPixels(java.awt.Rectangle) public abstract int[]
-     * java.awt.peer.RobotPeer.getRGBPixels(java.awt.Rectangle)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRGBPixels_Rectangle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.peer.RobotPeer#mouseWheel(int) public abstract void
-     * java.awt.peer.RobotPeer.mouseWheel(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_mouseWheel_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +55,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.RobotPeer#keyPress(int) public abstract void
-     * java.awt.peer.RobotPeer.keyPress(int)}.
+     * Test method for {@link java.awt.peer.RobotPeer#getRGBPixels(java.awt.Rectangle) public abstract int[]
+     * java.awt.peer.RobotPeer.getRGBPixels(java.awt.Rectangle)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_keyPress_int()
+    public default void test_getRGBPixels_Rectangle()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +71,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.RobotPeer#mousePress(int) public abstract void
-     * java.awt.peer.RobotPeer.mousePress(int)}.
+     * Test method for {@link java.awt.peer.RobotPeer#keyPress(int) public abstract void
+     * java.awt.peer.RobotPeer.keyPress(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_mousePress_int()
+    public default void test_keyPress_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -159,6 +111,54 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_mouseMove_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.RobotPeer#mousePress(int) public abstract void
+     * java.awt.peer.RobotPeer.mousePress(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_mousePress_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.RobotPeer#mouseRelease(int) public abstract void
+     * java.awt.peer.RobotPeer.mouseRelease(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_mouseRelease_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.RobotPeer#mouseWheel(int) public abstract void
+     * java.awt.peer.RobotPeer.mouseWheel(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_mouseWheel_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

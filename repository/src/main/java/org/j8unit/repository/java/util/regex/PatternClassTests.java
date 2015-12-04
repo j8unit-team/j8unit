@@ -35,14 +35,36 @@ import org.junit.experimental.categories.Category;
 public abstract interface PatternClassTests<SUT extends Class<? extends java.util.regex.Pattern>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.util.regex.Pattern#compile(java.lang.String) public static java.util.regex.Pattern
+     * java.util.regex.Pattern.compile(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_compile_String()
     throws Exception {
-        // create new instance
-        final Class<? extends java.util.regex.Pattern> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.regex.Pattern.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.regex.Pattern#compile(java.lang.String,int) public static
+     * java.util.regex.Pattern java.util.regex.Pattern.compile(java.lang.String,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compile_String_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -77,36 +99,14 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.util.regex.Pattern#compile(java.lang.String) public static java.util.regex.Pattern
-     * java.util.regex.Pattern.compile(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_compile_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.regex.Pattern#compile(java.lang.String,int) public static
-     * java.util.regex.Pattern java.util.regex.Pattern.compile(java.lang.String,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compile_String_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.util.regex.Pattern> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.regex.Pattern.class.isAssignableFrom(sut));
     }
 
 }

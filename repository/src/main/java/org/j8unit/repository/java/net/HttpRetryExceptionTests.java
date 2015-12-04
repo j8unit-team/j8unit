@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpRetryException#responseCode() public int
-     * java.net.HttpRetryException.responseCode()}.
+     * Test method for {@link java.net.HttpRetryException#getLocation() public java.lang.String
+     * java.net.HttpRetryException.getLocation()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_responseCode()
+    public default void test_getLocation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpRetryException#getLocation() public java.lang.String
-     * java.net.HttpRetryException.getLocation()}.
+     * Test method for {@link java.net.HttpRetryException#responseCode() public int
+     * java.net.HttpRetryException.responseCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLocation()
+    public default void test_responseCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

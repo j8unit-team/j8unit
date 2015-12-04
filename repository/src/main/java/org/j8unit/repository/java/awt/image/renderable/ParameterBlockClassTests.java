@@ -37,18 +37,17 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.image.renderable.ParameterBlock#ParameterBlock(java.util.Vector,java.util.Vector)
-     * public java.awt.image.renderable.ParameterBlock(java.util.Vector,java.util.Vector)}.
+     * Test method for {@link java.awt.image.renderable.ParameterBlock#ParameterBlock() public
+     * java.awt.image.renderable.ParameterBlock()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ParameterBlock_Vector_Vector()
+    public default void create_ParameterBlock()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.image.renderable.ParameterBlock sut = null; // = new
-                                                                   // ParameterBlock(java.util.Vector,java.util.Vector);
+        final java.awt.image.renderable.ParameterBlock sut = null; // = new ParameterBlock();
     }
 
     /**
@@ -66,17 +65,18 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.image.renderable.ParameterBlock#ParameterBlock() public
-     * java.awt.image.renderable.ParameterBlock()}.
+     * Test method for {@link java.awt.image.renderable.ParameterBlock#ParameterBlock(java.util.Vector,java.util.Vector)
+     * public java.awt.image.renderable.ParameterBlock(java.util.Vector,java.util.Vector)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ParameterBlock()
+    public default void create_ParameterBlock_Vector_Vector()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.image.renderable.ParameterBlock sut = null; // = new ParameterBlock();
+        final java.awt.image.renderable.ParameterBlock sut = null; // = new
+                                                                   // ParameterBlock(java.util.Vector,java.util.Vector);
     }
 
     @Override

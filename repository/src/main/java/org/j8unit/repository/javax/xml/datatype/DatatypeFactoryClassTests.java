@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface DatatypeFactoryClassTests<SUT extends Class<? extends javax.xml.datatype.DatatypeFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.datatype.DatatypeFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.datatype.DatatypeFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.xml.datatype.DatatypeFactory#newInstance() public static
@@ -78,6 +68,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.datatype.DatatypeFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.datatype.DatatypeFactory.class.isAssignableFrom(sut));
     }
 
 }

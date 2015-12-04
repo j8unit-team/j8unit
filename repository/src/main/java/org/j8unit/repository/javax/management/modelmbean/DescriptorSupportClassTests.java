@@ -36,6 +36,67 @@ public abstract interface DescriptorSupportClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.javax.management.DescriptorClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport() public
+     * javax.management.modelmbean.DescriptorSupport()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DescriptorSupport()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.modelmbean.DescriptorSupport sut = null; // = new DescriptorSupport();
+    }
+
+    /**
+     * Test method for
+     * {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport(javax.management.modelmbean.DescriptorSupport)
+     * public javax.management.modelmbean.DescriptorSupport(javax.management.modelmbean.DescriptorSupport)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DescriptorSupport_DescriptorSupport()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.modelmbean.DescriptorSupport sut = null; // = new
+                                                                        // DescriptorSupport(javax.management.modelmbean.DescriptorSupport);
+    }
+
+    /**
+     * Test method for {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport(int) public
+     * javax.management.modelmbean.DescriptorSupport(int) throws
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DescriptorSupport_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.modelmbean.DescriptorSupport sut = null; // = new DescriptorSupport(int);
+    }
+
+    /**
+     * Test method for {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport(java.lang.String) public
+     * javax.management.modelmbean.DescriptorSupport(java.lang.String) throws
+     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.modelmbean.XMLParseException}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DescriptorSupport_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.modelmbean.DescriptorSupport sut = null; // = new DescriptorSupport(java.lang.String);
+    }
+
+    /**
      * Test method for {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport(java.lang.String...)
      * public javax.management.modelmbean.DescriptorSupport(java.lang.String...)}.
      */
@@ -64,67 +125,6 @@ extends org.j8unit.repository.javax.management.DescriptorClassTests<SUT>, org.j8
         @SuppressWarnings("unused")
         final javax.management.modelmbean.DescriptorSupport sut = null; // = new
                                                                         // DescriptorSupport(java.lang.String[],java.lang.Object[]);
-    }
-
-    /**
-     * Test method for {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport(java.lang.String) public
-     * javax.management.modelmbean.DescriptorSupport(java.lang.String) throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException,javax.management.modelmbean.XMLParseException}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DescriptorSupport_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.modelmbean.DescriptorSupport sut = null; // = new DescriptorSupport(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport() public
-     * javax.management.modelmbean.DescriptorSupport()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DescriptorSupport()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.modelmbean.DescriptorSupport sut = null; // = new DescriptorSupport();
-    }
-
-    /**
-     * Test method for {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport(int) public
-     * javax.management.modelmbean.DescriptorSupport(int) throws
-     * javax.management.MBeanException,javax.management.RuntimeOperationsException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DescriptorSupport_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.modelmbean.DescriptorSupport sut = null; // = new DescriptorSupport(int);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.management.modelmbean.DescriptorSupport#DescriptorSupport(javax.management.modelmbean.DescriptorSupport)
-     * public javax.management.modelmbean.DescriptorSupport(javax.management.modelmbean.DescriptorSupport)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DescriptorSupport_DescriptorSupport()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.modelmbean.DescriptorSupport sut = null; // = new
-                                                                        // DescriptorSupport(javax.management.modelmbean.DescriptorSupport);
     }
 
     @Override

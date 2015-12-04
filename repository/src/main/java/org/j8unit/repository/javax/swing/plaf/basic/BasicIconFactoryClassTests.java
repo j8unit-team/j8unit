@@ -49,26 +49,16 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         final javax.swing.plaf.basic.BasicIconFactory sut = null; // = new BasicIconFactory();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicIconFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.basic.BasicIconFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicIconFactory#getMenuItemCheckIcon() public static
-     * javax.swing.Icon javax.swing.plaf.basic.BasicIconFactory.getMenuItemCheckIcon()}.
+     * Test method for {@link javax.swing.plaf.basic.BasicIconFactory#createEmptyFrameIcon() public static
+     * javax.swing.Icon javax.swing.plaf.basic.BasicIconFactory.createEmptyFrameIcon()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMenuItemCheckIcon()
+    public default void test_createEmptyFrameIcon()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -109,14 +99,14 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicIconFactory#getRadioButtonIcon() public static
-     * javax.swing.Icon javax.swing.plaf.basic.BasicIconFactory.getRadioButtonIcon()}.
+     * Test method for {@link javax.swing.plaf.basic.BasicIconFactory#getMenuArrowIcon() public static javax.swing.Icon
+     * javax.swing.plaf.basic.BasicIconFactory.getMenuArrowIcon()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRadioButtonIcon()
+    public default void test_getMenuArrowIcon()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -141,14 +131,30 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicIconFactory#createEmptyFrameIcon() public static
-     * javax.swing.Icon javax.swing.plaf.basic.BasicIconFactory.createEmptyFrameIcon()}.
+     * Test method for {@link javax.swing.plaf.basic.BasicIconFactory#getMenuItemCheckIcon() public static
+     * javax.swing.Icon javax.swing.plaf.basic.BasicIconFactory.getMenuItemCheckIcon()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createEmptyFrameIcon()
+    public default void test_getMenuItemCheckIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicIconFactory#getRadioButtonIcon() public static
+     * javax.swing.Icon javax.swing.plaf.basic.BasicIconFactory.getRadioButtonIcon()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRadioButtonIcon()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -171,20 +177,14 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicIconFactory#getMenuArrowIcon() public static javax.swing.Icon
-     * javax.swing.plaf.basic.BasicIconFactory.getMenuArrowIcon()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getMenuArrowIcon()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.swing.plaf.basic.BasicIconFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.basic.BasicIconFactory.class.isAssignableFrom(sut));
     }
 
 }

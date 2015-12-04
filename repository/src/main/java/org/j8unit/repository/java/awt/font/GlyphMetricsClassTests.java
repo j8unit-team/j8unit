@@ -36,20 +36,6 @@ public abstract interface GlyphMetricsClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.font.GlyphMetrics#GlyphMetrics(float,java.awt.geom.Rectangle2D,byte) public
-     * java.awt.font.GlyphMetrics(float,java.awt.geom.Rectangle2D,byte)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_GlyphMetrics_float_Rectangle2D_byte()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.font.GlyphMetrics sut = null; // = new GlyphMetrics(float,java.awt.geom.Rectangle2D,byte);
-    }
-
-    /**
      * Test method for
      * {@link java.awt.font.GlyphMetrics#GlyphMetrics(boolean,float,float,java.awt.geom.Rectangle2D,byte) public
      * java.awt.font.GlyphMetrics(boolean,float,float,java.awt.geom.Rectangle2D,byte)}.
@@ -63,6 +49,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.awt.font.GlyphMetrics sut = null; // = new
                                                      // GlyphMetrics(boolean,float,float,java.awt.geom.Rectangle2D,byte);
+    }
+
+    /**
+     * Test method for {@link java.awt.font.GlyphMetrics#GlyphMetrics(float,java.awt.geom.Rectangle2D,byte) public
+     * java.awt.font.GlyphMetrics(float,java.awt.geom.Rectangle2D,byte)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_GlyphMetrics_float_Rectangle2D_byte()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.font.GlyphMetrics sut = null; // = new GlyphMetrics(float,java.awt.geom.Rectangle2D,byte);
     }
 
     @Override

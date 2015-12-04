@@ -48,16 +48,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         final javax.management.QueryEval sut = null; // = new QueryEval();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.management.QueryEval> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.management.QueryEval.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.management.QueryEval#getMBeanServer() public static javax.management.MBeanServer
@@ -72,6 +62,16 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.management.QueryEval> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.management.QueryEval.class.isAssignableFrom(sut));
     }
 
 }

@@ -35,17 +35,17 @@ public abstract interface FileWriterClassTests<SUT extends Class<? extends java.
 extends org.j8unit.repository.java.io.OutputStreamWriterClassTests<SUT> {
 
     /**
-     * Test method for {@link java.io.FileWriter#FileWriter(java.io.FileDescriptor) public
-     * java.io.FileWriter(java.io.FileDescriptor)}.
+     * Test method for {@link java.io.FileWriter#FileWriter(java.io.File) public java.io.FileWriter(java.io.File) throws
+     * java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_FileWriter_FileDescriptor()
+    public default void create_FileWriter_File()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.io.FileWriter sut = null; // = new FileWriter(java.io.FileDescriptor);
+        final java.io.FileWriter sut = null; // = new FileWriter(java.io.File);
     }
 
     /**
@@ -63,31 +63,17 @@ extends org.j8unit.repository.java.io.OutputStreamWriterClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.io.FileWriter#FileWriter(java.io.File) public java.io.FileWriter(java.io.File) throws
-     * java.io.IOException}.
+     * Test method for {@link java.io.FileWriter#FileWriter(java.io.FileDescriptor) public
+     * java.io.FileWriter(java.io.FileDescriptor)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_FileWriter_File()
+    public default void create_FileWriter_FileDescriptor()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.io.FileWriter sut = null; // = new FileWriter(java.io.File);
-    }
-
-    /**
-     * Test method for {@link java.io.FileWriter#FileWriter(java.lang.String,boolean) public
-     * java.io.FileWriter(java.lang.String,boolean) throws java.io.IOException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FileWriter_String_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.FileWriter sut = null; // = new FileWriter(java.lang.String,boolean);
+        final java.io.FileWriter sut = null; // = new FileWriter(java.io.FileDescriptor);
     }
 
     /**
@@ -102,6 +88,20 @@ extends org.j8unit.repository.java.io.OutputStreamWriterClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.FileWriter sut = null; // = new FileWriter(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.io.FileWriter#FileWriter(java.lang.String,boolean) public
+     * java.io.FileWriter(java.lang.String,boolean) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FileWriter_String_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.FileWriter sut = null; // = new FileWriter(java.lang.String,boolean);
     }
 
     @Override

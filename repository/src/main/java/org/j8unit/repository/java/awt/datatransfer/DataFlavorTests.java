@@ -24,14 +24,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#getDefaultRepresentationClass() public final
-     * java.lang.Class java.awt.datatransfer.DataFlavor.getDefaultRepresentationClass()}.
+     * Test method for {@link java.awt.datatransfer.DataFlavor#clone() public java.lang.Object
+     * java.awt.datatransfer.DataFlavor.clone() throws java.lang.CloneNotSupportedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDefaultRepresentationClass()
+    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,337 +40,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#getPrimaryType() public java.lang.String
-     * java.awt.datatransfer.DataFlavor.getPrimaryType()}.
+     * Test method for {@link java.awt.datatransfer.DataFlavor#equals(java.awt.datatransfer.DataFlavor) public boolean
+     * java.awt.datatransfer.DataFlavor.equals(java.awt.datatransfer.DataFlavor)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrimaryType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#isFlavorJavaFileListType() public boolean
-     * java.awt.datatransfer.DataFlavor.isFlavorJavaFileListType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isFlavorJavaFileListType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#getSubType() public java.lang.String
-     * java.awt.datatransfer.DataFlavor.getSubType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSubType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#isMimeTypeEqual(java.lang.String) public boolean
-     * java.awt.datatransfer.DataFlavor.isMimeTypeEqual(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isMimeTypeEqual_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#isMimeTypeEqual(java.awt.datatransfer.DataFlavor) public
-     * final boolean java.awt.datatransfer.DataFlavor.isMimeTypeEqual(java.awt.datatransfer.DataFlavor)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isMimeTypeEqual_DataFlavor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#hashCode() public int
-     * java.awt.datatransfer.DataFlavor.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#isRepresentationClassByteBuffer() public boolean
-     * java.awt.datatransfer.DataFlavor.isRepresentationClassByteBuffer()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isRepresentationClassByteBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#getParameter(java.lang.String) public java.lang.String
-     * java.awt.datatransfer.DataFlavor.getParameter(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParameter_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#isRepresentationClassSerializable() public boolean
-     * java.awt.datatransfer.DataFlavor.isRepresentationClassSerializable()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isRepresentationClassSerializable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#getDefaultRepresentationClassAsString() public final
-     * java.lang.String java.awt.datatransfer.DataFlavor.getDefaultRepresentationClassAsString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultRepresentationClassAsString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#isRepresentationClassCharBuffer() public boolean
-     * java.awt.datatransfer.DataFlavor.isRepresentationClassCharBuffer()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isRepresentationClassCharBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#getReaderForText(java.awt.datatransfer.Transferable)
-     * public java.io.Reader java.awt.datatransfer.DataFlavor.getReaderForText(java.awt.datatransfer.Transferable)
-     * throws java.awt.datatransfer.UnsupportedFlavorException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReaderForText_Transferable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#getMimeType() public java.lang.String
-     * java.awt.datatransfer.DataFlavor.getMimeType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMimeType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#writeExternal(java.io.ObjectOutput) public synchronized
-     * void java.awt.datatransfer.DataFlavor.writeExternal(java.io.ObjectOutput) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_writeExternal_ObjectOutput()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#isMimeTypeSerializedObject() public boolean
-     * java.awt.datatransfer.DataFlavor.isMimeTypeSerializedObject()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isMimeTypeSerializedObject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#setHumanPresentableName(java.lang.String) public void
-     * java.awt.datatransfer.DataFlavor.setHumanPresentableName(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setHumanPresentableName_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#getHumanPresentableName() public java.lang.String
-     * java.awt.datatransfer.DataFlavor.getHumanPresentableName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHumanPresentableName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#isFlavorSerializedObjectType() public boolean
-     * java.awt.datatransfer.DataFlavor.isFlavorSerializedObjectType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isFlavorSerializedObjectType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#getRepresentationClass() public java.lang.Class
-     * java.awt.datatransfer.DataFlavor.getRepresentationClass()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRepresentationClass()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#match(java.awt.datatransfer.DataFlavor) public boolean
-     * java.awt.datatransfer.DataFlavor.match(java.awt.datatransfer.DataFlavor)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_match_DataFlavor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#isFlavorTextType() public boolean
-     * java.awt.datatransfer.DataFlavor.isFlavorTextType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isFlavorTextType()
+    public default void test_equals_DataFlavor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -412,14 +89,176 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#equals(java.awt.datatransfer.DataFlavor) public boolean
-     * java.awt.datatransfer.DataFlavor.equals(java.awt.datatransfer.DataFlavor)}.
+     * Test method for {@link java.awt.datatransfer.DataFlavor#getDefaultRepresentationClass() public final
+     * java.lang.Class java.awt.datatransfer.DataFlavor.getDefaultRepresentationClass()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_equals_DataFlavor()
+    public default void test_getDefaultRepresentationClass()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#getDefaultRepresentationClassAsString() public final
+     * java.lang.String java.awt.datatransfer.DataFlavor.getDefaultRepresentationClassAsString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaultRepresentationClassAsString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#getHumanPresentableName() public java.lang.String
+     * java.awt.datatransfer.DataFlavor.getHumanPresentableName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHumanPresentableName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#getMimeType() public java.lang.String
+     * java.awt.datatransfer.DataFlavor.getMimeType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMimeType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#getParameter(java.lang.String) public java.lang.String
+     * java.awt.datatransfer.DataFlavor.getParameter(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParameter_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#getPrimaryType() public java.lang.String
+     * java.awt.datatransfer.DataFlavor.getPrimaryType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrimaryType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#getReaderForText(java.awt.datatransfer.Transferable)
+     * public java.io.Reader java.awt.datatransfer.DataFlavor.getReaderForText(java.awt.datatransfer.Transferable)
+     * throws java.awt.datatransfer.UnsupportedFlavorException,java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getReaderForText_Transferable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#getRepresentationClass() public java.lang.Class
+     * java.awt.datatransfer.DataFlavor.getRepresentationClass()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRepresentationClass()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#getSubType() public java.lang.String
+     * java.awt.datatransfer.DataFlavor.getSubType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSubType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#hashCode() public int
+     * java.awt.datatransfer.DataFlavor.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#isFlavorJavaFileListType() public boolean
+     * java.awt.datatransfer.DataFlavor.isFlavorJavaFileListType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isFlavorJavaFileListType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -444,14 +283,110 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#isRepresentationClassReader() public boolean
-     * java.awt.datatransfer.DataFlavor.isRepresentationClassReader()}.
+     * Test method for {@link java.awt.datatransfer.DataFlavor#isFlavorSerializedObjectType() public boolean
+     * java.awt.datatransfer.DataFlavor.isFlavorSerializedObjectType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isRepresentationClassReader()
+    public default void test_isFlavorSerializedObjectType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#isFlavorTextType() public boolean
+     * java.awt.datatransfer.DataFlavor.isFlavorTextType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isFlavorTextType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#isMimeTypeEqual(java.awt.datatransfer.DataFlavor) public
+     * final boolean java.awt.datatransfer.DataFlavor.isMimeTypeEqual(java.awt.datatransfer.DataFlavor)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isMimeTypeEqual_DataFlavor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#isMimeTypeEqual(java.lang.String) public boolean
+     * java.awt.datatransfer.DataFlavor.isMimeTypeEqual(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isMimeTypeEqual_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#isMimeTypeSerializedObject() public boolean
+     * java.awt.datatransfer.DataFlavor.isMimeTypeSerializedObject()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isMimeTypeSerializedObject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#isRepresentationClassByteBuffer() public boolean
+     * java.awt.datatransfer.DataFlavor.isRepresentationClassByteBuffer()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isRepresentationClassByteBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#isRepresentationClassCharBuffer() public boolean
+     * java.awt.datatransfer.DataFlavor.isRepresentationClassCharBuffer()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isRepresentationClassCharBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -476,6 +411,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#isRepresentationClassReader() public boolean
+     * java.awt.datatransfer.DataFlavor.isRepresentationClassReader()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isRepresentationClassReader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.datatransfer.DataFlavor#isRepresentationClassRemote() public boolean
      * java.awt.datatransfer.DataFlavor.isRepresentationClassRemote()}.
      * </p>
@@ -492,14 +443,30 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.datatransfer.DataFlavor#clone() public java.lang.Object
-     * java.awt.datatransfer.DataFlavor.clone() throws java.lang.CloneNotSupportedException}.
+     * Test method for {@link java.awt.datatransfer.DataFlavor#isRepresentationClassSerializable() public boolean
+     * java.awt.datatransfer.DataFlavor.isRepresentationClassSerializable()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clone()
+    public default void test_isRepresentationClassSerializable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#match(java.awt.datatransfer.DataFlavor) public boolean
+     * java.awt.datatransfer.DataFlavor.match(java.awt.datatransfer.DataFlavor)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_match_DataFlavor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -526,6 +493,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#setHumanPresentableName(java.lang.String) public void
+     * java.awt.datatransfer.DataFlavor.setHumanPresentableName(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setHumanPresentableName_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.datatransfer.DataFlavor#toString() public java.lang.String
      * java.awt.datatransfer.DataFlavor.toString()}.
      * </p>
@@ -535,6 +518,23 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.DataFlavor#writeExternal(java.io.ObjectOutput) public synchronized
+     * void java.awt.datatransfer.DataFlavor.writeExternal(java.io.ObjectOutput) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_writeExternal_ObjectOutput()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

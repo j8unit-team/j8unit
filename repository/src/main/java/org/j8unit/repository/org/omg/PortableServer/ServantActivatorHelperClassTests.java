@@ -49,33 +49,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.PortableServer.ServantActivatorHelper sut = null; // = new ServantActivatorHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.PortableServer.ServantActivatorHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.PortableServer.ServantActivatorHelper.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.ServantActivatorHelper#read(org.omg.CORBA.portable.InputStream)
-     * public static org.omg.PortableServer.ServantActivator
-     * org.omg.PortableServer.ServantActivatorHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link org.omg.PortableServer.ServantActivatorHelper#extract(org.omg.CORBA.Any) public static
@@ -87,75 +60,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_extract_Any()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.ServantActivatorHelper#unchecked_narrow(org.omg.CORBA.Object)
-     * public static org.omg.PortableServer.ServantActivator
-     * org.omg.PortableServer.ServantActivatorHelper.unchecked_narrow(org.omg.CORBA.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unchecked_narrow_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.ServantActivatorHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.PortableServer.ServantActivatorHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableServer.ServantActivatorHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.PortableServer.ServantActivator)
-     * public static void
-     * org.omg.PortableServer.ServantActivatorHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableServer.ServantActivator)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_OutputStream_ServantActivator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.ServantActivatorHelper#narrow(org.omg.CORBA.Object) public static
-     * org.omg.PortableServer.ServantActivator
-     * org.omg.PortableServer.ServantActivatorHelper.narrow(org.omg.CORBA.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_narrow_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -194,6 +98,102 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.ServantActivatorHelper#narrow(org.omg.CORBA.Object) public static
+     * org.omg.PortableServer.ServantActivator
+     * org.omg.PortableServer.ServantActivatorHelper.narrow(org.omg.CORBA.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_narrow_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.ServantActivatorHelper#read(org.omg.CORBA.portable.InputStream)
+     * public static org.omg.PortableServer.ServantActivator
+     * org.omg.PortableServer.ServantActivatorHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_read_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.ServantActivatorHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.PortableServer.ServantActivatorHelper.type()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_type()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.ServantActivatorHelper#unchecked_narrow(org.omg.CORBA.Object)
+     * public static org.omg.PortableServer.ServantActivator
+     * org.omg.PortableServer.ServantActivatorHelper.unchecked_narrow(org.omg.CORBA.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unchecked_narrow_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableServer.ServantActivatorHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.PortableServer.ServantActivator)
+     * public static void
+     * org.omg.PortableServer.ServantActivatorHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableServer.ServantActivator)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_ServantActivator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.PortableServer.ServantActivatorHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.PortableServer.ServantActivatorHelper.class.isAssignableFrom(sut));
     }
 
 }

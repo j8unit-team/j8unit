@@ -40,62 +40,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.GSSCredential#getRemainingInitLifetime(org.ietf.jgss.Oid) public abstract
-     * int org.ietf.jgss.GSSCredential.getRemainingInitLifetime(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
+     * Test method for {@link org.ietf.jgss.GSSCredential#dispose() public abstract void
+     * org.ietf.jgss.GSSCredential.dispose() throws org.ietf.jgss.GSSException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRemainingInitLifetime_Oid()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.ietf.jgss.GSSCredential#getName(org.ietf.jgss.Oid) public abstract
-     * org.ietf.jgss.GSSName org.ietf.jgss.GSSCredential.getName(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getName_Oid()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.ietf.jgss.GSSCredential#getName() public abstract org.ietf.jgss.GSSName
-     * org.ietf.jgss.GSSCredential.getName() throws org.ietf.jgss.GSSException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.ietf.jgss.GSSCredential#hashCode() public abstract int
-     * org.ietf.jgss.GSSCredential.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
+    public default void test_dispose()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,6 +72,54 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.ietf.jgss.GSSCredential#getMechs() public abstract org.ietf.jgss.Oid[]
+     * org.ietf.jgss.GSSCredential.getMechs() throws org.ietf.jgss.GSSException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMechs()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.ietf.jgss.GSSCredential#getName() public abstract org.ietf.jgss.GSSName
+     * org.ietf.jgss.GSSCredential.getName() throws org.ietf.jgss.GSSException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.ietf.jgss.GSSCredential#getName(org.ietf.jgss.Oid) public abstract
+     * org.ietf.jgss.GSSName org.ietf.jgss.GSSCredential.getName(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getName_Oid()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.ietf.jgss.GSSCredential#getRemainingAcceptLifetime(org.ietf.jgss.Oid) public abstract
      * int org.ietf.jgss.GSSCredential.getRemainingAcceptLifetime(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
      * </p>
@@ -128,6 +128,22 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getRemainingAcceptLifetime_Oid()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.ietf.jgss.GSSCredential#getRemainingInitLifetime(org.ietf.jgss.Oid) public abstract
+     * int org.ietf.jgss.GSSCredential.getRemainingInitLifetime(org.ietf.jgss.Oid) throws org.ietf.jgss.GSSException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRemainingInitLifetime_Oid()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -152,30 +168,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.GSSCredential#dispose() public abstract void
-     * org.ietf.jgss.GSSCredential.dispose() throws org.ietf.jgss.GSSException}.
+     * Test method for {@link org.ietf.jgss.GSSCredential#getUsage() public abstract int
+     * org.ietf.jgss.GSSCredential.getUsage() throws org.ietf.jgss.GSSException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_dispose()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.ietf.jgss.GSSCredential#getMechs() public abstract org.ietf.jgss.Oid[]
-     * org.ietf.jgss.GSSCredential.getMechs() throws org.ietf.jgss.GSSException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMechs()
+    public default void test_getUsage()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -200,14 +200,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.GSSCredential#getUsage() public abstract int
-     * org.ietf.jgss.GSSCredential.getUsage() throws org.ietf.jgss.GSSException}.
+     * Test method for {@link org.ietf.jgss.GSSCredential#hashCode() public abstract int
+     * org.ietf.jgss.GSSCredential.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getUsage()
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -39,22 +39,6 @@ extends org.j8unit.repository.java.lang.reflect.TypeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.ParameterizedType#getRawType() public abstract java.lang.reflect.Type
-     * java.lang.reflect.ParameterizedType.getRawType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRawType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.reflect.ParameterizedType#getOwnerType() public abstract java.lang.reflect.Type
      * java.lang.reflect.ParameterizedType.getOwnerType()}.
      * </p>
@@ -63,6 +47,22 @@ extends org.j8unit.repository.java.lang.reflect.TypeTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getOwnerType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.ParameterizedType#getRawType() public abstract java.lang.reflect.Type
+     * java.lang.reflect.ParameterizedType.getRawType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRawType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

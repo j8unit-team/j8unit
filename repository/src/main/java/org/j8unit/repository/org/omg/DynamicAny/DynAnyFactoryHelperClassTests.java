@@ -49,33 +49,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.DynamicAny.DynAnyFactoryHelper sut = null; // = new DynAnyFactoryHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.DynamicAny.DynAnyFactoryHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.DynamicAny.DynAnyFactoryHelper.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynAnyFactoryHelper#read(org.omg.CORBA.portable.InputStream) public
-     * static org.omg.DynamicAny.DynAnyFactory
-     * org.omg.DynamicAny.DynAnyFactoryHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link org.omg.DynamicAny.DynAnyFactoryHelper#extract(org.omg.CORBA.Any) public static
@@ -110,6 +83,23 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for
+     * {@link org.omg.DynamicAny.DynAnyFactoryHelper#insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynAnyFactory) public
+     * static void org.omg.DynamicAny.DynAnyFactoryHelper.insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynAnyFactory)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_DynAnyFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.omg.DynamicAny.DynAnyFactoryHelper#narrow(org.omg.CORBA.Object) public static
      * org.omg.DynamicAny.DynAnyFactory org.omg.DynamicAny.DynAnyFactoryHelper.narrow(org.omg.CORBA.Object)}.
      * </p>
@@ -126,15 +116,31 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.DynamicAny.DynAnyFactoryHelper#insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynAnyFactory) public
-     * static void org.omg.DynamicAny.DynAnyFactoryHelper.insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynAnyFactory)}.
+     * Test method for {@link org.omg.DynamicAny.DynAnyFactoryHelper#read(org.omg.CORBA.portable.InputStream) public
+     * static org.omg.DynamicAny.DynAnyFactory
+     * org.omg.DynamicAny.DynAnyFactoryHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_insert_Any_DynAnyFactory()
+    public default void test_read_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynAnyFactoryHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.DynamicAny.DynAnyFactoryHelper.type()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -177,20 +183,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynAnyFactoryHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.DynamicAny.DynAnyFactoryHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_type()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.DynamicAny.DynAnyFactoryHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.DynamicAny.DynAnyFactoryHelper.class.isAssignableFrom(sut));
     }
 
 }

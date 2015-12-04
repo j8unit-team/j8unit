@@ -49,14 +49,53 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.DynamicAny.NameDynAnyPairHelper sut = null; // = new NameDynAnyPairHelper();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.NameDynAnyPairHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.DynamicAny.NameDynAnyPair org.omg.DynamicAny.NameDynAnyPairHelper.extract(org.omg.CORBA.Any)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_extract_Any()
     throws Exception {
-        // create new instance
-        final Class<? extends org.omg.DynamicAny.NameDynAnyPairHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.DynamicAny.NameDynAnyPairHelper.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.NameDynAnyPairHelper#id() public static java.lang.String
+     * org.omg.DynamicAny.NameDynAnyPairHelper.id()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.DynamicAny.NameDynAnyPairHelper#insert(org.omg.CORBA.Any,org.omg.DynamicAny.NameDynAnyPair) public
+     * static void org.omg.DynamicAny.NameDynAnyPairHelper.insert(org.omg.CORBA.Any,org.omg.DynamicAny.NameDynAnyPair)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_NameDynAnyPair()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -70,22 +109,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.NameDynAnyPairHelper#extract(org.omg.CORBA.Any) public static
-     * org.omg.DynamicAny.NameDynAnyPair org.omg.DynamicAny.NameDynAnyPairHelper.extract(org.omg.CORBA.Any)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_extract_Any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,37 +150,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.DynamicAny.NameDynAnyPairHelper#insert(org.omg.CORBA.Any,org.omg.DynamicAny.NameDynAnyPair) public
-     * static void org.omg.DynamicAny.NameDynAnyPairHelper.insert(org.omg.CORBA.Any,org.omg.DynamicAny.NameDynAnyPair)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_insert_Any_NameDynAnyPair()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.NameDynAnyPairHelper#id() public static java.lang.String
-     * org.omg.DynamicAny.NameDynAnyPairHelper.id()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_id()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.DynamicAny.NameDynAnyPairHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.DynamicAny.NameDynAnyPairHelper.class.isAssignableFrom(sut));
     }
 
 }

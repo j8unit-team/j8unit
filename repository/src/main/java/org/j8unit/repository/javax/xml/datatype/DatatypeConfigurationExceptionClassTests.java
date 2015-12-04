@@ -37,19 +37,33 @@ public abstract interface DatatypeConfigurationExceptionClassTests<SUT extends C
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.xml.datatype.DatatypeConfigurationException#DatatypeConfigurationException(java.lang.Throwable)
-     * public javax.xml.datatype.DatatypeConfigurationException(java.lang.Throwable)}.
+     * Test method for {@link javax.xml.datatype.DatatypeConfigurationException#DatatypeConfigurationException() public
+     * javax.xml.datatype.DatatypeConfigurationException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DatatypeConfigurationException_Throwable()
+    public default void create_DatatypeConfigurationException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.datatype.DatatypeConfigurationException sut = null; // = new DatatypeConfigurationException();
+    }
+
+    /**
+     * Test method for
+     * {@link javax.xml.datatype.DatatypeConfigurationException#DatatypeConfigurationException(java.lang.String) public
+     * javax.xml.datatype.DatatypeConfigurationException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DatatypeConfigurationException_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.datatype.DatatypeConfigurationException sut = null; // = new
-                                                                            // DatatypeConfigurationException(java.lang.Throwable);
+                                                                            // DatatypeConfigurationException(java.lang.String);
     }
 
     /**
@@ -70,32 +84,18 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.xml.datatype.DatatypeConfigurationException#DatatypeConfigurationException(java.lang.String) public
-     * javax.xml.datatype.DatatypeConfigurationException(java.lang.String)}.
+     * {@link javax.xml.datatype.DatatypeConfigurationException#DatatypeConfigurationException(java.lang.Throwable)
+     * public javax.xml.datatype.DatatypeConfigurationException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DatatypeConfigurationException_String()
+    public default void create_DatatypeConfigurationException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.datatype.DatatypeConfigurationException sut = null; // = new
-                                                                            // DatatypeConfigurationException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.datatype.DatatypeConfigurationException#DatatypeConfigurationException() public
-     * javax.xml.datatype.DatatypeConfigurationException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DatatypeConfigurationException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.datatype.DatatypeConfigurationException sut = null; // = new DatatypeConfigurationException();
+                                                                            // DatatypeConfigurationException(java.lang.Throwable);
     }
 
     @Override

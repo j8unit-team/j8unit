@@ -36,17 +36,31 @@ public abstract interface IllegalStateExceptionClassTests<SUT extends Class<? ex
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.IllegalStateException#IllegalStateException(java.lang.Throwable) public
-     * java.lang.IllegalStateException(java.lang.Throwable)}.
+     * Test method for {@link java.lang.IllegalStateException#IllegalStateException() public
+     * java.lang.IllegalStateException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_IllegalStateException_Throwable()
+    public default void create_IllegalStateException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.IllegalStateException sut = null; // = new IllegalStateException(java.lang.Throwable);
+        final java.lang.IllegalStateException sut = null; // = new IllegalStateException();
+    }
+
+    /**
+     * Test method for {@link java.lang.IllegalStateException#IllegalStateException(java.lang.String) public
+     * java.lang.IllegalStateException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_IllegalStateException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.IllegalStateException sut = null; // = new IllegalStateException(java.lang.String);
     }
 
     /**
@@ -66,31 +80,17 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.lang.IllegalStateException#IllegalStateException(java.lang.String) public
-     * java.lang.IllegalStateException(java.lang.String)}.
+     * Test method for {@link java.lang.IllegalStateException#IllegalStateException(java.lang.Throwable) public
+     * java.lang.IllegalStateException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_IllegalStateException_String()
+    public default void create_IllegalStateException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.IllegalStateException sut = null; // = new IllegalStateException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.lang.IllegalStateException#IllegalStateException() public
-     * java.lang.IllegalStateException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_IllegalStateException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.IllegalStateException sut = null; // = new IllegalStateException();
+        final java.lang.IllegalStateException sut = null; // = new IllegalStateException(java.lang.Throwable);
     }
 
     @Override

@@ -24,6 +24,22 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests<S
 
     /**
      * <p>
+     * Test method for {@link java.nio.file.attribute.PosixFileAttributes#group() public abstract
+     * java.nio.file.attribute.GroupPrincipal java.nio.file.attribute.PosixFileAttributes.group()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_group()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.file.attribute.PosixFileAttributes#owner() public abstract
      * java.nio.file.attribute.UserPrincipal java.nio.file.attribute.PosixFileAttributes.owner()}.
      * </p>
@@ -48,22 +64,6 @@ extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests<S
     @Test
     @Category(Draft.class)
     public default void test_permissions()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.PosixFileAttributes#group() public abstract
-     * java.nio.file.attribute.GroupPrincipal java.nio.file.attribute.PosixFileAttributes.group()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_group()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

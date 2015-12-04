@@ -39,14 +39,13 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.Checksum#update(int) public abstract void
-     * java.util.zip.Checksum.update(int)}.
+     * Test method for {@link java.util.zip.Checksum#reset() public abstract void java.util.zip.Checksum.reset()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_update_int()
+    public default void test_reset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,13 +70,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.Checksum#reset() public abstract void java.util.zip.Checksum.reset()}.
+     * Test method for {@link java.util.zip.Checksum#update(int) public abstract void
+     * java.util.zip.Checksum.update(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reset()
+    public default void test_update_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

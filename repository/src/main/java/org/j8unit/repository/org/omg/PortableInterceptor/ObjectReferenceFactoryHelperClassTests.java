@@ -51,45 +51,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                                                                                    // ObjectReferenceFactoryHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.PortableInterceptor.ObjectReferenceFactoryHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.type()}.
+     * Test method for {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#extract(org.omg.CORBA.Any) public
+     * static org.omg.PortableInterceptor.ObjectReferenceFactory
+     * org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.extract(org.omg.CORBA.Any)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_type()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.PortableInterceptor.ObjectReferenceFactory)
-     * public static void
-     * org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableInterceptor.ObjectReferenceFactory)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_OutputStream_ObjectReferenceFactory()
+    public default void test_extract_Any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -151,19 +123,47 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#extract(org.omg.CORBA.Any) public
-     * static org.omg.PortableInterceptor.ObjectReferenceFactory
-     * org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.type()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_extract_Any()
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableInterceptor.ObjectReferenceFactoryHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.PortableInterceptor.ObjectReferenceFactory)
+     * public static void
+     * org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.PortableInterceptor.ObjectReferenceFactory)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_ObjectReferenceFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.PortableInterceptor.ObjectReferenceFactoryHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.PortableInterceptor.ObjectReferenceFactoryHelper.class.isAssignableFrom(sut));
     }
 
 }

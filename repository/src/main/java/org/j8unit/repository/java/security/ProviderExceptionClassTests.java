@@ -36,17 +36,31 @@ public abstract interface ProviderExceptionClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.ProviderException#ProviderException(java.lang.Throwable) public
-     * java.security.ProviderException(java.lang.Throwable)}.
+     * Test method for {@link java.security.ProviderException#ProviderException() public
+     * java.security.ProviderException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ProviderException_Throwable()
+    public default void create_ProviderException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.ProviderException sut = null; // = new ProviderException(java.lang.Throwable);
+        final java.security.ProviderException sut = null; // = new ProviderException();
+    }
+
+    /**
+     * Test method for {@link java.security.ProviderException#ProviderException(java.lang.String) public
+     * java.security.ProviderException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ProviderException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.ProviderException sut = null; // = new ProviderException(java.lang.String);
     }
 
     /**
@@ -65,31 +79,17 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.security.ProviderException#ProviderException(java.lang.String) public
-     * java.security.ProviderException(java.lang.String)}.
+     * Test method for {@link java.security.ProviderException#ProviderException(java.lang.Throwable) public
+     * java.security.ProviderException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ProviderException_String()
+    public default void create_ProviderException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.ProviderException sut = null; // = new ProviderException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.security.ProviderException#ProviderException() public
-     * java.security.ProviderException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ProviderException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.ProviderException sut = null; // = new ProviderException();
+        final java.security.ProviderException sut = null; // = new ProviderException(java.lang.Throwable);
     }
 
     @Override

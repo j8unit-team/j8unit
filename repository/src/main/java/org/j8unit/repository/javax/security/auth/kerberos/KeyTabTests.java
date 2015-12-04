@@ -23,33 +23,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.security.auth.kerberos.KeyTab#getKeys(javax.security.auth.kerberos.KerberosPrincipal) public
-     * javax.security.auth.kerberos.KerberosKey[]
-     * javax.security.auth.kerberos.KeyTab.getKeys(javax.security.auth.kerberos.KerberosPrincipal)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getKeys_KerberosPrincipal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#toString() public java.lang.String
-     * javax.security.auth.kerberos.KeyTab.toString()}.
+     * Test method for {@link javax.security.auth.kerberos.KeyTab#equals(java.lang.Object) public boolean
+     * javax.security.auth.kerberos.KeyTab.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,15 +56,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#equals(java.lang.Object) public boolean
-     * javax.security.auth.kerberos.KeyTab.equals(java.lang.Object)}.
+     * Test method for
+     * {@link javax.security.auth.kerberos.KeyTab#getKeys(javax.security.auth.kerberos.KerberosPrincipal) public
+     * javax.security.auth.kerberos.KerberosKey[]
+     * javax.security.auth.kerberos.KeyTab.getKeys(javax.security.auth.kerberos.KerberosPrincipal)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_getKeys_KerberosPrincipal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KeyTab#getPrincipal() public
+     * javax.security.auth.kerberos.KerberosPrincipal javax.security.auth.kerberos.KeyTab.getPrincipal()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrincipal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -124,14 +123,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KeyTab#getPrincipal() public
-     * javax.security.auth.kerberos.KerberosPrincipal javax.security.auth.kerberos.KeyTab.getPrincipal()}.
+     * Test method for {@link javax.security.auth.kerberos.KeyTab#toString() public java.lang.String
+     * javax.security.auth.kerberos.KeyTab.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrincipal()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

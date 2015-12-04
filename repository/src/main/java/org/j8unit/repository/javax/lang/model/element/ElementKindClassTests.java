@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ElementKindClassTests<SUT extends Class<? extends javax.lang.model.element.ElementKind>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.element.ElementKind> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.lang.model.element.ElementKind> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.lang.model.element.ElementKind.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.lang.model.element.ElementKind#valueOf(java.lang.String) public static
@@ -75,6 +65,16 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.ele
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.lang.model.element.ElementKind> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.lang.model.element.ElementKind.class.isAssignableFrom(sut));
     }
 
 }

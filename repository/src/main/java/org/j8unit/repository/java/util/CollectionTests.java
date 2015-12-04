@@ -23,39 +23,6 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Collection#containsAll(java.util.Collection) public abstract boolean
-     * java.util.Collection.containsAll(java.util.Collection)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_containsAll_Collection()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Collection#spliterator() public default java.util.Spliterator
-     * java.util.Collection.spliterator()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_spliterator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.Collection#add(java.lang.Object) public abstract boolean
      * java.util.Collection.add(java.lang.Object)}.
      * </p>
@@ -72,30 +39,14 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Collection#removeIf(java.util.function.Predicate) public default boolean
-     * java.util.Collection.removeIf(java.util.function.Predicate)}.
+     * Test method for {@link java.util.Collection#addAll(java.util.Collection) public abstract boolean
+     * java.util.Collection.addAll(java.util.Collection)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeIf_Predicate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Collection#remove(java.lang.Object) public abstract boolean
-     * java.util.Collection.remove(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_Object()
+    public default void test_addAll_Collection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,13 +70,30 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Collection#isEmpty() public abstract boolean java.util.Collection.isEmpty()}.
+     * Test method for {@link java.util.Collection#contains(java.lang.Object) public abstract boolean
+     * java.util.Collection.contains(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isEmpty()
+    public default void test_contains_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Collection#containsAll(java.util.Collection) public abstract boolean
+     * java.util.Collection.containsAll(java.util.Collection)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_containsAll_Collection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -165,61 +133,13 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Collection#addAll(java.util.Collection) public abstract boolean
-     * java.util.Collection.addAll(java.util.Collection)}.
+     * Test method for {@link java.util.Collection#isEmpty() public abstract boolean java.util.Collection.isEmpty()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addAll_Collection()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Collection#stream() public default java.util.stream.Stream
-     * java.util.Collection.stream()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_stream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Collection#size() public abstract int java.util.Collection.size()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_size()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Collection#contains(java.lang.Object) public abstract boolean
-     * java.util.Collection.contains(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_contains_Object()
+    public default void test_isEmpty()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -245,6 +165,38 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
+     * Test method for {@link java.util.Collection#parallelStream() public default java.util.stream.Stream
+     * java.util.Collection.parallelStream()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parallelStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Collection#remove(java.lang.Object) public abstract boolean
+     * java.util.Collection.remove(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.Collection#removeAll(java.util.Collection) public abstract boolean
      * java.util.Collection.removeAll(java.util.Collection)}.
      * </p>
@@ -253,6 +205,22 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_removeAll_Collection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Collection#removeIf(java.util.function.Predicate) public default boolean
+     * java.util.Collection.removeIf(java.util.function.Predicate)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeIf_Predicate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -277,14 +245,13 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Collection#parallelStream() public default java.util.stream.Stream
-     * java.util.Collection.parallelStream()}.
+     * Test method for {@link java.util.Collection#size() public abstract int java.util.Collection.size()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parallelStream()
+    public default void test_size()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -293,14 +260,31 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Collection#toArray(java.lang.Object[]) public abstract java.lang.Object[]
-     * java.util.Collection.toArray(java.lang.Object[])}.
+     * Test method for {@link java.util.Collection#spliterator() public default java.util.Spliterator
+     * java.util.Collection.spliterator()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toArray_ObjectArray()
+    @Override
+    public default void test_spliterator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Collection#stream() public default java.util.stream.Stream
+     * java.util.Collection.stream()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_stream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -317,6 +301,22 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_toArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Collection#toArray(java.lang.Object[]) public abstract java.lang.Object[]
+     * java.util.Collection.toArray(java.lang.Object[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toArray_ObjectArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

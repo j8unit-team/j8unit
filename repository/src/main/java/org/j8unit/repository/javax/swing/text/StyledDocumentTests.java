@@ -23,40 +23,6 @@ extends org.j8unit.repository.javax.swing.text.DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.StyledDocument#setCharacterAttributes(int,int,javax.swing.text.AttributeSet,boolean)
-     * public abstract void
-     * javax.swing.text.StyledDocument.setCharacterAttributes(int,int,javax.swing.text.AttributeSet,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCharacterAttributes_int_int_AttributeSet_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getBackground(javax.swing.text.AttributeSet) public
-     * abstract java.awt.Color javax.swing.text.StyledDocument.getBackground(javax.swing.text.AttributeSet)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBackground_AttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.text.StyledDocument#addStyle(java.lang.String,javax.swing.text.Style) public
      * abstract javax.swing.text.Style
      * javax.swing.text.StyledDocument.addStyle(java.lang.String,javax.swing.text.Style)}.
@@ -74,14 +40,14 @@ extends org.j8unit.repository.javax.swing.text.DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getLogicalStyle(int) public abstract
-     * javax.swing.text.Style javax.swing.text.StyledDocument.getLogicalStyle(int)}.
+     * Test method for {@link javax.swing.text.StyledDocument#getBackground(javax.swing.text.AttributeSet) public
+     * abstract java.awt.Color javax.swing.text.StyledDocument.getBackground(javax.swing.text.AttributeSet)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLogicalStyle_int()
+    public default void test_getBackground_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -122,14 +88,30 @@ extends org.j8unit.repository.javax.swing.text.DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#removeStyle(java.lang.String) public abstract void
-     * javax.swing.text.StyledDocument.removeStyle(java.lang.String)}.
+     * Test method for {@link javax.swing.text.StyledDocument#getForeground(javax.swing.text.AttributeSet) public
+     * abstract java.awt.Color javax.swing.text.StyledDocument.getForeground(javax.swing.text.AttributeSet)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeStyle_String()
+    public default void test_getForeground_AttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.StyledDocument#getLogicalStyle(int) public abstract
+     * javax.swing.text.Style javax.swing.text.StyledDocument.getLogicalStyle(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLogicalStyle_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -154,14 +136,64 @@ extends org.j8unit.repository.javax.swing.text.DocumentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getForeground(javax.swing.text.AttributeSet) public
-     * abstract java.awt.Color javax.swing.text.StyledDocument.getForeground(javax.swing.text.AttributeSet)}.
+     * Test method for {@link javax.swing.text.StyledDocument#getStyle(java.lang.String) public abstract
+     * javax.swing.text.Style javax.swing.text.StyledDocument.getStyle(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getForeground_AttributeSet()
+    public default void test_getStyle_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.StyledDocument#removeStyle(java.lang.String) public abstract void
+     * javax.swing.text.StyledDocument.removeStyle(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeStyle_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.StyledDocument#setCharacterAttributes(int,int,javax.swing.text.AttributeSet,boolean)
+     * public abstract void
+     * javax.swing.text.StyledDocument.setCharacterAttributes(int,int,javax.swing.text.AttributeSet,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCharacterAttributes_int_int_AttributeSet_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.StyledDocument#setLogicalStyle(int,javax.swing.text.Style) public
+     * abstract void javax.swing.text.StyledDocument.setLogicalStyle(int,javax.swing.text.Style)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLogicalStyle_int_Style()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -180,38 +212,6 @@ extends org.j8unit.repository.javax.swing.text.DocumentTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setParagraphAttributes_int_int_AttributeSet_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#getStyle(java.lang.String) public abstract
-     * javax.swing.text.Style javax.swing.text.StyledDocument.getStyle(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getStyle_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.StyledDocument#setLogicalStyle(int,javax.swing.text.Style) public
-     * abstract void javax.swing.text.StyledDocument.setLogicalStyle(int,javax.swing.text.Style)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLogicalStyle_int_Style()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

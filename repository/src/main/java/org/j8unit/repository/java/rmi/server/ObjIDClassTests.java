@@ -35,19 +35,6 @@ public abstract interface ObjIDClassTests<SUT extends Class<? extends java.rmi.s
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.rmi.server.ObjID#ObjID(int) public java.rmi.server.ObjID(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ObjID_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.rmi.server.ObjID sut = null; // = new ObjID(int);
-    }
-
-    /**
      * Test method for {@link java.rmi.server.ObjID#ObjID() public java.rmi.server.ObjID()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -60,14 +47,17 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         final java.rmi.server.ObjID sut = null; // = new ObjID();
     }
 
-    @Override
+    /**
+     * Test method for {@link java.rmi.server.ObjID#ObjID(int) public java.rmi.server.ObjID(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_ObjID_int()
     throws Exception {
         // create new instance
-        final Class<? extends java.rmi.server.ObjID> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.rmi.server.ObjID.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final java.rmi.server.ObjID sut = null; // = new ObjID(int);
     }
 
     /**
@@ -84,6 +74,16 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.rmi.server.ObjID> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.rmi.server.ObjID.class.isAssignableFrom(sut));
     }
 
 }

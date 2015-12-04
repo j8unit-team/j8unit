@@ -23,15 +23,15 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.BufferedOutputStream#write(int) public synchronized void
-     * java.io.BufferedOutputStream.write(int) throws java.io.IOException}.
+     * Test method for {@link java.io.BufferedOutputStream#flush() public synchronized void
+     * java.io.BufferedOutputStream.flush() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_write_int()
+    public default void test_flush()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,15 +57,15 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.BufferedOutputStream#flush() public synchronized void
-     * java.io.BufferedOutputStream.flush() throws java.io.IOException}.
+     * Test method for {@link java.io.BufferedOutputStream#write(int) public synchronized void
+     * java.io.BufferedOutputStream.write(int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_flush()
+    public default void test_write_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

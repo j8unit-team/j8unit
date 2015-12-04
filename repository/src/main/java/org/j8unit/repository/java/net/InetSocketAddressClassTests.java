@@ -36,20 +36,6 @@ public abstract interface InetSocketAddressClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.java.net.SocketAddressClassTests<SUT> {
 
     /**
-     * Test method for {@link java.net.InetSocketAddress#InetSocketAddress(java.lang.String,int) public
-     * java.net.InetSocketAddress(java.lang.String,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InetSocketAddress_String_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.InetSocketAddress sut = null; // = new InetSocketAddress(java.lang.String,int);
-    }
-
-    /**
      * Test method for {@link java.net.InetSocketAddress#InetSocketAddress(java.net.InetAddress,int) public
      * java.net.InetSocketAddress(java.net.InetAddress,int)}.
      */
@@ -76,14 +62,18 @@ extends org.j8unit.repository.java.net.SocketAddressClassTests<SUT> {
         final java.net.InetSocketAddress sut = null; // = new InetSocketAddress(int);
     }
 
-    @Override
+    /**
+     * Test method for {@link java.net.InetSocketAddress#InetSocketAddress(java.lang.String,int) public
+     * java.net.InetSocketAddress(java.lang.String,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_InetSocketAddress_String_int()
     throws Exception {
         // create new instance
-        final Class<? extends java.net.InetSocketAddress> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.net.InetSocketAddress.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final java.net.InetSocketAddress sut = null; // = new InetSocketAddress(java.lang.String,int);
     }
 
     /**
@@ -100,6 +90,16 @@ extends org.j8unit.repository.java.net.SocketAddressClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.net.InetSocketAddress> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.InetSocketAddress.class.isAssignableFrom(sut));
     }
 
 }

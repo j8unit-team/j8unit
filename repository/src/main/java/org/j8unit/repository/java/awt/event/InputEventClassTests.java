@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface InputEventClassTests<SUT extends Class<? extends java.awt.event.InputEvent>>
 extends org.j8unit.repository.java.awt.event.ComponentEventClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.InputEvent#getMaskForButton(int) public static int
+     * java.awt.event.InputEvent.getMaskForButton(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getMaskForButton_int()
     throws Exception {
-        // create new instance
-        final Class<? extends java.awt.event.InputEvent> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.event.InputEvent.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -61,20 +67,14 @@ extends org.j8unit.repository.java.awt.event.ComponentEventClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.InputEvent#getMaskForButton(int) public static int
-     * java.awt.event.InputEvent.getMaskForButton(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getMaskForButton_int()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.awt.event.InputEvent> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.event.InputEvent.class.isAssignableFrom(sut));
     }
 
 }

@@ -23,61 +23,15 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link java.lang.Package#isAnnotationPresent(java.lang.Class) public boolean
-     * java.lang.Package.isAnnotationPresent(java.lang.Class)}.
+     * Test method for {@link java.lang.Package#getAnnotation(java.lang.Class) public java.lang.annotation.Annotation
+     * java.lang.Package.getAnnotation(java.lang.Class)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isAnnotationPresent_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Package#isSealed(java.net.URL) public boolean
-     * java.lang.Package.isSealed(java.net.URL)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSealed_URL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Package#isSealed() public boolean java.lang.Package.isSealed()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSealed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Package#getName() public java.lang.String java.lang.Package.getName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getName()
+    public default void test_getAnnotation_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +57,15 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link java.lang.Package#isCompatibleWith(java.lang.String) public boolean
-     * java.lang.Package.isCompatibleWith(java.lang.String) throws java.lang.NumberFormatException}.
+     * Test method for {@link java.lang.Package#getAnnotationsByType(java.lang.Class) public
+     * java.lang.annotation.Annotation[] java.lang.Package.getAnnotationsByType(java.lang.Class)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isCompatibleWith_String()
+    @Override
+    public default void test_getAnnotationsByType_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +74,15 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link java.lang.Package#getImplementationTitle() public java.lang.String
-     * java.lang.Package.getImplementationTitle()}.
+     * Test method for {@link java.lang.Package#getDeclaredAnnotation(java.lang.Class) public
+     * java.lang.annotation.Annotation java.lang.Package.getDeclaredAnnotation(java.lang.Class)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getImplementationTitle()
+    @Override
+    public default void test_getDeclaredAnnotation_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -152,55 +108,6 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link java.lang.Package#getSpecificationVendor() public java.lang.String
-     * java.lang.Package.getSpecificationVendor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSpecificationVendor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Package#getSpecificationTitle() public java.lang.String
-     * java.lang.Package.getSpecificationTitle()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSpecificationTitle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Package#getAnnotation(java.lang.Class) public java.lang.annotation.Annotation
-     * java.lang.Package.getAnnotation(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAnnotation_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.Package#getDeclaredAnnotationsByType(java.lang.Class) public
      * java.lang.annotation.Annotation[] java.lang.Package.getDeclaredAnnotationsByType(java.lang.Class)}.
      * </p>
@@ -218,31 +125,14 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link java.lang.Package#getAnnotationsByType(java.lang.Class) public
-     * java.lang.annotation.Annotation[] java.lang.Package.getAnnotationsByType(java.lang.Class)}.
+     * Test method for {@link java.lang.Package#getImplementationTitle() public java.lang.String
+     * java.lang.Package.getImplementationTitle()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getAnnotationsByType_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Package#hashCode() public int java.lang.Package.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
+    public default void test_getImplementationTitle()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -267,22 +157,6 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link java.lang.Package#getSpecificationVersion() public java.lang.String
-     * java.lang.Package.getSpecificationVersion()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSpecificationVersion()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.Package#getImplementationVersion() public java.lang.String
      * java.lang.Package.getImplementationVersion()}.
      * </p>
@@ -299,15 +173,141 @@ extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link java.lang.Package#getDeclaredAnnotation(java.lang.Class) public
-     * java.lang.annotation.Annotation java.lang.Package.getDeclaredAnnotation(java.lang.Class)}.
+     * Test method for {@link java.lang.Package#getName() public java.lang.String java.lang.Package.getName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Package#getSpecificationTitle() public java.lang.String
+     * java.lang.Package.getSpecificationTitle()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSpecificationTitle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Package#getSpecificationVendor() public java.lang.String
+     * java.lang.Package.getSpecificationVendor()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSpecificationVendor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Package#getSpecificationVersion() public java.lang.String
+     * java.lang.Package.getSpecificationVersion()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSpecificationVersion()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Package#hashCode() public int java.lang.Package.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getDeclaredAnnotation_Class()
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Package#isAnnotationPresent(java.lang.Class) public boolean
+     * java.lang.Package.isAnnotationPresent(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isAnnotationPresent_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Package#isCompatibleWith(java.lang.String) public boolean
+     * java.lang.Package.isCompatibleWith(java.lang.String) throws java.lang.NumberFormatException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isCompatibleWith_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Package#isSealed() public boolean java.lang.Package.isSealed()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSealed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Package#isSealed(java.net.URL) public boolean
+     * java.lang.Package.isSealed(java.net.URL)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSealed_URL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

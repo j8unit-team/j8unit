@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.io.PipedOutputStream#close() public void java.io.PipedOutputStream.close() throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.io.PipedOutputStream#connect(java.io.PipedInputStream) public synchronized void
      * java.io.PipedOutputStream.connect(java.io.PipedInputStream) throws java.io.IOException}.
      * </p>
@@ -39,15 +56,15 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.PipedOutputStream#write(int) public void java.io.PipedOutputStream.write(int)
-     * throws java.io.IOException}.
+     * Test method for {@link java.io.PipedOutputStream#flush() public synchronized void
+     * java.io.PipedOutputStream.flush() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_write_int()
+    public default void test_flush()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,32 +90,15 @@ extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.PipedOutputStream#close() public void java.io.PipedOutputStream.close() throws
-     * java.io.IOException}.
+     * Test method for {@link java.io.PipedOutputStream#write(int) public void java.io.PipedOutputStream.write(int)
+     * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.PipedOutputStream#flush() public synchronized void
-     * java.io.PipedOutputStream.flush() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_flush()
+    public default void test_write_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

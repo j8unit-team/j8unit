@@ -37,6 +37,34 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.naming.Reference#Reference(java.lang.String) public
+     * javax.naming.Reference(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Reference_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.Reference sut = null; // = new Reference(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.naming.Reference#Reference(java.lang.String,javax.naming.RefAddr) public
+     * javax.naming.Reference(java.lang.String,javax.naming.RefAddr)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Reference_String_RefAddr()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.Reference sut = null; // = new Reference(java.lang.String,javax.naming.RefAddr);
+    }
+
+    /**
      * Test method for
      * {@link javax.naming.Reference#Reference(java.lang.String,javax.naming.RefAddr,java.lang.String,java.lang.String)
      * public javax.naming.Reference(java.lang.String,javax.naming.RefAddr,java.lang.String,java.lang.String)}.
@@ -64,34 +92,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.Reference sut = null; // = new Reference(java.lang.String,java.lang.String,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.naming.Reference#Reference(java.lang.String,javax.naming.RefAddr) public
-     * javax.naming.Reference(java.lang.String,javax.naming.RefAddr)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Reference_String_RefAddr()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.Reference sut = null; // = new Reference(java.lang.String,javax.naming.RefAddr);
-    }
-
-    /**
-     * Test method for {@link javax.naming.Reference#Reference(java.lang.String) public
-     * javax.naming.Reference(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Reference_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.Reference sut = null; // = new Reference(java.lang.String);
     }
 
     @Override

@@ -36,6 +36,19 @@ public abstract interface LinkExceptionClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.naming.LinkException#LinkException() public javax.naming.LinkException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LinkException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.LinkException sut = null; // = new LinkException();
+    }
+
+    /**
      * Test method for {@link javax.naming.LinkException#LinkException(java.lang.String) public
      * javax.naming.LinkException(java.lang.String)}.
      */
@@ -47,19 +60,6 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.LinkException sut = null; // = new LinkException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.naming.LinkException#LinkException() public javax.naming.LinkException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LinkException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.LinkException sut = null; // = new LinkException();
     }
 
     @Override

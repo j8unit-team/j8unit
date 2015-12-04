@@ -24,38 +24,6 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RelationNotification#getOldRoleValue() public java.util.List
-     * javax.management.relation.RelationNotification.getOldRoleValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOldRoleValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.RelationNotification#getRelationTypeName() public
-     * java.lang.String javax.management.relation.RelationNotification.getRelationTypeName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRelationTypeName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.relation.RelationNotification#getMBeansToUnregister() public
      * java.util.List javax.management.relation.RelationNotification.getMBeansToUnregister()}.
      * </p>
@@ -64,38 +32,6 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMBeansToUnregister()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.RelationNotification#getRoleName() public java.lang.String
-     * javax.management.relation.RelationNotification.getRoleName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRoleName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.RelationNotification#getObjectName() public
-     * javax.management.ObjectName javax.management.relation.RelationNotification.getObjectName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getObjectName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,6 +56,38 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.management.relation.RelationNotification#getObjectName() public
+     * javax.management.ObjectName javax.management.relation.RelationNotification.getObjectName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getObjectName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.RelationNotification#getOldRoleValue() public java.util.List
+     * javax.management.relation.RelationNotification.getOldRoleValue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOldRoleValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.relation.RelationNotification#getRelationId() public java.lang.String
      * javax.management.relation.RelationNotification.getRelationId()}.
      * </p>
@@ -128,6 +96,38 @@ extends org.j8unit.repository.javax.management.NotificationTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getRelationId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.RelationNotification#getRelationTypeName() public
+     * java.lang.String javax.management.relation.RelationNotification.getRelationTypeName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRelationTypeName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.RelationNotification#getRoleName() public java.lang.String
+     * javax.management.relation.RelationNotification.getRoleName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRoleName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

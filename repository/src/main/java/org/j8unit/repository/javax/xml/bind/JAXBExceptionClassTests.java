@@ -36,6 +36,34 @@ public abstract interface JAXBExceptionClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.xml.bind.JAXBException#JAXBException(java.lang.String) public
+     * javax.xml.bind.JAXBException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JAXBException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.bind.JAXBException sut = null; // = new JAXBException(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.xml.bind.JAXBException#JAXBException(java.lang.String,java.lang.String) public
+     * javax.xml.bind.JAXBException(java.lang.String,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JAXBException_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.bind.JAXBException sut = null; // = new JAXBException(java.lang.String,java.lang.String);
+    }
+
+    /**
      * Test method for
      * {@link javax.xml.bind.JAXBException#JAXBException(java.lang.String,java.lang.String,java.lang.Throwable) public
      * javax.xml.bind.JAXBException(java.lang.String,java.lang.String,java.lang.Throwable)}.
@@ -77,34 +105,6 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.bind.JAXBException sut = null; // = new JAXBException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link javax.xml.bind.JAXBException#JAXBException(java.lang.String,java.lang.String) public
-     * javax.xml.bind.JAXBException(java.lang.String,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JAXBException_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.bind.JAXBException sut = null; // = new JAXBException(java.lang.String,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.bind.JAXBException#JAXBException(java.lang.String) public
-     * javax.xml.bind.JAXBException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JAXBException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.bind.JAXBException sut = null; // = new JAXBException(java.lang.String);
     }
 
     @Override

@@ -64,16 +64,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.text.DecimalFormatSymbols sut = null; // = new DecimalFormatSymbols(java.util.Locale);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.text.DecimalFormatSymbols> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.text.DecimalFormatSymbols.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.text.DecimalFormatSymbols#getAvailableLocales() public static java.util.Locale[]
@@ -84,6 +74,22 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAvailableLocales()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.DecimalFormatSymbols#getInstance() public static final
+     * java.text.DecimalFormatSymbols java.text.DecimalFormatSymbols.getInstance()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInstance()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,20 +112,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.text.DecimalFormatSymbols#getInstance() public static final
-     * java.text.DecimalFormatSymbols java.text.DecimalFormatSymbols.getInstance()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getInstance()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.text.DecimalFormatSymbols> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.text.DecimalFormatSymbols.class.isAssignableFrom(sut));
     }
 
 }

@@ -39,6 +39,38 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.net.ssl.TrustManagerFactory#getProvider() public final java.security.Provider
+     * javax.net.ssl.TrustManagerFactory.getProvider()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProvider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.TrustManagerFactory#getTrustManagers() public final
+     * javax.net.ssl.TrustManager[] javax.net.ssl.TrustManagerFactory.getTrustManagers()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTrustManagers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.net.ssl.TrustManagerFactory#init(java.security.KeyStore) public final void
      * javax.net.ssl.TrustManagerFactory.init(java.security.KeyStore) throws java.security.KeyStoreException}.
      * </p>
@@ -64,38 +96,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_init_ManagerFactoryParameters()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.TrustManagerFactory#getProvider() public final java.security.Provider
-     * javax.net.ssl.TrustManagerFactory.getProvider()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProvider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.TrustManagerFactory#getTrustManagers() public final
-     * javax.net.ssl.TrustManager[] javax.net.ssl.TrustManagerFactory.getTrustManagers()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTrustManagers()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

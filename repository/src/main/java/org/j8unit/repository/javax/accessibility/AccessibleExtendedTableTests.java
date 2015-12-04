@@ -24,6 +24,22 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTableTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.accessibility.AccessibleExtendedTable#getAccessibleColumn(int) public abstract int
+     * javax.accessibility.AccessibleExtendedTable.getAccessibleColumn(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleColumn_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.accessibility.AccessibleExtendedTable#getAccessibleIndex(int,int) public abstract
      * int javax.accessibility.AccessibleExtendedTable.getAccessibleIndex(int,int)}.
      * </p>
@@ -48,22 +64,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAccessibleRow_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleExtendedTable#getAccessibleColumn(int) public abstract int
-     * javax.accessibility.AccessibleExtendedTable.getAccessibleColumn(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleColumn_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

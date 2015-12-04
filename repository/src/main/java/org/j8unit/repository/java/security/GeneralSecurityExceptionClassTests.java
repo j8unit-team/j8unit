@@ -36,17 +36,31 @@ public abstract interface GeneralSecurityExceptionClassTests<SUT extends Class<?
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.GeneralSecurityException#GeneralSecurityException(java.lang.Throwable)
-     * public java.security.GeneralSecurityException(java.lang.Throwable)}.
+     * Test method for {@link java.security.GeneralSecurityException#GeneralSecurityException() public
+     * java.security.GeneralSecurityException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_GeneralSecurityException_Throwable()
+    public default void create_GeneralSecurityException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.GeneralSecurityException sut = null; // = new GeneralSecurityException(java.lang.Throwable);
+        final java.security.GeneralSecurityException sut = null; // = new GeneralSecurityException();
+    }
+
+    /**
+     * Test method for {@link java.security.GeneralSecurityException#GeneralSecurityException(java.lang.String) public
+     * java.security.GeneralSecurityException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_GeneralSecurityException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.GeneralSecurityException sut = null; // = new GeneralSecurityException(java.lang.String);
     }
 
     /**
@@ -66,31 +80,17 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.security.GeneralSecurityException#GeneralSecurityException(java.lang.String) public
-     * java.security.GeneralSecurityException(java.lang.String)}.
+     * Test method for {@link java.security.GeneralSecurityException#GeneralSecurityException(java.lang.Throwable)
+     * public java.security.GeneralSecurityException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_GeneralSecurityException_String()
+    public default void create_GeneralSecurityException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.GeneralSecurityException sut = null; // = new GeneralSecurityException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.security.GeneralSecurityException#GeneralSecurityException() public
-     * java.security.GeneralSecurityException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_GeneralSecurityException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.GeneralSecurityException sut = null; // = new GeneralSecurityException();
+        final java.security.GeneralSecurityException sut = null; // = new GeneralSecurityException(java.lang.Throwable);
     }
 
     @Override

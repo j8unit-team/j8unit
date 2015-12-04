@@ -36,6 +36,35 @@ extends org.j8unit.repository.java.lang.AppendableClassTests<SUT>, org.j8unit.re
 org.j8unit.repository.java.io.FilterOutputStreamClassTests<SUT> {
 
     /**
+     * Test method for {@link java.io.PrintStream#PrintStream(java.io.File) public java.io.PrintStream(java.io.File)
+     * throws java.io.FileNotFoundException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PrintStream_File()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.PrintStream sut = null; // = new PrintStream(java.io.File);
+    }
+
+    /**
+     * Test method for {@link java.io.PrintStream#PrintStream(java.io.File,java.lang.String) public
+     * java.io.PrintStream(java.io.File,java.lang.String) throws
+     * java.io.FileNotFoundException,java.io.UnsupportedEncodingException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PrintStream_File_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.PrintStream sut = null; // = new PrintStream(java.io.File,java.lang.String);
+    }
+
+    /**
      * Test method for {@link java.io.PrintStream#PrintStream(java.io.OutputStream) public
      * java.io.PrintStream(java.io.OutputStream)}.
      */
@@ -104,35 +133,6 @@ org.j8unit.repository.java.io.FilterOutputStreamClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.PrintStream sut = null; // = new PrintStream(java.lang.String,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.io.PrintStream#PrintStream(java.io.File,java.lang.String) public
-     * java.io.PrintStream(java.io.File,java.lang.String) throws
-     * java.io.FileNotFoundException,java.io.UnsupportedEncodingException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PrintStream_File_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.PrintStream sut = null; // = new PrintStream(java.io.File,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.io.PrintStream#PrintStream(java.io.File) public java.io.PrintStream(java.io.File)
-     * throws java.io.FileNotFoundException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PrintStream_File()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.PrintStream sut = null; // = new PrintStream(java.io.File);
     }
 
     @Override

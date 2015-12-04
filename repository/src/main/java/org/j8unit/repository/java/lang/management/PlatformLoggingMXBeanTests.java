@@ -24,14 +24,14 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.lang.management.PlatformLoggingMXBean#getLoggerNames() public abstract java.util.List
-     * java.lang.management.PlatformLoggingMXBean.getLoggerNames()}.
+     * Test method for {@link java.lang.management.PlatformLoggingMXBean#getLoggerLevel(java.lang.String) public
+     * abstract java.lang.String java.lang.management.PlatformLoggingMXBean.getLoggerLevel(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLoggerNames()
+    public default void test_getLoggerLevel_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,15 +40,14 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for
-     * {@link java.lang.management.PlatformLoggingMXBean#setLoggerLevel(java.lang.String,java.lang.String) public
-     * abstract void java.lang.management.PlatformLoggingMXBean.setLoggerLevel(java.lang.String,java.lang.String)}.
+     * Test method for {@link java.lang.management.PlatformLoggingMXBean#getLoggerNames() public abstract java.util.List
+     * java.lang.management.PlatformLoggingMXBean.getLoggerNames()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setLoggerLevel_String_String()
+    public default void test_getLoggerNames()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,14 +72,15 @@ extends org.j8unit.repository.java.lang.management.PlatformManagedObjectTests<SU
 
     /**
      * <p>
-     * Test method for {@link java.lang.management.PlatformLoggingMXBean#getLoggerLevel(java.lang.String) public
-     * abstract java.lang.String java.lang.management.PlatformLoggingMXBean.getLoggerLevel(java.lang.String)}.
+     * Test method for
+     * {@link java.lang.management.PlatformLoggingMXBean#setLoggerLevel(java.lang.String,java.lang.String) public
+     * abstract void java.lang.management.PlatformLoggingMXBean.setLoggerLevel(java.lang.String,java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLoggerLevel_String()
+    public default void test_setLoggerLevel_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

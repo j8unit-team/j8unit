@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.soap.SOAPBinding#getSOAPFactory() public abstract javax.xml.soap.SOAPFactory
-     * javax.xml.ws.soap.SOAPBinding.getSOAPFactory()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSOAPFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.ws.soap.SOAPBinding#getMessageFactory() public abstract
      * javax.xml.soap.MessageFactory javax.xml.ws.soap.SOAPBinding.getMessageFactory()}.
      * </p>
@@ -47,22 +31,6 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMessageFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.ws.soap.SOAPBinding#setMTOMEnabled(boolean) public abstract void
-     * javax.xml.ws.soap.SOAPBinding.setMTOMEnabled(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMTOMEnabled_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,14 +55,14 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.soap.SOAPBinding#setRoles(java.util.Set) public abstract void
-     * javax.xml.ws.soap.SOAPBinding.setRoles(java.util.Set)}.
+     * Test method for {@link javax.xml.ws.soap.SOAPBinding#getSOAPFactory() public abstract javax.xml.soap.SOAPFactory
+     * javax.xml.ws.soap.SOAPBinding.getSOAPFactory()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setRoles_Set()
+    public default void test_getSOAPFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -111,6 +79,38 @@ extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isMTOMEnabled()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.soap.SOAPBinding#setMTOMEnabled(boolean) public abstract void
+     * javax.xml.ws.soap.SOAPBinding.setMTOMEnabled(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMTOMEnabled_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.soap.SOAPBinding#setRoles(java.util.Set) public abstract void
+     * javax.xml.ws.soap.SOAPBinding.setRoles(java.util.Set)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRoles_Set()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

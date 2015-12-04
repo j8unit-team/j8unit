@@ -36,30 +36,6 @@ public abstract interface TableViewClassTests<SUT extends Class<? extends javax.
 extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.text.TableView#TableView(javax.swing.text.Element) public
-     * javax.swing.text.TableView(javax.swing.text.Element)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TableView_Element()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.TableView sut = null; // = new TableView(javax.swing.text.Element);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.TableView> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.TableView.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.text.TableView$TableCell class javax.swing.text.TableView$TableCell},
      * containing all class relevant test methods (at least the test methods of accessible constructors and of
@@ -171,6 +147,30 @@ extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
             assertTrue(javax.swing.text.TableView.TableRow.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.text.TableView#TableView(javax.swing.text.Element) public
+     * javax.swing.text.TableView(javax.swing.text.Element)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TableView_Element()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.TableView sut = null; // = new TableView(javax.swing.text.Element);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.TableView> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.TableView.class.isAssignableFrom(sut));
     }
 
 }

@@ -24,15 +24,14 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Segment#toString() public java.lang.String
-     * javax.swing.text.Segment.toString()}.
+     * Test method for {@link javax.swing.text.Segment#charAt(int) public char javax.swing.text.Segment.charAt(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_charAt_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -58,54 +57,6 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Segment#isPartialReturn() public boolean
-     * javax.swing.text.Segment.isPartialReturn()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isPartialReturn()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Segment#charAt(int) public char javax.swing.text.Segment.charAt(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_charAt_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Segment#first() public char javax.swing.text.Segment.first()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_first()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.text.Segment#current() public char javax.swing.text.Segment.current()}.
      * </p>
      */
@@ -122,64 +73,14 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Segment#getEndIndex() public int javax.swing.text.Segment.getEndIndex()}.
+     * Test method for {@link javax.swing.text.Segment#first() public char javax.swing.text.Segment.first()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getEndIndex()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Segment#setIndex(int) public char javax.swing.text.Segment.setIndex(int)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setIndex_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Segment#subSequence(int,int) public java.lang.CharSequence
-     * javax.swing.text.Segment.subSequence(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_subSequence_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.Segment#length() public int javax.swing.text.Segment.length()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_length()
+    public default void test_first()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -205,14 +106,14 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Segment#next() public char javax.swing.text.Segment.next()}.
+     * Test method for {@link javax.swing.text.Segment#getEndIndex() public int javax.swing.text.Segment.getEndIndex()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_next()
+    public default void test_getEndIndex()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -221,14 +122,14 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Segment#setPartialReturn(boolean) public void
-     * javax.swing.text.Segment.setPartialReturn(boolean)}.
+     * Test method for {@link javax.swing.text.Segment#getIndex() public int javax.swing.text.Segment.getIndex()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setPartialReturn_boolean()
+    @Override
+    public default void test_getIndex()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -237,14 +138,14 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Segment#previous() public char javax.swing.text.Segment.previous()}.
+     * Test method for {@link javax.swing.text.Segment#isPartialReturn() public boolean
+     * javax.swing.text.Segment.isPartialReturn()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_previous()
+    public default void test_isPartialReturn()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -269,14 +170,113 @@ org.j8unit.repository.java.lang.CharSequenceTests<SUT>, org.j8unit.repository.ja
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.Segment#getIndex() public int javax.swing.text.Segment.getIndex()}.
+     * Test method for {@link javax.swing.text.Segment#length() public int javax.swing.text.Segment.length()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getIndex()
+    public default void test_length()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Segment#next() public char javax.swing.text.Segment.next()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_next()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Segment#previous() public char javax.swing.text.Segment.previous()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_previous()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Segment#setIndex(int) public char javax.swing.text.Segment.setIndex(int)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setIndex_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Segment#setPartialReturn(boolean) public void
+     * javax.swing.text.Segment.setPartialReturn(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPartialReturn_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Segment#subSequence(int,int) public java.lang.CharSequence
+     * javax.swing.text.Segment.subSequence(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_subSequence_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.Segment#toString() public java.lang.String
+     * javax.swing.text.Segment.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

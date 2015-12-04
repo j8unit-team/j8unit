@@ -24,30 +24,14 @@ extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getPrimeQ() public java.math.BigInteger
-     * java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPrimeQ()}.
+     * Test method for {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getCrtCoefficient() public
+     * java.math.BigInteger java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getCrtCoefficient()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrimeQ()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getPrimeExponentQ() public
-     * java.math.BigInteger java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPrimeExponentQ()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrimeExponentQ()
+    public default void test_getCrtCoefficient()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,30 +72,14 @@ extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getCrtCoefficient() public
-     * java.math.BigInteger java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getCrtCoefficient()}.
+     * Test method for {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getPrimeExponentQ() public
+     * java.math.BigInteger java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPrimeExponentQ()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCrtCoefficient()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getPublicExponent() public
-     * java.math.BigInteger java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPublicExponent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPublicExponent()
+    public default void test_getPrimeExponentQ()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -128,6 +96,38 @@ extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getPrimeP()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getPrimeQ() public java.math.BigInteger
+     * java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPrimeQ()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrimeQ()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.RSAMultiPrimePrivateCrtKeySpec#getPublicExponent() public
+     * java.math.BigInteger java.security.spec.RSAMultiPrimePrivateCrtKeySpec.getPublicExponent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPublicExponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

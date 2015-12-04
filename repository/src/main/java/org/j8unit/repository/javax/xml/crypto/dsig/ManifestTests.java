@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dsig.Manifest#getReferences() public abstract java.util.List
-     * javax.xml.crypto.dsig.Manifest.getReferences()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReferences()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.crypto.dsig.Manifest#getId() public abstract java.lang.String
      * javax.xml.crypto.dsig.Manifest.getId()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.Manifest#getReferences() public abstract java.util.List
+     * javax.xml.crypto.dsig.Manifest.getReferences()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getReferences()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

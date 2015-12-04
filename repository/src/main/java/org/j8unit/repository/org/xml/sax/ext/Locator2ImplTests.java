@@ -23,18 +23,18 @@ extends org.j8unit.repository.org.xml.sax.ext.Locator2Tests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.ext.Locator2Impl#setEncoding(java.lang.String) public void
-     * org.xml.sax.ext.Locator2Impl.setEncoding(java.lang.String)}.
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setEncoding_String()
+    @Override
+    public default void test_getColumnNumber()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
     }
 
     /**
@@ -48,39 +48,6 @@ extends org.j8unit.repository.org.xml.sax.ext.Locator2Tests<SUT>, org.j8unit.rep
     @Category(Draft.class)
     @Override
     public default void test_getEncoding()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.ext.Locator2Impl#getXMLVersion() public java.lang.String
-     * org.xml.sax.ext.Locator2Impl.getXMLVersion()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getXMLVersion()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.ext.Locator2Impl#setXMLVersion(java.lang.String) public void
-     * org.xml.sax.ext.Locator2Impl.setXMLVersion(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setXMLVersion_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -115,22 +82,6 @@ extends org.j8unit.repository.org.xml.sax.ext.Locator2Tests<SUT>, org.j8unit.rep
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getSystemId()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
     public default void test_getPublicId()
     throws Exception {
     }
@@ -147,8 +98,57 @@ extends org.j8unit.repository.org.xml.sax.ext.Locator2Tests<SUT>, org.j8unit.rep
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getColumnNumber()
+    public default void test_getSystemId()
     throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.ext.Locator2Impl#getXMLVersion() public java.lang.String
+     * org.xml.sax.ext.Locator2Impl.getXMLVersion()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getXMLVersion()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.ext.Locator2Impl#setEncoding(java.lang.String) public void
+     * org.xml.sax.ext.Locator2Impl.setEncoding(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setEncoding_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.ext.Locator2Impl#setXMLVersion(java.lang.String) public void
+     * org.xml.sax.ext.Locator2Impl.setXMLVersion(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setXMLVersion_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

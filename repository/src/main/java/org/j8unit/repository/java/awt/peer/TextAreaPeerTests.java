@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.awt.peer.TextComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.TextAreaPeer#replaceRange(java.lang.String,int,int) public abstract void
-     * java.awt.peer.TextAreaPeer.replaceRange(java.lang.String,int,int)}.
+     * Test method for {@link java.awt.peer.TextAreaPeer#getMinimumSize(int,int) public abstract java.awt.Dimension
+     * java.awt.peer.TextAreaPeer.getMinimumSize(int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_replaceRange_String_int_int()
+    public default void test_getMinimumSize_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,22 +55,6 @@ extends org.j8unit.repository.java.awt.peer.TextComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.TextAreaPeer#getMinimumSize(int,int) public abstract java.awt.Dimension
-     * java.awt.peer.TextAreaPeer.getMinimumSize(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinimumSize_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.peer.TextAreaPeer#insert(java.lang.String,int) public abstract void
      * java.awt.peer.TextAreaPeer.insert(java.lang.String,int)}.
      * </p>
@@ -79,6 +63,22 @@ extends org.j8unit.repository.java.awt.peer.TextComponentPeerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_insert_String_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.TextAreaPeer#replaceRange(java.lang.String,int,int) public abstract void
+     * java.awt.peer.TextAreaPeer.replaceRange(java.lang.String,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replaceRange_String_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

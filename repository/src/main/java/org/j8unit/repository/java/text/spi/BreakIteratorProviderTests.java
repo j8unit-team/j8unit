@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.spi.BreakIteratorProvider#getLineInstance(java.util.Locale) public abstract
-     * java.text.BreakIterator java.text.spi.BreakIteratorProvider.getLineInstance(java.util.Locale)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLineInstance_Locale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.text.spi.BreakIteratorProvider#getCharacterInstance(java.util.Locale) public abstract
      * java.text.BreakIterator java.text.spi.BreakIteratorProvider.getCharacterInstance(java.util.Locale)}.
      * </p>
@@ -55,14 +39,14 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.text.spi.BreakIteratorProvider#getWordInstance(java.util.Locale) public abstract
-     * java.text.BreakIterator java.text.spi.BreakIteratorProvider.getWordInstance(java.util.Locale)}.
+     * Test method for {@link java.text.spi.BreakIteratorProvider#getLineInstance(java.util.Locale) public abstract
+     * java.text.BreakIterator java.text.spi.BreakIteratorProvider.getLineInstance(java.util.Locale)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getWordInstance_Locale()
+    public default void test_getLineInstance_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,6 +63,22 @@ extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getSentenceInstance_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.spi.BreakIteratorProvider#getWordInstance(java.util.Locale) public abstract
+     * java.text.BreakIterator java.text.spi.BreakIteratorProvider.getWordInstance(java.util.Locale)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWordInstance_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

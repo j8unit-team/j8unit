@@ -23,13 +23,32 @@ extends org.j8unit.repository.java.awt.StrokeTests<SUT>, org.j8unit.repository.j
 
     /**
      * <p>
-     * Test method for {@link java.awt.BasicStroke#getLineJoin() public int java.awt.BasicStroke.getLineJoin()}.
+     * Test method for {@link java.awt.BasicStroke#createStrokedShape(java.awt.Shape) public java.awt.Shape
+     * java.awt.BasicStroke.createStrokedShape(java.awt.Shape)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLineJoin()
+    @Override
+    public default void test_createStrokedShape_Shape()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.BasicStroke#equals(java.lang.Object) public boolean
+     * java.awt.BasicStroke.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -53,6 +72,21 @@ extends org.j8unit.repository.java.awt.StrokeTests<SUT>, org.j8unit.repository.j
 
     /**
      * <p>
+     * Test method for {@link java.awt.BasicStroke#getDashPhase() public float java.awt.BasicStroke.getDashPhase()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDashPhase()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.BasicStroke#getEndCap() public int java.awt.BasicStroke.getEndCap()}.
      * </p>
      */
@@ -60,6 +94,36 @@ extends org.j8unit.repository.java.awt.StrokeTests<SUT>, org.j8unit.repository.j
     @Test
     @Category(Draft.class)
     public default void test_getEndCap()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.BasicStroke#getLineJoin() public int java.awt.BasicStroke.getLineJoin()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLineJoin()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.BasicStroke#getLineWidth() public float java.awt.BasicStroke.getLineWidth()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLineWidth()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,70 +155,6 @@ extends org.j8unit.repository.java.awt.StrokeTests<SUT>, org.j8unit.repository.j
     @Category(Draft.class)
     @Override
     public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.BasicStroke#equals(java.lang.Object) public boolean
-     * java.awt.BasicStroke.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.BasicStroke#getDashPhase() public float java.awt.BasicStroke.getDashPhase()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDashPhase()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.BasicStroke#createStrokedShape(java.awt.Shape) public java.awt.Shape
-     * java.awt.BasicStroke.createStrokedShape(java.awt.Shape)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createStrokedShape_Shape()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.BasicStroke#getLineWidth() public float java.awt.BasicStroke.getLineWidth()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLineWidth()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

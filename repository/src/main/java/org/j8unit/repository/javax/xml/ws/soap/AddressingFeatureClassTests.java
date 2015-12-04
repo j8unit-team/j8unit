@@ -36,74 +36,6 @@ public abstract interface AddressingFeatureClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.xml.ws.soap.AddressingFeature#AddressingFeature(boolean,boolean,javax.xml.ws.soap.AddressingFeature.Responses)
-     * public javax.xml.ws.soap.AddressingFeature(boolean,boolean,javax.xml.ws.soap.AddressingFeature$Responses)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AddressingFeature_boolean_boolean_Responses()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.ws.soap.AddressingFeature sut = null; // = new
-                                                              // AddressingFeature(boolean,boolean,javax.xml.ws.soap.AddressingFeature.Responses);
-    }
-
-    /**
-     * Test method for {@link javax.xml.ws.soap.AddressingFeature#AddressingFeature(boolean,boolean) public
-     * javax.xml.ws.soap.AddressingFeature(boolean,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AddressingFeature_boolean_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.ws.soap.AddressingFeature sut = null; // = new AddressingFeature(boolean,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.xml.ws.soap.AddressingFeature#AddressingFeature(boolean) public
-     * javax.xml.ws.soap.AddressingFeature(boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AddressingFeature_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.ws.soap.AddressingFeature sut = null; // = new AddressingFeature(boolean);
-    }
-
-    /**
-     * Test method for {@link javax.xml.ws.soap.AddressingFeature#AddressingFeature() public
-     * javax.xml.ws.soap.AddressingFeature()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AddressingFeature()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.ws.soap.AddressingFeature sut = null; // = new AddressingFeature();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.ws.soap.AddressingFeature> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.ws.soap.AddressingFeature.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.xml.ws.soap.AddressingFeature$Responses class
      * javax.xml.ws.soap.AddressingFeature$Responses}, containing all class relevant test methods (at least the test
@@ -132,16 +64,6 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
     @Category(J8UnitRepository.class)
     public static abstract interface ResponsesClassTests<SUT extends Class<? extends javax.xml.ws.soap.AddressingFeature.Responses>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.ws.soap.AddressingFeature.Responses> {
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.xml.ws.soap.AddressingFeature.Responses> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.xml.ws.soap.AddressingFeature.Responses.class.isAssignableFrom(sut));
-        }
 
         /**
          * <p>
@@ -176,6 +98,84 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
             assert sut != null;
         }
 
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.xml.ws.soap.AddressingFeature.Responses> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.xml.ws.soap.AddressingFeature.Responses.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * Test method for {@link javax.xml.ws.soap.AddressingFeature#AddressingFeature() public
+     * javax.xml.ws.soap.AddressingFeature()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AddressingFeature()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.ws.soap.AddressingFeature sut = null; // = new AddressingFeature();
+    }
+
+    /**
+     * Test method for {@link javax.xml.ws.soap.AddressingFeature#AddressingFeature(boolean) public
+     * javax.xml.ws.soap.AddressingFeature(boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AddressingFeature_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.ws.soap.AddressingFeature sut = null; // = new AddressingFeature(boolean);
+    }
+
+    /**
+     * Test method for {@link javax.xml.ws.soap.AddressingFeature#AddressingFeature(boolean,boolean) public
+     * javax.xml.ws.soap.AddressingFeature(boolean,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AddressingFeature_boolean_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.ws.soap.AddressingFeature sut = null; // = new AddressingFeature(boolean,boolean);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.xml.ws.soap.AddressingFeature#AddressingFeature(boolean,boolean,javax.xml.ws.soap.AddressingFeature.Responses)
+     * public javax.xml.ws.soap.AddressingFeature(boolean,boolean,javax.xml.ws.soap.AddressingFeature$Responses)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AddressingFeature_boolean_boolean_Responses()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.ws.soap.AddressingFeature sut = null; // = new
+                                                              // AddressingFeature(boolean,boolean,javax.xml.ws.soap.AddressingFeature.Responses);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.ws.soap.AddressingFeature> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.ws.soap.AddressingFeature.class.isAssignableFrom(sut));
     }
 
 }

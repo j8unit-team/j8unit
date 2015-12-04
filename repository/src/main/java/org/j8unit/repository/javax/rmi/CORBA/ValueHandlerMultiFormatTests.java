@@ -23,6 +23,22 @@ extends org.j8unit.repository.javax.rmi.CORBA.ValueHandlerTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.rmi.CORBA.ValueHandlerMultiFormat#getMaximumStreamFormatVersion() public abstract
+     * byte javax.rmi.CORBA.ValueHandlerMultiFormat.getMaximumStreamFormatVersion()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaximumStreamFormatVersion()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link javax.rmi.CORBA.ValueHandlerMultiFormat#writeValue(org.omg.CORBA.portable.OutputStream,java.io.Serializable,byte)
      * public abstract void
@@ -34,22 +50,6 @@ extends org.j8unit.repository.javax.rmi.CORBA.ValueHandlerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_writeValue_OutputStream_Serializable_byte()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.rmi.CORBA.ValueHandlerMultiFormat#getMaximumStreamFormatVersion() public abstract
-     * byte javax.rmi.CORBA.ValueHandlerMultiFormat.getMaximumStreamFormatVersion()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMaximumStreamFormatVersion()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

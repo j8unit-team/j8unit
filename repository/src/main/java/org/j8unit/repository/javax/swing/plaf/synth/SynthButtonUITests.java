@@ -24,6 +24,40 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicButtonUITests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthButtonUI#getBaseline(javax.swing.JComponent,int,int) public
+     * int javax.swing.plaf.synth.SynthButtonUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getBaseline_JComponent_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthButtonUI#getContext(javax.swing.JComponent) public
+     * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthButtonUI.getContext(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getContext_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthButtonUI#getMaximumSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.synth.SynthButtonUI.getMaximumSize(javax.swing.JComponent)}.
      * </p>
@@ -33,23 +67,6 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicButtonUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getMaximumSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthButtonUI#getPreferredSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.synth.SynthButtonUI.getPreferredSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPreferredSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -75,15 +92,32 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicButtonUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthButtonUI#getBaseline(javax.swing.JComponent,int,int) public
-     * int javax.swing.plaf.synth.SynthButtonUI.getBaseline(javax.swing.JComponent,int,int)}.
+     * Test method for {@link javax.swing.plaf.synth.SynthButtonUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.synth.SynthButtonUI.getPreferredSize(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getBaseline_JComponent_int_int()
+    public default void test_getPreferredSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthButtonUI#paint(java.awt.Graphics,javax.swing.JComponent)
+     * public void javax.swing.plaf.synth.SynthButtonUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paint_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -112,15 +146,15 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicButtonUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthButtonUI#getContext(javax.swing.JComponent) public
-     * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthButtonUI.getContext(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.synth.SynthButtonUI#propertyChange(java.beans.PropertyChangeEvent) public
+     * void javax.swing.plaf.synth.SynthButtonUI.propertyChange(java.beans.PropertyChangeEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getContext_JComponent()
+    public default void test_propertyChange_PropertyChangeEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -138,40 +172,6 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicButtonUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_update_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthButtonUI#paint(java.awt.Graphics,javax.swing.JComponent)
-     * public void javax.swing.plaf.synth.SynthButtonUI.paint(java.awt.Graphics,javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paint_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthButtonUI#propertyChange(java.beans.PropertyChangeEvent) public
-     * void javax.swing.plaf.synth.SynthButtonUI.propertyChange(java.beans.PropertyChangeEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_propertyChange_PropertyChangeEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

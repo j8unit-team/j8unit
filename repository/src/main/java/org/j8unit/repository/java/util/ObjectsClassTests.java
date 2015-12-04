@@ -34,16 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ObjectsClassTests<SUT extends Class<? extends java.util.Objects>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.Objects> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.Objects.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.util.Objects#compare(java.lang.Object,java.lang.Object,java.util.Comparator) public
@@ -78,22 +68,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Objects#hashCode(java.lang.Object) public static int
-     * java.util.Objects.hashCode(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.Objects#equals(java.lang.Object,java.lang.Object) public static boolean
      * java.util.Objects.equals(java.lang.Object,java.lang.Object)}.
      * </p>
@@ -102,6 +76,38 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_equals_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Objects#hash(java.lang.Object...) public static int
+     * java.util.Objects.hash(java.lang.Object...)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hash_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Objects#hashCode(java.lang.Object) public static int
+     * java.util.Objects.hashCode(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -126,14 +132,30 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Objects#requireNonNull(java.lang.Object,java.util.function.Supplier) public
-     * static java.lang.Object java.util.Objects.requireNonNull(java.lang.Object,java.util.function.Supplier)}.
+     * Test method for {@link java.util.Objects#nonNull(java.lang.Object) public static boolean
+     * java.util.Objects.nonNull(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_requireNonNull_Object_Supplier()
+    public default void test_nonNull_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Objects#requireNonNull(java.lang.Object) public static java.lang.Object
+     * java.util.Objects.requireNonNull(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_requireNonNull_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -158,14 +180,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Objects#requireNonNull(java.lang.Object) public static java.lang.Object
-     * java.util.Objects.requireNonNull(java.lang.Object)}.
+     * Test method for {@link java.util.Objects#requireNonNull(java.lang.Object,java.util.function.Supplier) public
+     * static java.lang.Object java.util.Objects.requireNonNull(java.lang.Object,java.util.function.Supplier)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_requireNonNull_Object()
+    public default void test_requireNonNull_Object_Supplier()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -204,36 +226,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.util.Objects#hash(java.lang.Object...) public static int
-     * java.util.Objects.hash(java.lang.Object...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_hash_ObjectArray()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Objects#nonNull(java.lang.Object) public static boolean
-     * java.util.Objects.nonNull(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_nonNull_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.util.Objects> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.Objects.class.isAssignableFrom(sut));
     }
 
 }

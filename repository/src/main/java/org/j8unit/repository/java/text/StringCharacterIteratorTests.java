@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
+     * Test method for {@link java.text.StringCharacterIterator#clone() public java.lang.Object
+     * java.text.StringCharacterIterator.clone()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.text.StringCharacterIterator#current() public char
      * java.text.StringCharacterIterator.current()}.
      * </p>
@@ -32,57 +49,6 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
     @Category(Draft.class)
     @Override
     public default void test_current()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.StringCharacterIterator#hashCode() public int
-     * java.text.StringCharacterIterator.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.StringCharacterIterator#getEndIndex() public int
-     * java.text.StringCharacterIterator.getEndIndex()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getEndIndex()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.StringCharacterIterator#setIndex(int) public char
-     * java.text.StringCharacterIterator.setIndex(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setIndex_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -108,23 +74,6 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link java.text.StringCharacterIterator#clone() public java.lang.Object
-     * java.text.StringCharacterIterator.clone()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.text.StringCharacterIterator#first() public char
      * java.text.StringCharacterIterator.first()}.
      * </p>
@@ -142,14 +91,83 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link java.text.StringCharacterIterator#setText(java.lang.String) public void
-     * java.text.StringCharacterIterator.setText(java.lang.String)}.
+     * Test method for {@link java.text.StringCharacterIterator#getBeginIndex() public int
+     * java.text.StringCharacterIterator.getBeginIndex()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setText_String()
+    @Override
+    public default void test_getBeginIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.StringCharacterIterator#getEndIndex() public int
+     * java.text.StringCharacterIterator.getEndIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getEndIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.StringCharacterIterator#getIndex() public int
+     * java.text.StringCharacterIterator.getIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.StringCharacterIterator#hashCode() public int
+     * java.text.StringCharacterIterator.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.StringCharacterIterator#last() public char
+     * java.text.StringCharacterIterator.last()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_last()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -192,15 +210,15 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link java.text.StringCharacterIterator#last() public char
-     * java.text.StringCharacterIterator.last()}.
+     * Test method for {@link java.text.StringCharacterIterator#setIndex(int) public char
+     * java.text.StringCharacterIterator.setIndex(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_last()
+    public default void test_setIndex_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -209,32 +227,14 @@ extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.
 
     /**
      * <p>
-     * Test method for {@link java.text.StringCharacterIterator#getIndex() public int
-     * java.text.StringCharacterIterator.getIndex()}.
+     * Test method for {@link java.text.StringCharacterIterator#setText(java.lang.String) public void
+     * java.text.StringCharacterIterator.setText(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getIndex()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.StringCharacterIterator#getBeginIndex() public int
-     * java.text.StringCharacterIterator.getBeginIndex()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getBeginIndex()
+    public default void test_setText_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

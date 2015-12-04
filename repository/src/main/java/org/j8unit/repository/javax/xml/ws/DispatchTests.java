@@ -39,6 +39,22 @@ extends org.j8unit.repository.javax.xml.ws.BindingProviderTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.ws.Dispatch#invokeAsync(java.lang.Object) public abstract javax.xml.ws.Response
+     * javax.xml.ws.Dispatch.invokeAsync(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_invokeAsync_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.ws.Dispatch#invokeAsync(java.lang.Object,javax.xml.ws.AsyncHandler) public
      * abstract java.util.concurrent.Future
      * javax.xml.ws.Dispatch.invokeAsync(java.lang.Object,javax.xml.ws.AsyncHandler)}.
@@ -48,22 +64,6 @@ extends org.j8unit.repository.javax.xml.ws.BindingProviderTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_invokeAsync_Object_AsyncHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.ws.Dispatch#invokeAsync(java.lang.Object) public abstract javax.xml.ws.Response
-     * javax.xml.ws.Dispatch.invokeAsync(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_invokeAsync_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

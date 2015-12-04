@@ -39,30 +39,15 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedResponseTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#setHostnameVerifier(javax.net.ssl.HostnameVerifier)
-     * public abstract void javax.naming.ldap.StartTlsResponse.setHostnameVerifier(javax.net.ssl.HostnameVerifier)}.
+     * Test method for {@link javax.naming.ldap.StartTlsResponse#getEncodedValue() public byte[]
+     * javax.naming.ldap.StartTlsResponse.getEncodedValue()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setHostnameVerifier_HostnameVerifier()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#setEnabledCipherSuites(java.lang.String[]) public
-     * abstract void javax.naming.ldap.StartTlsResponse.setEnabledCipherSuites(java.lang.String[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setEnabledCipherSuites_StringArray()
+    @Override
+    public default void test_getEncodedValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,15 +73,14 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedResponseTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#getEncodedValue() public byte[]
-     * javax.naming.ldap.StartTlsResponse.getEncodedValue()}.
+     * Test method for {@link javax.naming.ldap.StartTlsResponse#negotiate() public abstract javax.net.ssl.SSLSession
+     * javax.naming.ldap.StartTlsResponse.negotiate() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getEncodedValue()
+    public default void test_negotiate()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -122,14 +106,30 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedResponseTests<SUT>, org.
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsResponse#negotiate() public abstract javax.net.ssl.SSLSession
-     * javax.naming.ldap.StartTlsResponse.negotiate() throws java.io.IOException}.
+     * Test method for {@link javax.naming.ldap.StartTlsResponse#setEnabledCipherSuites(java.lang.String[]) public
+     * abstract void javax.naming.ldap.StartTlsResponse.setEnabledCipherSuites(java.lang.String[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_negotiate()
+    public default void test_setEnabledCipherSuites_StringArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.ldap.StartTlsResponse#setHostnameVerifier(javax.net.ssl.HostnameVerifier)
+     * public abstract void javax.naming.ldap.StartTlsResponse.setHostnameVerifier(javax.net.ssl.HostnameVerifier)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setHostnameVerifier_HostnameVerifier()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

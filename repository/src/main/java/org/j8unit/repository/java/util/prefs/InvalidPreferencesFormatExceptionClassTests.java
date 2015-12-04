@@ -38,22 +38,6 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.util.prefs.InvalidPreferencesFormatException#InvalidPreferencesFormatException(java.lang.Throwable)
-     * public java.util.prefs.InvalidPreferencesFormatException(java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InvalidPreferencesFormatException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.prefs.InvalidPreferencesFormatException sut = null; // = new
-                                                                            // InvalidPreferencesFormatException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
      * {@link java.util.prefs.InvalidPreferencesFormatException#InvalidPreferencesFormatException(java.lang.String)
      * public java.util.prefs.InvalidPreferencesFormatException(java.lang.String)}.
      */
@@ -82,6 +66,22 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.util.prefs.InvalidPreferencesFormatException sut = null; // = new
                                                                             // InvalidPreferencesFormatException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.util.prefs.InvalidPreferencesFormatException#InvalidPreferencesFormatException(java.lang.Throwable)
+     * public java.util.prefs.InvalidPreferencesFormatException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InvalidPreferencesFormatException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.prefs.InvalidPreferencesFormatException sut = null; // = new
+                                                                            // InvalidPreferencesFormatException(java.lang.Throwable);
     }
 
     @Override

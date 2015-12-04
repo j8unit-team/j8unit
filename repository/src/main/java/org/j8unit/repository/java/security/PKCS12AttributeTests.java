@@ -23,15 +23,31 @@ extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTe
 
     /**
      * <p>
-     * Test method for {@link java.security.PKCS12Attribute#toString() public java.lang.String
-     * java.security.PKCS12Attribute.toString()}.
+     * Test method for {@link java.security.PKCS12Attribute#equals(java.lang.Object) public boolean
+     * java.security.PKCS12Attribute.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.PKCS12Attribute#getEncoded() public byte[]
+     * java.security.PKCS12Attribute.getEncoded()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEncoded()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,31 +107,15 @@ extends org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTe
 
     /**
      * <p>
-     * Test method for {@link java.security.PKCS12Attribute#getEncoded() public byte[]
-     * java.security.PKCS12Attribute.getEncoded()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEncoded()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.PKCS12Attribute#equals(java.lang.Object) public boolean
-     * java.security.PKCS12Attribute.equals(java.lang.Object)}.
+     * Test method for {@link java.security.PKCS12Attribute#toString() public java.lang.String
+     * java.security.PKCS12Attribute.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

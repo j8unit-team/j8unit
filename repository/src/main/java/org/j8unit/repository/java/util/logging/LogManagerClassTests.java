@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface LogManagerClassTests<SUT extends Class<? extends java.util.logging.LogManager>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.util.logging.LogManager#getLoggingMXBean() public static synchronized
+     * java.util.logging.LoggingMXBean java.util.logging.LogManager.getLoggingMXBean()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getLoggingMXBean()
     throws Exception {
-        // create new instance
-        final Class<? extends java.util.logging.LogManager> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.logging.LogManager.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -61,20 +67,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.util.logging.LogManager#getLoggingMXBean() public static synchronized
-     * java.util.logging.LoggingMXBean java.util.logging.LogManager.getLoggingMXBean()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getLoggingMXBean()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.util.logging.LogManager> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.logging.LogManager.class.isAssignableFrom(sut));
     }
 
 }

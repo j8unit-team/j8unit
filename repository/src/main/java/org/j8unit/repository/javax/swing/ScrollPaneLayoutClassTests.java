@@ -37,29 +37,6 @@ extends org.j8unit.repository.java.awt.LayoutManagerClassTests<SUT>, org.j8unit.
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.ScrollPaneLayout#ScrollPaneLayout() public javax.swing.ScrollPaneLayout()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ScrollPaneLayout()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.ScrollPaneLayout sut = null; // = new ScrollPaneLayout();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.ScrollPaneLayout> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.ScrollPaneLayout.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.ScrollPaneLayout$UIResource class javax.swing.ScrollPaneLayout$UIResource},
      * containing all class relevant test methods (at least the test methods of accessible constructors and of
@@ -112,6 +89,29 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
             assertTrue(javax.swing.ScrollPaneLayout.UIResource.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.ScrollPaneLayout#ScrollPaneLayout() public javax.swing.ScrollPaneLayout()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ScrollPaneLayout()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.ScrollPaneLayout sut = null; // = new ScrollPaneLayout();
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.ScrollPaneLayout> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.ScrollPaneLayout.class.isAssignableFrom(sut));
     }
 
 }

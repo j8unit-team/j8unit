@@ -36,19 +36,17 @@ public abstract interface SyncProviderExceptionClassTests<SUT extends Class<? ex
 extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.sql.rowset.spi.SyncProviderException#SyncProviderException(javax.sql.rowset.spi.SyncResolver) public
-     * javax.sql.rowset.spi.SyncProviderException(javax.sql.rowset.spi.SyncResolver)}.
+     * Test method for {@link javax.sql.rowset.spi.SyncProviderException#SyncProviderException() public
+     * javax.sql.rowset.spi.SyncProviderException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SyncProviderException_SyncResolver()
+    public default void create_SyncProviderException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.sql.rowset.spi.SyncProviderException sut = null; // = new
-                                                                     // SyncProviderException(javax.sql.rowset.spi.SyncResolver);
+        final javax.sql.rowset.spi.SyncProviderException sut = null; // = new SyncProviderException();
     }
 
     /**
@@ -66,17 +64,19 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.sql.rowset.spi.SyncProviderException#SyncProviderException() public
-     * javax.sql.rowset.spi.SyncProviderException()}.
+     * Test method for
+     * {@link javax.sql.rowset.spi.SyncProviderException#SyncProviderException(javax.sql.rowset.spi.SyncResolver) public
+     * javax.sql.rowset.spi.SyncProviderException(javax.sql.rowset.spi.SyncResolver)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SyncProviderException()
+    public default void create_SyncProviderException_SyncResolver()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.sql.rowset.spi.SyncProviderException sut = null; // = new SyncProviderException();
+        final javax.sql.rowset.spi.SyncProviderException sut = null; // = new
+                                                                     // SyncProviderException(javax.sql.rowset.spi.SyncResolver);
     }
 
     @Override

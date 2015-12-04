@@ -36,6 +36,19 @@ public abstract interface SecureRandomClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
 
     /**
+     * Test method for {@link java.security.SecureRandom#SecureRandom() public java.security.SecureRandom()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SecureRandom()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.SecureRandom sut = null; // = new SecureRandom();
+    }
+
+    /**
      * Test method for {@link java.security.SecureRandom#SecureRandom(byte[]) public java.security.SecureRandom(byte[])}
      * .
      */
@@ -50,54 +63,16 @@ extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.security.SecureRandom#SecureRandom() public java.security.SecureRandom()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SecureRandom()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.SecureRandom sut = null; // = new SecureRandom();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.security.SecureRandom> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.SecureRandom.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
-     * Test method for {@link java.security.SecureRandom#getSeed(int) public static byte[]
-     * java.security.SecureRandom.getSeed(int)}.
+     * Test method for {@link java.security.SecureRandom#getInstance(java.lang.String) public static
+     * java.security.SecureRandom java.security.SecureRandom.getInstance(java.lang.String) throws
+     * java.security.NoSuchAlgorithmException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSeed_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.SecureRandom#getInstanceStrong() public static java.security.SecureRandom
-     * java.security.SecureRandom.getInstanceStrong() throws java.security.NoSuchAlgorithmException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInstanceStrong()
+    public default void test_getInstance_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -140,19 +115,44 @@ extends org.j8unit.repository.java.util.RandomClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.SecureRandom#getInstance(java.lang.String) public static
-     * java.security.SecureRandom java.security.SecureRandom.getInstance(java.lang.String) throws
-     * java.security.NoSuchAlgorithmException}.
+     * Test method for {@link java.security.SecureRandom#getInstanceStrong() public static java.security.SecureRandom
+     * java.security.SecureRandom.getInstanceStrong() throws java.security.NoSuchAlgorithmException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInstance_String()
+    public default void test_getInstanceStrong()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.SecureRandom#getSeed(int) public static byte[]
+     * java.security.SecureRandom.getSeed(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSeed_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.security.SecureRandom> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.SecureRandom.class.isAssignableFrom(sut));
     }
 
 }

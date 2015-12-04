@@ -36,6 +36,19 @@ public abstract interface ConnectExceptionClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.java.net.SocketExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link java.net.ConnectException#ConnectException() public java.net.ConnectException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ConnectException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.ConnectException sut = null; // = new ConnectException();
+    }
+
+    /**
      * Test method for {@link java.net.ConnectException#ConnectException(java.lang.String) public
      * java.net.ConnectException(java.lang.String)}.
      */
@@ -47,19 +60,6 @@ extends org.j8unit.repository.java.net.SocketExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.net.ConnectException sut = null; // = new ConnectException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.net.ConnectException#ConnectException() public java.net.ConnectException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ConnectException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.ConnectException sut = null; // = new ConnectException();
     }
 
     @Override

@@ -23,6 +23,55 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
+     * Test method for {@link javax.xml.transform.dom.DOMResult#getNextSibling() public org.w3c.dom.Node
+     * javax.xml.transform.dom.DOMResult.getNextSibling()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNextSibling()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.dom.DOMResult#getNode() public org.w3c.dom.Node
+     * javax.xml.transform.dom.DOMResult.getNode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.dom.DOMResult#getSystemId() public java.lang.String
+     * javax.xml.transform.dom.DOMResult.getSystemId()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getSystemId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.transform.dom.DOMResult#setNextSibling(org.w3c.dom.Node) public void
      * javax.xml.transform.dom.DOMResult.setNextSibling(org.w3c.dom.Node)}.
      * </p>
@@ -55,22 +104,6 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.dom.DOMResult#getNode() public org.w3c.dom.Node
-     * javax.xml.transform.dom.DOMResult.getNode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.transform.dom.DOMResult#setSystemId(java.lang.String) public void
      * javax.xml.transform.dom.DOMResult.setSystemId(java.lang.String)}.
      * </p>
@@ -80,39 +113,6 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
     @Category(Draft.class)
     @Override
     public default void test_setSystemId_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.dom.DOMResult#getSystemId() public java.lang.String
-     * javax.xml.transform.dom.DOMResult.getSystemId()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSystemId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.dom.DOMResult#getNextSibling() public org.w3c.dom.Node
-     * javax.xml.transform.dom.DOMResult.getNextSibling()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNextSibling()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

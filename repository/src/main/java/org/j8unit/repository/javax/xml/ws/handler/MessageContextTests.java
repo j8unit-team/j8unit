@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.util.MapTests<SUT, java.lang.String, java.lan
 
     /**
      * <p>
+     * Test class for {@link javax.xml.ws.handler.MessageContext$Scope class javax.xml.ws.handler.MessageContext$Scope},
+     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests.ScopeClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface ScopeTests<SUT extends javax.xml.ws.handler.MessageContext.Scope>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.xml.ws.handler.MessageContext.Scope> {
+
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.ws.handler.MessageContext#getScope(java.lang.String) public abstract
      * javax.xml.ws.handler.MessageContext$Scope javax.xml.ws.handler.MessageContext.getScope(java.lang.String)}.
      * </p>
@@ -53,23 +70,6 @@ extends org.j8unit.repository.java.util.MapTests<SUT, java.lang.String, java.lan
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test class for {@link javax.xml.ws.handler.MessageContext$Scope class javax.xml.ws.handler.MessageContext$Scope},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.xml.ws.handler.MessageContextClassTests.ScopeClassTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface ScopeTests<SUT extends javax.xml.ws.handler.MessageContext.Scope>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.xml.ws.handler.MessageContext.Scope> {
-
     }
 
 }

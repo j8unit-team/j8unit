@@ -48,16 +48,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.lang.reflect.Modifier sut = null; // = new Modifier();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.lang.reflect.Modifier> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.reflect.Modifier.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.lang.reflect.Modifier#classModifiers() public static int
@@ -76,14 +66,30 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Modifier#isProtected(int) public static boolean
-     * java.lang.reflect.Modifier.isProtected(int)}.
+     * Test method for {@link java.lang.reflect.Modifier#constructorModifiers() public static int
+     * java.lang.reflect.Modifier.constructorModifiers()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isProtected_int()
+    public default void test_constructorModifiers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Modifier#fieldModifiers() public static int
+     * java.lang.reflect.Modifier.fieldModifiers()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fieldModifiers()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -108,46 +114,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Modifier#isStrict(int) public static boolean
-     * java.lang.reflect.Modifier.isStrict(int)}.
+     * Test method for {@link java.lang.reflect.Modifier#isAbstract(int) public static boolean
+     * java.lang.reflect.Modifier.isAbstract(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isStrict_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Modifier#isInterface(int) public static boolean
-     * java.lang.reflect.Modifier.isInterface(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isInterface_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Modifier#isTransient(int) public static boolean
-     * java.lang.reflect.Modifier.isTransient(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isTransient_int()
+    public default void test_isAbstract_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -172,14 +146,62 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Modifier#toString(int) public static java.lang.String
-     * java.lang.reflect.Modifier.toString(int)}.
+     * Test method for {@link java.lang.reflect.Modifier#isInterface(int) public static boolean
+     * java.lang.reflect.Modifier.isInterface(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toString_int()
+    public default void test_isInterface_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Modifier#isNative(int) public static boolean
+     * java.lang.reflect.Modifier.isNative(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isNative_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Modifier#isPrivate(int) public static boolean
+     * java.lang.reflect.Modifier.isPrivate(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isPrivate_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Modifier#isProtected(int) public static boolean
+     * java.lang.reflect.Modifier.isProtected(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isProtected_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -220,94 +242,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Modifier#fieldModifiers() public static int
-     * java.lang.reflect.Modifier.fieldModifiers()}.
+     * Test method for {@link java.lang.reflect.Modifier#isStrict(int) public static boolean
+     * java.lang.reflect.Modifier.isStrict(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_fieldModifiers()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Modifier#isNative(int) public static boolean
-     * java.lang.reflect.Modifier.isNative(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isNative_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Modifier#isAbstract(int) public static boolean
-     * java.lang.reflect.Modifier.isAbstract(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isAbstract_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Modifier#constructorModifiers() public static int
-     * java.lang.reflect.Modifier.constructorModifiers()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_constructorModifiers()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Modifier#isPrivate(int) public static boolean
-     * java.lang.reflect.Modifier.isPrivate(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isPrivate_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.reflect.Modifier#parameterModifiers() public static int
-     * java.lang.reflect.Modifier.parameterModifiers()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_parameterModifiers()
+    public default void test_isStrict_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -332,14 +274,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.reflect.Modifier#methodModifiers() public static int
-     * java.lang.reflect.Modifier.methodModifiers()}.
+     * Test method for {@link java.lang.reflect.Modifier#isTransient(int) public static boolean
+     * java.lang.reflect.Modifier.isTransient(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_methodModifiers()
+    public default void test_isTransient_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -360,6 +302,64 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Modifier#methodModifiers() public static int
+     * java.lang.reflect.Modifier.methodModifiers()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_methodModifiers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Modifier#parameterModifiers() public static int
+     * java.lang.reflect.Modifier.parameterModifiers()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parameterModifiers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.reflect.Modifier#toString(int) public static java.lang.String
+     * java.lang.reflect.Modifier.toString(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.lang.reflect.Modifier> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.reflect.Modifier.class.isAssignableFrom(sut));
     }
 
 }

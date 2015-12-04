@@ -23,7 +23,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.BufferedReader#skip(long) public long java.io.BufferedReader.skip(long) throws
+     * Test method for {@link java.io.BufferedReader#close() public void java.io.BufferedReader.close() throws
      * java.io.IOException}.
      * </p>
      */
@@ -31,7 +31,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_skip_long()
+    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,15 +40,14 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.BufferedReader#reset() public void java.io.BufferedReader.reset() throws
-     * java.io.IOException}.
+     * Test method for {@link java.io.BufferedReader#lines() public java.util.stream.Stream
+     * java.io.BufferedReader.lines()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_reset()
+    public default void test_lines()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,64 +73,15 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.BufferedReader#close() public void java.io.BufferedReader.close() throws
-     * java.io.IOException}.
+     * Test method for {@link java.io.BufferedReader#markSupported() public boolean
+     * java.io.BufferedReader.markSupported()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.BufferedReader#readLine() public java.lang.String
-     * java.io.BufferedReader.readLine() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readLine()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.BufferedReader#lines() public java.util.stream.Stream
-     * java.io.BufferedReader.lines()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lines()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.BufferedReader#read(char[],int,int) public int
-     * java.io.BufferedReader.read(char[],int,int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_read_charArray_int_int()
+    public default void test_markSupported()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -157,15 +107,31 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.BufferedReader#markSupported() public boolean
-     * java.io.BufferedReader.markSupported()}.
+     * Test method for {@link java.io.BufferedReader#read(char[],int,int) public int
+     * java.io.BufferedReader.read(char[],int,int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_markSupported()
+    public default void test_read_charArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.BufferedReader#readLine() public java.lang.String
+     * java.io.BufferedReader.readLine() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readLine()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -183,6 +149,40 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_ready()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.BufferedReader#reset() public void java.io.BufferedReader.reset() throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.BufferedReader#skip(long) public long java.io.BufferedReader.skip(long) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_skip_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

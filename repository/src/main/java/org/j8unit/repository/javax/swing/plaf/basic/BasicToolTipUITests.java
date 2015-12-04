@@ -23,40 +23,6 @@ extends org.j8unit.repository.javax.swing.plaf.ToolTipUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolTipUI#getMinimumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.basic.BasicToolTipUI.getMinimumSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMinimumSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolTipUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicToolTipUI.installUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_installUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicToolTipUI#getMaximumSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.basic.BasicToolTipUI.getMaximumSize(javax.swing.JComponent)}.
      * </p>
@@ -66,6 +32,23 @@ extends org.j8unit.repository.javax.swing.plaf.ToolTipUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getMaximumSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicToolTipUI#getMinimumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.basic.BasicToolTipUI.getMinimumSize(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMinimumSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,15 +74,15 @@ extends org.j8unit.repository.javax.swing.plaf.ToolTipUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicToolTipUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicToolTipUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicToolTipUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicToolTipUI.installUI(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_uninstallUI_JComponent()
+    public default void test_installUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -117,6 +100,23 @@ extends org.j8unit.repository.javax.swing.plaf.ToolTipUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_paint_Graphics_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicToolTipUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicToolTipUI.uninstallUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_uninstallUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

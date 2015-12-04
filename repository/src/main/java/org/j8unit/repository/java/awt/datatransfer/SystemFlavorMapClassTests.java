@@ -36,16 +36,6 @@ public abstract interface SystemFlavorMapClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.awt.datatransfer.FlavorMapClassTests<SUT>, org.j8unit.repository.java.awt.datatransfer.FlavorTableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.datatransfer.SystemFlavorMap> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.datatransfer.SystemFlavorMap.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.awt.datatransfer.SystemFlavorMap#decodeDataFlavor(java.lang.String) public static
@@ -57,38 +47,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_decodeDataFlavor_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.SystemFlavorMap#isJavaMIMEType(java.lang.String) public static
-     * boolean java.awt.datatransfer.SystemFlavorMap.isJavaMIMEType(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isJavaMIMEType_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.SystemFlavorMap#encodeJavaMIMEType(java.lang.String) public static
-     * java.lang.String java.awt.datatransfer.SystemFlavorMap.encodeJavaMIMEType(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_encodeJavaMIMEType_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -113,6 +71,39 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.datatransfer.SystemFlavorMap#encodeDataFlavor(java.awt.datatransfer.DataFlavor)
+     * public static java.lang.String
+     * java.awt.datatransfer.SystemFlavorMap.encodeDataFlavor(java.awt.datatransfer.DataFlavor)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_encodeDataFlavor_DataFlavor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.datatransfer.SystemFlavorMap#encodeJavaMIMEType(java.lang.String) public static
+     * java.lang.String java.awt.datatransfer.SystemFlavorMap.encodeJavaMIMEType(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_encodeJavaMIMEType_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.datatransfer.SystemFlavorMap#getDefaultFlavorMap() public static
      * java.awt.datatransfer.FlavorMap java.awt.datatransfer.SystemFlavorMap.getDefaultFlavorMap()}.
      * </p>
@@ -129,19 +120,28 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.datatransfer.SystemFlavorMap#encodeDataFlavor(java.awt.datatransfer.DataFlavor)
-     * public static java.lang.String
-     * java.awt.datatransfer.SystemFlavorMap.encodeDataFlavor(java.awt.datatransfer.DataFlavor)}.
+     * Test method for {@link java.awt.datatransfer.SystemFlavorMap#isJavaMIMEType(java.lang.String) public static
+     * boolean java.awt.datatransfer.SystemFlavorMap.isJavaMIMEType(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_encodeDataFlavor_DataFlavor()
+    public default void test_isJavaMIMEType_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.datatransfer.SystemFlavorMap> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.datatransfer.SystemFlavorMap.class.isAssignableFrom(sut));
     }
 
 }

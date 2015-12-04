@@ -23,74 +23,6 @@ extends org.j8unit.repository.java.time.temporal.TemporalUnitTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.ChronoUnit#isDurationEstimated() public boolean
-     * java.time.temporal.ChronoUnit.isDurationEstimated()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isDurationEstimated()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.ChronoUnit#isTimeBased() public boolean
-     * java.time.temporal.ChronoUnit.isTimeBased()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isTimeBased()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.ChronoUnit#getDuration() public java.time.Duration
-     * java.time.temporal.ChronoUnit.getDuration()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getDuration()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.ChronoUnit#toString() public java.lang.String
-     * java.time.temporal.ChronoUnit.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.time.temporal.ChronoUnit#addTo(java.time.temporal.Temporal,long) public
      * java.time.temporal.Temporal java.time.temporal.ChronoUnit.addTo(java.time.temporal.Temporal,long)}.
      * </p>
@@ -100,23 +32,6 @@ extends org.j8unit.repository.java.time.temporal.TemporalUnitTests<SUT>, org.j8u
     @Category(Draft.class)
     @Override
     public default void test_addTo_Temporal_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.ChronoUnit#isSupportedBy(java.time.temporal.Temporal) public boolean
-     * java.time.temporal.ChronoUnit.isSupportedBy(java.time.temporal.Temporal)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isSupportedBy_Temporal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,6 +58,23 @@ extends org.j8unit.repository.java.time.temporal.TemporalUnitTests<SUT>, org.j8u
 
     /**
      * <p>
+     * Test method for {@link java.time.temporal.ChronoUnit#getDuration() public java.time.Duration
+     * java.time.temporal.ChronoUnit.getDuration()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getDuration()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.time.temporal.ChronoUnit#isDateBased() public boolean
      * java.time.temporal.ChronoUnit.isDateBased()}.
      * </p>
@@ -152,6 +84,74 @@ extends org.j8unit.repository.java.time.temporal.TemporalUnitTests<SUT>, org.j8u
     @Category(Draft.class)
     @Override
     public default void test_isDateBased()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.ChronoUnit#isDurationEstimated() public boolean
+     * java.time.temporal.ChronoUnit.isDurationEstimated()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isDurationEstimated()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.ChronoUnit#isSupportedBy(java.time.temporal.Temporal) public boolean
+     * java.time.temporal.ChronoUnit.isSupportedBy(java.time.temporal.Temporal)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isSupportedBy_Temporal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.ChronoUnit#isTimeBased() public boolean
+     * java.time.temporal.ChronoUnit.isTimeBased()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isTimeBased()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.ChronoUnit#toString() public java.lang.String
+     * java.time.temporal.ChronoUnit.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

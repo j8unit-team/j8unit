@@ -24,50 +24,16 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT>, or
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.AbstractExecutorService#submit(java.lang.Runnable) public
-     * java.util.concurrent.Future java.util.concurrent.AbstractExecutorService.submit(java.lang.Runnable)}.
+     * Test method for {@link java.util.concurrent.AbstractExecutorService#invokeAll(java.util.Collection) public
+     * java.util.List java.util.concurrent.AbstractExecutorService.invokeAll(java.util.Collection) throws
+     * java.lang.InterruptedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_submit_Runnable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.AbstractExecutorService#submit(java.util.concurrent.Callable) public
-     * java.util.concurrent.Future java.util.concurrent.AbstractExecutorService.submit(java.util.concurrent.Callable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_submit_Callable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.AbstractExecutorService#submit(java.lang.Runnable,java.lang.Object)
-     * public java.util.concurrent.Future
-     * java.util.concurrent.AbstractExecutorService.submit(java.lang.Runnable,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_submit_Runnable_Object()
+    public default void test_invokeAll_Collection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -96,16 +62,16 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT>, or
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.AbstractExecutorService#invokeAll(java.util.Collection) public
-     * java.util.List java.util.concurrent.AbstractExecutorService.invokeAll(java.util.Collection) throws
-     * java.lang.InterruptedException}.
+     * Test method for {@link java.util.concurrent.AbstractExecutorService#invokeAny(java.util.Collection) public
+     * java.lang.Object java.util.concurrent.AbstractExecutorService.invokeAny(java.util.Collection) throws
+     * java.lang.InterruptedException,java.util.concurrent.ExecutionException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_invokeAll_Collection()
+    public default void test_invokeAny_Collection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,16 +101,50 @@ extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT>, or
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.AbstractExecutorService#invokeAny(java.util.Collection) public
-     * java.lang.Object java.util.concurrent.AbstractExecutorService.invokeAny(java.util.Collection) throws
-     * java.lang.InterruptedException,java.util.concurrent.ExecutionException}.
+     * Test method for {@link java.util.concurrent.AbstractExecutorService#submit(java.util.concurrent.Callable) public
+     * java.util.concurrent.Future java.util.concurrent.AbstractExecutorService.submit(java.util.concurrent.Callable)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_invokeAny_Collection()
+    public default void test_submit_Callable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.AbstractExecutorService#submit(java.lang.Runnable) public
+     * java.util.concurrent.Future java.util.concurrent.AbstractExecutorService.submit(java.lang.Runnable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_submit_Runnable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.AbstractExecutorService#submit(java.lang.Runnable,java.lang.Object)
+     * public java.util.concurrent.Future
+     * java.util.concurrent.AbstractExecutorService.submit(java.lang.Runnable,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_submit_Runnable_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,125 +23,6 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.tools.SimpleJavaFileObject#getName() public java.lang.String
-     * javax.tools.SimpleJavaFileObject.getName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.SimpleJavaFileObject#getLastModified() public long
-     * javax.tools.SimpleJavaFileObject.getLastModified()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getLastModified()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.SimpleJavaFileObject#getNestingKind() public
-     * javax.lang.model.element.NestingKind javax.tools.SimpleJavaFileObject.getNestingKind()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getNestingKind()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.SimpleJavaFileObject#toUri() public java.net.URI
-     * javax.tools.SimpleJavaFileObject.toUri()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toUri()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.SimpleJavaFileObject#openWriter() public java.io.Writer
-     * javax.tools.SimpleJavaFileObject.openWriter() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_openWriter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.SimpleJavaFileObject#getKind() public javax.tools.JavaFileObject$Kind
-     * javax.tools.SimpleJavaFileObject.getKind()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getKind()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.SimpleJavaFileObject#getCharContent(boolean) public java.lang.CharSequence
-     * javax.tools.SimpleJavaFileObject.getCharContent(boolean) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getCharContent_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.tools.SimpleJavaFileObject#delete() public boolean
      * javax.tools.SimpleJavaFileObject.delete()}.
      * </p>
@@ -176,15 +57,118 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.tools.SimpleJavaFileObject#toString() public java.lang.String
-     * javax.tools.SimpleJavaFileObject.toString()}.
+     * Test method for {@link javax.tools.SimpleJavaFileObject#getCharContent(boolean) public java.lang.CharSequence
+     * javax.tools.SimpleJavaFileObject.getCharContent(boolean) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_getCharContent_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.SimpleJavaFileObject#getKind() public javax.tools.JavaFileObject$Kind
+     * javax.tools.SimpleJavaFileObject.getKind()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getKind()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.SimpleJavaFileObject#getLastModified() public long
+     * javax.tools.SimpleJavaFileObject.getLastModified()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getLastModified()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.SimpleJavaFileObject#getName() public java.lang.String
+     * javax.tools.SimpleJavaFileObject.getName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.SimpleJavaFileObject#getNestingKind() public
+     * javax.lang.model.element.NestingKind javax.tools.SimpleJavaFileObject.getNestingKind()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getNestingKind()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.tools.SimpleJavaFileObject#isNameCompatible(java.lang.String,javax.tools.JavaFileObject.Kind) public
+     * boolean javax.tools.SimpleJavaFileObject.isNameCompatible(java.lang.String,javax.tools.JavaFileObject$Kind)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isNameCompatible_String_Kind()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.SimpleJavaFileObject#openInputStream() public java.io.InputStream
+     * javax.tools.SimpleJavaFileObject.openInputStream() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_openInputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -227,16 +211,15 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.tools.SimpleJavaFileObject#isNameCompatible(java.lang.String,javax.tools.JavaFileObject.Kind) public
-     * boolean javax.tools.SimpleJavaFileObject.isNameCompatible(java.lang.String,javax.tools.JavaFileObject$Kind)}.
+     * Test method for {@link javax.tools.SimpleJavaFileObject#openWriter() public java.io.Writer
+     * javax.tools.SimpleJavaFileObject.openWriter() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isNameCompatible_String_Kind()
+    public default void test_openWriter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -245,15 +228,32 @@ extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.tools.SimpleJavaFileObject#openInputStream() public java.io.InputStream
-     * javax.tools.SimpleJavaFileObject.openInputStream() throws java.io.IOException}.
+     * Test method for {@link javax.tools.SimpleJavaFileObject#toString() public java.lang.String
+     * javax.tools.SimpleJavaFileObject.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_openInputStream()
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.SimpleJavaFileObject#toUri() public java.net.URI
+     * javax.tools.SimpleJavaFileObject.toUri()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toUri()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

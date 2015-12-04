@@ -49,23 +49,6 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT>, org.j8unit
     }
 
     /**
-     * Test method for
-     * {@link java.beans.XMLDecoder#XMLDecoder(java.io.InputStream,java.lang.Object,java.beans.ExceptionListener,java.lang.ClassLoader)
-     * public
-     * java.beans.XMLDecoder(java.io.InputStream,java.lang.Object,java.beans.ExceptionListener,java.lang.ClassLoader)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_XMLDecoder_InputStream_Object_ExceptionListener_ClassLoader()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.beans.XMLDecoder sut = null; // = new
-                                                // XMLDecoder(java.io.InputStream,java.lang.Object,java.beans.ExceptionListener,java.lang.ClassLoader);
-    }
-
-    /**
      * Test method for {@link java.beans.XMLDecoder#XMLDecoder(java.io.InputStream) public
      * java.beans.XMLDecoder(java.io.InputStream)}.
      */
@@ -109,14 +92,21 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT>, org.j8unit
                                                 // XMLDecoder(java.io.InputStream,java.lang.Object,java.beans.ExceptionListener);
     }
 
-    @Override
+    /**
+     * Test method for
+     * {@link java.beans.XMLDecoder#XMLDecoder(java.io.InputStream,java.lang.Object,java.beans.ExceptionListener,java.lang.ClassLoader)
+     * public
+     * java.beans.XMLDecoder(java.io.InputStream,java.lang.Object,java.beans.ExceptionListener,java.lang.ClassLoader)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_XMLDecoder_InputStream_Object_ExceptionListener_ClassLoader()
     throws Exception {
         // create new instance
-        final Class<? extends java.beans.XMLDecoder> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.beans.XMLDecoder.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final java.beans.XMLDecoder sut = null; // = new
+                                                // XMLDecoder(java.io.InputStream,java.lang.Object,java.beans.ExceptionListener,java.lang.ClassLoader);
     }
 
     /**
@@ -135,6 +125,16 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT>, org.j8unit
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.beans.XMLDecoder> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.beans.XMLDecoder.class.isAssignableFrom(sut));
     }
 
 }

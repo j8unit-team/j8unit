@@ -25,95 +25,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.nio.channels.AsynchronousServerSocketChannel#setOption(java.net.SocketOption,java.lang.Object) public
-     * abstract java.nio.channels.AsynchronousServerSocketChannel
-     * java.nio.channels.AsynchronousServerSocketChannel.setOption(java.net.SocketOption,java.lang.Object) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setOption_SocketOption_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#bind(java.net.SocketAddress,int) public
-     * abstract java.nio.channels.AsynchronousServerSocketChannel
-     * java.nio.channels.AsynchronousServerSocketChannel.bind(java.net.SocketAddress,int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_bind_SocketAddress_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#bind(java.net.SocketAddress) public
-     * final java.nio.channels.AsynchronousServerSocketChannel
-     * java.nio.channels.AsynchronousServerSocketChannel.bind(java.net.SocketAddress) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_bind_SocketAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#provider() public final
-     * java.nio.channels.spi.AsynchronousChannelProvider java.nio.channels.AsynchronousServerSocketChannel.provider()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_provider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#getLocalAddress() public abstract
-     * java.net.SocketAddress java.nio.channels.AsynchronousServerSocketChannel.getLocalAddress() throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getLocalAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#accept() public abstract
      * java.util.concurrent.Future java.nio.channels.AsynchronousServerSocketChannel.accept()}.
      * </p>
@@ -148,6 +59,41 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#bind(java.net.SocketAddress) public
+     * final java.nio.channels.AsynchronousServerSocketChannel
+     * java.nio.channels.AsynchronousServerSocketChannel.bind(java.net.SocketAddress) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_bind_SocketAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#bind(java.net.SocketAddress,int) public
+     * abstract java.nio.channels.AsynchronousServerSocketChannel
+     * java.nio.channels.AsynchronousServerSocketChannel.bind(java.net.SocketAddress,int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_bind_SocketAddress_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
      * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
      * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
@@ -160,6 +106,60 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Override
     public default void test_close()
     throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#getLocalAddress() public abstract
+     * java.net.SocketAddress java.nio.channels.AsynchronousServerSocketChannel.getLocalAddress() throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getLocalAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#provider() public final
+     * java.nio.channels.spi.AsynchronousChannelProvider java.nio.channels.AsynchronousServerSocketChannel.provider()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_provider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.nio.channels.AsynchronousServerSocketChannel#setOption(java.net.SocketOption,java.lang.Object) public
+     * abstract java.nio.channels.AsynchronousServerSocketChannel
+     * java.nio.channels.AsynchronousServerSocketChannel.setOption(java.net.SocketOption,java.lang.Object) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setOption_SocketOption_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

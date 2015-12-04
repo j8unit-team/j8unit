@@ -24,22 +24,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#next(int) public int
-     * javax.print.attribute.SetOfIntegerSyntax.next(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_next_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#contains(int) public boolean
      * javax.print.attribute.SetOfIntegerSyntax.contains(int)}.
      * </p>
@@ -72,23 +56,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#hashCode() public int
-     * javax.print.attribute.SetOfIntegerSyntax.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#equals(java.lang.Object) public boolean
      * javax.print.attribute.SetOfIntegerSyntax.equals(java.lang.Object)}.
      * </p>
@@ -106,6 +73,55 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#getMembers() public int[][]
+     * javax.print.attribute.SetOfIntegerSyntax.getMembers()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMembers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#hashCode() public int
+     * javax.print.attribute.SetOfIntegerSyntax.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#next(int) public int
+     * javax.print.attribute.SetOfIntegerSyntax.next(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_next_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#toString() public java.lang.String
      * javax.print.attribute.SetOfIntegerSyntax.toString()}.
      * </p>
@@ -115,22 +131,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.attribute.SetOfIntegerSyntax#getMembers() public int[][]
-     * javax.print.attribute.SetOfIntegerSyntax.getMembers()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMembers()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

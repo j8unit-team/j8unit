@@ -37,20 +37,6 @@ public abstract interface AtomicIntegerArrayClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#AtomicIntegerArray(int[]) public
-     * java.util.concurrent.atomic.AtomicIntegerArray(int[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AtomicIntegerArray_intArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.atomic.AtomicIntegerArray sut = null; // = new AtomicIntegerArray(int[]);
-    }
-
-    /**
      * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#AtomicIntegerArray(int) public
      * java.util.concurrent.atomic.AtomicIntegerArray(int)}.
      */
@@ -62,6 +48,20 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // create new instance
         @SuppressWarnings("unused")
         final java.util.concurrent.atomic.AtomicIntegerArray sut = null; // = new AtomicIntegerArray(int);
+    }
+
+    /**
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerArray#AtomicIntegerArray(int[]) public
+     * java.util.concurrent.atomic.AtomicIntegerArray(int[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AtomicIntegerArray_intArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.atomic.AtomicIntegerArray sut = null; // = new AtomicIntegerArray(int[]);
     }
 
     @Override

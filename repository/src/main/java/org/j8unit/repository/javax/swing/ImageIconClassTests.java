@@ -36,61 +36,6 @@ extends org.j8unit.repository.javax.swing.IconClassTests<SUT>, org.j8unit.reposi
 org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.ImageIcon#ImageIcon(java.net.URL) public javax.swing.ImageIcon(java.net.URL)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ImageIcon_URL()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.ImageIcon sut = null; // = new ImageIcon(java.net.URL);
-    }
-
-    /**
-     * Test method for {@link javax.swing.ImageIcon#ImageIcon(java.awt.Image,java.lang.String) public
-     * javax.swing.ImageIcon(java.awt.Image,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ImageIcon_Image_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.ImageIcon sut = null; // = new ImageIcon(java.awt.Image,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.swing.ImageIcon#ImageIcon(java.awt.Image) public
-     * javax.swing.ImageIcon(java.awt.Image)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ImageIcon_Image()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.ImageIcon sut = null; // = new ImageIcon(java.awt.Image);
-    }
-
-    /**
-     * Test method for {@link javax.swing.ImageIcon#ImageIcon(byte[],java.lang.String) public
-     * javax.swing.ImageIcon(byte[],java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ImageIcon_byteArray_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.ImageIcon sut = null; // = new ImageIcon(byte[],java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.swing.ImageIcon#ImageIcon() public javax.swing.ImageIcon()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -117,17 +62,45 @@ org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.
     }
 
     /**
-     * Test method for {@link javax.swing.ImageIcon#ImageIcon(java.lang.String,java.lang.String) public
-     * javax.swing.ImageIcon(java.lang.String,java.lang.String)}.
+     * Test method for {@link javax.swing.ImageIcon#ImageIcon(byte[],java.lang.String) public
+     * javax.swing.ImageIcon(byte[],java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ImageIcon_String_String()
+    public default void create_ImageIcon_byteArray_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.ImageIcon sut = null; // = new ImageIcon(java.lang.String,java.lang.String);
+        final javax.swing.ImageIcon sut = null; // = new ImageIcon(byte[],java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.swing.ImageIcon#ImageIcon(java.awt.Image) public
+     * javax.swing.ImageIcon(java.awt.Image)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ImageIcon_Image()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.ImageIcon sut = null; // = new ImageIcon(java.awt.Image);
+    }
+
+    /**
+     * Test method for {@link javax.swing.ImageIcon#ImageIcon(java.awt.Image,java.lang.String) public
+     * javax.swing.ImageIcon(java.awt.Image,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ImageIcon_Image_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.ImageIcon sut = null; // = new ImageIcon(java.awt.Image,java.lang.String);
     }
 
     /**
@@ -142,6 +115,33 @@ org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.ImageIcon sut = null; // = new ImageIcon(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.swing.ImageIcon#ImageIcon(java.lang.String,java.lang.String) public
+     * javax.swing.ImageIcon(java.lang.String,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ImageIcon_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.ImageIcon sut = null; // = new ImageIcon(java.lang.String,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.swing.ImageIcon#ImageIcon(java.net.URL) public javax.swing.ImageIcon(java.net.URL)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ImageIcon_URL()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.ImageIcon sut = null; // = new ImageIcon(java.net.URL);
     }
 
     /**

@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.RSAPublicKeySpec#getPublicExponent() public java.math.BigInteger
-     * java.security.spec.RSAPublicKeySpec.getPublicExponent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPublicExponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.spec.RSAPublicKeySpec#getModulus() public java.math.BigInteger
      * java.security.spec.RSAPublicKeySpec.getModulus()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_getModulus()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.RSAPublicKeySpec#getPublicExponent() public java.math.BigInteger
+     * java.security.spec.RSAPublicKeySpec.getPublicExponent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPublicExponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

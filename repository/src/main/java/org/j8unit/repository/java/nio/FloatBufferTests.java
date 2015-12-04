@@ -23,30 +23,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.FloatBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.FloatBuffer#compact() public abstract java.nio.FloatBuffer
-     * java.nio.FloatBuffer.compact()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compact()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.FloatBuffer#hasArray() public final boolean java.nio.FloatBuffer.hasArray()}.
+     * Test method for {@link java.nio.FloatBuffer#array() public final float[] java.nio.FloatBuffer.array()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hasArray()
+    public default void test_array()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,78 +39,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.FloatBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.FloatBuffer#put(float[]) public final java.nio.FloatBuffer
-     * java.nio.FloatBuffer.put(float[])}.
+     * Test method for {@link java.nio.FloatBuffer#arrayOffset() public final int java.nio.FloatBuffer.arrayOffset()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_put_floatArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.FloatBuffer#put(float[],int,int) public java.nio.FloatBuffer
-     * java.nio.FloatBuffer.put(float[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_floatArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.FloatBuffer#put(int,float) public abstract java.nio.FloatBuffer
-     * java.nio.FloatBuffer.put(int,float)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_int_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.FloatBuffer#put(java.nio.FloatBuffer) public java.nio.FloatBuffer
-     * java.nio.FloatBuffer.put(java.nio.FloatBuffer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_FloatBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.FloatBuffer#put(float) public abstract java.nio.FloatBuffer
-     * java.nio.FloatBuffer.put(float)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_float()
+    @Override
+    public default void test_arrayOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,6 +63,22 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.FloatBuffe
     @Test
     @Category(Draft.class)
     public default void test_asReadOnlyBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.FloatBuffer#compact() public abstract java.nio.FloatBuffer
+     * java.nio.FloatBuffer.compact()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compact()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -183,14 +119,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.FloatBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.FloatBuffer#array() public final float[] java.nio.FloatBuffer.array()}.
+     * Test method for {@link java.nio.FloatBuffer#equals(java.lang.Object) public boolean
+     * java.nio.FloatBuffer.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_array()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -199,30 +136,13 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.FloatBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.FloatBuffer#slice() public abstract java.nio.FloatBuffer
-     * java.nio.FloatBuffer.slice()}.
+     * Test method for {@link java.nio.FloatBuffer#get() public abstract float java.nio.FloatBuffer.get()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_slice()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.FloatBuffer#get(float[],int,int) public java.nio.FloatBuffer
-     * java.nio.FloatBuffer.get(float[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_floatArray_int_int()
+    public default void test_get()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -247,13 +167,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.FloatBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.FloatBuffer#get() public abstract float java.nio.FloatBuffer.get()}.
+     * Test method for {@link java.nio.FloatBuffer#get(float[],int,int) public java.nio.FloatBuffer
+     * java.nio.FloatBuffer.get(float[],int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get()
+    public default void test_get_floatArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -277,15 +198,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.FloatBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.FloatBuffer#equals(java.lang.Object) public boolean
-     * java.nio.FloatBuffer.equals(java.lang.Object)}.
+     * Test method for {@link java.nio.FloatBuffer#hasArray() public final boolean java.nio.FloatBuffer.hasArray()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_hasArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -342,14 +262,94 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.FloatBuffe
 
     /**
      * <p>
-     * Test method for {@link java.nio.FloatBuffer#arrayOffset() public final int java.nio.FloatBuffer.arrayOffset()}.
+     * Test method for {@link java.nio.FloatBuffer#put(float) public abstract java.nio.FloatBuffer
+     * java.nio.FloatBuffer.put(float)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_arrayOffset()
+    public default void test_put_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.FloatBuffer#put(float[]) public final java.nio.FloatBuffer
+     * java.nio.FloatBuffer.put(float[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_floatArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.FloatBuffer#put(float[],int,int) public java.nio.FloatBuffer
+     * java.nio.FloatBuffer.put(float[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_floatArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.FloatBuffer#put(java.nio.FloatBuffer) public java.nio.FloatBuffer
+     * java.nio.FloatBuffer.put(java.nio.FloatBuffer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_FloatBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.FloatBuffer#put(int,float) public abstract java.nio.FloatBuffer
+     * java.nio.FloatBuffer.put(int,float)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_int_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.FloatBuffer#slice() public abstract java.nio.FloatBuffer
+     * java.nio.FloatBuffer.slice()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_slice()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

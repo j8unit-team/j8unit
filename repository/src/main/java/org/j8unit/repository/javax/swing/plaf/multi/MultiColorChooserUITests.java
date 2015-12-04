@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiColorChooserUI#getUIs() public javax.swing.plaf.ComponentUI[]
-     * javax.swing.plaf.multi.MultiColorChooserUI.getUIs()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUIs()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.multi.MultiColorChooserUI#contains(javax.swing.JComponent,int,int) public
      * boolean javax.swing.plaf.multi.MultiColorChooserUI.contains(javax.swing.JComponent,int,int)}.
      * </p>
@@ -48,57 +32,6 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_contains_JComponent_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiColorChooserUI#installUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiColorChooserUI.installUI(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_installUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiColorChooserUI#getMaximumSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiColorChooserUI.getMaximumSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMaximumSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiColorChooserUI#getPreferredSize(javax.swing.JComponent) public
-     * java.awt.Dimension javax.swing.plaf.multi.MultiColorChooserUI.getPreferredSize(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPreferredSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -125,6 +58,41 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUITests<SUT> {
 
     /**
      * <p>
+     * Test method for
+     * {@link javax.swing.plaf.multi.MultiColorChooserUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
+     * javax.swing.plaf.multi.MultiColorChooserUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAccessibleChildrenCount_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiColorChooserUI#getMaximumSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.multi.MultiColorChooserUI.getMaximumSize(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMaximumSize_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.multi.MultiColorChooserUI#getMinimumSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.multi.MultiColorChooserUI.getMinimumSize(javax.swing.JComponent)}.
      * </p>
@@ -142,16 +110,15 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.multi.MultiColorChooserUI#update(java.awt.Graphics,javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiColorChooserUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.multi.MultiColorChooserUI#getPreferredSize(javax.swing.JComponent) public
+     * java.awt.Dimension javax.swing.plaf.multi.MultiColorChooserUI.getPreferredSize(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_update_Graphics_JComponent()
+    public default void test_getPreferredSize_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -160,15 +127,31 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiColorChooserUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.multi.MultiColorChooserUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.multi.MultiColorChooserUI#getUIs() public javax.swing.plaf.ComponentUI[]
+     * javax.swing.plaf.multi.MultiColorChooserUI.getUIs()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUIs()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.multi.MultiColorChooserUI#installUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiColorChooserUI.installUI(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_uninstallUI_JComponent()
+    public default void test_installUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -194,16 +177,33 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUITests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.multi.MultiColorChooserUI#getAccessibleChildrenCount(javax.swing.JComponent) public int
-     * javax.swing.plaf.multi.MultiColorChooserUI.getAccessibleChildrenCount(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.multi.MultiColorChooserUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiColorChooserUI.uninstallUI(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAccessibleChildrenCount_JComponent()
+    public default void test_uninstallUI_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.multi.MultiColorChooserUI#update(java.awt.Graphics,javax.swing.JComponent) public void
+     * javax.swing.plaf.multi.MultiColorChooserUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_update_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

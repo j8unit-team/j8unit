@@ -23,22 +23,6 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#setEvent(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLScriptElement.setEvent(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setEvent_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLScriptElement#getCharset() public abstract java.lang.String
      * org.w3c.dom.html.HTMLScriptElement.getCharset()}.
      * </p>
@@ -55,46 +39,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#setDefer(boolean) public abstract void
-     * org.w3c.dom.html.HTMLScriptElement.setDefer(boolean)}.
+     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#getDefer() public abstract boolean
+     * org.w3c.dom.html.HTMLScriptElement.getDefer()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDefer_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#setType(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLScriptElement.setType(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setType_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#setSrc(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLScriptElement.setSrc(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSrc_String()
+    public default void test_getDefer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +71,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#setCharset(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLScriptElement.setCharset(java.lang.String)}.
+     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#getHtmlFor() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLScriptElement.getHtmlFor()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCharset_String()
+    public default void test_getHtmlFor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -167,14 +119,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#setText(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLScriptElement.setText(java.lang.String)}.
+     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#getType() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLScriptElement.getType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setText_String()
+    public default void test_getType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -183,14 +135,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#getDefer() public abstract boolean
-     * org.w3c.dom.html.HTMLScriptElement.getDefer()}.
+     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#setCharset(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLScriptElement.setCharset(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDefer()
+    public default void test_setCharset_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -199,14 +151,30 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#getHtmlFor() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLScriptElement.getHtmlFor()}.
+     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#setDefer(boolean) public abstract void
+     * org.w3c.dom.html.HTMLScriptElement.setDefer(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getHtmlFor()
+    public default void test_setDefer_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#setEvent(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLScriptElement.setEvent(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setEvent_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -231,14 +199,46 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#getType() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLScriptElement.getType()}.
+     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#setSrc(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLScriptElement.setSrc(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getType()
+    public default void test_setSrc_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#setText(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLScriptElement.setText(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setText_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLScriptElement#setType(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLScriptElement.setType(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setType_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

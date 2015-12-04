@@ -33,16 +33,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface FloatControlClassTests<SUT extends Class<? extends javax.sound.sampled.FloatControl>>
 extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.sound.sampled.FloatControl> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.sound.sampled.FloatControl.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.sound.sampled.FloatControl$Type class javax.sound.sampled.FloatControl$Type},
@@ -82,6 +72,16 @@ extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
             assertTrue(javax.sound.sampled.FloatControl.Type.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.sound.sampled.FloatControl> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.sound.sampled.FloatControl.class.isAssignableFrom(sut));
     }
 
 }

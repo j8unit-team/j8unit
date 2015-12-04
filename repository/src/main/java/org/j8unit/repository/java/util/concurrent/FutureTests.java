@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Future#isCancelled() public abstract boolean
-     * java.util.concurrent.Future.isCancelled()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isCancelled()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.concurrent.Future#cancel(boolean) public abstract boolean
      * java.util.concurrent.Future.cancel(boolean)}.
      * </p>
@@ -48,6 +32,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_cancel_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.Future#get() public abstract java.lang.Object
+     * java.util.concurrent.Future.get() throws java.lang.InterruptedException,java.util.concurrent.ExecutionException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,14 +73,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.Future#get() public abstract java.lang.Object
-     * java.util.concurrent.Future.get() throws java.lang.InterruptedException,java.util.concurrent.ExecutionException}.
+     * Test method for {@link java.util.concurrent.Future#isCancelled() public abstract boolean
+     * java.util.concurrent.Future.isCancelled()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get()
+    public default void test_isCancelled()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

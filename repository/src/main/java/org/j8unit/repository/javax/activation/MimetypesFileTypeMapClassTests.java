@@ -36,6 +36,20 @@ public abstract interface MimetypesFileTypeMapClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.javax.activation.FileTypeMapClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.activation.MimetypesFileTypeMap#MimetypesFileTypeMap() public
+     * javax.activation.MimetypesFileTypeMap()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MimetypesFileTypeMap()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.activation.MimetypesFileTypeMap sut = null; // = new MimetypesFileTypeMap();
+    }
+
+    /**
      * Test method for {@link javax.activation.MimetypesFileTypeMap#MimetypesFileTypeMap(java.io.InputStream) public
      * javax.activation.MimetypesFileTypeMap(java.io.InputStream)}.
      */
@@ -61,20 +75,6 @@ extends org.j8unit.repository.javax.activation.FileTypeMapClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.activation.MimetypesFileTypeMap sut = null; // = new MimetypesFileTypeMap(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.activation.MimetypesFileTypeMap#MimetypesFileTypeMap() public
-     * javax.activation.MimetypesFileTypeMap()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MimetypesFileTypeMap()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.activation.MimetypesFileTypeMap sut = null; // = new MimetypesFileTypeMap();
     }
 
     @Override

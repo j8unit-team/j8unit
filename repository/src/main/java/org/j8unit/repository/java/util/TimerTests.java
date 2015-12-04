@@ -23,21 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Timer#purge() public int java.util.Timer.purge()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_purge()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.Timer#cancel() public void java.util.Timer.cancel()}.
      * </p>
      */
@@ -53,46 +38,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Timer#scheduleAtFixedRate(java.util.TimerTask,long,long) public void
-     * java.util.Timer.scheduleAtFixedRate(java.util.TimerTask,long,long)}.
+     * Test method for {@link java.util.Timer#purge() public int java.util.Timer.purge()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_scheduleAtFixedRate_TimerTask_long_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Timer#scheduleAtFixedRate(java.util.TimerTask,java.util.Date,long) public void
-     * java.util.Timer.scheduleAtFixedRate(java.util.TimerTask,java.util.Date,long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_scheduleAtFixedRate_TimerTask_Date_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Timer#schedule(java.util.TimerTask,java.util.Date,long) public void
-     * java.util.Timer.schedule(java.util.TimerTask,java.util.Date,long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_schedule_TimerTask_Date_long()
+    public default void test_purge()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -109,6 +61,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_schedule_TimerTask_Date()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Timer#schedule(java.util.TimerTask,java.util.Date,long) public void
+     * java.util.Timer.schedule(java.util.TimerTask,java.util.Date,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_schedule_TimerTask_Date_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -141,6 +109,38 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_schedule_TimerTask_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Timer#scheduleAtFixedRate(java.util.TimerTask,java.util.Date,long) public void
+     * java.util.Timer.scheduleAtFixedRate(java.util.TimerTask,java.util.Date,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_scheduleAtFixedRate_TimerTask_Date_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Timer#scheduleAtFixedRate(java.util.TimerTask,long,long) public void
+     * java.util.Timer.scheduleAtFixedRate(java.util.TimerTask,long,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_scheduleAtFixedRate_TimerTask_long_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

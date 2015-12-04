@@ -39,22 +39,6 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sql.RowSetListener#rowSetChanged(javax.sql.RowSetEvent) public abstract void
-     * javax.sql.RowSetListener.rowSetChanged(javax.sql.RowSetEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_rowSetChanged_RowSetEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sql.RowSetListener#rowChanged(javax.sql.RowSetEvent) public abstract void
      * javax.sql.RowSetListener.rowChanged(javax.sql.RowSetEvent)}.
      * </p>
@@ -63,6 +47,22 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_rowChanged_RowSetEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.RowSetListener#rowSetChanged(javax.sql.RowSetEvent) public abstract void
+     * javax.sql.RowSetListener.rowSetChanged(javax.sql.RowSetEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_rowSetChanged_RowSetEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

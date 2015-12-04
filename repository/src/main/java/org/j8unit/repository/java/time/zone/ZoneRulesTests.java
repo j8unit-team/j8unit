@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneRules#isFixedOffset() public boolean
-     * java.time.zone.ZoneRules.isFixedOffset()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isFixedOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.time.zone.ZoneRules#equals(java.lang.Object) public boolean
      * java.time.zone.ZoneRules.equals(java.lang.Object)}.
      * </p>
@@ -56,6 +40,70 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link java.time.zone.ZoneRules#getDaylightSavings(java.time.Instant) public java.time.Duration
+     * java.time.zone.ZoneRules.getDaylightSavings(java.time.Instant)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDaylightSavings_Instant()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.zone.ZoneRules#getOffset(java.time.Instant) public java.time.ZoneOffset
+     * java.time.zone.ZoneRules.getOffset(java.time.Instant)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOffset_Instant()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.zone.ZoneRules#getOffset(java.time.LocalDateTime) public java.time.ZoneOffset
+     * java.time.zone.ZoneRules.getOffset(java.time.LocalDateTime)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOffset_LocalDateTime()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.zone.ZoneRules#getStandardOffset(java.time.Instant) public java.time.ZoneOffset
+     * java.time.zone.ZoneRules.getStandardOffset(java.time.Instant)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStandardOffset_Instant()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.time.zone.ZoneRules#getTransition(java.time.LocalDateTime) public
      * java.time.zone.ZoneOffsetTransition java.time.zone.ZoneRules.getTransition(java.time.LocalDateTime)}.
      * </p>
@@ -64,6 +112,38 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_getTransition_LocalDateTime()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.zone.ZoneRules#getTransitionRules() public java.util.List
+     * java.time.zone.ZoneRules.getTransitionRules()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTransitionRules()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.zone.ZoneRules#getTransitions() public java.util.List
+     * java.time.zone.ZoneRules.getTransitions()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTransitions()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,22 +184,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneRules#isValidOffset(java.time.LocalDateTime,java.time.ZoneOffset)
-     * public boolean java.time.zone.ZoneRules.isValidOffset(java.time.LocalDateTime,java.time.ZoneOffset)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isValidOffset_LocalDateTime_ZoneOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.time.zone.ZoneRules#isDaylightSavings(java.time.Instant) public boolean
      * java.time.zone.ZoneRules.isDaylightSavings(java.time.Instant)}.
      * </p>
@@ -136,15 +200,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneRules#toString() public java.lang.String
-     * java.time.zone.ZoneRules.toString()}.
+     * Test method for {@link java.time.zone.ZoneRules#isFixedOffset() public boolean
+     * java.time.zone.ZoneRules.isFixedOffset()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_isFixedOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -153,14 +216,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneRules#getStandardOffset(java.time.Instant) public java.time.ZoneOffset
-     * java.time.zone.ZoneRules.getStandardOffset(java.time.Instant)}.
+     * Test method for {@link java.time.zone.ZoneRules#isValidOffset(java.time.LocalDateTime,java.time.ZoneOffset)
+     * public boolean java.time.zone.ZoneRules.isValidOffset(java.time.LocalDateTime,java.time.ZoneOffset)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStandardOffset_Instant()
+    public default void test_isValidOffset_LocalDateTime_ZoneOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -185,22 +248,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneRules#getTransitionRules() public java.util.List
-     * java.time.zone.ZoneRules.getTransitionRules()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTransitionRules()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.time.zone.ZoneRules#previousTransition(java.time.Instant) public
      * java.time.zone.ZoneOffsetTransition java.time.zone.ZoneRules.previousTransition(java.time.Instant)}.
      * </p>
@@ -217,62 +264,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneRules#getOffset(java.time.LocalDateTime) public java.time.ZoneOffset
-     * java.time.zone.ZoneRules.getOffset(java.time.LocalDateTime)}.
+     * Test method for {@link java.time.zone.ZoneRules#toString() public java.lang.String
+     * java.time.zone.ZoneRules.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOffset_LocalDateTime()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneRules#getOffset(java.time.Instant) public java.time.ZoneOffset
-     * java.time.zone.ZoneRules.getOffset(java.time.Instant)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOffset_Instant()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneRules#getTransitions() public java.util.List
-     * java.time.zone.ZoneRules.getTransitions()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTransitions()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneRules#getDaylightSavings(java.time.Instant) public java.time.Duration
-     * java.time.zone.ZoneRules.getDaylightSavings(java.time.Instant)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDaylightSavings_Instant()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

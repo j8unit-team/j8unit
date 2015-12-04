@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface RemoteServerClassTests<SUT extends Class<? extends java.rmi.server.RemoteServer>>
 extends org.j8unit.repository.java.rmi.server.RemoteObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.rmi.server.RemoteServer#getClientHost() public static java.lang.String
+     * java.rmi.server.RemoteServer.getClientHost() throws java.rmi.server.ServerNotActiveException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getClientHost()
     throws Exception {
-        // create new instance
-        final Class<? extends java.rmi.server.RemoteServer> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.rmi.server.RemoteServer.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -77,20 +83,14 @@ extends org.j8unit.repository.java.rmi.server.RemoteObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.rmi.server.RemoteServer#getClientHost() public static java.lang.String
-     * java.rmi.server.RemoteServer.getClientHost() throws java.rmi.server.ServerNotActiveException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getClientHost()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.rmi.server.RemoteServer> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.rmi.server.RemoteServer.class.isAssignableFrom(sut));
     }
 
 }

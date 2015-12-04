@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface ZoneRulesProviderClassTests<SUT extends Class<? extends java.time.zone.ZoneRulesProvider>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.time.zone.ZoneRulesProvider#getAvailableZoneIds() public static java.util.Set
+     * java.time.zone.ZoneRulesProvider.getAvailableZoneIds()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getAvailableZoneIds()
     throws Exception {
-        // create new instance
-        final Class<? extends java.time.zone.ZoneRulesProvider> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.zone.ZoneRulesProvider.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -55,38 +61,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getRules_String_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneRulesProvider#registerProvider(java.time.zone.ZoneRulesProvider) public
-     * static void java.time.zone.ZoneRulesProvider.registerProvider(java.time.zone.ZoneRulesProvider)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_registerProvider_ZoneRulesProvider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneRulesProvider#refresh() public static boolean
-     * java.time.zone.ZoneRulesProvider.refresh()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_refresh()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -111,18 +85,44 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneRulesProvider#getAvailableZoneIds() public static java.util.Set
-     * java.time.zone.ZoneRulesProvider.getAvailableZoneIds()}.
+     * Test method for {@link java.time.zone.ZoneRulesProvider#refresh() public static boolean
+     * java.time.zone.ZoneRulesProvider.refresh()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAvailableZoneIds()
+    public default void test_refresh()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.zone.ZoneRulesProvider#registerProvider(java.time.zone.ZoneRulesProvider) public
+     * static void java.time.zone.ZoneRulesProvider.registerProvider(java.time.zone.ZoneRulesProvider)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_registerProvider_ZoneRulesProvider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.zone.ZoneRulesProvider> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.zone.ZoneRulesProvider.class.isAssignableFrom(sut));
     }
 
 }

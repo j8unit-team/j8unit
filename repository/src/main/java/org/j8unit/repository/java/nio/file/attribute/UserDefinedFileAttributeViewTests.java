@@ -24,41 +24,6 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.attribute.UserDefinedFileAttributeView#name() public abstract
-     * java.lang.String java.nio.file.attribute.UserDefinedFileAttributeView.name()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.nio.file.attribute.UserDefinedFileAttributeView#write(java.lang.String,java.nio.ByteBuffer) public
-     * abstract int java.nio.file.attribute.UserDefinedFileAttributeView.write(java.lang.String,java.nio.ByteBuffer)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_String_ByteBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.file.attribute.UserDefinedFileAttributeView#delete(java.lang.String) public
      * abstract void java.nio.file.attribute.UserDefinedFileAttributeView.delete(java.lang.String) throws
      * java.io.IOException}.
@@ -84,6 +49,23 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_list()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.UserDefinedFileAttributeView#name() public abstract
+     * java.lang.String java.nio.file.attribute.UserDefinedFileAttributeView.name()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,6 +101,24 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_size_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.nio.file.attribute.UserDefinedFileAttributeView#write(java.lang.String,java.nio.ByteBuffer) public
+     * abstract int java.nio.file.attribute.UserDefinedFileAttributeView.write(java.lang.String,java.nio.ByteBuffer)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_String_ByteBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,17 +36,31 @@ public abstract interface NoSuchAlgorithmExceptionClassTests<SUT extends Class<?
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.NoSuchAlgorithmException#NoSuchAlgorithmException(java.lang.Throwable)
-     * public java.security.NoSuchAlgorithmException(java.lang.Throwable)}.
+     * Test method for {@link java.security.NoSuchAlgorithmException#NoSuchAlgorithmException() public
+     * java.security.NoSuchAlgorithmException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_NoSuchAlgorithmException_Throwable()
+    public default void create_NoSuchAlgorithmException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.NoSuchAlgorithmException sut = null; // = new NoSuchAlgorithmException(java.lang.Throwable);
+        final java.security.NoSuchAlgorithmException sut = null; // = new NoSuchAlgorithmException();
+    }
+
+    /**
+     * Test method for {@link java.security.NoSuchAlgorithmException#NoSuchAlgorithmException(java.lang.String) public
+     * java.security.NoSuchAlgorithmException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_NoSuchAlgorithmException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.NoSuchAlgorithmException sut = null; // = new NoSuchAlgorithmException(java.lang.String);
     }
 
     /**
@@ -66,31 +80,17 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     }
 
     /**
-     * Test method for {@link java.security.NoSuchAlgorithmException#NoSuchAlgorithmException(java.lang.String) public
-     * java.security.NoSuchAlgorithmException(java.lang.String)}.
+     * Test method for {@link java.security.NoSuchAlgorithmException#NoSuchAlgorithmException(java.lang.Throwable)
+     * public java.security.NoSuchAlgorithmException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_NoSuchAlgorithmException_String()
+    public default void create_NoSuchAlgorithmException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.NoSuchAlgorithmException sut = null; // = new NoSuchAlgorithmException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.security.NoSuchAlgorithmException#NoSuchAlgorithmException() public
-     * java.security.NoSuchAlgorithmException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_NoSuchAlgorithmException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.NoSuchAlgorithmException sut = null; // = new NoSuchAlgorithmException();
+        final java.security.NoSuchAlgorithmException sut = null; // = new NoSuchAlgorithmException(java.lang.Throwable);
     }
 
     @Override

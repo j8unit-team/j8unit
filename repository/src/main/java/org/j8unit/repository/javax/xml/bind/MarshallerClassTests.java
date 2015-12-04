@@ -36,15 +36,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface MarshallerClassTests<SUT extends Class<? extends javax.xml.bind.Marshaller>>
 extends J8UnitTest<SUT> {
 
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.bind.Marshaller> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.bind.Marshaller.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.xml.bind.Marshaller$Listener class javax.xml.bind.Marshaller$Listener}, containing
@@ -98,6 +89,15 @@ extends J8UnitTest<SUT> {
             assertTrue(javax.xml.bind.Marshaller.Listener.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.bind.Marshaller> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.bind.Marshaller.class.isAssignableFrom(sut));
     }
 
 }

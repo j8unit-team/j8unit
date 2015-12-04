@@ -36,30 +36,16 @@ extends org.j8unit.repository.java.util.NavigableMapClassTests<SUT, K, V>, org.j
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
 
     /**
-     * Test method for {@link java.util.TreeMap#TreeMap(java.util.SortedMap) public
-     * java.util.TreeMap(java.util.SortedMap)}.
+     * Test method for {@link java.util.TreeMap#TreeMap() public java.util.TreeMap()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_TreeMap_SortedMap()
+    public default void create_TreeMap()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.TreeMap<K, V> sut = null; // = new TreeMap(java.util.SortedMap);
-    }
-
-    /**
-     * Test method for {@link java.util.TreeMap#TreeMap(java.util.Map) public java.util.TreeMap(java.util.Map)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TreeMap_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.TreeMap<K, V> sut = null; // = new TreeMap(java.util.Map);
+        final java.util.TreeMap<K, V> sut = null; // = new TreeMap();
     }
 
     /**
@@ -77,16 +63,30 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     }
 
     /**
-     * Test method for {@link java.util.TreeMap#TreeMap() public java.util.TreeMap()}.
+     * Test method for {@link java.util.TreeMap#TreeMap(java.util.Map) public java.util.TreeMap(java.util.Map)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_TreeMap()
+    public default void create_TreeMap_Map()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.TreeMap<K, V> sut = null; // = new TreeMap();
+        final java.util.TreeMap<K, V> sut = null; // = new TreeMap(java.util.Map);
+    }
+
+    /**
+     * Test method for {@link java.util.TreeMap#TreeMap(java.util.SortedMap) public
+     * java.util.TreeMap(java.util.SortedMap)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TreeMap_SortedMap()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.TreeMap<K, V> sut = null; // = new TreeMap(java.util.SortedMap);
     }
 
     @Override

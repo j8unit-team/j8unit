@@ -23,32 +23,15 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#poll(long,java.util.concurrent.TimeUnit) public
-     * abstract java.lang.Object java.util.concurrent.BlockingQueue.poll(long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_poll_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#remove(java.lang.Object) public abstract boolean
-     * java.util.concurrent.BlockingQueue.remove(java.lang.Object)}.
+     * Test method for {@link java.util.concurrent.BlockingQueue#add(java.lang.Object) public abstract boolean
+     * java.util.concurrent.BlockingQueue.add(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_remove_Object()
+    public default void test_add_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,14 +40,15 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#put(java.lang.Object) public abstract void
-     * java.util.concurrent.BlockingQueue.put(java.lang.Object) throws java.lang.InterruptedException}.
+     * Test method for {@link java.util.concurrent.BlockingQueue#contains(java.lang.Object) public abstract boolean
+     * java.util.concurrent.BlockingQueue.contains(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_put_Object()
+    @Override
+    public default void test_contains_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -105,56 +89,6 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#remainingCapacity() public abstract int
-     * java.util.concurrent.BlockingQueue.remainingCapacity()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remainingCapacity()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#contains(java.lang.Object) public abstract boolean
-     * java.util.concurrent.BlockingQueue.contains(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_contains_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingQueue#add(java.lang.Object) public abstract boolean
-     * java.util.concurrent.BlockingQueue.add(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_add_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.concurrent.BlockingQueue#offer(java.lang.Object) public abstract boolean
      * java.util.concurrent.BlockingQueue.offer(java.lang.Object)}.
      * </p>
@@ -182,6 +116,72 @@ extends org.j8unit.repository.java.util.QueueTests<SUT, E> {
     @Test
     @Category(Draft.class)
     public default void test_offer_Object_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingQueue#poll(long,java.util.concurrent.TimeUnit) public
+     * abstract java.lang.Object java.util.concurrent.BlockingQueue.poll(long,java.util.concurrent.TimeUnit) throws
+     * java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_poll_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingQueue#put(java.lang.Object) public abstract void
+     * java.util.concurrent.BlockingQueue.put(java.lang.Object) throws java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingQueue#remainingCapacity() public abstract int
+     * java.util.concurrent.BlockingQueue.remainingCapacity()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remainingCapacity()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingQueue#remove(java.lang.Object) public abstract boolean
+     * java.util.concurrent.BlockingQueue.remove(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_remove_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

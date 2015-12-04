@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleHypertext#getLinkCount() public abstract int
-     * javax.accessibility.AccessibleHypertext.getLinkCount()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLinkCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.accessibility.AccessibleHypertext#getLink(int) public abstract
      * javax.accessibility.AccessibleHyperlink javax.accessibility.AccessibleHypertext.getLink(int)}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getLink_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleHypertext#getLinkCount() public abstract int
+     * javax.accessibility.AccessibleHypertext.getLinkCount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLinkCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

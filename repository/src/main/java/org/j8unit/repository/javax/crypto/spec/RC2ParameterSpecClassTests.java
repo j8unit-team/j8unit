@@ -36,17 +36,17 @@ public abstract interface RC2ParameterSpecClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.crypto.spec.RC2ParameterSpec#RC2ParameterSpec(int,byte[],int) public
-     * javax.crypto.spec.RC2ParameterSpec(int,byte[],int)}.
+     * Test method for {@link javax.crypto.spec.RC2ParameterSpec#RC2ParameterSpec(int) public
+     * javax.crypto.spec.RC2ParameterSpec(int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RC2ParameterSpec_int_byteArray_int()
+    public default void create_RC2ParameterSpec_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.crypto.spec.RC2ParameterSpec sut = null; // = new RC2ParameterSpec(int,byte[],int);
+        final javax.crypto.spec.RC2ParameterSpec sut = null; // = new RC2ParameterSpec(int);
     }
 
     /**
@@ -64,17 +64,17 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecClassTest
     }
 
     /**
-     * Test method for {@link javax.crypto.spec.RC2ParameterSpec#RC2ParameterSpec(int) public
-     * javax.crypto.spec.RC2ParameterSpec(int)}.
+     * Test method for {@link javax.crypto.spec.RC2ParameterSpec#RC2ParameterSpec(int,byte[],int) public
+     * javax.crypto.spec.RC2ParameterSpec(int,byte[],int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RC2ParameterSpec_int()
+    public default void create_RC2ParameterSpec_int_byteArray_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.crypto.spec.RC2ParameterSpec sut = null; // = new RC2ParameterSpec(int);
+        final javax.crypto.spec.RC2ParameterSpec sut = null; // = new RC2ParameterSpec(int,byte[],int);
     }
 
     @Override

@@ -25,15 +25,15 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.bind.annotation.DomHandler#marshal(java.lang.Object,javax.xml.bind.ValidationEventHandler)
-     * public abstract javax.xml.transform.Source
-     * javax.xml.bind.annotation.DomHandler.marshal(java.lang.Object,javax.xml.bind.ValidationEventHandler)}.
+     * {@link javax.xml.bind.annotation.DomHandler#createUnmarshaller(javax.xml.bind.ValidationEventHandler) public
+     * abstract javax.xml.transform.Result
+     * javax.xml.bind.annotation.DomHandler.createUnmarshaller(javax.xml.bind.ValidationEventHandler)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_marshal_Object_ValidationEventHandler()
+    public default void test_createUnmarshaller_ValidationEventHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -59,15 +59,15 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.xml.bind.annotation.DomHandler#createUnmarshaller(javax.xml.bind.ValidationEventHandler) public
-     * abstract javax.xml.transform.Result
-     * javax.xml.bind.annotation.DomHandler.createUnmarshaller(javax.xml.bind.ValidationEventHandler)}.
+     * {@link javax.xml.bind.annotation.DomHandler#marshal(java.lang.Object,javax.xml.bind.ValidationEventHandler)
+     * public abstract javax.xml.transform.Source
+     * javax.xml.bind.annotation.DomHandler.marshal(java.lang.Object,javax.xml.bind.ValidationEventHandler)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createUnmarshaller_ValidationEventHandler()
+    public default void test_marshal_Object_ValidationEventHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

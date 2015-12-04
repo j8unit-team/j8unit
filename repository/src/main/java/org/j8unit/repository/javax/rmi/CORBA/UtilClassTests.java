@@ -34,26 +34,17 @@ import org.junit.experimental.categories.Category;
 public abstract interface UtilClassTests<SUT extends Class<? extends javax.rmi.CORBA.Util>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.rmi.CORBA.Util> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.rmi.CORBA.Util.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.Util#registerTarget(javax.rmi.CORBA.Tie,java.rmi.Remote) public static
-     * void javax.rmi.CORBA.Util.registerTarget(javax.rmi.CORBA.Tie,java.rmi.Remote)}.
+     * Test method for {@link javax.rmi.CORBA.Util#copyObject(java.lang.Object,org.omg.CORBA.ORB) public static
+     * java.lang.Object javax.rmi.CORBA.Util.copyObject(java.lang.Object,org.omg.CORBA.ORB) throws
+     * java.rmi.RemoteException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_registerTarget_Tie_Remote()
+    public default void test_copyObject_Object_ORB()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,79 +70,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.Util#wrapException(java.lang.Throwable) public static
-     * java.rmi.RemoteException javax.rmi.CORBA.Util.wrapException(java.lang.Throwable)}.
+     * Test method for {@link javax.rmi.CORBA.Util#createValueHandler() public static javax.rmi.CORBA.ValueHandler
+     * javax.rmi.CORBA.Util.createValueHandler()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_wrapException_Throwable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.rmi.CORBA.Util#isLocal(javax.rmi.CORBA.Stub) public static boolean
-     * javax.rmi.CORBA.Util.isLocal(javax.rmi.CORBA.Stub) throws java.rmi.RemoteException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isLocal_Stub()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.rmi.CORBA.Util#mapSystemException(org.omg.CORBA.SystemException) public static
-     * java.rmi.RemoteException javax.rmi.CORBA.Util.mapSystemException(org.omg.CORBA.SystemException)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_mapSystemException_SystemException()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.rmi.CORBA.Util#copyObject(java.lang.Object,org.omg.CORBA.ORB) public static
-     * java.lang.Object javax.rmi.CORBA.Util.copyObject(java.lang.Object,org.omg.CORBA.ORB) throws
-     * java.rmi.RemoteException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_copyObject_Object_ORB()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.rmi.CORBA.Util#writeAny(org.omg.CORBA.portable.OutputStream,java.lang.Object) public
-     * static void javax.rmi.CORBA.Util.writeAny(org.omg.CORBA.portable.OutputStream,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeAny_OutputStream_Object()
+    public default void test_createValueHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -176,38 +102,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.Util#readAny(org.omg.CORBA.portable.InputStream) public static
-     * java.lang.Object javax.rmi.CORBA.Util.readAny(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readAny_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.rmi.CORBA.Util#unexportObject(java.rmi.Remote) public static void
-     * javax.rmi.CORBA.Util.unexportObject(java.rmi.Remote) throws java.rmi.NoSuchObjectException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unexportObject_Remote()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.rmi.CORBA.Util#getTie(java.rmi.Remote) public static javax.rmi.CORBA.Tie
      * javax.rmi.CORBA.Util.getTie(java.rmi.Remote)}.
      * </p>
@@ -224,32 +118,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.rmi.CORBA.Util#writeAbstractObject(org.omg.CORBA.portable.OutputStream,java.lang.Object) public
-     * static void javax.rmi.CORBA.Util.writeAbstractObject(org.omg.CORBA.portable.OutputStream,java.lang.Object)}.
+     * Test method for {@link javax.rmi.CORBA.Util#isLocal(javax.rmi.CORBA.Stub) public static boolean
+     * javax.rmi.CORBA.Util.isLocal(javax.rmi.CORBA.Stub) throws java.rmi.RemoteException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeAbstractObject_OutputStream_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.rmi.CORBA.Util#writeRemoteObject(org.omg.CORBA.portable.OutputStream,java.lang.Object) public static
-     * void javax.rmi.CORBA.Util.writeRemoteObject(org.omg.CORBA.portable.OutputStream,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeRemoteObject_OutputStream_Object()
+    public default void test_isLocal_Stub()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -276,18 +152,142 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.Util#createValueHandler() public static javax.rmi.CORBA.ValueHandler
-     * javax.rmi.CORBA.Util.createValueHandler()}.
+     * Test method for {@link javax.rmi.CORBA.Util#mapSystemException(org.omg.CORBA.SystemException) public static
+     * java.rmi.RemoteException javax.rmi.CORBA.Util.mapSystemException(org.omg.CORBA.SystemException)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createValueHandler()
+    public default void test_mapSystemException_SystemException()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.rmi.CORBA.Util#readAny(org.omg.CORBA.portable.InputStream) public static
+     * java.lang.Object javax.rmi.CORBA.Util.readAny(org.omg.CORBA.portable.InputStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readAny_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.rmi.CORBA.Util#registerTarget(javax.rmi.CORBA.Tie,java.rmi.Remote) public static
+     * void javax.rmi.CORBA.Util.registerTarget(javax.rmi.CORBA.Tie,java.rmi.Remote)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_registerTarget_Tie_Remote()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.rmi.CORBA.Util#unexportObject(java.rmi.Remote) public static void
+     * javax.rmi.CORBA.Util.unexportObject(java.rmi.Remote) throws java.rmi.NoSuchObjectException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unexportObject_Remote()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.rmi.CORBA.Util#wrapException(java.lang.Throwable) public static
+     * java.rmi.RemoteException javax.rmi.CORBA.Util.wrapException(java.lang.Throwable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wrapException_Throwable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.rmi.CORBA.Util#writeAbstractObject(org.omg.CORBA.portable.OutputStream,java.lang.Object) public
+     * static void javax.rmi.CORBA.Util.writeAbstractObject(org.omg.CORBA.portable.OutputStream,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeAbstractObject_OutputStream_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.rmi.CORBA.Util#writeAny(org.omg.CORBA.portable.OutputStream,java.lang.Object) public
+     * static void javax.rmi.CORBA.Util.writeAny(org.omg.CORBA.portable.OutputStream,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeAny_OutputStream_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.rmi.CORBA.Util#writeRemoteObject(org.omg.CORBA.portable.OutputStream,java.lang.Object) public static
+     * void javax.rmi.CORBA.Util.writeRemoteObject(org.omg.CORBA.portable.OutputStream,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeRemoteObject_OutputStream_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.rmi.CORBA.Util> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.rmi.CORBA.Util.class.isAssignableFrom(sut));
     }
 
 }

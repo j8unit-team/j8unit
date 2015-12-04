@@ -65,16 +65,6 @@ extends org.j8unit.repository.java.security.IdentityClassTests<SUT> {
                                                       // IdentityScope(java.lang.String,java.security.IdentityScope);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.security.IdentityScope> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.IdentityScope.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.security.IdentityScope#getSystemScope() public static java.security.IdentityScope
@@ -89,6 +79,16 @@ extends org.j8unit.repository.java.security.IdentityClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.security.IdentityScope> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.IdentityScope.class.isAssignableFrom(sut));
     }
 
 }

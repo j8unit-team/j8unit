@@ -36,111 +36,6 @@ extends org.j8unit.repository.javax.swing.ScrollableClassTests<SUT>, org.j8unit.
 org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JTree#JTree(java.lang.Object[]) public javax.swing.JTree(java.lang.Object[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTree_ObjectArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTree sut = null; // = new JTree(java.lang.Object[]);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JTree#JTree(java.util.Vector) public javax.swing.JTree(java.util.Vector)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTree_Vector()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTree sut = null; // = new JTree(java.util.Vector);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JTree#JTree(java.util.Hashtable) public
-     * javax.swing.JTree(java.util.Hashtable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTree_Hashtable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTree sut = null; // = new JTree(java.util.Hashtable);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JTree#JTree(javax.swing.tree.TreeNode,boolean) public
-     * javax.swing.JTree(javax.swing.tree.TreeNode,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTree_TreeNode_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTree sut = null; // = new JTree(javax.swing.tree.TreeNode,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JTree#JTree() public javax.swing.JTree()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTree()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTree sut = null; // = new JTree();
-    }
-
-    /**
-     * Test method for {@link javax.swing.JTree#JTree(javax.swing.tree.TreeModel) public
-     * javax.swing.JTree(javax.swing.tree.TreeModel)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTree_TreeModel()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTree sut = null; // = new JTree(javax.swing.tree.TreeModel);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JTree#JTree(javax.swing.tree.TreeNode) public
-     * javax.swing.JTree(javax.swing.tree.TreeNode)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JTree_TreeNode()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JTree sut = null; // = new JTree(javax.swing.tree.TreeNode);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.JTree> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JTree.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.JTree$DropLocation class javax.swing.JTree$DropLocation}, containing all class
      * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
@@ -226,16 +121,6 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
                                                                     // DynamicUtilTreeNode(java.lang.Object,java.lang.Object);
         }
 
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.swing.JTree.DynamicUtilTreeNode> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.swing.JTree.DynamicUtilTreeNode.class.isAssignableFrom(sut));
-        }
-
         /**
          * <p>
          * Test method for
@@ -255,6 +140,121 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
             assert sut != null;
         }
 
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.swing.JTree.DynamicUtilTreeNode> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.swing.JTree.DynamicUtilTreeNode.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    /**
+     * Test method for {@link javax.swing.JTree#JTree() public javax.swing.JTree()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTree()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTree sut = null; // = new JTree();
+    }
+
+    /**
+     * Test method for {@link javax.swing.JTree#JTree(java.util.Hashtable) public
+     * javax.swing.JTree(java.util.Hashtable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTree_Hashtable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTree sut = null; // = new JTree(java.util.Hashtable);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JTree#JTree(java.lang.Object[]) public javax.swing.JTree(java.lang.Object[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTree_ObjectArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTree sut = null; // = new JTree(java.lang.Object[]);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JTree#JTree(javax.swing.tree.TreeModel) public
+     * javax.swing.JTree(javax.swing.tree.TreeModel)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTree_TreeModel()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTree sut = null; // = new JTree(javax.swing.tree.TreeModel);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JTree#JTree(javax.swing.tree.TreeNode) public
+     * javax.swing.JTree(javax.swing.tree.TreeNode)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTree_TreeNode()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTree sut = null; // = new JTree(javax.swing.tree.TreeNode);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JTree#JTree(javax.swing.tree.TreeNode,boolean) public
+     * javax.swing.JTree(javax.swing.tree.TreeNode,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTree_TreeNode_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTree sut = null; // = new JTree(javax.swing.tree.TreeNode,boolean);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JTree#JTree(java.util.Vector) public javax.swing.JTree(java.util.Vector)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JTree_Vector()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JTree sut = null; // = new JTree(java.util.Vector);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.JTree> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.JTree.class.isAssignableFrom(sut));
     }
 
 }

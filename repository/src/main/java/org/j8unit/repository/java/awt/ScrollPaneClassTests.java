@@ -35,20 +35,6 @@ public abstract interface ScrollPaneClassTests<SUT extends Class<? extends java.
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.java.awt.ContainerClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.ScrollPane#ScrollPane(int) public java.awt.ScrollPane(int) throws
-     * java.awt.HeadlessException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ScrollPane_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.ScrollPane sut = null; // = new ScrollPane(int);
-    }
-
-    /**
      * Test method for {@link java.awt.ScrollPane#ScrollPane() public java.awt.ScrollPane() throws
      * java.awt.HeadlessException}.
      */
@@ -60,6 +46,20 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.ScrollPane sut = null; // = new ScrollPane();
+    }
+
+    /**
+     * Test method for {@link java.awt.ScrollPane#ScrollPane(int) public java.awt.ScrollPane(int) throws
+     * java.awt.HeadlessException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ScrollPane_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.ScrollPane sut = null; // = new ScrollPane(int);
     }
 
     @Override

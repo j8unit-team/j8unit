@@ -23,15 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.ref.ReferenceQueue#remove(long) public java.lang.ref.Reference
-     * java.lang.ref.ReferenceQueue.remove(long) throws
-     * java.lang.IllegalArgumentException,java.lang.InterruptedException}.
+     * Test method for {@link java.lang.ref.ReferenceQueue#poll() public java.lang.ref.Reference
+     * java.lang.ref.ReferenceQueue.poll()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_remove_long()
+    public default void test_poll()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,14 +55,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.ref.ReferenceQueue#poll() public java.lang.ref.Reference
-     * java.lang.ref.ReferenceQueue.poll()}.
+     * Test method for {@link java.lang.ref.ReferenceQueue#remove(long) public java.lang.ref.Reference
+     * java.lang.ref.ReferenceQueue.remove(long) throws
+     * java.lang.IllegalArgumentException,java.lang.InterruptedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_poll()
+    public default void test_remove_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

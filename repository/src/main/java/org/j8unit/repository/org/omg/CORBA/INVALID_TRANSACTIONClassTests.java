@@ -36,19 +36,17 @@ public abstract interface INVALID_TRANSACTIONClassTests<SUT extends Class<? exte
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link org.omg.CORBA.INVALID_TRANSACTION#INVALID_TRANSACTION(java.lang.String,int,org.omg.CORBA.CompletionStatus)
-     * public org.omg.CORBA.INVALID_TRANSACTION(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for {@link org.omg.CORBA.INVALID_TRANSACTION#INVALID_TRANSACTION() public
+     * org.omg.CORBA.INVALID_TRANSACTION()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_INVALID_TRANSACTION_String_int_CompletionStatus()
+    public default void create_INVALID_TRANSACTION()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.INVALID_TRANSACTION sut = null; // = new
-                                                            // INVALID_TRANSACTION(java.lang.String,int,org.omg.CORBA.CompletionStatus);
+        final org.omg.CORBA.INVALID_TRANSACTION sut = null; // = new INVALID_TRANSACTION();
     }
 
     /**
@@ -81,17 +79,19 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link org.omg.CORBA.INVALID_TRANSACTION#INVALID_TRANSACTION() public
-     * org.omg.CORBA.INVALID_TRANSACTION()}.
+     * Test method for
+     * {@link org.omg.CORBA.INVALID_TRANSACTION#INVALID_TRANSACTION(java.lang.String,int,org.omg.CORBA.CompletionStatus)
+     * public org.omg.CORBA.INVALID_TRANSACTION(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_INVALID_TRANSACTION()
+    public default void create_INVALID_TRANSACTION_String_int_CompletionStatus()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.INVALID_TRANSACTION sut = null; // = new INVALID_TRANSACTION();
+        final org.omg.CORBA.INVALID_TRANSACTION sut = null; // = new
+                                                            // INVALID_TRANSACTION(java.lang.String,int,org.omg.CORBA.CompletionStatus);
     }
 
     @Override

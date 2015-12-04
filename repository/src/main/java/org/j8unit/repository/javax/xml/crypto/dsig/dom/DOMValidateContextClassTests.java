@@ -38,22 +38,6 @@ org.j8unit.repository.javax.xml.crypto.dom.DOMCryptoContextClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.xml.crypto.dsig.dom.DOMValidateContext#DOMValidateContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node)
-     * public javax.xml.crypto.dsig.dom.DOMValidateContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DOMValidateContext_KeySelector_Node()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.crypto.dsig.dom.DOMValidateContext sut = null; // = new
-                                                                       // DOMValidateContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node);
-    }
-
-    /**
-     * Test method for
      * {@link javax.xml.crypto.dsig.dom.DOMValidateContext#DOMValidateContext(java.security.Key,org.w3c.dom.Node) public
      * javax.xml.crypto.dsig.dom.DOMValidateContext(java.security.Key,org.w3c.dom.Node)}.
      */
@@ -66,6 +50,22 @@ org.j8unit.repository.javax.xml.crypto.dom.DOMCryptoContextClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.xml.crypto.dsig.dom.DOMValidateContext sut = null; // = new
                                                                        // DOMValidateContext(java.security.Key,org.w3c.dom.Node);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.xml.crypto.dsig.dom.DOMValidateContext#DOMValidateContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node)
+     * public javax.xml.crypto.dsig.dom.DOMValidateContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DOMValidateContext_KeySelector_Node()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.crypto.dsig.dom.DOMValidateContext sut = null; // = new
+                                                                       // DOMValidateContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node);
     }
 
     @Override

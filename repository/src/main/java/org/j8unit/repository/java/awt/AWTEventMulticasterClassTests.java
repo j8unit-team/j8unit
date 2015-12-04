@@ -43,52 +43,6 @@ org.j8unit.repository.java.awt.event.TextListenerClassTests<SUT>, org.j8unit.rep
 org.j8unit.repository.java.awt.event.HierarchyListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.HierarchyBoundsListenerClassTests<SUT>,
 org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.AWTEventMulticaster> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.AWTEventMulticaster.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.WindowListener,java.awt.event.WindowListener) public
-     * static java.awt.event.WindowListener
-     * java.awt.AWTEventMulticaster.add(java.awt.event.WindowListener,java.awt.event.WindowListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_WindowListener_WindowListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.MouseMotionListener,java.awt.event.MouseMotionListener)
-     * public static java.awt.event.MouseMotionListener
-     * java.awt.AWTEventMulticaster.add(java.awt.event.MouseMotionListener,java.awt.event.MouseMotionListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_MouseMotionListener_MouseMotionListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for
@@ -110,69 +64,15 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.MouseListener,java.awt.event.MouseListener) public static
-     * java.awt.event.MouseListener
-     * java.awt.AWTEventMulticaster.add(java.awt.event.MouseListener,java.awt.event.MouseListener)}.
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.AdjustmentListener,java.awt.event.AdjustmentListener)
+     * public static java.awt.event.AdjustmentListener
+     * java.awt.AWTEventMulticaster.add(java.awt.event.AdjustmentListener,java.awt.event.AdjustmentListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_add_MouseListener_MouseListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.WindowStateListener,java.awt.event.WindowStateListener)
-     * public static java.awt.event.WindowStateListener
-     * java.awt.AWTEventMulticaster.add(java.awt.event.WindowStateListener,java.awt.event.WindowStateListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_WindowStateListener_WindowStateListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.MouseWheelListener,java.awt.event.MouseWheelListener)
-     * public static java.awt.event.MouseWheelListener
-     * java.awt.AWTEventMulticaster.add(java.awt.event.MouseWheelListener,java.awt.event.MouseWheelListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_MouseWheelListener_MouseWheelListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.WindowFocusListener,java.awt.event.WindowFocusListener)
-     * public static java.awt.event.WindowFocusListener
-     * java.awt.AWTEventMulticaster.add(java.awt.event.WindowFocusListener,java.awt.event.WindowFocusListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_WindowFocusListener_WindowFocusListener()
+    public default void test_add_AdjustmentListener_AdjustmentListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -218,41 +118,6 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.AdjustmentListener,java.awt.event.AdjustmentListener)
-     * public static java.awt.event.AdjustmentListener
-     * java.awt.AWTEventMulticaster.add(java.awt.event.AdjustmentListener,java.awt.event.AdjustmentListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_AdjustmentListener_AdjustmentListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.AWTEventMulticaster#add(java.awt.event.TextListener,java.awt.event.TextListener)
-     * public static java.awt.event.TextListener
-     * java.awt.AWTEventMulticaster.add(java.awt.event.TextListener,java.awt.event.TextListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_TextListener_TextListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link java.awt.AWTEventMulticaster#add(java.awt.event.FocusListener,java.awt.event.FocusListener) public static
      * java.awt.event.FocusListener
      * java.awt.AWTEventMulticaster.add(java.awt.event.FocusListener,java.awt.event.FocusListener)}.
@@ -262,23 +127,6 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_add_FocusListener_FocusListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.AWTEventMulticaster#add(java.awt.event.KeyListener,java.awt.event.KeyListener)
-     * public static java.awt.event.KeyListener
-     * java.awt.AWTEventMulticaster.add(java.awt.event.KeyListener,java.awt.event.KeyListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_KeyListener_KeyListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -305,15 +153,16 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.awt.AWTEventMulticaster#add(java.awt.event.ItemListener,java.awt.event.ItemListener)
-     * public static java.awt.event.ItemListener
-     * java.awt.AWTEventMulticaster.add(java.awt.event.ItemListener,java.awt.event.ItemListener)}.
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.HierarchyListener,java.awt.event.HierarchyListener) public
+     * static java.awt.event.HierarchyListener
+     * java.awt.AWTEventMulticaster.add(java.awt.event.HierarchyListener,java.awt.event.HierarchyListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_add_ItemListener_ItemListener()
+    public default void test_add_HierarchyListener_HierarchyListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -340,16 +189,157 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.HierarchyListener,java.awt.event.HierarchyListener) public
-     * static java.awt.event.HierarchyListener
-     * java.awt.AWTEventMulticaster.add(java.awt.event.HierarchyListener,java.awt.event.HierarchyListener)}.
+     * Test method for {@link java.awt.AWTEventMulticaster#add(java.awt.event.ItemListener,java.awt.event.ItemListener)
+     * public static java.awt.event.ItemListener
+     * java.awt.AWTEventMulticaster.add(java.awt.event.ItemListener,java.awt.event.ItemListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_add_HierarchyListener_HierarchyListener()
+    public default void test_add_ItemListener_ItemListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.AWTEventMulticaster#add(java.awt.event.KeyListener,java.awt.event.KeyListener)
+     * public static java.awt.event.KeyListener
+     * java.awt.AWTEventMulticaster.add(java.awt.event.KeyListener,java.awt.event.KeyListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_KeyListener_KeyListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.MouseListener,java.awt.event.MouseListener) public static
+     * java.awt.event.MouseListener
+     * java.awt.AWTEventMulticaster.add(java.awt.event.MouseListener,java.awt.event.MouseListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_MouseListener_MouseListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.MouseMotionListener,java.awt.event.MouseMotionListener)
+     * public static java.awt.event.MouseMotionListener
+     * java.awt.AWTEventMulticaster.add(java.awt.event.MouseMotionListener,java.awt.event.MouseMotionListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_MouseMotionListener_MouseMotionListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.MouseWheelListener,java.awt.event.MouseWheelListener)
+     * public static java.awt.event.MouseWheelListener
+     * java.awt.AWTEventMulticaster.add(java.awt.event.MouseWheelListener,java.awt.event.MouseWheelListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_MouseWheelListener_MouseWheelListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.AWTEventMulticaster#add(java.awt.event.TextListener,java.awt.event.TextListener)
+     * public static java.awt.event.TextListener
+     * java.awt.AWTEventMulticaster.add(java.awt.event.TextListener,java.awt.event.TextListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_TextListener_TextListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.WindowFocusListener,java.awt.event.WindowFocusListener)
+     * public static java.awt.event.WindowFocusListener
+     * java.awt.AWTEventMulticaster.add(java.awt.event.WindowFocusListener,java.awt.event.WindowFocusListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_WindowFocusListener_WindowFocusListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.WindowListener,java.awt.event.WindowListener) public
+     * static java.awt.event.WindowListener
+     * java.awt.AWTEventMulticaster.add(java.awt.event.WindowListener,java.awt.event.WindowListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_WindowListener_WindowListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#add(java.awt.event.WindowStateListener,java.awt.event.WindowStateListener)
+     * public static java.awt.event.WindowStateListener
+     * java.awt.AWTEventMulticaster.add(java.awt.event.WindowStateListener,java.awt.event.WindowStateListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_WindowStateListener_WindowStateListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -367,113 +357,6 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_getListeners_EventListener_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.WindowStateListener,java.awt.event.WindowStateListener)
-     * public static java.awt.event.WindowStateListener
-     * java.awt.AWTEventMulticaster.remove(java.awt.event.WindowStateListener,java.awt.event.WindowStateListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_WindowStateListener_WindowStateListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.MouseMotionListener,java.awt.event.MouseMotionListener)
-     * public static java.awt.event.MouseMotionListener
-     * java.awt.AWTEventMulticaster.remove(java.awt.event.MouseMotionListener,java.awt.event.MouseMotionListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_MouseMotionListener_MouseMotionListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.AWTEventMulticaster#remove(java.awt.event.KeyListener,java.awt.event.KeyListener)
-     * public static java.awt.event.KeyListener
-     * java.awt.AWTEventMulticaster.remove(java.awt.event.KeyListener,java.awt.event.KeyListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_KeyListener_KeyListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.WindowListener,java.awt.event.WindowListener) public
-     * static java.awt.event.WindowListener
-     * java.awt.AWTEventMulticaster.remove(java.awt.event.WindowListener,java.awt.event.WindowListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_WindowListener_WindowListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.WindowFocusListener,java.awt.event.WindowFocusListener)
-     * public static java.awt.event.WindowFocusListener
-     * java.awt.AWTEventMulticaster.remove(java.awt.event.WindowFocusListener,java.awt.event.WindowFocusListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_WindowFocusListener_WindowFocusListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.ItemListener,java.awt.event.ItemListener) public static
-     * java.awt.event.ItemListener
-     * java.awt.AWTEventMulticaster.remove(java.awt.event.ItemListener,java.awt.event.ItemListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_ItemListener_ItemListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -501,15 +384,15 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.MouseWheelListener,java.awt.event.MouseWheelListener)
-     * public static java.awt.event.MouseWheelListener
-     * java.awt.AWTEventMulticaster.remove(java.awt.event.MouseWheelListener,java.awt.event.MouseWheelListener)}.
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.AdjustmentListener,java.awt.event.AdjustmentListener)
+     * public static java.awt.event.AdjustmentListener
+     * java.awt.AWTEventMulticaster.remove(java.awt.event.AdjustmentListener,java.awt.event.AdjustmentListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_remove_MouseWheelListener_MouseWheelListener()
+    public default void test_remove_AdjustmentListener_AdjustmentListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -555,24 +438,6 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.AdjustmentListener,java.awt.event.AdjustmentListener)
-     * public static java.awt.event.AdjustmentListener
-     * java.awt.AWTEventMulticaster.remove(java.awt.event.AdjustmentListener,java.awt.event.AdjustmentListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_AdjustmentListener_AdjustmentListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.FocusListener,java.awt.event.FocusListener) public
      * static java.awt.event.FocusListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.FocusListener,java.awt.event.FocusListener)}.
@@ -582,42 +447,6 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_remove_FocusListener_FocusListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.TextListener,java.awt.event.TextListener) public static
-     * java.awt.event.TextListener
-     * java.awt.AWTEventMulticaster.remove(java.awt.event.TextListener,java.awt.event.TextListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_TextListener_TextListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.InputMethodListener,java.awt.event.InputMethodListener)
-     * public static java.awt.event.InputMethodListener
-     * java.awt.AWTEventMulticaster.remove(java.awt.event.InputMethodListener,java.awt.event.InputMethodListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_InputMethodListener_InputMethodListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -646,6 +475,77 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.HierarchyListener,java.awt.event.HierarchyListener)
+     * public static java.awt.event.HierarchyListener
+     * java.awt.AWTEventMulticaster.remove(java.awt.event.HierarchyListener,java.awt.event.HierarchyListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_HierarchyListener_HierarchyListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.InputMethodListener,java.awt.event.InputMethodListener)
+     * public static java.awt.event.InputMethodListener
+     * java.awt.AWTEventMulticaster.remove(java.awt.event.InputMethodListener,java.awt.event.InputMethodListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_InputMethodListener_InputMethodListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.ItemListener,java.awt.event.ItemListener) public static
+     * java.awt.event.ItemListener
+     * java.awt.AWTEventMulticaster.remove(java.awt.event.ItemListener,java.awt.event.ItemListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_ItemListener_ItemListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.AWTEventMulticaster#remove(java.awt.event.KeyListener,java.awt.event.KeyListener)
+     * public static java.awt.event.KeyListener
+     * java.awt.AWTEventMulticaster.remove(java.awt.event.KeyListener,java.awt.event.KeyListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_KeyListener_KeyListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.MouseListener,java.awt.event.MouseListener) public
      * static java.awt.event.MouseListener
      * java.awt.AWTEventMulticaster.remove(java.awt.event.MouseListener,java.awt.event.MouseListener)}.
@@ -664,19 +564,119 @@ org.j8unit.repository.java.awt.event.MouseWheelListenerClassTests<SUT>, org.j8un
     /**
      * <p>
      * Test method for
-     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.HierarchyListener,java.awt.event.HierarchyListener)
-     * public static java.awt.event.HierarchyListener
-     * java.awt.AWTEventMulticaster.remove(java.awt.event.HierarchyListener,java.awt.event.HierarchyListener)}.
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.MouseMotionListener,java.awt.event.MouseMotionListener)
+     * public static java.awt.event.MouseMotionListener
+     * java.awt.AWTEventMulticaster.remove(java.awt.event.MouseMotionListener,java.awt.event.MouseMotionListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_remove_HierarchyListener_HierarchyListener()
+    public default void test_remove_MouseMotionListener_MouseMotionListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.MouseWheelListener,java.awt.event.MouseWheelListener)
+     * public static java.awt.event.MouseWheelListener
+     * java.awt.AWTEventMulticaster.remove(java.awt.event.MouseWheelListener,java.awt.event.MouseWheelListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_MouseWheelListener_MouseWheelListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.TextListener,java.awt.event.TextListener) public static
+     * java.awt.event.TextListener
+     * java.awt.AWTEventMulticaster.remove(java.awt.event.TextListener,java.awt.event.TextListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_TextListener_TextListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.WindowFocusListener,java.awt.event.WindowFocusListener)
+     * public static java.awt.event.WindowFocusListener
+     * java.awt.AWTEventMulticaster.remove(java.awt.event.WindowFocusListener,java.awt.event.WindowFocusListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_WindowFocusListener_WindowFocusListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.WindowListener,java.awt.event.WindowListener) public
+     * static java.awt.event.WindowListener
+     * java.awt.AWTEventMulticaster.remove(java.awt.event.WindowListener,java.awt.event.WindowListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_WindowListener_WindowListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.AWTEventMulticaster#remove(java.awt.event.WindowStateListener,java.awt.event.WindowStateListener)
+     * public static java.awt.event.WindowStateListener
+     * java.awt.AWTEventMulticaster.remove(java.awt.event.WindowStateListener,java.awt.event.WindowStateListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_WindowStateListener_WindowStateListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.AWTEventMulticaster> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.AWTEventMulticaster.class.isAssignableFrom(sut));
     }
 
 }

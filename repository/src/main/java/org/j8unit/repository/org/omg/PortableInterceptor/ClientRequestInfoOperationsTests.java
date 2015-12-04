@@ -24,30 +24,17 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#target() public abstract
-     * org.omg.CORBA.Object org.omg.PortableInterceptor.ClientRequestInfoOperations.target()}.
+     * Test method for
+     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#add_request_service_context(org.omg.IOP.ServiceContext,boolean)
+     * public abstract void
+     * org.omg.PortableInterceptor.ClientRequestInfoOperations.add_request_service_context(org.omg.IOP.ServiceContext,boolean)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_target()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#received_exception() public
-     * abstract org.omg.CORBA.Any org.omg.PortableInterceptor.ClientRequestInfoOperations.received_exception()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_received_exception()
+    public default void test_add_request_service_context_ServiceContext_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,31 +59,14 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#get_effective_components(int)
-     * public abstract org.omg.IOP.TaggedComponent[]
-     * org.omg.PortableInterceptor.ClientRequestInfoOperations.get_effective_components(int)}.
+     * Test method for {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#effective_target() public abstract
+     * org.omg.CORBA.Object org.omg.PortableInterceptor.ClientRequestInfoOperations.effective_target()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get_effective_components_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#received_exception_id() public
-     * abstract java.lang.String org.omg.PortableInterceptor.ClientRequestInfoOperations.received_exception_id()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_received_exception_id()
+    public default void test_effective_target()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -122,33 +92,15 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#add_request_service_context(org.omg.IOP.ServiceContext,boolean)
-     * public abstract void
-     * org.omg.PortableInterceptor.ClientRequestInfoOperations.add_request_service_context(org.omg.IOP.ServiceContext,boolean)}
-     * .
+     * Test method for {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#get_effective_components(int)
+     * public abstract org.omg.IOP.TaggedComponent[]
+     * org.omg.PortableInterceptor.ClientRequestInfoOperations.get_effective_components(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_add_request_service_context_ServiceContext_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#effective_target() public abstract
-     * org.omg.CORBA.Object org.omg.PortableInterceptor.ClientRequestInfoOperations.effective_target()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_effective_target()
+    public default void test_get_effective_components_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -165,6 +117,54 @@ extends org.j8unit.repository.org.omg.PortableInterceptor.RequestInfoOperationsT
     @Test
     @Category(Draft.class)
     public default void test_get_request_policy_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#received_exception() public
+     * abstract org.omg.CORBA.Any org.omg.PortableInterceptor.ClientRequestInfoOperations.received_exception()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_received_exception()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#received_exception_id() public
+     * abstract java.lang.String org.omg.PortableInterceptor.ClientRequestInfoOperations.received_exception_id()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_received_exception_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.ClientRequestInfoOperations#target() public abstract
+     * org.omg.CORBA.Object org.omg.PortableInterceptor.ClientRequestInfoOperations.target()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_target()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

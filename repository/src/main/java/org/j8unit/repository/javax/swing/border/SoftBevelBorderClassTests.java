@@ -36,19 +36,17 @@ public abstract interface SoftBevelBorderClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.javax.swing.border.BevelBorderClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.swing.border.SoftBevelBorder#SoftBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)
-     * public javax.swing.border.SoftBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
+     * Test method for {@link javax.swing.border.SoftBevelBorder#SoftBevelBorder(int) public
+     * javax.swing.border.SoftBevelBorder(int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SoftBevelBorder_int_Color_Color_Color_Color()
+    public default void create_SoftBevelBorder_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.border.SoftBevelBorder sut = null; // = new
-                                                             // SoftBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color);
+        final javax.swing.border.SoftBevelBorder sut = null; // = new SoftBevelBorder(int);
     }
 
     /**
@@ -67,17 +65,19 @@ extends org.j8unit.repository.javax.swing.border.BevelBorderClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.border.SoftBevelBorder#SoftBevelBorder(int) public
-     * javax.swing.border.SoftBevelBorder(int)}.
+     * Test method for
+     * {@link javax.swing.border.SoftBevelBorder#SoftBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)
+     * public javax.swing.border.SoftBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SoftBevelBorder_int()
+    public default void create_SoftBevelBorder_int_Color_Color_Color_Color()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.border.SoftBevelBorder sut = null; // = new SoftBevelBorder(int);
+        final javax.swing.border.SoftBevelBorder sut = null; // = new
+                                                             // SoftBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color);
     }
 
     @Override

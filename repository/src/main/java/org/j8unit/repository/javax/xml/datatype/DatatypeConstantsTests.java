@@ -39,6 +39,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
+         * Test method for {@link javax.xml.datatype.DatatypeConstants.Field#getId() public int
+         * javax.xml.datatype.DatatypeConstants$Field.getId()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getId()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
          * Test method for {@link javax.xml.datatype.DatatypeConstants.Field#toString() public java.lang.String
          * javax.xml.datatype.DatatypeConstants$Field.toString()}.
          * </p>
@@ -48,22 +64,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
         @Category(Draft.class)
         @Override
         public default void test_toString()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.xml.datatype.DatatypeConstants.Field#getId() public int
-         * javax.xml.datatype.DatatypeConstants$Field.getId()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getId()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

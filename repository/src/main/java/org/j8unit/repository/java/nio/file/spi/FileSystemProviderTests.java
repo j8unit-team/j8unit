@@ -23,14 +23,54 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.spi.FileSystemProvider#delete(java.nio.file.Path) public abstract void
-     * java.nio.file.spi.FileSystemProvider.delete(java.nio.file.Path) throws java.io.IOException}.
+     * Test method for
+     * {@link java.nio.file.spi.FileSystemProvider#checkAccess(java.nio.file.Path,java.nio.file.AccessMode...) public
+     * abstract void java.nio.file.spi.FileSystemProvider.checkAccess(java.nio.file.Path,java.nio.file.AccessMode...)
+     * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_delete_Path()
+    public default void test_checkAccess_Path_AccessModeArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.nio.file.spi.FileSystemProvider#copy(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...)
+     * public abstract void
+     * java.nio.file.spi.FileSystemProvider.copy(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_copy_Path_Path_CopyOptionArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.nio.file.spi.FileSystemProvider#createDirectory(java.nio.file.Path,java.nio.file.attribute.FileAttribute...)
+     * public abstract void
+     * java.nio.file.spi.FileSystemProvider.createDirectory(java.nio.file.Path,java.nio.file.attribute.FileAttribute...)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createDirectory_Path_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -75,17 +115,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.nio.file.spi.FileSystemProvider#newAsynchronousFileChannel(java.nio.file.Path,java.util.Set,java.util.concurrent.ExecutorService,java.nio.file.attribute.FileAttribute...)
-     * public java.nio.channels.AsynchronousFileChannel
-     * java.nio.file.spi.FileSystemProvider.newAsynchronousFileChannel(java.nio.file.Path,java.util.Set,java.util.concurrent.ExecutorService,java.nio.file.attribute.FileAttribute...)
-     * throws java.io.IOException}.
+     * Test method for {@link java.nio.file.spi.FileSystemProvider#delete(java.nio.file.Path) public abstract void
+     * java.nio.file.spi.FileSystemProvider.delete(java.nio.file.Path) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newAsynchronousFileChannel_Path_Set_ExecutorService_FileAttributeArray()
+    public default void test_delete_Path()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.spi.FileSystemProvider#deleteIfExists(java.nio.file.Path) public boolean
+     * java.nio.file.spi.FileSystemProvider.deleteIfExists(java.nio.file.Path) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_deleteIfExists_Path()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -113,6 +166,87 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.nio.file.spi.FileSystemProvider#getFileStore(java.nio.file.Path) public abstract
+     * java.nio.file.FileStore java.nio.file.spi.FileSystemProvider.getFileStore(java.nio.file.Path) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFileStore_Path()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.spi.FileSystemProvider#getFileSystem(java.net.URI) public abstract
+     * java.nio.file.FileSystem java.nio.file.spi.FileSystemProvider.getFileSystem(java.net.URI)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFileSystem_URI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.spi.FileSystemProvider#getPath(java.net.URI) public abstract
+     * java.nio.file.Path java.nio.file.spi.FileSystemProvider.getPath(java.net.URI)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPath_URI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.spi.FileSystemProvider#getScheme() public abstract java.lang.String
+     * java.nio.file.spi.FileSystemProvider.getScheme()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getScheme()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.spi.FileSystemProvider#isHidden(java.nio.file.Path) public abstract boolean
+     * java.nio.file.spi.FileSystemProvider.isHidden(java.nio.file.Path) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isHidden_Path()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.file.spi.FileSystemProvider#isSameFile(java.nio.file.Path,java.nio.file.Path)
      * public abstract boolean java.nio.file.spi.FileSystemProvider.isSameFile(java.nio.file.Path,java.nio.file.Path)
      * throws java.io.IOException}.
@@ -130,15 +264,36 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.spi.FileSystemProvider#getFileStore(java.nio.file.Path) public abstract
-     * java.nio.file.FileStore java.nio.file.spi.FileSystemProvider.getFileStore(java.nio.file.Path) throws
-     * java.io.IOException}.
+     * Test method for
+     * {@link java.nio.file.spi.FileSystemProvider#move(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...)
+     * public abstract void
+     * java.nio.file.spi.FileSystemProvider.move(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...)
+     * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getFileStore_Path()
+    public default void test_move_Path_Path_CopyOptionArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.nio.file.spi.FileSystemProvider#newAsynchronousFileChannel(java.nio.file.Path,java.util.Set,java.util.concurrent.ExecutorService,java.nio.file.attribute.FileAttribute...)
+     * public java.nio.channels.AsynchronousFileChannel
+     * java.nio.file.spi.FileSystemProvider.newAsynchronousFileChannel(java.nio.file.Path,java.util.Set,java.util.concurrent.ExecutorService,java.nio.file.attribute.FileAttribute...)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newAsynchronousFileChannel_Path_Set_ExecutorService_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -166,14 +321,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.spi.FileSystemProvider#getPath(java.net.URI) public abstract
-     * java.nio.file.Path java.nio.file.spi.FileSystemProvider.getPath(java.net.URI)}.
+     * Test method for
+     * {@link java.nio.file.spi.FileSystemProvider#newDirectoryStream(java.nio.file.Path,java.nio.file.DirectoryStream.Filter)
+     * public abstract java.nio.file.DirectoryStream
+     * java.nio.file.spi.FileSystemProvider.newDirectoryStream(java.nio.file.Path,java.nio.file.DirectoryStream$Filter)
+     * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPath_URI()
+    public default void test_newDirectoryStream_Path_Filter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -183,16 +341,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.spi.FileSystemProvider#createDirectory(java.nio.file.Path,java.nio.file.attribute.FileAttribute...)
-     * public abstract void
-     * java.nio.file.spi.FileSystemProvider.createDirectory(java.nio.file.Path,java.nio.file.attribute.FileAttribute...)
+     * {@link java.nio.file.spi.FileSystemProvider#newFileChannel(java.nio.file.Path,java.util.Set,java.nio.file.attribute.FileAttribute...)
+     * public java.nio.channels.FileChannel
+     * java.nio.file.spi.FileSystemProvider.newFileChannel(java.nio.file.Path,java.util.Set,java.nio.file.attribute.FileAttribute...)
      * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createDirectory_Path_FileAttributeArray()
+    public default void test_newFileChannel_Path_Set_FileAttributeArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -201,17 +359,32 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.nio.file.spi.FileSystemProvider#copy(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...)
-     * public abstract void
-     * java.nio.file.spi.FileSystemProvider.copy(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...)
+     * Test method for {@link java.nio.file.spi.FileSystemProvider#newFileSystem(java.nio.file.Path,java.util.Map)
+     * public java.nio.file.FileSystem
+     * java.nio.file.spi.FileSystemProvider.newFileSystem(java.nio.file.Path,java.util.Map) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newFileSystem_Path_Map()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.spi.FileSystemProvider#newFileSystem(java.net.URI,java.util.Map) public
+     * abstract java.nio.file.FileSystem java.nio.file.spi.FileSystemProvider.newFileSystem(java.net.URI,java.util.Map)
      * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_copy_Path_Path_CopyOptionArray()
+    public default void test_newFileSystem_URI_Map()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -240,25 +413,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.spi.FileSystemProvider#newFileChannel(java.nio.file.Path,java.util.Set,java.nio.file.attribute.FileAttribute...)
-     * public java.nio.channels.FileChannel
-     * java.nio.file.spi.FileSystemProvider.newFileChannel(java.nio.file.Path,java.util.Set,java.nio.file.attribute.FileAttribute...)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newFileChannel_Path_Set_FileAttributeArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link java.nio.file.spi.FileSystemProvider#newOutputStream(java.nio.file.Path,java.nio.file.OpenOption...)
      * public java.io.OutputStream
      * java.nio.file.spi.FileSystemProvider.newOutputStream(java.nio.file.Path,java.nio.file.OpenOption...) throws
@@ -269,25 +423,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_newOutputStream_Path_OpenOptionArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.nio.file.spi.FileSystemProvider#readAttributes(java.nio.file.Path,java.lang.String,java.nio.file.LinkOption...)
-     * public abstract java.util.Map
-     * java.nio.file.spi.FileSystemProvider.readAttributes(java.nio.file.Path,java.lang.String,java.nio.file.LinkOption...)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readAttributes_Path_String_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -316,50 +451,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.spi.FileSystemProvider#setAttribute(java.nio.file.Path,java.lang.String,java.lang.Object,java.nio.file.LinkOption...)
-     * public abstract void
-     * java.nio.file.spi.FileSystemProvider.setAttribute(java.nio.file.Path,java.lang.String,java.lang.Object,java.nio.file.LinkOption...)
+     * {@link java.nio.file.spi.FileSystemProvider#readAttributes(java.nio.file.Path,java.lang.String,java.nio.file.LinkOption...)
+     * public abstract java.util.Map
+     * java.nio.file.spi.FileSystemProvider.readAttributes(java.nio.file.Path,java.lang.String,java.nio.file.LinkOption...)
      * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setAttribute_Path_String_Object_LinkOptionArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.nio.file.spi.FileSystemProvider#checkAccess(java.nio.file.Path,java.nio.file.AccessMode...) public
-     * abstract void java.nio.file.spi.FileSystemProvider.checkAccess(java.nio.file.Path,java.nio.file.AccessMode...)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_checkAccess_Path_AccessModeArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.spi.FileSystemProvider#isHidden(java.nio.file.Path) public abstract boolean
-     * java.nio.file.spi.FileSystemProvider.isHidden(java.nio.file.Path) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isHidden_Path()
+    public default void test_readAttributes_Path_String_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -386,117 +487,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.file.spi.FileSystemProvider#newDirectoryStream(java.nio.file.Path,java.nio.file.DirectoryStream.Filter)
-     * public abstract java.nio.file.DirectoryStream
-     * java.nio.file.spi.FileSystemProvider.newDirectoryStream(java.nio.file.Path,java.nio.file.DirectoryStream$Filter)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newDirectoryStream_Path_Filter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.spi.FileSystemProvider#getFileSystem(java.net.URI) public abstract
-     * java.nio.file.FileSystem java.nio.file.spi.FileSystemProvider.getFileSystem(java.net.URI)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFileSystem_URI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.spi.FileSystemProvider#newFileSystem(java.net.URI,java.util.Map) public
-     * abstract java.nio.file.FileSystem java.nio.file.spi.FileSystemProvider.newFileSystem(java.net.URI,java.util.Map)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newFileSystem_URI_Map()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.spi.FileSystemProvider#newFileSystem(java.nio.file.Path,java.util.Map)
-     * public java.nio.file.FileSystem
-     * java.nio.file.spi.FileSystemProvider.newFileSystem(java.nio.file.Path,java.util.Map) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newFileSystem_Path_Map()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.spi.FileSystemProvider#deleteIfExists(java.nio.file.Path) public boolean
-     * java.nio.file.spi.FileSystemProvider.deleteIfExists(java.nio.file.Path) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deleteIfExists_Path()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.nio.file.spi.FileSystemProvider#move(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...)
+     * {@link java.nio.file.spi.FileSystemProvider#setAttribute(java.nio.file.Path,java.lang.String,java.lang.Object,java.nio.file.LinkOption...)
      * public abstract void
-     * java.nio.file.spi.FileSystemProvider.move(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption...)
+     * java.nio.file.spi.FileSystemProvider.setAttribute(java.nio.file.Path,java.lang.String,java.lang.Object,java.nio.file.LinkOption...)
      * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_move_Path_Path_CopyOptionArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.spi.FileSystemProvider#getScheme() public abstract java.lang.String
-     * java.nio.file.spi.FileSystemProvider.getScheme()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getScheme()
+    public default void test_setAttribute_Path_String_Object_LinkOptionArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -40,23 +40,6 @@ extends org.j8unit.repository.java.awt.event.ComponentListenerTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.ComponentAdapter#componentResized(java.awt.event.ComponentEvent) public
-     * void java.awt.event.ComponentAdapter.componentResized(java.awt.event.ComponentEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_componentResized_ComponentEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.event.ComponentAdapter#componentMoved(java.awt.event.ComponentEvent) public void
      * java.awt.event.ComponentAdapter.componentMoved(java.awt.event.ComponentEvent)}.
      * </p>
@@ -66,6 +49,23 @@ extends org.j8unit.repository.java.awt.event.ComponentListenerTests<SUT>, org.j8
     @Category(Draft.class)
     @Override
     public default void test_componentMoved_ComponentEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.ComponentAdapter#componentResized(java.awt.event.ComponentEvent) public
+     * void java.awt.event.ComponentAdapter.componentResized(java.awt.event.ComponentEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_componentResized_ComponentEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

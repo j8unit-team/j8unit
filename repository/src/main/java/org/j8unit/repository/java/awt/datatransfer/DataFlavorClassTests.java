@@ -50,20 +50,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.datatransfer.DataFlavor#DataFlavor(java.lang.String) public
-     * java.awt.datatransfer.DataFlavor(java.lang.String) throws java.lang.ClassNotFoundException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DataFlavor_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.datatransfer.DataFlavor sut = null; // = new DataFlavor(java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.awt.datatransfer.DataFlavor#DataFlavor(java.lang.Class,java.lang.String) public
      * java.awt.datatransfer.DataFlavor(java.lang.Class,java.lang.String)}.
      */
@@ -75,6 +61,20 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.datatransfer.DataFlavor sut = null; // = new DataFlavor(java.lang.Class,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.awt.datatransfer.DataFlavor#DataFlavor(java.lang.String) public
+     * java.awt.datatransfer.DataFlavor(java.lang.String) throws java.lang.ClassNotFoundException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DataFlavor_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.datatransfer.DataFlavor sut = null; // = new DataFlavor(java.lang.String);
     }
 
     /**
@@ -108,16 +108,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                                                            // DataFlavor(java.lang.String,java.lang.String,java.lang.ClassLoader);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.datatransfer.DataFlavor> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.datatransfer.DataFlavor.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.awt.datatransfer.DataFlavor#getTextPlainUnicodeFlavor() public static final
@@ -149,6 +139,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.datatransfer.DataFlavor> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.datatransfer.DataFlavor.class.isAssignableFrom(sut));
     }
 
 }

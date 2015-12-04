@@ -62,16 +62,6 @@ extends org.j8unit.repository.java.util.DateClassTests<SUT> {
         final java.sql.Date sut = null; // = new Date(long);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.sql.Date> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.sql.Date.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.sql.Date#valueOf(java.time.LocalDate) public static java.sql.Date
@@ -102,6 +92,16 @@ extends org.j8unit.repository.java.util.DateClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.sql.Date> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.sql.Date.class.isAssignableFrom(sut));
     }
 
 }

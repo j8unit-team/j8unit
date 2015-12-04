@@ -23,14 +23,14 @@ extends org.j8unit.repository.javax.swing.tree.TreeNodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.MutableTreeNode#remove(javax.swing.tree.MutableTreeNode) public abstract
-     * void javax.swing.tree.MutableTreeNode.remove(javax.swing.tree.MutableTreeNode)}.
+     * Test method for {@link javax.swing.tree.MutableTreeNode#insert(javax.swing.tree.MutableTreeNode,int) public
+     * abstract void javax.swing.tree.MutableTreeNode.insert(javax.swing.tree.MutableTreeNode,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_remove_MutableTreeNode()
+    public default void test_insert_MutableTreeNode_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,30 @@ extends org.j8unit.repository.javax.swing.tree.TreeNodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.MutableTreeNode#setUserObject(java.lang.Object) public abstract void
-     * javax.swing.tree.MutableTreeNode.setUserObject(java.lang.Object)}.
+     * Test method for {@link javax.swing.tree.MutableTreeNode#remove(javax.swing.tree.MutableTreeNode) public abstract
+     * void javax.swing.tree.MutableTreeNode.remove(javax.swing.tree.MutableTreeNode)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setUserObject_Object()
+    public default void test_remove_MutableTreeNode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.tree.MutableTreeNode#removeFromParent() public abstract void
+     * javax.swing.tree.MutableTreeNode.removeFromParent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeFromParent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,30 +103,14 @@ extends org.j8unit.repository.javax.swing.tree.TreeNodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.MutableTreeNode#insert(javax.swing.tree.MutableTreeNode,int) public
-     * abstract void javax.swing.tree.MutableTreeNode.insert(javax.swing.tree.MutableTreeNode,int)}.
+     * Test method for {@link javax.swing.tree.MutableTreeNode#setUserObject(java.lang.Object) public abstract void
+     * javax.swing.tree.MutableTreeNode.setUserObject(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_insert_MutableTreeNode_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.MutableTreeNode#removeFromParent() public abstract void
-     * javax.swing.tree.MutableTreeNode.removeFromParent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeFromParent()
+    public default void test_setUserObject_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -35,26 +35,16 @@ import org.junit.experimental.categories.Category;
 public abstract interface BorderFactoryClassTests<SUT extends Class<? extends javax.swing.BorderFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.BorderFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.BorderFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link javax.swing.BorderFactory#createRaisedSoftBevelBorder() public static
-     * javax.swing.border.Border javax.swing.BorderFactory.createRaisedSoftBevelBorder()}.
+     * Test method for {@link javax.swing.BorderFactory#createBevelBorder(int) public static javax.swing.border.Border
+     * javax.swing.BorderFactory.createBevelBorder(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createRaisedSoftBevelBorder()
+    public default void test_createBevelBorder_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -63,14 +53,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BorderFactory#createLoweredBevelBorder() public static
-     * javax.swing.border.Border javax.swing.BorderFactory.createLoweredBevelBorder()}.
+     * Test method for {@link javax.swing.BorderFactory#createBevelBorder(int,java.awt.Color,java.awt.Color) public
+     * static javax.swing.border.Border javax.swing.BorderFactory.createBevelBorder(int,java.awt.Color,java.awt.Color)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createLoweredBevelBorder()
+    public default void test_createBevelBorder_int_Color_Color()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,14 +69,99 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BorderFactory#createRaisedBevelBorder() public static
-     * javax.swing.border.Border javax.swing.BorderFactory.createRaisedBevelBorder()}.
+     * Test method for
+     * {@link javax.swing.BorderFactory#createBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)
+     * public static javax.swing.border.Border
+     * javax.swing.BorderFactory.createBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createRaisedBevelBorder()
+    public default void test_createBevelBorder_int_Color_Color_Color_Color()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BorderFactory#createCompoundBorder() public static
+     * javax.swing.border.CompoundBorder javax.swing.BorderFactory.createCompoundBorder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createCompoundBorder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.BorderFactory#createCompoundBorder(javax.swing.border.Border,javax.swing.border.Border) public
+     * static javax.swing.border.CompoundBorder
+     * javax.swing.BorderFactory.createCompoundBorder(javax.swing.border.Border,javax.swing.border.Border)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createCompoundBorder_Border_Border()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BorderFactory#createDashedBorder(java.awt.Paint) public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createDashedBorder(java.awt.Paint)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createDashedBorder_Paint()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BorderFactory#createDashedBorder(java.awt.Paint,float,float) public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createDashedBorder(java.awt.Paint,float,float)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createDashedBorder_Paint_float_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BorderFactory#createDashedBorder(java.awt.Paint,float,float,float,boolean)
+     * public static javax.swing.border.Border
+     * javax.swing.BorderFactory.createDashedBorder(java.awt.Paint,float,float,float,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createDashedBorder_Paint_float_float_float_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,15 +202,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BorderFactory#createMatteBorder(int,int,int,int,javax.swing.Icon) public
-     * static javax.swing.border.MatteBorder
-     * javax.swing.BorderFactory.createMatteBorder(int,int,int,int,javax.swing.Icon)}.
+     * Test method for {@link javax.swing.BorderFactory#createEtchedBorder() public static javax.swing.border.Border
+     * javax.swing.BorderFactory.createEtchedBorder()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createMatteBorder_int_int_int_int_Icon()
+    public default void test_createEtchedBorder()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -144,14 +218,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BorderFactory#createMatteBorder(int,int,int,int,java.awt.Color) public static
-     * javax.swing.border.MatteBorder javax.swing.BorderFactory.createMatteBorder(int,int,int,int,java.awt.Color)}.
+     * Test method for {@link javax.swing.BorderFactory#createEtchedBorder(java.awt.Color,java.awt.Color) public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createEtchedBorder(java.awt.Color,java.awt.Color)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createMatteBorder_int_int_int_int_Color()
+    public default void test_createEtchedBorder_Color_Color()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -160,14 +234,31 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BorderFactory#createLineBorder(java.awt.Color,int) public static
-     * javax.swing.border.Border javax.swing.BorderFactory.createLineBorder(java.awt.Color,int)}.
+     * Test method for {@link javax.swing.BorderFactory#createEtchedBorder(int) public static javax.swing.border.Border
+     * javax.swing.BorderFactory.createEtchedBorder(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createLineBorder_Color_int()
+    public default void test_createEtchedBorder_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BorderFactory#createEtchedBorder(int,java.awt.Color,java.awt.Color) public
+     * static javax.swing.border.Border javax.swing.BorderFactory.createEtchedBorder(int,java.awt.Color,java.awt.Color)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createEtchedBorder_int_Color_Color()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -192,6 +283,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.BorderFactory#createLineBorder(java.awt.Color,int) public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createLineBorder(java.awt.Color,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createLineBorder_Color_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.BorderFactory#createLineBorder(java.awt.Color,int,boolean) public static
      * javax.swing.border.Border javax.swing.BorderFactory.createLineBorder(java.awt.Color,int,boolean)}.
      * </p>
@@ -208,115 +315,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BorderFactory#createBevelBorder(int,java.awt.Color,java.awt.Color) public
-     * static javax.swing.border.Border javax.swing.BorderFactory.createBevelBorder(int,java.awt.Color,java.awt.Color)}.
+     * Test method for {@link javax.swing.BorderFactory#createLoweredBevelBorder() public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createLoweredBevelBorder()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createBevelBorder_int_Color_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BorderFactory#createBevelBorder(int) public static javax.swing.border.Border
-     * javax.swing.BorderFactory.createBevelBorder(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createBevelBorder_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.BorderFactory#createBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)
-     * public static javax.swing.border.Border
-     * javax.swing.BorderFactory.createBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createBevelBorder_int_Color_Color_Color_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.BorderFactory#createCompoundBorder(javax.swing.border.Border,javax.swing.border.Border) public
-     * static javax.swing.border.CompoundBorder
-     * javax.swing.BorderFactory.createCompoundBorder(javax.swing.border.Border,javax.swing.border.Border)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createCompoundBorder_Border_Border()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BorderFactory#createCompoundBorder() public static
-     * javax.swing.border.CompoundBorder javax.swing.BorderFactory.createCompoundBorder()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createCompoundBorder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BorderFactory#createStrokeBorder(java.awt.BasicStroke) public static
-     * javax.swing.border.Border javax.swing.BorderFactory.createStrokeBorder(java.awt.BasicStroke)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createStrokeBorder_BasicStroke()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BorderFactory#createStrokeBorder(java.awt.BasicStroke,java.awt.Paint) public
-     * static javax.swing.border.Border
-     * javax.swing.BorderFactory.createStrokeBorder(java.awt.BasicStroke,java.awt.Paint)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createStrokeBorder_BasicStroke_Paint()
+    public default void test_createLoweredBevelBorder()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -341,17 +347,63 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.BorderFactory#createSoftBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)
-     * public static javax.swing.border.Border
-     * javax.swing.BorderFactory.createSoftBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
-     * .
+     * Test method for {@link javax.swing.BorderFactory#createMatteBorder(int,int,int,int,java.awt.Color) public static
+     * javax.swing.border.MatteBorder javax.swing.BorderFactory.createMatteBorder(int,int,int,int,java.awt.Color)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createSoftBevelBorder_int_Color_Color_Color_Color()
+    public default void test_createMatteBorder_int_int_int_int_Color()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BorderFactory#createMatteBorder(int,int,int,int,javax.swing.Icon) public
+     * static javax.swing.border.MatteBorder
+     * javax.swing.BorderFactory.createMatteBorder(int,int,int,int,javax.swing.Icon)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createMatteBorder_int_int_int_int_Icon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BorderFactory#createRaisedBevelBorder() public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createRaisedBevelBorder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createRaisedBevelBorder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BorderFactory#createRaisedSoftBevelBorder() public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createRaisedSoftBevelBorder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createRaisedSoftBevelBorder()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -393,63 +445,66 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BorderFactory#createEtchedBorder(int) public static javax.swing.border.Border
-     * javax.swing.BorderFactory.createEtchedBorder(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createEtchedBorder_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BorderFactory#createEtchedBorder(java.awt.Color,java.awt.Color) public static
-     * javax.swing.border.Border javax.swing.BorderFactory.createEtchedBorder(java.awt.Color,java.awt.Color)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createEtchedBorder_Color_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BorderFactory#createEtchedBorder() public static javax.swing.border.Border
-     * javax.swing.BorderFactory.createEtchedBorder()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createEtchedBorder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BorderFactory#createEtchedBorder(int,java.awt.Color,java.awt.Color) public
-     * static javax.swing.border.Border javax.swing.BorderFactory.createEtchedBorder(int,java.awt.Color,java.awt.Color)}
+     * Test method for
+     * {@link javax.swing.BorderFactory#createSoftBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)
+     * public static javax.swing.border.Border
+     * javax.swing.BorderFactory.createSoftBevelBorder(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createEtchedBorder_int_Color_Color()
+    public default void test_createSoftBevelBorder_int_Color_Color_Color_Color()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BorderFactory#createStrokeBorder(java.awt.BasicStroke) public static
+     * javax.swing.border.Border javax.swing.BorderFactory.createStrokeBorder(java.awt.BasicStroke)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createStrokeBorder_BasicStroke()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BorderFactory#createStrokeBorder(java.awt.BasicStroke,java.awt.Paint) public
+     * static javax.swing.border.Border
+     * javax.swing.BorderFactory.createStrokeBorder(java.awt.BasicStroke,java.awt.Paint)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createStrokeBorder_BasicStroke_Paint()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border) public static
+     * javax.swing.border.TitledBorder javax.swing.BorderFactory.createTitledBorder(javax.swing.border.Border)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createTitledBorder_Border()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -475,98 +530,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.BorderFactory#createDashedBorder(java.awt.Paint,float,float,float,boolean)
-     * public static javax.swing.border.Border
-     * javax.swing.BorderFactory.createDashedBorder(java.awt.Paint,float,float,float,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createDashedBorder_Paint_float_float_float_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BorderFactory#createDashedBorder(java.awt.Paint,float,float) public static
-     * javax.swing.border.Border javax.swing.BorderFactory.createDashedBorder(java.awt.Paint,float,float)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createDashedBorder_Paint_float_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BorderFactory#createDashedBorder(java.awt.Paint) public static
-     * javax.swing.border.Border javax.swing.BorderFactory.createDashedBorder(java.awt.Paint)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createDashedBorder_Paint()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BorderFactory#createTitledBorder(java.lang.String) public static
-     * javax.swing.border.TitledBorder javax.swing.BorderFactory.createTitledBorder(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createTitledBorder_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
-     * {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)
-     * public static javax.swing.border.TitledBorder
-     * javax.swing.BorderFactory.createTitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)}
-     * .
+     * {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border,java.lang.String,int,int) public
+     * static javax.swing.border.TitledBorder
+     * javax.swing.BorderFactory.createTitledBorder(javax.swing.border.Border,java.lang.String,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createTitledBorder_Border_String_int_int_Font_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border) public static
-     * javax.swing.border.TitledBorder javax.swing.BorderFactory.createTitledBorder(javax.swing.border.Border)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createTitledBorder_Border()
+    public default void test_createTitledBorder_Border_String_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -594,19 +567,46 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border,java.lang.String,int,int) public
-     * static javax.swing.border.TitledBorder
-     * javax.swing.BorderFactory.createTitledBorder(javax.swing.border.Border,java.lang.String,int,int)}.
+     * {@link javax.swing.BorderFactory#createTitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)
+     * public static javax.swing.border.TitledBorder
+     * javax.swing.BorderFactory.createTitledBorder(javax.swing.border.Border,java.lang.String,int,int,java.awt.Font,java.awt.Color)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createTitledBorder_Border_String_int_int()
+    public default void test_createTitledBorder_Border_String_int_int_Font_Color()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.BorderFactory#createTitledBorder(java.lang.String) public static
+     * javax.swing.border.TitledBorder javax.swing.BorderFactory.createTitledBorder(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createTitledBorder_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.BorderFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.BorderFactory.class.isAssignableFrom(sut));
     }
 
 }

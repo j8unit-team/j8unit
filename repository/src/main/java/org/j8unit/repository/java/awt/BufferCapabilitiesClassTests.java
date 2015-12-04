@@ -36,34 +36,6 @@ public abstract interface BufferCapabilitiesClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.awt.BufferCapabilities#BufferCapabilities(java.awt.ImageCapabilities,java.awt.ImageCapabilities,java.awt.BufferCapabilities.FlipContents)
-     * public
-     * java.awt.BufferCapabilities(java.awt.ImageCapabilities,java.awt.ImageCapabilities,java.awt.BufferCapabilities$FlipContents)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BufferCapabilities_ImageCapabilities_ImageCapabilities_FlipContents()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.BufferCapabilities sut = null; // = new
-                                                      // BufferCapabilities(java.awt.ImageCapabilities,java.awt.ImageCapabilities,java.awt.BufferCapabilities.FlipContents);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.BufferCapabilities> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.BufferCapabilities.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link java.awt.BufferCapabilities$FlipContents class java.awt.BufferCapabilities$FlipContents},
      * containing all class relevant test methods (at least the test methods of accessible constructors and of
@@ -102,6 +74,34 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
             assertTrue(java.awt.BufferCapabilities.FlipContents.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.BufferCapabilities#BufferCapabilities(java.awt.ImageCapabilities,java.awt.ImageCapabilities,java.awt.BufferCapabilities.FlipContents)
+     * public
+     * java.awt.BufferCapabilities(java.awt.ImageCapabilities,java.awt.ImageCapabilities,java.awt.BufferCapabilities$FlipContents)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BufferCapabilities_ImageCapabilities_ImageCapabilities_FlipContents()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.BufferCapabilities sut = null; // = new
+                                                      // BufferCapabilities(java.awt.ImageCapabilities,java.awt.ImageCapabilities,java.awt.BufferCapabilities.FlipContents);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.BufferCapabilities> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.BufferCapabilities.class.isAssignableFrom(sut));
     }
 
 }

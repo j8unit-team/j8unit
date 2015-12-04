@@ -36,19 +36,17 @@ public abstract interface FactoryConfigurationErrorClassTests<SUT extends Class<
 extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.xml.parsers.FactoryConfigurationError#FactoryConfigurationError(java.lang.Exception,java.lang.String)
-     * public javax.xml.parsers.FactoryConfigurationError(java.lang.Exception,java.lang.String)}.
+     * Test method for {@link javax.xml.parsers.FactoryConfigurationError#FactoryConfigurationError() public
+     * javax.xml.parsers.FactoryConfigurationError()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_FactoryConfigurationError_Exception_String()
+    public default void create_FactoryConfigurationError()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.parsers.FactoryConfigurationError sut = null; // = new
-                                                                      // FactoryConfigurationError(java.lang.Exception,java.lang.String);
+        final javax.xml.parsers.FactoryConfigurationError sut = null; // = new FactoryConfigurationError();
     }
 
     /**
@@ -67,6 +65,22 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
     }
 
     /**
+     * Test method for
+     * {@link javax.xml.parsers.FactoryConfigurationError#FactoryConfigurationError(java.lang.Exception,java.lang.String)
+     * public javax.xml.parsers.FactoryConfigurationError(java.lang.Exception,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FactoryConfigurationError_Exception_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.parsers.FactoryConfigurationError sut = null; // = new
+                                                                      // FactoryConfigurationError(java.lang.Exception,java.lang.String);
+    }
+
+    /**
      * Test method for {@link javax.xml.parsers.FactoryConfigurationError#FactoryConfigurationError(java.lang.String)
      * public javax.xml.parsers.FactoryConfigurationError(java.lang.String)}.
      */
@@ -79,20 +93,6 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.xml.parsers.FactoryConfigurationError sut = null; // = new
                                                                       // FactoryConfigurationError(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.parsers.FactoryConfigurationError#FactoryConfigurationError() public
-     * javax.xml.parsers.FactoryConfigurationError()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FactoryConfigurationError()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.parsers.FactoryConfigurationError sut = null; // = new FactoryConfigurationError();
     }
 
     @Override

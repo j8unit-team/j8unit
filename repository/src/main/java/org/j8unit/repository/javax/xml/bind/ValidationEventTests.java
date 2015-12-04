@@ -40,14 +40,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.ValidationEvent#getSeverity() public abstract int
-     * javax.xml.bind.ValidationEvent.getSeverity()}.
+     * Test method for {@link javax.xml.bind.ValidationEvent#getLocator() public abstract
+     * javax.xml.bind.ValidationEventLocator javax.xml.bind.ValidationEvent.getLocator()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSeverity()
+    public default void test_getLocator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +72,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.ValidationEvent#getLocator() public abstract
-     * javax.xml.bind.ValidationEventLocator javax.xml.bind.ValidationEvent.getLocator()}.
+     * Test method for {@link javax.xml.bind.ValidationEvent#getSeverity() public abstract int
+     * javax.xml.bind.ValidationEvent.getSeverity()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLocator()
+    public default void test_getSeverity()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

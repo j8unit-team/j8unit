@@ -23,14 +23,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.NamedValue#value() public abstract org.omg.CORBA.Any
-     * org.omg.CORBA.NamedValue.value()}.
+     * Test method for {@link org.omg.CORBA.NamedValue#flags() public abstract int org.omg.CORBA.NamedValue.flags()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_value()
+    public default void test_flags()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,13 +54,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.NamedValue#flags() public abstract int org.omg.CORBA.NamedValue.flags()}.
+     * Test method for {@link org.omg.CORBA.NamedValue#value() public abstract org.omg.CORBA.Any
+     * org.omg.CORBA.NamedValue.value()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_flags()
+    public default void test_value()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

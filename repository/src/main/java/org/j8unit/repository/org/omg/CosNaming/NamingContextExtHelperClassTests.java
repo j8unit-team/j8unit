@@ -49,28 +49,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.CosNaming.NamingContextExtHelper sut = null; // = new NamingContextExtHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.CosNaming.NamingContextExtHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.CosNaming.NamingContextExtHelper.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.CosNaming.NamingContextExtHelper#insert(org.omg.CORBA.Any,org.omg.CosNaming.NamingContextExt)
-     * public static void
-     * org.omg.CosNaming.NamingContextExtHelper.insert(org.omg.CORBA.Any,org.omg.CosNaming.NamingContextExt)}.
+     * Test method for {@link org.omg.CosNaming.NamingContextExtHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.CosNaming.NamingContextExt org.omg.CosNaming.NamingContextExtHelper.extract(org.omg.CORBA.Any)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_insert_Any_NamingContextExt()
+    public default void test_extract_Any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -95,6 +83,24 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for
+     * {@link org.omg.CosNaming.NamingContextExtHelper#insert(org.omg.CORBA.Any,org.omg.CosNaming.NamingContextExt)
+     * public static void
+     * org.omg.CosNaming.NamingContextExtHelper.insert(org.omg.CORBA.Any,org.omg.CosNaming.NamingContextExt)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_NamingContextExt()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.omg.CosNaming.NamingContextExtHelper#narrow(org.omg.CORBA.Object) public static
      * org.omg.CosNaming.NamingContextExt org.omg.CosNaming.NamingContextExtHelper.narrow(org.omg.CORBA.Object)}.
      * </p>
@@ -111,17 +117,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.CosNaming.NamingContextExtHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.NamingContextExt)
-     * public static void
-     * org.omg.CosNaming.NamingContextExtHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.NamingContextExt)}
-     * .
+     * Test method for {@link org.omg.CosNaming.NamingContextExtHelper#read(org.omg.CORBA.portable.InputStream) public
+     * static org.omg.CosNaming.NamingContextExt
+     * org.omg.CosNaming.NamingContextExtHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_OutputStream_NamingContextExt()
+    public default void test_read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -163,35 +167,31 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CosNaming.NamingContextExtHelper#read(org.omg.CORBA.portable.InputStream) public
-     * static org.omg.CosNaming.NamingContextExt
-     * org.omg.CosNaming.NamingContextExtHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for
+     * {@link org.omg.CosNaming.NamingContextExtHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.NamingContextExt)
+     * public static void
+     * org.omg.CosNaming.NamingContextExtHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.CosNaming.NamingContextExt)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_read_InputStream()
+    public default void test_write_OutputStream_NamingContextExt()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link org.omg.CosNaming.NamingContextExtHelper#extract(org.omg.CORBA.Any) public static
-     * org.omg.CosNaming.NamingContextExt org.omg.CosNaming.NamingContextExtHelper.extract(org.omg.CORBA.Any)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_extract_Any()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.CosNaming.NamingContextExtHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.CosNaming.NamingContextExtHelper.class.isAssignableFrom(sut));
     }
 
 }

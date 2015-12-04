@@ -24,120 +24,15 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RoleUnresolvedList#asList() public java.util.List
-     * javax.management.relation.RoleUnresolvedList.asList()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_asList()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.RoleUnresolvedList#addAll(java.util.Collection) public boolean
-     * javax.management.relation.RoleUnresolvedList.addAll(java.util.Collection)}.
+     * Test method for {@link javax.management.relation.RoleUnresolvedList#add(int,java.lang.Object) public void
+     * javax.management.relation.RoleUnresolvedList.add(int,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_addAll_Collection()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.RoleUnresolvedList#addAll(int,java.util.Collection) public
-     * boolean javax.management.relation.RoleUnresolvedList.addAll(int,java.util.Collection)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addAll_int_Collection()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.relation.RoleUnresolvedList#addAll(javax.management.relation.RoleUnresolvedList) public
-     * boolean javax.management.relation.RoleUnresolvedList.addAll(javax.management.relation.RoleUnresolvedList) throws
-     * java.lang.IndexOutOfBoundsException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addAll_RoleUnresolvedList()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.relation.RoleUnresolvedList#addAll(int,javax.management.relation.RoleUnresolvedList)
-     * public boolean
-     * javax.management.relation.RoleUnresolvedList.addAll(int,javax.management.relation.RoleUnresolvedList) throws
-     * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addAll_int_RoleUnresolvedList()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.RoleUnresolvedList#set(int,java.lang.Object) public
-     * java.lang.Object javax.management.relation.RoleUnresolvedList.set(int,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_set_int_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.relation.RoleUnresolvedList#set(int,javax.management.relation.RoleUnresolved) public void
-     * javax.management.relation.RoleUnresolvedList.set(int,javax.management.relation.RoleUnresolved) throws
-     * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_set_int_RoleUnresolved()
+    public default void test_add_int_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -181,23 +76,6 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.RoleUnresolvedList#add(int,java.lang.Object) public void
-     * javax.management.relation.RoleUnresolvedList.add(int,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_add_int_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.relation.RoleUnresolvedList#add(javax.management.relation.RoleUnresolved)
      * public void javax.management.relation.RoleUnresolvedList.add(javax.management.relation.RoleUnresolved) throws
      * java.lang.IllegalArgumentException}.
@@ -207,6 +85,128 @@ extends org.j8unit.repository.java.util.ArrayListTests<SUT, java.lang.Object> {
     @Test
     @Category(Draft.class)
     public default void test_add_RoleUnresolved()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.RoleUnresolvedList#addAll(java.util.Collection) public boolean
+     * javax.management.relation.RoleUnresolvedList.addAll(java.util.Collection)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_addAll_Collection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.RoleUnresolvedList#addAll(int,java.util.Collection) public
+     * boolean javax.management.relation.RoleUnresolvedList.addAll(int,java.util.Collection)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_addAll_int_Collection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.relation.RoleUnresolvedList#addAll(int,javax.management.relation.RoleUnresolvedList)
+     * public boolean
+     * javax.management.relation.RoleUnresolvedList.addAll(int,javax.management.relation.RoleUnresolvedList) throws
+     * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addAll_int_RoleUnresolvedList()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.relation.RoleUnresolvedList#addAll(javax.management.relation.RoleUnresolvedList) public
+     * boolean javax.management.relation.RoleUnresolvedList.addAll(javax.management.relation.RoleUnresolvedList) throws
+     * java.lang.IndexOutOfBoundsException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addAll_RoleUnresolvedList()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.RoleUnresolvedList#asList() public java.util.List
+     * javax.management.relation.RoleUnresolvedList.asList()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_asList()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.RoleUnresolvedList#set(int,java.lang.Object) public
+     * java.lang.Object javax.management.relation.RoleUnresolvedList.set(int,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_set_int_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.relation.RoleUnresolvedList#set(int,javax.management.relation.RoleUnresolved) public void
+     * javax.management.relation.RoleUnresolvedList.set(int,javax.management.relation.RoleUnresolved) throws
+     * java.lang.IllegalArgumentException,java.lang.IndexOutOfBoundsException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_set_int_RoleUnresolved()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

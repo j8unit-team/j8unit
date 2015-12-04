@@ -63,16 +63,6 @@ extends org.j8unit.repository.java.security.spec.KeySpecClassTests<SUT>, org.j8u
         final javax.crypto.spec.DESKeySpec sut = null; // = new DESKeySpec(byte[],int);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.crypto.spec.DESKeySpec> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.crypto.spec.DESKeySpec.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.crypto.spec.DESKeySpec#isParityAdjusted(byte[],int) public static boolean
@@ -103,6 +93,16 @@ extends org.j8unit.repository.java.security.spec.KeySpecClassTests<SUT>, org.j8u
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.crypto.spec.DESKeySpec> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.crypto.spec.DESKeySpec.class.isAssignableFrom(sut));
     }
 
 }

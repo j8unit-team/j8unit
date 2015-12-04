@@ -35,14 +35,21 @@ import org.junit.experimental.categories.Category;
 public abstract interface DTDClassTests<SUT extends Class<? extends javax.swing.text.html.parser.DTD>>
 extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#getDTD(java.lang.String) public static
+     * javax.swing.text.html.parser.DTD javax.swing.text.html.parser.DTD.getDTD(java.lang.String) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getDTD_String()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.html.parser.DTD> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.html.parser.DTD.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -62,21 +69,14 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsClassTest
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.DTD#getDTD(java.lang.String) public static
-     * javax.swing.text.html.parser.DTD javax.swing.text.html.parser.DTD.getDTD(java.lang.String) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getDTD_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.swing.text.html.parser.DTD> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.html.parser.DTD.class.isAssignableFrom(sut));
     }
 
 }

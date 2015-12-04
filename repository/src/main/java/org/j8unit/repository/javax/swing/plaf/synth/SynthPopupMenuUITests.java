@@ -24,15 +24,15 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicPopupMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthPopupMenuUI#propertyChange(java.beans.PropertyChangeEvent)
-     * public void javax.swing.plaf.synth.SynthPopupMenuUI.propertyChange(java.beans.PropertyChangeEvent)}.
+     * Test method for {@link javax.swing.plaf.synth.SynthPopupMenuUI#getContext(javax.swing.JComponent) public
+     * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthPopupMenuUI.getContext(javax.swing.JComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_propertyChange_PropertyChangeEvent()
+    public default void test_getContext_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -41,15 +41,15 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicPopupMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthPopupMenuUI#update(java.awt.Graphics,javax.swing.JComponent)
-     * public void javax.swing.plaf.synth.SynthPopupMenuUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.synth.SynthPopupMenuUI#installDefaults() public void
+     * javax.swing.plaf.synth.SynthPopupMenuUI.installDefaults()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_update_Graphics_JComponent()
+    public default void test_installDefaults()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -67,23 +67,6 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicPopupMenuUITests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_paint_Graphics_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthPopupMenuUI#getContext(javax.swing.JComponent) public
-     * javax.swing.plaf.synth.SynthContext javax.swing.plaf.synth.SynthPopupMenuUI.getContext(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getContext_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -112,15 +95,32 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicPopupMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.synth.SynthPopupMenuUI#installDefaults() public void
-     * javax.swing.plaf.synth.SynthPopupMenuUI.installDefaults()}.
+     * Test method for {@link javax.swing.plaf.synth.SynthPopupMenuUI#propertyChange(java.beans.PropertyChangeEvent)
+     * public void javax.swing.plaf.synth.SynthPopupMenuUI.propertyChange(java.beans.PropertyChangeEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_installDefaults()
+    public default void test_propertyChange_PropertyChangeEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.synth.SynthPopupMenuUI#update(java.awt.Graphics,javax.swing.JComponent)
+     * public void javax.swing.plaf.synth.SynthPopupMenuUI.update(java.awt.Graphics,javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_update_Graphics_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

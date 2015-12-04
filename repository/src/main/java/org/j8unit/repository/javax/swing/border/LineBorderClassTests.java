@@ -50,6 +50,20 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
     }
 
     /**
+     * Test method for {@link javax.swing.border.LineBorder#LineBorder(java.awt.Color,int) public
+     * javax.swing.border.LineBorder(java.awt.Color,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LineBorder_Color_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.border.LineBorder sut = null; // = new LineBorder(java.awt.Color,int);
+    }
+
+    /**
      * Test method for {@link javax.swing.border.LineBorder#LineBorder(java.awt.Color,int,boolean) public
      * javax.swing.border.LineBorder(java.awt.Color,int,boolean)}.
      */
@@ -64,27 +78,19 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.border.LineBorder#LineBorder(java.awt.Color,int) public
-     * javax.swing.border.LineBorder(java.awt.Color,int)}.
+     * <p>
+     * Test method for {@link javax.swing.border.LineBorder#createBlackLineBorder() public static
+     * javax.swing.border.Border javax.swing.border.LineBorder.createBlackLineBorder()}.
+     * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_LineBorder_Color_int()
+    public default void test_createBlackLineBorder()
     throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.border.LineBorder sut = null; // = new LineBorder(java.awt.Color,int);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.border.LineBorder> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.border.LineBorder.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -103,20 +109,14 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.LineBorder#createBlackLineBorder() public static
-     * javax.swing.border.Border javax.swing.border.LineBorder.createBlackLineBorder()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_createBlackLineBorder()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.swing.border.LineBorder> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.border.LineBorder.class.isAssignableFrom(sut));
     }
 
 }

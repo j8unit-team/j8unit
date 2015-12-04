@@ -23,55 +23,6 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.NamingException#getResolvedObj() public java.lang.Object
-     * javax.naming.NamingException.getResolvedObj()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResolvedObj()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.NamingException#getResolvedName() public javax.naming.Name
-     * javax.naming.NamingException.getResolvedName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResolvedName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.NamingException#initCause(java.lang.Throwable) public java.lang.Throwable
-     * javax.naming.NamingException.initCause(java.lang.Throwable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_initCause_Throwable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.naming.NamingException#appendRemainingComponent(java.lang.String) public void
      * javax.naming.NamingException.appendRemainingComponent(java.lang.String)}.
      * </p>
@@ -88,14 +39,14 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.NamingException#getExplanation() public java.lang.String
-     * javax.naming.NamingException.getExplanation()}.
+     * Test method for {@link javax.naming.NamingException#appendRemainingName(javax.naming.Name) public void
+     * javax.naming.NamingException.appendRemainingName(javax.naming.Name)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getExplanation()
+    public default void test_appendRemainingName_Name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,6 +72,22 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.naming.NamingException#getExplanation() public java.lang.String
+     * javax.naming.NamingException.getExplanation()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getExplanation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.naming.NamingException#getRemainingName() public javax.naming.Name
      * javax.naming.NamingException.getRemainingName()}.
      * </p>
@@ -137,6 +104,71 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.naming.NamingException#getResolvedName() public javax.naming.Name
+     * javax.naming.NamingException.getResolvedName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getResolvedName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.NamingException#getResolvedObj() public java.lang.Object
+     * javax.naming.NamingException.getResolvedObj()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getResolvedObj()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.NamingException#getRootCause() public java.lang.Throwable
+     * javax.naming.NamingException.getRootCause()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRootCause()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.NamingException#initCause(java.lang.Throwable) public java.lang.Throwable
+     * javax.naming.NamingException.initCause(java.lang.Throwable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_initCause_Throwable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.naming.NamingException#setRemainingName(javax.naming.Name) public void
      * javax.naming.NamingException.setRemainingName(javax.naming.Name)}.
      * </p>
@@ -145,6 +177,38 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setRemainingName_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.NamingException#setResolvedName(javax.naming.Name) public void
+     * javax.naming.NamingException.setResolvedName(javax.naming.Name)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setResolvedName_Name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.NamingException#setResolvedObj(java.lang.Object) public void
+     * javax.naming.NamingException.setResolvedObj(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setResolvedObj_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -194,70 +258,6 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_toString_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.NamingException#getRootCause() public java.lang.Throwable
-     * javax.naming.NamingException.getRootCause()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRootCause()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.NamingException#setResolvedName(javax.naming.Name) public void
-     * javax.naming.NamingException.setResolvedName(javax.naming.Name)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setResolvedName_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.NamingException#appendRemainingName(javax.naming.Name) public void
-     * javax.naming.NamingException.appendRemainingName(javax.naming.Name)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_appendRemainingName_Name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.NamingException#setResolvedObj(java.lang.Object) public void
-     * javax.naming.NamingException.setResolvedObj(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setResolvedObj_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

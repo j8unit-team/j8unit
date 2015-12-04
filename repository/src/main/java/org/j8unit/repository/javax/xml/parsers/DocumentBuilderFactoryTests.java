@@ -23,102 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setIgnoringComments(boolean) public void
-     * javax.xml.parsers.DocumentBuilderFactory.setIgnoringComments(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setIgnoringComments_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setValidating(boolean) public void
-     * javax.xml.parsers.DocumentBuilderFactory.setValidating(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setValidating_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#isXIncludeAware() public boolean
-     * javax.xml.parsers.DocumentBuilderFactory.isXIncludeAware()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isXIncludeAware()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#isIgnoringComments() public boolean
-     * javax.xml.parsers.DocumentBuilderFactory.isIgnoringComments()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isIgnoringComments()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setExpandEntityReferences(boolean) public void
-     * javax.xml.parsers.DocumentBuilderFactory.setExpandEntityReferences(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setExpandEntityReferences_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setXIncludeAware(boolean) public void
-     * javax.xml.parsers.DocumentBuilderFactory.setXIncludeAware(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setXIncludeAware_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#getAttribute(java.lang.String) public abstract
      * java.lang.Object javax.xml.parsers.DocumentBuilderFactory.getAttribute(java.lang.String) throws
      * java.lang.IllegalArgumentException}.
@@ -128,105 +32,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAttribute_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setAttribute(java.lang.String,java.lang.Object)
-     * public abstract void javax.xml.parsers.DocumentBuilderFactory.setAttribute(java.lang.String,java.lang.Object)
-     * throws java.lang.IllegalArgumentException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAttribute_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#newDocumentBuilder() public abstract
-     * javax.xml.parsers.DocumentBuilder javax.xml.parsers.DocumentBuilderFactory.newDocumentBuilder() throws
-     * javax.xml.parsers.ParserConfigurationException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newDocumentBuilder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setFeature(java.lang.String,boolean) public
-     * abstract void javax.xml.parsers.DocumentBuilderFactory.setFeature(java.lang.String,boolean) throws
-     * javax.xml.parsers.ParserConfigurationException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFeature_String_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#isExpandEntityReferences() public boolean
-     * javax.xml.parsers.DocumentBuilderFactory.isExpandEntityReferences()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isExpandEntityReferences()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setNamespaceAware(boolean) public void
-     * javax.xml.parsers.DocumentBuilderFactory.setNamespaceAware(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setNamespaceAware_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#isValidating() public boolean
-     * javax.xml.parsers.DocumentBuilderFactory.isValidating()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isValidating()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -268,22 +73,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setSchema(javax.xml.validation.Schema) public
-     * void javax.xml.parsers.DocumentBuilderFactory.setSchema(javax.xml.validation.Schema)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSchema_Schema()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#isCoalescing() public boolean
      * javax.xml.parsers.DocumentBuilderFactory.isCoalescing()}.
      * </p>
@@ -300,14 +89,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setIgnoringElementContentWhitespace(boolean)
-     * public void javax.xml.parsers.DocumentBuilderFactory.setIgnoringElementContentWhitespace(boolean)}.
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#isExpandEntityReferences() public boolean
+     * javax.xml.parsers.DocumentBuilderFactory.isExpandEntityReferences()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setIgnoringElementContentWhitespace_boolean()
+    public default void test_isExpandEntityReferences()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -316,14 +105,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setCoalescing(boolean) public void
-     * javax.xml.parsers.DocumentBuilderFactory.setCoalescing(boolean)}.
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#isIgnoringComments() public boolean
+     * javax.xml.parsers.DocumentBuilderFactory.isIgnoringComments()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCoalescing_boolean()
+    public default void test_isIgnoringComments()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -356,6 +145,217 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isNamespaceAware()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#isValidating() public boolean
+     * javax.xml.parsers.DocumentBuilderFactory.isValidating()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isValidating()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#isXIncludeAware() public boolean
+     * javax.xml.parsers.DocumentBuilderFactory.isXIncludeAware()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isXIncludeAware()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#newDocumentBuilder() public abstract
+     * javax.xml.parsers.DocumentBuilder javax.xml.parsers.DocumentBuilderFactory.newDocumentBuilder() throws
+     * javax.xml.parsers.ParserConfigurationException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newDocumentBuilder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setAttribute(java.lang.String,java.lang.Object)
+     * public abstract void javax.xml.parsers.DocumentBuilderFactory.setAttribute(java.lang.String,java.lang.Object)
+     * throws java.lang.IllegalArgumentException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAttribute_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setCoalescing(boolean) public void
+     * javax.xml.parsers.DocumentBuilderFactory.setCoalescing(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCoalescing_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setExpandEntityReferences(boolean) public void
+     * javax.xml.parsers.DocumentBuilderFactory.setExpandEntityReferences(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setExpandEntityReferences_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setFeature(java.lang.String,boolean) public
+     * abstract void javax.xml.parsers.DocumentBuilderFactory.setFeature(java.lang.String,boolean) throws
+     * javax.xml.parsers.ParserConfigurationException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFeature_String_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setIgnoringComments(boolean) public void
+     * javax.xml.parsers.DocumentBuilderFactory.setIgnoringComments(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setIgnoringComments_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setIgnoringElementContentWhitespace(boolean)
+     * public void javax.xml.parsers.DocumentBuilderFactory.setIgnoringElementContentWhitespace(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setIgnoringElementContentWhitespace_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setNamespaceAware(boolean) public void
+     * javax.xml.parsers.DocumentBuilderFactory.setNamespaceAware(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setNamespaceAware_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setSchema(javax.xml.validation.Schema) public
+     * void javax.xml.parsers.DocumentBuilderFactory.setSchema(javax.xml.validation.Schema)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSchema_Schema()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setValidating(boolean) public void
+     * javax.xml.parsers.DocumentBuilderFactory.setValidating(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setValidating_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.DocumentBuilderFactory#setXIncludeAware(boolean) public void
+     * javax.xml.parsers.DocumentBuilderFactory.setXIncludeAware(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setXIncludeAware_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

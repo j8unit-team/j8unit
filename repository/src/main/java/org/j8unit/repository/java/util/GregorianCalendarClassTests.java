@@ -36,6 +36,19 @@ public abstract interface GregorianCalendarClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.java.util.CalendarClassTests<SUT> {
 
     /**
+     * Test method for {@link java.util.GregorianCalendar#GregorianCalendar() public java.util.GregorianCalendar()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_GregorianCalendar()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.GregorianCalendar sut = null; // = new GregorianCalendar();
+    }
+
+    /**
      * Test method for {@link java.util.GregorianCalendar#GregorianCalendar(int,int,int) public
      * java.util.GregorianCalendar(int,int,int)}.
      */
@@ -78,16 +91,17 @@ extends org.j8unit.repository.java.util.CalendarClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.util.GregorianCalendar#GregorianCalendar() public java.util.GregorianCalendar()}.
+     * Test method for {@link java.util.GregorianCalendar#GregorianCalendar(java.util.Locale) public
+     * java.util.GregorianCalendar(java.util.Locale)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_GregorianCalendar()
+    public default void create_GregorianCalendar_Locale()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.GregorianCalendar sut = null; // = new GregorianCalendar();
+        final java.util.GregorianCalendar sut = null; // = new GregorianCalendar(java.util.Locale);
     }
 
     /**
@@ -105,20 +119,6 @@ extends org.j8unit.repository.java.util.CalendarClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.util.GregorianCalendar#GregorianCalendar(java.util.Locale) public
-     * java.util.GregorianCalendar(java.util.Locale)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_GregorianCalendar_Locale()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.GregorianCalendar sut = null; // = new GregorianCalendar(java.util.Locale);
-    }
-
-    /**
      * Test method for {@link java.util.GregorianCalendar#GregorianCalendar(java.util.TimeZone,java.util.Locale) public
      * java.util.GregorianCalendar(java.util.TimeZone,java.util.Locale)}.
      */
@@ -130,16 +130,6 @@ extends org.j8unit.repository.java.util.CalendarClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.GregorianCalendar sut = null; // = new GregorianCalendar(java.util.TimeZone,java.util.Locale);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.GregorianCalendar> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.GregorianCalendar.class.isAssignableFrom(sut));
     }
 
     /**
@@ -156,6 +146,16 @@ extends org.j8unit.repository.java.util.CalendarClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.GregorianCalendar> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.GregorianCalendar.class.isAssignableFrom(sut));
     }
 
 }

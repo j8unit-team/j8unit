@@ -37,6 +37,21 @@ public abstract interface AttributeModificationExceptionClassTests<SUT extends C
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.naming.directory.AttributeModificationException#AttributeModificationException()
+     * public javax.naming.directory.AttributeModificationException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AttributeModificationException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.directory.AttributeModificationException sut = null; // = new
+                                                                                // AttributeModificationException();
+    }
+
+    /**
      * Test method for
      * {@link javax.naming.directory.AttributeModificationException#AttributeModificationException(java.lang.String)
      * public javax.naming.directory.AttributeModificationException(java.lang.String)}.
@@ -50,21 +65,6 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.naming.directory.AttributeModificationException sut = null; // = new
                                                                                 // AttributeModificationException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.naming.directory.AttributeModificationException#AttributeModificationException()
-     * public javax.naming.directory.AttributeModificationException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AttributeModificationException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.directory.AttributeModificationException sut = null; // = new
-                                                                                // AttributeModificationException();
     }
 
     @Override

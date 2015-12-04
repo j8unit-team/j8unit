@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.Entity#getString() public java.lang.String
-     * javax.swing.text.html.parser.Entity.getString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.text.html.parser.Entity#getData() public char[]
      * javax.swing.text.html.parser.Entity.getData()}.
      * </p>
@@ -71,6 +55,38 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
 
     /**
      * <p>
+     * Test method for {@link javax.swing.text.html.parser.Entity#getString() public java.lang.String
+     * javax.swing.text.html.parser.Entity.getString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.Entity#getType() public int
+     * javax.swing.text.html.parser.Entity.getType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.text.html.parser.Entity#isGeneral() public boolean
      * javax.swing.text.html.parser.Entity.isGeneral()}.
      * </p>
@@ -95,22 +111,6 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_isParameter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.Entity#getType() public int
-     * javax.swing.text.html.parser.Entity.getType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

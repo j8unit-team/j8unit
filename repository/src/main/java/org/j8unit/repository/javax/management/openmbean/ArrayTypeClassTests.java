@@ -36,6 +36,22 @@ public abstract interface ArrayTypeClassTests<SUT extends Class<? extends javax.
 extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT, T> {
 
     /**
+     * Test method for {@link javax.management.openmbean.ArrayType#ArrayType(int,javax.management.openmbean.OpenType)
+     * public javax.management.openmbean.ArrayType(int,javax.management.openmbean.OpenType) throws
+     * javax.management.openmbean.OpenDataException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ArrayType_int_OpenType()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.openmbean.ArrayType<T> sut = null; // = new
+                                                                  // ArrayType(int,javax.management.openmbean.OpenType);
+    }
+
+    /**
      * Test method for
      * {@link javax.management.openmbean.ArrayType#ArrayType(javax.management.openmbean.SimpleType,boolean) public
      * javax.management.openmbean.ArrayType(javax.management.openmbean.SimpleType,boolean) throws
@@ -53,29 +69,21 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT,
     }
 
     /**
-     * Test method for {@link javax.management.openmbean.ArrayType#ArrayType(int,javax.management.openmbean.OpenType)
-     * public javax.management.openmbean.ArrayType(int,javax.management.openmbean.OpenType) throws
+     * <p>
+     * Test method for {@link javax.management.openmbean.ArrayType#getArrayType(javax.management.openmbean.OpenType)
+     * public static javax.management.openmbean.ArrayType
+     * javax.management.openmbean.ArrayType.getArrayType(javax.management.openmbean.OpenType) throws
      * javax.management.openmbean.OpenDataException}.
+     * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ArrayType_int_OpenType()
+    public default void test_getArrayType_OpenType()
     throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.openmbean.ArrayType<T> sut = null; // = new
-                                                                  // ArrayType(int,javax.management.openmbean.OpenType);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.management.openmbean.ArrayType<T>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.management.openmbean.ArrayType.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -95,22 +103,14 @@ extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT,
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.ArrayType#getArrayType(javax.management.openmbean.OpenType)
-     * public static javax.management.openmbean.ArrayType
-     * javax.management.openmbean.ArrayType.getArrayType(javax.management.openmbean.OpenType) throws
-     * javax.management.openmbean.OpenDataException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getArrayType_OpenType()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.management.openmbean.ArrayType<T>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.management.openmbean.ArrayType.class.isAssignableFrom(sut));
     }
 
 }

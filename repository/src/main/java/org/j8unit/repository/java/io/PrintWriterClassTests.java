@@ -35,34 +35,6 @@ public abstract interface PrintWriterClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.io.WriterClassTests<SUT> {
 
     /**
-     * Test method for {@link java.io.PrintWriter#PrintWriter(java.io.OutputStream,boolean) public
-     * java.io.PrintWriter(java.io.OutputStream,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PrintWriter_OutputStream_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.PrintWriter sut = null; // = new PrintWriter(java.io.OutputStream,boolean);
-    }
-
-    /**
-     * Test method for {@link java.io.PrintWriter#PrintWriter(java.lang.String) public
-     * java.io.PrintWriter(java.lang.String) throws java.io.FileNotFoundException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PrintWriter_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.PrintWriter sut = null; // = new PrintWriter(java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.io.PrintWriter#PrintWriter(java.io.File) public java.io.PrintWriter(java.io.File)
      * throws java.io.FileNotFoundException}.
      */
@@ -92,6 +64,48 @@ extends org.j8unit.repository.java.io.WriterClassTests<SUT> {
     }
 
     /**
+     * Test method for {@link java.io.PrintWriter#PrintWriter(java.io.OutputStream) public
+     * java.io.PrintWriter(java.io.OutputStream)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PrintWriter_OutputStream()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.PrintWriter sut = null; // = new PrintWriter(java.io.OutputStream);
+    }
+
+    /**
+     * Test method for {@link java.io.PrintWriter#PrintWriter(java.io.OutputStream,boolean) public
+     * java.io.PrintWriter(java.io.OutputStream,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PrintWriter_OutputStream_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.PrintWriter sut = null; // = new PrintWriter(java.io.OutputStream,boolean);
+    }
+
+    /**
+     * Test method for {@link java.io.PrintWriter#PrintWriter(java.lang.String) public
+     * java.io.PrintWriter(java.lang.String) throws java.io.FileNotFoundException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PrintWriter_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.PrintWriter sut = null; // = new PrintWriter(java.lang.String);
+    }
+
+    /**
      * Test method for {@link java.io.PrintWriter#PrintWriter(java.lang.String,java.lang.String) public
      * java.io.PrintWriter(java.lang.String,java.lang.String) throws
      * java.io.FileNotFoundException,java.io.UnsupportedEncodingException}.
@@ -118,20 +132,6 @@ extends org.j8unit.repository.java.io.WriterClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.PrintWriter sut = null; // = new PrintWriter(java.io.Writer);
-    }
-
-    /**
-     * Test method for {@link java.io.PrintWriter#PrintWriter(java.io.OutputStream) public
-     * java.io.PrintWriter(java.io.OutputStream)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PrintWriter_OutputStream()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.PrintWriter sut = null; // = new PrintWriter(java.io.OutputStream);
     }
 
     /**

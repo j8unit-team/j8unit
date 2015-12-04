@@ -54,38 +54,20 @@ extends org.j8unit.repository.javax.management.DescriptorAccessClassTests<SUT>, 
 
     /**
      * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanAttributeInfo#ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,javax.management.Descriptor)
+     * {@link javax.management.modelmbean.ModelMBeanAttributeInfo#ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.reflect.Method,java.lang.reflect.Method)
      * public
-     * javax.management.modelmbean.ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,javax.management.Descriptor)}
-     * .
+     * javax.management.modelmbean.ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.reflect.Method,java.lang.reflect.Method)
+     * throws javax.management.IntrospectionException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ModelMBeanAttributeInfo_String_String_String_boolean_boolean_boolean_Descriptor()
+    public default void create_ModelMBeanAttributeInfo_String_String_Method_Method()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.management.modelmbean.ModelMBeanAttributeInfo sut = null; // = new
-                                                                              // ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,javax.management.Descriptor);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanAttributeInfo#ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean)
-     * public
-     * javax.management.modelmbean.ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ModelMBeanAttributeInfo_String_String_String_boolean_boolean_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.modelmbean.ModelMBeanAttributeInfo sut = null; // = new
-                                                                              // ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean);
+                                                                              // ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.reflect.Method,java.lang.reflect.Method);
     }
 
     /**
@@ -108,20 +90,38 @@ extends org.j8unit.repository.javax.management.DescriptorAccessClassTests<SUT>, 
 
     /**
      * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanAttributeInfo#ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.reflect.Method,java.lang.reflect.Method)
+     * {@link javax.management.modelmbean.ModelMBeanAttributeInfo#ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean)
      * public
-     * javax.management.modelmbean.ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.reflect.Method,java.lang.reflect.Method)
-     * throws javax.management.IntrospectionException}.
+     * javax.management.modelmbean.ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean)}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ModelMBeanAttributeInfo_String_String_Method_Method()
+    public default void create_ModelMBeanAttributeInfo_String_String_String_boolean_boolean_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.management.modelmbean.ModelMBeanAttributeInfo sut = null; // = new
-                                                                              // ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.reflect.Method,java.lang.reflect.Method);
+                                                                              // ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.management.modelmbean.ModelMBeanAttributeInfo#ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,javax.management.Descriptor)
+     * public
+     * javax.management.modelmbean.ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,javax.management.Descriptor)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ModelMBeanAttributeInfo_String_String_String_boolean_boolean_boolean_Descriptor()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.modelmbean.ModelMBeanAttributeInfo sut = null; // = new
+                                                                              // ModelMBeanAttributeInfo(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,javax.management.Descriptor);
     }
 
     @Override

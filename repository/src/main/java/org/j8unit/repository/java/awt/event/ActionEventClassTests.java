@@ -36,18 +36,17 @@ public abstract interface ActionEventClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.event.ActionEvent#ActionEvent(java.lang.Object,int,java.lang.String,long,int)
-     * public java.awt.event.ActionEvent(java.lang.Object,int,java.lang.String,long,int)}.
+     * Test method for {@link java.awt.event.ActionEvent#ActionEvent(java.lang.Object,int,java.lang.String) public
+     * java.awt.event.ActionEvent(java.lang.Object,int,java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ActionEvent_Object_int_String_long_int()
+    public default void create_ActionEvent_Object_int_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.event.ActionEvent sut = null; // = new
-                                                     // ActionEvent(java.lang.Object,int,java.lang.String,long,int);
+        final java.awt.event.ActionEvent sut = null; // = new ActionEvent(java.lang.Object,int,java.lang.String);
     }
 
     /**
@@ -65,17 +64,18 @@ extends org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.event.ActionEvent#ActionEvent(java.lang.Object,int,java.lang.String) public
-     * java.awt.event.ActionEvent(java.lang.Object,int,java.lang.String)}.
+     * Test method for {@link java.awt.event.ActionEvent#ActionEvent(java.lang.Object,int,java.lang.String,long,int)
+     * public java.awt.event.ActionEvent(java.lang.Object,int,java.lang.String,long,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ActionEvent_Object_int_String()
+    public default void create_ActionEvent_Object_int_String_long_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.event.ActionEvent sut = null; // = new ActionEvent(java.lang.Object,int,java.lang.String);
+        final java.awt.event.ActionEvent sut = null; // = new
+                                                     // ActionEvent(java.lang.Object,int,java.lang.String,long,int);
     }
 
     @Override

@@ -23,6 +23,40 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.io.PushbackReader#close() public void java.io.PushbackReader.close() throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.PushbackReader#mark(int) public void java.io.PushbackReader.mark(int) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_mark_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.io.PushbackReader#markSupported() public boolean
      * java.io.PushbackReader.markSupported()}.
      * </p>
@@ -32,71 +66,6 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_markSupported()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.PushbackReader#ready() public boolean java.io.PushbackReader.ready() throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_ready()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.PushbackReader#unread(char[]) public void java.io.PushbackReader.unread(char[])
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unread_charArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.PushbackReader#unread(int) public void java.io.PushbackReader.unread(int) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unread_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.PushbackReader#unread(char[],int,int) public void
-     * java.io.PushbackReader.unread(char[],int,int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unread_charArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -139,7 +108,7 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.PushbackReader#mark(int) public void java.io.PushbackReader.mark(int) throws
+     * Test method for {@link java.io.PushbackReader#ready() public boolean java.io.PushbackReader.ready() throws
      * java.io.IOException}.
      * </p>
      */
@@ -147,7 +116,7 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_mark_int()
+    public default void test_ready()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -156,7 +125,7 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.PushbackReader#close() public void java.io.PushbackReader.close() throws
+     * Test method for {@link java.io.PushbackReader#reset() public void java.io.PushbackReader.reset() throws
      * java.io.IOException}.
      * </p>
      */
@@ -164,7 +133,7 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_close()
+    public default void test_reset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -190,15 +159,46 @@ extends org.j8unit.repository.java.io.FilterReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.PushbackReader#reset() public void java.io.PushbackReader.reset() throws
+     * Test method for {@link java.io.PushbackReader#unread(char[]) public void java.io.PushbackReader.unread(char[])
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unread_charArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.PushbackReader#unread(char[],int,int) public void
+     * java.io.PushbackReader.unread(char[],int,int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unread_charArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.PushbackReader#unread(int) public void java.io.PushbackReader.unread(int) throws
      * java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_reset()
+    public default void test_unread_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,6 +36,36 @@ public abstract interface TypeConstraintExceptionClassTests<SUT extends Class<? 
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(java.lang.String) public
+     * javax.xml.bind.TypeConstraintException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TypeConstraintException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.bind.TypeConstraintException sut = null; // = new TypeConstraintException(java.lang.String);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(java.lang.String,java.lang.String) public
+     * javax.xml.bind.TypeConstraintException(java.lang.String,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TypeConstraintException_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.bind.TypeConstraintException sut = null; // = new
+                                                                 // TypeConstraintException(java.lang.String,java.lang.String);
+    }
+
+    /**
      * Test method for
      * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(java.lang.String,java.lang.String,java.lang.Throwable)
      * public javax.xml.bind.TypeConstraintException(java.lang.String,java.lang.String,java.lang.Throwable)}.
@@ -79,36 +109,6 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.bind.TypeConstraintException sut = null; // = new TypeConstraintException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(java.lang.String,java.lang.String) public
-     * javax.xml.bind.TypeConstraintException(java.lang.String,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TypeConstraintException_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.bind.TypeConstraintException sut = null; // = new
-                                                                 // TypeConstraintException(java.lang.String,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.bind.TypeConstraintException#TypeConstraintException(java.lang.String) public
-     * javax.xml.bind.TypeConstraintException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TypeConstraintException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.bind.TypeConstraintException sut = null; // = new TypeConstraintException(java.lang.String);
     }
 
     @Override

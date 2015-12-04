@@ -25,44 +25,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.nio.channels.spi.AsynchronousChannelProvider#openAsynchronousServerSocketChannel(java.nio.channels.AsynchronousChannelGroup)
-     * public abstract java.nio.channels.AsynchronousServerSocketChannel
-     * java.nio.channels.spi.AsynchronousChannelProvider.openAsynchronousServerSocketChannel(java.nio.channels.AsynchronousChannelGroup)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_openAsynchronousServerSocketChannel_AsynchronousChannelGroup()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.nio.channels.spi.AsynchronousChannelProvider#openAsynchronousSocketChannel(java.nio.channels.AsynchronousChannelGroup)
-     * public abstract java.nio.channels.AsynchronousSocketChannel
-     * java.nio.channels.spi.AsynchronousChannelProvider.openAsynchronousSocketChannel(java.nio.channels.AsynchronousChannelGroup)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_openAsynchronousSocketChannel_AsynchronousChannelGroup()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link java.nio.channels.spi.AsynchronousChannelProvider#openAsynchronousChannelGroup(java.util.concurrent.ExecutorService,int)
      * public abstract java.nio.channels.AsynchronousChannelGroup
      * java.nio.channels.spi.AsynchronousChannelProvider.openAsynchronousChannelGroup(java.util.concurrent.ExecutorService,int)
@@ -92,6 +54,44 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_openAsynchronousChannelGroup_int_ThreadFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.nio.channels.spi.AsynchronousChannelProvider#openAsynchronousServerSocketChannel(java.nio.channels.AsynchronousChannelGroup)
+     * public abstract java.nio.channels.AsynchronousServerSocketChannel
+     * java.nio.channels.spi.AsynchronousChannelProvider.openAsynchronousServerSocketChannel(java.nio.channels.AsynchronousChannelGroup)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_openAsynchronousServerSocketChannel_AsynchronousChannelGroup()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.nio.channels.spi.AsynchronousChannelProvider#openAsynchronousSocketChannel(java.nio.channels.AsynchronousChannelGroup)
+     * public abstract java.nio.channels.AsynchronousSocketChannel
+     * java.nio.channels.spi.AsynchronousChannelProvider.openAsynchronousSocketChannel(java.nio.channels.AsynchronousChannelGroup)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_openAsynchronousSocketChannel_AsynchronousChannelGroup()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -25,6 +25,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.accessibility.AccessibleExtendedText#getTextBounds(int,int) public abstract
+     * java.awt.Rectangle javax.accessibility.AccessibleExtendedText.getTextBounds(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTextBounds_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.accessibility.AccessibleExtendedText#getTextRange(int,int) public abstract
      * java.lang.String javax.accessibility.AccessibleExtendedText.getTextRange(int,int)}.
      * </p>
@@ -33,40 +49,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getTextRange_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleExtendedText#getTextSequenceBefore(int,int) public abstract
-     * javax.accessibility.AccessibleTextSequence
-     * javax.accessibility.AccessibleExtendedText.getTextSequenceBefore(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTextSequenceBefore_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleExtendedText#getTextSequenceAt(int,int) public abstract
-     * javax.accessibility.AccessibleTextSequence javax.accessibility.AccessibleExtendedText.getTextSequenceAt(int,int)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTextSequenceAt_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,14 +74,32 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleExtendedText#getTextBounds(int,int) public abstract
-     * java.awt.Rectangle javax.accessibility.AccessibleExtendedText.getTextBounds(int,int)}.
+     * Test method for {@link javax.accessibility.AccessibleExtendedText#getTextSequenceAt(int,int) public abstract
+     * javax.accessibility.AccessibleTextSequence javax.accessibility.AccessibleExtendedText.getTextSequenceAt(int,int)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTextBounds_int_int()
+    public default void test_getTextSequenceAt_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleExtendedText#getTextSequenceBefore(int,int) public abstract
+     * javax.accessibility.AccessibleTextSequence
+     * javax.accessibility.AccessibleExtendedText.getTextSequenceBefore(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTextSequenceBefore_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

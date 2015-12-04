@@ -24,6 +24,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.xml.sax.ErrorHandler#error(org.xml.sax.SAXParseException) public abstract void
+     * org.xml.sax.ErrorHandler.error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_error_SAXParseException()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.xml.sax.ErrorHandler#fatalError(org.xml.sax.SAXParseException) public abstract void
      * org.xml.sax.ErrorHandler.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      * </p>
@@ -48,22 +64,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_warning_SAXParseException()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.ErrorHandler#error(org.xml.sax.SAXParseException) public abstract void
-     * org.xml.sax.ErrorHandler.error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_error_SAXParseException()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

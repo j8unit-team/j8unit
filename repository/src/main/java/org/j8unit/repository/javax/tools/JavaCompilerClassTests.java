@@ -33,16 +33,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface JavaCompilerClassTests<SUT extends Class<? extends javax.tools.JavaCompiler>>
 extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.tools.JavaCompiler> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.tools.JavaCompiler.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.tools.JavaCompiler$CompilationTask interface
@@ -83,6 +73,16 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
             assertTrue(javax.tools.JavaCompiler.CompilationTask.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.tools.JavaCompiler> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.tools.JavaCompiler.class.isAssignableFrom(sut));
     }
 
 }

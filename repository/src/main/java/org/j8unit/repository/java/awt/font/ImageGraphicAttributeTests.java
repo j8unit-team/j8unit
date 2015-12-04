@@ -23,49 +23,15 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.ImageGraphicAttribute#getAscent() public float
-     * java.awt.font.ImageGraphicAttribute.getAscent()}.
+     * Test method for {@link java.awt.font.ImageGraphicAttribute#draw(java.awt.Graphics2D,float,float) public void
+     * java.awt.font.ImageGraphicAttribute.draw(java.awt.Graphics2D,float,float)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getAscent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.ImageGraphicAttribute#hashCode() public int
-     * java.awt.font.ImageGraphicAttribute.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.ImageGraphicAttribute#getAdvance() public float
-     * java.awt.font.ImageGraphicAttribute.getAdvance()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAdvance()
+    public default void test_draw_Graphics2D_float_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -107,15 +73,32 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.ImageGraphicAttribute#draw(java.awt.Graphics2D,float,float) public void
-     * java.awt.font.ImageGraphicAttribute.draw(java.awt.Graphics2D,float,float)}.
+     * Test method for {@link java.awt.font.ImageGraphicAttribute#getAdvance() public float
+     * java.awt.font.ImageGraphicAttribute.getAdvance()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_draw_Graphics2D_float_float()
+    public default void test_getAdvance()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.ImageGraphicAttribute#getAscent() public float
+     * java.awt.font.ImageGraphicAttribute.getAscent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAscent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -150,6 +133,23 @@ extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getDescent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.ImageGraphicAttribute#hashCode() public int
+     * java.awt.font.ImageGraphicAttribute.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

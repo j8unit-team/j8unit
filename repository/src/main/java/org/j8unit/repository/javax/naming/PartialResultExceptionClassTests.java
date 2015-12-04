@@ -36,20 +36,6 @@ public abstract interface PartialResultExceptionClassTests<SUT extends Class<? e
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.PartialResultException#PartialResultException(java.lang.String) public
-     * javax.naming.PartialResultException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PartialResultException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.PartialResultException sut = null; // = new PartialResultException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.naming.PartialResultException#PartialResultException() public
      * javax.naming.PartialResultException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.PartialResultException sut = null; // = new PartialResultException();
+    }
+
+    /**
+     * Test method for {@link javax.naming.PartialResultException#PartialResultException(java.lang.String) public
+     * javax.naming.PartialResultException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PartialResultException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.PartialResultException sut = null; // = new PartialResultException(java.lang.String);
     }
 
     @Override

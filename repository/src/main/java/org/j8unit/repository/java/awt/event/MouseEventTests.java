@@ -23,47 +23,13 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.MouseEvent#isPopupTrigger() public boolean
-     * java.awt.event.MouseEvent.isPopupTrigger()}.
+     * Test method for {@link java.awt.event.MouseEvent#getButton() public int java.awt.event.MouseEvent.getButton()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isPopupTrigger()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.MouseEvent#getModifiersEx() public int
-     * java.awt.event.MouseEvent.getModifiersEx()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getModifiersEx()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.MouseEvent#getXOnScreen() public int
-     * java.awt.event.MouseEvent.getXOnScreen()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getXOnScreen()
+    public default void test_getButton()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,14 +70,31 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.MouseEvent#getYOnScreen() public int
-     * java.awt.event.MouseEvent.getYOnScreen()}.
+     * Test method for {@link java.awt.event.MouseEvent#getModifiersEx() public int
+     * java.awt.event.MouseEvent.getModifiersEx()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getYOnScreen()
+    @Override
+    public default void test_getModifiersEx()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.MouseEvent#getPoint() public java.awt.Point
+     * java.awt.event.MouseEvent.getPoint()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPoint()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,6 +118,22 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.event.MouseEvent#getXOnScreen() public int
+     * java.awt.event.MouseEvent.getXOnScreen()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getXOnScreen()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.event.MouseEvent#getY() public int java.awt.event.MouseEvent.getY()}.
      * </p>
      */
@@ -142,6 +141,38 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getY()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.MouseEvent#getYOnScreen() public int
+     * java.awt.event.MouseEvent.getYOnScreen()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getYOnScreen()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.MouseEvent#isPopupTrigger() public boolean
+     * java.awt.event.MouseEvent.isPopupTrigger()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isPopupTrigger()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -167,21 +198,6 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.MouseEvent#getButton() public int java.awt.event.MouseEvent.getButton()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getButton()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.event.MouseEvent#translatePoint(int,int) public synchronized void
      * java.awt.event.MouseEvent.translatePoint(int,int)}.
      * </p>
@@ -190,22 +206,6 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_translatePoint_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.MouseEvent#getPoint() public java.awt.Point
-     * java.awt.event.MouseEvent.getPoint()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPoint()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

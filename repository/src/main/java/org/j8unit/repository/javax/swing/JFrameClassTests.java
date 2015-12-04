@@ -36,31 +36,17 @@ extends org.j8unit.repository.javax.swing.WindowConstantsClassTests<SUT>, org.j8
 org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.repository.java.awt.FrameClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JFrame#JFrame(java.lang.String,java.awt.GraphicsConfiguration) public
-     * javax.swing.JFrame(java.lang.String,java.awt.GraphicsConfiguration)}.
+     * Test method for {@link javax.swing.JFrame#JFrame() public javax.swing.JFrame() throws java.awt.HeadlessException}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JFrame_String_GraphicsConfiguration()
+    public default void create_JFrame()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JFrame sut = null; // = new JFrame(java.lang.String,java.awt.GraphicsConfiguration);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JFrame#JFrame(java.lang.String) public javax.swing.JFrame(java.lang.String)
-     * throws java.awt.HeadlessException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JFrame_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JFrame sut = null; // = new JFrame(java.lang.String);
+        final javax.swing.JFrame sut = null; // = new JFrame();
     }
 
     /**
@@ -78,27 +64,31 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
     }
 
     /**
-     * Test method for {@link javax.swing.JFrame#JFrame() public javax.swing.JFrame() throws java.awt.HeadlessException}
-     * .
+     * Test method for {@link javax.swing.JFrame#JFrame(java.lang.String) public javax.swing.JFrame(java.lang.String)
+     * throws java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JFrame()
+    public default void create_JFrame_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JFrame sut = null; // = new JFrame();
+        final javax.swing.JFrame sut = null; // = new JFrame(java.lang.String);
     }
 
-    @Override
+    /**
+     * Test method for {@link javax.swing.JFrame#JFrame(java.lang.String,java.awt.GraphicsConfiguration) public
+     * javax.swing.JFrame(java.lang.String,java.awt.GraphicsConfiguration)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_JFrame_String_GraphicsConfiguration()
     throws Exception {
         // create new instance
-        final Class<? extends javax.swing.JFrame> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JFrame.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final javax.swing.JFrame sut = null; // = new JFrame(java.lang.String,java.awt.GraphicsConfiguration);
     }
 
     /**
@@ -131,6 +121,16 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.JFrame> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.JFrame.class.isAssignableFrom(sut));
     }
 
 }

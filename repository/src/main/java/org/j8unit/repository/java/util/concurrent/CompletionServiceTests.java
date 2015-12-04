@@ -24,6 +24,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.util.concurrent.CompletionService#poll() public abstract java.util.concurrent.Future
+     * java.util.concurrent.CompletionService.poll()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_poll()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.concurrent.CompletionService#poll(long,java.util.concurrent.TimeUnit) public
      * abstract java.util.concurrent.Future
      * java.util.concurrent.CompletionService.poll(long,java.util.concurrent.TimeUnit) throws
@@ -42,14 +58,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.CompletionService#poll() public abstract java.util.concurrent.Future
-     * java.util.concurrent.CompletionService.poll()}.
+     * Test method for {@link java.util.concurrent.CompletionService#submit(java.util.concurrent.Callable) public
+     * abstract java.util.concurrent.Future
+     * java.util.concurrent.CompletionService.submit(java.util.concurrent.Callable)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_poll()
+    public default void test_submit_Callable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -67,23 +84,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_submit_Runnable_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.CompletionService#submit(java.util.concurrent.Callable) public
-     * abstract java.util.concurrent.Future
-     * java.util.concurrent.CompletionService.submit(java.util.concurrent.Callable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_submit_Callable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

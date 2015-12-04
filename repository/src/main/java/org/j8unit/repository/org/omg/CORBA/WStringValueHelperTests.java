@@ -23,25 +23,6 @@ extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperTests<SUT>,
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.CORBA.WStringValueHelper#write_value(org.omg.CORBA.portable.OutputStream,java.io.Serializable)
-     * public void
-     * org.omg.CORBA.WStringValueHelper.write_value(org.omg.CORBA.portable.OutputStream,java.io.Serializable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_write_value_OutputStream_Serializable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.CORBA.WStringValueHelper#get_id() public java.lang.String
      * org.omg.CORBA.WStringValueHelper.get_id()}.
      * </p>
@@ -68,6 +49,25 @@ extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperTests<SUT>,
     @Category(Draft.class)
     @Override
     public default void test_read_value_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.CORBA.WStringValueHelper#write_value(org.omg.CORBA.portable.OutputStream,java.io.Serializable)
+     * public void
+     * org.omg.CORBA.WStringValueHelper.write_value(org.omg.CORBA.portable.OutputStream,java.io.Serializable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_write_value_OutputStream_Serializable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

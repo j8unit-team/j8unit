@@ -35,6 +35,20 @@ public abstract interface TextFieldClassTests<SUT extends Class<? extends java.a
 extends org.j8unit.repository.java.awt.TextComponentClassTests<SUT> {
 
     /**
+     * Test method for {@link java.awt.TextField#TextField() public java.awt.TextField() throws
+     * java.awt.HeadlessException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TextField()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.TextField sut = null; // = new TextField();
+    }
+
+    /**
      * Test method for {@link java.awt.TextField#TextField(int) public java.awt.TextField(int) throws
      * java.awt.HeadlessException}.
      */
@@ -60,20 +74,6 @@ extends org.j8unit.repository.java.awt.TextComponentClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.TextField sut = null; // = new TextField(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.awt.TextField#TextField() public java.awt.TextField() throws
-     * java.awt.HeadlessException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TextField()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.TextField sut = null; // = new TextField();
     }
 
     /**

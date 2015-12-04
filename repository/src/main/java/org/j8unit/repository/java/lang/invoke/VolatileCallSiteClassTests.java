@@ -36,20 +36,6 @@ public abstract interface VolatileCallSiteClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.java.lang.invoke.CallSiteClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.invoke.VolatileCallSite#VolatileCallSite(java.lang.invoke.MethodType) public
-     * java.lang.invoke.VolatileCallSite(java.lang.invoke.MethodType)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_VolatileCallSite_MethodType()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.invoke.VolatileCallSite sut = null; // = new VolatileCallSite(java.lang.invoke.MethodType);
-    }
-
-    /**
      * Test method for {@link java.lang.invoke.VolatileCallSite#VolatileCallSite(java.lang.invoke.MethodHandle) public
      * java.lang.invoke.VolatileCallSite(java.lang.invoke.MethodHandle)}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.lang.invoke.CallSiteClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.lang.invoke.VolatileCallSite sut = null; // = new VolatileCallSite(java.lang.invoke.MethodHandle);
+    }
+
+    /**
+     * Test method for {@link java.lang.invoke.VolatileCallSite#VolatileCallSite(java.lang.invoke.MethodType) public
+     * java.lang.invoke.VolatileCallSite(java.lang.invoke.MethodType)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_VolatileCallSite_MethodType()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.invoke.VolatileCallSite sut = null; // = new VolatileCallSite(java.lang.invoke.MethodType);
     }
 
     @Override

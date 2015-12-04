@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.WindowListener#windowClosing(java.awt.event.WindowEvent) public abstract
-     * void java.awt.event.WindowListener.windowClosing(java.awt.event.WindowEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_windowClosing_WindowEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.event.WindowListener#windowActivated(java.awt.event.WindowEvent) public abstract
      * void java.awt.event.WindowListener.windowActivated(java.awt.event.WindowEvent)}.
      * </p>
@@ -47,22 +31,6 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_windowActivated_WindowEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.WindowListener#windowDeiconified(java.awt.event.WindowEvent) public
-     * abstract void java.awt.event.WindowListener.windowDeiconified(java.awt.event.WindowEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_windowDeiconified_WindowEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,6 +55,22 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.event.WindowListener#windowClosing(java.awt.event.WindowEvent) public abstract
+     * void java.awt.event.WindowListener.windowClosing(java.awt.event.WindowEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_windowClosing_WindowEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.event.WindowListener#windowDeactivated(java.awt.event.WindowEvent) public
      * abstract void java.awt.event.WindowListener.windowDeactivated(java.awt.event.WindowEvent)}.
      * </p>
@@ -103,14 +87,14 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.WindowListener#windowOpened(java.awt.event.WindowEvent) public abstract
-     * void java.awt.event.WindowListener.windowOpened(java.awt.event.WindowEvent)}.
+     * Test method for {@link java.awt.event.WindowListener#windowDeiconified(java.awt.event.WindowEvent) public
+     * abstract void java.awt.event.WindowListener.windowDeiconified(java.awt.event.WindowEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_windowOpened_WindowEvent()
+    public default void test_windowDeiconified_WindowEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,6 +111,22 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_windowIconified_WindowEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.WindowListener#windowOpened(java.awt.event.WindowEvent) public abstract
+     * void java.awt.event.WindowListener.windowOpened(java.awt.event.WindowEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_windowOpened_WindowEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

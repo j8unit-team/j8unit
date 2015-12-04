@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInputStream#read(byte[],int,int) public final int
-     * java.io.DataInputStream.read(byte[],int,int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_read_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.io.DataInputStream#read(byte[]) public final int java.io.DataInputStream.read(byte[])
      * throws java.io.IOException}.
      * </p>
@@ -57,15 +40,15 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInputStream#readLine() public final java.lang.String
-     * java.io.DataInputStream.readLine() throws java.io.IOException}.
+     * Test method for {@link java.io.DataInputStream#read(byte[],int,int) public final int
+     * java.io.DataInputStream.read(byte[],int,int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_readLine()
+    public default void test_read_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,15 +57,32 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInputStream#skipBytes(int) public final int
-     * java.io.DataInputStream.skipBytes(int) throws java.io.IOException}.
+     * Test method for {@link java.io.DataInputStream#readBoolean() public final boolean
+     * java.io.DataInputStream.readBoolean() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_skipBytes_int()
+    public default void test_readBoolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.DataInputStream#readByte() public final byte java.io.DataInputStream.readByte()
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_readByte()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -100,91 +100,6 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
     @Category(Draft.class)
     @Override
     public default void test_readChar()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.DataInputStream#readShort() public final short java.io.DataInputStream.readShort()
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_readShort()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.DataInputStream#readUTF() public final java.lang.String
-     * java.io.DataInputStream.readUTF() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_readUTF()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.DataInputStream#readLong() public final long java.io.DataInputStream.readLong()
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_readLong()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.DataInputStream#readFully(byte[],int,int) public final void
-     * java.io.DataInputStream.readFully(byte[],int,int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_readFully_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.DataInputStream#readFully(byte[]) public final void
-     * java.io.DataInputStream.readFully(byte[]) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_readFully_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -227,15 +142,15 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInputStream#readBoolean() public final boolean
-     * java.io.DataInputStream.readBoolean() throws java.io.IOException}.
+     * Test method for {@link java.io.DataInputStream#readFully(byte[]) public final void
+     * java.io.DataInputStream.readFully(byte[]) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_readBoolean()
+    public default void test_readFully_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -244,15 +159,15 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInputStream#readUnsignedByte() public final int
-     * java.io.DataInputStream.readUnsignedByte() throws java.io.IOException}.
+     * Test method for {@link java.io.DataInputStream#readFully(byte[],int,int) public final void
+     * java.io.DataInputStream.readFully(byte[],int,int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_readUnsignedByte()
+    public default void test_readFully_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -278,7 +193,24 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.io.DataInputStream#readByte() public final byte java.io.DataInputStream.readByte()
+     * Test method for {@link java.io.DataInputStream#readLine() public final java.lang.String
+     * java.io.DataInputStream.readLine() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_readLine()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.DataInputStream#readLong() public final long java.io.DataInputStream.readLong()
      * throws java.io.IOException}.
      * </p>
      */
@@ -286,7 +218,41 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_readByte()
+    public default void test_readLong()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.DataInputStream#readShort() public final short java.io.DataInputStream.readShort()
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_readShort()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.DataInputStream#readUnsignedByte() public final int
+     * java.io.DataInputStream.readUnsignedByte() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_readUnsignedByte()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -304,6 +270,40 @@ extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository
     @Category(Draft.class)
     @Override
     public default void test_readUnsignedShort()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.DataInputStream#readUTF() public final java.lang.String
+     * java.io.DataInputStream.readUTF() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_readUTF()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.DataInputStream#skipBytes(int) public final int
+     * java.io.DataInputStream.skipBytes(int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_skipBytes_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

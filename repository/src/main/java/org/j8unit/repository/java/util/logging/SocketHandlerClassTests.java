@@ -36,20 +36,6 @@ public abstract interface SocketHandlerClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.util.logging.StreamHandlerClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.logging.SocketHandler#SocketHandler(java.lang.String,int) public
-     * java.util.logging.SocketHandler(java.lang.String,int) throws java.io.IOException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SocketHandler_String_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.logging.SocketHandler sut = null; // = new SocketHandler(java.lang.String,int);
-    }
-
-    /**
      * Test method for {@link java.util.logging.SocketHandler#SocketHandler() public java.util.logging.SocketHandler()
      * throws java.io.IOException}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.util.logging.StreamHandlerClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.logging.SocketHandler sut = null; // = new SocketHandler();
+    }
+
+    /**
+     * Test method for {@link java.util.logging.SocketHandler#SocketHandler(java.lang.String,int) public
+     * java.util.logging.SocketHandler(java.lang.String,int) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SocketHandler_String_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.logging.SocketHandler sut = null; // = new SocketHandler(java.lang.String,int);
     }
 
     @Override

@@ -23,14 +23,14 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.BevelBorder#getHighlightOuterColor(java.awt.Component) public
-     * java.awt.Color javax.swing.border.BevelBorder.getHighlightOuterColor(java.awt.Component)}.
+     * Test method for {@link javax.swing.border.BevelBorder#getBevelType() public int
+     * javax.swing.border.BevelBorder.getBevelType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getHighlightOuterColor_Component()
+    public default void test_getBevelType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,31 +39,31 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.BevelBorder#getHighlightOuterColor() public java.awt.Color
-     * javax.swing.border.BevelBorder.getHighlightOuterColor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHighlightOuterColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.BevelBorder#isBorderOpaque() public boolean
-     * javax.swing.border.BevelBorder.isBorderOpaque()}.
+     * Test method for {@link javax.swing.border.BevelBorder#getBorderInsets(java.awt.Component,java.awt.Insets) public
+     * java.awt.Insets javax.swing.border.BevelBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isBorderOpaque()
+    public default void test_getBorderInsets_Component_Insets()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.BevelBorder#getHighlightInnerColor() public java.awt.Color
+     * javax.swing.border.BevelBorder.getHighlightInnerColor()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHighlightInnerColor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,14 +88,30 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.BevelBorder#getHighlightInnerColor() public java.awt.Color
-     * javax.swing.border.BevelBorder.getHighlightInnerColor()}.
+     * Test method for {@link javax.swing.border.BevelBorder#getHighlightOuterColor() public java.awt.Color
+     * javax.swing.border.BevelBorder.getHighlightOuterColor()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getHighlightInnerColor()
+    public default void test_getHighlightOuterColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.BevelBorder#getHighlightOuterColor(java.awt.Component) public
+     * java.awt.Color javax.swing.border.BevelBorder.getHighlightOuterColor(java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHighlightOuterColor_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -136,24 +152,6 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.border.BevelBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int) public
-     * void javax.swing.border.BevelBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paintBorder_Component_Graphics_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.border.BevelBorder#getShadowOuterColor() public java.awt.Color
      * javax.swing.border.BevelBorder.getShadowOuterColor()}.
      * </p>
@@ -186,15 +184,15 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.BevelBorder#getBorderInsets(java.awt.Component,java.awt.Insets) public
-     * java.awt.Insets javax.swing.border.BevelBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+     * Test method for {@link javax.swing.border.BevelBorder#isBorderOpaque() public boolean
+     * javax.swing.border.BevelBorder.isBorderOpaque()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getBorderInsets_Component_Insets()
+    public default void test_isBorderOpaque()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -203,14 +201,16 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.BevelBorder#getBevelType() public int
-     * javax.swing.border.BevelBorder.getBevelType()}.
+     * Test method for
+     * {@link javax.swing.border.BevelBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int) public
+     * void javax.swing.border.BevelBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBevelType()
+    @Override
+    public default void test_paintBorder_Component_Graphics_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

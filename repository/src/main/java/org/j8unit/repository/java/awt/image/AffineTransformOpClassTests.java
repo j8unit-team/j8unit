@@ -37,6 +37,21 @@ extends org.j8unit.repository.java.awt.image.BufferedImageOpClassTests<SUT>, org
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.awt.image.AffineTransformOp#AffineTransformOp(java.awt.geom.AffineTransform,int)
+     * public java.awt.image.AffineTransformOp(java.awt.geom.AffineTransform,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AffineTransformOp_AffineTransform_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.AffineTransformOp sut = null; // = new
+                                                           // AffineTransformOp(java.awt.geom.AffineTransform,int);
+    }
+
+    /**
      * Test method for
      * {@link java.awt.image.AffineTransformOp#AffineTransformOp(java.awt.geom.AffineTransform,java.awt.RenderingHints)
      * public java.awt.image.AffineTransformOp(java.awt.geom.AffineTransform,java.awt.RenderingHints)}.
@@ -50,21 +65,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.awt.image.AffineTransformOp sut = null; // = new
                                                            // AffineTransformOp(java.awt.geom.AffineTransform,java.awt.RenderingHints);
-    }
-
-    /**
-     * Test method for {@link java.awt.image.AffineTransformOp#AffineTransformOp(java.awt.geom.AffineTransform,int)
-     * public java.awt.image.AffineTransformOp(java.awt.geom.AffineTransform,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AffineTransformOp_AffineTransform_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.AffineTransformOp sut = null; // = new
-                                                           // AffineTransformOp(java.awt.geom.AffineTransform,int);
     }
 
     @Override

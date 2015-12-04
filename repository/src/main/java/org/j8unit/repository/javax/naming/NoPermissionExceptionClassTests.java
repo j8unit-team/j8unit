@@ -36,20 +36,6 @@ public abstract interface NoPermissionExceptionClassTests<SUT extends Class<? ex
 extends org.j8unit.repository.javax.naming.NamingSecurityExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.NoPermissionException#NoPermissionException(java.lang.String) public
-     * javax.naming.NoPermissionException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_NoPermissionException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.NoPermissionException sut = null; // = new NoPermissionException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.naming.NoPermissionException#NoPermissionException() public
      * javax.naming.NoPermissionException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.javax.naming.NamingSecurityExceptionClassTests<SUT
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.NoPermissionException sut = null; // = new NoPermissionException();
+    }
+
+    /**
+     * Test method for {@link javax.naming.NoPermissionException#NoPermissionException(java.lang.String) public
+     * javax.naming.NoPermissionException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_NoPermissionException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.NoPermissionException sut = null; // = new NoPermissionException(java.lang.String);
     }
 
     @Override

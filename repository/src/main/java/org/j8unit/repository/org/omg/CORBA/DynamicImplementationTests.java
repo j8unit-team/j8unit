@@ -23,22 +23,6 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ObjectImplTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DynamicImplementation#invoke(org.omg.CORBA.ServerRequest) public void
-     * org.omg.CORBA.DynamicImplementation.invoke(org.omg.CORBA.ServerRequest)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_invoke_ServerRequest()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.CORBA.DynamicImplementation#_ids() public java.lang.String[]
      * org.omg.CORBA.DynamicImplementation._ids()}.
      * </p>
@@ -48,6 +32,22 @@ extends org.j8unit.repository.org.omg.CORBA.portable.ObjectImplTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test__ids()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.DynamicImplementation#invoke(org.omg.CORBA.ServerRequest) public void
+     * org.omg.CORBA.DynamicImplementation.invoke(org.omg.CORBA.ServerRequest)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_invoke_ServerRequest()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

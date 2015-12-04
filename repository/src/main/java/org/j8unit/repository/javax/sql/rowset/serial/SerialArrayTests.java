@@ -24,6 +24,22 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialArray#clone() public java.lang.Object
+     * javax.sql.rowset.serial.SerialArray.clone()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.sql.rowset.serial.SerialArray#equals(java.lang.Object) public boolean
      * javax.sql.rowset.serial.SerialArray.equals(java.lang.Object)}.
      * </p>
@@ -33,92 +49,6 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     @Category(Draft.class)
     @Override
     public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialArray#hashCode() public int
-     * javax.sql.rowset.serial.SerialArray.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialArray#getResultSet(long,int) public java.sql.ResultSet
-     * javax.sql.rowset.serial.SerialArray.getResultSet(long,int) throws javax.sql.rowset.serial.SerialException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getResultSet_long_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialArray#getResultSet() public java.sql.ResultSet
-     * javax.sql.rowset.serial.SerialArray.getResultSet() throws javax.sql.rowset.serial.SerialException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getResultSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialArray#getResultSet(java.util.Map) public java.sql.ResultSet
-     * javax.sql.rowset.serial.SerialArray.getResultSet(java.util.Map) throws javax.sql.rowset.serial.SerialException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getResultSet_Map()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialArray#getResultSet(long,int,java.util.Map) public
-     * java.sql.ResultSet javax.sql.rowset.serial.SerialArray.getResultSet(long,int,java.util.Map) throws
-     * javax.sql.rowset.serial.SerialException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getResultSet_long_int_Map()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -144,15 +74,15 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialArray#getBaseType() public int
-     * javax.sql.rowset.serial.SerialArray.getBaseType() throws javax.sql.rowset.serial.SerialException}.
+     * Test method for {@link javax.sql.rowset.serial.SerialArray#getArray() public java.lang.Object
+     * javax.sql.rowset.serial.SerialArray.getArray() throws javax.sql.rowset.serial.SerialException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getBaseType()
+    public default void test_getArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -161,31 +91,15 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialArray#clone() public java.lang.Object
-     * javax.sql.rowset.serial.SerialArray.clone()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialArray#getBaseTypeName() public java.lang.String
-     * javax.sql.rowset.serial.SerialArray.getBaseTypeName() throws javax.sql.rowset.serial.SerialException}.
+     * Test method for {@link javax.sql.rowset.serial.SerialArray#getArray(long,int) public java.lang.Object
+     * javax.sql.rowset.serial.SerialArray.getArray(long,int) throws javax.sql.rowset.serial.SerialException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getBaseTypeName()
+    public default void test_getArray_long_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -212,40 +126,6 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialArray#getArray(long,int) public java.lang.Object
-     * javax.sql.rowset.serial.SerialArray.getArray(long,int) throws javax.sql.rowset.serial.SerialException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getArray_long_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.serial.SerialArray#getArray() public java.lang.Object
-     * javax.sql.rowset.serial.SerialArray.getArray() throws javax.sql.rowset.serial.SerialException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sql.rowset.serial.SerialArray#getArray(java.util.Map) public java.lang.Object
      * javax.sql.rowset.serial.SerialArray.getArray(java.util.Map) throws javax.sql.rowset.serial.SerialException}.
      * </p>
@@ -255,6 +135,126 @@ org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.
     @Category(Draft.class)
     @Override
     public default void test_getArray_Map()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialArray#getBaseType() public int
+     * javax.sql.rowset.serial.SerialArray.getBaseType() throws javax.sql.rowset.serial.SerialException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getBaseType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialArray#getBaseTypeName() public java.lang.String
+     * javax.sql.rowset.serial.SerialArray.getBaseTypeName() throws javax.sql.rowset.serial.SerialException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getBaseTypeName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialArray#getResultSet() public java.sql.ResultSet
+     * javax.sql.rowset.serial.SerialArray.getResultSet() throws javax.sql.rowset.serial.SerialException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getResultSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialArray#getResultSet(long,int) public java.sql.ResultSet
+     * javax.sql.rowset.serial.SerialArray.getResultSet(long,int) throws javax.sql.rowset.serial.SerialException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getResultSet_long_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialArray#getResultSet(long,int,java.util.Map) public
+     * java.sql.ResultSet javax.sql.rowset.serial.SerialArray.getResultSet(long,int,java.util.Map) throws
+     * javax.sql.rowset.serial.SerialException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getResultSet_long_int_Map()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialArray#getResultSet(java.util.Map) public java.sql.ResultSet
+     * javax.sql.rowset.serial.SerialArray.getResultSet(java.util.Map) throws javax.sql.rowset.serial.SerialException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getResultSet_Map()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.serial.SerialArray#hashCode() public int
+     * javax.sql.rowset.serial.SerialArray.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

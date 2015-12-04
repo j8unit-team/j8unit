@@ -23,30 +23,14 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#getOutputTypes() public java.lang.Class[]
-     * javax.imageio.spi.ImageWriterSpi.getOutputTypes()}.
+     * Test method for {@link javax.imageio.spi.ImageWriterSpi#canEncodeImage(javax.imageio.ImageTypeSpecifier) public
+     * abstract boolean javax.imageio.spi.ImageWriterSpi.canEncodeImage(javax.imageio.ImageTypeSpecifier)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOutputTypes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#isOwnWriter(javax.imageio.ImageWriter) public boolean
-     * javax.imageio.spi.ImageWriterSpi.isOwnWriter(javax.imageio.ImageWriter)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isOwnWriter_ImageWriter()
+    public default void test_canEncodeImage_ImageTypeSpecifier()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -63,22 +47,6 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_canEncodeImage_RenderedImage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#canEncodeImage(javax.imageio.ImageTypeSpecifier) public
-     * abstract boolean javax.imageio.spi.ImageWriterSpi.canEncodeImage(javax.imageio.ImageTypeSpecifier)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canEncodeImage_ImageTypeSpecifier()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,6 +88,38 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.imageio.spi.ImageWriterSpi#getImageReaderSpiNames() public java.lang.String[]
+     * javax.imageio.spi.ImageWriterSpi.getImageReaderSpiNames()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImageReaderSpiNames()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.spi.ImageWriterSpi#getOutputTypes() public java.lang.Class[]
+     * javax.imageio.spi.ImageWriterSpi.getOutputTypes()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutputTypes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.imageio.spi.ImageWriterSpi#isFormatLossless() public boolean
      * javax.imageio.spi.ImageWriterSpi.isFormatLossless()}.
      * </p>
@@ -136,14 +136,14 @@ extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageWriterSpi#getImageReaderSpiNames() public java.lang.String[]
-     * javax.imageio.spi.ImageWriterSpi.getImageReaderSpiNames()}.
+     * Test method for {@link javax.imageio.spi.ImageWriterSpi#isOwnWriter(javax.imageio.ImageWriter) public boolean
+     * javax.imageio.spi.ImageWriterSpi.isOwnWriter(javax.imageio.ImageWriter)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getImageReaderSpiNames()
+    public default void test_isOwnWriter_ImageWriter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

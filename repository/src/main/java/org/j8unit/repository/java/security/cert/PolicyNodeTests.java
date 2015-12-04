@@ -24,14 +24,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PolicyNode#isCritical() public abstract boolean
-     * java.security.cert.PolicyNode.isCritical()}.
+     * Test method for {@link java.security.cert.PolicyNode#getChildren() public abstract java.util.Iterator
+     * java.security.cert.PolicyNode.getChildren()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isCritical()
+    public default void test_getChildren()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.PolicyNode#getDepth() public abstract int
+     * java.security.cert.PolicyNode.getDepth()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDepth()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -48,6 +64,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getExpectedPolicies()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.PolicyNode#getParent() public abstract java.security.cert.PolicyNode
+     * java.security.cert.PolicyNode.getParent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,46 +120,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PolicyNode#getDepth() public abstract int
-     * java.security.cert.PolicyNode.getDepth()}.
+     * Test method for {@link java.security.cert.PolicyNode#isCritical() public abstract boolean
+     * java.security.cert.PolicyNode.isCritical()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDepth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.PolicyNode#getParent() public abstract java.security.cert.PolicyNode
-     * java.security.cert.PolicyNode.getParent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.PolicyNode#getChildren() public abstract java.util.Iterator
-     * java.security.cert.PolicyNode.getChildren()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChildren()
+    public default void test_isCritical()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

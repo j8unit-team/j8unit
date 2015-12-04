@@ -37,22 +37,6 @@ extends org.j8unit.repository.java.awt.image.ColorModelClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.awt.image.PackedColorModel#PackedColorModel(java.awt.color.ColorSpace,int,int[],int,boolean,int,int)
-     * public java.awt.image.PackedColorModel(java.awt.color.ColorSpace,int,int[],int,boolean,int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PackedColorModel_ColorSpace_int_intArray_int_boolean_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.PackedColorModel sut = null; // = new
-                                                          // PackedColorModel(java.awt.color.ColorSpace,int,int[],int,boolean,int,int);
-    }
-
-    /**
-     * Test method for
      * {@link java.awt.image.PackedColorModel#PackedColorModel(java.awt.color.ColorSpace,int,int,int,int,int,boolean,int,int)
      * public java.awt.image.PackedColorModel(java.awt.color.ColorSpace,int,int,int,int,int,boolean,int,int)}.
      */
@@ -65,6 +49,22 @@ extends org.j8unit.repository.java.awt.image.ColorModelClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.awt.image.PackedColorModel sut = null; // = new
                                                           // PackedColorModel(java.awt.color.ColorSpace,int,int,int,int,int,boolean,int,int);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.image.PackedColorModel#PackedColorModel(java.awt.color.ColorSpace,int,int[],int,boolean,int,int)
+     * public java.awt.image.PackedColorModel(java.awt.color.ColorSpace,int,int[],int,boolean,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PackedColorModel_ColorSpace_int_intArray_int_boolean_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.PackedColorModel sut = null; // = new
+                                                          // PackedColorModel(java.awt.color.ColorSpace,int,int[],int,boolean,int,int);
     }
 
     @Override

@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSInput#setByteStream(java.io.InputStream) public abstract void
-     * org.w3c.dom.ls.LSInput.setByteStream(java.io.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setByteStream_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.ls.LSInput#getBaseURI() public abstract java.lang.String
      * org.w3c.dom.ls.LSInput.getBaseURI()}.
      * </p>
@@ -48,54 +32,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getBaseURI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSInput#setBaseURI(java.lang.String) public abstract void
-     * org.w3c.dom.ls.LSInput.setBaseURI(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBaseURI_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSInput#setCharacterStream(java.io.Reader) public abstract void
-     * org.w3c.dom.ls.LSInput.setCharacterStream(java.io.Reader)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCharacterStream_Reader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSInput#getEncoding() public abstract java.lang.String
-     * org.w3c.dom.ls.LSInput.getEncoding()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEncoding()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,46 +56,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSInput#setSystemId(java.lang.String) public abstract void
-     * org.w3c.dom.ls.LSInput.setSystemId(java.lang.String)}.
+     * Test method for {@link org.w3c.dom.ls.LSInput#getCertifiedText() public abstract boolean
+     * org.w3c.dom.ls.LSInput.getCertifiedText()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSystemId_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSInput#setPublicId(java.lang.String) public abstract void
-     * org.w3c.dom.ls.LSInput.setPublicId(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPublicId_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.ls.LSInput#getPublicId() public abstract java.lang.String
-     * org.w3c.dom.ls.LSInput.getPublicId()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPublicId()
+    public default void test_getCertifiedText()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -184,14 +88,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSInput#setCertifiedText(boolean) public abstract void
-     * org.w3c.dom.ls.LSInput.setCertifiedText(boolean)}.
+     * Test method for {@link org.w3c.dom.ls.LSInput#getEncoding() public abstract java.lang.String
+     * org.w3c.dom.ls.LSInput.getEncoding()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCertifiedText_boolean()
+    public default void test_getEncoding()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -200,14 +104,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSInput#getSystemId() public abstract java.lang.String
-     * org.w3c.dom.ls.LSInput.getSystemId()}.
+     * Test method for {@link org.w3c.dom.ls.LSInput#getPublicId() public abstract java.lang.String
+     * org.w3c.dom.ls.LSInput.getPublicId()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSystemId()
+    public default void test_getPublicId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -232,14 +136,78 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSInput#setStringData(java.lang.String) public abstract void
-     * org.w3c.dom.ls.LSInput.setStringData(java.lang.String)}.
+     * Test method for {@link org.w3c.dom.ls.LSInput#getSystemId() public abstract java.lang.String
+     * org.w3c.dom.ls.LSInput.getSystemId()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setStringData_String()
+    public default void test_getSystemId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.ls.LSInput#setBaseURI(java.lang.String) public abstract void
+     * org.w3c.dom.ls.LSInput.setBaseURI(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setBaseURI_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.ls.LSInput#setByteStream(java.io.InputStream) public abstract void
+     * org.w3c.dom.ls.LSInput.setByteStream(java.io.InputStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setByteStream_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.ls.LSInput#setCertifiedText(boolean) public abstract void
+     * org.w3c.dom.ls.LSInput.setCertifiedText(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCertifiedText_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.ls.LSInput#setCharacterStream(java.io.Reader) public abstract void
+     * org.w3c.dom.ls.LSInput.setCharacterStream(java.io.Reader)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCharacterStream_Reader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -264,14 +232,46 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ls.LSInput#getCertifiedText() public abstract boolean
-     * org.w3c.dom.ls.LSInput.getCertifiedText()}.
+     * Test method for {@link org.w3c.dom.ls.LSInput#setPublicId(java.lang.String) public abstract void
+     * org.w3c.dom.ls.LSInput.setPublicId(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCertifiedText()
+    public default void test_setPublicId_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.ls.LSInput#setStringData(java.lang.String) public abstract void
+     * org.w3c.dom.ls.LSInput.setStringData(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setStringData_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.ls.LSInput#setSystemId(java.lang.String) public abstract void
+     * org.w3c.dom.ls.LSInput.setSystemId(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSystemId_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

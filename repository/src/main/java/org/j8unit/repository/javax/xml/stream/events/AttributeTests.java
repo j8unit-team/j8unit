@@ -23,6 +23,22 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.stream.events.Attribute#getDTDType() public abstract java.lang.String
+     * javax.xml.stream.events.Attribute.getDTDType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDTDType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.stream.events.Attribute#getName() public abstract javax.xml.namespace.QName
      * javax.xml.stream.events.Attribute.getName()}.
      * </p>
@@ -47,22 +63,6 @@ extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.events.Attribute#getDTDType() public abstract java.lang.String
-     * javax.xml.stream.events.Attribute.getDTDType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDTDType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

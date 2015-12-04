@@ -36,64 +36,6 @@ public abstract interface TextLayoutClassTests<SUT extends Class<? extends java.
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.awt.font.TextLayout#TextLayout(java.text.AttributedCharacterIterator,java.awt.font.FontRenderContext)
-     * public java.awt.font.TextLayout(java.text.AttributedCharacterIterator,java.awt.font.FontRenderContext)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TextLayout_AttributedCharacterIterator_FontRenderContext()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.font.TextLayout sut = null; // = new
-                                                   // TextLayout(java.text.AttributedCharacterIterator,java.awt.font.FontRenderContext);
-    }
-
-    /**
-     * Test method for
-     * {@link java.awt.font.TextLayout#TextLayout(java.lang.String,java.util.Map,java.awt.font.FontRenderContext) public
-     * java.awt.font.TextLayout(java.lang.String,java.util.Map,java.awt.font.FontRenderContext)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TextLayout_String_Map_FontRenderContext()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.font.TextLayout sut = null; // = new
-                                                   // TextLayout(java.lang.String,java.util.Map,java.awt.font.FontRenderContext);
-    }
-
-    /**
-     * Test method for
-     * {@link java.awt.font.TextLayout#TextLayout(java.lang.String,java.awt.Font,java.awt.font.FontRenderContext) public
-     * java.awt.font.TextLayout(java.lang.String,java.awt.Font,java.awt.font.FontRenderContext)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TextLayout_String_Font_FontRenderContext()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.font.TextLayout sut = null; // = new
-                                                   // TextLayout(java.lang.String,java.awt.Font,java.awt.font.FontRenderContext);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.font.TextLayout> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.font.TextLayout.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link java.awt.font.TextLayout$CaretPolicy class java.awt.font.TextLayout$CaretPolicy},
      * containing all class relevant test methods (at least the test methods of accessible constructors and of
@@ -146,6 +88,64 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
             assertTrue(java.awt.font.TextLayout.CaretPolicy.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.font.TextLayout#TextLayout(java.text.AttributedCharacterIterator,java.awt.font.FontRenderContext)
+     * public java.awt.font.TextLayout(java.text.AttributedCharacterIterator,java.awt.font.FontRenderContext)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TextLayout_AttributedCharacterIterator_FontRenderContext()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.font.TextLayout sut = null; // = new
+                                                   // TextLayout(java.text.AttributedCharacterIterator,java.awt.font.FontRenderContext);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.font.TextLayout#TextLayout(java.lang.String,java.awt.Font,java.awt.font.FontRenderContext) public
+     * java.awt.font.TextLayout(java.lang.String,java.awt.Font,java.awt.font.FontRenderContext)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TextLayout_String_Font_FontRenderContext()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.font.TextLayout sut = null; // = new
+                                                   // TextLayout(java.lang.String,java.awt.Font,java.awt.font.FontRenderContext);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.font.TextLayout#TextLayout(java.lang.String,java.util.Map,java.awt.font.FontRenderContext) public
+     * java.awt.font.TextLayout(java.lang.String,java.util.Map,java.awt.font.FontRenderContext)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TextLayout_String_Map_FontRenderContext()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.font.TextLayout sut = null; // = new
+                                                   // TextLayout(java.lang.String,java.util.Map,java.awt.font.FontRenderContext);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.font.TextLayout> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.font.TextLayout.class.isAssignableFrom(sut));
     }
 
 }

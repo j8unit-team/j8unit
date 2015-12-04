@@ -25,23 +25,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.PortableRemoteObjectDelegate#toStub(java.rmi.Remote) public abstract
-     * java.rmi.Remote javax.rmi.CORBA.PortableRemoteObjectDelegate.toStub(java.rmi.Remote) throws
-     * java.rmi.NoSuchObjectException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toStub_Remote()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.rmi.CORBA.PortableRemoteObjectDelegate#connect(java.rmi.Remote,java.rmi.Remote)
      * public abstract void javax.rmi.CORBA.PortableRemoteObjectDelegate.connect(java.rmi.Remote,java.rmi.Remote) throws
      * java.rmi.RemoteException}.
@@ -51,6 +34,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_connect_Remote_Remote()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.rmi.CORBA.PortableRemoteObjectDelegate#exportObject(java.rmi.Remote) public abstract
+     * void javax.rmi.CORBA.PortableRemoteObjectDelegate.exportObject(java.rmi.Remote) throws java.rmi.RemoteException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_exportObject_Remote()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -77,14 +76,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.PortableRemoteObjectDelegate#exportObject(java.rmi.Remote) public abstract
-     * void javax.rmi.CORBA.PortableRemoteObjectDelegate.exportObject(java.rmi.Remote) throws java.rmi.RemoteException}.
+     * Test method for {@link javax.rmi.CORBA.PortableRemoteObjectDelegate#toStub(java.rmi.Remote) public abstract
+     * java.rmi.Remote javax.rmi.CORBA.PortableRemoteObjectDelegate.toStub(java.rmi.Remote) throws
+     * java.rmi.NoSuchObjectException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_exportObject_Remote()
+    public default void test_toStub_Remote()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,6 +24,38 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.security.sasl.AuthorizeCallback#getAuthenticationID() public java.lang.String
+     * javax.security.sasl.AuthorizeCallback.getAuthenticationID()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAuthenticationID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.sasl.AuthorizeCallback#getAuthorizationID() public java.lang.String
+     * javax.security.sasl.AuthorizeCallback.getAuthorizationID()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAuthorizationID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.security.sasl.AuthorizeCallback#getAuthorizedID() public java.lang.String
      * javax.security.sasl.AuthorizeCallback.getAuthorizedID()}.
      * </p>
@@ -80,38 +112,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setAuthorizedID_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.sasl.AuthorizeCallback#getAuthenticationID() public java.lang.String
-     * javax.security.sasl.AuthorizeCallback.getAuthenticationID()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAuthenticationID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.sasl.AuthorizeCallback#getAuthorizationID() public java.lang.String
-     * javax.security.sasl.AuthorizeCallback.getAuthorizationID()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAuthorizationID()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

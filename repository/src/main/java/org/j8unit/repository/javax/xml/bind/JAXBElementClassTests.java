@@ -36,48 +36,6 @@ public abstract interface JAXBElementClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.xml.bind.JAXBElement#JAXBElement(javax.xml.namespace.QName,java.lang.Class,java.lang.Class,java.lang.Object)
-     * public javax.xml.bind.JAXBElement(javax.xml.namespace.QName,java.lang.Class,java.lang.Class,java.lang.Object)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JAXBElement_QName_Class_Class_Object()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.bind.JAXBElement<T> sut = null; // = new
-                                                        // JAXBElement(javax.xml.namespace.QName,java.lang.Class,java.lang.Class,java.lang.Object);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.xml.bind.JAXBElement#JAXBElement(javax.xml.namespace.QName,java.lang.Class,java.lang.Object) public
-     * javax.xml.bind.JAXBElement(javax.xml.namespace.QName,java.lang.Class,java.lang.Object)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JAXBElement_QName_Class_Object()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.bind.JAXBElement<T> sut = null; // = new
-                                                        // JAXBElement(javax.xml.namespace.QName,java.lang.Class,java.lang.Object);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.bind.JAXBElement<T>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.bind.JAXBElement.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.xml.bind.JAXBElement$GlobalScope class javax.xml.bind.JAXBElement$GlobalScope},
      * containing all class relevant test methods (at least the test methods of accessible constructors and of
@@ -130,6 +88,48 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
             assertTrue(javax.xml.bind.JAXBElement.GlobalScope.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for
+     * {@link javax.xml.bind.JAXBElement#JAXBElement(javax.xml.namespace.QName,java.lang.Class,java.lang.Class,java.lang.Object)
+     * public javax.xml.bind.JAXBElement(javax.xml.namespace.QName,java.lang.Class,java.lang.Class,java.lang.Object)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JAXBElement_QName_Class_Class_Object()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.bind.JAXBElement<T> sut = null; // = new
+                                                        // JAXBElement(javax.xml.namespace.QName,java.lang.Class,java.lang.Class,java.lang.Object);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.xml.bind.JAXBElement#JAXBElement(javax.xml.namespace.QName,java.lang.Class,java.lang.Object) public
+     * javax.xml.bind.JAXBElement(javax.xml.namespace.QName,java.lang.Class,java.lang.Object)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JAXBElement_QName_Class_Object()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.bind.JAXBElement<T> sut = null; // = new
+                                                        // JAXBElement(javax.xml.namespace.QName,java.lang.Class,java.lang.Object);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.bind.JAXBElement<T>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.bind.JAXBElement.class.isAssignableFrom(sut));
     }
 
 }

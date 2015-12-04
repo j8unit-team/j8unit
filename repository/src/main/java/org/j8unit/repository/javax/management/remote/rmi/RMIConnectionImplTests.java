@@ -25,145 +25,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnectionImpl#toString() public java.lang.String
-     * javax.management.remote.rmi.RMIConnectionImpl.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#isRegistered(javax.management.ObjectName,javax.security.auth.Subject)
-     * public boolean
-     * javax.management.remote.rmi.RMIConnectionImpl.isRegistered(javax.management.ObjectName,javax.security.auth.Subject)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isRegistered_ObjectName_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#isInstanceOf(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject)
-     * public boolean
-     * javax.management.remote.rmi.RMIConnectionImpl.isInstanceOf(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject)
-     * throws javax.management.InstanceNotFoundException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isInstanceOf_ObjectName_String_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#getMBeanInfo(javax.management.ObjectName,javax.security.auth.Subject)
-     * public javax.management.MBeanInfo
-     * javax.management.remote.rmi.RMIConnectionImpl.getMBeanInfo(javax.management.ObjectName,javax.security.auth.Subject)
-     * throws
-     * javax.management.InstanceNotFoundException,javax.management.IntrospectionException,javax.management.ReflectionException,java.io.IOException}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMBeanInfo_ObjectName_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#removeNotificationListener(javax.management.ObjectName,javax.management.ObjectName,javax.security.auth.Subject)
-     * public void
-     * javax.management.remote.rmi.RMIConnectionImpl.removeNotificationListener(javax.management.ObjectName,javax.management.ObjectName,javax.security.auth.Subject)
-     * throws javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException,java.io.IOException}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_removeNotificationListener_ObjectName_ObjectName_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#removeNotificationListener(javax.management.ObjectName,javax.management.ObjectName,java.rmi.MarshalledObject,java.rmi.MarshalledObject,javax.security.auth.Subject)
-     * public void
-     * javax.management.remote.rmi.RMIConnectionImpl.removeNotificationListener(javax.management.ObjectName,javax.management.ObjectName,java.rmi.MarshalledObject,java.rmi.MarshalledObject,javax.security.auth.Subject)
-     * throws javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException,java.io.IOException}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_removeNotificationListener_ObjectName_ObjectName_MarshalledObject_MarshalledObject_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnectionImpl#getDomains(javax.security.auth.Subject)
-     * public java.lang.String[] javax.management.remote.rmi.RMIConnectionImpl.getDomains(javax.security.auth.Subject)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getDomains_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.management.remote.rmi.RMIConnectionImpl#addNotificationListener(javax.management.ObjectName,javax.management.ObjectName,java.rmi.MarshalledObject,java.rmi.MarshalledObject,javax.security.auth.Subject)
      * public void
@@ -176,229 +37,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_addNotificationListener_ObjectName_ObjectName_MarshalledObject_MarshalledObject_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnectionImpl#fetchNotifications(long,int,long) public
-     * javax.management.remote.NotificationResult
-     * javax.management.remote.rmi.RMIConnectionImpl.fetchNotifications(long,int,long) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_fetchNotifications_long_int_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#queryMBeans(javax.management.ObjectName,java.rmi.MarshalledObject,javax.security.auth.Subject)
-     * public java.util.Set
-     * javax.management.remote.rmi.RMIConnectionImpl.queryMBeans(javax.management.ObjectName,java.rmi.MarshalledObject,javax.security.auth.Subject)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_queryMBeans_ObjectName_MarshalledObject_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#getAttributes(javax.management.ObjectName,java.lang.String[],javax.security.auth.Subject)
-     * public javax.management.AttributeList
-     * javax.management.remote.rmi.RMIConnectionImpl.getAttributes(javax.management.ObjectName,java.lang.String[],javax.security.auth.Subject)
-     * throws javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAttributes_ObjectName_StringArray_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#queryNames(javax.management.ObjectName,java.rmi.MarshalledObject,javax.security.auth.Subject)
-     * public java.util.Set
-     * javax.management.remote.rmi.RMIConnectionImpl.queryNames(javax.management.ObjectName,java.rmi.MarshalledObject,javax.security.auth.Subject)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_queryNames_ObjectName_MarshalledObject_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#createMBean(java.lang.String,javax.management.ObjectName,javax.security.auth.Subject)
-     * public javax.management.ObjectInstance
-     * javax.management.remote.rmi.RMIConnectionImpl.createMBean(java.lang.String,javax.management.ObjectName,javax.security.auth.Subject)
-     * throws
-     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,java.io.IOException}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createMBean_String_ObjectName_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#createMBean(java.lang.String,javax.management.ObjectName,javax.management.ObjectName,javax.security.auth.Subject)
-     * public javax.management.ObjectInstance
-     * javax.management.remote.rmi.RMIConnectionImpl.createMBean(java.lang.String,javax.management.ObjectName,javax.management.ObjectName,javax.security.auth.Subject)
-     * throws
-     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,javax.management.InstanceNotFoundException,java.io.IOException}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createMBean_String_ObjectName_ObjectName_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#createMBean(java.lang.String,javax.management.ObjectName,javax.management.ObjectName,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
-     * public javax.management.ObjectInstance
-     * javax.management.remote.rmi.RMIConnectionImpl.createMBean(java.lang.String,javax.management.ObjectName,javax.management.ObjectName,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
-     * throws
-     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,javax.management.InstanceNotFoundException,java.io.IOException}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createMBean_String_ObjectName_ObjectName_MarshalledObject_StringArray_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#createMBean(java.lang.String,javax.management.ObjectName,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
-     * public javax.management.ObjectInstance
-     * javax.management.remote.rmi.RMIConnectionImpl.createMBean(java.lang.String,javax.management.ObjectName,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
-     * throws
-     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,java.io.IOException}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createMBean_String_ObjectName_MarshalledObject_StringArray_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#getDefaultDomain(javax.security.auth.Subject) public
-     * java.lang.String javax.management.remote.rmi.RMIConnectionImpl.getDefaultDomain(javax.security.auth.Subject)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getDefaultDomain_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#getObjectInstance(javax.management.ObjectName,javax.security.auth.Subject)
-     * public javax.management.ObjectInstance
-     * javax.management.remote.rmi.RMIConnectionImpl.getObjectInstance(javax.management.ObjectName,javax.security.auth.Subject)
-     * throws javax.management.InstanceNotFoundException,java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getObjectInstance_ObjectName_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnectionImpl#getMBeanCount(javax.security.auth.Subject)
-     * public java.lang.Integer javax.management.remote.rmi.RMIConnectionImpl.getMBeanCount(javax.security.auth.Subject)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMBeanCount_Subject()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -444,15 +82,20 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnectionImpl#getConnectionId() public java.lang.String
-     * javax.management.remote.rmi.RMIConnectionImpl.getConnectionId() throws java.io.IOException}.
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#createMBean(java.lang.String,javax.management.ObjectName,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
+     * public javax.management.ObjectInstance
+     * javax.management.remote.rmi.RMIConnectionImpl.createMBean(java.lang.String,javax.management.ObjectName,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
+     * throws
+     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,java.io.IOException}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getConnectionId()
+    public default void test_createMBean_String_ObjectName_MarshalledObject_StringArray_Subject()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -462,10 +105,11 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#removeNotificationListeners(javax.management.ObjectName,java.lang.Integer[],javax.security.auth.Subject)
-     * public void
-     * javax.management.remote.rmi.RMIConnectionImpl.removeNotificationListeners(javax.management.ObjectName,java.lang.Integer[],javax.security.auth.Subject)
-     * throws javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException,java.io.IOException}
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#createMBean(java.lang.String,javax.management.ObjectName,javax.management.ObjectName,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
+     * public javax.management.ObjectInstance
+     * javax.management.remote.rmi.RMIConnectionImpl.createMBean(java.lang.String,javax.management.ObjectName,javax.management.ObjectName,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
+     * throws
+     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,javax.management.InstanceNotFoundException,java.io.IOException}
      * .
      * </p>
      */
@@ -473,7 +117,69 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_removeNotificationListeners_ObjectName_IntegerArray_Subject()
+    public default void test_createMBean_String_ObjectName_ObjectName_MarshalledObject_StringArray_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#createMBean(java.lang.String,javax.management.ObjectName,javax.management.ObjectName,javax.security.auth.Subject)
+     * public javax.management.ObjectInstance
+     * javax.management.remote.rmi.RMIConnectionImpl.createMBean(java.lang.String,javax.management.ObjectName,javax.management.ObjectName,javax.security.auth.Subject)
+     * throws
+     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,javax.management.InstanceNotFoundException,java.io.IOException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createMBean_String_ObjectName_ObjectName_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#createMBean(java.lang.String,javax.management.ObjectName,javax.security.auth.Subject)
+     * public javax.management.ObjectInstance
+     * javax.management.remote.rmi.RMIConnectionImpl.createMBean(java.lang.String,javax.management.ObjectName,javax.security.auth.Subject)
+     * throws
+     * javax.management.ReflectionException,javax.management.InstanceAlreadyExistsException,javax.management.MBeanRegistrationException,javax.management.MBeanException,javax.management.NotCompliantMBeanException,java.io.IOException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createMBean_String_ObjectName_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectionImpl#fetchNotifications(long,int,long) public
+     * javax.management.remote.NotificationResult
+     * javax.management.remote.rmi.RMIConnectionImpl.fetchNotifications(long,int,long) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_fetchNotifications_long_int_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -505,6 +211,305 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#getAttributes(javax.management.ObjectName,java.lang.String[],javax.security.auth.Subject)
+     * public javax.management.AttributeList
+     * javax.management.remote.rmi.RMIConnectionImpl.getAttributes(javax.management.ObjectName,java.lang.String[],javax.security.auth.Subject)
+     * throws javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAttributes_ObjectName_StringArray_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectionImpl#getConnectionId() public java.lang.String
+     * javax.management.remote.rmi.RMIConnectionImpl.getConnectionId() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getConnectionId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#getDefaultDomain(javax.security.auth.Subject) public
+     * java.lang.String javax.management.remote.rmi.RMIConnectionImpl.getDefaultDomain(javax.security.auth.Subject)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getDefaultDomain_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectionImpl#getDomains(javax.security.auth.Subject)
+     * public java.lang.String[] javax.management.remote.rmi.RMIConnectionImpl.getDomains(javax.security.auth.Subject)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getDomains_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectionImpl#getMBeanCount(javax.security.auth.Subject)
+     * public java.lang.Integer javax.management.remote.rmi.RMIConnectionImpl.getMBeanCount(javax.security.auth.Subject)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMBeanCount_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#getMBeanInfo(javax.management.ObjectName,javax.security.auth.Subject)
+     * public javax.management.MBeanInfo
+     * javax.management.remote.rmi.RMIConnectionImpl.getMBeanInfo(javax.management.ObjectName,javax.security.auth.Subject)
+     * throws
+     * javax.management.InstanceNotFoundException,javax.management.IntrospectionException,javax.management.ReflectionException,java.io.IOException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMBeanInfo_ObjectName_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#getObjectInstance(javax.management.ObjectName,javax.security.auth.Subject)
+     * public javax.management.ObjectInstance
+     * javax.management.remote.rmi.RMIConnectionImpl.getObjectInstance(javax.management.ObjectName,javax.security.auth.Subject)
+     * throws javax.management.InstanceNotFoundException,java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getObjectInstance_ObjectName_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#invoke(javax.management.ObjectName,java.lang.String,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
+     * public java.lang.Object
+     * javax.management.remote.rmi.RMIConnectionImpl.invoke(javax.management.ObjectName,java.lang.String,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
+     * throws
+     * javax.management.InstanceNotFoundException,javax.management.MBeanException,javax.management.ReflectionException,java.io.IOException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_invoke_ObjectName_String_MarshalledObject_StringArray_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#isInstanceOf(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject)
+     * public boolean
+     * javax.management.remote.rmi.RMIConnectionImpl.isInstanceOf(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject)
+     * throws javax.management.InstanceNotFoundException,java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isInstanceOf_ObjectName_String_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#isRegistered(javax.management.ObjectName,javax.security.auth.Subject)
+     * public boolean
+     * javax.management.remote.rmi.RMIConnectionImpl.isRegistered(javax.management.ObjectName,javax.security.auth.Subject)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isRegistered_ObjectName_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#queryMBeans(javax.management.ObjectName,java.rmi.MarshalledObject,javax.security.auth.Subject)
+     * public java.util.Set
+     * javax.management.remote.rmi.RMIConnectionImpl.queryMBeans(javax.management.ObjectName,java.rmi.MarshalledObject,javax.security.auth.Subject)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_queryMBeans_ObjectName_MarshalledObject_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#queryNames(javax.management.ObjectName,java.rmi.MarshalledObject,javax.security.auth.Subject)
+     * public java.util.Set
+     * javax.management.remote.rmi.RMIConnectionImpl.queryNames(javax.management.ObjectName,java.rmi.MarshalledObject,javax.security.auth.Subject)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_queryNames_ObjectName_MarshalledObject_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#removeNotificationListener(javax.management.ObjectName,javax.management.ObjectName,java.rmi.MarshalledObject,java.rmi.MarshalledObject,javax.security.auth.Subject)
+     * public void
+     * javax.management.remote.rmi.RMIConnectionImpl.removeNotificationListener(javax.management.ObjectName,javax.management.ObjectName,java.rmi.MarshalledObject,java.rmi.MarshalledObject,javax.security.auth.Subject)
+     * throws javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException,java.io.IOException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_removeNotificationListener_ObjectName_ObjectName_MarshalledObject_MarshalledObject_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#removeNotificationListener(javax.management.ObjectName,javax.management.ObjectName,javax.security.auth.Subject)
+     * public void
+     * javax.management.remote.rmi.RMIConnectionImpl.removeNotificationListener(javax.management.ObjectName,javax.management.ObjectName,javax.security.auth.Subject)
+     * throws javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException,java.io.IOException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_removeNotificationListener_ObjectName_ObjectName_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.rmi.RMIConnectionImpl#removeNotificationListeners(javax.management.ObjectName,java.lang.Integer[],javax.security.auth.Subject)
+     * public void
+     * javax.management.remote.rmi.RMIConnectionImpl.removeNotificationListeners(javax.management.ObjectName,java.lang.Integer[],javax.security.auth.Subject)
+     * throws javax.management.InstanceNotFoundException,javax.management.ListenerNotFoundException,java.io.IOException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_removeNotificationListeners_ObjectName_IntegerArray_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link javax.management.remote.rmi.RMIConnectionImpl#setAttribute(javax.management.ObjectName,java.rmi.MarshalledObject,javax.security.auth.Subject)
      * public void
      * javax.management.remote.rmi.RMIConnectionImpl.setAttribute(javax.management.ObjectName,java.rmi.MarshalledObject,javax.security.auth.Subject)
@@ -518,23 +523,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_setAttribute_ObjectName_MarshalledObject_Subject()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.remote.rmi.RMIConnectionImpl#unreferenced() public void
-     * javax.management.remote.rmi.RMIConnectionImpl.unreferenced()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_unreferenced()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -563,20 +551,32 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectionImpl#invoke(javax.management.ObjectName,java.lang.String,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
-     * public java.lang.Object
-     * javax.management.remote.rmi.RMIConnectionImpl.invoke(javax.management.ObjectName,java.lang.String,java.rmi.MarshalledObject,java.lang.String[],javax.security.auth.Subject)
-     * throws
-     * javax.management.InstanceNotFoundException,javax.management.MBeanException,javax.management.ReflectionException,java.io.IOException}
-     * .
+     * Test method for {@link javax.management.remote.rmi.RMIConnectionImpl#toString() public java.lang.String
+     * javax.management.remote.rmi.RMIConnectionImpl.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_invoke_ObjectName_String_MarshalledObject_StringArray_Subject()
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.rmi.RMIConnectionImpl#unreferenced() public void
+     * javax.management.remote.rmi.RMIConnectionImpl.unreferenced()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_unreferenced()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

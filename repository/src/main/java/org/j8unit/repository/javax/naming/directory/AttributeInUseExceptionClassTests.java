@@ -37,6 +37,20 @@ public abstract interface AttributeInUseExceptionClassTests<SUT extends Class<? 
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.naming.directory.AttributeInUseException#AttributeInUseException() public
+     * javax.naming.directory.AttributeInUseException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AttributeInUseException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.directory.AttributeInUseException sut = null; // = new AttributeInUseException();
+    }
+
+    /**
      * Test method for {@link javax.naming.directory.AttributeInUseException#AttributeInUseException(java.lang.String)
      * public javax.naming.directory.AttributeInUseException(java.lang.String)}.
      */
@@ -49,20 +63,6 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.naming.directory.AttributeInUseException sut = null; // = new
                                                                          // AttributeInUseException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.naming.directory.AttributeInUseException#AttributeInUseException() public
-     * javax.naming.directory.AttributeInUseException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AttributeInUseException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.directory.AttributeInUseException sut = null; // = new AttributeInUseException();
     }
 
     @Override

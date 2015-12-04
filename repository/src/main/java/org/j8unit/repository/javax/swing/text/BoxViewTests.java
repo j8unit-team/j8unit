@@ -23,128 +23,15 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.BoxView#getMaximumSpan(int) public float
-     * javax.swing.text.BoxView.getMaximumSpan(int)}.
+     * Test method for {@link javax.swing.text.BoxView#getAlignment(int) public float
+     * javax.swing.text.BoxView.getAlignment(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getMaximumSpan_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.BoxView#setSize(float,float) public void
-     * javax.swing.text.BoxView.setSize(float,float)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setSize_float_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.BoxView#layoutChanged(int) public void
-     * javax.swing.text.BoxView.layoutChanged(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_layoutChanged_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.BoxView#viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[]) public
-     * int javax.swing.text.BoxView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_viewToModel_float_float_Shape_BiasArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.BoxView#getHeight() public int javax.swing.text.BoxView.getHeight()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHeight()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.BoxView#getResizeWeight(int) public int
-     * javax.swing.text.BoxView.getResizeWeight(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getResizeWeight_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.BoxView#setAxis(int) public void javax.swing.text.BoxView.setAxis(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAxis_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.BoxView#getWidth() public int javax.swing.text.BoxView.getWidth()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWidth()
+    public default void test_getAlignment_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -185,15 +72,13 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.BoxView#paint(java.awt.Graphics,java.awt.Shape) public void
-     * javax.swing.text.BoxView.paint(java.awt.Graphics,java.awt.Shape)}.
+     * Test method for {@link javax.swing.text.BoxView#getHeight() public int javax.swing.text.BoxView.getHeight()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_paint_Graphics_Shape()
+    public default void test_getHeight()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -202,15 +87,32 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.BoxView#replace(int,int,javax.swing.text.View[]) public void
-     * javax.swing.text.BoxView.replace(int,int,javax.swing.text.View[])}.
+     * Test method for {@link javax.swing.text.BoxView#getMaximumSpan(int) public float
+     * javax.swing.text.BoxView.getMaximumSpan(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_replace_int_int_ViewArray()
+    public default void test_getMaximumSpan_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.BoxView#getMinimumSpan(int) public float
+     * javax.swing.text.BoxView.getMinimumSpan(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMinimumSpan_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -228,6 +130,54 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getPreferredSpan_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.BoxView#getResizeWeight(int) public int
+     * javax.swing.text.BoxView.getResizeWeight(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getResizeWeight_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.BoxView#getWidth() public int javax.swing.text.BoxView.getWidth()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWidth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.BoxView#layoutChanged(int) public void
+     * javax.swing.text.BoxView.layoutChanged(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_layoutChanged_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -254,32 +204,15 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.BoxView#getMinimumSpan(int) public float
-     * javax.swing.text.BoxView.getMinimumSpan(int)}.
+     * Test method for {@link javax.swing.text.BoxView#paint(java.awt.Graphics,java.awt.Shape) public void
+     * javax.swing.text.BoxView.paint(java.awt.Graphics,java.awt.Shape)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getMinimumSpan_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.BoxView#getAlignment(int) public float
-     * javax.swing.text.BoxView.getAlignment(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAlignment_int()
+    public default void test_paint_Graphics_Shape()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -297,6 +230,73 @@ extends org.j8unit.repository.javax.swing.text.CompositeViewTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_preferenceChanged_View_boolean_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.BoxView#replace(int,int,javax.swing.text.View[]) public void
+     * javax.swing.text.BoxView.replace(int,int,javax.swing.text.View[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_replace_int_int_ViewArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.BoxView#setAxis(int) public void javax.swing.text.BoxView.setAxis(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAxis_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.BoxView#setSize(float,float) public void
+     * javax.swing.text.BoxView.setSize(float,float)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setSize_float_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.BoxView#viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[]) public
+     * int javax.swing.text.BoxView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_viewToModel_float_float_Shape_BiasArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

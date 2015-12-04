@@ -35,14 +35,23 @@ import org.junit.experimental.categories.Category;
 public abstract interface DirectoryManagerClassTests<SUT extends Class<? extends javax.naming.spi.DirectoryManager>>
 extends org.j8unit.repository.javax.naming.spi.NamingManagerClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.naming.spi.DirectoryManager#getContinuationDirContext(javax.naming.CannotProceedException) public
+     * static javax.naming.directory.DirContext
+     * javax.naming.spi.DirectoryManager.getContinuationDirContext(javax.naming.CannotProceedException) throws
+     * javax.naming.NamingException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getContinuationDirContext_CannotProceedException()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.naming.spi.DirectoryManager> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.naming.spi.DirectoryManager.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -67,25 +76,6 @@ extends org.j8unit.repository.javax.naming.spi.NamingManagerClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.spi.DirectoryManager#getContinuationDirContext(javax.naming.CannotProceedException) public
-     * static javax.naming.directory.DirContext
-     * javax.naming.spi.DirectoryManager.getContinuationDirContext(javax.naming.CannotProceedException) throws
-     * javax.naming.NamingException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getContinuationDirContext_CannotProceedException()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link javax.naming.spi.DirectoryManager#getStateToBind(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable,javax.naming.directory.Attributes)
      * public static javax.naming.spi.DirStateFactory$Result
      * javax.naming.spi.DirectoryManager.getStateToBind(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable,javax.naming.directory.Attributes)
@@ -100,6 +90,16 @@ extends org.j8unit.repository.javax.naming.spi.NamingManagerClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.naming.spi.DirectoryManager> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.naming.spi.DirectoryManager.class.isAssignableFrom(sut));
     }
 
 }

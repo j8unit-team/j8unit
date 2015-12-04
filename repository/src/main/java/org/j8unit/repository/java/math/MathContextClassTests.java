@@ -35,17 +35,16 @@ public abstract interface MathContextClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.math.MathContext#MathContext(java.lang.String) public
-     * java.math.MathContext(java.lang.String)}.
+     * Test method for {@link java.math.MathContext#MathContext(int) public java.math.MathContext(int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MathContext_String()
+    public default void create_MathContext_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.math.MathContext sut = null; // = new MathContext(java.lang.String);
+        final java.math.MathContext sut = null; // = new MathContext(int);
     }
 
     /**
@@ -63,16 +62,17 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     }
 
     /**
-     * Test method for {@link java.math.MathContext#MathContext(int) public java.math.MathContext(int)}.
+     * Test method for {@link java.math.MathContext#MathContext(java.lang.String) public
+     * java.math.MathContext(java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MathContext_int()
+    public default void create_MathContext_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.math.MathContext sut = null; // = new MathContext(int);
+        final java.math.MathContext sut = null; // = new MathContext(java.lang.String);
     }
 
     @Override

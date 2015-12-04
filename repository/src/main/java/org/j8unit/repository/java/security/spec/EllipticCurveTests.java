@@ -23,14 +23,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.EllipticCurve#getA() public java.math.BigInteger
-     * java.security.spec.EllipticCurve.getA()}.
+     * Test method for {@link java.security.spec.EllipticCurve#equals(java.lang.Object) public boolean
+     * java.security.spec.EllipticCurve.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getA()
+    @Override
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,14 +40,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.EllipticCurve#getField() public java.security.spec.ECField
-     * java.security.spec.EllipticCurve.getField()}.
+     * Test method for {@link java.security.spec.EllipticCurve#getA() public java.math.BigInteger
+     * java.security.spec.EllipticCurve.getA()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getField()
+    public default void test_getA()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +72,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.EllipticCurve#getSeed() public byte[]
-     * java.security.spec.EllipticCurve.getSeed()}.
+     * Test method for {@link java.security.spec.EllipticCurve#getField() public java.security.spec.ECField
+     * java.security.spec.EllipticCurve.getField()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSeed()
+    public default void test_getField()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,15 +88,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.EllipticCurve#equals(java.lang.Object) public boolean
-     * java.security.spec.EllipticCurve.equals(java.lang.Object)}.
+     * Test method for {@link java.security.spec.EllipticCurve#getSeed() public byte[]
+     * java.security.spec.EllipticCurve.getSeed()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_getSeed()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

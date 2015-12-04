@@ -48,16 +48,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         final javax.swing.Timer sut = null; // = new Timer(int,java.awt.event.ActionListener);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.Timer> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.Timer.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.Timer#getLogTimers() public static boolean javax.swing.Timer.getLogTimers()}.
@@ -87,6 +77,16 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.Timer> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.Timer.class.isAssignableFrom(sut));
     }
 
 }

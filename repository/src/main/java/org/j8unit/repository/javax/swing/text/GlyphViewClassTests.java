@@ -37,30 +37,6 @@ extends org.j8unit.repository.javax.swing.text.TabableViewClassTests<SUT>, org.j
 org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.text.GlyphView#GlyphView(javax.swing.text.Element) public
-     * javax.swing.text.GlyphView(javax.swing.text.Element)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_GlyphView_Element()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.GlyphView sut = null; // = new GlyphView(javax.swing.text.Element);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.GlyphView> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.GlyphView.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.text.GlyphView$GlyphPainter class javax.swing.text.GlyphView$GlyphPainter},
      * containing all class relevant test methods (at least the test methods of accessible constructors and of
@@ -113,6 +89,30 @@ org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
             assertTrue(javax.swing.text.GlyphView.GlyphPainter.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.text.GlyphView#GlyphView(javax.swing.text.Element) public
+     * javax.swing.text.GlyphView(javax.swing.text.Element)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_GlyphView_Element()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.GlyphView sut = null; // = new GlyphView(javax.swing.text.Element);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.GlyphView> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.GlyphView.class.isAssignableFrom(sut));
     }
 
 }

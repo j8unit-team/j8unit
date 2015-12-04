@@ -36,77 +36,6 @@ public abstract interface JComponentClassTests<SUT extends Class<? extends javax
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.ContainerClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JComponent#JComponent() public javax.swing.JComponent()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JComponent()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JComponent sut = null; // = new JComponent();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.JComponent> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JComponent.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JComponent#isLightweightComponent(java.awt.Component) public static boolean
-     * javax.swing.JComponent.isLightweightComponent(java.awt.Component)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isLightweightComponent_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JComponent#setDefaultLocale(java.util.Locale) public static void
-     * javax.swing.JComponent.setDefaultLocale(java.util.Locale)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDefaultLocale_Locale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JComponent#getDefaultLocale() public static java.util.Locale
-     * javax.swing.JComponent.getDefaultLocale()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultLocale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.JComponent$AccessibleJComponent class
      * javax.swing.JComponent$AccessibleJComponent}, containing all class relevant test methods (at least the test
@@ -147,6 +76,77 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
             assertTrue(javax.swing.JComponent.AccessibleJComponent.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.JComponent#JComponent() public javax.swing.JComponent()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JComponent()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JComponent sut = null; // = new JComponent();
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JComponent#getDefaultLocale() public static java.util.Locale
+     * javax.swing.JComponent.getDefaultLocale()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaultLocale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JComponent#isLightweightComponent(java.awt.Component) public static boolean
+     * javax.swing.JComponent.isLightweightComponent(java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isLightweightComponent_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JComponent#setDefaultLocale(java.util.Locale) public static void
+     * javax.swing.JComponent.setDefaultLocale(java.util.Locale)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDefaultLocale_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.JComponent> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.JComponent.class.isAssignableFrom(sut));
     }
 
 }

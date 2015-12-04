@@ -38,22 +38,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.awt.image.ColorConvertOp#ColorConvertOp(java.awt.color.ICC_Profile[],java.awt.RenderingHints) public
-     * java.awt.image.ColorConvertOp(java.awt.color.ICC_Profile[],java.awt.RenderingHints)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ColorConvertOp_ICC_ProfileArray_RenderingHints()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.ColorConvertOp sut = null; // = new
-                                                        // ColorConvertOp(java.awt.color.ICC_Profile[],java.awt.RenderingHints);
-    }
-
-    /**
-     * Test method for
      * {@link java.awt.image.ColorConvertOp#ColorConvertOp(java.awt.color.ColorSpace,java.awt.color.ColorSpace,java.awt.RenderingHints)
      * public
      * java.awt.image.ColorConvertOp(java.awt.color.ColorSpace,java.awt.color.ColorSpace,java.awt.RenderingHints)}.
@@ -83,6 +67,22 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.awt.image.ColorConvertOp sut = null; // = new
                                                         // ColorConvertOp(java.awt.color.ColorSpace,java.awt.RenderingHints);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.image.ColorConvertOp#ColorConvertOp(java.awt.color.ICC_Profile[],java.awt.RenderingHints) public
+     * java.awt.image.ColorConvertOp(java.awt.color.ICC_Profile[],java.awt.RenderingHints)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ColorConvertOp_ICC_ProfileArray_RenderingHints()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.ColorConvertOp sut = null; // = new
+                                                        // ColorConvertOp(java.awt.color.ICC_Profile[],java.awt.RenderingHints);
     }
 
     /**

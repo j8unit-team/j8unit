@@ -34,16 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface DirectoryStreamClassTests<SUT extends Class<? extends java.nio.file.DirectoryStream<T>>, T>
 extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.lang.IterableClassTests<SUT, T> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.file.DirectoryStream<T>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.file.DirectoryStream.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link java.nio.file.DirectoryStream$Filter interface java.nio.file.DirectoryStream$Filter},
@@ -82,6 +72,16 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
             assertTrue(java.nio.file.DirectoryStream.Filter.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.file.DirectoryStream<T>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.file.DirectoryStream.class.isAssignableFrom(sut));
     }
 
 }

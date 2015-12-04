@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.ChoicePeer#remove(int) public abstract void
-     * java.awt.peer.ChoicePeer.remove(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.peer.ChoicePeer#add(java.lang.String,int) public abstract void
      * java.awt.peer.ChoicePeer.add(java.lang.String,int)}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_add_String_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.ChoicePeer#remove(int) public abstract void
+     * java.awt.peer.ChoicePeer.remove(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

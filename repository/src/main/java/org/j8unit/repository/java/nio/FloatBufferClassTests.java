@@ -34,16 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface FloatBufferClassTests<SUT extends Class<? extends java.nio.FloatBuffer>>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.FloatBuffer>, org.j8unit.repository.java.nio.BufferClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.FloatBuffer> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.FloatBuffer.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.nio.FloatBuffer#allocate(int) public static java.nio.FloatBuffer
@@ -54,6 +44,22 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.Float
     @Test
     @Category(Draft.class)
     public default void test_allocate_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.FloatBuffer#wrap(float[]) public static java.nio.FloatBuffer
+     * java.nio.FloatBuffer.wrap(float[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wrap_floatArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,20 +82,14 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.Float
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.nio.FloatBuffer#wrap(float[]) public static java.nio.FloatBuffer
-     * java.nio.FloatBuffer.wrap(float[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_wrap_floatArray()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.nio.FloatBuffer> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.FloatBuffer.class.isAssignableFrom(sut));
     }
 
 }

@@ -37,6 +37,42 @@ extends org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests<SUT> {
 
     /**
      * Test method for
+     * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,javax.swing.text.Element,java.lang.String)
+     * public
+     * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,javax.swing.text.Element,java.lang.String)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HTMLFrameHyperlinkEvent_Object_EventType_URL_Element_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.html.HTMLFrameHyperlinkEvent sut = null; // = new
+                                                                        // HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,javax.swing.text.Element,java.lang.String);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String)
+     * public
+     * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HTMLFrameHyperlinkEvent_Object_EventType_URL_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.html.HTMLFrameHyperlinkEvent sut = null; // = new
+                                                                        // HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String);
+    }
+
+    /**
+     * Test method for
      * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.awt.event.InputEvent,java.lang.String)
      * public
      * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,javax.swing.text.Element,java.awt.event.InputEvent,java.lang.String)}
@@ -73,24 +109,6 @@ extends org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,javax.swing.text.Element,java.lang.String)
-     * public
-     * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,javax.swing.text.Element,java.lang.String)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HTMLFrameHyperlinkEvent_Object_EventType_URL_Element_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.html.HTMLFrameHyperlinkEvent sut = null; // = new
-                                                                        // HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,javax.swing.text.Element,java.lang.String);
-    }
-
-    /**
-     * Test method for
      * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String,java.lang.String)
      * public
      * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String,java.lang.String)}
@@ -105,24 +123,6 @@ extends org.j8unit.repository.javax.swing.event.HyperlinkEventClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.swing.text.html.HTMLFrameHyperlinkEvent sut = null; // = new
                                                                         // HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String,java.lang.String);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.swing.text.html.HTMLFrameHyperlinkEvent#HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String)
-     * public
-     * javax.swing.text.html.HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent$EventType,java.net.URL,java.lang.String)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HTMLFrameHyperlinkEvent_Object_EventType_URL_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.html.HTMLFrameHyperlinkEvent sut = null; // = new
-                                                                        // HTMLFrameHyperlinkEvent(java.lang.Object,javax.swing.event.HyperlinkEvent.EventType,java.net.URL,java.lang.String);
     }
 
     @Override

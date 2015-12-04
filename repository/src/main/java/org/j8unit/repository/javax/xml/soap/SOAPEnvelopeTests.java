@@ -23,16 +23,30 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPEnvelope#createName(java.lang.String,java.lang.String,java.lang.String)
-     * public abstract javax.xml.soap.Name
-     * javax.xml.soap.SOAPEnvelope.createName(java.lang.String,java.lang.String,java.lang.String) throws
-     * javax.xml.soap.SOAPException}.
+     * Test method for {@link javax.xml.soap.SOAPEnvelope#addBody() public abstract javax.xml.soap.SOAPBody
+     * javax.xml.soap.SOAPEnvelope.addBody() throws javax.xml.soap.SOAPException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createName_String_String_String()
+    public default void test_addBody()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.soap.SOAPEnvelope#addHeader() public abstract javax.xml.soap.SOAPHeader
+     * javax.xml.soap.SOAPEnvelope.addHeader() throws javax.xml.soap.SOAPException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addHeader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -58,14 +72,16 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPEnvelope#getHeader() public abstract javax.xml.soap.SOAPHeader
-     * javax.xml.soap.SOAPEnvelope.getHeader() throws javax.xml.soap.SOAPException}.
+     * Test method for {@link javax.xml.soap.SOAPEnvelope#createName(java.lang.String,java.lang.String,java.lang.String)
+     * public abstract javax.xml.soap.Name
+     * javax.xml.soap.SOAPEnvelope.createName(java.lang.String,java.lang.String,java.lang.String) throws
+     * javax.xml.soap.SOAPException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getHeader()
+    public default void test_createName_String_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -90,30 +106,14 @@ extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.soap.SOAPEnvelope#addBody() public abstract javax.xml.soap.SOAPBody
-     * javax.xml.soap.SOAPEnvelope.addBody() throws javax.xml.soap.SOAPException}.
+     * Test method for {@link javax.xml.soap.SOAPEnvelope#getHeader() public abstract javax.xml.soap.SOAPHeader
+     * javax.xml.soap.SOAPEnvelope.getHeader() throws javax.xml.soap.SOAPException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addBody()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.soap.SOAPEnvelope#addHeader() public abstract javax.xml.soap.SOAPHeader
-     * javax.xml.soap.SOAPEnvelope.addHeader() throws javax.xml.soap.SOAPException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addHeader()
+    public default void test_getHeader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

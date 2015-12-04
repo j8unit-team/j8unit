@@ -24,38 +24,6 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link java.beans.beancontext.BeanContextServiceRevokedEvent#isCurrentServiceInvalidNow() public
-     * boolean java.beans.beancontext.BeanContextServiceRevokedEvent.isCurrentServiceInvalidNow()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isCurrentServiceInvalidNow()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.beancontext.BeanContextServiceRevokedEvent#isServiceClass(java.lang.Class)
-     * public boolean java.beans.beancontext.BeanContextServiceRevokedEvent.isServiceClass(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isServiceClass_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.beans.beancontext.BeanContextServiceRevokedEvent#getServiceClass() public
      * java.lang.Class java.beans.beancontext.BeanContextServiceRevokedEvent.getServiceClass()}.
      * </p>
@@ -81,6 +49,38 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> 
     @Test
     @Category(Draft.class)
     public default void test_getSourceAsBeanContextServices()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.beancontext.BeanContextServiceRevokedEvent#isCurrentServiceInvalidNow() public
+     * boolean java.beans.beancontext.BeanContextServiceRevokedEvent.isCurrentServiceInvalidNow()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isCurrentServiceInvalidNow()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.beancontext.BeanContextServiceRevokedEvent#isServiceClass(java.lang.Class)
+     * public boolean java.beans.beancontext.BeanContextServiceRevokedEvent.isServiceClass(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isServiceClass_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

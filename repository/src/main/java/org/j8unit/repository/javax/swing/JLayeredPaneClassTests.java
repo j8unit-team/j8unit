@@ -48,32 +48,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         final javax.swing.JLayeredPane sut = null; // = new JLayeredPane();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.JLayeredPane> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JLayeredPane.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JLayeredPane#putLayer(javax.swing.JComponent,int) public static void
-     * javax.swing.JLayeredPane.putLayer(javax.swing.JComponent,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_putLayer_JComponent_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.JLayeredPane#getLayer(javax.swing.JComponent) public static int
@@ -104,6 +78,32 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JLayeredPane#putLayer(javax.swing.JComponent,int) public static void
+     * javax.swing.JLayeredPane.putLayer(javax.swing.JComponent,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_putLayer_JComponent_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.JLayeredPane> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.JLayeredPane.class.isAssignableFrom(sut));
     }
 
 }

@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface AclEntryPermissionClassTests<SUT extends Class<? extends java.nio.file.attribute.AclEntryPermission>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.nio.file.attribute.AclEntryPermission> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.file.attribute.AclEntryPermission> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.file.attribute.AclEntryPermission.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.nio.file.attribute.AclEntryPermission#valueOf(java.lang.String) public static
@@ -75,6 +65,16 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.nio.file.attrib
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.file.attribute.AclEntryPermission> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.file.attribute.AclEntryPermission.class.isAssignableFrom(sut));
     }
 
 }

@@ -24,30 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#getAccessibleSelectionCount() public abstract int
-     * javax.accessibility.AccessibleSelection.getAccessibleSelectionCount()}.
+     * Test method for {@link javax.accessibility.AccessibleSelection#addAccessibleSelection(int) public abstract void
+     * javax.accessibility.AccessibleSelection.addAccessibleSelection(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAccessibleSelectionCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#selectAllAccessibleSelection() public abstract
-     * void javax.accessibility.AccessibleSelection.selectAllAccessibleSelection()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_selectAllAccessibleSelection()
+    public default void test_addAccessibleSelection_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +56,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#removeAccessibleSelection(int) public abstract
-     * void javax.accessibility.AccessibleSelection.removeAccessibleSelection(int)}.
+     * Test method for {@link javax.accessibility.AccessibleSelection#getAccessibleSelection(int) public abstract
+     * javax.accessibility.Accessible javax.accessibility.AccessibleSelection.getAccessibleSelection(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeAccessibleSelection_int()
+    public default void test_getAccessibleSelection_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleSelection#getAccessibleSelectionCount() public abstract int
+     * javax.accessibility.AccessibleSelection.getAccessibleSelectionCount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleSelectionCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,14 +104,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#getAccessibleSelection(int) public abstract
-     * javax.accessibility.Accessible javax.accessibility.AccessibleSelection.getAccessibleSelection(int)}.
+     * Test method for {@link javax.accessibility.AccessibleSelection#removeAccessibleSelection(int) public abstract
+     * void javax.accessibility.AccessibleSelection.removeAccessibleSelection(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAccessibleSelection_int()
+    public default void test_removeAccessibleSelection_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,14 +120,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleSelection#addAccessibleSelection(int) public abstract void
-     * javax.accessibility.AccessibleSelection.addAccessibleSelection(int)}.
+     * Test method for {@link javax.accessibility.AccessibleSelection#selectAllAccessibleSelection() public abstract
+     * void javax.accessibility.AccessibleSelection.selectAllAccessibleSelection()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addAccessibleSelection_int()
+    public default void test_selectAllAccessibleSelection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -38,18 +38,18 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.xml.transform.TransformerFactoryConfigurationError#TransformerFactoryConfigurationError(java.lang.Exception,java.lang.String)
-     * public javax.xml.transform.TransformerFactoryConfigurationError(java.lang.Exception,java.lang.String)}.
+     * {@link javax.xml.transform.TransformerFactoryConfigurationError#TransformerFactoryConfigurationError() public
+     * javax.xml.transform.TransformerFactoryConfigurationError()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_TransformerFactoryConfigurationError_Exception_String()
+    public default void create_TransformerFactoryConfigurationError()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.transform.TransformerFactoryConfigurationError sut = null; // = new
-                                                                                   // TransformerFactoryConfigurationError(java.lang.Exception,java.lang.String);
+                                                                                   // TransformerFactoryConfigurationError();
     }
 
     /**
@@ -70,6 +70,22 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
 
     /**
      * Test method for
+     * {@link javax.xml.transform.TransformerFactoryConfigurationError#TransformerFactoryConfigurationError(java.lang.Exception,java.lang.String)
+     * public javax.xml.transform.TransformerFactoryConfigurationError(java.lang.Exception,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TransformerFactoryConfigurationError_Exception_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.transform.TransformerFactoryConfigurationError sut = null; // = new
+                                                                                   // TransformerFactoryConfigurationError(java.lang.Exception,java.lang.String);
+    }
+
+    /**
+     * Test method for
      * {@link javax.xml.transform.TransformerFactoryConfigurationError#TransformerFactoryConfigurationError(java.lang.String)
      * public javax.xml.transform.TransformerFactoryConfigurationError(java.lang.String)}.
      */
@@ -82,22 +98,6 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.xml.transform.TransformerFactoryConfigurationError sut = null; // = new
                                                                                    // TransformerFactoryConfigurationError(java.lang.String);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.xml.transform.TransformerFactoryConfigurationError#TransformerFactoryConfigurationError() public
-     * javax.xml.transform.TransformerFactoryConfigurationError()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TransformerFactoryConfigurationError()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.transform.TransformerFactoryConfigurationError sut = null; // = new
-                                                                                   // TransformerFactoryConfigurationError();
     }
 
     @Override

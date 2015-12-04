@@ -36,17 +36,31 @@ public abstract interface IllegalArgumentExceptionClassTests<SUT extends Class<?
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.IllegalArgumentException#IllegalArgumentException(java.lang.Throwable) public
-     * java.lang.IllegalArgumentException(java.lang.Throwable)}.
+     * Test method for {@link java.lang.IllegalArgumentException#IllegalArgumentException() public
+     * java.lang.IllegalArgumentException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_IllegalArgumentException_Throwable()
+    public default void create_IllegalArgumentException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.IllegalArgumentException sut = null; // = new IllegalArgumentException(java.lang.Throwable);
+        final java.lang.IllegalArgumentException sut = null; // = new IllegalArgumentException();
+    }
+
+    /**
+     * Test method for {@link java.lang.IllegalArgumentException#IllegalArgumentException(java.lang.String) public
+     * java.lang.IllegalArgumentException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_IllegalArgumentException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.IllegalArgumentException sut = null; // = new IllegalArgumentException(java.lang.String);
     }
 
     /**
@@ -66,31 +80,17 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.lang.IllegalArgumentException#IllegalArgumentException(java.lang.String) public
-     * java.lang.IllegalArgumentException(java.lang.String)}.
+     * Test method for {@link java.lang.IllegalArgumentException#IllegalArgumentException(java.lang.Throwable) public
+     * java.lang.IllegalArgumentException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_IllegalArgumentException_String()
+    public default void create_IllegalArgumentException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.IllegalArgumentException sut = null; // = new IllegalArgumentException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.lang.IllegalArgumentException#IllegalArgumentException() public
-     * java.lang.IllegalArgumentException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_IllegalArgumentException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.IllegalArgumentException sut = null; // = new IllegalArgumentException();
+        final java.lang.IllegalArgumentException sut = null; // = new IllegalArgumentException(java.lang.Throwable);
     }
 
     @Override

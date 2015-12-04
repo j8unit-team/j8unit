@@ -23,30 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Observable#notifyObservers(java.lang.Object) public void
-     * java.util.Observable.notifyObservers(java.lang.Object)}.
+     * Test method for {@link java.util.Observable#addObserver(java.util.Observer) public synchronized void
+     * java.util.Observable.addObserver(java.util.Observer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_notifyObservers_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Observable#notifyObservers() public void java.util.Observable.notifyObservers()}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_notifyObservers()
+    public default void test_addObserver_Observer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,22 +71,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Observable#hasChanged() public synchronized boolean
-     * java.util.Observable.hasChanged()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hasChanged()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.Observable#deleteObservers() public synchronized void
      * java.util.Observable.deleteObservers()}.
      * </p>
@@ -119,14 +87,46 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Observable#addObserver(java.util.Observer) public synchronized void
-     * java.util.Observable.addObserver(java.util.Observer)}.
+     * Test method for {@link java.util.Observable#hasChanged() public synchronized boolean
+     * java.util.Observable.hasChanged()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addObserver_Observer()
+    public default void test_hasChanged()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Observable#notifyObservers() public void java.util.Observable.notifyObservers()}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_notifyObservers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Observable#notifyObservers(java.lang.Object) public void
+     * java.util.Observable.notifyObservers(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_notifyObservers_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

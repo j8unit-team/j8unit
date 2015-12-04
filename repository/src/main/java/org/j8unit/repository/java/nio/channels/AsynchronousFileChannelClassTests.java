@@ -35,14 +35,23 @@ import org.junit.experimental.categories.Category;
 public abstract interface AsynchronousFileChannelClassTests<SUT extends Class<? extends java.nio.channels.AsynchronousFileChannel>>
 extends org.j8unit.repository.java.nio.channels.AsynchronousChannelClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for
+     * {@link java.nio.channels.AsynchronousFileChannel#open(java.nio.file.Path,java.nio.file.OpenOption...) public
+     * static java.nio.channels.AsynchronousFileChannel
+     * java.nio.channels.AsynchronousFileChannel.open(java.nio.file.Path,java.nio.file.OpenOption...) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_open_Path_OpenOptionArray()
     throws Exception {
-        // create new instance
-        final Class<? extends java.nio.channels.AsynchronousFileChannel> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.channels.AsynchronousFileChannel.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -64,23 +73,14 @@ extends org.j8unit.repository.java.nio.channels.AsynchronousChannelClassTests<SU
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for
-     * {@link java.nio.channels.AsynchronousFileChannel#open(java.nio.file.Path,java.nio.file.OpenOption...) public
-     * static java.nio.channels.AsynchronousFileChannel
-     * java.nio.channels.AsynchronousFileChannel.open(java.nio.file.Path,java.nio.file.OpenOption...) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_open_Path_OpenOptionArray()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.nio.channels.AsynchronousFileChannel> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.channels.AsynchronousFileChannel.class.isAssignableFrom(sut));
     }
 
 }

@@ -24,22 +24,6 @@ extends org.j8unit.repository.java.security.cert.CertStoreParametersTests<SUT>, 
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CollectionCertStoreParameters#getCollection() public
-     * java.util.Collection java.security.cert.CollectionCertStoreParameters.getCollection()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCollection()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.cert.CollectionCertStoreParameters#clone() public java.lang.Object
      * java.security.cert.CollectionCertStoreParameters.clone()}.
      * </p>
@@ -49,6 +33,22 @@ extends org.j8unit.repository.java.security.cert.CertStoreParametersTests<SUT>, 
     @Category(Draft.class)
     @Override
     public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CollectionCertStoreParameters#getCollection() public
+     * java.util.Collection java.security.cert.CollectionCertStoreParameters.getCollection()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCollection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

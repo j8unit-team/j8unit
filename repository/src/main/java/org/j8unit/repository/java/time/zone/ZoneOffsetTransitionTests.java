@@ -24,6 +24,55 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.time.zone.ZoneOffsetTransition#compareTo(java.time.zone.ZoneOffsetTransition) public
+     * int java.time.zone.ZoneOffsetTransition.compareTo(java.time.zone.ZoneOffsetTransition)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compareTo_ZoneOffsetTransition()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.zone.ZoneOffsetTransition#equals(java.lang.Object) public boolean
+     * java.time.zone.ZoneOffsetTransition.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.zone.ZoneOffsetTransition#getDateTimeAfter() public java.time.LocalDateTime
+     * java.time.zone.ZoneOffsetTransition.getDateTimeAfter()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDateTimeAfter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.time.zone.ZoneOffsetTransition#getDateTimeBefore() public java.time.LocalDateTime
      * java.time.zone.ZoneOffsetTransition.getDateTimeBefore()}.
      * </p>
@@ -32,6 +81,38 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDateTimeBefore()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.zone.ZoneOffsetTransition#getDuration() public java.time.Duration
+     * java.time.zone.ZoneOffsetTransition.getDuration()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDuration()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.zone.ZoneOffsetTransition#getInstant() public java.time.Instant
+     * java.time.zone.ZoneOffsetTransition.getInstant()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInstant()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,95 +153,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransition#compareTo(java.time.zone.ZoneOffsetTransition) public
-     * int java.time.zone.ZoneOffsetTransition.compareTo(java.time.zone.ZoneOffsetTransition)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compareTo_ZoneOffsetTransition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransition#getDateTimeAfter() public java.time.LocalDateTime
-     * java.time.zone.ZoneOffsetTransition.getDateTimeAfter()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDateTimeAfter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransition#isOverlap() public boolean
-     * java.time.zone.ZoneOffsetTransition.isOverlap()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isOverlap()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransition#toString() public java.lang.String
-     * java.time.zone.ZoneOffsetTransition.toString()}.
+     * Test method for {@link java.time.zone.ZoneOffsetTransition#hashCode() public int
+     * java.time.zone.ZoneOffsetTransition.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransition#isValidOffset(java.time.ZoneOffset) public boolean
-     * java.time.zone.ZoneOffsetTransition.isValidOffset(java.time.ZoneOffset)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isValidOffset_ZoneOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransition#getInstant() public java.time.Instant
-     * java.time.zone.ZoneOffsetTransition.getInstant()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInstant()
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -185,14 +186,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransition#getDuration() public java.time.Duration
-     * java.time.zone.ZoneOffsetTransition.getDuration()}.
+     * Test method for {@link java.time.zone.ZoneOffsetTransition#isOverlap() public boolean
+     * java.time.zone.ZoneOffsetTransition.isOverlap()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDuration()
+    public default void test_isOverlap()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -201,15 +202,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransition#hashCode() public int
-     * java.time.zone.ZoneOffsetTransition.hashCode()}.
+     * Test method for {@link java.time.zone.ZoneOffsetTransition#isValidOffset(java.time.ZoneOffset) public boolean
+     * java.time.zone.ZoneOffsetTransition.isValidOffset(java.time.ZoneOffset)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
+    public default void test_isValidOffset_ZoneOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -234,15 +234,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.zone.ZoneOffsetTransition#equals(java.lang.Object) public boolean
-     * java.time.zone.ZoneOffsetTransition.equals(java.lang.Object)}.
+     * Test method for {@link java.time.zone.ZoneOffsetTransition#toString() public java.lang.String
+     * java.time.zone.ZoneOffsetTransition.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

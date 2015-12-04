@@ -40,39 +40,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.NamedNodeMap#setNamedItemNS(org.w3c.dom.Node) public abstract org.w3c.dom.Node
-     * org.w3c.dom.NamedNodeMap.setNamedItemNS(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setNamedItemNS_Node()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.NamedNodeMap#removeNamedItemNS(java.lang.String,java.lang.String) public
-     * abstract org.w3c.dom.Node org.w3c.dom.NamedNodeMap.removeNamedItemNS(java.lang.String,java.lang.String) throws
-     * org.w3c.dom.DOMException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeNamedItemNS_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.NamedNodeMap#getNamedItem(java.lang.String) public abstract org.w3c.dom.Node
      * org.w3c.dom.NamedNodeMap.getNamedItem(java.lang.String)}.
      * </p>
@@ -81,6 +48,23 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getNamedItem_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.NamedNodeMap#getNamedItemNS(java.lang.String,java.lang.String) public abstract
+     * org.w3c.dom.Node org.w3c.dom.NamedNodeMap.getNamedItemNS(java.lang.String,java.lang.String) throws
+     * org.w3c.dom.DOMException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNamedItemNS_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,15 +105,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.NamedNodeMap#getNamedItemNS(java.lang.String,java.lang.String) public abstract
-     * org.w3c.dom.Node org.w3c.dom.NamedNodeMap.getNamedItemNS(java.lang.String,java.lang.String) throws
+     * Test method for {@link org.w3c.dom.NamedNodeMap#removeNamedItemNS(java.lang.String,java.lang.String) public
+     * abstract org.w3c.dom.Node org.w3c.dom.NamedNodeMap.removeNamedItemNS(java.lang.String,java.lang.String) throws
      * org.w3c.dom.DOMException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNamedItemNS_String_String()
+    public default void test_removeNamedItemNS_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -146,6 +130,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setNamedItem_Node()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.NamedNodeMap#setNamedItemNS(org.w3c.dom.Node) public abstract org.w3c.dom.Node
+     * org.w3c.dom.NamedNodeMap.setNamedItemNS(org.w3c.dom.Node) throws org.w3c.dom.DOMException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setNamedItemNS_Node()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

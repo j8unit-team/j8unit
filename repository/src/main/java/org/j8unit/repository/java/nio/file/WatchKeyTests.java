@@ -39,38 +39,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.WatchKey#pollEvents() public abstract java.util.List
-     * java.nio.file.WatchKey.pollEvents()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_pollEvents()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.WatchKey#watchable() public abstract java.nio.file.Watchable
-     * java.nio.file.WatchKey.watchable()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_watchable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.file.WatchKey#isValid() public abstract boolean java.nio.file.WatchKey.isValid()}
      * .
      * </p>
@@ -87,6 +55,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.nio.file.WatchKey#pollEvents() public abstract java.util.List
+     * java.nio.file.WatchKey.pollEvents()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_pollEvents()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.file.WatchKey#reset() public abstract boolean java.nio.file.WatchKey.reset()}.
      * </p>
      */
@@ -94,6 +78,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.WatchKey#watchable() public abstract java.nio.file.Watchable
+     * java.nio.file.WatchKey.watchable()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_watchable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -35,34 +35,6 @@ public abstract interface BigDecimalClassTests<SUT extends Class<? extends java.
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigDecimal>, org.j8unit.repository.java.lang.NumberClassTests<SUT> {
 
     /**
-     * Test method for {@link java.math.BigDecimal#BigDecimal(java.math.BigInteger,int) public
-     * java.math.BigDecimal(java.math.BigInteger,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BigDecimal_BigInteger_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.math.BigDecimal sut = null; // = new BigDecimal(java.math.BigInteger,int);
-    }
-
-    /**
-     * Test method for {@link java.math.BigDecimal#BigDecimal(java.math.BigInteger,java.math.MathContext) public
-     * java.math.BigDecimal(java.math.BigInteger,java.math.MathContext)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BigDecimal_BigInteger_MathContext()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.math.BigDecimal sut = null; // = new BigDecimal(java.math.BigInteger,java.math.MathContext);
-    }
-
-    /**
      * Test method for {@link java.math.BigDecimal#BigDecimal(java.math.BigInteger) public
      * java.math.BigDecimal(java.math.BigInteger)}.
      */
@@ -77,112 +49,17 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigD
     }
 
     /**
-     * Test method for {@link java.math.BigDecimal#BigDecimal(char[],java.math.MathContext) public
-     * java.math.BigDecimal(char[],java.math.MathContext)}.
+     * Test method for {@link java.math.BigDecimal#BigDecimal(java.math.BigInteger,int) public
+     * java.math.BigDecimal(java.math.BigInteger,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BigDecimal_charArray_MathContext()
+    public default void create_BigDecimal_BigInteger_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.math.BigDecimal sut = null; // = new BigDecimal(char[],java.math.MathContext);
-    }
-
-    /**
-     * Test method for {@link java.math.BigDecimal#BigDecimal(double,java.math.MathContext) public
-     * java.math.BigDecimal(double,java.math.MathContext)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BigDecimal_double_MathContext()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.math.BigDecimal sut = null; // = new BigDecimal(double,java.math.MathContext);
-    }
-
-    /**
-     * Test method for {@link java.math.BigDecimal#BigDecimal(double) public java.math.BigDecimal(double)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BigDecimal_double()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.math.BigDecimal sut = null; // = new BigDecimal(double);
-    }
-
-    /**
-     * Test method for {@link java.math.BigDecimal#BigDecimal(long) public java.math.BigDecimal(long)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BigDecimal_long()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.math.BigDecimal sut = null; // = new BigDecimal(long);
-    }
-
-    /**
-     * Test method for {@link java.math.BigDecimal#BigDecimal(int,java.math.MathContext) public
-     * java.math.BigDecimal(int,java.math.MathContext)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BigDecimal_int_MathContext()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.math.BigDecimal sut = null; // = new BigDecimal(int,java.math.MathContext);
-    }
-
-    /**
-     * Test method for {@link java.math.BigDecimal#BigDecimal(int) public java.math.BigDecimal(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BigDecimal_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.math.BigDecimal sut = null; // = new BigDecimal(int);
-    }
-
-    /**
-     * Test method for {@link java.math.BigDecimal#BigDecimal(java.lang.String) public
-     * java.math.BigDecimal(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BigDecimal_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.math.BigDecimal sut = null; // = new BigDecimal(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.math.BigDecimal#BigDecimal(char[],int,int) public
-     * java.math.BigDecimal(char[],int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BigDecimal_charArray_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.math.BigDecimal sut = null; // = new BigDecimal(char[],int,int);
+        final java.math.BigDecimal sut = null; // = new BigDecimal(java.math.BigInteger,int);
     }
 
     /**
@@ -200,31 +77,44 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigD
     }
 
     /**
-     * Test method for {@link java.math.BigDecimal#BigDecimal(long,java.math.MathContext) public
-     * java.math.BigDecimal(long,java.math.MathContext)}.
+     * Test method for {@link java.math.BigDecimal#BigDecimal(java.math.BigInteger,java.math.MathContext) public
+     * java.math.BigDecimal(java.math.BigInteger,java.math.MathContext)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BigDecimal_long_MathContext()
+    public default void create_BigDecimal_BigInteger_MathContext()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.math.BigDecimal sut = null; // = new BigDecimal(long,java.math.MathContext);
+        final java.math.BigDecimal sut = null; // = new BigDecimal(java.math.BigInteger,java.math.MathContext);
     }
 
     /**
-     * Test method for {@link java.math.BigDecimal#BigDecimal(java.lang.String,java.math.MathContext) public
-     * java.math.BigDecimal(java.lang.String,java.math.MathContext)}.
+     * Test method for {@link java.math.BigDecimal#BigDecimal(char[]) public java.math.BigDecimal(char[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BigDecimal_String_MathContext()
+    public default void create_BigDecimal_charArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.math.BigDecimal sut = null; // = new BigDecimal(java.lang.String,java.math.MathContext);
+        final java.math.BigDecimal sut = null; // = new BigDecimal(char[]);
+    }
+
+    /**
+     * Test method for {@link java.math.BigDecimal#BigDecimal(char[],int,int) public
+     * java.math.BigDecimal(char[],int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BigDecimal_charArray_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.math.BigDecimal sut = null; // = new BigDecimal(char[],int,int);
     }
 
     /**
@@ -242,26 +132,126 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigD
     }
 
     /**
-     * Test method for {@link java.math.BigDecimal#BigDecimal(char[]) public java.math.BigDecimal(char[])}.
+     * Test method for {@link java.math.BigDecimal#BigDecimal(char[],java.math.MathContext) public
+     * java.math.BigDecimal(char[],java.math.MathContext)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BigDecimal_charArray()
+    public default void create_BigDecimal_charArray_MathContext()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.math.BigDecimal sut = null; // = new BigDecimal(char[]);
+        final java.math.BigDecimal sut = null; // = new BigDecimal(char[],java.math.MathContext);
     }
 
-    @Override
+    /**
+     * Test method for {@link java.math.BigDecimal#BigDecimal(double) public java.math.BigDecimal(double)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_BigDecimal_double()
     throws Exception {
         // create new instance
-        final Class<? extends java.math.BigDecimal> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.math.BigDecimal.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final java.math.BigDecimal sut = null; // = new BigDecimal(double);
+    }
+
+    /**
+     * Test method for {@link java.math.BigDecimal#BigDecimal(double,java.math.MathContext) public
+     * java.math.BigDecimal(double,java.math.MathContext)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BigDecimal_double_MathContext()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.math.BigDecimal sut = null; // = new BigDecimal(double,java.math.MathContext);
+    }
+
+    /**
+     * Test method for {@link java.math.BigDecimal#BigDecimal(int) public java.math.BigDecimal(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BigDecimal_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.math.BigDecimal sut = null; // = new BigDecimal(int);
+    }
+
+    /**
+     * Test method for {@link java.math.BigDecimal#BigDecimal(int,java.math.MathContext) public
+     * java.math.BigDecimal(int,java.math.MathContext)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BigDecimal_int_MathContext()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.math.BigDecimal sut = null; // = new BigDecimal(int,java.math.MathContext);
+    }
+
+    /**
+     * Test method for {@link java.math.BigDecimal#BigDecimal(long) public java.math.BigDecimal(long)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BigDecimal_long()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.math.BigDecimal sut = null; // = new BigDecimal(long);
+    }
+
+    /**
+     * Test method for {@link java.math.BigDecimal#BigDecimal(long,java.math.MathContext) public
+     * java.math.BigDecimal(long,java.math.MathContext)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BigDecimal_long_MathContext()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.math.BigDecimal sut = null; // = new BigDecimal(long,java.math.MathContext);
+    }
+
+    /**
+     * Test method for {@link java.math.BigDecimal#BigDecimal(java.lang.String) public
+     * java.math.BigDecimal(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BigDecimal_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.math.BigDecimal sut = null; // = new BigDecimal(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.math.BigDecimal#BigDecimal(java.lang.String,java.math.MathContext) public
+     * java.math.BigDecimal(java.lang.String,java.math.MathContext)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BigDecimal_String_MathContext()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.math.BigDecimal sut = null; // = new BigDecimal(java.lang.String,java.math.MathContext);
     }
 
     /**
@@ -310,6 +300,16 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.math.BigD
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.math.BigDecimal> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.math.BigDecimal.class.isAssignableFrom(sut));
     }
 
 }

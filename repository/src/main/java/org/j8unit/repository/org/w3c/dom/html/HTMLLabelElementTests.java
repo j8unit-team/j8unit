@@ -23,14 +23,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLLabelElement#getHtmlFor() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLLabelElement.getHtmlFor()}.
+     * Test method for {@link org.w3c.dom.html.HTMLLabelElement#getAccessKey() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLLabelElement.getAccessKey()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getHtmlFor()
+    public default void test_getAccessKey()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -47,6 +47,22 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getForm()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLLabelElement#getHtmlFor() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLLabelElement.getHtmlFor()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getHtmlFor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,22 +95,6 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setHtmlFor_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLLabelElement#getAccessKey() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLLabelElement.getAccessKey()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessKey()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

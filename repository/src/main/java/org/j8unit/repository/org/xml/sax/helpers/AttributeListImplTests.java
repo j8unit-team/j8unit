@@ -23,14 +23,16 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.helpers.AttributeListImpl#setAttributeList(org.xml.sax.AttributeList) public
-     * void org.xml.sax.helpers.AttributeListImpl.setAttributeList(org.xml.sax.AttributeList)}.
+     * Test method for
+     * {@link org.xml.sax.helpers.AttributeListImpl#addAttribute(java.lang.String,java.lang.String,java.lang.String)
+     * public void
+     * org.xml.sax.helpers.AttributeListImpl.addAttribute(java.lang.String,java.lang.String,java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setAttributeList_AttributeList()
+    public default void test_addAttribute_String_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,22 +74,6 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.helpers.AttributeListImpl#removeAttribute(java.lang.String) public void
-     * org.xml.sax.helpers.AttributeListImpl.removeAttribute(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeAttribute_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.xml.sax.helpers.AttributeListImpl#getName(int) public java.lang.String
      * org.xml.sax.helpers.AttributeListImpl.getName(int)}.
      * </p>
@@ -97,6 +83,40 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
     @Category(Draft.class)
     @Override
     public default void test_getName_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.helpers.AttributeListImpl#getType(int) public java.lang.String
+     * org.xml.sax.helpers.AttributeListImpl.getType(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getType_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.helpers.AttributeListImpl#getType(java.lang.String) public java.lang.String
+     * org.xml.sax.helpers.AttributeListImpl.getType(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getType_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -139,16 +159,14 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for
-     * {@link org.xml.sax.helpers.AttributeListImpl#addAttribute(java.lang.String,java.lang.String,java.lang.String)
-     * public void
-     * org.xml.sax.helpers.AttributeListImpl.addAttribute(java.lang.String,java.lang.String,java.lang.String)}.
+     * Test method for {@link org.xml.sax.helpers.AttributeListImpl#removeAttribute(java.lang.String) public void
+     * org.xml.sax.helpers.AttributeListImpl.removeAttribute(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addAttribute_String_String_String()
+    public default void test_removeAttribute_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -157,32 +175,14 @@ extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.helpers.AttributeListImpl#getType(int) public java.lang.String
-     * org.xml.sax.helpers.AttributeListImpl.getType(int)}.
+     * Test method for {@link org.xml.sax.helpers.AttributeListImpl#setAttributeList(org.xml.sax.AttributeList) public
+     * void org.xml.sax.helpers.AttributeListImpl.setAttributeList(org.xml.sax.AttributeList)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getType_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.helpers.AttributeListImpl#getType(java.lang.String) public java.lang.String
-     * org.xml.sax.helpers.AttributeListImpl.getType(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getType_String()
+    public default void test_setAttributeList_AttributeList()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

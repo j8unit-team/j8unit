@@ -23,88 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.helpers.NamespaceSupport#setNamespaceDeclUris(boolean) public void
-     * org.xml.sax.helpers.NamespaceSupport.setNamespaceDeclUris(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setNamespaceDeclUris_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.helpers.NamespaceSupport#isNamespaceDeclUris() public boolean
-     * org.xml.sax.helpers.NamespaceSupport.isNamespaceDeclUris()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isNamespaceDeclUris()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.helpers.NamespaceSupport#pushContext() public void
-     * org.xml.sax.helpers.NamespaceSupport.pushContext()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_pushContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.xml.sax.helpers.NamespaceSupport#getPrefix(java.lang.String) public java.lang.String
-     * org.xml.sax.helpers.NamespaceSupport.getPrefix(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrefix_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.xml.sax.helpers.NamespaceSupport#processName(java.lang.String,java.lang.String[],boolean) public
-     * java.lang.String[] org.xml.sax.helpers.NamespaceSupport.processName(java.lang.String,java.lang.String[],boolean)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_processName_String_StringArray_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.xml.sax.helpers.NamespaceSupport#declarePrefix(java.lang.String,java.lang.String)
      * public boolean org.xml.sax.helpers.NamespaceSupport.declarePrefix(java.lang.String,java.lang.String)}.
      * </p>
@@ -137,14 +55,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.helpers.NamespaceSupport#reset() public void
-     * org.xml.sax.helpers.NamespaceSupport.reset()}.
+     * Test method for {@link org.xml.sax.helpers.NamespaceSupport#getPrefix(java.lang.String) public java.lang.String
+     * org.xml.sax.helpers.NamespaceSupport.getPrefix(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reset()
+    public default void test_getPrefix_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -201,6 +119,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.xml.sax.helpers.NamespaceSupport#isNamespaceDeclUris() public boolean
+     * org.xml.sax.helpers.NamespaceSupport.isNamespaceDeclUris()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isNamespaceDeclUris()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.xml.sax.helpers.NamespaceSupport#popContext() public void
      * org.xml.sax.helpers.NamespaceSupport.popContext()}.
      * </p>
@@ -209,6 +143,72 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_popContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.xml.sax.helpers.NamespaceSupport#processName(java.lang.String,java.lang.String[],boolean) public
+     * java.lang.String[] org.xml.sax.helpers.NamespaceSupport.processName(java.lang.String,java.lang.String[],boolean)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_processName_String_StringArray_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.helpers.NamespaceSupport#pushContext() public void
+     * org.xml.sax.helpers.NamespaceSupport.pushContext()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_pushContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.helpers.NamespaceSupport#reset() public void
+     * org.xml.sax.helpers.NamespaceSupport.reset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.helpers.NamespaceSupport#setNamespaceDeclUris(boolean) public void
+     * org.xml.sax.helpers.NamespaceSupport.setNamespaceDeclUris(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setNamespaceDeclUris_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

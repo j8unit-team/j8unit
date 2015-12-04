@@ -36,19 +36,17 @@ public abstract interface CODESET_INCOMPATIBLEClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link org.omg.CORBA.CODESET_INCOMPATIBLE#CODESET_INCOMPATIBLE(java.lang.String,int,org.omg.CORBA.CompletionStatus)
-     * public org.omg.CORBA.CODESET_INCOMPATIBLE(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for {@link org.omg.CORBA.CODESET_INCOMPATIBLE#CODESET_INCOMPATIBLE() public
+     * org.omg.CORBA.CODESET_INCOMPATIBLE()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_CODESET_INCOMPATIBLE_String_int_CompletionStatus()
+    public default void create_CODESET_INCOMPATIBLE()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.CODESET_INCOMPATIBLE sut = null; // = new
-                                                             // CODESET_INCOMPATIBLE(java.lang.String,int,org.omg.CORBA.CompletionStatus);
+        final org.omg.CORBA.CODESET_INCOMPATIBLE sut = null; // = new CODESET_INCOMPATIBLE();
     }
 
     /**
@@ -82,17 +80,19 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link org.omg.CORBA.CODESET_INCOMPATIBLE#CODESET_INCOMPATIBLE() public
-     * org.omg.CORBA.CODESET_INCOMPATIBLE()}.
+     * Test method for
+     * {@link org.omg.CORBA.CODESET_INCOMPATIBLE#CODESET_INCOMPATIBLE(java.lang.String,int,org.omg.CORBA.CompletionStatus)
+     * public org.omg.CORBA.CODESET_INCOMPATIBLE(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_CODESET_INCOMPATIBLE()
+    public default void create_CODESET_INCOMPATIBLE_String_int_CompletionStatus()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.CODESET_INCOMPATIBLE sut = null; // = new CODESET_INCOMPATIBLE();
+        final org.omg.CORBA.CODESET_INCOMPATIBLE sut = null; // = new
+                                                             // CODESET_INCOMPATIBLE(java.lang.String,int,org.omg.CORBA.CompletionStatus);
     }
 
     @Override

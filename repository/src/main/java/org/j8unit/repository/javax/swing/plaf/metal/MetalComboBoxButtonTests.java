@@ -23,14 +23,14 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#setIconOnly(boolean) public final void
-     * javax.swing.plaf.metal.MetalComboBoxButton.setIconOnly(boolean)}.
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#getComboBox() public final
+     * javax.swing.JComboBox javax.swing.plaf.metal.MetalComboBoxButton.getComboBox()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setIconOnly_boolean()
+    public default void test_getComboBox()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,15 +39,14 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#setEnabled(boolean) public void
-     * javax.swing.plaf.metal.MetalComboBoxButton.setEnabled(boolean)}.
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#getComboIcon() public final javax.swing.Icon
+     * javax.swing.plaf.metal.MetalComboBoxButton.getComboIcon()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_setEnabled_boolean()
+    public default void test_getComboIcon()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,14 +72,15 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#getComboIcon() public final javax.swing.Icon
-     * javax.swing.plaf.metal.MetalComboBoxButton.getComboIcon()}.
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#isFocusTraversable() public boolean
+     * javax.swing.plaf.metal.MetalComboBoxButton.isFocusTraversable()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getComboIcon()
+    @Override
+    public default void test_isFocusTraversable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -105,39 +105,6 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#isFocusTraversable() public boolean
-     * javax.swing.plaf.metal.MetalComboBoxButton.isFocusTraversable()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isFocusTraversable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#getComboBox() public final
-     * javax.swing.JComboBox javax.swing.plaf.metal.MetalComboBoxButton.getComboBox()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getComboBox()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#paintComponent(java.awt.Graphics) public void
      * javax.swing.plaf.metal.MetalComboBoxButton.paintComponent(java.awt.Graphics)}.
      * </p>
@@ -146,6 +113,22 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_paintComponent_Graphics()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#setComboBox(javax.swing.JComboBox) public final
+     * void javax.swing.plaf.metal.MetalComboBoxButton.setComboBox(javax.swing.JComboBox)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setComboBox_JComboBox()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -170,14 +153,31 @@ extends org.j8unit.repository.javax.swing.JButtonTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#setComboBox(javax.swing.JComboBox) public final
-     * void javax.swing.plaf.metal.MetalComboBoxButton.setComboBox(javax.swing.JComboBox)}.
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#setEnabled(boolean) public void
+     * javax.swing.plaf.metal.MetalComboBoxButton.setEnabled(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setComboBox_JComboBox()
+    @Override
+    public default void test_setEnabled_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.metal.MetalComboBoxButton#setIconOnly(boolean) public final void
+     * javax.swing.plaf.metal.MetalComboBoxButton.setIconOnly(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setIconOnly_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

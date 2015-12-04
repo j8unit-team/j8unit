@@ -35,17 +35,16 @@ public abstract interface WeakHashMapClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
 
     /**
-     * Test method for {@link java.util.WeakHashMap#WeakHashMap(java.util.Map) public
-     * java.util.WeakHashMap(java.util.Map)}.
+     * Test method for {@link java.util.WeakHashMap#WeakHashMap() public java.util.WeakHashMap()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_WeakHashMap_Map()
+    public default void create_WeakHashMap()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.WeakHashMap<K, V> sut = null; // = new WeakHashMap(java.util.Map);
+        final java.util.WeakHashMap<K, V> sut = null; // = new WeakHashMap();
     }
 
     /**
@@ -75,16 +74,17 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
     }
 
     /**
-     * Test method for {@link java.util.WeakHashMap#WeakHashMap() public java.util.WeakHashMap()}.
+     * Test method for {@link java.util.WeakHashMap#WeakHashMap(java.util.Map) public
+     * java.util.WeakHashMap(java.util.Map)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_WeakHashMap()
+    public default void create_WeakHashMap_Map()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.WeakHashMap<K, V> sut = null; // = new WeakHashMap();
+        final java.util.WeakHashMap<K, V> sut = null; // = new WeakHashMap(java.util.Map);
     }
 
     @Override

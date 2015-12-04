@@ -55,22 +55,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.JAXBContext#createUnmarshaller() public abstract
-     * javax.xml.bind.Unmarshaller javax.xml.bind.JAXBContext.createUnmarshaller() throws javax.xml.bind.JAXBException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createUnmarshaller()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.bind.JAXBContext#createJAXBIntrospector() public javax.xml.bind.JAXBIntrospector
      * javax.xml.bind.JAXBContext.createJAXBIntrospector()}.
      * </p>
@@ -87,14 +71,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.JAXBContext#generateSchema(javax.xml.bind.SchemaOutputResolver) public void
-     * javax.xml.bind.JAXBContext.generateSchema(javax.xml.bind.SchemaOutputResolver) throws java.io.IOException}.
+     * Test method for {@link javax.xml.bind.JAXBContext#createMarshaller() public abstract javax.xml.bind.Marshaller
+     * javax.xml.bind.JAXBContext.createMarshaller() throws javax.xml.bind.JAXBException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_generateSchema_SchemaOutputResolver()
+    public default void test_createMarshaller()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.JAXBContext#createUnmarshaller() public abstract
+     * javax.xml.bind.Unmarshaller javax.xml.bind.JAXBContext.createUnmarshaller() throws javax.xml.bind.JAXBException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createUnmarshaller()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +119,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.JAXBContext#createMarshaller() public abstract javax.xml.bind.Marshaller
-     * javax.xml.bind.JAXBContext.createMarshaller() throws javax.xml.bind.JAXBException}.
+     * Test method for {@link javax.xml.bind.JAXBContext#generateSchema(javax.xml.bind.SchemaOutputResolver) public void
+     * javax.xml.bind.JAXBContext.generateSchema(javax.xml.bind.SchemaOutputResolver) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createMarshaller()
+    public default void test_generateSchema_SchemaOutputResolver()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

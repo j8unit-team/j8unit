@@ -37,75 +37,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
 org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JPopupMenu#JPopupMenu(java.lang.String) public
-     * javax.swing.JPopupMenu(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JPopupMenu_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JPopupMenu sut = null; // = new JPopupMenu(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JPopupMenu#JPopupMenu() public javax.swing.JPopupMenu()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JPopupMenu()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JPopupMenu sut = null; // = new JPopupMenu();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.JPopupMenu> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JPopupMenu.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JPopupMenu#getDefaultLightWeightPopupEnabled() public static boolean
-     * javax.swing.JPopupMenu.getDefaultLightWeightPopupEnabled()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultLightWeightPopupEnabled()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JPopupMenu#setDefaultLightWeightPopupEnabled(boolean) public static void
-     * javax.swing.JPopupMenu.setDefaultLightWeightPopupEnabled(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDefaultLightWeightPopupEnabled_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.JPopupMenu$Separator class javax.swing.JPopupMenu$Separator}, containing all
      * class relevant test methods (at least the test methods of accessible constructors and of accessible
@@ -158,6 +89,75 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
             assertTrue(javax.swing.JPopupMenu.Separator.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.JPopupMenu#JPopupMenu() public javax.swing.JPopupMenu()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JPopupMenu()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JPopupMenu sut = null; // = new JPopupMenu();
+    }
+
+    /**
+     * Test method for {@link javax.swing.JPopupMenu#JPopupMenu(java.lang.String) public
+     * javax.swing.JPopupMenu(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JPopupMenu_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JPopupMenu sut = null; // = new JPopupMenu(java.lang.String);
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JPopupMenu#getDefaultLightWeightPopupEnabled() public static boolean
+     * javax.swing.JPopupMenu.getDefaultLightWeightPopupEnabled()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaultLightWeightPopupEnabled()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JPopupMenu#setDefaultLightWeightPopupEnabled(boolean) public static void
+     * javax.swing.JPopupMenu.setDefaultLightWeightPopupEnabled(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDefaultLightWeightPopupEnabled_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.JPopupMenu> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.JPopupMenu.class.isAssignableFrom(sut));
     }
 
 }

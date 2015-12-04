@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.security.spec.EncodedKeySpecTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.X509EncodedKeySpec#getFormat() public final java.lang.String
-     * java.security.spec.X509EncodedKeySpec.getFormat()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getFormat()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.spec.X509EncodedKeySpec#getEncoded() public byte[]
      * java.security.spec.X509EncodedKeySpec.getEncoded()}.
      * </p>
@@ -49,6 +32,23 @@ extends org.j8unit.repository.java.security.spec.EncodedKeySpecTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getEncoded()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.X509EncodedKeySpec#getFormat() public final java.lang.String
+     * java.security.spec.X509EncodedKeySpec.getFormat()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getFormat()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

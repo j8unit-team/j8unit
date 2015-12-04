@@ -49,20 +49,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     }
 
     /**
-     * Test method for {@link javax.swing.SpinnerListModel#SpinnerListModel(java.lang.Object[]) public
-     * javax.swing.SpinnerListModel(java.lang.Object[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SpinnerListModel_ObjectArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.SpinnerListModel sut = null; // = new SpinnerListModel(java.lang.Object[]);
-    }
-
-    /**
      * Test method for {@link javax.swing.SpinnerListModel#SpinnerListModel(java.util.List) public
      * javax.swing.SpinnerListModel(java.util.List)}.
      */
@@ -74,6 +60,20 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.SpinnerListModel sut = null; // = new SpinnerListModel(java.util.List);
+    }
+
+    /**
+     * Test method for {@link javax.swing.SpinnerListModel#SpinnerListModel(java.lang.Object[]) public
+     * javax.swing.SpinnerListModel(java.lang.Object[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SpinnerListModel_ObjectArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.SpinnerListModel sut = null; // = new SpinnerListModel(java.lang.Object[]);
     }
 
     @Override

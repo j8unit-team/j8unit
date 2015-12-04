@@ -36,6 +36,20 @@ public abstract interface SslRMIServerSocketFactoryClassTests<SUT extends Class<
 extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.rmi.ssl.SslRMIServerSocketFactory#SslRMIServerSocketFactory() public
+     * javax.rmi.ssl.SslRMIServerSocketFactory()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SslRMIServerSocketFactory()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.rmi.ssl.SslRMIServerSocketFactory sut = null; // = new SslRMIServerSocketFactory();
+    }
+
+    /**
      * Test method for
      * {@link javax.rmi.ssl.SslRMIServerSocketFactory#SslRMIServerSocketFactory(javax.net.ssl.SSLContext,java.lang.String[],java.lang.String[],boolean)
      * public
@@ -68,20 +82,6 @@ extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<S
         @SuppressWarnings("unused")
         final javax.rmi.ssl.SslRMIServerSocketFactory sut = null; // = new
                                                                   // SslRMIServerSocketFactory(java.lang.String[],java.lang.String[],boolean);
-    }
-
-    /**
-     * Test method for {@link javax.rmi.ssl.SslRMIServerSocketFactory#SslRMIServerSocketFactory() public
-     * javax.rmi.ssl.SslRMIServerSocketFactory()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SslRMIServerSocketFactory()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.rmi.ssl.SslRMIServerSocketFactory sut = null; // = new SslRMIServerSocketFactory();
     }
 
     @Override

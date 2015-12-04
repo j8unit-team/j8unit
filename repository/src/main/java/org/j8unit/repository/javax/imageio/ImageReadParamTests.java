@@ -23,14 +23,14 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageReadParam#getSourceMinProgressivePass() public int
-     * javax.imageio.ImageReadParam.getSourceMinProgressivePass()}.
+     * Test method for {@link javax.imageio.ImageReadParam#canSetSourceRenderSize() public boolean
+     * javax.imageio.ImageReadParam.canSetSourceRenderSize()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSourceMinProgressivePass()
+    public default void test_canSetSourceRenderSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,6 +55,22 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.imageio.ImageReadParam#getDestinationBands() public int[]
+     * javax.imageio.ImageReadParam.getDestinationBands()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDestinationBands()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.imageio.ImageReadParam#getSourceMaxProgressivePass() public int
      * javax.imageio.ImageReadParam.getSourceMaxProgressivePass()}.
      * </p>
@@ -71,14 +87,14 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageReadParam#getDestinationBands() public int[]
-     * javax.imageio.ImageReadParam.getDestinationBands()}.
+     * Test method for {@link javax.imageio.ImageReadParam#getSourceMinProgressivePass() public int
+     * javax.imageio.ImageReadParam.getSourceMinProgressivePass()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDestinationBands()
+    public default void test_getSourceMinProgressivePass()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,22 +119,6 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageReadParam#setSourceProgressivePasses(int,int) public void
-     * javax.imageio.ImageReadParam.setSourceProgressivePasses(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSourceProgressivePasses_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.imageio.ImageReadParam#getSourceRenderSize() public java.awt.Dimension
      * javax.imageio.ImageReadParam.getSourceRenderSize()}.
      * </p>
@@ -135,23 +135,6 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageReadParam#setSourceRenderSize(java.awt.Dimension) public void
-     * javax.imageio.ImageReadParam.setSourceRenderSize(java.awt.Dimension) throws
-     * java.lang.UnsupportedOperationException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSourceRenderSize_Dimension()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.imageio.ImageReadParam#setDestination(java.awt.image.BufferedImage) public void
      * javax.imageio.ImageReadParam.setDestination(java.awt.image.BufferedImage)}.
      * </p>
@@ -160,6 +143,22 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setDestination_BufferedImage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.ImageReadParam#setDestinationBands(int[]) public void
+     * javax.imageio.ImageReadParam.setDestinationBands(int[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDestinationBands_intArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -185,14 +184,14 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageReadParam#canSetSourceRenderSize() public boolean
-     * javax.imageio.ImageReadParam.canSetSourceRenderSize()}.
+     * Test method for {@link javax.imageio.ImageReadParam#setSourceProgressivePasses(int,int) public void
+     * javax.imageio.ImageReadParam.setSourceProgressivePasses(int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_canSetSourceRenderSize()
+    public default void test_setSourceProgressivePasses_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -201,14 +200,15 @@ extends org.j8unit.repository.javax.imageio.IIOParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageReadParam#setDestinationBands(int[]) public void
-     * javax.imageio.ImageReadParam.setDestinationBands(int[])}.
+     * Test method for {@link javax.imageio.ImageReadParam#setSourceRenderSize(java.awt.Dimension) public void
+     * javax.imageio.ImageReadParam.setSourceRenderSize(java.awt.Dimension) throws
+     * java.lang.UnsupportedOperationException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDestinationBands_intArray()
+    public default void test_setSourceRenderSize_Dimension()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

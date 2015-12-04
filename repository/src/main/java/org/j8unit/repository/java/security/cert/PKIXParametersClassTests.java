@@ -36,20 +36,6 @@ public abstract interface PKIXParametersClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.security.cert.CertPathParametersClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.cert.PKIXParameters#PKIXParameters(java.util.Set) public
-     * java.security.cert.PKIXParameters(java.util.Set) throws java.security.InvalidAlgorithmParameterException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PKIXParameters_Set()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.PKIXParameters sut = null; // = new PKIXParameters(java.util.Set);
-    }
-
-    /**
      * Test method for {@link java.security.cert.PKIXParameters#PKIXParameters(java.security.KeyStore) public
      * java.security.cert.PKIXParameters(java.security.KeyStore) throws
      * java.security.KeyStoreException,java.security.InvalidAlgorithmParameterException}.
@@ -62,6 +48,20 @@ extends org.j8unit.repository.java.security.cert.CertPathParametersClassTests<SU
         // create new instance
         @SuppressWarnings("unused")
         final java.security.cert.PKIXParameters sut = null; // = new PKIXParameters(java.security.KeyStore);
+    }
+
+    /**
+     * Test method for {@link java.security.cert.PKIXParameters#PKIXParameters(java.util.Set) public
+     * java.security.cert.PKIXParameters(java.util.Set) throws java.security.InvalidAlgorithmParameterException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PKIXParameters_Set()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.PKIXParameters sut = null; // = new PKIXParameters(java.util.Set);
     }
 
     @Override

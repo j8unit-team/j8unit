@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface PSourceClassTests<SUT extends Class<? extends javax.crypto.spec.PSource>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.crypto.spec.PSource> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.crypto.spec.PSource.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.crypto.spec.PSource$PSpecified class javax.crypto.spec.PSource$PSpecified},
@@ -98,6 +88,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(javax.crypto.spec.PSource.PSpecified.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.crypto.spec.PSource> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.crypto.spec.PSource.class.isAssignableFrom(sut));
     }
 
 }

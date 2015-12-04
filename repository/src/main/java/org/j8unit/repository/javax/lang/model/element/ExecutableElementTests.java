@@ -24,70 +24,6 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.element.ExecutableElement#getThrownTypes() public abstract java.util.List
-     * javax.lang.model.element.ExecutableElement.getThrownTypes()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getThrownTypes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.element.ExecutableElement#isVarArgs() public abstract boolean
-     * javax.lang.model.element.ExecutableElement.isVarArgs()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isVarArgs()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.element.ExecutableElement#getReturnType() public abstract
-     * javax.lang.model.type.TypeMirror javax.lang.model.element.ExecutableElement.getReturnType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReturnType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.element.ExecutableElement#isDefault() public abstract boolean
-     * javax.lang.model.element.ExecutableElement.isDefault()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isDefault()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.lang.model.element.ExecutableElement#getDefaultValue() public abstract
      * javax.lang.model.element.AnnotationValue javax.lang.model.element.ExecutableElement.getDefaultValue()}.
      * </p>
@@ -96,6 +32,22 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT>, org.j8
     @Test
     @Category(Draft.class)
     public default void test_getDefaultValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.element.ExecutableElement#getParameters() public abstract java.util.List
+     * javax.lang.model.element.ExecutableElement.getParameters()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParameters()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,15 +72,14 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.element.ExecutableElement#getTypeParameters() public abstract
-     * java.util.List javax.lang.model.element.ExecutableElement.getTypeParameters()}.
+     * Test method for {@link javax.lang.model.element.ExecutableElement#getReturnType() public abstract
+     * javax.lang.model.type.TypeMirror javax.lang.model.element.ExecutableElement.getReturnType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getTypeParameters()
+    public default void test_getReturnType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -154,14 +105,63 @@ extends org.j8unit.repository.javax.lang.model.element.ElementTests<SUT>, org.j8
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.element.ExecutableElement#getParameters() public abstract java.util.List
-     * javax.lang.model.element.ExecutableElement.getParameters()}.
+     * Test method for {@link javax.lang.model.element.ExecutableElement#getThrownTypes() public abstract java.util.List
+     * javax.lang.model.element.ExecutableElement.getThrownTypes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParameters()
+    public default void test_getThrownTypes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.element.ExecutableElement#getTypeParameters() public abstract
+     * java.util.List javax.lang.model.element.ExecutableElement.getTypeParameters()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getTypeParameters()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.element.ExecutableElement#isDefault() public abstract boolean
+     * javax.lang.model.element.ExecutableElement.isDefault()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isDefault()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.element.ExecutableElement#isVarArgs() public abstract boolean
+     * javax.lang.model.element.ExecutableElement.isVarArgs()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isVarArgs()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

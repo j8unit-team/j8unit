@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.nio.channels.WritableByteChannelTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.nio.channels.GatheringByteChannel#write(java.nio.ByteBuffer[]) public abstract long
+     * java.nio.channels.GatheringByteChannel.write(java.nio.ByteBuffer[]) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_ByteBufferArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.channels.GatheringByteChannel#write(java.nio.ByteBuffer[],int,int) public
      * abstract long java.nio.channels.GatheringByteChannel.write(java.nio.ByteBuffer[],int,int) throws
      * java.io.IOException}.
@@ -32,22 +48,6 @@ extends org.j8unit.repository.java.nio.channels.WritableByteChannelTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_write_ByteBufferArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.GatheringByteChannel#write(java.nio.ByteBuffer[]) public abstract long
-     * java.nio.channels.GatheringByteChannel.write(java.nio.ByteBuffer[]) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_ByteBufferArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

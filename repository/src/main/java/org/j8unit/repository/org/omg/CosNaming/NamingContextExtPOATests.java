@@ -24,30 +24,16 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CosNaming.NamingContextExtPOA#_this() public org.omg.CosNaming.NamingContextExt
-     * org.omg.CosNaming.NamingContextExtPOA._this()}.
+     * Test method for {@link org.omg.CosNaming.NamingContextExtPOA#_all_interfaces(org.omg.PortableServer.POA,byte[])
+     * public java.lang.String[]
+     * org.omg.CosNaming.NamingContextExtPOA._all_interfaces(org.omg.PortableServer.POA,byte[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test__this()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CosNaming.NamingContextExtPOA#_this(org.omg.CORBA.ORB) public
-     * org.omg.CosNaming.NamingContextExt org.omg.CosNaming.NamingContextExtPOA._this(org.omg.CORBA.ORB)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test__this_ORB()
+    @Override
+    public default void test__all_interfaces_POA_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -76,16 +62,30 @@ org.j8unit.repository.org.omg.PortableServer.ServantTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CosNaming.NamingContextExtPOA#_all_interfaces(org.omg.PortableServer.POA,byte[])
-     * public java.lang.String[]
-     * org.omg.CosNaming.NamingContextExtPOA._all_interfaces(org.omg.PortableServer.POA,byte[])}.
+     * Test method for {@link org.omg.CosNaming.NamingContextExtPOA#_this() public org.omg.CosNaming.NamingContextExt
+     * org.omg.CosNaming.NamingContextExtPOA._this()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test__all_interfaces_POA_byteArray()
+    public default void test__this()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CosNaming.NamingContextExtPOA#_this(org.omg.CORBA.ORB) public
+     * org.omg.CosNaming.NamingContextExt org.omg.CosNaming.NamingContextExtPOA._this(org.omg.CORBA.ORB)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test__this_ORB()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

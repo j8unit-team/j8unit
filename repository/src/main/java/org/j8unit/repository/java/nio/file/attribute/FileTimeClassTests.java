@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface FileTimeClassTests<SUT extends Class<? extends java.nio.file.attribute.FileTime>>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.file.attribute.FileTime>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.attribute.FileTime#from(java.time.Instant) public static
+     * java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime.from(java.time.Instant)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_from_Instant()
     throws Exception {
-        // create new instance
-        final Class<? extends java.nio.file.attribute.FileTime> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.file.attribute.FileTime.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -63,22 +69,6 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.file.
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.attribute.FileTime#from(java.time.Instant) public static
-     * java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime.from(java.time.Instant)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_from_Instant()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.file.attribute.FileTime#fromMillis(long) public static
      * java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime.fromMillis(long)}.
      * </p>
@@ -91,6 +81,16 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.file.
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.file.attribute.FileTime> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.file.attribute.FileTime.class.isAssignableFrom(sut));
     }
 
 }

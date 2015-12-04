@@ -23,31 +23,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.Charset#hashCode() public final int java.nio.charset.Charset.hashCode()}.
+     * Test method for {@link java.nio.charset.Charset#aliases() public final java.util.Set
+     * java.nio.charset.Charset.aliases()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.Charset#equals(java.lang.Object) public final boolean
-     * java.nio.charset.Charset.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_aliases()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -63,6 +46,22 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
     @Test
     @Category(Draft.class)
     public default void test_canEncode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.charset.Charset#compareTo(java.nio.charset.Charset) public final int
+     * java.nio.charset.Charset.compareTo(java.nio.charset.Charset)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compareTo_Charset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,79 +86,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.Charset#name() public final java.lang.String
-     * java.nio.charset.Charset.name()}.
+     * Test method for {@link java.nio.charset.Charset#decode(java.nio.ByteBuffer) public final java.nio.CharBuffer
+     * java.nio.charset.Charset.decode(java.nio.ByteBuffer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_name()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.Charset#newEncoder() public abstract java.nio.charset.CharsetEncoder
-     * java.nio.charset.Charset.newEncoder()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newEncoder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.Charset#toString() public final java.lang.String
-     * java.nio.charset.Charset.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.Charset#isRegistered() public final boolean
-     * java.nio.charset.Charset.isRegistered()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isRegistered()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.Charset#displayName(java.util.Locale) public java.lang.String
-     * java.nio.charset.Charset.displayName(java.util.Locale)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_displayName_Locale()
+    public default void test_decode_ByteBuffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -184,14 +118,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.Charset#newDecoder() public abstract java.nio.charset.CharsetDecoder
-     * java.nio.charset.Charset.newDecoder()}.
+     * Test method for {@link java.nio.charset.Charset#displayName(java.util.Locale) public java.lang.String
+     * java.nio.charset.Charset.displayName(java.util.Locale)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_newDecoder()
+    public default void test_displayName_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -232,14 +166,15 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.Charset#aliases() public final java.util.Set
-     * java.nio.charset.Charset.aliases()}.
+     * Test method for {@link java.nio.charset.Charset#equals(java.lang.Object) public final boolean
+     * java.nio.charset.Charset.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_aliases()
+    @Override
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -248,14 +183,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.Charset#decode(java.nio.ByteBuffer) public final java.nio.CharBuffer
-     * java.nio.charset.Charset.decode(java.nio.ByteBuffer)}.
+     * Test method for {@link java.nio.charset.Charset#hashCode() public final int java.nio.charset.Charset.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_decode_ByteBuffer()
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -264,14 +199,79 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.charset.Ch
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.Charset#compareTo(java.nio.charset.Charset) public final int
-     * java.nio.charset.Charset.compareTo(java.nio.charset.Charset)}.
+     * Test method for {@link java.nio.charset.Charset#isRegistered() public final boolean
+     * java.nio.charset.Charset.isRegistered()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_compareTo_Charset()
+    public default void test_isRegistered()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.charset.Charset#name() public final java.lang.String
+     * java.nio.charset.Charset.name()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.charset.Charset#newDecoder() public abstract java.nio.charset.CharsetDecoder
+     * java.nio.charset.Charset.newDecoder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newDecoder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.charset.Charset#newEncoder() public abstract java.nio.charset.CharsetEncoder
+     * java.nio.charset.Charset.newEncoder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newEncoder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.charset.Charset#toString() public final java.lang.String
+     * java.nio.charset.Charset.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

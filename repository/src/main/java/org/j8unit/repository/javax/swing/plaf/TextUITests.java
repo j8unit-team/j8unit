@@ -23,57 +23,6 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.TextUI#viewToModel(javax.swing.text.JTextComponent,java.awt.Point,javax.swing.text.Position.Bias[])
-     * public abstract int
-     * javax.swing.plaf.TextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point,javax.swing.text.Position$Bias[])}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_viewToModel_JTextComponent_Point_BiasArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.TextUI#viewToModel(javax.swing.text.JTextComponent,java.awt.Point) public
-     * abstract int javax.swing.plaf.TextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_viewToModel_JTextComponent_Point()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.TextUI#getEditorKit(javax.swing.text.JTextComponent) public abstract
-     * javax.swing.text.EditorKit javax.swing.plaf.TextUI.getEditorKit(javax.swing.text.JTextComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEditorKit_JTextComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.TextUI#damageRange(javax.swing.text.JTextComponent,int,int) public
      * abstract void javax.swing.plaf.TextUI.damageRange(javax.swing.text.JTextComponent,int,int)}.
      * </p>
@@ -109,14 +58,14 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TextUI#getRootView(javax.swing.text.JTextComponent) public abstract
-     * javax.swing.text.View javax.swing.plaf.TextUI.getRootView(javax.swing.text.JTextComponent)}.
+     * Test method for {@link javax.swing.plaf.TextUI#getEditorKit(javax.swing.text.JTextComponent) public abstract
+     * javax.swing.text.EditorKit javax.swing.plaf.TextUI.getEditorKit(javax.swing.text.JTextComponent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRootView_JTextComponent()
+    public default void test_getEditorKit_JTextComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -144,6 +93,22 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.TextUI#getRootView(javax.swing.text.JTextComponent) public abstract
+     * javax.swing.text.View javax.swing.plaf.TextUI.getRootView(javax.swing.text.JTextComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRootView_JTextComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.TextUI#getToolTipText(javax.swing.text.JTextComponent,java.awt.Point)
      * public java.lang.String javax.swing.plaf.TextUI.getToolTipText(javax.swing.text.JTextComponent,java.awt.Point)}.
      * </p>
@@ -152,6 +117,23 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getToolTipText_JTextComponent_Point()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.TextUI#modelToView(javax.swing.text.JTextComponent,int) public abstract
+     * java.awt.Rectangle javax.swing.plaf.TextUI.modelToView(javax.swing.text.JTextComponent,int) throws
+     * javax.swing.text.BadLocationException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_modelToView_JTextComponent_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -179,15 +161,33 @@ extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.TextUI#modelToView(javax.swing.text.JTextComponent,int) public abstract
-     * java.awt.Rectangle javax.swing.plaf.TextUI.modelToView(javax.swing.text.JTextComponent,int) throws
-     * javax.swing.text.BadLocationException}.
+     * Test method for {@link javax.swing.plaf.TextUI#viewToModel(javax.swing.text.JTextComponent,java.awt.Point) public
+     * abstract int javax.swing.plaf.TextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_modelToView_JTextComponent_int()
+    public default void test_viewToModel_JTextComponent_Point()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.TextUI#viewToModel(javax.swing.text.JTextComponent,java.awt.Point,javax.swing.text.Position.Bias[])
+     * public abstract int
+     * javax.swing.plaf.TextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point,javax.swing.text.Position$Bias[])}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_viewToModel_JTextComponent_Point_BiasArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

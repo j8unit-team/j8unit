@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.awt.event.ComponentEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.FocusEvent#paramString() public java.lang.String
-     * java.awt.event.FocusEvent.paramString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paramString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.event.FocusEvent#getOppositeComponent() public java.awt.Component
      * java.awt.event.FocusEvent.getOppositeComponent()}.
      * </p>
@@ -64,6 +47,23 @@ extends org.j8unit.repository.java.awt.event.ComponentEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isTemporary()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.FocusEvent#paramString() public java.lang.String
+     * java.awt.event.FocusEvent.paramString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paramString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -34,14 +34,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface JDBCTypeClassTests<SUT extends Class<? extends java.sql.JDBCType>>
 extends org.j8unit.repository.java.sql.SQLTypeClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT, java.sql.JDBCType> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.sql.JDBCType#valueOf(int) public static java.sql.JDBCType
+     * java.sql.JDBCType.valueOf(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_valueOf_int()
     throws Exception {
-        // create new instance
-        final Class<? extends java.sql.JDBCType> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.sql.JDBCType.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -62,22 +68,6 @@ extends org.j8unit.repository.java.sql.SQLTypeClassTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link java.sql.JDBCType#valueOf(int) public static java.sql.JDBCType
-     * java.sql.JDBCType.valueOf(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_valueOf_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.sql.JDBCType#values() public static java.sql.JDBCType[] java.sql.JDBCType.values()}.
      * </p>
      */
@@ -89,6 +79,16 @@ extends org.j8unit.repository.java.sql.SQLTypeClassTests<SUT>, org.j8unit.reposi
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.sql.JDBCType> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.sql.JDBCType.class.isAssignableFrom(sut));
     }
 
 }

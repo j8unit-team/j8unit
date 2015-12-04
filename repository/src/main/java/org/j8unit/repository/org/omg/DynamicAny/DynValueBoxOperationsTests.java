@@ -23,6 +23,23 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynValueCommonOperationsTests<S
 
     /**
      * <p>
+     * Test method for {@link org.omg.DynamicAny.DynValueBoxOperations#get_boxed_value() public abstract
+     * org.omg.CORBA.Any org.omg.DynamicAny.DynValueBoxOperations.get_boxed_value() throws
+     * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_boxed_value()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.omg.DynamicAny.DynValueBoxOperations#get_boxed_value_as_dyn_any() public abstract
      * org.omg.DynamicAny.DynAny org.omg.DynamicAny.DynValueBoxOperations.get_boxed_value_as_dyn_any() throws
      * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
@@ -67,23 +84,6 @@ extends org.j8unit.repository.org.omg.DynamicAny.DynValueCommonOperationsTests<S
     @Test
     @Category(Draft.class)
     public default void test_set_boxed_value_as_dyn_any_DynAny()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynValueBoxOperations#get_boxed_value() public abstract
-     * org.omg.CORBA.Any org.omg.DynamicAny.DynValueBoxOperations.get_boxed_value() throws
-     * org.omg.DynamicAny.DynAnyPackage.InvalidValue}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_boxed_value()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

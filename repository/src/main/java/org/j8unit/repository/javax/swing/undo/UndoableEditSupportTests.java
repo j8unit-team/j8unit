@@ -41,57 +41,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.undo.UndoableEditSupport#removeUndoableEditListener(javax.swing.event.UndoableEditListener)
-     * public synchronized void
-     * javax.swing.undo.UndoableEditSupport.removeUndoableEditListener(javax.swing.event.UndoableEditListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeUndoableEditListener_UndoableEditListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.undo.UndoableEditSupport#getUndoableEditListeners() public synchronized
-     * javax.swing.event.UndoableEditListener[] javax.swing.undo.UndoableEditSupport.getUndoableEditListeners()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUndoableEditListeners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.undo.UndoableEditSupport#toString() public java.lang.String
-     * javax.swing.undo.UndoableEditSupport.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.undo.UndoableEditSupport#beginUpdate() public synchronized void
      * javax.swing.undo.UndoableEditSupport.beginUpdate()}.
      * </p>
@@ -124,6 +73,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.undo.UndoableEditSupport#getUndoableEditListeners() public synchronized
+     * javax.swing.event.UndoableEditListener[] javax.swing.undo.UndoableEditSupport.getUndoableEditListeners()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUndoableEditListeners()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.undo.UndoableEditSupport#getUpdateLevel() public int
      * javax.swing.undo.UndoableEditSupport.getUpdateLevel()}.
      * </p>
@@ -148,6 +113,41 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_postEdit_UndoableEdit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.undo.UndoableEditSupport#removeUndoableEditListener(javax.swing.event.UndoableEditListener)
+     * public synchronized void
+     * javax.swing.undo.UndoableEditSupport.removeUndoableEditListener(javax.swing.event.UndoableEditListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeUndoableEditListener_UndoableEditListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.undo.UndoableEditSupport#toString() public java.lang.String
+     * javax.swing.undo.UndoableEditSupport.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

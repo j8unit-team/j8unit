@@ -48,16 +48,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final javax.swing.plaf.ComponentUI sut = null; // = new ComponentUI();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.ComponentUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.ComponentUI.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.plaf.ComponentUI#createUI(javax.swing.JComponent) public static
@@ -72,6 +62,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.ComponentUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.ComponentUI.class.isAssignableFrom(sut));
     }
 
 }

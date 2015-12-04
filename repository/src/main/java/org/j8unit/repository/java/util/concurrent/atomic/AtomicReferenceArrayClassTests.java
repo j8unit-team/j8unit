@@ -37,6 +37,20 @@ public abstract interface AtomicReferenceArrayClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceArray#AtomicReferenceArray(int) public
+     * java.util.concurrent.atomic.AtomicReferenceArray(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AtomicReferenceArray_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.atomic.AtomicReferenceArray<E> sut = null; // = new AtomicReferenceArray(int);
+    }
+
+    /**
      * Test method for {@link java.util.concurrent.atomic.AtomicReferenceArray#AtomicReferenceArray(java.lang.Object[])
      * public java.util.concurrent.atomic.AtomicReferenceArray(java.lang.Object[])}.
      */
@@ -49,20 +63,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         @SuppressWarnings("unused")
         final java.util.concurrent.atomic.AtomicReferenceArray<E> sut = null; // = new
                                                                               // AtomicReferenceArray(java.lang.Object[]);
-    }
-
-    /**
-     * Test method for {@link java.util.concurrent.atomic.AtomicReferenceArray#AtomicReferenceArray(int) public
-     * java.util.concurrent.atomic.AtomicReferenceArray(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AtomicReferenceArray_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.atomic.AtomicReferenceArray<E> sut = null; // = new AtomicReferenceArray(int);
     }
 
     @Override

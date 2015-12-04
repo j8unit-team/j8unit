@@ -23,14 +23,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.PrintJob#getPageResolution() public abstract int
-     * java.awt.PrintJob.getPageResolution()}.
+     * Test method for {@link java.awt.PrintJob#end() public abstract void java.awt.PrintJob.end()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPageResolution()
+    public default void test_end()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,30 +38,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.PrintJob#getPageDimension() public abstract java.awt.Dimension
-     * java.awt.PrintJob.getPageDimension()}.
+     * Test method for {@link java.awt.PrintJob#finalize() public void java.awt.PrintJob.finalize()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPageDimension()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.PrintJob#lastPageFirst() public abstract boolean
-     * java.awt.PrintJob.lastPageFirst()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lastPageFirst()
+    public default void test_finalize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,13 +69,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.PrintJob#finalize() public void java.awt.PrintJob.finalize()}.
+     * Test method for {@link java.awt.PrintJob#getPageDimension() public abstract java.awt.Dimension
+     * java.awt.PrintJob.getPageDimension()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_finalize()
+    public default void test_getPageDimension()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -102,13 +85,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.PrintJob#end() public abstract void java.awt.PrintJob.end()}.
+     * Test method for {@link java.awt.PrintJob#getPageResolution() public abstract int
+     * java.awt.PrintJob.getPageResolution()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_end()
+    public default void test_getPageResolution()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.PrintJob#lastPageFirst() public abstract boolean
+     * java.awt.PrintJob.lastPageFirst()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lastPageFirst()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

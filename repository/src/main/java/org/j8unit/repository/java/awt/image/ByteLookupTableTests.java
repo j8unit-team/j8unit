@@ -39,6 +39,22 @@ extends org.j8unit.repository.java.awt.image.LookupTableTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.ByteLookupTable#lookupPixel(byte[],byte[]) public byte[]
+     * java.awt.image.ByteLookupTable.lookupPixel(byte[],byte[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lookupPixel_byteArray_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.image.ByteLookupTable#lookupPixel(int[],int[]) public int[]
      * java.awt.image.ByteLookupTable.lookupPixel(int[],int[])}.
      * </p>
@@ -48,22 +64,6 @@ extends org.j8unit.repository.java.awt.image.LookupTableTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_lookupPixel_intArray_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ByteLookupTable#lookupPixel(byte[],byte[]) public byte[]
-     * java.awt.image.ByteLookupTable.lookupPixel(byte[],byte[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lookupPixel_byteArray_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

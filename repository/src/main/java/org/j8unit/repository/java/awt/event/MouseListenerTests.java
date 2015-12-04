@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.MouseListener#mousePressed(java.awt.event.MouseEvent) public abstract void
-     * java.awt.event.MouseListener.mousePressed(java.awt.event.MouseEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_mousePressed_MouseEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.event.MouseListener#mouseClicked(java.awt.event.MouseEvent) public abstract void
      * java.awt.event.MouseListener.mouseClicked(java.awt.event.MouseEvent)}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_mouseClicked_MouseEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.MouseListener#mouseEntered(java.awt.event.MouseEvent) public abstract void
+     * java.awt.event.MouseListener.mouseEntered(java.awt.event.MouseEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_mouseEntered_MouseEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +71,14 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.MouseListener#mouseEntered(java.awt.event.MouseEvent) public abstract void
-     * java.awt.event.MouseListener.mouseEntered(java.awt.event.MouseEvent)}.
+     * Test method for {@link java.awt.event.MouseListener#mousePressed(java.awt.event.MouseEvent) public abstract void
+     * java.awt.event.MouseListener.mousePressed(java.awt.event.MouseEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_mouseEntered_MouseEvent()
+    public default void test_mousePressed_MouseEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

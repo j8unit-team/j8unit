@@ -24,153 +24,6 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
     /**
      * <p>
      * Test method for
-     * {@link javax.swing.plaf.basic.BasicDirectoryModel#removePropertyChangeListener(java.beans.PropertyChangeListener)
-     * public void
-     * javax.swing.plaf.basic.BasicDirectoryModel.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removePropertyChangeListener_PropertyChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#validateFileCache() public void
-     * javax.swing.plaf.basic.BasicDirectoryModel.validateFileCache()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_validateFileCache()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#getFiles() public java.util.Vector
-     * javax.swing.plaf.basic.BasicDirectoryModel.getFiles()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFiles()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#getPropertyChangeListeners() public
-     * java.beans.PropertyChangeListener[] javax.swing.plaf.basic.BasicDirectoryModel.getPropertyChangeListeners()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPropertyChangeListeners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#invalidateFileCache() public void
-     * javax.swing.plaf.basic.BasicDirectoryModel.invalidateFileCache()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_invalidateFileCache()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#fireContentsChanged() public void
-     * javax.swing.plaf.basic.BasicDirectoryModel.fireContentsChanged()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fireContentsChanged()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#intervalAdded(javax.swing.event.ListDataEvent)
-     * public void javax.swing.plaf.basic.BasicDirectoryModel.intervalAdded(javax.swing.event.ListDataEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_intervalAdded_ListDataEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#renameFile(java.io.File,java.io.File) public
-     * boolean javax.swing.plaf.basic.BasicDirectoryModel.renameFile(java.io.File,java.io.File)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_renameFile_File_File()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#propertyChange(java.beans.PropertyChangeEvent)
-     * public void javax.swing.plaf.basic.BasicDirectoryModel.propertyChange(java.beans.PropertyChangeEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_propertyChange_PropertyChangeEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link javax.swing.plaf.basic.BasicDirectoryModel#addPropertyChangeListener(java.beans.PropertyChangeListener)
      * public void
      * javax.swing.plaf.basic.BasicDirectoryModel.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
@@ -188,14 +41,30 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#indexOf(java.lang.Object) public int
-     * javax.swing.plaf.basic.BasicDirectoryModel.indexOf(java.lang.Object)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#contains(java.lang.Object) public boolean
+     * javax.swing.plaf.basic.BasicDirectoryModel.contains(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_indexOf_Object()
+    public default void test_contains_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#fireContentsChanged() public void
+     * javax.swing.plaf.basic.BasicDirectoryModel.fireContentsChanged()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fireContentsChanged()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -237,15 +106,14 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.plaf.basic.BasicDirectoryModel#intervalRemoved(javax.swing.event.ListDataEvent) public void
-     * javax.swing.plaf.basic.BasicDirectoryModel.intervalRemoved(javax.swing.event.ListDataEvent)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#getFiles() public java.util.Vector
+     * javax.swing.plaf.basic.BasicDirectoryModel.getFiles()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_intervalRemoved_ListDataEvent()
+    public default void test_getFiles()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -254,14 +122,14 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#contains(java.lang.Object) public boolean
-     * javax.swing.plaf.basic.BasicDirectoryModel.contains(java.lang.Object)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#getPropertyChangeListeners() public
+     * java.beans.PropertyChangeListener[] javax.swing.plaf.basic.BasicDirectoryModel.getPropertyChangeListeners()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_contains_Object()
+    public default void test_getPropertyChangeListeners()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -279,6 +147,138 @@ extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j
     @Category(Draft.class)
     @Override
     public default void test_getSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#indexOf(java.lang.Object) public int
+     * javax.swing.plaf.basic.BasicDirectoryModel.indexOf(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_indexOf_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#intervalAdded(javax.swing.event.ListDataEvent)
+     * public void javax.swing.plaf.basic.BasicDirectoryModel.intervalAdded(javax.swing.event.ListDataEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_intervalAdded_ListDataEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#intervalRemoved(javax.swing.event.ListDataEvent) public void
+     * javax.swing.plaf.basic.BasicDirectoryModel.intervalRemoved(javax.swing.event.ListDataEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_intervalRemoved_ListDataEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#invalidateFileCache() public void
+     * javax.swing.plaf.basic.BasicDirectoryModel.invalidateFileCache()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_invalidateFileCache()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#propertyChange(java.beans.PropertyChangeEvent)
+     * public void javax.swing.plaf.basic.BasicDirectoryModel.propertyChange(java.beans.PropertyChangeEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_propertyChange_PropertyChangeEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.plaf.basic.BasicDirectoryModel#removePropertyChangeListener(java.beans.PropertyChangeListener)
+     * public void
+     * javax.swing.plaf.basic.BasicDirectoryModel.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removePropertyChangeListener_PropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#renameFile(java.io.File,java.io.File) public
+     * boolean javax.swing.plaf.basic.BasicDirectoryModel.renameFile(java.io.File,java.io.File)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_renameFile_File_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicDirectoryModel#validateFileCache() public void
+     * javax.swing.plaf.basic.BasicDirectoryModel.validateFileCache()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_validateFileCache()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

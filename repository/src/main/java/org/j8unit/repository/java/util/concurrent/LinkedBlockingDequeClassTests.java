@@ -37,6 +37,20 @@ extends org.j8unit.repository.java.util.concurrent.BlockingDequeClassTests<SUT, 
 org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
 
     /**
+     * Test method for {@link java.util.concurrent.LinkedBlockingDeque#LinkedBlockingDeque() public
+     * java.util.concurrent.LinkedBlockingDeque()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LinkedBlockingDeque()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.LinkedBlockingDeque<E> sut = null; // = new LinkedBlockingDeque();
+    }
+
+    /**
      * Test method for {@link java.util.concurrent.LinkedBlockingDeque#LinkedBlockingDeque(java.util.Collection) public
      * java.util.concurrent.LinkedBlockingDeque(java.util.Collection)}.
      */
@@ -63,20 +77,6 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.concurrent.LinkedBlockingDeque<E> sut = null; // = new LinkedBlockingDeque(int);
-    }
-
-    /**
-     * Test method for {@link java.util.concurrent.LinkedBlockingDeque#LinkedBlockingDeque() public
-     * java.util.concurrent.LinkedBlockingDeque()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LinkedBlockingDeque()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.LinkedBlockingDeque<E> sut = null; // = new LinkedBlockingDeque();
     }
 
     @Override

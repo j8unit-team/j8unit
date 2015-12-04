@@ -36,6 +36,35 @@ public abstract interface CertPathBuilderExceptionClassTests<SUT extends Class<?
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link java.security.cert.CertPathBuilderException#CertPathBuilderException() public
+     * java.security.cert.CertPathBuilderException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CertPathBuilderException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CertPathBuilderException sut = null; // = new CertPathBuilderException();
+    }
+
+    /**
+     * Test method for {@link java.security.cert.CertPathBuilderException#CertPathBuilderException(java.lang.String)
+     * public java.security.cert.CertPathBuilderException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CertPathBuilderException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CertPathBuilderException sut = null; // = new
+                                                                      // CertPathBuilderException(java.lang.String);
+    }
+
+    /**
      * Test method for
      * {@link java.security.cert.CertPathBuilderException#CertPathBuilderException(java.lang.String,java.lang.Throwable)
      * public java.security.cert.CertPathBuilderException(java.lang.String,java.lang.Throwable)}.
@@ -64,35 +93,6 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
         @SuppressWarnings("unused")
         final java.security.cert.CertPathBuilderException sut = null; // = new
                                                                       // CertPathBuilderException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link java.security.cert.CertPathBuilderException#CertPathBuilderException(java.lang.String)
-     * public java.security.cert.CertPathBuilderException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CertPathBuilderException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CertPathBuilderException sut = null; // = new
-                                                                      // CertPathBuilderException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.security.cert.CertPathBuilderException#CertPathBuilderException() public
-     * java.security.cert.CertPathBuilderException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CertPathBuilderException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CertPathBuilderException sut = null; // = new CertPathBuilderException();
     }
 
     @Override

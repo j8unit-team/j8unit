@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface HttpURLConnectionClassTests<SUT extends Class<? extends java.net.HttpURLConnection>>
 extends org.j8unit.repository.java.net.URLConnectionClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.net.HttpURLConnection> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.net.HttpURLConnection.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.net.HttpURLConnection#getFollowRedirects() public static boolean
@@ -75,6 +65,16 @@ extends org.j8unit.repository.java.net.URLConnectionClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.net.HttpURLConnection> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.HttpURLConnection.class.isAssignableFrom(sut));
     }
 
 }

@@ -50,80 +50,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.util.concurrent.ForkJoinTask<V> sut = null; // = new ForkJoinTask();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.concurrent.ForkJoinTask<V>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.concurrent.ForkJoinTask.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.ForkJoinTask#getQueuedTaskCount() public static int
-     * java.util.concurrent.ForkJoinTask.getQueuedTaskCount()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getQueuedTaskCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.ForkJoinTask#getPool() public static
-     * java.util.concurrent.ForkJoinPool java.util.concurrent.ForkJoinTask.getPool()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPool()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.ForkJoinTask#inForkJoinPool() public static boolean
-     * java.util.concurrent.ForkJoinTask.inForkJoinPool()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_inForkJoinPool()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.ForkJoinTask#adapt(java.lang.Runnable,java.lang.Object) public static
-     * java.util.concurrent.ForkJoinTask java.util.concurrent.ForkJoinTask.adapt(java.lang.Runnable,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_adapt_Runnable_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link java.util.concurrent.ForkJoinTask#adapt(java.util.concurrent.Callable) public static
@@ -158,14 +84,94 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.concurrent.ForkJoinTask...) public
-     * static void java.util.concurrent.ForkJoinTask.invokeAll(java.util.concurrent.ForkJoinTask...)}.
+     * Test method for {@link java.util.concurrent.ForkJoinTask#adapt(java.lang.Runnable,java.lang.Object) public static
+     * java.util.concurrent.ForkJoinTask java.util.concurrent.ForkJoinTask.adapt(java.lang.Runnable,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_invokeAll_ForkJoinTaskArray()
+    public default void test_adapt_Runnable_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.ForkJoinTask#getPool() public static
+     * java.util.concurrent.ForkJoinPool java.util.concurrent.ForkJoinTask.getPool()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPool()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.ForkJoinTask#getQueuedTaskCount() public static int
+     * java.util.concurrent.ForkJoinTask.getQueuedTaskCount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getQueuedTaskCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.ForkJoinTask#getSurplusQueuedTaskCount() public static int
+     * java.util.concurrent.ForkJoinTask.getSurplusQueuedTaskCount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSurplusQueuedTaskCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.ForkJoinTask#helpQuiesce() public static void
+     * java.util.concurrent.ForkJoinTask.helpQuiesce()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_helpQuiesce()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.ForkJoinTask#inForkJoinPool() public static boolean
+     * java.util.concurrent.ForkJoinTask.inForkJoinPool()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_inForkJoinPool()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -209,34 +215,28 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.ForkJoinTask#helpQuiesce() public static void
-     * java.util.concurrent.ForkJoinTask.helpQuiesce()}.
+     * Test method for {@link java.util.concurrent.ForkJoinTask#invokeAll(java.util.concurrent.ForkJoinTask...) public
+     * static void java.util.concurrent.ForkJoinTask.invokeAll(java.util.concurrent.ForkJoinTask...)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_helpQuiesce()
+    public default void test_invokeAll_ForkJoinTaskArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.ForkJoinTask#getSurplusQueuedTaskCount() public static int
-     * java.util.concurrent.ForkJoinTask.getSurplusQueuedTaskCount()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getSurplusQueuedTaskCount()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.util.concurrent.ForkJoinTask<V>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.concurrent.ForkJoinTask.class.isAssignableFrom(sut));
     }
 
 }

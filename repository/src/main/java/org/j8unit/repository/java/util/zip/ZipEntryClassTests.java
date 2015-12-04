@@ -36,20 +36,6 @@ public abstract interface ZipEntryClassTests<SUT extends Class<? extends java.ut
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.zip.ZipEntry#ZipEntry(java.util.zip.ZipEntry) public
-     * java.util.zip.ZipEntry(java.util.zip.ZipEntry)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ZipEntry_ZipEntry()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.zip.ZipEntry sut = null; // = new ZipEntry(java.util.zip.ZipEntry);
-    }
-
-    /**
      * Test method for {@link java.util.zip.ZipEntry#ZipEntry(java.lang.String) public
      * java.util.zip.ZipEntry(java.lang.String)}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         // create new instance
         @SuppressWarnings("unused")
         final java.util.zip.ZipEntry sut = null; // = new ZipEntry(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.util.zip.ZipEntry#ZipEntry(java.util.zip.ZipEntry) public
+     * java.util.zip.ZipEntry(java.util.zip.ZipEntry)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ZipEntry_ZipEntry()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.zip.ZipEntry sut = null; // = new ZipEntry(java.util.zip.ZipEntry);
     }
 
     @Override

@@ -23,6 +23,42 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderableImageTests<SUT
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.renderable.RenderableImageOp#createDefaultRendering() public
+     * java.awt.image.RenderedImage java.awt.image.renderable.RenderableImageOp.createDefaultRendering()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createDefaultRendering()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.renderable.RenderableImageOp#createRendering(java.awt.image.renderable.RenderContext)
+     * public java.awt.image.RenderedImage
+     * java.awt.image.renderable.RenderableImageOp.createRendering(java.awt.image.renderable.RenderContext)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_createRendering_RenderContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link java.awt.image.renderable.RenderableImageOp#createScaledRendering(int,int,java.awt.RenderingHints) public
      * java.awt.image.RenderedImage
@@ -34,22 +70,6 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderableImageTests<SUT
     @Category(Draft.class)
     @Override
     public default void test_createScaledRendering_int_int_RenderingHints()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderableImageOp#getParameterBlock() public
-     * java.awt.image.renderable.ParameterBlock java.awt.image.renderable.RenderableImageOp.getParameterBlock()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParameterBlock()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -75,23 +95,6 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderableImageTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.renderable.RenderableImageOp#getMinY() public float
-     * java.awt.image.renderable.RenderableImageOp.getMinY()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getMinY()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.image.renderable.RenderableImageOp#getMinX() public float
      * java.awt.image.renderable.RenderableImageOp.getMinX()}.
      * </p>
@@ -109,15 +112,15 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderableImageTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.renderable.RenderableImageOp#createDefaultRendering() public
-     * java.awt.image.RenderedImage java.awt.image.renderable.RenderableImageOp.createDefaultRendering()}.
+     * Test method for {@link java.awt.image.renderable.RenderableImageOp#getMinY() public float
+     * java.awt.image.renderable.RenderableImageOp.getMinY()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_createDefaultRendering()
+    public default void test_getMinY()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -126,33 +129,14 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderableImageTests<SUT
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderableImageOp#setParameterBlock(java.awt.image.renderable.ParameterBlock)
-     * public java.awt.image.renderable.ParameterBlock
-     * java.awt.image.renderable.RenderableImageOp.setParameterBlock(java.awt.image.renderable.ParameterBlock)}.
+     * Test method for {@link java.awt.image.renderable.RenderableImageOp#getParameterBlock() public
+     * java.awt.image.renderable.ParameterBlock java.awt.image.renderable.RenderableImageOp.getParameterBlock()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setParameterBlock_ParameterBlock()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.renderable.RenderableImageOp#getPropertyNames() public java.lang.String[]
-     * java.awt.image.renderable.RenderableImageOp.getPropertyNames()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getPropertyNames()
+    public default void test_getParameterBlock()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -178,34 +162,15 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderableImageTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.renderable.RenderableImageOp#isDynamic() public boolean
-     * java.awt.image.renderable.RenderableImageOp.isDynamic()}.
+     * Test method for {@link java.awt.image.renderable.RenderableImageOp#getPropertyNames() public java.lang.String[]
+     * java.awt.image.renderable.RenderableImageOp.getPropertyNames()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isDynamic()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.RenderableImageOp#createRendering(java.awt.image.renderable.RenderContext)
-     * public java.awt.image.RenderedImage
-     * java.awt.image.renderable.RenderableImageOp.createRendering(java.awt.image.renderable.RenderContext)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_createRendering_RenderContext()
+    public default void test_getPropertyNames()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -240,6 +205,41 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderableImageTests<SUT
     @Category(Draft.class)
     @Override
     public default void test_getWidth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.renderable.RenderableImageOp#isDynamic() public boolean
+     * java.awt.image.renderable.RenderableImageOp.isDynamic()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isDynamic()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.renderable.RenderableImageOp#setParameterBlock(java.awt.image.renderable.ParameterBlock)
+     * public java.awt.image.renderable.ParameterBlock
+     * java.awt.image.renderable.RenderableImageOp.setParameterBlock(java.awt.image.renderable.ParameterBlock)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setParameterBlock_ParameterBlock()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

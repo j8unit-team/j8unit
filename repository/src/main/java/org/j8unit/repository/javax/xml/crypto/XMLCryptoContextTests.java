@@ -24,14 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setDefaultNamespacePrefix(java.lang.String) public
-     * abstract void javax.xml.crypto.XMLCryptoContext.setDefaultNamespacePrefix(java.lang.String)}.
+     * Test method for {@link javax.xml.crypto.XMLCryptoContext#get(java.lang.Object) public abstract java.lang.Object
+     * javax.xml.crypto.XMLCryptoContext.get(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDefaultNamespacePrefix_String()
+    public default void test_get_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,15 +56,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#putNamespacePrefix(java.lang.String,java.lang.String)
-     * public abstract java.lang.String
-     * javax.xml.crypto.XMLCryptoContext.putNamespacePrefix(java.lang.String,java.lang.String)}.
+     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getDefaultNamespacePrefix() public abstract
+     * java.lang.String javax.xml.crypto.XMLCryptoContext.getDefaultNamespacePrefix()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_putNamespacePrefix_String_String()
+    public default void test_getDefaultNamespacePrefix()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,30 +72,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getURIDereferencer() public abstract
-     * javax.xml.crypto.URIDereferencer javax.xml.crypto.XMLCryptoContext.getURIDereferencer()}.
+     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getKeySelector() public abstract
+     * javax.xml.crypto.KeySelector javax.xml.crypto.XMLCryptoContext.getKeySelector()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getURIDereferencer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setKeySelector(javax.xml.crypto.KeySelector) public
-     * abstract void javax.xml.crypto.XMLCryptoContext.setKeySelector(javax.xml.crypto.KeySelector)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setKeySelector_KeySelector()
+    public default void test_getKeySelector()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -122,14 +105,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#get(java.lang.Object) public abstract java.lang.Object
-     * javax.xml.crypto.XMLCryptoContext.get(java.lang.Object)}.
+     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getProperty(java.lang.String) public abstract
+     * java.lang.Object javax.xml.crypto.XMLCryptoContext.getProperty(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get_Object()
+    public default void test_getProperty_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -138,78 +121,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setProperty(java.lang.String,java.lang.Object) public
-     * abstract java.lang.Object javax.xml.crypto.XMLCryptoContext.setProperty(java.lang.String,java.lang.Object)}.
+     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getURIDereferencer() public abstract
+     * javax.xml.crypto.URIDereferencer javax.xml.crypto.XMLCryptoContext.getURIDereferencer()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setProperty_String_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getKeySelector() public abstract
-     * javax.xml.crypto.KeySelector javax.xml.crypto.XMLCryptoContext.getKeySelector()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getKeySelector()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getDefaultNamespacePrefix() public abstract
-     * java.lang.String javax.xml.crypto.XMLCryptoContext.getDefaultNamespacePrefix()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultNamespacePrefix()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setBaseURI(java.lang.String) public abstract void
-     * javax.xml.crypto.XMLCryptoContext.setBaseURI(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setBaseURI_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setURIDereferencer(javax.xml.crypto.URIDereferencer)
-     * public abstract void javax.xml.crypto.XMLCryptoContext.setURIDereferencer(javax.xml.crypto.URIDereferencer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setURIDereferencer_URIDereferencer()
+    public default void test_getURIDereferencer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -234,14 +153,95 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.XMLCryptoContext#getProperty(java.lang.String) public abstract
-     * java.lang.Object javax.xml.crypto.XMLCryptoContext.getProperty(java.lang.String)}.
+     * Test method for {@link javax.xml.crypto.XMLCryptoContext#putNamespacePrefix(java.lang.String,java.lang.String)
+     * public abstract java.lang.String
+     * javax.xml.crypto.XMLCryptoContext.putNamespacePrefix(java.lang.String,java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getProperty_String()
+    public default void test_putNamespacePrefix_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setBaseURI(java.lang.String) public abstract void
+     * javax.xml.crypto.XMLCryptoContext.setBaseURI(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setBaseURI_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setDefaultNamespacePrefix(java.lang.String) public
+     * abstract void javax.xml.crypto.XMLCryptoContext.setDefaultNamespacePrefix(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDefaultNamespacePrefix_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setKeySelector(javax.xml.crypto.KeySelector) public
+     * abstract void javax.xml.crypto.XMLCryptoContext.setKeySelector(javax.xml.crypto.KeySelector)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setKeySelector_KeySelector()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setProperty(java.lang.String,java.lang.Object) public
+     * abstract java.lang.Object javax.xml.crypto.XMLCryptoContext.setProperty(java.lang.String,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setProperty_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.XMLCryptoContext#setURIDereferencer(javax.xml.crypto.URIDereferencer)
+     * public abstract void javax.xml.crypto.XMLCryptoContext.setURIDereferencer(javax.xml.crypto.URIDereferencer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setURIDereferencer_URIDereferencer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

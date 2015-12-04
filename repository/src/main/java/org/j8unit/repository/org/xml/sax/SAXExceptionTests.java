@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.SAXException#getException() public java.lang.Exception
-     * org.xml.sax.SAXException.getException()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getException()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.xml.sax.SAXException#getCause() public java.lang.Throwable
      * org.xml.sax.SAXException.getCause()}.
      * </p>
@@ -56,15 +40,14 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.SAXException#toString() public java.lang.String
-     * org.xml.sax.SAXException.toString()}.
+     * Test method for {@link org.xml.sax.SAXException#getException() public java.lang.Exception
+     * org.xml.sax.SAXException.getException()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getException()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -82,6 +65,23 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getMessage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.xml.sax.SAXException#toString() public java.lang.String
+     * org.xml.sax.SAXException.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

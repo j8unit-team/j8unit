@@ -36,65 +36,6 @@ public abstract interface JRadioButtonMenuItemClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JMenuItemClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(java.lang.String,javax.swing.Icon)
-     * public javax.swing.JRadioButtonMenuItem(java.lang.String,javax.swing.Icon)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JRadioButtonMenuItem_String_Icon()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JRadioButtonMenuItem sut = null; // = new
-                                                           // JRadioButtonMenuItem(java.lang.String,javax.swing.Icon);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(java.lang.String,boolean) public
-     * javax.swing.JRadioButtonMenuItem(java.lang.String,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JRadioButtonMenuItem_String_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(java.lang.String,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(javax.swing.Icon,boolean) public
-     * javax.swing.JRadioButtonMenuItem(javax.swing.Icon,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JRadioButtonMenuItem_Icon_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(javax.swing.Icon,boolean);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(java.lang.String,javax.swing.Icon,boolean) public
-     * javax.swing.JRadioButtonMenuItem(java.lang.String,javax.swing.Icon,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JRadioButtonMenuItem_String_Icon_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JRadioButtonMenuItem sut = null; // = new
-                                                           // JRadioButtonMenuItem(java.lang.String,javax.swing.Icon,boolean);
-    }
-
-    /**
      * Test method for {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem() public
      * javax.swing.JRadioButtonMenuItem()}.
      */
@@ -106,6 +47,20 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem();
+    }
+
+    /**
+     * Test method for {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(javax.swing.Action) public
+     * javax.swing.JRadioButtonMenuItem(javax.swing.Action)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JRadioButtonMenuItem_Action()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(javax.swing.Action);
     }
 
     /**
@@ -123,6 +78,20 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     }
 
     /**
+     * Test method for {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(javax.swing.Icon,boolean) public
+     * javax.swing.JRadioButtonMenuItem(javax.swing.Icon,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JRadioButtonMenuItem_Icon_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(javax.swing.Icon,boolean);
+    }
+
+    /**
      * Test method for {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(java.lang.String) public
      * javax.swing.JRadioButtonMenuItem(java.lang.String)}.
      */
@@ -137,17 +106,48 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     }
 
     /**
-     * Test method for {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(javax.swing.Action) public
-     * javax.swing.JRadioButtonMenuItem(javax.swing.Action)}.
+     * Test method for {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(java.lang.String,boolean) public
+     * javax.swing.JRadioButtonMenuItem(java.lang.String,boolean)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JRadioButtonMenuItem_Action()
+    public default void create_JRadioButtonMenuItem_String_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(javax.swing.Action);
+        final javax.swing.JRadioButtonMenuItem sut = null; // = new JRadioButtonMenuItem(java.lang.String,boolean);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(java.lang.String,javax.swing.Icon)
+     * public javax.swing.JRadioButtonMenuItem(java.lang.String,javax.swing.Icon)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JRadioButtonMenuItem_String_Icon()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JRadioButtonMenuItem sut = null; // = new
+                                                           // JRadioButtonMenuItem(java.lang.String,javax.swing.Icon);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.JRadioButtonMenuItem#JRadioButtonMenuItem(java.lang.String,javax.swing.Icon,boolean) public
+     * javax.swing.JRadioButtonMenuItem(java.lang.String,javax.swing.Icon,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JRadioButtonMenuItem_String_Icon_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JRadioButtonMenuItem sut = null; // = new
+                                                           // JRadioButtonMenuItem(java.lang.String,javax.swing.Icon,boolean);
     }
 
     @Override

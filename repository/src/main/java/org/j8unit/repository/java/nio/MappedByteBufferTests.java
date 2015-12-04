@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.nio.ByteBufferTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.MappedByteBuffer#isLoaded() public final boolean
-     * java.nio.MappedByteBuffer.isLoaded()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isLoaded()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.MappedByteBuffer#force() public final java.nio.MappedByteBuffer
      * java.nio.MappedByteBuffer.force()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.nio.ByteBufferTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_force()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.MappedByteBuffer#isLoaded() public final boolean
+     * java.nio.MappedByteBuffer.isLoaded()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isLoaded()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

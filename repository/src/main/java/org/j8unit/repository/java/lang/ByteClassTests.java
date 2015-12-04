@@ -61,14 +61,19 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
         final java.lang.Byte sut = null; // = new Byte(java.lang.String);
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.lang.Byte#compare(byte,byte) public static int java.lang.Byte.compare(byte,byte)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_compare_byte_byte()
     throws Exception {
-        // create new instance
-        final Class<? extends java.lang.Byte> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.Byte.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -81,6 +86,21 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
     @Test
     @Category(Draft.class)
     public default void test_decode_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Byte#hashCode(byte) public static int java.lang.Byte.hashCode(byte)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode_byte()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,6 +141,22 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
 
     /**
      * <p>
+     * Test method for {@link java.lang.Byte#toString(byte) public static java.lang.String
+     * java.lang.Byte.toString(byte)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_byte()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.lang.Byte#toUnsignedInt(byte) public static int java.lang.Byte.toUnsignedInt(byte)}.
      * </p>
      */
@@ -152,29 +188,13 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
 
     /**
      * <p>
-     * Test method for {@link java.lang.Byte#toString(byte) public static java.lang.String
-     * java.lang.Byte.toString(byte)}.
+     * Test method for {@link java.lang.Byte#valueOf(byte) public static java.lang.Byte java.lang.Byte.valueOf(byte)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toString_byte()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Byte#hashCode(byte) public static int java.lang.Byte.hashCode(byte)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode_byte()
+    public default void test_valueOf_byte()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -199,21 +219,6 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
 
     /**
      * <p>
-     * Test method for {@link java.lang.Byte#valueOf(byte) public static java.lang.Byte java.lang.Byte.valueOf(byte)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_valueOf_byte()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.Byte#valueOf(java.lang.String,int) public static java.lang.Byte
      * java.lang.Byte.valueOf(java.lang.String,int) throws java.lang.NumberFormatException}.
      * </p>
@@ -228,19 +233,14 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Byte
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.lang.Byte#compare(byte,byte) public static int java.lang.Byte.compare(byte,byte)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_compare_byte_byte()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.lang.Byte> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.Byte.class.isAssignableFrom(sut));
     }
 
 }

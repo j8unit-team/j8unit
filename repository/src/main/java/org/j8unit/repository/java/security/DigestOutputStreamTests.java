@@ -39,6 +39,22 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.security.DigestOutputStream#on(boolean) public void
+     * java.security.DigestOutputStream.on(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_on_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.security.DigestOutputStream#setMessageDigest(java.security.MessageDigest) public void
      * java.security.DigestOutputStream.setMessageDigest(java.security.MessageDigest)}.
      * </p>
@@ -72,14 +88,15 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.DigestOutputStream#on(boolean) public void
-     * java.security.DigestOutputStream.on(boolean)}.
+     * Test method for {@link java.security.DigestOutputStream#write(byte[],int,int) public void
+     * java.security.DigestOutputStream.write(byte[],int,int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_on_boolean()
+    @Override
+    public default void test_write_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -97,23 +114,6 @@ extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_write_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.DigestOutputStream#write(byte[],int,int) public void
-     * java.security.DigestOutputStream.write(byte[],int,int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_write_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

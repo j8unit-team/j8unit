@@ -37,31 +37,30 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.geom.AffineTransform#AffineTransform(float,float,float,float,float,float) public
-     * java.awt.geom.AffineTransform(float,float,float,float,float,float)}.
+     * Test method for {@link java.awt.geom.AffineTransform#AffineTransform() public java.awt.geom.AffineTransform()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_AffineTransform_float_float_float_float_float_float()
+    public default void create_AffineTransform()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.geom.AffineTransform sut = null; // = new AffineTransform(float,float,float,float,float,float);
+        final java.awt.geom.AffineTransform sut = null; // = new AffineTransform();
     }
 
     /**
-     * Test method for {@link java.awt.geom.AffineTransform#AffineTransform(float[]) public
-     * java.awt.geom.AffineTransform(float[])}.
+     * Test method for {@link java.awt.geom.AffineTransform#AffineTransform(java.awt.geom.AffineTransform) public
+     * java.awt.geom.AffineTransform(java.awt.geom.AffineTransform)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_AffineTransform_floatArray()
+    public default void create_AffineTransform_AffineTransform()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.geom.AffineTransform sut = null; // = new AffineTransform(float[]);
+        final java.awt.geom.AffineTransform sut = null; // = new AffineTransform(java.awt.geom.AffineTransform);
     }
 
     /**
@@ -94,136 +93,31 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.geom.AffineTransform#AffineTransform() public java.awt.geom.AffineTransform()}.
+     * Test method for {@link java.awt.geom.AffineTransform#AffineTransform(float,float,float,float,float,float) public
+     * java.awt.geom.AffineTransform(float,float,float,float,float,float)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_AffineTransform()
+    public default void create_AffineTransform_float_float_float_float_float_float()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.geom.AffineTransform sut = null; // = new AffineTransform();
+        final java.awt.geom.AffineTransform sut = null; // = new AffineTransform(float,float,float,float,float,float);
     }
 
     /**
-     * Test method for {@link java.awt.geom.AffineTransform#AffineTransform(java.awt.geom.AffineTransform) public
-     * java.awt.geom.AffineTransform(java.awt.geom.AffineTransform)}.
+     * Test method for {@link java.awt.geom.AffineTransform#AffineTransform(float[]) public
+     * java.awt.geom.AffineTransform(float[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_AffineTransform_AffineTransform()
+    public default void create_AffineTransform_floatArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.geom.AffineTransform sut = null; // = new AffineTransform(java.awt.geom.AffineTransform);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.geom.AffineTransform> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.geom.AffineTransform.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.AffineTransform#getRotateInstance(double) public static
-     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRotateInstance_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.AffineTransform#getRotateInstance(double,double,double) public static
-     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double,double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRotateInstance_double_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.AffineTransform#getRotateInstance(double,double) public static
-     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRotateInstance_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.AffineTransform#getRotateInstance(double,double,double,double) public static
-     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double,double,double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRotateInstance_double_double_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.AffineTransform#getShearInstance(double,double) public static
-     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getShearInstance(double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getShearInstance_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.AffineTransform#getScaleInstance(double,double) public static
-     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getScaleInstance(double,double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getScaleInstance_double_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        final java.awt.geom.AffineTransform sut = null; // = new AffineTransform(float[]);
     }
 
     /**
@@ -260,6 +154,102 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.geom.AffineTransform#getRotateInstance(double) public static
+     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRotateInstance_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.AffineTransform#getRotateInstance(double,double) public static
+     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRotateInstance_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.AffineTransform#getRotateInstance(double,double,double) public static
+     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double,double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRotateInstance_double_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.AffineTransform#getRotateInstance(double,double,double,double) public static
+     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getRotateInstance(double,double,double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRotateInstance_double_double_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.AffineTransform#getScaleInstance(double,double) public static
+     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getScaleInstance(double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getScaleInstance_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.AffineTransform#getShearInstance(double,double) public static
+     * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getShearInstance(double,double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getShearInstance_double_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.geom.AffineTransform#getTranslateInstance(double,double) public static
      * java.awt.geom.AffineTransform java.awt.geom.AffineTransform.getTranslateInstance(double,double)}.
      * </p>
@@ -272,6 +262,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.geom.AffineTransform> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.geom.AffineTransform.class.isAssignableFrom(sut));
     }
 
 }

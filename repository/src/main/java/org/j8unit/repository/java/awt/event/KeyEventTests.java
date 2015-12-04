@@ -23,45 +23,14 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.KeyEvent#getKeyCode() public int java.awt.event.KeyEvent.getKeyCode()}.
+     * Test method for {@link java.awt.event.KeyEvent#getExtendedKeyCode() public int
+     * java.awt.event.KeyEvent.getExtendedKeyCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getKeyCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.KeyEvent#setKeyChar(char) public void
-     * java.awt.event.KeyEvent.setKeyChar(char)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setKeyChar_char()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.KeyEvent#setModifiers(int) public void
-     * java.awt.event.KeyEvent.setModifiers(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setModifiers_int()
+    public default void test_getExtendedKeyCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -85,14 +54,13 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.KeyEvent#setKeyCode(int) public void
-     * java.awt.event.KeyEvent.setKeyCode(int)}.
+     * Test method for {@link java.awt.event.KeyEvent#getKeyCode() public int java.awt.event.KeyEvent.getKeyCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setKeyCode_int()
+    public default void test_getKeyCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -109,6 +77,22 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getKeyLocation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.KeyEvent#isActionKey() public boolean
+     * java.awt.event.KeyEvent.isActionKey()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isActionKey()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -134,14 +118,14 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.KeyEvent#isActionKey() public boolean
-     * java.awt.event.KeyEvent.isActionKey()}.
+     * Test method for {@link java.awt.event.KeyEvent#setKeyChar(char) public void
+     * java.awt.event.KeyEvent.setKeyChar(char)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isActionKey()
+    public default void test_setKeyChar_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -150,14 +134,30 @@ extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.KeyEvent#getExtendedKeyCode() public int
-     * java.awt.event.KeyEvent.getExtendedKeyCode()}.
+     * Test method for {@link java.awt.event.KeyEvent#setKeyCode(int) public void
+     * java.awt.event.KeyEvent.setKeyCode(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getExtendedKeyCode()
+    public default void test_setKeyCode_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.KeyEvent#setModifiers(int) public void
+     * java.awt.event.KeyEvent.setModifiers(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setModifiers_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,17 +36,16 @@ public abstract interface JEditorPaneClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.javax.swing.text.JTextComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JEditorPane#JEditorPane(java.lang.String,java.lang.String) public
-     * javax.swing.JEditorPane(java.lang.String,java.lang.String)}.
+     * Test method for {@link javax.swing.JEditorPane#JEditorPane() public javax.swing.JEditorPane()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JEditorPane_String_String()
+    public default void create_JEditorPane()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JEditorPane sut = null; // = new JEditorPane(java.lang.String,java.lang.String);
+        final javax.swing.JEditorPane sut = null; // = new JEditorPane();
     }
 
     /**
@@ -64,6 +63,20 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentClassTests<SUT> {
     }
 
     /**
+     * Test method for {@link javax.swing.JEditorPane#JEditorPane(java.lang.String,java.lang.String) public
+     * javax.swing.JEditorPane(java.lang.String,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JEditorPane_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JEditorPane sut = null; // = new JEditorPane(java.lang.String,java.lang.String);
+    }
+
+    /**
      * Test method for {@link javax.swing.JEditorPane#JEditorPane(java.net.URL) public
      * javax.swing.JEditorPane(java.net.URL) throws java.io.IOException}.
      */
@@ -78,29 +91,6 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.JEditorPane#JEditorPane() public javax.swing.JEditorPane()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JEditorPane()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JEditorPane sut = null; // = new JEditorPane();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.JEditorPane> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JEditorPane.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test method for {@link javax.swing.JEditorPane#createEditorKitForContentType(java.lang.String) public static
      * javax.swing.text.EditorKit javax.swing.JEditorPane.createEditorKitForContentType(java.lang.String)}.
@@ -110,6 +100,38 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createEditorKitForContentType_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JEditorPane#getEditorKitClassNameForContentType(java.lang.String) public
+     * static java.lang.String javax.swing.JEditorPane.getEditorKitClassNameForContentType(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEditorKitClassNameForContentType_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JEditorPane#registerEditorKitForContentType(java.lang.String,java.lang.String)
+     * public static void javax.swing.JEditorPane.registerEditorKitForContentType(java.lang.String,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_registerEditorKitForContentType_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,36 +157,14 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JEditorPane#registerEditorKitForContentType(java.lang.String,java.lang.String)
-     * public static void javax.swing.JEditorPane.registerEditorKitForContentType(java.lang.String,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_registerEditorKitForContentType_String_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JEditorPane#getEditorKitClassNameForContentType(java.lang.String) public
-     * static java.lang.String javax.swing.JEditorPane.getEditorKitClassNameForContentType(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEditorKitClassNameForContentType_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.swing.JEditorPane> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.JEditorPane.class.isAssignableFrom(sut));
     }
 
 }

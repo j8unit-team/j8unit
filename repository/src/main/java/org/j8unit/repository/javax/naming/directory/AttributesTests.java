@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
+     * Test method for {@link javax.naming.directory.Attributes#clone() public abstract java.lang.Object
+     * javax.naming.directory.Attributes.clone()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.naming.directory.Attributes#get(java.lang.String) public abstract
      * javax.naming.directory.Attribute javax.naming.directory.Attributes.get(java.lang.String)}.
      * </p>
@@ -31,38 +47,6 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
     @Test
     @Category(Draft.class)
     public default void test_get_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.directory.Attributes#size() public abstract int
-     * javax.naming.directory.Attributes.size()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_size()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.directory.Attributes#isCaseIgnored() public abstract boolean
-     * javax.naming.directory.Attributes.isCaseIgnored()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isCaseIgnored()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,14 +71,30 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.Attributes#remove(java.lang.String) public abstract
-     * javax.naming.directory.Attribute javax.naming.directory.Attributes.remove(java.lang.String)}.
+     * Test method for {@link javax.naming.directory.Attributes#getIDs() public abstract javax.naming.NamingEnumeration
+     * javax.naming.directory.Attributes.getIDs()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_remove_String()
+    public default void test_getIDs()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.directory.Attributes#isCaseIgnored() public abstract boolean
+     * javax.naming.directory.Attributes.isCaseIgnored()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isCaseIgnored()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,14 +135,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.Attributes#getIDs() public abstract javax.naming.NamingEnumeration
-     * javax.naming.directory.Attributes.getIDs()}.
+     * Test method for {@link javax.naming.directory.Attributes#remove(java.lang.String) public abstract
+     * javax.naming.directory.Attribute javax.naming.directory.Attributes.remove(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getIDs()
+    public default void test_remove_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -151,14 +151,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link javax.naming.directory.Attributes#clone() public abstract java.lang.Object
-     * javax.naming.directory.Attributes.clone()}.
+     * Test method for {@link javax.naming.directory.Attributes#size() public abstract int
+     * javax.naming.directory.Attributes.size()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clone()
+    public default void test_size()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

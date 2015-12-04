@@ -35,6 +35,19 @@ public abstract interface AWTEventClassTests<SUT extends Class<? extends java.aw
 extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.awt.AWTEvent#AWTEvent(java.awt.Event) public java.awt.AWTEvent(java.awt.Event)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AWTEvent_Event()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.AWTEvent sut = null; // = new AWTEvent(java.awt.Event);
+    }
+
+    /**
      * Test method for {@link java.awt.AWTEvent#AWTEvent(java.lang.Object,int) public
      * java.awt.AWTEvent(java.lang.Object,int)}.
      */
@@ -46,19 +59,6 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.AWTEvent sut = null; // = new AWTEvent(java.lang.Object,int);
-    }
-
-    /**
-     * Test method for {@link java.awt.AWTEvent#AWTEvent(java.awt.Event) public java.awt.AWTEvent(java.awt.Event)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AWTEvent_Event()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.AWTEvent sut = null; // = new AWTEvent(java.awt.Event);
     }
 
     @Override

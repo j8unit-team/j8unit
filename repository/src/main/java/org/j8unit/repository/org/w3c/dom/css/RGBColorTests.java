@@ -24,6 +24,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.w3c.dom.css.RGBColor#getBlue() public abstract org.w3c.dom.css.CSSPrimitiveValue
+     * org.w3c.dom.css.RGBColor.getBlue()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBlue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.w3c.dom.css.RGBColor#getGreen() public abstract org.w3c.dom.css.CSSPrimitiveValue
      * org.w3c.dom.css.RGBColor.getGreen()}.
      * </p>
@@ -48,22 +64,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getRed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.css.RGBColor#getBlue() public abstract org.w3c.dom.css.CSSPrimitiveValue
-     * org.w3c.dom.css.RGBColor.getBlue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBlue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

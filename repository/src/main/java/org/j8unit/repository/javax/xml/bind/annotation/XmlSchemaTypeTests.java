@@ -23,6 +23,24 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
+     * Test class for {@link javax.xml.bind.annotation.XmlSchemaType$DEFAULT class
+     * javax.xml.bind.annotation.XmlSchemaType$DEFAULT}, containing all instance relevant test methods (i.&thinsp;e.,
+     * test methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.xml.bind.annotation.XmlSchemaTypeClassTests.DEFAULTClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface DEFAULTTests<SUT extends javax.xml.bind.annotation.XmlSchemaType.DEFAULT>
+    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.bind.annotation.XmlSchemaType#name() public abstract java.lang.String
      * javax.xml.bind.annotation.XmlSchemaType.name()}.
      * </p>
@@ -67,24 +85,6 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test class for {@link javax.xml.bind.annotation.XmlSchemaType$DEFAULT class
-     * javax.xml.bind.annotation.XmlSchemaType$DEFAULT}, containing all instance relevant test methods (i.&thinsp;e.,
-     * test methods of non-{@code static} methods).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.xml.bind.annotation.XmlSchemaTypeClassTests.DEFAULTClassTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface DEFAULTTests<SUT extends javax.xml.bind.annotation.XmlSchemaType.DEFAULT>
-    extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
-
     }
 
 }

@@ -36,16 +36,6 @@ public abstract interface SynthInternalFrameUIClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.javax.swing.plaf.synth.SynthUIClassTests<SUT>, org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>,
 org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.synth.SynthInternalFrameUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.synth.SynthInternalFrameUI.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthInternalFrameUI#createUI(javax.swing.JComponent) public static
@@ -61,6 +51,16 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests<SUT>
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.synth.SynthInternalFrameUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.synth.SynthInternalFrameUI.class.isAssignableFrom(sut));
     }
 
 }

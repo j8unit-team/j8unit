@@ -49,14 +49,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.CORBA.ULongLongSeqHelper sut = null; // = new ULongLongSeqHelper();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.ULongLongSeqHelper#extract(org.omg.CORBA.Any) public static long[]
+     * org.omg.CORBA.ULongLongSeqHelper.extract(org.omg.CORBA.Any)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_extract_Any()
     throws Exception {
-        // create new instance
-        final Class<? extends org.omg.CORBA.ULongLongSeqHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.CORBA.ULongLongSeqHelper.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -93,14 +99,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ULongLongSeqHelper#write(org.omg.CORBA.portable.OutputStream,long[]) public
-     * static void org.omg.CORBA.ULongLongSeqHelper.write(org.omg.CORBA.portable.OutputStream,long[])}.
+     * Test method for {@link org.omg.CORBA.ULongLongSeqHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * long[] org.omg.CORBA.ULongLongSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_OutputStream_longArray()
+    public default void test_read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -125,34 +131,28 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.ULongLongSeqHelper#read(org.omg.CORBA.portable.InputStream) public static
-     * long[] org.omg.CORBA.ULongLongSeqHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * Test method for {@link org.omg.CORBA.ULongLongSeqHelper#write(org.omg.CORBA.portable.OutputStream,long[]) public
+     * static void org.omg.CORBA.ULongLongSeqHelper.write(org.omg.CORBA.portable.OutputStream,long[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_read_InputStream()
+    public default void test_write_OutputStream_longArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ULongLongSeqHelper#extract(org.omg.CORBA.Any) public static long[]
-     * org.omg.CORBA.ULongLongSeqHelper.extract(org.omg.CORBA.Any)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_extract_Any()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.CORBA.ULongLongSeqHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.CORBA.ULongLongSeqHelper.class.isAssignableFrom(sut));
     }
 
 }

@@ -31,14 +31,69 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextTests, org.j8uni
 
     /**
      * <p>
-     * Test method for {@link java.beans.beancontext.BeanContextServices#hasService(java.lang.Class) public abstract
-     * boolean java.beans.beancontext.BeanContextServices.hasService(java.lang.Class)}.
+     * Test method for
+     * {@link java.beans.beancontext.BeanContextServices#addBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)
+     * public abstract void
+     * java.beans.beancontext.BeanContextServices.addBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasService_Class()
+    public default void test_addBeanContextServicesListener_BeanContextServicesListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.beans.beancontext.BeanContextServices#addService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider)
+     * public abstract boolean
+     * java.beans.beancontext.BeanContextServices.addService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addService_Class_BeanContextServiceProvider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.beancontext.BeanContextServices#getCurrentServiceClasses() public abstract
+     * java.util.Iterator java.beans.beancontext.BeanContextServices.getCurrentServiceClasses()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCurrentServiceClasses()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.beancontext.BeanContextServices#getCurrentServiceSelectors(java.lang.Class)
+     * public abstract java.util.Iterator
+     * java.beans.beancontext.BeanContextServices.getCurrentServiceSelectors(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCurrentServiceSelectors_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -66,17 +121,14 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextTests, org.j8uni
 
     /**
      * <p>
-     * Test method for
-     * {@link java.beans.beancontext.BeanContextServices#addBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)
-     * public abstract void
-     * java.beans.beancontext.BeanContextServices.addBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)}
-     * .
+     * Test method for {@link java.beans.beancontext.BeanContextServices#hasService(java.lang.Class) public abstract
+     * boolean java.beans.beancontext.BeanContextServices.hasService(java.lang.Class)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addBeanContextServicesListener_BeanContextServicesListener()
+    public default void test_hasService_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -105,25 +157,6 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextTests, org.j8uni
     /**
      * <p>
      * Test method for
-     * {@link java.beans.beancontext.BeanContextServices#addService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider)
-     * public abstract boolean
-     * java.beans.beancontext.BeanContextServices.addService(java.lang.Class,java.beans.beancontext.BeanContextServiceProvider)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addService_Class_BeanContextServiceProvider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link java.beans.beancontext.BeanContextServices#removeBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)
      * public abstract void
      * java.beans.beancontext.BeanContextServices.removeBeanContextServicesListener(java.beans.beancontext.BeanContextServicesListener)}
@@ -134,39 +167,6 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextTests, org.j8uni
     @Test
     @Category(Draft.class)
     public default void test_removeBeanContextServicesListener_BeanContextServicesListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.beancontext.BeanContextServices#getCurrentServiceSelectors(java.lang.Class)
-     * public abstract java.util.Iterator
-     * java.beans.beancontext.BeanContextServices.getCurrentServiceSelectors(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCurrentServiceSelectors_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.beancontext.BeanContextServices#getCurrentServiceClasses() public abstract
-     * java.util.Iterator java.beans.beancontext.BeanContextServices.getCurrentServiceClasses()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCurrentServiceClasses()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

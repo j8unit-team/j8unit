@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.io.LineNumberInputStream#available() public int
+     * java.io.LineNumberInputStream.available() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_available()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.io.LineNumberInputStream#getLineNumber() public int
      * java.io.LineNumberInputStream.getLineNumber()}.
      * </p>
@@ -39,15 +56,15 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.LineNumberInputStream#read(byte[],int,int) public int
-     * java.io.LineNumberInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for {@link java.io.LineNumberInputStream#mark(int) public void
+     * java.io.LineNumberInputStream.mark(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_read_byteArray_int_int()
+    public default void test_mark_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -65,6 +82,23 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_read()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.LineNumberInputStream#read(byte[],int,int) public int
+     * java.io.LineNumberInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_read_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,23 +140,6 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.LineNumberInputStream#available() public int
-     * java.io.LineNumberInputStream.available() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_available()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.io.LineNumberInputStream#skip(long) public long
      * java.io.LineNumberInputStream.skip(long) throws java.io.IOException}.
      * </p>
@@ -132,23 +149,6 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_skip_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.LineNumberInputStream#mark(int) public void
-     * java.io.LineNumberInputStream.mark(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_mark_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

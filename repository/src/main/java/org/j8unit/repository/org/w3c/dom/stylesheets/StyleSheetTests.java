@@ -24,38 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.stylesheets.StyleSheet#getMedia() public abstract
-     * org.w3c.dom.stylesheets.MediaList org.w3c.dom.stylesheets.StyleSheet.getMedia()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMedia()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.stylesheets.StyleSheet#getTitle() public abstract java.lang.String
-     * org.w3c.dom.stylesheets.StyleSheet.getTitle()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTitle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.stylesheets.StyleSheet#getDisabled() public abstract boolean
      * org.w3c.dom.stylesheets.StyleSheet.getDisabled()}.
      * </p>
@@ -88,14 +56,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.stylesheets.StyleSheet#setDisabled(boolean) public abstract void
-     * org.w3c.dom.stylesheets.StyleSheet.setDisabled(boolean)}.
+     * Test method for {@link org.w3c.dom.stylesheets.StyleSheet#getMedia() public abstract
+     * org.w3c.dom.stylesheets.MediaList org.w3c.dom.stylesheets.StyleSheet.getMedia()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDisabled_boolean()
+    public default void test_getMedia()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,14 +72,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.stylesheets.StyleSheet#getType() public abstract java.lang.String
-     * org.w3c.dom.stylesheets.StyleSheet.getType()}.
+     * Test method for {@link org.w3c.dom.stylesheets.StyleSheet#getOwnerNode() public abstract org.w3c.dom.Node
+     * org.w3c.dom.stylesheets.StyleSheet.getOwnerNode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getType()
+    public default void test_getOwnerNode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -136,14 +104,46 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.stylesheets.StyleSheet#getOwnerNode() public abstract org.w3c.dom.Node
-     * org.w3c.dom.stylesheets.StyleSheet.getOwnerNode()}.
+     * Test method for {@link org.w3c.dom.stylesheets.StyleSheet#getTitle() public abstract java.lang.String
+     * org.w3c.dom.stylesheets.StyleSheet.getTitle()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOwnerNode()
+    public default void test_getTitle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.stylesheets.StyleSheet#getType() public abstract java.lang.String
+     * org.w3c.dom.stylesheets.StyleSheet.getType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.stylesheets.StyleSheet#setDisabled(boolean) public abstract void
+     * org.w3c.dom.stylesheets.StyleSheet.setDisabled(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDisabled_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

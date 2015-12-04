@@ -36,20 +36,6 @@ public abstract interface EmptyBorderClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.border.EmptyBorder#EmptyBorder(int,int,int,int) public
-     * javax.swing.border.EmptyBorder(int,int,int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_EmptyBorder_int_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.border.EmptyBorder sut = null; // = new EmptyBorder(int,int,int,int);
-    }
-
-    /**
      * Test method for {@link javax.swing.border.EmptyBorder#EmptyBorder(java.awt.Insets) public
      * javax.swing.border.EmptyBorder(java.awt.Insets)}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.border.EmptyBorder sut = null; // = new EmptyBorder(java.awt.Insets);
+    }
+
+    /**
+     * Test method for {@link javax.swing.border.EmptyBorder#EmptyBorder(int,int,int,int) public
+     * javax.swing.border.EmptyBorder(int,int,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_EmptyBorder_int_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.border.EmptyBorder sut = null; // = new EmptyBorder(int,int,int,int);
     }
 
     @Override

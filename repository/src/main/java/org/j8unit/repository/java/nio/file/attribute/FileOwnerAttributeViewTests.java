@@ -41,6 +41,23 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
 
     /**
      * <p>
+     * Test method for {@link java.nio.file.attribute.FileOwnerAttributeView#name() public abstract java.lang.String
+     * java.nio.file.attribute.FileOwnerAttributeView.name()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_name()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link java.nio.file.attribute.FileOwnerAttributeView#setOwner(java.nio.file.attribute.UserPrincipal) public
      * abstract void java.nio.file.attribute.FileOwnerAttributeView.setOwner(java.nio.file.attribute.UserPrincipal)
@@ -51,23 +68,6 @@ extends org.j8unit.repository.java.nio.file.attribute.FileAttributeViewTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_setOwner_UserPrincipal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.attribute.FileOwnerAttributeView#name() public abstract java.lang.String
-     * java.nio.file.attribute.FileOwnerAttributeView.name()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

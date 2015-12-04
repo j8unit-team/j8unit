@@ -23,22 +23,6 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#getCh() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableSectionElement.getCh()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCh()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#deleteRow(int) public abstract void
      * org.w3c.dom.html.HTMLTableSectionElement.deleteRow(int) throws org.w3c.dom.DOMException}.
      * </p>
@@ -55,14 +39,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#setCh(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableSectionElement.setCh(java.lang.String)}.
+     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#getAlign() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLTableSectionElement.getAlign()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCh_String()
+    public default void test_getAlign()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,15 +55,14 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#insertRow(int) public abstract
-     * org.w3c.dom.html.HTMLElement org.w3c.dom.html.HTMLTableSectionElement.insertRow(int) throws
-     * org.w3c.dom.DOMException}.
+     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#getCh() public abstract java.lang.String
+     * org.w3c.dom.html.HTMLTableSectionElement.getCh()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_insertRow_int()
+    public default void test_getCh()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -96,54 +79,6 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getChOff()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#setAlign(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableSectionElement.setAlign(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setAlign_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#setChOff(java.lang.String) public abstract void
-     * org.w3c.dom.html.HTMLTableSectionElement.setChOff(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setChOff_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#getAlign() public abstract java.lang.String
-     * org.w3c.dom.html.HTMLTableSectionElement.getAlign()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAlign()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -176,6 +111,71 @@ extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getVAlign()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#insertRow(int) public abstract
+     * org.w3c.dom.html.HTMLElement org.w3c.dom.html.HTMLTableSectionElement.insertRow(int) throws
+     * org.w3c.dom.DOMException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insertRow_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#setAlign(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableSectionElement.setAlign(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAlign_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#setCh(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableSectionElement.setCh(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCh_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.html.HTMLTableSectionElement#setChOff(java.lang.String) public abstract void
+     * org.w3c.dom.html.HTMLTableSectionElement.setChOff(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setChOff_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

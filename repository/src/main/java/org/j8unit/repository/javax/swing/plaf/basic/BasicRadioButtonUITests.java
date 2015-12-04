@@ -23,6 +23,22 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicToggleButtonUITests<SU
 
     /**
      * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicRadioButtonUI#getDefaultIcon() public javax.swing.Icon
+     * javax.swing.plaf.basic.BasicRadioButtonUI.getDefaultIcon()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDefaultIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicRadioButtonUI#getPreferredSize(javax.swing.JComponent) public
      * java.awt.Dimension javax.swing.plaf.basic.BasicRadioButtonUI.getPreferredSize(javax.swing.JComponent)}.
      * </p>
@@ -32,22 +48,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicToggleButtonUITests<SU
     @Category(Draft.class)
     @Override
     public default void test_getPreferredSize_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicRadioButtonUI#getDefaultIcon() public javax.swing.Icon
-     * javax.swing.plaf.basic.BasicRadioButtonUI.getDefaultIcon()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultIcon()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -35,14 +35,58 @@ import org.junit.experimental.categories.Category;
 public abstract interface NamingManagerClassTests<SUT extends Class<? extends javax.naming.spi.NamingManager>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.naming.spi.NamingManager#getContinuationContext(javax.naming.CannotProceedException)
+     * public static javax.naming.Context
+     * javax.naming.spi.NamingManager.getContinuationContext(javax.naming.CannotProceedException) throws
+     * javax.naming.NamingException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getContinuationContext_CannotProceedException()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.naming.spi.NamingManager> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.naming.spi.NamingManager.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.spi.NamingManager#getInitialContext(java.util.Hashtable) public static
+     * javax.naming.Context javax.naming.spi.NamingManager.getInitialContext(java.util.Hashtable) throws
+     * javax.naming.NamingException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInitialContext_Hashtable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.naming.spi.NamingManager#getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)
+     * public static java.lang.Object
+     * javax.naming.spi.NamingManager.getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)
+     * throws java.lang.Exception}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getObjectInstance_Object_Name_Context_Hashtable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -58,6 +102,39 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getStateToBind_Object_Name_Context_Hashtable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.spi.NamingManager#getURLContext(java.lang.String,java.util.Hashtable) public
+     * static javax.naming.Context javax.naming.spi.NamingManager.getURLContext(java.lang.String,java.util.Hashtable)
+     * throws javax.naming.NamingException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getURLContext_String_Hashtable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.spi.NamingManager#hasInitialContextFactoryBuilder() public static boolean
+     * javax.naming.spi.NamingManager.hasInitialContextFactoryBuilder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hasInitialContextFactoryBuilder()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -86,76 +163,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.spi.NamingManager#getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)
-     * public static java.lang.Object
-     * javax.naming.spi.NamingManager.getObjectInstance(java.lang.Object,javax.naming.Name,javax.naming.Context,java.util.Hashtable)
-     * throws java.lang.Exception}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getObjectInstance_Object_Name_Context_Hashtable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.spi.NamingManager#getInitialContext(java.util.Hashtable) public static
-     * javax.naming.Context javax.naming.spi.NamingManager.getInitialContext(java.util.Hashtable) throws
-     * javax.naming.NamingException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInitialContext_Hashtable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.spi.NamingManager#hasInitialContextFactoryBuilder() public static boolean
-     * javax.naming.spi.NamingManager.hasInitialContextFactoryBuilder()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hasInitialContextFactoryBuilder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.spi.NamingManager#getContinuationContext(javax.naming.CannotProceedException)
-     * public static javax.naming.Context
-     * javax.naming.spi.NamingManager.getContinuationContext(javax.naming.CannotProceedException) throws
-     * javax.naming.NamingException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getContinuationContext_CannotProceedException()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link javax.naming.spi.NamingManager#setObjectFactoryBuilder(javax.naming.spi.ObjectFactoryBuilder) public
      * static synchronized void
      * javax.naming.spi.NamingManager.setObjectFactoryBuilder(javax.naming.spi.ObjectFactoryBuilder) throws
@@ -172,21 +179,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.naming.spi.NamingManager#getURLContext(java.lang.String,java.util.Hashtable) public
-     * static javax.naming.Context javax.naming.spi.NamingManager.getURLContext(java.lang.String,java.util.Hashtable)
-     * throws javax.naming.NamingException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getURLContext_String_Hashtable()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.naming.spi.NamingManager> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.naming.spi.NamingManager.class.isAssignableFrom(sut));
     }
 
 }

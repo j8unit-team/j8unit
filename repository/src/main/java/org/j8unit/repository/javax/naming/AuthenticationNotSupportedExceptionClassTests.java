@@ -37,6 +37,21 @@ public abstract interface AuthenticationNotSupportedExceptionClassTests<SUT exte
 extends org.j8unit.repository.javax.naming.NamingSecurityExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.naming.AuthenticationNotSupportedException#AuthenticationNotSupportedException()
+     * public javax.naming.AuthenticationNotSupportedException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AuthenticationNotSupportedException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.AuthenticationNotSupportedException sut = null; // = new
+                                                                           // AuthenticationNotSupportedException();
+    }
+
+    /**
      * Test method for
      * {@link javax.naming.AuthenticationNotSupportedException#AuthenticationNotSupportedException(java.lang.String)
      * public javax.naming.AuthenticationNotSupportedException(java.lang.String)}.
@@ -50,21 +65,6 @@ extends org.j8unit.repository.javax.naming.NamingSecurityExceptionClassTests<SUT
         @SuppressWarnings("unused")
         final javax.naming.AuthenticationNotSupportedException sut = null; // = new
                                                                            // AuthenticationNotSupportedException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.naming.AuthenticationNotSupportedException#AuthenticationNotSupportedException()
-     * public javax.naming.AuthenticationNotSupportedException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AuthenticationNotSupportedException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.AuthenticationNotSupportedException sut = null; // = new
-                                                                           // AuthenticationNotSupportedException();
     }
 
     @Override

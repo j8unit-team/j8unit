@@ -40,31 +40,15 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#putLast(java.lang.Object) public abstract void
-     * java.util.concurrent.BlockingDeque.putLast(java.lang.Object) throws java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_putLast_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#peek() public abstract java.lang.Object
-     * java.util.concurrent.BlockingDeque.peek()}.
+     * Test method for {@link java.util.concurrent.BlockingDeque#addFirst(java.lang.Object) public abstract void
+     * java.util.concurrent.BlockingDeque.addFirst(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_peek()
+    public default void test_addFirst_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,101 +57,15 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#push(java.lang.Object) public abstract void
-     * java.util.concurrent.BlockingDeque.push(java.lang.Object)}.
+     * Test method for {@link java.util.concurrent.BlockingDeque#addLast(java.lang.Object) public abstract void
+     * java.util.concurrent.BlockingDeque.addLast(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_push_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#size() public abstract int
-     * java.util.concurrent.BlockingDeque.size()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_size()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#offerLast(java.lang.Object) public abstract boolean
-     * java.util.concurrent.BlockingDeque.offerLast(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_offerLast_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.BlockingDeque#offerLast(java.lang.Object,long,java.util.concurrent.TimeUnit) public
-     * abstract boolean
-     * java.util.concurrent.BlockingDeque.offerLast(java.lang.Object,long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_offerLast_Object_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#take() public abstract java.lang.Object
-     * java.util.concurrent.BlockingDeque.take() throws java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_take()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#takeLast() public abstract java.lang.Object
-     * java.util.concurrent.BlockingDeque.takeLast() throws java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_takeLast()
+    public default void test_addLast_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -193,15 +91,15 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#addFirst(java.lang.Object) public abstract void
-     * java.util.concurrent.BlockingDeque.addFirst(java.lang.Object)}.
+     * Test method for {@link java.util.concurrent.BlockingDeque#element() public abstract java.lang.Object
+     * java.util.concurrent.BlockingDeque.element()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_addFirst_Object()
+    public default void test_element()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -210,188 +108,15 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#pollFirst(long,java.util.concurrent.TimeUnit) public
-     * abstract java.lang.Object java.util.concurrent.BlockingDeque.pollFirst(long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_pollFirst_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#removeFirstOccurrence(java.lang.Object) public abstract
-     * boolean java.util.concurrent.BlockingDeque.removeFirstOccurrence(java.lang.Object)}.
+     * Test method for {@link java.util.concurrent.BlockingDeque#iterator() public abstract java.util.Iterator
+     * java.util.concurrent.BlockingDeque.iterator()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_removeFirstOccurrence_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#pollLast(long,java.util.concurrent.TimeUnit) public
-     * abstract java.lang.Object java.util.concurrent.BlockingDeque.pollLast(long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_pollLast_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#remove() public abstract java.lang.Object
-     * java.util.concurrent.BlockingDeque.remove()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_remove()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#remove(java.lang.Object) public abstract boolean
-     * java.util.concurrent.BlockingDeque.remove(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_remove_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#put(java.lang.Object) public abstract void
-     * java.util.concurrent.BlockingDeque.put(java.lang.Object) throws java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_put_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.BlockingDeque#offerFirst(java.lang.Object,long,java.util.concurrent.TimeUnit) public
-     * abstract boolean
-     * java.util.concurrent.BlockingDeque.offerFirst(java.lang.Object,long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_offerFirst_Object_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#offerFirst(java.lang.Object) public abstract boolean
-     * java.util.concurrent.BlockingDeque.offerFirst(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_offerFirst_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#poll(long,java.util.concurrent.TimeUnit) public
-     * abstract java.lang.Object java.util.concurrent.BlockingDeque.poll(long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_poll_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#poll() public abstract java.lang.Object
-     * java.util.concurrent.BlockingDeque.poll()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_poll()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#addLast(java.lang.Object) public abstract void
-     * java.util.concurrent.BlockingDeque.addLast(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addLast_Object()
+    public default void test_iterator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -436,15 +161,15 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#iterator() public abstract java.util.Iterator
-     * java.util.concurrent.BlockingDeque.iterator()}.
+     * Test method for {@link java.util.concurrent.BlockingDeque#offerFirst(java.lang.Object) public abstract boolean
+     * java.util.concurrent.BlockingDeque.offerFirst(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_iterator()
+    public default void test_offerFirst_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -453,14 +178,17 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#takeFirst() public abstract java.lang.Object
-     * java.util.concurrent.BlockingDeque.takeFirst() throws java.lang.InterruptedException}.
+     * Test method for
+     * {@link java.util.concurrent.BlockingDeque#offerFirst(java.lang.Object,long,java.util.concurrent.TimeUnit) public
+     * abstract boolean
+     * java.util.concurrent.BlockingDeque.offerFirst(java.lang.Object,long,java.util.concurrent.TimeUnit) throws
+     * java.lang.InterruptedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_takeFirst()
+    public default void test_offerFirst_Object_long_TimeUnit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -469,15 +197,237 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#element() public abstract java.lang.Object
-     * java.util.concurrent.BlockingDeque.element()}.
+     * Test method for {@link java.util.concurrent.BlockingDeque#offerLast(java.lang.Object) public abstract boolean
+     * java.util.concurrent.BlockingDeque.offerLast(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_element()
+    public default void test_offerLast_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.BlockingDeque#offerLast(java.lang.Object,long,java.util.concurrent.TimeUnit) public
+     * abstract boolean
+     * java.util.concurrent.BlockingDeque.offerLast(java.lang.Object,long,java.util.concurrent.TimeUnit) throws
+     * java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_offerLast_Object_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#peek() public abstract java.lang.Object
+     * java.util.concurrent.BlockingDeque.peek()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_peek()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#poll() public abstract java.lang.Object
+     * java.util.concurrent.BlockingDeque.poll()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_poll()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#poll(long,java.util.concurrent.TimeUnit) public
+     * abstract java.lang.Object java.util.concurrent.BlockingDeque.poll(long,java.util.concurrent.TimeUnit) throws
+     * java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_poll_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#pollFirst(long,java.util.concurrent.TimeUnit) public
+     * abstract java.lang.Object java.util.concurrent.BlockingDeque.pollFirst(long,java.util.concurrent.TimeUnit) throws
+     * java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_pollFirst_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#pollLast(long,java.util.concurrent.TimeUnit) public
+     * abstract java.lang.Object java.util.concurrent.BlockingDeque.pollLast(long,java.util.concurrent.TimeUnit) throws
+     * java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_pollLast_long_TimeUnit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#push(java.lang.Object) public abstract void
+     * java.util.concurrent.BlockingDeque.push(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_push_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#put(java.lang.Object) public abstract void
+     * java.util.concurrent.BlockingDeque.put(java.lang.Object) throws java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_put_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#putFirst(java.lang.Object) public abstract void
+     * java.util.concurrent.BlockingDeque.putFirst(java.lang.Object) throws java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_putFirst_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#putLast(java.lang.Object) public abstract void
+     * java.util.concurrent.BlockingDeque.putLast(java.lang.Object) throws java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_putLast_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#remove() public abstract java.lang.Object
+     * java.util.concurrent.BlockingDeque.remove()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_remove()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#remove(java.lang.Object) public abstract boolean
+     * java.util.concurrent.BlockingDeque.remove(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_remove_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#removeFirstOccurrence(java.lang.Object) public abstract
+     * boolean java.util.concurrent.BlockingDeque.removeFirstOccurrence(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_removeFirstOccurrence_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -503,14 +453,64 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, o
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.BlockingDeque#putFirst(java.lang.Object) public abstract void
-     * java.util.concurrent.BlockingDeque.putFirst(java.lang.Object) throws java.lang.InterruptedException}.
+     * Test method for {@link java.util.concurrent.BlockingDeque#size() public abstract int
+     * java.util.concurrent.BlockingDeque.size()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_putFirst_Object()
+    @Override
+    public default void test_size()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#take() public abstract java.lang.Object
+     * java.util.concurrent.BlockingDeque.take() throws java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_take()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#takeFirst() public abstract java.lang.Object
+     * java.util.concurrent.BlockingDeque.takeFirst() throws java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_takeFirst()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.BlockingDeque#takeLast() public abstract java.lang.Object
+     * java.util.concurrent.BlockingDeque.takeLast() throws java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_takeLast()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

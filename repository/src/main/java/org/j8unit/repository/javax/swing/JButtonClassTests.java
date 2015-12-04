@@ -35,17 +35,16 @@ public abstract interface JButtonClassTests<SUT extends Class<? extends javax.sw
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.AbstractButtonClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JButton#JButton(java.lang.String,javax.swing.Icon) public
-     * javax.swing.JButton(java.lang.String,javax.swing.Icon)}.
+     * Test method for {@link javax.swing.JButton#JButton() public javax.swing.JButton()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JButton_String_Icon()
+    public default void create_JButton()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JButton sut = null; // = new JButton(java.lang.String,javax.swing.Icon);
+        final javax.swing.JButton sut = null; // = new JButton();
     }
 
     /**
@@ -63,20 +62,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     }
 
     /**
-     * Test method for {@link javax.swing.JButton#JButton(java.lang.String) public
-     * javax.swing.JButton(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JButton_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JButton sut = null; // = new JButton(java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.swing.JButton#JButton(javax.swing.Icon) public
      * javax.swing.JButton(javax.swing.Icon)}.
      */
@@ -91,16 +76,31 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     }
 
     /**
-     * Test method for {@link javax.swing.JButton#JButton() public javax.swing.JButton()}.
+     * Test method for {@link javax.swing.JButton#JButton(java.lang.String) public
+     * javax.swing.JButton(java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JButton()
+    public default void create_JButton_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JButton sut = null; // = new JButton();
+        final javax.swing.JButton sut = null; // = new JButton(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JButton#JButton(java.lang.String,javax.swing.Icon) public
+     * javax.swing.JButton(java.lang.String,javax.swing.Icon)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JButton_String_Icon()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JButton sut = null; // = new JButton(java.lang.String,javax.swing.Icon);
     }
 
     @Override

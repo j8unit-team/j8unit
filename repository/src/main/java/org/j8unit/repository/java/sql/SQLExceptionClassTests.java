@@ -35,46 +35,58 @@ public abstract interface SQLExceptionClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.java.lang.IterableClassTests<SUT, java.lang.Throwable>, org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.sql.SQLException#SQLException(java.lang.Throwable) public
-     * java.sql.SQLException(java.lang.Throwable)}.
+     * Test method for {@link java.sql.SQLException#SQLException() public java.sql.SQLException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SQLException_Throwable()
+    public default void create_SQLException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.SQLException sut = null; // = new SQLException(java.lang.Throwable);
+        final java.sql.SQLException sut = null; // = new SQLException();
     }
 
     /**
-     * Test method for {@link java.sql.SQLException#SQLException(java.lang.String,java.lang.Throwable) public
-     * java.sql.SQLException(java.lang.String,java.lang.Throwable)}.
+     * Test method for {@link java.sql.SQLException#SQLException(java.lang.String) public
+     * java.sql.SQLException(java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SQLException_String_Throwable()
+    public default void create_SQLException_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.SQLException sut = null; // = new SQLException(java.lang.String,java.lang.Throwable);
+        final java.sql.SQLException sut = null; // = new SQLException(java.lang.String);
     }
 
     /**
-     * Test method for {@link java.sql.SQLException#SQLException(java.lang.String,java.lang.String,java.lang.Throwable)
-     * public java.sql.SQLException(java.lang.String,java.lang.String,java.lang.Throwable)}.
+     * Test method for {@link java.sql.SQLException#SQLException(java.lang.String,java.lang.String) public
+     * java.sql.SQLException(java.lang.String,java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SQLException_String_String_Throwable()
+    public default void create_SQLException_String_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.SQLException sut = null; // = new
-                                                // SQLException(java.lang.String,java.lang.String,java.lang.Throwable);
+        final java.sql.SQLException sut = null; // = new SQLException(java.lang.String,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.sql.SQLException#SQLException(java.lang.String,java.lang.String,int) public
+     * java.sql.SQLException(java.lang.String,java.lang.String,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLException_String_String_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLException sut = null; // = new SQLException(java.lang.String,java.lang.String,int);
     }
 
     /**
@@ -94,58 +106,46 @@ extends org.j8unit.repository.java.lang.IterableClassTests<SUT, java.lang.Throwa
     }
 
     /**
-     * Test method for {@link java.sql.SQLException#SQLException(java.lang.String,java.lang.String,int) public
-     * java.sql.SQLException(java.lang.String,java.lang.String,int)}.
+     * Test method for {@link java.sql.SQLException#SQLException(java.lang.String,java.lang.String,java.lang.Throwable)
+     * public java.sql.SQLException(java.lang.String,java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SQLException_String_String_int()
+    public default void create_SQLException_String_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.SQLException sut = null; // = new SQLException(java.lang.String,java.lang.String,int);
+        final java.sql.SQLException sut = null; // = new
+                                                // SQLException(java.lang.String,java.lang.String,java.lang.Throwable);
     }
 
     /**
-     * Test method for {@link java.sql.SQLException#SQLException(java.lang.String,java.lang.String) public
-     * java.sql.SQLException(java.lang.String,java.lang.String)}.
+     * Test method for {@link java.sql.SQLException#SQLException(java.lang.String,java.lang.Throwable) public
+     * java.sql.SQLException(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SQLException_String_String()
+    public default void create_SQLException_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.SQLException sut = null; // = new SQLException(java.lang.String,java.lang.String);
+        final java.sql.SQLException sut = null; // = new SQLException(java.lang.String,java.lang.Throwable);
     }
 
     /**
-     * Test method for {@link java.sql.SQLException#SQLException(java.lang.String) public
-     * java.sql.SQLException(java.lang.String)}.
+     * Test method for {@link java.sql.SQLException#SQLException(java.lang.Throwable) public
+     * java.sql.SQLException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SQLException_String()
+    public default void create_SQLException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.SQLException sut = null; // = new SQLException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.sql.SQLException#SQLException() public java.sql.SQLException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLException sut = null; // = new SQLException();
+        final java.sql.SQLException sut = null; // = new SQLException(java.lang.Throwable);
     }
 
     @Override

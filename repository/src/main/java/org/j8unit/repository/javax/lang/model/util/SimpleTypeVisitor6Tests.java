@@ -24,16 +24,16 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitNull(javax.lang.model.type.NullType,java.lang.Object) public
-     * java.lang.Object
-     * javax.lang.model.util.SimpleTypeVisitor6.visitNull(javax.lang.model.type.NullType,java.lang.Object)}.
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitArray(javax.lang.model.type.ArrayType,java.lang.Object)
+     * public java.lang.Object
+     * javax.lang.model.util.SimpleTypeVisitor6.visitArray(javax.lang.model.type.ArrayType,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_visitNull_NullType_Object()
+    public default void test_visitArray_ArrayType_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -62,54 +62,16 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitPrimitive(javax.lang.model.type.PrimitiveType,java.lang.Object)
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitError(javax.lang.model.type.ErrorType,java.lang.Object)
      * public java.lang.Object
-     * javax.lang.model.util.SimpleTypeVisitor6.visitPrimitive(javax.lang.model.type.PrimitiveType,java.lang.Object)}.
+     * javax.lang.model.util.SimpleTypeVisitor6.visitError(javax.lang.model.type.ErrorType,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_visitPrimitive_PrimitiveType_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitArray(javax.lang.model.type.ArrayType,java.lang.Object)
-     * public java.lang.Object
-     * javax.lang.model.util.SimpleTypeVisitor6.visitArray(javax.lang.model.type.ArrayType,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_visitArray_ArrayType_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitNoType(javax.lang.model.type.NoType,java.lang.Object) public
-     * java.lang.Object
-     * javax.lang.model.util.SimpleTypeVisitor6.visitNoType(javax.lang.model.type.NoType,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_visitNoType_NoType_Object()
+    public default void test_visitError_ErrorType_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -138,16 +100,54 @@ extends org.j8unit.repository.javax.lang.model.util.AbstractTypeVisitor6Tests<SU
     /**
      * <p>
      * Test method for
-     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitError(javax.lang.model.type.ErrorType,java.lang.Object)
-     * public java.lang.Object
-     * javax.lang.model.util.SimpleTypeVisitor6.visitError(javax.lang.model.type.ErrorType,java.lang.Object)}.
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitNoType(javax.lang.model.type.NoType,java.lang.Object) public
+     * java.lang.Object
+     * javax.lang.model.util.SimpleTypeVisitor6.visitNoType(javax.lang.model.type.NoType,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_visitError_ErrorType_Object()
+    public default void test_visitNoType_NoType_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitNull(javax.lang.model.type.NullType,java.lang.Object) public
+     * java.lang.Object
+     * javax.lang.model.util.SimpleTypeVisitor6.visitNull(javax.lang.model.type.NullType,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_visitNull_NullType_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.lang.model.util.SimpleTypeVisitor6#visitPrimitive(javax.lang.model.type.PrimitiveType,java.lang.Object)
+     * public java.lang.Object
+     * javax.lang.model.util.SimpleTypeVisitor6.visitPrimitive(javax.lang.model.type.PrimitiveType,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_visitPrimitive_PrimitiveType_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface KeyFactoryClassTests<SUT extends Class<? extends java.security.KeyFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.security.KeyFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.KeyFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.security.KeyFactory#getInstance(java.lang.String) public static
@@ -94,6 +84,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.security.KeyFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.KeyFactory.class.isAssignableFrom(sut));
     }
 
 }

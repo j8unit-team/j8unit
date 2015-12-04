@@ -50,16 +50,6 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicSeparatorUIClassTests<
         final javax.swing.plaf.basic.BasicPopupMenuSeparatorUI sut = null; // = new BasicPopupMenuSeparatorUI();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.basic.BasicPopupMenuSeparatorUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.basic.BasicPopupMenuSeparatorUI.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicPopupMenuSeparatorUI#createUI(javax.swing.JComponent) public
@@ -76,6 +66,16 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicSeparatorUIClassTests<
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.basic.BasicPopupMenuSeparatorUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.basic.BasicPopupMenuSeparatorUI.class.isAssignableFrom(sut));
     }
 
 }

@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.ECPrivateKeySpec#getS() public java.math.BigInteger
-     * java.security.spec.ECPrivateKeySpec.getS()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getS()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.spec.ECPrivateKeySpec#getParams() public java.security.spec.ECParameterSpec
      * java.security.spec.ECPrivateKeySpec.getParams()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.security.spec.KeySpecTests<SUT>, org.j8unit.r
     @Test
     @Category(Draft.class)
     public default void test_getParams()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.ECPrivateKeySpec#getS() public java.math.BigInteger
+     * java.security.spec.ECPrivateKeySpec.getS()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getS()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

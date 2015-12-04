@@ -23,15 +23,15 @@ extends org.j8unit.repository.javax.swing.LookAndFeelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLookAndFeel#getName() public java.lang.String
-     * javax.swing.plaf.multi.MultiLookAndFeel.getName()}.
+     * Test method for {@link javax.swing.plaf.multi.MultiLookAndFeel#getDefaults() public javax.swing.UIDefaults
+     * javax.swing.plaf.multi.MultiLookAndFeel.getDefaults()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getName()
+    public default void test_getDefaults()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,15 +40,15 @@ extends org.j8unit.repository.javax.swing.LookAndFeelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLookAndFeel#isSupportedLookAndFeel() public boolean
-     * javax.swing.plaf.multi.MultiLookAndFeel.isSupportedLookAndFeel()}.
+     * Test method for {@link javax.swing.plaf.multi.MultiLookAndFeel#getDescription() public java.lang.String
+     * javax.swing.plaf.multi.MultiLookAndFeel.getDescription()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isSupportedLookAndFeel()
+    public default void test_getDescription()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,15 +74,15 @@ extends org.j8unit.repository.javax.swing.LookAndFeelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLookAndFeel#getDefaults() public javax.swing.UIDefaults
-     * javax.swing.plaf.multi.MultiLookAndFeel.getDefaults()}.
+     * Test method for {@link javax.swing.plaf.multi.MultiLookAndFeel#getName() public java.lang.String
+     * javax.swing.plaf.multi.MultiLookAndFeel.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getDefaults()
+    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -108,15 +108,15 @@ extends org.j8unit.repository.javax.swing.LookAndFeelTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.multi.MultiLookAndFeel#getDescription() public java.lang.String
-     * javax.swing.plaf.multi.MultiLookAndFeel.getDescription()}.
+     * Test method for {@link javax.swing.plaf.multi.MultiLookAndFeel#isSupportedLookAndFeel() public boolean
+     * javax.swing.plaf.multi.MultiLookAndFeel.isSupportedLookAndFeel()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getDescription()
+    public default void test_isSupportedLookAndFeel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

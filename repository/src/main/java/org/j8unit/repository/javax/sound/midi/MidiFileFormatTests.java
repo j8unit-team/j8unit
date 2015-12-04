@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MidiFileFormat#getMicrosecondLength() public long
-     * javax.sound.midi.MidiFileFormat.getMicrosecondLength()}.
+     * Test method for {@link javax.sound.midi.MidiFileFormat#getByteLength() public int
+     * javax.sound.midi.MidiFileFormat.getByteLength()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMicrosecondLength()
+    public default void test_getByteLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,14 +39,30 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MidiFileFormat#getResolution() public int
-     * javax.sound.midi.MidiFileFormat.getResolution()}.
+     * Test method for {@link javax.sound.midi.MidiFileFormat#getDivisionType() public float
+     * javax.sound.midi.MidiFileFormat.getDivisionType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getResolution()
+    public default void test_getDivisionType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.midi.MidiFileFormat#getMicrosecondLength() public long
+     * javax.sound.midi.MidiFileFormat.getMicrosecondLength()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMicrosecondLength()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +87,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.MidiFileFormat#getByteLength() public int
-     * javax.sound.midi.MidiFileFormat.getByteLength()}.
+     * Test method for {@link javax.sound.midi.MidiFileFormat#getResolution() public int
+     * javax.sound.midi.MidiFileFormat.getResolution()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getByteLength()
+    public default void test_getResolution()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -95,22 +111,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.MidiFileFormat#getDivisionType() public float
-     * javax.sound.midi.MidiFileFormat.getDivisionType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDivisionType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

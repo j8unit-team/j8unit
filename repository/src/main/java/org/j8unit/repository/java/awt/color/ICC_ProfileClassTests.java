@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface ICC_ProfileClassTests<SUT extends Class<? extends java.awt.color.ICC_Profile>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.awt.color.ICC_Profile#getInstance(byte[]) public static java.awt.color.ICC_Profile
+     * java.awt.color.ICC_Profile.getInstance(byte[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getInstance_byteArray()
     throws Exception {
-        // create new instance
-        final Class<? extends java.awt.color.ICC_Profile> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.color.ICC_Profile.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -56,22 +62,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_getInstance_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.color.ICC_Profile#getInstance(java.lang.String) public static
-     * java.awt.color.ICC_Profile java.awt.color.ICC_Profile.getInstance(java.lang.String) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInstance_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -96,18 +86,28 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ICC_Profile#getInstance(byte[]) public static java.awt.color.ICC_Profile
-     * java.awt.color.ICC_Profile.getInstance(byte[])}.
+     * Test method for {@link java.awt.color.ICC_Profile#getInstance(java.lang.String) public static
+     * java.awt.color.ICC_Profile java.awt.color.ICC_Profile.getInstance(java.lang.String) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInstance_byteArray()
+    public default void test_getInstance_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.color.ICC_Profile> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.color.ICC_Profile.class.isAssignableFrom(sut));
     }
 
 }

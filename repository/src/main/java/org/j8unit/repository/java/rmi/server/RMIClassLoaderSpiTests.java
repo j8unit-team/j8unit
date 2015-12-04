@@ -39,25 +39,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.rmi.server.RMIClassLoaderSpi#loadProxyClass(java.lang.String,java.lang.String[],java.lang.ClassLoader)
-     * public abstract java.lang.Class
-     * java.rmi.server.RMIClassLoaderSpi.loadProxyClass(java.lang.String,java.lang.String[],java.lang.ClassLoader)
-     * throws java.net.MalformedURLException,java.lang.ClassNotFoundException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_loadProxyClass_String_StringArray_ClassLoader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.rmi.server.RMIClassLoaderSpi#getClassLoader(java.lang.String) public abstract
      * java.lang.ClassLoader java.rmi.server.RMIClassLoaderSpi.getClassLoader(java.lang.String) throws
      * java.net.MalformedURLException}.
@@ -86,6 +67,25 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_loadClass_String_String_ClassLoader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.rmi.server.RMIClassLoaderSpi#loadProxyClass(java.lang.String,java.lang.String[],java.lang.ClassLoader)
+     * public abstract java.lang.Class
+     * java.rmi.server.RMIClassLoaderSpi.loadProxyClass(java.lang.String,java.lang.String[],java.lang.ClassLoader)
+     * throws java.net.MalformedURLException,java.lang.ClassNotFoundException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_loadProxyClass_String_StringArray_ClassLoader()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

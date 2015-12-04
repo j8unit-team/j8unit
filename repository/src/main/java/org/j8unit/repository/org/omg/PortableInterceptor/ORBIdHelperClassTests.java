@@ -49,32 +49,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.PortableInterceptor.ORBIdHelper sut = null; // = new ORBIdHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.PortableInterceptor.ORBIdHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.PortableInterceptor.ORBIdHelper.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBIdHelper#read(org.omg.CORBA.portable.InputStream) public
-     * static java.lang.String org.omg.PortableInterceptor.ORBIdHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link org.omg.PortableInterceptor.ORBIdHelper#extract(org.omg.CORBA.Any) public static
@@ -93,31 +67,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.PortableInterceptor.ORBIdHelper#write(org.omg.CORBA.portable.OutputStream,java.lang.String) public
-     * static void org.omg.PortableInterceptor.ORBIdHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String)}.
+     * Test method for {@link org.omg.PortableInterceptor.ORBIdHelper#id() public static java.lang.String
+     * org.omg.PortableInterceptor.ORBIdHelper.id()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_OutputStream_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBIdHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.ORBIdHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
+    public default void test_id()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -142,18 +99,61 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableInterceptor.ORBIdHelper#id() public static java.lang.String
-     * org.omg.PortableInterceptor.ORBIdHelper.id()}.
+     * Test method for {@link org.omg.PortableInterceptor.ORBIdHelper#read(org.omg.CORBA.portable.InputStream) public
+     * static java.lang.String org.omg.PortableInterceptor.ORBIdHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_id()
+    public default void test_read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableInterceptor.ORBIdHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.PortableInterceptor.ORBIdHelper.type()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_type()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableInterceptor.ORBIdHelper#write(org.omg.CORBA.portable.OutputStream,java.lang.String) public
+     * static void org.omg.PortableInterceptor.ORBIdHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.PortableInterceptor.ORBIdHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.PortableInterceptor.ORBIdHelper.class.isAssignableFrom(sut));
     }
 
 }

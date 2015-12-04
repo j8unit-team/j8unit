@@ -23,94 +23,14 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.MulticastSocket#getNetworkInterface() public java.net.NetworkInterface
-     * java.net.MulticastSocket.getNetworkInterface() throws java.net.SocketException}.
+     * Test method for {@link java.net.MulticastSocket#getInterface() public java.net.InetAddress
+     * java.net.MulticastSocket.getInterface() throws java.net.SocketException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNetworkInterface()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.MulticastSocket#setLoopbackMode(boolean) public void
-     * java.net.MulticastSocket.setLoopbackMode(boolean) throws java.net.SocketException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLoopbackMode_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.MulticastSocket#send(java.net.DatagramPacket,byte) public void
-     * java.net.MulticastSocket.send(java.net.DatagramPacket,byte) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_send_DatagramPacket_byte()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.MulticastSocket#setTimeToLive(int) public void
-     * java.net.MulticastSocket.setTimeToLive(int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTimeToLive_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.MulticastSocket#setNetworkInterface(java.net.NetworkInterface) public void
-     * java.net.MulticastSocket.setNetworkInterface(java.net.NetworkInterface) throws java.net.SocketException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setNetworkInterface_NetworkInterface()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.MulticastSocket#getTTL() public byte java.net.MulticastSocket.getTTL() throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTTL()
+    public default void test_getInterface()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,30 +55,14 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.MulticastSocket#getInterface() public java.net.InetAddress
-     * java.net.MulticastSocket.getInterface() throws java.net.SocketException}.
+     * Test method for {@link java.net.MulticastSocket#getNetworkInterface() public java.net.NetworkInterface
+     * java.net.MulticastSocket.getNetworkInterface() throws java.net.SocketException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInterface()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.MulticastSocket#setInterface(java.net.InetAddress) public void
-     * java.net.MulticastSocket.setInterface(java.net.InetAddress) throws java.net.SocketException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setInterface_InetAddress()
+    public default void test_getNetworkInterface()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -175,6 +79,22 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getTimeToLive()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.MulticastSocket#getTTL() public byte java.net.MulticastSocket.getTTL() throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTTL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -216,6 +136,22 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.net.MulticastSocket#leaveGroup(java.net.InetAddress) public void
+     * java.net.MulticastSocket.leaveGroup(java.net.InetAddress) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_leaveGroup_InetAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.net.MulticastSocket#leaveGroup(java.net.SocketAddress,java.net.NetworkInterface)
      * public void java.net.MulticastSocket.leaveGroup(java.net.SocketAddress,java.net.NetworkInterface) throws
      * java.io.IOException}.
@@ -233,14 +169,78 @@ extends org.j8unit.repository.java.net.DatagramSocketTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.MulticastSocket#leaveGroup(java.net.InetAddress) public void
-     * java.net.MulticastSocket.leaveGroup(java.net.InetAddress) throws java.io.IOException}.
+     * Test method for {@link java.net.MulticastSocket#send(java.net.DatagramPacket,byte) public void
+     * java.net.MulticastSocket.send(java.net.DatagramPacket,byte) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_leaveGroup_InetAddress()
+    public default void test_send_DatagramPacket_byte()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.MulticastSocket#setInterface(java.net.InetAddress) public void
+     * java.net.MulticastSocket.setInterface(java.net.InetAddress) throws java.net.SocketException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setInterface_InetAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.MulticastSocket#setLoopbackMode(boolean) public void
+     * java.net.MulticastSocket.setLoopbackMode(boolean) throws java.net.SocketException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLoopbackMode_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.MulticastSocket#setNetworkInterface(java.net.NetworkInterface) public void
+     * java.net.MulticastSocket.setNetworkInterface(java.net.NetworkInterface) throws java.net.SocketException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setNetworkInterface_NetworkInterface()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.MulticastSocket#setTimeToLive(int) public void
+     * java.net.MulticastSocket.setTimeToLive(int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTimeToLive_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -37,6 +37,36 @@ public abstract interface NotificationBroadcasterSupportClassTests<SUT extends C
 extends org.j8unit.repository.javax.management.NotificationEmitterClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.management.NotificationBroadcasterSupport#NotificationBroadcasterSupport() public
+     * javax.management.NotificationBroadcasterSupport()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_NotificationBroadcasterSupport()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.NotificationBroadcasterSupport sut = null; // = new NotificationBroadcasterSupport();
+    }
+
+    /**
+     * Test method for
+     * {@link javax.management.NotificationBroadcasterSupport#NotificationBroadcasterSupport(java.util.concurrent.Executor)
+     * public javax.management.NotificationBroadcasterSupport(java.util.concurrent.Executor)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_NotificationBroadcasterSupport_Executor()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.NotificationBroadcasterSupport sut = null; // = new
+                                                                          // NotificationBroadcasterSupport(java.util.concurrent.Executor);
+    }
+
+    /**
      * Test method for
      * {@link javax.management.NotificationBroadcasterSupport#NotificationBroadcasterSupport(java.util.concurrent.Executor,javax.management.MBeanNotificationInfo...)
      * public
@@ -68,36 +98,6 @@ extends org.j8unit.repository.javax.management.NotificationEmitterClassTests<SUT
         @SuppressWarnings("unused")
         final javax.management.NotificationBroadcasterSupport sut = null; // = new
                                                                           // NotificationBroadcasterSupport(javax.management.MBeanNotificationInfo...);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.management.NotificationBroadcasterSupport#NotificationBroadcasterSupport(java.util.concurrent.Executor)
-     * public javax.management.NotificationBroadcasterSupport(java.util.concurrent.Executor)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_NotificationBroadcasterSupport_Executor()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.NotificationBroadcasterSupport sut = null; // = new
-                                                                          // NotificationBroadcasterSupport(java.util.concurrent.Executor);
-    }
-
-    /**
-     * Test method for {@link javax.management.NotificationBroadcasterSupport#NotificationBroadcasterSupport() public
-     * javax.management.NotificationBroadcasterSupport()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_NotificationBroadcasterSupport()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.NotificationBroadcasterSupport sut = null; // = new NotificationBroadcasterSupport();
     }
 
     @Override

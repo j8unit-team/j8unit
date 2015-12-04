@@ -35,26 +35,16 @@ import org.junit.experimental.categories.Category;
 public abstract interface BreakIteratorClassTests<SUT extends Class<? extends java.text.BreakIterator>>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.text.BreakIterator> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.text.BreakIterator.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.text.BreakIterator#getCharacterInstance(java.util.Locale) public static
-     * java.text.BreakIterator java.text.BreakIterator.getCharacterInstance(java.util.Locale)}.
+     * Test method for {@link java.text.BreakIterator#getAvailableLocales() public static synchronized
+     * java.util.Locale[] java.text.BreakIterator.getAvailableLocales()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCharacterInstance_Locale()
+    public default void test_getAvailableLocales()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,14 +69,14 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for {@link java.text.BreakIterator#getWordInstance(java.util.Locale) public static
-     * java.text.BreakIterator java.text.BreakIterator.getWordInstance(java.util.Locale)}.
+     * Test method for {@link java.text.BreakIterator#getCharacterInstance(java.util.Locale) public static
+     * java.text.BreakIterator java.text.BreakIterator.getCharacterInstance(java.util.Locale)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getWordInstance_Locale()
+    public default void test_getCharacterInstance_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -95,62 +85,14 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for {@link java.text.BreakIterator#getWordInstance() public static java.text.BreakIterator
-     * java.text.BreakIterator.getWordInstance()}.
+     * Test method for {@link java.text.BreakIterator#getLineInstance() public static java.text.BreakIterator
+     * java.text.BreakIterator.getLineInstance()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getWordInstance()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.BreakIterator#getSentenceInstance(java.util.Locale) public static
-     * java.text.BreakIterator java.text.BreakIterator.getSentenceInstance(java.util.Locale)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSentenceInstance_Locale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.BreakIterator#getSentenceInstance() public static java.text.BreakIterator
-     * java.text.BreakIterator.getSentenceInstance()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSentenceInstance()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.text.BreakIterator#getAvailableLocales() public static synchronized
-     * java.util.Locale[] java.text.BreakIterator.getAvailableLocales()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAvailableLocales()
+    public default void test_getLineInstance()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -175,18 +117,76 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for {@link java.text.BreakIterator#getLineInstance() public static java.text.BreakIterator
-     * java.text.BreakIterator.getLineInstance()}.
+     * Test method for {@link java.text.BreakIterator#getSentenceInstance() public static java.text.BreakIterator
+     * java.text.BreakIterator.getSentenceInstance()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLineInstance()
+    public default void test_getSentenceInstance()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.BreakIterator#getSentenceInstance(java.util.Locale) public static
+     * java.text.BreakIterator java.text.BreakIterator.getSentenceInstance(java.util.Locale)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSentenceInstance_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.BreakIterator#getWordInstance() public static java.text.BreakIterator
+     * java.text.BreakIterator.getWordInstance()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWordInstance()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.text.BreakIterator#getWordInstance(java.util.Locale) public static
+     * java.text.BreakIterator java.text.BreakIterator.getWordInstance(java.util.Locale)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWordInstance_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.text.BreakIterator> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.text.BreakIterator.class.isAssignableFrom(sut));
     }
 
 }

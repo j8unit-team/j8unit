@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface GraphicsEnvironmentClassTests<SUT extends Class<? extends java.awt.GraphicsEnvironment>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.GraphicsEnvironment> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.GraphicsEnvironment.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.awt.GraphicsEnvironment#getLocalGraphicsEnvironment() public static synchronized
@@ -75,6 +65,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.GraphicsEnvironment> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.GraphicsEnvironment.class.isAssignableFrom(sut));
     }
 
 }

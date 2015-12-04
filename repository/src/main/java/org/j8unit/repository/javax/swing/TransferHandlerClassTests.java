@@ -36,78 +36,6 @@ public abstract interface TransferHandlerClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.TransferHandler#TransferHandler(java.lang.String) public
-     * javax.swing.TransferHandler(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TransferHandler_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.TransferHandler sut = null; // = new TransferHandler(java.lang.String);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.TransferHandler> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.TransferHandler.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.TransferHandler#getCutAction() public static javax.swing.Action
-     * javax.swing.TransferHandler.getCutAction()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCutAction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.TransferHandler#getCopyAction() public static javax.swing.Action
-     * javax.swing.TransferHandler.getCopyAction()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCopyAction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.TransferHandler#getPasteAction() public static javax.swing.Action
-     * javax.swing.TransferHandler.getPasteAction()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPasteAction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.TransferHandler$DropLocation class javax.swing.TransferHandler$DropLocation},
      * containing all class relevant test methods (at least the test methods of accessible constructors and of
@@ -204,6 +132,78 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
             assertTrue(javax.swing.TransferHandler.TransferSupport.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.TransferHandler#TransferHandler(java.lang.String) public
+     * javax.swing.TransferHandler(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TransferHandler_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.TransferHandler sut = null; // = new TransferHandler(java.lang.String);
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.TransferHandler#getCopyAction() public static javax.swing.Action
+     * javax.swing.TransferHandler.getCopyAction()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCopyAction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.TransferHandler#getCutAction() public static javax.swing.Action
+     * javax.swing.TransferHandler.getCutAction()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCutAction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.TransferHandler#getPasteAction() public static javax.swing.Action
+     * javax.swing.TransferHandler.getPasteAction()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPasteAction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.TransferHandler> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.TransferHandler.class.isAssignableFrom(sut));
     }
 
 }

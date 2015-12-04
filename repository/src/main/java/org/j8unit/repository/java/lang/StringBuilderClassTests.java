@@ -37,6 +37,19 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 org.j8unit.repository.java.lang.AppendableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.lang.StringBuilder#StringBuilder() public java.lang.StringBuilder()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_StringBuilder()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.StringBuilder sut = null; // = new StringBuilder();
+    }
+
+    /**
      * Test method for {@link java.lang.StringBuilder#StringBuilder(java.lang.CharSequence) public
      * java.lang.StringBuilder(java.lang.CharSequence)}.
      */
@@ -48,20 +61,6 @@ org.j8unit.repository.java.lang.AppendableClassTests<SUT>, org.j8unit.repository
         // create new instance
         @SuppressWarnings("unused")
         final java.lang.StringBuilder sut = null; // = new StringBuilder(java.lang.CharSequence);
-    }
-
-    /**
-     * Test method for {@link java.lang.StringBuilder#StringBuilder(java.lang.String) public
-     * java.lang.StringBuilder(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_StringBuilder_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.StringBuilder sut = null; // = new StringBuilder(java.lang.String);
     }
 
     /**
@@ -78,16 +77,17 @@ org.j8unit.repository.java.lang.AppendableClassTests<SUT>, org.j8unit.repository
     }
 
     /**
-     * Test method for {@link java.lang.StringBuilder#StringBuilder() public java.lang.StringBuilder()}.
+     * Test method for {@link java.lang.StringBuilder#StringBuilder(java.lang.String) public
+     * java.lang.StringBuilder(java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_StringBuilder()
+    public default void create_StringBuilder_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.StringBuilder sut = null; // = new StringBuilder();
+        final java.lang.StringBuilder sut = null; // = new StringBuilder(java.lang.String);
     }
 
     @Override

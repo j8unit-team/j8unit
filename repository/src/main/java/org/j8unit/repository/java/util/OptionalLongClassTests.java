@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface OptionalLongClassTests<SUT extends Class<? extends java.util.OptionalLong>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.util.OptionalLong#empty() public static java.util.OptionalLong
+     * java.util.OptionalLong.empty()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_empty()
     throws Exception {
-        // create new instance
-        final Class<? extends java.util.OptionalLong> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.OptionalLong.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -61,20 +67,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.util.OptionalLong#empty() public static java.util.OptionalLong
-     * java.util.OptionalLong.empty()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_empty()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.util.OptionalLong> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.OptionalLong.class.isAssignableFrom(sut));
     }
 
 }

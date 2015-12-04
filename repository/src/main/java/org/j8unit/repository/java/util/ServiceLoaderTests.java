@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, S>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link java.util.ServiceLoader#toString() public java.lang.String
-     * java.util.ServiceLoader.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.ServiceLoader#iterator() public java.util.Iterator
      * java.util.ServiceLoader.iterator()}.
      * </p>
@@ -64,6 +47,23 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, S>, org.j8unit.reposi
     @Test
     @Category(Draft.class)
     public default void test_reload()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.ServiceLoader#toString() public java.lang.String
+     * java.util.ServiceLoader.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -40,33 +40,15 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.IconView#viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[]) public
-     * int javax.swing.text.IconView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
+     * Test method for {@link javax.swing.text.IconView#getPreferredSpan(int) public float
+     * javax.swing.text.IconView.getPreferredSpan(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_viewToModel_float_float_Shape_BiasArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.IconView#paint(java.awt.Graphics,java.awt.Shape) public void
-     * javax.swing.text.IconView.paint(java.awt.Graphics,java.awt.Shape)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paint_Graphics_Shape()
+    public default void test_getPreferredSpan_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -93,15 +75,33 @@ extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.IconView#getPreferredSpan(int) public float
-     * javax.swing.text.IconView.getPreferredSpan(int)}.
+     * Test method for {@link javax.swing.text.IconView#paint(java.awt.Graphics,java.awt.Shape) public void
+     * javax.swing.text.IconView.paint(java.awt.Graphics,java.awt.Shape)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getPreferredSpan_int()
+    public default void test_paint_Graphics_Shape()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.IconView#viewToModel(float,float,java.awt.Shape,javax.swing.text.Position.Bias[]) public
+     * int javax.swing.text.IconView.viewToModel(float,float,java.awt.Shape,javax.swing.text.Position$Bias[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_viewToModel_float_float_Shape_BiasArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

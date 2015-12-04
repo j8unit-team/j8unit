@@ -36,31 +36,16 @@ public abstract interface SOAPExceptionClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.xml.soap.SOAPException#SOAPException(java.lang.Throwable) public
-     * javax.xml.soap.SOAPException(java.lang.Throwable)}.
+     * Test method for {@link javax.xml.soap.SOAPException#SOAPException() public javax.xml.soap.SOAPException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SOAPException_Throwable()
+    public default void create_SOAPException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.soap.SOAPException sut = null; // = new SOAPException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link javax.xml.soap.SOAPException#SOAPException(java.lang.String,java.lang.Throwable) public
-     * javax.xml.soap.SOAPException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SOAPException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.soap.SOAPException sut = null; // = new SOAPException(java.lang.String,java.lang.Throwable);
+        final javax.xml.soap.SOAPException sut = null; // = new SOAPException();
     }
 
     /**
@@ -78,16 +63,31 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.xml.soap.SOAPException#SOAPException() public javax.xml.soap.SOAPException()}.
+     * Test method for {@link javax.xml.soap.SOAPException#SOAPException(java.lang.String,java.lang.Throwable) public
+     * javax.xml.soap.SOAPException(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SOAPException()
+    public default void create_SOAPException_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.soap.SOAPException sut = null; // = new SOAPException();
+        final javax.xml.soap.SOAPException sut = null; // = new SOAPException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link javax.xml.soap.SOAPException#SOAPException(java.lang.Throwable) public
+     * javax.xml.soap.SOAPException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SOAPException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.soap.SOAPException sut = null; // = new SOAPException(java.lang.Throwable);
     }
 
     @Override

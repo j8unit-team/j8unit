@@ -23,6 +23,22 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.w3c.dom.events.MutationEvent#getAttrChange() public abstract short
+     * org.w3c.dom.events.MutationEvent.getAttrChange()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttrChange()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.w3c.dom.events.MutationEvent#getAttrName() public abstract java.lang.String
      * org.w3c.dom.events.MutationEvent.getAttrName()}.
      * </p>
@@ -31,41 +47,6 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAttrName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.w3c.dom.events.MutationEvent#initMutationEvent(java.lang.String,boolean,boolean,org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String,short)
-     * public abstract void
-     * org.w3c.dom.events.MutationEvent.initMutationEvent(java.lang.String,boolean,boolean,org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String,short)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_initMutationEvent_String_boolean_boolean_Node_String_String_String_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.events.MutationEvent#getRelatedNode() public abstract org.w3c.dom.Node
-     * org.w3c.dom.events.MutationEvent.getRelatedNode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRelatedNode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -90,22 +71,6 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.events.MutationEvent#getAttrChange() public abstract short
-     * org.w3c.dom.events.MutationEvent.getAttrChange()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttrChange()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.events.MutationEvent#getPrevValue() public abstract java.lang.String
      * org.w3c.dom.events.MutationEvent.getPrevValue()}.
      * </p>
@@ -114,6 +79,41 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getPrevValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.events.MutationEvent#getRelatedNode() public abstract org.w3c.dom.Node
+     * org.w3c.dom.events.MutationEvent.getRelatedNode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRelatedNode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.w3c.dom.events.MutationEvent#initMutationEvent(java.lang.String,boolean,boolean,org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String,short)
+     * public abstract void
+     * org.w3c.dom.events.MutationEvent.initMutationEvent(java.lang.String,boolean,boolean,org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String,short)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_initMutationEvent_String_boolean_boolean_Node_String_String_String_short()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,6 +36,35 @@ public abstract interface ValidationExceptionClassTests<SUT extends Class<? exte
 extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.xml.bind.ValidationException#ValidationException(java.lang.String) public
+     * javax.xml.bind.ValidationException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ValidationException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.bind.ValidationException sut = null; // = new ValidationException(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.xml.bind.ValidationException#ValidationException(java.lang.String,java.lang.String)
+     * public javax.xml.bind.ValidationException(java.lang.String,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ValidationException_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.bind.ValidationException sut = null; // = new
+                                                             // ValidationException(java.lang.String,java.lang.String);
+    }
+
+    /**
      * Test method for
      * {@link javax.xml.bind.ValidationException#ValidationException(java.lang.String,java.lang.String,java.lang.Throwable)
      * public javax.xml.bind.ValidationException(java.lang.String,java.lang.String,java.lang.Throwable)}.
@@ -79,35 +108,6 @@ extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.bind.ValidationException sut = null; // = new ValidationException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link javax.xml.bind.ValidationException#ValidationException(java.lang.String,java.lang.String)
-     * public javax.xml.bind.ValidationException(java.lang.String,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ValidationException_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.bind.ValidationException sut = null; // = new
-                                                             // ValidationException(java.lang.String,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.bind.ValidationException#ValidationException(java.lang.String) public
-     * javax.xml.bind.ValidationException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ValidationException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.bind.ValidationException sut = null; // = new ValidationException(java.lang.String);
     }
 
     @Override

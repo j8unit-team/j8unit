@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.rmi.registry.Registry#bind(java.lang.String,java.rmi.Remote) public abstract void
+     * java.rmi.registry.Registry.bind(java.lang.String,java.rmi.Remote) throws
+     * java.rmi.RemoteException,java.rmi.AlreadyBoundException,java.rmi.AccessException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_bind_String_Remote()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.rmi.registry.Registry#list() public abstract java.lang.String[]
      * java.rmi.registry.Registry.list() throws java.rmi.RemoteException,java.rmi.AccessException}.
      * </p>
@@ -31,6 +48,23 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_list()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.registry.Registry#lookup(java.lang.String) public abstract java.rmi.Remote
+     * java.rmi.registry.Registry.lookup(java.lang.String) throws
+     * java.rmi.RemoteException,java.rmi.NotBoundException,java.rmi.AccessException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lookup_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -65,40 +99,6 @@ extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_unbind_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.rmi.registry.Registry#lookup(java.lang.String) public abstract java.rmi.Remote
-     * java.rmi.registry.Registry.lookup(java.lang.String) throws
-     * java.rmi.RemoteException,java.rmi.NotBoundException,java.rmi.AccessException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lookup_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.rmi.registry.Registry#bind(java.lang.String,java.rmi.Remote) public abstract void
-     * java.rmi.registry.Registry.bind(java.lang.String,java.rmi.Remote) throws
-     * java.rmi.RemoteException,java.rmi.AlreadyBoundException,java.rmi.AccessException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_bind_String_Remote()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

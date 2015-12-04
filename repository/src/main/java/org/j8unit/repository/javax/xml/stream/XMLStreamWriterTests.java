@@ -24,6 +24,139 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#close() public abstract void
+     * javax.xml.stream.XMLStreamWriter.close() throws javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#flush() public abstract void
+     * javax.xml.stream.XMLStreamWriter.flush() throws javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_flush()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#getNamespaceContext() public abstract
+     * javax.xml.namespace.NamespaceContext javax.xml.stream.XMLStreamWriter.getNamespaceContext()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNamespaceContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#getPrefix(java.lang.String) public abstract
+     * java.lang.String javax.xml.stream.XMLStreamWriter.getPrefix(java.lang.String) throws
+     * javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrefix_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#getProperty(java.lang.String) public abstract
+     * java.lang.Object javax.xml.stream.XMLStreamWriter.getProperty(java.lang.String) throws
+     * java.lang.IllegalArgumentException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProperty_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#setDefaultNamespace(java.lang.String) public abstract
+     * void javax.xml.stream.XMLStreamWriter.setDefaultNamespace(java.lang.String) throws
+     * javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDefaultNamespace_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#setNamespaceContext(javax.xml.namespace.NamespaceContext)
+     * public abstract void javax.xml.stream.XMLStreamWriter.setNamespaceContext(javax.xml.namespace.NamespaceContext)
+     * throws javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setNamespaceContext_NamespaceContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#setPrefix(java.lang.String,java.lang.String) public
+     * abstract void javax.xml.stream.XMLStreamWriter.setPrefix(java.lang.String,java.lang.String) throws
+     * javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPrefix_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.stream.XMLStreamWriter#writeAttribute(java.lang.String,java.lang.String) public
      * abstract void javax.xml.stream.XMLStreamWriter.writeAttribute(java.lang.String,java.lang.String) throws
      * javax.xml.stream.XMLStreamException}.
@@ -78,14 +211,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#close() public abstract void
-     * javax.xml.stream.XMLStreamWriter.close() throws javax.xml.stream.XMLStreamException}.
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeCData(java.lang.String) public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeCData(java.lang.String) throws javax.xml.stream.XMLStreamException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_close()
+    public default void test_writeCData_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -94,14 +227,46 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeEndElement() public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeEndElement() throws javax.xml.stream.XMLStreamException}.
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeCharacters(char[],int,int) public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeCharacters(char[],int,int) throws javax.xml.stream.XMLStreamException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeEndElement()
+    public default void test_writeCharacters_charArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeCharacters(java.lang.String) public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeCharacters(java.lang.String) throws javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeCharacters_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeComment(java.lang.String) public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeComment(java.lang.String) throws javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeComment_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,90 +292,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeProcessingInstruction(java.lang.String) public
-     * abstract void javax.xml.stream.XMLStreamWriter.writeProcessingInstruction(java.lang.String) throws
-     * javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeProcessingInstruction_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.xml.stream.XMLStreamWriter#writeProcessingInstruction(java.lang.String,java.lang.String) public
-     * abstract void javax.xml.stream.XMLStreamWriter.writeProcessingInstruction(java.lang.String,java.lang.String)
-     * throws javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeProcessingInstruction_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#flush() public abstract void
-     * javax.xml.stream.XMLStreamWriter.flush() throws javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_flush()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeNamespace(java.lang.String,java.lang.String) public
-     * abstract void javax.xml.stream.XMLStreamWriter.writeNamespace(java.lang.String,java.lang.String) throws
-     * javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeNamespace_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeComment(java.lang.String) public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeComment(java.lang.String) throws javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeComment_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.stream.XMLStreamWriter#writeDTD(java.lang.String) public abstract void
      * javax.xml.stream.XMLStreamWriter.writeDTD(java.lang.String) throws javax.xml.stream.XMLStreamException}.
      * </p>
@@ -227,248 +308,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeCData(java.lang.String) public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeCData(java.lang.String) throws javax.xml.stream.XMLStreamException}.
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeEmptyElement(java.lang.String) public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeEmptyElement(java.lang.String) throws javax.xml.stream.XMLStreamException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeCData_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeStartDocument(java.lang.String,java.lang.String)
-     * public abstract void javax.xml.stream.XMLStreamWriter.writeStartDocument(java.lang.String,java.lang.String)
-     * throws javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeStartDocument_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeStartDocument() public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeStartDocument() throws javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeStartDocument()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeStartDocument(java.lang.String) public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeStartDocument(java.lang.String) throws javax.xml.stream.XMLStreamException}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeStartDocument_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#getNamespaceContext() public abstract
-     * javax.xml.namespace.NamespaceContext javax.xml.stream.XMLStreamWriter.getNamespaceContext()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNamespaceContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeStartElement(java.lang.String,java.lang.String)
-     * public abstract void javax.xml.stream.XMLStreamWriter.writeStartElement(java.lang.String,java.lang.String) throws
-     * javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeStartElement_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeStartElement(java.lang.String) public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeStartElement(java.lang.String) throws javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeStartElement_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.xml.stream.XMLStreamWriter#writeStartElement(java.lang.String,java.lang.String,java.lang.String)
-     * public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeStartElement(java.lang.String,java.lang.String,java.lang.String) throws
-     * javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeStartElement_String_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#setDefaultNamespace(java.lang.String) public abstract
-     * void javax.xml.stream.XMLStreamWriter.setDefaultNamespace(java.lang.String) throws
-     * javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDefaultNamespace_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#setPrefix(java.lang.String,java.lang.String) public
-     * abstract void javax.xml.stream.XMLStreamWriter.setPrefix(java.lang.String,java.lang.String) throws
-     * javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPrefix_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeCharacters(java.lang.String) public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeCharacters(java.lang.String) throws javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeCharacters_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeCharacters(char[],int,int) public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeCharacters(char[],int,int) throws javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeCharacters_charArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeEndDocument() public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeEndDocument() throws javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeEndDocument()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#getProperty(java.lang.String) public abstract
-     * java.lang.Object javax.xml.stream.XMLStreamWriter.getProperty(java.lang.String) throws
-     * java.lang.IllegalArgumentException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProperty_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#getPrefix(java.lang.String) public abstract
-     * java.lang.String javax.xml.stream.XMLStreamWriter.getPrefix(java.lang.String) throws
-     * javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrefix_String()
+    public default void test_writeEmptyElement_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -513,14 +360,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeEmptyElement(java.lang.String) public abstract void
-     * javax.xml.stream.XMLStreamWriter.writeEmptyElement(java.lang.String) throws javax.xml.stream.XMLStreamException}.
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeEndDocument() public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeEndDocument() throws javax.xml.stream.XMLStreamException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeEmptyElement_String()
+    public default void test_writeEndDocument()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeEndElement() public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeEndElement() throws javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeEndElement()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -545,15 +408,152 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLStreamWriter#setNamespaceContext(javax.xml.namespace.NamespaceContext)
-     * public abstract void javax.xml.stream.XMLStreamWriter.setNamespaceContext(javax.xml.namespace.NamespaceContext)
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeNamespace(java.lang.String,java.lang.String) public
+     * abstract void javax.xml.stream.XMLStreamWriter.writeNamespace(java.lang.String,java.lang.String) throws
+     * javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeNamespace_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeProcessingInstruction(java.lang.String) public
+     * abstract void javax.xml.stream.XMLStreamWriter.writeProcessingInstruction(java.lang.String) throws
+     * javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeProcessingInstruction_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.xml.stream.XMLStreamWriter#writeProcessingInstruction(java.lang.String,java.lang.String) public
+     * abstract void javax.xml.stream.XMLStreamWriter.writeProcessingInstruction(java.lang.String,java.lang.String)
      * throws javax.xml.stream.XMLStreamException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setNamespaceContext_NamespaceContext()
+    public default void test_writeProcessingInstruction_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeStartDocument() public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeStartDocument() throws javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeStartDocument()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeStartDocument(java.lang.String) public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeStartDocument(java.lang.String) throws javax.xml.stream.XMLStreamException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeStartDocument_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeStartDocument(java.lang.String,java.lang.String)
+     * public abstract void javax.xml.stream.XMLStreamWriter.writeStartDocument(java.lang.String,java.lang.String)
+     * throws javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeStartDocument_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeStartElement(java.lang.String) public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeStartElement(java.lang.String) throws javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeStartElement_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLStreamWriter#writeStartElement(java.lang.String,java.lang.String)
+     * public abstract void javax.xml.stream.XMLStreamWriter.writeStartElement(java.lang.String,java.lang.String) throws
+     * javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeStartElement_String_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.xml.stream.XMLStreamWriter#writeStartElement(java.lang.String,java.lang.String,java.lang.String)
+     * public abstract void
+     * javax.xml.stream.XMLStreamWriter.writeStartElement(java.lang.String,java.lang.String,java.lang.String) throws
+     * javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeStartElement_String_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

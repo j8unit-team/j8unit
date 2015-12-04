@@ -25,25 +25,6 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantManagerOperationsTes
     /**
      * <p>
      * Test method for
-     * {@link org.omg.PortableServer.ServantActivatorOperations#incarnate(byte[],org.omg.PortableServer.POA) public
-     * abstract org.omg.PortableServer.Servant
-     * org.omg.PortableServer.ServantActivatorOperations.incarnate(byte[],org.omg.PortableServer.POA) throws
-     * org.omg.PortableServer.ForwardRequest}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_incarnate_byteArray_POA()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link org.omg.PortableServer.ServantActivatorOperations#etherealize(byte[],org.omg.PortableServer.POA,org.omg.PortableServer.Servant,boolean,boolean)
      * public abstract void
      * org.omg.PortableServer.ServantActivatorOperations.etherealize(byte[],org.omg.PortableServer.POA,org.omg.PortableServer.Servant,boolean,boolean)}
@@ -54,6 +35,25 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantManagerOperationsTes
     @Test
     @Category(Draft.class)
     public default void test_etherealize_byteArray_POA_Servant_boolean_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableServer.ServantActivatorOperations#incarnate(byte[],org.omg.PortableServer.POA) public
+     * abstract org.omg.PortableServer.Servant
+     * org.omg.PortableServer.ServantActivatorOperations.incarnate(byte[],org.omg.PortableServer.POA) throws
+     * org.omg.PortableServer.ForwardRequest}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_incarnate_byteArray_POA()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

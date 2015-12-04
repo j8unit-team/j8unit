@@ -36,21 +36,6 @@ public abstract interface AccessControlContextClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.AccessControlContext#AccessControlContext(java.security.ProtectionDomain[])
-     * public java.security.AccessControlContext(java.security.ProtectionDomain[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AccessControlContext_ProtectionDomainArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.AccessControlContext sut = null; // = new
-                                                             // AccessControlContext(java.security.ProtectionDomain[]);
-    }
-
-    /**
      * Test method for
      * {@link java.security.AccessControlContext#AccessControlContext(java.security.AccessControlContext,java.security.DomainCombiner)
      * public java.security.AccessControlContext(java.security.AccessControlContext,java.security.DomainCombiner)}.
@@ -64,6 +49,21 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.security.AccessControlContext sut = null; // = new
                                                              // AccessControlContext(java.security.AccessControlContext,java.security.DomainCombiner);
+    }
+
+    /**
+     * Test method for {@link java.security.AccessControlContext#AccessControlContext(java.security.ProtectionDomain[])
+     * public java.security.AccessControlContext(java.security.ProtectionDomain[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AccessControlContext_ProtectionDomainArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.AccessControlContext sut = null; // = new
+                                                             // AccessControlContext(java.security.ProtectionDomain[]);
     }
 
     @Override

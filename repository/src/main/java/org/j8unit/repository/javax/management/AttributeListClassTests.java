@@ -36,17 +36,16 @@ public abstract interface AttributeListClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.util.ArrayListClassTests<SUT, java.lang.Object> {
 
     /**
-     * Test method for {@link javax.management.AttributeList#AttributeList(java.util.List) public
-     * javax.management.AttributeList(java.util.List)}.
+     * Test method for {@link javax.management.AttributeList#AttributeList() public javax.management.AttributeList()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_AttributeList_List()
+    public default void create_AttributeList()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.management.AttributeList sut = null; // = new AttributeList(java.util.List);
+        final javax.management.AttributeList sut = null; // = new AttributeList();
     }
 
     /**
@@ -78,16 +77,17 @@ extends org.j8unit.repository.java.util.ArrayListClassTests<SUT, java.lang.Objec
     }
 
     /**
-     * Test method for {@link javax.management.AttributeList#AttributeList() public javax.management.AttributeList()}.
+     * Test method for {@link javax.management.AttributeList#AttributeList(java.util.List) public
+     * javax.management.AttributeList(java.util.List)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_AttributeList()
+    public default void create_AttributeList_List()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.management.AttributeList sut = null; // = new AttributeList();
+        final javax.management.AttributeList sut = null; // = new AttributeList(java.util.List);
     }
 
     @Override

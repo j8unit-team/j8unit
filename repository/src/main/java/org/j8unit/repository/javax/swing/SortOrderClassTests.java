@@ -34,14 +34,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface SortOrderClassTests<SUT extends Class<? extends javax.swing.SortOrder>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.SortOrder> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.swing.SortOrder#valueOf(java.lang.String) public static javax.swing.SortOrder
+     * javax.swing.SortOrder.valueOf(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_valueOf_String()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.SortOrder> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.SortOrder.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -60,20 +66,14 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.SortOrde
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.SortOrder#valueOf(java.lang.String) public static javax.swing.SortOrder
-     * javax.swing.SortOrder.valueOf(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_valueOf_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.swing.SortOrder> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.SortOrder.class.isAssignableFrom(sut));
     }
 
 }

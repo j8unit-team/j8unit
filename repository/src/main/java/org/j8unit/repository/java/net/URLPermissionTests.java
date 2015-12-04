@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.URLPermission#hashCode() public int java.net.URLPermission.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.net.URLPermission#equals(java.lang.Object) public boolean
      * java.net.URLPermission.equals(java.lang.Object)}.
      * </p>
@@ -56,23 +40,6 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.URLPermission#implies(java.security.Permission) public boolean
-     * java.net.URLPermission.implies(java.security.Permission)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_implies_Permission()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.net.URLPermission#getActions() public java.lang.String
      * java.net.URLPermission.getActions()}.
      * </p>
@@ -82,6 +49,39 @@ extends org.j8unit.repository.java.security.PermissionTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getActions()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.URLPermission#hashCode() public int java.net.URLPermission.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.URLPermission#implies(java.security.Permission) public boolean
+     * java.net.URLPermission.implies(java.security.Permission)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_implies_Permission()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

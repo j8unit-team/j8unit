@@ -37,17 +37,17 @@ extends org.j8unit.repository.java.awt.ItemSelectableClassTests<SUT>, org.j8unit
 org.j8unit.repository.java.awt.MenuItemClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.CheckboxMenuItem#CheckboxMenuItem(java.lang.String,boolean) public
-     * java.awt.CheckboxMenuItem(java.lang.String,boolean) throws java.awt.HeadlessException}.
+     * Test method for {@link java.awt.CheckboxMenuItem#CheckboxMenuItem() public java.awt.CheckboxMenuItem() throws
+     * java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_CheckboxMenuItem_String_boolean()
+    public default void create_CheckboxMenuItem()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.CheckboxMenuItem sut = null; // = new CheckboxMenuItem(java.lang.String,boolean);
+        final java.awt.CheckboxMenuItem sut = null; // = new CheckboxMenuItem();
     }
 
     /**
@@ -65,17 +65,17 @@ org.j8unit.repository.java.awt.MenuItemClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.CheckboxMenuItem#CheckboxMenuItem() public java.awt.CheckboxMenuItem() throws
-     * java.awt.HeadlessException}.
+     * Test method for {@link java.awt.CheckboxMenuItem#CheckboxMenuItem(java.lang.String,boolean) public
+     * java.awt.CheckboxMenuItem(java.lang.String,boolean) throws java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_CheckboxMenuItem()
+    public default void create_CheckboxMenuItem_String_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.CheckboxMenuItem sut = null; // = new CheckboxMenuItem();
+        final java.awt.CheckboxMenuItem sut = null; // = new CheckboxMenuItem(java.lang.String,boolean);
     }
 
     @Override

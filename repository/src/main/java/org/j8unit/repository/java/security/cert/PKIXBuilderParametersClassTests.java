@@ -37,23 +37,6 @@ extends org.j8unit.repository.java.security.cert.PKIXParametersClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.security.cert.PKIXBuilderParameters#PKIXBuilderParameters(java.util.Set,java.security.cert.CertSelector)
-     * public java.security.cert.PKIXBuilderParameters(java.util.Set,java.security.cert.CertSelector) throws
-     * java.security.InvalidAlgorithmParameterException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PKIXBuilderParameters_Set_CertSelector()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.PKIXBuilderParameters sut = null; // = new
-                                                                   // PKIXBuilderParameters(java.util.Set,java.security.cert.CertSelector);
-    }
-
-    /**
-     * Test method for
      * {@link java.security.cert.PKIXBuilderParameters#PKIXBuilderParameters(java.security.KeyStore,java.security.cert.CertSelector)
      * public java.security.cert.PKIXBuilderParameters(java.security.KeyStore,java.security.cert.CertSelector) throws
      * java.security.KeyStoreException,java.security.InvalidAlgorithmParameterException}.
@@ -67,6 +50,23 @@ extends org.j8unit.repository.java.security.cert.PKIXParametersClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.security.cert.PKIXBuilderParameters sut = null; // = new
                                                                    // PKIXBuilderParameters(java.security.KeyStore,java.security.cert.CertSelector);
+    }
+
+    /**
+     * Test method for
+     * {@link java.security.cert.PKIXBuilderParameters#PKIXBuilderParameters(java.util.Set,java.security.cert.CertSelector)
+     * public java.security.cert.PKIXBuilderParameters(java.util.Set,java.security.cert.CertSelector) throws
+     * java.security.InvalidAlgorithmParameterException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PKIXBuilderParameters_Set_CertSelector()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.PKIXBuilderParameters sut = null; // = new
+                                                                   // PKIXBuilderParameters(java.util.Set,java.security.cert.CertSelector);
     }
 
     @Override

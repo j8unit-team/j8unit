@@ -23,6 +23,39 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
+     * Test method for {@link java.util.zip.ZipFile#close() public void java.util.zip.ZipFile.close() throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.ZipFile#entries() public java.util.Enumeration
+     * java.util.zip.ZipFile.entries()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_entries()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.zip.ZipFile#getComment() public java.lang.String
      * java.util.zip.ZipFile.getComment()}.
      * </p>
@@ -55,23 +88,6 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipFile#close() public void java.util.zip.ZipFile.close() throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.zip.ZipFile#getInputStream(java.util.zip.ZipEntry) public java.io.InputStream
      * java.util.zip.ZipFile.getInputStream(java.util.zip.ZipEntry) throws java.io.IOException}.
      * </p>
@@ -80,22 +96,6 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
     @Test
     @Category(Draft.class)
     public default void test_getInputStream_ZipEntry()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.ZipFile#entries() public java.util.Enumeration
-     * java.util.zip.ZipFile.entries()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_entries()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,15 +36,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface FunctionClassTests<SUT extends Class<? extends java.util.function.Function<T, R>>, T, R>
 extends J8UnitTest<SUT> {
 
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.function.Function<T, R>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.function.Function.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.util.function.Function#identity() public static java.util.function.Function
@@ -59,6 +50,15 @@ extends J8UnitTest<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.function.Function<T, R>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.function.Function.class.isAssignableFrom(sut));
     }
 
 }

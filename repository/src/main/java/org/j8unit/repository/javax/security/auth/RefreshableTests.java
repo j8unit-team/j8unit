@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.Refreshable#refresh() public abstract void
-     * javax.security.auth.Refreshable.refresh() throws javax.security.auth.RefreshFailedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_refresh()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.security.auth.Refreshable#isCurrent() public abstract boolean
      * javax.security.auth.Refreshable.isCurrent()}.
      * </p>
@@ -48,6 +32,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isCurrent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.Refreshable#refresh() public abstract void
+     * javax.security.auth.Refreshable.refresh() throws javax.security.auth.RefreshFailedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_refresh()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

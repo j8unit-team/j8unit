@@ -23,32 +23,14 @@ extends org.j8unit.repository.javax.swing.plaf.PopupMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicPopupMenuUI#uninstallUI(javax.swing.JComponent) public void
-     * javax.swing.plaf.basic.BasicPopupMenuUI.uninstallUI(javax.swing.JComponent)}.
+     * Test method for {@link javax.swing.plaf.basic.BasicPopupMenuUI#installDefaults() public void
+     * javax.swing.plaf.basic.BasicPopupMenuUI.installDefaults()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_uninstallUI_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicPopupMenuUI#isPopupTrigger(java.awt.event.MouseEvent) public
-     * boolean javax.swing.plaf.basic.BasicPopupMenuUI.isPopupTrigger(java.awt.event.MouseEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isPopupTrigger_MouseEvent()
+    public default void test_installDefaults()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,14 +56,32 @@ extends org.j8unit.repository.javax.swing.plaf.PopupMenuUITests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicPopupMenuUI#installDefaults() public void
-     * javax.swing.plaf.basic.BasicPopupMenuUI.installDefaults()}.
+     * Test method for {@link javax.swing.plaf.basic.BasicPopupMenuUI#isPopupTrigger(java.awt.event.MouseEvent) public
+     * boolean javax.swing.plaf.basic.BasicPopupMenuUI.isPopupTrigger(java.awt.event.MouseEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_installDefaults()
+    @Override
+    public default void test_isPopupTrigger_MouseEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicPopupMenuUI#uninstallUI(javax.swing.JComponent) public void
+     * javax.swing.plaf.basic.BasicPopupMenuUI.uninstallUI(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_uninstallUI_JComponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

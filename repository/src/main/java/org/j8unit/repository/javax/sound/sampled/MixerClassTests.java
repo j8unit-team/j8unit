@@ -33,16 +33,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface MixerClassTests<SUT extends Class<? extends javax.sound.sampled.Mixer>>
 extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.sound.sampled.Mixer> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.sound.sampled.Mixer.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.sound.sampled.Mixer$Info class javax.sound.sampled.Mixer$Info}, containing all class
@@ -82,6 +72,16 @@ extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
             assertTrue(javax.sound.sampled.Mixer.Info.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.sound.sampled.Mixer> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.sound.sampled.Mixer.class.isAssignableFrom(sut));
     }
 
 }

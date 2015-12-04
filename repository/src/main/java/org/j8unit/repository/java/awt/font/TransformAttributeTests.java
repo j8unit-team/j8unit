@@ -40,6 +40,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link java.awt.font.TransformAttribute#getTransform() public java.awt.geom.AffineTransform
+     * java.awt.font.TransformAttribute.getTransform()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTransform()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.font.TransformAttribute#hashCode() public int
      * java.awt.font.TransformAttribute.hashCode()}.
      * </p>
@@ -65,22 +81,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_isIdentity()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.TransformAttribute#getTransform() public java.awt.geom.AffineTransform
-     * java.awt.font.TransformAttribute.getTransform()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTransform()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

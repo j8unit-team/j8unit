@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface DocumentationToolClassTests<SUT extends Class<? extends javax.tools.DocumentationTool>>
 extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.tools.DocumentationTool> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.tools.DocumentationTool.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.tools.DocumentationTool$DocumentationTask interface
@@ -117,14 +107,20 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
     extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClassTests<SUT>,
     org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.tools.DocumentationTool.Location> {
 
-        @Override
+        /**
+         * <p>
+         * Test method for {@link javax.tools.DocumentationTool.Location#valueOf(java.lang.String) public static
+         * javax.tools.DocumentationTool$Location javax.tools.DocumentationTool$Location.valueOf(java.lang.String)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @Category(Draft.class)
+        public default void test_valueOf_String()
         throws Exception {
-            // create new instance
-            final Class<? extends javax.tools.DocumentationTool.Location> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.tools.DocumentationTool.Location.class.isAssignableFrom(sut));
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
         }
 
         /**
@@ -143,22 +139,26 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for {@link javax.tools.DocumentationTool.Location#valueOf(java.lang.String) public static
-         * javax.tools.DocumentationTool$Location javax.tools.DocumentationTool$Location.valueOf(java.lang.String)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
+        public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
+            // create new instance
+            final Class<? extends javax.tools.DocumentationTool.Location> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.tools.DocumentationTool.Location.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.tools.DocumentationTool> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.tools.DocumentationTool.class.isAssignableFrom(sut));
     }
 
 }

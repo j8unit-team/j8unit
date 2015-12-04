@@ -36,45 +36,6 @@ public abstract interface StyleSheetClassTests<SUT extends Class<? extends javax
 extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.text.html.StyleSheet#StyleSheet() public javax.swing.text.html.StyleSheet()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_StyleSheet()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.html.StyleSheet sut = null; // = new StyleSheet();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.html.StyleSheet> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.html.StyleSheet.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.StyleSheet#getIndexOfSize(float) public static int
-     * javax.swing.text.html.StyleSheet.getIndexOfSize(float)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIndexOfSize_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.text.html.StyleSheet$BoxPainter class
      * javax.swing.text.html.StyleSheet$BoxPainter}, containing all class relevant test methods (at least the test
@@ -156,6 +117,45 @@ extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
             assertTrue(javax.swing.text.html.StyleSheet.ListPainter.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.text.html.StyleSheet#StyleSheet() public javax.swing.text.html.StyleSheet()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_StyleSheet()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.html.StyleSheet sut = null; // = new StyleSheet();
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.StyleSheet#getIndexOfSize(float) public static int
+     * javax.swing.text.html.StyleSheet.getIndexOfSize(float)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIndexOfSize_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.html.StyleSheet> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.html.StyleSheet.class.isAssignableFrom(sut));
     }
 
 }

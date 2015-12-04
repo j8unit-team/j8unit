@@ -23,23 +23,6 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLEventWriter#getPrefix(java.lang.String) public abstract
-     * java.lang.String javax.xml.stream.XMLEventWriter.getPrefix(java.lang.String) throws
-     * javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrefix_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.stream.XMLEventWriter#add(javax.xml.stream.events.XMLEvent) public abstract void
      * javax.xml.stream.XMLEventWriter.add(javax.xml.stream.events.XMLEvent) throws javax.xml.stream.XMLStreamException}
      * .
@@ -74,15 +57,14 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.stream.XMLEventWriter#setDefaultNamespace(java.lang.String) public abstract void
-     * javax.xml.stream.XMLEventWriter.setDefaultNamespace(java.lang.String) throws javax.xml.stream.XMLStreamException}
-     * .
+     * Test method for {@link javax.xml.stream.XMLEventWriter#close() public abstract void
+     * javax.xml.stream.XMLEventWriter.close() throws javax.xml.stream.XMLStreamException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDefaultNamespace_String()
+    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -99,6 +81,56 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_flush()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLEventWriter#getNamespaceContext() public abstract
+     * javax.xml.namespace.NamespaceContext javax.xml.stream.XMLEventWriter.getNamespaceContext()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNamespaceContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLEventWriter#getPrefix(java.lang.String) public abstract
+     * java.lang.String javax.xml.stream.XMLEventWriter.getPrefix(java.lang.String) throws
+     * javax.xml.stream.XMLStreamException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrefix_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.stream.XMLEventWriter#setDefaultNamespace(java.lang.String) public abstract void
+     * javax.xml.stream.XMLEventWriter.setDefaultNamespace(java.lang.String) throws javax.xml.stream.XMLStreamException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDefaultNamespace_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -133,38 +165,6 @@ extends org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setPrefix_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLEventWriter#getNamespaceContext() public abstract
-     * javax.xml.namespace.NamespaceContext javax.xml.stream.XMLEventWriter.getNamespaceContext()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNamespaceContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.stream.XMLEventWriter#close() public abstract void
-     * javax.xml.stream.XMLEventWriter.close() throws javax.xml.stream.XMLStreamException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

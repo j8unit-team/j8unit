@@ -23,18 +23,19 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SwingWorker#getPropertyChangeSupport() public final
-     * java.beans.PropertyChangeSupport javax.swing.SwingWorker.getPropertyChangeSupport()}.
+     * Test class for {@link javax.swing.SwingWorker$StateValue class javax.swing.SwingWorker$StateValue}, containing
+     * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
      * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.swing.SwingWorkerClassTests.StateValueClassTests
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPropertyChangeSupport()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+    @Category(J8UnitRepository.class)
+    public static abstract interface StateValueTests<SUT extends javax.swing.SwingWorker.StateValue>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.swing.SwingWorker.StateValue> {
+
     }
 
     /**
@@ -55,14 +56,64 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SwingWorker#getState() public final javax.swing.SwingWorker$StateValue
-     * javax.swing.SwingWorker.getState()}.
+     * Test method for {@link javax.swing.SwingWorker#cancel(boolean) public final boolean
+     * javax.swing.SwingWorker.cancel(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getState()
+    @Override
+    public default void test_cancel_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.SwingWorker#execute() public final void javax.swing.SwingWorker.execute()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_execute()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.SwingWorker#firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object) public
+     * final void javax.swing.SwingWorker.firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_firePropertyChange_String_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.SwingWorker#get() public final java.lang.Object javax.swing.SwingWorker.get()
+     * throws java.lang.InterruptedException,java.util.concurrent.ExecutionException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_get()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -89,70 +140,6 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SwingWorker#get() public final java.lang.Object javax.swing.SwingWorker.get()
-     * throws java.lang.InterruptedException,java.util.concurrent.ExecutionException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_get()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.SwingWorker#run() public final void javax.swing.SwingWorker.run()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_run()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.SwingWorker#execute() public final void javax.swing.SwingWorker.execute()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_execute()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.SwingWorker#isDone() public final boolean javax.swing.SwingWorker.isDone()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isDone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.SwingWorker#getProgress() public final int
      * javax.swing.SwingWorker.getProgress()}.
      * </p>
@@ -169,14 +156,14 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SwingWorker#removePropertyChangeListener(java.beans.PropertyChangeListener)
-     * public final void javax.swing.SwingWorker.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * Test method for {@link javax.swing.SwingWorker#getPropertyChangeSupport() public final
+     * java.beans.PropertyChangeSupport javax.swing.SwingWorker.getPropertyChangeSupport()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removePropertyChangeListener_PropertyChangeListener()
+    public default void test_getPropertyChangeSupport()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -185,32 +172,14 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SwingWorker#cancel(boolean) public final boolean
-     * javax.swing.SwingWorker.cancel(boolean)}.
+     * Test method for {@link javax.swing.SwingWorker#getState() public final javax.swing.SwingWorker$StateValue
+     * javax.swing.SwingWorker.getState()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_cancel_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.SwingWorker#firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object) public
-     * final void javax.swing.SwingWorker.firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_firePropertyChange_String_Object_Object()
+    public default void test_getState()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -236,19 +205,50 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureTests<SUT, T>, 
 
     /**
      * <p>
-     * Test class for {@link javax.swing.SwingWorker$StateValue class javax.swing.SwingWorker$StateValue}, containing
-     * all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Test method for {@link javax.swing.SwingWorker#isDone() public final boolean javax.swing.SwingWorker.isDone()}.
      * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.SwingWorkerClassTests.StateValueClassTests
      */
-    @Category(J8UnitRepository.class)
-    public static abstract interface StateValueTests<SUT extends javax.swing.SwingWorker.StateValue>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.swing.SwingWorker.StateValue> {
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isDone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
+    /**
+     * <p>
+     * Test method for {@link javax.swing.SwingWorker#removePropertyChangeListener(java.beans.PropertyChangeListener)
+     * public final void javax.swing.SwingWorker.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removePropertyChangeListener_PropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.SwingWorker#run() public final void javax.swing.SwingWorker.run()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_run()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

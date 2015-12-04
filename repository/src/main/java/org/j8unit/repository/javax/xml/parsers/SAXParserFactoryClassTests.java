@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface SAXParserFactoryClassTests<SUT extends Class<? extends javax.xml.parsers.SAXParserFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.xml.parsers.SAXParserFactory#newInstance() public static
+     * javax.xml.parsers.SAXParserFactory javax.xml.parsers.SAXParserFactory.newInstance()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_newInstance()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.parsers.SAXParserFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.parsers.SAXParserFactory.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -62,20 +68,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.SAXParserFactory#newInstance() public static
-     * javax.xml.parsers.SAXParserFactory javax.xml.parsers.SAXParserFactory.newInstance()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_newInstance()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.xml.parsers.SAXParserFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.parsers.SAXParserFactory.class.isAssignableFrom(sut));
     }
 
 }

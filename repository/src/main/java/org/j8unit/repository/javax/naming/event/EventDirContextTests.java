@@ -24,25 +24,6 @@ extends org.j8unit.repository.javax.naming.event.EventContextTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.event.EventDirContext#addNamingListener(java.lang.String,java.lang.String,java.lang.Object[],javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
-     * public abstract void
-     * javax.naming.event.EventDirContext.addNamingListener(java.lang.String,java.lang.String,java.lang.Object[],javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
-     * throws javax.naming.NamingException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addNamingListener_String_String_ObjectArray_SearchControls_NamingListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link javax.naming.event.EventDirContext#addNamingListener(javax.naming.Name,java.lang.String,java.lang.Object[],javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
      * public abstract void
      * javax.naming.event.EventDirContext.addNamingListener(javax.naming.Name,java.lang.String,java.lang.Object[],javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
@@ -62,25 +43,6 @@ extends org.j8unit.repository.javax.naming.event.EventContextTests<SUT>, org.j8u
     /**
      * <p>
      * Test method for
-     * {@link javax.naming.event.EventDirContext#addNamingListener(java.lang.String,java.lang.String,javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
-     * public abstract void
-     * javax.naming.event.EventDirContext.addNamingListener(java.lang.String,java.lang.String,javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
-     * throws javax.naming.NamingException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addNamingListener_String_String_SearchControls_NamingListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link javax.naming.event.EventDirContext#addNamingListener(javax.naming.Name,java.lang.String,javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
      * public abstract void
      * javax.naming.event.EventDirContext.addNamingListener(javax.naming.Name,java.lang.String,javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
@@ -91,6 +53,44 @@ extends org.j8unit.repository.javax.naming.event.EventContextTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     public default void test_addNamingListener_Name_String_SearchControls_NamingListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.naming.event.EventDirContext#addNamingListener(java.lang.String,java.lang.String,java.lang.Object[],javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
+     * public abstract void
+     * javax.naming.event.EventDirContext.addNamingListener(java.lang.String,java.lang.String,java.lang.Object[],javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
+     * throws javax.naming.NamingException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addNamingListener_String_String_ObjectArray_SearchControls_NamingListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.naming.event.EventDirContext#addNamingListener(java.lang.String,java.lang.String,javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
+     * public abstract void
+     * javax.naming.event.EventDirContext.addNamingListener(java.lang.String,java.lang.String,javax.naming.directory.SearchControls,javax.naming.event.NamingListener)
+     * throws javax.naming.NamingException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addNamingListener_String_String_SearchControls_NamingListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

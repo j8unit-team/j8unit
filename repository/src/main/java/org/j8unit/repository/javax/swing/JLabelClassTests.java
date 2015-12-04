@@ -76,6 +76,19 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     }
 
     /**
+     * Test method for {@link javax.swing.JLabel#JLabel(java.lang.String) public javax.swing.JLabel(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JLabel_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JLabel sut = null; // = new JLabel(java.lang.String);
+    }
+
+    /**
      * Test method for {@link javax.swing.JLabel#JLabel(java.lang.String,javax.swing.Icon,int) public
      * javax.swing.JLabel(java.lang.String,javax.swing.Icon,int)}.
      */
@@ -101,19 +114,6 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JLabel sut = null; // = new JLabel(java.lang.String,int);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JLabel#JLabel(java.lang.String) public javax.swing.JLabel(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JLabel_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JLabel sut = null; // = new JLabel(java.lang.String);
     }
 
     @Override

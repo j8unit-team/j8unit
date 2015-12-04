@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.peer.ScrollbarPeer#setLineIncrement(int) public abstract void
+     * java.awt.peer.ScrollbarPeer.setLineIncrement(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLineIncrement_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.peer.ScrollbarPeer#setPageIncrement(int) public abstract void
      * java.awt.peer.ScrollbarPeer.setPageIncrement(int)}.
      * </p>
@@ -47,22 +63,6 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setValues_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.peer.ScrollbarPeer#setLineIncrement(int) public abstract void
-     * java.awt.peer.ScrollbarPeer.setLineIncrement(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLineIncrement_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

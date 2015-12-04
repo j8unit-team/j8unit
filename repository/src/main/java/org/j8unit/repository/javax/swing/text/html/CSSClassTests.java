@@ -36,61 +36,6 @@ public abstract interface CSSClassTests<SUT extends Class<? extends javax.swing.
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.text.html.CSS#CSS() public javax.swing.text.html.CSS()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CSS()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.html.CSS sut = null; // = new CSS();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.html.CSS> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.html.CSS.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.CSS#getAttribute(java.lang.String) public static final
-     * javax.swing.text.html.CSS$Attribute javax.swing.text.html.CSS.getAttribute(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttribute_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.CSS#getAllAttributeKeys() public static
-     * javax.swing.text.html.CSS$Attribute[] javax.swing.text.html.CSS.getAllAttributeKeys()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAllAttributeKeys()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.text.html.CSS$Attribute class javax.swing.text.html.CSS$Attribute}, containing
      * all class relevant test methods (at least the test methods of accessible constructors and of accessible
@@ -129,6 +74,61 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
             assertTrue(javax.swing.text.html.CSS.Attribute.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.text.html.CSS#CSS() public javax.swing.text.html.CSS()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CSS()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.html.CSS sut = null; // = new CSS();
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.CSS#getAllAttributeKeys() public static
+     * javax.swing.text.html.CSS$Attribute[] javax.swing.text.html.CSS.getAllAttributeKeys()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAllAttributeKeys()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.CSS#getAttribute(java.lang.String) public static final
+     * javax.swing.text.html.CSS$Attribute javax.swing.text.html.CSS.getAttribute(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttribute_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.html.CSS> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.html.CSS.class.isAssignableFrom(sut));
     }
 
 }

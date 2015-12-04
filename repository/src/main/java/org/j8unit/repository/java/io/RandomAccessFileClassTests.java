@@ -37,20 +37,6 @@ extends org.j8unit.repository.java.io.DataOutputClassTests<SUT>, org.j8unit.repo
 org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.io.RandomAccessFile#RandomAccessFile(java.lang.String,java.lang.String) public
-     * java.io.RandomAccessFile(java.lang.String,java.lang.String) throws java.io.FileNotFoundException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RandomAccessFile_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.RandomAccessFile sut = null; // = new RandomAccessFile(java.lang.String,java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.io.RandomAccessFile#RandomAccessFile(java.io.File,java.lang.String) public
      * java.io.RandomAccessFile(java.io.File,java.lang.String) throws java.io.FileNotFoundException}.
      */
@@ -62,6 +48,20 @@ org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.ja
         // create new instance
         @SuppressWarnings("unused")
         final java.io.RandomAccessFile sut = null; // = new RandomAccessFile(java.io.File,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.io.RandomAccessFile#RandomAccessFile(java.lang.String,java.lang.String) public
+     * java.io.RandomAccessFile(java.lang.String,java.lang.String) throws java.io.FileNotFoundException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RandomAccessFile_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.RandomAccessFile sut = null; // = new RandomAccessFile(java.lang.String,java.lang.String);
     }
 
     @Override

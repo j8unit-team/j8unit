@@ -35,6 +35,19 @@ public abstract interface PointClassTests<SUT extends Class<? extends java.awt.P
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Point2DClassTests<SUT> {
 
     /**
+     * Test method for {@link java.awt.Point#Point() public java.awt.Point()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Point()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Point sut = null; // = new Point();
+    }
+
+    /**
      * Test method for {@link java.awt.Point#Point(int,int) public java.awt.Point(int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -58,19 +71,6 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.Point sut = null; // = new Point(java.awt.Point);
-    }
-
-    /**
-     * Test method for {@link java.awt.Point#Point() public java.awt.Point()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Point()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Point sut = null; // = new Point();
     }
 
     @Override

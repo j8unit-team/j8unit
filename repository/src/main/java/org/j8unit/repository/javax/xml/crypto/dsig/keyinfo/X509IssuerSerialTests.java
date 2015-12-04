@@ -24,22 +24,6 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.crypto.dsig.keyinfo.X509IssuerSerial#getSerialNumber() public abstract
-     * java.math.BigInteger javax.xml.crypto.dsig.keyinfo.X509IssuerSerial.getSerialNumber()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSerialNumber()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.crypto.dsig.keyinfo.X509IssuerSerial#getIssuerName() public abstract
      * java.lang.String javax.xml.crypto.dsig.keyinfo.X509IssuerSerial.getIssuerName()}.
      * </p>
@@ -48,6 +32,22 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getIssuerName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.crypto.dsig.keyinfo.X509IssuerSerial#getSerialNumber() public abstract
+     * java.math.BigInteger javax.xml.crypto.dsig.keyinfo.X509IssuerSerial.getSerialNumber()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSerialNumber()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

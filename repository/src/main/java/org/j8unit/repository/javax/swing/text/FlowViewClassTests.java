@@ -36,30 +36,6 @@ public abstract interface FlowViewClassTests<SUT extends Class<? extends javax.s
 extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.text.FlowView#FlowView(javax.swing.text.Element,int) public
-     * javax.swing.text.FlowView(javax.swing.text.Element,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FlowView_Element_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.FlowView sut = null; // = new FlowView(javax.swing.text.Element,int);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.FlowView> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.FlowView.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.text.FlowView$FlowStrategy class javax.swing.text.FlowView$FlowStrategy},
      * containing all class relevant test methods (at least the test methods of accessible constructors and of
@@ -112,6 +88,30 @@ extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
             assertTrue(javax.swing.text.FlowView.FlowStrategy.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.text.FlowView#FlowView(javax.swing.text.Element,int) public
+     * javax.swing.text.FlowView(javax.swing.text.Element,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FlowView_Element_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.FlowView sut = null; // = new FlowView(javax.swing.text.Element,int);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.FlowView> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.FlowView.class.isAssignableFrom(sut));
     }
 
 }

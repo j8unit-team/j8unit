@@ -23,6 +23,38 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link javax.management.remote.NotificationResult#getEarliestSequenceNumber() public long
+     * javax.management.remote.NotificationResult.getEarliestSequenceNumber()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEarliestSequenceNumber()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.NotificationResult#getNextSequenceNumber() public long
+     * javax.management.remote.NotificationResult.getNextSequenceNumber()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNextSequenceNumber()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.remote.NotificationResult#getTargetedNotifications() public
      * javax.management.remote.TargetedNotification[]
      * javax.management.remote.NotificationResult.getTargetedNotifications()}.
@@ -40,22 +72,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.NotificationResult#getEarliestSequenceNumber() public long
-     * javax.management.remote.NotificationResult.getEarliestSequenceNumber()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEarliestSequenceNumber()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.remote.NotificationResult#toString() public java.lang.String
      * javax.management.remote.NotificationResult.toString()}.
      * </p>
@@ -65,22 +81,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Category(Draft.class)
     @Override
     public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.remote.NotificationResult#getNextSequenceNumber() public long
-     * javax.management.remote.NotificationResult.getNextSequenceNumber()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNextSequenceNumber()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

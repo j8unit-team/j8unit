@@ -38,20 +38,19 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerClassTes
 
     /**
      * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectorServer#RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map,javax.management.remote.rmi.RMIServerImpl,javax.management.MBeanServer)
-     * public
-     * javax.management.remote.rmi.RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map,javax.management.remote.rmi.RMIServerImpl,javax.management.MBeanServer)
-     * throws java.io.IOException}.
+     * {@link javax.management.remote.rmi.RMIConnectorServer#RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map)
+     * public javax.management.remote.rmi.RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map) throws
+     * java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RMIConnectorServer_JMXServiceURL_Map_RMIServerImpl_MBeanServer()
+    public default void create_RMIConnectorServer_JMXServiceURL_Map()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.management.remote.rmi.RMIConnectorServer sut = null; // = new
-                                                                         // RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map,javax.management.remote.rmi.RMIServerImpl,javax.management.MBeanServer);
+                                                                         // RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map);
     }
 
     /**
@@ -74,19 +73,20 @@ extends org.j8unit.repository.javax.management.remote.JMXConnectorServerClassTes
 
     /**
      * Test method for
-     * {@link javax.management.remote.rmi.RMIConnectorServer#RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map)
-     * public javax.management.remote.rmi.RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map) throws
-     * java.io.IOException}.
+     * {@link javax.management.remote.rmi.RMIConnectorServer#RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map,javax.management.remote.rmi.RMIServerImpl,javax.management.MBeanServer)
+     * public
+     * javax.management.remote.rmi.RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map,javax.management.remote.rmi.RMIServerImpl,javax.management.MBeanServer)
+     * throws java.io.IOException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RMIConnectorServer_JMXServiceURL_Map()
+    public default void create_RMIConnectorServer_JMXServiceURL_Map_RMIServerImpl_MBeanServer()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.management.remote.rmi.RMIConnectorServer sut = null; // = new
-                                                                         // RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map);
+                                                                         // RMIConnectorServer(javax.management.remote.JMXServiceURL,java.util.Map,javax.management.remote.rmi.RMIServerImpl,javax.management.MBeanServer);
     }
 
     @Override

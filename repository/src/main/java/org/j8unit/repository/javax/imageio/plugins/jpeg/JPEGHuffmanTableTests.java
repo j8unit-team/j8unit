@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.plugins.jpeg.JPEGHuffmanTable#getValues() public short[]
-     * javax.imageio.plugins.jpeg.JPEGHuffmanTable.getValues()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getValues()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.imageio.plugins.jpeg.JPEGHuffmanTable#getLengths() public short[]
      * javax.imageio.plugins.jpeg.JPEGHuffmanTable.getLengths()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getLengths()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.plugins.jpeg.JPEGHuffmanTable#getValues() public short[]
+     * javax.imageio.plugins.jpeg.JPEGHuffmanTable.getValues()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getValues()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -37,16 +37,6 @@ public abstract interface AsynchronousServerSocketChannelClassTests<SUT extends 
 extends org.j8unit.repository.java.nio.channels.AsynchronousChannelClassTests<SUT>, org.j8unit.repository.java.nio.channels.NetworkChannelClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.channels.AsynchronousServerSocketChannel> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.channels.AsynchronousServerSocketChannel.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.nio.channels.AsynchronousServerSocketChannel#open() public static
@@ -81,6 +71,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.channels.AsynchronousServerSocketChannel> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.channels.AsynchronousServerSocketChannel.class.isAssignableFrom(sut));
     }
 
 }

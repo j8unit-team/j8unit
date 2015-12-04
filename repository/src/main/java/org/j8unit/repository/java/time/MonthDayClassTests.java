@@ -36,42 +36,16 @@ extends org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<SUT>
 org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.MonthDay>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.MonthDay> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.MonthDay.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.time.MonthDay#of(java.time.Month,int) public static java.time.MonthDay
-     * java.time.MonthDay.of(java.time.Month,int)}.
+     * Test method for {@link java.time.MonthDay#from(java.time.temporal.TemporalAccessor) public static
+     * java.time.MonthDay java.time.MonthDay.from(java.time.temporal.TemporalAccessor)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_of_Month_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.MonthDay#of(int,int) public static java.time.MonthDay
-     * java.time.MonthDay.of(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_int_int()
+    public default void test_from_TemporalAccessor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,22 +61,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_now()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.MonthDay#now(java.time.ZoneId) public static java.time.MonthDay
-     * java.time.MonthDay.now(java.time.ZoneId)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_now_ZoneId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,14 +85,46 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.MonthDay#parse(java.lang.CharSequence,java.time.format.DateTimeFormatter) public
-     * static java.time.MonthDay java.time.MonthDay.parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)}.
+     * Test method for {@link java.time.MonthDay#now(java.time.ZoneId) public static java.time.MonthDay
+     * java.time.MonthDay.now(java.time.ZoneId)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parse_CharSequence_DateTimeFormatter()
+    public default void test_now_ZoneId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.MonthDay#of(int,int) public static java.time.MonthDay
+     * java.time.MonthDay.of(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.MonthDay#of(java.time.Month,int) public static java.time.MonthDay
+     * java.time.MonthDay.of(java.time.Month,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_Month_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -159,18 +149,28 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.MonthDay#from(java.time.temporal.TemporalAccessor) public static
-     * java.time.MonthDay java.time.MonthDay.from(java.time.temporal.TemporalAccessor)}.
+     * Test method for {@link java.time.MonthDay#parse(java.lang.CharSequence,java.time.format.DateTimeFormatter) public
+     * static java.time.MonthDay java.time.MonthDay.parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_from_TemporalAccessor()
+    public default void test_parse_CharSequence_DateTimeFormatter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.MonthDay> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.MonthDay.class.isAssignableFrom(sut));
     }
 
 }

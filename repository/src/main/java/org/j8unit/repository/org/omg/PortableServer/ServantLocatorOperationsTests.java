@@ -25,25 +25,6 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantManagerOperationsTes
     /**
      * <p>
      * Test method for
-     * {@link org.omg.PortableServer.ServantLocatorOperations#preinvoke(byte[],org.omg.PortableServer.POA,java.lang.String,org.omg.PortableServer.ServantLocatorPackage.CookieHolder)
-     * public abstract org.omg.PortableServer.Servant
-     * org.omg.PortableServer.ServantLocatorOperations.preinvoke(byte[],org.omg.PortableServer.POA,java.lang.String,org.omg.PortableServer.ServantLocatorPackage.CookieHolder)
-     * throws org.omg.PortableServer.ForwardRequest}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_preinvoke_byteArray_POA_String_CookieHolder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link org.omg.PortableServer.ServantLocatorOperations#postinvoke(byte[],org.omg.PortableServer.POA,java.lang.String,java.lang.Object,org.omg.PortableServer.Servant)
      * public abstract void
      * org.omg.PortableServer.ServantLocatorOperations.postinvoke(byte[],org.omg.PortableServer.POA,java.lang.String,java.lang.Object,org.omg.PortableServer.Servant)}
@@ -54,6 +35,25 @@ extends org.j8unit.repository.org.omg.PortableServer.ServantManagerOperationsTes
     @Test
     @Category(Draft.class)
     public default void test_postinvoke_byteArray_POA_String_Object_Servant()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableServer.ServantLocatorOperations#preinvoke(byte[],org.omg.PortableServer.POA,java.lang.String,org.omg.PortableServer.ServantLocatorPackage.CookieHolder)
+     * public abstract org.omg.PortableServer.Servant
+     * org.omg.PortableServer.ServantLocatorOperations.preinvoke(byte[],org.omg.PortableServer.POA,java.lang.String,org.omg.PortableServer.ServantLocatorPackage.CookieHolder)
+     * throws org.omg.PortableServer.ForwardRequest}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_preinvoke_byteArray_POA_String_CookieHolder()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

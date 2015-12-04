@@ -23,14 +23,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Desktop#print(java.io.File) public void java.awt.Desktop.print(java.io.File)
+     * Test class for {@link java.awt.Desktop$Action class java.awt.Desktop$Action}, containing all instance relevant
+     * test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.java.awt.DesktopClassTests.ActionClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface ActionTests<SUT extends java.awt.Desktop.Action>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, java.awt.Desktop.Action> {
+
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Desktop#browse(java.net.URI) public void java.awt.Desktop.browse(java.net.URI)
      * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_print_File()
+    public default void test_browse_URI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +72,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Desktop#mail(java.net.URI) public void java.awt.Desktop.mail(java.net.URI) throws
-     * java.io.IOException}.
+     * Test method for {@link java.awt.Desktop#isSupported(java.awt.Desktop.Action) public boolean
+     * java.awt.Desktop.isSupported(java.awt.Desktop$Action)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_mail_URI()
+    public default void test_isSupported_Action()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -86,30 +103,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.Desktop#isSupported(java.awt.Desktop.Action) public boolean
-     * java.awt.Desktop.isSupported(java.awt.Desktop$Action)}.
+     * Test method for {@link java.awt.Desktop#mail(java.net.URI) public void java.awt.Desktop.mail(java.net.URI) throws
+     * java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isSupported_Action()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.Desktop#browse(java.net.URI) public void java.awt.Desktop.browse(java.net.URI)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_browse_URI()
+    public default void test_mail_URI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -134,19 +135,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.awt.Desktop$Action class java.awt.Desktop$Action}, containing all instance relevant
-     * test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Test method for {@link java.awt.Desktop#print(java.io.File) public void java.awt.Desktop.print(java.io.File)
+     * throws java.io.IOException}.
      * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.java.awt.DesktopClassTests.ActionClassTests
      */
-    @Category(J8UnitRepository.class)
-    public static abstract interface ActionTests<SUT extends java.awt.Desktop.Action>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, java.awt.Desktop.Action> {
-
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_print_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

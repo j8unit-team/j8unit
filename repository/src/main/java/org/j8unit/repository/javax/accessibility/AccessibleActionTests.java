@@ -40,22 +40,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleAction#getAccessibleActionDescription(int) public abstract
-     * java.lang.String javax.accessibility.AccessibleAction.getAccessibleActionDescription(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAccessibleActionDescription_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.accessibility.AccessibleAction#getAccessibleActionCount() public abstract int
      * javax.accessibility.AccessibleAction.getAccessibleActionCount()}.
      * </p>
@@ -64,6 +48,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAccessibleActionCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleAction#getAccessibleActionDescription(int) public abstract
+     * java.lang.String javax.accessibility.AccessibleAction.getAccessibleActionDescription(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAccessibleActionDescription_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

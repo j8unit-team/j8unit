@@ -48,14 +48,20 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         final java.net.HttpCookie sut = null; // = new HttpCookie(java.lang.String,java.lang.String);
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.net.HttpCookie#domainMatches(java.lang.String,java.lang.String) public static boolean
+     * java.net.HttpCookie.domainMatches(java.lang.String,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_domainMatches_String_String()
     throws Exception {
-        // create new instance
-        final Class<? extends java.net.HttpCookie> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.net.HttpCookie.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -74,20 +80,14 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.net.HttpCookie#domainMatches(java.lang.String,java.lang.String) public static boolean
-     * java.net.HttpCookie.domainMatches(java.lang.String,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_domainMatches_String_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.net.HttpCookie> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.HttpCookie.class.isAssignableFrom(sut));
     }
 
 }

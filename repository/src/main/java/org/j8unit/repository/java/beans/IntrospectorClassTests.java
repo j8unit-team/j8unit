@@ -35,14 +35,36 @@ import org.junit.experimental.categories.Category;
 public abstract interface IntrospectorClassTests<SUT extends Class<? extends java.beans.Introspector>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.beans.Introspector#decapitalize(java.lang.String) public static java.lang.String
+     * java.beans.Introspector.decapitalize(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_decapitalize_String()
     throws Exception {
-        // create new instance
-        final Class<? extends java.beans.Introspector> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.beans.Introspector.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.Introspector#flushCaches() public static void
+     * java.beans.Introspector.flushCaches()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_flushCaches()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -55,6 +77,72 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_flushFromCaches_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.Introspector#getBeanInfo(java.lang.Class) public static java.beans.BeanInfo
+     * java.beans.Introspector.getBeanInfo(java.lang.Class) throws java.beans.IntrospectionException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBeanInfo_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.Introspector#getBeanInfo(java.lang.Class,java.lang.Class) public static
+     * java.beans.BeanInfo java.beans.Introspector.getBeanInfo(java.lang.Class,java.lang.Class) throws
+     * java.beans.IntrospectionException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBeanInfo_Class_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.Introspector#getBeanInfo(java.lang.Class,java.lang.Class,int) public static
+     * java.beans.BeanInfo java.beans.Introspector.getBeanInfo(java.lang.Class,java.lang.Class,int) throws
+     * java.beans.IntrospectionException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBeanInfo_Class_Class_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.Introspector#getBeanInfo(java.lang.Class,int) public static java.beans.BeanInfo
+     * java.beans.Introspector.getBeanInfo(java.lang.Class,int) throws java.beans.IntrospectionException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBeanInfo_Class_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -93,102 +181,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.beans.Introspector#getBeanInfo(java.lang.Class) public static java.beans.BeanInfo
-     * java.beans.Introspector.getBeanInfo(java.lang.Class) throws java.beans.IntrospectionException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getBeanInfo_Class()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.Introspector#getBeanInfo(java.lang.Class,int) public static java.beans.BeanInfo
-     * java.beans.Introspector.getBeanInfo(java.lang.Class,int) throws java.beans.IntrospectionException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBeanInfo_Class_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.Introspector#getBeanInfo(java.lang.Class,java.lang.Class,int) public static
-     * java.beans.BeanInfo java.beans.Introspector.getBeanInfo(java.lang.Class,java.lang.Class,int) throws
-     * java.beans.IntrospectionException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBeanInfo_Class_Class_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.Introspector#getBeanInfo(java.lang.Class,java.lang.Class) public static
-     * java.beans.BeanInfo java.beans.Introspector.getBeanInfo(java.lang.Class,java.lang.Class) throws
-     * java.beans.IntrospectionException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBeanInfo_Class_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.Introspector#decapitalize(java.lang.String) public static java.lang.String
-     * java.beans.Introspector.decapitalize(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_decapitalize_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.Introspector#flushCaches() public static void
-     * java.beans.Introspector.flushCaches()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_flushCaches()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.beans.Introspector> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.beans.Introspector.class.isAssignableFrom(sut));
     }
 
 }

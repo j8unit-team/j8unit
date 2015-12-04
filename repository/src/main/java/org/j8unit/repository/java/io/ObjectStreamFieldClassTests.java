@@ -36,6 +36,20 @@ public abstract interface ObjectStreamFieldClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Object>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.io.ObjectStreamField#ObjectStreamField(java.lang.String,java.lang.Class) public
+     * java.io.ObjectStreamField(java.lang.String,java.lang.Class)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ObjectStreamField_String_Class()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.ObjectStreamField sut = null; // = new ObjectStreamField(java.lang.String,java.lang.Class);
+    }
+
+    /**
      * Test method for {@link java.io.ObjectStreamField#ObjectStreamField(java.lang.String,java.lang.Class,boolean)
      * public java.io.ObjectStreamField(java.lang.String,java.lang.Class,boolean)}.
      */
@@ -48,20 +62,6 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Obje
         @SuppressWarnings("unused")
         final java.io.ObjectStreamField sut = null; // = new
                                                     // ObjectStreamField(java.lang.String,java.lang.Class,boolean);
-    }
-
-    /**
-     * Test method for {@link java.io.ObjectStreamField#ObjectStreamField(java.lang.String,java.lang.Class) public
-     * java.io.ObjectStreamField(java.lang.String,java.lang.Class)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ObjectStreamField_String_Class()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.ObjectStreamField sut = null; // = new ObjectStreamField(java.lang.String,java.lang.Class);
     }
 
     @Override

@@ -38,20 +38,6 @@ extends org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeClas
 org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.print.attribute.standard.NumberUpSupported#NumberUpSupported(int,int) public
-     * javax.print.attribute.standard.NumberUpSupported(int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_NumberUpSupported_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.print.attribute.standard.NumberUpSupported sut = null; // = new NumberUpSupported(int,int);
-    }
-
-    /**
      * Test method for {@link javax.print.attribute.standard.NumberUpSupported#NumberUpSupported(int) public
      * javax.print.attribute.standard.NumberUpSupported(int)}.
      */
@@ -63,6 +49,20 @@ org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.print.attribute.standard.NumberUpSupported sut = null; // = new NumberUpSupported(int);
+    }
+
+    /**
+     * Test method for {@link javax.print.attribute.standard.NumberUpSupported#NumberUpSupported(int,int) public
+     * javax.print.attribute.standard.NumberUpSupported(int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_NumberUpSupported_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.print.attribute.standard.NumberUpSupported sut = null; // = new NumberUpSupported(int,int);
     }
 
     /**

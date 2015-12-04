@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.RSAPrivateCrtKeySpec#getPrimeP() public java.math.BigInteger
-     * java.security.spec.RSAPrivateCrtKeySpec.getPrimeP()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrimeP()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.spec.RSAPrivateCrtKeySpec#getCrtCoefficient() public java.math.BigInteger
      * java.security.spec.RSAPrivateCrtKeySpec.getCrtCoefficient()}.
      * </p>
@@ -55,30 +39,14 @@ extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.RSAPrivateCrtKeySpec#getPublicExponent() public java.math.BigInteger
-     * java.security.spec.RSAPrivateCrtKeySpec.getPublicExponent()}.
+     * Test method for {@link java.security.spec.RSAPrivateCrtKeySpec#getPrimeExponentP() public java.math.BigInteger
+     * java.security.spec.RSAPrivateCrtKeySpec.getPrimeExponentP()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPublicExponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.spec.RSAPrivateCrtKeySpec#getPrimeQ() public java.math.BigInteger
-     * java.security.spec.RSAPrivateCrtKeySpec.getPrimeQ()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrimeQ()
+    public default void test_getPrimeExponentP()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +71,46 @@ extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.RSAPrivateCrtKeySpec#getPrimeExponentP() public java.math.BigInteger
-     * java.security.spec.RSAPrivateCrtKeySpec.getPrimeExponentP()}.
+     * Test method for {@link java.security.spec.RSAPrivateCrtKeySpec#getPrimeP() public java.math.BigInteger
+     * java.security.spec.RSAPrivateCrtKeySpec.getPrimeP()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrimeExponentP()
+    public default void test_getPrimeP()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.RSAPrivateCrtKeySpec#getPrimeQ() public java.math.BigInteger
+     * java.security.spec.RSAPrivateCrtKeySpec.getPrimeQ()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrimeQ()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.RSAPrivateCrtKeySpec#getPublicExponent() public java.math.BigInteger
+     * java.security.spec.RSAPrivateCrtKeySpec.getPublicExponent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPublicExponent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

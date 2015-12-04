@@ -23,38 +23,6 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
-     * Test method for {@link java.security.spec.ECParameterSpec#getCurve() public java.security.spec.EllipticCurve
-     * java.security.spec.ECParameterSpec.getCurve()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCurve()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.spec.ECParameterSpec#getOrder() public java.math.BigInteger
-     * java.security.spec.ECParameterSpec.getOrder()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOrder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.spec.ECParameterSpec#getCofactor() public int
      * java.security.spec.ECParameterSpec.getCofactor()}.
      * </p>
@@ -71,6 +39,22 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
 
     /**
      * <p>
+     * Test method for {@link java.security.spec.ECParameterSpec#getCurve() public java.security.spec.EllipticCurve
+     * java.security.spec.ECParameterSpec.getCurve()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCurve()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.security.spec.ECParameterSpec#getGenerator() public java.security.spec.ECPoint
      * java.security.spec.ECParameterSpec.getGenerator()}.
      * </p>
@@ -79,6 +63,22 @@ extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_getGenerator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.spec.ECParameterSpec#getOrder() public java.math.BigInteger
+     * java.security.spec.ECParameterSpec.getOrder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOrder()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

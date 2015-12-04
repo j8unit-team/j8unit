@@ -36,20 +36,6 @@ public abstract interface NotContextExceptionClassTests<SUT extends Class<? exte
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.NotContextException#NotContextException(java.lang.String) public
-     * javax.naming.NotContextException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_NotContextException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.NotContextException sut = null; // = new NotContextException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.naming.NotContextException#NotContextException() public
      * javax.naming.NotContextException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.NotContextException sut = null; // = new NotContextException();
+    }
+
+    /**
+     * Test method for {@link javax.naming.NotContextException#NotContextException(java.lang.String) public
+     * javax.naming.NotContextException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_NotContextException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.NotContextException sut = null; // = new NotContextException(java.lang.String);
     }
 
     @Override

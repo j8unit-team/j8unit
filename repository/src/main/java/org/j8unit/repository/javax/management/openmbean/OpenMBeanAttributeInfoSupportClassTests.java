@@ -39,42 +39,6 @@ org.j8unit.repository.javax.management.MBeanAttributeInfoClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean,java.lang.Object,java.lang.Comparable,java.lang.Comparable)
-     * public
-     * javax.management.openmbean.OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean,java.lang.Object,java.lang.Comparable,java.lang.Comparable)
-     * throws javax.management.openmbean.OpenDataException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_OpenMBeanAttributeInfoSupport_String_String_OpenType_boolean_boolean_boolean_Object_Comparable_Comparable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.openmbean.OpenMBeanAttributeInfoSupport sut = null; // = new
-                                                                                   // OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean,java.lang.Object,java.lang.Comparable,java.lang.Comparable);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean,java.lang.Object,java.lang.Object[])
-     * public
-     * javax.management.openmbean.OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean,java.lang.Object,java.lang.Object[])
-     * throws javax.management.openmbean.OpenDataException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_OpenMBeanAttributeInfoSupport_String_String_OpenType_boolean_boolean_boolean_Object_ObjectArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.openmbean.OpenMBeanAttributeInfoSupport sut = null; // = new
-                                                                                   // OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean,java.lang.Object,java.lang.Object[]);
-    }
-
-    /**
-     * Test method for
      * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean)
      * public
      * javax.management.openmbean.OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean)}
@@ -125,6 +89,42 @@ org.j8unit.repository.javax.management.MBeanAttributeInfoClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.management.openmbean.OpenMBeanAttributeInfoSupport sut = null; // = new
                                                                                    // OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean,java.lang.Object);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean,java.lang.Object,java.lang.Comparable,java.lang.Comparable)
+     * public
+     * javax.management.openmbean.OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean,java.lang.Object,java.lang.Comparable,java.lang.Comparable)
+     * throws javax.management.openmbean.OpenDataException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_OpenMBeanAttributeInfoSupport_String_String_OpenType_boolean_boolean_boolean_Object_Comparable_Comparable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.openmbean.OpenMBeanAttributeInfoSupport sut = null; // = new
+                                                                                   // OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean,java.lang.Object,java.lang.Comparable,java.lang.Comparable);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.management.openmbean.OpenMBeanAttributeInfoSupport#OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean,java.lang.Object,java.lang.Object[])
+     * public
+     * javax.management.openmbean.OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean,java.lang.Object,java.lang.Object[])
+     * throws javax.management.openmbean.OpenDataException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_OpenMBeanAttributeInfoSupport_String_String_OpenType_boolean_boolean_boolean_Object_ObjectArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.openmbean.OpenMBeanAttributeInfoSupport sut = null; // = new
+                                                                                   // OpenMBeanAttributeInfoSupport(java.lang.String,java.lang.String,javax.management.openmbean.OpenType,boolean,boolean,boolean,java.lang.Object,java.lang.Object[]);
     }
 
     @Override

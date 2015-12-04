@@ -23,15 +23,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamClass#toString() public java.lang.String
-     * java.io.ObjectStreamClass.toString()}.
+     * Test method for {@link java.io.ObjectStreamClass#forClass() public java.lang.Class
+     * java.io.ObjectStreamClass.forClass()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_forClass()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,14 +55,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamClass#forClass() public java.lang.Class
-     * java.io.ObjectStreamClass.forClass()}.
+     * Test method for {@link java.io.ObjectStreamClass#getFields() public java.io.ObjectStreamField[]
+     * java.io.ObjectStreamClass.getFields()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_forClass()
+    public default void test_getFields()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,22 +87,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamClass#getFields() public java.io.ObjectStreamField[]
-     * java.io.ObjectStreamClass.getFields()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFields()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.io.ObjectStreamClass#getSerialVersionUID() public long
      * java.io.ObjectStreamClass.getSerialVersionUID()}.
      * </p>
@@ -112,6 +95,23 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_getSerialVersionUID()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.ObjectStreamClass#toString() public java.lang.String
+     * java.io.ObjectStreamClass.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,17 +36,31 @@ public abstract interface MarshalExceptionClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.xml.crypto.MarshalException#MarshalException(java.lang.Throwable) public
-     * javax.xml.crypto.MarshalException(java.lang.Throwable)}.
+     * Test method for {@link javax.xml.crypto.MarshalException#MarshalException() public
+     * javax.xml.crypto.MarshalException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MarshalException_Throwable()
+    public default void create_MarshalException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.crypto.MarshalException sut = null; // = new MarshalException(java.lang.Throwable);
+        final javax.xml.crypto.MarshalException sut = null; // = new MarshalException();
+    }
+
+    /**
+     * Test method for {@link javax.xml.crypto.MarshalException#MarshalException(java.lang.String) public
+     * javax.xml.crypto.MarshalException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MarshalException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.crypto.MarshalException sut = null; // = new MarshalException(java.lang.String);
     }
 
     /**
@@ -65,31 +79,17 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.xml.crypto.MarshalException#MarshalException(java.lang.String) public
-     * javax.xml.crypto.MarshalException(java.lang.String)}.
+     * Test method for {@link javax.xml.crypto.MarshalException#MarshalException(java.lang.Throwable) public
+     * javax.xml.crypto.MarshalException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MarshalException_String()
+    public default void create_MarshalException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.crypto.MarshalException sut = null; // = new MarshalException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.crypto.MarshalException#MarshalException() public
-     * javax.xml.crypto.MarshalException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MarshalException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.crypto.MarshalException sut = null; // = new MarshalException();
+        final javax.xml.crypto.MarshalException sut = null; // = new MarshalException(java.lang.Throwable);
     }
 
     @Override

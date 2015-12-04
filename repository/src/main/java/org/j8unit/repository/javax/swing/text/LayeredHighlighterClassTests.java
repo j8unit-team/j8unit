@@ -36,30 +36,6 @@ public abstract interface LayeredHighlighterClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.javax.swing.text.HighlighterClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.text.LayeredHighlighter#LayeredHighlighter() public
-     * javax.swing.text.LayeredHighlighter()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LayeredHighlighter()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.LayeredHighlighter sut = null; // = new LayeredHighlighter();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.LayeredHighlighter> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.LayeredHighlighter.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.text.LayeredHighlighter$LayerPainter class
      * javax.swing.text.LayeredHighlighter$LayerPainter}, containing all class relevant test methods (at least the test
@@ -114,6 +90,30 @@ extends org.j8unit.repository.javax.swing.text.HighlighterClassTests<SUT>, org.j
             assertTrue(javax.swing.text.LayeredHighlighter.LayerPainter.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.text.LayeredHighlighter#LayeredHighlighter() public
+     * javax.swing.text.LayeredHighlighter()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LayeredHighlighter()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.LayeredHighlighter sut = null; // = new LayeredHighlighter();
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.LayeredHighlighter> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.LayeredHighlighter.class.isAssignableFrom(sut));
     }
 
 }

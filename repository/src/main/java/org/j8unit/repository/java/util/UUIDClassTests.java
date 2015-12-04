@@ -48,16 +48,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.util.UUID sut = null; // = new UUID(long,long);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.UUID> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.UUID.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.util.UUID#fromString(java.lang.String) public static java.util.UUID
@@ -103,6 +93,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.UUID> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.UUID.class.isAssignableFrom(sut));
     }
 
 }

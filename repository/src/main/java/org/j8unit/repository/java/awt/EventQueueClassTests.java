@@ -47,16 +47,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.awt.EventQueue sut = null; // = new EventQueue();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.EventQueue> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.EventQueue.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.awt.EventQueue#getCurrentEvent() public static java.awt.AWTEvent
@@ -136,6 +126,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.EventQueue> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.EventQueue.class.isAssignableFrom(sut));
     }
 
 }

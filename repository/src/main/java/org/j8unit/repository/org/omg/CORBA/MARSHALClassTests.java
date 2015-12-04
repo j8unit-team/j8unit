@@ -35,17 +35,16 @@ public abstract interface MARSHALClassTests<SUT extends Class<? extends org.omg.
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link org.omg.CORBA.MARSHAL#MARSHAL(java.lang.String,int,org.omg.CORBA.CompletionStatus) public
-     * org.omg.CORBA.MARSHAL(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for {@link org.omg.CORBA.MARSHAL#MARSHAL() public org.omg.CORBA.MARSHAL()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MARSHAL_String_int_CompletionStatus()
+    public default void create_MARSHAL()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.MARSHAL sut = null; // = new MARSHAL(java.lang.String,int,org.omg.CORBA.CompletionStatus);
+        final org.omg.CORBA.MARSHAL sut = null; // = new MARSHAL();
     }
 
     /**
@@ -77,16 +76,17 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link org.omg.CORBA.MARSHAL#MARSHAL() public org.omg.CORBA.MARSHAL()}.
+     * Test method for {@link org.omg.CORBA.MARSHAL#MARSHAL(java.lang.String,int,org.omg.CORBA.CompletionStatus) public
+     * org.omg.CORBA.MARSHAL(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_MARSHAL()
+    public default void create_MARSHAL_String_int_CompletionStatus()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.MARSHAL sut = null; // = new MARSHAL();
+        final org.omg.CORBA.MARSHAL sut = null; // = new MARSHAL(java.lang.String,int,org.omg.CORBA.CompletionStatus);
     }
 
     @Override

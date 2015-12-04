@@ -36,20 +36,6 @@ public abstract interface PhaserClassTests<SUT extends Class<? extends java.util
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.concurrent.Phaser#Phaser(java.util.concurrent.Phaser,int) public
-     * java.util.concurrent.Phaser(java.util.concurrent.Phaser,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Phaser_Phaser_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.Phaser sut = null; // = new Phaser(java.util.concurrent.Phaser,int);
-    }
-
-    /**
      * Test method for {@link java.util.concurrent.Phaser#Phaser() public java.util.concurrent.Phaser()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -87,6 +73,20 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.concurrent.Phaser sut = null; // = new Phaser(java.util.concurrent.Phaser);
+    }
+
+    /**
+     * Test method for {@link java.util.concurrent.Phaser#Phaser(java.util.concurrent.Phaser,int) public
+     * java.util.concurrent.Phaser(java.util.concurrent.Phaser,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Phaser_Phaser_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.Phaser sut = null; // = new Phaser(java.util.concurrent.Phaser,int);
     }
 
     @Override

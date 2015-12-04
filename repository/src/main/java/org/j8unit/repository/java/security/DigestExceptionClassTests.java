@@ -36,31 +36,16 @@ public abstract interface DigestExceptionClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.DigestException#DigestException(java.lang.Throwable) public
-     * java.security.DigestException(java.lang.Throwable)}.
+     * Test method for {@link java.security.DigestException#DigestException() public java.security.DigestException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DigestException_Throwable()
+    public default void create_DigestException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.DigestException sut = null; // = new DigestException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link java.security.DigestException#DigestException(java.lang.String,java.lang.Throwable) public
-     * java.security.DigestException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DigestException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.DigestException sut = null; // = new DigestException(java.lang.String,java.lang.Throwable);
+        final java.security.DigestException sut = null; // = new DigestException();
     }
 
     /**
@@ -78,16 +63,31 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<S
     }
 
     /**
-     * Test method for {@link java.security.DigestException#DigestException() public java.security.DigestException()}.
+     * Test method for {@link java.security.DigestException#DigestException(java.lang.String,java.lang.Throwable) public
+     * java.security.DigestException(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DigestException()
+    public default void create_DigestException_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.security.DigestException sut = null; // = new DigestException();
+        final java.security.DigestException sut = null; // = new DigestException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link java.security.DigestException#DigestException(java.lang.Throwable) public
+     * java.security.DigestException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DigestException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.DigestException sut = null; // = new DigestException(java.lang.Throwable);
     }
 
     @Override

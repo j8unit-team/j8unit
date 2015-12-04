@@ -35,20 +35,6 @@ public abstract interface FileDialogClassTests<SUT extends Class<? extends java.
 extends org.j8unit.repository.java.awt.DialogClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.FileDialog#FileDialog(java.awt.Dialog,java.lang.String) public
-     * java.awt.FileDialog(java.awt.Dialog,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FileDialog_Dialog_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.FileDialog sut = null; // = new FileDialog(java.awt.Dialog,java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.awt.FileDialog#FileDialog(java.awt.Dialog) public
      * java.awt.FileDialog(java.awt.Dialog)}.
      */
@@ -63,17 +49,17 @@ extends org.j8unit.repository.java.awt.DialogClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.FileDialog#FileDialog(java.awt.Frame,java.lang.String,int) public
-     * java.awt.FileDialog(java.awt.Frame,java.lang.String,int)}.
+     * Test method for {@link java.awt.FileDialog#FileDialog(java.awt.Dialog,java.lang.String) public
+     * java.awt.FileDialog(java.awt.Dialog,java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_FileDialog_Frame_String_int()
+    public default void create_FileDialog_Dialog_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.FileDialog sut = null; // = new FileDialog(java.awt.Frame,java.lang.String,int);
+        final java.awt.FileDialog sut = null; // = new FileDialog(java.awt.Dialog,java.lang.String);
     }
 
     /**
@@ -116,6 +102,20 @@ extends org.j8unit.repository.java.awt.DialogClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.FileDialog sut = null; // = new FileDialog(java.awt.Frame,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.awt.FileDialog#FileDialog(java.awt.Frame,java.lang.String,int) public
+     * java.awt.FileDialog(java.awt.Frame,java.lang.String,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FileDialog_Frame_String_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.FileDialog sut = null; // = new FileDialog(java.awt.Frame,java.lang.String,int);
     }
 
     @Override

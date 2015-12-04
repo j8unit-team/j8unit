@@ -36,30 +36,16 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
 org.j8unit.repository.java.awt.WindowClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JWindow#JWindow(java.awt.Window,java.awt.GraphicsConfiguration) public
-     * javax.swing.JWindow(java.awt.Window,java.awt.GraphicsConfiguration)}.
+     * Test method for {@link javax.swing.JWindow#JWindow() public javax.swing.JWindow()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JWindow_Window_GraphicsConfiguration()
+    public default void create_JWindow()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JWindow sut = null; // = new JWindow(java.awt.Window,java.awt.GraphicsConfiguration);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JWindow#JWindow(java.awt.Window) public javax.swing.JWindow(java.awt.Window)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JWindow_Window()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JWindow sut = null; // = new JWindow(java.awt.Window);
+        final javax.swing.JWindow sut = null; // = new JWindow();
     }
 
     /**
@@ -90,16 +76,30 @@ org.j8unit.repository.java.awt.WindowClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.JWindow#JWindow() public javax.swing.JWindow()}.
+     * Test method for {@link javax.swing.JWindow#JWindow(java.awt.Window) public javax.swing.JWindow(java.awt.Window)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JWindow()
+    public default void create_JWindow_Window()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JWindow sut = null; // = new JWindow();
+        final javax.swing.JWindow sut = null; // = new JWindow(java.awt.Window);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JWindow#JWindow(java.awt.Window,java.awt.GraphicsConfiguration) public
+     * javax.swing.JWindow(java.awt.Window,java.awt.GraphicsConfiguration)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JWindow_Window_GraphicsConfiguration()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JWindow sut = null; // = new JWindow(java.awt.Window,java.awt.GraphicsConfiguration);
     }
 
     @Override

@@ -41,22 +41,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleComponentTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleExtendedComponent#getToolTipText() public abstract
-     * java.lang.String javax.accessibility.AccessibleExtendedComponent.getToolTipText()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getToolTipText()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.accessibility.AccessibleExtendedComponent#getTitledBorderText() public abstract
      * java.lang.String javax.accessibility.AccessibleExtendedComponent.getTitledBorderText()}.
      * </p>
@@ -65,6 +49,22 @@ extends org.j8unit.repository.javax.accessibility.AccessibleComponentTests<SUT> 
     @Test
     @Category(Draft.class)
     public default void test_getTitledBorderText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleExtendedComponent#getToolTipText() public abstract
+     * java.lang.String javax.accessibility.AccessibleExtendedComponent.getToolTipText()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getToolTipText()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

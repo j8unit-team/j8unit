@@ -23,38 +23,6 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.spi.ImageOutputStreamSpi#getOutputClass() public java.lang.Class
-     * javax.imageio.spi.ImageOutputStreamSpi.getOutputClass()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOutputClass()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.spi.ImageOutputStreamSpi#needsCacheFile() public boolean
-     * javax.imageio.spi.ImageOutputStreamSpi.needsCacheFile()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_needsCacheFile()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.imageio.spi.ImageOutputStreamSpi#canUseCacheFile() public boolean
      * javax.imageio.spi.ImageOutputStreamSpi.canUseCacheFile()}.
      * </p>
@@ -99,6 +67,38 @@ extends org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createOutputStreamInstance_Object_boolean_File()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.spi.ImageOutputStreamSpi#getOutputClass() public java.lang.Class
+     * javax.imageio.spi.ImageOutputStreamSpi.getOutputClass()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutputClass()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.spi.ImageOutputStreamSpi#needsCacheFile() public boolean
+     * javax.imageio.spi.ImageOutputStreamSpi.needsCacheFile()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_needsCacheFile()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -37,63 +37,6 @@ public abstract interface ServiceRegistryClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.imageio.spi.ServiceRegistry#ServiceRegistry(java.util.Iterator) public
-     * javax.imageio.spi.ServiceRegistry(java.util.Iterator)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ServiceRegistry_Iterator()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.imageio.spi.ServiceRegistry sut = null; // = new ServiceRegistry(java.util.Iterator);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.imageio.spi.ServiceRegistry> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.imageio.spi.ServiceRegistry.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.spi.ServiceRegistry#lookupProviders(java.lang.Class) public static
-     * java.util.Iterator javax.imageio.spi.ServiceRegistry.lookupProviders(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lookupProviders_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.spi.ServiceRegistry#lookupProviders(java.lang.Class,java.lang.ClassLoader)
-     * public static java.util.Iterator
-     * javax.imageio.spi.ServiceRegistry.lookupProviders(java.lang.Class,java.lang.ClassLoader)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_lookupProviders_Class_ClassLoader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.imageio.spi.ServiceRegistry$Filter interface
      * javax.imageio.spi.ServiceRegistry$Filter}, containing all class relevant test methods (at least the test methods
@@ -132,6 +75,63 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(javax.imageio.spi.ServiceRegistry.Filter.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.imageio.spi.ServiceRegistry#ServiceRegistry(java.util.Iterator) public
+     * javax.imageio.spi.ServiceRegistry(java.util.Iterator)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ServiceRegistry_Iterator()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.imageio.spi.ServiceRegistry sut = null; // = new ServiceRegistry(java.util.Iterator);
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.spi.ServiceRegistry#lookupProviders(java.lang.Class) public static
+     * java.util.Iterator javax.imageio.spi.ServiceRegistry.lookupProviders(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lookupProviders_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.spi.ServiceRegistry#lookupProviders(java.lang.Class,java.lang.ClassLoader)
+     * public static java.util.Iterator
+     * javax.imageio.spi.ServiceRegistry.lookupProviders(java.lang.Class,java.lang.ClassLoader)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_lookupProviders_Class_ClassLoader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.imageio.spi.ServiceRegistry> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.imageio.spi.ServiceRegistry.class.isAssignableFrom(sut));
     }
 
 }

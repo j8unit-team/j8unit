@@ -36,72 +36,6 @@ public abstract interface AssertionErrorClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.AssertionError#AssertionError(int) public java.lang.AssertionError(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AssertionError_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.AssertionError sut = null; // = new AssertionError(int);
-    }
-
-    /**
-     * Test method for {@link java.lang.AssertionError#AssertionError(long) public java.lang.AssertionError(long)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AssertionError_long()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.AssertionError sut = null; // = new AssertionError(long);
-    }
-
-    /**
-     * Test method for {@link java.lang.AssertionError#AssertionError(float) public java.lang.AssertionError(float)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AssertionError_float()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.AssertionError sut = null; // = new AssertionError(float);
-    }
-
-    /**
-     * Test method for {@link java.lang.AssertionError#AssertionError(double) public java.lang.AssertionError(double)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AssertionError_double()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.AssertionError sut = null; // = new AssertionError(double);
-    }
-
-    /**
-     * Test method for {@link java.lang.AssertionError#AssertionError(java.lang.String,java.lang.Throwable) public
-     * java.lang.AssertionError(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AssertionError_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.AssertionError sut = null; // = new AssertionError(java.lang.String,java.lang.Throwable);
-    }
-
-    /**
      * Test method for {@link java.lang.AssertionError#AssertionError() public java.lang.AssertionError()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -112,20 +46,6 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.lang.AssertionError sut = null; // = new AssertionError();
-    }
-
-    /**
-     * Test method for {@link java.lang.AssertionError#AssertionError(java.lang.Object) public
-     * java.lang.AssertionError(java.lang.Object)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AssertionError_Object()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.AssertionError sut = null; // = new AssertionError(java.lang.Object);
     }
 
     /**
@@ -153,6 +73,86 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.lang.AssertionError sut = null; // = new AssertionError(char);
+    }
+
+    /**
+     * Test method for {@link java.lang.AssertionError#AssertionError(double) public java.lang.AssertionError(double)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AssertionError_double()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.AssertionError sut = null; // = new AssertionError(double);
+    }
+
+    /**
+     * Test method for {@link java.lang.AssertionError#AssertionError(float) public java.lang.AssertionError(float)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AssertionError_float()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.AssertionError sut = null; // = new AssertionError(float);
+    }
+
+    /**
+     * Test method for {@link java.lang.AssertionError#AssertionError(int) public java.lang.AssertionError(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AssertionError_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.AssertionError sut = null; // = new AssertionError(int);
+    }
+
+    /**
+     * Test method for {@link java.lang.AssertionError#AssertionError(long) public java.lang.AssertionError(long)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AssertionError_long()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.AssertionError sut = null; // = new AssertionError(long);
+    }
+
+    /**
+     * Test method for {@link java.lang.AssertionError#AssertionError(java.lang.Object) public
+     * java.lang.AssertionError(java.lang.Object)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AssertionError_Object()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.AssertionError sut = null; // = new AssertionError(java.lang.Object);
+    }
+
+    /**
+     * Test method for {@link java.lang.AssertionError#AssertionError(java.lang.String,java.lang.Throwable) public
+     * java.lang.AssertionError(java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AssertionError_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.AssertionError sut = null; // = new AssertionError(java.lang.String,java.lang.Throwable);
     }
 
     @Override

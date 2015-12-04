@@ -37,6 +37,20 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT, 
 org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
 
     /**
+     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#PriorityBlockingQueue() public
+     * java.util.concurrent.PriorityBlockingQueue()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PriorityBlockingQueue()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.PriorityBlockingQueue<E> sut = null; // = new PriorityBlockingQueue();
+    }
+
+    /**
      * Test method for {@link java.util.concurrent.PriorityBlockingQueue#PriorityBlockingQueue(java.util.Collection)
      * public java.util.concurrent.PriorityBlockingQueue(java.util.Collection)}.
      */
@@ -49,21 +63,6 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
         @SuppressWarnings("unused")
         final java.util.concurrent.PriorityBlockingQueue<E> sut = null; // = new
                                                                         // PriorityBlockingQueue(java.util.Collection);
-    }
-
-    /**
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#PriorityBlockingQueue(int,java.util.Comparator)
-     * public java.util.concurrent.PriorityBlockingQueue(int,java.util.Comparator)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PriorityBlockingQueue_int_Comparator()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.PriorityBlockingQueue<E> sut = null; // = new
-                                                                        // PriorityBlockingQueue(int,java.util.Comparator);
     }
 
     /**
@@ -81,17 +80,18 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
     }
 
     /**
-     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#PriorityBlockingQueue() public
-     * java.util.concurrent.PriorityBlockingQueue()}.
+     * Test method for {@link java.util.concurrent.PriorityBlockingQueue#PriorityBlockingQueue(int,java.util.Comparator)
+     * public java.util.concurrent.PriorityBlockingQueue(int,java.util.Comparator)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_PriorityBlockingQueue()
+    public default void create_PriorityBlockingQueue_int_Comparator()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.concurrent.PriorityBlockingQueue<E> sut = null; // = new PriorityBlockingQueue();
+        final java.util.concurrent.PriorityBlockingQueue<E> sut = null; // = new
+                                                                        // PriorityBlockingQueue(int,java.util.Comparator);
     }
 
     @Override

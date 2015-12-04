@@ -36,16 +36,16 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
 org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JSlider#JSlider(int,int,int,int) public javax.swing.JSlider(int,int,int,int)}.
+     * Test method for {@link javax.swing.JSlider#JSlider() public javax.swing.JSlider()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JSlider_int_int_int_int()
+    public default void create_JSlider()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JSlider sut = null; // = new JSlider(int,int,int,int);
+        final javax.swing.JSlider sut = null; // = new JSlider();
     }
 
     /**
@@ -63,19 +63,6 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.JSlider#JSlider(int,int) public javax.swing.JSlider(int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JSlider_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JSlider sut = null; // = new JSlider(int,int);
-    }
-
-    /**
      * Test method for {@link javax.swing.JSlider#JSlider(int) public javax.swing.JSlider(int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -89,16 +76,16 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.JSlider#JSlider() public javax.swing.JSlider()}.
+     * Test method for {@link javax.swing.JSlider#JSlider(int,int) public javax.swing.JSlider(int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JSlider()
+    public default void create_JSlider_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JSlider sut = null; // = new JSlider();
+        final javax.swing.JSlider sut = null; // = new JSlider(int,int);
     }
 
     /**
@@ -112,6 +99,19 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JSlider sut = null; // = new JSlider(int,int,int);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JSlider#JSlider(int,int,int,int) public javax.swing.JSlider(int,int,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JSlider_int_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JSlider sut = null; // = new JSlider(int,int,int,int);
     }
 
     @Override

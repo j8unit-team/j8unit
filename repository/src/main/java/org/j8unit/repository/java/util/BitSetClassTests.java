@@ -36,6 +36,19 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.util.BitSet#BitSet() public java.util.BitSet()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BitSet()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.BitSet sut = null; // = new BitSet();
+    }
+
+    /**
      * Test method for {@link java.util.BitSet#BitSet(int) public java.util.BitSet(int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -49,26 +62,35 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.util.BitSet#BitSet() public java.util.BitSet()}.
+     * <p>
+     * Test method for {@link java.util.BitSet#valueOf(byte[]) public static java.util.BitSet
+     * java.util.BitSet.valueOf(byte[])}.
+     * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BitSet()
+    public default void test_valueOf_byteArray()
     throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.BitSet sut = null; // = new BitSet();
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.util.BitSet#valueOf(java.nio.ByteBuffer) public static java.util.BitSet
+     * java.util.BitSet.valueOf(java.nio.ByteBuffer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_valueOf_ByteBuffer()
     throws Exception {
-        // create new instance
-        final Class<? extends java.util.BitSet> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.BitSet.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -103,36 +125,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.util.BitSet#valueOf(byte[]) public static java.util.BitSet
-     * java.util.BitSet.valueOf(byte[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_valueOf_byteArray()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.BitSet#valueOf(java.nio.ByteBuffer) public static java.util.BitSet
-     * java.util.BitSet.valueOf(java.nio.ByteBuffer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_valueOf_ByteBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.util.BitSet> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.BitSet.class.isAssignableFrom(sut));
     }
 
 }

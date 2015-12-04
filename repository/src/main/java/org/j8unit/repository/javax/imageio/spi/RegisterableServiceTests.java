@@ -25,24 +25,6 @@ extends J8UnitTest<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.imageio.spi.RegisterableService#onRegistration(javax.imageio.spi.ServiceRegistry,java.lang.Class)
-     * public abstract void
-     * javax.imageio.spi.RegisterableService.onRegistration(javax.imageio.spi.ServiceRegistry,java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_onRegistration_ServiceRegistry_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link javax.imageio.spi.RegisterableService#onDeregistration(javax.imageio.spi.ServiceRegistry,java.lang.Class)
      * public abstract void
      * javax.imageio.spi.RegisterableService.onDeregistration(javax.imageio.spi.ServiceRegistry,java.lang.Class)}.
@@ -52,6 +34,24 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_onDeregistration_ServiceRegistry_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.imageio.spi.RegisterableService#onRegistration(javax.imageio.spi.ServiceRegistry,java.lang.Class)
+     * public abstract void
+     * javax.imageio.spi.RegisterableService.onRegistration(javax.imageio.spi.ServiceRegistry,java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_onRegistration_ServiceRegistry_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

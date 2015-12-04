@@ -39,22 +39,6 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.color.ICC_ProfileGray#getTRC() public short[]
-     * java.awt.color.ICC_ProfileGray.getTRC()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTRC()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.color.ICC_ProfileGray#getMediaWhitePoint() public float[]
      * java.awt.color.ICC_ProfileGray.getMediaWhitePoint()}.
      * </p>
@@ -63,6 +47,22 @@ extends org.j8unit.repository.java.awt.color.ICC_ProfileTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMediaWhitePoint()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.color.ICC_ProfileGray#getTRC() public short[]
+     * java.awt.color.ICC_ProfileGray.getTRC()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTRC()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

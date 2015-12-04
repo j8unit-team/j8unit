@@ -35,19 +35,6 @@ public abstract interface PipedReaderClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.io.ReaderClassTests<SUT> {
 
     /**
-     * Test method for {@link java.io.PipedReader#PipedReader(int) public java.io.PipedReader(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PipedReader_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.PipedReader sut = null; // = new PipedReader(int);
-    }
-
-    /**
      * Test method for {@link java.io.PipedReader#PipedReader() public java.io.PipedReader()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -61,17 +48,16 @@ extends org.j8unit.repository.java.io.ReaderClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.io.PipedReader#PipedReader(java.io.PipedWriter,int) public
-     * java.io.PipedReader(java.io.PipedWriter,int) throws java.io.IOException}.
+     * Test method for {@link java.io.PipedReader#PipedReader(int) public java.io.PipedReader(int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_PipedReader_PipedWriter_int()
+    public default void create_PipedReader_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.io.PipedReader sut = null; // = new PipedReader(java.io.PipedWriter,int);
+        final java.io.PipedReader sut = null; // = new PipedReader(int);
     }
 
     /**
@@ -86,6 +72,20 @@ extends org.j8unit.repository.java.io.ReaderClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.PipedReader sut = null; // = new PipedReader(java.io.PipedWriter);
+    }
+
+    /**
+     * Test method for {@link java.io.PipedReader#PipedReader(java.io.PipedWriter,int) public
+     * java.io.PipedReader(java.io.PipedWriter,int) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PipedReader_PipedWriter_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.PipedReader sut = null; // = new PipedReader(java.io.PipedWriter,int);
     }
 
     @Override

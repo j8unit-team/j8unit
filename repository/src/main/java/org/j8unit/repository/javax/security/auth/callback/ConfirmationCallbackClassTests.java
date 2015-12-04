@@ -38,19 +38,33 @@ extends org.j8unit.repository.javax.security.auth.callback.CallbackClassTests<SU
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.security.auth.callback.ConfirmationCallback#ConfirmationCallback(java.lang.String,int,java.lang.String[],int)
-     * public javax.security.auth.callback.ConfirmationCallback(java.lang.String,int,java.lang.String[],int)}.
+     * Test method for {@link javax.security.auth.callback.ConfirmationCallback#ConfirmationCallback(int,int,int) public
+     * javax.security.auth.callback.ConfirmationCallback(int,int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ConfirmationCallback_String_int_StringArray_int()
+    public default void create_ConfirmationCallback_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.security.auth.callback.ConfirmationCallback sut = null; // = new ConfirmationCallback(int,int,int);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.security.auth.callback.ConfirmationCallback#ConfirmationCallback(int,java.lang.String[],int) public
+     * javax.security.auth.callback.ConfirmationCallback(int,java.lang.String[],int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ConfirmationCallback_int_StringArray_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.security.auth.callback.ConfirmationCallback sut = null; // = new
-                                                                            // ConfirmationCallback(java.lang.String,int,java.lang.String[],int);
+                                                                            // ConfirmationCallback(int,java.lang.String[],int);
     }
 
     /**
@@ -71,32 +85,18 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.security.auth.callback.ConfirmationCallback#ConfirmationCallback(int,java.lang.String[],int) public
-     * javax.security.auth.callback.ConfirmationCallback(int,java.lang.String[],int)}.
+     * {@link javax.security.auth.callback.ConfirmationCallback#ConfirmationCallback(java.lang.String,int,java.lang.String[],int)
+     * public javax.security.auth.callback.ConfirmationCallback(java.lang.String,int,java.lang.String[],int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ConfirmationCallback_int_StringArray_int()
+    public default void create_ConfirmationCallback_String_int_StringArray_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.security.auth.callback.ConfirmationCallback sut = null; // = new
-                                                                            // ConfirmationCallback(int,java.lang.String[],int);
-    }
-
-    /**
-     * Test method for {@link javax.security.auth.callback.ConfirmationCallback#ConfirmationCallback(int,int,int) public
-     * javax.security.auth.callback.ConfirmationCallback(int,int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ConfirmationCallback_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.security.auth.callback.ConfirmationCallback sut = null; // = new ConfirmationCallback(int,int,int);
+                                                                            // ConfirmationCallback(java.lang.String,int,java.lang.String[],int);
     }
 
     @Override

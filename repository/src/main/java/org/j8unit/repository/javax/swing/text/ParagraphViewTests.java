@@ -23,65 +23,14 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.ParagraphView#getBreakWeight(int,float) public int
-     * javax.swing.text.ParagraphView.getBreakWeight(int,float)}.
+     * Test method for {@link javax.swing.text.ParagraphView#breakView(int,float,java.awt.Shape) public
+     * javax.swing.text.View javax.swing.text.ParagraphView.breakView(int,float,java.awt.Shape)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getBreakWeight_int_float()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.ParagraphView#paint(java.awt.Graphics,java.awt.Shape) public void
-     * javax.swing.text.ParagraphView.paint(java.awt.Graphics,java.awt.Shape)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paint_Graphics_Shape()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.ParagraphView#getFlowSpan(int) public int
-     * javax.swing.text.ParagraphView.getFlowSpan(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getFlowSpan_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.ParagraphView#nextTabStop(float,int) public float
-     * javax.swing.text.ParagraphView.nextTabStop(float,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_nextTabStop_float_int()
+    public default void test_breakView_int_float_Shape()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -110,23 +59,6 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.ParagraphView#getFlowStart(int) public int
-     * javax.swing.text.ParagraphView.getFlowStart(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getFlowStart_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.text.ParagraphView#getAlignment(int) public float
      * javax.swing.text.ParagraphView.getAlignment(int)}.
      * </p>
@@ -144,14 +76,82 @@ extends org.j8unit.repository.javax.swing.text.TabExpanderTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.ParagraphView#breakView(int,float,java.awt.Shape) public
-     * javax.swing.text.View javax.swing.text.ParagraphView.breakView(int,float,java.awt.Shape)}.
+     * Test method for {@link javax.swing.text.ParagraphView#getBreakWeight(int,float) public int
+     * javax.swing.text.ParagraphView.getBreakWeight(int,float)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_breakView_int_float_Shape()
+    public default void test_getBreakWeight_int_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.ParagraphView#getFlowSpan(int) public int
+     * javax.swing.text.ParagraphView.getFlowSpan(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getFlowSpan_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.ParagraphView#getFlowStart(int) public int
+     * javax.swing.text.ParagraphView.getFlowStart(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getFlowStart_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.ParagraphView#nextTabStop(float,int) public float
+     * javax.swing.text.ParagraphView.nextTabStop(float,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_nextTabStop_float_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.ParagraphView#paint(java.awt.Graphics,java.awt.Shape) public void
+     * javax.swing.text.ParagraphView.paint(java.awt.Graphics,java.awt.Shape)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paint_Graphics_Shape()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

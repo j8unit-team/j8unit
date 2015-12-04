@@ -38,38 +38,18 @@ extends org.j8unit.repository.javax.management.DescriptorAccessClassTests<SUT>, 
 
     /**
      * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanConstructorInfo#ModelMBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],javax.management.Descriptor)
-     * public
-     * javax.management.modelmbean.ModelMBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],javax.management.Descriptor)}
-     * .
+     * {@link javax.management.modelmbean.ModelMBeanConstructorInfo#ModelMBeanConstructorInfo(java.lang.String,java.lang.reflect.Constructor)
+     * public javax.management.modelmbean.ModelMBeanConstructorInfo(java.lang.String,java.lang.reflect.Constructor)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ModelMBeanConstructorInfo_String_String_MBeanParameterInfoArray_Descriptor()
+    public default void create_ModelMBeanConstructorInfo_String_Constructor()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.management.modelmbean.ModelMBeanConstructorInfo sut = null; // = new
-                                                                                // ModelMBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],javax.management.Descriptor);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanConstructorInfo#ModelMBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[])
-     * public
-     * javax.management.modelmbean.ModelMBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[])}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ModelMBeanConstructorInfo_String_String_MBeanParameterInfoArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.modelmbean.ModelMBeanConstructorInfo sut = null; // = new
-                                                                                // ModelMBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[]);
+                                                                                // ModelMBeanConstructorInfo(java.lang.String,java.lang.reflect.Constructor);
     }
 
     /**
@@ -92,18 +72,38 @@ extends org.j8unit.repository.javax.management.DescriptorAccessClassTests<SUT>, 
 
     /**
      * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanConstructorInfo#ModelMBeanConstructorInfo(java.lang.String,java.lang.reflect.Constructor)
-     * public javax.management.modelmbean.ModelMBeanConstructorInfo(java.lang.String,java.lang.reflect.Constructor)}.
+     * {@link javax.management.modelmbean.ModelMBeanConstructorInfo#ModelMBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[])
+     * public
+     * javax.management.modelmbean.ModelMBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[])}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ModelMBeanConstructorInfo_String_Constructor()
+    public default void create_ModelMBeanConstructorInfo_String_String_MBeanParameterInfoArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.management.modelmbean.ModelMBeanConstructorInfo sut = null; // = new
-                                                                                // ModelMBeanConstructorInfo(java.lang.String,java.lang.reflect.Constructor);
+                                                                                // ModelMBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[]);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.management.modelmbean.ModelMBeanConstructorInfo#ModelMBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],javax.management.Descriptor)
+     * public
+     * javax.management.modelmbean.ModelMBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],javax.management.Descriptor)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ModelMBeanConstructorInfo_String_String_MBeanParameterInfoArray_Descriptor()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.modelmbean.ModelMBeanConstructorInfo sut = null; // = new
+                                                                                // ModelMBeanConstructorInfo(java.lang.String,java.lang.String,javax.management.MBeanParameterInfo[],javax.management.Descriptor);
     }
 
     @Override

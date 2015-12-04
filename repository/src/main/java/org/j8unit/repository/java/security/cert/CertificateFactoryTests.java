@@ -23,30 +23,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertificateFactory#getType() public final java.lang.String
-     * java.security.cert.CertificateFactory.getType()}.
+     * Test method for {@link java.security.cert.CertificateFactory#generateCertificate(java.io.InputStream) public
+     * final java.security.cert.Certificate
+     * java.security.cert.CertificateFactory.generateCertificate(java.io.InputStream) throws
+     * java.security.cert.CertificateException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.CertificateFactory#getCertPathEncodings() public final
-     * java.util.Iterator java.security.cert.CertificateFactory.getCertPathEncodings()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCertPathEncodings()
+    public default void test_generateCertificate_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -125,24 +111,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertificateFactory#generateCertificate(java.io.InputStream) public
-     * final java.security.cert.Certificate
-     * java.security.cert.CertificateFactory.generateCertificate(java.io.InputStream) throws
-     * java.security.cert.CertificateException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_generateCertificate_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.cert.CertificateFactory#generateCRL(java.io.InputStream) public final
      * java.security.cert.CRL java.security.cert.CertificateFactory.generateCRL(java.io.InputStream) throws
      * java.security.cert.CRLException}.
@@ -177,6 +145,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.security.cert.CertificateFactory#getCertPathEncodings() public final
+     * java.util.Iterator java.security.cert.CertificateFactory.getCertPathEncodings()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCertPathEncodings()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.security.cert.CertificateFactory#getProvider() public final java.security.Provider
      * java.security.cert.CertificateFactory.getProvider()}.
      * </p>
@@ -185,6 +169,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getProvider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CertificateFactory#getType() public final java.lang.String
+     * java.security.cert.CertificateFactory.getType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

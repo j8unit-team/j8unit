@@ -36,6 +36,21 @@ public abstract interface InvocationTargetExceptionClassTests<SUT extends Class<
 extends org.j8unit.repository.java.lang.ReflectiveOperationExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link java.lang.reflect.InvocationTargetException#InvocationTargetException(java.lang.Throwable)
+     * public java.lang.reflect.InvocationTargetException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InvocationTargetException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.reflect.InvocationTargetException sut = null; // = new
+                                                                      // InvocationTargetException(java.lang.Throwable);
+    }
+
+    /**
      * Test method for
      * {@link java.lang.reflect.InvocationTargetException#InvocationTargetException(java.lang.Throwable,java.lang.String)
      * public java.lang.reflect.InvocationTargetException(java.lang.Throwable,java.lang.String)}.
@@ -49,21 +64,6 @@ extends org.j8unit.repository.java.lang.ReflectiveOperationExceptionClassTests<S
         @SuppressWarnings("unused")
         final java.lang.reflect.InvocationTargetException sut = null; // = new
                                                                       // InvocationTargetException(java.lang.Throwable,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.lang.reflect.InvocationTargetException#InvocationTargetException(java.lang.Throwable)
-     * public java.lang.reflect.InvocationTargetException(java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InvocationTargetException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.reflect.InvocationTargetException sut = null; // = new
-                                                                      // InvocationTargetException(java.lang.Throwable);
     }
 
     @Override

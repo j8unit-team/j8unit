@@ -24,6 +24,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.lang.invoke.MethodHandleInfo#getDeclaringClass() public abstract java.lang.Class
+     * java.lang.invoke.MethodHandleInfo.getDeclaringClass()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDeclaringClass()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.lang.invoke.MethodHandleInfo#getMethodType() public abstract
      * java.lang.invoke.MethodType java.lang.invoke.MethodHandleInfo.getMethodType()}.
      * </p>
@@ -56,32 +72,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.lang.invoke.MethodHandleInfo#reflectAs(java.lang.Class,java.lang.invoke.MethodHandles.Lookup) public
-     * abstract java.lang.reflect.Member
-     * java.lang.invoke.MethodHandleInfo.reflectAs(java.lang.Class,java.lang.invoke.MethodHandles$Lookup)}.
+     * Test method for {@link java.lang.invoke.MethodHandleInfo#getName() public abstract java.lang.String
+     * java.lang.invoke.MethodHandleInfo.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reflectAs_Class_Lookup()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.MethodHandleInfo#getDeclaringClass() public abstract java.lang.Class
-     * java.lang.invoke.MethodHandleInfo.getDeclaringClass()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDeclaringClass()
+    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,22 +104,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.lang.invoke.MethodHandleInfo#getName() public abstract java.lang.String
-     * java.lang.invoke.MethodHandleInfo.getName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.invoke.MethodHandleInfo#isVarArgs() public default boolean
      * java.lang.invoke.MethodHandleInfo.isVarArgs()}.
      * </p>
@@ -130,6 +112,24 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isVarArgs()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.lang.invoke.MethodHandleInfo#reflectAs(java.lang.Class,java.lang.invoke.MethodHandles.Lookup) public
+     * abstract java.lang.reflect.Member
+     * java.lang.invoke.MethodHandleInfo.reflectAs(java.lang.Class,java.lang.invoke.MethodHandles$Lookup)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reflectAs_Class_Lookup()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.ListDataListener#intervalRemoved(javax.swing.event.ListDataEvent) public
-     * abstract void javax.swing.event.ListDataListener.intervalRemoved(javax.swing.event.ListDataEvent)}.
+     * Test method for {@link javax.swing.event.ListDataListener#contentsChanged(javax.swing.event.ListDataEvent) public
+     * abstract void javax.swing.event.ListDataListener.contentsChanged(javax.swing.event.ListDataEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_intervalRemoved_ListDataEvent()
+    public default void test_contentsChanged_ListDataEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.ListDataListener#contentsChanged(javax.swing.event.ListDataEvent) public
-     * abstract void javax.swing.event.ListDataListener.contentsChanged(javax.swing.event.ListDataEvent)}.
+     * Test method for {@link javax.swing.event.ListDataListener#intervalRemoved(javax.swing.event.ListDataEvent) public
+     * abstract void javax.swing.event.ListDataListener.intervalRemoved(javax.swing.event.ListDataEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_contentsChanged_ListDataEvent()
+    public default void test_intervalRemoved_ListDataEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

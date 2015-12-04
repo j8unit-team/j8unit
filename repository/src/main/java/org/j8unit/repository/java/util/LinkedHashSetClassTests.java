@@ -37,6 +37,19 @@ extends org.j8unit.repository.java.util.SetClassTests<SUT, E>, org.j8unit.reposi
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.util.HashSetClassTests<SUT, E> {
 
     /**
+     * Test method for {@link java.util.LinkedHashSet#LinkedHashSet() public java.util.LinkedHashSet()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_LinkedHashSet()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.LinkedHashSet<E> sut = null; // = new LinkedHashSet();
+    }
+
+    /**
      * Test method for {@link java.util.LinkedHashSet#LinkedHashSet(java.util.Collection) public
      * java.util.LinkedHashSet(java.util.Collection)}.
      */
@@ -48,19 +61,6 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         // create new instance
         @SuppressWarnings("unused")
         final java.util.LinkedHashSet<E> sut = null; // = new LinkedHashSet(java.util.Collection);
-    }
-
-    /**
-     * Test method for {@link java.util.LinkedHashSet#LinkedHashSet() public java.util.LinkedHashSet()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_LinkedHashSet()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.LinkedHashSet<E> sut = null; // = new LinkedHashSet();
     }
 
     /**

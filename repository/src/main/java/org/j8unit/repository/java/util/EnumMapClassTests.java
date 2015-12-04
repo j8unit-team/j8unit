@@ -49,19 +49,6 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
     }
 
     /**
-     * Test method for {@link java.util.EnumMap#EnumMap(java.util.Map) public java.util.EnumMap(java.util.Map)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_EnumMap_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.EnumMap<K, V> sut = null; // = new EnumMap(java.util.Map);
-    }
-
-    /**
      * Test method for {@link java.util.EnumMap#EnumMap(java.util.EnumMap) public java.util.EnumMap(java.util.EnumMap)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -72,6 +59,19 @@ org.j8unit.repository.java.util.AbstractMapClassTests<SUT, K, V> {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.EnumMap<K, V> sut = null; // = new EnumMap(java.util.EnumMap);
+    }
+
+    /**
+     * Test method for {@link java.util.EnumMap#EnumMap(java.util.Map) public java.util.EnumMap(java.util.Map)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_EnumMap_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.EnumMap<K, V> sut = null; // = new EnumMap(java.util.Map);
     }
 
     @Override

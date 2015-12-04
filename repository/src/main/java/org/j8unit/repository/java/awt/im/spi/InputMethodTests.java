@@ -24,102 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.spi.InputMethod#setLocale(java.util.Locale) public abstract boolean
-     * java.awt.im.spi.InputMethod.setLocale(java.util.Locale)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLocale_Locale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.im.spi.InputMethod#getLocale() public abstract java.util.Locale
-     * java.awt.im.spi.InputMethod.getLocale()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocale()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.im.spi.InputMethod#notifyClientWindowChange(java.awt.Rectangle) public abstract
-     * void java.awt.im.spi.InputMethod.notifyClientWindowChange(java.awt.Rectangle)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_notifyClientWindowChange_Rectangle()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.im.spi.InputMethod#setInputMethodContext(java.awt.im.spi.InputMethodContext)
-     * public abstract void java.awt.im.spi.InputMethod.setInputMethodContext(java.awt.im.spi.InputMethodContext)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setInputMethodContext_InputMethodContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.im.spi.InputMethod#dispose() public abstract void
-     * java.awt.im.spi.InputMethod.dispose()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_dispose()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.im.spi.InputMethod#removeNotify() public abstract void
-     * java.awt.im.spi.InputMethod.removeNotify()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeNotify()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.im.spi.InputMethod#activate() public abstract void
      * java.awt.im.spi.InputMethod.activate()}.
      * </p>
@@ -128,70 +32,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_activate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.im.spi.InputMethod#setCompositionEnabled(boolean) public abstract void
-     * java.awt.im.spi.InputMethod.setCompositionEnabled(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCompositionEnabled_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.im.spi.InputMethod#endComposition() public abstract void
-     * java.awt.im.spi.InputMethod.endComposition()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_endComposition()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.im.spi.InputMethod#isCompositionEnabled() public abstract boolean
-     * java.awt.im.spi.InputMethod.isCompositionEnabled()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isCompositionEnabled()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.im.spi.InputMethod#setCharacterSubsets(java.lang.Character.Subset[]) public
-     * abstract void java.awt.im.spi.InputMethod.setCharacterSubsets(java.lang.Character$Subset[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCharacterSubsets_SubsetArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -216,14 +56,46 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.spi.InputMethod#reconvert() public abstract void
-     * java.awt.im.spi.InputMethod.reconvert()}.
+     * Test method for {@link java.awt.im.spi.InputMethod#dispatchEvent(java.awt.AWTEvent) public abstract void
+     * java.awt.im.spi.InputMethod.dispatchEvent(java.awt.AWTEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reconvert()
+    public default void test_dispatchEvent_AWTEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.spi.InputMethod#dispose() public abstract void
+     * java.awt.im.spi.InputMethod.dispose()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_dispose()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.spi.InputMethod#endComposition() public abstract void
+     * java.awt.im.spi.InputMethod.endComposition()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_endComposition()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -248,6 +120,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.im.spi.InputMethod#getLocale() public abstract java.util.Locale
+     * java.awt.im.spi.InputMethod.getLocale()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.im.spi.InputMethod#hideWindows() public abstract void
      * java.awt.im.spi.InputMethod.hideWindows()}.
      * </p>
@@ -264,14 +152,126 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.spi.InputMethod#dispatchEvent(java.awt.AWTEvent) public abstract void
-     * java.awt.im.spi.InputMethod.dispatchEvent(java.awt.AWTEvent)}.
+     * Test method for {@link java.awt.im.spi.InputMethod#isCompositionEnabled() public abstract boolean
+     * java.awt.im.spi.InputMethod.isCompositionEnabled()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_dispatchEvent_AWTEvent()
+    public default void test_isCompositionEnabled()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.spi.InputMethod#notifyClientWindowChange(java.awt.Rectangle) public abstract
+     * void java.awt.im.spi.InputMethod.notifyClientWindowChange(java.awt.Rectangle)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_notifyClientWindowChange_Rectangle()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.spi.InputMethod#reconvert() public abstract void
+     * java.awt.im.spi.InputMethod.reconvert()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_reconvert()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.spi.InputMethod#removeNotify() public abstract void
+     * java.awt.im.spi.InputMethod.removeNotify()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeNotify()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.spi.InputMethod#setCharacterSubsets(java.lang.Character.Subset[]) public
+     * abstract void java.awt.im.spi.InputMethod.setCharacterSubsets(java.lang.Character$Subset[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCharacterSubsets_SubsetArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.spi.InputMethod#setCompositionEnabled(boolean) public abstract void
+     * java.awt.im.spi.InputMethod.setCompositionEnabled(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCompositionEnabled_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.spi.InputMethod#setInputMethodContext(java.awt.im.spi.InputMethodContext)
+     * public abstract void java.awt.im.spi.InputMethod.setInputMethodContext(java.awt.im.spi.InputMethodContext)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setInputMethodContext_InputMethodContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.spi.InputMethod#setLocale(java.util.Locale) public abstract boolean
+     * java.awt.im.spi.InputMethod.setLocale(java.util.Locale)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLocale_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,39 +23,6 @@ extends org.j8unit.repository.javax.net.ssl.KeyManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.X509KeyManager#getClientAliases(java.lang.String,java.security.Principal[])
-     * public abstract java.lang.String[]
-     * javax.net.ssl.X509KeyManager.getClientAliases(java.lang.String,java.security.Principal[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getClientAliases_String_PrincipalArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.X509KeyManager#getCertificateChain(java.lang.String) public abstract
-     * java.security.cert.X509Certificate[] javax.net.ssl.X509KeyManager.getCertificateChain(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCertificateChain_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.net.ssl.X509KeyManager#chooseClientAlias(java.lang.String[],java.security.Principal[],java.net.Socket)
      * public abstract java.lang.String
@@ -66,23 +33,6 @@ extends org.j8unit.repository.javax.net.ssl.KeyManagerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_chooseClientAlias_StringArray_PrincipalArray_Socket()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.X509KeyManager#getServerAliases(java.lang.String,java.security.Principal[])
-     * public abstract java.lang.String[]
-     * javax.net.ssl.X509KeyManager.getServerAliases(java.lang.String,java.security.Principal[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getServerAliases_String_PrincipalArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -109,6 +59,39 @@ extends org.j8unit.repository.javax.net.ssl.KeyManagerTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.net.ssl.X509KeyManager#getCertificateChain(java.lang.String) public abstract
+     * java.security.cert.X509Certificate[] javax.net.ssl.X509KeyManager.getCertificateChain(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCertificateChain_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.X509KeyManager#getClientAliases(java.lang.String,java.security.Principal[])
+     * public abstract java.lang.String[]
+     * javax.net.ssl.X509KeyManager.getClientAliases(java.lang.String,java.security.Principal[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getClientAliases_String_PrincipalArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.net.ssl.X509KeyManager#getPrivateKey(java.lang.String) public abstract
      * java.security.PrivateKey javax.net.ssl.X509KeyManager.getPrivateKey(java.lang.String)}.
      * </p>
@@ -117,6 +100,23 @@ extends org.j8unit.repository.javax.net.ssl.KeyManagerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getPrivateKey_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.X509KeyManager#getServerAliases(java.lang.String,java.security.Principal[])
+     * public abstract java.lang.String[]
+     * javax.net.ssl.X509KeyManager.getServerAliases(java.lang.String,java.security.Principal[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getServerAliases_String_PrincipalArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

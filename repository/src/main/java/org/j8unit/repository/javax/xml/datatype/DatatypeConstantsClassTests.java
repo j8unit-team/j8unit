@@ -33,16 +33,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface DatatypeConstantsClassTests<SUT extends Class<? extends javax.xml.datatype.DatatypeConstants>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.datatype.DatatypeConstants> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.datatype.DatatypeConstants.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.xml.datatype.DatatypeConstants$Field class
@@ -83,6 +73,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(javax.xml.datatype.DatatypeConstants.Field.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.datatype.DatatypeConstants> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.datatype.DatatypeConstants.class.isAssignableFrom(sut));
     }
 
 }

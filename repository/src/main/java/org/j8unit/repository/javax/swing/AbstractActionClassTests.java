@@ -37,6 +37,19 @@ extends org.j8unit.repository.javax.swing.ActionClassTests<SUT>, org.j8unit.repo
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.swing.AbstractAction#AbstractAction() public javax.swing.AbstractAction()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AbstractAction()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.AbstractAction sut = null; // = new AbstractAction();
+    }
+
+    /**
      * Test method for {@link javax.swing.AbstractAction#AbstractAction(java.lang.String) public
      * javax.swing.AbstractAction(java.lang.String)}.
      */
@@ -62,19 +75,6 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.AbstractAction sut = null; // = new AbstractAction(java.lang.String,javax.swing.Icon);
-    }
-
-    /**
-     * Test method for {@link javax.swing.AbstractAction#AbstractAction() public javax.swing.AbstractAction()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AbstractAction()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.AbstractAction sut = null; // = new AbstractAction();
     }
 
     @Override

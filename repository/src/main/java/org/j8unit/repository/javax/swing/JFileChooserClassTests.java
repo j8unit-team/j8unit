@@ -36,19 +36,30 @@ public abstract interface JFileChooserClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.swing.JFileChooser#JFileChooser(java.lang.String,javax.swing.filechooser.FileSystemView) public
-     * javax.swing.JFileChooser(java.lang.String,javax.swing.filechooser.FileSystemView)}.
+     * Test method for {@link javax.swing.JFileChooser#JFileChooser() public javax.swing.JFileChooser()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JFileChooser_String_FileSystemView()
+    public default void create_JFileChooser()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JFileChooser sut = null; // = new
-                                                   // JFileChooser(java.lang.String,javax.swing.filechooser.FileSystemView);
+        final javax.swing.JFileChooser sut = null; // = new JFileChooser();
+    }
+
+    /**
+     * Test method for {@link javax.swing.JFileChooser#JFileChooser(java.io.File) public
+     * javax.swing.JFileChooser(java.io.File)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JFileChooser_File()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JFileChooser sut = null; // = new JFileChooser(java.io.File);
     }
 
     /**
@@ -81,19 +92,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     }
 
     /**
-     * Test method for {@link javax.swing.JFileChooser#JFileChooser() public javax.swing.JFileChooser()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JFileChooser()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JFileChooser sut = null; // = new JFileChooser();
-    }
-
-    /**
      * Test method for {@link javax.swing.JFileChooser#JFileChooser(java.lang.String) public
      * javax.swing.JFileChooser(java.lang.String)}.
      */
@@ -108,17 +106,19 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
     }
 
     /**
-     * Test method for {@link javax.swing.JFileChooser#JFileChooser(java.io.File) public
-     * javax.swing.JFileChooser(java.io.File)}.
+     * Test method for
+     * {@link javax.swing.JFileChooser#JFileChooser(java.lang.String,javax.swing.filechooser.FileSystemView) public
+     * javax.swing.JFileChooser(java.lang.String,javax.swing.filechooser.FileSystemView)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JFileChooser_File()
+    public default void create_JFileChooser_String_FileSystemView()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JFileChooser sut = null; // = new JFileChooser(java.io.File);
+        final javax.swing.JFileChooser sut = null; // = new
+                                                   // JFileChooser(java.lang.String,javax.swing.filechooser.FileSystemView);
     }
 
     @Override

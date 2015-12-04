@@ -24,64 +24,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#setSelectionMode(int) public abstract void
-     * javax.swing.tree.TreeSelectionModel.setSelectionMode(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSelectionMode_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#setRowMapper(javax.swing.tree.RowMapper) public
-     * abstract void javax.swing.tree.TreeSelectionModel.setRowMapper(javax.swing.tree.RowMapper)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRowMapper_RowMapper()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#getMinSelectionRow() public abstract int
-     * javax.swing.tree.TreeSelectionModel.getMinSelectionRow()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinSelectionRow()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
-     * {@link javax.swing.tree.TreeSelectionModel#removePropertyChangeListener(java.beans.PropertyChangeListener) public
-     * abstract void
-     * javax.swing.tree.TreeSelectionModel.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * {@link javax.swing.tree.TreeSelectionModel#addPropertyChangeListener(java.beans.PropertyChangeListener) public
+     * abstract void javax.swing.tree.TreeSelectionModel.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removePropertyChangeListener_PropertyChangeListener()
+    public default void test_addPropertyChangeListener_PropertyChangeListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -90,14 +41,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#removeSelectionPaths(javax.swing.tree.TreePath[])
-     * public abstract void javax.swing.tree.TreeSelectionModel.removeSelectionPaths(javax.swing.tree.TreePath[])}.
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#addSelectionPath(javax.swing.tree.TreePath) public
+     * abstract void javax.swing.tree.TreeSelectionModel.addSelectionPath(javax.swing.tree.TreePath)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeSelectionPaths_TreePathArray()
+    public default void test_addSelectionPath_TreePath()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,30 +57,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#setSelectionPath(javax.swing.tree.TreePath) public
-     * abstract void javax.swing.tree.TreeSelectionModel.setSelectionPath(javax.swing.tree.TreePath)}.
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#addSelectionPaths(javax.swing.tree.TreePath[]) public
+     * abstract void javax.swing.tree.TreeSelectionModel.addSelectionPaths(javax.swing.tree.TreePath[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSelectionPath_TreePath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#getRowMapper() public abstract
-     * javax.swing.tree.RowMapper javax.swing.tree.TreeSelectionModel.getRowMapper()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRowMapper()
+    public default void test_addSelectionPaths_TreePathArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -156,6 +91,38 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#clearSelection() public abstract void
+     * javax.swing.tree.TreeSelectionModel.clearSelection()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_clearSelection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#getLeadSelectionPath() public abstract
+     * javax.swing.tree.TreePath javax.swing.tree.TreeSelectionModel.getLeadSelectionPath()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLeadSelectionPath()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.tree.TreeSelectionModel#getLeadSelectionRow() public abstract int
      * javax.swing.tree.TreeSelectionModel.getLeadSelectionRow()}.
      * </p>
@@ -172,14 +139,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#addSelectionPaths(javax.swing.tree.TreePath[]) public
-     * abstract void javax.swing.tree.TreeSelectionModel.addSelectionPaths(javax.swing.tree.TreePath[])}.
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#getMaxSelectionRow() public abstract int
+     * javax.swing.tree.TreeSelectionModel.getMaxSelectionRow()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addSelectionPaths_TreePathArray()
+    public default void test_getMaxSelectionRow()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -188,14 +155,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#setSelectionPaths(javax.swing.tree.TreePath[]) public
-     * abstract void javax.swing.tree.TreeSelectionModel.setSelectionPaths(javax.swing.tree.TreePath[])}.
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#getMinSelectionRow() public abstract int
+     * javax.swing.tree.TreeSelectionModel.getMinSelectionRow()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSelectionPaths_TreePathArray()
+    public default void test_getMinSelectionRow()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -204,14 +171,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#getSelectionPath() public abstract
-     * javax.swing.tree.TreePath javax.swing.tree.TreeSelectionModel.getSelectionPath()}.
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#getRowMapper() public abstract
+     * javax.swing.tree.RowMapper javax.swing.tree.TreeSelectionModel.getRowMapper()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSelectionPath()
+    public default void test_getRowMapper()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#getSelectionCount() public abstract int
+     * javax.swing.tree.TreeSelectionModel.getSelectionCount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectionCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -236,14 +219,144 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#getMaxSelectionRow() public abstract int
-     * javax.swing.tree.TreeSelectionModel.getMaxSelectionRow()}.
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#getSelectionPath() public abstract
+     * javax.swing.tree.TreePath javax.swing.tree.TreeSelectionModel.getSelectionPath()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMaxSelectionRow()
+    public default void test_getSelectionPath()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#getSelectionPaths() public abstract
+     * javax.swing.tree.TreePath[] javax.swing.tree.TreeSelectionModel.getSelectionPaths()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectionPaths()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#getSelectionRows() public abstract int[]
+     * javax.swing.tree.TreeSelectionModel.getSelectionRows()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectionRows()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#isPathSelected(javax.swing.tree.TreePath) public
+     * abstract boolean javax.swing.tree.TreeSelectionModel.isPathSelected(javax.swing.tree.TreePath)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isPathSelected_TreePath()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#isRowSelected(int) public abstract boolean
+     * javax.swing.tree.TreeSelectionModel.isRowSelected(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isRowSelected_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#isSelectionEmpty() public abstract boolean
+     * javax.swing.tree.TreeSelectionModel.isSelectionEmpty()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSelectionEmpty()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.tree.TreeSelectionModel#removePropertyChangeListener(java.beans.PropertyChangeListener) public
+     * abstract void
+     * javax.swing.tree.TreeSelectionModel.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removePropertyChangeListener_PropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#removeSelectionPath(javax.swing.tree.TreePath) public
+     * abstract void javax.swing.tree.TreeSelectionModel.removeSelectionPath(javax.swing.tree.TreePath)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeSelectionPath_TreePath()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#removeSelectionPaths(javax.swing.tree.TreePath[])
+     * public abstract void javax.swing.tree.TreeSelectionModel.removeSelectionPaths(javax.swing.tree.TreePath[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeSelectionPaths_TreePathArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -286,14 +399,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#getSelectionPaths() public abstract
-     * javax.swing.tree.TreePath[] javax.swing.tree.TreeSelectionModel.getSelectionPaths()}.
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#setRowMapper(javax.swing.tree.RowMapper) public
+     * abstract void javax.swing.tree.TreeSelectionModel.setRowMapper(javax.swing.tree.RowMapper)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSelectionPaths()
+    public default void test_setRowMapper_RowMapper()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -302,14 +415,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#isPathSelected(javax.swing.tree.TreePath) public
-     * abstract boolean javax.swing.tree.TreeSelectionModel.isPathSelected(javax.swing.tree.TreePath)}.
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#setSelectionMode(int) public abstract void
+     * javax.swing.tree.TreeSelectionModel.setSelectionMode(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isPathSelected_TreePath()
+    public default void test_setSelectionMode_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -318,14 +431,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#removeSelectionPath(javax.swing.tree.TreePath) public
-     * abstract void javax.swing.tree.TreeSelectionModel.removeSelectionPath(javax.swing.tree.TreePath)}.
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#setSelectionPath(javax.swing.tree.TreePath) public
+     * abstract void javax.swing.tree.TreeSelectionModel.setSelectionPath(javax.swing.tree.TreePath)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeSelectionPath_TreePath()
+    public default void test_setSelectionPath_TreePath()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -334,127 +447,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#isRowSelected(int) public abstract boolean
-     * javax.swing.tree.TreeSelectionModel.isRowSelected(int)}.
+     * Test method for {@link javax.swing.tree.TreeSelectionModel#setSelectionPaths(javax.swing.tree.TreePath[]) public
+     * abstract void javax.swing.tree.TreeSelectionModel.setSelectionPaths(javax.swing.tree.TreePath[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isRowSelected_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#addSelectionPath(javax.swing.tree.TreePath) public
-     * abstract void javax.swing.tree.TreeSelectionModel.addSelectionPath(javax.swing.tree.TreePath)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addSelectionPath_TreePath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#getLeadSelectionPath() public abstract
-     * javax.swing.tree.TreePath javax.swing.tree.TreeSelectionModel.getLeadSelectionPath()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLeadSelectionPath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.tree.TreeSelectionModel#addPropertyChangeListener(java.beans.PropertyChangeListener) public
-     * abstract void javax.swing.tree.TreeSelectionModel.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addPropertyChangeListener_PropertyChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#isSelectionEmpty() public abstract boolean
-     * javax.swing.tree.TreeSelectionModel.isSelectionEmpty()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSelectionEmpty()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#getSelectionRows() public abstract int[]
-     * javax.swing.tree.TreeSelectionModel.getSelectionRows()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectionRows()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#getSelectionCount() public abstract int
-     * javax.swing.tree.TreeSelectionModel.getSelectionCount()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectionCount()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.tree.TreeSelectionModel#clearSelection() public abstract void
-     * javax.swing.tree.TreeSelectionModel.clearSelection()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_clearSelection()
+    public default void test_setSelectionPaths_TreePathArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

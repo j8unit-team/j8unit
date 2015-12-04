@@ -36,6 +36,21 @@ public abstract interface MouseEventClassTests<SUT extends Class<? extends java.
 extends org.j8unit.repository.java.awt.event.InputEventClassTests<SUT> {
 
     /**
+     * Test method for {@link java.awt.event.MouseEvent#MouseEvent(java.awt.Component,int,long,int,int,int,int,boolean)
+     * public java.awt.event.MouseEvent(java.awt.Component,int,long,int,int,int,int,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MouseEvent_Component_int_long_int_int_int_int_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.event.MouseEvent sut = null; // = new
+                                                    // MouseEvent(java.awt.Component,int,long,int,int,int,int,boolean);
+    }
+
+    /**
      * Test method for
      * {@link java.awt.event.MouseEvent#MouseEvent(java.awt.Component,int,long,int,int,int,int,boolean,int) public
      * java.awt.event.MouseEvent(java.awt.Component,int,long,int,int,int,int,boolean,int)}.
@@ -49,21 +64,6 @@ extends org.j8unit.repository.java.awt.event.InputEventClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.awt.event.MouseEvent sut = null; // = new
                                                     // MouseEvent(java.awt.Component,int,long,int,int,int,int,boolean,int);
-    }
-
-    /**
-     * Test method for {@link java.awt.event.MouseEvent#MouseEvent(java.awt.Component,int,long,int,int,int,int,boolean)
-     * public java.awt.event.MouseEvent(java.awt.Component,int,long,int,int,int,int,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MouseEvent_Component_int_long_int_int_int_int_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.event.MouseEvent sut = null; // = new
-                                                    // MouseEvent(java.awt.Component,int,long,int,int,int,int,boolean);
     }
 
     /**
@@ -82,16 +82,6 @@ extends org.j8unit.repository.java.awt.event.InputEventClassTests<SUT> {
                                                     // MouseEvent(java.awt.Component,int,long,int,int,int,int,int,int,boolean,int);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.event.MouseEvent> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.event.MouseEvent.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.awt.event.MouseEvent#getMouseModifiersText(int) public static java.lang.String
@@ -106,6 +96,16 @@ extends org.j8unit.repository.java.awt.event.InputEventClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.event.MouseEvent> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.event.MouseEvent.class.isAssignableFrom(sut));
     }
 
 }

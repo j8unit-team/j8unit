@@ -36,30 +36,6 @@ public abstract interface AsyncBoxViewClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.text.AsyncBoxView#AsyncBoxView(javax.swing.text.Element,int) public
-     * javax.swing.text.AsyncBoxView(javax.swing.text.Element,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AsyncBoxView_Element_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.AsyncBoxView sut = null; // = new AsyncBoxView(javax.swing.text.Element,int);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.AsyncBoxView> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.AsyncBoxView.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.text.AsyncBoxView$ChildLocator class
      * javax.swing.text.AsyncBoxView$ChildLocator}, containing all class relevant test methods (at least the test
@@ -171,6 +147,30 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
             assertTrue(javax.swing.text.AsyncBoxView.ChildState.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.text.AsyncBoxView#AsyncBoxView(javax.swing.text.Element,int) public
+     * javax.swing.text.AsyncBoxView(javax.swing.text.Element,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AsyncBoxView_Element_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.AsyncBoxView sut = null; // = new AsyncBoxView(javax.swing.text.Element,int);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.AsyncBoxView> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.AsyncBoxView.class.isAssignableFrom(sut));
     }
 
 }

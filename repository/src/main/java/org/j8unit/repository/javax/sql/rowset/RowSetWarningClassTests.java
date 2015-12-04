@@ -36,34 +36,6 @@ public abstract interface RowSetWarningClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.sql.rowset.RowSetWarning#RowSetWarning(java.lang.String,java.lang.String,int) public
-     * javax.sql.rowset.RowSetWarning(java.lang.String,java.lang.String,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RowSetWarning_String_String_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.sql.rowset.RowSetWarning sut = null; // = new RowSetWarning(java.lang.String,java.lang.String,int);
-    }
-
-    /**
-     * Test method for {@link javax.sql.rowset.RowSetWarning#RowSetWarning(java.lang.String,java.lang.String) public
-     * javax.sql.rowset.RowSetWarning(java.lang.String,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RowSetWarning_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.sql.rowset.RowSetWarning sut = null; // = new RowSetWarning(java.lang.String,java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.sql.rowset.RowSetWarning#RowSetWarning() public javax.sql.rowset.RowSetWarning()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -88,6 +60,34 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.sql.rowset.RowSetWarning sut = null; // = new RowSetWarning(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.sql.rowset.RowSetWarning#RowSetWarning(java.lang.String,java.lang.String) public
+     * javax.sql.rowset.RowSetWarning(java.lang.String,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RowSetWarning_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.sql.rowset.RowSetWarning sut = null; // = new RowSetWarning(java.lang.String,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.sql.rowset.RowSetWarning#RowSetWarning(java.lang.String,java.lang.String,int) public
+     * javax.sql.rowset.RowSetWarning(java.lang.String,java.lang.String,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RowSetWarning_String_String_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.sql.rowset.RowSetWarning sut = null; // = new RowSetWarning(java.lang.String,java.lang.String,int);
     }
 
     @Override

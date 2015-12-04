@@ -24,29 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Driver#getParentLogger() public abstract java.util.logging.Logger
-     * java.sql.Driver.getParentLogger() throws java.sql.SQLFeatureNotSupportedException}.
+     * Test method for {@link java.sql.Driver#acceptsURL(java.lang.String) public abstract boolean
+     * java.sql.Driver.acceptsURL(java.lang.String) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParentLogger()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.Driver#getMajorVersion() public abstract int java.sql.Driver.getMajorVersion()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMajorVersion()
+    public default void test_acceptsURL_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +56,44 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.Driver#acceptsURL(java.lang.String) public abstract boolean
-     * java.sql.Driver.acceptsURL(java.lang.String) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.Driver#getMajorVersion() public abstract int java.sql.Driver.getMajorVersion()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_acceptsURL_String()
+    public default void test_getMajorVersion()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.Driver#getMinorVersion() public abstract int java.sql.Driver.getMinorVersion()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMinorVersion()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.Driver#getParentLogger() public abstract java.util.logging.Logger
+     * java.sql.Driver.getParentLogger() throws java.sql.SQLFeatureNotSupportedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParentLogger()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -111,21 +126,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_jdbcCompliant()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.Driver#getMinorVersion() public abstract int java.sql.Driver.getMinorVersion()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinorVersion()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

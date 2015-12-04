@@ -24,14 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.X509Extension#getNonCriticalExtensionOIDs() public abstract
-     * java.util.Set java.security.cert.X509Extension.getNonCriticalExtensionOIDs()}.
+     * Test method for {@link java.security.cert.X509Extension#getCriticalExtensionOIDs() public abstract java.util.Set
+     * java.security.cert.X509Extension.getCriticalExtensionOIDs()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNonCriticalExtensionOIDs()
+    public default void test_getCriticalExtensionOIDs()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,14 +56,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.X509Extension#hasUnsupportedCriticalExtension() public abstract boolean
-     * java.security.cert.X509Extension.hasUnsupportedCriticalExtension()}.
+     * Test method for {@link java.security.cert.X509Extension#getNonCriticalExtensionOIDs() public abstract
+     * java.util.Set java.security.cert.X509Extension.getNonCriticalExtensionOIDs()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasUnsupportedCriticalExtension()
+    public default void test_getNonCriticalExtensionOIDs()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +72,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.X509Extension#getCriticalExtensionOIDs() public abstract java.util.Set
-     * java.security.cert.X509Extension.getCriticalExtensionOIDs()}.
+     * Test method for {@link java.security.cert.X509Extension#hasUnsupportedCriticalExtension() public abstract boolean
+     * java.security.cert.X509Extension.hasUnsupportedCriticalExtension()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCriticalExtensionOIDs()
+    public default void test_hasUnsupportedCriticalExtension()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,31 +23,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.JMXServiceURL#toString() public java.lang.String
-     * javax.management.remote.JMXServiceURL.toString()}.
+     * Test method for {@link javax.management.remote.JMXServiceURL#equals(java.lang.Object) public boolean
+     * javax.management.remote.JMXServiceURL.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.remote.JMXServiceURL#getProtocol() public java.lang.String
-     * javax.management.remote.JMXServiceURL.getProtocol()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProtocol()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,15 +72,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.JMXServiceURL#equals(java.lang.Object) public boolean
-     * javax.management.remote.JMXServiceURL.equals(java.lang.Object)}.
+     * Test method for {@link javax.management.remote.JMXServiceURL#getProtocol() public java.lang.String
+     * javax.management.remote.JMXServiceURL.getProtocol()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
+    public default void test_getProtocol()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.remote.JMXServiceURL#getURLPath() public java.lang.String
+     * javax.management.remote.JMXServiceURL.getURLPath()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getURLPath()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -122,14 +121,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.management.remote.JMXServiceURL#getURLPath() public java.lang.String
-     * javax.management.remote.JMXServiceURL.getURLPath()}.
+     * Test method for {@link javax.management.remote.JMXServiceURL#toString() public java.lang.String
+     * javax.management.remote.JMXServiceURL.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getURLPath()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,38 +23,6 @@ extends org.j8unit.repository.java.security.PrincipalTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.acl.Group#members() public abstract java.util.Enumeration
-     * java.security.acl.Group.members()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_members()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.acl.Group#removeMember(java.security.Principal) public abstract boolean
-     * java.security.acl.Group.removeMember(java.security.Principal)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeMember_Principal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.acl.Group#addMember(java.security.Principal) public abstract boolean
      * java.security.acl.Group.addMember(java.security.Principal)}.
      * </p>
@@ -79,6 +47,38 @@ extends org.j8unit.repository.java.security.PrincipalTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isMember_Principal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.acl.Group#members() public abstract java.util.Enumeration
+     * java.security.acl.Group.members()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_members()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.acl.Group#removeMember(java.security.Principal) public abstract boolean
+     * java.security.acl.Group.removeMember(java.security.Principal)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeMember_Principal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

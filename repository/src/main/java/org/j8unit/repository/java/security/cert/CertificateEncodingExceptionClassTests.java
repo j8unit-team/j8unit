@@ -37,19 +37,33 @@ public abstract interface CertificateEncodingExceptionClassTests<SUT extends Cla
 extends org.j8unit.repository.java.security.cert.CertificateExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.security.cert.CertificateEncodingException#CertificateEncodingException(java.lang.Throwable) public
-     * java.security.cert.CertificateEncodingException(java.lang.Throwable)}.
+     * Test method for {@link java.security.cert.CertificateEncodingException#CertificateEncodingException() public
+     * java.security.cert.CertificateEncodingException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_CertificateEncodingException_Throwable()
+    public default void create_CertificateEncodingException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.cert.CertificateEncodingException sut = null; // = new CertificateEncodingException();
+    }
+
+    /**
+     * Test method for
+     * {@link java.security.cert.CertificateEncodingException#CertificateEncodingException(java.lang.String) public
+     * java.security.cert.CertificateEncodingException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CertificateEncodingException_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.security.cert.CertificateEncodingException sut = null; // = new
-                                                                          // CertificateEncodingException(java.lang.Throwable);
+                                                                          // CertificateEncodingException(java.lang.String);
     }
 
     /**
@@ -70,32 +84,18 @@ extends org.j8unit.repository.java.security.cert.CertificateExceptionClassTests<
 
     /**
      * Test method for
-     * {@link java.security.cert.CertificateEncodingException#CertificateEncodingException(java.lang.String) public
-     * java.security.cert.CertificateEncodingException(java.lang.String)}.
+     * {@link java.security.cert.CertificateEncodingException#CertificateEncodingException(java.lang.Throwable) public
+     * java.security.cert.CertificateEncodingException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_CertificateEncodingException_String()
+    public default void create_CertificateEncodingException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.security.cert.CertificateEncodingException sut = null; // = new
-                                                                          // CertificateEncodingException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.security.cert.CertificateEncodingException#CertificateEncodingException() public
-     * java.security.cert.CertificateEncodingException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CertificateEncodingException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.cert.CertificateEncodingException sut = null; // = new CertificateEncodingException();
+                                                                          // CertificateEncodingException(java.lang.Throwable);
     }
 
     @Override

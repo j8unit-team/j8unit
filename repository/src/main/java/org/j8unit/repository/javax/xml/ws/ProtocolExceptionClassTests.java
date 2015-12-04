@@ -36,17 +36,31 @@ public abstract interface ProtocolExceptionClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.javax.xml.ws.WebServiceExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.xml.ws.ProtocolException#ProtocolException(java.lang.Throwable) public
-     * javax.xml.ws.ProtocolException(java.lang.Throwable)}.
+     * Test method for {@link javax.xml.ws.ProtocolException#ProtocolException() public
+     * javax.xml.ws.ProtocolException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ProtocolException_Throwable()
+    public default void create_ProtocolException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.ws.ProtocolException sut = null; // = new ProtocolException(java.lang.Throwable);
+        final javax.xml.ws.ProtocolException sut = null; // = new ProtocolException();
+    }
+
+    /**
+     * Test method for {@link javax.xml.ws.ProtocolException#ProtocolException(java.lang.String) public
+     * javax.xml.ws.ProtocolException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ProtocolException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.ws.ProtocolException sut = null; // = new ProtocolException(java.lang.String);
     }
 
     /**
@@ -65,31 +79,17 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.xml.ws.ProtocolException#ProtocolException(java.lang.String) public
-     * javax.xml.ws.ProtocolException(java.lang.String)}.
+     * Test method for {@link javax.xml.ws.ProtocolException#ProtocolException(java.lang.Throwable) public
+     * javax.xml.ws.ProtocolException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ProtocolException_String()
+    public default void create_ProtocolException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.xml.ws.ProtocolException sut = null; // = new ProtocolException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.ws.ProtocolException#ProtocolException() public
-     * javax.xml.ws.ProtocolException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ProtocolException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.ws.ProtocolException sut = null; // = new ProtocolException();
+        final javax.xml.ws.ProtocolException sut = null; // = new ProtocolException(java.lang.Throwable);
     }
 
     @Override

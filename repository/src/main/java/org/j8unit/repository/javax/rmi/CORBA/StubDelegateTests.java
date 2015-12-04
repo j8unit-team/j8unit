@@ -24,23 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.StubDelegate#readObject(javax.rmi.CORBA.Stub,java.io.ObjectInputStream)
-     * public abstract void javax.rmi.CORBA.StubDelegate.readObject(javax.rmi.CORBA.Stub,java.io.ObjectInputStream)
-     * throws java.io.IOException,java.lang.ClassNotFoundException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readObject_Stub_ObjectInputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.rmi.CORBA.StubDelegate#connect(javax.rmi.CORBA.Stub,org.omg.CORBA.ORB) public
      * abstract void javax.rmi.CORBA.StubDelegate.connect(javax.rmi.CORBA.Stub,org.omg.CORBA.ORB) throws
      * java.rmi.RemoteException}.
@@ -50,22 +33,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_connect_Stub_ORB()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.rmi.CORBA.StubDelegate#toString(javax.rmi.CORBA.Stub) public abstract
-     * java.lang.String javax.rmi.CORBA.StubDelegate.toString(javax.rmi.CORBA.Stub)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toString_Stub()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -98,6 +65,39 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_hashCode_Stub()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.rmi.CORBA.StubDelegate#readObject(javax.rmi.CORBA.Stub,java.io.ObjectInputStream)
+     * public abstract void javax.rmi.CORBA.StubDelegate.readObject(javax.rmi.CORBA.Stub,java.io.ObjectInputStream)
+     * throws java.io.IOException,java.lang.ClassNotFoundException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_readObject_Stub_ObjectInputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.rmi.CORBA.StubDelegate#toString(javax.rmi.CORBA.Stub) public abstract
+     * java.lang.String javax.rmi.CORBA.StubDelegate.toString(javax.rmi.CORBA.Stub)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString_Stub()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

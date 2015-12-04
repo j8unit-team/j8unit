@@ -35,20 +35,6 @@ public abstract interface FileReaderClassTests<SUT extends Class<? extends java.
 extends org.j8unit.repository.java.io.InputStreamReaderClassTests<SUT> {
 
     /**
-     * Test method for {@link java.io.FileReader#FileReader(java.lang.String) public
-     * java.io.FileReader(java.lang.String) throws java.io.FileNotFoundException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FileReader_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.FileReader sut = null; // = new FileReader(java.lang.String);
-    }
-
-    /**
      * Test method for {@link java.io.FileReader#FileReader(java.io.File) public java.io.FileReader(java.io.File) throws
      * java.io.FileNotFoundException}.
      */
@@ -74,6 +60,20 @@ extends org.j8unit.repository.java.io.InputStreamReaderClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.FileReader sut = null; // = new FileReader(java.io.FileDescriptor);
+    }
+
+    /**
+     * Test method for {@link java.io.FileReader#FileReader(java.lang.String) public
+     * java.io.FileReader(java.lang.String) throws java.io.FileNotFoundException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FileReader_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.FileReader sut = null; // = new FileReader(java.lang.String);
     }
 
     @Override

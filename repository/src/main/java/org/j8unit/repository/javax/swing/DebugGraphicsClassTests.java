@@ -36,6 +36,19 @@ public abstract interface DebugGraphicsClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.swing.DebugGraphics#DebugGraphics() public javax.swing.DebugGraphics()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DebugGraphics()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.DebugGraphics sut = null; // = new DebugGraphics();
+    }
+
+    /**
      * Test method for {@link javax.swing.DebugGraphics#DebugGraphics(java.awt.Graphics) public
      * javax.swing.DebugGraphics(java.awt.Graphics)}.
      */
@@ -64,54 +77,15 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.DebugGraphics#DebugGraphics() public javax.swing.DebugGraphics()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DebugGraphics()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.DebugGraphics sut = null; // = new DebugGraphics();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.DebugGraphics> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.DebugGraphics.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#setFlashColor(java.awt.Color) public static void
-     * javax.swing.DebugGraphics.setFlashColor(java.awt.Color)}.
+     * Test method for {@link javax.swing.DebugGraphics#flashColor() public static java.awt.Color
+     * javax.swing.DebugGraphics.flashColor()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setFlashColor_Color()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DebugGraphics#setFlashTime(int) public static void
-     * javax.swing.DebugGraphics.setFlashTime(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setFlashTime_int()
+    public default void test_flashColor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -152,6 +126,38 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.DebugGraphics#logStream() public static java.io.PrintStream
+     * javax.swing.DebugGraphics.logStream()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_logStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.DebugGraphics#setFlashColor(java.awt.Color) public static void
+     * javax.swing.DebugGraphics.setFlashColor(java.awt.Color)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFlashColor_Color()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.DebugGraphics#setFlashCount(int) public static void
      * javax.swing.DebugGraphics.setFlashCount(int)}.
      * </p>
@@ -168,14 +174,14 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.DebugGraphics#flashColor() public static java.awt.Color
-     * javax.swing.DebugGraphics.flashColor()}.
+     * Test method for {@link javax.swing.DebugGraphics#setFlashTime(int) public static void
+     * javax.swing.DebugGraphics.setFlashTime(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_flashColor()
+    public default void test_setFlashTime_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -198,20 +204,14 @@ extends org.j8unit.repository.java.awt.GraphicsClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.DebugGraphics#logStream() public static java.io.PrintStream
-     * javax.swing.DebugGraphics.logStream()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_logStream()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.swing.DebugGraphics> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.DebugGraphics.class.isAssignableFrom(sut));
     }
 
 }

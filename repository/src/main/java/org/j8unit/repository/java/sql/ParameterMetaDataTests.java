@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.sql.ParameterMetaData#getParameterClassName(int) public abstract java.lang.String
+     * java.sql.ParameterMetaData.getParameterClassName(int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParameterClassName_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.sql.ParameterMetaData#getParameterCount() public abstract int
      * java.sql.ParameterMetaData.getParameterCount() throws java.sql.SQLException}.
      * </p>
@@ -39,14 +55,14 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.ParameterMetaData#isSigned(int) public abstract boolean
-     * java.sql.ParameterMetaData.isSigned(int) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.ParameterMetaData#getParameterMode(int) public abstract int
+     * java.sql.ParameterMetaData.getParameterMode(int) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isSigned_int()
+    public default void test_getParameterMode_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,46 +71,14 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.ParameterMetaData#getScale(int) public abstract int
-     * java.sql.ParameterMetaData.getScale(int) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.ParameterMetaData#getParameterType(int) public abstract int
+     * java.sql.ParameterMetaData.getParameterType(int) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getScale_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.ParameterMetaData#isNullable(int) public abstract int
-     * java.sql.ParameterMetaData.isNullable(int) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isNullable_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.ParameterMetaData#getParameterClassName(int) public abstract java.lang.String
-     * java.sql.ParameterMetaData.getParameterClassName(int) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParameterClassName_int()
+    public default void test_getParameterType_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,14 +119,14 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.ParameterMetaData#getParameterType(int) public abstract int
-     * java.sql.ParameterMetaData.getParameterType(int) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.ParameterMetaData#getScale(int) public abstract int
+     * java.sql.ParameterMetaData.getScale(int) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParameterType_int()
+    public default void test_getScale_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -151,14 +135,30 @@ extends org.j8unit.repository.java.sql.WrapperTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.sql.ParameterMetaData#getParameterMode(int) public abstract int
-     * java.sql.ParameterMetaData.getParameterMode(int) throws java.sql.SQLException}.
+     * Test method for {@link java.sql.ParameterMetaData#isNullable(int) public abstract int
+     * java.sql.ParameterMetaData.isNullable(int) throws java.sql.SQLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParameterMode_int()
+    public default void test_isNullable_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.sql.ParameterMetaData#isSigned(int) public abstract boolean
+     * java.sql.ParameterMetaData.isSigned(int) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSigned_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,15 +23,36 @@ extends org.j8unit.repository.javax.swing.InternalFrameFocusTraversalPolicyTests
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#getLastComponent(java.awt.Container) public
-     * java.awt.Component javax.swing.SortingFocusTraversalPolicy.getLastComponent(java.awt.Container)}.
+     * Test method for
+     * {@link javax.swing.SortingFocusTraversalPolicy#getComponentAfter(java.awt.Container,java.awt.Component) public
+     * java.awt.Component
+     * javax.swing.SortingFocusTraversalPolicy.getComponentAfter(java.awt.Container,java.awt.Component)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getLastComponent_Container()
+    public default void test_getComponentAfter_Container_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.SortingFocusTraversalPolicy#getComponentBefore(java.awt.Container,java.awt.Component) public
+     * java.awt.Component
+     * javax.swing.SortingFocusTraversalPolicy.getComponentBefore(java.awt.Container,java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getComponentBefore_Container_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,57 +78,6 @@ extends org.j8unit.repository.javax.swing.InternalFrameFocusTraversalPolicyTests
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#getImplicitDownCycleTraversal() public boolean
-     * javax.swing.SortingFocusTraversalPolicy.getImplicitDownCycleTraversal()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImplicitDownCycleTraversal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.SortingFocusTraversalPolicy#getComponentAfter(java.awt.Container,java.awt.Component) public
-     * java.awt.Component
-     * javax.swing.SortingFocusTraversalPolicy.getComponentAfter(java.awt.Container,java.awt.Component)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getComponentAfter_Container_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#setImplicitDownCycleTraversal(boolean) public void
-     * javax.swing.SortingFocusTraversalPolicy.setImplicitDownCycleTraversal(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setImplicitDownCycleTraversal_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.SortingFocusTraversalPolicy#getFirstComponent(java.awt.Container) public
      * java.awt.Component javax.swing.SortingFocusTraversalPolicy.getFirstComponent(java.awt.Container)}.
      * </p>
@@ -125,17 +95,47 @@ extends org.j8unit.repository.javax.swing.InternalFrameFocusTraversalPolicyTests
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.SortingFocusTraversalPolicy#getComponentBefore(java.awt.Container,java.awt.Component) public
-     * java.awt.Component
-     * javax.swing.SortingFocusTraversalPolicy.getComponentBefore(java.awt.Container,java.awt.Component)}.
+     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#getImplicitDownCycleTraversal() public boolean
+     * javax.swing.SortingFocusTraversalPolicy.getImplicitDownCycleTraversal()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImplicitDownCycleTraversal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#getLastComponent(java.awt.Container) public
+     * java.awt.Component javax.swing.SortingFocusTraversalPolicy.getLastComponent(java.awt.Container)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getComponentBefore_Container_Component()
+    public default void test_getLastComponent_Container()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.SortingFocusTraversalPolicy#setImplicitDownCycleTraversal(boolean) public void
+     * javax.swing.SortingFocusTraversalPolicy.setImplicitDownCycleTraversal(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setImplicitDownCycleTraversal_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

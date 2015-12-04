@@ -23,48 +23,14 @@ extends org.j8unit.repository.java.io.BufferedReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.LineNumberReader#skip(long) public long java.io.LineNumberReader.skip(long) throws
-     * java.io.IOException}.
+     * Test method for {@link java.io.LineNumberReader#getLineNumber() public int
+     * java.io.LineNumberReader.getLineNumber()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_skip_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.LineNumberReader#reset() public void java.io.LineNumberReader.reset() throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_reset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.LineNumberReader#setLineNumber(int) public void
-     * java.io.LineNumberReader.setLineNumber(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLineNumber_int()
+    public default void test_getLineNumber()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -82,23 +48,6 @@ extends org.j8unit.repository.java.io.BufferedReaderTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_mark_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.LineNumberReader#readLine() public java.lang.String
-     * java.io.LineNumberReader.readLine() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_readLine()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -141,14 +90,65 @@ extends org.j8unit.repository.java.io.BufferedReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.LineNumberReader#getLineNumber() public int
-     * java.io.LineNumberReader.getLineNumber()}.
+     * Test method for {@link java.io.LineNumberReader#readLine() public java.lang.String
+     * java.io.LineNumberReader.readLine() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLineNumber()
+    @Override
+    public default void test_readLine()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.LineNumberReader#reset() public void java.io.LineNumberReader.reset() throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_reset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.LineNumberReader#setLineNumber(int) public void
+     * java.io.LineNumberReader.setLineNumber(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLineNumber_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.LineNumberReader#skip(long) public long java.io.LineNumberReader.skip(long) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_skip_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

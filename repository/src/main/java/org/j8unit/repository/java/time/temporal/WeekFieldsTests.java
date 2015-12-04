@@ -39,46 +39,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.WeekFields#weekOfYear() public java.time.temporal.TemporalField
-     * java.time.temporal.WeekFields.weekOfYear()}.
+     * Test method for {@link java.time.temporal.WeekFields#equals(java.lang.Object) public boolean
+     * java.time.temporal.WeekFields.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_weekOfYear()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.WeekFields#getMinimalDaysInFirstWeek() public int
-     * java.time.temporal.WeekFields.getMinimalDaysInFirstWeek()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinimalDaysInFirstWeek()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.WeekFields#weekOfWeekBasedYear() public
-     * java.time.temporal.TemporalField java.time.temporal.WeekFields.weekOfWeekBasedYear()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_weekOfWeekBasedYear()
+    @Override
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,31 +72,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.WeekFields#equals(java.lang.Object) public boolean
-     * java.time.temporal.WeekFields.equals(java.lang.Object)}.
+     * Test method for {@link java.time.temporal.WeekFields#getMinimalDaysInFirstWeek() public int
+     * java.time.temporal.WeekFields.getMinimalDaysInFirstWeek()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.WeekFields#weekOfMonth() public java.time.temporal.TemporalField
-     * java.time.temporal.WeekFields.weekOfMonth()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_weekOfMonth()
+    public default void test_getMinimalDaysInFirstWeek()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -178,6 +130,54 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_weekBasedYear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.WeekFields#weekOfMonth() public java.time.temporal.TemporalField
+     * java.time.temporal.WeekFields.weekOfMonth()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_weekOfMonth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.WeekFields#weekOfWeekBasedYear() public
+     * java.time.temporal.TemporalField java.time.temporal.WeekFields.weekOfWeekBasedYear()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_weekOfWeekBasedYear()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.WeekFields#weekOfYear() public java.time.temporal.TemporalField
+     * java.time.temporal.WeekFields.weekOfYear()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_weekOfYear()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

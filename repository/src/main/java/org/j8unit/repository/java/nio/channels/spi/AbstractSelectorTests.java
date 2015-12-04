@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.nio.channels.SelectorTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.nio.channels.spi.AbstractSelector#close() public final void
+     * java.nio.channels.spi.AbstractSelector.close() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.channels.spi.AbstractSelector#isOpen() public final boolean
      * java.nio.channels.spi.AbstractSelector.isOpen()}.
      * </p>
@@ -49,23 +66,6 @@ extends org.j8unit.repository.java.nio.channels.SelectorTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_provider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.spi.AbstractSelector#close() public final void
-     * java.nio.channels.spi.AbstractSelector.close() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -39,6 +39,22 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
+     * Test method for {@link javax.sql.rowset.JdbcRowSet#getAutoCommit() public abstract boolean
+     * javax.sql.rowset.JdbcRowSet.getAutoCommit() throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAutoCommit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.sql.rowset.JdbcRowSet#getRowSetWarnings() public abstract
      * javax.sql.rowset.RowSetWarning javax.sql.rowset.JdbcRowSet.getRowSetWarnings() throws java.sql.SQLException}.
      * </p>
@@ -47,6 +63,22 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
     @Test
     @Category(Draft.class)
     public default void test_getRowSetWarnings()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.JdbcRowSet#getShowDeleted() public abstract boolean
+     * javax.sql.rowset.JdbcRowSet.getShowDeleted() throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getShowDeleted()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,54 +119,6 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
-     * Test method for {@link javax.sql.rowset.JdbcRowSet#setShowDeleted(boolean) public abstract void
-     * javax.sql.rowset.JdbcRowSet.setShowDeleted(boolean) throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setShowDeleted_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.JdbcRowSet#getShowDeleted() public abstract boolean
-     * javax.sql.rowset.JdbcRowSet.getShowDeleted() throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getShowDeleted()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sql.rowset.JdbcRowSet#getAutoCommit() public abstract boolean
-     * javax.sql.rowset.JdbcRowSet.getAutoCommit() throws java.sql.SQLException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAutoCommit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sql.rowset.JdbcRowSet#setAutoCommit(boolean) public abstract void
      * javax.sql.rowset.JdbcRowSet.setAutoCommit(boolean) throws java.sql.SQLException}.
      * </p>
@@ -143,6 +127,22 @@ extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.
     @Test
     @Category(Draft.class)
     public default void test_setAutoCommit_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sql.rowset.JdbcRowSet#setShowDeleted(boolean) public abstract void
+     * javax.sql.rowset.JdbcRowSet.setShowDeleted(boolean) throws java.sql.SQLException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setShowDeleted_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

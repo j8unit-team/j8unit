@@ -23,6 +23,38 @@ extends org.j8unit.repository.javax.lang.model.type.TypeMirrorTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.lang.model.type.ExecutableType#getParameterTypes() public abstract java.util.List
+     * javax.lang.model.type.ExecutableType.getParameterTypes()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParameterTypes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.type.ExecutableType#getReceiverType() public abstract
+     * javax.lang.model.type.TypeMirror javax.lang.model.type.ExecutableType.getReceiverType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getReceiverType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.lang.model.type.ExecutableType#getReturnType() public abstract
      * javax.lang.model.type.TypeMirror javax.lang.model.type.ExecutableType.getReturnType()}.
      * </p>
@@ -63,38 +95,6 @@ extends org.j8unit.repository.javax.lang.model.type.TypeMirrorTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getTypeVariables()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.type.ExecutableType#getReceiverType() public abstract
-     * javax.lang.model.type.TypeMirror javax.lang.model.type.ExecutableType.getReceiverType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReceiverType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.lang.model.type.ExecutableType#getParameterTypes() public abstract java.util.List
-     * javax.lang.model.type.ExecutableType.getParameterTypes()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParameterTypes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

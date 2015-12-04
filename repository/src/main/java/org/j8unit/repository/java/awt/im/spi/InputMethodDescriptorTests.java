@@ -24,14 +24,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.spi.InputMethodDescriptor#getInputMethodIcon(java.util.Locale) public abstract
-     * java.awt.Image java.awt.im.spi.InputMethodDescriptor.getInputMethodIcon(java.util.Locale)}.
+     * Test method for {@link java.awt.im.spi.InputMethodDescriptor#createInputMethod() public abstract
+     * java.awt.im.spi.InputMethod java.awt.im.spi.InputMethodDescriptor.createInputMethod() throws java.lang.Exception}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInputMethodIcon_Locale()
+    public default void test_createInputMethod()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,23 +57,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.im.spi.InputMethodDescriptor#createInputMethod() public abstract
-     * java.awt.im.spi.InputMethod java.awt.im.spi.InputMethodDescriptor.createInputMethod() throws java.lang.Exception}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createInputMethod()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.awt.im.spi.InputMethodDescriptor#getInputMethodDisplayName(java.util.Locale,java.util.Locale) public
      * abstract java.lang.String
@@ -83,6 +67,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getInputMethodDisplayName_Locale_Locale()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.im.spi.InputMethodDescriptor#getInputMethodIcon(java.util.Locale) public abstract
+     * java.awt.Image java.awt.im.spi.InputMethodDescriptor.getInputMethodIcon(java.util.Locale)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInputMethodIcon_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.server.RemoteCall#getInputStream() public abstract java.io.ObjectInput
-     * java.rmi.server.RemoteCall.getInputStream() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getInputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.rmi.server.RemoteCall#done() public abstract void java.rmi.server.RemoteCall.done()
      * throws java.io.IOException}.
      * </p>
@@ -56,14 +40,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.server.RemoteCall#releaseInputStream() public abstract void
-     * java.rmi.server.RemoteCall.releaseInputStream() throws java.io.IOException}.
+     * Test method for {@link java.rmi.server.RemoteCall#executeCall() public abstract void
+     * java.rmi.server.RemoteCall.executeCall() throws java.lang.Exception}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_releaseInputStream()
+    public default void test_executeCall()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,14 +56,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.server.RemoteCall#releaseOutputStream() public abstract void
-     * java.rmi.server.RemoteCall.releaseOutputStream() throws java.io.IOException}.
+     * Test method for {@link java.rmi.server.RemoteCall#getInputStream() public abstract java.io.ObjectInput
+     * java.rmi.server.RemoteCall.getInputStream() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_releaseOutputStream()
+    public default void test_getInputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,14 +104,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.rmi.server.RemoteCall#executeCall() public abstract void
-     * java.rmi.server.RemoteCall.executeCall() throws java.lang.Exception}.
+     * Test method for {@link java.rmi.server.RemoteCall#releaseInputStream() public abstract void
+     * java.rmi.server.RemoteCall.releaseInputStream() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_executeCall()
+    public default void test_releaseInputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.server.RemoteCall#releaseOutputStream() public abstract void
+     * java.rmi.server.RemoteCall.releaseOutputStream() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_releaseOutputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

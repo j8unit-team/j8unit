@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface SSLServerSocketFactoryClassTests<SUT extends Class<? extends javax.net.ssl.SSLServerSocketFactory>>
 extends org.j8unit.repository.javax.net.ServerSocketFactoryClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.net.ssl.SSLServerSocketFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.net.ssl.SSLServerSocketFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.net.ssl.SSLServerSocketFactory#getDefault() public static synchronized
@@ -60,6 +50,16 @@ extends org.j8unit.repository.javax.net.ServerSocketFactoryClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.net.ssl.SSLServerSocketFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.net.ssl.SSLServerSocketFactory.class.isAssignableFrom(sut));
     }
 
 }

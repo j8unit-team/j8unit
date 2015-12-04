@@ -23,14 +23,15 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.StrokeBorder#getPaint() public java.awt.Paint
-     * javax.swing.border.StrokeBorder.getPaint()}.
+     * Test method for {@link javax.swing.border.StrokeBorder#getBorderInsets(java.awt.Component,java.awt.Insets) public
+     * java.awt.Insets javax.swing.border.StrokeBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPaint()
+    @Override
+    public default void test_getBorderInsets_Component_Insets()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,16 +40,14 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.border.StrokeBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int) public
-     * void javax.swing.border.StrokeBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     * Test method for {@link javax.swing.border.StrokeBorder#getPaint() public java.awt.Paint
+     * javax.swing.border.StrokeBorder.getPaint()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_paintBorder_Component_Graphics_int_int_int_int()
+    public default void test_getPaint()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,15 +72,16 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.StrokeBorder#getBorderInsets(java.awt.Component,java.awt.Insets) public
-     * java.awt.Insets javax.swing.border.StrokeBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
+     * Test method for
+     * {@link javax.swing.border.StrokeBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int) public
+     * void javax.swing.border.StrokeBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getBorderInsets_Component_Insets()
+    public default void test_paintBorder_Component_Graphics_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

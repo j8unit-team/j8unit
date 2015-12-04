@@ -24,22 +24,6 @@ extends org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlAdapterTests
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.annotation.adapters.NormalizedStringAdapter#unmarshal(java.lang.String)
-     * public java.lang.String javax.xml.bind.annotation.adapters.NormalizedStringAdapter.unmarshal(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unmarshal_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.bind.annotation.adapters.NormalizedStringAdapter#marshal(java.lang.String)
      * public java.lang.String javax.xml.bind.annotation.adapters.NormalizedStringAdapter.marshal(java.lang.String)}.
      * </p>
@@ -48,6 +32,22 @@ extends org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlAdapterTests
     @Test
     @Category(Draft.class)
     public default void test_marshal_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.bind.annotation.adapters.NormalizedStringAdapter#unmarshal(java.lang.String)
+     * public java.lang.String javax.xml.bind.annotation.adapters.NormalizedStringAdapter.unmarshal(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unmarshal_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

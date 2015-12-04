@@ -35,17 +35,16 @@ public abstract interface BAD_QOSClassTests<SUT extends Class<? extends org.omg.
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link org.omg.CORBA.BAD_QOS#BAD_QOS(java.lang.String,int,org.omg.CORBA.CompletionStatus) public
-     * org.omg.CORBA.BAD_QOS(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for {@link org.omg.CORBA.BAD_QOS#BAD_QOS() public org.omg.CORBA.BAD_QOS()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BAD_QOS_String_int_CompletionStatus()
+    public default void create_BAD_QOS()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.BAD_QOS sut = null; // = new BAD_QOS(java.lang.String,int,org.omg.CORBA.CompletionStatus);
+        final org.omg.CORBA.BAD_QOS sut = null; // = new BAD_QOS();
     }
 
     /**
@@ -77,16 +76,17 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link org.omg.CORBA.BAD_QOS#BAD_QOS() public org.omg.CORBA.BAD_QOS()}.
+     * Test method for {@link org.omg.CORBA.BAD_QOS#BAD_QOS(java.lang.String,int,org.omg.CORBA.CompletionStatus) public
+     * org.omg.CORBA.BAD_QOS(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BAD_QOS()
+    public default void create_BAD_QOS_String_int_CompletionStatus()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.BAD_QOS sut = null; // = new BAD_QOS();
+        final org.omg.CORBA.BAD_QOS sut = null; // = new BAD_QOS(java.lang.String,int,org.omg.CORBA.CompletionStatus);
     }
 
     @Override

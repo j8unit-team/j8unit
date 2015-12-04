@@ -37,6 +37,20 @@ extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT, 
 org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
 
     /**
+     * Test method for {@link java.util.concurrent.ArrayBlockingQueue#ArrayBlockingQueue(int) public
+     * java.util.concurrent.ArrayBlockingQueue(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ArrayBlockingQueue_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.ArrayBlockingQueue<E> sut = null; // = new ArrayBlockingQueue(int);
+    }
+
+    /**
      * Test method for {@link java.util.concurrent.ArrayBlockingQueue#ArrayBlockingQueue(int,boolean) public
      * java.util.concurrent.ArrayBlockingQueue(int,boolean)}.
      */
@@ -64,20 +78,6 @@ org.j8unit.repository.java.util.AbstractQueueClassTests<SUT, E> {
         @SuppressWarnings("unused")
         final java.util.concurrent.ArrayBlockingQueue<E> sut = null; // = new
                                                                      // ArrayBlockingQueue(int,boolean,java.util.Collection);
-    }
-
-    /**
-     * Test method for {@link java.util.concurrent.ArrayBlockingQueue#ArrayBlockingQueue(int) public
-     * java.util.concurrent.ArrayBlockingQueue(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ArrayBlockingQueue_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.ArrayBlockingQueue<E> sut = null; // = new ArrayBlockingQueue(int);
     }
 
     @Override

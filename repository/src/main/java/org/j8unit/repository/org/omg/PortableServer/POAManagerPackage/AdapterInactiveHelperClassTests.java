@@ -51,14 +51,56 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                                                                                          // AdapterInactiveHelper();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#extract(org.omg.CORBA.Any)
+     * public static org.omg.PortableServer.POAManagerPackage.AdapterInactive
+     * org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.extract(org.omg.CORBA.Any)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_extract_Any()
     throws Exception {
-        // create new instance
-        final Class<? extends org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#id() public static
+     * java.lang.String org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.id()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#insert(org.omg.CORBA.Any,org.omg.PortableServer.POAManagerPackage.AdapterInactive)
+     * public static void
+     * org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.insert(org.omg.CORBA.Any,org.omg.PortableServer.POAManagerPackage.AdapterInactive)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_AdapterInactive()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -73,23 +115,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#extract(org.omg.CORBA.Any)
-     * public static org.omg.PortableServer.POAManagerPackage.AdapterInactive
-     * org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.extract(org.omg.CORBA.Any)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_extract_Any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -131,39 +156,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#insert(org.omg.CORBA.Any,org.omg.PortableServer.POAManagerPackage.AdapterInactive)
-     * public static void
-     * org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.insert(org.omg.CORBA.Any,org.omg.PortableServer.POAManagerPackage.AdapterInactive)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_insert_Any_AdapterInactive()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper#id() public static
-     * java.lang.String org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.id()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_id()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper.class.isAssignableFrom(sut));
     }
 
 }

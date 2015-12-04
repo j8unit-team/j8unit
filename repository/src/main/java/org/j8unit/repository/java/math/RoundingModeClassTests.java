@@ -35,32 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface RoundingModeClassTests<SUT extends Class<? extends java.math.RoundingMode>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.math.RoundingMode> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.math.RoundingMode> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.math.RoundingMode.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.math.RoundingMode#values() public static java.math.RoundingMode[]
-     * java.math.RoundingMode.values()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_values()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link java.math.RoundingMode#valueOf(int) public static java.math.RoundingMode
@@ -91,6 +65,32 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.math.RoundingMo
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.math.RoundingMode#values() public static java.math.RoundingMode[]
+     * java.math.RoundingMode.values()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_values()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.math.RoundingMode> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.math.RoundingMode.class.isAssignableFrom(sut));
     }
 
 }

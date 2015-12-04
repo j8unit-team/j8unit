@@ -36,6 +36,51 @@ public abstract interface FactoryConfigurationErrorClassTests<SUT extends Class<
 extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.xml.stream.FactoryConfigurationError#FactoryConfigurationError() public
+     * javax.xml.stream.FactoryConfigurationError()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FactoryConfigurationError()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.stream.FactoryConfigurationError sut = null; // = new FactoryConfigurationError();
+    }
+
+    /**
+     * Test method for {@link javax.xml.stream.FactoryConfigurationError#FactoryConfigurationError(java.lang.Exception)
+     * public javax.xml.stream.FactoryConfigurationError(java.lang.Exception)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FactoryConfigurationError_Exception()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.stream.FactoryConfigurationError sut = null; // = new
+                                                                     // FactoryConfigurationError(java.lang.Exception);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.xml.stream.FactoryConfigurationError#FactoryConfigurationError(java.lang.Exception,java.lang.String)
+     * public javax.xml.stream.FactoryConfigurationError(java.lang.Exception,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FactoryConfigurationError_Exception_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.stream.FactoryConfigurationError sut = null; // = new
+                                                                     // FactoryConfigurationError(java.lang.Exception,java.lang.String);
+    }
+
+    /**
      * Test method for {@link javax.xml.stream.FactoryConfigurationError#FactoryConfigurationError(java.lang.String)
      * public javax.xml.stream.FactoryConfigurationError(java.lang.String)}.
      */
@@ -64,51 +109,6 @@ extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.xml.stream.FactoryConfigurationError sut = null; // = new
                                                                      // FactoryConfigurationError(java.lang.String,java.lang.Exception);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.xml.stream.FactoryConfigurationError#FactoryConfigurationError(java.lang.Exception,java.lang.String)
-     * public javax.xml.stream.FactoryConfigurationError(java.lang.Exception,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FactoryConfigurationError_Exception_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.stream.FactoryConfigurationError sut = null; // = new
-                                                                     // FactoryConfigurationError(java.lang.Exception,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.xml.stream.FactoryConfigurationError#FactoryConfigurationError(java.lang.Exception)
-     * public javax.xml.stream.FactoryConfigurationError(java.lang.Exception)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FactoryConfigurationError_Exception()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.stream.FactoryConfigurationError sut = null; // = new
-                                                                     // FactoryConfigurationError(java.lang.Exception);
-    }
-
-    /**
-     * Test method for {@link javax.xml.stream.FactoryConfigurationError#FactoryConfigurationError() public
-     * javax.xml.stream.FactoryConfigurationError()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FactoryConfigurationError()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.stream.FactoryConfigurationError sut = null; // = new FactoryConfigurationError();
     }
 
     @Override

@@ -50,19 +50,6 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.JScrollPane#JScrollPane(int,int) public javax.swing.JScrollPane(int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JScrollPane_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JScrollPane sut = null; // = new JScrollPane(int,int);
-    }
-
-    /**
      * Test method for {@link javax.swing.JScrollPane#JScrollPane(java.awt.Component) public
      * javax.swing.JScrollPane(java.awt.Component)}.
      */
@@ -88,6 +75,19 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JScrollPane sut = null; // = new JScrollPane(java.awt.Component,int,int);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JScrollPane#JScrollPane(int,int) public javax.swing.JScrollPane(int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JScrollPane_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JScrollPane sut = null; // = new JScrollPane(int,int);
     }
 
     @Override

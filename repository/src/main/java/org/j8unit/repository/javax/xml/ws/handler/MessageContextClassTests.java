@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface MessageContextClassTests<SUT extends Class<? extends javax.xml.ws.handler.MessageContext>>
 extends org.j8unit.repository.java.util.MapClassTests<SUT, java.lang.String, java.lang.Object> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.ws.handler.MessageContext> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.ws.handler.MessageContext.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.xml.ws.handler.MessageContext$Scope class javax.xml.ws.handler.MessageContext$Scope},
@@ -74,14 +64,21 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, java.lang.String, jav
     public static abstract interface ScopeClassTests<SUT extends Class<? extends javax.xml.ws.handler.MessageContext.Scope>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.ws.handler.MessageContext.Scope> {
 
-        @Override
+        /**
+         * <p>
+         * Test method for {@link javax.xml.ws.handler.MessageContext.Scope#valueOf(java.lang.String) public static
+         * javax.xml.ws.handler.MessageContext$Scope
+         * javax.xml.ws.handler.MessageContext$Scope.valueOf(java.lang.String)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @Category(Draft.class)
+        public default void test_valueOf_String()
         throws Exception {
-            // create new instance
-            final Class<? extends javax.xml.ws.handler.MessageContext.Scope> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.xml.ws.handler.MessageContext.Scope.class.isAssignableFrom(sut));
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
         }
 
         /**
@@ -100,23 +97,26 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, java.lang.String, jav
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for {@link javax.xml.ws.handler.MessageContext.Scope#valueOf(java.lang.String) public static
-         * javax.xml.ws.handler.MessageContext$Scope
-         * javax.xml.ws.handler.MessageContext$Scope.valueOf(java.lang.String)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
+        public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
+            // create new instance
+            final Class<? extends javax.xml.ws.handler.MessageContext.Scope> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.xml.ws.handler.MessageContext.Scope.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.ws.handler.MessageContext> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.ws.handler.MessageContext.class.isAssignableFrom(sut));
     }
 
 }

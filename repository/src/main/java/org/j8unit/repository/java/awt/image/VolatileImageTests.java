@@ -39,39 +39,6 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.VolatileImage#getHeight() public abstract int
-     * java.awt.image.VolatileImage.getHeight()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getHeight()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.VolatileImage#getSource() public java.awt.image.ImageProducer
-     * java.awt.image.VolatileImage.getSource()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getSource()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.image.VolatileImage#createGraphics() public abstract java.awt.Graphics2D
      * java.awt.image.VolatileImage.createGraphics()}.
      * </p>
@@ -104,22 +71,6 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.VolatileImage#getWidth() public abstract int
-     * java.awt.image.VolatileImage.getWidth()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWidth()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.image.VolatileImage#getGraphics() public java.awt.Graphics
      * java.awt.image.VolatileImage.getGraphics()}.
      * </p>
@@ -137,14 +88,14 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.VolatileImage#validate(java.awt.GraphicsConfiguration) public abstract int
-     * java.awt.image.VolatileImage.validate(java.awt.GraphicsConfiguration)}.
+     * Test method for {@link java.awt.image.VolatileImage#getHeight() public abstract int
+     * java.awt.image.VolatileImage.getHeight()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_validate_GraphicsConfiguration()
+    public default void test_getHeight()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -169,6 +120,23 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.VolatileImage#getSource() public java.awt.image.ImageProducer
+     * java.awt.image.VolatileImage.getSource()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getSource()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.image.VolatileImage#getTransparency() public int
      * java.awt.image.VolatileImage.getTransparency()}.
      * </p>
@@ -178,6 +146,38 @@ extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.reposi
     @Category(Draft.class)
     @Override
     public default void test_getTransparency()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.VolatileImage#getWidth() public abstract int
+     * java.awt.image.VolatileImage.getWidth()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWidth()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.VolatileImage#validate(java.awt.GraphicsConfiguration) public abstract int
+     * java.awt.image.VolatileImage.validate(java.awt.GraphicsConfiguration)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_validate_GraphicsConfiguration()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

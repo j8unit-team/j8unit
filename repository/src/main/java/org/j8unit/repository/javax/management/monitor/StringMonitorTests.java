@@ -23,20 +23,34 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.StringMonitor#getDerivedGauge(javax.management.ObjectName) public
-     * synchronized java.lang.String
-     * javax.management.monitor.StringMonitor.getDerivedGauge(javax.management.ObjectName)}.
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getDerivedGauge_ObjectName()
+    public default void test_addObservedObject_ObjectName()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_containsObservedObject_ObjectName()
+    throws Exception {
     }
 
     /**
@@ -58,15 +72,16 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.StringMonitor#setNotifyDiffer(boolean) public synchronized void
-     * javax.management.monitor.StringMonitor.setNotifyDiffer(boolean)}.
+     * Test method for {@link javax.management.monitor.StringMonitor#getDerivedGauge(javax.management.ObjectName) public
+     * synchronized java.lang.String
+     * javax.management.monitor.StringMonitor.getDerivedGauge(javax.management.ObjectName)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setNotifyDiffer_boolean()
+    public default void test_getDerivedGauge_ObjectName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -75,101 +90,15 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.StringMonitor#getNotifyDiffer() public synchronized boolean
-     * javax.management.monitor.StringMonitor.getNotifyDiffer()}.
+     * Test method for {@link javax.management.monitor.StringMonitor#getDerivedGaugeTimeStamp() public synchronized long
+     * javax.management.monitor.StringMonitor.getDerivedGaugeTimeStamp()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getNotifyDiffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.monitor.StringMonitor#start() public synchronized void
-     * javax.management.monitor.StringMonitor.start()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_start()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.monitor.StringMonitor#getStringToCompare() public synchronized
-     * java.lang.String javax.management.monitor.StringMonitor.getStringToCompare()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getStringToCompare()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.monitor.StringMonitor#setNotifyMatch(boolean) public synchronized void
-     * javax.management.monitor.StringMonitor.setNotifyMatch(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setNotifyMatch_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.monitor.StringMonitor#getNotificationInfo() public
-     * javax.management.MBeanNotificationInfo[] javax.management.monitor.StringMonitor.getNotificationInfo()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getNotificationInfo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.monitor.StringMonitor#setStringToCompare(java.lang.String) public
-     * synchronized void javax.management.monitor.StringMonitor.setStringToCompare(java.lang.String) throws
-     * java.lang.IllegalArgumentException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setStringToCompare_String()
+    public default void test_getDerivedGaugeTimeStamp()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -196,15 +125,31 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.StringMonitor#getDerivedGaugeTimeStamp() public synchronized long
-     * javax.management.monitor.StringMonitor.getDerivedGaugeTimeStamp()}.
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getDerivedGaugeTimeStamp()
+    public default void test_getGranularityPeriod()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.monitor.StringMonitor#getNotificationInfo() public
+     * javax.management.MBeanNotificationInfo[] javax.management.monitor.StringMonitor.getNotificationInfo()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getNotificationInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -213,15 +158,15 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
-     * Test method for {@link javax.management.monitor.StringMonitor#stop() public synchronized void
-     * javax.management.monitor.StringMonitor.stop()}.
+     * Test method for {@link javax.management.monitor.StringMonitor#getNotifyDiffer() public synchronized boolean
+     * javax.management.monitor.StringMonitor.getNotifyDiffer()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_stop()
+    public default void test_getNotifyDiffer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -243,70 +188,6 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setObservedObject_ObjectName()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setObservedAttribute_String()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isActive()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getGranularityPeriod()
-    throws Exception {
     }
 
     /**
@@ -353,8 +234,25 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_addObservedObject_ObjectName()
+    public default void test_getObservedObjects()
     throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.monitor.StringMonitor#getStringToCompare() public synchronized
+     * java.lang.String javax.management.monitor.StringMonitor.getStringToCompare()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getStringToCompare()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -369,7 +267,7 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_containsObservedObject_ObjectName()
+    public default void test_isActive()
     throws Exception {
     }
 
@@ -407,6 +305,40 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
 
     /**
      * <p>
+     * Test method for {@link javax.management.monitor.StringMonitor#setNotifyDiffer(boolean) public synchronized void
+     * javax.management.monitor.StringMonitor.setNotifyDiffer(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setNotifyDiffer_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.monitor.StringMonitor#setNotifyMatch(boolean) public synchronized void
+     * javax.management.monitor.StringMonitor.setNotifyMatch(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setNotifyMatch_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * The method-under-test covered by this test method is inherited duplicatedly within the declaring
      * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
      * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
@@ -417,8 +349,76 @@ extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanTests<S
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getObservedObjects()
+    public default void test_setObservedAttribute_String()
     throws Exception {
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setObservedObject_ObjectName()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.monitor.StringMonitor#setStringToCompare(java.lang.String) public
+     * synchronized void javax.management.monitor.StringMonitor.setStringToCompare(java.lang.String) throws
+     * java.lang.IllegalArgumentException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setStringToCompare_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.monitor.StringMonitor#start() public synchronized void
+     * javax.management.monitor.StringMonitor.start()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_start()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.monitor.StringMonitor#stop() public synchronized void
+     * javax.management.monitor.StringMonitor.stop()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_stop()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

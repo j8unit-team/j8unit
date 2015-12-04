@@ -23,15 +23,15 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.tools.ForwardingFileObject#openInputStream() public java.io.InputStream
-     * javax.tools.ForwardingFileObject.openInputStream() throws java.io.IOException}.
+     * Test method for {@link javax.tools.ForwardingFileObject#delete() public boolean
+     * javax.tools.ForwardingFileObject.delete()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_openInputStream()
+    public default void test_delete()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,15 +57,49 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.tools.ForwardingFileObject#delete() public boolean
-     * javax.tools.ForwardingFileObject.delete()}.
+     * Test method for {@link javax.tools.ForwardingFileObject#getLastModified() public long
+     * javax.tools.ForwardingFileObject.getLastModified()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_delete()
+    public default void test_getLastModified()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.ForwardingFileObject#getName() public java.lang.String
+     * javax.tools.ForwardingFileObject.getName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.ForwardingFileObject#openInputStream() public java.io.InputStream
+     * javax.tools.ForwardingFileObject.openInputStream() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_openInputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -108,23 +142,6 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.tools.ForwardingFileObject#toUri() public java.net.URI
-     * javax.tools.ForwardingFileObject.toUri()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toUri()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.tools.ForwardingFileObject#openWriter() public java.io.Writer
      * javax.tools.ForwardingFileObject.openWriter() throws java.io.IOException}.
      * </p>
@@ -142,32 +159,15 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT>, org.j8unit.repos
 
     /**
      * <p>
-     * Test method for {@link javax.tools.ForwardingFileObject#getName() public java.lang.String
-     * javax.tools.ForwardingFileObject.getName()}.
+     * Test method for {@link javax.tools.ForwardingFileObject#toUri() public java.net.URI
+     * javax.tools.ForwardingFileObject.toUri()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.ForwardingFileObject#getLastModified() public long
-     * javax.tools.ForwardingFileObject.getLastModified()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getLastModified()
+    public default void test_toUri()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

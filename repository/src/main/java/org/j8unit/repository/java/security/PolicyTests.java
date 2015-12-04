@@ -24,49 +24,19 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.Policy#implies(java.security.ProtectionDomain,java.security.Permission)
-     * public boolean java.security.Policy.implies(java.security.ProtectionDomain,java.security.Permission)}.
+     * Test class for {@link java.security.Policy$Parameters interface java.security.Policy$Parameters}, containing all
+     * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
      * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.java.security.PolicyClassTests.ParametersClassTests
      */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_implies_ProtectionDomain_Permission()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
+    @Category(J8UnitRepository.class)
+    public static abstract interface ParametersTests<SUT extends java.security.Policy.Parameters>
+    extends J8UnitTest<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link java.security.Policy#getProvider() public java.security.Provider
-     * java.security.Policy.getProvider()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProvider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.Policy#refresh() public void java.security.Policy.refresh()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_refresh()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
     }
 
     /**
@@ -79,21 +49,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getParameters()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.Policy#getType() public java.lang.String java.security.Policy.getType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -134,19 +89,64 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.security.Policy$Parameters interface java.security.Policy$Parameters}, containing all
-     * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Test method for {@link java.security.Policy#getProvider() public java.security.Provider
+     * java.security.Policy.getProvider()}.
      * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.java.security.PolicyClassTests.ParametersClassTests
      */
-    @Category(J8UnitRepository.class)
-    public static abstract interface ParametersTests<SUT extends java.security.Policy.Parameters>
-    extends J8UnitTest<SUT> {
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProvider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
+    /**
+     * <p>
+     * Test method for {@link java.security.Policy#getType() public java.lang.String java.security.Policy.getType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.Policy#implies(java.security.ProtectionDomain,java.security.Permission)
+     * public boolean java.security.Policy.implies(java.security.ProtectionDomain,java.security.Permission)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_implies_ProtectionDomain_Permission()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.Policy#refresh() public void java.security.Policy.refresh()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_refresh()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

@@ -55,6 +55,74 @@ extends org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<SUT> {
 
     /**
      * Test method for
+     * {@link java.awt.RadialGradientPaint#RadialGradientPaint(float,float,float,float[],java.awt.Color[]) public
+     * java.awt.RadialGradientPaint(float,float,float,float[],java.awt.Color[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RadialGradientPaint_float_float_float_floatArray_ColorArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.RadialGradientPaint sut = null; // = new
+                                                       // RadialGradientPaint(float,float,float,float[],java.awt.Color[]);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.RadialGradientPaint#RadialGradientPaint(float,float,float,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod)
+     * public
+     * java.awt.RadialGradientPaint(float,float,float,float[],java.awt.Color[],java.awt.MultipleGradientPaint$CycleMethod)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RadialGradientPaint_float_float_float_floatArray_ColorArray_CycleMethod()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.RadialGradientPaint sut = null; // = new
+                                                       // RadialGradientPaint(float,float,float,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.RadialGradientPaint#RadialGradientPaint(java.awt.geom.Point2D,float,float[],java.awt.Color[])
+     * public java.awt.RadialGradientPaint(java.awt.geom.Point2D,float,float[],java.awt.Color[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RadialGradientPaint_Point2D_float_floatArray_ColorArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.RadialGradientPaint sut = null; // = new
+                                                       // RadialGradientPaint(java.awt.geom.Point2D,float,float[],java.awt.Color[]);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.RadialGradientPaint#RadialGradientPaint(java.awt.geom.Point2D,float,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod)
+     * public
+     * java.awt.RadialGradientPaint(java.awt.geom.Point2D,float,float[],java.awt.Color[],java.awt.MultipleGradientPaint$CycleMethod)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RadialGradientPaint_Point2D_float_floatArray_ColorArray_CycleMethod()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.RadialGradientPaint sut = null; // = new
+                                                       // RadialGradientPaint(java.awt.geom.Point2D,float,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod);
+    }
+
+    /**
+     * Test method for
      * {@link java.awt.RadialGradientPaint#RadialGradientPaint(java.awt.geom.Point2D,float,java.awt.geom.Point2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod)
      * public
      * java.awt.RadialGradientPaint(java.awt.geom.Point2D,float,java.awt.geom.Point2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint$CycleMethod)}
@@ -105,74 +173,6 @@ extends org.j8unit.repository.java.awt.MultipleGradientPaintClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.awt.RadialGradientPaint sut = null; // = new
                                                        // RadialGradientPaint(java.awt.geom.Rectangle2D,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod);
-    }
-
-    /**
-     * Test method for
-     * {@link java.awt.RadialGradientPaint#RadialGradientPaint(float,float,float,float[],java.awt.Color[]) public
-     * java.awt.RadialGradientPaint(float,float,float,float[],java.awt.Color[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RadialGradientPaint_float_float_float_floatArray_ColorArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.RadialGradientPaint sut = null; // = new
-                                                       // RadialGradientPaint(float,float,float,float[],java.awt.Color[]);
-    }
-
-    /**
-     * Test method for
-     * {@link java.awt.RadialGradientPaint#RadialGradientPaint(java.awt.geom.Point2D,float,float[],java.awt.Color[])
-     * public java.awt.RadialGradientPaint(java.awt.geom.Point2D,float,float[],java.awt.Color[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RadialGradientPaint_Point2D_float_floatArray_ColorArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.RadialGradientPaint sut = null; // = new
-                                                       // RadialGradientPaint(java.awt.geom.Point2D,float,float[],java.awt.Color[]);
-    }
-
-    /**
-     * Test method for
-     * {@link java.awt.RadialGradientPaint#RadialGradientPaint(float,float,float,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod)
-     * public
-     * java.awt.RadialGradientPaint(float,float,float,float[],java.awt.Color[],java.awt.MultipleGradientPaint$CycleMethod)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RadialGradientPaint_float_float_float_floatArray_ColorArray_CycleMethod()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.RadialGradientPaint sut = null; // = new
-                                                       // RadialGradientPaint(float,float,float,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod);
-    }
-
-    /**
-     * Test method for
-     * {@link java.awt.RadialGradientPaint#RadialGradientPaint(java.awt.geom.Point2D,float,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod)
-     * public
-     * java.awt.RadialGradientPaint(java.awt.geom.Point2D,float,float[],java.awt.Color[],java.awt.MultipleGradientPaint$CycleMethod)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RadialGradientPaint_Point2D_float_floatArray_ColorArray_CycleMethod()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.RadialGradientPaint sut = null; // = new
-                                                       // RadialGradientPaint(java.awt.geom.Point2D,float,float[],java.awt.Color[],java.awt.MultipleGradientPaint.CycleMethod);
     }
 
     @Override

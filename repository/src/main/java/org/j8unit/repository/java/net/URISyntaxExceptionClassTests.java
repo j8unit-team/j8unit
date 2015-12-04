@@ -36,6 +36,20 @@ public abstract interface URISyntaxExceptionClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link java.net.URISyntaxException#URISyntaxException(java.lang.String,java.lang.String) public
+     * java.net.URISyntaxException(java.lang.String,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_URISyntaxException_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.URISyntaxException sut = null; // = new URISyntaxException(java.lang.String,java.lang.String);
+    }
+
+    /**
      * Test method for {@link java.net.URISyntaxException#URISyntaxException(java.lang.String,java.lang.String,int)
      * public java.net.URISyntaxException(java.lang.String,java.lang.String,int)}.
      */
@@ -48,20 +62,6 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.net.URISyntaxException sut = null; // = new
                                                       // URISyntaxException(java.lang.String,java.lang.String,int);
-    }
-
-    /**
-     * Test method for {@link java.net.URISyntaxException#URISyntaxException(java.lang.String,java.lang.String) public
-     * java.net.URISyntaxException(java.lang.String,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_URISyntaxException_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.URISyntaxException sut = null; // = new URISyntaxException(java.lang.String,java.lang.String);
     }
 
     @Override

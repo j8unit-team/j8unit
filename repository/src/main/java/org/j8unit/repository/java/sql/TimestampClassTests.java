@@ -61,14 +61,21 @@ extends org.j8unit.repository.java.util.DateClassTests<SUT> {
         final java.sql.Timestamp sut = null; // = new Timestamp(long);
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.sql.Timestamp#from(java.time.Instant) public static java.sql.Timestamp
+     * java.sql.Timestamp.from(java.time.Instant)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    @Override
+    public default void test_from_Instant()
     throws Exception {
-        // create new instance
-        final Class<? extends java.sql.Timestamp> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.sql.Timestamp.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -103,21 +110,14 @@ extends org.j8unit.repository.java.util.DateClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.sql.Timestamp#from(java.time.Instant) public static java.sql.Timestamp
-     * java.sql.Timestamp.from(java.time.Instant)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
     @Override
-    public default void test_from_Instant()
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.sql.Timestamp> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.sql.Timestamp.class.isAssignableFrom(sut));
     }
 
 }

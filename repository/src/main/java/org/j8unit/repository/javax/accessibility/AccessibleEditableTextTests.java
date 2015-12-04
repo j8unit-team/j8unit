@@ -24,54 +24,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.accessibility.AccessibleEditableText#setTextContents(java.lang.String) public
-     * abstract void javax.accessibility.AccessibleEditableText.setTextContents(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setTextContents_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleEditableText#selectText(int,int) public abstract void
-     * javax.accessibility.AccessibleEditableText.selectText(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_selectText_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleEditableText#replaceText(int,int,java.lang.String) public
-     * abstract void javax.accessibility.AccessibleEditableText.replaceText(int,int,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replaceText_int_int_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.accessibility.AccessibleEditableText#cut(int,int) public abstract void
      * javax.accessibility.AccessibleEditableText.cut(int,int)}.
      * </p>
@@ -80,22 +32,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_cut_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.accessibility.AccessibleEditableText#getTextRange(int,int) public abstract
-     * java.lang.String javax.accessibility.AccessibleEditableText.getTextRange(int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTextRange_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,15 +56,14 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.accessibility.AccessibleEditableText#setAttributes(int,int,javax.swing.text.AttributeSet) public
-     * abstract void javax.accessibility.AccessibleEditableText.setAttributes(int,int,javax.swing.text.AttributeSet)}.
+     * Test method for {@link javax.accessibility.AccessibleEditableText#getTextRange(int,int) public abstract
+     * java.lang.String javax.accessibility.AccessibleEditableText.getTextRange(int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setAttributes_int_int_AttributeSet()
+    public default void test_getTextRange_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -161,6 +96,71 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTextTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_paste_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleEditableText#replaceText(int,int,java.lang.String) public
+     * abstract void javax.accessibility.AccessibleEditableText.replaceText(int,int,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replaceText_int_int_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleEditableText#selectText(int,int) public abstract void
+     * javax.accessibility.AccessibleEditableText.selectText(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_selectText_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.accessibility.AccessibleEditableText#setAttributes(int,int,javax.swing.text.AttributeSet) public
+     * abstract void javax.accessibility.AccessibleEditableText.setAttributes(int,int,javax.swing.text.AttributeSet)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setAttributes_int_int_AttributeSet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.accessibility.AccessibleEditableText#setTextContents(java.lang.String) public
+     * abstract void javax.accessibility.AccessibleEditableText.setTextContents(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setTextContents_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

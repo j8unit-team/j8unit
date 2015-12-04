@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.awt.image.LookupTableTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.ShortLookupTable#getTable() public final short[][]
+     * java.awt.image.ShortLookupTable.getTable()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.image.ShortLookupTable#lookupPixel(int[],int[]) public int[]
      * java.awt.image.ShortLookupTable.lookupPixel(int[],int[])}.
      * </p>
@@ -48,22 +64,6 @@ extends org.j8unit.repository.java.awt.image.LookupTableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_lookupPixel_shortArray_shortArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.ShortLookupTable#getTable() public final short[][]
-     * java.awt.image.ShortLookupTable.getTable()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

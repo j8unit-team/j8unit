@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.plaf.basic.BasicLookAndFeel#initialize() public void
-     * javax.swing.plaf.basic.BasicLookAndFeel.initialize()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_initialize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.plaf.basic.BasicLookAndFeel#getDefaults() public javax.swing.UIDefaults
      * javax.swing.plaf.basic.BasicLookAndFeel.getDefaults()}.
      * </p>
@@ -49,6 +32,23 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Category(Draft.class)
     @Override
     public default void test_getDefaults()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.plaf.basic.BasicLookAndFeel#initialize() public void
+     * javax.swing.plaf.basic.BasicLookAndFeel.initialize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_initialize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

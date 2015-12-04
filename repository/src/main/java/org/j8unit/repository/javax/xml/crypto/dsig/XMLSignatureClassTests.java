@@ -33,16 +33,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface XMLSignatureClassTests<SUT extends Class<? extends javax.xml.crypto.dsig.XMLSignature>>
 extends org.j8unit.repository.javax.xml.crypto.XMLStructureClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.crypto.dsig.XMLSignature> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.crypto.dsig.XMLSignature.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.xml.crypto.dsig.XMLSignature$SignatureValue interface
@@ -83,6 +73,16 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureClassTests<SUT> {
             assertTrue(javax.xml.crypto.dsig.XMLSignature.SignatureValue.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.crypto.dsig.XMLSignature> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.crypto.dsig.XMLSignature.class.isAssignableFrom(sut));
     }
 
 }

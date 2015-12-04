@@ -25,14 +25,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.callback.ConfirmationCallback#getOptionType() public int
-     * javax.security.auth.callback.ConfirmationCallback.getOptionType()}.
+     * Test method for {@link javax.security.auth.callback.ConfirmationCallback#getDefaultOption() public int
+     * javax.security.auth.callback.ConfirmationCallback.getDefaultOption()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOptionType()
+    public default void test_getDefaultOption()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,22 +57,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.callback.ConfirmationCallback#getDefaultOption() public int
-     * javax.security.auth.callback.ConfirmationCallback.getDefaultOption()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDefaultOption()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.security.auth.callback.ConfirmationCallback#getOptions() public java.lang.String[]
      * javax.security.auth.callback.ConfirmationCallback.getOptions()}.
      * </p>
@@ -89,14 +73,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.callback.ConfirmationCallback#setSelectedIndex(int) public void
-     * javax.security.auth.callback.ConfirmationCallback.setSelectedIndex(int)}.
+     * Test method for {@link javax.security.auth.callback.ConfirmationCallback#getOptionType() public int
+     * javax.security.auth.callback.ConfirmationCallback.getOptionType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSelectedIndex_int()
+    public default void test_getOptionType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -129,6 +113,22 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getSelectedIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.callback.ConfirmationCallback#setSelectedIndex(int) public void
+     * javax.security.auth.callback.ConfirmationCallback.setSelectedIndex(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSelectedIndex_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

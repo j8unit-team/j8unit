@@ -49,14 +49,69 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.DynamicAny.DynSequenceHelper sut = null; // = new DynSequenceHelper();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynSequenceHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.DynamicAny.DynSequence org.omg.DynamicAny.DynSequenceHelper.extract(org.omg.CORBA.Any)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_extract_Any()
     throws Exception {
-        // create new instance
-        final Class<? extends org.omg.DynamicAny.DynSequenceHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.DynamicAny.DynSequenceHelper.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynSequenceHelper#id() public static java.lang.String
+     * org.omg.DynamicAny.DynSequenceHelper.id()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.DynamicAny.DynSequenceHelper#insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynSequence) public
+     * static void org.omg.DynamicAny.DynSequenceHelper.insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynSequence)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_DynSequence()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynSequenceHelper#narrow(org.omg.CORBA.Object) public static
+     * org.omg.DynamicAny.DynSequence org.omg.DynamicAny.DynSequenceHelper.narrow(org.omg.CORBA.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_narrow_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -78,14 +133,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny.DynSequenceHelper#extract(org.omg.CORBA.Any) public static
-     * org.omg.DynamicAny.DynSequence org.omg.DynamicAny.DynSequenceHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for {@link org.omg.DynamicAny.DynSequenceHelper#type() public static synchronized
+     * org.omg.CORBA.TypeCode org.omg.DynamicAny.DynSequenceHelper.type()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_extract_Any()
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -126,69 +181,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynSequenceHelper#type() public static synchronized
-     * org.omg.CORBA.TypeCode org.omg.DynamicAny.DynSequenceHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_type()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynSequenceHelper#id() public static java.lang.String
-     * org.omg.DynamicAny.DynSequenceHelper.id()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_id()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynSequenceHelper#narrow(org.omg.CORBA.Object) public static
-     * org.omg.DynamicAny.DynSequence org.omg.DynamicAny.DynSequenceHelper.narrow(org.omg.CORBA.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_narrow_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.DynamicAny.DynSequenceHelper#insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynSequence) public
-     * static void org.omg.DynamicAny.DynSequenceHelper.insert(org.omg.CORBA.Any,org.omg.DynamicAny.DynSequence)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_insert_Any_DynSequence()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.DynamicAny.DynSequenceHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.DynamicAny.DynSequenceHelper.class.isAssignableFrom(sut));
     }
 
 }

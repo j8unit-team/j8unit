@@ -24,15 +24,31 @@ extends org.j8unit.repository.javax.security.auth.DestroyableTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.x500.X500PrivateCredential#isDestroyed() public boolean
-     * javax.security.auth.x500.X500PrivateCredential.isDestroyed()}.
+     * Test method for {@link javax.security.auth.x500.X500PrivateCredential#destroy() public void
+     * javax.security.auth.x500.X500PrivateCredential.destroy()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isDestroyed()
+    public default void test_destroy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.x500.X500PrivateCredential#getAlias() public java.lang.String
+     * javax.security.auth.x500.X500PrivateCredential.getAlias()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAlias()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,23 +73,6 @@ extends org.j8unit.repository.javax.security.auth.DestroyableTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.x500.X500PrivateCredential#destroy() public void
-     * javax.security.auth.x500.X500PrivateCredential.destroy()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_destroy()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.security.auth.x500.X500PrivateCredential#getPrivateKey() public
      * java.security.PrivateKey javax.security.auth.x500.X500PrivateCredential.getPrivateKey()}.
      * </p>
@@ -90,14 +89,15 @@ extends org.j8unit.repository.javax.security.auth.DestroyableTests<SUT>, org.j8u
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.x500.X500PrivateCredential#getAlias() public java.lang.String
-     * javax.security.auth.x500.X500PrivateCredential.getAlias()}.
+     * Test method for {@link javax.security.auth.x500.X500PrivateCredential#isDestroyed() public boolean
+     * javax.security.auth.x500.X500PrivateCredential.isDestroyed()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAlias()
+    @Override
+    public default void test_isDestroyed()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

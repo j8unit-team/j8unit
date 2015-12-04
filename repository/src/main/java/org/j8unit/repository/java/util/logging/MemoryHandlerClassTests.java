@@ -36,6 +36,19 @@ public abstract interface MemoryHandlerClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.util.logging.HandlerClassTests<SUT> {
 
     /**
+     * Test method for {@link java.util.logging.MemoryHandler#MemoryHandler() public java.util.logging.MemoryHandler()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_MemoryHandler()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.logging.MemoryHandler sut = null; // = new MemoryHandler();
+    }
+
+    /**
      * Test method for
      * {@link java.util.logging.MemoryHandler#MemoryHandler(java.util.logging.Handler,int,java.util.logging.Level)
      * public java.util.logging.MemoryHandler(java.util.logging.Handler,int,java.util.logging.Level)}.
@@ -49,19 +62,6 @@ extends org.j8unit.repository.java.util.logging.HandlerClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.util.logging.MemoryHandler sut = null; // = new
                                                           // MemoryHandler(java.util.logging.Handler,int,java.util.logging.Level);
-    }
-
-    /**
-     * Test method for {@link java.util.logging.MemoryHandler#MemoryHandler() public java.util.logging.MemoryHandler()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_MemoryHandler()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.logging.MemoryHandler sut = null; // = new MemoryHandler();
     }
 
     @Override

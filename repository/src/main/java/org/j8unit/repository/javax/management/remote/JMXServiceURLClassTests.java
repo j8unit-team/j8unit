@@ -36,20 +36,17 @@ public abstract interface JMXServiceURLClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.management.remote.JMXServiceURL#JMXServiceURL(java.lang.String,java.lang.String,int,java.lang.String)
-     * public javax.management.remote.JMXServiceURL(java.lang.String,java.lang.String,int,java.lang.String) throws
-     * java.net.MalformedURLException}.
+     * Test method for {@link javax.management.remote.JMXServiceURL#JMXServiceURL(java.lang.String) public
+     * javax.management.remote.JMXServiceURL(java.lang.String) throws java.net.MalformedURLException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JMXServiceURL_String_String_int_String()
+    public default void create_JMXServiceURL_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.management.remote.JMXServiceURL sut = null; // = new
-                                                                // JMXServiceURL(java.lang.String,java.lang.String,int,java.lang.String);
+        final javax.management.remote.JMXServiceURL sut = null; // = new JMXServiceURL(java.lang.String);
     }
 
     /**
@@ -69,17 +66,20 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     }
 
     /**
-     * Test method for {@link javax.management.remote.JMXServiceURL#JMXServiceURL(java.lang.String) public
-     * javax.management.remote.JMXServiceURL(java.lang.String) throws java.net.MalformedURLException}.
+     * Test method for
+     * {@link javax.management.remote.JMXServiceURL#JMXServiceURL(java.lang.String,java.lang.String,int,java.lang.String)
+     * public javax.management.remote.JMXServiceURL(java.lang.String,java.lang.String,int,java.lang.String) throws
+     * java.net.MalformedURLException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JMXServiceURL_String()
+    public default void create_JMXServiceURL_String_String_int_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.management.remote.JMXServiceURL sut = null; // = new JMXServiceURL(java.lang.String);
+        final javax.management.remote.JMXServiceURL sut = null; // = new
+                                                                // JMXServiceURL(java.lang.String,java.lang.String,int,java.lang.String);
     }
 
     @Override

@@ -35,17 +35,16 @@ public abstract interface JTextAreaClassTests<SUT extends Class<? extends javax.
 extends org.j8unit.repository.javax.swing.text.JTextComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JTextArea#JTextArea(javax.swing.text.Document,java.lang.String,int,int) public
-     * javax.swing.JTextArea(javax.swing.text.Document,java.lang.String,int,int)}.
+     * Test method for {@link javax.swing.JTextArea#JTextArea() public javax.swing.JTextArea()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JTextArea_Document_String_int_int()
+    public default void create_JTextArea()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JTextArea sut = null; // = new JTextArea(javax.swing.text.Document,java.lang.String,int,int);
+        final javax.swing.JTextArea sut = null; // = new JTextArea();
     }
 
     /**
@@ -63,30 +62,30 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.JTextArea#JTextArea(java.lang.String,int,int) public
-     * javax.swing.JTextArea(java.lang.String,int,int)}.
+     * Test method for {@link javax.swing.JTextArea#JTextArea(javax.swing.text.Document,java.lang.String,int,int) public
+     * javax.swing.JTextArea(javax.swing.text.Document,java.lang.String,int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JTextArea_String_int_int()
+    public default void create_JTextArea_Document_String_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JTextArea sut = null; // = new JTextArea(java.lang.String,int,int);
+        final javax.swing.JTextArea sut = null; // = new JTextArea(javax.swing.text.Document,java.lang.String,int,int);
     }
 
     /**
-     * Test method for {@link javax.swing.JTextArea#JTextArea() public javax.swing.JTextArea()}.
+     * Test method for {@link javax.swing.JTextArea#JTextArea(int,int) public javax.swing.JTextArea(int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JTextArea()
+    public default void create_JTextArea_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JTextArea sut = null; // = new JTextArea();
+        final javax.swing.JTextArea sut = null; // = new JTextArea(int,int);
     }
 
     /**
@@ -104,16 +103,17 @@ extends org.j8unit.repository.javax.swing.text.JTextComponentClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.swing.JTextArea#JTextArea(int,int) public javax.swing.JTextArea(int,int)}.
+     * Test method for {@link javax.swing.JTextArea#JTextArea(java.lang.String,int,int) public
+     * javax.swing.JTextArea(java.lang.String,int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JTextArea_int_int()
+    public default void create_JTextArea_String_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JTextArea sut = null; // = new JTextArea(int,int);
+        final javax.swing.JTextArea sut = null; // = new JTextArea(java.lang.String,int,int);
     }
 
     @Override

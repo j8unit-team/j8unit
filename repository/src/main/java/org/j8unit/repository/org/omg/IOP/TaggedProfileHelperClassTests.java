@@ -49,26 +49,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.IOP.TaggedProfileHelper sut = null; // = new TaggedProfileHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.IOP.TaggedProfileHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.IOP.TaggedProfileHelper.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link org.omg.IOP.TaggedProfileHelper#insert(org.omg.CORBA.Any,org.omg.IOP.TaggedProfile) public
-     * static void org.omg.IOP.TaggedProfileHelper.insert(org.omg.CORBA.Any,org.omg.IOP.TaggedProfile)}.
+     * Test method for {@link org.omg.IOP.TaggedProfileHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.IOP.TaggedProfile org.omg.IOP.TaggedProfileHelper.extract(org.omg.CORBA.Any)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_insert_Any_TaggedProfile()
+    public default void test_extract_Any()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -93,32 +83,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link org.omg.IOP.TaggedProfileHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.TaggedProfile)
-     * public static void
-     * org.omg.IOP.TaggedProfileHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.TaggedProfile)}.
+     * Test method for {@link org.omg.IOP.TaggedProfileHelper#insert(org.omg.CORBA.Any,org.omg.IOP.TaggedProfile) public
+     * static void org.omg.IOP.TaggedProfileHelper.insert(org.omg.CORBA.Any,org.omg.IOP.TaggedProfile)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_write_OutputStream_TaggedProfile()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.IOP.TaggedProfileHelper#type() public static synchronized org.omg.CORBA.TypeCode
-     * org.omg.IOP.TaggedProfileHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
+    public default void test_insert_Any_TaggedProfile()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,18 +115,46 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.IOP.TaggedProfileHelper#extract(org.omg.CORBA.Any) public static
-     * org.omg.IOP.TaggedProfile org.omg.IOP.TaggedProfileHelper.extract(org.omg.CORBA.Any)}.
+     * Test method for {@link org.omg.IOP.TaggedProfileHelper#type() public static synchronized org.omg.CORBA.TypeCode
+     * org.omg.IOP.TaggedProfileHelper.type()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_extract_Any()
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.IOP.TaggedProfileHelper#write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.TaggedProfile)
+     * public static void
+     * org.omg.IOP.TaggedProfileHelper.write(org.omg.CORBA.portable.OutputStream,org.omg.IOP.TaggedProfile)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_TaggedProfile()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.IOP.TaggedProfileHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.IOP.TaggedProfileHelper.class.isAssignableFrom(sut));
     }
 
 }

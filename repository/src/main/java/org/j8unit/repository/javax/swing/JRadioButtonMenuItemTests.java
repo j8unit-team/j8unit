@@ -23,23 +23,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JRadioButtonMenuItem#getUIClassID() public java.lang.String
-     * javax.swing.JRadioButtonMenuItem.getUIClassID()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getUIClassID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.JRadioButtonMenuItem#getAccessibleContext() public
      * javax.accessibility.AccessibleContext javax.swing.JRadioButtonMenuItem.getAccessibleContext()}.
      * </p>
@@ -49,6 +32,23 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     @Category(Draft.class)
     @Override
     public default void test_getAccessibleContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JRadioButtonMenuItem#getUIClassID() public java.lang.String
+     * javax.swing.JRadioButtonMenuItem.getUIClassID()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getUIClassID()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

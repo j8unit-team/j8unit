@@ -36,52 +36,6 @@ public abstract interface AudioFileFormatClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.sound.sampled.AudioFileFormat#AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type,javax.sound.sampled.AudioFormat,int,java.util.Map)
-     * public
-     * javax.sound.sampled.AudioFileFormat(javax.sound.sampled.AudioFileFormat$Type,javax.sound.sampled.AudioFormat,int,java.util.Map)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AudioFileFormat_Type_AudioFormat_int_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.sound.sampled.AudioFileFormat sut = null; // = new
-                                                              // AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type,javax.sound.sampled.AudioFormat,int,java.util.Map);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.sound.sampled.AudioFileFormat#AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type,javax.sound.sampled.AudioFormat,int)
-     * public
-     * javax.sound.sampled.AudioFileFormat(javax.sound.sampled.AudioFileFormat$Type,javax.sound.sampled.AudioFormat,int)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AudioFileFormat_Type_AudioFormat_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.sound.sampled.AudioFileFormat sut = null; // = new
-                                                              // AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type,javax.sound.sampled.AudioFormat,int);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.sound.sampled.AudioFileFormat> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.sound.sampled.AudioFileFormat.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.sound.sampled.AudioFileFormat$Type class javax.sound.sampled.AudioFileFormat$Type},
      * containing all class relevant test methods (at least the test methods of accessible constructors and of
@@ -134,6 +88,52 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(javax.sound.sampled.AudioFileFormat.Type.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for
+     * {@link javax.sound.sampled.AudioFileFormat#AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type,javax.sound.sampled.AudioFormat,int)
+     * public
+     * javax.sound.sampled.AudioFileFormat(javax.sound.sampled.AudioFileFormat$Type,javax.sound.sampled.AudioFormat,int)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AudioFileFormat_Type_AudioFormat_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.sound.sampled.AudioFileFormat sut = null; // = new
+                                                              // AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type,javax.sound.sampled.AudioFormat,int);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.sound.sampled.AudioFileFormat#AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type,javax.sound.sampled.AudioFormat,int,java.util.Map)
+     * public
+     * javax.sound.sampled.AudioFileFormat(javax.sound.sampled.AudioFileFormat$Type,javax.sound.sampled.AudioFormat,int,java.util.Map)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AudioFileFormat_Type_AudioFormat_int_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.sound.sampled.AudioFileFormat sut = null; // = new
+                                                              // AudioFileFormat(javax.sound.sampled.AudioFileFormat.Type,javax.sound.sampled.AudioFormat,int,java.util.Map);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.sound.sampled.AudioFileFormat> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.sound.sampled.AudioFileFormat.class.isAssignableFrom(sut));
     }
 
 }

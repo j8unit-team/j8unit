@@ -36,31 +36,16 @@ public abstract interface RuntimeExceptionClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.RuntimeException#RuntimeException(java.lang.Throwable) public
-     * java.lang.RuntimeException(java.lang.Throwable)}.
+     * Test method for {@link java.lang.RuntimeException#RuntimeException() public java.lang.RuntimeException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RuntimeException_Throwable()
+    public default void create_RuntimeException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.RuntimeException sut = null; // = new RuntimeException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link java.lang.RuntimeException#RuntimeException(java.lang.String,java.lang.Throwable) public
-     * java.lang.RuntimeException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_RuntimeException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.RuntimeException sut = null; // = new RuntimeException(java.lang.String,java.lang.Throwable);
+        final java.lang.RuntimeException sut = null; // = new RuntimeException();
     }
 
     /**
@@ -78,16 +63,31 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.lang.RuntimeException#RuntimeException() public java.lang.RuntimeException()}.
+     * Test method for {@link java.lang.RuntimeException#RuntimeException(java.lang.String,java.lang.Throwable) public
+     * java.lang.RuntimeException(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_RuntimeException()
+    public default void create_RuntimeException_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.RuntimeException sut = null; // = new RuntimeException();
+        final java.lang.RuntimeException sut = null; // = new RuntimeException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link java.lang.RuntimeException#RuntimeException(java.lang.Throwable) public
+     * java.lang.RuntimeException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_RuntimeException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.RuntimeException sut = null; // = new RuntimeException(java.lang.Throwable);
     }
 
     @Override

@@ -36,13 +36,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface MethodHandleInfoClassTests<SUT extends Class<? extends java.lang.invoke.MethodHandleInfo>>
 extends J8UnitTest<SUT> {
 
+    /**
+     * <p>
+     * Test method for {@link java.lang.invoke.MethodHandleInfo#referenceKindToString(int) public static
+     * java.lang.String java.lang.invoke.MethodHandleInfo.referenceKindToString(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_referenceKindToString_int()
     throws Exception {
-        // create new instance
-        final Class<? extends java.lang.invoke.MethodHandleInfo> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.invoke.MethodHandleInfo.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -63,20 +70,13 @@ extends J8UnitTest<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.lang.invoke.MethodHandleInfo#referenceKindToString(int) public static
-     * java.lang.String java.lang.invoke.MethodHandleInfo.referenceKindToString(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    @Category(Draft.class)
-    public default void test_referenceKindToString_int()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.lang.invoke.MethodHandleInfo> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.invoke.MethodHandleInfo.class.isAssignableFrom(sut));
     }
 
 }

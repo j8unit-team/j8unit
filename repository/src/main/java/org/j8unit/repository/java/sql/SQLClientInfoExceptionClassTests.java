@@ -36,86 +36,6 @@ public abstract interface SQLClientInfoExceptionClassTests<SUT extends Class<? e
 extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(java.lang.String,java.util.Map,java.lang.Throwable)
-     * public java.sql.SQLClientInfoException(java.lang.String,java.util.Map,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLClientInfoException_String_Map_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLClientInfoException sut = null; // = new
-                                                          // SQLClientInfoException(java.lang.String,java.util.Map,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(java.lang.String,java.lang.String,java.util.Map)
-     * public java.sql.SQLClientInfoException(java.lang.String,java.lang.String,java.util.Map)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLClientInfoException_String_String_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLClientInfoException sut = null; // = new
-                                                          // SQLClientInfoException(java.lang.String,java.lang.String,java.util.Map);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(java.lang.String,java.lang.String,java.util.Map,java.lang.Throwable)
-     * public java.sql.SQLClientInfoException(java.lang.String,java.lang.String,java.util.Map,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLClientInfoException_String_String_Map_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLClientInfoException sut = null; // = new
-                                                          // SQLClientInfoException(java.lang.String,java.lang.String,java.util.Map,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(java.lang.String,java.lang.String,int,java.util.Map)
-     * public java.sql.SQLClientInfoException(java.lang.String,java.lang.String,int,java.util.Map)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLClientInfoException_String_String_int_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLClientInfoException sut = null; // = new
-                                                          // SQLClientInfoException(java.lang.String,java.lang.String,int,java.util.Map);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(java.lang.String,java.lang.String,int,java.util.Map,java.lang.Throwable)
-     * public java.sql.SQLClientInfoException(java.lang.String,java.lang.String,int,java.util.Map,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLClientInfoException_String_String_int_Map_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLClientInfoException sut = null; // = new
-                                                          // SQLClientInfoException(java.lang.String,java.lang.String,int,java.util.Map,java.lang.Throwable);
-    }
-
-    /**
      * Test method for {@link java.sql.SQLClientInfoException#SQLClientInfoException() public
      * java.sql.SQLClientInfoException()}.
      */
@@ -171,6 +91,86 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.sql.SQLClientInfoException sut = null; // = new
                                                           // SQLClientInfoException(java.lang.String,java.util.Map);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(java.lang.String,java.util.Map,java.lang.Throwable)
+     * public java.sql.SQLClientInfoException(java.lang.String,java.util.Map,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLClientInfoException_String_Map_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLClientInfoException sut = null; // = new
+                                                          // SQLClientInfoException(java.lang.String,java.util.Map,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(java.lang.String,java.lang.String,int,java.util.Map)
+     * public java.sql.SQLClientInfoException(java.lang.String,java.lang.String,int,java.util.Map)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLClientInfoException_String_String_int_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLClientInfoException sut = null; // = new
+                                                          // SQLClientInfoException(java.lang.String,java.lang.String,int,java.util.Map);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(java.lang.String,java.lang.String,int,java.util.Map,java.lang.Throwable)
+     * public java.sql.SQLClientInfoException(java.lang.String,java.lang.String,int,java.util.Map,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLClientInfoException_String_String_int_Map_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLClientInfoException sut = null; // = new
+                                                          // SQLClientInfoException(java.lang.String,java.lang.String,int,java.util.Map,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(java.lang.String,java.lang.String,java.util.Map)
+     * public java.sql.SQLClientInfoException(java.lang.String,java.lang.String,java.util.Map)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLClientInfoException_String_String_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLClientInfoException sut = null; // = new
+                                                          // SQLClientInfoException(java.lang.String,java.lang.String,java.util.Map);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLClientInfoException#SQLClientInfoException(java.lang.String,java.lang.String,java.util.Map,java.lang.Throwable)
+     * public java.sql.SQLClientInfoException(java.lang.String,java.lang.String,java.util.Map,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLClientInfoException_String_String_Map_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLClientInfoException sut = null; // = new
+                                                          // SQLClientInfoException(java.lang.String,java.lang.String,java.util.Map,java.lang.Throwable);
     }
 
     @Override

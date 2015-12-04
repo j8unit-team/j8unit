@@ -37,20 +37,6 @@ extends org.j8unit.repository.java.security.spec.KeySpecClassTests<SUT>, org.j8u
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.crypto.spec.SecretKeySpec#SecretKeySpec(byte[],java.lang.String) public
-     * javax.crypto.spec.SecretKeySpec(byte[],java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SecretKeySpec_byteArray_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.crypto.spec.SecretKeySpec sut = null; // = new SecretKeySpec(byte[],java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.crypto.spec.SecretKeySpec#SecretKeySpec(byte[],int,int,java.lang.String) public
      * javax.crypto.spec.SecretKeySpec(byte[],int,int,java.lang.String)}.
      */
@@ -62,6 +48,20 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.crypto.spec.SecretKeySpec sut = null; // = new SecretKeySpec(byte[],int,int,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.crypto.spec.SecretKeySpec#SecretKeySpec(byte[],java.lang.String) public
+     * javax.crypto.spec.SecretKeySpec(byte[],java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SecretKeySpec_byteArray_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.crypto.spec.SecretKeySpec sut = null; // = new SecretKeySpec(byte[],java.lang.String);
     }
 
     @Override

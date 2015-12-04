@@ -39,22 +39,6 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.WebServiceRef#wsdlLocation() public abstract java.lang.String
-     * javax.xml.ws.WebServiceRef.wsdlLocation()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wsdlLocation()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.ws.WebServiceRef#mappedName() public abstract java.lang.String
      * javax.xml.ws.WebServiceRef.mappedName()}.
      * </p>
@@ -71,14 +55,14 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.WebServiceRef#value() public abstract java.lang.Class
-     * javax.xml.ws.WebServiceRef.value()}.
+     * Test method for {@link javax.xml.ws.WebServiceRef#name() public abstract java.lang.String
+     * javax.xml.ws.WebServiceRef.name()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_value()
+    public default void test_name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +87,30 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.WebServiceRef#name() public abstract java.lang.String
-     * javax.xml.ws.WebServiceRef.name()}.
+     * Test method for {@link javax.xml.ws.WebServiceRef#value() public abstract java.lang.Class
+     * javax.xml.ws.WebServiceRef.value()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_name()
+    public default void test_value()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.WebServiceRef#wsdlLocation() public abstract java.lang.String
+     * javax.xml.ws.WebServiceRef.wsdlLocation()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wsdlLocation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

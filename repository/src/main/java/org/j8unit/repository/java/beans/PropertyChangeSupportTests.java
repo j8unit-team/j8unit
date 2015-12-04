@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.beans.PropertyChangeSupport#hasListeners(java.lang.String) public boolean
-     * java.beans.PropertyChangeSupport.hasListeners(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hasListeners_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.beans.PropertyChangeSupport#addPropertyChangeListener(java.beans.PropertyChangeListener) public void
      * java.beans.PropertyChangeSupport.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
@@ -75,14 +59,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for
-     * {@link java.beans.PropertyChangeSupport#removePropertyChangeListener(java.beans.PropertyChangeListener) public
-     * void java.beans.PropertyChangeSupport.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * {@link java.beans.PropertyChangeSupport#fireIndexedPropertyChange(java.lang.String,int,boolean,boolean) public
+     * void java.beans.PropertyChangeSupport.fireIndexedPropertyChange(java.lang.String,int,boolean,boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removePropertyChangeListener_PropertyChangeListener()
+    public default void test_fireIndexedPropertyChange_String_int_boolean_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.PropertyChangeSupport#fireIndexedPropertyChange(java.lang.String,int,int,int)
+     * public void java.beans.PropertyChangeSupport.fireIndexedPropertyChange(java.lang.String,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_fireIndexedPropertyChange_String_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,16 +92,16 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for
-     * {@link java.beans.PropertyChangeSupport#removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)
+     * {@link java.beans.PropertyChangeSupport#fireIndexedPropertyChange(java.lang.String,int,java.lang.Object,java.lang.Object)
      * public void
-     * java.beans.PropertyChangeSupport.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}
+     * java.beans.PropertyChangeSupport.fireIndexedPropertyChange(java.lang.String,int,java.lang.Object,java.lang.Object)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removePropertyChangeListener_String_PropertyChangeListener()
+    public default void test_fireIndexedPropertyChange_String_int_Object_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -142,6 +142,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link java.beans.PropertyChangeSupport#firePropertyChange(java.lang.String,int,int) public void
+     * java.beans.PropertyChangeSupport.firePropertyChange(java.lang.String,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_firePropertyChange_String_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link java.beans.PropertyChangeSupport#firePropertyChange(java.lang.String,java.lang.Object,java.lang.Object)
      * public void
@@ -152,22 +168,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_firePropertyChange_String_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.PropertyChangeSupport#firePropertyChange(java.lang.String,int,int) public void
-     * java.beans.PropertyChangeSupport.firePropertyChange(java.lang.String,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_firePropertyChange_String_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -209,15 +209,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
-     * {@link java.beans.PropertyChangeSupport#fireIndexedPropertyChange(java.lang.String,int,boolean,boolean) public
-     * void java.beans.PropertyChangeSupport.fireIndexedPropertyChange(java.lang.String,int,boolean,boolean)}.
+     * Test method for {@link java.beans.PropertyChangeSupport#hasListeners(java.lang.String) public boolean
+     * java.beans.PropertyChangeSupport.hasListeners(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_fireIndexedPropertyChange_String_int_boolean_boolean()
+    public default void test_hasListeners_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -227,32 +226,33 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     /**
      * <p>
      * Test method for
-     * {@link java.beans.PropertyChangeSupport#fireIndexedPropertyChange(java.lang.String,int,java.lang.Object,java.lang.Object)
+     * {@link java.beans.PropertyChangeSupport#removePropertyChangeListener(java.beans.PropertyChangeListener) public
+     * void java.beans.PropertyChangeSupport.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removePropertyChangeListener_PropertyChangeListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.beans.PropertyChangeSupport#removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)
      * public void
-     * java.beans.PropertyChangeSupport.fireIndexedPropertyChange(java.lang.String,int,java.lang.Object,java.lang.Object)}
+     * java.beans.PropertyChangeSupport.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_fireIndexedPropertyChange_String_int_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.PropertyChangeSupport#fireIndexedPropertyChange(java.lang.String,int,int,int)
-     * public void java.beans.PropertyChangeSupport.fireIndexedPropertyChange(java.lang.String,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_fireIndexedPropertyChange_String_int_int_int()
+    public default void test_removePropertyChangeListener_String_PropertyChangeListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

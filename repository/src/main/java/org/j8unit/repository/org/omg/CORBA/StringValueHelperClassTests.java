@@ -49,32 +49,6 @@ extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperClassTests<
         final org.omg.CORBA.StringValueHelper sut = null; // = new StringValueHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.CORBA.StringValueHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.CORBA.StringValueHelper.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.StringValueHelper#read(org.omg.CORBA.portable.InputStream) public static
-     * java.lang.String org.omg.CORBA.StringValueHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link org.omg.CORBA.StringValueHelper#extract(org.omg.CORBA.Any) public static java.lang.String
@@ -85,39 +59,6 @@ extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperClassTests<
     @Test
     @Category(Draft.class)
     public default void test_extract_Any()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.CORBA.StringValueHelper#write(org.omg.CORBA.portable.OutputStream,java.lang.String) public static
-     * void org.omg.CORBA.StringValueHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_write_OutputStream_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.StringValueHelper#type() public static synchronized org.omg.CORBA.TypeCode
-     * org.omg.CORBA.StringValueHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -154,6 +95,65 @@ extends org.j8unit.repository.org.omg.CORBA.portable.BoxedValueHelperClassTests<
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.StringValueHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * java.lang.String org.omg.CORBA.StringValueHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_read_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.StringValueHelper#type() public static synchronized org.omg.CORBA.TypeCode
+     * org.omg.CORBA.StringValueHelper.type()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_type()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.CORBA.StringValueHelper#write(org.omg.CORBA.portable.OutputStream,java.lang.String) public static
+     * void org.omg.CORBA.StringValueHelper.write(org.omg.CORBA.portable.OutputStream,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_write_OutputStream_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends org.omg.CORBA.StringValueHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.CORBA.StringValueHelper.class.isAssignableFrom(sut));
     }
 
 }

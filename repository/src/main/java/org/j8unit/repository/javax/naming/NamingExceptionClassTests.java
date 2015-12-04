@@ -36,6 +36,19 @@ public abstract interface NamingExceptionClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.naming.NamingException#NamingException() public javax.naming.NamingException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_NamingException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.NamingException sut = null; // = new NamingException();
+    }
+
+    /**
      * Test method for {@link javax.naming.NamingException#NamingException(java.lang.String) public
      * javax.naming.NamingException(java.lang.String)}.
      */
@@ -47,19 +60,6 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.NamingException sut = null; // = new NamingException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.naming.NamingException#NamingException() public javax.naming.NamingException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_NamingException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.NamingException sut = null; // = new NamingException();
     }
 
     @Override

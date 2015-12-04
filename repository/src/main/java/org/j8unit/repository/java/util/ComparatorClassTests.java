@@ -36,25 +36,16 @@ import org.junit.experimental.categories.Category;
 public abstract interface ComparatorClassTests<SUT extends Class<? extends java.util.Comparator<T>>, T>
 extends J8UnitTest<SUT> {
 
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.Comparator<T>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.Comparator.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.util.Comparator#comparingInt(java.util.function.ToIntFunction) public static
-     * java.util.Comparator java.util.Comparator.comparingInt(java.util.function.ToIntFunction)}.
+     * Test method for {@link java.util.Comparator#comparing(java.util.function.Function) public static
+     * java.util.Comparator java.util.Comparator.comparing(java.util.function.Function)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_comparingInt_ToIntFunction()
+    public default void test_comparing_Function()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -79,14 +70,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Comparator#comparing(java.util.function.Function) public static
-     * java.util.Comparator java.util.Comparator.comparing(java.util.function.Function)}.
+     * Test method for {@link java.util.Comparator#comparingDouble(java.util.function.ToDoubleFunction) public static
+     * java.util.Comparator java.util.Comparator.comparingDouble(java.util.function.ToDoubleFunction)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_comparing_Function()
+    public default void test_comparingDouble_ToDoubleFunction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -95,14 +86,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.Comparator#nullsFirst(java.util.Comparator) public static java.util.Comparator
-     * java.util.Comparator.nullsFirst(java.util.Comparator)}.
+     * Test method for {@link java.util.Comparator#comparingInt(java.util.function.ToIntFunction) public static
+     * java.util.Comparator java.util.Comparator.comparingInt(java.util.function.ToIntFunction)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nullsFirst_Comparator()
+    public default void test_comparingInt_ToIntFunction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,6 +110,38 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_comparingLong_ToLongFunction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Comparator#naturalOrder() public static java.util.Comparator
+     * java.util.Comparator.naturalOrder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_naturalOrder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Comparator#nullsFirst(java.util.Comparator) public static java.util.Comparator
+     * java.util.Comparator.nullsFirst(java.util.Comparator)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_nullsFirst_Comparator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -157,36 +180,13 @@ extends J8UnitTest<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.util.Comparator#comparingDouble(java.util.function.ToDoubleFunction) public static
-     * java.util.Comparator java.util.Comparator.comparingDouble(java.util.function.ToDoubleFunction)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    @Category(Draft.class)
-    public default void test_comparingDouble_ToDoubleFunction()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Comparator#naturalOrder() public static java.util.Comparator
-     * java.util.Comparator.naturalOrder()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_naturalOrder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.util.Comparator<T>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.Comparator.class.isAssignableFrom(sut));
     }
 
 }

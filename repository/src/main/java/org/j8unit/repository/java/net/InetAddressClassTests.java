@@ -34,16 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface InetAddressClassTests<SUT extends Class<? extends java.net.InetAddress>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.net.InetAddress> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.net.InetAddress.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.net.InetAddress#getAllByName(java.lang.String) public static java.net.InetAddress[]
@@ -62,14 +52,14 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link java.net.InetAddress#getByName(java.lang.String) public static java.net.InetAddress
-     * java.net.InetAddress.getByName(java.lang.String) throws java.net.UnknownHostException}.
+     * Test method for {@link java.net.InetAddress#getByAddress(byte[]) public static java.net.InetAddress
+     * java.net.InetAddress.getByAddress(byte[]) throws java.net.UnknownHostException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getByName_String()
+    public default void test_getByAddress_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -95,14 +85,30 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * <p>
-     * Test method for {@link java.net.InetAddress#getByAddress(byte[]) public static java.net.InetAddress
-     * java.net.InetAddress.getByAddress(byte[]) throws java.net.UnknownHostException}.
+     * Test method for {@link java.net.InetAddress#getByName(java.lang.String) public static java.net.InetAddress
+     * java.net.InetAddress.getByName(java.lang.String) throws java.net.UnknownHostException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getByAddress_byteArray()
+    public default void test_getByName_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.InetAddress#getLocalHost() public static java.net.InetAddress
+     * java.net.InetAddress.getLocalHost() throws java.net.UnknownHostException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocalHost()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -125,20 +131,14 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.net.InetAddress#getLocalHost() public static java.net.InetAddress
-     * java.net.InetAddress.getLocalHost() throws java.net.UnknownHostException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getLocalHost()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.net.InetAddress> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.InetAddress.class.isAssignableFrom(sut));
     }
 
 }

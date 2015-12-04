@@ -36,19 +36,17 @@ public abstract interface ClassNotFoundExceptionClassTests<SUT extends Class<? e
 extends org.j8unit.repository.java.lang.ReflectiveOperationExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.lang.ClassNotFoundException#ClassNotFoundException(java.lang.String,java.lang.Throwable) public
-     * java.lang.ClassNotFoundException(java.lang.String,java.lang.Throwable)}.
+     * Test method for {@link java.lang.ClassNotFoundException#ClassNotFoundException() public
+     * java.lang.ClassNotFoundException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ClassNotFoundException_String_Throwable()
+    public default void create_ClassNotFoundException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.ClassNotFoundException sut = null; // = new
-                                                           // ClassNotFoundException(java.lang.String,java.lang.Throwable);
+        final java.lang.ClassNotFoundException sut = null; // = new ClassNotFoundException();
     }
 
     /**
@@ -66,17 +64,19 @@ extends org.j8unit.repository.java.lang.ReflectiveOperationExceptionClassTests<S
     }
 
     /**
-     * Test method for {@link java.lang.ClassNotFoundException#ClassNotFoundException() public
-     * java.lang.ClassNotFoundException()}.
+     * Test method for
+     * {@link java.lang.ClassNotFoundException#ClassNotFoundException(java.lang.String,java.lang.Throwable) public
+     * java.lang.ClassNotFoundException(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ClassNotFoundException()
+    public default void create_ClassNotFoundException_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.ClassNotFoundException sut = null; // = new ClassNotFoundException();
+        final java.lang.ClassNotFoundException sut = null; // = new
+                                                           // ClassNotFoundException(java.lang.String,java.lang.Throwable);
     }
 
     @Override

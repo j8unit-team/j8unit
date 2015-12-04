@@ -36,18 +36,16 @@ public abstract interface INITIALIZEClassTests<SUT extends Class<? extends org.o
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link org.omg.CORBA.INITIALIZE#INITIALIZE(java.lang.String,int,org.omg.CORBA.CompletionStatus)
-     * public org.omg.CORBA.INITIALIZE(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for {@link org.omg.CORBA.INITIALIZE#INITIALIZE() public org.omg.CORBA.INITIALIZE()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_INITIALIZE_String_int_CompletionStatus()
+    public default void create_INITIALIZE()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.INITIALIZE sut = null; // = new
-                                                   // INITIALIZE(java.lang.String,int,org.omg.CORBA.CompletionStatus);
+        final org.omg.CORBA.INITIALIZE sut = null; // = new INITIALIZE();
     }
 
     /**
@@ -79,16 +77,18 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link org.omg.CORBA.INITIALIZE#INITIALIZE() public org.omg.CORBA.INITIALIZE()}.
+     * Test method for {@link org.omg.CORBA.INITIALIZE#INITIALIZE(java.lang.String,int,org.omg.CORBA.CompletionStatus)
+     * public org.omg.CORBA.INITIALIZE(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_INITIALIZE()
+    public default void create_INITIALIZE_String_int_CompletionStatus()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.INITIALIZE sut = null; // = new INITIALIZE();
+        final org.omg.CORBA.INITIALIZE sut = null; // = new
+                                                   // INITIALIZE(java.lang.String,int,org.omg.CORBA.CompletionStatus);
     }
 
     @Override

@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.Externalizable#writeExternal(java.io.ObjectOutput) public abstract void
-     * java.io.Externalizable.writeExternal(java.io.ObjectOutput) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeExternal_ObjectOutput()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.io.Externalizable#readExternal(java.io.ObjectInput) public abstract void
      * java.io.Externalizable.readExternal(java.io.ObjectInput) throws
      * java.io.IOException,java.lang.ClassNotFoundException}.
@@ -48,6 +32,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_readExternal_ObjectInput()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.Externalizable#writeExternal(java.io.ObjectOutput) public abstract void
+     * java.io.Externalizable.writeExternal(java.io.ObjectOutput) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeExternal_ObjectOutput()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

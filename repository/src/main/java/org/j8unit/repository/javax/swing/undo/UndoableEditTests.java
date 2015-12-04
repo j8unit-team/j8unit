@@ -24,14 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.undo.UndoableEdit#getPresentationName() public abstract java.lang.String
-     * javax.swing.undo.UndoableEdit.getPresentationName()}.
+     * Test method for {@link javax.swing.undo.UndoableEdit#addEdit(javax.swing.undo.UndoableEdit) public abstract
+     * boolean javax.swing.undo.UndoableEdit.addEdit(javax.swing.undo.UndoableEdit)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPresentationName()
+    public default void test_addEdit_UndoableEdit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,14 +40,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.undo.UndoableEdit#isSignificant() public abstract boolean
-     * javax.swing.undo.UndoableEdit.isSignificant()}.
+     * Test method for {@link javax.swing.undo.UndoableEdit#canRedo() public abstract boolean
+     * javax.swing.undo.UndoableEdit.canRedo()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isSignificant()
+    public default void test_canRedo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,30 +88,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.undo.UndoableEdit#undo() public abstract void
-     * javax.swing.undo.UndoableEdit.undo() throws javax.swing.undo.CannotUndoException}.
+     * Test method for {@link javax.swing.undo.UndoableEdit#getPresentationName() public abstract java.lang.String
+     * javax.swing.undo.UndoableEdit.getPresentationName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_undo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.undo.UndoableEdit#replaceEdit(javax.swing.undo.UndoableEdit) public abstract
-     * boolean javax.swing.undo.UndoableEdit.replaceEdit(javax.swing.undo.UndoableEdit)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_replaceEdit_UndoableEdit()
+    public default void test_getPresentationName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -136,38 +120,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.undo.UndoableEdit#canRedo() public abstract boolean
-     * javax.swing.undo.UndoableEdit.canRedo()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canRedo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.undo.UndoableEdit#addEdit(javax.swing.undo.UndoableEdit) public abstract
-     * boolean javax.swing.undo.UndoableEdit.addEdit(javax.swing.undo.UndoableEdit)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addEdit_UndoableEdit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.undo.UndoableEdit#getUndoPresentationName() public abstract java.lang.String
      * javax.swing.undo.UndoableEdit.getUndoPresentationName()}.
      * </p>
@@ -184,6 +136,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.undo.UndoableEdit#isSignificant() public abstract boolean
+     * javax.swing.undo.UndoableEdit.isSignificant()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSignificant()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.undo.UndoableEdit#redo() public abstract void
      * javax.swing.undo.UndoableEdit.redo() throws javax.swing.undo.CannotRedoException}.
      * </p>
@@ -192,6 +160,38 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_redo()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.undo.UndoableEdit#replaceEdit(javax.swing.undo.UndoableEdit) public abstract
+     * boolean javax.swing.undo.UndoableEdit.replaceEdit(javax.swing.undo.UndoableEdit)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_replaceEdit_UndoableEdit()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.undo.UndoableEdit#undo() public abstract void
+     * javax.swing.undo.UndoableEdit.undo() throws javax.swing.undo.CannotUndoException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_undo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

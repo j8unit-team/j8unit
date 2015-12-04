@@ -25,70 +25,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.sound.sampled.spi.FormatConversionProvider#getTargetEncodings(javax.sound.sampled.AudioFormat)
-     * public abstract javax.sound.sampled.AudioFormat$Encoding[]
-     * javax.sound.sampled.spi.FormatConversionProvider.getTargetEncodings(javax.sound.sampled.AudioFormat)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTargetEncodings_AudioFormat()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.spi.FormatConversionProvider#getTargetEncodings() public abstract
-     * javax.sound.sampled.AudioFormat$Encoding[] javax.sound.sampled.spi.FormatConversionProvider.getTargetEncodings()}
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#getAudioInputStream(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioInputStream)
+     * public abstract javax.sound.sampled.AudioInputStream
+     * javax.sound.sampled.spi.FormatConversionProvider.getAudioInputStream(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioInputStream)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTargetEncodings()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.sound.sampled.spi.FormatConversionProvider#isTargetEncodingSupported(javax.sound.sampled.AudioFormat.Encoding)
-     * public boolean
-     * javax.sound.sampled.spi.FormatConversionProvider.isTargetEncodingSupported(javax.sound.sampled.AudioFormat$Encoding)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isTargetEncodingSupported_Encoding()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.sound.sampled.spi.FormatConversionProvider#isSourceEncodingSupported(javax.sound.sampled.AudioFormat.Encoding)
-     * public boolean
-     * javax.sound.sampled.spi.FormatConversionProvider.isSourceEncodingSupported(javax.sound.sampled.AudioFormat$Encoding)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSourceEncodingSupported_Encoding()
+    public default void test_getAudioInputStream_AudioFormat_AudioInputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -116,25 +62,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.sound.sampled.spi.FormatConversionProvider#getAudioInputStream(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioInputStream)
-     * public abstract javax.sound.sampled.AudioInputStream
-     * javax.sound.sampled.spi.FormatConversionProvider.getAudioInputStream(javax.sound.sampled.AudioFormat,javax.sound.sampled.AudioInputStream)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAudioInputStream_AudioFormat_AudioInputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.sound.sampled.spi.FormatConversionProvider#getSourceEncodings() public abstract
      * javax.sound.sampled.AudioFormat$Encoding[] javax.sound.sampled.spi.FormatConversionProvider.getSourceEncodings()}
      * .
@@ -144,6 +71,41 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getSourceEncodings()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.spi.FormatConversionProvider#getTargetEncodings() public abstract
+     * javax.sound.sampled.AudioFormat$Encoding[] javax.sound.sampled.spi.FormatConversionProvider.getTargetEncodings()}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTargetEncodings()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#getTargetEncodings(javax.sound.sampled.AudioFormat)
+     * public abstract javax.sound.sampled.AudioFormat$Encoding[]
+     * javax.sound.sampled.spi.FormatConversionProvider.getTargetEncodings(javax.sound.sampled.AudioFormat)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTargetEncodings_AudioFormat()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -201,6 +163,44 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isConversionSupported_Encoding_AudioFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#isSourceEncodingSupported(javax.sound.sampled.AudioFormat.Encoding)
+     * public boolean
+     * javax.sound.sampled.spi.FormatConversionProvider.isSourceEncodingSupported(javax.sound.sampled.AudioFormat$Encoding)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSourceEncodingSupported_Encoding()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.sound.sampled.spi.FormatConversionProvider#isTargetEncodingSupported(javax.sound.sampled.AudioFormat.Encoding)
+     * public boolean
+     * javax.sound.sampled.spi.FormatConversionProvider.isTargetEncodingSupported(javax.sound.sampled.AudioFormat$Encoding)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isTargetEncodingSupported_Encoding()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

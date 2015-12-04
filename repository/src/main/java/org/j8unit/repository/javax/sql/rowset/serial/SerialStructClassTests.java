@@ -37,21 +37,6 @@ extends org.j8unit.repository.java.sql.StructClassTests<SUT>, org.j8unit.reposit
 org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.sql.rowset.serial.SerialStruct#SerialStruct(java.sql.Struct,java.util.Map) public
-     * javax.sql.rowset.serial.SerialStruct(java.sql.Struct,java.util.Map) throws
-     * javax.sql.rowset.serial.SerialException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SerialStruct_Struct_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.sql.rowset.serial.SerialStruct sut = null; // = new SerialStruct(java.sql.Struct,java.util.Map);
-    }
-
-    /**
      * Test method for {@link javax.sql.rowset.serial.SerialStruct#SerialStruct(java.sql.SQLData,java.util.Map) public
      * javax.sql.rowset.serial.SerialStruct(java.sql.SQLData,java.util.Map) throws
      * javax.sql.rowset.serial.SerialException}.
@@ -64,6 +49,21 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
         // create new instance
         @SuppressWarnings("unused")
         final javax.sql.rowset.serial.SerialStruct sut = null; // = new SerialStruct(java.sql.SQLData,java.util.Map);
+    }
+
+    /**
+     * Test method for {@link javax.sql.rowset.serial.SerialStruct#SerialStruct(java.sql.Struct,java.util.Map) public
+     * javax.sql.rowset.serial.SerialStruct(java.sql.Struct,java.util.Map) throws
+     * javax.sql.rowset.serial.SerialException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SerialStruct_Struct_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.sql.rowset.serial.SerialStruct sut = null; // = new SerialStruct(java.sql.Struct,java.util.Map);
     }
 
     @Override

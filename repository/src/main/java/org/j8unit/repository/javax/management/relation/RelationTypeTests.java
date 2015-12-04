@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.management.relation.RelationType#getRelationTypeName() public abstract
+     * java.lang.String javax.management.relation.RelationType.getRelationTypeName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRelationTypeName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.relation.RelationType#getRoleInfo(java.lang.String) public abstract
      * javax.management.relation.RoleInfo javax.management.relation.RelationType.getRoleInfo(java.lang.String) throws
      * java.lang.IllegalArgumentException,javax.management.relation.RoleInfoNotFoundException}.
@@ -32,22 +48,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getRoleInfo_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.RelationType#getRelationTypeName() public abstract
-     * java.lang.String javax.management.relation.RelationType.getRelationTypeName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRelationTypeName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,6 +36,20 @@ public abstract interface BasicArrowButtonClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8unit.repository.javax.swing.JButtonClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.swing.plaf.basic.BasicArrowButton#BasicArrowButton(int) public
+     * javax.swing.plaf.basic.BasicArrowButton(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BasicArrowButton_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.plaf.basic.BasicArrowButton sut = null; // = new BasicArrowButton(int);
+    }
+
+    /**
      * Test method for
      * {@link javax.swing.plaf.basic.BasicArrowButton#BasicArrowButton(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)
      * public javax.swing.plaf.basic.BasicArrowButton(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color)}.
@@ -49,20 +63,6 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
         @SuppressWarnings("unused")
         final javax.swing.plaf.basic.BasicArrowButton sut = null; // = new
                                                                   // BasicArrowButton(int,java.awt.Color,java.awt.Color,java.awt.Color,java.awt.Color);
-    }
-
-    /**
-     * Test method for {@link javax.swing.plaf.basic.BasicArrowButton#BasicArrowButton(int) public
-     * javax.swing.plaf.basic.BasicArrowButton(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BasicArrowButton_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.plaf.basic.BasicArrowButton sut = null; // = new BasicArrowButton(int);
     }
 
     @Override

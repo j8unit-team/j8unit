@@ -40,14 +40,14 @@ extends org.j8unit.repository.java.net.CookieHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.CookieManager#setCookiePolicy(java.net.CookiePolicy) public void
-     * java.net.CookieManager.setCookiePolicy(java.net.CookiePolicy)}.
+     * Test method for {@link java.net.CookieManager#getCookieStore() public java.net.CookieStore
+     * java.net.CookieManager.getCookieStore()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCookiePolicy_CookiePolicy()
+    public default void test_getCookieStore()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,14 +73,14 @@ extends org.j8unit.repository.java.net.CookieHandlerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.CookieManager#getCookieStore() public java.net.CookieStore
-     * java.net.CookieManager.getCookieStore()}.
+     * Test method for {@link java.net.CookieManager#setCookiePolicy(java.net.CookiePolicy) public void
+     * java.net.CookieManager.setCookiePolicy(java.net.CookiePolicy)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCookieStore()
+    public default void test_setCookiePolicy_CookiePolicy()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

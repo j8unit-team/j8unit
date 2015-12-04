@@ -24,46 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.MultipleMaster#getDesignAxisRanges() public abstract float[]
-     * java.awt.font.MultipleMaster.getDesignAxisRanges()}.
+     * Test method for {@link java.awt.font.MultipleMaster#deriveMMFont(float[]) public abstract java.awt.Font
+     * java.awt.font.MultipleMaster.deriveMMFont(float[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDesignAxisRanges()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.MultipleMaster#getNumDesignAxes() public abstract int
-     * java.awt.font.MultipleMaster.getNumDesignAxes()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNumDesignAxes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.font.MultipleMaster#getDesignAxisNames() public abstract java.lang.String[]
-     * java.awt.font.MultipleMaster.getDesignAxisNames()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDesignAxisNames()
+    public default void test_deriveMMFont_floatArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,22 +56,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.MultipleMaster#deriveMMFont(float[]) public abstract java.awt.Font
-     * java.awt.font.MultipleMaster.deriveMMFont(float[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_deriveMMFont_floatArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.awt.font.MultipleMaster#getDesignAxisDefaults() public abstract float[]
      * java.awt.font.MultipleMaster.getDesignAxisDefaults()}.
      * </p>
@@ -112,6 +64,54 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDesignAxisDefaults()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.MultipleMaster#getDesignAxisNames() public abstract java.lang.String[]
+     * java.awt.font.MultipleMaster.getDesignAxisNames()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDesignAxisNames()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.MultipleMaster#getDesignAxisRanges() public abstract float[]
+     * java.awt.font.MultipleMaster.getDesignAxisRanges()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDesignAxisRanges()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.font.MultipleMaster#getNumDesignAxes() public abstract int
+     * java.awt.font.MultipleMaster.getNumDesignAxes()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNumDesignAxes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

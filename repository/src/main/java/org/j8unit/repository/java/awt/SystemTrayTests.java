@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.SystemTray#add(java.awt.TrayIcon) public void
+     * java.awt.SystemTray.add(java.awt.TrayIcon) throws java.awt.AWTException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_TrayIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link java.awt.SystemTray#addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener) public
      * synchronized void
@@ -41,64 +57,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.SystemTray#removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)
-     * public synchronized void
-     * java.awt.SystemTray.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
+     * Test method for {@link java.awt.SystemTray#getPropertyChangeListeners(java.lang.String) public synchronized
+     * java.beans.PropertyChangeListener[] java.awt.SystemTray.getPropertyChangeListeners(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removePropertyChangeListener_String_PropertyChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.SystemTray#remove(java.awt.TrayIcon) public void
-     * java.awt.SystemTray.remove(java.awt.TrayIcon)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_TrayIcon()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.SystemTray#getTrayIconSize() public java.awt.Dimension
-     * java.awt.SystemTray.getTrayIconSize()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTrayIconSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.SystemTray#add(java.awt.TrayIcon) public void
-     * java.awt.SystemTray.add(java.awt.TrayIcon) throws java.awt.AWTException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_add_TrayIcon()
+    public default void test_getPropertyChangeListeners_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -123,14 +89,48 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.SystemTray#getPropertyChangeListeners(java.lang.String) public synchronized
-     * java.beans.PropertyChangeListener[] java.awt.SystemTray.getPropertyChangeListeners(java.lang.String)}.
+     * Test method for {@link java.awt.SystemTray#getTrayIconSize() public java.awt.Dimension
+     * java.awt.SystemTray.getTrayIconSize()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPropertyChangeListeners_String()
+    public default void test_getTrayIconSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.SystemTray#remove(java.awt.TrayIcon) public void
+     * java.awt.SystemTray.remove(java.awt.TrayIcon)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_TrayIcon()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.SystemTray#removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)
+     * public synchronized void
+     * java.awt.SystemTray.removePropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removePropertyChangeListener_String_PropertyChangeListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

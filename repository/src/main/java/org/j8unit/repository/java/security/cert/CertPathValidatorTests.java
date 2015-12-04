@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertPathValidator#getProvider() public final java.security.Provider
-     * java.security.cert.CertPathValidator.getProvider()}.
+     * Test method for {@link java.security.cert.CertPathValidator#getAlgorithm() public final java.lang.String
+     * java.security.cert.CertPathValidator.getAlgorithm()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getProvider()
+    public default void test_getAlgorithm()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,17 +39,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.security.cert.CertPathValidator#validate(java.security.cert.CertPath,java.security.cert.CertPathParameters)
-     * public final java.security.cert.CertPathValidatorResult
-     * java.security.cert.CertPathValidator.validate(java.security.cert.CertPath,java.security.cert.CertPathParameters)
-     * throws java.security.cert.CertPathValidatorException,java.security.InvalidAlgorithmParameterException}.
+     * Test method for {@link java.security.cert.CertPathValidator#getProvider() public final java.security.Provider
+     * java.security.cert.CertPathValidator.getProvider()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_validate_CertPath_CertPathParameters()
+    public default void test_getProvider()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,14 +71,17 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertPathValidator#getAlgorithm() public final java.lang.String
-     * java.security.cert.CertPathValidator.getAlgorithm()}.
+     * Test method for
+     * {@link java.security.cert.CertPathValidator#validate(java.security.cert.CertPath,java.security.cert.CertPathParameters)
+     * public final java.security.cert.CertPathValidatorResult
+     * java.security.cert.CertPathValidator.validate(java.security.cert.CertPath,java.security.cert.CertPathParameters)
+     * throws java.security.cert.CertPathValidatorException,java.security.InvalidAlgorithmParameterException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAlgorithm()
+    public default void test_validate_CertPath_CertPathParameters()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

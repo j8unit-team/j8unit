@@ -23,39 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.sampled.Control#toString() public java.lang.String
-     * javax.sound.sampled.Control.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.sampled.Control#getType() public javax.sound.sampled.Control$Type
-     * javax.sound.sampled.Control.getType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test class for {@link javax.sound.sampled.Control$Type class javax.sound.sampled.Control$Type}, containing all
      * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
      * </p>
@@ -71,15 +38,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.sound.sampled.Control.Type#toString() public final java.lang.String
-         * javax.sound.sampled.Control$Type.toString()}.
+         * Test method for {@link javax.sound.sampled.Control.Type#equals(java.lang.Object) public final boolean
+         * javax.sound.sampled.Control$Type.equals(java.lang.Object)}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
         @Override
-        public default void test_toString()
+        public default void test_equals_Object()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -105,21 +72,54 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.sound.sampled.Control.Type#equals(java.lang.Object) public final boolean
-         * javax.sound.sampled.Control$Type.equals(java.lang.Object)}.
+         * Test method for {@link javax.sound.sampled.Control.Type#toString() public final java.lang.String
+         * javax.sound.sampled.Control$Type.toString()}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
         @Override
-        public default void test_equals_Object()
+        public default void test_toString()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
             assert sut != null;
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.Control#getType() public javax.sound.sampled.Control$Type
+     * javax.sound.sampled.Control.getType()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.sound.sampled.Control#toString() public java.lang.String
+     * javax.sound.sampled.Control.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

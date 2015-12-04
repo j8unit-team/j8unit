@@ -36,21 +36,6 @@ public abstract interface ObjectInstanceClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.management.ObjectInstance#ObjectInstance(java.lang.String,java.lang.String) public
-     * javax.management.ObjectInstance(java.lang.String,java.lang.String) throws
-     * javax.management.MalformedObjectNameException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ObjectInstance_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.management.ObjectInstance sut = null; // = new ObjectInstance(java.lang.String,java.lang.String);
-    }
-
-    /**
      * Test method for
      * {@link javax.management.ObjectInstance#ObjectInstance(javax.management.ObjectName,java.lang.String) public
      * javax.management.ObjectInstance(javax.management.ObjectName,java.lang.String)}.
@@ -64,6 +49,21 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         @SuppressWarnings("unused")
         final javax.management.ObjectInstance sut = null; // = new
                                                           // ObjectInstance(javax.management.ObjectName,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.management.ObjectInstance#ObjectInstance(java.lang.String,java.lang.String) public
+     * javax.management.ObjectInstance(java.lang.String,java.lang.String) throws
+     * javax.management.MalformedObjectNameException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ObjectInstance_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.management.ObjectInstance sut = null; // = new ObjectInstance(java.lang.String,java.lang.String);
     }
 
     @Override

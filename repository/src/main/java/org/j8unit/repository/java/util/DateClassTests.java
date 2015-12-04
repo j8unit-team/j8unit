@@ -36,16 +36,42 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Date>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.Date#Date(java.lang.String) public java.util.Date(java.lang.String)}.
+     * Test method for {@link java.util.Date#Date() public java.util.Date()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Date_String()
+    public default void create_Date()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Date sut = null; // = new Date(java.lang.String);
+        final java.util.Date sut = null; // = new Date();
+    }
+
+    /**
+     * Test method for {@link java.util.Date#Date(int,int,int) public java.util.Date(int,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Date_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.Date sut = null; // = new Date(int,int,int);
+    }
+
+    /**
+     * Test method for {@link java.util.Date#Date(int,int,int,int,int) public java.util.Date(int,int,int,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Date_int_int_int_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.Date sut = null; // = new Date(int,int,int,int,int);
     }
 
     /**
@@ -63,32 +89,6 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Date>, org.j
     }
 
     /**
-     * Test method for {@link java.util.Date#Date(int,int,int,int,int) public java.util.Date(int,int,int,int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Date_int_int_int_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.Date sut = null; // = new Date(int,int,int,int,int);
-    }
-
-    /**
-     * Test method for {@link java.util.Date#Date() public java.util.Date()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Date()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.Date sut = null; // = new Date();
-    }
-
-    /**
      * Test method for {@link java.util.Date#Date(long) public java.util.Date(long)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -102,42 +102,16 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Date>, org.j
     }
 
     /**
-     * Test method for {@link java.util.Date#Date(int,int,int) public java.util.Date(int,int,int)}.
+     * Test method for {@link java.util.Date#Date(java.lang.String) public java.util.Date(java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Date_int_int_int()
+    public default void create_Date_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.Date sut = null; // = new Date(int,int,int);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.Date> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.Date.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.Date#UTC(int,int,int,int,int,int) public static long
-     * java.util.Date.UTC(int,int,int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_UTC_int_int_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        final java.util.Date sut = null; // = new Date(java.lang.String);
     }
 
     /**
@@ -170,6 +144,32 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Date>, org.j
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.Date#UTC(int,int,int,int,int,int) public static long
+     * java.util.Date.UTC(int,int,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_UTC_int_int_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.Date> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.Date.class.isAssignableFrom(sut));
     }
 
 }

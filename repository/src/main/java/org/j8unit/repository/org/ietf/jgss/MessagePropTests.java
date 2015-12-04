@@ -23,56 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.MessageProp#getPrivacy() public boolean
-     * org.ietf.jgss.MessageProp.getPrivacy()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrivacy()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.ietf.jgss.MessageProp#setSupplementaryStates(boolean,boolean,boolean,boolean,int,java.lang.String)
-     * public void
-     * org.ietf.jgss.MessageProp.setSupplementaryStates(boolean,boolean,boolean,boolean,int,java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSupplementaryStates_boolean_boolean_boolean_boolean_int_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.ietf.jgss.MessageProp#isOldToken() public boolean
-     * org.ietf.jgss.MessageProp.isOldToken()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isOldToken()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.ietf.jgss.MessageProp#getMinorStatus() public int
      * org.ietf.jgss.MessageProp.getMinorStatus()}.
      * </p>
@@ -89,14 +39,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.MessageProp#setPrivacy(boolean) public void
-     * org.ietf.jgss.MessageProp.setPrivacy(boolean)}.
+     * Test method for {@link org.ietf.jgss.MessageProp#getMinorString() public java.lang.String
+     * org.ietf.jgss.MessageProp.getMinorString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setPrivacy_boolean()
+    public default void test_getMinorString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -105,14 +55,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.MessageProp#isUnseqToken() public boolean
-     * org.ietf.jgss.MessageProp.isUnseqToken()}.
+     * Test method for {@link org.ietf.jgss.MessageProp#getPrivacy() public boolean
+     * org.ietf.jgss.MessageProp.getPrivacy()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isUnseqToken()
+    public default void test_getPrivacy()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -152,22 +102,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.ietf.jgss.MessageProp#getMinorString() public java.lang.String
-     * org.ietf.jgss.MessageProp.getMinorString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMinorString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.ietf.jgss.MessageProp#isGapToken() public boolean
      * org.ietf.jgss.MessageProp.isGapToken()}.
      * </p>
@@ -184,6 +118,54 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.ietf.jgss.MessageProp#isOldToken() public boolean
+     * org.ietf.jgss.MessageProp.isOldToken()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isOldToken()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.ietf.jgss.MessageProp#isUnseqToken() public boolean
+     * org.ietf.jgss.MessageProp.isUnseqToken()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isUnseqToken()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.ietf.jgss.MessageProp#setPrivacy(boolean) public void
+     * org.ietf.jgss.MessageProp.setPrivacy(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPrivacy_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.ietf.jgss.MessageProp#setQOP(int) public void org.ietf.jgss.MessageProp.setQOP(int)}.
      * </p>
      */
@@ -191,6 +173,24 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setQOP_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.ietf.jgss.MessageProp#setSupplementaryStates(boolean,boolean,boolean,boolean,int,java.lang.String)
+     * public void
+     * org.ietf.jgss.MessageProp.setSupplementaryStates(boolean,boolean,boolean,boolean,int,java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSupplementaryStates_boolean_boolean_boolean_boolean_int_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

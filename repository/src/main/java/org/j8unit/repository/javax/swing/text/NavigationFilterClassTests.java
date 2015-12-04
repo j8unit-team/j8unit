@@ -36,30 +36,6 @@ public abstract interface NavigationFilterClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.text.NavigationFilter#NavigationFilter() public
-     * javax.swing.text.NavigationFilter()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_NavigationFilter()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.NavigationFilter sut = null; // = new NavigationFilter();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.NavigationFilter> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.NavigationFilter.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.text.NavigationFilter$FilterBypass class
      * javax.swing.text.NavigationFilter$FilterBypass}, containing all class relevant test methods (at least the test
@@ -113,6 +89,30 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(javax.swing.text.NavigationFilter.FilterBypass.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.text.NavigationFilter#NavigationFilter() public
+     * javax.swing.text.NavigationFilter()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_NavigationFilter()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.NavigationFilter sut = null; // = new NavigationFilter();
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.NavigationFilter> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.NavigationFilter.class.isAssignableFrom(sut));
     }
 
 }

@@ -23,81 +23,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.PrinterJob#setPrintable(java.awt.print.Printable,java.awt.print.PageFormat)
-     * public abstract void java.awt.print.PrinterJob.setPrintable(java.awt.print.Printable,java.awt.print.PageFormat)}.
+     * Test method for {@link java.awt.print.PrinterJob#cancel() public abstract void
+     * java.awt.print.PrinterJob.cancel()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setPrintable_Printable_PageFormat()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.print.PrinterJob#setPrintable(java.awt.print.Printable) public abstract void
-     * java.awt.print.PrinterJob.setPrintable(java.awt.print.Printable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPrintable_Printable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.print.PrinterJob#pageDialog(javax.print.attribute.PrintRequestAttributeSet)
-     * public java.awt.print.PageFormat
-     * java.awt.print.PrinterJob.pageDialog(javax.print.attribute.PrintRequestAttributeSet) throws
-     * java.awt.HeadlessException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_pageDialog_PrintRequestAttributeSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.print.PrinterJob#pageDialog(java.awt.print.PageFormat) public abstract
-     * java.awt.print.PageFormat java.awt.print.PrinterJob.pageDialog(java.awt.print.PageFormat) throws
-     * java.awt.HeadlessException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_pageDialog_PageFormat()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.print.PrinterJob#getJobName() public abstract java.lang.String
-     * java.awt.print.PrinterJob.getJobName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getJobName()
+    public default void test_cancel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -138,14 +71,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.PrinterJob#isCancelled() public abstract boolean
-     * java.awt.print.PrinterJob.isCancelled()}.
+     * Test method for {@link java.awt.print.PrinterJob#getCopies() public abstract int
+     * java.awt.print.PrinterJob.getCopies()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isCancelled()
+    public default void test_getCopies()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -154,30 +87,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.PrinterJob#cancel() public abstract void
-     * java.awt.print.PrinterJob.cancel()}.
+     * Test method for {@link java.awt.print.PrinterJob#getJobName() public abstract java.lang.String
+     * java.awt.print.PrinterJob.getJobName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_cancel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.print.PrinterJob#setJobName(java.lang.String) public abstract void
-     * java.awt.print.PrinterJob.setJobName(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setJobName_String()
+    public default void test_getJobName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -203,46 +120,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.PrinterJob#getCopies() public abstract int
-     * java.awt.print.PrinterJob.getCopies()}.
+     * Test method for {@link java.awt.print.PrinterJob#getPrintService() public javax.print.PrintService
+     * java.awt.print.PrinterJob.getPrintService()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCopies()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.print.PrinterJob#setPrintService(javax.print.PrintService) public void
-     * java.awt.print.PrinterJob.setPrintService(javax.print.PrintService) throws java.awt.print.PrinterException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setPrintService_PrintService()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.print.PrinterJob#setCopies(int) public abstract void
-     * java.awt.print.PrinterJob.setCopies(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCopies_int()
+    public default void test_getPrintService()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -267,14 +152,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.PrinterJob#setPageable(java.awt.print.Pageable) public abstract void
-     * java.awt.print.PrinterJob.setPageable(java.awt.print.Pageable) throws java.lang.NullPointerException}.
+     * Test method for {@link java.awt.print.PrinterJob#isCancelled() public abstract boolean
+     * java.awt.print.PrinterJob.isCancelled()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setPageable_Pageable()
+    public default void test_isCancelled()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -283,14 +168,33 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.PrinterJob#validatePage(java.awt.print.PageFormat) public abstract
-     * java.awt.print.PageFormat java.awt.print.PrinterJob.validatePage(java.awt.print.PageFormat)}.
+     * Test method for {@link java.awt.print.PrinterJob#pageDialog(java.awt.print.PageFormat) public abstract
+     * java.awt.print.PageFormat java.awt.print.PrinterJob.pageDialog(java.awt.print.PageFormat) throws
+     * java.awt.HeadlessException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_validatePage_PageFormat()
+    public default void test_pageDialog_PageFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.print.PrinterJob#pageDialog(javax.print.attribute.PrintRequestAttributeSet)
+     * public java.awt.print.PageFormat
+     * java.awt.print.PrinterJob.pageDialog(javax.print.attribute.PrintRequestAttributeSet) throws
+     * java.awt.HeadlessException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_pageDialog_PrintRequestAttributeSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -332,6 +236,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.print.PrinterJob#printDialog() public abstract boolean
+     * java.awt.print.PrinterJob.printDialog() throws java.awt.HeadlessException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_printDialog()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.print.PrinterJob#printDialog(javax.print.attribute.PrintRequestAttributeSet)
      * public boolean java.awt.print.PrinterJob.printDialog(javax.print.attribute.PrintRequestAttributeSet) throws
      * java.awt.HeadlessException}.
@@ -349,14 +269,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.PrinterJob#printDialog() public abstract boolean
-     * java.awt.print.PrinterJob.printDialog() throws java.awt.HeadlessException}.
+     * Test method for {@link java.awt.print.PrinterJob#setCopies(int) public abstract void
+     * java.awt.print.PrinterJob.setCopies(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_printDialog()
+    public default void test_setCopies_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -365,14 +285,94 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.print.PrinterJob#getPrintService() public javax.print.PrintService
-     * java.awt.print.PrinterJob.getPrintService()}.
+     * Test method for {@link java.awt.print.PrinterJob#setJobName(java.lang.String) public abstract void
+     * java.awt.print.PrinterJob.setJobName(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrintService()
+    public default void test_setJobName_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.print.PrinterJob#setPageable(java.awt.print.Pageable) public abstract void
+     * java.awt.print.PrinterJob.setPageable(java.awt.print.Pageable) throws java.lang.NullPointerException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPageable_Pageable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.print.PrinterJob#setPrintable(java.awt.print.Printable) public abstract void
+     * java.awt.print.PrinterJob.setPrintable(java.awt.print.Printable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPrintable_Printable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.print.PrinterJob#setPrintable(java.awt.print.Printable,java.awt.print.PageFormat)
+     * public abstract void java.awt.print.PrinterJob.setPrintable(java.awt.print.Printable,java.awt.print.PageFormat)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPrintable_Printable_PageFormat()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.print.PrinterJob#setPrintService(javax.print.PrintService) public void
+     * java.awt.print.PrinterJob.setPrintService(javax.print.PrintService) throws java.awt.print.PrinterException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setPrintService_PrintService()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.print.PrinterJob#validatePage(java.awt.print.PageFormat) public abstract
+     * java.awt.print.PageFormat java.awt.print.PrinterJob.validatePage(java.awt.print.PageFormat)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_validatePage_PageFormat()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

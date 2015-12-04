@@ -42,23 +42,6 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedRequestTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.StartTlsRequest#getID() public java.lang.String
-     * javax.naming.ldap.StartTlsRequest.getID()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.naming.ldap.StartTlsRequest#getEncodedValue() public byte[]
      * javax.naming.ldap.StartTlsRequest.getEncodedValue()}.
      * </p>
@@ -68,6 +51,23 @@ extends org.j8unit.repository.javax.naming.ldap.ExtendedRequestTests<SUT>, org.j
     @Category(Draft.class)
     @Override
     public default void test_getEncodedValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.ldap.StartTlsRequest#getID() public java.lang.String
+     * javax.naming.ldap.StartTlsRequest.getID()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getID()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,20 +36,6 @@ public abstract interface InterruptedNamingExceptionClassTests<SUT extends Class
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.InterruptedNamingException#InterruptedNamingException(java.lang.String)
-     * public javax.naming.InterruptedNamingException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InterruptedNamingException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.InterruptedNamingException sut = null; // = new InterruptedNamingException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.naming.InterruptedNamingException#InterruptedNamingException() public
      * javax.naming.InterruptedNamingException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.InterruptedNamingException sut = null; // = new InterruptedNamingException();
+    }
+
+    /**
+     * Test method for {@link javax.naming.InterruptedNamingException#InterruptedNamingException(java.lang.String)
+     * public javax.naming.InterruptedNamingException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InterruptedNamingException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.InterruptedNamingException sut = null; // = new InterruptedNamingException(java.lang.String);
     }
 
     @Override

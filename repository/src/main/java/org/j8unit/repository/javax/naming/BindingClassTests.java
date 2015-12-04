@@ -35,32 +35,17 @@ public abstract interface BindingClassTests<SUT extends Class<? extends javax.na
 extends org.j8unit.repository.javax.naming.NameClassPairClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.Binding#Binding(java.lang.String,java.lang.String,java.lang.Object,boolean)
-     * public javax.naming.Binding(java.lang.String,java.lang.String,java.lang.Object,boolean)}.
+     * Test method for {@link javax.naming.Binding#Binding(java.lang.String,java.lang.Object) public
+     * javax.naming.Binding(java.lang.String,java.lang.Object)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Binding_String_String_Object_boolean()
+    public default void create_Binding_String_Object()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.naming.Binding sut = null; // = new
-                                               // Binding(java.lang.String,java.lang.String,java.lang.Object,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.naming.Binding#Binding(java.lang.String,java.lang.String,java.lang.Object) public
-     * javax.naming.Binding(java.lang.String,java.lang.String,java.lang.Object)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Binding_String_String_Object()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.Binding sut = null; // = new Binding(java.lang.String,java.lang.String,java.lang.Object);
+        final javax.naming.Binding sut = null; // = new Binding(java.lang.String,java.lang.Object);
     }
 
     /**
@@ -78,17 +63,32 @@ extends org.j8unit.repository.javax.naming.NameClassPairClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.naming.Binding#Binding(java.lang.String,java.lang.Object) public
-     * javax.naming.Binding(java.lang.String,java.lang.Object)}.
+     * Test method for {@link javax.naming.Binding#Binding(java.lang.String,java.lang.String,java.lang.Object) public
+     * javax.naming.Binding(java.lang.String,java.lang.String,java.lang.Object)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Binding_String_Object()
+    public default void create_Binding_String_String_Object()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.naming.Binding sut = null; // = new Binding(java.lang.String,java.lang.Object);
+        final javax.naming.Binding sut = null; // = new Binding(java.lang.String,java.lang.String,java.lang.Object);
+    }
+
+    /**
+     * Test method for {@link javax.naming.Binding#Binding(java.lang.String,java.lang.String,java.lang.Object,boolean)
+     * public javax.naming.Binding(java.lang.String,java.lang.String,java.lang.Object,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Binding_String_String_Object_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.Binding sut = null; // = new
+                                               // Binding(java.lang.String,java.lang.String,java.lang.Object,boolean);
     }
 
     @Override

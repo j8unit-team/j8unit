@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonModel#isSelected() public abstract boolean
-     * javax.swing.ButtonModel.isSelected()}.
+     * Test method for {@link javax.swing.ButtonModel#addActionListener(java.awt.event.ActionListener) public abstract
+     * void javax.swing.ButtonModel.addActionListener(java.awt.event.ActionListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isSelected()
+    public default void test_addActionListener_ActionListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,14 +39,14 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonModel#isRollover() public abstract boolean
-     * javax.swing.ButtonModel.isRollover()}.
+     * Test method for {@link javax.swing.ButtonModel#addChangeListener(javax.swing.event.ChangeListener) public
+     * abstract void javax.swing.ButtonModel.addChangeListener(javax.swing.event.ChangeListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isRollover()
+    public default void test_addChangeListener_ChangeListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,14 +88,30 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonModel#removeActionListener(java.awt.event.ActionListener) public
-     * abstract void javax.swing.ButtonModel.removeActionListener(java.awt.event.ActionListener)}.
+     * Test method for {@link javax.swing.ButtonModel#getMnemonic() public abstract int
+     * javax.swing.ButtonModel.getMnemonic()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeActionListener_ActionListener()
+    public default void test_getMnemonic()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ButtonModel#isArmed() public abstract boolean
+     * javax.swing.ButtonModel.isArmed()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isArmed()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,14 +136,14 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonModel#setGroup(javax.swing.ButtonGroup) public abstract void
-     * javax.swing.ButtonModel.setGroup(javax.swing.ButtonGroup)}.
+     * Test method for {@link javax.swing.ButtonModel#isPressed() public abstract boolean
+     * javax.swing.ButtonModel.isPressed()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setGroup_ButtonGroup()
+    public default void test_isPressed()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -136,14 +152,46 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonModel#setEnabled(boolean) public abstract void
-     * javax.swing.ButtonModel.setEnabled(boolean)}.
+     * Test method for {@link javax.swing.ButtonModel#isRollover() public abstract boolean
+     * javax.swing.ButtonModel.isRollover()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setEnabled_boolean()
+    public default void test_isRollover()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ButtonModel#isSelected() public abstract boolean
+     * javax.swing.ButtonModel.isSelected()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isSelected()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ButtonModel#removeActionListener(java.awt.event.ActionListener) public
+     * abstract void javax.swing.ButtonModel.removeActionListener(java.awt.event.ActionListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeActionListener_ActionListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -160,54 +208,6 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_removeChangeListener_ChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ButtonModel#getMnemonic() public abstract int
-     * javax.swing.ButtonModel.getMnemonic()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMnemonic()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ButtonModel#addChangeListener(javax.swing.event.ChangeListener) public
-     * abstract void javax.swing.ButtonModel.addChangeListener(javax.swing.event.ChangeListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addChangeListener_ChangeListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ButtonModel#setRollover(boolean) public abstract void
-     * javax.swing.ButtonModel.setRollover(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setRollover_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -233,22 +233,6 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonModel#setMnemonic(int) public abstract void
-     * javax.swing.ButtonModel.setMnemonic(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMnemonic_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.ButtonModel#setActionCommand(java.lang.String) public abstract void
      * javax.swing.ButtonModel.setActionCommand(java.lang.String)}.
      * </p>
@@ -265,14 +249,14 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonModel#isArmed() public abstract boolean
-     * javax.swing.ButtonModel.isArmed()}.
+     * Test method for {@link javax.swing.ButtonModel#setArmed(boolean) public abstract void
+     * javax.swing.ButtonModel.setArmed(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isArmed()
+    public default void test_setArmed_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -281,14 +265,46 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonModel#setSelected(boolean) public abstract void
-     * javax.swing.ButtonModel.setSelected(boolean)}.
+     * Test method for {@link javax.swing.ButtonModel#setEnabled(boolean) public abstract void
+     * javax.swing.ButtonModel.setEnabled(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSelected_boolean()
+    public default void test_setEnabled_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ButtonModel#setGroup(javax.swing.ButtonGroup) public abstract void
+     * javax.swing.ButtonModel.setGroup(javax.swing.ButtonGroup)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setGroup_ButtonGroup()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ButtonModel#setMnemonic(int) public abstract void
+     * javax.swing.ButtonModel.setMnemonic(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMnemonic_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -313,14 +329,14 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonModel#addActionListener(java.awt.event.ActionListener) public abstract
-     * void javax.swing.ButtonModel.addActionListener(java.awt.event.ActionListener)}.
+     * Test method for {@link javax.swing.ButtonModel#setRollover(boolean) public abstract void
+     * javax.swing.ButtonModel.setRollover(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addActionListener_ActionListener()
+    public default void test_setRollover_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -329,30 +345,14 @@ extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ButtonModel#isPressed() public abstract boolean
-     * javax.swing.ButtonModel.isPressed()}.
+     * Test method for {@link javax.swing.ButtonModel#setSelected(boolean) public abstract void
+     * javax.swing.ButtonModel.setSelected(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isPressed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ButtonModel#setArmed(boolean) public abstract void
-     * javax.swing.ButtonModel.setArmed(boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setArmed_boolean()
+    public default void test_setSelected_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

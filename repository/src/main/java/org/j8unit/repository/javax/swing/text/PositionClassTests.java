@@ -34,15 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface PositionClassTests<SUT extends Class<? extends javax.swing.text.Position>>
 extends J8UnitTest<SUT> {
 
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.Position> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.Position.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.swing.text.Position$Bias class javax.swing.text.Position$Bias}, containing all class
@@ -82,6 +73,15 @@ extends J8UnitTest<SUT> {
             assertTrue(javax.swing.text.Position.Bias.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.Position> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.Position.class.isAssignableFrom(sut));
     }
 
 }

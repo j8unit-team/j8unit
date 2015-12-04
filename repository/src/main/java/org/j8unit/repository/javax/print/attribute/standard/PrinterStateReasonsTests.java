@@ -42,17 +42,15 @@ org.j8unit.repository.java.util.HashMapTests<SUT, javax.print.attribute.standard
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.print.attribute.standard.PrinterStateReasons#put(javax.print.attribute.standard.PrinterStateReason,javax.print.attribute.standard.Severity)
-     * public javax.print.attribute.standard.Severity
-     * javax.print.attribute.standard.PrinterStateReasons.put(javax.print.attribute.standard.PrinterStateReason,javax.print.attribute.standard.Severity)}
-     * .
+     * Test method for {@link javax.print.attribute.standard.PrinterStateReasons#getName() public final java.lang.String
+     * javax.print.attribute.standard.PrinterStateReasons.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_put_PrinterStateReason_Severity()
+    @Override
+    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -80,15 +78,17 @@ org.j8unit.repository.java.util.HashMapTests<SUT, javax.print.attribute.standard
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.standard.PrinterStateReasons#getName() public final java.lang.String
-     * javax.print.attribute.standard.PrinterStateReasons.getName()}.
+     * Test method for
+     * {@link javax.print.attribute.standard.PrinterStateReasons#put(javax.print.attribute.standard.PrinterStateReason,javax.print.attribute.standard.Severity)
+     * public javax.print.attribute.standard.Severity
+     * javax.print.attribute.standard.PrinterStateReasons.put(javax.print.attribute.standard.PrinterStateReason,javax.print.attribute.standard.Severity)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_getName()
+    public default void test_put_PrinterStateReason_Severity()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

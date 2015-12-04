@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerModel#getNextValue() public abstract java.lang.Object
-     * javax.swing.SpinnerModel.getNextValue()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNextValue()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.SpinnerModel#addChangeListener(javax.swing.event.ChangeListener) public
      * abstract void javax.swing.SpinnerModel.addChangeListener(javax.swing.event.ChangeListener)}.
      * </p>
@@ -56,14 +40,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerModel#removeChangeListener(javax.swing.event.ChangeListener) public
-     * abstract void javax.swing.SpinnerModel.removeChangeListener(javax.swing.event.ChangeListener)}.
+     * Test method for {@link javax.swing.SpinnerModel#getNextValue() public abstract java.lang.Object
+     * javax.swing.SpinnerModel.getNextValue()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeChangeListener_ChangeListener()
+    public default void test_getNextValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -96,6 +80,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.SpinnerModel#removeChangeListener(javax.swing.event.ChangeListener) public
+     * abstract void javax.swing.SpinnerModel.removeChangeListener(javax.swing.event.ChangeListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeChangeListener_ChangeListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

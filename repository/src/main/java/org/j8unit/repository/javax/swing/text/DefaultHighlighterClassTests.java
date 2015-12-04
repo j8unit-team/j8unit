@@ -36,30 +36,6 @@ public abstract interface DefaultHighlighterClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.text.DefaultHighlighter#DefaultHighlighter() public
-     * javax.swing.text.DefaultHighlighter()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DefaultHighlighter()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.DefaultHighlighter sut = null; // = new DefaultHighlighter();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.DefaultHighlighter> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.DefaultHighlighter.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.text.DefaultHighlighter$DefaultHighlightPainter class
      * javax.swing.text.DefaultHighlighter$DefaultHighlightPainter}, containing all class relevant test methods (at
@@ -115,6 +91,30 @@ extends org.j8unit.repository.javax.swing.text.LayeredHighlighterClassTests<SUT>
             assertTrue(javax.swing.text.DefaultHighlighter.DefaultHighlightPainter.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.text.DefaultHighlighter#DefaultHighlighter() public
+     * javax.swing.text.DefaultHighlighter()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DefaultHighlighter()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.DefaultHighlighter sut = null; // = new DefaultHighlighter();
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.DefaultHighlighter> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.DefaultHighlighter.class.isAssignableFrom(sut));
     }
 
 }

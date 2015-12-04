@@ -24,54 +24,6 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertPathValidatorException#getCertPath() public
-     * java.security.cert.CertPath java.security.cert.CertPathValidatorException.getCertPath()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getCertPath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.CertPathValidatorException#getReason() public
-     * java.security.cert.CertPathValidatorException$Reason java.security.cert.CertPathValidatorException.getReason()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReason()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.CertPathValidatorException#getIndex() public int
-     * java.security.cert.CertPathValidatorException.getIndex()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIndex()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test class for {@link java.security.cert.CertPathValidatorException$BasicReason class
      * java.security.cert.CertPathValidatorException$BasicReason}, containing all instance relevant test methods
      * (i.&thinsp;e., test methods of non-{@code static} methods).
@@ -105,6 +57,54 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
     public static abstract interface ReasonTests<SUT extends java.security.cert.CertPathValidatorException.Reason>
     extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CertPathValidatorException#getCertPath() public
+     * java.security.cert.CertPath java.security.cert.CertPathValidatorException.getCertPath()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getCertPath()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CertPathValidatorException#getIndex() public int
+     * java.security.cert.CertPathValidatorException.getIndex()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIndex()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CertPathValidatorException#getReason() public
+     * java.security.cert.CertPathValidatorException$Reason java.security.cert.CertPathValidatorException.getReason()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getReason()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

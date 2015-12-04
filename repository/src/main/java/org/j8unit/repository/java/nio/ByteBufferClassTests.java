@@ -34,48 +34,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ByteBufferClassTests<SUT extends Class<? extends java.nio.ByteBuffer>>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.ByteBuffer>, org.j8unit.repository.java.nio.BufferClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.ByteBuffer> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.ByteBuffer.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.ByteBuffer#wrap(byte[],int,int) public static java.nio.ByteBuffer
-     * java.nio.ByteBuffer.wrap(byte[],int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wrap_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.ByteBuffer#wrap(byte[]) public static java.nio.ByteBuffer
-     * java.nio.ByteBuffer.wrap(byte[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_wrap_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link java.nio.ByteBuffer#allocate(int) public static java.nio.ByteBuffer
@@ -106,6 +64,48 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.ByteB
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.ByteBuffer#wrap(byte[]) public static java.nio.ByteBuffer
+     * java.nio.ByteBuffer.wrap(byte[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wrap_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.ByteBuffer#wrap(byte[],int,int) public static java.nio.ByteBuffer
+     * java.nio.ByteBuffer.wrap(byte[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_wrap_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.nio.ByteBuffer> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.ByteBuffer.class.isAssignableFrom(sut));
     }
 
 }

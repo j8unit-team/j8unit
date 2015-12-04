@@ -23,14 +23,32 @@ extends org.j8unit.repository.java.security.acl.OwnerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.acl.Acl#toString() public abstract java.lang.String
-     * java.security.acl.Acl.toString()}.
+     * Test method for {@link java.security.acl.Acl#addEntry(java.security.Principal,java.security.acl.AclEntry) public
+     * abstract boolean java.security.acl.Acl.addEntry(java.security.Principal,java.security.acl.AclEntry) throws
+     * java.security.acl.NotOwnerException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toString()
+    public default void test_addEntry_Principal_AclEntry()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.security.acl.Acl#checkPermission(java.security.Principal,java.security.acl.Permission) public
+     * abstract boolean java.security.acl.Acl.checkPermission(java.security.Principal,java.security.acl.Permission)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_checkPermission_Principal_Permission()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,32 +89,14 @@ extends org.j8unit.repository.java.security.acl.OwnerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.acl.Acl#setName(java.security.Principal,java.lang.String) public abstract
-     * void java.security.acl.Acl.setName(java.security.Principal,java.lang.String) throws
-     * java.security.acl.NotOwnerException}.
+     * Test method for {@link java.security.acl.Acl#getPermissions(java.security.Principal) public abstract
+     * java.util.Enumeration java.security.acl.Acl.getPermissions(java.security.Principal)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setName_Principal_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.security.acl.Acl#checkPermission(java.security.Principal,java.security.acl.Permission) public
-     * abstract boolean java.security.acl.Acl.checkPermission(java.security.Principal,java.security.acl.Permission)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_checkPermission_Principal_Permission()
+    public default void test_getPermissions_Principal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -122,14 +122,15 @@ extends org.j8unit.repository.java.security.acl.OwnerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.acl.Acl#getPermissions(java.security.Principal) public abstract
-     * java.util.Enumeration java.security.acl.Acl.getPermissions(java.security.Principal)}.
+     * Test method for {@link java.security.acl.Acl#setName(java.security.Principal,java.lang.String) public abstract
+     * void java.security.acl.Acl.setName(java.security.Principal,java.lang.String) throws
+     * java.security.acl.NotOwnerException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPermissions_Principal()
+    public default void test_setName_Principal_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -138,15 +139,14 @@ extends org.j8unit.repository.java.security.acl.OwnerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.acl.Acl#addEntry(java.security.Principal,java.security.acl.AclEntry) public
-     * abstract boolean java.security.acl.Acl.addEntry(java.security.Principal,java.security.acl.AclEntry) throws
-     * java.security.acl.NotOwnerException}.
+     * Test method for {@link java.security.acl.Acl#toString() public abstract java.lang.String
+     * java.security.acl.Acl.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addEntry_Principal_AclEntry()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

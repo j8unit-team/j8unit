@@ -36,6 +36,20 @@ public abstract interface ZipInputStreamClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.util.zip.InflaterInputStreamClassTests<SUT> {
 
     /**
+     * Test method for {@link java.util.zip.ZipInputStream#ZipInputStream(java.io.InputStream) public
+     * java.util.zip.ZipInputStream(java.io.InputStream)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ZipInputStream_InputStream()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.zip.ZipInputStream sut = null; // = new ZipInputStream(java.io.InputStream);
+    }
+
+    /**
      * Test method for {@link java.util.zip.ZipInputStream#ZipInputStream(java.io.InputStream,java.nio.charset.Charset)
      * public java.util.zip.ZipInputStream(java.io.InputStream,java.nio.charset.Charset)}.
      */
@@ -48,20 +62,6 @@ extends org.j8unit.repository.java.util.zip.InflaterInputStreamClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.util.zip.ZipInputStream sut = null; // = new
                                                        // ZipInputStream(java.io.InputStream,java.nio.charset.Charset);
-    }
-
-    /**
-     * Test method for {@link java.util.zip.ZipInputStream#ZipInputStream(java.io.InputStream) public
-     * java.util.zip.ZipInputStream(java.io.InputStream)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ZipInputStream_InputStream()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.zip.ZipInputStream sut = null; // = new ZipInputStream(java.io.InputStream);
     }
 
     @Override

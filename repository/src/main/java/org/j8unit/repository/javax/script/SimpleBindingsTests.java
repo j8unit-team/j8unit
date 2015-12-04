@@ -23,82 +23,14 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.script.SimpleBindings#entrySet() public java.util.Set
-     * javax.script.SimpleBindings.entrySet()}.
+     * Test method for {@link javax.script.SimpleBindings#clear() public void javax.script.SimpleBindings.clear()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_entrySet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.script.SimpleBindings#size() public int javax.script.SimpleBindings.size()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_size()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.script.SimpleBindings#get(java.lang.Object) public java.lang.Object
-     * javax.script.SimpleBindings.get(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_get_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.script.SimpleBindings#values() public java.util.Collection
-     * javax.script.SimpleBindings.values()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_values()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.script.SimpleBindings#putAll(java.util.Map) public void
-     * javax.script.SimpleBindings.putAll(java.util.Map)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_putAll_Map()
+    public default void test_clear()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -124,18 +56,85 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.script.SimpleBindings#clear() public void javax.script.SimpleBindings.clear()}.
+     * Test method for {@link javax.script.SimpleBindings#containsValue(java.lang.Object) public boolean
+     * javax.script.SimpleBindings.containsValue(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_clear()
+    public default void test_containsValue_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.script.SimpleBindings#entrySet() public java.util.Set
+     * javax.script.SimpleBindings.entrySet()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_entrySet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_equals_Object()
+    throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.script.SimpleBindings#get(java.lang.Object) public java.lang.Object
+     * javax.script.SimpleBindings.get(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_get_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
     }
 
     /**
@@ -174,23 +173,6 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.script.SimpleBindings#remove(java.lang.Object) public java.lang.Object
-     * javax.script.SimpleBindings.remove(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_remove_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.script.SimpleBindings#put(java.lang.String,java.lang.Object) public java.lang.Object
      * javax.script.SimpleBindings.put(java.lang.String,java.lang.Object)}.
      * </p>
@@ -208,15 +190,15 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * Test method for {@link javax.script.SimpleBindings#containsValue(java.lang.Object) public boolean
-     * javax.script.SimpleBindings.containsValue(java.lang.Object)}.
+     * Test method for {@link javax.script.SimpleBindings#putAll(java.util.Map) public void
+     * javax.script.SimpleBindings.putAll(java.util.Map)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_containsValue_Object()
+    public default void test_putAll_Map()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -225,34 +207,52 @@ extends org.j8unit.repository.javax.script.BindingsTests<SUT>, org.j8unit.reposi
 
     /**
      * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * Test method for {@link javax.script.SimpleBindings#remove(java.lang.Object) public java.lang.Object
+     * javax.script.SimpleBindings.remove(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode()
+    public default void test_remove_Object()
     throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
      * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * Test method for {@link javax.script.SimpleBindings#size() public int javax.script.SimpleBindings.size()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_size()
     throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.script.SimpleBindings#values() public java.util.Collection
+     * javax.script.SimpleBindings.values()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_values()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

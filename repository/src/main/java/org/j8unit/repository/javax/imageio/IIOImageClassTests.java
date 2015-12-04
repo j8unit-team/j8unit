@@ -37,22 +37,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link javax.imageio.IIOImage#IIOImage(java.awt.image.RenderedImage,java.util.List,javax.imageio.metadata.IIOMetadata)
-     * public javax.imageio.IIOImage(java.awt.image.RenderedImage,java.util.List,javax.imageio.metadata.IIOMetadata)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_IIOImage_RenderedImage_List_IIOMetadata()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.imageio.IIOImage sut = null; // = new
-                                                 // IIOImage(java.awt.image.RenderedImage,java.util.List,javax.imageio.metadata.IIOMetadata);
-    }
-
-    /**
-     * Test method for
      * {@link javax.imageio.IIOImage#IIOImage(java.awt.image.Raster,java.util.List,javax.imageio.metadata.IIOMetadata)
      * public javax.imageio.IIOImage(java.awt.image.Raster,java.util.List,javax.imageio.metadata.IIOMetadata)}.
      */
@@ -65,6 +49,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.imageio.IIOImage sut = null; // = new
                                                  // IIOImage(java.awt.image.Raster,java.util.List,javax.imageio.metadata.IIOMetadata);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.imageio.IIOImage#IIOImage(java.awt.image.RenderedImage,java.util.List,javax.imageio.metadata.IIOMetadata)
+     * public javax.imageio.IIOImage(java.awt.image.RenderedImage,java.util.List,javax.imageio.metadata.IIOMetadata)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_IIOImage_RenderedImage_List_IIOMetadata()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.imageio.IIOImage sut = null; // = new
+                                                 // IIOImage(java.awt.image.RenderedImage,java.util.List,javax.imageio.metadata.IIOMetadata);
     }
 
     @Override

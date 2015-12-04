@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.sound.midi.Track#add(javax.sound.midi.MidiEvent) public boolean
+     * javax.sound.midi.Track.add(javax.sound.midi.MidiEvent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_MidiEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.sound.midi.Track#get(int) public javax.sound.midi.MidiEvent
      * javax.sound.midi.Track.get(int) throws java.lang.ArrayIndexOutOfBoundsException}.
      * </p>
@@ -39,13 +55,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Track#ticks() public long javax.sound.midi.Track.ticks()}.
+     * Test method for {@link javax.sound.midi.Track#remove(javax.sound.midi.MidiEvent) public boolean
+     * javax.sound.midi.Track.remove(javax.sound.midi.MidiEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ticks()
+    public default void test_remove_MidiEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -69,30 +86,13 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.sound.midi.Track#add(javax.sound.midi.MidiEvent) public boolean
-     * javax.sound.midi.Track.add(javax.sound.midi.MidiEvent)}.
+     * Test method for {@link javax.sound.midi.Track#ticks() public long javax.sound.midi.Track.ticks()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_add_MidiEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.sound.midi.Track#remove(javax.sound.midi.MidiEvent) public boolean
-     * javax.sound.midi.Track.remove(javax.sound.midi.MidiEvent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_MidiEvent()
+    public default void test_ticks()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

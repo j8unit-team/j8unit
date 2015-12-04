@@ -36,17 +36,16 @@ public abstract interface SSLParametersClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.net.ssl.SSLParameters#SSLParameters(java.lang.String[],java.lang.String[]) public
-     * javax.net.ssl.SSLParameters(java.lang.String[],java.lang.String[])}.
+     * Test method for {@link javax.net.ssl.SSLParameters#SSLParameters() public javax.net.ssl.SSLParameters()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SSLParameters_StringArray_StringArray()
+    public default void create_SSLParameters()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.net.ssl.SSLParameters sut = null; // = new SSLParameters(java.lang.String[],java.lang.String[]);
+        final javax.net.ssl.SSLParameters sut = null; // = new SSLParameters();
     }
 
     /**
@@ -64,16 +63,17 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.net.ssl.SSLParameters#SSLParameters() public javax.net.ssl.SSLParameters()}.
+     * Test method for {@link javax.net.ssl.SSLParameters#SSLParameters(java.lang.String[],java.lang.String[]) public
+     * javax.net.ssl.SSLParameters(java.lang.String[],java.lang.String[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SSLParameters()
+    public default void create_SSLParameters_StringArray_StringArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.net.ssl.SSLParameters sut = null; // = new SSLParameters();
+        final javax.net.ssl.SSLParameters sut = null; // = new SSLParameters(java.lang.String[],java.lang.String[]);
     }
 
     @Override

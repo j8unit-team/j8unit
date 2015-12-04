@@ -39,15 +39,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerListModel#setValue(java.lang.Object) public void
-     * javax.swing.SpinnerListModel.setValue(java.lang.Object)}.
+     * Test method for {@link javax.swing.SpinnerListModel#getNextValue() public java.lang.Object
+     * javax.swing.SpinnerListModel.getNextValue()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setValue_Object()
+    public default void test_getNextValue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -106,15 +106,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.SpinnerListModel#getNextValue() public java.lang.Object
-     * javax.swing.SpinnerListModel.getNextValue()}.
+     * Test method for {@link javax.swing.SpinnerListModel#setValue(java.lang.Object) public void
+     * javax.swing.SpinnerListModel.setValue(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getNextValue()
+    public default void test_setValue_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

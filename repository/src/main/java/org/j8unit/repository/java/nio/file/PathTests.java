@@ -24,6 +24,70 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.nio.file.Path#compareTo(java.nio.file.Path) public abstract int
+     * java.nio.file.Path.compareTo(java.nio.file.Path)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compareTo_Path()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.Path#endsWith(java.nio.file.Path) public abstract boolean
+     * java.nio.file.Path.endsWith(java.nio.file.Path)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_endsWith_Path()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.Path#endsWith(java.lang.String) public abstract boolean
+     * java.nio.file.Path.endsWith(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_endsWith_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.Path#equals(java.lang.Object) public abstract boolean
+     * java.nio.file.Path.equals(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.file.Path#getFileName() public abstract java.nio.file.Path
      * java.nio.file.Path.getFileName()}.
      * </p>
@@ -32,6 +96,69 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getFileName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.Path#getFileSystem() public abstract java.nio.file.FileSystem
+     * java.nio.file.Path.getFileSystem()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFileSystem()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.Path#getName(int) public abstract java.nio.file.Path
+     * java.nio.file.Path.getName(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getName_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.Path#getNameCount() public abstract int java.nio.file.Path.getNameCount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNameCount()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.Path#getParent() public abstract java.nio.file.Path
+     * java.nio.file.Path.getParent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,38 +183,6 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Path#relativize(java.nio.file.Path) public abstract java.nio.file.Path
-     * java.nio.file.Path.relativize(java.nio.file.Path)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_relativize_Path()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.Path#normalize() public abstract java.nio.file.Path
-     * java.nio.file.Path.normalize()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_normalize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.file.Path#hashCode() public abstract int java.nio.file.Path.hashCode()}.
      * </p>
      */
@@ -95,6 +190,21 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.file.Path#isAbsolute() public abstract boolean java.nio.file.Path.isAbsolute()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isAbsolute()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,14 +230,14 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Path#subpath(int,int) public abstract java.nio.file.Path
-     * java.nio.file.Path.subpath(int,int)}.
+     * Test method for {@link java.nio.file.Path#normalize() public abstract java.nio.file.Path
+     * java.nio.file.Path.normalize()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_subpath_int_int()
+    public default void test_normalize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -136,14 +246,17 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Path#compareTo(java.nio.file.Path) public abstract int
-     * java.nio.file.Path.compareTo(java.nio.file.Path)}.
+     * Test method for {@link java.nio.file.Path#register(java.nio.file.WatchService,java.nio.file.WatchEvent.Kind...)
+     * public abstract java.nio.file.WatchKey
+     * java.nio.file.Path.register(java.nio.file.WatchService,java.nio.file.WatchEvent$Kind...) throws
+     * java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_compareTo_Path()
+    @Override
+    public default void test_register_WatchService_KindArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -152,14 +265,18 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Path#resolveSibling(java.nio.file.Path) public abstract java.nio.file.Path
-     * java.nio.file.Path.resolveSibling(java.nio.file.Path)}.
+     * Test method for
+     * {@link java.nio.file.Path#register(java.nio.file.WatchService,java.nio.file.WatchEvent.Kind[],java.nio.file.WatchEvent.Modifier...)
+     * public abstract java.nio.file.WatchKey
+     * java.nio.file.Path.register(java.nio.file.WatchService,java.nio.file.WatchEvent$Kind[],java.nio.file.WatchEvent$Modifier...)
+     * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_resolveSibling_Path()
+    @Override
+    public default void test_register_WatchService_KindArray_ModifierArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -168,14 +285,14 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Path#resolveSibling(java.lang.String) public abstract java.nio.file.Path
-     * java.nio.file.Path.resolveSibling(java.lang.String)}.
+     * Test method for {@link java.nio.file.Path#relativize(java.nio.file.Path) public abstract java.nio.file.Path
+     * java.nio.file.Path.relativize(java.nio.file.Path)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_resolveSibling_String()
+    public default void test_relativize_Path()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -216,14 +333,14 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Path#getName(int) public abstract java.nio.file.Path
-     * java.nio.file.Path.getName(int)}.
+     * Test method for {@link java.nio.file.Path#resolveSibling(java.nio.file.Path) public abstract java.nio.file.Path
+     * java.nio.file.Path.resolveSibling(java.nio.file.Path)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName_int()
+    public default void test_resolveSibling_Path()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -232,53 +349,14 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.nio.file.Path#register(java.nio.file.WatchService,java.nio.file.WatchEvent.Kind[],java.nio.file.WatchEvent.Modifier...)
-     * public abstract java.nio.file.WatchKey
-     * java.nio.file.Path.register(java.nio.file.WatchService,java.nio.file.WatchEvent$Kind[],java.nio.file.WatchEvent$Modifier...)
-     * throws java.io.IOException}.
+     * Test method for {@link java.nio.file.Path#resolveSibling(java.lang.String) public abstract java.nio.file.Path
+     * java.nio.file.Path.resolveSibling(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_register_WatchService_KindArray_ModifierArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.Path#register(java.nio.file.WatchService,java.nio.file.WatchEvent.Kind...)
-     * public abstract java.nio.file.WatchKey
-     * java.nio.file.Path.register(java.nio.file.WatchService,java.nio.file.WatchEvent$Kind...) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_register_WatchService_KindArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.Path#startsWith(java.lang.String) public abstract boolean
-     * java.nio.file.Path.startsWith(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_startsWith_String()
+    public default void test_resolveSibling_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -303,13 +381,14 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Path#isAbsolute() public abstract boolean java.nio.file.Path.isAbsolute()}.
+     * Test method for {@link java.nio.file.Path#startsWith(java.lang.String) public abstract boolean
+     * java.nio.file.Path.startsWith(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isAbsolute()
+    public default void test_startsWith_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -318,14 +397,14 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Path#endsWith(java.nio.file.Path) public abstract boolean
-     * java.nio.file.Path.endsWith(java.nio.file.Path)}.
+     * Test method for {@link java.nio.file.Path#subpath(int,int) public abstract java.nio.file.Path
+     * java.nio.file.Path.subpath(int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_endsWith_Path()
+    public default void test_subpath_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -334,14 +413,14 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Path#endsWith(java.lang.String) public abstract boolean
-     * java.nio.file.Path.endsWith(java.lang.String)}.
+     * Test method for {@link java.nio.file.Path#toAbsolutePath() public abstract java.nio.file.Path
+     * java.nio.file.Path.toAbsolutePath()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_endsWith_String()
+    public default void test_toAbsolutePath()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -397,54 +476,6 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.file.Path#equals(java.lang.Object) public abstract boolean
-     * java.nio.file.Path.equals(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.Path#toAbsolutePath() public abstract java.nio.file.Path
-     * java.nio.file.Path.toAbsolutePath()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toAbsolutePath()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.Path#getFileSystem() public abstract java.nio.file.FileSystem
-     * java.nio.file.Path.getFileSystem()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFileSystem()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.file.Path#toUri() public abstract java.net.URI java.nio.file.Path.toUri()}.
      * </p>
      */
@@ -452,37 +483,6 @@ org.j8unit.repository.java.nio.file.WatchableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_toUri()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.Path#getParent() public abstract java.nio.file.Path
-     * java.nio.file.Path.getParent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getParent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.file.Path#getNameCount() public abstract int java.nio.file.Path.getNameCount()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNameCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

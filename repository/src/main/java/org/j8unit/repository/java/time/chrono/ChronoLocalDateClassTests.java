@@ -36,16 +36,6 @@ public abstract interface ChronoLocalDateClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT>,
 org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.chrono.ChronoLocalDate> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.chrono.ChronoLocalDate> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.chrono.ChronoLocalDate.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.time.chrono.ChronoLocalDate#from(java.time.temporal.TemporalAccessor) public static
@@ -76,6 +66,16 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.chrono.Chron
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.chrono.ChronoLocalDate> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.chrono.ChronoLocalDate.class.isAssignableFrom(sut));
     }
 
 }

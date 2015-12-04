@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.validation.Schema#newValidatorHandler() public abstract
-     * javax.xml.validation.ValidatorHandler javax.xml.validation.Schema.newValidatorHandler()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newValidatorHandler()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.validation.Schema#newValidator() public abstract javax.xml.validation.Validator
      * javax.xml.validation.Schema.newValidator()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_newValidator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.validation.Schema#newValidatorHandler() public abstract
+     * javax.xml.validation.ValidatorHandler javax.xml.validation.Schema.newValidatorHandler()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newValidatorHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

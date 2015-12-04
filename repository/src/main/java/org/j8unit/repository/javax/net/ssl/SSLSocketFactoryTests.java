@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.net.SocketFactoryTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLSocketFactory#getSupportedCipherSuites() public abstract
-     * java.lang.String[] javax.net.ssl.SSLSocketFactory.getSupportedCipherSuites()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSupportedCipherSuites()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.net.ssl.SSLSocketFactory#createSocket(java.net.Socket,java.io.InputStream,boolean)
      * public java.net.Socket javax.net.ssl.SSLSocketFactory.createSocket(java.net.Socket,java.io.InputStream,boolean)
      * throws java.io.IOException}.
@@ -82,6 +66,22 @@ extends org.j8unit.repository.javax.net.SocketFactoryTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDefaultCipherSuites()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.SSLSocketFactory#getSupportedCipherSuites() public abstract
+     * java.lang.String[] javax.net.ssl.SSLSocketFactory.getSupportedCipherSuites()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSupportedCipherSuites()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

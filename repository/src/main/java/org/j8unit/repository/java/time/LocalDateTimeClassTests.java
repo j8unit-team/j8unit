@@ -37,48 +37,6 @@ extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>, org.j8
 org.j8unit.repository.java.time.chrono.ChronoLocalDateTimeClassTests<SUT, java.time.LocalDate>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.LocalDateTime> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.LocalDateTime.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.LocalDateTime#ofEpochSecond(long,int,java.time.ZoneOffset) public static
-     * java.time.LocalDateTime java.time.LocalDateTime.ofEpochSecond(long,int,java.time.ZoneOffset)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ofEpochSecond_long_int_ZoneOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.LocalDateTime#ofInstant(java.time.Instant,java.time.ZoneId) public static
-     * java.time.LocalDateTime java.time.LocalDateTime.ofInstant(java.time.Instant,java.time.ZoneId)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ofInstant_Instant_ZoneId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link java.time.LocalDateTime#from(java.time.temporal.TemporalAccessor) public static
@@ -90,118 +48,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_from_TemporalAccessor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.LocalDateTime#of(int,java.time.Month,int,int,int,int) public static
-     * java.time.LocalDateTime java.time.LocalDateTime.of(int,java.time.Month,int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_int_Month_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.LocalDateTime#of(int,java.time.Month,int,int,int) public static
-     * java.time.LocalDateTime java.time.LocalDateTime.of(int,java.time.Month,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_int_Month_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.LocalDateTime#of(int,java.time.Month,int,int,int,int,int) public static
-     * java.time.LocalDateTime java.time.LocalDateTime.of(int,java.time.Month,int,int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_int_Month_int_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.LocalDateTime#of(int,int,int,int,int,int) public static java.time.LocalDateTime
-     * java.time.LocalDateTime.of(int,int,int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_int_int_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.LocalDateTime#of(int,int,int,int,int,int,int) public static
-     * java.time.LocalDateTime java.time.LocalDateTime.of(int,int,int,int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_int_int_int_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.LocalDateTime#of(java.time.LocalDate,java.time.LocalTime) public static
-     * java.time.LocalDateTime java.time.LocalDateTime.of(java.time.LocalDate,java.time.LocalTime)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_LocalDate_LocalTime()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.LocalDateTime#of(int,int,int,int,int) public static java.time.LocalDateTime
-     * java.time.LocalDateTime.of(int,int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_int_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -258,15 +104,142 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.LocalDateTime#parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)
-     * public static java.time.LocalDateTime
-     * java.time.LocalDateTime.parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)}.
+     * Test method for {@link java.time.LocalDateTime#of(int,int,int,int,int) public static java.time.LocalDateTime
+     * java.time.LocalDateTime.of(int,int,int,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parse_CharSequence_DateTimeFormatter()
+    public default void test_of_int_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.LocalDateTime#of(int,int,int,int,int,int) public static java.time.LocalDateTime
+     * java.time.LocalDateTime.of(int,int,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_int_int_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.LocalDateTime#of(int,int,int,int,int,int,int) public static
+     * java.time.LocalDateTime java.time.LocalDateTime.of(int,int,int,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_int_int_int_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.LocalDateTime#of(int,java.time.Month,int,int,int) public static
+     * java.time.LocalDateTime java.time.LocalDateTime.of(int,java.time.Month,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_int_Month_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.LocalDateTime#of(int,java.time.Month,int,int,int,int) public static
+     * java.time.LocalDateTime java.time.LocalDateTime.of(int,java.time.Month,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_int_Month_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.LocalDateTime#of(int,java.time.Month,int,int,int,int,int) public static
+     * java.time.LocalDateTime java.time.LocalDateTime.of(int,java.time.Month,int,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_int_Month_int_int_int_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.LocalDateTime#of(java.time.LocalDate,java.time.LocalTime) public static
+     * java.time.LocalDateTime java.time.LocalDateTime.of(java.time.LocalDate,java.time.LocalTime)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_LocalDate_LocalTime()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.LocalDateTime#ofEpochSecond(long,int,java.time.ZoneOffset) public static
+     * java.time.LocalDateTime java.time.LocalDateTime.ofEpochSecond(long,int,java.time.ZoneOffset)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ofEpochSecond_long_int_ZoneOffset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.LocalDateTime#ofInstant(java.time.Instant,java.time.ZoneId) public static
+     * java.time.LocalDateTime java.time.LocalDateTime.ofInstant(java.time.Instant,java.time.ZoneId)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_ofInstant_Instant_ZoneId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -287,6 +260,33 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.LocalDateTime#parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)
+     * public static java.time.LocalDateTime
+     * java.time.LocalDateTime.parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parse_CharSequence_DateTimeFormatter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.LocalDateTime> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.LocalDateTime.class.isAssignableFrom(sut));
     }
 
 }

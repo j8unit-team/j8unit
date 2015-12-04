@@ -23,22 +23,6 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Entity#getPublicId() public abstract java.lang.String
-     * org.w3c.dom.Entity.getPublicId()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPublicId()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.Entity#getInputEncoding() public abstract java.lang.String
      * org.w3c.dom.Entity.getInputEncoding()}.
      * </p>
@@ -47,22 +31,6 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getInputEncoding()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.Entity#getXmlVersion() public abstract java.lang.String
-     * org.w3c.dom.Entity.getXmlVersion()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getXmlVersion()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,14 +55,14 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.Entity#getXmlEncoding() public abstract java.lang.String
-     * org.w3c.dom.Entity.getXmlEncoding()}.
+     * Test method for {@link org.w3c.dom.Entity#getPublicId() public abstract java.lang.String
+     * org.w3c.dom.Entity.getPublicId()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getXmlEncoding()
+    public default void test_getPublicId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -111,6 +79,38 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getSystemId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.Entity#getXmlEncoding() public abstract java.lang.String
+     * org.w3c.dom.Entity.getXmlEncoding()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getXmlEncoding()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.Entity#getXmlVersion() public abstract java.lang.String
+     * org.w3c.dom.Entity.getXmlVersion()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getXmlVersion()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

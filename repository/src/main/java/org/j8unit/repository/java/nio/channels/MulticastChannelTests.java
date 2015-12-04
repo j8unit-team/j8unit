@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.nio.channels.MulticastChannel#close() public abstract void
+     * java.nio.channels.MulticastChannel.close() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.nio.channels.MulticastChannel#join(java.net.InetAddress,java.net.NetworkInterface)
      * public abstract java.nio.channels.MembershipKey
      * java.nio.channels.MulticastChannel.join(java.net.InetAddress,java.net.NetworkInterface) throws
@@ -52,23 +69,6 @@ extends org.j8unit.repository.java.nio.channels.NetworkChannelTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_join_InetAddress_NetworkInterface_InetAddress()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.MulticastChannel#close() public abstract void
-     * java.nio.channels.MulticastChannel.close() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

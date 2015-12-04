@@ -41,23 +41,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.bootstrap.DOMImplementationRegistry#getDOMImplementationList(java.lang.String)
-     * public org.w3c.dom.DOMImplementationList
-     * org.w3c.dom.bootstrap.DOMImplementationRegistry.getDOMImplementationList(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDOMImplementationList_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.bootstrap.DOMImplementationRegistry#getDOMImplementation(java.lang.String)
      * public org.w3c.dom.DOMImplementation
      * org.w3c.dom.bootstrap.DOMImplementationRegistry.getDOMImplementation(java.lang.String)}.
@@ -67,6 +50,23 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDOMImplementation_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.bootstrap.DOMImplementationRegistry#getDOMImplementationList(java.lang.String)
+     * public org.w3c.dom.DOMImplementationList
+     * org.w3c.dom.bootstrap.DOMImplementationRegistry.getDOMImplementationList(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDOMImplementationList_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

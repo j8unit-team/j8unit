@@ -23,30 +23,15 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipOutputStream#setMethod(int) public void
-     * java.util.zip.ZipOutputStream.setMethod(int)}.
+     * Test method for {@link java.util.zip.ZipOutputStream#close() public void java.util.zip.ZipOutputStream.close()
+     * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setMethod_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.ZipOutputStream#putNextEntry(java.util.zip.ZipEntry) public void
-     * java.util.zip.ZipOutputStream.putNextEntry(java.util.zip.ZipEntry) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_putNextEntry_ZipEntry()
+    @Override
+    public default void test_close()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -63,22 +48,6 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_closeEntry()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.zip.ZipOutputStream#setComment(java.lang.String) public void
-     * java.util.zip.ZipOutputStream.setComment(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setComment_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,15 +73,14 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipOutputStream#write(byte[],int,int) public synchronized void
-     * java.util.zip.ZipOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     * Test method for {@link java.util.zip.ZipOutputStream#putNextEntry(java.util.zip.ZipEntry) public void
+     * java.util.zip.ZipOutputStream.putNextEntry(java.util.zip.ZipEntry) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_write_byteArray_int_int()
+    public default void test_putNextEntry_ZipEntry()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,15 +89,14 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipOutputStream#close() public void java.util.zip.ZipOutputStream.close()
-     * throws java.io.IOException}.
+     * Test method for {@link java.util.zip.ZipOutputStream#setComment(java.lang.String) public void
+     * java.util.zip.ZipOutputStream.setComment(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_close()
+    public default void test_setComment_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -146,6 +113,39 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setLevel_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.ZipOutputStream#setMethod(int) public void
+     * java.util.zip.ZipOutputStream.setMethod(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMethod_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.zip.ZipOutputStream#write(byte[],int,int) public synchronized void
+     * java.util.zip.ZipOutputStream.write(byte[],int,int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_write_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

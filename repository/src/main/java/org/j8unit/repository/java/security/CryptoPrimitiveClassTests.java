@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface CryptoPrimitiveClassTests<SUT extends Class<? extends java.security.CryptoPrimitive>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.CryptoPrimitive> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.security.CryptoPrimitive#valueOf(java.lang.String) public static
+     * java.security.CryptoPrimitive java.security.CryptoPrimitive.valueOf(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_valueOf_String()
     throws Exception {
-        // create new instance
-        final Class<? extends java.security.CryptoPrimitive> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.CryptoPrimitive.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -61,20 +67,14 @@ extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.Crypto
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.security.CryptoPrimitive#valueOf(java.lang.String) public static
-     * java.security.CryptoPrimitive java.security.CryptoPrimitive.valueOf(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_valueOf_String()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.security.CryptoPrimitive> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.CryptoPrimitive.class.isAssignableFrom(sut));
     }
 
 }

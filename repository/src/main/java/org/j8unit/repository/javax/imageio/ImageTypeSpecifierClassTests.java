@@ -36,20 +36,6 @@ public abstract interface ImageTypeSpecifierClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.imageio.ImageTypeSpecifier#ImageTypeSpecifier(java.awt.image.RenderedImage) public
-     * javax.imageio.ImageTypeSpecifier(java.awt.image.RenderedImage)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ImageTypeSpecifier_RenderedImage()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.imageio.ImageTypeSpecifier sut = null; // = new ImageTypeSpecifier(java.awt.image.RenderedImage);
-    }
-
-    /**
      * Test method for
      * {@link javax.imageio.ImageTypeSpecifier#ImageTypeSpecifier(java.awt.image.ColorModel,java.awt.image.SampleModel)
      * public javax.imageio.ImageTypeSpecifier(java.awt.image.ColorModel,java.awt.image.SampleModel)}.
@@ -65,14 +51,18 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                                                            // ImageTypeSpecifier(java.awt.image.ColorModel,java.awt.image.SampleModel);
     }
 
-    @Override
+    /**
+     * Test method for {@link javax.imageio.ImageTypeSpecifier#ImageTypeSpecifier(java.awt.image.RenderedImage) public
+     * javax.imageio.ImageTypeSpecifier(java.awt.image.RenderedImage)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_ImageTypeSpecifier_RenderedImage()
     throws Exception {
         // create new instance
-        final Class<? extends javax.imageio.ImageTypeSpecifier> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.imageio.ImageTypeSpecifier.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final javax.imageio.ImageTypeSpecifier sut = null; // = new ImageTypeSpecifier(java.awt.image.RenderedImage);
     }
 
     /**
@@ -95,6 +85,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.imageio.ImageTypeSpecifier#createFromBufferedImageType(int) public static
+     * javax.imageio.ImageTypeSpecifier javax.imageio.ImageTypeSpecifier.createFromBufferedImageType(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createFromBufferedImageType_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.imageio.ImageTypeSpecifier#createFromRenderedImage(java.awt.image.RenderedImage)
      * public static javax.imageio.ImageTypeSpecifier
      * javax.imageio.ImageTypeSpecifier.createFromRenderedImage(java.awt.image.RenderedImage)}.
@@ -104,24 +110,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_createFromRenderedImage_RenderedImage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.imageio.ImageTypeSpecifier#createPacked(java.awt.color.ColorSpace,int,int,int,int,int,boolean)
-     * public static javax.imageio.ImageTypeSpecifier
-     * javax.imageio.ImageTypeSpecifier.createPacked(java.awt.color.ColorSpace,int,int,int,int,int,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createPacked_ColorSpace_int_int_int_int_int_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -162,6 +150,23 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.imageio.ImageTypeSpecifier#createIndexed(byte[],byte[],byte[],byte[],int,int) public
+     * static javax.imageio.ImageTypeSpecifier
+     * javax.imageio.ImageTypeSpecifier.createIndexed(byte[],byte[],byte[],byte[],int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createIndexed_byteArray_byteArray_byteArray_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link javax.imageio.ImageTypeSpecifier#createInterleaved(java.awt.color.ColorSpace,int[],int,boolean,boolean)
      * public static javax.imageio.ImageTypeSpecifier
@@ -180,35 +185,30 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.ImageTypeSpecifier#createIndexed(byte[],byte[],byte[],byte[],int,int) public
-     * static javax.imageio.ImageTypeSpecifier
-     * javax.imageio.ImageTypeSpecifier.createIndexed(byte[],byte[],byte[],byte[],int,int)}.
+     * Test method for
+     * {@link javax.imageio.ImageTypeSpecifier#createPacked(java.awt.color.ColorSpace,int,int,int,int,int,boolean)
+     * public static javax.imageio.ImageTypeSpecifier
+     * javax.imageio.ImageTypeSpecifier.createPacked(java.awt.color.ColorSpace,int,int,int,int,int,boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createIndexed_byteArray_byteArray_byteArray_byteArray_int_int()
+    public default void test_createPacked_ColorSpace_int_int_int_int_int_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.ImageTypeSpecifier#createFromBufferedImageType(int) public static
-     * javax.imageio.ImageTypeSpecifier javax.imageio.ImageTypeSpecifier.createFromBufferedImageType(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_createFromBufferedImageType_int()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.imageio.ImageTypeSpecifier> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.imageio.ImageTypeSpecifier.class.isAssignableFrom(sut));
     }
 
 }

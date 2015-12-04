@@ -39,14 +39,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanOperationInfo#getSignature() public
-     * javax.management.MBeanParameterInfo[] javax.management.MBeanOperationInfo.getSignature()}.
+     * Test method for {@link javax.management.MBeanOperationInfo#equals(java.lang.Object) public boolean
+     * javax.management.MBeanOperationInfo.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSignature()
+    @Override
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,15 +56,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanOperationInfo#toString() public java.lang.String
-     * javax.management.MBeanOperationInfo.toString()}.
+     * Test method for {@link javax.management.MBeanOperationInfo#getImpact() public int
+     * javax.management.MBeanOperationInfo.getImpact()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getImpact()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,14 +88,14 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanOperationInfo#getImpact() public int
-     * javax.management.MBeanOperationInfo.getImpact()}.
+     * Test method for {@link javax.management.MBeanOperationInfo#getSignature() public
+     * javax.management.MBeanParameterInfo[] javax.management.MBeanOperationInfo.getSignature()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getImpact()
+    public default void test_getSignature()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -121,15 +121,15 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanOperationInfo#equals(java.lang.Object) public boolean
-     * javax.management.MBeanOperationInfo.equals(java.lang.Object)}.
+     * Test method for {@link javax.management.MBeanOperationInfo#toString() public java.lang.String
+     * javax.management.MBeanOperationInfo.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

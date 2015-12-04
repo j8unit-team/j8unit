@@ -36,16 +36,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface XmlJavaTypeAdapterClassTests<SUT extends Class<? extends javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter>>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter$DEFAULT class
@@ -100,6 +90,16 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
             assertTrue(javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.DEFAULT.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.class.isAssignableFrom(sut));
     }
 
 }

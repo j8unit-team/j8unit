@@ -39,6 +39,22 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.w3c.dom.events.UIEvent#getView() public abstract org.w3c.dom.views.AbstractView
+     * org.w3c.dom.events.UIEvent.getView()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getView()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link org.w3c.dom.events.UIEvent#initUIEvent(java.lang.String,boolean,boolean,org.w3c.dom.views.AbstractView,int)
      * public abstract void
@@ -49,22 +65,6 @@ extends org.j8unit.repository.org.w3c.dom.events.EventTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_initUIEvent_String_boolean_boolean_AbstractView_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.events.UIEvent#getView() public abstract org.w3c.dom.views.AbstractView
-     * org.w3c.dom.events.UIEvent.getView()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getView()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

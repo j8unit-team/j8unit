@@ -35,20 +35,6 @@ public abstract interface SignerClassTests<SUT extends Class<? extends java.secu
 extends org.j8unit.repository.java.security.IdentityClassTests<SUT> {
 
     /**
-     * Test method for {@link java.security.Signer#Signer(java.lang.String,java.security.IdentityScope) public
-     * java.security.Signer(java.lang.String,java.security.IdentityScope) throws java.security.KeyManagementException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Signer_String_IdentityScope()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.security.Signer sut = null; // = new Signer(java.lang.String,java.security.IdentityScope);
-    }
-
-    /**
      * Test method for {@link java.security.Signer#Signer(java.lang.String) public
      * java.security.Signer(java.lang.String)}.
      */
@@ -60,6 +46,20 @@ extends org.j8unit.repository.java.security.IdentityClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.security.Signer sut = null; // = new Signer(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.security.Signer#Signer(java.lang.String,java.security.IdentityScope) public
+     * java.security.Signer(java.lang.String,java.security.IdentityScope) throws java.security.KeyManagementException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Signer_String_IdentityScope()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.security.Signer sut = null; // = new Signer(java.lang.String,java.security.IdentityScope);
     }
 
     @Override

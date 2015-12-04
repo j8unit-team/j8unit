@@ -24,22 +24,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.callback.ChoiceCallback#getSelectedIndexes() public int[]
-     * javax.security.auth.callback.ChoiceCallback.getSelectedIndexes()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSelectedIndexes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.security.auth.callback.ChoiceCallback#allowMultipleSelections() public boolean
      * javax.security.auth.callback.ChoiceCallback.allowMultipleSelections()}.
      * </p>
@@ -72,22 +56,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.callback.ChoiceCallback#setSelectedIndexes(int[]) public void
-     * javax.security.auth.callback.ChoiceCallback.setSelectedIndexes(int[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSelectedIndexes_intArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.security.auth.callback.ChoiceCallback#getDefaultChoice() public int
      * javax.security.auth.callback.ChoiceCallback.getDefaultChoice()}.
      * </p>
@@ -96,6 +64,38 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getDefaultChoice()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.callback.ChoiceCallback#getPrompt() public java.lang.String
+     * javax.security.auth.callback.ChoiceCallback.getPrompt()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrompt()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.callback.ChoiceCallback#getSelectedIndexes() public int[]
+     * javax.security.auth.callback.ChoiceCallback.getSelectedIndexes()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSelectedIndexes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -120,14 +120,14 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.callback.ChoiceCallback#getPrompt() public java.lang.String
-     * javax.security.auth.callback.ChoiceCallback.getPrompt()}.
+     * Test method for {@link javax.security.auth.callback.ChoiceCallback#setSelectedIndexes(int[]) public void
+     * javax.security.auth.callback.ChoiceCallback.setSelectedIndexes(int[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPrompt()
+    public default void test_setSelectedIndexes_intArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

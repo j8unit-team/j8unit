@@ -55,15 +55,15 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.sax.SAXResult#setSystemId(java.lang.String) public void
-     * javax.xml.transform.sax.SAXResult.setSystemId(java.lang.String)}.
+     * Test method for {@link javax.xml.transform.sax.SAXResult#getSystemId() public java.lang.String
+     * javax.xml.transform.sax.SAXResult.getSystemId()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setSystemId_String()
+    public default void test_getSystemId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,15 +104,15 @@ extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.sax.SAXResult#getSystemId() public java.lang.String
-     * javax.xml.transform.sax.SAXResult.getSystemId()}.
+     * Test method for {@link javax.xml.transform.sax.SAXResult#setSystemId(java.lang.String) public void
+     * javax.xml.transform.sax.SAXResult.setSystemId(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getSystemId()
+    public default void test_setSystemId_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

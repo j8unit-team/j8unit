@@ -24,24 +24,6 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextOperationsTests<SUT
 
     /**
      * <p>
-     * Test method for {@link org.omg.CosNaming.NamingContextExtOperations#to_url(java.lang.String,java.lang.String)
-     * public abstract java.lang.String
-     * org.omg.CosNaming.NamingContextExtOperations.to_url(java.lang.String,java.lang.String) throws
-     * org.omg.CosNaming.NamingContextExtPackage.InvalidAddress,org.omg.CosNaming.NamingContextPackage.InvalidName}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_to_url_String_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.CosNaming.NamingContextExtOperations#resolve_str(java.lang.String) public abstract
      * org.omg.CORBA.Object org.omg.CosNaming.NamingContextExtOperations.resolve_str(java.lang.String) throws
      * org.omg.CosNaming.NamingContextPackage.NotFound,org.omg.CosNaming.NamingContextPackage.CannotProceed,org.omg.CosNaming.NamingContextPackage.InvalidName}
@@ -87,6 +69,24 @@ extends org.j8unit.repository.org.omg.CosNaming.NamingContextOperationsTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_to_string_NameComponentArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CosNaming.NamingContextExtOperations#to_url(java.lang.String,java.lang.String)
+     * public abstract java.lang.String
+     * org.omg.CosNaming.NamingContextExtOperations.to_url(java.lang.String,java.lang.String) throws
+     * org.omg.CosNaming.NamingContextExtPackage.InvalidAddress,org.omg.CosNaming.NamingContextPackage.InvalidName}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_to_url_String_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

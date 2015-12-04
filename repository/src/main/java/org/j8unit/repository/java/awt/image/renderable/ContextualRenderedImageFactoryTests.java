@@ -25,6 +25,43 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderedImageFactoryTest
     /**
      * <p>
      * Test method for
+     * {@link java.awt.image.renderable.ContextualRenderedImageFactory#create(java.awt.image.renderable.RenderContext,java.awt.image.renderable.ParameterBlock)
+     * public abstract java.awt.image.RenderedImage
+     * java.awt.image.renderable.ContextualRenderedImageFactory.create(java.awt.image.renderable.RenderContext,java.awt.image.renderable.ParameterBlock)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_RenderContext_ParameterBlock()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.renderable.ContextualRenderedImageFactory#getBounds2D(java.awt.image.renderable.ParameterBlock)
+     * public abstract java.awt.geom.Rectangle2D
+     * java.awt.image.renderable.ContextualRenderedImageFactory.getBounds2D(java.awt.image.renderable.ParameterBlock)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getBounds2D_ParameterBlock()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link java.awt.image.renderable.ContextualRenderedImageFactory#getProperty(java.awt.image.renderable.ParameterBlock,java.lang.String)
      * public abstract java.lang.Object
      * java.awt.image.renderable.ContextualRenderedImageFactory.getProperty(java.awt.image.renderable.ParameterBlock,java.lang.String)}
@@ -35,6 +72,22 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderedImageFactoryTest
     @Test
     @Category(Draft.class)
     public default void test_getProperty_ParameterBlock_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.renderable.ContextualRenderedImageFactory#getPropertyNames() public
+     * abstract java.lang.String[] java.awt.image.renderable.ContextualRenderedImageFactory.getPropertyNames()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPropertyNames()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -70,59 +123,6 @@ extends org.j8unit.repository.java.awt.image.renderable.RenderedImageFactoryTest
     @Test
     @Category(Draft.class)
     public default void test_mapRenderContext_int_RenderContext_ParameterBlock_RenderableImage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.ContextualRenderedImageFactory#create(java.awt.image.renderable.RenderContext,java.awt.image.renderable.ParameterBlock)
-     * public abstract java.awt.image.RenderedImage
-     * java.awt.image.renderable.ContextualRenderedImageFactory.create(java.awt.image.renderable.RenderContext,java.awt.image.renderable.ParameterBlock)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_create_RenderContext_ParameterBlock()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.renderable.ContextualRenderedImageFactory#getPropertyNames() public
-     * abstract java.lang.String[] java.awt.image.renderable.ContextualRenderedImageFactory.getPropertyNames()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPropertyNames()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.image.renderable.ContextualRenderedImageFactory#getBounds2D(java.awt.image.renderable.ParameterBlock)
-     * public abstract java.awt.geom.Rectangle2D
-     * java.awt.image.renderable.ContextualRenderedImageFactory.getBounds2D(java.awt.image.renderable.ParameterBlock)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getBounds2D_ParameterBlock()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

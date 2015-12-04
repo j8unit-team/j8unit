@@ -23,39 +23,6 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.event.EventContext#removeNamingListener(javax.naming.event.NamingListener)
-     * public abstract void javax.naming.event.EventContext.removeNamingListener(javax.naming.event.NamingListener)
-     * throws javax.naming.NamingException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeNamingListener_NamingListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.event.EventContext#targetMustExist() public abstract boolean
-     * javax.naming.event.EventContext.targetMustExist() throws javax.naming.NamingException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_targetMustExist()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link javax.naming.event.EventContext#addNamingListener(javax.naming.Name,int,javax.naming.event.NamingListener)
      * public abstract void
@@ -86,6 +53,39 @@ extends org.j8unit.repository.javax.naming.ContextTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_addNamingListener_String_int_NamingListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.event.EventContext#removeNamingListener(javax.naming.event.NamingListener)
+     * public abstract void javax.naming.event.EventContext.removeNamingListener(javax.naming.event.NamingListener)
+     * throws javax.naming.NamingException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeNamingListener_NamingListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.event.EventContext#targetMustExist() public abstract boolean
+     * javax.naming.event.EventContext.targetMustExist() throws javax.naming.NamingException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_targetMustExist()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

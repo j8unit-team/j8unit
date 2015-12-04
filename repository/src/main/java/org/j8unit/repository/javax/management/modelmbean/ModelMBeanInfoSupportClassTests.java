@@ -38,20 +38,18 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoClassTes
 
     /**
      * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#ModelMBeanInfoSupport(java.lang.String,java.lang.String,javax.management.modelmbean.ModelMBeanAttributeInfo[],javax.management.modelmbean.ModelMBeanConstructorInfo[],javax.management.modelmbean.ModelMBeanOperationInfo[],javax.management.modelmbean.ModelMBeanNotificationInfo[],javax.management.Descriptor)
-     * public
-     * javax.management.modelmbean.ModelMBeanInfoSupport(java.lang.String,java.lang.String,javax.management.modelmbean.ModelMBeanAttributeInfo[],javax.management.modelmbean.ModelMBeanConstructorInfo[],javax.management.modelmbean.ModelMBeanOperationInfo[],javax.management.modelmbean.ModelMBeanNotificationInfo[],javax.management.Descriptor)}
-     * .
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#ModelMBeanInfoSupport(javax.management.modelmbean.ModelMBeanInfo)
+     * public javax.management.modelmbean.ModelMBeanInfoSupport(javax.management.modelmbean.ModelMBeanInfo)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ModelMBeanInfoSupport_String_String_ModelMBeanAttributeInfoArray_ModelMBeanConstructorInfoArray_ModelMBeanOperationInfoArray_ModelMBeanNotificationInfoArray_Descriptor()
+    public default void create_ModelMBeanInfoSupport_ModelMBeanInfo()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.management.modelmbean.ModelMBeanInfoSupport sut = null; // = new
-                                                                            // ModelMBeanInfoSupport(java.lang.String,java.lang.String,javax.management.modelmbean.ModelMBeanAttributeInfo[],javax.management.modelmbean.ModelMBeanConstructorInfo[],javax.management.modelmbean.ModelMBeanOperationInfo[],javax.management.modelmbean.ModelMBeanNotificationInfo[],javax.management.Descriptor);
+                                                                            // ModelMBeanInfoSupport(javax.management.modelmbean.ModelMBeanInfo);
     }
 
     /**
@@ -74,18 +72,20 @@ extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoClassTes
 
     /**
      * Test method for
-     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#ModelMBeanInfoSupport(javax.management.modelmbean.ModelMBeanInfo)
-     * public javax.management.modelmbean.ModelMBeanInfoSupport(javax.management.modelmbean.ModelMBeanInfo)}.
+     * {@link javax.management.modelmbean.ModelMBeanInfoSupport#ModelMBeanInfoSupport(java.lang.String,java.lang.String,javax.management.modelmbean.ModelMBeanAttributeInfo[],javax.management.modelmbean.ModelMBeanConstructorInfo[],javax.management.modelmbean.ModelMBeanOperationInfo[],javax.management.modelmbean.ModelMBeanNotificationInfo[],javax.management.Descriptor)
+     * public
+     * javax.management.modelmbean.ModelMBeanInfoSupport(java.lang.String,java.lang.String,javax.management.modelmbean.ModelMBeanAttributeInfo[],javax.management.modelmbean.ModelMBeanConstructorInfo[],javax.management.modelmbean.ModelMBeanOperationInfo[],javax.management.modelmbean.ModelMBeanNotificationInfo[],javax.management.Descriptor)}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ModelMBeanInfoSupport_ModelMBeanInfo()
+    public default void create_ModelMBeanInfoSupport_String_String_ModelMBeanAttributeInfoArray_ModelMBeanConstructorInfoArray_ModelMBeanOperationInfoArray_ModelMBeanNotificationInfoArray_Descriptor()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.management.modelmbean.ModelMBeanInfoSupport sut = null; // = new
-                                                                            // ModelMBeanInfoSupport(javax.management.modelmbean.ModelMBeanInfo);
+                                                                            // ModelMBeanInfoSupport(java.lang.String,java.lang.String,javax.management.modelmbean.ModelMBeanAttributeInfo[],javax.management.modelmbean.ModelMBeanConstructorInfo[],javax.management.modelmbean.ModelMBeanOperationInfo[],javax.management.modelmbean.ModelMBeanNotificationInfo[],javax.management.Descriptor);
     }
 
     @Override

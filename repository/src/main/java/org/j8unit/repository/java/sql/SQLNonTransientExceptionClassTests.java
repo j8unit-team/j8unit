@@ -36,68 +36,6 @@ public abstract interface SQLNonTransientExceptionClassTests<SUT extends Class<?
 extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.sql.SQLNonTransientException#SQLNonTransientException(java.lang.Throwable) public
-     * java.sql.SQLNonTransientException(java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLNonTransientException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLNonTransientException sut = null; // = new SQLNonTransientException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLNonTransientException#SQLNonTransientException(java.lang.String,java.lang.Throwable) public
-     * java.sql.SQLNonTransientException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLNonTransientException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLNonTransientException sut = null; // = new
-                                                            // SQLNonTransientException(java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLNonTransientException#SQLNonTransientException(java.lang.String,java.lang.String,java.lang.Throwable)
-     * public java.sql.SQLNonTransientException(java.lang.String,java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLNonTransientException_String_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLNonTransientException sut = null; // = new
-                                                            // SQLNonTransientException(java.lang.String,java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLNonTransientException#SQLNonTransientException(java.lang.String,java.lang.String,int,java.lang.Throwable)
-     * public java.sql.SQLNonTransientException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLNonTransientException_String_String_int_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLNonTransientException sut = null; // = new
-                                                            // SQLNonTransientException(java.lang.String,java.lang.String,int,java.lang.Throwable);
-    }
-
-    /**
      * Test method for {@link java.sql.SQLNonTransientException#SQLNonTransientException() public
      * java.sql.SQLNonTransientException()}.
      */
@@ -155,6 +93,68 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.sql.SQLNonTransientException sut = null; // = new
                                                             // SQLNonTransientException(java.lang.String,java.lang.String,int);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLNonTransientException#SQLNonTransientException(java.lang.String,java.lang.String,int,java.lang.Throwable)
+     * public java.sql.SQLNonTransientException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLNonTransientException_String_String_int_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLNonTransientException sut = null; // = new
+                                                            // SQLNonTransientException(java.lang.String,java.lang.String,int,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLNonTransientException#SQLNonTransientException(java.lang.String,java.lang.String,java.lang.Throwable)
+     * public java.sql.SQLNonTransientException(java.lang.String,java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLNonTransientException_String_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLNonTransientException sut = null; // = new
+                                                            // SQLNonTransientException(java.lang.String,java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLNonTransientException#SQLNonTransientException(java.lang.String,java.lang.Throwable) public
+     * java.sql.SQLNonTransientException(java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLNonTransientException_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLNonTransientException sut = null; // = new
+                                                            // SQLNonTransientException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link java.sql.SQLNonTransientException#SQLNonTransientException(java.lang.Throwable) public
+     * java.sql.SQLNonTransientException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLNonTransientException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLNonTransientException sut = null; // = new SQLNonTransientException(java.lang.Throwable);
     }
 
     @Override

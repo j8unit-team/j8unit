@@ -35,16 +35,6 @@ public abstract interface ComponentClassTests<SUT extends Class<? extends java.a
 extends org.j8unit.repository.java.awt.image.ImageObserverClassTests<SUT>, org.j8unit.repository.java.awt.MenuContainerClassTests<SUT>,
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.Component> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.Component.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link java.awt.Component$BaselineResizeBehavior class java.awt.Component$BaselineResizeBehavior},
@@ -73,16 +63,6 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     @Category(J8UnitRepository.class)
     public static abstract interface BaselineResizeBehaviorClassTests<SUT extends Class<? extends java.awt.Component.BaselineResizeBehavior>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.Component.BaselineResizeBehavior> {
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends java.awt.Component.BaselineResizeBehavior> sut = createNewSUT();
-            // assert assignability
-            assertTrue(java.awt.Component.BaselineResizeBehavior.class.isAssignableFrom(sut));
-        }
 
         /**
          * <p>
@@ -117,6 +97,26 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
             assert sut != null;
         }
 
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends java.awt.Component.BaselineResizeBehavior> sut = createNewSUT();
+            // assert assignability
+            assertTrue(java.awt.Component.BaselineResizeBehavior.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.Component> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.Component.class.isAssignableFrom(sut));
     }
 
 }

@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface JavaFileObjectClassTests<SUT extends Class<? extends javax.tools.JavaFileObject>>
 extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.tools.JavaFileObject> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.tools.JavaFileObject.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.tools.JavaFileObject$Kind class javax.tools.JavaFileObject$Kind}, containing all
@@ -74,14 +64,20 @@ extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
     public static abstract interface KindClassTests<SUT extends Class<? extends javax.tools.JavaFileObject.Kind>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.tools.JavaFileObject.Kind> {
 
-        @Override
+        /**
+         * <p>
+         * Test method for {@link javax.tools.JavaFileObject.Kind#valueOf(java.lang.String) public static
+         * javax.tools.JavaFileObject$Kind javax.tools.JavaFileObject$Kind.valueOf(java.lang.String)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
+        @Category(Draft.class)
+        public default void test_valueOf_String()
         throws Exception {
-            // create new instance
-            final Class<? extends javax.tools.JavaFileObject.Kind> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.tools.JavaFileObject.Kind.class.isAssignableFrom(sut));
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
         }
 
         /**
@@ -100,22 +96,26 @@ extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT> {
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for {@link javax.tools.JavaFileObject.Kind#valueOf(java.lang.String) public static
-         * javax.tools.JavaFileObject$Kind javax.tools.JavaFileObject$Kind.valueOf(java.lang.String)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Override
         @Test
-        @Category(Draft.class)
-        public default void test_valueOf_String()
+        public default void testBaseTypeIsAssignableFromCurrentType()
         throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
+            // create new instance
+            final Class<? extends javax.tools.JavaFileObject.Kind> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.tools.JavaFileObject.Kind.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.tools.JavaFileObject> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.tools.JavaFileObject.class.isAssignableFrom(sut));
     }
 
 }

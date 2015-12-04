@@ -36,20 +36,33 @@ public abstract interface ContentModelClassTests<SUT extends Class<? extends jav
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.swing.text.html.parser.ContentModel#ContentModel(int,java.lang.Object,javax.swing.text.html.parser.ContentModel)
-     * public javax.swing.text.html.parser.ContentModel(int,java.lang.Object,javax.swing.text.html.parser.ContentModel)}
-     * .
+     * Test method for {@link javax.swing.text.html.parser.ContentModel#ContentModel() public
+     * javax.swing.text.html.parser.ContentModel()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ContentModel_int_Object_ContentModel()
+    public default void create_ContentModel()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.html.parser.ContentModel sut = null; // = new ContentModel();
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.text.html.parser.ContentModel#ContentModel(javax.swing.text.html.parser.Element) public
+     * javax.swing.text.html.parser.ContentModel(javax.swing.text.html.parser.Element)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ContentModel_Element()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.text.html.parser.ContentModel sut = null; // = new
-                                                                    // ContentModel(int,java.lang.Object,javax.swing.text.html.parser.ContentModel);
+                                                                    // ContentModel(javax.swing.text.html.parser.Element);
     }
 
     /**
@@ -70,32 +83,19 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 
     /**
      * Test method for
-     * {@link javax.swing.text.html.parser.ContentModel#ContentModel(javax.swing.text.html.parser.Element) public
-     * javax.swing.text.html.parser.ContentModel(javax.swing.text.html.parser.Element)}.
+     * {@link javax.swing.text.html.parser.ContentModel#ContentModel(int,java.lang.Object,javax.swing.text.html.parser.ContentModel)
+     * public javax.swing.text.html.parser.ContentModel(int,java.lang.Object,javax.swing.text.html.parser.ContentModel)}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ContentModel_Element()
+    public default void create_ContentModel_int_Object_ContentModel()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.text.html.parser.ContentModel sut = null; // = new
-                                                                    // ContentModel(javax.swing.text.html.parser.Element);
-    }
-
-    /**
-     * Test method for {@link javax.swing.text.html.parser.ContentModel#ContentModel() public
-     * javax.swing.text.html.parser.ContentModel()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ContentModel()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.html.parser.ContentModel sut = null; // = new ContentModel();
+                                                                    // ContentModel(int,java.lang.Object,javax.swing.text.html.parser.ContentModel);
     }
 
     @Override

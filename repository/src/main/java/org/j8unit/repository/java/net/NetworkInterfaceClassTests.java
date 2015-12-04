@@ -35,14 +35,37 @@ import org.junit.experimental.categories.Category;
 public abstract interface NetworkInterfaceClassTests<SUT extends Class<? extends java.net.NetworkInterface>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.net.NetworkInterface#getByIndex(int) public static java.net.NetworkInterface
+     * java.net.NetworkInterface.getByIndex(int) throws java.net.SocketException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getByIndex_int()
     throws Exception {
-        // create new instance
-        final Class<? extends java.net.NetworkInterface> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.net.NetworkInterface.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.NetworkInterface#getByInetAddress(java.net.InetAddress) public static
+     * java.net.NetworkInterface java.net.NetworkInterface.getByInetAddress(java.net.InetAddress) throws
+     * java.net.SocketException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getByInetAddress_InetAddress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -77,37 +100,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.net.NetworkInterface#getByInetAddress(java.net.InetAddress) public static
-     * java.net.NetworkInterface java.net.NetworkInterface.getByInetAddress(java.net.InetAddress) throws
-     * java.net.SocketException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getByInetAddress_InetAddress()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.net.NetworkInterface#getByIndex(int) public static java.net.NetworkInterface
-     * java.net.NetworkInterface.getByIndex(int) throws java.net.SocketException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getByIndex_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.net.NetworkInterface> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.NetworkInterface.class.isAssignableFrom(sut));
     }
 
 }

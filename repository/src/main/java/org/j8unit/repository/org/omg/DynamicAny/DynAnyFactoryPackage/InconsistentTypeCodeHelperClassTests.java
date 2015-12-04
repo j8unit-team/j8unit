@@ -52,34 +52,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                                                                                              // InconsistentTypeCodeHelper();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper#read(org.omg.CORBA.portable.InputStream)
-     * public static org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode
-     * org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for
@@ -92,6 +64,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_extract_Any()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper#id() public static
+     * java.lang.String org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper.id()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_id()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +107,32 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper#id() public static
-     * java.lang.String org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper.id()}.
+     * Test method for
+     * {@link org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper#read(org.omg.CORBA.portable.InputStream)
+     * public static org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCode
+     * org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_id()
+    public default void test_read_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper#type() public static
+     * synchronized org.omg.CORBA.TypeCode org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper.type()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_type()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -152,20 +158,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper#type() public static
-     * synchronized org.omg.CORBA.TypeCode org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper.type()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_type()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.DynamicAny.DynAnyFactoryPackage.InconsistentTypeCodeHelper.class.isAssignableFrom(sut));
     }
 
 }

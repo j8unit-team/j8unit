@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.lang.model.AnnotatedConstruct#getAnnotationsByType(java.lang.Class) public abstract
-     * java.lang.annotation.Annotation[] javax.lang.model.AnnotatedConstruct.getAnnotationsByType(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAnnotationsByType_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.lang.model.AnnotatedConstruct#getAnnotation(java.lang.Class) public abstract
      * java.lang.annotation.Annotation javax.lang.model.AnnotatedConstruct.getAnnotation(java.lang.Class)}.
      * </p>
@@ -64,6 +48,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAnnotationMirrors()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.lang.model.AnnotatedConstruct#getAnnotationsByType(java.lang.Class) public abstract
+     * java.lang.annotation.Annotation[] javax.lang.model.AnnotatedConstruct.getAnnotationsByType(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAnnotationsByType_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.CookieStore#removeAll() public abstract boolean java.net.CookieStore.removeAll()}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeAll()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.net.CookieStore#add(java.net.URI,java.net.HttpCookie) public abstract void
      * java.net.CookieStore.add(java.net.URI,java.net.HttpCookie)}.
      * </p>
@@ -112,6 +96,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_remove_URI_HttpCookie()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.CookieStore#removeAll() public abstract boolean java.net.CookieStore.removeAll()}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeAll()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,22 +24,6 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link java.beans.beancontext.BeanContextServiceAvailableEvent#getServiceClass() public
-     * java.lang.Class java.beans.beancontext.BeanContextServiceAvailableEvent.getServiceClass()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getServiceClass()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.beans.beancontext.BeanContextServiceAvailableEvent#getCurrentServiceSelectors()
      * public java.util.Iterator java.beans.beancontext.BeanContextServiceAvailableEvent.getCurrentServiceSelectors()}.
      * </p>
@@ -48,6 +32,22 @@ extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> 
     @Test
     @Category(Draft.class)
     public default void test_getCurrentServiceSelectors()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.beancontext.BeanContextServiceAvailableEvent#getServiceClass() public
+     * java.lang.Class java.beans.beancontext.BeanContextServiceAvailableEvent.getServiceClass()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getServiceClass()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

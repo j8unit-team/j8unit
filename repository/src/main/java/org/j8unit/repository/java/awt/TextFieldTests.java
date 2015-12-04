@@ -23,13 +23,45 @@ extends org.j8unit.repository.java.awt.TextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TextField#getColumns() public int java.awt.TextField.getColumns()}.
+     * Test method for {@link java.awt.TextField#addActionListener(java.awt.event.ActionListener) public synchronized
+     * void java.awt.TextField.addActionListener(java.awt.event.ActionListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getColumns()
+    public default void test_addActionListener_ActionListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.TextField#addNotify() public void java.awt.TextField.addNotify()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_addNotify()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.TextField#echoCharIsSet() public boolean java.awt.TextField.echoCharIsSet()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_echoCharIsSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +87,14 @@ extends org.j8unit.repository.java.awt.TextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TextField#setEchoCharacter(char) public synchronized void
-     * java.awt.TextField.setEchoCharacter(char)}.
+     * Test method for {@link java.awt.TextField#getActionListeners() public synchronized
+     * java.awt.event.ActionListener[] java.awt.TextField.getActionListeners()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setEchoCharacter_char()
+    public default void test_getActionListeners()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +103,28 @@ extends org.j8unit.repository.java.awt.TextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TextField#addActionListener(java.awt.event.ActionListener) public synchronized
-     * void java.awt.TextField.addActionListener(java.awt.event.ActionListener)}.
+     * Test method for {@link java.awt.TextField#getColumns() public int java.awt.TextField.getColumns()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addActionListener_ActionListener()
+    public default void test_getColumns()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.TextField#getEchoChar() public char java.awt.TextField.getEchoChar()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEchoChar()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,124 +150,15 @@ extends org.j8unit.repository.java.awt.TextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TextField#setColumns(int) public void java.awt.TextField.setColumns(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setColumns_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.TextField#setText(java.lang.String) public void
-     * java.awt.TextField.setText(java.lang.String)}.
+     * Test method for {@link java.awt.TextField#getMinimumSize() public java.awt.Dimension
+     * java.awt.TextField.getMinimumSize()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setText_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.TextField#getEchoChar() public char java.awt.TextField.getEchoChar()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEchoChar()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.TextField#echoCharIsSet() public boolean java.awt.TextField.echoCharIsSet()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_echoCharIsSet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.TextField#setEchoChar(char) public void java.awt.TextField.setEchoChar(char)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setEchoChar_char()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.TextField#preferredSize() public java.awt.Dimension
-     * java.awt.TextField.preferredSize()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_preferredSize()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.TextField#preferredSize(int) public java.awt.Dimension
-     * java.awt.TextField.preferredSize(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_preferredSize_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.TextField#getActionListeners() public synchronized
-     * java.awt.event.ActionListener[] java.awt.TextField.getActionListeners()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getActionListeners()
+    public default void test_getMinimumSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -246,15 +183,31 @@ extends org.j8unit.repository.java.awt.TextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TextField#getMinimumSize() public java.awt.Dimension
-     * java.awt.TextField.getMinimumSize()}.
+     * Test method for {@link java.awt.TextField#getPreferredSize() public java.awt.Dimension
+     * java.awt.TextField.getPreferredSize()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getMinimumSize()
+    public default void test_getPreferredSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.TextField#getPreferredSize(int) public java.awt.Dimension
+     * java.awt.TextField.getPreferredSize(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPreferredSize_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -296,6 +249,39 @@ extends org.j8unit.repository.java.awt.TextComponentTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.TextField#preferredSize() public java.awt.Dimension
+     * java.awt.TextField.preferredSize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_preferredSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.TextField#preferredSize(int) public java.awt.Dimension
+     * java.awt.TextField.preferredSize(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_preferredSize_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.TextField#removeActionListener(java.awt.event.ActionListener) public synchronized
      * void java.awt.TextField.removeActionListener(java.awt.event.ActionListener)}.
      * </p>
@@ -312,14 +298,13 @@ extends org.j8unit.repository.java.awt.TextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TextField#addNotify() public void java.awt.TextField.addNotify()}.
+     * Test method for {@link java.awt.TextField#setColumns(int) public void java.awt.TextField.setColumns(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_addNotify()
+    public default void test_setColumns_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -328,14 +313,13 @@ extends org.j8unit.repository.java.awt.TextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TextField#getPreferredSize(int) public java.awt.Dimension
-     * java.awt.TextField.getPreferredSize(int)}.
+     * Test method for {@link java.awt.TextField#setEchoChar(char) public void java.awt.TextField.setEchoChar(char)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPreferredSize_int()
+    public default void test_setEchoChar_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -344,15 +328,31 @@ extends org.j8unit.repository.java.awt.TextComponentTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TextField#getPreferredSize() public java.awt.Dimension
-     * java.awt.TextField.getPreferredSize()}.
+     * Test method for {@link java.awt.TextField#setEchoCharacter(char) public synchronized void
+     * java.awt.TextField.setEchoCharacter(char)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setEchoCharacter_char()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.TextField#setText(java.lang.String) public void
+     * java.awt.TextField.setText(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getPreferredSize()
+    public default void test_setText_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

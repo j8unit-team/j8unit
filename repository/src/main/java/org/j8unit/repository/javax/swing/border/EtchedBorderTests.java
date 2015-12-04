@@ -23,55 +23,6 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#getShadowColor(java.awt.Component) public java.awt.Color
-     * javax.swing.border.EtchedBorder.getShadowColor(java.awt.Component)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getShadowColor_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#getShadowColor() public java.awt.Color
-     * javax.swing.border.EtchedBorder.getShadowColor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getShadowColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.border.EtchedBorder#isBorderOpaque() public boolean
-     * javax.swing.border.EtchedBorder.isBorderOpaque()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isBorderOpaque()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.border.EtchedBorder#getBorderInsets(java.awt.Component,java.awt.Insets) public
      * java.awt.Insets javax.swing.border.EtchedBorder.getBorderInsets(java.awt.Component,java.awt.Insets)}.
      * </p>
@@ -105,24 +56,6 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.border.EtchedBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int) public
-     * void javax.swing.border.EtchedBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_paintBorder_Component_Graphics_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.border.EtchedBorder#getHighlightColor() public java.awt.Color
      * javax.swing.border.EtchedBorder.getHighlightColor()}.
      * </p>
@@ -147,6 +80,73 @@ extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getHighlightColor_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.EtchedBorder#getShadowColor() public java.awt.Color
+     * javax.swing.border.EtchedBorder.getShadowColor()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getShadowColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.EtchedBorder#getShadowColor(java.awt.Component) public java.awt.Color
+     * javax.swing.border.EtchedBorder.getShadowColor(java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getShadowColor_Component()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.border.EtchedBorder#isBorderOpaque() public boolean
+     * javax.swing.border.EtchedBorder.isBorderOpaque()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isBorderOpaque()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.border.EtchedBorder#paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int) public
+     * void javax.swing.border.EtchedBorder.paintBorder(java.awt.Component,java.awt.Graphics,int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paintBorder_Component_Graphics_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

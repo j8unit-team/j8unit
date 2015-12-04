@@ -36,88 +36,6 @@ public abstract interface ThreadPoolExecutorClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.util.concurrent.ThreadPoolExecutor#ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue)
-     * public
-     * java.util.concurrent.ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ThreadPoolExecutor_int_int_long_TimeUnit_BlockingQueue()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.ThreadPoolExecutor sut = null; // = new
-                                                                  // ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue);
-    }
-
-    /**
-     * Test method for
-     * {@link java.util.concurrent.ThreadPoolExecutor#ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.RejectedExecutionHandler)
-     * public
-     * java.util.concurrent.ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.RejectedExecutionHandler)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ThreadPoolExecutor_int_int_long_TimeUnit_BlockingQueue_RejectedExecutionHandler()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.ThreadPoolExecutor sut = null; // = new
-                                                                  // ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.RejectedExecutionHandler);
-    }
-
-    /**
-     * Test method for
-     * {@link java.util.concurrent.ThreadPoolExecutor#ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory,java.util.concurrent.RejectedExecutionHandler)
-     * public
-     * java.util.concurrent.ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory,java.util.concurrent.RejectedExecutionHandler)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ThreadPoolExecutor_int_int_long_TimeUnit_BlockingQueue_ThreadFactory_RejectedExecutionHandler()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.ThreadPoolExecutor sut = null; // = new
-                                                                  // ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory,java.util.concurrent.RejectedExecutionHandler);
-    }
-
-    /**
-     * Test method for
-     * {@link java.util.concurrent.ThreadPoolExecutor#ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory)
-     * public
-     * java.util.concurrent.ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ThreadPoolExecutor_int_int_long_TimeUnit_BlockingQueue_ThreadFactory()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.ThreadPoolExecutor sut = null; // = new
-                                                                  // ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.concurrent.ThreadPoolExecutor> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.concurrent.ThreadPoolExecutor.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link java.util.concurrent.ThreadPoolExecutor$AbortPolicy class
      * java.util.concurrent.ThreadPoolExecutor$AbortPolicy}, containing all class relevant test methods (at least the
@@ -340,6 +258,88 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
             assertTrue(java.util.concurrent.ThreadPoolExecutor.DiscardPolicy.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for
+     * {@link java.util.concurrent.ThreadPoolExecutor#ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue)
+     * public
+     * java.util.concurrent.ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ThreadPoolExecutor_int_int_long_TimeUnit_BlockingQueue()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.ThreadPoolExecutor sut = null; // = new
+                                                                  // ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue);
+    }
+
+    /**
+     * Test method for
+     * {@link java.util.concurrent.ThreadPoolExecutor#ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.RejectedExecutionHandler)
+     * public
+     * java.util.concurrent.ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.RejectedExecutionHandler)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ThreadPoolExecutor_int_int_long_TimeUnit_BlockingQueue_RejectedExecutionHandler()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.ThreadPoolExecutor sut = null; // = new
+                                                                  // ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.RejectedExecutionHandler);
+    }
+
+    /**
+     * Test method for
+     * {@link java.util.concurrent.ThreadPoolExecutor#ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory)
+     * public
+     * java.util.concurrent.ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ThreadPoolExecutor_int_int_long_TimeUnit_BlockingQueue_ThreadFactory()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.ThreadPoolExecutor sut = null; // = new
+                                                                  // ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory);
+    }
+
+    /**
+     * Test method for
+     * {@link java.util.concurrent.ThreadPoolExecutor#ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory,java.util.concurrent.RejectedExecutionHandler)
+     * public
+     * java.util.concurrent.ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory,java.util.concurrent.RejectedExecutionHandler)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ThreadPoolExecutor_int_int_long_TimeUnit_BlockingQueue_ThreadFactory_RejectedExecutionHandler()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.ThreadPoolExecutor sut = null; // = new
+                                                                  // ThreadPoolExecutor(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory,java.util.concurrent.RejectedExecutionHandler);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.concurrent.ThreadPoolExecutor> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.concurrent.ThreadPoolExecutor.class.isAssignableFrom(sut));
     }
 
 }

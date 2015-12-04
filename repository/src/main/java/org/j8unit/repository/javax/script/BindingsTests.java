@@ -57,6 +57,22 @@ extends org.j8unit.repository.java.util.MapTests<SUT, java.lang.String, java.lan
 
     /**
      * <p>
+     * Test method for {@link javax.script.Bindings#put(java.lang.String,java.lang.Object) public abstract
+     * java.lang.Object javax.script.Bindings.put(java.lang.String,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_put_String_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.script.Bindings#putAll(java.util.Map) public abstract void
      * javax.script.Bindings.putAll(java.util.Map)}.
      * </p>
@@ -83,22 +99,6 @@ extends org.j8unit.repository.java.util.MapTests<SUT, java.lang.String, java.lan
     @Category(Draft.class)
     @Override
     public default void test_remove_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.script.Bindings#put(java.lang.String,java.lang.Object) public abstract
-     * java.lang.Object javax.script.Bindings.put(java.lang.String,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_put_String_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

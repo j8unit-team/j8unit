@@ -23,23 +23,6 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.FileInputStream#skip(long) public native long java.io.FileInputStream.skip(long)
-     * throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_skip_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.io.FileInputStream#available() public native int java.io.FileInputStream.available()
      * throws java.io.IOException}.
      * </p>
@@ -49,22 +32,6 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_available()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.FileInputStream#getFD() public final java.io.FileDescriptor
-     * java.io.FileInputStream.getFD() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFD()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -90,15 +57,14 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.FileInputStream#read(byte[],int,int) public int
-     * java.io.FileInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * Test method for {@link java.io.FileInputStream#getChannel() public java.nio.channels.FileChannel
+     * java.io.FileInputStream.getChannel()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_read_byteArray_int_int()
+    public default void test_getChannel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -107,15 +73,14 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.FileInputStream#read(byte[]) public int java.io.FileInputStream.read(byte[])
-     * throws java.io.IOException}.
+     * Test method for {@link java.io.FileInputStream#getFD() public final java.io.FileDescriptor
+     * java.io.FileInputStream.getFD() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_read_byteArray()
+    public default void test_getFD()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -141,14 +106,49 @@ extends org.j8unit.repository.java.io.InputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.FileInputStream#getChannel() public java.nio.channels.FileChannel
-     * java.io.FileInputStream.getChannel()}.
+     * Test method for {@link java.io.FileInputStream#read(byte[]) public int java.io.FileInputStream.read(byte[])
+     * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getChannel()
+    @Override
+    public default void test_read_byteArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.FileInputStream#read(byte[],int,int) public int
+     * java.io.FileInputStream.read(byte[],int,int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_read_byteArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.FileInputStream#skip(long) public native long java.io.FileInputStream.skip(long)
+     * throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_skip_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

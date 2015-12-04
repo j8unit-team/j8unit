@@ -37,6 +37,19 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 org.j8unit.repository.java.lang.AppendableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.lang.StringBuffer#StringBuffer() public java.lang.StringBuffer()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_StringBuffer()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.StringBuffer sut = null; // = new StringBuffer();
+    }
+
+    /**
      * Test method for {@link java.lang.StringBuffer#StringBuffer(java.lang.CharSequence) public
      * java.lang.StringBuffer(java.lang.CharSequence)}.
      */
@@ -48,20 +61,6 @@ org.j8unit.repository.java.lang.AppendableClassTests<SUT>, org.j8unit.repository
         // create new instance
         @SuppressWarnings("unused")
         final java.lang.StringBuffer sut = null; // = new StringBuffer(java.lang.CharSequence);
-    }
-
-    /**
-     * Test method for {@link java.lang.StringBuffer#StringBuffer(java.lang.String) public
-     * java.lang.StringBuffer(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_StringBuffer_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.StringBuffer sut = null; // = new StringBuffer(java.lang.String);
     }
 
     /**
@@ -78,16 +77,17 @@ org.j8unit.repository.java.lang.AppendableClassTests<SUT>, org.j8unit.repository
     }
 
     /**
-     * Test method for {@link java.lang.StringBuffer#StringBuffer() public java.lang.StringBuffer()}.
+     * Test method for {@link java.lang.StringBuffer#StringBuffer(java.lang.String) public
+     * java.lang.StringBuffer(java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_StringBuffer()
+    public default void create_StringBuffer_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.StringBuffer sut = null; // = new StringBuffer();
+        final java.lang.StringBuffer sut = null; // = new StringBuffer(java.lang.String);
     }
 
     @Override

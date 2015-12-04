@@ -36,20 +36,6 @@ public abstract interface CompletionExceptionClassTests<SUT extends Class<? exte
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.concurrent.CompletionException#CompletionException(java.lang.Throwable) public
-     * java.util.concurrent.CompletionException(java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_CompletionException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.CompletionException sut = null; // = new CompletionException(java.lang.Throwable);
-    }
-
-    /**
      * Test method for
      * {@link java.util.concurrent.CompletionException#CompletionException(java.lang.String,java.lang.Throwable) public
      * java.util.concurrent.CompletionException(java.lang.String,java.lang.Throwable)}.
@@ -63,6 +49,20 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.util.concurrent.CompletionException sut = null; // = new
                                                                    // CompletionException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link java.util.concurrent.CompletionException#CompletionException(java.lang.Throwable) public
+     * java.util.concurrent.CompletionException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_CompletionException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.CompletionException sut = null; // = new CompletionException(java.lang.Throwable);
     }
 
     @Override

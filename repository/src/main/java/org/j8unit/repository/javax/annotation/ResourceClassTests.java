@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ResourceClassTests<SUT extends Class<? extends javax.annotation.Resource>>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.annotation.Resource> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.annotation.Resource.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.annotation.Resource$AuthenticationType class
@@ -74,16 +64,6 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
     @Category(J8UnitRepository.class)
     public static abstract interface AuthenticationTypeClassTests<SUT extends Class<? extends javax.annotation.Resource.AuthenticationType>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.annotation.Resource.AuthenticationType> {
-
-        @Override
-        @Test
-        public default void testBaseTypeIsAssignableFromCurrentType()
-        throws Exception {
-            // create new instance
-            final Class<? extends javax.annotation.Resource.AuthenticationType> sut = createNewSUT();
-            // assert assignability
-            assertTrue(javax.annotation.Resource.AuthenticationType.class.isAssignableFrom(sut));
-        }
 
         /**
          * <p>
@@ -118,6 +98,26 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
             assert sut != null;
         }
 
+        @Override
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
+            // create new instance
+            final Class<? extends javax.annotation.Resource.AuthenticationType> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.annotation.Resource.AuthenticationType.class.isAssignableFrom(sut));
+        }
+
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.annotation.Resource> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.annotation.Resource.class.isAssignableFrom(sut));
     }
 
 }

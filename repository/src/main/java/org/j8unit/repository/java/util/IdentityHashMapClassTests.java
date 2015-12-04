@@ -50,6 +50,19 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
     }
 
     /**
+     * Test method for {@link java.util.IdentityHashMap#IdentityHashMap(int) public java.util.IdentityHashMap(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_IdentityHashMap_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.IdentityHashMap<K, V> sut = null; // = new IdentityHashMap(int);
+    }
+
+    /**
      * Test method for {@link java.util.IdentityHashMap#IdentityHashMap(java.util.Map) public
      * java.util.IdentityHashMap(java.util.Map)}.
      */
@@ -61,19 +74,6 @@ org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.
         // create new instance
         @SuppressWarnings("unused")
         final java.util.IdentityHashMap<K, V> sut = null; // = new IdentityHashMap(java.util.Map);
-    }
-
-    /**
-     * Test method for {@link java.util.IdentityHashMap#IdentityHashMap(int) public java.util.IdentityHashMap(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_IdentityHashMap_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.IdentityHashMap<K, V> sut = null; // = new IdentityHashMap(int);
     }
 
     @Override

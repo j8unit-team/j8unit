@@ -36,17 +36,17 @@ public abstract interface FileHandlerClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.util.logging.StreamHandlerClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.logging.FileHandler#FileHandler(java.lang.String,int,int) public
-     * java.util.logging.FileHandler(java.lang.String,int,int) throws java.io.IOException,java.lang.SecurityException}.
+     * Test method for {@link java.util.logging.FileHandler#FileHandler() public java.util.logging.FileHandler() throws
+     * java.io.IOException,java.lang.SecurityException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_FileHandler_String_int_int()
+    public default void create_FileHandler()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.logging.FileHandler sut = null; // = new FileHandler(java.lang.String,int,int);
+        final java.util.logging.FileHandler sut = null; // = new FileHandler();
     }
 
     /**
@@ -64,17 +64,31 @@ extends org.j8unit.repository.java.util.logging.StreamHandlerClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.util.logging.FileHandler#FileHandler() public java.util.logging.FileHandler() throws
-     * java.io.IOException,java.lang.SecurityException}.
+     * Test method for {@link java.util.logging.FileHandler#FileHandler(java.lang.String,boolean) public
+     * java.util.logging.FileHandler(java.lang.String,boolean) throws java.io.IOException,java.lang.SecurityException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_FileHandler()
+    public default void create_FileHandler_String_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.logging.FileHandler sut = null; // = new FileHandler();
+        final java.util.logging.FileHandler sut = null; // = new FileHandler(java.lang.String,boolean);
+    }
+
+    /**
+     * Test method for {@link java.util.logging.FileHandler#FileHandler(java.lang.String,int,int) public
+     * java.util.logging.FileHandler(java.lang.String,int,int) throws java.io.IOException,java.lang.SecurityException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FileHandler_String_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.logging.FileHandler sut = null; // = new FileHandler(java.lang.String,int,int);
     }
 
     /**
@@ -90,20 +104,6 @@ extends org.j8unit.repository.java.util.logging.StreamHandlerClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.logging.FileHandler sut = null; // = new FileHandler(java.lang.String,int,int,boolean);
-    }
-
-    /**
-     * Test method for {@link java.util.logging.FileHandler#FileHandler(java.lang.String,boolean) public
-     * java.util.logging.FileHandler(java.lang.String,boolean) throws java.io.IOException,java.lang.SecurityException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FileHandler_String_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.logging.FileHandler sut = null; // = new FileHandler(java.lang.String,boolean);
     }
 
     @Override

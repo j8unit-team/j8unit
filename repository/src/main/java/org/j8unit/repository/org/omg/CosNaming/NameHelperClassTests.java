@@ -48,14 +48,36 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final org.omg.CosNaming.NameHelper sut = null; // = new NameHelper();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link org.omg.CosNaming.NameHelper#extract(org.omg.CORBA.Any) public static
+     * org.omg.CosNaming.NameComponent[] org.omg.CosNaming.NameHelper.extract(org.omg.CORBA.Any)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_extract_Any()
     throws Exception {
-        // create new instance
-        final Class<? extends org.omg.CosNaming.NameHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.CosNaming.NameHelper.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CosNaming.NameHelper#id() public static java.lang.String
+     * org.omg.CosNaming.NameHelper.id()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -76,14 +98,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CosNaming.NameHelper#id() public static java.lang.String
-     * org.omg.CosNaming.NameHelper.id()}.
+     * Test method for {@link org.omg.CosNaming.NameHelper#read(org.omg.CORBA.portable.InputStream) public static
+     * org.omg.CosNaming.NameComponent[] org.omg.CosNaming.NameHelper.read(org.omg.CORBA.portable.InputStream)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_id()
+    public default void test_read_InputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -124,36 +146,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link org.omg.CosNaming.NameHelper#read(org.omg.CORBA.portable.InputStream) public static
-     * org.omg.CosNaming.NameComponent[] org.omg.CosNaming.NameHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CosNaming.NameHelper#extract(org.omg.CORBA.Any) public static
-     * org.omg.CosNaming.NameComponent[] org.omg.CosNaming.NameHelper.extract(org.omg.CORBA.Any)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_extract_Any()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.CosNaming.NameHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.CosNaming.NameHelper.class.isAssignableFrom(sut));
     }
 
 }

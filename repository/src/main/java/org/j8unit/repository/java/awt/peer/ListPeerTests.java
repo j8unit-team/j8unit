@@ -23,30 +23,14 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.ListPeer#getSelectedIndexes() public abstract int[]
-     * java.awt.peer.ListPeer.getSelectedIndexes()}.
+     * Test method for {@link java.awt.peer.ListPeer#add(java.lang.String,int) public abstract void
+     * java.awt.peer.ListPeer.add(java.lang.String,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSelectedIndexes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.peer.ListPeer#getPreferredSize(int) public abstract java.awt.Dimension
-     * java.awt.peer.ListPeer.getPreferredSize(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPreferredSize_int()
+    public default void test_add_String_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +87,14 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.ListPeer#add(java.lang.String,int) public abstract void
-     * java.awt.peer.ListPeer.add(java.lang.String,int)}.
+     * Test method for {@link java.awt.peer.ListPeer#getPreferredSize(int) public abstract java.awt.Dimension
+     * java.awt.peer.ListPeer.getPreferredSize(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_add_String_int()
+    public default void test_getPreferredSize_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -119,14 +103,30 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.ListPeer#select(int) public abstract void
-     * java.awt.peer.ListPeer.select(int)}.
+     * Test method for {@link java.awt.peer.ListPeer#getSelectedIndexes() public abstract int[]
+     * java.awt.peer.ListPeer.getSelectedIndexes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_select_int()
+    public default void test_getSelectedIndexes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.ListPeer#makeVisible(int) public abstract void
+     * java.awt.peer.ListPeer.makeVisible(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_makeVisible_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -151,14 +151,14 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.ListPeer#setMultipleMode(boolean) public abstract void
-     * java.awt.peer.ListPeer.setMultipleMode(boolean)}.
+     * Test method for {@link java.awt.peer.ListPeer#select(int) public abstract void
+     * java.awt.peer.ListPeer.select(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setMultipleMode_boolean()
+    public default void test_select_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -167,14 +167,14 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.ListPeer#makeVisible(int) public abstract void
-     * java.awt.peer.ListPeer.makeVisible(int)}.
+     * Test method for {@link java.awt.peer.ListPeer#setMultipleMode(boolean) public abstract void
+     * java.awt.peer.ListPeer.setMultipleMode(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_makeVisible_int()
+    public default void test_setMultipleMode_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

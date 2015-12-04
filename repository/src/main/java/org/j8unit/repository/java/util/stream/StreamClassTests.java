@@ -35,129 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface StreamClassTests<SUT extends Class<? extends java.util.stream.Stream<T>>, T>
 extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java.util.stream.Stream<T>> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.stream.Stream<T>> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.stream.Stream.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.Stream#of(java.lang.Object...) public static java.util.stream.Stream
-     * java.util.stream.Stream.of(java.lang.Object...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_ObjectArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.Stream#of(java.lang.Object) public static java.util.stream.Stream
-     * java.util.stream.Stream.of(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.Stream#concat(java.util.stream.Stream,java.util.stream.Stream) public
-     * static java.util.stream.Stream java.util.stream.Stream.concat(java.util.stream.Stream,java.util.stream.Stream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_concat_Stream_Stream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.Stream#builder() public static java.util.stream.Stream$Builder
-     * java.util.stream.Stream.builder()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_builder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.Stream#empty() public static java.util.stream.Stream
-     * java.util.stream.Stream.empty()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_empty()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.Stream#iterate(java.lang.Object,java.util.function.UnaryOperator) public
-     * static java.util.stream.Stream
-     * java.util.stream.Stream.iterate(java.lang.Object,java.util.function.UnaryOperator)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_iterate_Object_UnaryOperator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.Stream#generate(java.util.function.Supplier) public static
-     * java.util.stream.Stream java.util.stream.Stream.generate(java.util.function.Supplier)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_generate_Supplier()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test class for {@link java.util.stream.Stream$Builder interface java.util.stream.Stream$Builder}, containing all
@@ -197,6 +74,129 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, T, java
             assertTrue(java.util.stream.Stream.Builder.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.Stream#builder() public static java.util.stream.Stream$Builder
+     * java.util.stream.Stream.builder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_builder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.Stream#concat(java.util.stream.Stream,java.util.stream.Stream) public
+     * static java.util.stream.Stream java.util.stream.Stream.concat(java.util.stream.Stream,java.util.stream.Stream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_concat_Stream_Stream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.Stream#empty() public static java.util.stream.Stream
+     * java.util.stream.Stream.empty()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_empty()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.Stream#generate(java.util.function.Supplier) public static
+     * java.util.stream.Stream java.util.stream.Stream.generate(java.util.function.Supplier)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_generate_Supplier()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.Stream#iterate(java.lang.Object,java.util.function.UnaryOperator) public
+     * static java.util.stream.Stream
+     * java.util.stream.Stream.iterate(java.lang.Object,java.util.function.UnaryOperator)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_iterate_Object_UnaryOperator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.Stream#of(java.lang.Object) public static java.util.stream.Stream
+     * java.util.stream.Stream.of(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.Stream#of(java.lang.Object...) public static java.util.stream.Stream
+     * java.util.stream.Stream.of(java.lang.Object...)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_ObjectArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.stream.Stream<T>> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.stream.Stream.class.isAssignableFrom(sut));
     }
 
 }

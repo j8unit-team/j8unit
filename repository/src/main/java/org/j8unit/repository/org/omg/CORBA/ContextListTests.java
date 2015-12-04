@@ -39,6 +39,21 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.omg.CORBA.ContextList#count() public abstract int org.omg.CORBA.ContextList.count()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_count()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.omg.CORBA.ContextList#item(int) public abstract java.lang.String
      * org.omg.CORBA.ContextList.item(int) throws org.omg.CORBA.Bounds}.
      * </p>
@@ -63,21 +78,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_remove_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.CORBA.ContextList#count() public abstract int org.omg.CORBA.ContextList.count()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_count()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

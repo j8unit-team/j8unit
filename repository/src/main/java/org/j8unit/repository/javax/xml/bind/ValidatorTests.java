@@ -24,14 +24,15 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.Validator#validate(java.lang.Object) public abstract boolean
-     * javax.xml.bind.Validator.validate(java.lang.Object) throws javax.xml.bind.JAXBException}.
+     * Test method for {@link javax.xml.bind.Validator#getEventHandler() public abstract
+     * javax.xml.bind.ValidationEventHandler javax.xml.bind.Validator.getEventHandler() throws
+     * javax.xml.bind.JAXBException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_validate_Object()
+    public default void test_getEventHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -40,14 +41,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.Validator#validateRoot(java.lang.Object) public abstract boolean
-     * javax.xml.bind.Validator.validateRoot(java.lang.Object) throws javax.xml.bind.JAXBException}.
+     * Test method for {@link javax.xml.bind.Validator#getProperty(java.lang.String) public abstract java.lang.Object
+     * javax.xml.bind.Validator.getProperty(java.lang.String) throws javax.xml.bind.PropertyException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_validateRoot_Object()
+    public default void test_getProperty_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -90,15 +91,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.Validator#getEventHandler() public abstract
-     * javax.xml.bind.ValidationEventHandler javax.xml.bind.Validator.getEventHandler() throws
-     * javax.xml.bind.JAXBException}.
+     * Test method for {@link javax.xml.bind.Validator#validate(java.lang.Object) public abstract boolean
+     * javax.xml.bind.Validator.validate(java.lang.Object) throws javax.xml.bind.JAXBException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getEventHandler()
+    public default void test_validate_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -107,14 +107,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.Validator#getProperty(java.lang.String) public abstract java.lang.Object
-     * javax.xml.bind.Validator.getProperty(java.lang.String) throws javax.xml.bind.PropertyException}.
+     * Test method for {@link javax.xml.bind.Validator#validateRoot(java.lang.Object) public abstract boolean
+     * javax.xml.bind.Validator.validateRoot(java.lang.Object) throws javax.xml.bind.JAXBException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getProperty_String()
+    public default void test_validateRoot_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

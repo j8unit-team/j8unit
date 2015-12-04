@@ -36,6 +36,19 @@ public abstract interface NotActiveExceptionClassTests<SUT extends Class<? exten
 extends org.j8unit.repository.java.io.ObjectStreamExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link java.io.NotActiveException#NotActiveException() public java.io.NotActiveException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_NotActiveException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.NotActiveException sut = null; // = new NotActiveException();
+    }
+
+    /**
      * Test method for {@link java.io.NotActiveException#NotActiveException(java.lang.String) public
      * java.io.NotActiveException(java.lang.String)}.
      */
@@ -47,19 +60,6 @@ extends org.j8unit.repository.java.io.ObjectStreamExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.NotActiveException sut = null; // = new NotActiveException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.io.NotActiveException#NotActiveException() public java.io.NotActiveException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_NotActiveException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.NotActiveException sut = null; // = new NotActiveException();
     }
 
     @Override

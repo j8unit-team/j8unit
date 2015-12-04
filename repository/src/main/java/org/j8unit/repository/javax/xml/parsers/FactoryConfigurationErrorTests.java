@@ -40,6 +40,22 @@ extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.parsers.FactoryConfigurationError#getException() public java.lang.Exception
+     * javax.xml.parsers.FactoryConfigurationError.getException()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getException()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.parsers.FactoryConfigurationError#getMessage() public java.lang.String
      * javax.xml.parsers.FactoryConfigurationError.getMessage()}.
      * </p>
@@ -49,22 +65,6 @@ extends org.j8unit.repository.java.lang.ErrorTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getMessage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.parsers.FactoryConfigurationError#getException() public java.lang.Exception
-     * javax.xml.parsers.FactoryConfigurationError.getException()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getException()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

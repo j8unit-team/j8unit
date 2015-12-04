@@ -36,20 +36,6 @@ public abstract interface AtomicBooleanClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.concurrent.atomic.AtomicBoolean#AtomicBoolean(boolean) public
-     * java.util.concurrent.atomic.AtomicBoolean(boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AtomicBoolean_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.atomic.AtomicBoolean sut = null; // = new AtomicBoolean(boolean);
-    }
-
-    /**
      * Test method for {@link java.util.concurrent.atomic.AtomicBoolean#AtomicBoolean() public
      * java.util.concurrent.atomic.AtomicBoolean()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // create new instance
         @SuppressWarnings("unused")
         final java.util.concurrent.atomic.AtomicBoolean sut = null; // = new AtomicBoolean();
+    }
+
+    /**
+     * Test method for {@link java.util.concurrent.atomic.AtomicBoolean#AtomicBoolean(boolean) public
+     * java.util.concurrent.atomic.AtomicBoolean(boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AtomicBoolean_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.atomic.AtomicBoolean sut = null; // = new AtomicBoolean(boolean);
     }
 
     @Override

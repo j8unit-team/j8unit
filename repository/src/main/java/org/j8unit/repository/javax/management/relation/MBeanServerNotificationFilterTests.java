@@ -24,54 +24,6 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
 
     /**
      * <p>
-     * Test method for {@link javax.management.relation.MBeanServerNotificationFilter#getDisabledObjectNames() public
-     * synchronized java.util.Vector javax.management.relation.MBeanServerNotificationFilter.getDisabledObjectNames()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDisabledObjectNames()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.MBeanServerNotificationFilter#enableAllObjectNames() public
-     * synchronized void javax.management.relation.MBeanServerNotificationFilter.enableAllObjectNames()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_enableAllObjectNames()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.relation.MBeanServerNotificationFilter#getEnabledObjectNames() public
-     * synchronized java.util.Vector javax.management.relation.MBeanServerNotificationFilter.getEnabledObjectNames()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEnabledObjectNames()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.relation.MBeanServerNotificationFilter#disableAllObjectNames() public
      * synchronized void javax.management.relation.MBeanServerNotificationFilter.disableAllObjectNames()}.
      * </p>
@@ -80,26 +32,6 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
     @Test
     @Category(Draft.class)
     public default void test_disableAllObjectNames()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.relation.MBeanServerNotificationFilter#isNotificationEnabled(javax.management.Notification)
-     * public synchronized boolean
-     * javax.management.relation.MBeanServerNotificationFilter.isNotificationEnabled(javax.management.Notification)
-     * throws java.lang.IllegalArgumentException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isNotificationEnabled_Notification()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -127,6 +59,22 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
 
     /**
      * <p>
+     * Test method for {@link javax.management.relation.MBeanServerNotificationFilter#enableAllObjectNames() public
+     * synchronized void javax.management.relation.MBeanServerNotificationFilter.enableAllObjectNames()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_enableAllObjectNames()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link javax.management.relation.MBeanServerNotificationFilter#enableObjectName(javax.management.ObjectName)
      * public synchronized void
@@ -138,6 +86,58 @@ extends org.j8unit.repository.javax.management.NotificationFilterSupportTests<SU
     @Test
     @Category(Draft.class)
     public default void test_enableObjectName_ObjectName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.MBeanServerNotificationFilter#getDisabledObjectNames() public
+     * synchronized java.util.Vector javax.management.relation.MBeanServerNotificationFilter.getDisabledObjectNames()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDisabledObjectNames()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.relation.MBeanServerNotificationFilter#getEnabledObjectNames() public
+     * synchronized java.util.Vector javax.management.relation.MBeanServerNotificationFilter.getEnabledObjectNames()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getEnabledObjectNames()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.relation.MBeanServerNotificationFilter#isNotificationEnabled(javax.management.Notification)
+     * public synchronized boolean
+     * javax.management.relation.MBeanServerNotificationFilter.isNotificationEnabled(javax.management.Notification)
+     * throws java.lang.IllegalArgumentException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isNotificationEnabled_Notification()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

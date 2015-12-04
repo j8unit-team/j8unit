@@ -23,6 +23,39 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.io.CharArrayReader#close() public void java.io.CharArrayReader.close()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.CharArrayReader#mark(int) public void java.io.CharArrayReader.mark(int) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_mark_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.io.CharArrayReader#markSupported() public boolean
      * java.io.CharArrayReader.markSupported()}.
      * </p>
@@ -32,23 +65,6 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_markSupported()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.CharArrayReader#ready() public boolean java.io.CharArrayReader.ready() throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_ready()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,23 +107,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.io.CharArrayReader#close() public void java.io.CharArrayReader.close()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.CharArrayReader#mark(int) public void java.io.CharArrayReader.mark(int) throws
+     * Test method for {@link java.io.CharArrayReader#ready() public boolean java.io.CharArrayReader.ready() throws
      * java.io.IOException}.
      * </p>
      */
@@ -115,7 +115,7 @@ extends org.j8unit.repository.java.io.ReaderTests<SUT> {
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_mark_int()
+    public default void test_ready()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

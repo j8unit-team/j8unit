@@ -36,17 +36,16 @@ public abstract interface PrintExceptionClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.print.PrintException#PrintException(java.lang.String,java.lang.Exception) public
-     * javax.print.PrintException(java.lang.String,java.lang.Exception)}.
+     * Test method for {@link javax.print.PrintException#PrintException() public javax.print.PrintException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_PrintException_String_Exception()
+    public default void create_PrintException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.print.PrintException sut = null; // = new PrintException(java.lang.String,java.lang.Exception);
+        final javax.print.PrintException sut = null; // = new PrintException();
     }
 
     /**
@@ -78,16 +77,17 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.print.PrintException#PrintException() public javax.print.PrintException()}.
+     * Test method for {@link javax.print.PrintException#PrintException(java.lang.String,java.lang.Exception) public
+     * javax.print.PrintException(java.lang.String,java.lang.Exception)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_PrintException()
+    public default void create_PrintException_String_Exception()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.print.PrintException sut = null; // = new PrintException();
+        final javax.print.PrintException sut = null; // = new PrintException(java.lang.String,java.lang.Exception);
     }
 
     @Override

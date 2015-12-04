@@ -54,6 +54,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
         /**
          * <p>
+         * Test method for {@link javax.swing.UIManager.LookAndFeelInfo#getName() public java.lang.String
+         * javax.swing.UIManager$LookAndFeelInfo.getName()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getName()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
          * Test method for {@link javax.swing.UIManager.LookAndFeelInfo#toString() public java.lang.String
          * javax.swing.UIManager$LookAndFeelInfo.toString()}.
          * </p>
@@ -63,22 +79,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         @Category(Draft.class)
         @Override
         public default void test_toString()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.UIManager.LookAndFeelInfo#getName() public java.lang.String
-         * javax.swing.UIManager$LookAndFeelInfo.getName()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getName()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

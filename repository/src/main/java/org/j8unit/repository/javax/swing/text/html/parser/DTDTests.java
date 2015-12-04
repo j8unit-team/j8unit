@@ -23,23 +23,6 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.DTD#toString() public java.lang.String
-     * javax.swing.text.html.parser.DTD.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.text.html.parser.DTD#defEntity(java.lang.String,int,int) public
      * javax.swing.text.html.parser.Entity javax.swing.text.html.parser.DTD.defEntity(java.lang.String,int,int)}.
      * </p>
@@ -48,6 +31,24 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_defEntity_String_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.html.parser.DTD#defineAttributes(java.lang.String,javax.swing.text.html.parser.AttributeList)
+     * public void
+     * javax.swing.text.html.parser.DTD.defineAttributes(java.lang.String,javax.swing.text.html.parser.AttributeList)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_defineAttributes_String_AttributeList()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -67,6 +68,54 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
     @Test
     @Category(Draft.class)
     public default void test_defineElement_String_int_boolean_boolean_ContentModel_BitSet_BitSet_AttributeList()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#defineEntity(java.lang.String,int,char[]) public
+     * javax.swing.text.html.parser.Entity javax.swing.text.html.parser.DTD.defineEntity(java.lang.String,int,char[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_defineEntity_String_int_charArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#getElement(int) public
+     * javax.swing.text.html.parser.Element javax.swing.text.html.parser.DTD.getElement(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getElement_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.parser.DTD#getElement(java.lang.String) public
+     * javax.swing.text.html.parser.Element javax.swing.text.html.parser.DTD.getElement(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getElement_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -139,64 +188,15 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsTests<SUT
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.parser.DTD#defineEntity(java.lang.String,int,char[]) public
-     * javax.swing.text.html.parser.Entity javax.swing.text.html.parser.DTD.defineEntity(java.lang.String,int,char[])}.
+     * Test method for {@link javax.swing.text.html.parser.DTD#toString() public java.lang.String
+     * javax.swing.text.html.parser.DTD.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_defineEntity_String_int_charArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.DTD#getElement(int) public
-     * javax.swing.text.html.parser.Element javax.swing.text.html.parser.DTD.getElement(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getElement_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.parser.DTD#getElement(java.lang.String) public
-     * javax.swing.text.html.parser.Element javax.swing.text.html.parser.DTD.getElement(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getElement_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.html.parser.DTD#defineAttributes(java.lang.String,javax.swing.text.html.parser.AttributeList)
-     * public void
-     * javax.swing.text.html.parser.DTD.defineAttributes(java.lang.String,javax.swing.text.html.parser.AttributeList)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_defineAttributes_String_AttributeList()
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

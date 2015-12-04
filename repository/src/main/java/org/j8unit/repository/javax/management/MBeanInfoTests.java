@@ -24,22 +24,6 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanInfo#getDescription() public java.lang.String
-     * javax.management.MBeanInfo.getDescription()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDescription()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.management.MBeanInfo#clone() public java.lang.Object
      * javax.management.MBeanInfo.clone()}.
      * </p>
@@ -48,71 +32,6 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
     @Test
     @Category(Draft.class)
     public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.MBeanInfo#getClassName() public java.lang.String
-     * javax.management.MBeanInfo.getClassName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getClassName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.MBeanInfo#toString() public java.lang.String
-     * javax.management.MBeanInfo.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.MBeanInfo#getConstructors() public
-     * javax.management.MBeanConstructorInfo[] javax.management.MBeanInfo.getConstructors()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getConstructors()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.MBeanInfo#getNotifications() public
-     * javax.management.MBeanNotificationInfo[] javax.management.MBeanInfo.getNotifications()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getNotifications()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -138,14 +57,62 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanInfo#hashCode() public int javax.management.MBeanInfo.hashCode()}.
+     * Test method for {@link javax.management.MBeanInfo#getAttributes() public javax.management.MBeanAttributeInfo[]
+     * javax.management.MBeanInfo.getAttributes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
+    public default void test_getAttributes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.MBeanInfo#getClassName() public java.lang.String
+     * javax.management.MBeanInfo.getClassName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getClassName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.MBeanInfo#getConstructors() public
+     * javax.management.MBeanConstructorInfo[] javax.management.MBeanInfo.getConstructors()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getConstructors()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.MBeanInfo#getDescription() public java.lang.String
+     * javax.management.MBeanInfo.getDescription()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDescription()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -171,14 +138,14 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for {@link javax.management.MBeanInfo#getAttributes() public javax.management.MBeanAttributeInfo[]
-     * javax.management.MBeanInfo.getAttributes()}.
+     * Test method for {@link javax.management.MBeanInfo#getNotifications() public
+     * javax.management.MBeanNotificationInfo[] javax.management.MBeanInfo.getNotifications()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAttributes()
+    public default void test_getNotifications()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -195,6 +162,39 @@ org.j8unit.repository.javax.management.DescriptorReadTests<SUT>, org.j8unit.repo
     @Test
     @Category(Draft.class)
     public default void test_getOperations()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.MBeanInfo#hashCode() public int javax.management.MBeanInfo.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.MBeanInfo#toString() public java.lang.String
+     * javax.management.MBeanInfo.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,17 +36,31 @@ public abstract interface DataBufferByteClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.awt.image.DataBufferClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.image.DataBufferByte#DataBufferByte(byte[][],int,int[]) public
-     * java.awt.image.DataBufferByte(byte[][],int,int[])}.
+     * Test method for {@link java.awt.image.DataBufferByte#DataBufferByte(byte[],int) public
+     * java.awt.image.DataBufferByte(byte[],int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DataBufferByte_byteArrayArray_int_intArray()
+    public default void create_DataBufferByte_byteArray_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.image.DataBufferByte sut = null; // = new DataBufferByte(byte[][],int,int[]);
+        final java.awt.image.DataBufferByte sut = null; // = new DataBufferByte(byte[],int);
+    }
+
+    /**
+     * Test method for {@link java.awt.image.DataBufferByte#DataBufferByte(byte[],int,int) public
+     * java.awt.image.DataBufferByte(byte[],int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DataBufferByte_byteArray_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.DataBufferByte sut = null; // = new DataBufferByte(byte[],int,int);
     }
 
     /**
@@ -64,17 +78,17 @@ extends org.j8unit.repository.java.awt.image.DataBufferClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.image.DataBufferByte#DataBufferByte(byte[],int,int) public
-     * java.awt.image.DataBufferByte(byte[],int,int)}.
+     * Test method for {@link java.awt.image.DataBufferByte#DataBufferByte(byte[][],int,int[]) public
+     * java.awt.image.DataBufferByte(byte[][],int,int[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DataBufferByte_byteArray_int_int()
+    public default void create_DataBufferByte_byteArrayArray_int_intArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.image.DataBufferByte sut = null; // = new DataBufferByte(byte[],int,int);
+        final java.awt.image.DataBufferByte sut = null; // = new DataBufferByte(byte[][],int,int[]);
     }
 
     /**
@@ -103,20 +117,6 @@ extends org.j8unit.repository.java.awt.image.DataBufferClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.image.DataBufferByte sut = null; // = new DataBufferByte(int,int);
-    }
-
-    /**
-     * Test method for {@link java.awt.image.DataBufferByte#DataBufferByte(byte[],int) public
-     * java.awt.image.DataBufferByte(byte[],int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DataBufferByte_byteArray_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.DataBufferByte sut = null; // = new DataBufferByte(byte[],int);
     }
 
     @Override

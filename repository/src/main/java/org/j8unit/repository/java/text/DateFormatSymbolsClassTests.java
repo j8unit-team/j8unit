@@ -63,14 +63,20 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final java.text.DateFormatSymbols sut = null; // = new DateFormatSymbols(java.util.Locale);
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.text.DateFormatSymbols#getAvailableLocales() public static java.util.Locale[]
+     * java.text.DateFormatSymbols.getAvailableLocales()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getAvailableLocales()
     throws Exception {
-        // create new instance
-        final Class<? extends java.text.DateFormatSymbols> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.text.DateFormatSymbols.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -105,20 +111,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.text.DateFormatSymbols#getAvailableLocales() public static java.util.Locale[]
-     * java.text.DateFormatSymbols.getAvailableLocales()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getAvailableLocales()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.text.DateFormatSymbols> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.text.DateFormatSymbols.class.isAssignableFrom(sut));
     }
 
 }

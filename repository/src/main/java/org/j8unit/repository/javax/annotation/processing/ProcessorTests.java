@@ -24,30 +24,17 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.annotation.processing.Processor#getSupportedOptions() public abstract java.util.Set
-     * javax.annotation.processing.Processor.getSupportedOptions()}.
+     * Test method for
+     * {@link javax.annotation.processing.Processor#getCompletions(javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.ExecutableElement,java.lang.String)
+     * public abstract java.lang.Iterable
+     * javax.annotation.processing.Processor.getCompletions(javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.ExecutableElement,java.lang.String)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSupportedOptions()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.annotation.processing.Processor#getSupportedSourceVersion() public abstract
-     * javax.lang.model.SourceVersion javax.annotation.processing.Processor.getSupportedSourceVersion()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSupportedSourceVersion()
+    public default void test_getCompletions_Element_AnnotationMirror_ExecutableElement_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,17 +59,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.annotation.processing.Processor#getCompletions(javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.ExecutableElement,java.lang.String)
-     * public abstract java.lang.Iterable
-     * javax.annotation.processing.Processor.getCompletions(javax.lang.model.element.Element,javax.lang.model.element.AnnotationMirror,javax.lang.model.element.ExecutableElement,java.lang.String)}
-     * .
+     * Test method for {@link javax.annotation.processing.Processor#getSupportedOptions() public abstract java.util.Set
+     * javax.annotation.processing.Processor.getSupportedOptions()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCompletions_Element_AnnotationMirror_ExecutableElement_String()
+    public default void test_getSupportedOptions()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.annotation.processing.Processor#getSupportedSourceVersion() public abstract
+     * javax.lang.model.SourceVersion javax.annotation.processing.Processor.getSupportedSourceVersion()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSupportedSourceVersion()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

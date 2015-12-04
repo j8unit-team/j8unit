@@ -36,17 +36,16 @@ extends org.j8unit.repository.java.awt.ItemSelectableClassTests<SUT>, org.j8unit
 org.j8unit.repository.java.awt.ComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.List#List(int,boolean) public java.awt.List(int,boolean) throws
-     * java.awt.HeadlessException}.
+     * Test method for {@link java.awt.List#List() public java.awt.List() throws java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_List_int_boolean()
+    public default void create_List()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.List sut = null; // = new List(int,boolean);
+        final java.awt.List sut = null; // = new List();
     }
 
     /**
@@ -63,16 +62,17 @@ org.j8unit.repository.java.awt.ComponentClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.List#List() public java.awt.List() throws java.awt.HeadlessException}.
+     * Test method for {@link java.awt.List#List(int,boolean) public java.awt.List(int,boolean) throws
+     * java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_List()
+    public default void create_List_int_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.List sut = null; // = new List();
+        final java.awt.List sut = null; // = new List(int,boolean);
     }
 
     @Override

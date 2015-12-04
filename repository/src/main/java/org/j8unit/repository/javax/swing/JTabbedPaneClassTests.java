@@ -37,16 +37,16 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JTabbedPane#JTabbedPane(int,int) public javax.swing.JTabbedPane(int,int)}.
+     * Test method for {@link javax.swing.JTabbedPane#JTabbedPane() public javax.swing.JTabbedPane()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JTabbedPane_int_int()
+    public default void create_JTabbedPane()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JTabbedPane sut = null; // = new JTabbedPane(int,int);
+        final javax.swing.JTabbedPane sut = null; // = new JTabbedPane();
     }
 
     /**
@@ -63,16 +63,16 @@ org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8unit.repo
     }
 
     /**
-     * Test method for {@link javax.swing.JTabbedPane#JTabbedPane() public javax.swing.JTabbedPane()}.
+     * Test method for {@link javax.swing.JTabbedPane#JTabbedPane(int,int) public javax.swing.JTabbedPane(int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JTabbedPane()
+    public default void create_JTabbedPane_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JTabbedPane sut = null; // = new JTabbedPane();
+        final javax.swing.JTabbedPane sut = null; // = new JTabbedPane(int,int);
     }
 
     @Override

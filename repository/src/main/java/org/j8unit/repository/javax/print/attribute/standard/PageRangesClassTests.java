@@ -38,20 +38,6 @@ org.j8unit.repository.javax.print.attribute.PrintRequestAttributeClassTests<SUT>
 org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.print.attribute.standard.PageRanges#PageRanges(int,int) public
-     * javax.print.attribute.standard.PageRanges(int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PageRanges_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.print.attribute.standard.PageRanges sut = null; // = new PageRanges(int,int);
-    }
-
-    /**
      * Test method for {@link javax.print.attribute.standard.PageRanges#PageRanges(int) public
      * javax.print.attribute.standard.PageRanges(int)}.
      */
@@ -63,6 +49,20 @@ org.j8unit.repository.javax.print.attribute.SetOfIntegerSyntaxClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.print.attribute.standard.PageRanges sut = null; // = new PageRanges(int);
+    }
+
+    /**
+     * Test method for {@link javax.print.attribute.standard.PageRanges#PageRanges(int,int) public
+     * javax.print.attribute.standard.PageRanges(int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PageRanges_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.print.attribute.standard.PageRanges sut = null; // = new PageRanges(int,int);
     }
 
     /**

@@ -50,6 +50,20 @@ extends org.j8unit.repository.java.lang.IndexOutOfBoundsExceptionClassTests<SUT>
     }
 
     /**
+     * Test method for {@link java.lang.StringIndexOutOfBoundsException#StringIndexOutOfBoundsException(int) public
+     * java.lang.StringIndexOutOfBoundsException(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_StringIndexOutOfBoundsException_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.StringIndexOutOfBoundsException sut = null; // = new StringIndexOutOfBoundsException(int);
+    }
+
+    /**
      * Test method for
      * {@link java.lang.StringIndexOutOfBoundsException#StringIndexOutOfBoundsException(java.lang.String) public
      * java.lang.StringIndexOutOfBoundsException(java.lang.String)}.
@@ -63,20 +77,6 @@ extends org.j8unit.repository.java.lang.IndexOutOfBoundsExceptionClassTests<SUT>
         @SuppressWarnings("unused")
         final java.lang.StringIndexOutOfBoundsException sut = null; // = new
                                                                     // StringIndexOutOfBoundsException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.lang.StringIndexOutOfBoundsException#StringIndexOutOfBoundsException(int) public
-     * java.lang.StringIndexOutOfBoundsException(int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_StringIndexOutOfBoundsException_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.StringIndexOutOfBoundsException sut = null; // = new StringIndexOutOfBoundsException(int);
     }
 
     @Override

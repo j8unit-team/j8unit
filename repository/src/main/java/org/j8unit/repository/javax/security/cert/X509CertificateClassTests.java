@@ -49,14 +49,21 @@ extends org.j8unit.repository.javax.security.cert.CertificateClassTests<SUT> {
         final javax.security.cert.X509Certificate sut = null; // = new X509Certificate();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link javax.security.cert.X509Certificate#getInstance(byte[]) public static final
+     * javax.security.cert.X509Certificate javax.security.cert.X509Certificate.getInstance(byte[]) throws
+     * javax.security.cert.CertificateException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_getInstance_byteArray()
     throws Exception {
-        // create new instance
-        final Class<? extends javax.security.cert.X509Certificate> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.security.cert.X509Certificate.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -76,21 +83,14 @@ extends org.j8unit.repository.javax.security.cert.CertificateClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.security.cert.X509Certificate#getInstance(byte[]) public static final
-     * javax.security.cert.X509Certificate javax.security.cert.X509Certificate.getInstance(byte[]) throws
-     * javax.security.cert.CertificateException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getInstance_byteArray()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.security.cert.X509Certificate> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.security.cert.X509Certificate.class.isAssignableFrom(sut));
     }
 
 }

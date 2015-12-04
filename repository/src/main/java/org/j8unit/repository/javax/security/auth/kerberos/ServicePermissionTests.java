@@ -41,6 +41,23 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
+     * Test method for {@link javax.security.auth.kerberos.ServicePermission#getActions() public java.lang.String
+     * javax.security.auth.kerberos.ServicePermission.getActions()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getActions()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.security.auth.kerberos.ServicePermission#hashCode() public int
      * javax.security.auth.kerberos.ServicePermission.hashCode()}.
      * </p>
@@ -50,23 +67,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Category(Draft.class)
     @Override
     public default void test_hashCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.ServicePermission#newPermissionCollection() public
-     * java.security.PermissionCollection javax.security.auth.kerberos.ServicePermission.newPermissionCollection()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_newPermissionCollection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,15 +92,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.ServicePermission#getActions() public java.lang.String
-     * javax.security.auth.kerberos.ServicePermission.getActions()}.
+     * Test method for {@link javax.security.auth.kerberos.ServicePermission#newPermissionCollection() public
+     * java.security.PermissionCollection javax.security.auth.kerberos.ServicePermission.newPermissionCollection()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getActions()
+    public default void test_newPermissionCollection()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

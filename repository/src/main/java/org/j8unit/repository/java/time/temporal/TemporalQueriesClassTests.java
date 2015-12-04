@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface TemporalQueriesClassTests<SUT extends Class<? extends java.time.temporal.TemporalQueries>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.temporal.TemporalQueries> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.temporal.TemporalQueries.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.time.temporal.TemporalQueries#chronology() public static
@@ -55,22 +45,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_chronology()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.TemporalQueries#zoneId() public static java.time.temporal.TemporalQuery
-     * java.time.temporal.TemporalQueries.zoneId()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_zoneId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -95,14 +69,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.TemporalQueries#offset() public static java.time.temporal.TemporalQuery
-     * java.time.temporal.TemporalQueries.offset()}.
+     * Test method for {@link java.time.temporal.TemporalQueries#localTime() public static
+     * java.time.temporal.TemporalQuery java.time.temporal.TemporalQueries.localTime()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_offset()
+    public default void test_localTime()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -111,14 +85,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.TemporalQueries#zone() public static java.time.temporal.TemporalQuery
-     * java.time.temporal.TemporalQueries.zone()}.
+     * Test method for {@link java.time.temporal.TemporalQueries#offset() public static java.time.temporal.TemporalQuery
+     * java.time.temporal.TemporalQueries.offset()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_zone()
+    public default void test_offset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -143,18 +117,44 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.temporal.TemporalQueries#localTime() public static
-     * java.time.temporal.TemporalQuery java.time.temporal.TemporalQueries.localTime()}.
+     * Test method for {@link java.time.temporal.TemporalQueries#zone() public static java.time.temporal.TemporalQuery
+     * java.time.temporal.TemporalQueries.zone()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_localTime()
+    public default void test_zone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.TemporalQueries#zoneId() public static java.time.temporal.TemporalQuery
+     * java.time.temporal.TemporalQueries.zoneId()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_zoneId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.temporal.TemporalQueries> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.temporal.TemporalQueries.class.isAssignableFrom(sut));
     }
 
 }

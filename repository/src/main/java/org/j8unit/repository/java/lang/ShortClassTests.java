@@ -61,14 +61,36 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
         final java.lang.Short sut = null; // = new Short(java.lang.String);
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.lang.Short#compare(short,short) public static int
+     * java.lang.Short.compare(short,short)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_compare_short_short()
     throws Exception {
-        // create new instance
-        final Class<? extends java.lang.Short> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.Short.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Short#decode(java.lang.String) public static java.lang.Short
+     * java.lang.Short.decode(java.lang.String) throws java.lang.NumberFormatException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_decode_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -80,54 +102,6 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     @Test
     @Category(Draft.class)
     public default void test_hashCode_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Short#valueOf(java.lang.String,int) public static java.lang.Short
-     * java.lang.Short.valueOf(java.lang.String,int) throws java.lang.NumberFormatException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_valueOf_String_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Short#valueOf(short) public static java.lang.Short
-     * java.lang.Short.valueOf(short)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_valueOf_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Short#valueOf(java.lang.String) public static java.lang.Short
-     * java.lang.Short.valueOf(java.lang.String) throws java.lang.NumberFormatException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_valueOf_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -168,38 +142,6 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
 
     /**
      * <p>
-     * Test method for {@link java.lang.Short#compare(short,short) public static int
-     * java.lang.Short.compare(short,short)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_compare_short_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Short#toUnsignedInt(short) public static int
-     * java.lang.Short.toUnsignedInt(short)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_toUnsignedInt_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.lang.Short#reverseBytes(short) public static short
      * java.lang.Short.reverseBytes(short)}.
      * </p>
@@ -208,22 +150,6 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
     @Test
     @Category(Draft.class)
     public default void test_reverseBytes_short()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Short#decode(java.lang.String) public static java.lang.Short
-     * java.lang.Short.decode(java.lang.String) throws java.lang.NumberFormatException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_decode_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -248,6 +174,22 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
 
     /**
      * <p>
+     * Test method for {@link java.lang.Short#toUnsignedInt(short) public static int
+     * java.lang.Short.toUnsignedInt(short)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toUnsignedInt_short()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.lang.Short#toUnsignedLong(short) public static long
      * java.lang.Short.toUnsignedLong(short)}.
      * </p>
@@ -260,6 +202,64 @@ extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Shor
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Short#valueOf(short) public static java.lang.Short
+     * java.lang.Short.valueOf(short)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_valueOf_short()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Short#valueOf(java.lang.String) public static java.lang.Short
+     * java.lang.Short.valueOf(java.lang.String) throws java.lang.NumberFormatException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_valueOf_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Short#valueOf(java.lang.String,int) public static java.lang.Short
+     * java.lang.Short.valueOf(java.lang.String,int) throws java.lang.NumberFormatException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_valueOf_String_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.lang.Short> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.Short.class.isAssignableFrom(sut));
     }
 
 }

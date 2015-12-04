@@ -23,15 +23,96 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.TransformerException#printStackTrace(java.io.PrintWriter) public void
-     * javax.xml.transform.TransformerException.printStackTrace(java.io.PrintWriter)}.
+     * Test method for {@link javax.xml.transform.TransformerException#getCause() public java.lang.Throwable
+     * javax.xml.transform.TransformerException.getCause()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_printStackTrace_PrintWriter()
+    public default void test_getCause()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.TransformerException#getException() public java.lang.Throwable
+     * javax.xml.transform.TransformerException.getException()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getException()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.TransformerException#getLocationAsString() public java.lang.String
+     * javax.xml.transform.TransformerException.getLocationAsString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocationAsString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.TransformerException#getLocator() public
+     * javax.xml.transform.SourceLocator javax.xml.transform.TransformerException.getLocator()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLocator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.TransformerException#getMessageAndLocation() public java.lang.String
+     * javax.xml.transform.TransformerException.getMessageAndLocation()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMessageAndLocation()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.transform.TransformerException#initCause(java.lang.Throwable) public
+     * synchronized java.lang.Throwable javax.xml.transform.TransformerException.initCause(java.lang.Throwable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_initCause_Throwable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,47 +155,15 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.transform.TransformerException#getException() public java.lang.Throwable
-     * javax.xml.transform.TransformerException.getException()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getException()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerException#getLocationAsString() public java.lang.String
-     * javax.xml.transform.TransformerException.getLocationAsString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocationAsString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerException#getCause() public java.lang.Throwable
-     * javax.xml.transform.TransformerException.getCause()}.
+     * Test method for {@link javax.xml.transform.TransformerException#printStackTrace(java.io.PrintWriter) public void
+     * javax.xml.transform.TransformerException.printStackTrace(java.io.PrintWriter)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getCause()
+    public default void test_printStackTrace_PrintWriter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -131,55 +180,6 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setLocator_SourceLocator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerException#initCause(java.lang.Throwable) public
-     * synchronized java.lang.Throwable javax.xml.transform.TransformerException.initCause(java.lang.Throwable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_initCause_Throwable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerException#getLocator() public
-     * javax.xml.transform.SourceLocator javax.xml.transform.TransformerException.getLocator()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.transform.TransformerException#getMessageAndLocation() public java.lang.String
-     * javax.xml.transform.TransformerException.getMessageAndLocation()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMessageAndLocation()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

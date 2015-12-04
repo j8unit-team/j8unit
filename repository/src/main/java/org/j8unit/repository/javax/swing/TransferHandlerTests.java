@@ -23,204 +23,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.TransferHandler#getDragImage() public java.awt.Image
-     * javax.swing.TransferHandler.getDragImage()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDragImage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.TransferHandler#exportToClipboard(javax.swing.JComponent,java.awt.datatransfer.Clipboard,int)
-     * public void
-     * javax.swing.TransferHandler.exportToClipboard(javax.swing.JComponent,java.awt.datatransfer.Clipboard,int) throws
-     * java.lang.IllegalStateException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_exportToClipboard_JComponent_Clipboard_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.TransferHandler#getVisualRepresentation(java.awt.datatransfer.Transferable)
-     * public javax.swing.Icon javax.swing.TransferHandler.getVisualRepresentation(java.awt.datatransfer.Transferable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getVisualRepresentation_Transferable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.TransferHandler#setDragImageOffset(java.awt.Point) public void
-     * javax.swing.TransferHandler.setDragImageOffset(java.awt.Point)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDragImageOffset_Point()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.TransferHandler#setDragImage(java.awt.Image) public void
-     * javax.swing.TransferHandler.setDragImage(java.awt.Image)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDragImage_Image()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.TransferHandler#getSourceActions(javax.swing.JComponent) public int
-     * javax.swing.TransferHandler.getSourceActions(javax.swing.JComponent)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSourceActions_JComponent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.TransferHandler#canImport(javax.swing.JComponent,java.awt.datatransfer.DataFlavor[]) public
-     * boolean javax.swing.TransferHandler.canImport(javax.swing.JComponent,java.awt.datatransfer.DataFlavor[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canImport_JComponent_DataFlavorArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.TransferHandler#canImport(javax.swing.TransferHandler.TransferSupport) public
-     * boolean javax.swing.TransferHandler.canImport(javax.swing.TransferHandler$TransferSupport)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canImport_TransferSupport()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.TransferHandler#getDragImageOffset() public java.awt.Point
-     * javax.swing.TransferHandler.getDragImageOffset()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDragImageOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.TransferHandler#importData(javax.swing.TransferHandler.TransferSupport) public
-     * boolean javax.swing.TransferHandler.importData(javax.swing.TransferHandler$TransferSupport)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_importData_TransferSupport()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.TransferHandler#importData(javax.swing.JComponent,java.awt.datatransfer.Transferable) public
-     * boolean javax.swing.TransferHandler.importData(javax.swing.JComponent,java.awt.datatransfer.Transferable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_importData_JComponent_Transferable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.TransferHandler#exportAsDrag(javax.swing.JComponent,java.awt.event.InputEvent,int) public void
-     * javax.swing.TransferHandler.exportAsDrag(javax.swing.JComponent,java.awt.event.InputEvent,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_exportAsDrag_JComponent_InputEvent_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test class for {@link javax.swing.TransferHandler$DropLocation class javax.swing.TransferHandler$DropLocation},
      * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
      * </p>
@@ -287,6 +89,86 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
         /**
          * <p>
+         * Test method for {@link javax.swing.TransferHandler.TransferSupport#getComponent() public java.awt.Component
+         * javax.swing.TransferHandler$TransferSupport.getComponent()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getComponent()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.TransferHandler.TransferSupport#getDataFlavors() public
+         * java.awt.datatransfer.DataFlavor[] javax.swing.TransferHandler$TransferSupport.getDataFlavors()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getDataFlavors()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.TransferHandler.TransferSupport#getDropAction() public int
+         * javax.swing.TransferHandler$TransferSupport.getDropAction()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getDropAction()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.TransferHandler.TransferSupport#getDropLocation() public
+         * javax.swing.TransferHandler$DropLocation javax.swing.TransferHandler$TransferSupport.getDropLocation()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getDropLocation()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.swing.TransferHandler.TransferSupport#getSourceDropActions() public int
+         * javax.swing.TransferHandler$TransferSupport.getSourceDropActions()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getSourceDropActions()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
          * Test method for {@link javax.swing.TransferHandler.TransferSupport#getTransferable() public
          * java.awt.datatransfer.Transferable javax.swing.TransferHandler$TransferSupport.getTransferable()}.
          * </p>
@@ -319,30 +201,16 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
         /**
          * <p>
-         * Test method for {@link javax.swing.TransferHandler.TransferSupport#getDropLocation() public
-         * javax.swing.TransferHandler$DropLocation javax.swing.TransferHandler$TransferSupport.getDropLocation()}.
+         * Test method for
+         * {@link javax.swing.TransferHandler.TransferSupport#isDataFlavorSupported(java.awt.datatransfer.DataFlavor)
+         * public boolean
+         * javax.swing.TransferHandler$TransferSupport.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_getDropLocation()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.TransferHandler.TransferSupport#getComponent() public java.awt.Component
-         * javax.swing.TransferHandler$TransferSupport.getComponent()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getComponent()
+        public default void test_isDataFlavorSupported_DataFlavor()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -397,72 +265,204 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
             assert sut != null;
         }
 
-        /**
-         * <p>
-         * Test method for {@link javax.swing.TransferHandler.TransferSupport#getDataFlavors() public
-         * java.awt.datatransfer.DataFlavor[] javax.swing.TransferHandler$TransferSupport.getDataFlavors()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getDataFlavors()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
+    }
 
-        /**
-         * <p>
-         * Test method for
-         * {@link javax.swing.TransferHandler.TransferSupport#isDataFlavorSupported(java.awt.datatransfer.DataFlavor)
-         * public boolean
-         * javax.swing.TransferHandler$TransferSupport.isDataFlavorSupported(java.awt.datatransfer.DataFlavor)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_isDataFlavorSupported_DataFlavor()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.TransferHandler#canImport(javax.swing.JComponent,java.awt.datatransfer.DataFlavor[]) public
+     * boolean javax.swing.TransferHandler.canImport(javax.swing.JComponent,java.awt.datatransfer.DataFlavor[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_canImport_JComponent_DataFlavorArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
-        /**
-         * <p>
-         * Test method for {@link javax.swing.TransferHandler.TransferSupport#getSourceDropActions() public int
-         * javax.swing.TransferHandler$TransferSupport.getSourceDropActions()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getSourceDropActions()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
+    /**
+     * <p>
+     * Test method for {@link javax.swing.TransferHandler#canImport(javax.swing.TransferHandler.TransferSupport) public
+     * boolean javax.swing.TransferHandler.canImport(javax.swing.TransferHandler$TransferSupport)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_canImport_TransferSupport()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
-        /**
-         * <p>
-         * Test method for {@link javax.swing.TransferHandler.TransferSupport#getDropAction() public int
-         * javax.swing.TransferHandler$TransferSupport.getDropAction()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getDropAction()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.TransferHandler#exportAsDrag(javax.swing.JComponent,java.awt.event.InputEvent,int) public void
+     * javax.swing.TransferHandler.exportAsDrag(javax.swing.JComponent,java.awt.event.InputEvent,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_exportAsDrag_JComponent_InputEvent_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
 
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.TransferHandler#exportToClipboard(javax.swing.JComponent,java.awt.datatransfer.Clipboard,int)
+     * public void
+     * javax.swing.TransferHandler.exportToClipboard(javax.swing.JComponent,java.awt.datatransfer.Clipboard,int) throws
+     * java.lang.IllegalStateException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_exportToClipboard_JComponent_Clipboard_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.TransferHandler#getDragImage() public java.awt.Image
+     * javax.swing.TransferHandler.getDragImage()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDragImage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.TransferHandler#getDragImageOffset() public java.awt.Point
+     * javax.swing.TransferHandler.getDragImageOffset()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDragImageOffset()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.TransferHandler#getSourceActions(javax.swing.JComponent) public int
+     * javax.swing.TransferHandler.getSourceActions(javax.swing.JComponent)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSourceActions_JComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.TransferHandler#getVisualRepresentation(java.awt.datatransfer.Transferable)
+     * public javax.swing.Icon javax.swing.TransferHandler.getVisualRepresentation(java.awt.datatransfer.Transferable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getVisualRepresentation_Transferable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.TransferHandler#importData(javax.swing.JComponent,java.awt.datatransfer.Transferable) public
+     * boolean javax.swing.TransferHandler.importData(javax.swing.JComponent,java.awt.datatransfer.Transferable)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_importData_JComponent_Transferable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.TransferHandler#importData(javax.swing.TransferHandler.TransferSupport) public
+     * boolean javax.swing.TransferHandler.importData(javax.swing.TransferHandler$TransferSupport)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_importData_TransferSupport()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.TransferHandler#setDragImage(java.awt.Image) public void
+     * javax.swing.TransferHandler.setDragImage(java.awt.Image)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDragImage_Image()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.TransferHandler#setDragImageOffset(java.awt.Point) public void
+     * javax.swing.TransferHandler.setDragImageOffset(java.awt.Point)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDragImageOffset_Point()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

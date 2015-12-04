@@ -39,14 +39,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.EventQueue#peekEvent(int) public java.awt.AWTEvent
-     * java.awt.EventQueue.peekEvent(int)}.
+     * Test method for {@link java.awt.EventQueue#getNextEvent() public java.awt.AWTEvent
+     * java.awt.EventQueue.getNextEvent() throws java.lang.InterruptedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_peekEvent_int()
+    public default void test_getNextEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -70,30 +70,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.EventQueue#getNextEvent() public java.awt.AWTEvent
-     * java.awt.EventQueue.getNextEvent() throws java.lang.InterruptedException}.
+     * Test method for {@link java.awt.EventQueue#peekEvent(int) public java.awt.AWTEvent
+     * java.awt.EventQueue.peekEvent(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNextEvent()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.EventQueue#push(java.awt.EventQueue) public void
-     * java.awt.EventQueue.push(java.awt.EventQueue)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_push_EventQueue()
+    public default void test_peekEvent_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -110,6 +94,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_postEvent_AWTEvent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.EventQueue#push(java.awt.EventQueue) public void
+     * java.awt.EventQueue.push(java.awt.EventQueue)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_push_EventQueue()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

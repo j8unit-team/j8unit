@@ -37,22 +37,6 @@ extends org.j8unit.repository.java.awt.image.ColorModelClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.awt.image.ComponentColorModel#ComponentColorModel(java.awt.color.ColorSpace,int[],boolean,boolean,int,int)
-     * public java.awt.image.ComponentColorModel(java.awt.color.ColorSpace,int[],boolean,boolean,int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ComponentColorModel_ColorSpace_intArray_boolean_boolean_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.image.ComponentColorModel sut = null; // = new
-                                                             // ComponentColorModel(java.awt.color.ColorSpace,int[],boolean,boolean,int,int);
-    }
-
-    /**
-     * Test method for
      * {@link java.awt.image.ComponentColorModel#ComponentColorModel(java.awt.color.ColorSpace,boolean,boolean,int,int)
      * public java.awt.image.ComponentColorModel(java.awt.color.ColorSpace,boolean,boolean,int,int)}.
      */
@@ -65,6 +49,22 @@ extends org.j8unit.repository.java.awt.image.ColorModelClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.awt.image.ComponentColorModel sut = null; // = new
                                                              // ComponentColorModel(java.awt.color.ColorSpace,boolean,boolean,int,int);
+    }
+
+    /**
+     * Test method for
+     * {@link java.awt.image.ComponentColorModel#ComponentColorModel(java.awt.color.ColorSpace,int[],boolean,boolean,int,int)
+     * public java.awt.image.ComponentColorModel(java.awt.color.ColorSpace,int[],boolean,boolean,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ComponentColorModel_ColorSpace_intArray_boolean_boolean_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.image.ComponentColorModel sut = null; // = new
+                                                             // ComponentColorModel(java.awt.color.ColorSpace,int[],boolean,boolean,int,int);
     }
 
     @Override

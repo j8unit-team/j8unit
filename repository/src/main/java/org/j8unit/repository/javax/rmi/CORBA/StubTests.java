@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.Stub#hashCode() public int javax.rmi.CORBA.Stub.hashCode()}.
+     * Test method for {@link javax.rmi.CORBA.Stub#connect(org.omg.CORBA.ORB) public void
+     * javax.rmi.CORBA.Stub.connect(org.omg.CORBA.ORB) throws java.rmi.RemoteException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_hashCode()
+    public default void test_connect_ORB()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,14 +56,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.Stub#connect(org.omg.CORBA.ORB) public void
-     * javax.rmi.CORBA.Stub.connect(org.omg.CORBA.ORB) throws java.rmi.RemoteException}.
+     * Test method for {@link javax.rmi.CORBA.Stub#hashCode() public int javax.rmi.CORBA.Stub.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_connect_ORB()
+    @Override
+    public default void test_hashCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,14 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.interfaces.DSAParams#getQ() public abstract java.math.BigInteger
-     * java.security.interfaces.DSAParams.getQ()}.
+     * Test method for {@link java.security.interfaces.DSAParams#getG() public abstract java.math.BigInteger
+     * java.security.interfaces.DSAParams.getG()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getQ()
+    public default void test_getG()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,14 +56,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.interfaces.DSAParams#getG() public abstract java.math.BigInteger
-     * java.security.interfaces.DSAParams.getG()}.
+     * Test method for {@link java.security.interfaces.DSAParams#getQ() public abstract java.math.BigInteger
+     * java.security.interfaces.DSAParams.getQ()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getG()
+    public default void test_getQ()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,43 +36,29 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.String#String(byte[],java.lang.String) public
-     * java.lang.String(byte[],java.lang.String) throws java.io.UnsupportedEncodingException}.
+     * Test method for {@link java.lang.String#String() public java.lang.String()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_String_byteArray_String()
+    public default void create_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.String sut = null; // = new String(byte[],java.lang.String);
+        final java.lang.String sut = null; // = new String();
     }
 
     /**
-     * Test method for {@link java.lang.String#String(byte[],int,int) public java.lang.String(byte[],int,int)}.
+     * Test method for {@link java.lang.String#String(byte[]) public java.lang.String(byte[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_String_byteArray_int_int()
+    public default void create_String_byteArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.String sut = null; // = new String(byte[],int,int);
-    }
-
-    /**
-     * Test method for {@link java.lang.String#String(java.lang.String) public java.lang.String(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_String_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.String sut = null; // = new String(java.lang.String);
+        final java.lang.String sut = null; // = new String(byte[]);
     }
 
     /**
@@ -90,6 +76,32 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     }
 
     /**
+     * Test method for {@link java.lang.String#String(byte[],int) public java.lang.String(byte[],int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_String_byteArray_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.String sut = null; // = new String(byte[],int);
+    }
+
+    /**
+     * Test method for {@link java.lang.String#String(byte[],int,int) public java.lang.String(byte[],int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_String_byteArray_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.String sut = null; // = new String(byte[],int,int);
+    }
+
+    /**
      * Test method for {@link java.lang.String#String(byte[],int,int,java.nio.charset.Charset) public
      * java.lang.String(byte[],int,int,java.nio.charset.Charset)}.
      */
@@ -104,16 +116,16 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     }
 
     /**
-     * Test method for {@link java.lang.String#String(char[],int,int) public java.lang.String(char[],int,int)}.
+     * Test method for {@link java.lang.String#String(byte[],int,int,int) public java.lang.String(byte[],int,int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_String_charArray_int_int()
+    public default void create_String_byteArray_int_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.String sut = null; // = new String(char[],int,int);
+        final java.lang.String sut = null; // = new String(byte[],int,int,int);
     }
 
     /**
@@ -131,43 +143,69 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     }
 
     /**
-     * Test method for {@link java.lang.String#String(byte[],int) public java.lang.String(byte[],int)}.
+     * Test method for {@link java.lang.String#String(byte[],java.lang.String) public
+     * java.lang.String(byte[],java.lang.String) throws java.io.UnsupportedEncodingException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_String_byteArray_int()
+    public default void create_String_byteArray_String()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.String sut = null; // = new String(byte[],int);
+        final java.lang.String sut = null; // = new String(byte[],java.lang.String);
     }
 
     /**
-     * Test method for {@link java.lang.String#String(byte[],int,int,int) public java.lang.String(byte[],int,int,int)}.
+     * Test method for {@link java.lang.String#String(char[]) public java.lang.String(char[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_String_byteArray_int_int_int()
+    public default void create_String_charArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.String sut = null; // = new String(byte[],int,int,int);
+        final java.lang.String sut = null; // = new String(char[]);
     }
 
     /**
-     * Test method for {@link java.lang.String#String(java.lang.StringBuilder) public
-     * java.lang.String(java.lang.StringBuilder)}.
+     * Test method for {@link java.lang.String#String(char[],int,int) public java.lang.String(char[],int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_String_StringBuilder()
+    public default void create_String_charArray_int_int()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.String sut = null; // = new String(java.lang.StringBuilder);
+        final java.lang.String sut = null; // = new String(char[],int,int);
+    }
+
+    /**
+     * Test method for {@link java.lang.String#String(int[],int,int) public java.lang.String(int[],int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_String_intArray_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.String sut = null; // = new String(int[],int,int);
+    }
+
+    /**
+     * Test method for {@link java.lang.String#String(java.lang.String) public java.lang.String(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_String_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.String sut = null; // = new String(java.lang.String);
     }
 
     /**
@@ -185,97 +223,17 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     }
 
     /**
-     * Test method for {@link java.lang.String#String(byte[]) public java.lang.String(byte[])}.
+     * Test method for {@link java.lang.String#String(java.lang.StringBuilder) public
+     * java.lang.String(java.lang.StringBuilder)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_String_byteArray()
+    public default void create_String_StringBuilder()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.String sut = null; // = new String(byte[]);
-    }
-
-    /**
-     * Test method for {@link java.lang.String#String(int[],int,int) public java.lang.String(int[],int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_String_intArray_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.String sut = null; // = new String(int[],int,int);
-    }
-
-    /**
-     * Test method for {@link java.lang.String#String() public java.lang.String()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.String sut = null; // = new String();
-    }
-
-    /**
-     * Test method for {@link java.lang.String#String(char[]) public java.lang.String(char[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_String_charArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.String sut = null; // = new String(char[]);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.lang.String> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.lang.String.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.String#join(java.lang.CharSequence,java.lang.CharSequence...) public static
-     * java.lang.String java.lang.String.join(java.lang.CharSequence,java.lang.CharSequence...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_join_CharSequence_CharSequenceArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.String#join(java.lang.CharSequence,java.lang.Iterable) public static
-     * java.lang.String java.lang.String.join(java.lang.CharSequence,java.lang.Iterable)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_join_CharSequence_Iterable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        final java.lang.String sut = null; // = new String(java.lang.StringBuilder);
     }
 
     /**
@@ -344,14 +302,14 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.lang.String#valueOf(int) public static java.lang.String
-     * java.lang.String.valueOf(int)}.
+     * Test method for {@link java.lang.String#join(java.lang.CharSequence,java.lang.CharSequence...) public static
+     * java.lang.String java.lang.String.join(java.lang.CharSequence,java.lang.CharSequence...)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_valueOf_int()
+    public default void test_join_CharSequence_CharSequenceArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -360,30 +318,14 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
-     * Test method for {@link java.lang.String#valueOf(long) public static java.lang.String
-     * java.lang.String.valueOf(long)}.
+     * Test method for {@link java.lang.String#join(java.lang.CharSequence,java.lang.Iterable) public static
+     * java.lang.String java.lang.String.join(java.lang.CharSequence,java.lang.Iterable)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_valueOf_long()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.String#valueOf(float) public static java.lang.String
-     * java.lang.String.valueOf(float)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_valueOf_float()
+    public default void test_join_CharSequence_Iterable()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -400,6 +342,22 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
     @Test
     @Category(Draft.class)
     public default void test_valueOf_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.String#valueOf(char) public static java.lang.String
+     * java.lang.String.valueOf(char)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_valueOf_char()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -440,6 +398,70 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
 
     /**
      * <p>
+     * Test method for {@link java.lang.String#valueOf(double) public static java.lang.String
+     * java.lang.String.valueOf(double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_valueOf_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.String#valueOf(float) public static java.lang.String
+     * java.lang.String.valueOf(float)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_valueOf_float()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.String#valueOf(int) public static java.lang.String
+     * java.lang.String.valueOf(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_valueOf_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.String#valueOf(long) public static java.lang.String
+     * java.lang.String.valueOf(long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_valueOf_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.lang.String#valueOf(java.lang.Object) public static java.lang.String
      * java.lang.String.valueOf(java.lang.Object)}.
      * </p>
@@ -454,36 +476,14 @@ org.j8unit.repository.java.lang.CharSequenceClassTests<SUT>, org.j8unit.reposito
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.lang.String#valueOf(char) public static java.lang.String
-     * java.lang.String.valueOf(char)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_valueOf_char()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.String#valueOf(double) public static java.lang.String
-     * java.lang.String.valueOf(double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_valueOf_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.lang.String> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.lang.String.class.isAssignableFrom(sut));
     }
 
 }

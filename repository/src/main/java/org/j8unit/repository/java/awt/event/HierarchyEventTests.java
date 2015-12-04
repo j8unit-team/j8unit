@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.event.HierarchyEvent#getComponent() public java.awt.Component
-     * java.awt.event.HierarchyEvent.getComponent()}.
+     * Test method for {@link java.awt.event.HierarchyEvent#getChanged() public java.awt.Component
+     * java.awt.event.HierarchyEvent.getChanged()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getComponent()
+    public default void test_getChanged()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,6 +55,38 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.event.HierarchyEvent#getChangeFlags() public long
+     * java.awt.event.HierarchyEvent.getChangeFlags()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getChangeFlags()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.event.HierarchyEvent#getComponent() public java.awt.Component
+     * java.awt.event.HierarchyEvent.getComponent()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.event.HierarchyEvent#paramString() public java.lang.String
      * java.awt.event.HierarchyEvent.paramString()}.
      * </p>
@@ -64,38 +96,6 @@ extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_paramString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.HierarchyEvent#getChanged() public java.awt.Component
-     * java.awt.event.HierarchyEvent.getChanged()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChanged()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.event.HierarchyEvent#getChangeFlags() public long
-     * java.awt.event.HierarchyEvent.getChangeFlags()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChangeFlags()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

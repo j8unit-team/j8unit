@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface Ellipse2DClassTests<SUT extends Class<? extends java.awt.geom.Ellipse2D>>
 extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.geom.Ellipse2D> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.geom.Ellipse2D.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link java.awt.geom.Ellipse2D$Double class java.awt.geom.Ellipse2D$Double}, containing all class
@@ -179,6 +169,16 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
             assertTrue(java.awt.geom.Ellipse2D.Float.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.awt.geom.Ellipse2D> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.geom.Ellipse2D.class.isAssignableFrom(sut));
     }
 
 }

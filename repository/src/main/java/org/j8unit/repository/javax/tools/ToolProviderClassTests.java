@@ -35,32 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ToolProviderClassTests<SUT extends Class<? extends javax.tools.ToolProvider>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.tools.ToolProvider> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.tools.ToolProvider.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.tools.ToolProvider#getSystemToolClassLoader() public static java.lang.ClassLoader
-     * javax.tools.ToolProvider.getSystemToolClassLoader()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSystemToolClassLoader()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test method for {@link javax.tools.ToolProvider#getSystemDocumentationTool() public static
@@ -91,6 +65,32 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.tools.ToolProvider#getSystemToolClassLoader() public static java.lang.ClassLoader
+     * javax.tools.ToolProvider.getSystemToolClassLoader()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSystemToolClassLoader()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.tools.ToolProvider> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.tools.ToolProvider.class.isAssignableFrom(sut));
     }
 
 }

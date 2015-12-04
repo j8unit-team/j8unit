@@ -23,57 +23,6 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.X509CRLSelector#clone() public java.lang.Object
-     * java.security.cert.X509CRLSelector.clone()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_clone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRLSelector#toString() public java.lang.String
-     * java.security.cert.X509CRLSelector.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.security.cert.X509CRLSelector#setCertificateChecking(java.security.cert.X509Certificate) public void
-     * java.security.cert.X509CRLSelector.setCertificateChecking(java.security.cert.X509Certificate)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCertificateChecking_X509Certificate()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.cert.X509CRLSelector#addIssuer(javax.security.auth.x500.X500Principal)
      * public void java.security.cert.X509CRLSelector.addIssuer(javax.security.auth.x500.X500Principal)}.
      * </p>
@@ -82,38 +31,6 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_addIssuer_X500Principal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRLSelector#setMaxCRLNumber(java.math.BigInteger) public void
-     * java.security.cert.X509CRLSelector.setMaxCRLNumber(java.math.BigInteger)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMaxCRLNumber_BigInteger()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRLSelector#addIssuerName(java.lang.String) public void
-     * java.security.cert.X509CRLSelector.addIssuerName(java.lang.String) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addIssuerName_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -138,14 +55,14 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.X509CRLSelector#getMinCRL() public java.math.BigInteger
-     * java.security.cert.X509CRLSelector.getMinCRL()}.
+     * Test method for {@link java.security.cert.X509CRLSelector#addIssuerName(java.lang.String) public void
+     * java.security.cert.X509CRLSelector.addIssuerName(java.lang.String) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMinCRL()
+    public default void test_addIssuerName_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -154,79 +71,15 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.X509CRLSelector#getDateAndTime() public java.util.Date
-     * java.security.cert.X509CRLSelector.getDateAndTime()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDateAndTime()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRLSelector#setIssuers(java.util.Collection) public void
-     * java.security.cert.X509CRLSelector.setIssuers(java.util.Collection)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setIssuers_Collection()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRLSelector#setMinCRLNumber(java.math.BigInteger) public void
-     * java.security.cert.X509CRLSelector.setMinCRLNumber(java.math.BigInteger)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMinCRLNumber_BigInteger()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRLSelector#match(java.security.cert.CRL) public boolean
-     * java.security.cert.X509CRLSelector.match(java.security.cert.CRL)}.
+     * Test method for {@link java.security.cert.X509CRLSelector#clone() public java.lang.Object
+     * java.security.cert.X509CRLSelector.clone()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_match_CRL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRLSelector#setIssuerNames(java.util.Collection) public void
-     * java.security.cert.X509CRLSelector.setIssuerNames(java.util.Collection) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setIssuerNames_Collection()
+    public default void test_clone()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -251,30 +104,14 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.X509CRLSelector#getMaxCRL() public java.math.BigInteger
-     * java.security.cert.X509CRLSelector.getMaxCRL()}.
+     * Test method for {@link java.security.cert.X509CRLSelector#getDateAndTime() public java.util.Date
+     * java.security.cert.X509CRLSelector.getDateAndTime()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMaxCRL()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.cert.X509CRLSelector#setDateAndTime(java.util.Date) public void
-     * java.security.cert.X509CRLSelector.setDateAndTime(java.util.Date)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setDateAndTime_Date()
+    public default void test_getDateAndTime()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -307,6 +144,169 @@ extends org.j8unit.repository.java.security.cert.CRLSelectorTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_getIssuers()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRLSelector#getMaxCRL() public java.math.BigInteger
+     * java.security.cert.X509CRLSelector.getMaxCRL()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMaxCRL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRLSelector#getMinCRL() public java.math.BigInteger
+     * java.security.cert.X509CRLSelector.getMinCRL()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMinCRL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRLSelector#match(java.security.cert.CRL) public boolean
+     * java.security.cert.X509CRLSelector.match(java.security.cert.CRL)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_match_CRL()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.security.cert.X509CRLSelector#setCertificateChecking(java.security.cert.X509Certificate) public void
+     * java.security.cert.X509CRLSelector.setCertificateChecking(java.security.cert.X509Certificate)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setCertificateChecking_X509Certificate()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRLSelector#setDateAndTime(java.util.Date) public void
+     * java.security.cert.X509CRLSelector.setDateAndTime(java.util.Date)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setDateAndTime_Date()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRLSelector#setIssuerNames(java.util.Collection) public void
+     * java.security.cert.X509CRLSelector.setIssuerNames(java.util.Collection) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setIssuerNames_Collection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRLSelector#setIssuers(java.util.Collection) public void
+     * java.security.cert.X509CRLSelector.setIssuers(java.util.Collection)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setIssuers_Collection()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRLSelector#setMaxCRLNumber(java.math.BigInteger) public void
+     * java.security.cert.X509CRLSelector.setMaxCRLNumber(java.math.BigInteger)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMaxCRLNumber_BigInteger()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRLSelector#setMinCRLNumber(java.math.BigInteger) public void
+     * java.security.cert.X509CRLSelector.setMinCRLNumber(java.math.BigInteger)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMinCRLNumber_BigInteger()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.X509CRLSelector#toString() public java.lang.String
+     * java.security.cert.X509CRLSelector.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

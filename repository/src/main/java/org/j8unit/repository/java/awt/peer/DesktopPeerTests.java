@@ -24,14 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.DesktopPeer#mail(java.net.URI) public abstract void
-     * java.awt.peer.DesktopPeer.mail(java.net.URI) throws java.io.IOException}.
+     * Test method for {@link java.awt.peer.DesktopPeer#browse(java.net.URI) public abstract void
+     * java.awt.peer.DesktopPeer.browse(java.net.URI) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_mail_URI()
+    public default void test_browse_URI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -56,14 +56,30 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.DesktopPeer#print(java.io.File) public abstract void
-     * java.awt.peer.DesktopPeer.print(java.io.File) throws java.io.IOException}.
+     * Test method for {@link java.awt.peer.DesktopPeer#isSupported(java.awt.Desktop.Action) public abstract boolean
+     * java.awt.peer.DesktopPeer.isSupported(java.awt.Desktop$Action)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_print_File()
+    public default void test_isSupported_Action()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.peer.DesktopPeer#mail(java.net.URI) public abstract void
+     * java.awt.peer.DesktopPeer.mail(java.net.URI) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_mail_URI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,30 +104,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.DesktopPeer#browse(java.net.URI) public abstract void
-     * java.awt.peer.DesktopPeer.browse(java.net.URI) throws java.io.IOException}.
+     * Test method for {@link java.awt.peer.DesktopPeer#print(java.io.File) public abstract void
+     * java.awt.peer.DesktopPeer.print(java.io.File) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_browse_URI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.peer.DesktopPeer#isSupported(java.awt.Desktop.Action) public abstract boolean
-     * java.awt.peer.DesktopPeer.isSupported(java.awt.Desktop$Action)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isSupported_Action()
+    public default void test_print_File()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

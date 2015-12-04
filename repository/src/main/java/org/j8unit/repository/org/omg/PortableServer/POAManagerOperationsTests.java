@@ -25,56 +25,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.PortableServer.POAManagerOperations#get_state() public abstract
-     * org.omg.PortableServer.POAManagerPackage.State org.omg.PortableServer.POAManagerOperations.get_state()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_get_state()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.POAManagerOperations#hold_requests(boolean) public abstract void
-     * org.omg.PortableServer.POAManagerOperations.hold_requests(boolean) throws
-     * org.omg.PortableServer.POAManagerPackage.AdapterInactive}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hold_requests_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.POAManagerOperations#discard_requests(boolean) public abstract void
-     * org.omg.PortableServer.POAManagerOperations.discard_requests(boolean) throws
-     * org.omg.PortableServer.POAManagerPackage.AdapterInactive}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_discard_requests_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.PortableServer.POAManagerOperations#activate() public abstract void
      * org.omg.PortableServer.POAManagerOperations.activate() throws
      * org.omg.PortableServer.POAManagerPackage.AdapterInactive}.
@@ -101,6 +51,56 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_deactivate_boolean_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.POAManagerOperations#discard_requests(boolean) public abstract void
+     * org.omg.PortableServer.POAManagerOperations.discard_requests(boolean) throws
+     * org.omg.PortableServer.POAManagerPackage.AdapterInactive}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_discard_requests_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.POAManagerOperations#get_state() public abstract
+     * org.omg.PortableServer.POAManagerPackage.State org.omg.PortableServer.POAManagerOperations.get_state()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_get_state()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.POAManagerOperations#hold_requests(boolean) public abstract void
+     * org.omg.PortableServer.POAManagerOperations.hold_requests(boolean) throws
+     * org.omg.PortableServer.POAManagerPackage.AdapterInactive}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hold_requests_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

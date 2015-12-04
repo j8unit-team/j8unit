@@ -36,31 +36,16 @@ public abstract interface SecurityExceptionClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.lang.SecurityException#SecurityException(java.lang.Throwable) public
-     * java.lang.SecurityException(java.lang.Throwable)}.
+     * Test method for {@link java.lang.SecurityException#SecurityException() public java.lang.SecurityException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SecurityException_Throwable()
+    public default void create_SecurityException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.SecurityException sut = null; // = new SecurityException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for {@link java.lang.SecurityException#SecurityException(java.lang.String,java.lang.Throwable) public
-     * java.lang.SecurityException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SecurityException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.lang.SecurityException sut = null; // = new SecurityException(java.lang.String,java.lang.Throwable);
+        final java.lang.SecurityException sut = null; // = new SecurityException();
     }
 
     /**
@@ -78,16 +63,31 @@ extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.lang.SecurityException#SecurityException() public java.lang.SecurityException()}.
+     * Test method for {@link java.lang.SecurityException#SecurityException(java.lang.String,java.lang.Throwable) public
+     * java.lang.SecurityException(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SecurityException()
+    public default void create_SecurityException_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.lang.SecurityException sut = null; // = new SecurityException();
+        final java.lang.SecurityException sut = null; // = new SecurityException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link java.lang.SecurityException#SecurityException(java.lang.Throwable) public
+     * java.lang.SecurityException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SecurityException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.lang.SecurityException sut = null; // = new SecurityException(java.lang.Throwable);
     }
 
     @Override

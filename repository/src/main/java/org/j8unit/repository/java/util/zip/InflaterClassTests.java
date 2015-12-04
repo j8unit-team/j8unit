@@ -36,19 +36,6 @@ public abstract interface InflaterClassTests<SUT extends Class<? extends java.ut
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.zip.Inflater#Inflater(boolean) public java.util.zip.Inflater(boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Inflater_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.zip.Inflater sut = null; // = new Inflater(boolean);
-    }
-
-    /**
      * Test method for {@link java.util.zip.Inflater#Inflater() public java.util.zip.Inflater()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
@@ -59,6 +46,19 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.zip.Inflater sut = null; // = new Inflater();
+    }
+
+    /**
+     * Test method for {@link java.util.zip.Inflater#Inflater(boolean) public java.util.zip.Inflater(boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Inflater_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.zip.Inflater sut = null; // = new Inflater(boolean);
     }
 
     @Override

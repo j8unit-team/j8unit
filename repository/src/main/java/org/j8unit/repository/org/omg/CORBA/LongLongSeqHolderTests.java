@@ -40,23 +40,6 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.LongLongSeqHolder#_write(org.omg.CORBA.portable.OutputStream) public void
-     * org.omg.CORBA.LongLongSeqHolder._write(org.omg.CORBA.portable.OutputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test__write_OutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.omg.CORBA.LongLongSeqHolder#_type() public org.omg.CORBA.TypeCode
      * org.omg.CORBA.LongLongSeqHolder._type()}.
      * </p>
@@ -66,6 +49,23 @@ extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j
     @Category(Draft.class)
     @Override
     public default void test__type()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.CORBA.LongLongSeqHolder#_write(org.omg.CORBA.portable.OutputStream) public void
+     * org.omg.CORBA.LongLongSeqHolder._write(org.omg.CORBA.portable.OutputStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test__write_OutputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

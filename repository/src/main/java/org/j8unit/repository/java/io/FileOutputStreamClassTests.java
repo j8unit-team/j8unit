@@ -36,17 +36,17 @@ public abstract interface FileOutputStreamClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
 
     /**
-     * Test method for {@link java.io.FileOutputStream#FileOutputStream(java.io.FileDescriptor) public
-     * java.io.FileOutputStream(java.io.FileDescriptor)}.
+     * Test method for {@link java.io.FileOutputStream#FileOutputStream(java.io.File) public
+     * java.io.FileOutputStream(java.io.File) throws java.io.FileNotFoundException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_FileOutputStream_FileDescriptor()
+    public default void create_FileOutputStream_File()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.io.FileOutputStream sut = null; // = new FileOutputStream(java.io.FileDescriptor);
+        final java.io.FileOutputStream sut = null; // = new FileOutputStream(java.io.File);
     }
 
     /**
@@ -64,31 +64,17 @@ extends org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.io.FileOutputStream#FileOutputStream(java.io.File) public
-     * java.io.FileOutputStream(java.io.File) throws java.io.FileNotFoundException}.
+     * Test method for {@link java.io.FileOutputStream#FileOutputStream(java.io.FileDescriptor) public
+     * java.io.FileOutputStream(java.io.FileDescriptor)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_FileOutputStream_File()
+    public default void create_FileOutputStream_FileDescriptor()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.io.FileOutputStream sut = null; // = new FileOutputStream(java.io.File);
-    }
-
-    /**
-     * Test method for {@link java.io.FileOutputStream#FileOutputStream(java.lang.String,boolean) public
-     * java.io.FileOutputStream(java.lang.String,boolean) throws java.io.FileNotFoundException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_FileOutputStream_String_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.FileOutputStream sut = null; // = new FileOutputStream(java.lang.String,boolean);
+        final java.io.FileOutputStream sut = null; // = new FileOutputStream(java.io.FileDescriptor);
     }
 
     /**
@@ -103,6 +89,20 @@ extends org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.FileOutputStream sut = null; // = new FileOutputStream(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link java.io.FileOutputStream#FileOutputStream(java.lang.String,boolean) public
+     * java.io.FileOutputStream(java.lang.String,boolean) throws java.io.FileNotFoundException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_FileOutputStream_String_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.FileOutputStream sut = null; // = new FileOutputStream(java.lang.String,boolean);
     }
 
     @Override

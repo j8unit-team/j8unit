@@ -24,6 +24,24 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test class for {@link javax.security.auth.login.Configuration$Parameters interface
+     * javax.security.auth.login.Configuration$Parameters}, containing all instance relevant test methods (i.&thinsp;e.,
+     * test methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests.ParametersClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface ParametersTests<SUT extends javax.security.auth.login.Configuration.Parameters>
+    extends J8UnitTest<SUT> {
+
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.security.auth.login.Configuration#getAppConfigurationEntry(java.lang.String) public
      * abstract javax.security.auth.login.AppConfigurationEntry[]
      * javax.security.auth.login.Configuration.getAppConfigurationEntry(java.lang.String)}.
@@ -33,38 +51,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getAppConfigurationEntry_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.login.Configuration#getProvider() public java.security.Provider
-     * javax.security.auth.login.Configuration.getProvider()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getProvider()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.login.Configuration#refresh() public void
-     * javax.security.auth.login.Configuration.refresh()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_refresh()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -89,6 +75,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.security.auth.login.Configuration#getProvider() public java.security.Provider
+     * javax.security.auth.login.Configuration.getProvider()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getProvider()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.security.auth.login.Configuration#getType() public java.lang.String
      * javax.security.auth.login.Configuration.getType()}.
      * </p>
@@ -105,20 +107,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link javax.security.auth.login.Configuration$Parameters interface
-     * javax.security.auth.login.Configuration$Parameters}, containing all instance relevant test methods (i.&thinsp;e.,
-     * test methods of non-{@code static} methods).
+     * Test method for {@link javax.security.auth.login.Configuration#refresh() public void
+     * javax.security.auth.login.Configuration.refresh()}.
      * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests.ParametersClassTests
      */
-    @Category(J8UnitRepository.class)
-    public static abstract interface ParametersTests<SUT extends javax.security.auth.login.Configuration.Parameters>
-    extends J8UnitTest<SUT> {
-
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_refresh()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

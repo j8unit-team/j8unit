@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.naming.ldap.ExtendedRequest#getID() public abstract java.lang.String
-     * javax.naming.ldap.ExtendedRequest.getID()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.naming.ldap.ExtendedRequest#createExtendedResponse(java.lang.String,byte[],int,int)
      * public abstract javax.naming.ldap.ExtendedResponse
      * javax.naming.ldap.ExtendedRequest.createExtendedResponse(java.lang.String,byte[],int,int) throws
@@ -65,6 +49,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getEncodedValue()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.ldap.ExtendedRequest#getID() public abstract java.lang.String
+     * javax.naming.ldap.ExtendedRequest.getID()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getID()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

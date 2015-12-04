@@ -36,18 +36,17 @@ public abstract interface SaslExceptionClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.security.sasl.SaslException#SaslException(java.lang.String,java.lang.Throwable)
-     * public javax.security.sasl.SaslException(java.lang.String,java.lang.Throwable)}.
+     * Test method for {@link javax.security.sasl.SaslException#SaslException() public
+     * javax.security.sasl.SaslException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SaslException_String_Throwable()
+    public default void create_SaslException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.security.sasl.SaslException sut = null; // = new
-                                                            // SaslException(java.lang.String,java.lang.Throwable);
+        final javax.security.sasl.SaslException sut = null; // = new SaslException();
     }
 
     /**
@@ -65,17 +64,18 @@ extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.security.sasl.SaslException#SaslException() public
-     * javax.security.sasl.SaslException()}.
+     * Test method for {@link javax.security.sasl.SaslException#SaslException(java.lang.String,java.lang.Throwable)
+     * public javax.security.sasl.SaslException(java.lang.String,java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_SaslException()
+    public default void create_SaslException_String_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.security.sasl.SaslException sut = null; // = new SaslException();
+        final javax.security.sasl.SaslException sut = null; // = new
+                                                            // SaslException(java.lang.String,java.lang.Throwable);
     }
 
     @Override

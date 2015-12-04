@@ -24,30 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getOffset() public abstract int
-     * javax.xml.bind.ValidationEventLocator.getOffset()}.
+     * Test method for {@link javax.xml.bind.ValidationEventLocator#getColumnNumber() public abstract int
+     * javax.xml.bind.ValidationEventLocator.getColumnNumber()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getOffset()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getURL() public abstract java.net.URL
-     * javax.xml.bind.ValidationEventLocator.getURL()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getURL()
+    public default void test_getColumnNumber()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,6 +56,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.bind.ValidationEventLocator#getNode() public abstract org.w3c.dom.Node
+     * javax.xml.bind.ValidationEventLocator.getNode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getNode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.bind.ValidationEventLocator#getObject() public abstract java.lang.Object
      * javax.xml.bind.ValidationEventLocator.getObject()}.
      * </p>
@@ -88,14 +88,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getColumnNumber() public abstract int
-     * javax.xml.bind.ValidationEventLocator.getColumnNumber()}.
+     * Test method for {@link javax.xml.bind.ValidationEventLocator#getOffset() public abstract int
+     * javax.xml.bind.ValidationEventLocator.getOffset()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getColumnNumber()
+    public default void test_getOffset()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -104,14 +104,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.bind.ValidationEventLocator#getNode() public abstract org.w3c.dom.Node
-     * javax.xml.bind.ValidationEventLocator.getNode()}.
+     * Test method for {@link javax.xml.bind.ValidationEventLocator#getURL() public abstract java.net.URL
+     * javax.xml.bind.ValidationEventLocator.getURL()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getNode()
+    public default void test_getURL()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

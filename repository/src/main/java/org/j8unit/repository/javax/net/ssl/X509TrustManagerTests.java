@@ -24,25 +24,6 @@ extends org.j8unit.repository.javax.net.ssl.TrustManagerTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.net.ssl.X509TrustManager#checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String)
-     * public abstract void
-     * javax.net.ssl.X509TrustManager.checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String) throws
-     * java.security.cert.CertificateException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_checkServerTrusted_X509CertificateArray_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link javax.net.ssl.X509TrustManager#checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String)
      * public abstract void
      * javax.net.ssl.X509TrustManager.checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String) throws
@@ -53,6 +34,25 @@ extends org.j8unit.repository.javax.net.ssl.TrustManagerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_checkClientTrusted_X509CertificateArray_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.net.ssl.X509TrustManager#checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String)
+     * public abstract void
+     * javax.net.ssl.X509TrustManager.checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String) throws
+     * java.security.cert.CertificateException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_checkServerTrusted_X509CertificateArray_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

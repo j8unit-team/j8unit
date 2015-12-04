@@ -55,14 +55,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.LineBreakMeasurer#nextLayout(float,int,boolean) public
-     * java.awt.font.TextLayout java.awt.font.LineBreakMeasurer.nextLayout(float,int,boolean)}.
+     * Test method for {@link java.awt.font.LineBreakMeasurer#insertChar(java.text.AttributedCharacterIterator,int)
+     * public void java.awt.font.LineBreakMeasurer.insertChar(java.text.AttributedCharacterIterator,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextLayout_float_int_boolean()
+    public default void test_insertChar_AttributedCharacterIterator_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,14 +87,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.LineBreakMeasurer#insertChar(java.text.AttributedCharacterIterator,int)
-     * public void java.awt.font.LineBreakMeasurer.insertChar(java.text.AttributedCharacterIterator,int)}.
+     * Test method for {@link java.awt.font.LineBreakMeasurer#nextLayout(float,int,boolean) public
+     * java.awt.font.TextLayout java.awt.font.LineBreakMeasurer.nextLayout(float,int,boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_insertChar_AttributedCharacterIterator_int()
+    public default void test_nextLayout_float_int_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +103,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.LineBreakMeasurer#setPosition(int) public void
-     * java.awt.font.LineBreakMeasurer.setPosition(int)}.
+     * Test method for {@link java.awt.font.LineBreakMeasurer#nextOffset(float) public int
+     * java.awt.font.LineBreakMeasurer.nextOffset(float)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setPosition_int()
+    public default void test_nextOffset_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -135,14 +135,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.font.LineBreakMeasurer#nextOffset(float) public int
-     * java.awt.font.LineBreakMeasurer.nextOffset(float)}.
+     * Test method for {@link java.awt.font.LineBreakMeasurer#setPosition(int) public void
+     * java.awt.font.LineBreakMeasurer.setPosition(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextOffset_float()
+    public default void test_setPosition_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

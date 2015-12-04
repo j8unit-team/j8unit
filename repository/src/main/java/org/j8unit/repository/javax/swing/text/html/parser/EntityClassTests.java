@@ -49,16 +49,6 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsClassTest
         final javax.swing.text.html.parser.Entity sut = null; // = new Entity(java.lang.String,int,char[]);
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.html.parser.Entity> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.html.parser.Entity.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.text.html.parser.Entity#name2type(java.lang.String) public static int
@@ -73,6 +63,16 @@ extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsClassTest
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.html.parser.Entity> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.html.parser.Entity.class.isAssignableFrom(sut));
     }
 
 }

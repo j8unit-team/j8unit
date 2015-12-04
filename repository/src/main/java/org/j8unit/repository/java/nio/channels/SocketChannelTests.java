@@ -25,22 +25,6 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.SocketChannel#shutdownInput() public abstract
-     * java.nio.channels.SocketChannel java.nio.channels.SocketChannel.shutdownInput() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_shutdownInput()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.channels.SocketChannel#bind(java.net.SocketAddress) public abstract
      * java.nio.channels.SocketChannel java.nio.channels.SocketChannel.bind(java.net.SocketAddress) throws
      * java.io.IOException}.
@@ -59,53 +43,18 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.SocketChannel#write(java.nio.ByteBuffer) public abstract int
-     * java.nio.channels.SocketChannel.write(java.nio.ByteBuffer) throws java.io.IOException}.
+     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
+     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
+     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
+     * thus, overriding becomes unnecessary.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_write_ByteBuffer()
+    public default void test_close()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.SocketChannel#write(java.nio.ByteBuffer[]) public final long
-     * java.nio.channels.SocketChannel.write(java.nio.ByteBuffer[]) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_write_ByteBufferArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.SocketChannel#write(java.nio.ByteBuffer[],int,int) public abstract long
-     * java.nio.channels.SocketChannel.write(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_write_ByteBufferArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
     }
 
     /**
@@ -126,124 +75,6 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * Test method for {@link java.nio.channels.SocketChannel#validOps() public final int
-     * java.nio.channels.SocketChannel.validOps()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_validOps()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.SocketChannel#socket() public abstract java.net.Socket
-     * java.nio.channels.SocketChannel.socket()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_socket()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.SocketChannel#isConnectionPending() public abstract boolean
-     * java.nio.channels.SocketChannel.isConnectionPending()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isConnectionPending()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.SocketChannel#setOption(java.net.SocketOption,java.lang.Object) public
-     * abstract java.nio.channels.SocketChannel
-     * java.nio.channels.SocketChannel.setOption(java.net.SocketOption,java.lang.Object) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_setOption_SocketOption_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.SocketChannel#read(java.nio.ByteBuffer[],int,int) public abstract long
-     * java.nio.channels.SocketChannel.read(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_read_ByteBufferArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.SocketChannel#read(java.nio.ByteBuffer) public abstract int
-     * java.nio.channels.SocketChannel.read(java.nio.ByteBuffer) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_read_ByteBuffer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.SocketChannel#read(java.nio.ByteBuffer[]) public final long
-     * java.nio.channels.SocketChannel.read(java.nio.ByteBuffer[]) throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_read_ByteBufferArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.nio.channels.SocketChannel#finishConnect() public abstract boolean
      * java.nio.channels.SocketChannel.finishConnect() throws java.io.IOException}.
      * </p>
@@ -252,22 +83,6 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
     @Test
     @Category(Draft.class)
     public default void test_finishConnect()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.nio.channels.SocketChannel#shutdownOutput() public abstract
-     * java.nio.channels.SocketChannel java.nio.channels.SocketChannel.shutdownOutput() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_shutdownOutput()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -325,18 +140,18 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
 
     /**
      * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
+     * Test method for {@link java.nio.channels.SocketChannel#isConnectionPending() public abstract boolean
+     * java.nio.channels.SocketChannel.isConnectionPending()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_close()
+    public default void test_isConnectionPending()
     throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -353,6 +168,191 @@ org.j8unit.repository.java.nio.channels.spi.AbstractSelectableChannelTests<SUT> 
     @Override
     public default void test_isOpen()
     throws Exception {
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.SocketChannel#read(java.nio.ByteBuffer) public abstract int
+     * java.nio.channels.SocketChannel.read(java.nio.ByteBuffer) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_read_ByteBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.SocketChannel#read(java.nio.ByteBuffer[]) public final long
+     * java.nio.channels.SocketChannel.read(java.nio.ByteBuffer[]) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_read_ByteBufferArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.SocketChannel#read(java.nio.ByteBuffer[],int,int) public abstract long
+     * java.nio.channels.SocketChannel.read(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_read_ByteBufferArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.SocketChannel#setOption(java.net.SocketOption,java.lang.Object) public
+     * abstract java.nio.channels.SocketChannel
+     * java.nio.channels.SocketChannel.setOption(java.net.SocketOption,java.lang.Object) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setOption_SocketOption_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.SocketChannel#shutdownInput() public abstract
+     * java.nio.channels.SocketChannel java.nio.channels.SocketChannel.shutdownInput() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_shutdownInput()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.SocketChannel#shutdownOutput() public abstract
+     * java.nio.channels.SocketChannel java.nio.channels.SocketChannel.shutdownOutput() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_shutdownOutput()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.SocketChannel#socket() public abstract java.net.Socket
+     * java.nio.channels.SocketChannel.socket()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_socket()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.SocketChannel#validOps() public final int
+     * java.nio.channels.SocketChannel.validOps()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_validOps()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.SocketChannel#write(java.nio.ByteBuffer) public abstract int
+     * java.nio.channels.SocketChannel.write(java.nio.ByteBuffer) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_write_ByteBuffer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.SocketChannel#write(java.nio.ByteBuffer[]) public final long
+     * java.nio.channels.SocketChannel.write(java.nio.ByteBuffer[]) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_write_ByteBufferArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.nio.channels.SocketChannel#write(java.nio.ByteBuffer[],int,int) public abstract long
+     * java.nio.channels.SocketChannel.write(java.nio.ByteBuffer[],int,int) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_write_ByteBufferArray_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

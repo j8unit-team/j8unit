@@ -24,6 +24,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.xml.ws.handler.Handler#close(javax.xml.ws.handler.MessageContext) public abstract
+     * void javax.xml.ws.handler.Handler.close(javax.xml.ws.handler.MessageContext)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_close_MessageContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.xml.ws.handler.Handler#handleFault(javax.xml.ws.handler.MessageContext) public
      * abstract boolean javax.xml.ws.handler.Handler.handleFault(javax.xml.ws.handler.MessageContext)}.
      * </p>
@@ -48,22 +64,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_handleMessage_MessageContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.xml.ws.handler.Handler#close(javax.xml.ws.handler.MessageContext) public abstract
-     * void javax.xml.ws.handler.Handler.close(javax.xml.ws.handler.MessageContext)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_close_MessageContext()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

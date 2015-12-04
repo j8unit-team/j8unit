@@ -23,6 +23,23 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
+     * Test class for {@link javax.swing.event.RowSorterEvent$Type class javax.swing.event.RowSorterEvent$Type},
+     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.swing.event.RowSorterEventClassTests.TypeClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface TypeTests<SUT extends javax.swing.event.RowSorterEvent.Type>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.swing.event.RowSorterEvent.Type> {
+
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.event.RowSorterEvent#convertPreviousRowIndexToModel(int) public int
      * javax.swing.event.RowSorterEvent.convertPreviousRowIndexToModel(int)}.
      * </p>
@@ -39,14 +56,14 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.RowSorterEvent#getType() public javax.swing.event.RowSorterEvent$Type
-     * javax.swing.event.RowSorterEvent.getType()}.
+     * Test method for {@link javax.swing.event.RowSorterEvent#getPreviousRowCount() public int
+     * javax.swing.event.RowSorterEvent.getPreviousRowCount()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getType()
+    public default void test_getPreviousRowCount()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,35 +89,18 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.RowSorterEvent#getPreviousRowCount() public int
-     * javax.swing.event.RowSorterEvent.getPreviousRowCount()}.
+     * Test method for {@link javax.swing.event.RowSorterEvent#getType() public javax.swing.event.RowSorterEvent$Type
+     * javax.swing.event.RowSorterEvent.getType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPreviousRowCount()
+    public default void test_getType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test class for {@link javax.swing.event.RowSorterEvent$Type class javax.swing.event.RowSorterEvent$Type},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.javax.swing.event.RowSorterEventClassTests.TypeClassTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface TypeTests<SUT extends javax.swing.event.RowSorterEvent.Type>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.swing.event.RowSorterEvent.Type> {
-
     }
 
 }

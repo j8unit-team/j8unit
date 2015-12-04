@@ -23,6 +23,25 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT> {
 
     /**
      * <p>
+     * Test method for
+     * {@link javax.management.remote.JMXConnector#addConnectionNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+     * public abstract void
+     * javax.management.remote.JMXConnector.addConnectionNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addConnectionNotificationListener_NotificationListener_NotificationFilter_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.remote.JMXConnector#close() public abstract void
      * javax.management.remote.JMXConnector.close() throws java.io.IOException}.
      * </p>
@@ -32,22 +51,6 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.remote.JMXConnector#getConnectionId() public abstract java.lang.String
-     * javax.management.remote.JMXConnector.getConnectionId() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getConnectionId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,55 +91,14 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT> {
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.management.remote.JMXConnector#removeConnectionNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
-     * public abstract void
-     * javax.management.remote.JMXConnector.removeConnectionNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
-     * throws javax.management.ListenerNotFoundException}.
+     * Test method for {@link javax.management.remote.JMXConnector#getConnectionId() public abstract java.lang.String
+     * javax.management.remote.JMXConnector.getConnectionId() throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeConnectionNotificationListener_NotificationListener_NotificationFilter_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.JMXConnector#removeConnectionNotificationListener(javax.management.NotificationListener)
-     * public abstract void
-     * javax.management.remote.JMXConnector.removeConnectionNotificationListener(javax.management.NotificationListener)
-     * throws javax.management.ListenerNotFoundException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_removeConnectionNotificationListener_NotificationListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.remote.JMXConnector#addConnectionNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
-     * public abstract void
-     * javax.management.remote.JMXConnector.addConnectionNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addConnectionNotificationListener_NotificationListener_NotificationFilter_Object()
+    public default void test_getConnectionId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -172,6 +134,44 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMBeanServerConnection_Subject()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.JMXConnector#removeConnectionNotificationListener(javax.management.NotificationListener)
+     * public abstract void
+     * javax.management.remote.JMXConnector.removeConnectionNotificationListener(javax.management.NotificationListener)
+     * throws javax.management.ListenerNotFoundException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeConnectionNotificationListener_NotificationListener()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.management.remote.JMXConnector#removeConnectionNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+     * public abstract void
+     * javax.management.remote.JMXConnector.removeConnectionNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+     * throws javax.management.ListenerNotFoundException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeConnectionNotificationListener_NotificationListener_NotificationFilter_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

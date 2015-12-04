@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorMapTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.datatransfer.FlavorTable#getFlavorsForNative(java.lang.String) public abstract
+     * java.util.List java.awt.datatransfer.FlavorTable.getFlavorsForNative(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFlavorsForNative_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.datatransfer.FlavorTable#getNativesForFlavor(java.awt.datatransfer.DataFlavor)
      * public abstract java.util.List
      * java.awt.datatransfer.FlavorTable.getNativesForFlavor(java.awt.datatransfer.DataFlavor)}.
@@ -32,22 +48,6 @@ extends org.j8unit.repository.java.awt.datatransfer.FlavorMapTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getNativesForFlavor_DataFlavor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.datatransfer.FlavorTable#getFlavorsForNative(java.lang.String) public abstract
-     * java.util.List java.awt.datatransfer.FlavorTable.getFlavorsForNative(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFlavorsForNative_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

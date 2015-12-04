@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.naming.spi.ResolveResult#getResolvedObj() public java.lang.Object
-     * javax.naming.spi.ResolveResult.getResolvedObj()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getResolvedObj()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.naming.spi.ResolveResult#appendRemainingComponent(java.lang.String) public void
      * javax.naming.spi.ResolveResult.appendRemainingComponent(java.lang.String)}.
      * </p>
@@ -55,14 +39,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.naming.spi.ResolveResult#setRemainingName(javax.naming.Name) public void
-     * javax.naming.spi.ResolveResult.setRemainingName(javax.naming.Name)}.
+     * Test method for {@link javax.naming.spi.ResolveResult#appendRemainingName(javax.naming.Name) public void
+     * javax.naming.spi.ResolveResult.appendRemainingName(javax.naming.Name)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setRemainingName_Name()
+    public default void test_appendRemainingName_Name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -87,14 +71,30 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.naming.spi.ResolveResult#appendRemainingName(javax.naming.Name) public void
-     * javax.naming.spi.ResolveResult.appendRemainingName(javax.naming.Name)}.
+     * Test method for {@link javax.naming.spi.ResolveResult#getResolvedObj() public java.lang.Object
+     * javax.naming.spi.ResolveResult.getResolvedObj()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_appendRemainingName_Name()
+    public default void test_getResolvedObj()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.spi.ResolveResult#setRemainingName(javax.naming.Name) public void
+     * javax.naming.spi.ResolveResult.setRemainingName(javax.naming.Name)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setRemainingName_Name()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

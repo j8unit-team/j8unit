@@ -37,28 +37,17 @@ extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>,
 org.j8unit.repository.java.time.chrono.ChronoZonedDateTimeClassTests<SUT, java.time.LocalDate>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
+    /**
+     * <p>
+     * Test method for {@link java.time.ZonedDateTime#from(java.time.temporal.TemporalAccessor) public static
+     * java.time.ZonedDateTime java.time.ZonedDateTime.from(java.time.temporal.TemporalAccessor)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
     @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.ZonedDateTime> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.ZonedDateTime.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.time.ZonedDateTime#ofInstant(java.time.LocalDateTime,java.time.ZoneOffset,java.time.ZoneId) public
-     * static java.time.ZonedDateTime
-     * java.time.ZonedDateTime.ofInstant(java.time.LocalDateTime,java.time.ZoneOffset,java.time.ZoneId)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_ofInstant_LocalDateTime_ZoneOffset_ZoneId()
+    public default void test_from_TemporalAccessor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -67,14 +56,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.ZonedDateTime#ofInstant(java.time.Instant,java.time.ZoneId) public static
-     * java.time.ZonedDateTime java.time.ZonedDateTime.ofInstant(java.time.Instant,java.time.ZoneId)}.
+     * Test method for {@link java.time.ZonedDateTime#now() public static java.time.ZonedDateTime
+     * java.time.ZonedDateTime.now()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ofInstant_Instant_ZoneId()
+    public default void test_now()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -83,14 +72,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.ZonedDateTime#parse(java.lang.CharSequence) public static
-     * java.time.ZonedDateTime java.time.ZonedDateTime.parse(java.lang.CharSequence)}.
+     * Test method for {@link java.time.ZonedDateTime#now(java.time.Clock) public static java.time.ZonedDateTime
+     * java.time.ZonedDateTime.now(java.time.Clock)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parse_CharSequence()
+    public default void test_now_Clock()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -99,15 +88,30 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.ZonedDateTime#parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)
-     * public static java.time.ZonedDateTime
-     * java.time.ZonedDateTime.parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)}.
+     * Test method for {@link java.time.ZonedDateTime#now(java.time.ZoneId) public static java.time.ZonedDateTime
+     * java.time.ZonedDateTime.now(java.time.ZoneId)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parse_CharSequence_DateTimeFormatter()
+    public default void test_now_ZoneId()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.ZonedDateTime#of(int,int,int,int,int,int,int,java.time.ZoneId) public static
+     * java.time.ZonedDateTime java.time.ZonedDateTime.of(int,int,int,int,int,int,int,java.time.ZoneId)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_int_int_int_int_int_int_int_ZoneId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -149,14 +153,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.ZonedDateTime#of(int,int,int,int,int,int,int,java.time.ZoneId) public static
-     * java.time.ZonedDateTime java.time.ZonedDateTime.of(int,int,int,int,int,int,int,java.time.ZoneId)}.
+     * Test method for {@link java.time.ZonedDateTime#ofInstant(java.time.Instant,java.time.ZoneId) public static
+     * java.time.ZonedDateTime java.time.ZonedDateTime.ofInstant(java.time.Instant,java.time.ZoneId)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_of_int_int_int_int_int_int_int_ZoneId()
+    public default void test_ofInstant_Instant_ZoneId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -165,46 +169,16 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.ZonedDateTime#now(java.time.Clock) public static java.time.ZonedDateTime
-     * java.time.ZonedDateTime.now(java.time.Clock)}.
+     * Test method for
+     * {@link java.time.ZonedDateTime#ofInstant(java.time.LocalDateTime,java.time.ZoneOffset,java.time.ZoneId) public
+     * static java.time.ZonedDateTime
+     * java.time.ZonedDateTime.ofInstant(java.time.LocalDateTime,java.time.ZoneOffset,java.time.ZoneId)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_now_Clock()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.ZonedDateTime#now() public static java.time.ZonedDateTime
-     * java.time.ZonedDateTime.now()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_now()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.ZonedDateTime#now(java.time.ZoneId) public static java.time.ZonedDateTime
-     * java.time.ZonedDateTime.now(java.time.ZoneId)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_now_ZoneId()
+    public default void test_ofInstant_LocalDateTime_ZoneOffset_ZoneId()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -231,23 +205,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.time.ZonedDateTime#from(java.time.temporal.TemporalAccessor) public static
-     * java.time.ZonedDateTime java.time.ZonedDateTime.from(java.time.temporal.TemporalAccessor)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_from_TemporalAccessor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
      * {@link java.time.ZonedDateTime#ofStrict(java.time.LocalDateTime,java.time.ZoneOffset,java.time.ZoneId) public
      * static java.time.ZonedDateTime
@@ -262,6 +219,49 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.ZonedDateTime#parse(java.lang.CharSequence) public static
+     * java.time.ZonedDateTime java.time.ZonedDateTime.parse(java.lang.CharSequence)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parse_CharSequence()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.ZonedDateTime#parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)
+     * public static java.time.ZonedDateTime
+     * java.time.ZonedDateTime.parse(java.lang.CharSequence,java.time.format.DateTimeFormatter)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_parse_CharSequence_DateTimeFormatter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.time.ZonedDateTime> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.ZonedDateTime.class.isAssignableFrom(sut));
     }
 
 }

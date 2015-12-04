@@ -36,6 +36,19 @@ public abstract interface SimpleBindingsClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.javax.script.BindingsClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.script.SimpleBindings#SimpleBindings() public javax.script.SimpleBindings()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SimpleBindings()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.script.SimpleBindings sut = null; // = new SimpleBindings();
+    }
+
+    /**
      * Test method for {@link javax.script.SimpleBindings#SimpleBindings(java.util.Map) public
      * javax.script.SimpleBindings(java.util.Map)}.
      */
@@ -47,19 +60,6 @@ extends org.j8unit.repository.javax.script.BindingsClassTests<SUT>, org.j8unit.r
         // create new instance
         @SuppressWarnings("unused")
         final javax.script.SimpleBindings sut = null; // = new SimpleBindings(java.util.Map);
-    }
-
-    /**
-     * Test method for {@link javax.script.SimpleBindings#SimpleBindings() public javax.script.SimpleBindings()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SimpleBindings()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.script.SimpleBindings sut = null; // = new SimpleBindings();
     }
 
     @Override

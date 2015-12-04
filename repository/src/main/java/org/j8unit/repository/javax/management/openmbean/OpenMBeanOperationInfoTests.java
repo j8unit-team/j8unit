@@ -25,46 +25,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfo#toString() public abstract
-     * java.lang.String javax.management.openmbean.OpenMBeanOperationInfo.toString()}.
+     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfo#equals(java.lang.Object) public abstract
+     * boolean javax.management.openmbean.OpenMBeanOperationInfo.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfo#getSignature() public abstract
-     * javax.management.MBeanParameterInfo[] javax.management.openmbean.OpenMBeanOperationInfo.getSignature()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSignature()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfo#getReturnOpenType() public abstract
-     * javax.management.openmbean.OpenType javax.management.openmbean.OpenMBeanOperationInfo.getReturnOpenType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getReturnOpenType()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -89,6 +57,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfo#getImpact() public abstract int
+     * javax.management.openmbean.OpenMBeanOperationInfo.getImpact()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImpact()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfo#getName() public abstract
      * java.lang.String javax.management.openmbean.OpenMBeanOperationInfo.getName()}.
      * </p>
@@ -105,30 +89,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfo#equals(java.lang.Object) public abstract
-     * boolean javax.management.openmbean.OpenMBeanOperationInfo.equals(java.lang.Object)}.
+     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfo#getReturnOpenType() public abstract
+     * javax.management.openmbean.OpenType javax.management.openmbean.OpenMBeanOperationInfo.getReturnOpenType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfo#hashCode() public abstract int
-     * javax.management.openmbean.OpenMBeanOperationInfo.hashCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hashCode()
+    public default void test_getReturnOpenType()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -153,14 +121,46 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfo#getImpact() public abstract int
-     * javax.management.openmbean.OpenMBeanOperationInfo.getImpact()}.
+     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfo#getSignature() public abstract
+     * javax.management.MBeanParameterInfo[] javax.management.openmbean.OpenMBeanOperationInfo.getSignature()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getImpact()
+    public default void test_getSignature()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfo#hashCode() public abstract int
+     * javax.management.openmbean.OpenMBeanOperationInfo.hashCode()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.openmbean.OpenMBeanOperationInfo#toString() public abstract
+     * java.lang.String javax.management.openmbean.OpenMBeanOperationInfo.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

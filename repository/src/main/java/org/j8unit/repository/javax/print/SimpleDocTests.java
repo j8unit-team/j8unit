@@ -23,15 +23,15 @@ extends org.j8unit.repository.javax.print.DocTests<SUT>, org.j8unit.repository.j
 
     /**
      * <p>
-     * Test method for {@link javax.print.SimpleDoc#getReaderForText() public java.io.Reader
-     * javax.print.SimpleDoc.getReaderForText() throws java.io.IOException}.
+     * Test method for {@link javax.print.SimpleDoc#getAttributes() public javax.print.attribute.DocAttributeSet
+     * javax.print.SimpleDoc.getAttributes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getReaderForText()
+    public default void test_getAttributes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,40 +57,6 @@ extends org.j8unit.repository.javax.print.DocTests<SUT>, org.j8unit.repository.j
 
     /**
      * <p>
-     * Test method for {@link javax.print.SimpleDoc#getStreamForBytes() public java.io.InputStream
-     * javax.print.SimpleDoc.getStreamForBytes() throws java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getStreamForBytes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.SimpleDoc#getAttributes() public javax.print.attribute.DocAttributeSet
-     * javax.print.SimpleDoc.getAttributes()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAttributes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.print.SimpleDoc#getPrintData() public java.lang.Object
      * javax.print.SimpleDoc.getPrintData() throws java.io.IOException}.
      * </p>
@@ -100,6 +66,40 @@ extends org.j8unit.repository.javax.print.DocTests<SUT>, org.j8unit.repository.j
     @Category(Draft.class)
     @Override
     public default void test_getPrintData()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.SimpleDoc#getReaderForText() public java.io.Reader
+     * javax.print.SimpleDoc.getReaderForText() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getReaderForText()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.SimpleDoc#getStreamForBytes() public java.io.InputStream
+     * javax.print.SimpleDoc.getStreamForBytes() throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getStreamForBytes()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

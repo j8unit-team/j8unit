@@ -36,18 +36,16 @@ public abstract interface INV_POLICYClassTests<SUT extends Class<? extends org.o
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link org.omg.CORBA.INV_POLICY#INV_POLICY(java.lang.String,int,org.omg.CORBA.CompletionStatus)
-     * public org.omg.CORBA.INV_POLICY(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for {@link org.omg.CORBA.INV_POLICY#INV_POLICY() public org.omg.CORBA.INV_POLICY()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_INV_POLICY_String_int_CompletionStatus()
+    public default void create_INV_POLICY()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.INV_POLICY sut = null; // = new
-                                                   // INV_POLICY(java.lang.String,int,org.omg.CORBA.CompletionStatus);
+        final org.omg.CORBA.INV_POLICY sut = null; // = new INV_POLICY();
     }
 
     /**
@@ -79,16 +77,18 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link org.omg.CORBA.INV_POLICY#INV_POLICY() public org.omg.CORBA.INV_POLICY()}.
+     * Test method for {@link org.omg.CORBA.INV_POLICY#INV_POLICY(java.lang.String,int,org.omg.CORBA.CompletionStatus)
+     * public org.omg.CORBA.INV_POLICY(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_INV_POLICY()
+    public default void create_INV_POLICY_String_int_CompletionStatus()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.INV_POLICY sut = null; // = new INV_POLICY();
+        final org.omg.CORBA.INV_POLICY sut = null; // = new
+                                                   // INV_POLICY(java.lang.String,int,org.omg.CORBA.CompletionStatus);
     }
 
     @Override

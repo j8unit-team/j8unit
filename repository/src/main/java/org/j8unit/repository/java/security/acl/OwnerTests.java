@@ -24,6 +24,23 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.security.acl.Owner#addOwner(java.security.Principal,java.security.Principal) public
+     * abstract boolean java.security.acl.Owner.addOwner(java.security.Principal,java.security.Principal) throws
+     * java.security.acl.NotOwnerException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addOwner_Principal_Principal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.security.acl.Owner#deleteOwner(java.security.Principal,java.security.Principal)
      * public abstract boolean java.security.acl.Owner.deleteOwner(java.security.Principal,java.security.Principal)
      * throws java.security.acl.NotOwnerException,java.security.acl.LastOwnerException}.
@@ -49,23 +66,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isOwner_Principal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.acl.Owner#addOwner(java.security.Principal,java.security.Principal) public
-     * abstract boolean java.security.acl.Owner.addOwner(java.security.Principal,java.security.Principal) throws
-     * java.security.acl.NotOwnerException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addOwner_Principal_Principal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

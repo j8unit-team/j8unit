@@ -23,23 +23,6 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.undo.UndoManager#canRedo() public synchronized boolean
-     * javax.swing.undo.UndoManager.canRedo()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_canRedo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.undo.UndoManager#addEdit(javax.swing.undo.UndoableEdit) public synchronized
      * boolean javax.swing.undo.UndoManager.addEdit(javax.swing.undo.UndoableEdit)}.
      * </p>
@@ -57,15 +40,15 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.undo.UndoManager#redo() public synchronized void
-     * javax.swing.undo.UndoManager.redo() throws javax.swing.undo.CannotRedoException}.
+     * Test method for {@link javax.swing.undo.UndoManager#canRedo() public synchronized boolean
+     * javax.swing.undo.UndoManager.canRedo()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_redo()
+    public default void test_canRedo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -74,14 +57,31 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.undo.UndoManager#getLimit() public synchronized int
-     * javax.swing.undo.UndoManager.getLimit()}.
+     * Test method for {@link javax.swing.undo.UndoManager#canUndo() public synchronized boolean
+     * javax.swing.undo.UndoManager.canUndo()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLimit()
+    @Override
+    public default void test_canUndo()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.undo.UndoManager#canUndoOrRedo() public synchronized boolean
+     * javax.swing.undo.UndoManager.canUndoOrRedo()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_canUndoOrRedo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -98,6 +98,39 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
     @Test
     @Category(Draft.class)
     public default void test_discardAllEdits()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.undo.UndoManager#end() public synchronized void
+     * javax.swing.undo.UndoManager.end()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_end()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.undo.UndoManager#getLimit() public synchronized int
+     * javax.swing.undo.UndoManager.getLimit()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLimit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -156,15 +189,31 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.undo.UndoManager#undoOrRedo() public synchronized void
-     * javax.swing.undo.UndoManager.undoOrRedo() throws
-     * javax.swing.undo.CannotRedoException,javax.swing.undo.CannotUndoException}.
+     * Test method for {@link javax.swing.undo.UndoManager#redo() public synchronized void
+     * javax.swing.undo.UndoManager.redo() throws javax.swing.undo.CannotRedoException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_undoOrRedo()
+    @Override
+    public default void test_redo()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.undo.UndoManager#setLimit(int) public synchronized void
+     * javax.swing.undo.UndoManager.setLimit(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLimit_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -190,47 +239,15 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.undo.UndoManager#end() public synchronized void
-     * javax.swing.undo.UndoManager.end()}.
+     * Test method for {@link javax.swing.undo.UndoManager#undo() public synchronized void
+     * javax.swing.undo.UndoManager.undo() throws javax.swing.undo.CannotUndoException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_end()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.undo.UndoManager#canUndoOrRedo() public synchronized boolean
-     * javax.swing.undo.UndoManager.canUndoOrRedo()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_canUndoOrRedo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.undo.UndoManager#setLimit(int) public synchronized void
-     * javax.swing.undo.UndoManager.setLimit(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setLimit_int()
+    public default void test_undo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -256,32 +273,15 @@ extends org.j8unit.repository.javax.swing.event.UndoableEditListenerTests<SUT>, 
 
     /**
      * <p>
-     * Test method for {@link javax.swing.undo.UndoManager#canUndo() public synchronized boolean
-     * javax.swing.undo.UndoManager.canUndo()}.
+     * Test method for {@link javax.swing.undo.UndoManager#undoOrRedo() public synchronized void
+     * javax.swing.undo.UndoManager.undoOrRedo() throws
+     * javax.swing.undo.CannotRedoException,javax.swing.undo.CannotUndoException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_canUndo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.undo.UndoManager#undo() public synchronized void
-     * javax.swing.undo.UndoManager.undo() throws javax.swing.undo.CannotUndoException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_undo()
+    public default void test_undoOrRedo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

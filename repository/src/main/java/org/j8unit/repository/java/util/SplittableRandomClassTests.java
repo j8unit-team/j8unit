@@ -36,6 +36,19 @@ public abstract interface SplittableRandomClassTests<SUT extends Class<? extends
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.util.SplittableRandom#SplittableRandom() public java.util.SplittableRandom()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SplittableRandom()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.SplittableRandom sut = null; // = new SplittableRandom();
+    }
+
+    /**
      * Test method for {@link java.util.SplittableRandom#SplittableRandom(long) public java.util.SplittableRandom(long)}
      * .
      */
@@ -47,19 +60,6 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.util.SplittableRandom sut = null; // = new SplittableRandom(long);
-    }
-
-    /**
-     * Test method for {@link java.util.SplittableRandom#SplittableRandom() public java.util.SplittableRandom()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SplittableRandom()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.SplittableRandom sut = null; // = new SplittableRandom();
     }
 
     @Override

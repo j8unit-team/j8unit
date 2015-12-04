@@ -24,22 +24,6 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getClient() public final
-     * javax.security.auth.kerberos.KerberosPrincipal javax.security.auth.kerberos.KerberosTicket.getClient()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getClient()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.security.auth.kerberos.KerberosTicket#destroy() public void
      * javax.security.auth.kerberos.KerberosTicket.destroy() throws javax.security.auth.DestroyFailedException}.
      * </p>
@@ -49,202 +33,6 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
     @Category(Draft.class)
     @Override
     public default void test_destroy()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#refresh() public void
-     * javax.security.auth.kerberos.KerberosTicket.refresh() throws javax.security.auth.RefreshFailedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_refresh()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isInitial() public final boolean
-     * javax.security.auth.kerberos.KerberosTicket.isInitial()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isInitial()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isProxy() public final boolean
-     * javax.security.auth.kerberos.KerberosTicket.isProxy()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isProxy()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isProxiable() public final boolean
-     * javax.security.auth.kerberos.KerberosTicket.isProxiable()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isProxiable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getServer() public final
-     * javax.security.auth.kerberos.KerberosPrincipal javax.security.auth.kerberos.KerberosTicket.getServer()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getServer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isDestroyed() public boolean
-     * javax.security.auth.kerberos.KerberosTicket.isDestroyed()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isDestroyed()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getEncoded() public final byte[]
-     * javax.security.auth.kerberos.KerberosTicket.getEncoded()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEncoded()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getSessionKeyType() public final int
-     * javax.security.auth.kerberos.KerberosTicket.getSessionKeyType()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSessionKeyType()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#toString() public java.lang.String
-     * javax.security.auth.kerberos.KerberosTicket.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getFlags() public final boolean[]
-     * javax.security.auth.kerberos.KerberosTicket.getFlags()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFlags()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getAuthTime() public final java.util.Date
-     * javax.security.auth.kerberos.KerberosTicket.getAuthTime()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAuthTime()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isCurrent() public boolean
-     * javax.security.auth.kerberos.KerberosTicket.isCurrent()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isCurrent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -270,14 +58,30 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getStartTime() public final java.util.Date
-     * javax.security.auth.kerberos.KerberosTicket.getStartTime()}.
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getAuthTime() public final java.util.Date
+     * javax.security.auth.kerberos.KerberosTicket.getAuthTime()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStartTime()
+    public default void test_getAuthTime()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getClient() public final
+     * javax.security.auth.kerberos.KerberosPrincipal javax.security.auth.kerberos.KerberosTicket.getClient()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getClient()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -302,30 +106,14 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isForwarded() public final boolean
-     * javax.security.auth.kerberos.KerberosTicket.isForwarded()}.
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getEncoded() public final byte[]
+     * javax.security.auth.kerberos.KerberosTicket.getEncoded()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isForwarded()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isRenewable() public final boolean
-     * javax.security.auth.kerberos.KerberosTicket.isRenewable()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isRenewable()
+    public default void test_getEncoded()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -350,14 +138,46 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isPostdated() public final boolean
-     * javax.security.auth.kerberos.KerberosTicket.isPostdated()}.
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getFlags() public final boolean[]
+     * javax.security.auth.kerberos.KerberosTicket.getFlags()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isPostdated()
+    public default void test_getFlags()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getRenewTill() public final java.util.Date
+     * javax.security.auth.kerberos.KerberosTicket.getRenewTill()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRenewTill()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getServer() public final
+     * javax.security.auth.kerberos.KerberosPrincipal javax.security.auth.kerberos.KerberosTicket.getServer()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getServer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -382,14 +202,30 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isForwardable() public final boolean
-     * javax.security.auth.kerberos.KerberosTicket.isForwardable()}.
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getSessionKeyType() public final int
+     * javax.security.auth.kerberos.KerberosTicket.getSessionKeyType()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isForwardable()
+    public default void test_getSessionKeyType()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getStartTime() public final java.util.Date
+     * javax.security.auth.kerberos.KerberosTicket.getStartTime()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getStartTime()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -415,14 +251,178 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
 
     /**
      * <p>
-     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#getRenewTill() public final java.util.Date
-     * javax.security.auth.kerberos.KerberosTicket.getRenewTill()}.
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isCurrent() public boolean
+     * javax.security.auth.kerberos.KerberosTicket.isCurrent()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRenewTill()
+    @Override
+    public default void test_isCurrent()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isDestroyed() public boolean
+     * javax.security.auth.kerberos.KerberosTicket.isDestroyed()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isDestroyed()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isForwardable() public final boolean
+     * javax.security.auth.kerberos.KerberosTicket.isForwardable()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isForwardable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isForwarded() public final boolean
+     * javax.security.auth.kerberos.KerberosTicket.isForwarded()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isForwarded()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isInitial() public final boolean
+     * javax.security.auth.kerberos.KerberosTicket.isInitial()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isInitial()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isPostdated() public final boolean
+     * javax.security.auth.kerberos.KerberosTicket.isPostdated()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isPostdated()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isProxiable() public final boolean
+     * javax.security.auth.kerberos.KerberosTicket.isProxiable()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isProxiable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isProxy() public final boolean
+     * javax.security.auth.kerberos.KerberosTicket.isProxy()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isProxy()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#isRenewable() public final boolean
+     * javax.security.auth.kerberos.KerberosTicket.isRenewable()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isRenewable()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#refresh() public void
+     * javax.security.auth.kerberos.KerberosTicket.refresh() throws javax.security.auth.RefreshFailedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_refresh()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.auth.kerberos.KerberosTicket#toString() public java.lang.String
+     * javax.security.auth.kerberos.KerberosTicket.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

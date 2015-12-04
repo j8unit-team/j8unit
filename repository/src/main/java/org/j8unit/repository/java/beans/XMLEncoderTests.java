@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
+     * Test method for {@link java.beans.XMLEncoder#close() public void java.beans.XMLEncoder.close()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_close()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.beans.XMLEncoder#flush() public void java.beans.XMLEncoder.flush()}.
      * </p>
      */
@@ -38,14 +54,30 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
-     * Test method for {@link java.beans.XMLEncoder#writeObject(java.lang.Object) public void
-     * java.beans.XMLEncoder.writeObject(java.lang.Object)}.
+     * Test method for {@link java.beans.XMLEncoder#getOwner() public java.lang.Object java.beans.XMLEncoder.getOwner()}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_writeObject_Object()
+    public default void test_getOwner()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.beans.XMLEncoder#setOwner(java.lang.Object) public void
+     * java.beans.XMLEncoder.setOwner(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setOwner_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,6 +103,22 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
 
     /**
      * <p>
+     * Test method for {@link java.beans.XMLEncoder#writeObject(java.lang.Object) public void
+     * java.beans.XMLEncoder.writeObject(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeObject_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.beans.XMLEncoder#writeStatement(java.beans.Statement) public void
      * java.beans.XMLEncoder.writeStatement(java.beans.Statement)}.
      * </p>
@@ -80,54 +128,6 @@ extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repo
     @Category(Draft.class)
     @Override
     public default void test_writeStatement_Statement()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.XMLEncoder#getOwner() public java.lang.Object java.beans.XMLEncoder.getOwner()}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOwner()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.XMLEncoder#close() public void java.beans.XMLEncoder.close()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_close()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.beans.XMLEncoder#setOwner(java.lang.Object) public void
-     * java.beans.XMLEncoder.setOwner(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setOwner_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

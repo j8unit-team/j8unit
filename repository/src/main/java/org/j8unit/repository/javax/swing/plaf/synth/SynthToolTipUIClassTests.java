@@ -50,16 +50,6 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicToolTipUIClassTests<SUT> {
         final javax.swing.plaf.synth.SynthToolTipUI sut = null; // = new SynthToolTipUI();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.plaf.synth.SynthToolTipUI> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.plaf.synth.SynthToolTipUI.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.swing.plaf.synth.SynthToolTipUI#createUI(javax.swing.JComponent) public static
@@ -75,6 +65,16 @@ org.j8unit.repository.javax.swing.plaf.basic.BasicToolTipUIClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.plaf.synth.SynthToolTipUI> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.plaf.synth.SynthToolTipUI.class.isAssignableFrom(sut));
     }
 
 }

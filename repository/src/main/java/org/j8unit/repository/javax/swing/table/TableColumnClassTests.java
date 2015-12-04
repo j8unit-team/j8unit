@@ -36,20 +36,29 @@ public abstract interface TableColumnClassTests<SUT extends Class<? extends java
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.swing.table.TableColumn#TableColumn(int,int,javax.swing.table.TableCellRenderer,javax.swing.table.TableCellEditor)
-     * public
-     * javax.swing.table.TableColumn(int,int,javax.swing.table.TableCellRenderer,javax.swing.table.TableCellEditor)}.
+     * Test method for {@link javax.swing.table.TableColumn#TableColumn() public javax.swing.table.TableColumn()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_TableColumn_int_int_TableCellRenderer_TableCellEditor()
+    public default void create_TableColumn()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.table.TableColumn sut = null; // = new
-                                                        // TableColumn(int,int,javax.swing.table.TableCellRenderer,javax.swing.table.TableCellEditor);
+        final javax.swing.table.TableColumn sut = null; // = new TableColumn();
+    }
+
+    /**
+     * Test method for {@link javax.swing.table.TableColumn#TableColumn(int) public javax.swing.table.TableColumn(int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_TableColumn_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.table.TableColumn sut = null; // = new TableColumn(int);
     }
 
     /**
@@ -67,29 +76,20 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     }
 
     /**
-     * Test method for {@link javax.swing.table.TableColumn#TableColumn(int) public javax.swing.table.TableColumn(int)}.
+     * Test method for
+     * {@link javax.swing.table.TableColumn#TableColumn(int,int,javax.swing.table.TableCellRenderer,javax.swing.table.TableCellEditor)
+     * public
+     * javax.swing.table.TableColumn(int,int,javax.swing.table.TableCellRenderer,javax.swing.table.TableCellEditor)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_TableColumn_int()
+    public default void create_TableColumn_int_int_TableCellRenderer_TableCellEditor()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.table.TableColumn sut = null; // = new TableColumn(int);
-    }
-
-    /**
-     * Test method for {@link javax.swing.table.TableColumn#TableColumn() public javax.swing.table.TableColumn()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_TableColumn()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.table.TableColumn sut = null; // = new TableColumn();
+        final javax.swing.table.TableColumn sut = null; // = new
+                                                        // TableColumn(int,int,javax.swing.table.TableCellRenderer,javax.swing.table.TableCellEditor);
     }
 
     @Override

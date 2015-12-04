@@ -36,20 +36,6 @@ public abstract interface AuthenticationExceptionClassTests<SUT extends Class<? 
 extends org.j8unit.repository.javax.naming.NamingSecurityExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.AuthenticationException#AuthenticationException(java.lang.String) public
-     * javax.naming.AuthenticationException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AuthenticationException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.AuthenticationException sut = null; // = new AuthenticationException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.naming.AuthenticationException#AuthenticationException() public
      * javax.naming.AuthenticationException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.javax.naming.NamingSecurityExceptionClassTests<SUT
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.AuthenticationException sut = null; // = new AuthenticationException();
+    }
+
+    /**
+     * Test method for {@link javax.naming.AuthenticationException#AuthenticationException(java.lang.String) public
+     * javax.naming.AuthenticationException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AuthenticationException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.AuthenticationException sut = null; // = new AuthenticationException(java.lang.String);
     }
 
     @Override

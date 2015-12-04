@@ -36,31 +36,17 @@ extends org.j8unit.repository.java.awt.ItemSelectableClassTests<SUT>, org.j8unit
 org.j8unit.repository.java.awt.ComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.Checkbox#Checkbox(java.lang.String,boolean,java.awt.CheckboxGroup) public
-     * java.awt.Checkbox(java.lang.String,boolean,java.awt.CheckboxGroup) throws java.awt.HeadlessException}.
+     * Test method for {@link java.awt.Checkbox#Checkbox() public java.awt.Checkbox() throws java.awt.HeadlessException}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Checkbox_String_boolean_CheckboxGroup()
+    public default void create_Checkbox()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Checkbox sut = null; // = new Checkbox(java.lang.String,boolean,java.awt.CheckboxGroup);
-    }
-
-    /**
-     * Test method for {@link java.awt.Checkbox#Checkbox(java.lang.String,boolean) public
-     * java.awt.Checkbox(java.lang.String,boolean) throws java.awt.HeadlessException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Checkbox_String_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.awt.Checkbox sut = null; // = new Checkbox(java.lang.String,boolean);
+        final java.awt.Checkbox sut = null; // = new Checkbox();
     }
 
     /**
@@ -78,17 +64,31 @@ org.j8unit.repository.java.awt.ComponentClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.awt.Checkbox#Checkbox() public java.awt.Checkbox() throws java.awt.HeadlessException}
-     * .
+     * Test method for {@link java.awt.Checkbox#Checkbox(java.lang.String,boolean) public
+     * java.awt.Checkbox(java.lang.String,boolean) throws java.awt.HeadlessException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Checkbox()
+    public default void create_Checkbox_String_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.awt.Checkbox sut = null; // = new Checkbox();
+        final java.awt.Checkbox sut = null; // = new Checkbox(java.lang.String,boolean);
+    }
+
+    /**
+     * Test method for {@link java.awt.Checkbox#Checkbox(java.lang.String,boolean,java.awt.CheckboxGroup) public
+     * java.awt.Checkbox(java.lang.String,boolean,java.awt.CheckboxGroup) throws java.awt.HeadlessException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Checkbox_String_boolean_CheckboxGroup()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.awt.Checkbox sut = null; // = new Checkbox(java.lang.String,boolean,java.awt.CheckboxGroup);
     }
 
     /**

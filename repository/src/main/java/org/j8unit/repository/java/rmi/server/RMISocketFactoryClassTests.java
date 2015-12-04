@@ -50,16 +50,6 @@ org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<SUT>, org
         final java.rmi.server.RMISocketFactory sut = null; // = new RMISocketFactory();
     }
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.rmi.server.RMISocketFactory> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.rmi.server.RMISocketFactory.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.rmi.server.RMISocketFactory#getDefaultSocketFactory() public static synchronized
@@ -70,6 +60,38 @@ org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<SUT>, org
     @Test
     @Category(Draft.class)
     public default void test_getDefaultSocketFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.server.RMISocketFactory#getFailureHandler() public static synchronized
+     * java.rmi.server.RMIFailureHandler java.rmi.server.RMISocketFactory.getFailureHandler()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFailureHandler()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.rmi.server.RMISocketFactory#getSocketFactory() public static synchronized
+     * java.rmi.server.RMISocketFactory java.rmi.server.RMISocketFactory.getSocketFactory()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSocketFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -110,36 +132,14 @@ org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<SUT>, org
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.rmi.server.RMISocketFactory#getFailureHandler() public static synchronized
-     * java.rmi.server.RMIFailureHandler java.rmi.server.RMISocketFactory.getFailureHandler()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_getFailureHandler()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.rmi.server.RMISocketFactory#getSocketFactory() public static synchronized
-     * java.rmi.server.RMISocketFactory java.rmi.server.RMISocketFactory.getSocketFactory()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSocketFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.rmi.server.RMISocketFactory> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.rmi.server.RMISocketFactory.class.isAssignableFrom(sut));
     }
 
 }

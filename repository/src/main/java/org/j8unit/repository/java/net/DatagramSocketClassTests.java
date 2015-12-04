@@ -36,6 +36,20 @@ public abstract interface DatagramSocketClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link java.net.DatagramSocket#DatagramSocket() public java.net.DatagramSocket() throws
+     * java.net.SocketException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DatagramSocket()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.DatagramSocket sut = null; // = new DatagramSocket();
+    }
+
+    /**
      * Test method for {@link java.net.DatagramSocket#DatagramSocket(int) public java.net.DatagramSocket(int) throws
      * java.net.SocketException}.
      */
@@ -64,20 +78,6 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
     }
 
     /**
-     * Test method for {@link java.net.DatagramSocket#DatagramSocket() public java.net.DatagramSocket() throws
-     * java.net.SocketException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DatagramSocket()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.DatagramSocket sut = null; // = new DatagramSocket();
-    }
-
-    /**
      * Test method for {@link java.net.DatagramSocket#DatagramSocket(java.net.SocketAddress) public
      * java.net.DatagramSocket(java.net.SocketAddress) throws java.net.SocketException}.
      */
@@ -89,16 +89,6 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
         // create new instance
         @SuppressWarnings("unused")
         final java.net.DatagramSocket sut = null; // = new DatagramSocket(java.net.SocketAddress);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.net.DatagramSocket> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.net.DatagramSocket.class.isAssignableFrom(sut));
     }
 
     /**
@@ -117,6 +107,16 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.net.DatagramSocket> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.DatagramSocket.class.isAssignableFrom(sut));
     }
 
 }

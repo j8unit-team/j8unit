@@ -24,6 +24,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.net.ssl.SSLSessionContext#getIds() public abstract java.util.Enumeration
+     * javax.net.ssl.SSLSessionContext.getIds()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIds()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.net.ssl.SSLSessionContext#getSession(byte[]) public abstract
      * javax.net.ssl.SSLSession javax.net.ssl.SSLSessionContext.getSession(byte[])}.
      * </p>
@@ -40,14 +56,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLSessionContext#setSessionCacheSize(int) public abstract void
-     * javax.net.ssl.SSLSessionContext.setSessionCacheSize(int) throws java.lang.IllegalArgumentException}.
+     * Test method for {@link javax.net.ssl.SSLSessionContext#getSessionCacheSize() public abstract int
+     * javax.net.ssl.SSLSessionContext.getSessionCacheSize()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSessionCacheSize_int()
+    public default void test_getSessionCacheSize()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,30 +88,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.SSLSessionContext#getIds() public abstract java.util.Enumeration
-     * javax.net.ssl.SSLSessionContext.getIds()}.
+     * Test method for {@link javax.net.ssl.SSLSessionContext#setSessionCacheSize(int) public abstract void
+     * javax.net.ssl.SSLSessionContext.setSessionCacheSize(int) throws java.lang.IllegalArgumentException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getIds()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.SSLSessionContext#getSessionCacheSize() public abstract int
-     * javax.net.ssl.SSLSessionContext.getSessionCacheSize()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getSessionCacheSize()
+    public default void test_setSessionCacheSize_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

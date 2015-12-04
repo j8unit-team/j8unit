@@ -23,16 +23,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.DefaultFormatterFactory#setDisplayFormatter(javax.swing.JFormattedTextField.AbstractFormatter)
-     * public void
-     * javax.swing.text.DefaultFormatterFactory.setDisplayFormatter(javax.swing.JFormattedTextField$AbstractFormatter)}.
+     * Test method for {@link javax.swing.text.DefaultFormatterFactory#getDefaultFormatter() public
+     * javax.swing.JFormattedTextField$AbstractFormatter javax.swing.text.DefaultFormatterFactory.getDefaultFormatter()}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDisplayFormatter_AbstractFormatter()
+    public default void test_getDefaultFormatter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -41,16 +40,15 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.DefaultFormatterFactory#setNullFormatter(javax.swing.JFormattedTextField.AbstractFormatter)
-     * public void
-     * javax.swing.text.DefaultFormatterFactory.setNullFormatter(javax.swing.JFormattedTextField$AbstractFormatter)}.
+     * Test method for {@link javax.swing.text.DefaultFormatterFactory#getDisplayFormatter() public
+     * javax.swing.JFormattedTextField$AbstractFormatter javax.swing.text.DefaultFormatterFactory.getDisplayFormatter()}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setNullFormatter_AbstractFormatter()
+    public default void test_getDisplayFormatter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -59,16 +57,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.text.DefaultFormatterFactory#setEditFormatter(javax.swing.JFormattedTextField.AbstractFormatter)
-     * public void
-     * javax.swing.text.DefaultFormatterFactory.setEditFormatter(javax.swing.JFormattedTextField$AbstractFormatter)}.
+     * Test method for {@link javax.swing.text.DefaultFormatterFactory#getEditFormatter() public
+     * javax.swing.JFormattedTextField$AbstractFormatter javax.swing.text.DefaultFormatterFactory.getEditFormatter()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setEditFormatter_AbstractFormatter()
+    public default void test_getEditFormatter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -95,23 +91,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.DefaultFormatterFactory#getDisplayFormatter() public
-     * javax.swing.JFormattedTextField$AbstractFormatter javax.swing.text.DefaultFormatterFactory.getDisplayFormatter()}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDisplayFormatter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.text.DefaultFormatterFactory#getNullFormatter() public
      * javax.swing.JFormattedTextField$AbstractFormatter javax.swing.text.DefaultFormatterFactory.getNullFormatter()}.
      * </p>
@@ -120,22 +99,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_getNullFormatter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.DefaultFormatterFactory#getEditFormatter() public
-     * javax.swing.JFormattedTextField$AbstractFormatter javax.swing.text.DefaultFormatterFactory.getEditFormatter()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getEditFormatter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -162,15 +125,52 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.DefaultFormatterFactory#getDefaultFormatter() public
-     * javax.swing.JFormattedTextField$AbstractFormatter javax.swing.text.DefaultFormatterFactory.getDefaultFormatter()}
-     * .
+     * Test method for
+     * {@link javax.swing.text.DefaultFormatterFactory#setDisplayFormatter(javax.swing.JFormattedTextField.AbstractFormatter)
+     * public void
+     * javax.swing.text.DefaultFormatterFactory.setDisplayFormatter(javax.swing.JFormattedTextField$AbstractFormatter)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDefaultFormatter()
+    public default void test_setDisplayFormatter_AbstractFormatter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.DefaultFormatterFactory#setEditFormatter(javax.swing.JFormattedTextField.AbstractFormatter)
+     * public void
+     * javax.swing.text.DefaultFormatterFactory.setEditFormatter(javax.swing.JFormattedTextField$AbstractFormatter)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setEditFormatter_AbstractFormatter()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.DefaultFormatterFactory#setNullFormatter(javax.swing.JFormattedTextField.AbstractFormatter)
+     * public void
+     * javax.swing.text.DefaultFormatterFactory.setNullFormatter(javax.swing.JFormattedTextField$AbstractFormatter)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setNullFormatter_AbstractFormatter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

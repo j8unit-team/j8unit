@@ -24,83 +24,50 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#set(java.lang.Object,int) public
-     * abstract void java.util.concurrent.atomic.AtomicIntegerFieldUpdater.set(java.lang.Object,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_set_Object_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#incrementAndGet(java.lang.Object)
-     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.incrementAndGet(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_incrementAndGet_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndIncrement(java.lang.Object)
-     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndIncrement(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAndIncrement_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for
-     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#weakCompareAndSet(java.lang.Object,int,int) public
-     * abstract boolean
-     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.weakCompareAndSet(java.lang.Object,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_weakCompareAndSet_Object_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#updateAndGet(java.lang.Object,java.util.function.IntUnaryOperator)
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#accumulateAndGet(java.lang.Object,int,java.util.function.IntBinaryOperator)
      * public final int
-     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.updateAndGet(java.lang.Object,java.util.function.IntUnaryOperator)}
+     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.accumulateAndGet(java.lang.Object,int,java.util.function.IntBinaryOperator)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_updateAndGet_Object_IntUnaryOperator()
+    public default void test_accumulateAndGet_Object_int_IntBinaryOperator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#addAndGet(java.lang.Object,int)
+     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.addAndGet(java.lang.Object,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addAndGet_Object_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#compareAndSet(java.lang.Object,int,int) public
+     * abstract boolean java.util.concurrent.atomic.AtomicIntegerFieldUpdater.compareAndSet(java.lang.Object,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_compareAndSet_Object_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -142,14 +109,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#compareAndSet(java.lang.Object,int,int) public
-     * abstract boolean java.util.concurrent.atomic.AtomicIntegerFieldUpdater.compareAndSet(java.lang.Object,int,int)}.
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndAccumulate(java.lang.Object,int,java.util.function.IntBinaryOperator)
+     * public final int
+     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndAccumulate(java.lang.Object,int,java.util.function.IntBinaryOperator)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_compareAndSet_Object_int_int()
+    public default void test_getAndAccumulate_Object_int_IntBinaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -158,14 +127,46 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#addAndGet(java.lang.Object,int)
-     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.addAndGet(java.lang.Object,int)}.
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndAdd(java.lang.Object,int)
+     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndAdd(java.lang.Object,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addAndGet_Object_int()
+    public default void test_getAndAdd_Object_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndDecrement(java.lang.Object)
+     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndDecrement(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAndDecrement_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndIncrement(java.lang.Object)
+     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndIncrement(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAndIncrement_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -209,6 +210,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#incrementAndGet(java.lang.Object)
+     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.incrementAndGet(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_incrementAndGet_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#lazySet(java.lang.Object,int) public
      * abstract void java.util.concurrent.atomic.AtomicIntegerFieldUpdater.lazySet(java.lang.Object,int)}.
      * </p>
@@ -225,14 +242,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndAdd(java.lang.Object,int)
-     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndAdd(java.lang.Object,int)}.
+     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#set(java.lang.Object,int) public
+     * abstract void java.util.concurrent.atomic.AtomicIntegerFieldUpdater.set(java.lang.Object,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAndAdd_Object_int()
+    public default void test_set_Object_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -242,16 +259,16 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndAccumulate(java.lang.Object,int,java.util.function.IntBinaryOperator)
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#updateAndGet(java.lang.Object,java.util.function.IntUnaryOperator)
      * public final int
-     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndAccumulate(java.lang.Object,int,java.util.function.IntBinaryOperator)}
+     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.updateAndGet(java.lang.Object,java.util.function.IntUnaryOperator)}
      * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAndAccumulate_Object_int_IntBinaryOperator()
+    public default void test_updateAndGet_Object_IntUnaryOperator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -261,32 +278,15 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#accumulateAndGet(java.lang.Object,int,java.util.function.IntBinaryOperator)
-     * public final int
-     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.accumulateAndGet(java.lang.Object,int,java.util.function.IntBinaryOperator)}
-     * .
+     * {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#weakCompareAndSet(java.lang.Object,int,int) public
+     * abstract boolean
+     * java.util.concurrent.atomic.AtomicIntegerFieldUpdater.weakCompareAndSet(java.lang.Object,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_accumulateAndGet_Object_int_IntBinaryOperator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.atomic.AtomicIntegerFieldUpdater#getAndDecrement(java.lang.Object)
-     * public int java.util.concurrent.atomic.AtomicIntegerFieldUpdater.getAndDecrement(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAndDecrement_Object()
+    public default void test_weakCompareAndSet_Object_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

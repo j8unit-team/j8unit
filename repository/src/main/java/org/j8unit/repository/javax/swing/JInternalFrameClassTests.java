@@ -37,101 +37,6 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
 org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.JInternalFrame#JInternalFrame(java.lang.String) public
-     * javax.swing.JInternalFrame(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JInternalFrame_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JInternalFrame sut = null; // = new JInternalFrame(java.lang.String);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.swing.JInternalFrame#JInternalFrame(java.lang.String,boolean,boolean,boolean,boolean) public
-     * javax.swing.JInternalFrame(java.lang.String,boolean,boolean,boolean,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JInternalFrame_String_boolean_boolean_boolean_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JInternalFrame sut = null; // = new
-                                                     // JInternalFrame(java.lang.String,boolean,boolean,boolean,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JInternalFrame#JInternalFrame(java.lang.String,boolean,boolean) public
-     * javax.swing.JInternalFrame(java.lang.String,boolean,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JInternalFrame_String_boolean_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JInternalFrame sut = null; // = new JInternalFrame(java.lang.String,boolean,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JInternalFrame#JInternalFrame(java.lang.String,boolean,boolean,boolean) public
-     * javax.swing.JInternalFrame(java.lang.String,boolean,boolean,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JInternalFrame_String_boolean_boolean_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JInternalFrame sut = null; // = new JInternalFrame(java.lang.String,boolean,boolean,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JInternalFrame#JInternalFrame(java.lang.String,boolean) public
-     * javax.swing.JInternalFrame(java.lang.String,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JInternalFrame_String_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JInternalFrame sut = null; // = new JInternalFrame(java.lang.String,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JInternalFrame#JInternalFrame() public javax.swing.JInternalFrame()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JInternalFrame()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JInternalFrame sut = null; // = new JInternalFrame();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.JInternalFrame> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JInternalFrame.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.JInternalFrame$JDesktopIcon class javax.swing.JInternalFrame$JDesktopIcon},
      * containing all class relevant test methods (at least the test methods of accessible constructors and of
@@ -184,6 +89,101 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
             assertTrue(javax.swing.JInternalFrame.JDesktopIcon.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.JInternalFrame#JInternalFrame() public javax.swing.JInternalFrame()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JInternalFrame()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JInternalFrame sut = null; // = new JInternalFrame();
+    }
+
+    /**
+     * Test method for {@link javax.swing.JInternalFrame#JInternalFrame(java.lang.String) public
+     * javax.swing.JInternalFrame(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JInternalFrame_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JInternalFrame sut = null; // = new JInternalFrame(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JInternalFrame#JInternalFrame(java.lang.String,boolean) public
+     * javax.swing.JInternalFrame(java.lang.String,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JInternalFrame_String_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JInternalFrame sut = null; // = new JInternalFrame(java.lang.String,boolean);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JInternalFrame#JInternalFrame(java.lang.String,boolean,boolean) public
+     * javax.swing.JInternalFrame(java.lang.String,boolean,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JInternalFrame_String_boolean_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JInternalFrame sut = null; // = new JInternalFrame(java.lang.String,boolean,boolean);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JInternalFrame#JInternalFrame(java.lang.String,boolean,boolean,boolean) public
+     * javax.swing.JInternalFrame(java.lang.String,boolean,boolean,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JInternalFrame_String_boolean_boolean_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JInternalFrame sut = null; // = new JInternalFrame(java.lang.String,boolean,boolean,boolean);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.JInternalFrame#JInternalFrame(java.lang.String,boolean,boolean,boolean,boolean) public
+     * javax.swing.JInternalFrame(java.lang.String,boolean,boolean,boolean,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JInternalFrame_String_boolean_boolean_boolean_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JInternalFrame sut = null; // = new
+                                                     // JInternalFrame(java.lang.String,boolean,boolean,boolean,boolean);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.JInternalFrame> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.JInternalFrame.class.isAssignableFrom(sut));
     }
 
 }

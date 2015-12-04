@@ -24,49 +24,15 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ViewportLayout#removeLayoutComponent(java.awt.Component) public void
-     * javax.swing.ViewportLayout.removeLayoutComponent(java.awt.Component)}.
+     * Test method for {@link javax.swing.ViewportLayout#addLayoutComponent(java.lang.String,java.awt.Component) public
+     * void javax.swing.ViewportLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_removeLayoutComponent_Component()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ViewportLayout#preferredLayoutSize(java.awt.Container) public
-     * java.awt.Dimension javax.swing.ViewportLayout.preferredLayoutSize(java.awt.Container)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_preferredLayoutSize_Container()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.ViewportLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
-     * javax.swing.ViewportLayout.minimumLayoutSize(java.awt.Container)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_minimumLayoutSize_Container()
+    public default void test_addLayoutComponent_String_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,15 +58,49 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.ViewportLayout#addLayoutComponent(java.lang.String,java.awt.Component) public
-     * void javax.swing.ViewportLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     * Test method for {@link javax.swing.ViewportLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * javax.swing.ViewportLayout.minimumLayoutSize(java.awt.Container)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_addLayoutComponent_String_Component()
+    public default void test_minimumLayoutSize_Container()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ViewportLayout#preferredLayoutSize(java.awt.Container) public
+     * java.awt.Dimension javax.swing.ViewportLayout.preferredLayoutSize(java.awt.Container)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_preferredLayoutSize_Container()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.ViewportLayout#removeLayoutComponent(java.awt.Component) public void
+     * javax.swing.ViewportLayout.removeLayoutComponent(java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_removeLayoutComponent_Component()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

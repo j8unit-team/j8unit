@@ -37,18 +37,21 @@ extends org.j8unit.repository.java.awt.image.WritableRenderedImageClassTests<SUT
 org.j8unit.repository.java.awt.ImageClassTests<SUT> {
 
     /**
-     * Test method for {@link java.awt.image.BufferedImage#BufferedImage(int,int,int,java.awt.image.IndexColorModel)
-     * public java.awt.image.BufferedImage(int,int,int,java.awt.image.IndexColorModel)}.
+     * Test method for
+     * {@link java.awt.image.BufferedImage#BufferedImage(java.awt.image.ColorModel,java.awt.image.WritableRaster,boolean,java.util.Hashtable)
+     * public
+     * java.awt.image.BufferedImage(java.awt.image.ColorModel,java.awt.image.WritableRaster,boolean,java.util.Hashtable)}
+     * .
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BufferedImage_int_int_int_IndexColorModel()
+    public default void create_BufferedImage_ColorModel_WritableRaster_boolean_Hashtable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.image.BufferedImage sut = null; // = new
-                                                       // BufferedImage(int,int,int,java.awt.image.IndexColorModel);
+                                                       // BufferedImage(java.awt.image.ColorModel,java.awt.image.WritableRaster,boolean,java.util.Hashtable);
     }
 
     /**
@@ -66,21 +69,18 @@ org.j8unit.repository.java.awt.ImageClassTests<SUT> {
     }
 
     /**
-     * Test method for
-     * {@link java.awt.image.BufferedImage#BufferedImage(java.awt.image.ColorModel,java.awt.image.WritableRaster,boolean,java.util.Hashtable)
-     * public
-     * java.awt.image.BufferedImage(java.awt.image.ColorModel,java.awt.image.WritableRaster,boolean,java.util.Hashtable)}
-     * .
+     * Test method for {@link java.awt.image.BufferedImage#BufferedImage(int,int,int,java.awt.image.IndexColorModel)
+     * public java.awt.image.BufferedImage(int,int,int,java.awt.image.IndexColorModel)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BufferedImage_ColorModel_WritableRaster_boolean_Hashtable()
+    public default void create_BufferedImage_int_int_int_IndexColorModel()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.awt.image.BufferedImage sut = null; // = new
-                                                       // BufferedImage(java.awt.image.ColorModel,java.awt.image.WritableRaster,boolean,java.util.Hashtable);
+                                                       // BufferedImage(int,int,int,java.awt.image.IndexColorModel);
     }
 
     @Override

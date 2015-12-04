@@ -36,112 +36,6 @@ public abstract interface HTMLClassTests<SUT extends Class<? extends javax.swing
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.text.html.HTML#HTML() public javax.swing.text.html.HTML()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_HTML()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.text.html.HTML sut = null; // = new HTML();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.text.html.HTML> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.text.html.HTML.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.HTML#getAllAttributeKeys() public static
-     * javax.swing.text.html.HTML$Attribute[] javax.swing.text.html.HTML.getAllAttributeKeys()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAllAttributeKeys()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.HTML#getTag(java.lang.String) public static
-     * javax.swing.text.html.HTML$Tag javax.swing.text.html.HTML.getTag(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTag_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.HTML#getAllTags() public static javax.swing.text.html.HTML$Tag[]
-     * javax.swing.text.html.HTML.getAllTags()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAllTags()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.swing.text.html.HTML#getIntegerAttributeValue(javax.swing.text.AttributeSet,javax.swing.text.html.HTML.Attribute,int)
-     * public static int
-     * javax.swing.text.html.HTML.getIntegerAttributeValue(javax.swing.text.AttributeSet,javax.swing.text.html.HTML$Attribute,int)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getIntegerAttributeValue_AttributeSet_Attribute_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.HTML#getAttributeKey(java.lang.String) public static
-     * javax.swing.text.html.HTML$Attribute javax.swing.text.html.HTML.getAttributeKey(java.lang.String)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getAttributeKey_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.swing.text.html.HTML$Attribute class javax.swing.text.html.HTML$Attribute},
      * containing all class relevant test methods (at least the test methods of accessible constructors and of
@@ -289,6 +183,112 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(javax.swing.text.html.HTML.UnknownTag.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for {@link javax.swing.text.html.HTML#HTML() public javax.swing.text.html.HTML()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_HTML()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.text.html.HTML sut = null; // = new HTML();
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.HTML#getAllAttributeKeys() public static
+     * javax.swing.text.html.HTML$Attribute[] javax.swing.text.html.HTML.getAllAttributeKeys()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAllAttributeKeys()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.HTML#getAllTags() public static javax.swing.text.html.HTML$Tag[]
+     * javax.swing.text.html.HTML.getAllTags()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAllTags()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.HTML#getAttributeKey(java.lang.String) public static
+     * javax.swing.text.html.HTML$Attribute javax.swing.text.html.HTML.getAttributeKey(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getAttributeKey_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.swing.text.html.HTML#getIntegerAttributeValue(javax.swing.text.AttributeSet,javax.swing.text.html.HTML.Attribute,int)
+     * public static int
+     * javax.swing.text.html.HTML.getIntegerAttributeValue(javax.swing.text.AttributeSet,javax.swing.text.html.HTML$Attribute,int)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getIntegerAttributeValue_AttributeSet_Attribute_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.HTML#getTag(java.lang.String) public static
+     * javax.swing.text.html.HTML$Tag javax.swing.text.html.HTML.getTag(java.lang.String)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getTag_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.swing.text.html.HTML> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.text.html.HTML.class.isAssignableFrom(sut));
     }
 
 }

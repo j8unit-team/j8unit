@@ -38,71 +38,6 @@ extends org.j8unit.repository.java.sql.SQLNonTransientExceptionClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(java.lang.Throwable)
-     * public java.sql.SQLIntegrityConstraintViolationException(java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLIntegrityConstraintViolationException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLIntegrityConstraintViolationException sut = null; // = new
-                                                                            // SQLIntegrityConstraintViolationException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(java.lang.String,java.lang.Throwable)
-     * public java.sql.SQLIntegrityConstraintViolationException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLIntegrityConstraintViolationException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLIntegrityConstraintViolationException sut = null; // = new
-                                                                            // SQLIntegrityConstraintViolationException(java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,java.lang.Throwable)
-     * public java.sql.SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLIntegrityConstraintViolationException_String_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLIntegrityConstraintViolationException sut = null; // = new
-                                                                            // SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,int,java.lang.Throwable)
-     * public
-     * java.sql.SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLIntegrityConstraintViolationException_String_String_int_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLIntegrityConstraintViolationException sut = null; // = new
-                                                                            // SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,int,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
      * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException() public
      * java.sql.SQLIntegrityConstraintViolationException()}.
      */
@@ -163,6 +98,71 @@ extends org.j8unit.repository.java.sql.SQLNonTransientExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.sql.SQLIntegrityConstraintViolationException sut = null; // = new
                                                                             // SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,int);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,int,java.lang.Throwable)
+     * public
+     * java.sql.SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLIntegrityConstraintViolationException_String_String_int_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLIntegrityConstraintViolationException sut = null; // = new
+                                                                            // SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,int,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,java.lang.Throwable)
+     * public java.sql.SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLIntegrityConstraintViolationException_String_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLIntegrityConstraintViolationException sut = null; // = new
+                                                                            // SQLIntegrityConstraintViolationException(java.lang.String,java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(java.lang.String,java.lang.Throwable)
+     * public java.sql.SQLIntegrityConstraintViolationException(java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLIntegrityConstraintViolationException_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLIntegrityConstraintViolationException sut = null; // = new
+                                                                            // SQLIntegrityConstraintViolationException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLIntegrityConstraintViolationException#SQLIntegrityConstraintViolationException(java.lang.Throwable)
+     * public java.sql.SQLIntegrityConstraintViolationException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLIntegrityConstraintViolationException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLIntegrityConstraintViolationException sut = null; // = new
+                                                                            // SQLIntegrityConstraintViolationException(java.lang.Throwable);
     }
 
     @Override

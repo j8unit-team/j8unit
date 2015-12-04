@@ -35,14 +35,71 @@ import org.junit.experimental.categories.Category;
 public abstract interface StreamSupportClassTests<SUT extends Class<? extends java.util.stream.StreamSupport>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.StreamSupport#doubleStream(java.util.Spliterator.OfDouble,boolean) public
+     * static java.util.stream.DoubleStream
+     * java.util.stream.StreamSupport.doubleStream(java.util.Spliterator$OfDouble,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_doubleStream_OfDouble_boolean()
     throws Exception {
-        // create new instance
-        final Class<? extends java.util.stream.StreamSupport> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.stream.StreamSupport.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.StreamSupport#doubleStream(java.util.function.Supplier,int,boolean)
+     * public static java.util.stream.DoubleStream
+     * java.util.stream.StreamSupport.doubleStream(java.util.function.Supplier,int,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_doubleStream_Supplier_int_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.StreamSupport#intStream(java.util.Spliterator.OfInt,boolean) public
+     * static java.util.stream.IntStream java.util.stream.StreamSupport.intStream(java.util.Spliterator$OfInt,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_intStream_OfInt_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.StreamSupport#intStream(java.util.function.Supplier,int,boolean) public
+     * static java.util.stream.IntStream
+     * java.util.stream.StreamSupport.intStream(java.util.function.Supplier,int,boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_intStream_Supplier_int_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -81,65 +138,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.stream.StreamSupport#doubleStream(java.util.function.Supplier,int,boolean)
-     * public static java.util.stream.DoubleStream
-     * java.util.stream.StreamSupport.doubleStream(java.util.function.Supplier,int,boolean)}.
+     * Test method for {@link java.util.stream.StreamSupport#stream(java.util.Spliterator,boolean) public static
+     * java.util.stream.Stream java.util.stream.StreamSupport.stream(java.util.Spliterator,boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_doubleStream_Supplier_int_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.StreamSupport#doubleStream(java.util.Spliterator.OfDouble,boolean) public
-     * static java.util.stream.DoubleStream
-     * java.util.stream.StreamSupport.doubleStream(java.util.Spliterator$OfDouble,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_doubleStream_OfDouble_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.StreamSupport#intStream(java.util.function.Supplier,int,boolean) public
-     * static java.util.stream.IntStream
-     * java.util.stream.StreamSupport.intStream(java.util.function.Supplier,int,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_intStream_Supplier_int_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.StreamSupport#intStream(java.util.Spliterator.OfInt,boolean) public
-     * static java.util.stream.IntStream java.util.stream.StreamSupport.intStream(java.util.Spliterator$OfInt,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_intStream_OfInt_boolean()
+    public default void test_stream_Spliterator_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -162,20 +168,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.StreamSupport#stream(java.util.Spliterator,boolean) public static
-     * java.util.stream.Stream java.util.stream.StreamSupport.stream(java.util.Spliterator,boolean)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_stream_Spliterator_boolean()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.util.stream.StreamSupport> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.stream.StreamSupport.class.isAssignableFrom(sut));
     }
 
 }

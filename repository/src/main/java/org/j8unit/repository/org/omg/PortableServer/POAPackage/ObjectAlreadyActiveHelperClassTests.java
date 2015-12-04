@@ -51,14 +51,74 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
                                                                                       // ObjectAlreadyActiveHelper();
     }
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper#extract(org.omg.CORBA.Any)
+     * public static org.omg.PortableServer.POAPackage.ObjectAlreadyActive
+     * org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper.extract(org.omg.CORBA.Any)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_extract_Any()
     throws Exception {
-        // create new instance
-        final Class<? extends org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper> sut = createNewSUT();
-        // assert assignability
-        assertTrue(org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper#id() public static
+     * java.lang.String org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper.id()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_id()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper#insert(org.omg.CORBA.Any,org.omg.PortableServer.POAPackage.ObjectAlreadyActive)
+     * public static void
+     * org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper.insert(org.omg.CORBA.Any,org.omg.PortableServer.POAPackage.ObjectAlreadyActive)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insert_Any_ObjectAlreadyActive()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper#read(org.omg.CORBA.portable.InputStream)
+     * public static org.omg.PortableServer.POAPackage.ObjectAlreadyActive
+     * org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper.read(org.omg.CORBA.portable.InputStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_read_InputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -96,74 +156,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper#insert(org.omg.CORBA.Any,org.omg.PortableServer.POAPackage.ObjectAlreadyActive)
-     * public static void
-     * org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper.insert(org.omg.CORBA.Any,org.omg.PortableServer.POAPackage.ObjectAlreadyActive)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_insert_Any_ObjectAlreadyActive()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper#id() public static
-     * java.lang.String org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper.id()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_id()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper#read(org.omg.CORBA.portable.InputStream)
-     * public static org.omg.PortableServer.POAPackage.ObjectAlreadyActive
-     * org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper.read(org.omg.CORBA.portable.InputStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_read_InputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper#extract(org.omg.CORBA.Any)
-     * public static org.omg.PortableServer.POAPackage.ObjectAlreadyActive
-     * org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper.extract(org.omg.CORBA.Any)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_extract_Any()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper> sut = createNewSUT();
+        // assert assignability
+        assertTrue(org.omg.PortableServer.POAPackage.ObjectAlreadyActiveHelper.class.isAssignableFrom(sut));
     }
 
 }

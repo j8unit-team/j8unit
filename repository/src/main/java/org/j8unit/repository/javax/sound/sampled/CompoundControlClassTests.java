@@ -33,16 +33,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface CompoundControlClassTests<SUT extends Class<? extends javax.sound.sampled.CompoundControl>>
 extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.sound.sampled.CompoundControl> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.sound.sampled.CompoundControl.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.sound.sampled.CompoundControl$Type class javax.sound.sampled.CompoundControl$Type},
@@ -82,6 +72,16 @@ extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
             assertTrue(javax.sound.sampled.CompoundControl.Type.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.sound.sampled.CompoundControl> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.sound.sampled.CompoundControl.class.isAssignableFrom(sut));
     }
 
 }

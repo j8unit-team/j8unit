@@ -36,70 +36,6 @@ public abstract interface SQLInvalidAuthorizationSpecExceptionClassTests<SUT ext
 extends org.j8unit.repository.java.sql.SQLNonTransientExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(java.lang.Throwable)
-     * public java.sql.SQLInvalidAuthorizationSpecException(java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLInvalidAuthorizationSpecException_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLInvalidAuthorizationSpecException sut = null; // = new
-                                                                        // SQLInvalidAuthorizationSpecException(java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.Throwable)
-     * public java.sql.SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLInvalidAuthorizationSpecException_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLInvalidAuthorizationSpecException sut = null; // = new
-                                                                        // SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,java.lang.Throwable)
-     * public java.sql.SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLInvalidAuthorizationSpecException_String_String_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLInvalidAuthorizationSpecException sut = null; // = new
-                                                                        // SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,java.lang.Throwable);
-    }
-
-    /**
-     * Test method for
-     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,int,java.lang.Throwable)
-     * public java.sql.SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_SQLInvalidAuthorizationSpecException_String_String_int_Throwable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.SQLInvalidAuthorizationSpecException sut = null; // = new
-                                                                        // SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,int,java.lang.Throwable);
-    }
-
-    /**
      * Test method for {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException()
      * public java.sql.SQLInvalidAuthorizationSpecException()}.
      */
@@ -159,6 +95,70 @@ extends org.j8unit.repository.java.sql.SQLNonTransientExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.sql.SQLInvalidAuthorizationSpecException sut = null; // = new
                                                                         // SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,int);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,int,java.lang.Throwable)
+     * public java.sql.SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,int,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLInvalidAuthorizationSpecException_String_String_int_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLInvalidAuthorizationSpecException sut = null; // = new
+                                                                        // SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,int,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,java.lang.Throwable)
+     * public java.sql.SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLInvalidAuthorizationSpecException_String_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLInvalidAuthorizationSpecException sut = null; // = new
+                                                                        // SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.Throwable)
+     * public java.sql.SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLInvalidAuthorizationSpecException_String_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLInvalidAuthorizationSpecException sut = null; // = new
+                                                                        // SQLInvalidAuthorizationSpecException(java.lang.String,java.lang.Throwable);
+    }
+
+    /**
+     * Test method for
+     * {@link java.sql.SQLInvalidAuthorizationSpecException#SQLInvalidAuthorizationSpecException(java.lang.Throwable)
+     * public java.sql.SQLInvalidAuthorizationSpecException(java.lang.Throwable)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_SQLInvalidAuthorizationSpecException_Throwable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.SQLInvalidAuthorizationSpecException sut = null; // = new
+                                                                        // SQLInvalidAuthorizationSpecException(java.lang.Throwable);
     }
 
     @Override

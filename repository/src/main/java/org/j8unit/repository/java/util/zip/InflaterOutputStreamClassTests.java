@@ -36,22 +36,6 @@ public abstract interface InflaterOutputStreamClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.java.io.FilterOutputStreamClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.util.zip.InflaterOutputStream#InflaterOutputStream(java.io.OutputStream,java.util.zip.Inflater,int)
-     * public java.util.zip.InflaterOutputStream(java.io.OutputStream,java.util.zip.Inflater,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InflaterOutputStream_OutputStream_Inflater_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.zip.InflaterOutputStream sut = null; // = new
-                                                             // InflaterOutputStream(java.io.OutputStream,java.util.zip.Inflater,int);
-    }
-
-    /**
      * Test method for {@link java.util.zip.InflaterOutputStream#InflaterOutputStream(java.io.OutputStream) public
      * java.util.zip.InflaterOutputStream(java.io.OutputStream)}.
      */
@@ -79,6 +63,22 @@ extends org.j8unit.repository.java.io.FilterOutputStreamClassTests<SUT> {
         @SuppressWarnings("unused")
         final java.util.zip.InflaterOutputStream sut = null; // = new
                                                              // InflaterOutputStream(java.io.OutputStream,java.util.zip.Inflater);
+    }
+
+    /**
+     * Test method for
+     * {@link java.util.zip.InflaterOutputStream#InflaterOutputStream(java.io.OutputStream,java.util.zip.Inflater,int)
+     * public java.util.zip.InflaterOutputStream(java.io.OutputStream,java.util.zip.Inflater,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InflaterOutputStream_OutputStream_Inflater_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.zip.InflaterOutputStream sut = null; // = new
+                                                             // InflaterOutputStream(java.io.OutputStream,java.util.zip.Inflater,int);
     }
 
     @Override

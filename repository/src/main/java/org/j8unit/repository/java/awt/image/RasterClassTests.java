@@ -34,27 +34,51 @@ import org.junit.experimental.categories.Category;
 public abstract interface RasterClassTests<SUT extends Class<? extends java.awt.image.Raster>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.awt.image.Raster> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.awt.image.Raster.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link java.awt.image.Raster#createInterleavedRaster(int,int,int,int,int,int[],java.awt.Point)
+     * Test method for
+     * {@link java.awt.image.Raster#createBandedRaster(java.awt.image.DataBuffer,int,int,int,int[],int[],java.awt.Point)
      * public static java.awt.image.WritableRaster
-     * java.awt.image.Raster.createInterleavedRaster(int,int,int,int,int,int[],java.awt.Point)}.
+     * java.awt.image.Raster.createBandedRaster(java.awt.image.DataBuffer,int,int,int,int[],int[],java.awt.Point)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createInterleavedRaster_int_int_int_int_int_intArray_Point()
+    public default void test_createBandedRaster_DataBuffer_int_int_int_intArray_intArray_Point()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.Raster#createBandedRaster(int,int,int,int,int[],int[],java.awt.Point)
+     * public static java.awt.image.WritableRaster
+     * java.awt.image.Raster.createBandedRaster(int,int,int,int,int[],int[],java.awt.Point)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createBandedRaster_int_int_int_int_intArray_intArray_Point()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.Raster#createBandedRaster(int,int,int,int,java.awt.Point) public static
+     * java.awt.image.WritableRaster java.awt.image.Raster.createBandedRaster(int,int,int,int,java.awt.Point)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createBandedRaster_int_int_int_int_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -81,6 +105,23 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.image.Raster#createInterleavedRaster(int,int,int,int,int,int[],java.awt.Point)
+     * public static java.awt.image.WritableRaster
+     * java.awt.image.Raster.createInterleavedRaster(int,int,int,int,int,int[],java.awt.Point)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_createInterleavedRaster_int_int_int_int_int_intArray_Point()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.image.Raster#createInterleavedRaster(int,int,int,int,java.awt.Point) public
      * static java.awt.image.WritableRaster
      * java.awt.image.Raster.createInterleavedRaster(int,int,int,int,java.awt.Point)}.
@@ -99,32 +140,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.image.Raster#createRaster(java.awt.image.SampleModel,java.awt.image.DataBuffer,java.awt.Point)
-     * public static java.awt.image.Raster
-     * java.awt.image.Raster.createRaster(java.awt.image.SampleModel,java.awt.image.DataBuffer,java.awt.Point)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createRaster_SampleModel_DataBuffer_Point()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.Raster#createWritableRaster(java.awt.image.SampleModel,java.awt.Point)
+     * {@link java.awt.image.Raster#createPackedRaster(java.awt.image.DataBuffer,int,int,int,int[],java.awt.Point)
      * public static java.awt.image.WritableRaster
-     * java.awt.image.Raster.createWritableRaster(java.awt.image.SampleModel,java.awt.Point)}.
+     * java.awt.image.Raster.createPackedRaster(java.awt.image.DataBuffer,int,int,int,int[],java.awt.Point)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createWritableRaster_SampleModel_Point()
+    public default void test_createPackedRaster_DataBuffer_int_int_int_intArray_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -134,15 +158,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.image.Raster#createWritableRaster(java.awt.image.SampleModel,java.awt.image.DataBuffer,java.awt.Point)
-     * public static java.awt.image.WritableRaster
-     * java.awt.image.Raster.createWritableRaster(java.awt.image.SampleModel,java.awt.image.DataBuffer,java.awt.Point)}.
+     * {@link java.awt.image.Raster#createPackedRaster(java.awt.image.DataBuffer,int,int,int,java.awt.Point) public
+     * static java.awt.image.WritableRaster
+     * java.awt.image.Raster.createPackedRaster(java.awt.image.DataBuffer,int,int,int,java.awt.Point)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createWritableRaster_SampleModel_DataBuffer_Point()
+    public default void test_createPackedRaster_DataBuffer_int_int_int_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -184,15 +208,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.image.Raster#createPackedRaster(java.awt.image.DataBuffer,int,int,int,java.awt.Point) public
-     * static java.awt.image.WritableRaster
-     * java.awt.image.Raster.createPackedRaster(java.awt.image.DataBuffer,int,int,int,java.awt.Point)}.
+     * {@link java.awt.image.Raster#createRaster(java.awt.image.SampleModel,java.awt.image.DataBuffer,java.awt.Point)
+     * public static java.awt.image.Raster
+     * java.awt.image.Raster.createRaster(java.awt.image.SampleModel,java.awt.image.DataBuffer,java.awt.Point)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createPackedRaster_DataBuffer_int_int_int_Point()
+    public default void test_createRaster_SampleModel_DataBuffer_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -202,15 +226,15 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link java.awt.image.Raster#createPackedRaster(java.awt.image.DataBuffer,int,int,int,int[],java.awt.Point)
+     * {@link java.awt.image.Raster#createWritableRaster(java.awt.image.SampleModel,java.awt.image.DataBuffer,java.awt.Point)
      * public static java.awt.image.WritableRaster
-     * java.awt.image.Raster.createPackedRaster(java.awt.image.DataBuffer,int,int,int,int[],java.awt.Point)}.
+     * java.awt.image.Raster.createWritableRaster(java.awt.image.SampleModel,java.awt.image.DataBuffer,java.awt.Point)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createPackedRaster_DataBuffer_int_int_int_intArray_Point()
+    public default void test_createWritableRaster_SampleModel_DataBuffer_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -219,53 +243,29 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.Raster#createBandedRaster(int,int,int,int,java.awt.Point) public static
-     * java.awt.image.WritableRaster java.awt.image.Raster.createBandedRaster(int,int,int,int,java.awt.Point)}.
+     * Test method for {@link java.awt.image.Raster#createWritableRaster(java.awt.image.SampleModel,java.awt.Point)
+     * public static java.awt.image.WritableRaster
+     * java.awt.image.Raster.createWritableRaster(java.awt.image.SampleModel,java.awt.Point)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createBandedRaster_int_int_int_int_Point()
+    public default void test_createWritableRaster_SampleModel_Point()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.Raster#createBandedRaster(int,int,int,int,int[],int[],java.awt.Point)
-     * public static java.awt.image.WritableRaster
-     * java.awt.image.Raster.createBandedRaster(int,int,int,int,int[],int[],java.awt.Point)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_createBandedRaster_int_int_int_int_intArray_intArray_Point()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.awt.image.Raster#createBandedRaster(java.awt.image.DataBuffer,int,int,int,int[],int[],java.awt.Point)
-     * public static java.awt.image.WritableRaster
-     * java.awt.image.Raster.createBandedRaster(java.awt.image.DataBuffer,int,int,int,int[],int[],java.awt.Point)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_createBandedRaster_DataBuffer_int_int_int_intArray_intArray_Point()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.awt.image.Raster> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.awt.image.Raster.class.isAssignableFrom(sut));
     }
 
 }

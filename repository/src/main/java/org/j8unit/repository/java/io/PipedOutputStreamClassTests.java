@@ -36,6 +36,19 @@ public abstract interface PipedOutputStreamClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
 
     /**
+     * Test method for {@link java.io.PipedOutputStream#PipedOutputStream() public java.io.PipedOutputStream()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PipedOutputStream()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.io.PipedOutputStream sut = null; // = new PipedOutputStream();
+    }
+
+    /**
      * Test method for {@link java.io.PipedOutputStream#PipedOutputStream(java.io.PipedInputStream) public
      * java.io.PipedOutputStream(java.io.PipedInputStream) throws java.io.IOException}.
      */
@@ -47,19 +60,6 @@ extends org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.io.PipedOutputStream sut = null; // = new PipedOutputStream(java.io.PipedInputStream);
-    }
-
-    /**
-     * Test method for {@link java.io.PipedOutputStream#PipedOutputStream() public java.io.PipedOutputStream()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PipedOutputStream()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.io.PipedOutputStream sut = null; // = new PipedOutputStream();
     }
 
     @Override

@@ -36,17 +36,31 @@ public abstract interface BatchUpdateExceptionClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link java.sql.BatchUpdateException#BatchUpdateException(java.lang.Throwable) public
-     * java.sql.BatchUpdateException(java.lang.Throwable)}.
+     * Test method for {@link java.sql.BatchUpdateException#BatchUpdateException() public
+     * java.sql.BatchUpdateException()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BatchUpdateException_Throwable()
+    public default void create_BatchUpdateException()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.BatchUpdateException sut = null; // = new BatchUpdateException(java.lang.Throwable);
+        final java.sql.BatchUpdateException sut = null; // = new BatchUpdateException();
+    }
+
+    /**
+     * Test method for {@link java.sql.BatchUpdateException#BatchUpdateException(int[]) public
+     * java.sql.BatchUpdateException(int[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BatchUpdateException_intArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.BatchUpdateException sut = null; // = new BatchUpdateException(int[]);
     }
 
     /**
@@ -61,6 +75,20 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.sql.BatchUpdateException sut = null; // = new BatchUpdateException(int[],java.lang.Throwable);
+    }
+
+    /**
+     * Test method for {@link java.sql.BatchUpdateException#BatchUpdateException(java.lang.String,int[]) public
+     * java.sql.BatchUpdateException(java.lang.String,int[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BatchUpdateException_String_intArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.sql.BatchUpdateException sut = null; // = new BatchUpdateException(java.lang.String,int[]);
     }
 
     /**
@@ -81,18 +109,18 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.sql.BatchUpdateException#BatchUpdateException(java.lang.String,java.lang.String,int[],java.lang.Throwable)
-     * public java.sql.BatchUpdateException(java.lang.String,java.lang.String,int[],java.lang.Throwable)}.
+     * {@link java.sql.BatchUpdateException#BatchUpdateException(java.lang.String,java.lang.String,int,int[]) public
+     * java.sql.BatchUpdateException(java.lang.String,java.lang.String,int,int[])}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BatchUpdateException_String_String_intArray_Throwable()
+    public default void create_BatchUpdateException_String_String_int_intArray()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final java.sql.BatchUpdateException sut = null; // = new
-                                                        // BatchUpdateException(java.lang.String,java.lang.String,int[],java.lang.Throwable);
+                                                        // BatchUpdateException(java.lang.String,java.lang.String,int,int[]);
     }
 
     /**
@@ -129,22 +157,6 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
 
     /**
      * Test method for
-     * {@link java.sql.BatchUpdateException#BatchUpdateException(java.lang.String,java.lang.String,int,int[]) public
-     * java.sql.BatchUpdateException(java.lang.String,java.lang.String,int,int[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BatchUpdateException_String_String_int_intArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.BatchUpdateException sut = null; // = new
-                                                        // BatchUpdateException(java.lang.String,java.lang.String,int,int[]);
-    }
-
-    /**
-     * Test method for
      * {@link java.sql.BatchUpdateException#BatchUpdateException(java.lang.String,java.lang.String,int[]) public
      * java.sql.BatchUpdateException(java.lang.String,java.lang.String,int[])}.
      */
@@ -160,45 +172,33 @@ extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link java.sql.BatchUpdateException#BatchUpdateException(java.lang.String,int[]) public
-     * java.sql.BatchUpdateException(java.lang.String,int[])}.
+     * Test method for
+     * {@link java.sql.BatchUpdateException#BatchUpdateException(java.lang.String,java.lang.String,int[],java.lang.Throwable)
+     * public java.sql.BatchUpdateException(java.lang.String,java.lang.String,int[],java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BatchUpdateException_String_intArray()
+    public default void create_BatchUpdateException_String_String_intArray_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.BatchUpdateException sut = null; // = new BatchUpdateException(java.lang.String,int[]);
+        final java.sql.BatchUpdateException sut = null; // = new
+                                                        // BatchUpdateException(java.lang.String,java.lang.String,int[],java.lang.Throwable);
     }
 
     /**
-     * Test method for {@link java.sql.BatchUpdateException#BatchUpdateException() public
-     * java.sql.BatchUpdateException()}.
+     * Test method for {@link java.sql.BatchUpdateException#BatchUpdateException(java.lang.Throwable) public
+     * java.sql.BatchUpdateException(java.lang.Throwable)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BatchUpdateException()
+    public default void create_BatchUpdateException_Throwable()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.sql.BatchUpdateException sut = null; // = new BatchUpdateException();
-    }
-
-    /**
-     * Test method for {@link java.sql.BatchUpdateException#BatchUpdateException(int[]) public
-     * java.sql.BatchUpdateException(int[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BatchUpdateException_intArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.sql.BatchUpdateException sut = null; // = new BatchUpdateException(int[]);
+        final java.sql.BatchUpdateException sut = null; // = new BatchUpdateException(java.lang.Throwable);
     }
 
     @Override

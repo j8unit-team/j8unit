@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface XmlTypeClassTests<SUT extends Class<? extends javax.xml.bind.annotation.XmlType>>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.xml.bind.annotation.XmlType> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.xml.bind.annotation.XmlType.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test class for {@link javax.xml.bind.annotation.XmlType$DEFAULT class javax.xml.bind.annotation.XmlType$DEFAULT},
@@ -98,6 +88,16 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
             assertTrue(javax.xml.bind.annotation.XmlType.DEFAULT.class.isAssignableFrom(sut));
         }
 
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.xml.bind.annotation.XmlType> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.bind.annotation.XmlType.class.isAssignableFrom(sut));
     }
 
 }

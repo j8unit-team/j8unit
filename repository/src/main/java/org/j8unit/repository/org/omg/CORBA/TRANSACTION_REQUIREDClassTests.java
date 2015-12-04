@@ -36,19 +36,17 @@ public abstract interface TRANSACTION_REQUIREDClassTests<SUT extends Class<? ext
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link org.omg.CORBA.TRANSACTION_REQUIRED#TRANSACTION_REQUIRED(java.lang.String,int,org.omg.CORBA.CompletionStatus)
-     * public org.omg.CORBA.TRANSACTION_REQUIRED(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for {@link org.omg.CORBA.TRANSACTION_REQUIRED#TRANSACTION_REQUIRED() public
+     * org.omg.CORBA.TRANSACTION_REQUIRED()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_TRANSACTION_REQUIRED_String_int_CompletionStatus()
+    public default void create_TRANSACTION_REQUIRED()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.TRANSACTION_REQUIRED sut = null; // = new
-                                                             // TRANSACTION_REQUIRED(java.lang.String,int,org.omg.CORBA.CompletionStatus);
+        final org.omg.CORBA.TRANSACTION_REQUIRED sut = null; // = new TRANSACTION_REQUIRED();
     }
 
     /**
@@ -82,17 +80,19 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link org.omg.CORBA.TRANSACTION_REQUIRED#TRANSACTION_REQUIRED() public
-     * org.omg.CORBA.TRANSACTION_REQUIRED()}.
+     * Test method for
+     * {@link org.omg.CORBA.TRANSACTION_REQUIRED#TRANSACTION_REQUIRED(java.lang.String,int,org.omg.CORBA.CompletionStatus)
+     * public org.omg.CORBA.TRANSACTION_REQUIRED(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_TRANSACTION_REQUIRED()
+    public default void create_TRANSACTION_REQUIRED_String_int_CompletionStatus()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.TRANSACTION_REQUIRED sut = null; // = new TRANSACTION_REQUIRED();
+        final org.omg.CORBA.TRANSACTION_REQUIRED sut = null; // = new
+                                                             // TRANSACTION_REQUIRED(java.lang.String,int,org.omg.CORBA.CompletionStatus);
     }
 
     @Override

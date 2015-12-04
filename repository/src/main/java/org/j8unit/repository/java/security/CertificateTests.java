@@ -40,14 +40,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.Certificate#toString(boolean) public abstract java.lang.String
-     * java.security.Certificate.toString(boolean)}.
+     * Test method for {@link java.security.Certificate#encode(java.io.OutputStream) public abstract void
+     * java.security.Certificate.encode(java.io.OutputStream) throws java.security.KeyException,java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toString_boolean()
+    public default void test_encode_OutputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -88,6 +88,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.security.Certificate#getPrincipal() public abstract java.security.Principal
+     * java.security.Certificate.getPrincipal()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPrincipal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.security.Certificate#getPublicKey() public abstract java.security.PublicKey
      * java.security.Certificate.getPublicKey()}.
      * </p>
@@ -104,30 +120,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.Certificate#encode(java.io.OutputStream) public abstract void
-     * java.security.Certificate.encode(java.io.OutputStream) throws java.security.KeyException,java.io.IOException}.
+     * Test method for {@link java.security.Certificate#toString(boolean) public abstract java.lang.String
+     * java.security.Certificate.toString(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_encode_OutputStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.Certificate#getPrincipal() public abstract java.security.Principal
-     * java.security.Certificate.getPrincipal()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPrincipal()
+    public default void test_toString_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

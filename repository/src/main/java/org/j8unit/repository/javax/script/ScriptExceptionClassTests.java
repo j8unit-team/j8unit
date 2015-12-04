@@ -36,35 +36,6 @@ public abstract interface ScriptExceptionClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.script.ScriptException#ScriptException(java.lang.String,java.lang.String,int,int)
-     * public javax.script.ScriptException(java.lang.String,java.lang.String,int,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ScriptException_String_String_int_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.script.ScriptException sut = null; // = new
-                                                       // ScriptException(java.lang.String,java.lang.String,int,int);
-    }
-
-    /**
-     * Test method for {@link javax.script.ScriptException#ScriptException(java.lang.String,java.lang.String,int) public
-     * javax.script.ScriptException(java.lang.String,java.lang.String,int)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ScriptException_String_String_int()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.script.ScriptException sut = null; // = new ScriptException(java.lang.String,java.lang.String,int);
-    }
-
-    /**
      * Test method for {@link javax.script.ScriptException#ScriptException(java.lang.Exception) public
      * javax.script.ScriptException(java.lang.Exception)}.
      */
@@ -90,6 +61,35 @@ extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.script.ScriptException sut = null; // = new ScriptException(java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.script.ScriptException#ScriptException(java.lang.String,java.lang.String,int) public
+     * javax.script.ScriptException(java.lang.String,java.lang.String,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ScriptException_String_String_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.script.ScriptException sut = null; // = new ScriptException(java.lang.String,java.lang.String,int);
+    }
+
+    /**
+     * Test method for {@link javax.script.ScriptException#ScriptException(java.lang.String,java.lang.String,int,int)
+     * public javax.script.ScriptException(java.lang.String,java.lang.String,int,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ScriptException_String_String_int_int()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.script.ScriptException sut = null; // = new
+                                                       // ScriptException(java.lang.String,java.lang.String,int,int);
     }
 
     @Override

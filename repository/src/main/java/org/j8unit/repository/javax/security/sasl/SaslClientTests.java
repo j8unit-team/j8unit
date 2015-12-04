@@ -24,22 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.sasl.SaslClient#evaluateChallenge(byte[]) public abstract byte[]
-     * javax.security.sasl.SaslClient.evaluateChallenge(byte[]) throws javax.security.sasl.SaslException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_evaluateChallenge_byteArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.security.sasl.SaslClient#dispose() public abstract void
      * javax.security.sasl.SaslClient.dispose() throws javax.security.sasl.SaslException}.
      * </p>
@@ -48,6 +32,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_dispose()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.sasl.SaslClient#evaluateChallenge(byte[]) public abstract byte[]
+     * javax.security.sasl.SaslClient.evaluateChallenge(byte[]) throws javax.security.sasl.SaslException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_evaluateChallenge_byteArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,38 +72,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.security.sasl.SaslClient#hasInitialResponse() public abstract boolean
-     * javax.security.sasl.SaslClient.hasInitialResponse()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_hasInitialResponse()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.security.sasl.SaslClient#unwrap(byte[],int,int) public abstract byte[]
-     * javax.security.sasl.SaslClient.unwrap(byte[],int,int) throws javax.security.sasl.SaslException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unwrap_byteArray_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.security.sasl.SaslClient#getNegotiatedProperty(java.lang.String) public abstract
      * java.lang.Object javax.security.sasl.SaslClient.getNegotiatedProperty(java.lang.String)}.
      * </p>
@@ -120,6 +88,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.security.sasl.SaslClient#hasInitialResponse() public abstract boolean
+     * javax.security.sasl.SaslClient.hasInitialResponse()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_hasInitialResponse()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.security.sasl.SaslClient#isComplete() public abstract boolean
      * javax.security.sasl.SaslClient.isComplete()}.
      * </p>
@@ -128,6 +112,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isComplete()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.security.sasl.SaslClient#unwrap(byte[],int,int) public abstract byte[]
+     * javax.security.sasl.SaslClient.unwrap(byte[],int,int) throws javax.security.sasl.SaslException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unwrap_byteArray_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,14 +23,14 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ProcessingInstruction#setData(java.lang.String) public abstract void
-     * org.w3c.dom.ProcessingInstruction.setData(java.lang.String) throws org.w3c.dom.DOMException}.
+     * Test method for {@link org.w3c.dom.ProcessingInstruction#getData() public abstract java.lang.String
+     * org.w3c.dom.ProcessingInstruction.getData()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setData_String()
+    public default void test_getData()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.org.w3c.dom.NodeTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.ProcessingInstruction#getData() public abstract java.lang.String
-     * org.w3c.dom.ProcessingInstruction.getData()}.
+     * Test method for {@link org.w3c.dom.ProcessingInstruction#setData(java.lang.String) public abstract void
+     * org.w3c.dom.ProcessingInstruction.setData(java.lang.String) throws org.w3c.dom.DOMException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getData()
+    public default void test_setData_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

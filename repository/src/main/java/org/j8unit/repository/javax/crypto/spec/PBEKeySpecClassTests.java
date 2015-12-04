@@ -36,6 +36,20 @@ public abstract interface PBEKeySpecClassTests<SUT extends Class<? extends javax
 extends org.j8unit.repository.java.security.spec.KeySpecClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.crypto.spec.PBEKeySpec#PBEKeySpec(char[]) public
+     * javax.crypto.spec.PBEKeySpec(char[])}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_PBEKeySpec_charArray()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.crypto.spec.PBEKeySpec sut = null; // = new PBEKeySpec(char[]);
+    }
+
+    /**
      * Test method for {@link javax.crypto.spec.PBEKeySpec#PBEKeySpec(char[],byte[],int) public
      * javax.crypto.spec.PBEKeySpec(char[],byte[],int)}.
      */
@@ -61,20 +75,6 @@ extends org.j8unit.repository.java.security.spec.KeySpecClassTests<SUT>, org.j8u
         // create new instance
         @SuppressWarnings("unused")
         final javax.crypto.spec.PBEKeySpec sut = null; // = new PBEKeySpec(char[],byte[],int,int);
-    }
-
-    /**
-     * Test method for {@link javax.crypto.spec.PBEKeySpec#PBEKeySpec(char[]) public
-     * javax.crypto.spec.PBEKeySpec(char[])}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_PBEKeySpec_charArray()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.crypto.spec.PBEKeySpec sut = null; // = new PBEKeySpec(char[]);
     }
 
     @Override

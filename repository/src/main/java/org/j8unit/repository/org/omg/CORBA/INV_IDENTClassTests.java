@@ -36,18 +36,16 @@ public abstract interface INV_IDENTClassTests<SUT extends Class<? extends org.om
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link org.omg.CORBA.INV_IDENT#INV_IDENT(java.lang.String,int,org.omg.CORBA.CompletionStatus)
-     * public org.omg.CORBA.INV_IDENT(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
+     * Test method for {@link org.omg.CORBA.INV_IDENT#INV_IDENT() public org.omg.CORBA.INV_IDENT()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_INV_IDENT_String_int_CompletionStatus()
+    public default void create_INV_IDENT()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.INV_IDENT sut = null; // = new
-                                                  // INV_IDENT(java.lang.String,int,org.omg.CORBA.CompletionStatus);
+        final org.omg.CORBA.INV_IDENT sut = null; // = new INV_IDENT();
     }
 
     /**
@@ -79,16 +77,18 @@ extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link org.omg.CORBA.INV_IDENT#INV_IDENT() public org.omg.CORBA.INV_IDENT()}.
+     * Test method for {@link org.omg.CORBA.INV_IDENT#INV_IDENT(java.lang.String,int,org.omg.CORBA.CompletionStatus)
+     * public org.omg.CORBA.INV_IDENT(java.lang.String,int,org.omg.CORBA.CompletionStatus)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_INV_IDENT()
+    public default void create_INV_IDENT_String_int_CompletionStatus()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final org.omg.CORBA.INV_IDENT sut = null; // = new INV_IDENT();
+        final org.omg.CORBA.INV_IDENT sut = null; // = new
+                                                  // INV_IDENT(java.lang.String,int,org.omg.CORBA.CompletionStatus);
     }
 
     @Override

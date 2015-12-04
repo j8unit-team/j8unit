@@ -40,14 +40,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.AttributeSet#containsKey(java.lang.Class) public abstract boolean
-     * javax.print.attribute.AttributeSet.containsKey(java.lang.Class)}.
+     * Test method for {@link javax.print.attribute.AttributeSet#addAll(javax.print.attribute.AttributeSet) public
+     * abstract boolean javax.print.attribute.AttributeSet.addAll(javax.print.attribute.AttributeSet)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_containsKey_Class()
+    public default void test_addAll_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,46 +72,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.AttributeSet#isEmpty() public abstract boolean
-     * javax.print.attribute.AttributeSet.isEmpty()}.
+     * Test method for {@link javax.print.attribute.AttributeSet#containsKey(java.lang.Class) public abstract boolean
+     * javax.print.attribute.AttributeSet.containsKey(java.lang.Class)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isEmpty()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.attribute.AttributeSet#remove(java.lang.Class) public abstract boolean
-     * javax.print.attribute.AttributeSet.remove(java.lang.Class)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_Class()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.attribute.AttributeSet#remove(javax.print.attribute.Attribute) public abstract
-     * boolean javax.print.attribute.AttributeSet.remove(javax.print.attribute.Attribute)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_remove_Attribute()
+    public default void test_containsKey_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -136,14 +104,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.AttributeSet#hashCode() public abstract int
-     * javax.print.attribute.AttributeSet.hashCode()}.
+     * Test method for {@link javax.print.attribute.AttributeSet#equals(java.lang.Object) public abstract boolean
+     * javax.print.attribute.AttributeSet.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hashCode()
+    public default void test_equals_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -168,14 +136,62 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.print.attribute.AttributeSet#equals(java.lang.Object) public abstract boolean
-     * javax.print.attribute.AttributeSet.equals(java.lang.Object)}.
+     * Test method for {@link javax.print.attribute.AttributeSet#hashCode() public abstract int
+     * javax.print.attribute.AttributeSet.hashCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_equals_Object()
+    public default void test_hashCode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.attribute.AttributeSet#isEmpty() public abstract boolean
+     * javax.print.attribute.AttributeSet.isEmpty()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isEmpty()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.attribute.AttributeSet#remove(javax.print.attribute.Attribute) public abstract
+     * boolean javax.print.attribute.AttributeSet.remove(javax.print.attribute.Attribute)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_Attribute()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.print.attribute.AttributeSet#remove(java.lang.Class) public abstract boolean
+     * javax.print.attribute.AttributeSet.remove(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_Class()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -192,22 +208,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_size()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.print.attribute.AttributeSet#addAll(javax.print.attribute.AttributeSet) public
-     * abstract boolean javax.print.attribute.AttributeSet.addAll(javax.print.attribute.AttributeSet)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addAll_AttributeSet()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

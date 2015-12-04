@@ -23,38 +23,6 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Object>, 
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamField#getTypeCode() public char
-     * java.io.ObjectStreamField.getTypeCode()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getTypeCode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.ObjectStreamField#isPrimitive() public boolean
-     * java.io.ObjectStreamField.isPrimitive()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_isPrimitive()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.io.ObjectStreamField#compareTo(java.lang.Object) public int
      * java.io.ObjectStreamField.compareTo(java.lang.Object)}.
      * </p>
@@ -72,31 +40,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Object>, 
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamField#isUnshared() public boolean
-     * java.io.ObjectStreamField.isUnshared()}.
+     * Test method for {@link java.io.ObjectStreamField#getName() public java.lang.String
+     * java.io.ObjectStreamField.getName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isUnshared()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.io.ObjectStreamField#toString() public java.lang.String
-     * java.io.ObjectStreamField.toString()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -136,14 +87,14 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Object>, 
 
     /**
      * <p>
-     * Test method for {@link java.io.ObjectStreamField#getName() public java.lang.String
-     * java.io.ObjectStreamField.getName()}.
+     * Test method for {@link java.io.ObjectStreamField#getTypeCode() public char
+     * java.io.ObjectStreamField.getTypeCode()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName()
+    public default void test_getTypeCode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -160,6 +111,55 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Object>, 
     @Test
     @Category(Draft.class)
     public default void test_getTypeString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.ObjectStreamField#isPrimitive() public boolean
+     * java.io.ObjectStreamField.isPrimitive()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isPrimitive()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.ObjectStreamField#isUnshared() public boolean
+     * java.io.ObjectStreamField.isUnshared()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isUnshared()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.io.ObjectStreamField#toString() public java.lang.String
+     * java.io.ObjectStreamField.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

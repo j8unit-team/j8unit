@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface PortableRemoteObjectClassTests<SUT extends Class<? extends javax.rmi.PortableRemoteObject>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.rmi.PortableRemoteObject> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.rmi.PortableRemoteObject.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link javax.rmi.PortableRemoteObject#connect(java.rmi.Remote,java.rmi.Remote) public static void
@@ -63,14 +53,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.PortableRemoteObject#toStub(java.rmi.Remote) public static java.rmi.Remote
-     * javax.rmi.PortableRemoteObject.toStub(java.rmi.Remote) throws java.rmi.NoSuchObjectException}.
+     * Test method for {@link javax.rmi.PortableRemoteObject#exportObject(java.rmi.Remote) public static void
+     * javax.rmi.PortableRemoteObject.exportObject(java.rmi.Remote) throws java.rmi.RemoteException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toStub_Remote()
+    public default void test_exportObject_Remote()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -96,14 +86,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.PortableRemoteObject#exportObject(java.rmi.Remote) public static void
-     * javax.rmi.PortableRemoteObject.exportObject(java.rmi.Remote) throws java.rmi.RemoteException}.
+     * Test method for {@link javax.rmi.PortableRemoteObject#toStub(java.rmi.Remote) public static java.rmi.Remote
+     * javax.rmi.PortableRemoteObject.toStub(java.rmi.Remote) throws java.rmi.NoSuchObjectException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_exportObject_Remote()
+    public default void test_toStub_Remote()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -124,6 +114,16 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.rmi.PortableRemoteObject> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.rmi.PortableRemoteObject.class.isAssignableFrom(sut));
     }
 
 }

@@ -37,18 +37,17 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
 org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.tree.DefaultMutableTreeNode#DefaultMutableTreeNode(java.lang.Object,boolean)
-     * public javax.swing.tree.DefaultMutableTreeNode(java.lang.Object,boolean)}.
+     * Test method for {@link javax.swing.tree.DefaultMutableTreeNode#DefaultMutableTreeNode() public
+     * javax.swing.tree.DefaultMutableTreeNode()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DefaultMutableTreeNode_Object_boolean()
+    public default void create_DefaultMutableTreeNode()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.tree.DefaultMutableTreeNode sut = null; // = new
-                                                                  // DefaultMutableTreeNode(java.lang.Object,boolean);
+        final javax.swing.tree.DefaultMutableTreeNode sut = null; // = new DefaultMutableTreeNode();
     }
 
     /**
@@ -66,17 +65,18 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
     }
 
     /**
-     * Test method for {@link javax.swing.tree.DefaultMutableTreeNode#DefaultMutableTreeNode() public
-     * javax.swing.tree.DefaultMutableTreeNode()}.
+     * Test method for {@link javax.swing.tree.DefaultMutableTreeNode#DefaultMutableTreeNode(java.lang.Object,boolean)
+     * public javax.swing.tree.DefaultMutableTreeNode(java.lang.Object,boolean)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DefaultMutableTreeNode()
+    public default void create_DefaultMutableTreeNode_Object_boolean()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.tree.DefaultMutableTreeNode sut = null; // = new DefaultMutableTreeNode();
+        final javax.swing.tree.DefaultMutableTreeNode sut = null; // = new
+                                                                  // DefaultMutableTreeNode(java.lang.Object,boolean);
     }
 
     @Override

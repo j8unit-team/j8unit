@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.security.cert.PKIXParametersTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.PKIXBuilderParameters#setMaxPathLength(int) public void
-     * java.security.cert.PKIXBuilderParameters.setMaxPathLength(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setMaxPathLength_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.cert.PKIXBuilderParameters#getMaxPathLength() public int
      * java.security.cert.PKIXBuilderParameters.getMaxPathLength()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.java.security.cert.PKIXParametersTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getMaxPathLength()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.PKIXBuilderParameters#setMaxPathLength(int) public void
+     * java.security.cert.PKIXBuilderParameters.setMaxPathLength(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setMaxPathLength_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

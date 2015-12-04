@@ -36,20 +36,6 @@ public abstract interface AtomicReferenceClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.concurrent.atomic.AtomicReference#AtomicReference(java.lang.Object) public
-     * java.util.concurrent.atomic.AtomicReference(java.lang.Object)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AtomicReference_Object()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.concurrent.atomic.AtomicReference<V> sut = null; // = new AtomicReference(java.lang.Object);
-    }
-
-    /**
      * Test method for {@link java.util.concurrent.atomic.AtomicReference#AtomicReference() public
      * java.util.concurrent.atomic.AtomicReference()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         // create new instance
         @SuppressWarnings("unused")
         final java.util.concurrent.atomic.AtomicReference<V> sut = null; // = new AtomicReference();
+    }
+
+    /**
+     * Test method for {@link java.util.concurrent.atomic.AtomicReference#AtomicReference(java.lang.Object) public
+     * java.util.concurrent.atomic.AtomicReference(java.lang.Object)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AtomicReference_Object()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.concurrent.atomic.AtomicReference<V> sut = null; // = new AtomicReference(java.lang.Object);
     }
 
     @Override

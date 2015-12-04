@@ -24,54 +24,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.traversal.NodeIterator#getWhatToShow() public abstract int
-     * org.w3c.dom.traversal.NodeIterator.getWhatToShow()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getWhatToShow()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.traversal.NodeIterator#getFilter() public abstract
-     * org.w3c.dom.traversal.NodeFilter org.w3c.dom.traversal.NodeIterator.getFilter()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFilter()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.traversal.NodeIterator#nextNode() public abstract org.w3c.dom.Node
-     * org.w3c.dom.traversal.NodeIterator.nextNode() throws org.w3c.dom.DOMException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_nextNode()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link org.w3c.dom.traversal.NodeIterator#detach() public abstract void
      * org.w3c.dom.traversal.NodeIterator.detach()}.
      * </p>
@@ -104,14 +56,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.traversal.NodeIterator#previousNode() public abstract org.w3c.dom.Node
-     * org.w3c.dom.traversal.NodeIterator.previousNode() throws org.w3c.dom.DOMException}.
+     * Test method for {@link org.w3c.dom.traversal.NodeIterator#getFilter() public abstract
+     * org.w3c.dom.traversal.NodeFilter org.w3c.dom.traversal.NodeIterator.getFilter()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_previousNode()
+    public default void test_getFilter()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -128,6 +80,54 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getRoot()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.traversal.NodeIterator#getWhatToShow() public abstract int
+     * org.w3c.dom.traversal.NodeIterator.getWhatToShow()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getWhatToShow()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.traversal.NodeIterator#nextNode() public abstract org.w3c.dom.Node
+     * org.w3c.dom.traversal.NodeIterator.nextNode() throws org.w3c.dom.DOMException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_nextNode()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link org.w3c.dom.traversal.NodeIterator#previousNode() public abstract org.w3c.dom.Node
+     * org.w3c.dom.traversal.NodeIterator.previousNode() throws org.w3c.dom.DOMException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_previousNode()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

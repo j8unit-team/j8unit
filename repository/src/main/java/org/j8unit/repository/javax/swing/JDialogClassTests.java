@@ -36,60 +36,29 @@ extends org.j8unit.repository.javax.swing.WindowConstantsClassTests<SUT>, org.j8
 org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.repository.java.awt.DialogClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.swing.JDialog#JDialog(java.awt.Dialog,java.lang.String,boolean,java.awt.GraphicsConfiguration)
-     * public javax.swing.JDialog(java.awt.Dialog,java.lang.String,boolean,java.awt.GraphicsConfiguration)}.
+     * Test method for {@link javax.swing.JDialog#JDialog() public javax.swing.JDialog()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JDialog_Dialog_String_boolean_GraphicsConfiguration()
+    public default void create_JDialog()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JDialog sut = null; // = new
-                                              // JDialog(java.awt.Dialog,java.lang.String,boolean,java.awt.GraphicsConfiguration);
+        final javax.swing.JDialog sut = null; // = new JDialog();
     }
 
     /**
-     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Window) public javax.swing.JDialog(java.awt.Window)}.
+     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Dialog) public javax.swing.JDialog(java.awt.Dialog)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JDialog_Window()
+    public default void create_JDialog_Dialog()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Window);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Dialog,java.lang.String,boolean) public
-     * javax.swing.JDialog(java.awt.Dialog,java.lang.String,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JDialog_Dialog_String_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Dialog,java.lang.String,boolean);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Dialog,java.lang.String) public
-     * javax.swing.JDialog(java.awt.Dialog,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JDialog_Dialog_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Dialog,java.lang.String);
+        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Dialog);
     }
 
     /**
@@ -107,6 +76,91 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
     }
 
     /**
+     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Dialog,java.lang.String) public
+     * javax.swing.JDialog(java.awt.Dialog,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JDialog_Dialog_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Dialog,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Dialog,java.lang.String,boolean) public
+     * javax.swing.JDialog(java.awt.Dialog,java.lang.String,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JDialog_Dialog_String_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Dialog,java.lang.String,boolean);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.JDialog#JDialog(java.awt.Dialog,java.lang.String,boolean,java.awt.GraphicsConfiguration)
+     * public javax.swing.JDialog(java.awt.Dialog,java.lang.String,boolean,java.awt.GraphicsConfiguration)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JDialog_Dialog_String_boolean_GraphicsConfiguration()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JDialog sut = null; // = new
+                                              // JDialog(java.awt.Dialog,java.lang.String,boolean,java.awt.GraphicsConfiguration);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Frame) public javax.swing.JDialog(java.awt.Frame)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JDialog_Frame()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Frame);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Frame,boolean) public
+     * javax.swing.JDialog(java.awt.Frame,boolean)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JDialog_Frame_boolean()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Frame,boolean);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Frame,java.lang.String) public
+     * javax.swing.JDialog(java.awt.Frame,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JDialog_Frame_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Frame,java.lang.String);
+    }
+
+    /**
      * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Frame,java.lang.String,boolean) public
      * javax.swing.JDialog(java.awt.Frame,java.lang.String,boolean)}.
      */
@@ -118,6 +172,78 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
         // create new instance
         @SuppressWarnings("unused")
         final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Frame,java.lang.String,boolean);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.swing.JDialog#JDialog(java.awt.Frame,java.lang.String,boolean,java.awt.GraphicsConfiguration) public
+     * javax.swing.JDialog(java.awt.Frame,java.lang.String,boolean,java.awt.GraphicsConfiguration)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JDialog_Frame_String_boolean_GraphicsConfiguration()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JDialog sut = null; // = new
+                                              // JDialog(java.awt.Frame,java.lang.String,boolean,java.awt.GraphicsConfiguration);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Window) public javax.swing.JDialog(java.awt.Window)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JDialog_Window()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Window);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Window,java.awt.Dialog.ModalityType) public
+     * javax.swing.JDialog(java.awt.Window,java.awt.Dialog$ModalityType)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JDialog_Window_ModalityType()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Window,java.awt.Dialog.ModalityType);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Window,java.lang.String) public
+     * javax.swing.JDialog(java.awt.Window,java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JDialog_Window_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Window,java.lang.String);
+    }
+
+    /**
+     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Window,java.lang.String,java.awt.Dialog.ModalityType)
+     * public javax.swing.JDialog(java.awt.Window,java.lang.String,java.awt.Dialog$ModalityType)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_JDialog_Window_String_ModalityType()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.swing.JDialog sut = null; // = new
+                                              // JDialog(java.awt.Window,java.lang.String,java.awt.Dialog.ModalityType);
     }
 
     /**
@@ -139,139 +265,19 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
     }
 
     /**
-     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Window,java.lang.String,java.awt.Dialog.ModalityType)
-     * public javax.swing.JDialog(java.awt.Window,java.lang.String,java.awt.Dialog$ModalityType)}.
+     * <p>
+     * Test method for {@link javax.swing.JDialog#isDefaultLookAndFeelDecorated() public static boolean
+     * javax.swing.JDialog.isDefaultLookAndFeelDecorated()}.
+     * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_JDialog_Window_String_ModalityType()
+    public default void test_isDefaultLookAndFeelDecorated()
     throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JDialog sut = null; // = new
-                                              // JDialog(java.awt.Window,java.lang.String,java.awt.Dialog.ModalityType);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Window,java.lang.String) public
-     * javax.swing.JDialog(java.awt.Window,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JDialog_Window_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Window,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Window,java.awt.Dialog.ModalityType) public
-     * javax.swing.JDialog(java.awt.Window,java.awt.Dialog$ModalityType)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JDialog_Window_ModalityType()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Window,java.awt.Dialog.ModalityType);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Frame,java.lang.String) public
-     * javax.swing.JDialog(java.awt.Frame,java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JDialog_Frame_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Frame,java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Frame,boolean) public
-     * javax.swing.JDialog(java.awt.Frame,boolean)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JDialog_Frame_boolean()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Frame,boolean);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.swing.JDialog#JDialog(java.awt.Frame,java.lang.String,boolean,java.awt.GraphicsConfiguration) public
-     * javax.swing.JDialog(java.awt.Frame,java.lang.String,boolean,java.awt.GraphicsConfiguration)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JDialog_Frame_String_boolean_GraphicsConfiguration()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JDialog sut = null; // = new
-                                              // JDialog(java.awt.Frame,java.lang.String,boolean,java.awt.GraphicsConfiguration);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Dialog) public javax.swing.JDialog(java.awt.Dialog)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JDialog_Dialog()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Dialog);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JDialog#JDialog(java.awt.Frame) public javax.swing.JDialog(java.awt.Frame)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JDialog_Frame()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JDialog sut = null; // = new JDialog(java.awt.Frame);
-    }
-
-    /**
-     * Test method for {@link javax.swing.JDialog#JDialog() public javax.swing.JDialog()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_JDialog()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.swing.JDialog sut = null; // = new JDialog();
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.swing.JDialog> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.swing.JDialog.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -290,20 +296,14 @@ org.j8unit.repository.javax.swing.RootPaneContainerClassTests<SUT>, org.j8unit.r
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JDialog#isDefaultLookAndFeelDecorated() public static boolean
-     * javax.swing.JDialog.isDefaultLookAndFeelDecorated()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_isDefaultLookAndFeelDecorated()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.swing.JDialog> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.swing.JDialog.class.isAssignableFrom(sut));
     }
 
 }

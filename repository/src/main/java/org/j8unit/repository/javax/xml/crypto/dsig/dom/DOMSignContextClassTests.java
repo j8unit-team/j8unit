@@ -37,34 +37,18 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextClassTests<SUT
 
     /**
      * Test method for
-     * {@link javax.xml.crypto.dsig.dom.DOMSignContext#DOMSignContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node,org.w3c.dom.Node)
-     * public javax.xml.crypto.dsig.dom.DOMSignContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node,org.w3c.dom.Node)}.
+     * {@link javax.xml.crypto.dsig.dom.DOMSignContext#DOMSignContext(java.security.Key,org.w3c.dom.Node) public
+     * javax.xml.crypto.dsig.dom.DOMSignContext(java.security.Key,org.w3c.dom.Node)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DOMSignContext_KeySelector_Node_Node()
+    public default void create_DOMSignContext_Key_Node()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.crypto.dsig.dom.DOMSignContext sut = null; // = new
-                                                                   // DOMSignContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node,org.w3c.dom.Node);
-    }
-
-    /**
-     * Test method for
-     * {@link javax.xml.crypto.dsig.dom.DOMSignContext#DOMSignContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node)
-     * public javax.xml.crypto.dsig.dom.DOMSignContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_DOMSignContext_KeySelector_Node()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.xml.crypto.dsig.dom.DOMSignContext sut = null; // = new
-                                                                   // DOMSignContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node);
+                                                                   // DOMSignContext(java.security.Key,org.w3c.dom.Node);
     }
 
     /**
@@ -85,18 +69,34 @@ extends org.j8unit.repository.javax.xml.crypto.dsig.XMLSignContextClassTests<SUT
 
     /**
      * Test method for
-     * {@link javax.xml.crypto.dsig.dom.DOMSignContext#DOMSignContext(java.security.Key,org.w3c.dom.Node) public
-     * javax.xml.crypto.dsig.dom.DOMSignContext(java.security.Key,org.w3c.dom.Node)}.
+     * {@link javax.xml.crypto.dsig.dom.DOMSignContext#DOMSignContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node)
+     * public javax.xml.crypto.dsig.dom.DOMSignContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_DOMSignContext_Key_Node()
+    public default void create_DOMSignContext_KeySelector_Node()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
         final javax.xml.crypto.dsig.dom.DOMSignContext sut = null; // = new
-                                                                   // DOMSignContext(java.security.Key,org.w3c.dom.Node);
+                                                                   // DOMSignContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node);
+    }
+
+    /**
+     * Test method for
+     * {@link javax.xml.crypto.dsig.dom.DOMSignContext#DOMSignContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node,org.w3c.dom.Node)
+     * public javax.xml.crypto.dsig.dom.DOMSignContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node,org.w3c.dom.Node)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_DOMSignContext_KeySelector_Node_Node()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.xml.crypto.dsig.dom.DOMSignContext sut = null; // = new
+                                                                   // DOMSignContext(javax.xml.crypto.KeySelector,org.w3c.dom.Node,org.w3c.dom.Node);
     }
 
     @Override

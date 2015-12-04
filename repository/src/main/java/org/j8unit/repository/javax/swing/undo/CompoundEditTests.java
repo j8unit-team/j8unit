@@ -23,48 +23,15 @@ extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.undo.CompoundEdit#getPresentationName() public java.lang.String
-     * javax.swing.undo.CompoundEdit.getPresentationName()}.
+     * Test method for {@link javax.swing.undo.CompoundEdit#addEdit(javax.swing.undo.UndoableEdit) public boolean
+     * javax.swing.undo.CompoundEdit.addEdit(javax.swing.undo.UndoableEdit)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getPresentationName()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.undo.CompoundEdit#isSignificant() public boolean
-     * javax.swing.undo.CompoundEdit.isSignificant()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isSignificant()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.undo.CompoundEdit#die() public void javax.swing.undo.CompoundEdit.die()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_die()
+    public default void test_addEdit_UndoableEdit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -90,57 +57,6 @@ extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.undo.CompoundEdit#redo() public void javax.swing.undo.CompoundEdit.redo()
-     * throws javax.swing.undo.CannotRedoException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_redo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.undo.CompoundEdit#addEdit(javax.swing.undo.UndoableEdit) public boolean
-     * javax.swing.undo.CompoundEdit.addEdit(javax.swing.undo.UndoableEdit)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_addEdit_UndoableEdit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.undo.CompoundEdit#undo() public void javax.swing.undo.CompoundEdit.undo()
-     * throws javax.swing.undo.CannotUndoException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_undo()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.swing.undo.CompoundEdit#canUndo() public boolean
      * javax.swing.undo.CompoundEdit.canUndo()}.
      * </p>
@@ -150,6 +66,54 @@ extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_canUndo()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.undo.CompoundEdit#die() public void javax.swing.undo.CompoundEdit.die()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_die()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.undo.CompoundEdit#end() public void javax.swing.undo.CompoundEdit.end()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_end()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.undo.CompoundEdit#getPresentationName() public java.lang.String
+     * javax.swing.undo.CompoundEdit.getPresentationName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPresentationName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -175,6 +139,23 @@ extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.swing.undo.CompoundEdit#getUndoPresentationName() public java.lang.String
+     * javax.swing.undo.CompoundEdit.getUndoPresentationName()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getUndoPresentationName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.undo.CompoundEdit#isInProgress() public boolean
      * javax.swing.undo.CompoundEdit.isInProgress()}.
      * </p>
@@ -183,6 +164,40 @@ extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_isInProgress()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.undo.CompoundEdit#isSignificant() public boolean
+     * javax.swing.undo.CompoundEdit.isSignificant()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isSignificant()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.undo.CompoundEdit#redo() public void javax.swing.undo.CompoundEdit.redo()
+     * throws javax.swing.undo.CannotRedoException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_redo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -208,30 +223,15 @@ extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.undo.CompoundEdit#end() public void javax.swing.undo.CompoundEdit.end()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_end()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.undo.CompoundEdit#getUndoPresentationName() public java.lang.String
-     * javax.swing.undo.CompoundEdit.getUndoPresentationName()}.
+     * Test method for {@link javax.swing.undo.CompoundEdit#undo() public void javax.swing.undo.CompoundEdit.undo()
+     * throws javax.swing.undo.CannotUndoException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getUndoPresentationName()
+    public default void test_undo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

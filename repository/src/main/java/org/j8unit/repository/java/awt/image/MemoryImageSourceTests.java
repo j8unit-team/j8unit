@@ -23,16 +23,15 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for
-     * {@link java.awt.image.MemoryImageSource#requestTopDownLeftRightResend(java.awt.image.ImageConsumer) public void
-     * java.awt.image.MemoryImageSource.requestTopDownLeftRightResend(java.awt.image.ImageConsumer)}.
+     * Test method for {@link java.awt.image.MemoryImageSource#addConsumer(java.awt.image.ImageConsumer) public
+     * synchronized void java.awt.image.MemoryImageSource.addConsumer(java.awt.image.ImageConsumer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_requestTopDownLeftRightResend_ImageConsumer()
+    public default void test_addConsumer_ImageConsumer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -58,32 +57,14 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MemoryImageSource#addConsumer(java.awt.image.ImageConsumer) public
-     * synchronized void java.awt.image.MemoryImageSource.addConsumer(java.awt.image.ImageConsumer)}.
+     * Test method for {@link java.awt.image.MemoryImageSource#newPixels() public void
+     * java.awt.image.MemoryImageSource.newPixels()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_addConsumer_ImageConsumer()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.MemoryImageSource#removeConsumer(java.awt.image.ImageConsumer) public
-     * synchronized void java.awt.image.MemoryImageSource.removeConsumer(java.awt.image.ImageConsumer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_removeConsumer_ImageConsumer()
+    public default void test_newPixels()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -100,6 +81,22 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
     @Test
     @Category(Draft.class)
     public default void test_newPixels_byteArray_ColorModel_int_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.MemoryImageSource#newPixels(int,int,int,int) public synchronized void
+     * java.awt.image.MemoryImageSource.newPixels(int,int,int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newPixels_int_int_int_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -140,47 +137,33 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
 
     /**
      * <p>
-     * Test method for {@link java.awt.image.MemoryImageSource#newPixels(int,int,int,int) public synchronized void
-     * java.awt.image.MemoryImageSource.newPixels(int,int,int,int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newPixels_int_int_int_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.MemoryImageSource#newPixels() public void
-     * java.awt.image.MemoryImageSource.newPixels()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_newPixels()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.image.MemoryImageSource#startProduction(java.awt.image.ImageConsumer) public void
-     * java.awt.image.MemoryImageSource.startProduction(java.awt.image.ImageConsumer)}.
+     * Test method for {@link java.awt.image.MemoryImageSource#removeConsumer(java.awt.image.ImageConsumer) public
+     * synchronized void java.awt.image.MemoryImageSource.removeConsumer(java.awt.image.ImageConsumer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_startProduction_ImageConsumer()
+    public default void test_removeConsumer_ImageConsumer()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.awt.image.MemoryImageSource#requestTopDownLeftRightResend(java.awt.image.ImageConsumer) public void
+     * java.awt.image.MemoryImageSource.requestTopDownLeftRightResend(java.awt.image.ImageConsumer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_requestTopDownLeftRightResend_ImageConsumer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -213,6 +196,23 @@ extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit
     @Test
     @Category(Draft.class)
     public default void test_setFullBufferUpdates_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.image.MemoryImageSource#startProduction(java.awt.image.ImageConsumer) public void
+     * java.awt.image.MemoryImageSource.startProduction(java.awt.image.ImageConsumer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_startProduction_ImageConsumer()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

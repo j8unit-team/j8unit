@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.DocumentListener#removeUpdate(javax.swing.event.DocumentEvent) public
-     * abstract void javax.swing.event.DocumentListener.removeUpdate(javax.swing.event.DocumentEvent)}.
+     * Test method for {@link javax.swing.event.DocumentListener#changedUpdate(javax.swing.event.DocumentEvent) public
+     * abstract void javax.swing.event.DocumentListener.changedUpdate(javax.swing.event.DocumentEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeUpdate_DocumentEvent()
+    public default void test_changedUpdate_DocumentEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.event.DocumentListener#changedUpdate(javax.swing.event.DocumentEvent) public
-     * abstract void javax.swing.event.DocumentListener.changedUpdate(javax.swing.event.DocumentEvent)}.
+     * Test method for {@link javax.swing.event.DocumentListener#removeUpdate(javax.swing.event.DocumentEvent) public
+     * abstract void javax.swing.event.DocumentListener.removeUpdate(javax.swing.event.DocumentEvent)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_changedUpdate_DocumentEvent()
+    public default void test_removeUpdate_DocumentEvent()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

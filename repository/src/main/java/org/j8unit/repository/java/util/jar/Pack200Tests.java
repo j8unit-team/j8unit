@@ -24,108 +24,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.util.jar.Pack200$Unpacker interface java.util.jar.Pack200$Unpacker}, containing all
-     * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
-     * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.java.util.jar.Pack200ClassTests.UnpackerClassTests
-     */
-    @Category(J8UnitRepository.class)
-    public static abstract interface UnpackerTests<SUT extends java.util.jar.Pack200.Unpacker>
-    extends J8UnitTest<SUT> {
-
-        /**
-         * <p>
-         * Test method for
-         * {@link java.util.jar.Pack200.Unpacker#unpack(java.io.InputStream,java.util.jar.JarOutputStream) public
-         * abstract void java.util.jar.Pack200$Unpacker.unpack(java.io.InputStream,java.util.jar.JarOutputStream) throws
-         * java.io.IOException}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_unpack_InputStream_JarOutputStream()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.util.jar.Pack200.Unpacker#unpack(java.io.File,java.util.jar.JarOutputStream)
-         * public abstract void java.util.jar.Pack200$Unpacker.unpack(java.io.File,java.util.jar.JarOutputStream) throws
-         * java.io.IOException}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_unpack_File_JarOutputStream()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link java.util.jar.Pack200.Unpacker#properties() public abstract java.util.SortedMap
-         * java.util.jar.Pack200$Unpacker.properties()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_properties()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for
-         * {@link java.util.jar.Pack200.Unpacker#addPropertyChangeListener(java.beans.PropertyChangeListener) public
-         * default void java.util.jar.Pack200$Unpacker.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_addPropertyChangeListener_PropertyChangeListener()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for
-         * {@link java.util.jar.Pack200.Unpacker#removePropertyChangeListener(java.beans.PropertyChangeListener) public
-         * default void java.util.jar.Pack200$Unpacker.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_removePropertyChangeListener_PropertyChangeListener()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-    }
-
-    /**
-     * <p>
      * Test class for {@link java.util.jar.Pack200$Packer interface java.util.jar.Pack200$Packer}, containing all
      * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
      * </p>
@@ -138,6 +36,23 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(J8UnitRepository.class)
     public static abstract interface PackerTests<SUT extends java.util.jar.Pack200.Packer>
     extends J8UnitTest<SUT> {
+
+        /**
+         * <p>
+         * Test method for
+         * {@link java.util.jar.Pack200.Packer#addPropertyChangeListener(java.beans.PropertyChangeListener) public
+         * default void java.util.jar.Pack200$Packer.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_addPropertyChangeListener_PropertyChangeListener()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
 
         /**
          * <p>
@@ -175,15 +90,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
         /**
          * <p>
-         * Test method for
-         * {@link java.util.jar.Pack200.Packer#addPropertyChangeListener(java.beans.PropertyChangeListener) public
-         * default void java.util.jar.Pack200$Packer.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
+         * Test method for {@link java.util.jar.Pack200.Packer#properties() public abstract java.util.SortedMap
+         * java.util.jar.Pack200$Packer.properties()}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_addPropertyChangeListener_PropertyChangeListener()
+        public default void test_properties()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -207,16 +121,102 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
             assert sut != null;
         }
 
+    }
+
+    /**
+     * <p>
+     * Test class for {@link java.util.jar.Pack200$Unpacker interface java.util.jar.Pack200$Unpacker}, containing all
+     * instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.java.util.jar.Pack200ClassTests.UnpackerClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface UnpackerTests<SUT extends java.util.jar.Pack200.Unpacker>
+    extends J8UnitTest<SUT> {
+
         /**
          * <p>
-         * Test method for {@link java.util.jar.Pack200.Packer#properties() public abstract java.util.SortedMap
-         * java.util.jar.Pack200$Packer.properties()}.
+         * Test method for
+         * {@link java.util.jar.Pack200.Unpacker#addPropertyChangeListener(java.beans.PropertyChangeListener) public
+         * default void java.util.jar.Pack200$Unpacker.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_addPropertyChangeListener_PropertyChangeListener()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link java.util.jar.Pack200.Unpacker#properties() public abstract java.util.SortedMap
+         * java.util.jar.Pack200$Unpacker.properties()}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
         public default void test_properties()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for
+         * {@link java.util.jar.Pack200.Unpacker#removePropertyChangeListener(java.beans.PropertyChangeListener) public
+         * default void java.util.jar.Pack200$Unpacker.removePropertyChangeListener(java.beans.PropertyChangeListener)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_removePropertyChangeListener_PropertyChangeListener()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link java.util.jar.Pack200.Unpacker#unpack(java.io.File,java.util.jar.JarOutputStream)
+         * public abstract void java.util.jar.Pack200$Unpacker.unpack(java.io.File,java.util.jar.JarOutputStream) throws
+         * java.io.IOException}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_unpack_File_JarOutputStream()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for
+         * {@link java.util.jar.Pack200.Unpacker#unpack(java.io.InputStream,java.util.jar.JarOutputStream) public
+         * abstract void java.util.jar.Pack200$Unpacker.unpack(java.io.InputStream,java.util.jar.JarOutputStream) throws
+         * java.io.IOException}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_unpack_InputStream_JarOutputStream()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

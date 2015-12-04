@@ -24,43 +24,6 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.imageio.event.IIOReadUpdateListener#passComplete(javax.imageio.ImageReader,java.awt.image.BufferedImage)
-     * public abstract void
-     * javax.imageio.event.IIOReadUpdateListener.passComplete(javax.imageio.ImageReader,java.awt.image.BufferedImage)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_passComplete_ImageReader_BufferedImage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.imageio.event.IIOReadUpdateListener#thumbnailPassComplete(javax.imageio.ImageReader,java.awt.image.BufferedImage)
-     * public abstract void
-     * javax.imageio.event.IIOReadUpdateListener.thumbnailPassComplete(javax.imageio.ImageReader,java.awt.image.BufferedImage)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_thumbnailPassComplete_ImageReader_BufferedImage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
      * {@link javax.imageio.event.IIOReadUpdateListener#imageUpdate(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int[])
      * public abstract void
      * javax.imageio.event.IIOReadUpdateListener.imageUpdate(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int[])}
@@ -80,16 +43,15 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for
-     * {@link javax.imageio.event.IIOReadUpdateListener#thumbnailUpdate(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int[])
+     * {@link javax.imageio.event.IIOReadUpdateListener#passComplete(javax.imageio.ImageReader,java.awt.image.BufferedImage)
      * public abstract void
-     * javax.imageio.event.IIOReadUpdateListener.thumbnailUpdate(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int[])}
-     * .
+     * javax.imageio.event.IIOReadUpdateListener.passComplete(javax.imageio.ImageReader,java.awt.image.BufferedImage)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_thumbnailUpdate_ImageReader_BufferedImage_int_int_int_int_int_int_intArray()
+    public default void test_passComplete_ImageReader_BufferedImage()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -118,6 +80,25 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     /**
      * <p>
      * Test method for
+     * {@link javax.imageio.event.IIOReadUpdateListener#thumbnailPassComplete(javax.imageio.ImageReader,java.awt.image.BufferedImage)
+     * public abstract void
+     * javax.imageio.event.IIOReadUpdateListener.thumbnailPassComplete(javax.imageio.ImageReader,java.awt.image.BufferedImage)}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_thumbnailPassComplete_ImageReader_BufferedImage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
      * {@link javax.imageio.event.IIOReadUpdateListener#thumbnailPassStarted(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int,int[])
      * public abstract void
      * javax.imageio.event.IIOReadUpdateListener.thumbnailPassStarted(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int,int[])}
@@ -128,6 +109,25 @@ extends org.j8unit.repository.java.util.EventListenerTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_thumbnailPassStarted_ImageReader_BufferedImage_int_int_int_int_int_int_int_intArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link javax.imageio.event.IIOReadUpdateListener#thumbnailUpdate(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int[])
+     * public abstract void
+     * javax.imageio.event.IIOReadUpdateListener.thumbnailUpdate(javax.imageio.ImageReader,java.awt.image.BufferedImage,int,int,int,int,int,int,int[])}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_thumbnailUpdate_ImageReader_BufferedImage_int_int_int_int_int_int_intArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

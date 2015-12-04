@@ -23,14 +23,31 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TrayIcon#removeActionListener(java.awt.event.ActionListener) public synchronized
-     * void java.awt.TrayIcon.removeActionListener(java.awt.event.ActionListener)}.
+     * Test class for {@link java.awt.TrayIcon$MessageType class java.awt.TrayIcon$MessageType}, containing all instance
+     * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * </p>
+     *
+     * @param SUT
+     *            the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.java.awt.TrayIconClassTests.MessageTypeClassTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface MessageTypeTests<SUT extends java.awt.TrayIcon.MessageType>
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, java.awt.TrayIcon.MessageType> {
+
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.TrayIcon#addActionListener(java.awt.event.ActionListener) public synchronized
+     * void java.awt.TrayIcon.addActionListener(java.awt.event.ActionListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeActionListener_ActionListener()
+    public default void test_addActionListener_ActionListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -39,13 +56,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TrayIcon#getToolTip() public java.lang.String java.awt.TrayIcon.getToolTip()}.
+     * Test method for {@link java.awt.TrayIcon#addMouseListener(java.awt.event.MouseListener) public synchronized void
+     * java.awt.TrayIcon.addMouseListener(java.awt.event.MouseListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getToolTip()
+    public default void test_addMouseListener_MouseListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -54,13 +72,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TrayIcon#getSize() public java.awt.Dimension java.awt.TrayIcon.getSize()}.
+     * Test method for {@link java.awt.TrayIcon#addMouseMotionListener(java.awt.event.MouseMotionListener) public
+     * synchronized void java.awt.TrayIcon.addMouseMotionListener(java.awt.event.MouseMotionListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSize()
+    public default void test_addMouseMotionListener_MouseMotionListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -86,77 +105,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TrayIcon#removeMouseMotionListener(java.awt.event.MouseMotionListener) public
-     * synchronized void java.awt.TrayIcon.removeMouseMotionListener(java.awt.event.MouseMotionListener)}.
+     * Test method for {@link java.awt.TrayIcon#getActionCommand() public java.lang.String
+     * java.awt.TrayIcon.getActionCommand()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeMouseMotionListener_MouseMotionListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.TrayIcon#getImage() public java.awt.Image java.awt.TrayIcon.getImage()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getImage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.TrayIcon#getMouseMotionListeners() public synchronized
-     * java.awt.event.MouseMotionListener[] java.awt.TrayIcon.getMouseMotionListeners()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMouseMotionListeners()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.TrayIcon#setImage(java.awt.Image) public void
-     * java.awt.TrayIcon.setImage(java.awt.Image)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setImage_Image()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.TrayIcon#addMouseListener(java.awt.event.MouseListener) public synchronized void
-     * java.awt.TrayIcon.addMouseListener(java.awt.event.MouseListener)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_addMouseListener_MouseListener()
+    public default void test_getActionCommand()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -181,6 +137,21 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.TrayIcon#getImage() public java.awt.Image java.awt.TrayIcon.getImage()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getImage()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.TrayIcon#getMouseListeners() public synchronized java.awt.event.MouseListener[]
      * java.awt.TrayIcon.getMouseListeners()}.
      * </p>
@@ -197,30 +168,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TrayIcon#removeMouseListener(java.awt.event.MouseListener) public synchronized
-     * void java.awt.TrayIcon.removeMouseListener(java.awt.event.MouseListener)}.
+     * Test method for {@link java.awt.TrayIcon#getMouseMotionListeners() public synchronized
+     * java.awt.event.MouseMotionListener[] java.awt.TrayIcon.getMouseMotionListeners()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_removeMouseListener_MouseListener()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.TrayIcon#getActionCommand() public java.lang.String
-     * java.awt.TrayIcon.getActionCommand()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getActionCommand()
+    public default void test_getMouseMotionListeners()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -245,14 +200,28 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TrayIcon#addActionListener(java.awt.event.ActionListener) public synchronized
-     * void java.awt.TrayIcon.addActionListener(java.awt.event.ActionListener)}.
+     * Test method for {@link java.awt.TrayIcon#getSize() public java.awt.Dimension java.awt.TrayIcon.getSize()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addActionListener_ActionListener()
+    public default void test_getSize()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.TrayIcon#getToolTip() public java.lang.String java.awt.TrayIcon.getToolTip()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getToolTip()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -276,14 +245,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TrayIcon#setImageAutoSize(boolean) public void
-     * java.awt.TrayIcon.setImageAutoSize(boolean)}.
+     * Test method for {@link java.awt.TrayIcon#removeActionListener(java.awt.event.ActionListener) public synchronized
+     * void java.awt.TrayIcon.removeActionListener(java.awt.event.ActionListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setImageAutoSize_boolean()
+    public default void test_removeActionListener_ActionListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -292,14 +261,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TrayIcon#setToolTip(java.lang.String) public void
-     * java.awt.TrayIcon.setToolTip(java.lang.String)}.
+     * Test method for {@link java.awt.TrayIcon#removeMouseListener(java.awt.event.MouseListener) public synchronized
+     * void java.awt.TrayIcon.removeMouseListener(java.awt.event.MouseListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setToolTip_String()
+    public default void test_removeMouseListener_MouseListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -308,14 +277,14 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.TrayIcon#addMouseMotionListener(java.awt.event.MouseMotionListener) public
-     * synchronized void java.awt.TrayIcon.addMouseMotionListener(java.awt.event.MouseMotionListener)}.
+     * Test method for {@link java.awt.TrayIcon#removeMouseMotionListener(java.awt.event.MouseMotionListener) public
+     * synchronized void java.awt.TrayIcon.removeMouseMotionListener(java.awt.event.MouseMotionListener)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addMouseMotionListener_MouseMotionListener()
+    public default void test_removeMouseMotionListener_MouseMotionListener()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -340,6 +309,38 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.awt.TrayIcon#setImage(java.awt.Image) public void
+     * java.awt.TrayIcon.setImage(java.awt.Image)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setImage_Image()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.TrayIcon#setImageAutoSize(boolean) public void
+     * java.awt.TrayIcon.setImageAutoSize(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setImageAutoSize_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.TrayIcon#setPopupMenu(java.awt.PopupMenu) public void
      * java.awt.TrayIcon.setPopupMenu(java.awt.PopupMenu)}.
      * </p>
@@ -356,19 +357,18 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test class for {@link java.awt.TrayIcon$MessageType class java.awt.TrayIcon$MessageType}, containing all instance
-     * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Test method for {@link java.awt.TrayIcon#setToolTip(java.lang.String) public void
+     * java.awt.TrayIcon.setToolTip(java.lang.String)}.
      * </p>
-     *
-     * @param SUT
-     *            the type of the subject-under-test
-     * @since 0.9.0
-     * @see org.j8unit.repository.java.awt.TrayIconClassTests.MessageTypeClassTests
      */
-    @Category(J8UnitRepository.class)
-    public static abstract interface MessageTypeTests<SUT extends java.awt.TrayIcon.MessageType>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT, java.awt.TrayIcon.MessageType> {
-
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setToolTip_String()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }

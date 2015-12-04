@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.CheckboxPeer#setState(boolean) public abstract void
-     * java.awt.peer.CheckboxPeer.setState(boolean)}.
+     * Test method for {@link java.awt.peer.CheckboxPeer#setCheckboxGroup(java.awt.CheckboxGroup) public abstract void
+     * java.awt.peer.CheckboxPeer.setCheckboxGroup(java.awt.CheckboxGroup)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setState_boolean()
+    public default void test_setCheckboxGroup_CheckboxGroup()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.peer.CheckboxPeer#setCheckboxGroup(java.awt.CheckboxGroup) public abstract void
-     * java.awt.peer.CheckboxPeer.setCheckboxGroup(java.awt.CheckboxGroup)}.
+     * Test method for {@link java.awt.peer.CheckboxPeer#setState(boolean) public abstract void
+     * java.awt.peer.CheckboxPeer.setState(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCheckboxGroup_CheckboxGroup()
+    public default void test_setState_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

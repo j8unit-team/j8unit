@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.xml.ws.EndpointReference#writeTo(javax.xml.transform.Result) public abstract void
-     * javax.xml.ws.EndpointReference.writeTo(javax.xml.transform.Result)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_writeTo_Result()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.xml.ws.EndpointReference#getPort(java.lang.Class,javax.xml.ws.WebServiceFeature...)
      * public java.lang.Object
      * javax.xml.ws.EndpointReference.getPort(java.lang.Class,javax.xml.ws.WebServiceFeature...)}.
@@ -65,6 +49,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_toString()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.EndpointReference#writeTo(javax.xml.transform.Result) public abstract void
+     * javax.xml.ws.EndpointReference.writeTo(javax.xml.transform.Result)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_writeTo_Result()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

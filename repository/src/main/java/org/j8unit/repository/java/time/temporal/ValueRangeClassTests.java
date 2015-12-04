@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface ValueRangeClassTests<SUT extends Class<? extends java.time.temporal.ValueRange>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.time.temporal.ValueRange> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.time.temporal.ValueRange.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.time.temporal.ValueRange#of(long,long) public static java.time.temporal.ValueRange
@@ -55,6 +45,22 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
     @Test
     @Category(Draft.class)
     public default void test_of_long_long()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.temporal.ValueRange#of(long,long,long) public static
+     * java.time.temporal.ValueRange java.time.temporal.ValueRange.of(long,long,long)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_long_long_long()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -77,20 +83,14 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.time.temporal.ValueRange#of(long,long,long) public static
-     * java.time.temporal.ValueRange java.time.temporal.ValueRange.of(long,long,long)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_of_long_long_long()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.time.temporal.ValueRange> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.time.temporal.ValueRange.class.isAssignableFrom(sut));
     }
 
 }

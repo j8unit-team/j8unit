@@ -36,20 +36,6 @@ public abstract interface InitialDirContextClassTests<SUT extends Class<? extend
 extends org.j8unit.repository.javax.naming.directory.DirContextClassTests<SUT>, org.j8unit.repository.javax.naming.InitialContextClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.directory.InitialDirContext#InitialDirContext(java.util.Hashtable) public
-     * javax.naming.directory.InitialDirContext(java.util.Hashtable) throws javax.naming.NamingException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InitialDirContext_Hashtable()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.directory.InitialDirContext sut = null; // = new InitialDirContext(java.util.Hashtable);
-    }
-
-    /**
      * Test method for {@link javax.naming.directory.InitialDirContext#InitialDirContext() public
      * javax.naming.directory.InitialDirContext() throws javax.naming.NamingException}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.javax.naming.directory.DirContextClassTests<SUT>, 
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.directory.InitialDirContext sut = null; // = new InitialDirContext();
+    }
+
+    /**
+     * Test method for {@link javax.naming.directory.InitialDirContext#InitialDirContext(java.util.Hashtable) public
+     * javax.naming.directory.InitialDirContext(java.util.Hashtable) throws javax.naming.NamingException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InitialDirContext_Hashtable()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.directory.InitialDirContext sut = null; // = new InitialDirContext(java.util.Hashtable);
     }
 
     @Override

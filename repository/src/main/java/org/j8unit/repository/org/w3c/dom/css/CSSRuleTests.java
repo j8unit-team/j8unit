@@ -24,30 +24,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.css.CSSRule#getParentStyleSheet() public abstract
-     * org.w3c.dom.css.CSSStyleSheet org.w3c.dom.css.CSSRule.getParentStyleSheet()}.
+     * Test method for {@link org.w3c.dom.css.CSSRule#getCssText() public abstract java.lang.String
+     * org.w3c.dom.css.CSSRule.getCssText()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParentStyleSheet()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link org.w3c.dom.css.CSSRule#setCssText(java.lang.String) public abstract void
-     * org.w3c.dom.css.CSSRule.setCssText(java.lang.String) throws org.w3c.dom.DOMException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setCssText_String()
+    public default void test_getCssText()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,6 +56,22 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link org.w3c.dom.css.CSSRule#getParentStyleSheet() public abstract
+     * org.w3c.dom.css.CSSStyleSheet org.w3c.dom.css.CSSRule.getParentStyleSheet()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getParentStyleSheet()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link org.w3c.dom.css.CSSRule#getType() public abstract short org.w3c.dom.css.CSSRule.getType()}
      * .
      * </p>
@@ -88,14 +88,14 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.w3c.dom.css.CSSRule#getCssText() public abstract java.lang.String
-     * org.w3c.dom.css.CSSRule.getCssText()}.
+     * Test method for {@link org.w3c.dom.css.CSSRule#setCssText(java.lang.String) public abstract void
+     * org.w3c.dom.css.CSSRule.setCssText(java.lang.String) throws org.w3c.dom.DOMException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCssText()
+    public default void test_setCssText_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

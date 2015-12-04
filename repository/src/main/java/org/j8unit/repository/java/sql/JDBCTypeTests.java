@@ -39,6 +39,22 @@ extends org.j8unit.repository.java.sql.SQLTypeTests<SUT>, org.j8unit.repository.
 
     /**
      * <p>
+     * Test method for {@link java.sql.JDBCType#getVendor() public java.lang.String java.sql.JDBCType.getVendor()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getVendor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.sql.JDBCType#getVendorTypeNumber() public java.lang.Integer
      * java.sql.JDBCType.getVendorTypeNumber()}.
      * </p>
@@ -48,22 +64,6 @@ extends org.j8unit.repository.java.sql.SQLTypeTests<SUT>, org.j8unit.repository.
     @Category(Draft.class)
     @Override
     public default void test_getVendorTypeNumber()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.sql.JDBCType#getVendor() public java.lang.String java.sql.JDBCType.getVendor()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getVendor()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

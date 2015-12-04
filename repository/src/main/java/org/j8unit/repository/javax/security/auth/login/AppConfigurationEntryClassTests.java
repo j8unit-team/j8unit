@@ -37,34 +37,6 @@ public abstract interface AppConfigurationEntryClassTests<SUT extends Class<? ex
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link javax.security.auth.login.AppConfigurationEntry#AppConfigurationEntry(java.lang.String,javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag,java.util.Map)
-     * public
-     * javax.security.auth.login.AppConfigurationEntry(java.lang.String,javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag,java.util.Map)}
-     * .
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_AppConfigurationEntry_String_LoginModuleControlFlag_Map()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.security.auth.login.AppConfigurationEntry sut = null; // = new
-                                                                          // AppConfigurationEntry(java.lang.String,javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag,java.util.Map);
-    }
-
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.security.auth.login.AppConfigurationEntry> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.security.auth.login.AppConfigurationEntry.class.isAssignableFrom(sut));
-    }
-
-    /**
      * <p>
      * Test class for {@link javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag class
      * javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag}, containing all class relevant test
@@ -104,6 +76,34 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
             assertTrue(javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * Test method for
+     * {@link javax.security.auth.login.AppConfigurationEntry#AppConfigurationEntry(java.lang.String,javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag,java.util.Map)
+     * public
+     * javax.security.auth.login.AppConfigurationEntry(java.lang.String,javax.security.auth.login.AppConfigurationEntry$LoginModuleControlFlag,java.util.Map)}
+     * .
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_AppConfigurationEntry_String_LoginModuleControlFlag_Map()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.security.auth.login.AppConfigurationEntry sut = null; // = new
+                                                                          // AppConfigurationEntry(java.lang.String,javax.security.auth.login.AppConfigurationEntry.LoginModuleControlFlag,java.util.Map);
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends javax.security.auth.login.AppConfigurationEntry> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.security.auth.login.AppConfigurationEntry.class.isAssignableFrom(sut));
     }
 
 }

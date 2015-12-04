@@ -23,84 +23,16 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.ConcurrentMap#remove(java.lang.Object,java.lang.Object) public
-     * abstract boolean java.util.concurrent.ConcurrentMap.remove(java.lang.Object,java.lang.Object)}.
+     * Test method for {@link java.util.concurrent.ConcurrentMap#compute(java.lang.Object,java.util.function.BiFunction)
+     * public default java.lang.Object
+     * java.util.concurrent.ConcurrentMap.compute(java.lang.Object,java.util.function.BiFunction)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_remove_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.ConcurrentMap#replaceAll(java.util.function.BiFunction) public
-     * default void java.util.concurrent.ConcurrentMap.replaceAll(java.util.function.BiFunction)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_replaceAll_BiFunction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.ConcurrentMap#putIfAbsent(java.lang.Object,java.lang.Object) public
-     * abstract java.lang.Object java.util.concurrent.ConcurrentMap.putIfAbsent(java.lang.Object,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_putIfAbsent_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.concurrent.ConcurrentMap#replace(java.lang.Object,java.lang.Object,java.lang.Object) public
-     * abstract boolean java.util.concurrent.ConcurrentMap.replace(java.lang.Object,java.lang.Object,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_replace_Object_Object_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.ConcurrentMap#replace(java.lang.Object,java.lang.Object) public
-     * abstract java.lang.Object java.util.concurrent.ConcurrentMap.replace(java.lang.Object,java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_replace_Object_Object()
+    public default void test_compute_Object_BiFunction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -129,16 +61,16 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
     /**
      * <p>
      * Test method for
-     * {@link java.util.concurrent.ConcurrentMap#merge(java.lang.Object,java.lang.Object,java.util.function.BiFunction)
-     * public default java.lang.Object
-     * java.util.concurrent.ConcurrentMap.merge(java.lang.Object,java.lang.Object,java.util.function.BiFunction)}.
+     * {@link java.util.concurrent.ConcurrentMap#computeIfPresent(java.lang.Object,java.util.function.BiFunction) public
+     * default java.lang.Object
+     * java.util.concurrent.ConcurrentMap.computeIfPresent(java.lang.Object,java.util.function.BiFunction)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_merge_Object_Object_BiFunction()
+    public default void test_computeIfPresent_Object_BiFunction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -164,25 +96,6 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for
-     * {@link java.util.concurrent.ConcurrentMap#computeIfPresent(java.lang.Object,java.util.function.BiFunction) public
-     * default java.lang.Object
-     * java.util.concurrent.ConcurrentMap.computeIfPresent(java.lang.Object,java.util.function.BiFunction)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_computeIfPresent_Object_BiFunction()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.concurrent.ConcurrentMap#getOrDefault(java.lang.Object,java.lang.Object) public
      * default java.lang.Object java.util.concurrent.ConcurrentMap.getOrDefault(java.lang.Object,java.lang.Object)}.
      * </p>
@@ -200,16 +113,103 @@ extends org.j8unit.repository.java.util.MapTests<SUT, K, V> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.ConcurrentMap#compute(java.lang.Object,java.util.function.BiFunction)
+     * Test method for
+     * {@link java.util.concurrent.ConcurrentMap#merge(java.lang.Object,java.lang.Object,java.util.function.BiFunction)
      * public default java.lang.Object
-     * java.util.concurrent.ConcurrentMap.compute(java.lang.Object,java.util.function.BiFunction)}.
+     * java.util.concurrent.ConcurrentMap.merge(java.lang.Object,java.lang.Object,java.util.function.BiFunction)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_compute_Object_BiFunction()
+    public default void test_merge_Object_Object_BiFunction()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.ConcurrentMap#putIfAbsent(java.lang.Object,java.lang.Object) public
+     * abstract java.lang.Object java.util.concurrent.ConcurrentMap.putIfAbsent(java.lang.Object,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_putIfAbsent_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.ConcurrentMap#remove(java.lang.Object,java.lang.Object) public
+     * abstract boolean java.util.concurrent.ConcurrentMap.remove(java.lang.Object,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_remove_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.ConcurrentMap#replace(java.lang.Object,java.lang.Object) public
+     * abstract java.lang.Object java.util.concurrent.ConcurrentMap.replace(java.lang.Object,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_replace_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.concurrent.ConcurrentMap#replace(java.lang.Object,java.lang.Object,java.lang.Object) public
+     * abstract boolean java.util.concurrent.ConcurrentMap.replace(java.lang.Object,java.lang.Object,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_replace_Object_Object_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.ConcurrentMap#replaceAll(java.util.function.BiFunction) public
+     * default void java.util.concurrent.ConcurrentMap.replaceAll(java.util.function.BiFunction)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_replaceAll_BiFunction()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

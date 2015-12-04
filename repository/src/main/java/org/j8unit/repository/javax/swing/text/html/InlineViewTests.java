@@ -23,15 +23,15 @@ extends org.j8unit.repository.javax.swing.text.LabelViewTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.swing.text.html.InlineView#getBreakWeight(int,float,float) public int
-     * javax.swing.text.html.InlineView.getBreakWeight(int,float,float)}.
+     * Test method for {@link javax.swing.text.html.InlineView#breakView(int,int,float,float) public
+     * javax.swing.text.View javax.swing.text.html.InlineView.breakView(int,int,float,float)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getBreakWeight_int_float_float()
+    public default void test_breakView_int_int_float_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -52,6 +52,40 @@ extends org.j8unit.repository.javax.swing.text.LabelViewTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_changedUpdate_DocumentEvent_Shape_ViewFactory()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.InlineView#getAttributes() public javax.swing.text.AttributeSet
+     * javax.swing.text.html.InlineView.getAttributes()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAttributes()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.text.html.InlineView#getBreakWeight(int,float,float) public int
+     * javax.swing.text.html.InlineView.getBreakWeight(int,float,float)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getBreakWeight_int_float_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -92,40 +126,6 @@ extends org.j8unit.repository.javax.swing.text.LabelViewTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_removeUpdate_DocumentEvent_Shape_ViewFactory()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.InlineView#getAttributes() public javax.swing.text.AttributeSet
-     * javax.swing.text.html.InlineView.getAttributes()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAttributes()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.text.html.InlineView#breakView(int,int,float,float) public
-     * javax.swing.text.View javax.swing.text.html.InlineView.breakView(int,int,float,float)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_breakView_int_int_float_float()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -24,6 +24,23 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.naming.directory.AttributeModificationException#getUnexecutedModifications() public
+     * javax.naming.directory.ModificationItem[]
+     * javax.naming.directory.AttributeModificationException.getUnexecutedModifications()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUnexecutedModifications()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for
      * {@link javax.naming.directory.AttributeModificationException#setUnexecutedModifications(javax.naming.directory.ModificationItem[])
      * public void
@@ -52,23 +69,6 @@ extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.naming.directory.AttributeModificationException#getUnexecutedModifications() public
-     * javax.naming.directory.ModificationItem[]
-     * javax.naming.directory.AttributeModificationException.getUnexecutedModifications()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUnexecutedModifications()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

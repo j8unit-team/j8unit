@@ -36,17 +36,17 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
 org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.ldap.Rdn#Rdn(java.lang.String,java.lang.Object) public
-     * javax.naming.ldap.Rdn(java.lang.String,java.lang.Object) throws javax.naming.InvalidNameException}.
+     * Test method for {@link javax.naming.ldap.Rdn#Rdn(javax.naming.directory.Attributes) public
+     * javax.naming.ldap.Rdn(javax.naming.directory.Attributes) throws javax.naming.InvalidNameException}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Rdn_String_Object()
+    public default void create_Rdn_Attributes()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final javax.naming.ldap.Rdn sut = null; // = new Rdn(java.lang.String,java.lang.Object);
+        final javax.naming.ldap.Rdn sut = null; // = new Rdn(javax.naming.directory.Attributes);
     }
 
     /**
@@ -64,20 +64,6 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     }
 
     /**
-     * Test method for {@link javax.naming.ldap.Rdn#Rdn(javax.naming.directory.Attributes) public
-     * javax.naming.ldap.Rdn(javax.naming.directory.Attributes) throws javax.naming.InvalidNameException}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_Rdn_Attributes()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.ldap.Rdn sut = null; // = new Rdn(javax.naming.directory.Attributes);
-    }
-
-    /**
      * Test method for {@link javax.naming.ldap.Rdn#Rdn(java.lang.String) public javax.naming.ldap.Rdn(java.lang.String)
      * throws javax.naming.InvalidNameException}.
      */
@@ -91,14 +77,34 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         final javax.naming.ldap.Rdn sut = null; // = new Rdn(java.lang.String);
     }
 
-    @Override
+    /**
+     * Test method for {@link javax.naming.ldap.Rdn#Rdn(java.lang.String,java.lang.Object) public
+     * javax.naming.ldap.Rdn(java.lang.String,java.lang.Object) throws javax.naming.InvalidNameException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_Rdn_String_Object()
     throws Exception {
         // create new instance
-        final Class<? extends javax.naming.ldap.Rdn> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.naming.ldap.Rdn.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final javax.naming.ldap.Rdn sut = null; // = new Rdn(java.lang.String,java.lang.Object);
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.naming.ldap.Rdn#escapeValue(java.lang.Object) public static java.lang.String
+     * javax.naming.ldap.Rdn.escapeValue(java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_escapeValue_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -117,20 +123,14 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link javax.naming.ldap.Rdn#escapeValue(java.lang.Object) public static java.lang.String
-     * javax.naming.ldap.Rdn.escapeValue(java.lang.Object)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_escapeValue_Object()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.naming.ldap.Rdn> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.naming.ldap.Rdn.class.isAssignableFrom(sut));
     }
 
 }

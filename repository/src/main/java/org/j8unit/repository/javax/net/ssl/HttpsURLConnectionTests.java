@@ -39,22 +39,6 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.HttpsURLConnection#getLocalPrincipal() public java.security.Principal
-     * javax.net.ssl.HttpsURLConnection.getLocalPrincipal()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLocalPrincipal()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.net.ssl.HttpsURLConnection#getHostnameVerifier() public
      * javax.net.ssl.HostnameVerifier javax.net.ssl.HttpsURLConnection.getHostnameVerifier()}.
      * </p>
@@ -63,22 +47,6 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getHostnameVerifier()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.net.ssl.HttpsURLConnection#setSSLSocketFactory(javax.net.ssl.SSLSocketFactory)
-     * public void javax.net.ssl.HttpsURLConnection.setSSLSocketFactory(javax.net.ssl.SSLSocketFactory)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSSLSocketFactory_SSLSocketFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -103,14 +71,30 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.HttpsURLConnection#getSSLSocketFactory() public
-     * javax.net.ssl.SSLSocketFactory javax.net.ssl.HttpsURLConnection.getSSLSocketFactory()}.
+     * Test method for {@link javax.net.ssl.HttpsURLConnection#getLocalPrincipal() public java.security.Principal
+     * javax.net.ssl.HttpsURLConnection.getLocalPrincipal()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSSLSocketFactory()
+    public default void test_getLocalPrincipal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.HttpsURLConnection#getPeerPrincipal() public java.security.Principal
+     * javax.net.ssl.HttpsURLConnection.getPeerPrincipal() throws javax.net.ssl.SSLPeerUnverifiedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPeerPrincipal()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -136,14 +120,14 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.HttpsURLConnection#getPeerPrincipal() public java.security.Principal
-     * javax.net.ssl.HttpsURLConnection.getPeerPrincipal() throws javax.net.ssl.SSLPeerUnverifiedException}.
+     * Test method for {@link javax.net.ssl.HttpsURLConnection#getSSLSocketFactory() public
+     * javax.net.ssl.SSLSocketFactory javax.net.ssl.HttpsURLConnection.getSSLSocketFactory()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPeerPrincipal()
+    public default void test_getSSLSocketFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -160,6 +144,22 @@ extends org.j8unit.repository.java.net.HttpURLConnectionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setHostnameVerifier_HostnameVerifier()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.HttpsURLConnection#setSSLSocketFactory(javax.net.ssl.SSLSocketFactory)
+     * public void javax.net.ssl.HttpsURLConnection.setSSLSocketFactory(javax.net.ssl.SSLSocketFactory)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSSLSocketFactory_SSLSocketFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -36,6 +36,20 @@ public abstract interface ZipOutputStreamClassTests<SUT extends Class<? extends 
 extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamClassTests<SUT> {
 
     /**
+     * Test method for {@link java.util.zip.ZipOutputStream#ZipOutputStream(java.io.OutputStream) public
+     * java.util.zip.ZipOutputStream(java.io.OutputStream)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_ZipOutputStream_OutputStream()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.util.zip.ZipOutputStream sut = null; // = new ZipOutputStream(java.io.OutputStream);
+    }
+
+    /**
      * Test method for
      * {@link java.util.zip.ZipOutputStream#ZipOutputStream(java.io.OutputStream,java.nio.charset.Charset) public
      * java.util.zip.ZipOutputStream(java.io.OutputStream,java.nio.charset.Charset)}.
@@ -49,20 +63,6 @@ extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamClassTests<SUT> 
         @SuppressWarnings("unused")
         final java.util.zip.ZipOutputStream sut = null; // = new
                                                         // ZipOutputStream(java.io.OutputStream,java.nio.charset.Charset);
-    }
-
-    /**
-     * Test method for {@link java.util.zip.ZipOutputStream#ZipOutputStream(java.io.OutputStream) public
-     * java.util.zip.ZipOutputStream(java.io.OutputStream)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_ZipOutputStream_OutputStream()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.util.zip.ZipOutputStream sut = null; // = new ZipOutputStream(java.io.OutputStream);
     }
 
     @Override

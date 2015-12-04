@@ -57,24 +57,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link javax.crypto.SealedObject#getObject(java.security.Key,java.lang.String) public final
-     * java.lang.Object javax.crypto.SealedObject.getObject(java.security.Key,java.lang.String) throws
-     * java.io.IOException,java.lang.ClassNotFoundException,java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException,java.security.InvalidKeyException}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getObject_Key_String()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.crypto.SealedObject#getObject(java.security.Key) public final java.lang.Object
      * javax.crypto.SealedObject.getObject(java.security.Key) throws
      * java.io.IOException,java.lang.ClassNotFoundException,java.security.NoSuchAlgorithmException,java.security.InvalidKeyException}
@@ -85,6 +67,24 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
     @Test
     @Category(Draft.class)
     public default void test_getObject_Key()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.crypto.SealedObject#getObject(java.security.Key,java.lang.String) public final
+     * java.lang.Object javax.crypto.SealedObject.getObject(java.security.Key,java.lang.String) throws
+     * java.io.IOException,java.lang.ClassNotFoundException,java.security.NoSuchAlgorithmException,java.security.NoSuchProviderException,java.security.InvalidKeyException}
+     * .
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getObject_Key_String()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -23,31 +23,15 @@ extends org.j8unit.repository.java.awt.geom.PathIteratorTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.FlatteningPathIterator#isDone() public boolean
-     * java.awt.geom.FlatteningPathIterator.isDone()}.
+     * Test method for {@link java.awt.geom.FlatteningPathIterator#currentSegment(double[]) public int
+     * java.awt.geom.FlatteningPathIterator.currentSegment(double[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_isDone()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.FlatteningPathIterator#getFlatness() public double
-     * java.awt.geom.FlatteningPathIterator.getFlatness()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getFlatness()
+    public default void test_currentSegment_doubleArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -73,15 +57,30 @@ extends org.j8unit.repository.java.awt.geom.PathIteratorTests<SUT>, org.j8unit.r
 
     /**
      * <p>
-     * Test method for {@link java.awt.geom.FlatteningPathIterator#currentSegment(double[]) public int
-     * java.awt.geom.FlatteningPathIterator.currentSegment(double[])}.
+     * Test method for {@link java.awt.geom.FlatteningPathIterator#getFlatness() public double
+     * java.awt.geom.FlatteningPathIterator.getFlatness()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_currentSegment_doubleArray()
+    public default void test_getFlatness()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.geom.FlatteningPathIterator#getRecursionLimit() public int
+     * java.awt.geom.FlatteningPathIterator.getRecursionLimit()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRecursionLimit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -107,6 +106,23 @@ extends org.j8unit.repository.java.awt.geom.PathIteratorTests<SUT>, org.j8unit.r
 
     /**
      * <p>
+     * Test method for {@link java.awt.geom.FlatteningPathIterator#isDone() public boolean
+     * java.awt.geom.FlatteningPathIterator.isDone()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isDone()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.awt.geom.FlatteningPathIterator#next() public void
      * java.awt.geom.FlatteningPathIterator.next()}.
      * </p>
@@ -116,22 +132,6 @@ extends org.j8unit.repository.java.awt.geom.PathIteratorTests<SUT>, org.j8unit.r
     @Category(Draft.class)
     @Override
     public default void test_next()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.awt.geom.FlatteningPathIterator#getRecursionLimit() public int
-     * java.awt.geom.FlatteningPathIterator.getRecursionLimit()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRecursionLimit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

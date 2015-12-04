@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.io.PrintStreamTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link java.rmi.server.LogStream#getOutputStream() public synchronized java.io.OutputStream
+     * java.rmi.server.LogStream.getOutputStream()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOutputStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link java.rmi.server.LogStream#setOutputStream(java.io.OutputStream) public synchronized void
      * java.rmi.server.LogStream.setOutputStream(java.io.OutputStream)}.
      * </p>
@@ -48,22 +64,6 @@ extends org.j8unit.repository.java.io.PrintStreamTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_toString()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.rmi.server.LogStream#getOutputStream() public synchronized java.io.OutputStream
-     * java.rmi.server.LogStream.getOutputStream()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOutputStream()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

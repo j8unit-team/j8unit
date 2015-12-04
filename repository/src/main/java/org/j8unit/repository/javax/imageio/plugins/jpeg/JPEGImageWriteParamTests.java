@@ -40,81 +40,15 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getDCHuffmanTables() public
+     * Test method for {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getACHuffmanTables() public
      * javax.imageio.plugins.jpeg.JPEGHuffmanTable[]
-     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getDCHuffmanTables()}.
+     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getACHuffmanTables()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDCHuffmanTables()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#isCompressionLossless() public boolean
-     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.isCompressionLossless()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_isCompressionLossless()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#unsetCompression() public void
-     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.unsetCompression()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_unsetCompression()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getOptimizeHuffmanTables() public boolean
-     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getOptimizeHuffmanTables()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getOptimizeHuffmanTables()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#unsetEncodeTables() public void
-     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.unsetEncodeTables()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_unsetEncodeTables()
+    public default void test_getACHuffmanTables()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -140,23 +74,6 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getACHuffmanTables() public
-     * javax.imageio.plugins.jpeg.JPEGHuffmanTable[]
-     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getACHuffmanTables()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getACHuffmanTables()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getCompressionQualityValues() public
      * float[] javax.imageio.plugins.jpeg.JPEGImageWriteParam.getCompressionQualityValues()}.
      * </p>
@@ -174,6 +91,39 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getDCHuffmanTables() public
+     * javax.imageio.plugins.jpeg.JPEGHuffmanTable[]
+     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getDCHuffmanTables()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDCHuffmanTables()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getOptimizeHuffmanTables() public boolean
+     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.getOptimizeHuffmanTables()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getOptimizeHuffmanTables()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#getQTables() public
      * javax.imageio.plugins.jpeg.JPEGQTable[] javax.imageio.plugins.jpeg.JPEGImageWriteParam.getQTables()}.
      * </p>
@@ -182,6 +132,23 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getQTables()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#isCompressionLossless() public boolean
+     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.isCompressionLossless()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isCompressionLossless()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -217,6 +184,39 @@ extends org.j8unit.repository.javax.imageio.ImageWriteParamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setOptimizeHuffmanTables_boolean()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#unsetCompression() public void
+     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.unsetCompression()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_unsetCompression()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.imageio.plugins.jpeg.JPEGImageWriteParam#unsetEncodeTables() public void
+     * javax.imageio.plugins.jpeg.JPEGImageWriteParam.unsetEncodeTables()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_unsetEncodeTables()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

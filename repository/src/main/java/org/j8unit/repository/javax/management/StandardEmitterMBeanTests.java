@@ -43,34 +43,15 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
 
     /**
      * <p>
-     * Test method for {@link javax.management.StandardEmitterMBean#sendNotification(javax.management.Notification)
-     * public void javax.management.StandardEmitterMBean.sendNotification(javax.management.Notification)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_sendNotification_Notification()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.management.StandardEmitterMBean#removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
-     * public void
-     * javax.management.StandardEmitterMBean.removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
-     * throws javax.management.ListenerNotFoundException}.
+     * Test method for {@link javax.management.StandardEmitterMBean#getNotificationInfo() public
+     * javax.management.MBeanNotificationInfo[] javax.management.StandardEmitterMBean.getNotificationInfo()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_removeNotificationListener_NotificationListener_NotificationFilter_Object()
+    public default void test_getNotificationInfo()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -99,15 +80,34 @@ extends org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>, or
 
     /**
      * <p>
-     * Test method for {@link javax.management.StandardEmitterMBean#getNotificationInfo() public
-     * javax.management.MBeanNotificationInfo[] javax.management.StandardEmitterMBean.getNotificationInfo()}.
+     * Test method for
+     * {@link javax.management.StandardEmitterMBean#removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+     * public void
+     * javax.management.StandardEmitterMBean.removeNotificationListener(javax.management.NotificationListener,javax.management.NotificationFilter,java.lang.Object)
+     * throws javax.management.ListenerNotFoundException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getNotificationInfo()
+    public default void test_removeNotificationListener_NotificationListener_NotificationFilter_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.management.StandardEmitterMBean#sendNotification(javax.management.Notification)
+     * public void javax.management.StandardEmitterMBean.sendNotification(javax.management.Notification)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_sendNotification_Notification()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

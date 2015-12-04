@@ -36,20 +36,6 @@ public abstract interface NameNotFoundExceptionClassTests<SUT extends Class<? ex
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.NameNotFoundException#NameNotFoundException(java.lang.String) public
-     * javax.naming.NameNotFoundException(java.lang.String)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_NameNotFoundException_String()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.NameNotFoundException sut = null; // = new NameNotFoundException(java.lang.String);
-    }
-
-    /**
      * Test method for {@link javax.naming.NameNotFoundException#NameNotFoundException() public
      * javax.naming.NameNotFoundException()}.
      */
@@ -61,6 +47,20 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final javax.naming.NameNotFoundException sut = null; // = new NameNotFoundException();
+    }
+
+    /**
+     * Test method for {@link javax.naming.NameNotFoundException#NameNotFoundException(java.lang.String) public
+     * javax.naming.NameNotFoundException(java.lang.String)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_NameNotFoundException_String()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.NameNotFoundException sut = null; // = new NameNotFoundException(java.lang.String);
     }
 
     @Override

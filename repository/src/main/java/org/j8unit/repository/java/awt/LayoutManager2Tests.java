@@ -23,14 +23,14 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.LayoutManager2#getLayoutAlignmentY(java.awt.Container) public abstract float
-     * java.awt.LayoutManager2.getLayoutAlignmentY(java.awt.Container)}.
+     * Test method for {@link java.awt.LayoutManager2#addLayoutComponent(java.awt.Component,java.lang.Object) public
+     * abstract void java.awt.LayoutManager2.addLayoutComponent(java.awt.Component,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLayoutAlignmentY_Container()
+    public default void test_addLayoutComponent_Component_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -55,14 +55,14 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.LayoutManager2#invalidateLayout(java.awt.Container) public abstract void
-     * java.awt.LayoutManager2.invalidateLayout(java.awt.Container)}.
+     * Test method for {@link java.awt.LayoutManager2#getLayoutAlignmentY(java.awt.Container) public abstract float
+     * java.awt.LayoutManager2.getLayoutAlignmentY(java.awt.Container)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_invalidateLayout_Container()
+    public default void test_getLayoutAlignmentY_Container()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -71,14 +71,14 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.awt.LayoutManager2#addLayoutComponent(java.awt.Component,java.lang.Object) public
-     * abstract void java.awt.LayoutManager2.addLayoutComponent(java.awt.Component,java.lang.Object)}.
+     * Test method for {@link java.awt.LayoutManager2#invalidateLayout(java.awt.Container) public abstract void
+     * java.awt.LayoutManager2.invalidateLayout(java.awt.Container)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addLayoutComponent_Component_Object()
+    public default void test_invalidateLayout_Container()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

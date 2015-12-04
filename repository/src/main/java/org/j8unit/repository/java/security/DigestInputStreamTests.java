@@ -23,15 +23,14 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.DigestInputStream#toString() public java.lang.String
-     * java.security.DigestInputStream.toString()}.
+     * Test method for {@link java.security.DigestInputStream#getMessageDigest() public java.security.MessageDigest
+     * java.security.DigestInputStream.getMessageDigest()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
-    public default void test_toString()
+    public default void test_getMessageDigest()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -48,22 +47,6 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_on_boolean()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.security.DigestInputStream#getMessageDigest() public java.security.MessageDigest
-     * java.security.DigestInputStream.getMessageDigest()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getMessageDigest()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -114,6 +97,23 @@ extends org.j8unit.repository.java.io.FilterInputStreamTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_setMessageDigest_MessageDigest()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.DigestInputStream#toString() public java.lang.String
+     * java.security.DigestInputStream.toString()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

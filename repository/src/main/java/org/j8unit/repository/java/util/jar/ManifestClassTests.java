@@ -36,17 +36,16 @@ public abstract interface ManifestClassTests<SUT extends Class<? extends java.ut
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
-     * Test method for {@link java.util.jar.Manifest#Manifest(java.util.jar.Manifest) public
-     * java.util.jar.Manifest(java.util.jar.Manifest)}.
+     * Test method for {@link java.util.jar.Manifest#Manifest() public java.util.jar.Manifest()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Manifest_Manifest()
+    public default void create_Manifest()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.jar.Manifest sut = null; // = new Manifest(java.util.jar.Manifest);
+        final java.util.jar.Manifest sut = null; // = new Manifest();
     }
 
     /**
@@ -64,16 +63,17 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
     }
 
     /**
-     * Test method for {@link java.util.jar.Manifest#Manifest() public java.util.jar.Manifest()}.
+     * Test method for {@link java.util.jar.Manifest#Manifest(java.util.jar.Manifest) public
+     * java.util.jar.Manifest(java.util.jar.Manifest)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_Manifest()
+    public default void create_Manifest_Manifest()
     throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        final java.util.jar.Manifest sut = null; // = new Manifest();
+        final java.util.jar.Manifest sut = null; // = new Manifest(java.util.jar.Manifest);
     }
 
     @Override

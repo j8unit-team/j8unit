@@ -37,6 +37,21 @@ public abstract interface InvalidAttributeValueExceptionClassTests<SUT extends C
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link javax.naming.directory.InvalidAttributeValueException#InvalidAttributeValueException()
+     * public javax.naming.directory.InvalidAttributeValueException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InvalidAttributeValueException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final javax.naming.directory.InvalidAttributeValueException sut = null; // = new
+                                                                                // InvalidAttributeValueException();
+    }
+
+    /**
      * Test method for
      * {@link javax.naming.directory.InvalidAttributeValueException#InvalidAttributeValueException(java.lang.String)
      * public javax.naming.directory.InvalidAttributeValueException(java.lang.String)}.
@@ -50,21 +65,6 @@ extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {
         @SuppressWarnings("unused")
         final javax.naming.directory.InvalidAttributeValueException sut = null; // = new
                                                                                 // InvalidAttributeValueException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link javax.naming.directory.InvalidAttributeValueException#InvalidAttributeValueException()
-     * public javax.naming.directory.InvalidAttributeValueException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_InvalidAttributeValueException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final javax.naming.directory.InvalidAttributeValueException sut = null; // = new
-                                                                                // InvalidAttributeValueException();
     }
 
     @Override

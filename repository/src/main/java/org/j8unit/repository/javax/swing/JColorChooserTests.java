@@ -23,6 +23,104 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
+     * Test method for
+     * {@link javax.swing.JColorChooser#addChooserPanel(javax.swing.colorchooser.AbstractColorChooserPanel) public void
+     * javax.swing.JColorChooser.addChooserPanel(javax.swing.colorchooser.AbstractColorChooserPanel)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addChooserPanel_AbstractColorChooserPanel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JColorChooser#getAccessibleContext() public
+     * javax.accessibility.AccessibleContext javax.swing.JColorChooser.getAccessibleContext()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAccessibleContext()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JColorChooser#getChooserPanels() public
+     * javax.swing.colorchooser.AbstractColorChooserPanel[] javax.swing.JColorChooser.getChooserPanels()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getChooserPanels()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JColorChooser#getColor() public java.awt.Color
+     * javax.swing.JColorChooser.getColor()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getColor()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JColorChooser#getDragEnabled() public boolean
+     * javax.swing.JColorChooser.getDragEnabled()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDragEnabled()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JColorChooser#getPreviewPanel() public javax.swing.JComponent
+     * javax.swing.JColorChooser.getPreviewPanel()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPreviewPanel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.swing.JColorChooser#getSelectionModel() public
      * javax.swing.colorchooser.ColorSelectionModel javax.swing.JColorChooser.getSelectionModel()}.
      * </p>
@@ -31,6 +129,39 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
     @Test
     @Category(Draft.class)
     public default void test_getSelectionModel()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JColorChooser#getUI() public javax.swing.plaf.ColorChooserUI
+     * javax.swing.JColorChooser.getUI()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JColorChooser#getUIClassID() public java.lang.String
+     * javax.swing.JColorChooser.getUIClassID()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getUIClassID()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -57,96 +188,15 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JColorChooser#getColor() public java.awt.Color
-     * javax.swing.JColorChooser.getColor()}.
+     * Test method for
+     * {@link javax.swing.JColorChooser#setChooserPanels(javax.swing.colorchooser.AbstractColorChooserPanel[]) public
+     * void javax.swing.JColorChooser.setChooserPanels(javax.swing.colorchooser.AbstractColorChooserPanel[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getColor()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JColorChooser#updateUI() public void javax.swing.JColorChooser.updateUI()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_updateUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JColorChooser#getUIClassID() public java.lang.String
-     * javax.swing.JColorChooser.getUIClassID()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getUIClassID()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JColorChooser#getAccessibleContext() public
-     * javax.accessibility.AccessibleContext javax.swing.JColorChooser.getAccessibleContext()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_getAccessibleContext()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JColorChooser#getPreviewPanel() public javax.swing.JComponent
-     * javax.swing.JColorChooser.getPreviewPanel()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPreviewPanel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JColorChooser#getUI() public javax.swing.plaf.ColorChooserUI
-     * javax.swing.JColorChooser.getUI()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getUI()
+    public default void test_setChooserPanels_AbstractColorChooserPanelArray()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -203,79 +253,14 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.JColorChooser#addChooserPanel(javax.swing.colorchooser.AbstractColorChooserPanel) public void
-     * javax.swing.JColorChooser.addChooserPanel(javax.swing.colorchooser.AbstractColorChooserPanel)}.
+     * Test method for {@link javax.swing.JColorChooser#setDragEnabled(boolean) public void
+     * javax.swing.JColorChooser.setDragEnabled(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_addChooserPanel_AbstractColorChooserPanel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JColorChooser#setUI(javax.swing.plaf.ColorChooserUI) public void
-     * javax.swing.JColorChooser.setUI(javax.swing.plaf.ColorChooserUI)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setUI_ColorChooserUI()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JColorChooser#getChooserPanels() public
-     * javax.swing.colorchooser.AbstractColorChooserPanel[] javax.swing.JColorChooser.getChooserPanels()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getChooserPanels()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JColorChooser#setSelectionModel(javax.swing.colorchooser.ColorSelectionModel)
-     * public void javax.swing.JColorChooser.setSelectionModel(javax.swing.colorchooser.ColorSelectionModel)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_setSelectionModel_ColorSelectionModel()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.swing.JColorChooser#getDragEnabled() public boolean
-     * javax.swing.JColorChooser.getDragEnabled()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDragEnabled()
+    public default void test_setDragEnabled_boolean()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -300,15 +285,14 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for
-     * {@link javax.swing.JColorChooser#setChooserPanels(javax.swing.colorchooser.AbstractColorChooserPanel[]) public
-     * void javax.swing.JColorChooser.setChooserPanels(javax.swing.colorchooser.AbstractColorChooserPanel[])}.
+     * Test method for {@link javax.swing.JColorChooser#setSelectionModel(javax.swing.colorchooser.ColorSelectionModel)
+     * public void javax.swing.JColorChooser.setSelectionModel(javax.swing.colorchooser.ColorSelectionModel)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setChooserPanels_AbstractColorChooserPanelArray()
+    public default void test_setSelectionModel_ColorSelectionModel()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -317,14 +301,30 @@ extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8un
 
     /**
      * <p>
-     * Test method for {@link javax.swing.JColorChooser#setDragEnabled(boolean) public void
-     * javax.swing.JColorChooser.setDragEnabled(boolean)}.
+     * Test method for {@link javax.swing.JColorChooser#setUI(javax.swing.plaf.ColorChooserUI) public void
+     * javax.swing.JColorChooser.setUI(javax.swing.plaf.ColorChooserUI)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDragEnabled_boolean()
+    public default void test_setUI_ColorChooserUI()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.swing.JColorChooser#updateUI() public void javax.swing.JColorChooser.updateUI()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_updateUI()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

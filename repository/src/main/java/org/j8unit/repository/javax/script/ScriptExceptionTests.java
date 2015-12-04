@@ -23,6 +23,22 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.script.ScriptException#getColumnNumber() public int
+     * javax.script.ScriptException.getColumnNumber()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getColumnNumber()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.script.ScriptException#getFileName() public java.lang.String
      * javax.script.ScriptException.getFileName()}.
      * </p>
@@ -31,6 +47,22 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getFileName()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.script.ScriptException#getLineNumber() public int
+     * javax.script.ScriptException.getLineNumber()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLineNumber()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -48,38 +80,6 @@ extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {
     @Category(Draft.class)
     @Override
     public default void test_getMessage()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.script.ScriptException#getColumnNumber() public int
-     * javax.script.ScriptException.getColumnNumber()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getColumnNumber()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.script.ScriptException#getLineNumber() public int
-     * javax.script.ScriptException.getLineNumber()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getLineNumber()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

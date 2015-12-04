@@ -36,6 +36,19 @@ public abstract interface BindExceptionClassTests<SUT extends Class<? extends ja
 extends org.j8unit.repository.java.net.SocketExceptionClassTests<SUT> {
 
     /**
+     * Test method for {@link java.net.BindException#BindException() public java.net.BindException()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_BindException()
+    throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        final java.net.BindException sut = null; // = new BindException();
+    }
+
+    /**
      * Test method for {@link java.net.BindException#BindException(java.lang.String) public
      * java.net.BindException(java.lang.String)}.
      */
@@ -47,19 +60,6 @@ extends org.j8unit.repository.java.net.SocketExceptionClassTests<SUT> {
         // create new instance
         @SuppressWarnings("unused")
         final java.net.BindException sut = null; // = new BindException(java.lang.String);
-    }
-
-    /**
-     * Test method for {@link java.net.BindException#BindException() public java.net.BindException()}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_BindException()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.BindException sut = null; // = new BindException();
     }
 
     @Override

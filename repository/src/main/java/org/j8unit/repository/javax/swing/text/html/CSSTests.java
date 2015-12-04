@@ -38,6 +38,22 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
         /**
          * <p>
+         * Test method for {@link javax.swing.text.html.CSS.Attribute#getDefaultValue() public java.lang.String
+         * javax.swing.text.html.CSS$Attribute.getDefaultValue()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_getDefaultValue()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
          * Test method for {@link javax.swing.text.html.CSS.Attribute#isInherited() public boolean
          * javax.swing.text.html.CSS$Attribute.isInherited()}.
          * </p>
@@ -63,22 +79,6 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
         @Category(Draft.class)
         @Override
         public default void test_toString()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.swing.text.html.CSS.Attribute#getDefaultValue() public java.lang.String
-         * javax.swing.text.html.CSS$Attribute.getDefaultValue()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_getDefaultValue()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

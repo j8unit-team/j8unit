@@ -35,14 +35,20 @@ import org.junit.experimental.categories.Category;
 public abstract interface CoderResultClassTests<SUT extends Class<? extends java.nio.charset.CoderResult>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
+    /**
+     * <p>
+     * Test method for {@link java.nio.charset.CoderResult#malformedForLength(int) public static
+     * java.nio.charset.CoderResult java.nio.charset.CoderResult.malformedForLength(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void test_malformedForLength_int()
     throws Exception {
-        // create new instance
-        final Class<? extends java.nio.charset.CoderResult> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.charset.CoderResult.class.isAssignableFrom(sut));
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -61,20 +67,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.nio.charset.CoderResult#malformedForLength(int) public static
-     * java.nio.charset.CoderResult java.nio.charset.CoderResult.malformedForLength(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_malformedForLength_int()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.nio.charset.CoderResult> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.charset.CoderResult.class.isAssignableFrom(sut));
     }
 
 }

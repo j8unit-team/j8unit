@@ -23,14 +23,31 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.ZoneId#toString() public java.lang.String java.time.ZoneId.toString()}.
+     * Test method for {@link java.time.ZoneId#equals(java.lang.Object) public boolean
+     * java.time.ZoneId.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString()
+    public default void test_equals_Object()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.time.ZoneId#getDisplayName(java.time.format.TextStyle,java.util.Locale) public
+     * java.lang.String java.time.ZoneId.getDisplayName(java.time.format.TextStyle,java.util.Locale)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getDisplayName_TextStyle_Locale()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -101,31 +118,14 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
 
     /**
      * <p>
-     * Test method for {@link java.time.ZoneId#equals(java.lang.Object) public boolean
-     * java.time.ZoneId.equals(java.lang.Object)}.
+     * Test method for {@link java.time.ZoneId#toString() public java.lang.String java.time.ZoneId.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.time.ZoneId#getDisplayName(java.time.format.TextStyle,java.util.Locale) public
-     * java.lang.String java.time.ZoneId.getDisplayName(java.time.format.TextStyle,java.util.Locale)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDisplayName_TextStyle_Locale()
+    public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

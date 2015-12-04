@@ -23,32 +23,15 @@ extends org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractSequentialList#remove(int) public java.lang.Object
-     * java.util.AbstractSequentialList.remove(int)}.
+     * Test method for {@link java.util.AbstractSequentialList#add(int,java.lang.Object) public void
+     * java.util.AbstractSequentialList.add(int,java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_remove_int()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.AbstractSequentialList#listIterator(int) public abstract java.util.ListIterator
-     * java.util.AbstractSequentialList.listIterator(int)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_listIterator_int()
+    public default void test_add_int_Object()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -91,15 +74,49 @@ extends org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
 
     /**
      * <p>
-     * Test method for {@link java.util.AbstractSequentialList#add(int,java.lang.Object) public void
-     * java.util.AbstractSequentialList.add(int,java.lang.Object)}.
+     * Test method for {@link java.util.AbstractSequentialList#iterator() public java.util.Iterator
+     * java.util.AbstractSequentialList.iterator()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_add_int_Object()
+    public default void test_iterator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.AbstractSequentialList#listIterator(int) public abstract java.util.ListIterator
+     * java.util.AbstractSequentialList.listIterator(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_listIterator_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.AbstractSequentialList#remove(int) public java.lang.Object
+     * java.util.AbstractSequentialList.remove(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_remove_int()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -117,23 +134,6 @@ extends org.j8unit.repository.java.util.AbstractListTests<SUT, E> {
     @Category(Draft.class)
     @Override
     public default void test_set_int_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.AbstractSequentialList#iterator() public java.util.Iterator
-     * java.util.AbstractSequentialList.iterator()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
-    public default void test_iterator()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

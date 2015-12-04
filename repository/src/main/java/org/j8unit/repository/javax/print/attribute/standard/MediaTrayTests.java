@@ -33,7 +33,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getName()
+    public default void test_getCategory()
     throws Exception {
     }
 
@@ -49,7 +49,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8u
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getCategory()
+    public default void test_getName()
     throws Exception {
     }
 

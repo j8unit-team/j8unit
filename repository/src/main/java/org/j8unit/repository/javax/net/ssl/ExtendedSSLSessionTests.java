@@ -23,22 +23,6 @@ extends org.j8unit.repository.javax.net.ssl.SSLSessionTests<SUT>, org.j8unit.rep
 
     /**
      * <p>
-     * Test method for {@link javax.net.ssl.ExtendedSSLSession#getPeerSupportedSignatureAlgorithms() public abstract
-     * java.lang.String[] javax.net.ssl.ExtendedSSLSession.getPeerSupportedSignatureAlgorithms()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getPeerSupportedSignatureAlgorithms()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link javax.net.ssl.ExtendedSSLSession#getLocalSupportedSignatureAlgorithms() public abstract
      * java.lang.String[] javax.net.ssl.ExtendedSSLSession.getLocalSupportedSignatureAlgorithms()}.
      * </p>
@@ -47,6 +31,22 @@ extends org.j8unit.repository.javax.net.ssl.SSLSessionTests<SUT>, org.j8unit.rep
     @Test
     @Category(Draft.class)
     public default void test_getLocalSupportedSignatureAlgorithms()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.net.ssl.ExtendedSSLSession#getPeerSupportedSignatureAlgorithms() public abstract
+     * java.lang.String[] javax.net.ssl.ExtendedSSLSession.getPeerSupportedSignatureAlgorithms()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getPeerSupportedSignatureAlgorithms()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

@@ -35,26 +35,19 @@ import org.junit.experimental.categories.Category;
 public abstract interface SaslClassTests<SUT extends Class<? extends javax.security.sasl.Sasl>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends javax.security.sasl.Sasl> sut = createNewSUT();
-        // assert assignability
-        assertTrue(javax.security.sasl.Sasl.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
-     * Test method for {@link javax.security.sasl.Sasl#getSaslClientFactories() public static java.util.Enumeration
-     * javax.security.sasl.Sasl.getSaslClientFactories()}.
+     * Test method for
+     * {@link javax.security.sasl.Sasl#createSaslClient(java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.util.Map,javax.security.auth.callback.CallbackHandler)
+     * public static javax.security.sasl.SaslClient
+     * javax.security.sasl.Sasl.createSaslClient(java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.util.Map,javax.security.auth.callback.CallbackHandler)
+     * throws javax.security.sasl.SaslException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSaslClientFactories()
+    public default void test_createSaslClient_StringArray_String_String_String_Map_CallbackHandler()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -82,6 +75,22 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.security.sasl.Sasl#getSaslClientFactories() public static java.util.Enumeration
+     * javax.security.sasl.Sasl.getSaslClientFactories()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getSaslClientFactories()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.security.sasl.Sasl#getSaslServerFactories() public static java.util.Enumeration
      * javax.security.sasl.Sasl.getSaslServerFactories()}.
      * </p>
@@ -96,23 +105,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.security.sasl.Sasl#createSaslClient(java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.util.Map,javax.security.auth.callback.CallbackHandler)
-     * public static javax.security.sasl.SaslClient
-     * javax.security.sasl.Sasl.createSaslClient(java.lang.String[],java.lang.String,java.lang.String,java.lang.String,java.util.Map,javax.security.auth.callback.CallbackHandler)
-     * throws javax.security.sasl.SaslException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_createSaslClient_StringArray_String_String_String_Map_CallbackHandler()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends javax.security.sasl.Sasl> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.security.sasl.Sasl.class.isAssignableFrom(sut));
     }
 
 }

@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface SignatureClassTests<SUT extends Class<? extends java.security.Signature>>
 extends org.j8unit.repository.java.security.SignatureSpiClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.security.Signature> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.security.Signature.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for {@link java.security.Signature#getInstance(java.lang.String) public static
@@ -94,6 +84,16 @@ extends org.j8unit.repository.java.security.SignatureSpiClassTests<SUT> {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
         assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.security.Signature> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.security.Signature.class.isAssignableFrom(sut));
     }
 
 }

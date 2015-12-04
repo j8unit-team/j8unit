@@ -35,16 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface AsynchronousChannelGroupClassTests<SUT extends Class<? extends java.nio.channels.AsynchronousChannelGroup>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.nio.channels.AsynchronousChannelGroup> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.nio.channels.AsynchronousChannelGroup.class.isAssignableFrom(sut));
-    }
-
     /**
      * <p>
      * Test method for
@@ -58,6 +48,25 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_withCachedThreadPool_ExecutorService_int()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.nio.channels.AsynchronousChannelGroup#withFixedThreadPool(int,java.util.concurrent.ThreadFactory)
+     * public static java.nio.channels.AsynchronousChannelGroup
+     * java.nio.channels.AsynchronousChannelGroup.withFixedThreadPool(int,java.util.concurrent.ThreadFactory) throws
+     * java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_withFixedThreadPool_int_ThreadFactory()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -83,23 +92,14 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for
-     * {@link java.nio.channels.AsynchronousChannelGroup#withFixedThreadPool(int,java.util.concurrent.ThreadFactory)
-     * public static java.nio.channels.AsynchronousChannelGroup
-     * java.nio.channels.AsynchronousChannelGroup.withFixedThreadPool(int,java.util.concurrent.ThreadFactory) throws
-     * java.io.IOException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_withFixedThreadPool_int_ThreadFactory()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.nio.channels.AsynchronousChannelGroup> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.nio.channels.AsynchronousChannelGroup.class.isAssignableFrom(sut));
     }
 
 }

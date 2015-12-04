@@ -36,22 +36,6 @@ public abstract interface URLClassLoaderClassTests<SUT extends Class<? extends j
 extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.security.SecureClassLoaderClassTests<SUT> {
 
     /**
-     * Test method for
-     * {@link java.net.URLClassLoader#URLClassLoader(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory)
-     * public java.net.URLClassLoader(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory)}.
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void create_URLClassLoader_URLArray_ClassLoader_URLStreamHandlerFactory()
-    throws Exception {
-        // create new instance
-        @SuppressWarnings("unused")
-        final java.net.URLClassLoader sut = null; // = new
-                                                  // URLClassLoader(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory);
-    }
-
-    /**
      * Test method for {@link java.net.URLClassLoader#URLClassLoader(java.net.URL[]) public
      * java.net.URLClassLoader(java.net.URL[])}.
      */
@@ -79,14 +63,36 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
         final java.net.URLClassLoader sut = null; // = new URLClassLoader(java.net.URL[],java.lang.ClassLoader);
     }
 
-    @Override
+    /**
+     * Test method for
+     * {@link java.net.URLClassLoader#URLClassLoader(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory)
+     * public java.net.URLClassLoader(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
+    @Category(Draft.class)
+    public default void create_URLClassLoader_URLArray_ClassLoader_URLStreamHandlerFactory()
     throws Exception {
         // create new instance
-        final Class<? extends java.net.URLClassLoader> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.net.URLClassLoader.class.isAssignableFrom(sut));
+        @SuppressWarnings("unused")
+        final java.net.URLClassLoader sut = null; // = new
+                                                  // URLClassLoader(java.net.URL[],java.lang.ClassLoader,java.net.URLStreamHandlerFactory);
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.URLClassLoader#newInstance(java.net.URL[]) public static java.net.URLClassLoader
+     * java.net.URLClassLoader.newInstance(java.net.URL[])}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_newInstance_URLArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
     /**
@@ -105,20 +111,14 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
         assert sut != null;
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.net.URLClassLoader#newInstance(java.net.URL[]) public static java.net.URLClassLoader
-     * java.net.URLClassLoader.newInstance(java.net.URL[])}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Override
     @Test
-    @Category(Draft.class)
-    public default void test_newInstance_URLArray()
+    public default void testBaseTypeIsAssignableFromCurrentType()
     throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
+        // create new instance
+        final Class<? extends java.net.URLClassLoader> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.URLClassLoader.class.isAssignableFrom(sut));
     }
 
 }

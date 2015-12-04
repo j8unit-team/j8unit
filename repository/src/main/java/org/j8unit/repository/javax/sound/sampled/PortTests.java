@@ -38,48 +38,15 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.sound.sampled.Port.Info#isSource() public boolean
-         * javax.sound.sampled.Port$Info.isSource()}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        public default void test_isSource()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.sound.sampled.Port.Info#toString() public final java.lang.String
-         * javax.sound.sampled.Port$Info.toString()}.
+         * Test method for {@link javax.sound.sampled.Port.Info#equals(java.lang.Object) public final boolean
+         * javax.sound.sampled.Port$Info.equals(java.lang.Object)}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
         @Override
-        public default void test_toString()
-        throws Exception {
-            // query fresh subject-under-test
-            final SUT sut = this.createNewSUT();
-            assert sut != null;
-        }
-
-        /**
-         * <p>
-         * Test method for {@link javax.sound.sampled.Port.Info#matches(javax.sound.sampled.Line.Info) public boolean
-         * javax.sound.sampled.Port$Info.matches(javax.sound.sampled.Line$Info)}.
-         * </p>
-         */
-        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-        @Test
-        @Category(Draft.class)
-        @Override
-        public default void test_matches_Info()
+        public default void test_equals_Object()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();
@@ -121,15 +88,48 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
 
         /**
          * <p>
-         * Test method for {@link javax.sound.sampled.Port.Info#equals(java.lang.Object) public final boolean
-         * javax.sound.sampled.Port$Info.equals(java.lang.Object)}.
+         * Test method for {@link javax.sound.sampled.Port.Info#isSource() public boolean
+         * javax.sound.sampled.Port$Info.isSource()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_isSource()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.sound.sampled.Port.Info#matches(javax.sound.sampled.Line.Info) public boolean
+         * javax.sound.sampled.Port$Info.matches(javax.sound.sampled.Line$Info)}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
         @Override
-        public default void test_equals_Object()
+        public default void test_matches_Info()
+        throws Exception {
+            // query fresh subject-under-test
+            final SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.sound.sampled.Port.Info#toString() public final java.lang.String
+         * javax.sound.sampled.Port$Info.toString()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        @Override
+        public default void test_toString()
         throws Exception {
             // query fresh subject-under-test
             final SUT sut = this.createNewSUT();

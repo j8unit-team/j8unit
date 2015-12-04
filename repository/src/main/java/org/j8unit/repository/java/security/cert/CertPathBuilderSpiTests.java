@@ -23,22 +23,6 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.security.cert.CertPathBuilderSpi#engineGetRevocationChecker() public
-     * java.security.cert.CertPathChecker java.security.cert.CertPathBuilderSpi.engineGetRevocationChecker()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_engineGetRevocationChecker()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.security.cert.CertPathBuilderSpi#engineBuild(java.security.cert.CertPathParameters)
      * public abstract java.security.cert.CertPathBuilderResult
      * java.security.cert.CertPathBuilderSpi.engineBuild(java.security.cert.CertPathParameters) throws
@@ -49,6 +33,22 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_engineBuild_CertPathParameters()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.security.cert.CertPathBuilderSpi#engineGetRevocationChecker() public
+     * java.security.cert.CertPathChecker java.security.cert.CertPathBuilderSpi.engineGetRevocationChecker()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_engineGetRevocationChecker()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

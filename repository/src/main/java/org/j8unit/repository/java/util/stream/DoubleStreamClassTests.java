@@ -35,131 +35,6 @@ import org.junit.experimental.categories.Category;
 public abstract interface DoubleStreamClassTests<SUT extends Class<? extends java.util.stream.DoubleStream>>
 extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.lang.Double, java.util.stream.DoubleStream> {
 
-    @Override
-    @Test
-    public default void testBaseTypeIsAssignableFromCurrentType()
-    throws Exception {
-        // create new instance
-        final Class<? extends java.util.stream.DoubleStream> sut = createNewSUT();
-        // assert assignability
-        assertTrue(java.util.stream.DoubleStream.class.isAssignableFrom(sut));
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.DoubleStream#empty() public static java.util.stream.DoubleStream
-     * java.util.stream.DoubleStream.empty()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_empty()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.DoubleStream#iterate(double,java.util.function.DoubleUnaryOperator)
-     * public static java.util.stream.DoubleStream
-     * java.util.stream.DoubleStream.iterate(double,java.util.function.DoubleUnaryOperator)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_iterate_double_DoubleUnaryOperator()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.DoubleStream#generate(java.util.function.DoubleSupplier) public static
-     * java.util.stream.DoubleStream java.util.stream.DoubleStream.generate(java.util.function.DoubleSupplier)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_generate_DoubleSupplier()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link java.util.stream.DoubleStream#concat(java.util.stream.DoubleStream,java.util.stream.DoubleStream) public
-     * static java.util.stream.DoubleStream
-     * java.util.stream.DoubleStream.concat(java.util.stream.DoubleStream,java.util.stream.DoubleStream)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_concat_DoubleStream_DoubleStream()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.DoubleStream#builder() public static
-     * java.util.stream.DoubleStream$Builder java.util.stream.DoubleStream.builder()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_builder()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.DoubleStream#of(double) public static java.util.stream.DoubleStream
-     * java.util.stream.DoubleStream.of(double)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_double()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.stream.DoubleStream#of(double...) public static java.util.stream.DoubleStream
-     * java.util.stream.DoubleStream.of(double...)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_of_doubleArray()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
     /**
      * <p>
      * Test class for {@link java.util.stream.DoubleStream$Builder interface java.util.stream.DoubleStream$Builder},
@@ -199,6 +74,131 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
             assertTrue(java.util.stream.DoubleStream.Builder.class.isAssignableFrom(sut));
         }
 
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.DoubleStream#builder() public static
+     * java.util.stream.DoubleStream$Builder java.util.stream.DoubleStream.builder()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_builder()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for
+     * {@link java.util.stream.DoubleStream#concat(java.util.stream.DoubleStream,java.util.stream.DoubleStream) public
+     * static java.util.stream.DoubleStream
+     * java.util.stream.DoubleStream.concat(java.util.stream.DoubleStream,java.util.stream.DoubleStream)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_concat_DoubleStream_DoubleStream()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.DoubleStream#empty() public static java.util.stream.DoubleStream
+     * java.util.stream.DoubleStream.empty()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_empty()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.DoubleStream#generate(java.util.function.DoubleSupplier) public static
+     * java.util.stream.DoubleStream java.util.stream.DoubleStream.generate(java.util.function.DoubleSupplier)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_generate_DoubleSupplier()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.DoubleStream#iterate(double,java.util.function.DoubleUnaryOperator)
+     * public static java.util.stream.DoubleStream
+     * java.util.stream.DoubleStream.iterate(double,java.util.function.DoubleUnaryOperator)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_iterate_double_DoubleUnaryOperator()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.DoubleStream#of(double) public static java.util.stream.DoubleStream
+     * java.util.stream.DoubleStream.of(double)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_double()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.stream.DoubleStream#of(double...) public static java.util.stream.DoubleStream
+     * java.util.stream.DoubleStream.of(double...)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_of_doubleArray()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    @Override
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
+        // create new instance
+        final Class<? extends java.util.stream.DoubleStream> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.stream.DoubleStream.class.isAssignableFrom(sut));
     }
 
 }

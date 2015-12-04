@@ -24,6 +24,38 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
+     * Test method for {@link javax.rmi.CORBA.ValueHandler#getRMIRepositoryID(java.lang.Class) public abstract
+     * java.lang.String javax.rmi.CORBA.ValueHandler.getRMIRepositoryID(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRMIRepositoryID_Class()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.rmi.CORBA.ValueHandler#getRunTimeCodeBase() public abstract
+     * org.omg.SendingContext.RunTime javax.rmi.CORBA.ValueHandler.getRunTimeCodeBase()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getRunTimeCodeBase()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
      * Test method for {@link javax.rmi.CORBA.ValueHandler#isCustomMarshaled(java.lang.Class) public abstract boolean
      * javax.rmi.CORBA.ValueHandler.isCustomMarshaled(java.lang.Class)}.
      * </p>
@@ -40,14 +72,17 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link javax.rmi.CORBA.ValueHandler#getRMIRepositoryID(java.lang.Class) public abstract
-     * java.lang.String javax.rmi.CORBA.ValueHandler.getRMIRepositoryID(java.lang.Class)}.
+     * Test method for
+     * {@link javax.rmi.CORBA.ValueHandler#readValue(org.omg.CORBA.portable.InputStream,int,java.lang.Class,java.lang.String,org.omg.SendingContext.RunTime)
+     * public abstract java.io.Serializable
+     * javax.rmi.CORBA.ValueHandler.readValue(org.omg.CORBA.portable.InputStream,int,java.lang.Class,java.lang.String,org.omg.SendingContext.RunTime)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRMIRepositoryID_Class()
+    public default void test_readValue_InputStream_int_Class_String_RunTime()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -81,41 +116,6 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_writeValue_OutputStream_Serializable()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link javax.rmi.CORBA.ValueHandler#getRunTimeCodeBase() public abstract
-     * org.omg.SendingContext.RunTime javax.rmi.CORBA.ValueHandler.getRunTimeCodeBase()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getRunTimeCodeBase()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for
-     * {@link javax.rmi.CORBA.ValueHandler#readValue(org.omg.CORBA.portable.InputStream,int,java.lang.Class,java.lang.String,org.omg.SendingContext.RunTime)
-     * public abstract java.io.Serializable
-     * javax.rmi.CORBA.ValueHandler.readValue(org.omg.CORBA.portable.InputStream,int,java.lang.Class,java.lang.String,org.omg.SendingContext.RunTime)}
-     * .
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_readValue_InputStream_int_Class_String_RunTime()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();

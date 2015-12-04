@@ -24,14 +24,31 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.Condition#signalAll() public abstract void
-     * java.util.concurrent.locks.Condition.signalAll()}.
+     * Test method for {@link java.util.concurrent.locks.Condition#await() public abstract void
+     * java.util.concurrent.locks.Condition.await() throws java.lang.InterruptedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_signalAll()
+    public default void test_await()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.locks.Condition#await(long,java.util.concurrent.TimeUnit) public
+     * abstract boolean java.util.concurrent.locks.Condition.await(long,java.util.concurrent.TimeUnit) throws
+     * java.lang.InterruptedException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_await_long_TimeUnit()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
@@ -72,39 +89,6 @@ extends J8UnitTest<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.util.concurrent.locks.Condition#await(long,java.util.concurrent.TimeUnit) public
-     * abstract boolean java.util.concurrent.locks.Condition.await(long,java.util.concurrent.TimeUnit) throws
-     * java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_await_long_TimeUnit()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.util.concurrent.locks.Condition#await() public abstract void
-     * java.util.concurrent.locks.Condition.await() throws java.lang.InterruptedException}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_await()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
      * Test method for {@link java.util.concurrent.locks.Condition#awaitUntil(java.util.Date) public abstract boolean
      * java.util.concurrent.locks.Condition.awaitUntil(java.util.Date) throws java.lang.InterruptedException}.
      * </p>
@@ -129,6 +113,22 @@ extends J8UnitTest<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_signal()
+    throws Exception {
+        // query fresh subject-under-test
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.util.concurrent.locks.Condition#signalAll() public abstract void
+     * java.util.concurrent.locks.Condition.signalAll()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_signalAll()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
