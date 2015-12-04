@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.stream.events.CharactersTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharactersClassTests<SUT extends Class<? extends javax.xml.stream.events.Characters>>
 extends org.j8unit.repository.javax.xml.stream.events.XMLEventClassTests<SUT> {

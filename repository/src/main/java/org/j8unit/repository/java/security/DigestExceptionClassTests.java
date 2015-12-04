@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.DigestExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DigestExceptionClassTests<SUT extends Class<? extends java.security.DigestException>>
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {

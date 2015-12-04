@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.PolicyClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PolicyTests<SUT extends org.omg.CORBA.Policy>
 extends org.j8unit.repository.org.omg.CORBA.PolicyOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>,

@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.xpath.XPathFunctionResolverTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XPathFunctionResolverClassTests<SUT extends Class<? extends javax.xml.xpath.XPathFunctionResolver>>
 extends J8UnitTest<SUT> {

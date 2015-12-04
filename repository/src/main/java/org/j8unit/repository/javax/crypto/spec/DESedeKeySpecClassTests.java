@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.spec.DESedeKeySpecTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DESedeKeySpecClassTests<SUT extends Class<? extends javax.crypto.spec.DESedeKeySpec>>
 extends org.j8unit.repository.java.security.spec.KeySpecClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

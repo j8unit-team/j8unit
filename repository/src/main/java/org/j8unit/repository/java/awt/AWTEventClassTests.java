@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.AWTEventTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AWTEventClassTests<SUT extends Class<? extends java.awt.AWTEvent>>
 extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {

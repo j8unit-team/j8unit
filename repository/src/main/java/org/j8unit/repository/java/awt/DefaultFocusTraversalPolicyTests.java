@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.DefaultFocusTraversalPolicyClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultFocusTraversalPolicyTests<SUT extends java.awt.DefaultFocusTraversalPolicy>
 extends org.j8unit.repository.java.awt.ContainerOrderFocusTraversalPolicyTests<SUT> {

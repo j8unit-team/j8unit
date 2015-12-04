@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.AbstractSetClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractSetTests<SUT extends java.util.AbstractSet<E>, E>
 extends org.j8unit.repository.java.util.SetTests<SUT, E>, org.j8unit.repository.java.util.AbstractCollectionTests<SUT, E> {

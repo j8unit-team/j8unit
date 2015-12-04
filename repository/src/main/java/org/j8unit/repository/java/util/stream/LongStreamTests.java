@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.stream.LongStreamClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LongStreamTests<SUT extends java.util.stream.LongStream>
 extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Long, java.util.stream.LongStream> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, java.lang.Lo
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.stream.LongStreamClassTests.BuilderClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderTests<SUT extends java.util.stream.LongStream.Builder>
     extends org.j8unit.repository.java.util.function.LongConsumerTests<SUT> {

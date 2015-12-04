@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.relation.RoleListTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RoleListClassTests<SUT extends Class<? extends javax.management.relation.RoleList>>
 extends org.j8unit.repository.java.util.ArrayListClassTests<SUT, java.lang.Object> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.PolicyClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PolicyTests<SUT extends java.security.Policy>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.PolicyClassTests.ParametersClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParametersTests<SUT extends java.security.Policy.Parameters>
     extends J8UnitTest<SUT> {

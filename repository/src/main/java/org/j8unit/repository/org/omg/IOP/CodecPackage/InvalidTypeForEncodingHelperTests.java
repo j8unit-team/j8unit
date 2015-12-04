@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.IOP.CodecPackage.InvalidTypeForEncodingHelperClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidTypeForEncodingHelperTests<SUT extends org.omg.IOP.CodecPackage.InvalidTypeForEncodingHelper>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

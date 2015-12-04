@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.PUBLIC_MEMBERClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PUBLIC_MEMBERTests<SUT extends org.omg.CORBA.PUBLIC_MEMBER>
 extends J8UnitTest<SUT> {

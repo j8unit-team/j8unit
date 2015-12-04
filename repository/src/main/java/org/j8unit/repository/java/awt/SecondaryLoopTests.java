@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.SecondaryLoopClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SecondaryLoopTests<SUT extends java.awt.SecondaryLoop>
 extends J8UnitTest<SUT> {

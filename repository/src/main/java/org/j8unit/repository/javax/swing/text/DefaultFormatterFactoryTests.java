@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.DefaultFormatterFactoryClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultFormatterFactoryTests<SUT extends javax.swing.text.DefaultFormatterFactory>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.javax.swing.JFormattedTextFieldTests.AbstractFormatterFactoryTests<SUT> {

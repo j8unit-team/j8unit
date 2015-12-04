@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.transform.ResultClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ResultTests<SUT extends javax.xml.transform.Result>
 extends J8UnitTest<SUT> {

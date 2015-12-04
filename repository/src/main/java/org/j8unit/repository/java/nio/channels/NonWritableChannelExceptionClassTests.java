@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.NonWritableChannelExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NonWritableChannelExceptionClassTests<SUT extends Class<? extends java.nio.channels.NonWritableChannelException>>
 extends org.j8unit.repository.java.lang.IllegalStateExceptionClassTests<SUT> {

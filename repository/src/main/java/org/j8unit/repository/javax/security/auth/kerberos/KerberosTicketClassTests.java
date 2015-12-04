@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.kerberos.KerberosTicketTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KerberosTicketClassTests<SUT extends Class<? extends javax.security.auth.kerberos.KerberosTicket>>
 extends org.j8unit.repository.javax.security.auth.DestroyableClassTests<SUT>, org.j8unit.repository.javax.security.auth.RefreshableClassTests<SUT>,

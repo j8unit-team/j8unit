@@ -16,6 +16,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableInterceptor.LOCATION_FORWARDClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LOCATION_FORWARDTests<SUT extends org.omg.PortableInterceptor.LOCATION_FORWARD>
 extends J8UnitTest<SUT> {

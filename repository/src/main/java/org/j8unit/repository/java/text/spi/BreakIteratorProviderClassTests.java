@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.spi.BreakIteratorProviderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BreakIteratorProviderClassTests<SUT extends Class<? extends java.text.spi.BreakIteratorProvider>>
 extends org.j8unit.repository.java.util.spi.LocaleServiceProviderClassTests<SUT> {

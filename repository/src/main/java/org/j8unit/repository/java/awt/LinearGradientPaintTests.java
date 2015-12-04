@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.LinearGradientPaintClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LinearGradientPaintTests<SUT extends java.awt.LinearGradientPaint>
 extends org.j8unit.repository.java.awt.MultipleGradientPaintTests<SUT> {

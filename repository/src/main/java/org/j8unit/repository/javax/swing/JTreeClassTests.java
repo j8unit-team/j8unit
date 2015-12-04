@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JTreeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JTreeClassTests<SUT extends Class<? extends javax.swing.JTree>>
 extends org.j8unit.repository.javax.swing.ScrollableClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
@@ -60,6 +61,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JTreeTests.DropLocationTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DropLocationClassTests<SUT extends Class<? extends javax.swing.JTree.DropLocation>>
     extends org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<SUT> {
@@ -101,6 +103,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JTreeTests.DynamicUtilTreeNodeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DynamicUtilTreeNodeClassTests<SUT extends Class<? extends javax.swing.JTree.DynamicUtilTreeNode>>
     extends org.j8unit.repository.javax.swing.tree.DefaultMutableTreeNodeClassTests<SUT> {

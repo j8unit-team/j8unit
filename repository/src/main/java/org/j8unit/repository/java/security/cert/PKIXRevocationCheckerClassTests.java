@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PKIXRevocationCheckerClassTests<SUT extends Class<? extends java.security.cert.PKIXRevocationChecker>>
 extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.java.security.cert.PKIXCertPathCheckerClassTests<S
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.cert.PKIXRevocationCheckerTests.OptionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OptionClassTests<SUT extends Class<? extends java.security.cert.PKIXRevocationChecker.Option>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.security.cert.PKIXRevocationChecker.Option> {

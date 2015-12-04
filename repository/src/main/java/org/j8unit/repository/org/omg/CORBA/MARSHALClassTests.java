@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.MARSHALTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MARSHALClassTests<SUT extends Class<? extends org.omg.CORBA.MARSHAL>>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {

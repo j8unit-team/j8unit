@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.NameAlreadyBoundExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NameAlreadyBoundExceptionTests<SUT extends javax.naming.NameAlreadyBoundException>
 extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {

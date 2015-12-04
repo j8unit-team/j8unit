@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.DefaultDesktopManagerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultDesktopManagerClassTests<SUT extends Class<? extends javax.swing.DefaultDesktopManager>>
 extends org.j8unit.repository.javax.swing.DesktopManagerClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

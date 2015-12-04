@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.server.LoaderHandlerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LoaderHandlerTests<SUT extends java.rmi.server.LoaderHandler>
 extends J8UnitTest<SUT> {

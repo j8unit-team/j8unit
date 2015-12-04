@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.annotation.W3CDomHandlerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface W3CDomHandlerTests<SUT extends javax.xml.bind.annotation.W3CDomHandler>
 extends org.j8unit.repository.javax.xml.bind.annotation.DomHandlerTests<SUT, org.w3c.dom.Element, javax.xml.transform.dom.DOMResult>,

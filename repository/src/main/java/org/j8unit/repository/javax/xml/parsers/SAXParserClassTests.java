@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.parsers.SAXParserTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SAXParserClassTests<SUT extends Class<? extends javax.xml.parsers.SAXParser>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

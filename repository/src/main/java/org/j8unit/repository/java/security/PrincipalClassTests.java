@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.PrincipalTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrincipalClassTests<SUT extends Class<? extends java.security.Principal>>
 extends J8UnitTest<SUT> {

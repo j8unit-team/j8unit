@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.ProxyTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ProxyClassTests<SUT extends Class<? extends java.net.Proxy>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.net.ProxyTests.TypeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TypeClassTests<SUT extends Class<? extends java.net.Proxy.Type>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.net.Proxy.Type> {

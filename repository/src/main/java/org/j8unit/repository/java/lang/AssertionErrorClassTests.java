@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.AssertionErrorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AssertionErrorClassTests<SUT extends Class<? extends java.lang.AssertionError>>
 extends org.j8unit.repository.java.lang.ErrorClassTests<SUT> {

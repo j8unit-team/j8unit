@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicTableHeaderUITests<SUT extends javax.swing.plaf.basic.BasicTableHeaderUI>
 extends org.j8unit.repository.javax.swing.plaf.TableHeaderUITests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.plaf.TableHeaderUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTableHeaderUIClassTests.MouseInputHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MouseInputHandlerTests<SUT extends javax.swing.plaf.basic.BasicTableHeaderUI.MouseInputHandler>
     extends org.j8unit.repository.javax.swing.event.MouseInputListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

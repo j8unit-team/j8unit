@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.activity.InvalidActivityExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidActivityExceptionTests<SUT extends javax.activity.InvalidActivityException>
 extends org.j8unit.repository.java.rmi.RemoteExceptionTests<SUT> {

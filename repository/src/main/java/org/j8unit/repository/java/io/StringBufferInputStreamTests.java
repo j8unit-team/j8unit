@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.StringBufferInputStreamClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StringBufferInputStreamTests<SUT extends java.io.StringBufferInputStream>
 extends org.j8unit.repository.java.io.InputStreamTests<SUT> {

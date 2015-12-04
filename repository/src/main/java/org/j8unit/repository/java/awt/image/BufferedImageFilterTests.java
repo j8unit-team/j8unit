@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.BufferedImageFilterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BufferedImageFilterTests<SUT extends java.awt.image.BufferedImageFilter>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {

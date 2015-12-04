@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.CompositeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompositeClassTests<SUT extends Class<? extends java.awt.Composite>>
 extends J8UnitTest<SUT> {

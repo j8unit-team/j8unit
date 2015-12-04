@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JOptionPaneClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JOptionPaneTests<SUT extends javax.swing.JOptionPane>
 extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repository.javax.swing.JComponentTests<SUT> {

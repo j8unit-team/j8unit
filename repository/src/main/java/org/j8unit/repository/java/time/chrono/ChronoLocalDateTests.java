@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.chrono.ChronoLocalDateClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ChronoLocalDateTests<SUT extends java.time.chrono.ChronoLocalDate>
 extends org.j8unit.repository.java.time.temporal.TemporalTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterTests<SUT>,

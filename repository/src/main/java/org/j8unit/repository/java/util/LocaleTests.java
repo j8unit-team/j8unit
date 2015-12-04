@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.LocaleClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LocaleTests<SUT extends java.util.Locale>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
@@ -33,6 +34,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.LocaleClassTests.BuilderClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderTests<SUT extends java.util.Locale.Builder>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -259,6 +261,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.LocaleClassTests.CategoryClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CategoryTests<SUT extends java.util.Locale.Category>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.Locale.Category> {
@@ -276,6 +279,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.LocaleClassTests.FilteringModeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FilteringModeTests<SUT extends java.util.Locale.FilteringMode>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.Locale.FilteringMode> {
@@ -293,6 +297,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.LocaleClassTests.LanguageRangeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LanguageRangeTests<SUT extends java.util.Locale.LanguageRange>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

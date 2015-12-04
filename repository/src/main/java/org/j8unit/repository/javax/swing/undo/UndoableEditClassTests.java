@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.undo.UndoableEditTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UndoableEditClassTests<SUT extends Class<? extends javax.swing.undo.UndoableEdit>>
 extends J8UnitTest<SUT> {

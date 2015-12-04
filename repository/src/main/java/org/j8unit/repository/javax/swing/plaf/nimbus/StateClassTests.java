@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.nimbus.StateTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StateClassTests<SUT extends Class<? extends javax.swing.plaf.nimbus.State<T>>, T extends javax.swing.JComponent>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

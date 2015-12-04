@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.BooleanHolderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BooleanHolderClassTests<SUT extends Class<? extends org.omg.CORBA.BooleanHolder>>
 extends org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

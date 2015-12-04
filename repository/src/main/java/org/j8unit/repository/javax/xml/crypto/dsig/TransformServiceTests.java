@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.dsig.TransformServiceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TransformServiceTests<SUT extends javax.xml.crypto.dsig.TransformService>
 extends org.j8unit.repository.javax.xml.crypto.dsig.TransformTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

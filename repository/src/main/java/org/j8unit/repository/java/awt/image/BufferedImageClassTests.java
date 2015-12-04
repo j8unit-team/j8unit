@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.BufferedImageTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BufferedImageClassTests<SUT extends Class<? extends java.awt.image.BufferedImage>>
 extends org.j8unit.repository.java.awt.image.WritableRenderedImageClassTests<SUT>, org.j8unit.repository.java.awt.TransparencyClassTests<SUT>,

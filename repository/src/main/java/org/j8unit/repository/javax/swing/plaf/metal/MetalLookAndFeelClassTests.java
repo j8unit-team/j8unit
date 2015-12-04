@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalLookAndFeelTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalLookAndFeelClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalLookAndFeel>>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicLookAndFeelClassTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AddressingFeatureClassTests<SUT extends Class<? extends javax.xml.ws.soap.AddressingFeature>>
 extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.ws.soap.AddressingFeatureTests.ResponsesTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ResponsesClassTests<SUT extends Class<? extends javax.xml.ws.soap.AddressingFeature.Responses>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.ws.soap.AddressingFeature.Responses> {

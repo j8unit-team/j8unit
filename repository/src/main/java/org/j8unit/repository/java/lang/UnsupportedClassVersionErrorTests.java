@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.UnsupportedClassVersionErrorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnsupportedClassVersionErrorTests<SUT extends java.lang.UnsupportedClassVersionError>
 extends org.j8unit.repository.java.lang.ClassFormatErrorTests<SUT> {

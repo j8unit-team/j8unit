@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.type.ArrayTypeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ArrayTypeClassTests<SUT extends Class<? extends javax.lang.model.type.ArrayType>>
 extends org.j8unit.repository.javax.lang.model.type.ReferenceTypeClassTests<SUT> {

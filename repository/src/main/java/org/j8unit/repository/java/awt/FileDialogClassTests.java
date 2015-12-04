@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.FileDialogTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileDialogClassTests<SUT extends Class<? extends java.awt.FileDialog>>
 extends org.j8unit.repository.java.awt.DialogClassTests<SUT> {

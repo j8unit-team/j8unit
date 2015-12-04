@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JComboBoxClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JComboBoxTests<SUT extends javax.swing.JComboBox<E>, E>
 extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, org.j8unit.repository.javax.swing.event.ListDataListenerTests<SUT>,
@@ -36,6 +37,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JComboBoxClassTests.KeySelectionManagerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeySelectionManagerTests<SUT extends javax.swing.JComboBox.KeySelectionManager>
     extends J8UnitTest<SUT> {

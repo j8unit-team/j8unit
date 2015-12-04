@@ -233,6 +233,7 @@ public class Generator {
         // append test class content
         final StringBuilder sb = new StringBuilder();
         sb.append(this.contentOfTestClassJavaDoc(clazz, membership, indent));
+        sb.append(indent + "@FunctionalInterface" + NL);
         sb.append(indent + "@Category(" + J8UnitRepository.class.getSimpleName() + ".class)" + NL);
         sb.append(indent + "public " + nested + "abstract interface " + testClassName + "<SUT extends " + sutSuper + parameters + ">" + NL);
         sb.append(indent + "extends " + testClassSuper + NL);

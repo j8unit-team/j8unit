@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.DateFormatTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DateFormatClassTests<SUT extends Class<? extends java.text.DateFormat>>
 extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.java.text.FormatClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.text.DateFormatTests.FieldTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FieldClassTests<SUT extends Class<? extends java.text.DateFormat.Field>>
     extends org.j8unit.repository.java.text.FormatClassTests.FieldClassTests<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.BufferedImageOpClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BufferedImageOpTests<SUT extends java.awt.image.BufferedImageOp>
 extends J8UnitTest<SUT> {

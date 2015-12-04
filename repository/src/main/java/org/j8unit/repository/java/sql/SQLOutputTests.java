@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.SQLOutputClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLOutputTests<SUT extends java.sql.SQLOutput>
 extends J8UnitTest<SUT> {

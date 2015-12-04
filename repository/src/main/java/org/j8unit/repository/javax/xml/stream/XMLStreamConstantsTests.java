@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.stream.XMLStreamConstantsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLStreamConstantsTests<SUT extends javax.xml.stream.XMLStreamConstants>
 extends J8UnitTest<SUT> {

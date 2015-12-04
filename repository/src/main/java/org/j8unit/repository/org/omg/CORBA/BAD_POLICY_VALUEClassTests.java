@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.BAD_POLICY_VALUETests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BAD_POLICY_VALUEClassTests<SUT extends Class<? extends org.omg.CORBA.BAD_POLICY_VALUE>>
 extends J8UnitTest<SUT> {

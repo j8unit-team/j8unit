@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.dnd.InvalidDnDOperationExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidDnDOperationExceptionClassTests<SUT extends Class<? extends java.awt.dnd.InvalidDnDOperationException>>
 extends org.j8unit.repository.java.lang.IllegalStateExceptionClassTests<SUT> {

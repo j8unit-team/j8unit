@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.UIDefaultsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UIDefaultsClassTests<SUT extends Class<? extends javax.swing.UIDefaults>>
 extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Object, java.lang.Object> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Objec
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.UIDefaultsTests.ActiveValueTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ActiveValueClassTests<SUT extends Class<? extends javax.swing.UIDefaults.ActiveValue>>
     extends J8UnitTest<SUT> {
@@ -101,6 +103,7 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Objec
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.UIDefaultsTests.LazyInputMapTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LazyInputMapClassTests<SUT extends Class<? extends javax.swing.UIDefaults.LazyInputMap>>
     extends org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyValueClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -156,6 +159,7 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Objec
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.UIDefaultsTests.LazyValueTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LazyValueClassTests<SUT extends Class<? extends javax.swing.UIDefaults.LazyValue>>
     extends J8UnitTest<SUT> {
@@ -196,6 +200,7 @@ extends org.j8unit.repository.java.util.HashtableClassTests<SUT, java.lang.Objec
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.UIDefaultsTests.ProxyLazyValueTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ProxyLazyValueClassTests<SUT extends Class<? extends javax.swing.UIDefaults.ProxyLazyValue>>
     extends org.j8unit.repository.javax.swing.UIDefaultsClassTests.LazyValueClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

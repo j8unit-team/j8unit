@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.script.CompilableTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompilableClassTests<SUT extends Class<? extends javax.script.Compilable>>
 extends J8UnitTest<SUT> {

@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.BeanInfoTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BeanInfoClassTests<SUT extends Class<? extends java.beans.BeanInfo>>
 extends J8UnitTest<SUT> {

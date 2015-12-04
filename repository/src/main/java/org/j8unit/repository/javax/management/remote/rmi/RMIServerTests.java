@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.remote.rmi.RMIServerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RMIServerTests<SUT extends javax.management.remote.rmi.RMIServer>
 extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {

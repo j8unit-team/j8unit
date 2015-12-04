@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.callback.UnsupportedCallbackExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnsupportedCallbackExceptionClassTests<SUT extends Class<? extends javax.security.auth.callback.UnsupportedCallbackException>>
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.GrayFilterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GrayFilterTests<SUT extends javax.swing.GrayFilter>
 extends org.j8unit.repository.java.awt.image.RGBImageFilterTests<SUT> {

@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.MalformedLinkExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MalformedLinkExceptionTests<SUT extends javax.naming.MalformedLinkException>
 extends org.j8unit.repository.javax.naming.LinkExceptionTests<SUT> {

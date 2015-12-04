@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.InvalidAddressClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidAddressTests<SUT extends org.omg.CosNaming.NamingContextExtPackage.InvalidAddress>
 extends org.j8unit.repository.org.omg.CORBA.UserExceptionTests<SUT> {

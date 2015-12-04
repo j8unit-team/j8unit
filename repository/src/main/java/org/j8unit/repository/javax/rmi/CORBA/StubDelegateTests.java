@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.rmi.CORBA.StubDelegateClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StubDelegateTests<SUT extends javax.rmi.CORBA.StubDelegate>
 extends J8UnitTest<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicColorChooserUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicColorChooserUI>>
 extends org.j8unit.repository.javax.swing.plaf.ColorChooserUIClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.plaf.ColorChooserUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicColorChooserUITests.PropertyHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicColorChooserUI.PropertyHandler>>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

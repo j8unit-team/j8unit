@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.WriteAbortedExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WriteAbortedExceptionClassTests<SUT extends Class<? extends java.io.WriteAbortedException>>
 extends org.j8unit.repository.java.io.ObjectStreamExceptionClassTests<SUT> {

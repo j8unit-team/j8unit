@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLEditorKitClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit>>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLFactoryTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HTMLFactoryClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.HTMLFactory>>
     extends org.j8unit.repository.javax.swing.text.ViewFactoryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -117,6 +119,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.HTMLTextActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HTMLTextActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.HTMLTextAction>>
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
@@ -174,6 +177,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.InsertHTMLTextActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InsertHTMLTextActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction>>
     extends org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.HTMLTextActionClassTests<SUT> {
@@ -252,6 +256,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.LinkControllerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LinkControllerClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.LinkController>>
     extends org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
@@ -309,6 +314,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserCallbackTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParserCallbackClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.ParserCallback>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -365,6 +371,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLEditorKitTests.ParserTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParserClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLEditorKit.Parser>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

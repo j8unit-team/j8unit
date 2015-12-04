@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.jws.WebResultClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WebResultTests<SUT extends javax.jws.WebResult>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {

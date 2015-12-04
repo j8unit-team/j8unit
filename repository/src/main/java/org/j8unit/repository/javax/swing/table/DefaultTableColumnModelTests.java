@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.table.DefaultTableColumnModelClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultTableColumnModelTests<SUT extends javax.swing.table.DefaultTableColumnModel>
 extends org.j8unit.repository.javax.swing.table.TableColumnModelTests<SUT>, org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>,

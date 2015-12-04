@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FormSubmitEventTests<SUT extends javax.swing.text.html.FormSubmitEvent>
 extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventTests
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.FormSubmitEventClassTests.MethodTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MethodTypeTests<SUT extends javax.swing.text.html.FormSubmitEvent.MethodType>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.swing.text.html.FormSubmitEvent.MethodType> {

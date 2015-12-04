@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.attribute.AclEntryPermissionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AclEntryPermissionTests<SUT extends java.nio.file.attribute.AclEntryPermission>
 extends org.j8unit.repository.java.lang.EnumTests<SUT, java.nio.file.attribute.AclEntryPermission> {

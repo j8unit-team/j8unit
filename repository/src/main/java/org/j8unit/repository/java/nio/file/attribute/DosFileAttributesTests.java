@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.attribute.DosFileAttributesClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DosFileAttributesTests<SUT extends java.nio.file.attribute.DosFileAttributes>
 extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests<SUT> {

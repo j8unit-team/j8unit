@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.SecretKeyFactoryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SecretKeyFactoryClassTests<SUT extends Class<? extends javax.crypto.SecretKeyFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

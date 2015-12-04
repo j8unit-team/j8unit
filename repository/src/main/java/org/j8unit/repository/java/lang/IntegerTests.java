@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.IntegerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IntegerTests<SUT extends java.lang.Integer>
 extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Integer>, org.j8unit.repository.java.lang.NumberTests<SUT> {

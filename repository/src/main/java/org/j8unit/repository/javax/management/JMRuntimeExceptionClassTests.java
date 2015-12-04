@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.JMRuntimeExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JMRuntimeExceptionClassTests<SUT extends Class<? extends javax.management.JMRuntimeException>>
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {

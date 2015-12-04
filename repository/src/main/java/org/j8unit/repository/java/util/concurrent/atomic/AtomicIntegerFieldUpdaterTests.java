@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.atomic.AtomicIntegerFieldUpdaterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AtomicIntegerFieldUpdaterTests<SUT extends java.util.concurrent.atomic.AtomicIntegerFieldUpdater<T>, T>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.element.AnnotationValueClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AnnotationValueTests<SUT extends javax.lang.model.element.AnnotationValue>
 extends J8UnitTest<SUT> {

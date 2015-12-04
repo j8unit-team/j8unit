@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.IdUniquenessPolicyValueTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IdUniquenessPolicyValueClassTests<SUT extends Class<? extends org.omg.PortableServer.IdUniquenessPolicyValue>>
 extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

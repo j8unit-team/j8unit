@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.rowset.serial.SQLInputImplTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLInputImplClassTests<SUT extends Class<? extends javax.sql.rowset.serial.SQLInputImpl>>
 extends org.j8unit.repository.java.sql.SQLInputClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.StringCharacterIteratorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StringCharacterIteratorTests<SUT extends java.text.StringCharacterIterator>
 extends org.j8unit.repository.java.text.CharacterIteratorTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractQueuedLongSynchronizerTests<SUT extends java.util.concurrent.locks.AbstractQueuedLongSynchronizer>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.util.concurrent.locks.AbstractOwnableSynchronizerTests<SUT> {
@@ -35,6 +36,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * @see org.j8unit.repository.java.util.concurrent.locks.AbstractQueuedLongSynchronizerClassTests.
      *      ConditionObjectClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ConditionObjectTests<SUT extends java.util.concurrent.locks.AbstractQueuedLongSynchronizer.ConditionObject>
     extends org.j8unit.repository.java.util.concurrent.locks.ConditionTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,

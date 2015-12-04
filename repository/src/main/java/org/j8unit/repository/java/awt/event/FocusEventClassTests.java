@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.event.FocusEventTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FocusEventClassTests<SUT extends Class<? extends java.awt.event.FocusEvent>>
 extends org.j8unit.repository.java.awt.event.ComponentEventClassTests<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.traversal.NodeFilterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NodeFilterTests<SUT extends org.w3c.dom.traversal.NodeFilter>
 extends J8UnitTest<SUT> {

@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.LineUnavailableExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LineUnavailableExceptionTests<SUT extends javax.sound.sampled.LineUnavailableException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {

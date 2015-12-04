@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.MonthDayTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MonthDayClassTests<SUT extends Class<? extends java.time.MonthDay>>
 extends org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT>,

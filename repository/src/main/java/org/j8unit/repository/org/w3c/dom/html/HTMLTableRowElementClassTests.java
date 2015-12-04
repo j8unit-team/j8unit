@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.html.HTMLTableRowElementTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLTableRowElementClassTests<SUT extends Class<? extends org.w3c.dom.html.HTMLTableRowElement>>
 extends org.j8unit.repository.org.w3c.dom.html.HTMLElementClassTests<SUT> {

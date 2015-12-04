@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.spec.OAEPParameterSpecTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OAEPParameterSpecClassTests<SUT extends Class<? extends javax.crypto.spec.OAEPParameterSpec>>
 extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.URIDereferencerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface URIDereferencerTests<SUT extends javax.xml.crypto.URIDereferencer>
 extends J8UnitTest<SUT> {

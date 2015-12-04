@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.ColorUIResourceTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ColorUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.ColorUIResource>>
 extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.java.awt.ColorClassTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.openmbean.CompositeTypeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompositeTypeClassTests<SUT extends Class<? extends javax.management.openmbean.CompositeType>>
 extends org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests<SUT, javax.management.openmbean.CompositeData> {

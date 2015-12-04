@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.attribute.FileAttributeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileAttributeTests<SUT extends java.nio.file.attribute.FileAttribute<T>, T>
 extends J8UnitTest<SUT> {

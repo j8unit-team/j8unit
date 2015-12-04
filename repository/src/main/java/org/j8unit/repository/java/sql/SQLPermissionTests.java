@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.SQLPermissionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLPermissionTests<SUT extends java.sql.SQLPermission>
 extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {

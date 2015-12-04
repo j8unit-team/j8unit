@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.border.StrokeBorderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StrokeBorderClassTests<SUT extends Class<? extends javax.swing.border.StrokeBorder>>
 extends org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {

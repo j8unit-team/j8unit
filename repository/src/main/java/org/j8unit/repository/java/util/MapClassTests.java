@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.MapTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MapClassTests<SUT extends Class<? extends java.util.Map<K, V>>, K, V>
 extends J8UnitTest<SUT> {
@@ -60,6 +61,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.MapTests.EntryTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EntryClassTests<SUT extends Class<? extends java.util.Map.Entry<K, V>>, K, V>
     extends J8UnitTest<SUT> {

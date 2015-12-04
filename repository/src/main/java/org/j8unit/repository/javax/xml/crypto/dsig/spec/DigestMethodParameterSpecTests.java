@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.dsig.spec.DigestMethodParameterSpecClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DigestMethodParameterSpecTests<SUT extends javax.xml.crypto.dsig.spec.DigestMethodParameterSpec>
 extends org.j8unit.repository.java.security.spec.AlgorithmParameterSpecTests<SUT> {

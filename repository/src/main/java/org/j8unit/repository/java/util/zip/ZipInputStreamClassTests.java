@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.zip.ZipInputStreamTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ZipInputStreamClassTests<SUT extends Class<? extends java.util.zip.ZipInputStream>>
 extends org.j8unit.repository.java.util.zip.InflaterInputStreamClassTests<SUT> {

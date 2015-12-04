@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.TableModelListenerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TableModelListenerClassTests<SUT extends Class<? extends javax.swing.event.TableModelListener>>
 extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {

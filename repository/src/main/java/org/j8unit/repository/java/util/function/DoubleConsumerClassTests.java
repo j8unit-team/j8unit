@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.DoubleConsumerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DoubleConsumerClassTests<SUT extends Class<? extends java.util.function.DoubleConsumer>>
 extends J8UnitTest<SUT> {

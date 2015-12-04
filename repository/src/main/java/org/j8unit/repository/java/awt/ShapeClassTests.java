@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.ShapeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ShapeClassTests<SUT extends Class<? extends java.awt.Shape>>
 extends J8UnitTest<SUT> {

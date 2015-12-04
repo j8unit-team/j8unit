@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.CertPathValidatorResultTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CertPathValidatorResultClassTests<SUT extends Class<? extends java.security.cert.CertPathValidatorResult>>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT> {

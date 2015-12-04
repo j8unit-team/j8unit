@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.geom.CubicCurve2DTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CubicCurve2DClassTests<SUT extends Class<? extends java.awt.geom.CubicCurve2D>>
 extends org.j8unit.repository.java.awt.ShapeClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
@@ -61,6 +62,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.geom.CubicCurve2DTests.DoubleTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DoubleClassTests<SUT extends Class<? extends java.awt.geom.CubicCurve2D.Double>>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<SUT> {
@@ -132,6 +134,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.geom.CubicCurve2DTests.FloatTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FloatClassTests<SUT extends Class<? extends java.awt.geom.CubicCurve2D.Float>>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.CubicCurve2DClassTests<SUT> {

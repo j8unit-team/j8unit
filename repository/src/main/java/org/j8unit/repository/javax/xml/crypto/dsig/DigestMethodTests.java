@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.dsig.DigestMethodClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DigestMethodTests<SUT extends javax.xml.crypto.dsig.DigestMethod>
 extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT>, org.j8unit.repository.javax.xml.crypto.AlgorithmMethodTests<SUT> {

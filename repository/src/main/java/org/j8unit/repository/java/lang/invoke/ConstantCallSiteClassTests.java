@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.invoke.ConstantCallSiteTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConstantCallSiteClassTests<SUT extends Class<? extends java.lang.invoke.ConstantCallSite>>
 extends org.j8unit.repository.java.lang.invoke.CallSiteClassTests<SUT> {

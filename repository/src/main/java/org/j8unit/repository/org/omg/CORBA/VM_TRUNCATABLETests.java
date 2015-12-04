@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.VM_TRUNCATABLEClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface VM_TRUNCATABLETests<SUT extends org.omg.CORBA.VM_TRUNCATABLE>
 extends J8UnitTest<SUT> {

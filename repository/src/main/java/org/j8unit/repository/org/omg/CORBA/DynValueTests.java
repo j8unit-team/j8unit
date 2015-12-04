@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.DynValueClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynValueTests<SUT extends org.omg.CORBA.DynValue>
 extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.OverlayLayoutClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OverlayLayoutTests<SUT extends javax.swing.OverlayLayout>
 extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,

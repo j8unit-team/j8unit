@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.jws.soap.SOAPMessageHandlersClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SOAPMessageHandlersTests<SUT extends javax.jws.soap.SOAPMessageHandlers>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {

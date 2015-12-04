@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.SynchronousQueueTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynchronousQueueClassTests<SUT extends Class<? extends java.util.concurrent.SynchronousQueue<E>>, E>
 extends org.j8unit.repository.java.util.concurrent.BlockingQueueClassTests<SUT, E>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

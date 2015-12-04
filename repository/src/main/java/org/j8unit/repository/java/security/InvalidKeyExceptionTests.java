@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.InvalidKeyExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidKeyExceptionTests<SUT extends java.security.InvalidKeyException>
 extends org.j8unit.repository.java.security.KeyExceptionTests<SUT> {

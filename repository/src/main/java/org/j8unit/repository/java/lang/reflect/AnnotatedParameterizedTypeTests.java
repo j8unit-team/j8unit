@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.AnnotatedParameterizedTypeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AnnotatedParameterizedTypeTests<SUT extends java.lang.reflect.AnnotatedParameterizedType>
 extends org.j8unit.repository.java.lang.reflect.AnnotatedTypeTests<SUT> {

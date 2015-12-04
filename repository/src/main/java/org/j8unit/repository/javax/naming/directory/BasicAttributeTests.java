@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.directory.BasicAttributeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicAttributeTests<SUT extends javax.naming.directory.BasicAttribute>
 extends org.j8unit.repository.javax.naming.directory.AttributeTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

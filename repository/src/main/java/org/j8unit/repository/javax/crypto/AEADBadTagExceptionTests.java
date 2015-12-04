@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.AEADBadTagExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AEADBadTagExceptionTests<SUT extends javax.crypto.AEADBadTagException>
 extends org.j8unit.repository.javax.crypto.BadPaddingExceptionTests<SUT> {

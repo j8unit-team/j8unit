@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidNameTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidNameClassTests<SUT extends Class<? extends org.omg.PortableInterceptor.ORBInitInfoPackage.InvalidName>>
 extends org.j8unit.repository.org.omg.CORBA.UserExceptionClassTests<SUT> {

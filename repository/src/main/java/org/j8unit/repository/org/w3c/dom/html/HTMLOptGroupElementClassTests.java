@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.html.HTMLOptGroupElementTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLOptGroupElementClassTests<SUT extends Class<? extends org.w3c.dom.html.HTMLOptGroupElement>>
 extends org.j8unit.repository.org.w3c.dom.html.HTMLElementClassTests<SUT> {

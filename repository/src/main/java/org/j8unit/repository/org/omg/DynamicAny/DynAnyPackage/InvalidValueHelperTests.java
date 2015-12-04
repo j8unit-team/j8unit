@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.DynamicAny.DynAnyPackage.InvalidValueHelperClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidValueHelperTests<SUT extends org.omg.DynamicAny.DynAnyPackage.InvalidValueHelper>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.AsyncBoxViewTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AsyncBoxViewClassTests<SUT extends Class<? extends javax.swing.text.AsyncBoxView>>
 extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AsyncBoxViewTests.ChildLocatorTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ChildLocatorClassTests<SUT extends Class<? extends javax.swing.text.AsyncBoxView.ChildLocator>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -117,6 +119,7 @@ extends org.j8unit.repository.javax.swing.text.ViewClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AsyncBoxViewTests.ChildStateTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ChildStateClassTests<SUT extends Class<? extends javax.swing.text.AsyncBoxView.ChildState>>
     extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

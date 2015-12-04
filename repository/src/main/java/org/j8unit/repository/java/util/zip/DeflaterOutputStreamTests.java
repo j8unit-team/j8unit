@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.zip.DeflaterOutputStreamClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DeflaterOutputStreamTests<SUT extends java.util.zip.DeflaterOutputStream>
 extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {

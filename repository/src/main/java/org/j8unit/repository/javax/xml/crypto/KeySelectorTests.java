@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeySelectorTests<SUT extends javax.xml.crypto.KeySelector>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.crypto.KeySelectorClassTests.PurposeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PurposeTests<SUT extends javax.xml.crypto.KeySelector.Purpose>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

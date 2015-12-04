@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.instrument.InstrumentationClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InstrumentationTests<SUT extends java.lang.instrument.Instrumentation>
 extends J8UnitTest<SUT> {

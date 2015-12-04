@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.JTextComponentTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JTextComponentClassTests<SUT extends Class<? extends javax.swing.text.JTextComponent>>
 extends org.j8unit.repository.javax.swing.ScrollableClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
@@ -62,6 +63,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.JTextComponentTests.AccessibleJTextComponentTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AccessibleJTextComponentClassTests<SUT extends Class<? extends javax.swing.text.JTextComponent.AccessibleJTextComponent>>
     extends org.j8unit.repository.javax.accessibility.AccessibleTextClassTests<SUT>, org.j8unit.repository.javax.swing.event.CaretListenerClassTests<SUT>,
@@ -124,6 +126,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.JTextComponentTests.DropLocationTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DropLocationClassTests<SUT extends Class<? extends javax.swing.text.JTextComponent.DropLocation>>
     extends org.j8unit.repository.javax.swing.TransferHandlerClassTests.DropLocationClassTests<SUT> {
@@ -166,6 +169,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.JTextComponentTests.KeyBindingTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyBindingClassTests<SUT extends Class<? extends javax.swing.text.JTextComponent.KeyBinding>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

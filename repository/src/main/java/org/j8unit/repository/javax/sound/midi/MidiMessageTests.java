@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.midi.MidiMessageClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MidiMessageTests<SUT extends javax.sound.midi.MidiMessage>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

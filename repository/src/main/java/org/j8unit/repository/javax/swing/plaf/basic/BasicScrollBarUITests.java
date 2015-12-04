@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicScrollBarUITests<SUT extends javax.swing.plaf.basic.BasicScrollBarUI>
 extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>, org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>,
@@ -34,6 +35,7 @@ org.j8unit.repository.javax.swing.plaf.ScrollBarUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicScrollBarUIClassTests.PropertyChangeHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerTests<SUT extends javax.swing.plaf.basic.BasicScrollBarUI.PropertyChangeHandler>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

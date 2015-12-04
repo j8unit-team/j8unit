@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.prefs.PreferenceChangeListenerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PreferenceChangeListenerClassTests<SUT extends Class<? extends java.util.prefs.PreferenceChangeListener>>
 extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {

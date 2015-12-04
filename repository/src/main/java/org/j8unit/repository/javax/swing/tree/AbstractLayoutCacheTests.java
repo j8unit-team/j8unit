@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractLayoutCacheTests<SUT extends javax.swing.tree.AbstractLayoutCache>
 extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.tree.RowMapperTests<SUT>, org.j8unit.r
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests.NodeDimensionsClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface NodeDimensionsTests<SUT extends javax.swing.tree.AbstractLayoutCache.NodeDimensions>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

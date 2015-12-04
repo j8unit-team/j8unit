@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.jar.AttributesTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributesClassTests<SUT extends Class<? extends java.util.jar.Attributes>>
 extends org.j8unit.repository.java.util.MapClassTests<SUT, java.lang.Object, java.lang.Object>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
@@ -61,6 +62,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.jar.AttributesTests.NameTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface NameClassTests<SUT extends Class<? extends java.util.jar.Attributes.Name>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

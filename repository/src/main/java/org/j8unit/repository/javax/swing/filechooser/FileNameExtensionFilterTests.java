@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.filechooser.FileNameExtensionFilterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileNameExtensionFilterTests<SUT extends javax.swing.filechooser.FileNameExtensionFilter>
 extends org.j8unit.repository.javax.swing.filechooser.FileFilterTests<SUT> {

@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.DynamicAny.DynArrayTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynArrayClassTests<SUT extends Class<? extends org.omg.DynamicAny.DynArray>>
 extends org.j8unit.repository.org.omg.DynamicAny.DynArrayOperationsClassTests<SUT>, org.j8unit.repository.org.omg.DynamicAny.DynAnyClassTests<SUT>,

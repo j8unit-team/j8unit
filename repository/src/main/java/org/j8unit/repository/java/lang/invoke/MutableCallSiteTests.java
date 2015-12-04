@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.invoke.MutableCallSiteClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MutableCallSiteTests<SUT extends java.lang.invoke.MutableCallSite>
 extends org.j8unit.repository.java.lang.invoke.CallSiteTests<SUT> {

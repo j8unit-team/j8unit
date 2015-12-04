@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.ObjectOutputTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectOutputClassTests<SUT extends Class<? extends java.io.ObjectOutput>>
 extends org.j8unit.repository.java.io.DataOutputClassTests<SUT>, org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {

@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.DynamicMBeanTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynamicMBeanClassTests<SUT extends Class<? extends javax.management.DynamicMBean>>
 extends J8UnitTest<SUT> {

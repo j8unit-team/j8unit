@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConcurrentHashMapTests<SUT extends java.util.concurrent.ConcurrentHashMap<K, V>, K, V>
 extends org.j8unit.repository.java.util.concurrent.ConcurrentMapTests<SUT, K, V>, org.j8unit.repository.java.io.SerializableTests<SUT>,
@@ -34,6 +35,7 @@ org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.ConcurrentHashMapClassTests.KeySetViewClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeySetViewTests<SUT extends java.util.concurrent.ConcurrentHashMap.KeySetView<K, V>, K, V>
     extends org.j8unit.repository.java.util.SetTests<SUT, K>, org.j8unit.repository.java.io.SerializableTests<SUT>,

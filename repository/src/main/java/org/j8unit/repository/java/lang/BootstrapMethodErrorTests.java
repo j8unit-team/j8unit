@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.BootstrapMethodErrorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BootstrapMethodErrorTests<SUT extends java.lang.BootstrapMethodError>
 extends org.j8unit.repository.java.lang.LinkageErrorTests<SUT> {

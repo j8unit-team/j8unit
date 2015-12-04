@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.zone.ZoneRulesExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ZoneRulesExceptionTests<SUT extends java.time.zone.ZoneRulesException>
 extends org.j8unit.repository.java.time.DateTimeExceptionTests<SUT> {

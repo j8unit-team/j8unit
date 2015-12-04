@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.DOMErrorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DOMErrorTests<SUT extends org.w3c.dom.DOMError>
 extends J8UnitTest<SUT> {

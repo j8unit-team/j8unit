@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.StyleSheetTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StyleSheetClassTests<SUT extends Class<? extends javax.swing.text.html.StyleSheet>>
 extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.StyleSheetTests.BoxPainterTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BoxPainterClassTests<SUT extends Class<? extends javax.swing.text.html.StyleSheet.BoxPainter>>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -103,6 +105,7 @@ extends org.j8unit.repository.javax.swing.text.StyleContextClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.StyleSheetTests.ListPainterTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ListPainterClassTests<SUT extends Class<? extends javax.swing.text.html.StyleSheet.ListPainter>>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

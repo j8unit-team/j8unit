@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.HandshakeCompletedEventClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HandshakeCompletedEventTests<SUT extends javax.net.ssl.HandshakeCompletedEvent>
 extends org.j8unit.repository.java.util.EventObjectTests<SUT> {

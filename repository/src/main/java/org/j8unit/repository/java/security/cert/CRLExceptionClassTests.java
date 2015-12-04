@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.CRLExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CRLExceptionClassTests<SUT extends Class<? extends java.security.cert.CRLException>>
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {

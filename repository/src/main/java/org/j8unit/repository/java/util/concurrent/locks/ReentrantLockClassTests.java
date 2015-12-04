@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.locks.ReentrantLockTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ReentrantLockClassTests<SUT extends Class<? extends java.util.concurrent.locks.ReentrantLock>>
 extends org.j8unit.repository.java.util.concurrent.locks.LockClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

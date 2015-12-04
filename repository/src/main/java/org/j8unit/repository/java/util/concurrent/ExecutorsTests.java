@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ExecutorsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExecutorsTests<SUT extends java.util.concurrent.Executors>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

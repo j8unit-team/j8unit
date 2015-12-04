@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.ls.LSExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LSExceptionTests<SUT extends org.w3c.dom.ls.LSException>
 extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {

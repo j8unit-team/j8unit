@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.WatchEventClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WatchEventTests<SUT extends java.nio.file.WatchEvent<T>, T>
 extends J8UnitTest<SUT> {
@@ -33,6 +34,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.nio.file.WatchEventClassTests.KindClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KindTests<SUT extends java.nio.file.WatchEvent.Kind<T>, T>
     extends J8UnitTest<SUT> {
@@ -82,6 +84,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.nio.file.WatchEventClassTests.ModifierClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModifierTests<SUT extends java.nio.file.WatchEvent.Modifier>
     extends J8UnitTest<SUT> {

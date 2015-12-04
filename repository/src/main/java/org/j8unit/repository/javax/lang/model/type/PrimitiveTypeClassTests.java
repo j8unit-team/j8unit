@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.type.PrimitiveTypeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrimitiveTypeClassTests<SUT extends Class<? extends javax.lang.model.type.PrimitiveType>>
 extends org.j8unit.repository.javax.lang.model.type.TypeMirrorClassTests<SUT> {

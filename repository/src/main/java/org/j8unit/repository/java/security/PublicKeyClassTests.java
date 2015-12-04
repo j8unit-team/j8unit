@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.PublicKeyTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PublicKeyClassTests<SUT extends Class<? extends java.security.PublicKey>>
 extends org.j8unit.repository.java.security.KeyClassTests<SUT> {

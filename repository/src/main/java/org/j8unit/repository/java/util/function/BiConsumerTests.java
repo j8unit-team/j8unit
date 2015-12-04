@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.BiConsumerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BiConsumerTests<SUT extends java.util.function.BiConsumer<T, U>, T, U>
 extends J8UnitTest<SUT> {

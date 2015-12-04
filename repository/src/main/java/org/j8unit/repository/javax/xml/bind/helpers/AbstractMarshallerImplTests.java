@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.helpers.AbstractMarshallerImplClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractMarshallerImplTests<SUT extends javax.xml.bind.helpers.AbstractMarshallerImpl>
 extends org.j8unit.repository.javax.xml.bind.MarshallerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

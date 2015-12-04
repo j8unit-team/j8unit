@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableInterceptor.ORBInitializerOperationsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ORBInitializerOperationsClassTests<SUT extends Class<? extends org.omg.PortableInterceptor.ORBInitializerOperations>>
 extends J8UnitTest<SUT> {

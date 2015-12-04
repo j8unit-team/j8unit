@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicToolBarUITests<SUT extends javax.swing.plaf.basic.BasicToolBarUI>
 extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.repository.javax.swing.plaf.ToolBarUITests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.r
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicToolBarUIClassTests.DockingListenerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DockingListenerTests<SUT extends javax.swing.plaf.basic.BasicToolBarUI.DockingListener>
     extends org.j8unit.repository.javax.swing.event.MouseInputListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

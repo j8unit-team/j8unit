@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.WeakHashMapClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WeakHashMapTests<SUT extends java.util.WeakHashMap<K, V>, K, V>
 extends org.j8unit.repository.java.util.MapTests<SUT, K, V>, org.j8unit.repository.java.util.AbstractMapTests<SUT, K, V> {

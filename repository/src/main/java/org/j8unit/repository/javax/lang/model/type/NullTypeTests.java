@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.type.NullTypeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NullTypeTests<SUT extends javax.lang.model.type.NullType>
 extends org.j8unit.repository.javax.lang.model.type.ReferenceTypeTests<SUT> {

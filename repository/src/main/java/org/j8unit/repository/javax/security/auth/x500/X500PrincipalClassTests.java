@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.x500.X500PrincipalTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface X500PrincipalClassTests<SUT extends Class<? extends javax.security.auth.x500.X500Principal>>
 extends org.j8unit.repository.java.security.PrincipalClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

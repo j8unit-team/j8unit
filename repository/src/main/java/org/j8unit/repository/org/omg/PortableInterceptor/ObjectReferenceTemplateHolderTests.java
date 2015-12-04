@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableInterceptor.ObjectReferenceTemplateHolderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectReferenceTemplateHolderTests<SUT extends org.omg.PortableInterceptor.ObjectReferenceTemplateHolder>
 extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

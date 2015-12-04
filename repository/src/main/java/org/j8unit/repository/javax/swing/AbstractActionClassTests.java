@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.AbstractActionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractActionClassTests<SUT extends Class<? extends javax.swing.AbstractAction>>
 extends org.j8unit.repository.javax.swing.ActionClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,

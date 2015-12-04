@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.CustomizerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CustomizerTests<SUT extends java.beans.Customizer>
 extends J8UnitTest<SUT> {

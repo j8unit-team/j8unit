@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.ButtonGroupClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ButtonGroupTests<SUT extends javax.swing.ButtonGroup>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

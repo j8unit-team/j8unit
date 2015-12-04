@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.ObjectStreamExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectStreamExceptionTests<SUT extends java.io.ObjectStreamException>
 extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {

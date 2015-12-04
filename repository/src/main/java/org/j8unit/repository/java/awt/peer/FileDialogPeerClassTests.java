@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.peer.FileDialogPeerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileDialogPeerClassTests<SUT extends Class<? extends java.awt.peer.FileDialogPeer>>
 extends org.j8unit.repository.java.awt.peer.DialogPeerClassTests<SUT> {

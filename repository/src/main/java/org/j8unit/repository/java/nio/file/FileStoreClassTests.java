@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.FileStoreTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileStoreClassTests<SUT extends Class<? extends java.nio.file.FileStore>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.applet.AppletClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AppletTests<SUT extends java.applet.Applet>
 extends org.j8unit.repository.java.awt.PanelTests<SUT> {

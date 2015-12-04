@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.DimensionUIResourceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DimensionUIResourceTests<SUT extends javax.swing.plaf.DimensionUIResource>
 extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.repository.java.awt.DimensionTests<SUT> {

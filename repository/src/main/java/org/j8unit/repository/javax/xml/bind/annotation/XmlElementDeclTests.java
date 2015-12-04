@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XmlElementDeclTests<SUT extends javax.xml.bind.annotation.XmlElementDecl>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.bind.annotation.XmlElementDeclClassTests.GLOBALClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface GLOBALTests<SUT extends javax.xml.bind.annotation.XmlElementDecl.GLOBAL>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

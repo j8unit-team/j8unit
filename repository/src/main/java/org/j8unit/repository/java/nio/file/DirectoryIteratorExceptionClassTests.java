@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.DirectoryIteratorExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DirectoryIteratorExceptionClassTests<SUT extends Class<? extends java.nio.file.DirectoryIteratorException>>
 extends org.j8unit.repository.java.util.ConcurrentModificationExceptionClassTests<SUT> {

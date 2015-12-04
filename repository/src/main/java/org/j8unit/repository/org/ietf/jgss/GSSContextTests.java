@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.ietf.jgss.GSSContextClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GSSContextTests<SUT extends org.ietf.jgss.GSSContext>
 extends J8UnitTest<SUT> {

@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.DataTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DataClassTests<SUT extends Class<? extends javax.xml.crypto.Data>>
 extends J8UnitTest<SUT> {

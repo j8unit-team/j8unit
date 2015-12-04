@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.AccessibleObjectTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccessibleObjectClassTests<SUT extends Class<? extends java.lang.reflect.AccessibleObject>>
 extends org.j8unit.repository.java.lang.reflect.AnnotatedElementClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

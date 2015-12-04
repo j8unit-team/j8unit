@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.JarURLConnectionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JarURLConnectionClassTests<SUT extends Class<? extends java.net.JarURLConnection>>
 extends org.j8unit.repository.java.net.URLConnectionClassTests<SUT> {

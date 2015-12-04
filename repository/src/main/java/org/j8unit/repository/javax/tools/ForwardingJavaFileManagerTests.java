@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.ForwardingJavaFileManagerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ForwardingJavaFileManagerTests<SUT extends javax.tools.ForwardingJavaFileManager<M>, M extends javax.tools.JavaFileManager>
 extends org.j8unit.repository.javax.tools.JavaFileManagerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

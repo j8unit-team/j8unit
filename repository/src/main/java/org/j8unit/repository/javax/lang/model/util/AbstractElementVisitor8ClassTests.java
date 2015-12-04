@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor8Tests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractElementVisitor8ClassTests<SUT extends Class<? extends javax.lang.model.util.AbstractElementVisitor8<R, P>>, R, P>
 extends org.j8unit.repository.javax.lang.model.util.AbstractElementVisitor7ClassTests<SUT, R, P> {

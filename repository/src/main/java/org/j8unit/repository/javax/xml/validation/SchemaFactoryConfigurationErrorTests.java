@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.validation.SchemaFactoryConfigurationErrorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SchemaFactoryConfigurationErrorTests<SUT extends javax.xml.validation.SchemaFactoryConfigurationError>
 extends org.j8unit.repository.java.lang.ErrorTests<SUT> {

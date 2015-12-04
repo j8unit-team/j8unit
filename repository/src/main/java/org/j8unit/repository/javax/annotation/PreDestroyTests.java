@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.annotation.PreDestroyClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PreDestroyTests<SUT extends javax.annotation.PreDestroy>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.ext.DefaultHandler2Tests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultHandler2ClassTests<SUT extends Class<? extends org.xml.sax.ext.DefaultHandler2>>
 extends org.j8unit.repository.org.xml.sax.ext.LexicalHandlerClassTests<SUT>, org.j8unit.repository.org.xml.sax.ext.DeclHandlerClassTests<SUT>,

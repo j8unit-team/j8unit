@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.event.EventDirContextClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EventDirContextTests<SUT extends javax.naming.event.EventDirContext>
 extends org.j8unit.repository.javax.naming.event.EventContextTests<SUT>, org.j8unit.repository.javax.naming.directory.DirContextTests<SUT> {

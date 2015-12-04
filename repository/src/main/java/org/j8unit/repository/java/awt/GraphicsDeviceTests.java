@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.GraphicsDeviceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GraphicsDeviceTests<SUT extends java.awt.GraphicsDevice>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.GraphicsDeviceClassTests.WindowTranslucencyClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface WindowTranslucencyTests<SUT extends java.awt.GraphicsDevice.WindowTranslucency>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, java.awt.GraphicsDevice.WindowTranslucency> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.soap.MessageFactoryClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MessageFactoryTests<SUT extends javax.xml.soap.MessageFactory>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

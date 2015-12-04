@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.ValueMemberHelperTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ValueMemberHelperClassTests<SUT extends Class<? extends org.omg.CORBA.ValueMemberHelper>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

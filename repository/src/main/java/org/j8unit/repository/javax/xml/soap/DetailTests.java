@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.soap.DetailClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DetailTests<SUT extends javax.xml.soap.Detail>
 extends org.j8unit.repository.javax.xml.soap.SOAPFaultElementTests<SUT> {

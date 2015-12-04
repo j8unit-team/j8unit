@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.LongFunctionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LongFunctionClassTests<SUT extends Class<? extends java.util.function.LongFunction<R>>, R>
 extends J8UnitTest<SUT> {

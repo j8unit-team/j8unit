@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractUndoableEditClassTests<SUT extends Class<? extends javax.swing.undo.AbstractUndoableEdit>>
 extends org.j8unit.repository.javax.swing.undo.UndoableEditClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

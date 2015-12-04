@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicProgressBarUITests<SUT extends javax.swing.plaf.basic.BasicProgressBarUI>
 extends org.j8unit.repository.javax.swing.plaf.ProgressBarUITests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.plaf.ProgressBarUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicProgressBarUIClassTests.ChangeHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ChangeHandlerTests<SUT extends javax.swing.plaf.basic.BasicProgressBarUI.ChangeHandler>
     extends org.j8unit.repository.javax.swing.event.ChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

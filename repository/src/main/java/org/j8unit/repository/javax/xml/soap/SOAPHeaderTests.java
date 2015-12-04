@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.soap.SOAPHeaderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SOAPHeaderTests<SUT extends javax.xml.soap.SOAPHeader>
 extends org.j8unit.repository.javax.xml.soap.SOAPElementTests<SUT> {

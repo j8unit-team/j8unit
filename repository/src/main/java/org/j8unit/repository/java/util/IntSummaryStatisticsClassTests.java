@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.IntSummaryStatisticsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IntSummaryStatisticsClassTests<SUT extends Class<? extends java.util.IntSummaryStatistics>>
 extends org.j8unit.repository.java.util.function.IntConsumerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

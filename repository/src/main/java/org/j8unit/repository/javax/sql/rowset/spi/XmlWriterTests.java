@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.rowset.spi.XmlWriterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XmlWriterTests<SUT extends javax.sql.rowset.spi.XmlWriter>
 extends org.j8unit.repository.javax.sql.RowSetWriterTests<SUT> {

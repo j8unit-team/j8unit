@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.parser.AttributeListTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributeListClassTests<SUT extends Class<? extends javax.swing.text.html.parser.AttributeList>>
 extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

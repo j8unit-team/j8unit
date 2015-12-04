@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.StackOverflowErrorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StackOverflowErrorTests<SUT extends java.lang.StackOverflowError>
 extends org.j8unit.repository.java.lang.VirtualMachineErrorTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.SuppressWarningsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SuppressWarningsTests<SUT extends java.lang.SuppressWarnings>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {

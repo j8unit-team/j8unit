@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.SpliteratorsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SpliteratorsClassTests<SUT extends Class<? extends java.util.Spliterators>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorsTests.AbstractDoubleSpliteratorTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractDoubleSpliteratorClassTests<SUT extends Class<? extends java.util.Spliterators.AbstractDoubleSpliterator>>
     extends org.j8unit.repository.java.util.SpliteratorClassTests.OfDoubleClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -103,6 +105,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorsTests.AbstractIntSpliteratorTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractIntSpliteratorClassTests<SUT extends Class<? extends java.util.Spliterators.AbstractIntSpliterator>>
     extends org.j8unit.repository.java.util.SpliteratorClassTests.OfIntClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -145,6 +148,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorsTests.AbstractLongSpliteratorTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractLongSpliteratorClassTests<SUT extends Class<? extends java.util.Spliterators.AbstractLongSpliterator>>
     extends org.j8unit.repository.java.util.SpliteratorClassTests.OfLongClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -187,6 +191,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorsTests.AbstractSpliteratorTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractSpliteratorClassTests<SUT extends Class<? extends java.util.Spliterators.AbstractSpliterator<T>>, T>
     extends org.j8unit.repository.java.util.SpliteratorClassTests<SUT, T>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

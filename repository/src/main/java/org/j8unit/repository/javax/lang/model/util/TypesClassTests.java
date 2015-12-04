@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.util.TypesTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TypesClassTests<SUT extends Class<? extends javax.lang.model.util.Types>>
 extends J8UnitTest<SUT> {

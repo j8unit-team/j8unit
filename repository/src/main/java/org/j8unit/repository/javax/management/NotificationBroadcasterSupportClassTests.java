@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.NotificationBroadcasterSupportTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotificationBroadcasterSupportClassTests<SUT extends Class<? extends javax.management.NotificationBroadcasterSupport>>
 extends org.j8unit.repository.javax.management.NotificationEmitterClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

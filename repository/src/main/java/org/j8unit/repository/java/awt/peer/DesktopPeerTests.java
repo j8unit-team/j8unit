@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.peer.DesktopPeerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DesktopPeerTests<SUT extends java.awt.peer.DesktopPeer>
 extends J8UnitTest<SUT> {

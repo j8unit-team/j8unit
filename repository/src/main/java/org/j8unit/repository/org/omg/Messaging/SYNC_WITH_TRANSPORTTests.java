@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.Messaging.SYNC_WITH_TRANSPORTClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SYNC_WITH_TRANSPORTTests<SUT extends org.omg.Messaging.SYNC_WITH_TRANSPORT>
 extends J8UnitTest<SUT> {

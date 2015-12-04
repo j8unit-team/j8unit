@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.SQLNonTransientExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLNonTransientExceptionClassTests<SUT extends Class<? extends java.sql.SQLNonTransientException>>
 extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {

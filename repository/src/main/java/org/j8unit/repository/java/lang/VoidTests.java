@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.VoidClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface VoidTests<SUT extends java.lang.Void>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.DocumentFilterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocumentFilterTests<SUT extends javax.swing.text.DocumentFilter>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DocumentFilterClassTests.FilterBypassClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FilterBypassTests<SUT extends javax.swing.text.DocumentFilter.FilterBypass>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableInterceptor.SUCCESSFULClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SUCCESSFULTests<SUT extends org.omg.PortableInterceptor.SUCCESSFUL>
 extends J8UnitTest<SUT> {

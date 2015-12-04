@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.DataSourceTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DataSourceClassTests<SUT extends Class<? extends javax.sql.DataSource>>
 extends org.j8unit.repository.javax.sql.CommonDataSourceClassTests<SUT>, org.j8unit.repository.java.sql.WrapperClassTests<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.stream.StreamFilterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StreamFilterTests<SUT extends javax.xml.stream.StreamFilter>
 extends J8UnitTest<SUT> {

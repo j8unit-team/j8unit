@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.IOP.TransactionServiceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TransactionServiceTests<SUT extends org.omg.IOP.TransactionService>
 extends J8UnitTest<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGImageReadParamTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JPEGImageReadParamClassTests<SUT extends Class<? extends javax.imageio.plugins.jpeg.JPEGImageReadParam>>
 extends org.j8unit.repository.javax.imageio.ImageReadParamClassTests<SUT> {

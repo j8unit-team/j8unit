@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicListUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicListUI>>
 extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.FocusHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FocusHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicListUI.FocusHandler>>
     extends org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -119,6 +121,7 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListDataHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ListDataHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicListUI.ListDataHandler>>
     extends org.j8unit.repository.javax.swing.event.ListDataListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -177,6 +180,7 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.ListSelectionHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ListSelectionHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicListUI.ListSelectionHandler>>
     extends org.j8unit.repository.javax.swing.event.ListSelectionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -235,6 +239,7 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.MouseInputHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MouseInputHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicListUI.MouseInputHandler>>
     extends org.j8unit.repository.javax.swing.event.MouseInputListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -293,6 +298,7 @@ extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicListUITests.PropertyChangeHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicListUI.PropertyChangeHandler>>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

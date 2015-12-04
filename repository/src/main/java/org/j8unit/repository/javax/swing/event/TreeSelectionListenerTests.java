@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TreeSelectionListenerTests<SUT extends javax.swing.event.TreeSelectionListener>
 extends org.j8unit.repository.java.util.EventListenerTests<SUT> {

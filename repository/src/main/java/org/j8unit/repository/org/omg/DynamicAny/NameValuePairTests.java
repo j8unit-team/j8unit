@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.DynamicAny.NameValuePairClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NameValuePairTests<SUT extends org.omg.DynamicAny.NameValuePair>
 extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.EnumControlClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EnumControlTests<SUT extends javax.sound.sampled.EnumControl>
 extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.sampled.EnumControlClassTests.TypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TypeTests<SUT extends javax.sound.sampled.EnumControl.Type>
     extends org.j8unit.repository.javax.sound.sampled.ControlTests.TypeTests<SUT> {

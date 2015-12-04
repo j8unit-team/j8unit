@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.KeyPairGeneratorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeyPairGeneratorClassTests<SUT extends Class<? extends java.security.KeyPairGenerator>>
 extends org.j8unit.repository.java.security.KeyPairGeneratorSpiClassTests<SUT> {

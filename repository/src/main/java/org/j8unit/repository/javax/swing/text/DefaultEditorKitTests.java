@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultEditorKitTests<SUT extends javax.swing.text.DefaultEditorKit>
 extends org.j8unit.repository.javax.swing.text.EditorKitTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.BeepActionClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BeepActionTests<SUT extends javax.swing.text.DefaultEditorKit.BeepAction>
     extends org.j8unit.repository.javax.swing.text.TextActionTests<SUT> {
@@ -69,6 +71,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.CopyActionClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CopyActionTests<SUT extends javax.swing.text.DefaultEditorKit.CopyAction>
     extends org.j8unit.repository.javax.swing.text.TextActionTests<SUT> {
@@ -105,6 +108,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.CutActionClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CutActionTests<SUT extends javax.swing.text.DefaultEditorKit.CutAction>
     extends org.j8unit.repository.javax.swing.text.TextActionTests<SUT> {
@@ -141,6 +145,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.DefaultKeyTypedActionClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultKeyTypedActionTests<SUT extends javax.swing.text.DefaultEditorKit.DefaultKeyTypedAction>
     extends org.j8unit.repository.javax.swing.text.TextActionTests<SUT> {
@@ -178,6 +183,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertBreakActionClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InsertBreakActionTests<SUT extends javax.swing.text.DefaultEditorKit.InsertBreakAction>
     extends org.j8unit.repository.javax.swing.text.TextActionTests<SUT> {
@@ -214,6 +220,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertContentActionClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InsertContentActionTests<SUT extends javax.swing.text.DefaultEditorKit.InsertContentAction>
     extends org.j8unit.repository.javax.swing.text.TextActionTests<SUT> {
@@ -251,6 +258,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.InsertTabActionClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InsertTabActionTests<SUT extends javax.swing.text.DefaultEditorKit.InsertTabAction>
     extends org.j8unit.repository.javax.swing.text.TextActionTests<SUT> {
@@ -287,6 +295,7 @@ extends org.j8unit.repository.javax.swing.text.EditorKitTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests.PasteActionClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PasteActionTests<SUT extends javax.swing.text.DefaultEditorKit.PasteAction>
     extends org.j8unit.repository.javax.swing.text.TextActionTests<SUT> {

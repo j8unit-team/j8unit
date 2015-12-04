@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.AlreadyBoundExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AlreadyBoundExceptionTests<SUT extends java.nio.channels.AlreadyBoundException>
 extends org.j8unit.repository.java.lang.IllegalStateExceptionTests<SUT> {

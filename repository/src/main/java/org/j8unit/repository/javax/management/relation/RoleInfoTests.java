@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.relation.RoleInfoClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RoleInfoTests<SUT extends javax.management.relation.RoleInfo>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

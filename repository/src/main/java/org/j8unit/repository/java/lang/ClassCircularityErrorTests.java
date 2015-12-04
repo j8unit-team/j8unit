@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.ClassCircularityErrorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ClassCircularityErrorTests<SUT extends java.lang.ClassCircularityError>
 extends org.j8unit.repository.java.lang.LinkageErrorTests<SUT> {

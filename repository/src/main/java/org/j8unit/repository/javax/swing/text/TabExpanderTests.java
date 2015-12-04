@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.TabExpanderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TabExpanderTests<SUT extends javax.swing.text.TabExpander>
 extends J8UnitTest<SUT> {

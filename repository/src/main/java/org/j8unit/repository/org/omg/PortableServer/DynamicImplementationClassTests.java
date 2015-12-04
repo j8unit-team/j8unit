@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.DynamicImplementationTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynamicImplementationClassTests<SUT extends Class<? extends org.omg.PortableServer.DynamicImplementation>>
 extends org.j8unit.repository.org.omg.PortableServer.ServantClassTests<SUT> {

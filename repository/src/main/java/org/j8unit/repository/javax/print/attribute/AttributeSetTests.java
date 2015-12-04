@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.AttributeSetClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributeSetTests<SUT extends javax.print.attribute.AttributeSet>
 extends J8UnitTest<SUT> {

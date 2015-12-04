@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.interfaces.DHPublicKeyClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DHPublicKeyTests<SUT extends javax.crypto.interfaces.DHPublicKey>
 extends org.j8unit.repository.javax.crypto.interfaces.DHKeyTests<SUT>, org.j8unit.repository.java.security.PublicKeyTests<SUT> {

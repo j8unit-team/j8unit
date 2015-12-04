@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.PrintStreamTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrintStreamClassTests<SUT extends Class<? extends java.io.PrintStream>>
 extends org.j8unit.repository.java.lang.AppendableClassTests<SUT>, org.j8unit.repository.java.io.CloseableClassTests<SUT>,

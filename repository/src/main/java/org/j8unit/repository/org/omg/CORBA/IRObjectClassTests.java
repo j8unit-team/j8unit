@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.IRObjectTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IRObjectClassTests<SUT extends Class<? extends org.omg.CORBA.IRObject>>
 extends org.j8unit.repository.org.omg.CORBA.IRObjectOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>,

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.IdentityScopeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IdentityScopeTests<SUT extends java.security.IdentityScope>
 extends org.j8unit.repository.java.security.IdentityTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.helpers.AttributeListImplClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributeListImplTests<SUT extends org.xml.sax.helpers.AttributeListImpl>
 extends org.j8unit.repository.org.xml.sax.AttributeListTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

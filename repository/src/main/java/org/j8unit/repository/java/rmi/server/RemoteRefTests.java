@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.server.RemoteRefClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RemoteRefTests<SUT extends java.rmi.server.RemoteRef>
 extends org.j8unit.repository.java.io.ExternalizableTests<SUT> {

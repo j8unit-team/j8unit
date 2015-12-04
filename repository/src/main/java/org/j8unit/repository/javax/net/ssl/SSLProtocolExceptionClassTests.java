@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.SSLProtocolExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SSLProtocolExceptionClassTests<SUT extends Class<? extends javax.net.ssl.SSLProtocolException>>
 extends org.j8unit.repository.javax.net.ssl.SSLExceptionClassTests<SUT> {

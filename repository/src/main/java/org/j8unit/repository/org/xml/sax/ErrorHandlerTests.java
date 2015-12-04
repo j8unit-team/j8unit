@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.ErrorHandlerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ErrorHandlerTests<SUT extends org.xml.sax.ErrorHandler>
 extends J8UnitTest<SUT> {

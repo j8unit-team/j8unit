@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.CookieManagerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CookieManagerClassTests<SUT extends Class<? extends java.net.CookieManager>>
 extends org.j8unit.repository.java.net.CookieHandlerClassTests<SUT> {

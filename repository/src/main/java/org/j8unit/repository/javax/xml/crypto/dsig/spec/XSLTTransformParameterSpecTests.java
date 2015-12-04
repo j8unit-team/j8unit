@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.dsig.spec.XSLTTransformParameterSpecClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XSLTTransformParameterSpecTests<SUT extends javax.xml.crypto.dsig.spec.XSLTTransformParameterSpec>
 extends org.j8unit.repository.javax.xml.crypto.dsig.spec.TransformParameterSpecTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

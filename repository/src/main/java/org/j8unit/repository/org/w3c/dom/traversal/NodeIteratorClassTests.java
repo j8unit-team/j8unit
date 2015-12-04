@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.traversal.NodeIteratorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NodeIteratorClassTests<SUT extends Class<? extends org.w3c.dom.traversal.NodeIterator>>
 extends J8UnitTest<SUT> {

@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.VerifyErrorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface VerifyErrorTests<SUT extends java.lang.VerifyError>
 extends org.j8unit.repository.java.lang.LinkageErrorTests<SUT> {

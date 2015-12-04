@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.FormatterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FormatterTests<SUT extends java.util.Formatter>
 extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.FormatterClassTests.BigDecimalLayoutFormClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BigDecimalLayoutFormTests<SUT extends java.util.Formatter.BigDecimalLayoutForm>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, java.util.Formatter.BigDecimalLayoutForm> {

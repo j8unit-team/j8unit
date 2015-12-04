@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.stream.StreamClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StreamTests<SUT extends java.util.stream.Stream<T>, T>
 extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, T, java.util.stream.Stream<T>> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamTests<SUT, T, java.util
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.stream.StreamClassTests.BuilderClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderTests<SUT extends java.util.stream.Stream.Builder<T>, T>
     extends org.j8unit.repository.java.util.function.ConsumerTests<SUT, T> {

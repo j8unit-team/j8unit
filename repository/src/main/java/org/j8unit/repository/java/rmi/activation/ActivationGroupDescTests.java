@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.activation.ActivationGroupDescClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActivationGroupDescTests<SUT extends java.rmi.activation.ActivationGroupDesc>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * @since 0.9.0
      * @see org.j8unit.repository.java.rmi.activation.ActivationGroupDescClassTests.CommandEnvironmentClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CommandEnvironmentTests<SUT extends java.rmi.activation.ActivationGroupDesc.CommandEnvironment>
     extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

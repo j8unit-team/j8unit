@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.MBeanNotificationInfoClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MBeanNotificationInfoTests<SUT extends javax.management.MBeanNotificationInfo>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.javax.management.MBeanFeatureInfoTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.PropertiesClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PropertiesTests<SUT extends java.util.Properties>
 extends org.j8unit.repository.java.util.HashtableTests<SUT, java.lang.Object, java.lang.Object> {

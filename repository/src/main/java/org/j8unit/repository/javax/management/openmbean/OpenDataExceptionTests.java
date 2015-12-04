@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.openmbean.OpenDataExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OpenDataExceptionTests<SUT extends javax.management.openmbean.OpenDataException>
 extends org.j8unit.repository.javax.management.JMExceptionTests<SUT> {

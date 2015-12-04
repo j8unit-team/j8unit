@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.SimpleDateFormatTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleDateFormatClassTests<SUT extends Class<? extends java.text.SimpleDateFormat>>
 extends org.j8unit.repository.java.text.DateFormatClassTests<SUT> {

@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.remote.JMXConnectorServerFactoryClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JMXConnectorServerFactoryTests<SUT extends javax.management.remote.JMXConnectorServerFactory>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

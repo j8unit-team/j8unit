@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.monitor.MonitorSettingExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MonitorSettingExceptionTests<SUT extends javax.management.monitor.MonitorSettingException>
 extends org.j8unit.repository.javax.management.JMRuntimeExceptionTests<SUT> {

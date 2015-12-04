@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalComboBoxEditorTests<SUT extends javax.swing.plaf.metal.MetalComboBoxEditor>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorTests<SUT> {
@@ -30,6 +31,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorTests<SU
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorClassTests.UIResourceClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UIResourceTests<SUT extends javax.swing.plaf.metal.MetalComboBoxEditor.UIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxEditorTests<SUT> {

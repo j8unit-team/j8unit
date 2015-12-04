@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.SignatureSpiClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SignatureSpiTests<SUT extends java.security.SignatureSpi>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

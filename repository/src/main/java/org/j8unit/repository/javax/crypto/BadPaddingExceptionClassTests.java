@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.BadPaddingExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BadPaddingExceptionClassTests<SUT extends Class<? extends javax.crypto.BadPaddingException>>
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {

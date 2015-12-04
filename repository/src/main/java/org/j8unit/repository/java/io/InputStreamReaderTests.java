@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.InputStreamReaderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InputStreamReaderTests<SUT extends java.io.InputStreamReader>
 extends org.j8unit.repository.java.io.ReaderTests<SUT> {

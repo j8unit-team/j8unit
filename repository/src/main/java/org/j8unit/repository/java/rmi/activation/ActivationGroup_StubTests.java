@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.activation.ActivationGroup_StubClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActivationGroup_StubTests<SUT extends java.rmi.activation.ActivationGroup_Stub>
 extends org.j8unit.repository.java.rmi.activation.ActivationInstantiatorTests<SUT>, org.j8unit.repository.java.rmi.RemoteTests<SUT>,

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.TexturePaintClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TexturePaintTests<SUT extends java.awt.TexturePaint>
 extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

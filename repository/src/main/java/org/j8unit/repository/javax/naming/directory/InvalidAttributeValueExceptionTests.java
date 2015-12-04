@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.directory.InvalidAttributeValueExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidAttributeValueExceptionTests<SUT extends javax.naming.directory.InvalidAttributeValueException>
 extends org.j8unit.repository.javax.naming.NamingExceptionTests<SUT> {

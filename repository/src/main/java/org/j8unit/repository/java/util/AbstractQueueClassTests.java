@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.AbstractQueueTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractQueueClassTests<SUT extends Class<? extends java.util.AbstractQueue<E>>, E>
 extends org.j8unit.repository.java.util.QueueClassTests<SUT, E>, org.j8unit.repository.java.util.AbstractCollectionClassTests<SUT, E> {

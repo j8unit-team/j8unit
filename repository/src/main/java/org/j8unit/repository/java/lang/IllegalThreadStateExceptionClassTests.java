@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.IllegalThreadStateExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IllegalThreadStateExceptionClassTests<SUT extends Class<? extends java.lang.IllegalThreadStateException>>
 extends org.j8unit.repository.java.lang.IllegalArgumentExceptionClassTests<SUT> {

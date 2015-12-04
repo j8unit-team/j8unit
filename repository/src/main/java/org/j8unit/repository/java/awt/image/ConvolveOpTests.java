@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.ConvolveOpClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConvolveOpTests<SUT extends java.awt.image.ConvolveOp>
 extends org.j8unit.repository.java.awt.image.BufferedImageOpTests<SUT>, org.j8unit.repository.java.awt.image.RasterOpTests<SUT>,

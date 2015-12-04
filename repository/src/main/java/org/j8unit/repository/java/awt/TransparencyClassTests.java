@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.TransparencyTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TransparencyClassTests<SUT extends Class<? extends java.awt.Transparency>>
 extends J8UnitTest<SUT> {

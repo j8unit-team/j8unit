@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.RuleBasedCollatorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RuleBasedCollatorClassTests<SUT extends Class<? extends java.text.RuleBasedCollator>>
 extends org.j8unit.repository.java.text.CollatorClassTests<SUT> {

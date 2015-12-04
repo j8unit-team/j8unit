@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.ldap.UnsolicitedNotificationListenerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnsolicitedNotificationListenerClassTests<SUT extends Class<? extends javax.naming.ldap.UnsolicitedNotificationListener>>
 extends org.j8unit.repository.javax.naming.event.NamingListenerClassTests<SUT> {

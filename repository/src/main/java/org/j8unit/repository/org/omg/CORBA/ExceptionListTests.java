@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.ExceptionListClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExceptionListTests<SUT extends org.omg.CORBA.ExceptionList>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicOptionPaneUITests<SUT extends javax.swing.plaf.basic.BasicOptionPaneUI>
 extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.ButtonActionListenerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ButtonActionListenerTests<SUT extends javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener>
     extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -70,6 +72,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.ButtonAreaLayoutClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ButtonAreaLayoutTests<SUT extends javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout>
     extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -279,6 +282,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUIClassTests.PropertyChangeHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerTests<SUT extends javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.font.ImageGraphicAttributeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ImageGraphicAttributeTests<SUT extends java.awt.font.ImageGraphicAttribute>
 extends org.j8unit.repository.java.awt.font.GraphicAttributeTests<SUT> {

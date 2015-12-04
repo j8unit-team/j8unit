@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.SQLTimeoutExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLTimeoutExceptionClassTests<SUT extends Class<? extends java.sql.SQLTimeoutException>>
 extends org.j8unit.repository.java.sql.SQLTransientExceptionClassTests<SUT> {

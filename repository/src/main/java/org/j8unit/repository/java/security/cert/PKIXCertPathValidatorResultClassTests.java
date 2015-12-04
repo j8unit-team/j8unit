@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.PKIXCertPathValidatorResultTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PKIXCertPathValidatorResultClassTests<SUT extends Class<? extends java.security.cert.PKIXCertPathValidatorResult>>
 extends org.j8unit.repository.java.security.cert.CertPathValidatorResultClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

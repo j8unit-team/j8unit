@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.ext.Attributes2ClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Attributes2Tests<SUT extends org.xml.sax.ext.Attributes2>
 extends org.j8unit.repository.org.xml.sax.AttributesTests<SUT> {

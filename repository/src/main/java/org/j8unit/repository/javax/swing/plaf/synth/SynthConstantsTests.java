@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.synth.SynthConstantsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthConstantsTests<SUT extends javax.swing.plaf.synth.SynthConstants>
 extends J8UnitTest<SUT> {

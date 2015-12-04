@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.TypeConstraintExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TypeConstraintExceptionClassTests<SUT extends Class<? extends javax.xml.bind.TypeConstraintException>>
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.spec.PSourceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PSourceTests<SUT extends javax.crypto.spec.PSource>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.crypto.spec.PSourceClassTests.PSpecifiedClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PSpecifiedTests<SUT extends javax.crypto.spec.PSource.PSpecified>
     extends org.j8unit.repository.javax.crypto.spec.PSourceTests<SUT> {

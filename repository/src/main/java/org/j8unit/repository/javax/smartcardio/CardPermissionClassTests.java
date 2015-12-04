@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.smartcardio.CardPermissionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CardPermissionClassTests<SUT extends Class<? extends javax.smartcardio.CardPermission>>
 extends org.j8unit.repository.java.security.PermissionClassTests<SUT> {

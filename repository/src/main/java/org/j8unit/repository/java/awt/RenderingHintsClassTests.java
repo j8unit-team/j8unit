@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.RenderingHintsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RenderingHintsClassTests<SUT extends Class<? extends java.awt.RenderingHints>>
 extends org.j8unit.repository.java.util.MapClassTests<SUT, java.lang.Object, java.lang.Object>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
@@ -61,6 +62,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.RenderingHintsTests.KeyTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyClassTests<SUT extends Class<? extends java.awt.RenderingHints.Key>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

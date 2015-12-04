@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.cert.CertificateExpiredExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CertificateExpiredExceptionTests<SUT extends javax.security.cert.CertificateExpiredException>
 extends org.j8unit.repository.javax.security.cert.CertificateExceptionTests<SUT> {

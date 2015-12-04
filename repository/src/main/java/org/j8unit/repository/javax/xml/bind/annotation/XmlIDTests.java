@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.annotation.XmlIDClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XmlIDTests<SUT extends javax.xml.bind.annotation.XmlID>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.ldap.BasicControlClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicControlTests<SUT extends javax.naming.ldap.BasicControl>
 extends org.j8unit.repository.javax.naming.ldap.ControlTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.AttributeChangeNotificationFilterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributeChangeNotificationFilterTests<SUT extends javax.management.AttributeChangeNotificationFilter>
 extends org.j8unit.repository.javax.management.NotificationFilterTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

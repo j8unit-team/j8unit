@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.multi.MultiSliderUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultiSliderUITests<SUT extends javax.swing.plaf.multi.MultiSliderUI>
 extends org.j8unit.repository.javax.swing.plaf.SliderUITests<SUT> {

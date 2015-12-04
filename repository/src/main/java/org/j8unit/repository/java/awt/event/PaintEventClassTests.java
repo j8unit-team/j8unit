@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.event.PaintEventTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PaintEventClassTests<SUT extends Class<? extends java.awt.event.PaintEvent>>
 extends org.j8unit.repository.java.awt.event.ComponentEventClassTests<SUT> {

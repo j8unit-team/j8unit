@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.ImageFilterTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ImageFilterClassTests<SUT extends Class<? extends java.awt.image.ImageFilter>>
 extends org.j8unit.repository.java.awt.image.ImageConsumerClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,

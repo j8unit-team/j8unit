@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.acl.AclEntryClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AclEntryTests<SUT extends java.security.acl.AclEntry>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT> {

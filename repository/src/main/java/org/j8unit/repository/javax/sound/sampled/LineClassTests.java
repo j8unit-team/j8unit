@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.LineTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LineClassTests<SUT extends Class<? extends javax.sound.sampled.Line>>
 extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.sampled.LineTests.InfoTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InfoClassTests<SUT extends Class<? extends javax.sound.sampled.Line.Info>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

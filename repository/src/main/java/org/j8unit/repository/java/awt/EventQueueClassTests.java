@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.EventQueueTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EventQueueClassTests<SUT extends Class<? extends java.awt.EventQueue>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

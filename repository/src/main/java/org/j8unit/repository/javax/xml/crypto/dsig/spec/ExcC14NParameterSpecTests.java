@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.dsig.spec.ExcC14NParameterSpecClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExcC14NParameterSpecTests<SUT extends javax.xml.crypto.dsig.spec.ExcC14NParameterSpec>
 extends org.j8unit.repository.javax.xml.crypto.dsig.spec.C14NMethodParameterSpecTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

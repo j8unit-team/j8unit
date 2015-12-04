@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.type.DeclaredTypeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DeclaredTypeClassTests<SUT extends Class<? extends javax.lang.model.type.DeclaredType>>
 extends org.j8unit.repository.javax.lang.model.type.ReferenceTypeClassTests<SUT> {

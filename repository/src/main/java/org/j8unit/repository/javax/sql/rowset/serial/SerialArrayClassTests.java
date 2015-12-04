@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.rowset.serial.SerialArrayTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SerialArrayClassTests<SUT extends Class<? extends javax.sql.rowset.serial.SerialArray>>
 extends org.j8unit.repository.java.sql.ArrayClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

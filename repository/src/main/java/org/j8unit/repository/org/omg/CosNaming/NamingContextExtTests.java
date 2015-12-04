@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CosNaming.NamingContextExtClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NamingContextExtTests<SUT extends org.omg.CosNaming.NamingContextExt>
 extends org.j8unit.repository.org.omg.CosNaming.NamingContextExtOperationsTests<SUT>, org.j8unit.repository.org.omg.CosNaming.NamingContextTests<SUT>,

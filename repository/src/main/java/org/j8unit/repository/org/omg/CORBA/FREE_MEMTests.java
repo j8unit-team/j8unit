@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.FREE_MEMClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FREE_MEMTests<SUT extends org.omg.CORBA.FREE_MEM>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {

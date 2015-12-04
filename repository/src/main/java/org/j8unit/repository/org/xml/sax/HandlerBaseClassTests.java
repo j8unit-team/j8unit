@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.HandlerBaseTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HandlerBaseClassTests<SUT extends Class<? extends org.xml.sax.HandlerBase>>
 extends org.j8unit.repository.org.xml.sax.EntityResolverClassTests<SUT>, org.j8unit.repository.org.xml.sax.DTDHandlerClassTests<SUT>,

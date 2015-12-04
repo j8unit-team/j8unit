@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.ConstructorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConstructorTests<SUT extends java.lang.reflect.Constructor<T>, T>
 extends org.j8unit.repository.java.lang.reflect.ExecutableTests<SUT> {

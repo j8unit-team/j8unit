@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.prefs.AbstractPreferencesTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractPreferencesClassTests<SUT extends Class<? extends java.util.prefs.AbstractPreferences>>
 extends org.j8unit.repository.java.util.prefs.PreferencesClassTests<SUT> {

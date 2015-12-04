@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.logging.LoggingPermissionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LoggingPermissionTests<SUT extends java.util.logging.LoggingPermission>
 extends org.j8unit.repository.java.security.BasicPermissionTests<SUT> {

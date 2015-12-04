@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.annotation.XmlMimeTypeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XmlMimeTypeClassTests<SUT extends Class<? extends javax.xml.bind.annotation.XmlMimeType>>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {

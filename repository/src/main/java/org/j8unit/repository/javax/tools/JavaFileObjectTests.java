@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.JavaFileObjectClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JavaFileObjectTests<SUT extends javax.tools.JavaFileObject>
 extends org.j8unit.repository.javax.tools.FileObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.javax.tools.FileObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.tools.JavaFileObjectClassTests.KindClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KindTests<SUT extends javax.tools.JavaFileObject.Kind>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.tools.JavaFileObject.Kind> {

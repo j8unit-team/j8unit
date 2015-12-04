@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.ThreadTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ThreadClassTests<SUT extends Class<? extends java.lang.Thread>>
 extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repo
      * @since 0.9.0
      * @see org.j8unit.repository.java.lang.ThreadTests.StateTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StateClassTests<SUT extends Class<? extends java.lang.Thread.State>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.lang.Thread.State> {
@@ -134,6 +136,7 @@ extends org.j8unit.repository.java.lang.RunnableClassTests<SUT>, org.j8unit.repo
      * @since 0.9.0
      * @see org.j8unit.repository.java.lang.ThreadTests.UncaughtExceptionHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UncaughtExceptionHandlerClassTests<SUT extends Class<? extends java.lang.Thread.UncaughtExceptionHandler>>
     extends J8UnitTest<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.synth.SynthColorChooserUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthColorChooserUITests<SUT extends javax.swing.plaf.synth.SynthColorChooserUI>
 extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.repository.javax.swing.plaf.synth.SynthUITests<SUT>,

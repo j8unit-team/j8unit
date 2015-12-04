@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ScheduledExecutorServiceTests<SUT extends java.util.concurrent.ScheduledExecutorService>
 extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT> {

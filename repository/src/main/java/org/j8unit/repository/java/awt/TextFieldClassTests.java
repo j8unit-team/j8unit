@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.TextFieldTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TextFieldClassTests<SUT extends Class<? extends java.awt.TextField>>
 extends org.j8unit.repository.java.awt.TextComponentClassTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.parser.ElementTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ElementClassTests<SUT extends Class<? extends javax.swing.text.html.parser.Element>>
 extends org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

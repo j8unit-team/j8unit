@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JToggleButtonTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JToggleButtonClassTests<SUT extends Class<? extends javax.swing.JToggleButton>>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.AbstractButtonClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JToggleButtonTests.ToggleButtonModelTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ToggleButtonModelClassTests<SUT extends Class<? extends javax.swing.JToggleButton.ToggleButtonModel>>
     extends org.j8unit.repository.javax.swing.DefaultButtonModelClassTests<SUT> {

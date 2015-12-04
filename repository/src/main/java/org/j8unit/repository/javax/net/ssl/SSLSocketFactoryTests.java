@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.SSLSocketFactoryClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SSLSocketFactoryTests<SUT extends javax.net.ssl.SSLSocketFactory>
 extends org.j8unit.repository.javax.net.SocketFactoryTests<SUT> {

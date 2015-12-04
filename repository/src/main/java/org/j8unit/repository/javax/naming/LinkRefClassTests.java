@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.LinkRefTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LinkRefClassTests<SUT extends Class<? extends javax.naming.LinkRef>>
 extends org.j8unit.repository.javax.naming.ReferenceClassTests<SUT> {

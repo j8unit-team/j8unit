@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.OperationsExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OperationsExceptionTests<SUT extends javax.management.OperationsException>
 extends org.j8unit.repository.javax.management.JMExceptionTests<SUT> {

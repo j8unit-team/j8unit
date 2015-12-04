@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.MBeanServerDelegateMBeanTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MBeanServerDelegateMBeanClassTests<SUT extends Class<? extends javax.management.MBeanServerDelegateMBean>>
 extends J8UnitTest<SUT> {

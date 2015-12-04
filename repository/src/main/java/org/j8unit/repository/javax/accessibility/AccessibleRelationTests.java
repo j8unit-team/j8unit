@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.accessibility.AccessibleRelationClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccessibleRelationTests<SUT extends javax.accessibility.AccessibleRelation>
 extends org.j8unit.repository.javax.accessibility.AccessibleBundleTests<SUT> {

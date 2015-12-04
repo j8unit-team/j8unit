@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.relation.MBeanServerNotificationFilterTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MBeanServerNotificationFilterClassTests<SUT extends Class<? extends javax.management.relation.MBeanServerNotificationFilter>>
 extends org.j8unit.repository.javax.management.NotificationFilterSupportClassTests<SUT> {

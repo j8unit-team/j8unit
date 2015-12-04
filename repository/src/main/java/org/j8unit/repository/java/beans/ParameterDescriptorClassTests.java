@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.ParameterDescriptorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ParameterDescriptorClassTests<SUT extends Class<? extends java.beans.ParameterDescriptor>>
 extends org.j8unit.repository.java.beans.FeatureDescriptorClassTests<SUT> {

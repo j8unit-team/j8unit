@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.MouseInfoClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MouseInfoTests<SUT extends java.awt.MouseInfo>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

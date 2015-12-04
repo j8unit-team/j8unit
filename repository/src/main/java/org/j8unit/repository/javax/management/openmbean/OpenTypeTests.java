@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.openmbean.OpenTypeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OpenTypeTests<SUT extends javax.management.openmbean.OpenType<T>, T>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

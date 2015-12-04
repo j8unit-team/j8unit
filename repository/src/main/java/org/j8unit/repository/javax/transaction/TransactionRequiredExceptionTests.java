@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.transaction.TransactionRequiredExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TransactionRequiredExceptionTests<SUT extends javax.transaction.TransactionRequiredException>
 extends org.j8unit.repository.java.rmi.RemoteExceptionTests<SUT> {

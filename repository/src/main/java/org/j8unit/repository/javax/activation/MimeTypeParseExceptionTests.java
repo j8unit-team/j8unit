@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.activation.MimeTypeParseExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MimeTypeParseExceptionTests<SUT extends javax.activation.MimeTypeParseException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {

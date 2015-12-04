@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.AdapterActivatorOperationsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AdapterActivatorOperationsClassTests<SUT extends Class<? extends org.omg.PortableServer.AdapterActivatorOperations>>
 extends J8UnitTest<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.DOMConfigurationClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DOMConfigurationTests<SUT extends org.w3c.dom.DOMConfiguration>
 extends J8UnitTest<SUT> {

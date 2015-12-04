@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.GapContentTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GapContentClassTests<SUT extends Class<? extends javax.swing.text.GapContent>>
 extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.ContentClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.tree.TreeCellEditorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TreeCellEditorClassTests<SUT extends Class<? extends javax.swing.tree.TreeCellEditor>>
 extends org.j8unit.repository.javax.swing.CellEditorClassTests<SUT> {

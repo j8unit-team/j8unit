@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.StyleContextTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StyleContextClassTests<SUT extends Class<? extends javax.swing.text.StyleContext>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>,
@@ -61,6 +62,7 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyleContextTests.NamedStyleTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface NamedStyleClassTests<SUT extends Class<? extends javax.swing.text.StyleContext.NamedStyle>>
     extends org.j8unit.repository.javax.swing.text.StyleClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
@@ -153,6 +155,7 @@ org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeConte
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyleContextTests.SmallAttributeSetTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SmallAttributeSetClassTests<SUT extends Class<? extends javax.swing.text.StyleContext.SmallAttributeSet>>
     extends org.j8unit.repository.javax.swing.text.AttributeSetClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

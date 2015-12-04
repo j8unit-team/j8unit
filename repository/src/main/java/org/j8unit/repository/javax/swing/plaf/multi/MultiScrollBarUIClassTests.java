@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.multi.MultiScrollBarUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultiScrollBarUIClassTests<SUT extends Class<? extends javax.swing.plaf.multi.MultiScrollBarUI>>
 extends org.j8unit.repository.javax.swing.plaf.ScrollBarUIClassTests<SUT> {

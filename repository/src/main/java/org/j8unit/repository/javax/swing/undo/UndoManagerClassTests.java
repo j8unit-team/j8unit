@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.undo.UndoManagerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UndoManagerClassTests<SUT extends Class<? extends javax.swing.undo.UndoManager>>
 extends org.j8unit.repository.javax.swing.event.UndoableEditListenerClassTests<SUT>, org.j8unit.repository.javax.swing.undo.CompoundEditClassTests<SUT> {

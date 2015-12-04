@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.TargetDataLineClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TargetDataLineTests<SUT extends javax.sound.sampled.TargetDataLine>
 extends org.j8unit.repository.javax.sound.sampled.DataLineTests<SUT> {

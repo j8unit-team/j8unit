@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.zip.ZipErrorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ZipErrorTests<SUT extends java.util.zip.ZipError>
 extends org.j8unit.repository.java.lang.InternalErrorTests<SUT> {

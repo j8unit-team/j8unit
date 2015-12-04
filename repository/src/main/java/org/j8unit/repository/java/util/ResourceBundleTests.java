@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ResourceBundleClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ResourceBundleTests<SUT extends java.util.ResourceBundle>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.ResourceBundleClassTests.ControlClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ControlTests<SUT extends java.util.ResourceBundle.Control>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

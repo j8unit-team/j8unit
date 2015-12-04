@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.remote.JMXAuthenticatorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JMXAuthenticatorClassTests<SUT extends Class<? extends javax.management.remote.JMXAuthenticator>>
 extends J8UnitTest<SUT> {

@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.ManagerFactoryParametersClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ManagerFactoryParametersTests<SUT extends javax.net.ssl.ManagerFactoryParameters>
 extends J8UnitTest<SUT> {

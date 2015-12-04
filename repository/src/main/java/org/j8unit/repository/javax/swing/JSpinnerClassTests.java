@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JSpinnerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JSpinnerClassTests<SUT extends Class<? extends javax.swing.JSpinner>>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JSpinnerTests.DateEditorTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DateEditorClassTests<SUT extends Class<? extends javax.swing.JSpinner.DateEditor>>
     extends org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests<SUT> {
@@ -129,6 +131,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JSpinnerTests.DefaultEditorTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultEditorClassTests<SUT extends Class<? extends javax.swing.JSpinner.DefaultEditor>>
     extends org.j8unit.repository.javax.swing.event.ChangeListenerClassTests<SUT>, org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>,
@@ -185,6 +188,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JSpinnerTests.ListEditorTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ListEditorClassTests<SUT extends Class<? extends javax.swing.JSpinner.ListEditor>>
     extends org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests<SUT> {
@@ -240,6 +244,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JSpinnerTests.NumberEditorTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface NumberEditorClassTests<SUT extends Class<? extends javax.swing.JSpinner.NumberEditor>>
     extends org.j8unit.repository.javax.swing.JSpinnerClassTests.DefaultEditorClassTests<SUT> {

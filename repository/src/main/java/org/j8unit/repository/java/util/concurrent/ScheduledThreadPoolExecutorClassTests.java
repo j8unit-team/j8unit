@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ScheduledThreadPoolExecutorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ScheduledThreadPoolExecutorClassTests<SUT extends Class<? extends java.util.concurrent.ScheduledThreadPoolExecutor>>
 extends org.j8unit.repository.java.util.concurrent.ScheduledExecutorServiceClassTests<SUT>,

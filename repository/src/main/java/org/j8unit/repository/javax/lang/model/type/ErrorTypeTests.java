@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.type.ErrorTypeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ErrorTypeTests<SUT extends javax.lang.model.type.ErrorType>
 extends org.j8unit.repository.javax.lang.model.type.DeclaredTypeTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.transform.dom.DOMSourceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DOMSourceTests<SUT extends javax.xml.transform.dom.DOMSource>
 extends org.j8unit.repository.javax.xml.transform.SourceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

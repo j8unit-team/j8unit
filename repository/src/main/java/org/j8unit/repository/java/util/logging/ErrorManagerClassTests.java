@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.logging.ErrorManagerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ErrorManagerClassTests<SUT extends Class<? extends java.util.logging.ErrorManager>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

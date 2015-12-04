@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.ColorModelClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ColorModelTests<SUT extends java.awt.image.ColorModel>
 extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

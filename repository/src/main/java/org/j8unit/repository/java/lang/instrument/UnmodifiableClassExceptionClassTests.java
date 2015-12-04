@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.instrument.UnmodifiableClassExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnmodifiableClassExceptionClassTests<SUT extends Class<? extends java.lang.instrument.UnmodifiableClassException>>
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {

@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.ExtensionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExtensionClassTests<SUT extends Class<? extends java.security.cert.Extension>>
 extends J8UnitTest<SUT> {

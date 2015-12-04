@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ScrollPaneLayoutTests<SUT extends javax.swing.ScrollPaneLayout>
 extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>, org.j8unit.repository.javax.swing.ScrollPaneConstantsTests<SUT>,
@@ -33,6 +34,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.ScrollPaneLayoutClassTests.UIResourceClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UIResourceTests<SUT extends javax.swing.ScrollPaneLayout.UIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.repository.javax.swing.ScrollPaneLayoutTests<SUT> {

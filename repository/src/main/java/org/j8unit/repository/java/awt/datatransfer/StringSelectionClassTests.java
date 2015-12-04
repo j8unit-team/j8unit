@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.datatransfer.StringSelectionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StringSelectionClassTests<SUT extends Class<? extends java.awt.datatransfer.StringSelection>>
 extends org.j8unit.repository.java.awt.datatransfer.TransferableClassTests<SUT>, org.j8unit.repository.java.awt.datatransfer.ClipboardOwnerClassTests<SUT>,

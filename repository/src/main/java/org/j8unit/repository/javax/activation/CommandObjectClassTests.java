@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.activation.CommandObjectTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CommandObjectClassTests<SUT extends Class<? extends javax.activation.CommandObject>>
 extends J8UnitTest<SUT> {

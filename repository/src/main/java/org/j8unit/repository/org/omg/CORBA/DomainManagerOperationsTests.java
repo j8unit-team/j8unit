@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.DomainManagerOperationsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DomainManagerOperationsTests<SUT extends org.omg.CORBA.DomainManagerOperations>
 extends J8UnitTest<SUT> {

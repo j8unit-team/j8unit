@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.stream.BaseStreamTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BaseStreamClassTests<SUT extends Class<? extends java.util.stream.BaseStream<T, S>>, T, S extends java.util.stream.BaseStream<T, S>>
 extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {

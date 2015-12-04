@@ -28,6 +28,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.FilterReaderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FilterReaderClassTests<SUT extends Class<? extends java.io.FilterReader>>
 extends org.j8unit.repository.java.io.ReaderClassTests<SUT> {

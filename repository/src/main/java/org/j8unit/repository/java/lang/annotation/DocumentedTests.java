@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.annotation.DocumentedClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocumentedTests<SUT extends java.lang.annotation.Documented>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {

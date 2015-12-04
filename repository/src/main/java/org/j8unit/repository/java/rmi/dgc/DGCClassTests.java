@@ -28,6 +28,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.dgc.DGCTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DGCClassTests<SUT extends Class<? extends java.rmi.dgc.DGC>>
 extends org.j8unit.repository.java.rmi.RemoteClassTests<SUT> {

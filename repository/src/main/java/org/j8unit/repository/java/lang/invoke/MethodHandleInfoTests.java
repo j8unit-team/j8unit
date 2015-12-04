@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.invoke.MethodHandleInfoClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MethodHandleInfoTests<SUT extends java.lang.invoke.MethodHandleInfo>
 extends J8UnitTest<SUT> {

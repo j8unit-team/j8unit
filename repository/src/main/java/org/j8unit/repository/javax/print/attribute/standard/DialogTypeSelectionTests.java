@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.DialogTypeSelectionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DialogTypeSelectionTests<SUT extends javax.print.attribute.standard.DialogTypeSelection>
 extends org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.EnumSyntaxTests<SUT> {

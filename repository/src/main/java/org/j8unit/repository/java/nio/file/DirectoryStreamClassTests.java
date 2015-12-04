@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.DirectoryStreamTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DirectoryStreamClassTests<SUT extends Class<? extends java.nio.file.DirectoryStream<T>>, T>
 extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.lang.IterableClassTests<SUT, T> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repos
      * @since 0.9.0
      * @see org.j8unit.repository.java.nio.file.DirectoryStreamTests.FilterTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FilterClassTests<SUT extends Class<? extends java.nio.file.DirectoryStream.Filter<T>>, T>
     extends J8UnitTest<SUT> {

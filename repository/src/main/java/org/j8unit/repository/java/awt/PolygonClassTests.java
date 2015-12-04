@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.PolygonTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PolygonClassTests<SUT extends Class<? extends java.awt.Polygon>>
 extends org.j8unit.repository.java.awt.ShapeClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

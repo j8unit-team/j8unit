@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.regex.MatcherClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MatcherTests<SUT extends java.util.regex.Matcher>
 extends org.j8unit.repository.java.util.regex.MatchResultTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

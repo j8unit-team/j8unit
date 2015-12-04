@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.event.IIOWriteWarningListenerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IIOWriteWarningListenerTests<SUT extends javax.imageio.event.IIOWriteWarningListener>
 extends org.j8unit.repository.java.util.EventListenerTests<SUT> {

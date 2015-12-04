@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.ContextTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ContextClassTests<SUT extends Class<? extends javax.naming.Context>>
 extends J8UnitTest<SUT> {

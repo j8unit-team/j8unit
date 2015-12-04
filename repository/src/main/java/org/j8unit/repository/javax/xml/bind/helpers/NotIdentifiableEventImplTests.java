@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.helpers.NotIdentifiableEventImplClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotIdentifiableEventImplTests<SUT extends javax.xml.bind.helpers.NotIdentifiableEventImpl>
 extends org.j8unit.repository.javax.xml.bind.NotIdentifiableEventTests<SUT>, org.j8unit.repository.javax.xml.bind.helpers.ValidationEventImplTests<SUT> {

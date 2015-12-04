@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.DTDHandlerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DTDHandlerTests<SUT extends org.xml.sax.DTDHandler>
 extends J8UnitTest<SUT> {

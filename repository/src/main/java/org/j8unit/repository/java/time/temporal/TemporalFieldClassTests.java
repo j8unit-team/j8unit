@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.temporal.TemporalFieldTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TemporalFieldClassTests<SUT extends Class<? extends java.time.temporal.TemporalField>>
 extends J8UnitTest<SUT> {

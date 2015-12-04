@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.TransferHandlerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TransferHandlerClassTests<SUT extends Class<? extends javax.swing.TransferHandler>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.TransferHandlerTests.DropLocationTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DropLocationClassTests<SUT extends Class<? extends javax.swing.TransferHandler.DropLocation>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -102,6 +104,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.TransferHandlerTests.TransferSupportTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TransferSupportClassTests<SUT extends Class<? extends javax.swing.TransferHandler.TransferSupport>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

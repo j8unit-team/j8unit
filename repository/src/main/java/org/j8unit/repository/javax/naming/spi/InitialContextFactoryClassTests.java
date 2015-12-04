@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.spi.InitialContextFactoryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InitialContextFactoryClassTests<SUT extends Class<? extends javax.naming.spi.InitialContextFactory>>
 extends J8UnitTest<SUT> {

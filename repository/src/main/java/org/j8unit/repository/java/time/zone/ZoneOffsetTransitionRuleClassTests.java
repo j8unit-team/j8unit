@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ZoneOffsetTransitionRuleClassTests<SUT extends Class<? extends java.time.zone.ZoneOffsetTransitionRule>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * @since 0.9.0
      * @see org.j8unit.repository.java.time.zone.ZoneOffsetTransitionRuleTests.TimeDefinitionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TimeDefinitionClassTests<SUT extends Class<? extends java.time.zone.ZoneOffsetTransitionRule.TimeDefinition>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.time.zone.ZoneOffsetTransitionRule.TimeDefinition> {

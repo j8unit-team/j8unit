@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.ObjectOutputStreamTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectOutputStreamClassTests<SUT extends Class<? extends java.io.ObjectOutputStream>>
 extends org.j8unit.repository.java.io.ObjectOutputClassTests<SUT>, org.j8unit.repository.java.io.ObjectStreamConstantsClassTests<SUT>,
@@ -61,6 +62,7 @@ org.j8unit.repository.java.io.OutputStreamClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.io.ObjectOutputStreamTests.PutFieldTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PutFieldClassTests<SUT extends Class<? extends java.io.ObjectOutputStream.PutField>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

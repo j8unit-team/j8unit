@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JToolBarTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JToolBarClassTests<SUT extends Class<? extends javax.swing.JToolBar>>
 extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,
@@ -60,6 +61,7 @@ org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JToolBarTests.SeparatorTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SeparatorClassTests<SUT extends Class<? extends javax.swing.JToolBar.Separator>>
     extends org.j8unit.repository.javax.swing.JSeparatorClassTests<SUT> {

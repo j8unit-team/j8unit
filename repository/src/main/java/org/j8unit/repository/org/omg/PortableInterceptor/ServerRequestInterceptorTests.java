@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableInterceptor.ServerRequestInterceptorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServerRequestInterceptorTests<SUT extends org.omg.PortableInterceptor.ServerRequestInterceptor>
 extends org.j8unit.repository.org.omg.PortableInterceptor.ServerRequestInterceptorOperationsTests<SUT>,

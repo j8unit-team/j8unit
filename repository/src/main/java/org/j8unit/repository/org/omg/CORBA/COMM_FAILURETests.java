@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.COMM_FAILUREClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface COMM_FAILURETests<SUT extends org.omg.CORBA.COMM_FAILURE>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {

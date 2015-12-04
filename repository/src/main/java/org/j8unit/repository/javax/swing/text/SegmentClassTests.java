@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.SegmentTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SegmentClassTests<SUT extends Class<? extends javax.swing.text.Segment>>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.text.CharacterIteratorClassTests<SUT>,

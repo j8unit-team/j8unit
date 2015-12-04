@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.GridBagConstraintsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GridBagConstraintsClassTests<SUT extends Class<? extends java.awt.GridBagConstraints>>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

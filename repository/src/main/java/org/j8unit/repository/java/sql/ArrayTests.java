@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.ArrayClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ArrayTests<SUT extends java.sql.Array>
 extends J8UnitTest<SUT> {

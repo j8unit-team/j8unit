@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.stream.events.ProcessingInstructionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ProcessingInstructionTests<SUT extends javax.xml.stream.events.ProcessingInstruction>
 extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicComboBoxEditorTests<SUT extends javax.swing.plaf.basic.BasicComboBoxEditor>
 extends org.j8unit.repository.javax.swing.ComboBoxEditorTests<SUT>, org.j8unit.repository.java.awt.event.FocusListenerTests<SUT>,
@@ -34,6 +35,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorClassTests.UIResourceClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UIResourceTests<SUT extends javax.swing.plaf.basic.BasicComboBoxEditor.UIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxEditorTests<SUT> {

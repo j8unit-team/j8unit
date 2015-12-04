@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.callback.CallbackTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CallbackClassTests<SUT extends Class<? extends javax.security.auth.callback.Callback>>
 extends J8UnitTest<SUT> {

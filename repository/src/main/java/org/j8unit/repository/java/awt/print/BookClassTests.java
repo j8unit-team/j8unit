@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.print.BookTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BookClassTests<SUT extends Class<? extends java.awt.print.Book>>
 extends org.j8unit.repository.java.awt.print.PageableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

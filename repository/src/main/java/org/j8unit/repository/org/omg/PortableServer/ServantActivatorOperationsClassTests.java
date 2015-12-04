@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.ServantActivatorOperationsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServantActivatorOperationsClassTests<SUT extends Class<? extends org.omg.PortableServer.ServantActivatorOperations>>
 extends org.j8unit.repository.org.omg.PortableServer.ServantManagerOperationsClassTests<SUT> {

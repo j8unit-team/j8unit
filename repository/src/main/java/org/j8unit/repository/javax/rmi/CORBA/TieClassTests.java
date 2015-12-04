@@ -28,6 +28,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.rmi.CORBA.TieTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TieClassTests<SUT extends Class<? extends javax.rmi.CORBA.Tie>>
 extends org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerClassTests<SUT> {

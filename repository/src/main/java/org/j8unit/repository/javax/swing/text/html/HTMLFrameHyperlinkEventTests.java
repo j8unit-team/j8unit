@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.HTMLFrameHyperlinkEventClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLFrameHyperlinkEventTests<SUT extends javax.swing.text.html.HTMLFrameHyperlinkEvent>
 extends org.j8unit.repository.javax.swing.event.HyperlinkEventTests<SUT> {

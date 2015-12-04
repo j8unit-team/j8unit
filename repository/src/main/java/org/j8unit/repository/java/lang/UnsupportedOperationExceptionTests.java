@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.UnsupportedOperationExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnsupportedOperationExceptionTests<SUT extends java.lang.UnsupportedOperationException>
 extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {

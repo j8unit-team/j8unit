@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.RunnableScheduledFutureTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RunnableScheduledFutureClassTests<SUT extends Class<? extends java.util.concurrent.RunnableScheduledFuture<V>>, V>
 extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT, V>,

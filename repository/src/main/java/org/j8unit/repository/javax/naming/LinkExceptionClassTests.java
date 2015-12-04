@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.LinkExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LinkExceptionClassTests<SUT extends Class<? extends javax.naming.LinkException>>
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {

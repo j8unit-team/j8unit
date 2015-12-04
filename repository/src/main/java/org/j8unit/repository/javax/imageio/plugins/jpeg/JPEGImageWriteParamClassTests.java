@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGImageWriteParamTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JPEGImageWriteParamClassTests<SUT extends Class<? extends javax.imageio.plugins.jpeg.JPEGImageWriteParam>>
 extends org.j8unit.repository.javax.imageio.ImageWriteParamClassTests<SUT> {

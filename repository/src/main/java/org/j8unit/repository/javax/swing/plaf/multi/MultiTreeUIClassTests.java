@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.multi.MultiTreeUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultiTreeUIClassTests<SUT extends Class<? extends javax.swing.plaf.multi.MultiTreeUI>>
 extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {

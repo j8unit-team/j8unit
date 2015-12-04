@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.attribute.PosixFileAttributesClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PosixFileAttributesTests<SUT extends java.nio.file.attribute.PosixFileAttributes>
 extends org.j8unit.repository.java.nio.file.attribute.BasicFileAttributesTests<SUT> {

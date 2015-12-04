@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.UnaryOperatorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnaryOperatorTests<SUT extends java.util.function.UnaryOperator<T>, T>
 extends org.j8unit.repository.java.util.function.FunctionTests<SUT, T, T> {

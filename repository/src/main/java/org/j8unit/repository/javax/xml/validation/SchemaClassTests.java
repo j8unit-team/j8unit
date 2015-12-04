@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.validation.SchemaTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SchemaClassTests<SUT extends Class<? extends javax.xml.validation.Schema>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

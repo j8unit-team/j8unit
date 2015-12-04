@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.charset.UnsupportedCharsetExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnsupportedCharsetExceptionTests<SUT extends java.nio.charset.UnsupportedCharsetException>
 extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {

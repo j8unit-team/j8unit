@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.Inet6AddressClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Inet6AddressTests<SUT extends java.net.Inet6Address>
 extends org.j8unit.repository.java.net.InetAddressTests<SUT> {

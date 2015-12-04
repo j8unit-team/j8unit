@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.GlyphViewClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GlyphViewTests<SUT extends javax.swing.text.GlyphView>
 extends org.j8unit.repository.javax.swing.text.TabableViewTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>,
@@ -33,6 +34,7 @@ org.j8unit.repository.javax.swing.text.ViewTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.GlyphViewClassTests.GlyphPainterClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface GlyphPainterTests<SUT extends javax.swing.text.GlyphView.GlyphPainter>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

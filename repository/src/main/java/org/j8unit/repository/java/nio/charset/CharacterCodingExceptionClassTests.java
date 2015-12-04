@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.charset.CharacterCodingExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharacterCodingExceptionClassTests<SUT extends Class<? extends java.nio.charset.CharacterCodingException>>
 extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {

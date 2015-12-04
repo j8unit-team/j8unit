@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.ChannelClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ChannelTests<SUT extends java.nio.channels.Channel>
 extends org.j8unit.repository.java.io.CloseableTests<SUT> {

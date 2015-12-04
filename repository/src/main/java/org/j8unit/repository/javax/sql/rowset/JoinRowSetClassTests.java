@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.rowset.JoinRowSetTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JoinRowSetClassTests<SUT extends Class<? extends javax.sql.rowset.JoinRowSet>>
 extends org.j8unit.repository.javax.sql.rowset.WebRowSetClassTests<SUT> {

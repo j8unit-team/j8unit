@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.interfaces.PBEKeyTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PBEKeyClassTests<SUT extends Class<? extends javax.crypto.interfaces.PBEKey>>
 extends org.j8unit.repository.javax.crypto.SecretKeyClassTests<SUT> {

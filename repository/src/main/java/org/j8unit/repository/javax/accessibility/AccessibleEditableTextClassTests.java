@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.accessibility.AccessibleEditableTextTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccessibleEditableTextClassTests<SUT extends Class<? extends javax.accessibility.AccessibleEditableText>>
 extends org.j8unit.repository.javax.accessibility.AccessibleTextClassTests<SUT> {

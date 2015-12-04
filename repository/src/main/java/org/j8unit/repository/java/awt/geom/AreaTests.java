@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.geom.AreaClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AreaTests<SUT extends java.awt.geom.Area>
 extends org.j8unit.repository.java.awt.ShapeTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

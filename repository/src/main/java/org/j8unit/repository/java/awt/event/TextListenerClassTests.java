@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.event.TextListenerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TextListenerClassTests<SUT extends Class<? extends java.awt.event.TextListener>>
 extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {

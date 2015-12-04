@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.SAXParseExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SAXParseExceptionTests<SUT extends org.xml.sax.SAXParseException>
 extends org.j8unit.repository.org.xml.sax.SAXExceptionTests<SUT> {

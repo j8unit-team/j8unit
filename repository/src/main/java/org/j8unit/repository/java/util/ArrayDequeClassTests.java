@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ArrayDequeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ArrayDequeClassTests<SUT extends Class<? extends java.util.ArrayDeque<E>>, E>
 extends org.j8unit.repository.java.util.DequeClassTests<SUT, E>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,

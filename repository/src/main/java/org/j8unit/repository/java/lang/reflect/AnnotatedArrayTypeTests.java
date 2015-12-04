@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.AnnotatedArrayTypeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AnnotatedArrayTypeTests<SUT extends java.lang.reflect.AnnotatedArrayType>
 extends org.j8unit.repository.java.lang.reflect.AnnotatedTypeTests<SUT> {

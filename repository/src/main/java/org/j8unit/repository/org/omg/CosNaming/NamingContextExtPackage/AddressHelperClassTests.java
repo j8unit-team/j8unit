@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CosNaming.NamingContextExtPackage.AddressHelperTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AddressHelperClassTests<SUT extends Class<? extends org.omg.CosNaming.NamingContextExtPackage.AddressHelper>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

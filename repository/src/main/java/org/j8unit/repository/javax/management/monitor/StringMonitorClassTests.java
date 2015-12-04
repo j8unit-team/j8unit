@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.monitor.StringMonitorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StringMonitorClassTests<SUT extends Class<? extends javax.management.monitor.StringMonitor>>
 extends org.j8unit.repository.javax.management.monitor.StringMonitorMBeanClassTests<SUT>,

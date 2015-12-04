@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.NamingEnumerationTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NamingEnumerationClassTests<SUT extends Class<? extends javax.naming.NamingEnumeration<T>>, T>
 extends org.j8unit.repository.java.util.EnumerationClassTests<SUT, T> {

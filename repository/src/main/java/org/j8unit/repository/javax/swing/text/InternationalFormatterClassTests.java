@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.InternationalFormatterTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InternationalFormatterClassTests<SUT extends Class<? extends javax.swing.text.InternationalFormatter>>
 extends org.j8unit.repository.javax.swing.text.DefaultFormatterClassTests<SUT> {

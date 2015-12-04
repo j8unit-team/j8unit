@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.ldap.PagedResultsResponseControlClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PagedResultsResponseControlTests<SUT extends javax.naming.ldap.PagedResultsResponseControl>
 extends org.j8unit.repository.javax.naming.ldap.BasicControlTests<SUT> {

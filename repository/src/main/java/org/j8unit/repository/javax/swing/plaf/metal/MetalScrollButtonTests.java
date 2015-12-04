@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalScrollButtonClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalScrollButtonTests<SUT extends javax.swing.plaf.metal.MetalScrollButton>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonTests<SUT> {

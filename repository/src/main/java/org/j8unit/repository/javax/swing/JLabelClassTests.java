@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JLabelTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JLabelClassTests<SUT extends Class<? extends javax.swing.JLabel>>
 extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>,

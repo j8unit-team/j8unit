@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.HTMLWriterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLWriterTests<SUT extends javax.swing.text.html.HTMLWriter>
 extends org.j8unit.repository.javax.swing.text.AbstractWriterTests<SUT> {

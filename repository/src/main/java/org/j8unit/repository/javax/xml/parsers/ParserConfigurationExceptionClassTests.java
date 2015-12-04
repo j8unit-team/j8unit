@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.parsers.ParserConfigurationExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ParserConfigurationExceptionClassTests<SUT extends Class<? extends javax.xml.parsers.ParserConfigurationException>>
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {

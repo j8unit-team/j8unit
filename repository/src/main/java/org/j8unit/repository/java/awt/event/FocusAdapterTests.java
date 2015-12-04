@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.event.FocusAdapterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FocusAdapterTests<SUT extends java.awt.event.FocusAdapter>
 extends org.j8unit.repository.java.awt.event.FocusListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

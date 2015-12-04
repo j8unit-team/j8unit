@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalComboBoxUIClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalComboBoxUI>>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboBoxLayoutManagerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalComboBoxLayoutManagerClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager>>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ComboBoxLayoutManagerClassTests<SUT> {
@@ -120,6 +122,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalComboPopupTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalComboPopupClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup>>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests<SUT> {
@@ -180,6 +183,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests<S
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUITests.MetalPropertyChangeListenerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalPropertyChangeListenerClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener>>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.PropertyChangeHandlerClassTests<SUT> {

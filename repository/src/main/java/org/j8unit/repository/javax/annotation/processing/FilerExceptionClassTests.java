@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.annotation.processing.FilerExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FilerExceptionClassTests<SUT extends Class<? extends javax.annotation.processing.FilerException>>
 extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {

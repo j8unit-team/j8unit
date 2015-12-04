@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.jws.WebParamTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WebParamClassTests<SUT extends Class<? extends javax.jws.WebParam>>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.jws.WebParamTests.ModeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModeClassTests<SUT extends Class<? extends javax.jws.WebParam.Mode>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.jws.WebParam.Mode> {

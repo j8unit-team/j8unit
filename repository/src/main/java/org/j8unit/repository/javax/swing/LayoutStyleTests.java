@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.LayoutStyleClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LayoutStyleTests<SUT extends javax.swing.LayoutStyle>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.LayoutStyleClassTests.ComponentPlacementClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ComponentPlacementTests<SUT extends javax.swing.LayoutStyle.ComponentPlacement>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.swing.LayoutStyle.ComponentPlacement> {

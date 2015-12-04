@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.PrinterURITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrinterURIClassTests<SUT extends Class<? extends javax.print.attribute.standard.PrinterURI>>
 extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeClassTests<SUT>, org.j8unit.repository.javax.print.attribute.URISyntaxClassTests<SUT> {

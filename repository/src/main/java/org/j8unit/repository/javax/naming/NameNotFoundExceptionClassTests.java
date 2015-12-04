@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.NameNotFoundExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NameNotFoundExceptionClassTests<SUT extends Class<? extends javax.naming.NameNotFoundException>>
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {

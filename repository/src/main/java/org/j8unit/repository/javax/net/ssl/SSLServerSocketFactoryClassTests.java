@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.SSLServerSocketFactoryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SSLServerSocketFactoryClassTests<SUT extends Class<? extends javax.net.ssl.SSLServerSocketFactory>>
 extends org.j8unit.repository.javax.net.ServerSocketFactoryClassTests<SUT> {

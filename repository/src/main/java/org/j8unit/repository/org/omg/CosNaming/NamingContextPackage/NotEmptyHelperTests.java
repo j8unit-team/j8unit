@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmptyHelperClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotEmptyHelperTests<SUT extends org.omg.CosNaming.NamingContextPackage.NotEmptyHelper>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

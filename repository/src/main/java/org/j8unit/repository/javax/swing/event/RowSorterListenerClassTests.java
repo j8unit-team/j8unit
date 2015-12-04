@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.RowSorterListenerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RowSorterListenerClassTests<SUT extends Class<? extends javax.swing.event.RowSorterListener>>
 extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {

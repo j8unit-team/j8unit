@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @see org.j8unit.repository.javax.xml.stream.XMLEventReaderClassTests
  */
 @SuppressWarnings("rawtypes")
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLEventReaderTests<SUT extends javax.xml.stream.XMLEventReader>
 extends org.j8unit.repository.java.util.IteratorTests {

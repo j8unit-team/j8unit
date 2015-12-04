@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.xpath.XPathFunctionExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XPathFunctionExceptionTests<SUT extends javax.xml.xpath.XPathFunctionException>
 extends org.j8unit.repository.javax.xml.xpath.XPathExpressionExceptionTests<SUT> {

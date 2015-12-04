@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.DynamicAny._DynSequenceStubClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _DynSequenceStubTests<SUT extends org.omg.DynamicAny._DynSequenceStub>
 extends org.j8unit.repository.org.omg.DynamicAny.DynSequenceTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectImplTests<SUT> {

@@ -28,6 +28,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.ReaderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ReaderClassTests<SUT extends Class<? extends java.io.Reader>>
 extends org.j8unit.repository.java.lang.ReadableClassTests<SUT>, org.j8unit.repository.java.io.CloseableClassTests<SUT>,

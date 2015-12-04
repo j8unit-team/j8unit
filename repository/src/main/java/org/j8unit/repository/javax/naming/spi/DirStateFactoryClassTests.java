@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.spi.DirStateFactoryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DirStateFactoryClassTests<SUT extends Class<? extends javax.naming.spi.DirStateFactory>>
 extends org.j8unit.repository.javax.naming.spi.StateFactoryClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.javax.naming.spi.StateFactoryClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.naming.spi.DirStateFactoryTests.ResultTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ResultClassTests<SUT extends Class<? extends javax.naming.spi.DirStateFactory.Result>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

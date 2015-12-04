@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.DesktopTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DesktopClassTests<SUT extends Class<? extends java.awt.Desktop>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.DesktopTests.ActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ActionClassTests<SUT extends Class<? extends java.awt.Desktop.Action>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.Desktop.Action> {

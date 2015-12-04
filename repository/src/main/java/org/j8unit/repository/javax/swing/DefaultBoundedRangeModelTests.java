@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.DefaultBoundedRangeModelClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultBoundedRangeModelTests<SUT extends javax.swing.DefaultBoundedRangeModel>
 extends org.j8unit.repository.javax.swing.BoundedRangeModelTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,

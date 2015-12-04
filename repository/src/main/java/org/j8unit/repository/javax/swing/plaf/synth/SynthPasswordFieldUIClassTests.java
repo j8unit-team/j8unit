@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.synth.SynthPasswordFieldUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthPasswordFieldUIClassTests<SUT extends Class<? extends javax.swing.plaf.synth.SynthPasswordFieldUI>>
 extends org.j8unit.repository.javax.swing.plaf.synth.SynthTextFieldUIClassTests<SUT> {

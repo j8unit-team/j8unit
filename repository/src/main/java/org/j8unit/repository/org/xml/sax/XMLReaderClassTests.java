@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.XMLReaderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLReaderClassTests<SUT extends Class<? extends org.xml.sax.XMLReader>>
 extends J8UnitTest<SUT> {

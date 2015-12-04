@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.html.HTMLQuoteElementTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLQuoteElementClassTests<SUT extends Class<? extends org.w3c.dom.html.HTMLQuoteElement>>
 extends org.j8unit.repository.org.w3c.dom.html.HTMLElementClassTests<SUT> {

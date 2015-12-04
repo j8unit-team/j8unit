@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.EventHandlerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EventHandlerClassTests<SUT extends Class<? extends java.beans.EventHandler>>
 extends org.j8unit.repository.java.lang.reflect.InvocationHandlerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

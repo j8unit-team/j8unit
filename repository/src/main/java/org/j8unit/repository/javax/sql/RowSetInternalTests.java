@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.RowSetInternalClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RowSetInternalTests<SUT extends javax.sql.RowSetInternal>
 extends J8UnitTest<SUT> {

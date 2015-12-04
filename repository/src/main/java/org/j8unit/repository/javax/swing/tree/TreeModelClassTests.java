@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.tree.TreeModelTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TreeModelClassTests<SUT extends Class<? extends javax.swing.tree.TreeModel>>
 extends J8UnitTest<SUT> {

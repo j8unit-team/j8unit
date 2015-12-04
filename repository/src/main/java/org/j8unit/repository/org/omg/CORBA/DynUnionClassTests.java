@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.DynUnionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynUnionClassTests<SUT extends Class<? extends org.omg.CORBA.DynUnion>>
 extends org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.DynAnyClassTests<SUT> {

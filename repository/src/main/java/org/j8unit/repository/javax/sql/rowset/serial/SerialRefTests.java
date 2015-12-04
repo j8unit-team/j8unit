@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.rowset.serial.SerialRefClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SerialRefTests<SUT extends javax.sql.rowset.serial.SerialRef>
 extends org.j8unit.repository.java.sql.RefTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>,

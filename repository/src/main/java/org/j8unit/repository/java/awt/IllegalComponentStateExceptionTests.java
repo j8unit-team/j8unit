@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.IllegalComponentStateExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IllegalComponentStateExceptionTests<SUT extends java.awt.IllegalComponentStateException>
 extends org.j8unit.repository.java.lang.IllegalStateExceptionTests<SUT> {

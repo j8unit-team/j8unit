@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.DatagramSocketImplClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DatagramSocketImplTests<SUT extends java.net.DatagramSocketImpl>
 extends org.j8unit.repository.java.net.SocketOptionsTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

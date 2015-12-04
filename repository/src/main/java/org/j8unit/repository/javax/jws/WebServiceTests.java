@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.jws.WebServiceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WebServiceTests<SUT extends javax.jws.WebService>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {

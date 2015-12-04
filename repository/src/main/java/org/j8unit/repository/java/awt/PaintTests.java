@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.PaintClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PaintTests<SUT extends java.awt.Paint>
 extends org.j8unit.repository.java.awt.TransparencyTests<SUT> {

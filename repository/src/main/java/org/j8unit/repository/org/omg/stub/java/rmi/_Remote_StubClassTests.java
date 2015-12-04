@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.stub.java.rmi._Remote_StubTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _Remote_StubClassTests<SUT extends Class<? extends org.omg.stub.java.rmi._Remote_Stub>>
 extends org.j8unit.repository.java.rmi.RemoteClassTests<SUT>, org.j8unit.repository.javax.rmi.CORBA.StubClassTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalComboBoxUITests<SUT extends javax.swing.plaf.metal.MetalComboBoxUI>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalComboBoxLayoutManagerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalComboBoxLayoutManagerTests<SUT extends javax.swing.plaf.metal.MetalComboBoxUI.MetalComboBoxLayoutManager>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.ComboBoxLayoutManagerTests<SUT> {
@@ -88,6 +90,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalComboPopupClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalComboPopupTests<SUT extends javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupTests<SUT> {
@@ -123,6 +126,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxUIClassTests.MetalPropertyChangeListenerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MetalPropertyChangeListenerTests<SUT extends javax.swing.plaf.metal.MetalComboBoxUI.MetalPropertyChangeListener>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUITests.PropertyChangeHandlerTests<SUT> {

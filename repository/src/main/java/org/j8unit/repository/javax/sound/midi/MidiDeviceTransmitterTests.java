@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.midi.MidiDeviceTransmitterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MidiDeviceTransmitterTests<SUT extends javax.sound.midi.MidiDeviceTransmitter>
 extends org.j8unit.repository.javax.sound.midi.TransmitterTests<SUT> {

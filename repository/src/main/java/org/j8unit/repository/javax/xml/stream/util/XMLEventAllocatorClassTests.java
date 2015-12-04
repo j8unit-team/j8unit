@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.stream.util.XMLEventAllocatorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLEventAllocatorClassTests<SUT extends Class<? extends javax.xml.stream.util.XMLEventAllocator>>
 extends J8UnitTest<SUT> {

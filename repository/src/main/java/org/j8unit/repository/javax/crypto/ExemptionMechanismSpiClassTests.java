@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.ExemptionMechanismSpiTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExemptionMechanismSpiClassTests<SUT extends Class<? extends javax.crypto.ExemptionMechanismSpi>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

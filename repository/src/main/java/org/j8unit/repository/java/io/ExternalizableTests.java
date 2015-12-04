@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.ExternalizableClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExternalizableTests<SUT extends java.io.Externalizable>
 extends org.j8unit.repository.java.io.SerializableTests<SUT> {

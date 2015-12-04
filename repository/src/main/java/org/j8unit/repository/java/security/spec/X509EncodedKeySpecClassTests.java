@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.spec.X509EncodedKeySpecTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface X509EncodedKeySpecClassTests<SUT extends Class<? extends java.security.spec.X509EncodedKeySpec>>
 extends org.j8unit.repository.java.security.spec.EncodedKeySpecClassTests<SUT> {

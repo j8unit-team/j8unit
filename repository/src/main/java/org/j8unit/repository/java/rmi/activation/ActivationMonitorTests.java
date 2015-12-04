@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.activation.ActivationMonitorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActivationMonitorTests<SUT extends java.rmi.activation.ActivationMonitor>
 extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.NameListClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NameListTests<SUT extends org.w3c.dom.NameList>
 extends J8UnitTest<SUT> {

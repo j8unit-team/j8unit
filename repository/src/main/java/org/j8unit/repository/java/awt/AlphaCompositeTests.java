@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.AlphaCompositeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AlphaCompositeTests<SUT extends java.awt.AlphaComposite>
 extends org.j8unit.repository.java.awt.CompositeTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

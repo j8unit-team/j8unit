@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.HttpRetryExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HttpRetryExceptionTests<SUT extends java.net.HttpRetryException>
 extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {

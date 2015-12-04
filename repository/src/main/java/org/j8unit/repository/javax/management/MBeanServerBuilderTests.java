@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.MBeanServerBuilderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MBeanServerBuilderTests<SUT extends javax.management.MBeanServerBuilder>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

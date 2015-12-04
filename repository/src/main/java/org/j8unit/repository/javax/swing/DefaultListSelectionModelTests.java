@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.DefaultListSelectionModelClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultListSelectionModelTests<SUT extends javax.swing.DefaultListSelectionModel>
 extends org.j8unit.repository.javax.swing.ListSelectionModelTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>,

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultTreeCellEditorClassTests<SUT extends Class<? extends javax.swing.tree.DefaultTreeCellEditor>>
 extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.javax.swing.tree.TreeCellEditorClassTests<SUT>,
@@ -62,6 +63,7 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests<SUT>, or
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.DefaultTextFieldTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultTextFieldClassTests<SUT extends Class<? extends javax.swing.tree.DefaultTreeCellEditor.DefaultTextField>>
     extends org.j8unit.repository.javax.swing.JTextFieldClassTests<SUT> {
@@ -122,6 +124,7 @@ org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests<SUT>, or
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.tree.DefaultTreeCellEditorTests.EditorContainerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EditorContainerClassTests<SUT extends Class<? extends javax.swing.tree.DefaultTreeCellEditor.EditorContainer>>
     extends org.j8unit.repository.java.awt.ContainerClassTests<SUT> {

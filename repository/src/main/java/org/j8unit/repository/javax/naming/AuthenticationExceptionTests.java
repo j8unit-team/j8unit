@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.AuthenticationExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AuthenticationExceptionTests<SUT extends javax.naming.AuthenticationException>
 extends org.j8unit.repository.javax.naming.NamingSecurityExceptionTests<SUT> {

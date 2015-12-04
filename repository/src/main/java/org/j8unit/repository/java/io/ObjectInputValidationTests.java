@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.ObjectInputValidationClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectInputValidationTests<SUT extends java.io.ObjectInputValidation>
 extends J8UnitTest<SUT> {

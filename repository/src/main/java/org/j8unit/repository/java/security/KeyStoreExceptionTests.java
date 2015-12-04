@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.KeyStoreExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeyStoreExceptionTests<SUT extends java.security.KeyStoreException>
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicScrollPaneUITests<SUT extends javax.swing.plaf.basic.BasicScrollPaneUI>
 extends org.j8unit.repository.javax.swing.ScrollPaneConstantsTests<SUT>, org.j8unit.repository.javax.swing.plaf.ScrollPaneUITests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.ScrollPaneConstantsTests<SUT>, org.j8u
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.HSBChangeListenerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HSBChangeListenerTests<SUT extends javax.swing.plaf.basic.BasicScrollPaneUI.HSBChangeListener>
     extends org.j8unit.repository.javax.swing.event.ChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -70,6 +72,7 @@ extends org.j8unit.repository.javax.swing.ScrollPaneConstantsTests<SUT>, org.j8u
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.PropertyChangeHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerTests<SUT extends javax.swing.plaf.basic.BasicScrollPaneUI.PropertyChangeHandler>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -108,6 +111,7 @@ extends org.j8unit.repository.javax.swing.ScrollPaneConstantsTests<SUT>, org.j8u
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.ViewportChangeHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ViewportChangeHandlerTests<SUT extends javax.swing.plaf.basic.BasicScrollPaneUI.ViewportChangeHandler>
     extends org.j8unit.repository.javax.swing.event.ChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -145,6 +149,7 @@ extends org.j8unit.repository.javax.swing.ScrollPaneConstantsTests<SUT>, org.j8u
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicScrollPaneUIClassTests.VSBChangeListenerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface VSBChangeListenerTests<SUT extends javax.swing.plaf.basic.BasicScrollPaneUI.VSBChangeListener>
     extends org.j8unit.repository.javax.swing.event.ChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

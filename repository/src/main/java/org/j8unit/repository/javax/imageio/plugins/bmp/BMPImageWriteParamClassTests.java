@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.plugins.bmp.BMPImageWriteParamTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BMPImageWriteParamClassTests<SUT extends Class<? extends javax.imageio.plugins.bmp.BMPImageWriteParam>>
 extends org.j8unit.repository.javax.imageio.ImageWriteParamClassTests<SUT> {

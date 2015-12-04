@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.PropertyEditorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PropertyEditorTests<SUT extends java.beans.PropertyEditor>
 extends J8UnitTest<SUT> {

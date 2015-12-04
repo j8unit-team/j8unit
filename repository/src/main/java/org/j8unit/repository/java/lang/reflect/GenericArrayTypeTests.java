@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.GenericArrayTypeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GenericArrayTypeTests<SUT extends java.lang.reflect.GenericArrayType>
 extends org.j8unit.repository.java.lang.reflect.TypeTests<SUT> {

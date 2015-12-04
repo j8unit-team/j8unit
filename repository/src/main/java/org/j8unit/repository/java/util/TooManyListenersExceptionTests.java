@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.TooManyListenersExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TooManyListenersExceptionTests<SUT extends java.util.TooManyListenersException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {

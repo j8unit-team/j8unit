@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.LongBufferClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LongBufferTests<SUT extends java.nio.LongBuffer>
 extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.LongBuffer>, org.j8unit.repository.java.nio.BufferTests<SUT> {

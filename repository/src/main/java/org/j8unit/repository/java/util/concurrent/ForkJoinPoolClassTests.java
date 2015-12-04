@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ForkJoinPoolClassTests<SUT extends Class<? extends java.util.concurrent.ForkJoinPool>>
 extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassTests<SUT> {
@@ -62,6 +63,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests.ForkJoinWorkerThreadFactoryTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ForkJoinWorkerThreadFactoryClassTests<SUT extends Class<? extends java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory>>
     extends J8UnitTest<SUT> {
@@ -103,6 +105,7 @@ extends org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassT
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.ForkJoinPoolTests.ManagedBlockerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ManagedBlockerClassTests<SUT extends Class<? extends java.util.concurrent.ForkJoinPool.ManagedBlocker>>
     extends J8UnitTest<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.table.TableRowSorterTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TableRowSorterClassTests<SUT extends Class<? extends javax.swing.table.TableRowSorter<M>>, M extends javax.swing.table.TableModel>
 extends org.j8unit.repository.javax.swing.DefaultRowSorterClassTests<SUT, M, java.lang.Integer> {

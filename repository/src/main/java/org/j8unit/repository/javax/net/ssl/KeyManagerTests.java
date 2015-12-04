@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.KeyManagerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeyManagerTests<SUT extends javax.net.ssl.KeyManager>
 extends J8UnitTest<SUT> {

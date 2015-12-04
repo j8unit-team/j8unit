@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.NormalizerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NormalizerClassTests<SUT extends Class<? extends java.text.Normalizer>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.text.NormalizerTests.FormTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FormClassTests<SUT extends Class<? extends java.text.Normalizer.Form>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.text.Normalizer.Form> {

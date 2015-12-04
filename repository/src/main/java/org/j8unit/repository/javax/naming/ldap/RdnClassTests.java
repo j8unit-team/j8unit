@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.ldap.RdnTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RdnClassTests<SUT extends Class<? extends javax.naming.ldap.Rdn>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Object>,

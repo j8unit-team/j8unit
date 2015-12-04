@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.StatementClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StatementTests<SUT extends java.sql.Statement>
 extends org.j8unit.repository.java.sql.WrapperTests<SUT>, org.j8unit.repository.java.lang.AutoCloseableTests<SUT> {

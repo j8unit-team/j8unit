@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.dnd.peer.DropTargetContextPeerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DropTargetContextPeerTests<SUT extends java.awt.dnd.peer.DropTargetContextPeer>
 extends J8UnitTest<SUT> {

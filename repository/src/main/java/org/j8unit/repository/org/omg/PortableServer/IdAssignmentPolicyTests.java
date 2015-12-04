@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.IdAssignmentPolicyClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IdAssignmentPolicyTests<SUT extends org.omg.PortableServer.IdAssignmentPolicy>
 extends org.j8unit.repository.org.omg.PortableServer.IdAssignmentPolicyOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.PolicyTests<SUT>,

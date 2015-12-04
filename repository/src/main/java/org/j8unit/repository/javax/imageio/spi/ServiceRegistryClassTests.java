@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.spi.ServiceRegistryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServiceRegistryClassTests<SUT extends Class<? extends javax.imageio.spi.ServiceRegistry>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -62,6 +63,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.imageio.spi.ServiceRegistryTests.FilterTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FilterClassTests<SUT extends Class<? extends javax.imageio.spi.ServiceRegistry.Filter>>
     extends J8UnitTest<SUT> {

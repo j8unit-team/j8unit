@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.DocTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocClassTests<SUT extends Class<? extends javax.print.Doc>>
 extends J8UnitTest<SUT> {

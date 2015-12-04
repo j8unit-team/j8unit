@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ComparatorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ComparatorClassTests<SUT extends Class<? extends java.util.Comparator<T>>, T>
 extends J8UnitTest<SUT> {

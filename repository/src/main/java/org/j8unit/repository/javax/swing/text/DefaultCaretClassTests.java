@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.DefaultCaretTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultCaretClassTests<SUT extends Class<? extends javax.swing.text.DefaultCaret>>
 extends org.j8unit.repository.javax.swing.text.CaretClassTests<SUT>, org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>,

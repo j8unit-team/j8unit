@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.StubNotFoundExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StubNotFoundExceptionClassTests<SUT extends Class<? extends java.rmi.StubNotFoundException>>
 extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {

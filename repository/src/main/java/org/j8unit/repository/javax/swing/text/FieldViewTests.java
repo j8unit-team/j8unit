@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.FieldViewClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FieldViewTests<SUT extends javax.swing.text.FieldView>
 extends org.j8unit.repository.javax.swing.text.PlainViewTests<SUT> {

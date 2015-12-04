@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.PKCS12AttributeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PKCS12AttributeClassTests<SUT extends Class<? extends java.security.PKCS12Attribute>>
 extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests.AttributeClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

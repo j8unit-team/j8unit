@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.CallableTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CallableClassTests<SUT extends Class<? extends java.util.concurrent.Callable<V>>, V>
 extends J8UnitTest<SUT> {

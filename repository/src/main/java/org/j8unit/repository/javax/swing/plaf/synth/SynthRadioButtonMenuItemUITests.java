@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.synth.SynthRadioButtonMenuItemUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthRadioButtonMenuItemUITests<SUT extends javax.swing.plaf.synth.SynthRadioButtonMenuItemUI>
 extends org.j8unit.repository.javax.swing.plaf.synth.SynthMenuItemUITests<SUT> {

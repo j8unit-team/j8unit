@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.element.NestingKindTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NestingKindClassTests<SUT extends Class<? extends javax.lang.model.element.NestingKind>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.lang.model.element.NestingKind> {

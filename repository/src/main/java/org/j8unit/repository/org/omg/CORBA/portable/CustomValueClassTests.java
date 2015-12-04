@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.portable.CustomValueTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CustomValueClassTests<SUT extends Class<? extends org.omg.CORBA.portable.CustomValue>>
 extends org.j8unit.repository.org.omg.CORBA.portable.ValueBaseClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.CustomMarshalClassTests<SUT> {

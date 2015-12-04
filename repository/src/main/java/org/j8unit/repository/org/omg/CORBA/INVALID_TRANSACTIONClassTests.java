@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.INVALID_TRANSACTIONTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface INVALID_TRANSACTIONClassTests<SUT extends Class<? extends org.omg.CORBA.INVALID_TRANSACTION>>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {

@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.EnumSetTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EnumSetClassTests<SUT extends Class<? extends java.util.EnumSet<E>>, E extends java.lang.Enum<E>>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

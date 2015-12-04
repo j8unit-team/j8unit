@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.annotation.processing.SupportedOptionsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SupportedOptionsTests<SUT extends javax.annotation.processing.SupportedOptions>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.callback.PasswordCallbackTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PasswordCallbackClassTests<SUT extends Class<? extends javax.security.auth.callback.PasswordCallback>>
 extends org.j8unit.repository.javax.security.auth.callback.CallbackClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

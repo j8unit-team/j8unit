@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.CollationKeyClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CollationKeyTests<SUT extends java.text.CollationKey>
 extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.text.CollationKey>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

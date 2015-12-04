@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.SizeSequenceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SizeSequenceTests<SUT extends javax.swing.SizeSequence>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

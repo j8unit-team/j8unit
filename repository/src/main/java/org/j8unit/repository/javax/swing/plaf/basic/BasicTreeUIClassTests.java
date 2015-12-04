@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicTreeUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI>>
 extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.CellEditorHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CellEditorHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.CellEditorHandler>>
     extends org.j8unit.repository.javax.swing.event.CellEditorListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -119,6 +121,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.ComponentHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ComponentHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.ComponentHandler>>
     extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.ComponentAdapterClassTests<SUT> {
@@ -177,6 +180,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.FocusHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FocusHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.FocusHandler>>
     extends org.j8unit.repository.java.awt.event.FocusListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -235,6 +239,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.KeyHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.KeyHandler>>
     extends org.j8unit.repository.java.awt.event.KeyAdapterClassTests<SUT> {
@@ -293,6 +298,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.MouseHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MouseHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.MouseHandler>>
     extends org.j8unit.repository.java.awt.event.MouseMotionListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.MouseAdapterClassTests<SUT> {
@@ -351,6 +357,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.MouseInputHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MouseInputHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.MouseInputHandler>>
     extends org.j8unit.repository.javax.swing.event.MouseInputListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -411,6 +418,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.NodeDimensionsHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface NodeDimensionsHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.NodeDimensionsHandler>>
     extends org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests.NodeDimensionsClassTests<SUT> {
@@ -469,6 +477,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.PropertyChangeHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.PropertyChangeHandler>>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -527,6 +536,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.SelectionModelPropertyChangeHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SelectionModelPropertyChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler>>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -586,6 +596,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeCancelEditingActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeCancelEditingActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction>>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
@@ -646,6 +657,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeExpansionHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeExpansionHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeExpansionHandler>>
     extends org.j8unit.repository.javax.swing.event.TreeExpansionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -704,6 +716,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeHomeActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeHomeActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction>>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
@@ -763,6 +776,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeIncrementActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeIncrementActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction>>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
@@ -823,6 +837,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeModelHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeModelHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeModelHandler>>
     extends org.j8unit.repository.javax.swing.event.TreeModelListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -881,6 +896,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreePageActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreePageActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreePageAction>>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
@@ -940,6 +956,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeSelectionHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeSelectionHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeSelectionHandler>>
     extends org.j8unit.repository.javax.swing.event.TreeSelectionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -998,6 +1015,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeToggleActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeToggleActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeToggleAction>>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
@@ -1057,6 +1075,7 @@ extends org.j8unit.repository.javax.swing.plaf.TreeUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTreeUITests.TreeTraverseActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeTraverseActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTreeUI.TreeTraverseAction>>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {

@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.acl.GroupTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GroupClassTests<SUT extends Class<? extends java.security.acl.Group>>
 extends org.j8unit.repository.java.security.PrincipalClassTests<SUT> {

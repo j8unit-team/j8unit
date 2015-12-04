@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.AWTPermissionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AWTPermissionClassTests<SUT extends Class<? extends java.awt.AWTPermission>>
 extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {

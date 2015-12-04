@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.BufferCapabilitiesTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BufferCapabilitiesClassTests<SUT extends Class<? extends java.awt.BufferCapabilities>>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.BufferCapabilitiesTests.FlipContentsTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FlipContentsClassTests<SUT extends Class<? extends java.awt.BufferCapabilities.FlipContents>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.JobPrioritySupportedClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JobPrioritySupportedTests<SUT extends javax.print.attribute.standard.JobPrioritySupported>
 extends org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.IntegerSyntaxTests<SUT> {

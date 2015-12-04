@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.AttributedCharacterIteratorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributedCharacterIteratorClassTests<SUT extends Class<? extends java.text.AttributedCharacterIterator>>
 extends org.j8unit.repository.java.text.CharacterIteratorClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.java.text.CharacterIteratorClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.text.AttributedCharacterIteratorTests.AttributeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AttributeClassTests<SUT extends Class<? extends java.text.AttributedCharacterIterator.Attribute>>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

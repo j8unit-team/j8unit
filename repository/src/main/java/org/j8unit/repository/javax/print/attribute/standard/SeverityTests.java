@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.SeverityClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SeverityTests<SUT extends javax.print.attribute.standard.Severity>
 extends org.j8unit.repository.javax.print.attribute.AttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.EnumSyntaxTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicInternalFrameUITests<SUT extends javax.swing.plaf.basic.BasicInternalFrameUI>
 extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests.InternalFrameLayoutClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InternalFrameLayoutTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameUI.InternalFrameLayout>
     extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -148,6 +150,7 @@ extends org.j8unit.repository.javax.swing.plaf.InternalFrameUITests<SUT> {
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameUIClassTests.
      *      InternalFramePropertyChangeListenerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InternalFramePropertyChangeListenerTests<SUT extends javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

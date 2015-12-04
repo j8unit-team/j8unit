@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.timer.TimerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TimerClassTests<SUT extends Class<? extends javax.management.timer.Timer>>
 extends org.j8unit.repository.javax.management.timer.TimerMBeanClassTests<SUT>, org.j8unit.repository.javax.management.MBeanRegistrationClassTests<SUT>,

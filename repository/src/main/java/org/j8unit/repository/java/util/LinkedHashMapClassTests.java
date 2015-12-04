@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.LinkedHashMapTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LinkedHashMapClassTests<SUT extends Class<? extends java.util.LinkedHashMap<K, V>>, K, V>
 extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.repository.java.util.HashMapClassTests<SUT, K, V> {

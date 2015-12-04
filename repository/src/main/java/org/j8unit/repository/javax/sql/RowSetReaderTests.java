@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.RowSetReaderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RowSetReaderTests<SUT extends javax.sql.RowSetReader>
 extends J8UnitTest<SUT> {

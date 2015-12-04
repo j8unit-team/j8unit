@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.AttributeSetTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributeSetClassTests<SUT extends Class<? extends javax.swing.text.AttributeSet>>
 extends J8UnitTest<SUT> {
@@ -60,6 +61,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AttributeSetTests.CharacterAttributeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CharacterAttributeClassTests<SUT extends Class<? extends javax.swing.text.AttributeSet.CharacterAttribute>>
     extends J8UnitTest<SUT> {
@@ -101,6 +103,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AttributeSetTests.ColorAttributeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ColorAttributeClassTests<SUT extends Class<? extends javax.swing.text.AttributeSet.ColorAttribute>>
     extends J8UnitTest<SUT> {
@@ -142,6 +145,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AttributeSetTests.FontAttributeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FontAttributeClassTests<SUT extends Class<? extends javax.swing.text.AttributeSet.FontAttribute>>
     extends J8UnitTest<SUT> {
@@ -183,6 +187,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AttributeSetTests.ParagraphAttributeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParagraphAttributeClassTests<SUT extends Class<? extends javax.swing.text.AttributeSet.ParagraphAttribute>>
     extends J8UnitTest<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.InternalFrameEventTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InternalFrameEventClassTests<SUT extends Class<? extends javax.swing.event.InternalFrameEvent>>
 extends org.j8unit.repository.java.awt.AWTEventClassTests<SUT> {

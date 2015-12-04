@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.helpers.ParserAdapterTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ParserAdapterClassTests<SUT extends Class<? extends org.xml.sax.helpers.ParserAdapter>>
 extends org.j8unit.repository.org.xml.sax.XMLReaderClassTests<SUT>, org.j8unit.repository.org.xml.sax.DocumentHandlerClassTests<SUT>,

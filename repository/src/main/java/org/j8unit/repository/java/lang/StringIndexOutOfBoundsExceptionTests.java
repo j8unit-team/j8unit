@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.StringIndexOutOfBoundsExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StringIndexOutOfBoundsExceptionTests<SUT extends java.lang.StringIndexOutOfBoundsException>
 extends org.j8unit.repository.java.lang.IndexOutOfBoundsExceptionTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.type.MirroredTypeExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MirroredTypeExceptionClassTests<SUT extends Class<? extends javax.lang.model.type.MirroredTypeException>>
 extends org.j8unit.repository.javax.lang.model.type.MirroredTypesExceptionClassTests<SUT> {

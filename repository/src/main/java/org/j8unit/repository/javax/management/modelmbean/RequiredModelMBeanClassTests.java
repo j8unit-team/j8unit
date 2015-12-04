@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.modelmbean.RequiredModelMBeanTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RequiredModelMBeanClassTests<SUT extends Class<? extends javax.management.modelmbean.RequiredModelMBean>>
 extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanClassTests<SUT>, org.j8unit.repository.javax.management.MBeanRegistrationClassTests<SUT>,

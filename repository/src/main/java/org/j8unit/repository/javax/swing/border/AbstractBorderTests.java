@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.border.AbstractBorderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractBorderTests<SUT extends javax.swing.border.AbstractBorder>
 extends org.j8unit.repository.javax.swing.border.BorderTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,

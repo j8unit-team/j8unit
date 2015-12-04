@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.CacheResponseClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CacheResponseTests<SUT extends java.net.CacheResponse>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

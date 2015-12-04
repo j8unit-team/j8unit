@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.annotation.InheritedTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InheritedClassTests<SUT extends Class<? extends java.lang.annotation.Inherited>>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {

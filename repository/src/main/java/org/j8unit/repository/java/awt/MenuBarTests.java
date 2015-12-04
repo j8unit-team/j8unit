@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.MenuBarClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MenuBarTests<SUT extends java.awt.MenuBar>
 extends org.j8unit.repository.java.awt.MenuContainerTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>,

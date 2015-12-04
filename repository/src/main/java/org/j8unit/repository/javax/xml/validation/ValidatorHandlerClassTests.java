@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.validation.ValidatorHandlerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ValidatorHandlerClassTests<SUT extends Class<? extends javax.xml.validation.ValidatorHandler>>
 extends org.j8unit.repository.org.xml.sax.ContentHandlerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

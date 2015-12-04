@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.AlgorithmConstraintsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AlgorithmConstraintsClassTests<SUT extends Class<? extends java.security.AlgorithmConstraints>>
 extends J8UnitTest<SUT> {

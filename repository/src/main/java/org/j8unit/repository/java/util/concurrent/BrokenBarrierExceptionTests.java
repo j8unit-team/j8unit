@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.BrokenBarrierExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BrokenBarrierExceptionTests<SUT extends java.util.concurrent.BrokenBarrierException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {

@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableInterceptor.ClientRequestInterceptorOperationsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ClientRequestInterceptorOperationsClassTests<SUT extends Class<? extends org.omg.PortableInterceptor.ClientRequestInterceptorOperations>>
 extends org.j8unit.repository.org.omg.PortableInterceptor.InterceptorOperationsClassTests<SUT> {

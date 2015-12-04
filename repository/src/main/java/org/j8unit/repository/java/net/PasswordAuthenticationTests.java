@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.PasswordAuthenticationClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PasswordAuthenticationTests<SUT extends java.net.PasswordAuthentication>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

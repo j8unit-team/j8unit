@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.LocalTimeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LocalTimeClassTests<SUT extends Class<? extends java.time.LocalTime>>
 extends org.j8unit.repository.java.time.temporal.TemporalClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT>,

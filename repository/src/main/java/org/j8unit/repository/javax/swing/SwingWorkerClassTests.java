@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.SwingWorkerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SwingWorkerClassTests<SUT extends Class<? extends javax.swing.SwingWorker<T, V>>, T, V>
 extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT, T>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT,
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.SwingWorkerTests.StateValueTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StateValueClassTests<SUT extends Class<? extends javax.swing.SwingWorker.StateValue>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.SwingWorker.StateValue> {

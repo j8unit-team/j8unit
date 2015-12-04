@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.SSLEngineResultTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SSLEngineResultClassTests<SUT extends Class<? extends javax.net.ssl.SSLEngineResult>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.HandshakeStatusTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HandshakeStatusClassTests<SUT extends Class<? extends javax.net.ssl.SSLEngineResult.HandshakeStatus>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.net.ssl.SSLEngineResult.HandshakeStatus> {
@@ -135,6 +137,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.net.ssl.SSLEngineResultTests.StatusTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StatusClassTests<SUT extends Class<? extends javax.net.ssl.SSLEngineResult.Status>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.net.ssl.SSLEngineResult.Status> {

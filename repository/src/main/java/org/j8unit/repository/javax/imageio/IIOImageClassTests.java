@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.IIOImageTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IIOImageClassTests<SUT extends Class<? extends javax.imageio.IIOImage>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

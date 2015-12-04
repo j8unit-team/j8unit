@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.midi.MidiDeviceTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MidiDeviceClassTests<SUT extends Class<? extends javax.sound.midi.MidiDevice>>
 extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
@@ -58,6 +59,7 @@ extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.midi.MidiDeviceTests.InfoTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InfoClassTests<SUT extends Class<? extends javax.sound.midi.MidiDevice.Info>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.LookupOpClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LookupOpTests<SUT extends java.awt.image.LookupOp>
 extends org.j8unit.repository.java.awt.image.BufferedImageOpTests<SUT>, org.j8unit.repository.java.awt.image.RasterOpTests<SUT>,

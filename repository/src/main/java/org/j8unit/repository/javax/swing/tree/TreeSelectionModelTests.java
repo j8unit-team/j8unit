@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.tree.TreeSelectionModelClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TreeSelectionModelTests<SUT extends javax.swing.tree.TreeSelectionModel>
 extends J8UnitTest<SUT> {

@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.NegativeArraySizeExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NegativeArraySizeExceptionTests<SUT extends java.lang.NegativeArraySizeException>
 extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {

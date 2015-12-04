@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.interfaces.DHPrivateKeyTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DHPrivateKeyClassTests<SUT extends Class<? extends javax.crypto.interfaces.DHPrivateKey>>
 extends org.j8unit.repository.javax.crypto.interfaces.DHKeyClassTests<SUT>, org.j8unit.repository.java.security.PrivateKeyClassTests<SUT> {

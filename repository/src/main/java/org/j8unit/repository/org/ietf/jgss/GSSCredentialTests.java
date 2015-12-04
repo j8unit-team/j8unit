@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.ietf.jgss.GSSCredentialClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GSSCredentialTests<SUT extends org.ietf.jgss.GSSCredential>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT> {

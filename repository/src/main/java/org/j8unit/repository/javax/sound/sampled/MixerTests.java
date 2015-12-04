@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.MixerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MixerTests<SUT extends javax.sound.sampled.Mixer>
 extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.javax.sound.sampled.LineTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.sampled.MixerClassTests.InfoClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InfoTests<SUT extends javax.sound.sampled.Mixer.Info>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

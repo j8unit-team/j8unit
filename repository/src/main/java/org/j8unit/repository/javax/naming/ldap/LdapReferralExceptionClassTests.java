@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.ldap.LdapReferralExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LdapReferralExceptionClassTests<SUT extends Class<? extends javax.naming.ldap.LdapReferralException>>
 extends org.j8unit.repository.javax.naming.ReferralExceptionClassTests<SUT> {

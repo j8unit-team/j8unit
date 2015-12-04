@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.charset.CharsetTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharsetClassTests<SUT extends Class<? extends java.nio.charset.Charset>>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.charset.Charset>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

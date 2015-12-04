@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.ComboBoxModelClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ComboBoxModelTests<SUT extends javax.swing.ComboBoxModel<E>, E>
 extends org.j8unit.repository.javax.swing.ListModelTests<SUT, E> {

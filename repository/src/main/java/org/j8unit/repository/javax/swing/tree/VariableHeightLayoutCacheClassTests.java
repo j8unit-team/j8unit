@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.tree.VariableHeightLayoutCacheTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface VariableHeightLayoutCacheClassTests<SUT extends Class<? extends javax.swing.tree.VariableHeightLayoutCache>>
 extends org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests<SUT> {

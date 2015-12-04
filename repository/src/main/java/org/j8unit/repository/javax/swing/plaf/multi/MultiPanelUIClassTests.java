@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.multi.MultiPanelUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultiPanelUIClassTests<SUT extends Class<? extends javax.swing.plaf.multi.MultiPanelUI>>
 extends org.j8unit.repository.javax.swing.plaf.PanelUIClassTests<SUT> {

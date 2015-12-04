@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.UndoableEditListenerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UndoableEditListenerClassTests<SUT extends Class<? extends javax.swing.event.UndoableEditListener>>
 extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {

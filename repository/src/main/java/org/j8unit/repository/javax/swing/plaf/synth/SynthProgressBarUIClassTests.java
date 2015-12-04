@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.synth.SynthProgressBarUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthProgressBarUIClassTests<SUT extends Class<? extends javax.swing.plaf.synth.SynthProgressBarUI>>
 extends org.j8unit.repository.javax.swing.plaf.synth.SynthUIClassTests<SUT>, org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>,

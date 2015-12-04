@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.BAD_QOSTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BAD_QOSClassTests<SUT extends Class<? extends org.omg.CORBA.BAD_QOS>>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {

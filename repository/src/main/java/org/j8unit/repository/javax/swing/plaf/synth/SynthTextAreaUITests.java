@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.synth.SynthTextAreaUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthTextAreaUITests<SUT extends javax.swing.plaf.synth.SynthTextAreaUI>
 extends org.j8unit.repository.javax.swing.plaf.synth.SynthUITests<SUT>, org.j8unit.repository.javax.swing.plaf.basic.BasicTextAreaUITests<SUT> {

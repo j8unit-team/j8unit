@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.ModifierClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ModifierTests<SUT extends java.lang.reflect.Modifier>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

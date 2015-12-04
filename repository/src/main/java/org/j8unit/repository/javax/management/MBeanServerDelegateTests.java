@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.MBeanServerDelegateClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MBeanServerDelegateTests<SUT extends javax.management.MBeanServerDelegate>
 extends org.j8unit.repository.javax.management.MBeanServerDelegateMBeanTests<SUT>, org.j8unit.repository.javax.management.NotificationEmitterTests<SUT>,

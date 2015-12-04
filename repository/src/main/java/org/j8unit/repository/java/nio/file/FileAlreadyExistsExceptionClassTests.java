@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.FileAlreadyExistsExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileAlreadyExistsExceptionClassTests<SUT extends Class<? extends java.nio.file.FileAlreadyExistsException>>
 extends org.j8unit.repository.java.nio.file.FileSystemExceptionClassTests<SUT> {

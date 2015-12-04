@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.JAXBExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JAXBExceptionClassTests<SUT extends Class<? extends javax.xml.bind.JAXBException>>
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.element.ElementKindClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ElementKindTests<SUT extends javax.lang.model.element.ElementKind>
 extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.lang.model.element.ElementKind> {

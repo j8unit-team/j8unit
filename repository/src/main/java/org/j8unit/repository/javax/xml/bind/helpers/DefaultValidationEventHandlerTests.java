@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.helpers.DefaultValidationEventHandlerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultValidationEventHandlerTests<SUT extends javax.xml.bind.helpers.DefaultValidationEventHandler>
 extends org.j8unit.repository.javax.xml.bind.ValidationEventHandlerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

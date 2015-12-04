@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.synth.SynthSeparatorUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthSeparatorUIClassTests<SUT extends Class<? extends javax.swing.plaf.synth.SynthSeparatorUI>>
 extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.synth.SynthUIClassTests<SUT>,

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.openmbean.TabularDataClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TabularDataTests<SUT extends javax.management.openmbean.TabularData>
 extends J8UnitTest<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.FutureTaskTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FutureTaskClassTests<SUT extends Class<? extends java.util.concurrent.FutureTask<V>>, V>
 extends org.j8unit.repository.java.util.concurrent.RunnableFutureClassTests<SUT, V>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

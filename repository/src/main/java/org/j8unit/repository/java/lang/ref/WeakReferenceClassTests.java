@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.ref.WeakReferenceTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WeakReferenceClassTests<SUT extends Class<? extends java.lang.ref.WeakReference<T>>, T>
 extends org.j8unit.repository.java.lang.ref.ReferenceClassTests<SUT, T> {

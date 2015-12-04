@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.LongToIntFunctionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LongToIntFunctionTests<SUT extends java.util.function.LongToIntFunction>
 extends J8UnitTest<SUT> {

@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.type.UnionTypeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnionTypeClassTests<SUT extends Class<? extends javax.lang.model.type.UnionType>>
 extends org.j8unit.repository.javax.lang.model.type.TypeMirrorClassTests<SUT> {

@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.CTX_RESTRICT_SCOPETests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CTX_RESTRICT_SCOPEClassTests<SUT extends Class<? extends org.omg.CORBA.CTX_RESTRICT_SCOPE>>
 extends J8UnitTest<SUT> {

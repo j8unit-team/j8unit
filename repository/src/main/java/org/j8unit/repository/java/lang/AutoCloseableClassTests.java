@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.AutoCloseableTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AutoCloseableClassTests<SUT extends Class<? extends java.lang.AutoCloseable>>
 extends J8UnitTest<SUT> {

@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.MXBeanTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MXBeanClassTests<SUT extends Class<? extends javax.management.MXBean>>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.zip.CRC32ClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CRC32Tests<SUT extends java.util.zip.CRC32>
 extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

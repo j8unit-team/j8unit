@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.X509TrustManagerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface X509TrustManagerClassTests<SUT extends Class<? extends javax.net.ssl.X509TrustManager>>
 extends org.j8unit.repository.javax.net.ssl.TrustManagerClassTests<SUT> {

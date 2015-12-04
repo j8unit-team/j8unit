@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.x500.X500PrivateCredentialClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface X500PrivateCredentialTests<SUT extends javax.security.auth.x500.X500PrivateCredential>
 extends org.j8unit.repository.javax.security.auth.DestroyableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

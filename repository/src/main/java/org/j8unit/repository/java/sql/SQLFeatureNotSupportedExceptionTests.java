@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.SQLFeatureNotSupportedExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLFeatureNotSupportedExceptionTests<SUT extends java.sql.SQLFeatureNotSupportedException>
 extends org.j8unit.repository.java.sql.SQLNonTransientExceptionTests<SUT> {

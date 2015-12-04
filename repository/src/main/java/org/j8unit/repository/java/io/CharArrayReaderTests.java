@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.CharArrayReaderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharArrayReaderTests<SUT extends java.io.CharArrayReader>
 extends org.j8unit.repository.java.io.ReaderTests<SUT> {

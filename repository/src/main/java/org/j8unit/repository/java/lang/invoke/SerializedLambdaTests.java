@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.invoke.SerializedLambdaClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SerializedLambdaTests<SUT extends java.lang.invoke.SerializedLambda>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

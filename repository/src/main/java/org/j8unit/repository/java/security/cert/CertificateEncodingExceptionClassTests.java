@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.CertificateEncodingExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CertificateEncodingExceptionClassTests<SUT extends Class<? extends java.security.cert.CertificateEncodingException>>
 extends org.j8unit.repository.java.security.cert.CertificateExceptionClassTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.ArrayIndexOutOfBoundsExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ArrayIndexOutOfBoundsExceptionClassTests<SUT extends Class<? extends java.lang.ArrayIndexOutOfBoundsException>>
 extends org.j8unit.repository.java.lang.IndexOutOfBoundsExceptionClassTests<SUT> {

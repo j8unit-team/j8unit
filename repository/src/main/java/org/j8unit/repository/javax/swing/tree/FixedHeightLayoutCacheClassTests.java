@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.tree.FixedHeightLayoutCacheTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FixedHeightLayoutCacheClassTests<SUT extends Class<? extends javax.swing.tree.FixedHeightLayoutCache>>
 extends org.j8unit.repository.javax.swing.tree.AbstractLayoutCacheClassTests<SUT> {

@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.ARG_INOUTClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ARG_INOUTTests<SUT extends org.omg.CORBA.ARG_INOUT>
 extends J8UnitTest<SUT> {

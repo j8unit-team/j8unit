@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.monitor.CounterMonitorMBeanTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CounterMonitorMBeanClassTests<SUT extends Class<? extends javax.management.monitor.CounterMonitorMBean>>
 extends org.j8unit.repository.javax.management.monitor.MonitorMBeanClassTests<SUT> {

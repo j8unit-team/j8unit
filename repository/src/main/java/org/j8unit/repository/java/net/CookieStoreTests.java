@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.CookieStoreClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CookieStoreTests<SUT extends java.net.CookieStore>
 extends J8UnitTest<SUT> {

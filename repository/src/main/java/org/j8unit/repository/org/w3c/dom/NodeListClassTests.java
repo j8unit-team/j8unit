@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.NodeListTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NodeListClassTests<SUT extends Class<? extends org.w3c.dom.NodeList>>
 extends J8UnitTest<SUT> {

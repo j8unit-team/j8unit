@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.PropertyChangeListenerProxyTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PropertyChangeListenerProxyClassTests<SUT extends Class<? extends java.beans.PropertyChangeListenerProxy>>
 extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>,

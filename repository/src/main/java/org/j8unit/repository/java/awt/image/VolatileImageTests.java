@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.VolatileImageClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface VolatileImageTests<SUT extends java.awt.image.VolatileImage>
 extends org.j8unit.repository.java.awt.TransparencyTests<SUT>, org.j8unit.repository.java.awt.ImageTests<SUT> {

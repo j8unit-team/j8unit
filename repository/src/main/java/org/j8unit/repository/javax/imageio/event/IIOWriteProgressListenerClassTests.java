@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.event.IIOWriteProgressListenerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IIOWriteProgressListenerClassTests<SUT extends Class<? extends javax.imageio.event.IIOWriteProgressListener>>
 extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {

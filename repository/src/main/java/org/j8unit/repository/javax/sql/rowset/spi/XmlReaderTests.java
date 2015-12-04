@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.rowset.spi.XmlReaderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XmlReaderTests<SUT extends javax.sql.rowset.spi.XmlReader>
 extends org.j8unit.repository.javax.sql.RowSetReaderTests<SUT> {

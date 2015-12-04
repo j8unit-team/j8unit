@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.DelayQueueClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DelayQueueTests<SUT extends java.util.concurrent.DelayQueue<E>, E extends java.util.concurrent.Delayed>
 extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {

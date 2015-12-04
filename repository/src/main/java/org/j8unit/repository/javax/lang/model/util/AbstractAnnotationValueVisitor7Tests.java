@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisitor7ClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractAnnotationValueVisitor7Tests<SUT extends javax.lang.model.util.AbstractAnnotationValueVisitor7<R, P>, R, P>
 extends org.j8unit.repository.javax.lang.model.util.AbstractAnnotationValueVisitor6Tests<SUT, R, P> {

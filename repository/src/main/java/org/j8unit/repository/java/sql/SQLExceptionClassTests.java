@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.SQLExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLExceptionClassTests<SUT extends Class<? extends java.sql.SQLException>>
 extends org.j8unit.repository.java.lang.IterableClassTests<SUT, java.lang.Throwable>, org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {

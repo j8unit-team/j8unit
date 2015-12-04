@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.WritableRasterTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface WritableRasterClassTests<SUT extends Class<? extends java.awt.image.WritableRaster>>
 extends org.j8unit.repository.java.awt.image.RasterClassTests<SUT> {

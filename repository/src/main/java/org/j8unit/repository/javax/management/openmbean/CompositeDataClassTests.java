@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.openmbean.CompositeDataTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompositeDataClassTests<SUT extends Class<? extends javax.management.openmbean.CompositeData>>
 extends J8UnitTest<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.chrono.JapaneseDateTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JapaneseDateClassTests<SUT extends Class<? extends java.time.chrono.JapaneseDate>>
 extends org.j8unit.repository.java.time.chrono.ChronoLocalDateClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

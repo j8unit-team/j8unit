@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.IIOParamTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IIOParamClassTests<SUT extends Class<? extends javax.imageio.IIOParam>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

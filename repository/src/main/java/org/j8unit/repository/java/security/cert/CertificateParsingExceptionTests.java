@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.CertificateParsingExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CertificateParsingExceptionTests<SUT extends java.security.cert.CertificateParsingException>
 extends org.j8unit.repository.java.security.cert.CertificateExceptionTests<SUT> {

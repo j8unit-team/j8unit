@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.dnd.DragSourceListenerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DragSourceListenerTests<SUT extends java.awt.dnd.DragSourceListener>
 extends org.j8unit.repository.java.util.EventListenerTests<SUT> {

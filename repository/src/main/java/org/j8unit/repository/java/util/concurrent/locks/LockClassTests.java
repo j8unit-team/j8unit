@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.locks.LockTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LockClassTests<SUT extends Class<? extends java.util.concurrent.locks.Lock>>
 extends J8UnitTest<SUT> {

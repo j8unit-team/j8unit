@@ -19,6 +19,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.accessibility.AccessibleTableModelChangeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccessibleTableModelChangeTests<SUT extends javax.accessibility.AccessibleTableModelChange>
 extends J8UnitTest<SUT> {

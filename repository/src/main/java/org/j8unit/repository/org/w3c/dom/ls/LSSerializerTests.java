@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.ls.LSSerializerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LSSerializerTests<SUT extends org.w3c.dom.ls.LSSerializer>
 extends J8UnitTest<SUT> {

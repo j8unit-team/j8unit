@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicInternalFrameTitlePaneClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane>>
 extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
@@ -62,6 +63,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.CloseActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CloseActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.CloseAction>>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
@@ -122,6 +124,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.IconifyActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface IconifyActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction>>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
@@ -182,6 +185,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MaximizeActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MaximizeActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction>>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
@@ -242,6 +246,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.MoveActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MoveActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction>>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
@@ -302,6 +307,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.PropertyChangeHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.PropertyChangeHandler>>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -362,6 +368,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.RestoreActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface RestoreActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.RestoreAction>>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
@@ -422,6 +429,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SizeActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SizeActionClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction>>
     extends org.j8unit.repository.javax.swing.AbstractActionClassTests<SUT> {
@@ -482,6 +490,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.SystemMenuBarTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SystemMenuBarClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar>>
     extends org.j8unit.repository.javax.swing.JMenuBarClassTests<SUT> {
@@ -542,6 +551,7 @@ extends org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicInternalFrameTitlePaneTests.TitlePaneLayoutTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TitlePaneLayoutClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicInternalFrameTitlePane.TitlePaneLayout>>
     extends org.j8unit.repository.java.awt.LayoutManagerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

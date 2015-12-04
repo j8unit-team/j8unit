@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.OutputStreamClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OutputStreamTests<SUT extends java.io.OutputStream>
 extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository.java.io.FlushableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

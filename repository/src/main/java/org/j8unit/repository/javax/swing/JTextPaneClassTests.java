@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JTextPaneTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JTextPaneClassTests<SUT extends Class<? extends javax.swing.JTextPane>>
 extends org.j8unit.repository.javax.swing.JEditorPaneClassTests<SUT> {

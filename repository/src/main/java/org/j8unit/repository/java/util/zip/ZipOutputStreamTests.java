@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.zip.ZipOutputStreamClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ZipOutputStreamTests<SUT extends java.util.zip.ZipOutputStream>
 extends org.j8unit.repository.java.util.zip.DeflaterOutputStreamTests<SUT> {

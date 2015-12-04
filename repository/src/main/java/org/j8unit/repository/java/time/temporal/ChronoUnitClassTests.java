@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.temporal.ChronoUnitTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ChronoUnitClassTests<SUT extends Class<? extends java.time.temporal.ChronoUnit>>
 extends org.j8unit.repository.java.time.temporal.TemporalUnitClassTests<SUT>,

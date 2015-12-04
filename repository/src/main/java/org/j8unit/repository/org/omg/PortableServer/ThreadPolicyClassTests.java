@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.ThreadPolicyTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ThreadPolicyClassTests<SUT extends Class<? extends org.omg.PortableServer.ThreadPolicy>>
 extends org.j8unit.repository.org.omg.PortableServer.ThreadPolicyOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.PolicyClassTests<SUT>,

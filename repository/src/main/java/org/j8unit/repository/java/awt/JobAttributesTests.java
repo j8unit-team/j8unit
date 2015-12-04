@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.JobAttributesClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JobAttributesTests<SUT extends java.awt.JobAttributes>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.JobAttributesClassTests.DefaultSelectionTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultSelectionTypeTests<SUT extends java.awt.JobAttributes.DefaultSelectionType>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -50,6 +52,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.JobAttributesClassTests.DestinationTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DestinationTypeTests<SUT extends java.awt.JobAttributes.DestinationType>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -67,6 +70,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.JobAttributesClassTests.DialogTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DialogTypeTests<SUT extends java.awt.JobAttributes.DialogType>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -85,6 +89,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.JobAttributesClassTests.MultipleDocumentHandlingTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MultipleDocumentHandlingTypeTests<SUT extends java.awt.JobAttributes.MultipleDocumentHandlingType>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -102,6 +107,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.JobAttributesClassTests.SidesTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SidesTypeTests<SUT extends java.awt.JobAttributes.SidesType>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

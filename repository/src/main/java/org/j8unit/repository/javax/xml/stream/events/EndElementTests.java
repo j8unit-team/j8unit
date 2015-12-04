@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.stream.events.EndElementClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EndElementTests<SUT extends javax.xml.stream.events.EndElement>
 extends org.j8unit.repository.javax.xml.stream.events.XMLEventTests<SUT> {

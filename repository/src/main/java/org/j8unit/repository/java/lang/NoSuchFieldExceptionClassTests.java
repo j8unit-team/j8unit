@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.NoSuchFieldExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NoSuchFieldExceptionClassTests<SUT extends Class<? extends java.lang.NoSuchFieldException>>
 extends org.j8unit.repository.java.lang.ReflectiveOperationExceptionClassTests<SUT> {

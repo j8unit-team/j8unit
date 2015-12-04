@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.activation.MimeTypeParameterListTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MimeTypeParameterListClassTests<SUT extends Class<? extends javax.activation.MimeTypeParameterList>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

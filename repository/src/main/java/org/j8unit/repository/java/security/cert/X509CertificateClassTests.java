@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.X509CertificateTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface X509CertificateClassTests<SUT extends Class<? extends java.security.cert.X509Certificate>>
 extends org.j8unit.repository.java.security.cert.X509ExtensionClassTests<SUT>, org.j8unit.repository.java.security.cert.CertificateClassTests<SUT> {

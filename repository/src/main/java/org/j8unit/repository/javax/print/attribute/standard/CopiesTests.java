@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.CopiesClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CopiesTests<SUT extends javax.print.attribute.standard.Copies>
 extends org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.PrintJobAttributeTests<SUT>,

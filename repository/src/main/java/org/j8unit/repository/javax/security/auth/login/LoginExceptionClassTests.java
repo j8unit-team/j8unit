@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.login.LoginExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LoginExceptionClassTests<SUT extends Class<? extends javax.security.auth.login.LoginException>>
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {

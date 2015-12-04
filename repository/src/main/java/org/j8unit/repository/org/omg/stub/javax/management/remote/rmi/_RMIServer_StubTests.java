@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.stub.javax.management.remote.rmi._RMIServer_StubClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _RMIServer_StubTests<SUT extends org.omg.stub.javax.management.remote.rmi._RMIServer_Stub>
 extends org.j8unit.repository.javax.management.remote.rmi.RMIServerTests<SUT>, org.j8unit.repository.javax.rmi.CORBA.StubTests<SUT> {

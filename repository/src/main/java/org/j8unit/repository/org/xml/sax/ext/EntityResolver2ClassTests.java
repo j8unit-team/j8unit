@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.ext.EntityResolver2Tests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EntityResolver2ClassTests<SUT extends Class<? extends org.xml.sax.ext.EntityResolver2>>
 extends org.j8unit.repository.org.xml.sax.EntityResolverClassTests<SUT> {

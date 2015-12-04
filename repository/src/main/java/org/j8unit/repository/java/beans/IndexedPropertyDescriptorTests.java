@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.IndexedPropertyDescriptorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IndexedPropertyDescriptorTests<SUT extends java.beans.IndexedPropertyDescriptor>
 extends org.j8unit.repository.java.beans.PropertyDescriptorTests<SUT> {

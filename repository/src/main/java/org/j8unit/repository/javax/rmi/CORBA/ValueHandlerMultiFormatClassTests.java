@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.rmi.CORBA.ValueHandlerMultiFormatTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ValueHandlerMultiFormatClassTests<SUT extends Class<? extends javax.rmi.CORBA.ValueHandlerMultiFormat>>
 extends org.j8unit.repository.javax.rmi.CORBA.ValueHandlerClassTests<SUT> {

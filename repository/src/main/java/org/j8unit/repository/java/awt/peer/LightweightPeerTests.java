@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.peer.LightweightPeerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LightweightPeerTests<SUT extends java.awt.peer.LightweightPeer>
 extends org.j8unit.repository.java.awt.peer.ComponentPeerTests<SUT> {

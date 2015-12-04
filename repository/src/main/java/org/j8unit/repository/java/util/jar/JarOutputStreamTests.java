@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.jar.JarOutputStreamClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JarOutputStreamTests<SUT extends java.util.jar.JarOutputStream>
 extends org.j8unit.repository.java.util.zip.ZipOutputStreamTests<SUT> {

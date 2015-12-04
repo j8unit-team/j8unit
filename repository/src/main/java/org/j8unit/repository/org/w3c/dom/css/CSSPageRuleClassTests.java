@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.css.CSSPageRuleTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSPageRuleClassTests<SUT extends Class<? extends org.w3c.dom.css.CSSPageRule>>
 extends org.j8unit.repository.org.w3c.dom.css.CSSRuleClassTests<SUT> {

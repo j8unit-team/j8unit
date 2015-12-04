@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.TIMEOUTClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TIMEOUTTests<SUT extends org.omg.CORBA.TIMEOUT>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {

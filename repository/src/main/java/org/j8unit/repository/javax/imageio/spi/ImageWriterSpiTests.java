@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.spi.ImageWriterSpiClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ImageWriterSpiTests<SUT extends javax.imageio.spi.ImageWriterSpi>
 extends org.j8unit.repository.javax.imageio.spi.ImageReaderWriterSpiTests<SUT> {

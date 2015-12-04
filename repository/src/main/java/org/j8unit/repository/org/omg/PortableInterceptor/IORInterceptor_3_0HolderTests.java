@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableInterceptor.IORInterceptor_3_0HolderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IORInterceptor_3_0HolderTests<SUT extends org.omg.PortableInterceptor.IORInterceptor_3_0Holder>
 extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

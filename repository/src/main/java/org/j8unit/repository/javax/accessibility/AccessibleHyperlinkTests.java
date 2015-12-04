@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.accessibility.AccessibleHyperlinkClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccessibleHyperlinkTests<SUT extends javax.accessibility.AccessibleHyperlink>
 extends org.j8unit.repository.javax.accessibility.AccessibleActionTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

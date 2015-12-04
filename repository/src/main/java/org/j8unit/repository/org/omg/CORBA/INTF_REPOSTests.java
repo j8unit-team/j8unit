@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.INTF_REPOSClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface INTF_REPOSTests<SUT extends org.omg.CORBA.INTF_REPOS>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {

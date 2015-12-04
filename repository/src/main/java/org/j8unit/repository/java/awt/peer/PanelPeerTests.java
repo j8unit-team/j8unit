@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.peer.PanelPeerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PanelPeerTests<SUT extends java.awt.peer.PanelPeer>
 extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {

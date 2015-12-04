@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.portable.DelegateTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DelegateClassTests<SUT extends Class<? extends org.omg.PortableServer.portable.Delegate>>
 extends J8UnitTest<SUT> {

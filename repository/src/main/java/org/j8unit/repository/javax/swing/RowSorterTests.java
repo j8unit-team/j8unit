@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.RowSorterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RowSorterTests<SUT extends javax.swing.RowSorter<M>, M>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.RowSorterClassTests.SortKeyClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SortKeyTests<SUT extends javax.swing.RowSorter.SortKey>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

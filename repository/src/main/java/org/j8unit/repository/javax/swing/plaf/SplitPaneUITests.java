@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.SplitPaneUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SplitPaneUITests<SUT extends javax.swing.plaf.SplitPaneUI>
 extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {

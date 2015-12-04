@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.RejectedExecutionHandlerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RejectedExecutionHandlerClassTests<SUT extends Class<? extends java.util.concurrent.RejectedExecutionHandler>>
 extends J8UnitTest<SUT> {

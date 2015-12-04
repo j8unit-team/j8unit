@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.attribute.GroupPrincipalClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GroupPrincipalTests<SUT extends java.nio.file.attribute.GroupPrincipal>
 extends org.j8unit.repository.java.nio.file.attribute.UserPrincipalTests<SUT> {

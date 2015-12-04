@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.DoubleClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DoubleTests<SUT extends java.lang.Double>
 extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Double>, org.j8unit.repository.java.lang.NumberTests<SUT> {

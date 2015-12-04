@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.FileOutputStreamClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileOutputStreamTests<SUT extends java.io.FileOutputStream>
 extends org.j8unit.repository.java.io.OutputStreamTests<SUT> {

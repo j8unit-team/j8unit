@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.ServerSocketClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServerSocketTests<SUT extends java.net.ServerSocket>
 extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

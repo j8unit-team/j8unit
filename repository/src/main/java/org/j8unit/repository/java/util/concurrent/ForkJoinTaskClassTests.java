@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ForkJoinTaskTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ForkJoinTaskClassTests<SUT extends Class<? extends java.util.concurrent.ForkJoinTask<V>>, V>
 extends org.j8unit.repository.java.util.concurrent.FutureClassTests<SUT, V>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

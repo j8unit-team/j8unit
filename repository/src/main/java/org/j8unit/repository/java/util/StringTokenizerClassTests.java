@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.StringTokenizerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StringTokenizerClassTests<SUT extends Class<? extends java.util.StringTokenizer>>
 extends org.j8unit.repository.java.util.EnumerationClassTests<SUT, java.lang.Object>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

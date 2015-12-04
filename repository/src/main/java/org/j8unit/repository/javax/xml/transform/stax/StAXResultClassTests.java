@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.transform.stax.StAXResultTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StAXResultClassTests<SUT extends Class<? extends javax.xml.transform.stax.StAXResult>>
 extends org.j8unit.repository.javax.xml.transform.ResultClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.login.CredentialExpiredExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CredentialExpiredExceptionTests<SUT extends javax.security.auth.login.CredentialExpiredException>
 extends org.j8unit.repository.javax.security.auth.login.CredentialExceptionTests<SUT> {

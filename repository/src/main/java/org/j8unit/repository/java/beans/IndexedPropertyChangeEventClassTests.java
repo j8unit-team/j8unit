@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.IndexedPropertyChangeEventTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IndexedPropertyChangeEventClassTests<SUT extends Class<? extends java.beans.IndexedPropertyChangeEvent>>
 extends org.j8unit.repository.java.beans.PropertyChangeEventClassTests<SUT> {

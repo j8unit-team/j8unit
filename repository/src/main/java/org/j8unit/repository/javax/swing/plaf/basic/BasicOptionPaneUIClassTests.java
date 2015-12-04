@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicOptionPaneUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicOptionPaneUI>>
 extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.ButtonActionListenerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ButtonActionListenerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicOptionPaneUI.ButtonActionListener>>
     extends org.j8unit.repository.java.awt.event.ActionListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -120,6 +122,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.ButtonAreaLayoutTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ButtonAreaLayoutClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicOptionPaneUI.ButtonAreaLayout>>
     extends org.j8unit.repository.java.awt.LayoutManagerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -178,6 +181,7 @@ extends org.j8unit.repository.javax.swing.plaf.OptionPaneUIClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicOptionPaneUITests.PropertyChangeHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicOptionPaneUI.PropertyChangeHandler>>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

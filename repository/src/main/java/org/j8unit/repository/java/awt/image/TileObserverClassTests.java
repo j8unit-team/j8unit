@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.TileObserverTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TileObserverClassTests<SUT extends Class<? extends java.awt.image.TileObserver>>
 extends J8UnitTest<SUT> {

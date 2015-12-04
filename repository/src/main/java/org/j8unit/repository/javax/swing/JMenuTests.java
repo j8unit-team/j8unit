@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JMenuClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JMenuTests<SUT extends javax.swing.JMenu>
 extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repository.javax.swing.MenuElementTests<SUT>,

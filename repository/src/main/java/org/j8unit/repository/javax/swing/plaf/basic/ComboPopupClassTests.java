@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.ComboPopupTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ComboPopupClassTests<SUT extends Class<? extends javax.swing.plaf.basic.ComboPopup>>
 extends J8UnitTest<SUT> {

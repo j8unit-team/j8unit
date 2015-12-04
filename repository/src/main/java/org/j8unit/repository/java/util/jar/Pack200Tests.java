@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.jar.Pack200ClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Pack200Tests<SUT extends java.util.jar.Pack200>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.jar.Pack200ClassTests.PackerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PackerTests<SUT extends java.util.jar.Pack200.Packer>
     extends J8UnitTest<SUT> {
@@ -134,6 +136,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.jar.Pack200ClassTests.UnpackerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UnpackerTests<SUT extends java.util.jar.Pack200.Unpacker>
     extends J8UnitTest<SUT> {

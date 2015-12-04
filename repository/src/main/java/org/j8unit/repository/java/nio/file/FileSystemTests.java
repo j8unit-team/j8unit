@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.FileSystemClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileSystemTests<SUT extends java.nio.file.FileSystem>
 extends org.j8unit.repository.java.io.CloseableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

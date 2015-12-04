@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ExecutorCompletionServiceTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExecutorCompletionServiceClassTests<SUT extends Class<? extends java.util.concurrent.ExecutorCompletionService<V>>, V>
 extends org.j8unit.repository.java.util.concurrent.CompletionServiceClassTests<SUT, V>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

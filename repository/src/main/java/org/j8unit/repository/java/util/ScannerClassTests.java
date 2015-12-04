@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ScannerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ScannerClassTests<SUT extends Class<? extends java.util.Scanner>>
 extends org.j8unit.repository.java.util.IteratorClassTests<SUT, java.lang.String>, org.j8unit.repository.java.io.CloseableClassTests<SUT>,

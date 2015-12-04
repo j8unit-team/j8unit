@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.RecursiveActionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RecursiveActionClassTests<SUT extends Class<? extends java.util.concurrent.RecursiveAction>>
 extends org.j8unit.repository.java.util.concurrent.ForkJoinTaskClassTests<SUT, java.lang.Void> {

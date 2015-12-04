@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.InternalFrameUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InternalFrameUITests<SUT extends javax.swing.plaf.InternalFrameUI>
 extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {

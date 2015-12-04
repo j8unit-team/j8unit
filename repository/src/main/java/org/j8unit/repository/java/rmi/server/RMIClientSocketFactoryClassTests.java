@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.server.RMIClientSocketFactoryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RMIClientSocketFactoryClassTests<SUT extends Class<? extends java.rmi.server.RMIClientSocketFactory>>
 extends J8UnitTest<SUT> {

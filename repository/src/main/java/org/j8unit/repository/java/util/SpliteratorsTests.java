@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.SpliteratorsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SpliteratorsTests<SUT extends java.util.Spliterators>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractDoubleSpliteratorClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractDoubleSpliteratorTests<SUT extends java.util.Spliterators.AbstractDoubleSpliterator>
     extends org.j8unit.repository.java.util.SpliteratorTests.OfDoubleTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -102,6 +104,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractIntSpliteratorClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractIntSpliteratorTests<SUT extends java.util.Spliterators.AbstractIntSpliterator>
     extends org.j8unit.repository.java.util.SpliteratorTests.OfIntTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -171,6 +174,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractLongSpliteratorClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractLongSpliteratorTests<SUT extends java.util.Spliterators.AbstractLongSpliterator>
     extends org.j8unit.repository.java.util.SpliteratorTests.OfLongTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -240,6 +244,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorsClassTests.AbstractSpliteratorClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractSpliteratorTests<SUT extends java.util.Spliterators.AbstractSpliterator<T>, T>
     extends org.j8unit.repository.java.util.SpliteratorTests<SUT, T>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

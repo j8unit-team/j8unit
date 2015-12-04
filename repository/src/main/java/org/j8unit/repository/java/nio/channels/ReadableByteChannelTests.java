@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.ReadableByteChannelClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ReadableByteChannelTests<SUT extends java.nio.channels.ReadableByteChannel>
 extends org.j8unit.repository.java.nio.channels.ChannelTests<SUT> {

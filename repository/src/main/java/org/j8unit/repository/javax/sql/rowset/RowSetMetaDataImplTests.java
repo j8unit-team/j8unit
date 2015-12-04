@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.rowset.RowSetMetaDataImplClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RowSetMetaDataImplTests<SUT extends javax.sql.rowset.RowSetMetaDataImpl>
 extends org.j8unit.repository.javax.sql.RowSetMetaDataTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,

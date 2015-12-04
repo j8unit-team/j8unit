@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.event.ActionEventClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActionEventTests<SUT extends java.awt.event.ActionEvent>
 extends org.j8unit.repository.java.awt.AWTEventTests<SUT> {

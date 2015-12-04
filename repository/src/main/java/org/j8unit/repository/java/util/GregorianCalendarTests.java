@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.GregorianCalendarClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GregorianCalendarTests<SUT extends java.util.GregorianCalendar>
 extends org.j8unit.repository.java.util.CalendarTests<SUT> {

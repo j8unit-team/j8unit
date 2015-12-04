@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.acl.AclClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AclTests<SUT extends java.security.acl.Acl>
 extends org.j8unit.repository.java.security.acl.OwnerTests<SUT> {

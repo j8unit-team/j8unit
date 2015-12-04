@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.print.PrinterExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrinterExceptionClassTests<SUT extends Class<? extends java.awt.print.PrinterException>>
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {

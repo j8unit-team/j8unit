@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.activation.ActivationDataFlavorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActivationDataFlavorClassTests<SUT extends Class<? extends javax.activation.ActivationDataFlavor>>
 extends org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests<SUT> {

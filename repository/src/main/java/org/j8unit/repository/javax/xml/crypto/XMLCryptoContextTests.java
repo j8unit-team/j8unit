@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.XMLCryptoContextClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLCryptoContextTests<SUT extends javax.xml.crypto.XMLCryptoContext>
 extends J8UnitTest<SUT> {

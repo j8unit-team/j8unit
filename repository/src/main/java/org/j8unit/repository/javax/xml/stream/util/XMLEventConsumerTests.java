@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.stream.util.XMLEventConsumerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLEventConsumerTests<SUT extends javax.xml.stream.util.XMLEventConsumer>
 extends J8UnitTest<SUT> {

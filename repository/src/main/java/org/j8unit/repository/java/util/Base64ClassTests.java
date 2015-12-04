@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.Base64Tests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Base64ClassTests<SUT extends Class<? extends java.util.Base64>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.Base64Tests.DecoderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DecoderClassTests<SUT extends Class<? extends java.util.Base64.Decoder>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -100,6 +102,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.Base64Tests.EncoderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EncoderClassTests<SUT extends Class<? extends java.util.Base64.Encoder>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

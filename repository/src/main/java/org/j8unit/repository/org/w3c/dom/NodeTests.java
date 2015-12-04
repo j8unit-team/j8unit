@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.NodeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NodeTests<SUT extends org.w3c.dom.Node>
 extends J8UnitTest<SUT> {

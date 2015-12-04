@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.RespectBindingFeatureClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RespectBindingFeatureTests<SUT extends javax.xml.ws.RespectBindingFeature>
 extends org.j8unit.repository.javax.xml.ws.WebServiceFeatureTests<SUT> {

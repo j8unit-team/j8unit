@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.PrinterResolutionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrinterResolutionTests<SUT extends javax.print.attribute.standard.PrinterResolution>
 extends org.j8unit.repository.javax.print.attribute.DocAttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.PrintRequestAttributeTests<SUT>,

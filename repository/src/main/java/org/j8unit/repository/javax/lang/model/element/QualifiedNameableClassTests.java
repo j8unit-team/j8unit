@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.element.QualifiedNameableTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface QualifiedNameableClassTests<SUT extends Class<? extends javax.lang.model.element.QualifiedNameable>>
 extends org.j8unit.repository.javax.lang.model.element.ElementClassTests<SUT> {

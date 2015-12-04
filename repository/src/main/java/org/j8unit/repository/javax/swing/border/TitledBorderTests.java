@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.border.TitledBorderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TitledBorderTests<SUT extends javax.swing.border.TitledBorder>
 extends org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.remote.rmi.RMIJRMPServerImplTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RMIJRMPServerImplClassTests<SUT extends Class<? extends javax.management.remote.rmi.RMIJRMPServerImpl>>
 extends org.j8unit.repository.javax.management.remote.rmi.RMIServerImplClassTests<SUT> {

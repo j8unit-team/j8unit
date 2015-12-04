@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.transaction.InvalidTransactionExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidTransactionExceptionClassTests<SUT extends Class<? extends javax.transaction.InvalidTransactionException>>
 extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {

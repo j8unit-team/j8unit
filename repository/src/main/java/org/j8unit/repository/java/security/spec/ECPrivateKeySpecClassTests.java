@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.spec.ECPrivateKeySpecTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ECPrivateKeySpecClassTests<SUT extends Class<? extends java.security.spec.ECPrivateKeySpec>>
 extends org.j8unit.repository.java.security.spec.KeySpecClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

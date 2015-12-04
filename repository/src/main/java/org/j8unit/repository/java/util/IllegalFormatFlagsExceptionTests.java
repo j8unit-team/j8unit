@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.IllegalFormatFlagsExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IllegalFormatFlagsExceptionTests<SUT extends java.util.IllegalFormatFlagsException>
 extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {

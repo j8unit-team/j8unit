@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.IllegalFormatWidthExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IllegalFormatWidthExceptionTests<SUT extends java.util.IllegalFormatWidthException>
 extends org.j8unit.repository.java.util.IllegalFormatExceptionTests<SUT> {

@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.datatransfer.FlavorEventClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FlavorEventTests<SUT extends java.awt.datatransfer.FlavorEvent>
 extends org.j8unit.repository.java.util.EventObjectTests<SUT> {

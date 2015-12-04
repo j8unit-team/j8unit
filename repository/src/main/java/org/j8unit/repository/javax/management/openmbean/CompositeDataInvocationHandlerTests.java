@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.openmbean.CompositeDataInvocationHandlerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompositeDataInvocationHandlerTests<SUT extends javax.management.openmbean.CompositeDataInvocationHandler>
 extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

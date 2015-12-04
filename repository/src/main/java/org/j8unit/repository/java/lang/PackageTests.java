@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.PackageClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PackageTests<SUT extends java.lang.Package>
 extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.XMLDecoderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLDecoderTests<SUT extends java.beans.XMLDecoder>
 extends org.j8unit.repository.java.lang.AutoCloseableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

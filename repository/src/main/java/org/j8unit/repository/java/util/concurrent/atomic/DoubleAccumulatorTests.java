@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.atomic.DoubleAccumulatorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DoubleAccumulatorTests<SUT extends java.util.concurrent.atomic.DoubleAccumulator>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.NumberTests<SUT> {

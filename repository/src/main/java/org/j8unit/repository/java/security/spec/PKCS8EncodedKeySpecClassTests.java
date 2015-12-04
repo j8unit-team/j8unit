@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.spec.PKCS8EncodedKeySpecTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PKCS8EncodedKeySpecClassTests<SUT extends Class<? extends java.security.spec.PKCS8EncodedKeySpec>>
 extends org.j8unit.repository.java.security.spec.EncodedKeySpecClassTests<SUT> {

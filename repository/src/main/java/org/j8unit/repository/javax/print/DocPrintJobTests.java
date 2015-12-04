@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.DocPrintJobClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocPrintJobTests<SUT extends javax.print.DocPrintJob>
 extends J8UnitTest<SUT> {

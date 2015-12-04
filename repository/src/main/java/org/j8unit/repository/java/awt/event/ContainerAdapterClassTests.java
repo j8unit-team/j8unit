@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.event.ContainerAdapterTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ContainerAdapterClassTests<SUT extends Class<? extends java.awt.event.ContainerAdapter>>
 extends org.j8unit.repository.java.awt.event.ContainerListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

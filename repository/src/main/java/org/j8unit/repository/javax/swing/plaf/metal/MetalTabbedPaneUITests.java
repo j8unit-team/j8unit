@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalTabbedPaneUITests<SUT extends javax.swing.plaf.metal.MetalTabbedPaneUI>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests<SUT>
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalTabbedPaneUIClassTests.TabbedPaneLayoutClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TabbedPaneLayoutTests<SUT extends javax.swing.plaf.metal.MetalTabbedPaneUI.TabbedPaneLayout>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.TabbedPaneLayoutTests<SUT> {

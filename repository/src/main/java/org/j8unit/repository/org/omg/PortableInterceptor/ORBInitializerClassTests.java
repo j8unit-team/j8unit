@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableInterceptor.ORBInitializerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ORBInitializerClassTests<SUT extends Class<? extends org.omg.PortableInterceptor.ORBInitializer>>
 extends org.j8unit.repository.org.omg.PortableInterceptor.ORBInitializerOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>,

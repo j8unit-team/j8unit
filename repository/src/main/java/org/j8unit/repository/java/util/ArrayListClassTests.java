@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ArrayListTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ArrayListClassTests<SUT extends Class<? extends java.util.ArrayList<E>>, E>
 extends org.j8unit.repository.java.util.ListClassTests<SUT, E>, org.j8unit.repository.java.util.RandomAccessClassTests<SUT>,

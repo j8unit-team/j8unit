@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.accessibility.AccessibleExtendedTableTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccessibleExtendedTableClassTests<SUT extends Class<? extends javax.accessibility.AccessibleExtendedTable>>
 extends org.j8unit.repository.javax.accessibility.AccessibleTableClassTests<SUT> {

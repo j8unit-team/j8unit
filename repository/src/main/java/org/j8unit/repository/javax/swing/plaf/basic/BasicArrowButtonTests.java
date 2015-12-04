@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicArrowButtonClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicArrowButtonTests<SUT extends javax.swing.plaf.basic.BasicArrowButton>
 extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.repository.javax.swing.JButtonTests<SUT> {

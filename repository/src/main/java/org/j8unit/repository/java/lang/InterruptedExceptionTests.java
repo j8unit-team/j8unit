@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.InterruptedExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InterruptedExceptionTests<SUT extends java.lang.InterruptedException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {

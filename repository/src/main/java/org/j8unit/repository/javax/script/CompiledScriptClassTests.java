@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.script.CompiledScriptTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompiledScriptClassTests<SUT extends Class<? extends javax.script.CompiledScript>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

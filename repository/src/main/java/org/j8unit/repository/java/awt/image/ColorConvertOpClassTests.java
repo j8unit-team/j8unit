@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.ColorConvertOpTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ColorConvertOpClassTests<SUT extends Class<? extends java.awt.image.ColorConvertOp>>
 extends org.j8unit.repository.java.awt.image.BufferedImageOpClassTests<SUT>, org.j8unit.repository.java.awt.image.RasterOpClassTests<SUT>,

@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.BAD_CONTEXTClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BAD_CONTEXTTests<SUT extends org.omg.CORBA.BAD_CONTEXT>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {

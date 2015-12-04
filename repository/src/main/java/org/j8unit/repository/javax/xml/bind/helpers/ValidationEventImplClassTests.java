@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.helpers.ValidationEventImplTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ValidationEventImplClassTests<SUT extends Class<? extends javax.xml.bind.helpers.ValidationEventImpl>>
 extends org.j8unit.repository.javax.xml.bind.ValidationEventClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

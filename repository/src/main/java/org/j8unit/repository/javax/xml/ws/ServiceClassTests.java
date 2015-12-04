@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.ServiceTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServiceClassTests<SUT extends Class<? extends javax.xml.ws.Service>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.ws.ServiceTests.ModeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModeClassTests<SUT extends Class<? extends javax.xml.ws.Service.Mode>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.ws.Service.Mode> {

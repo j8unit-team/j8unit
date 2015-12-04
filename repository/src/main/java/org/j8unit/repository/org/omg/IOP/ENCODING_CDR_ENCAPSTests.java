@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.IOP.ENCODING_CDR_ENCAPSClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ENCODING_CDR_ENCAPSTests<SUT extends org.omg.IOP.ENCODING_CDR_ENCAPS>
 extends J8UnitTest<SUT> {

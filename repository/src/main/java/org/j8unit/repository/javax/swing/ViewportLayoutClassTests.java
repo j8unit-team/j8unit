@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.ViewportLayoutTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ViewportLayoutClassTests<SUT extends Class<? extends javax.swing.ViewportLayout>>
 extends org.j8unit.repository.java.awt.LayoutManagerClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

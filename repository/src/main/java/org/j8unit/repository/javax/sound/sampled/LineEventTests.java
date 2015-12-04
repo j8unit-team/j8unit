@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.LineEventClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LineEventTests<SUT extends javax.sound.sampled.LineEvent>
 extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.util.EventObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.sampled.LineEventClassTests.TypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TypeTests<SUT extends javax.sound.sampled.LineEvent.Type>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

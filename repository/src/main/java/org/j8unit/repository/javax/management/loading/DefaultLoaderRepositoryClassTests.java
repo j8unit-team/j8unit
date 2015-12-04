@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.loading.DefaultLoaderRepositoryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultLoaderRepositoryClassTests<SUT extends Class<? extends javax.management.loading.DefaultLoaderRepository>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

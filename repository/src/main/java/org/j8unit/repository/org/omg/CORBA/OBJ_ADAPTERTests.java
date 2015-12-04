@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.OBJ_ADAPTERClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OBJ_ADAPTERTests<SUT extends org.omg.CORBA.OBJ_ADAPTER>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {

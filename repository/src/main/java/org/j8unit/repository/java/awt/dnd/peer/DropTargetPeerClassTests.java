@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.dnd.peer.DropTargetPeerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DropTargetPeerClassTests<SUT extends Class<? extends java.awt.dnd.peer.DropTargetPeer>>
 extends J8UnitTest<SUT> {

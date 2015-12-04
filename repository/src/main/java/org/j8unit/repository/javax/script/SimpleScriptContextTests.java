@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.script.SimpleScriptContextClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleScriptContextTests<SUT extends javax.script.SimpleScriptContext>
 extends org.j8unit.repository.javax.script.ScriptContextTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

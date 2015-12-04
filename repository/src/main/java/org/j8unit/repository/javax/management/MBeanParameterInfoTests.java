@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.MBeanParameterInfoClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MBeanParameterInfoTests<SUT extends javax.management.MBeanParameterInfo>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.javax.management.MBeanFeatureInfoTests<SUT> {

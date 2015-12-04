@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JComponentClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JComponentTests<SUT extends javax.swing.JComponent>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.awt.ContainerTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JComponentClassTests.AccessibleJComponentClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AccessibleJComponentTests<SUT extends javax.swing.JComponent.AccessibleJComponent>
     extends org.j8unit.repository.javax.accessibility.AccessibleExtendedComponentTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.AbstractExecutorServiceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractExecutorServiceTests<SUT extends java.util.concurrent.AbstractExecutorService>
 extends org.j8unit.repository.java.util.concurrent.ExecutorServiceTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

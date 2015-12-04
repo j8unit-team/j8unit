@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultStyledDocumentClassTests<SUT extends Class<? extends javax.swing.text.DefaultStyledDocument>>
 extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, or
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.AttributeUndoableEditTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AttributeUndoableEditClassTests<SUT extends Class<? extends javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit>>
     extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditClassTests<SUT> {
@@ -121,6 +123,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, or
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementBufferTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ElementBufferClassTests<SUT extends Class<? extends javax.swing.text.DefaultStyledDocument.ElementBuffer>>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -181,6 +184,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentClassTests<SUT>, or
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentTests.ElementSpecTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ElementSpecClassTests<SUT extends Class<? extends javax.swing.text.DefaultStyledDocument.ElementSpec>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

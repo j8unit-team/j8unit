@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.ExtendedSSLSessionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExtendedSSLSessionClassTests<SUT extends Class<? extends javax.net.ssl.ExtendedSSLSession>>
 extends org.j8unit.repository.javax.net.ssl.SSLSessionClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

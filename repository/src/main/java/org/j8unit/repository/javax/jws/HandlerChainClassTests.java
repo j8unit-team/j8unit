@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.jws.HandlerChainTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HandlerChainClassTests<SUT extends Class<? extends javax.jws.HandlerChain>>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.peer.FramePeerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FramePeerTests<SUT extends java.awt.peer.FramePeer>
 extends org.j8unit.repository.java.awt.peer.WindowPeerTests<SUT> {

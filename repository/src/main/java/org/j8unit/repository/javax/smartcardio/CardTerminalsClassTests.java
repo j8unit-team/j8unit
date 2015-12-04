@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.smartcardio.CardTerminalsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CardTerminalsClassTests<SUT extends Class<? extends javax.smartcardio.CardTerminals>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.smartcardio.CardTerminalsTests.StateTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StateClassTests<SUT extends Class<? extends javax.smartcardio.CardTerminals.State>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.smartcardio.CardTerminals.State> {

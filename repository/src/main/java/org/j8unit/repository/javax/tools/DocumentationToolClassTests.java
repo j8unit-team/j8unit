@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.DocumentationToolTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocumentationToolClassTests<SUT extends Class<? extends javax.tools.DocumentationTool>>
 extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
      * @since 0.9.0
      * @see org.j8unit.repository.javax.tools.DocumentationToolTests.DocumentationTaskTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DocumentationTaskClassTests<SUT extends Class<? extends javax.tools.DocumentationTool.DocumentationTask>>
     extends org.j8unit.repository.java.util.concurrent.CallableClassTests<SUT, java.lang.Boolean> {
@@ -102,6 +104,7 @@ extends org.j8unit.repository.javax.tools.ToolClassTests<SUT>, org.j8unit.reposi
      * @since 0.9.0
      * @see org.j8unit.repository.javax.tools.DocumentationToolTests.LocationTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LocationClassTests<SUT extends Class<? extends javax.tools.DocumentationTool.Location>>
     extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests.LocationClassTests<SUT>,

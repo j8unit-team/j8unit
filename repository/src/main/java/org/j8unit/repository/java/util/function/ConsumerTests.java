@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.ConsumerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConsumerTests<SUT extends java.util.function.Consumer<T>, T>
 extends J8UnitTest<SUT> {

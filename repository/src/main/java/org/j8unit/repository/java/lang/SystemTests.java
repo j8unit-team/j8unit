@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.SystemClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SystemTests<SUT extends java.lang.System>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

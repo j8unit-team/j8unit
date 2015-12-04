@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.spec.ECFieldTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ECFieldClassTests<SUT extends Class<? extends java.security.spec.ECField>>
 extends J8UnitTest<SUT> {

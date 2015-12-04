@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.MBeanConstructorInfoTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MBeanConstructorInfoClassTests<SUT extends Class<? extends javax.management.MBeanConstructorInfo>>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.javax.management.MBeanFeatureInfoClassTests<SUT> {

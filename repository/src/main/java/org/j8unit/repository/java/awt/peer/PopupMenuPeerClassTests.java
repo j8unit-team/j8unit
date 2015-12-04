@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.peer.PopupMenuPeerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PopupMenuPeerClassTests<SUT extends Class<? extends java.awt.peer.PopupMenuPeer>>
 extends org.j8unit.repository.java.awt.peer.MenuPeerClassTests<SUT> {

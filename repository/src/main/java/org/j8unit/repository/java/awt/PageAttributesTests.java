@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.PageAttributesClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PageAttributesTests<SUT extends java.awt.PageAttributes>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.PageAttributesClassTests.ColorTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ColorTypeTests<SUT extends java.awt.PageAttributes.ColorType>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -49,6 +51,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.PageAttributesClassTests.MediaTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MediaTypeTests<SUT extends java.awt.PageAttributes.MediaType>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -67,6 +70,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.PageAttributesClassTests.OrientationRequestedTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OrientationRequestedTypeTests<SUT extends java.awt.PageAttributes.OrientationRequestedType>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -84,6 +88,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.PageAttributesClassTests.OriginTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OriginTypeTests<SUT extends java.awt.PageAttributes.OriginType>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -101,6 +106,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.PageAttributesClassTests.PrintQualityTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PrintQualityTypeTests<SUT extends java.awt.PageAttributes.PrintQualityType>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.ForwardingFileObjectTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ForwardingFileObjectClassTests<SUT extends Class<? extends javax.tools.ForwardingFileObject<F>>, F extends javax.tools.FileObject>
 extends org.j8unit.repository.javax.tools.FileObjectClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

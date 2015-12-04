@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.remote.rmi.RMIConnectorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RMIConnectorTests<SUT extends javax.management.remote.rmi.RMIConnector>
 extends org.j8unit.repository.javax.management.remote.JMXConnectorTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,

@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CosNaming.BindingIteratorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BindingIteratorClassTests<SUT extends Class<? extends org.omg.CosNaming.BindingIterator>>
 extends org.j8unit.repository.org.omg.CosNaming.BindingIteratorOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>,

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.TextComponentClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TextComponentTests<SUT extends java.awt.TextComponent>
 extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repository.java.awt.ComponentTests<SUT> {

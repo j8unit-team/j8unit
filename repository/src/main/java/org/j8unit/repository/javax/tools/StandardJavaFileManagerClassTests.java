@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.StandardJavaFileManagerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StandardJavaFileManagerClassTests<SUT extends Class<? extends javax.tools.StandardJavaFileManager>>
 extends org.j8unit.repository.javax.tools.JavaFileManagerClassTests<SUT> {

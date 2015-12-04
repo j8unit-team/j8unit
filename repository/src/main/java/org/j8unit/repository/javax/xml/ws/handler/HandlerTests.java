@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.handler.HandlerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HandlerTests<SUT extends javax.xml.ws.handler.Handler<C>, C extends javax.xml.ws.handler.MessageContext>
 extends J8UnitTest<SUT> {

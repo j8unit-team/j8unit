@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.BoundedRangeModelTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BoundedRangeModelClassTests<SUT extends Class<? extends javax.swing.BoundedRangeModel>>
 extends J8UnitTest<SUT> {

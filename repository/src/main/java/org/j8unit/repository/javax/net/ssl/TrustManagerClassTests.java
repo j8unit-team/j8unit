@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.TrustManagerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TrustManagerClassTests<SUT extends Class<? extends javax.net.ssl.TrustManager>>
 extends J8UnitTest<SUT> {

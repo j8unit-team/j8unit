@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.UnmarshallerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnmarshallerClassTests<SUT extends Class<? extends javax.xml.bind.Unmarshaller>>
 extends J8UnitTest<SUT> {
@@ -61,6 +62,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.bind.UnmarshallerTests.ListenerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ListenerClassTests<SUT extends Class<? extends javax.xml.bind.Unmarshaller.Listener>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.multi.MultiListUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultiListUIClassTests<SUT extends Class<? extends javax.swing.plaf.multi.MultiListUI>>
 extends org.j8unit.repository.javax.swing.plaf.ListUIClassTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicBordersClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ButtonBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ButtonBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.ButtonBorder>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
@@ -121,6 +123,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.FieldBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FieldBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.FieldBorder>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
@@ -181,6 +184,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.MarginBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MarginBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.MarginBorder>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
@@ -237,6 +241,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.MenuBarBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MenuBarBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.MenuBarBorder>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
@@ -295,6 +300,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RadioButtonBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface RadioButtonBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.RadioButtonBorder>>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests<SUT> {
@@ -355,6 +361,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.RolloverButtonBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface RolloverButtonBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder>>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests<SUT> {
@@ -415,6 +422,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.SplitPaneBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SplitPaneBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.SplitPaneBorder>>
     extends org.j8unit.repository.javax.swing.border.BorderClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>,
@@ -474,6 +482,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicBordersTests.ToggleButtonBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ToggleButtonBorderClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicBorders.ToggleButtonBorder>>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicBordersClassTests.ButtonBorderClassTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.spi.CurrencyNameProviderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CurrencyNameProviderTests<SUT extends java.util.spi.CurrencyNameProvider>
 extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {

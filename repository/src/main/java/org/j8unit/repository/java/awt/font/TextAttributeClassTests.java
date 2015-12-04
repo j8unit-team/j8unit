@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.font.TextAttributeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TextAttributeClassTests<SUT extends Class<? extends java.awt.font.TextAttribute>>
 extends org.j8unit.repository.java.text.AttributedCharacterIteratorClassTests.AttributeClassTests<SUT> {

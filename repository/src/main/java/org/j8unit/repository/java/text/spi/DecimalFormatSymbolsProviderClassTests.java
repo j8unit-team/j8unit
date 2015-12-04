@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.spi.DecimalFormatSymbolsProviderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DecimalFormatSymbolsProviderClassTests<SUT extends Class<? extends java.text.spi.DecimalFormatSymbolsProvider>>
 extends org.j8unit.repository.java.util.spi.LocaleServiceProviderClassTests<SUT> {

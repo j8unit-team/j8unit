@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.SecureRandomClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SecureRandomTests<SUT extends java.security.SecureRandom>
 extends org.j8unit.repository.java.util.RandomTests<SUT> {

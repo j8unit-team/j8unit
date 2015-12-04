@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.PathsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PathsClassTests<SUT extends Class<? extends java.nio.file.Paths>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

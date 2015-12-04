@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractDocumentTests<SUT extends javax.swing.text.AbstractDocument>
 extends org.j8unit.repository.javax.swing.text.DocumentTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
@@ -35,6 +36,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AbstractElementClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractElementTests<SUT extends javax.swing.text.AbstractDocument.AbstractElement>
     extends org.j8unit.repository.javax.swing.text.ElementTests<SUT>, org.j8unit.repository.javax.swing.text.MutableAttributeSetTests<SUT>,
@@ -611,6 +613,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.AttributeContextClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AttributeContextTests<SUT extends javax.swing.text.AbstractDocument.AttributeContext>
     extends J8UnitTest<SUT> {
@@ -757,6 +760,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.BranchElementClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BranchElementTests<SUT extends javax.swing.text.AbstractDocument.BranchElement>
     extends org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AbstractElementTests<SUT> {
@@ -978,6 +982,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.ContentClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ContentTests<SUT extends javax.swing.text.AbstractDocument.Content>
     extends J8UnitTest<SUT> {
@@ -1098,6 +1103,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.DefaultDocumentEventClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DefaultDocumentEventTests<SUT extends javax.swing.text.AbstractDocument.DefaultDocumentEvent>
     extends org.j8unit.repository.javax.swing.event.DocumentEventTests<SUT>, org.j8unit.repository.javax.swing.undo.CompoundEditTests<SUT> {
@@ -1340,6 +1346,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.ElementEditClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ElementEditTests<SUT extends javax.swing.text.AbstractDocument.ElementEdit>
     extends org.j8unit.repository.javax.swing.event.DocumentEventTests.ElementChangeTests<SUT>,
@@ -1461,6 +1468,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.LeafElementClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LeafElementTests<SUT extends javax.swing.text.AbstractDocument.LeafElement>
     extends org.j8unit.repository.javax.swing.text.AbstractDocumentTests.AbstractElementTests<SUT> {

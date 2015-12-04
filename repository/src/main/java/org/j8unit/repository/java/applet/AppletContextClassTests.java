@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.applet.AppletContextTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AppletContextClassTests<SUT extends Class<? extends java.applet.AppletContext>>
 extends J8UnitTest<SUT> {

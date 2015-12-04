@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.server.RemoteCallTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RemoteCallClassTests<SUT extends Class<? extends java.rmi.server.RemoteCall>>
 extends J8UnitTest<SUT> {

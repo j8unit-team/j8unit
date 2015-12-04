@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.ShortSeqHolderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ShortSeqHolderTests<SUT extends org.omg.CORBA.ShortSeqHolder>
 extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

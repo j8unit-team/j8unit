@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableInterceptor.IORInfoTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IORInfoClassTests<SUT extends Class<? extends org.omg.PortableInterceptor.IORInfo>>
 extends org.j8unit.repository.org.omg.PortableInterceptor.IORInfoOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>,

@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.ImagingOpExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ImagingOpExceptionTests<SUT extends java.awt.image.ImagingOpException>
 extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.PipeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PipeClassTests<SUT extends Class<? extends java.nio.channels.Pipe>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.nio.channels.PipeTests.SinkChannelTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SinkChannelClassTests<SUT extends Class<? extends java.nio.channels.Pipe.SinkChannel>>
     extends org.j8unit.repository.java.nio.channels.WritableByteChannelClassTests<SUT>,
@@ -103,6 +105,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.nio.channels.PipeTests.SourceChannelTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SourceChannelClassTests<SUT extends Class<? extends java.nio.channels.Pipe.SourceChannel>>
     extends org.j8unit.repository.java.nio.channels.ReadableByteChannelClassTests<SUT>,

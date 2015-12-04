@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.chrono.JapaneseEraClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JapaneseEraTests<SUT extends java.time.chrono.JapaneseEra>
 extends org.j8unit.repository.java.time.chrono.EraTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,

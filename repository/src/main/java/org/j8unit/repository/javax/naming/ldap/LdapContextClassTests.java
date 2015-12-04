@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.ldap.LdapContextTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LdapContextClassTests<SUT extends Class<? extends javax.naming.ldap.LdapContext>>
 extends org.j8unit.repository.javax.naming.directory.DirContextClassTests<SUT> {

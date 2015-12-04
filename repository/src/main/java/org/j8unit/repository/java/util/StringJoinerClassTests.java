@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.StringJoinerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StringJoinerClassTests<SUT extends Class<? extends java.util.StringJoiner>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

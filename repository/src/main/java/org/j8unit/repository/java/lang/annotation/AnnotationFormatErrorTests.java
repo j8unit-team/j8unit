@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.annotation.AnnotationFormatErrorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AnnotationFormatErrorTests<SUT extends java.lang.annotation.AnnotationFormatError>
 extends org.j8unit.repository.java.lang.ErrorTests<SUT> {

@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.FieldTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FieldClassTests<SUT extends Class<? extends java.lang.reflect.Field>>
 extends org.j8unit.repository.java.lang.reflect.MemberClassTests<SUT>, org.j8unit.repository.java.lang.reflect.AccessibleObjectClassTests<SUT> {

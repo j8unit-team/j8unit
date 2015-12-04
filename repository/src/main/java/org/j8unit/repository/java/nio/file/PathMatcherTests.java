@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.PathMatcherClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PathMatcherTests<SUT extends java.nio.file.PathMatcher>
 extends J8UnitTest<SUT> {

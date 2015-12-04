@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.xpath.XPathConstantsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XPathConstantsTests<SUT extends javax.xml.xpath.XPathConstants>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

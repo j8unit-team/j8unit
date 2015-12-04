@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.undo.CannotRedoExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CannotRedoExceptionClassTests<SUT extends Class<? extends javax.swing.undo.CannotRedoException>>
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {

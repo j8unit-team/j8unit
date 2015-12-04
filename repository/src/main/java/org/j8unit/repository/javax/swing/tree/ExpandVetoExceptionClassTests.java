@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.tree.ExpandVetoExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExpandVetoExceptionClassTests<SUT extends Class<? extends javax.swing.tree.ExpandVetoException>>
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {

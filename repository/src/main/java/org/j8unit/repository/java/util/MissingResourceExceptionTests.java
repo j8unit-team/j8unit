@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.MissingResourceExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MissingResourceExceptionTests<SUT extends java.util.MissingResourceException>
 extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {

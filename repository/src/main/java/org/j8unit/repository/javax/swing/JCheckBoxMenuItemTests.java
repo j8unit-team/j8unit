@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JCheckBoxMenuItemClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JCheckBoxMenuItemTests<SUT extends javax.swing.JCheckBoxMenuItem>
 extends org.j8unit.repository.javax.swing.SwingConstantsTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>,

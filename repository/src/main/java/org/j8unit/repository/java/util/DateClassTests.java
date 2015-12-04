@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.DateTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DateClassTests<SUT extends Class<? extends java.util.Date>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,

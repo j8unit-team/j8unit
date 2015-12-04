@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.BreakIteratorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BreakIteratorTests<SUT extends java.text.BreakIterator>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

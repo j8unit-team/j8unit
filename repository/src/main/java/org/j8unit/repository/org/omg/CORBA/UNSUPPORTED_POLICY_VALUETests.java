@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.UNSUPPORTED_POLICY_VALUEClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UNSUPPORTED_POLICY_VALUETests<SUT extends org.omg.CORBA.UNSUPPORTED_POLICY_VALUE>
 extends J8UnitTest<SUT> {

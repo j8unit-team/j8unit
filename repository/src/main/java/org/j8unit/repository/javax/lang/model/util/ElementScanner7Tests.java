@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.util.ElementScanner7ClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ElementScanner7Tests<SUT extends javax.lang.model.util.ElementScanner7<R, P>, R, P>
 extends org.j8unit.repository.javax.lang.model.util.ElementScanner6Tests<SUT, R, P> {

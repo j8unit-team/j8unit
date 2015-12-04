@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.HashSetTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HashSetClassTests<SUT extends Class<? extends java.util.HashSet<E>>, E>
 extends org.j8unit.repository.java.util.SetClassTests<SUT, E>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,

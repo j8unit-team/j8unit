@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.BadStringOperationExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BadStringOperationExceptionTests<SUT extends javax.management.BadStringOperationException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {

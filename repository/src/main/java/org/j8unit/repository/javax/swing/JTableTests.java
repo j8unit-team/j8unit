@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JTableClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JTableTests<SUT extends javax.swing.JTable>
 extends org.j8unit.repository.javax.swing.event.TableModelListenerTests<SUT>, org.j8unit.repository.javax.swing.ScrollableTests<SUT>,
@@ -35,6 +36,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JTableClassTests.DropLocationClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DropLocationTests<SUT extends javax.swing.JTable.DropLocation>
     extends org.j8unit.repository.javax.swing.TransferHandlerTests.DropLocationTests<SUT> {
@@ -133,6 +135,7 @@ org.j8unit.repository.javax.swing.event.RowSorterListenerTests<SUT>, org.j8unit.
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JTableClassTests.PrintModeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PrintModeTests<SUT extends javax.swing.JTable.PrintMode>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.swing.JTable.PrintMode> {

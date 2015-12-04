@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.InvalidNameExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidNameExceptionClassTests<SUT extends Class<? extends javax.naming.InvalidNameException>>
 extends org.j8unit.repository.javax.naming.NamingExceptionClassTests<SUT> {

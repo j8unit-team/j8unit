@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.kerberos.KeyTabTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeyTabClassTests<SUT extends Class<? extends javax.security.auth.kerberos.KeyTab>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

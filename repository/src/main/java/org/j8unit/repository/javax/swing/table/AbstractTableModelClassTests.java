@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.table.AbstractTableModelTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractTableModelClassTests<SUT extends Class<? extends javax.swing.table.AbstractTableModel>>
 extends org.j8unit.repository.javax.swing.table.TableModelClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

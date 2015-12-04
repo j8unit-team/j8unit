@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.SwingPropertyChangeSupportClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SwingPropertyChangeSupportTests<SUT extends javax.swing.event.SwingPropertyChangeSupport>
 extends org.j8unit.repository.java.beans.PropertyChangeSupportTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.MethodDescriptorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MethodDescriptorClassTests<SUT extends Class<? extends java.beans.MethodDescriptor>>
 extends org.j8unit.repository.java.beans.FeatureDescriptorClassTests<SUT> {

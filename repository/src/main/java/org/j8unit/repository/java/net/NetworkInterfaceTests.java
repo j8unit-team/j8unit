@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.NetworkInterfaceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NetworkInterfaceTests<SUT extends java.net.NetworkInterface>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

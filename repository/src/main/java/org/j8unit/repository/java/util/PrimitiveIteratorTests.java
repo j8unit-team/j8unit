@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.PrimitiveIteratorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrimitiveIteratorTests<SUT extends java.util.PrimitiveIterator<T, T_CONS>, T, T_CONS>
 extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfDoubleClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfDoubleTests<SUT extends java.util.PrimitiveIterator.OfDouble>
     extends org.j8unit.repository.java.util.PrimitiveIteratorTests<SUT, java.lang.Double, java.util.function.DoubleConsumer> {
@@ -116,6 +118,7 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfIntClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfIntTests<SUT extends java.util.PrimitiveIterator.OfInt>
     extends org.j8unit.repository.java.util.PrimitiveIteratorTests<SUT, java.lang.Integer, java.util.function.IntConsumer> {
@@ -199,6 +202,7 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT, T> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.PrimitiveIteratorClassTests.OfLongClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfLongTests<SUT extends java.util.PrimitiveIterator.OfLong>
     extends org.j8unit.repository.java.util.PrimitiveIteratorTests<SUT, java.lang.Long, java.util.function.LongConsumer> {

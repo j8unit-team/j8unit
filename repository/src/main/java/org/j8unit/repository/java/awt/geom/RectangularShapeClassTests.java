@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.geom.RectangularShapeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RectangularShapeClassTests<SUT extends Class<? extends java.awt.geom.RectangularShape>>
 extends org.j8unit.repository.java.awt.ShapeClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,

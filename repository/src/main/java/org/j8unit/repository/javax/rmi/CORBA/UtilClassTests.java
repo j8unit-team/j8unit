@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.rmi.CORBA.UtilTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UtilClassTests<SUT extends Class<? extends javax.rmi.CORBA.Util>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

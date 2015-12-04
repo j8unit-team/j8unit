@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.StringClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StringTests<SUT extends java.lang.String>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.String>,

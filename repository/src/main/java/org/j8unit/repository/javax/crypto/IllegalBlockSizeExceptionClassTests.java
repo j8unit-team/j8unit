@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.crypto.IllegalBlockSizeExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IllegalBlockSizeExceptionClassTests<SUT extends Class<? extends javax.crypto.IllegalBlockSizeException>>
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.NotEmptyHolderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotEmptyHolderTests<SUT extends org.omg.CosNaming.NamingContextPackage.NotEmptyHolder>
 extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

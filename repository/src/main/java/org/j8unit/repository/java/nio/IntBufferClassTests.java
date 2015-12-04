@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.IntBufferTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IntBufferClassTests<SUT extends Class<? extends java.nio.IntBuffer>>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.IntBuffer>, org.j8unit.repository.java.nio.BufferClassTests<SUT> {

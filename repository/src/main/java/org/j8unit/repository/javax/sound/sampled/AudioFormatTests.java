@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.AudioFormatClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AudioFormatTests<SUT extends javax.sound.sampled.AudioFormat>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.sampled.AudioFormatClassTests.EncodingClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EncodingTests<SUT extends javax.sound.sampled.AudioFormat.Encoding>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

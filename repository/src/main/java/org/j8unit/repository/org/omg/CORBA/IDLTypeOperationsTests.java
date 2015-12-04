@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.IDLTypeOperationsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IDLTypeOperationsTests<SUT extends org.omg.CORBA.IDLTypeOperations>
 extends org.j8unit.repository.org.omg.CORBA.IRObjectOperationsTests<SUT> {

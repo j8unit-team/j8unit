@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JPopupMenuClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JPopupMenuTests<SUT extends javax.swing.JPopupMenu>
 extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repository.javax.swing.MenuElementTests<SUT>,
@@ -33,6 +34,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JPopupMenuClassTests.SeparatorClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SeparatorTests<SUT extends javax.swing.JPopupMenu.Separator>
     extends org.j8unit.repository.javax.swing.JSeparatorTests<SUT> {

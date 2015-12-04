@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.openmbean.KeyAlreadyExistsExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeyAlreadyExistsExceptionTests<SUT extends javax.management.openmbean.KeyAlreadyExistsException>
 extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {

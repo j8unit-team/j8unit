@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.datatype.DatatypeConstantsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DatatypeConstantsTests<SUT extends javax.xml.datatype.DatatypeConstants>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.datatype.DatatypeConstantsClassTests.FieldClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FieldTests<SUT extends javax.xml.datatype.DatatypeConstants.Field>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

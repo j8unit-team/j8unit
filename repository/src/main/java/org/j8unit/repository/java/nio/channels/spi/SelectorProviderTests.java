@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.spi.SelectorProviderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SelectorProviderTests<SUT extends java.nio.channels.spi.SelectorProvider>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

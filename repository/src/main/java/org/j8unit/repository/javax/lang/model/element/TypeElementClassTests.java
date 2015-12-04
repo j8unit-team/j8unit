@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.element.TypeElementTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TypeElementClassTests<SUT extends Class<? extends javax.lang.model.element.TypeElement>>
 extends org.j8unit.repository.javax.lang.model.element.ElementClassTests<SUT>, org.j8unit.repository.javax.lang.model.element.ParameterizableClassTests<SUT>,

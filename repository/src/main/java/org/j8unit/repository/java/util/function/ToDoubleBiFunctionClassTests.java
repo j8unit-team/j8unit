@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.ToDoubleBiFunctionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ToDoubleBiFunctionClassTests<SUT extends Class<? extends java.util.function.ToDoubleBiFunction<T, U>>, T, U>
 extends J8UnitTest<SUT> {

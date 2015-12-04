@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.temporal.TemporalAdjustersClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TemporalAdjustersTests<SUT extends java.time.temporal.TemporalAdjusters>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

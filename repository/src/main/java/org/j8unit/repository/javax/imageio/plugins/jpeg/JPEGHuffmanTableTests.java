@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.plugins.jpeg.JPEGHuffmanTableClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JPEGHuffmanTableTests<SUT extends javax.imageio.plugins.jpeg.JPEGHuffmanTable>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

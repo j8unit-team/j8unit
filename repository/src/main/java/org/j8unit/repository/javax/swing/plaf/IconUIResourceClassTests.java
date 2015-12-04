@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.IconUIResourceTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IconUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.IconUIResource>>
 extends org.j8unit.repository.javax.swing.IconClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>,

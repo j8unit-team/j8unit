@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.table.TableStringConverterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TableStringConverterTests<SUT extends javax.swing.table.TableStringConverter>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

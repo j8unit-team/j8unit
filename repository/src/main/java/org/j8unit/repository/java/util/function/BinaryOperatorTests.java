@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.BinaryOperatorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BinaryOperatorTests<SUT extends java.util.function.BinaryOperator<T>, T>
 extends org.j8unit.repository.java.util.function.BiFunctionTests<SUT, T, T, T> {

@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.loading.PrivateMLetClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrivateMLetTests<SUT extends javax.management.loading.PrivateMLet>
 extends org.j8unit.repository.javax.management.loading.PrivateClassLoaderTests<SUT>, org.j8unit.repository.javax.management.loading.MLetTests<SUT> {

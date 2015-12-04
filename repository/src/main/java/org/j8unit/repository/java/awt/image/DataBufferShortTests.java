@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.DataBufferShortClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DataBufferShortTests<SUT extends java.awt.image.DataBufferShort>
 extends org.j8unit.repository.java.awt.image.DataBufferTests<SUT> {

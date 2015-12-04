@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.SimpleTimeZoneTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleTimeZoneClassTests<SUT extends Class<? extends java.util.SimpleTimeZone>>
 extends org.j8unit.repository.java.util.TimeZoneClassTests<SUT> {

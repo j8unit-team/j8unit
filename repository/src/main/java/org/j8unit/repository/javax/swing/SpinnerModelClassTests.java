@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.SpinnerModelTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SpinnerModelClassTests<SUT extends Class<? extends javax.swing.SpinnerModel>>
 extends J8UnitTest<SUT> {

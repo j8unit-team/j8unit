@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.SNIHostNameClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SNIHostNameTests<SUT extends javax.net.ssl.SNIHostName>
 extends org.j8unit.repository.javax.net.ssl.SNIServerNameTests<SUT> {

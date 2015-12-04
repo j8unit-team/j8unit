@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.management.MemoryManagerMXBeanTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MemoryManagerMXBeanClassTests<SUT extends Class<? extends java.lang.management.MemoryManagerMXBean>>
 extends org.j8unit.repository.java.lang.management.PlatformManagedObjectClassTests<SUT> {

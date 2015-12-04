@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.ClipTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ClipClassTests<SUT extends Class<? extends javax.sound.sampled.Clip>>
 extends org.j8unit.repository.javax.sound.sampled.DataLineClassTests<SUT> {

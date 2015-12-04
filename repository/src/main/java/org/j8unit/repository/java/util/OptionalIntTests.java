@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.OptionalIntClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OptionalIntTests<SUT extends java.util.OptionalInt>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

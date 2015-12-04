@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.AtomicMoveNotSupportedExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AtomicMoveNotSupportedExceptionClassTests<SUT extends Class<? extends java.nio.file.AtomicMoveNotSupportedException>>
 extends org.j8unit.repository.java.nio.file.FileSystemExceptionClassTests<SUT> {

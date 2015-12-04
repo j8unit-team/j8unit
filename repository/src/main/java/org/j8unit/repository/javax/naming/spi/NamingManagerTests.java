@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.spi.NamingManagerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NamingManagerTests<SUT extends javax.naming.spi.NamingManager>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

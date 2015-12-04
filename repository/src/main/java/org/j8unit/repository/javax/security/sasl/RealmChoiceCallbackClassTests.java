@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.sasl.RealmChoiceCallbackTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RealmChoiceCallbackClassTests<SUT extends Class<? extends javax.security.sasl.RealmChoiceCallback>>
 extends org.j8unit.repository.javax.security.auth.callback.ChoiceCallbackClassTests<SUT> {

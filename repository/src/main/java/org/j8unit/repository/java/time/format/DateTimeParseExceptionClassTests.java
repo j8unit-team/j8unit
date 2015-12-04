@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.format.DateTimeParseExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DateTimeParseExceptionClassTests<SUT extends Class<? extends java.time.format.DateTimeParseException>>
 extends org.j8unit.repository.java.time.DateTimeExceptionClassTests<SUT> {

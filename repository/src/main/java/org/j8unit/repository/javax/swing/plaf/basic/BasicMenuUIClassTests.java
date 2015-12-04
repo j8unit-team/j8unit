@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicMenuUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicMenuUI>>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUIClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicMenuItemUIClassTests<S
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicMenuUITests.ChangeHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicMenuUI.ChangeHandler>>
     extends org.j8unit.repository.javax.swing.event.ChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

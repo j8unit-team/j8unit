@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.peer.ScrollPanePeerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ScrollPanePeerTests<SUT extends java.awt.peer.ScrollPanePeer>
 extends org.j8unit.repository.java.awt.peer.ContainerPeerTests<SUT> {

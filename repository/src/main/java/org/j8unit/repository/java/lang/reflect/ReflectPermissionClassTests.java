@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.ReflectPermissionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ReflectPermissionClassTests<SUT extends Class<? extends java.lang.reflect.ReflectPermission>>
 extends org.j8unit.repository.java.security.BasicPermissionClassTests<SUT> {

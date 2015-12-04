@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicComboPopupTests<SUT extends javax.swing.plaf.basic.BasicComboPopup>
 extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupTests<SUT>, org.j8unit.repository.javax.swing.JPopupMenuTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupTests<SUT>, org.j
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests.InvocationKeyHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InvocationKeyHandlerTests<SUT extends javax.swing.plaf.basic.BasicComboPopup.InvocationKeyHandler>
     extends org.j8unit.repository.java.awt.event.KeyAdapterTests<SUT> {
@@ -70,6 +72,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.ComboPopupTests<SUT>, org.j
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboPopupClassTests.ListDataHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ListDataHandlerTests<SUT extends javax.swing.plaf.basic.BasicComboPopup.ListDataHandler>
     extends org.j8unit.repository.javax.swing.event.ListDataListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

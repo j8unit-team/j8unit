@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.AbstractMapTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractMapClassTests<SUT extends Class<? extends java.util.AbstractMap<K, V>>, K, V>
 extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.AbstractMapTests.SimpleEntryTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SimpleEntryClassTests<SUT extends Class<? extends java.util.AbstractMap.SimpleEntry<K, V>>, K, V>
     extends org.j8unit.repository.java.util.MapClassTests.EntryClassTests<SUT, K, V>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
@@ -131,6 +133,7 @@ extends org.j8unit.repository.java.util.MapClassTests<SUT, K, V>, org.j8unit.rep
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.AbstractMapTests.SimpleImmutableEntryTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SimpleImmutableEntryClassTests<SUT extends Class<? extends java.util.AbstractMap.SimpleImmutableEntry<K, V>>, K, V>
     extends org.j8unit.repository.java.util.MapClassTests.EntryClassTests<SUT, K, V>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

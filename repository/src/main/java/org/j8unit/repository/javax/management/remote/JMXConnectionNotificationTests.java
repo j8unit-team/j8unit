@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.remote.JMXConnectionNotificationClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JMXConnectionNotificationTests<SUT extends javax.management.remote.JMXConnectionNotification>
 extends org.j8unit.repository.javax.management.NotificationTests<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.annotation.adapters.NormalizedStringAdapterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NormalizedStringAdapterTests<SUT extends javax.xml.bind.annotation.adapters.NormalizedStringAdapter>
 extends org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlAdapterTests<SUT, java.lang.String, java.lang.String> {

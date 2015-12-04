@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.dsig.dom.DOMValidateContextClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DOMValidateContextTests<SUT extends javax.xml.crypto.dsig.dom.DOMValidateContext>
 extends org.j8unit.repository.javax.xml.crypto.dsig.XMLValidateContextTests<SUT>, org.j8unit.repository.javax.xml.crypto.dom.DOMCryptoContextTests<SUT> {

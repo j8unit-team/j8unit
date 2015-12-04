@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.annotation.IncompleteAnnotationExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IncompleteAnnotationExceptionTests<SUT extends java.lang.annotation.IncompleteAnnotationException>
 extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {

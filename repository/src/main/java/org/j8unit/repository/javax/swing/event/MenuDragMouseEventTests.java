@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.MenuDragMouseEventClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MenuDragMouseEventTests<SUT extends javax.swing.event.MenuDragMouseEvent>
 extends org.j8unit.repository.java.awt.event.MouseEventTests<SUT> {

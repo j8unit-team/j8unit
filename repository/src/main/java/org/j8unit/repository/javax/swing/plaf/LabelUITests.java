@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.LabelUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LabelUITests<SUT extends javax.swing.plaf.LabelUI>
 extends org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {

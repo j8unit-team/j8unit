@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.RowSorterEventTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RowSorterEventClassTests<SUT extends Class<? extends javax.swing.event.RowSorterEvent>>
 extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.event.RowSorterEventTests.TypeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TypeClassTests<SUT extends Class<? extends javax.swing.event.RowSorterEvent.Type>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.event.RowSorterEvent.Type> {

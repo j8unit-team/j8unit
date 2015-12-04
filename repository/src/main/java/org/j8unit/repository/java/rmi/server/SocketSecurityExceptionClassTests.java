@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.server.SocketSecurityExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SocketSecurityExceptionClassTests<SUT extends Class<? extends java.rmi.server.SocketSecurityException>>
 extends org.j8unit.repository.java.rmi.server.ExportExceptionClassTests<SUT> {

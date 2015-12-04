@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.spi.NumberFormatProviderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NumberFormatProviderTests<SUT extends java.text.spi.NumberFormatProvider>
 extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {

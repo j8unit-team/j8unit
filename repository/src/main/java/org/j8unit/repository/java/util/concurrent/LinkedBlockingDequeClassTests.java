@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.LinkedBlockingDequeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LinkedBlockingDequeClassTests<SUT extends Class<? extends java.util.concurrent.LinkedBlockingDeque<E>>, E>
 extends org.j8unit.repository.java.util.concurrent.BlockingDequeClassTests<SUT, E>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

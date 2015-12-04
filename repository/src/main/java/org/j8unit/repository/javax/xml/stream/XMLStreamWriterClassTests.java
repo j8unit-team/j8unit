@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.stream.XMLStreamWriterTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLStreamWriterClassTests<SUT extends Class<? extends javax.xml.stream.XMLStreamWriter>>
 extends J8UnitTest<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.ProviderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ProviderClassTests<SUT extends Class<? extends java.security.Provider>>
 extends org.j8unit.repository.java.util.PropertiesClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.util.PropertiesClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.ProviderTests.ServiceTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ServiceClassTests<SUT extends Class<? extends java.security.Provider.Service>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

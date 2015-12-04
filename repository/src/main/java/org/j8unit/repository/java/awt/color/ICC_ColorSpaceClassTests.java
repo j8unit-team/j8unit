@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.color.ICC_ColorSpaceTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ICC_ColorSpaceClassTests<SUT extends Class<? extends java.awt.color.ICC_ColorSpace>>
 extends org.j8unit.repository.java.awt.color.ColorSpaceClassTests<SUT> {

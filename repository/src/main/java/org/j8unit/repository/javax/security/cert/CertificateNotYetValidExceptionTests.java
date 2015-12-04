@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.cert.CertificateNotYetValidExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CertificateNotYetValidExceptionTests<SUT extends javax.security.cert.CertificateNotYetValidException>
 extends org.j8unit.repository.javax.security.cert.CertificateExceptionTests<SUT> {

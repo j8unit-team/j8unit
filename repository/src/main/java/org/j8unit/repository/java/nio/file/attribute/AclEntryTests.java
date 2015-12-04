@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.attribute.AclEntryClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AclEntryTests<SUT extends java.nio.file.attribute.AclEntry>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.nio.file.attribute.AclEntryClassTests.BuilderClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderTests<SUT extends java.nio.file.attribute.AclEntry.Builder>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.CompoundControlTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompoundControlClassTests<SUT extends Class<? extends javax.sound.sampled.CompoundControl>>
 extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
@@ -58,6 +59,7 @@ extends org.j8unit.repository.javax.sound.sampled.ControlClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.sampled.CompoundControlTests.TypeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TypeClassTests<SUT extends Class<? extends javax.sound.sampled.CompoundControl.Type>>
     extends org.j8unit.repository.javax.sound.sampled.ControlClassTests.TypeClassTests<SUT> {

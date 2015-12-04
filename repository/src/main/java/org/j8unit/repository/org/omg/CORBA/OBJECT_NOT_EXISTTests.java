@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.OBJECT_NOT_EXISTClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OBJECT_NOT_EXISTTests<SUT extends org.omg.CORBA.OBJECT_NOT_EXIST>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {

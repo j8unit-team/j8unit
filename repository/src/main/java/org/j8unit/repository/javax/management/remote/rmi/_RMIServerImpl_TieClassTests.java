@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.remote.rmi._RMIServerImpl_TieTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _RMIServerImpl_TieClassTests<SUT extends Class<? extends javax.management.remote.rmi._RMIServerImpl_Tie>>
 extends org.j8unit.repository.javax.rmi.CORBA.TieClassTests<SUT>, org.j8unit.repository.org.omg.CORBA_2_3.portable.ObjectImplClassTests<SUT> {

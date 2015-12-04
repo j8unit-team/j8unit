@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.jws.OnewayClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OnewayTests<SUT extends javax.jws.Oneway>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {

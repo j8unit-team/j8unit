@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.beancontext.BeanContextServicesListenerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BeanContextServicesListenerClassTests<SUT extends Class<? extends java.beans.beancontext.BeanContextServicesListener>>
 extends org.j8unit.repository.java.beans.beancontext.BeanContextServiceRevokedListenerClassTests<SUT> {

@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.http.HTTPBindingClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTTPBindingTests<SUT extends javax.xml.ws.http.HTTPBinding>
 extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {

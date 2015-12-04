@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.rmi.ssl.SslRMIServerSocketFactoryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SslRMIServerSocketFactoryClassTests<SUT extends Class<? extends javax.rmi.ssl.SslRMIServerSocketFactory>>
 extends org.j8unit.repository.java.rmi.server.RMIServerSocketFactoryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

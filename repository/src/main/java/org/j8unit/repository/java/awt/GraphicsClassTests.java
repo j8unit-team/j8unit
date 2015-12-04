@@ -28,6 +28,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.GraphicsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GraphicsClassTests<SUT extends Class<? extends java.awt.Graphics>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

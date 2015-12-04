@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.MultipleGradientPaintClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultipleGradientPaintTests<SUT extends java.awt.MultipleGradientPaint>
 extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.ColorSpaceTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ColorSpaceTypeTests<SUT extends java.awt.MultipleGradientPaint.ColorSpaceType>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, java.awt.MultipleGradientPaint.ColorSpaceType> {
@@ -51,6 +53,7 @@ extends org.j8unit.repository.java.awt.PaintTests<SUT>, org.j8unit.repository.ja
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.MultipleGradientPaintClassTests.CycleMethodClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CycleMethodTests<SUT extends java.awt.MultipleGradientPaint.CycleMethod>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, java.awt.MultipleGradientPaint.CycleMethod> {

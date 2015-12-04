@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.multi.MultiLookAndFeelClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultiLookAndFeelTests<SUT extends javax.swing.plaf.multi.MultiLookAndFeel>
 extends org.j8unit.repository.javax.swing.LookAndFeelTests<SUT> {

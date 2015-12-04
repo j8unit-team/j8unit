@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLSignatureTests<SUT extends javax.xml.crypto.dsig.XMLSignature>
 extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.crypto.dsig.XMLSignatureClassTests.SignatureValueClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SignatureValueTests<SUT extends javax.xml.crypto.dsig.XMLSignature.SignatureValue>
     extends org.j8unit.repository.javax.xml.crypto.XMLStructureTests<SUT> {

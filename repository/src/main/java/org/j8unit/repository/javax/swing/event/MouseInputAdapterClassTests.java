@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.MouseInputAdapterTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MouseInputAdapterClassTests<SUT extends Class<? extends javax.swing.event.MouseInputAdapter>>
 extends org.j8unit.repository.javax.swing.event.MouseInputListenerClassTests<SUT>, org.j8unit.repository.java.awt.event.MouseAdapterClassTests<SUT> {

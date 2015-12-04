@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.datatransfer.FlavorListenerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FlavorListenerClassTests<SUT extends Class<? extends java.awt.datatransfer.FlavorListener>>
 extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {

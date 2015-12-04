@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.stream.DoubleStreamTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DoubleStreamClassTests<SUT extends Class<? extends java.util.stream.DoubleStream>>
 extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.lang.Double, java.util.stream.DoubleStream> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.util.stream.BaseStreamClassTests<SUT, java.la
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.stream.DoubleStreamTests.BuilderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderClassTests<SUT extends Class<? extends java.util.stream.DoubleStream.Builder>>
     extends org.j8unit.repository.java.util.function.DoubleConsumerClassTests<SUT> {

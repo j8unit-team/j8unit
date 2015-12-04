@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.SimpleBeanInfoClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleBeanInfoTests<SUT extends java.beans.SimpleBeanInfo>
 extends org.j8unit.repository.java.beans.BeanInfoTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

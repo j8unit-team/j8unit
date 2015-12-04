@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.logging.FileHandlerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileHandlerClassTests<SUT extends Class<? extends java.util.logging.FileHandler>>
 extends org.j8unit.repository.java.util.logging.StreamHandlerClassTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.LDAPCertStoreParametersClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LDAPCertStoreParametersTests<SUT extends java.security.cert.LDAPCertStoreParameters>
 extends org.j8unit.repository.java.security.cert.CertStoreParametersTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

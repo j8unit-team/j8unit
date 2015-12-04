@@ -19,6 +19,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.metadata.IIOMetadataControllerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IIOMetadataControllerTests<SUT extends javax.imageio.metadata.IIOMetadataController>
 extends J8UnitTest<SUT> {

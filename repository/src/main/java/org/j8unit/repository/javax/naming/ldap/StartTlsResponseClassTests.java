@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.ldap.StartTlsResponseTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StartTlsResponseClassTests<SUT extends Class<? extends javax.naming.ldap.StartTlsResponse>>
 extends org.j8unit.repository.javax.naming.ldap.ExtendedResponseClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.multi.MultiToolBarUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultiToolBarUIClassTests<SUT extends Class<? extends javax.swing.plaf.multi.MultiToolBarUI>>
 extends org.j8unit.repository.javax.swing.plaf.ToolBarUIClassTests<SUT> {

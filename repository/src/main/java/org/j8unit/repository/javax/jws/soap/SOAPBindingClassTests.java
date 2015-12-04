@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.jws.soap.SOAPBindingTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SOAPBindingClassTests<SUT extends Class<? extends javax.jws.soap.SOAPBinding>>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.jws.soap.SOAPBindingTests.ParameterStyleTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParameterStyleClassTests<SUT extends Class<? extends javax.jws.soap.SOAPBinding.ParameterStyle>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.jws.soap.SOAPBinding.ParameterStyle> {
@@ -134,6 +136,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.jws.soap.SOAPBindingTests.StyleTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StyleClassTests<SUT extends Class<? extends javax.jws.soap.SOAPBinding.Style>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.jws.soap.SOAPBinding.Style> {
@@ -207,6 +210,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.jws.soap.SOAPBindingTests.UseTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UseClassTests<SUT extends Class<? extends javax.jws.soap.SOAPBinding.Use>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.jws.soap.SOAPBinding.Use> {

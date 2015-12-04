@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.ldap.ExtendedRequestClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExtendedRequestTests<SUT extends javax.naming.ldap.ExtendedRequest>
 extends org.j8unit.repository.java.io.SerializableTests<SUT> {

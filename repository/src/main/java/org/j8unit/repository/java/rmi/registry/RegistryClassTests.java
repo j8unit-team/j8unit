@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.registry.RegistryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RegistryClassTests<SUT extends Class<? extends java.rmi.registry.Registry>>
 extends org.j8unit.repository.java.rmi.RemoteClassTests<SUT> {

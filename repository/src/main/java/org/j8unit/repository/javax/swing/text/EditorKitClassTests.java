@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.EditorKitTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EditorKitClassTests<SUT extends Class<? extends javax.swing.text.EditorKit>>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.relation.RelationTypeNotFoundExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RelationTypeNotFoundExceptionTests<SUT extends javax.management.relation.RelationTypeNotFoundException>
 extends org.j8unit.repository.javax.management.relation.RelationExceptionTests<SUT> {

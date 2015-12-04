@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @see org.j8unit.repository.java.beans.beancontext.BeanContextTests
  */
 @SuppressWarnings("rawtypes")
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BeanContextClassTests<SUT extends Class<? extends java.beans.beancontext.BeanContext>>
 extends org.j8unit.repository.java.beans.beancontext.BeanContextChildClassTests, org.j8unit.repository.java.util.CollectionClassTests,

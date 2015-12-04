@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.soap.SAAJResultTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SAAJResultClassTests<SUT extends Class<? extends javax.xml.soap.SAAJResult>>
 extends org.j8unit.repository.javax.xml.transform.dom.DOMResultClassTests<SUT> {

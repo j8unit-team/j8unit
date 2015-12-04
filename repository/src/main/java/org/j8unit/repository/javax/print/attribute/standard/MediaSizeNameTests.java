@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeNameClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MediaSizeNameTests<SUT extends javax.print.attribute.standard.MediaSizeName>
 extends org.j8unit.repository.javax.print.attribute.standard.MediaTests<SUT> {

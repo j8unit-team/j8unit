@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalBordersClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ButtonBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ButtonBorderClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders.ButtonBorder>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
@@ -117,6 +119,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.Flush3DBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface Flush3DBorderClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders.Flush3DBorder>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
@@ -173,6 +176,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.InternalFrameBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InternalFrameBorderClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders.InternalFrameBorder>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
@@ -229,6 +233,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.MenuBarBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MenuBarBorderClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders.MenuBarBorder>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
@@ -285,6 +290,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.MenuItemBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MenuItemBorderClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders.MenuItemBorder>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
@@ -341,6 +347,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.OptionDialogBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OptionDialogBorderClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders.OptionDialogBorder>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
@@ -397,6 +404,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.PaletteBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PaletteBorderClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders.PaletteBorder>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
@@ -453,6 +461,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.PopupMenuBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PopupMenuBorderClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders.PopupMenuBorder>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
@@ -509,6 +518,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.RolloverButtonBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface RolloverButtonBorderClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders.RolloverButtonBorder>>
     extends org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ButtonBorderClassTests<SUT> {
@@ -565,6 +575,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ScrollPaneBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ScrollPaneBorderClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
@@ -621,6 +632,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.TableHeaderBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TableHeaderBorderClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders.TableHeaderBorder>>
     extends org.j8unit.repository.javax.swing.border.AbstractBorderClassTests<SUT> {
@@ -677,6 +689,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.TextFieldBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TextFieldBorderClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders.TextFieldBorder>>
     extends org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.Flush3DBorderClassTests<SUT> {
@@ -733,6 +746,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ToggleButtonBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ToggleButtonBorderClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders.ToggleButtonBorder>>
     extends org.j8unit.repository.javax.swing.plaf.metal.MetalBordersClassTests.ButtonBorderClassTests<SUT> {
@@ -789,6 +803,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalBordersTests.ToolBarBorderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ToolBarBorderClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalBorders.ToolBarBorder>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>,

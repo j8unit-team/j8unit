@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.MessageFormatClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MessageFormatTests<SUT extends java.text.MessageFormat>
 extends org.j8unit.repository.java.text.FormatTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.text.FormatTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.text.MessageFormatClassTests.FieldClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FieldTests<SUT extends java.text.MessageFormat.Field>
     extends org.j8unit.repository.java.text.FormatTests.FieldTests<SUT> {

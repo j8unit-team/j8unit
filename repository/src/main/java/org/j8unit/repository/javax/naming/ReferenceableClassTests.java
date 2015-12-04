@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.ReferenceableTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ReferenceableClassTests<SUT extends Class<? extends javax.naming.Referenceable>>
 extends J8UnitTest<SUT> {

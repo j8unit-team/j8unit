@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.logging.XMLFormatterTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLFormatterClassTests<SUT extends Class<? extends java.util.logging.XMLFormatter>>
 extends org.j8unit.repository.java.util.logging.FormatterClassTests<SUT> {

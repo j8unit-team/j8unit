@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.ChoiceFormatClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ChoiceFormatTests<SUT extends java.text.ChoiceFormat>
 extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {

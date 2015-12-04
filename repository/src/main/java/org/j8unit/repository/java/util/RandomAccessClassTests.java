@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.RandomAccessTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RandomAccessClassTests<SUT extends Class<? extends java.util.RandomAccess>>
 extends J8UnitTest<SUT> {

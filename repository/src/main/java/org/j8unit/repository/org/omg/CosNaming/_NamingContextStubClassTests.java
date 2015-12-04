@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CosNaming._NamingContextStubTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _NamingContextStubClassTests<SUT extends Class<? extends org.omg.CosNaming._NamingContextStub>>
 extends org.j8unit.repository.org.omg.CosNaming.NamingContextClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests<SUT> {

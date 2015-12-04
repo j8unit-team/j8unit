@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.EventListenerProxyClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EventListenerProxyTests<SUT extends java.util.EventListenerProxy<T>, T extends java.util.EventListener>
 extends org.j8unit.repository.java.util.EventListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

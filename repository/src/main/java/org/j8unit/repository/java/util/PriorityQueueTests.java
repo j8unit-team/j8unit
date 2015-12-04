@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.PriorityQueueClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PriorityQueueTests<SUT extends java.util.PriorityQueue<E>, E>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.util.AbstractQueueTests<SUT, E> {

@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.OMGVMCIDTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OMGVMCIDClassTests<SUT extends Class<? extends org.omg.CORBA.OMGVMCID>>
 extends J8UnitTest<SUT> {

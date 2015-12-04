@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.atomic.AtomicReferenceArrayClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AtomicReferenceArrayTests<SUT extends java.util.concurrent.atomic.AtomicReferenceArray<E>, E>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

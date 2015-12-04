@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.DynamicAny._DynEnumStubTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _DynEnumStubClassTests<SUT extends Class<? extends org.omg.DynamicAny._DynEnumStub>>
 extends org.j8unit.repository.org.omg.DynamicAny.DynEnumClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests<SUT> {

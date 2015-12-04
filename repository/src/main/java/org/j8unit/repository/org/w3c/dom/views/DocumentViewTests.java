@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.views.DocumentViewClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocumentViewTests<SUT extends org.w3c.dom.views.DocumentView>
 extends J8UnitTest<SUT> {

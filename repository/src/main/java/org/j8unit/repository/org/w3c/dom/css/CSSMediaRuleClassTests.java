@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.css.CSSMediaRuleTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSMediaRuleClassTests<SUT extends Class<? extends org.w3c.dom.css.CSSMediaRule>>
 extends org.j8unit.repository.org.w3c.dom.css.CSSRuleClassTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JFormattedTextFieldTests<SUT extends javax.swing.JFormattedTextField>
 extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests.AbstractFormatterFactoryClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractFormatterFactoryTests<SUT extends javax.swing.JFormattedTextField.AbstractFormatterFactory>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -69,6 +71,7 @@ extends org.j8unit.repository.javax.swing.JTextFieldTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JFormattedTextFieldClassTests.AbstractFormatterClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AbstractFormatterTests<SUT extends javax.swing.JFormattedTextField.AbstractFormatter>
     extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

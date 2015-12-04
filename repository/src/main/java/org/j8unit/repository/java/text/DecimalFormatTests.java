@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.text.DecimalFormatClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DecimalFormatTests<SUT extends java.text.DecimalFormat>
 extends org.j8unit.repository.java.text.NumberFormatTests<SUT> {

@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.PortUnreachableExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PortUnreachableExceptionTests<SUT extends java.net.PortUnreachableException>
 extends org.j8unit.repository.java.net.SocketExceptionTests<SUT> {

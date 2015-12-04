@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.LabelViewClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LabelViewTests<SUT extends javax.swing.text.LabelView>
 extends org.j8unit.repository.javax.swing.text.TabableViewTests<SUT>, org.j8unit.repository.javax.swing.text.GlyphViewTests<SUT> {

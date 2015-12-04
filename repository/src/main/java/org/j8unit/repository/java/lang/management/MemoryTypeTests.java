@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.management.MemoryTypeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MemoryTypeTests<SUT extends java.lang.management.MemoryType>
 extends org.j8unit.repository.java.lang.EnumTests<SUT, java.lang.management.MemoryType> {

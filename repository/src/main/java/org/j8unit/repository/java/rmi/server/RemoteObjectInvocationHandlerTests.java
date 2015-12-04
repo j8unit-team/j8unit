@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.server.RemoteObjectInvocationHandlerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RemoteObjectInvocationHandlerTests<SUT extends java.rmi.server.RemoteObjectInvocationHandler>
 extends org.j8unit.repository.java.lang.reflect.InvocationHandlerTests<SUT>, org.j8unit.repository.java.rmi.server.RemoteObjectTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.OctetStreamDataTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OctetStreamDataClassTests<SUT extends Class<? extends javax.xml.crypto.OctetStreamData>>
 extends org.j8unit.repository.javax.xml.crypto.DataClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

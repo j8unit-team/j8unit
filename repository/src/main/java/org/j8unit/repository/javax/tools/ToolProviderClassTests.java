@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.ToolProviderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ToolProviderClassTests<SUT extends Class<? extends javax.tools.ToolProvider>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

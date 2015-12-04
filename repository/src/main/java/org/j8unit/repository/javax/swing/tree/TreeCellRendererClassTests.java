@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.tree.TreeCellRendererTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TreeCellRendererClassTests<SUT extends Class<? extends javax.swing.tree.TreeCellRenderer>>
 extends J8UnitTest<SUT> {

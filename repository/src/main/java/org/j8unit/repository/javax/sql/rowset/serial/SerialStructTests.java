@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.rowset.serial.SerialStructClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SerialStructTests<SUT extends javax.sql.rowset.serial.SerialStruct>
 extends org.j8unit.repository.java.sql.StructTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,

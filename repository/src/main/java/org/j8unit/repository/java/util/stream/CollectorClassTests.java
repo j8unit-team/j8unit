@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.stream.CollectorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CollectorClassTests<SUT extends Class<? extends java.util.stream.Collector<T, A, R>>, T, A, R>
 extends J8UnitTest<SUT> {
@@ -62,6 +63,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.stream.CollectorTests.CharacteristicsTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CharacteristicsClassTests<SUT extends Class<? extends java.util.stream.Collector.Characteristics>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.util.stream.Collector.Characteristics> {

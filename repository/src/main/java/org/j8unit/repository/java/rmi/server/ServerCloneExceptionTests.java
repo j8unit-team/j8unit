@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.server.ServerCloneExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ServerCloneExceptionTests<SUT extends java.rmi.server.ServerCloneException>
 extends org.j8unit.repository.java.lang.CloneNotSupportedExceptionTests<SUT> {

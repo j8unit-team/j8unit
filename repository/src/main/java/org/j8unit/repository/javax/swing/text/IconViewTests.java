@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.IconViewClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IconViewTests<SUT extends javax.swing.text.IconView>
 extends org.j8unit.repository.javax.swing.text.ViewTests<SUT> {

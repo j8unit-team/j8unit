@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.DialogTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DialogClassTests<SUT extends Class<? extends java.awt.Dialog>>
 extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.DialogTests.ModalExclusionTypeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModalExclusionTypeClassTests<SUT extends Class<? extends java.awt.Dialog.ModalExclusionType>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.Dialog.ModalExclusionType> {
@@ -132,6 +134,7 @@ extends org.j8unit.repository.java.awt.WindowClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.DialogTests.ModalityTypeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ModalityTypeClassTests<SUT extends Class<? extends java.awt.Dialog.ModalityType>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.Dialog.ModalityType> {

@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.DynamicAny.DynFixedClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynFixedTests<SUT extends org.omg.DynamicAny.DynFixed>
 extends org.j8unit.repository.org.omg.DynamicAny.DynFixedOperationsTests<SUT>, org.j8unit.repository.org.omg.DynamicAny.DynAnyTests<SUT>,

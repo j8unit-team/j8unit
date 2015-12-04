@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.BooleanControlClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BooleanControlTests<SUT extends javax.sound.sampled.BooleanControl>
 extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.javax.sound.sampled.ControlTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.sampled.BooleanControlClassTests.TypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TypeTests<SUT extends javax.sound.sampled.BooleanControl.Type>
     extends org.j8unit.repository.javax.sound.sampled.ControlTests.TypeTests<SUT> {

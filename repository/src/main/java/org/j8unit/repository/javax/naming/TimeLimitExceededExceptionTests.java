@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.TimeLimitExceededExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TimeLimitExceededExceptionTests<SUT extends javax.naming.TimeLimitExceededException>
 extends org.j8unit.repository.javax.naming.LimitExceededExceptionTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.CertPathParametersClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CertPathParametersTests<SUT extends java.security.cert.CertPathParameters>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT> {

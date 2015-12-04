@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ThreadFactoryClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ThreadFactoryTests<SUT extends java.util.concurrent.ThreadFactory>
 extends J8UnitTest<SUT> {

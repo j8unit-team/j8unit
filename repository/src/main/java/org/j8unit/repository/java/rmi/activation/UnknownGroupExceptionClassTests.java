@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.activation.UnknownGroupExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnknownGroupExceptionClassTests<SUT extends Class<? extends java.rmi.activation.UnknownGroupException>>
 extends org.j8unit.repository.java.rmi.activation.ActivationExceptionClassTests<SUT> {

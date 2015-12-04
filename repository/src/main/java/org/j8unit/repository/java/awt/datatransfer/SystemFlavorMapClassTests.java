@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.datatransfer.SystemFlavorMapTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SystemFlavorMapClassTests<SUT extends Class<? extends java.awt.datatransfer.SystemFlavorMap>>
 extends org.j8unit.repository.java.awt.datatransfer.FlavorMapClassTests<SUT>, org.j8unit.repository.java.awt.datatransfer.FlavorTableClassTests<SUT>,

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA_2_3.portable.ObjectImplTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectImplClassTests<SUT extends Class<? extends org.omg.CORBA_2_3.portable.ObjectImpl>>
 extends org.j8unit.repository.org.omg.CORBA.portable.ObjectImplClassTests<SUT> {

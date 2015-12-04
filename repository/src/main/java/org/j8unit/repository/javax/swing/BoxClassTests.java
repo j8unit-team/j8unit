@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.BoxTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BoxClassTests<SUT extends Class<? extends javax.swing.Box>>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.BoxTests.FillerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FillerClassTests<SUT extends Class<? extends javax.swing.Box.Filler>>
     extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JComponentClassTests<SUT> {

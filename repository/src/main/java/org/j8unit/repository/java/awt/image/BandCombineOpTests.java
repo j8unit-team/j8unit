@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.BandCombineOpClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BandCombineOpTests<SUT extends java.awt.image.BandCombineOp>
 extends org.j8unit.repository.java.awt.image.RasterOpTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

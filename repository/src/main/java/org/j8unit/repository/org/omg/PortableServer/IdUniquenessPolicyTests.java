@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.IdUniquenessPolicyClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IdUniquenessPolicyTests<SUT extends org.omg.PortableServer.IdUniquenessPolicy>
 extends org.j8unit.repository.org.omg.PortableServer.IdUniquenessPolicyOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.PolicyTests<SUT>,

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.CopyOnWriteArrayListTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CopyOnWriteArrayListClassTests<SUT extends Class<? extends java.util.concurrent.CopyOnWriteArrayList<E>>, E>
 extends org.j8unit.repository.java.util.ListClassTests<SUT, E>, org.j8unit.repository.java.util.RandomAccessClassTests<SUT>,

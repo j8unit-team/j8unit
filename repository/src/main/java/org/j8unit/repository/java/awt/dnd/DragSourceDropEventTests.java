@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.dnd.DragSourceDropEventClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DragSourceDropEventTests<SUT extends java.awt.dnd.DragSourceDropEvent>
 extends org.j8unit.repository.java.awt.dnd.DragSourceEventTests<SUT> {

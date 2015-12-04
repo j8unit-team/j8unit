@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.CancellationExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CancellationExceptionTests<SUT extends java.util.concurrent.CancellationException>
 extends org.j8unit.repository.java.lang.IllegalStateExceptionTests<SUT> {

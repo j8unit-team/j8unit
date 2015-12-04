@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.DynamicAny.DynSequenceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynSequenceTests<SUT extends org.omg.DynamicAny.DynSequence>
 extends org.j8unit.repository.org.omg.DynamicAny.DynSequenceOperationsTests<SUT>, org.j8unit.repository.org.omg.DynamicAny.DynAnyTests<SUT>,

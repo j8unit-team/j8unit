@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.PrivilegedExceptionActionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrivilegedExceptionActionClassTests<SUT extends Class<? extends java.security.PrivilegedExceptionAction<T>>, T>
 extends J8UnitTest<SUT> {

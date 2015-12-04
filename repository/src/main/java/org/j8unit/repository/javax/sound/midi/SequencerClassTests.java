@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.midi.SequencerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SequencerClassTests<SUT extends Class<? extends javax.sound.midi.Sequencer>>
 extends org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<SUT> {
@@ -58,6 +59,7 @@ extends org.j8unit.repository.javax.sound.midi.MidiDeviceClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.midi.SequencerTests.SyncModeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SyncModeClassTests<SUT extends Class<? extends javax.sound.midi.Sequencer.SyncMode>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.prefs.PreferencesFactoryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PreferencesFactoryClassTests<SUT extends Class<? extends java.util.prefs.PreferencesFactory>>
 extends J8UnitTest<SUT> {

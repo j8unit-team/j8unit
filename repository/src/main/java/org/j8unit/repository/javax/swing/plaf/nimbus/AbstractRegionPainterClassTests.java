@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.nimbus.AbstractRegionPainterTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractRegionPainterClassTests<SUT extends Class<? extends javax.swing.plaf.nimbus.AbstractRegionPainter>>
 extends org.j8unit.repository.javax.swing.PainterClassTests<SUT, javax.swing.JComponent>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

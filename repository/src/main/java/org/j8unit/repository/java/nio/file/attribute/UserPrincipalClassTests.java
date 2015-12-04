@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.attribute.UserPrincipalTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UserPrincipalClassTests<SUT extends Class<? extends java.nio.file.attribute.UserPrincipal>>
 extends org.j8unit.repository.java.security.PrincipalClassTests<SUT> {

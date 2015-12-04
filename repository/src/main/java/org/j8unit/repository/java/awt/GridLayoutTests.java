@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.GridLayoutClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GridLayoutTests<SUT extends java.awt.GridLayout>
 extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,

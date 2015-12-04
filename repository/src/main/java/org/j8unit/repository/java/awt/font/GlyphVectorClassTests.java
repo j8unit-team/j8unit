@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.font.GlyphVectorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GlyphVectorClassTests<SUT extends Class<? extends java.awt.font.GlyphVector>>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

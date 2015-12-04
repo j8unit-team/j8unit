@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.prefs.PreferenceChangeEventClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PreferenceChangeEventTests<SUT extends java.util.prefs.PreferenceChangeEvent>
 extends org.j8unit.repository.java.util.EventObjectTests<SUT> {

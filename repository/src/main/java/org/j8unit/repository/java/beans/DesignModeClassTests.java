@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.DesignModeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DesignModeClassTests<SUT extends Class<? extends java.beans.DesignMode>>
 extends J8UnitTest<SUT> {

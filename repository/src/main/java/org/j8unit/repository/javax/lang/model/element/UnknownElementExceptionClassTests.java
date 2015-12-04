@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.element.UnknownElementExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnknownElementExceptionClassTests<SUT extends Class<? extends javax.lang.model.element.UnknownElementException>>
 extends org.j8unit.repository.javax.lang.model.UnknownEntityExceptionClassTests<SUT> {

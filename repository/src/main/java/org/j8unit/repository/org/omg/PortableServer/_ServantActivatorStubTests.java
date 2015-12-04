@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer._ServantActivatorStubClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface _ServantActivatorStubTests<SUT extends org.omg.PortableServer._ServantActivatorStub>
 extends org.j8unit.repository.org.omg.PortableServer.ServantActivatorTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ObjectImplTests<SUT> {

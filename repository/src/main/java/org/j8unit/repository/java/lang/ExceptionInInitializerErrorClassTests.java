@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.ExceptionInInitializerErrorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExceptionInInitializerErrorClassTests<SUT extends Class<? extends java.lang.ExceptionInInitializerError>>
 extends org.j8unit.repository.java.lang.LinkageErrorClassTests<SUT> {

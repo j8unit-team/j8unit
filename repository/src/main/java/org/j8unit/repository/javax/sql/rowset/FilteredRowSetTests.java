@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.rowset.FilteredRowSetClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FilteredRowSetTests<SUT extends javax.sql.rowset.FilteredRowSet>
 extends org.j8unit.repository.javax.sql.rowset.WebRowSetTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.PermissionsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PermissionsClassTests<SUT extends Class<? extends java.security.Permissions>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.security.PermissionCollectionClassTests<SUT> {

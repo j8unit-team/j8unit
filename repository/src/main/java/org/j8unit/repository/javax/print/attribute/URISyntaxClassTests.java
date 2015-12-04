@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.URISyntaxTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface URISyntaxClassTests<SUT extends Class<? extends javax.print.attribute.URISyntax>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,

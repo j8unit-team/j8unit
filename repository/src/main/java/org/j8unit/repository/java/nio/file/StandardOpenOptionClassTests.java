@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.StandardOpenOptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StandardOpenOptionClassTests<SUT extends Class<? extends java.nio.file.StandardOpenOption>>
 extends org.j8unit.repository.java.nio.file.OpenOptionClassTests<SUT>, org.j8unit.repository.java.lang.EnumClassTests<SUT, java.nio.file.StandardOpenOption> {

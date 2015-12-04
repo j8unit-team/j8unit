@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.MemoryImageSourceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MemoryImageSourceTests<SUT extends java.awt.image.MemoryImageSource>
 extends org.j8unit.repository.java.awt.image.ImageProducerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

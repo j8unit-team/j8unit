@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.ExecutableTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExecutableClassTests<SUT extends Class<? extends java.lang.reflect.Executable>>
 extends org.j8unit.repository.java.lang.reflect.MemberClassTests<SUT>, org.j8unit.repository.java.lang.reflect.GenericDeclarationClassTests<SUT>,

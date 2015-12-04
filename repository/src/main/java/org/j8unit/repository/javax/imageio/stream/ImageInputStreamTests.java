@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.stream.ImageInputStreamClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ImageInputStreamTests<SUT extends javax.imageio.stream.ImageInputStream>
 extends org.j8unit.repository.java.io.DataInputTests<SUT>, org.j8unit.repository.java.io.CloseableTests<SUT> {

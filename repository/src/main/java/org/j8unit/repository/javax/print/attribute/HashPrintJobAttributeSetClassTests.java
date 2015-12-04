@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.HashPrintJobAttributeSetTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HashPrintJobAttributeSetClassTests<SUT extends Class<? extends javax.print.attribute.HashPrintJobAttributeSet>>
 extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeSetClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

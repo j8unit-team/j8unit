@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.renderable.RenderableImageTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RenderableImageClassTests<SUT extends Class<? extends java.awt.image.renderable.RenderableImage>>
 extends J8UnitTest<SUT> {

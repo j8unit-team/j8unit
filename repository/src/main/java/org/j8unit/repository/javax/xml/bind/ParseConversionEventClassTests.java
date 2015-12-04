@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.ParseConversionEventTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ParseConversionEventClassTests<SUT extends Class<? extends javax.xml.bind.ParseConversionEvent>>
 extends org.j8unit.repository.javax.xml.bind.ValidationEventClassTests<SUT> {

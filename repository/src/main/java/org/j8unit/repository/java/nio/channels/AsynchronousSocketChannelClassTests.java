@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.AsynchronousSocketChannelTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AsynchronousSocketChannelClassTests<SUT extends Class<? extends java.nio.channels.AsynchronousSocketChannel>>
 extends org.j8unit.repository.java.nio.channels.AsynchronousByteChannelClassTests<SUT>, org.j8unit.repository.java.nio.channels.NetworkChannelClassTests<SUT>,

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.CompletableFutureClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompletableFutureTests<SUT extends java.util.concurrent.CompletableFuture<T>, T>
 extends org.j8unit.repository.java.util.concurrent.FutureTests<SUT, T>, org.j8unit.repository.java.util.concurrent.CompletionStageTests<SUT, T>,
@@ -35,6 +36,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.CompletableFutureClassTests.AsynchronousCompletionTaskClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AsynchronousCompletionTaskTests<SUT extends java.util.concurrent.CompletableFuture.AsynchronousCompletionTask>
     extends J8UnitTest<SUT> {

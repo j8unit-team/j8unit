@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.smartcardio.TerminalFactorySpiTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TerminalFactorySpiClassTests<SUT extends Class<? extends javax.smartcardio.TerminalFactorySpi>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

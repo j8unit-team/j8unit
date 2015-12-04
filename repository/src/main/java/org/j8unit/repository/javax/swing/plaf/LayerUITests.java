@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.LayerUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LayerUITests<SUT extends javax.swing.plaf.LayerUI<V>, V extends java.awt.Component>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.javax.swing.plaf.ComponentUITests<SUT> {

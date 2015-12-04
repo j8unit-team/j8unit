@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.zip.Adler32ClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Adler32Tests<SUT extends java.util.zip.Adler32>
 extends org.j8unit.repository.java.util.zip.ChecksumTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

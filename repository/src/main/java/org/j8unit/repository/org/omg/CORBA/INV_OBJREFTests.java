@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.INV_OBJREFClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface INV_OBJREFTests<SUT extends org.omg.CORBA.INV_OBJREF>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {

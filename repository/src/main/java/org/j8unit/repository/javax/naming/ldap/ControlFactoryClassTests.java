@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.ldap.ControlFactoryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ControlFactoryClassTests<SUT extends Class<? extends javax.naming.ldap.ControlFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

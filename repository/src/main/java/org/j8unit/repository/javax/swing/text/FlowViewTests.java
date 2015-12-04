@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.FlowViewClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FlowViewTests<SUT extends javax.swing.text.FlowView>
 extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.FlowViewClassTests.FlowStrategyClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FlowStrategyTests<SUT extends javax.swing.text.FlowView.FlowStrategy>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

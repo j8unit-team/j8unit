@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.GraphicsEnvironmentClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GraphicsEnvironmentTests<SUT extends java.awt.GraphicsEnvironment>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

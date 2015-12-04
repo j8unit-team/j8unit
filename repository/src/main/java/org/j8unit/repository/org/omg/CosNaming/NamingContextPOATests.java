@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CosNaming.NamingContextPOAClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NamingContextPOATests<SUT extends org.omg.CosNaming.NamingContextPOA>
 extends org.j8unit.repository.org.omg.CosNaming.NamingContextOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.InvokeHandlerTests<SUT>,

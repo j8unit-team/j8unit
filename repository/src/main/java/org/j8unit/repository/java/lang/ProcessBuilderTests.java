@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.ProcessBuilderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ProcessBuilderTests<SUT extends java.lang.ProcessBuilder>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.lang.ProcessBuilderClassTests.RedirectClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface RedirectTests<SUT extends java.lang.ProcessBuilder.Redirect>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -47,6 +49,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
          * @since 0.9.0
          * @see org.j8unit.repository.java.lang.ProcessBuilderClassTests.RedirectClassTests.TypeClassTests
          */
+        @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface TypeTests<SUT extends java.lang.ProcessBuilder.Redirect.Type>
         extends org.j8unit.repository.java.lang.EnumTests<SUT, java.lang.ProcessBuilder.Redirect.Type> {

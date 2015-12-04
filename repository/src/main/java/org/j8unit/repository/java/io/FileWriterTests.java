@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.FileWriterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileWriterTests<SUT extends java.io.FileWriter>
 extends org.j8unit.repository.java.io.OutputStreamWriterTests<SUT> {

@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ReentrantReadWriteLockClassTests<SUT extends Class<? extends java.util.concurrent.locks.ReentrantReadWriteLock>>
 extends org.j8unit.repository.java.util.concurrent.locks.ReadWriteLockClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
@@ -63,6 +64,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.ReadLockTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ReadLockClassTests<SUT extends Class<? extends java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock>>
     extends org.j8unit.repository.java.util.concurrent.locks.LockClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
@@ -106,6 +108,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.concurrent.locks.ReentrantReadWriteLockTests.WriteLockTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface WriteLockClassTests<SUT extends Class<? extends java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock>>
     extends org.j8unit.repository.java.util.concurrent.locks.LockClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

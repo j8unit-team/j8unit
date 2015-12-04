@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.JobPriorityTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JobPriorityClassTests<SUT extends Class<? extends javax.print.attribute.standard.JobPriority>>
 extends org.j8unit.repository.javax.print.attribute.PrintRequestAttributeClassTests<SUT>,

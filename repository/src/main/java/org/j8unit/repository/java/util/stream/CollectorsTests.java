@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.stream.CollectorsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CollectorsTests<SUT extends java.util.stream.Collectors>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

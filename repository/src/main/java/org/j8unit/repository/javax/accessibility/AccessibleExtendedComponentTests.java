@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.accessibility.AccessibleExtendedComponentClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccessibleExtendedComponentTests<SUT extends javax.accessibility.AccessibleExtendedComponent>
 extends org.j8unit.repository.javax.accessibility.AccessibleComponentTests<SUT> {

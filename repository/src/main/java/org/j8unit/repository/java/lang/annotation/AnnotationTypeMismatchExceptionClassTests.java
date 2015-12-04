@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.annotation.AnnotationTypeMismatchExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AnnotationTypeMismatchExceptionClassTests<SUT extends Class<? extends java.lang.annotation.AnnotationTypeMismatchException>>
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {

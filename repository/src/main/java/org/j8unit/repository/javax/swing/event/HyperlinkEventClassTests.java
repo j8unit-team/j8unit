@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.HyperlinkEventTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HyperlinkEventClassTests<SUT extends Class<? extends javax.swing.event.HyperlinkEvent>>
 extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.event.HyperlinkEventTests.EventTypeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EventTypeClassTests<SUT extends Class<? extends javax.swing.event.HyperlinkEvent.EventType>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

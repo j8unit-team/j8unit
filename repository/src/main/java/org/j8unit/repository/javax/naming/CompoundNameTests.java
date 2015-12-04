@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.CompoundNameClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompoundNameTests<SUT extends javax.naming.CompoundName>
 extends org.j8unit.repository.javax.naming.NameTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

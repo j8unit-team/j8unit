@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.MarshalledObjectTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MarshalledObjectClassTests<SUT extends Class<? extends java.rmi.MarshalledObject<T>>, T>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

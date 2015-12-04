@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CosNaming.NamingContextPackage.CannotProceedHolderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CannotProceedHolderClassTests<SUT extends Class<? extends org.omg.CosNaming.NamingContextPackage.CannotProceedHolder>>
 extends org.j8unit.repository.org.omg.CORBA.portable.StreamableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

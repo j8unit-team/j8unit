@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JLayeredPaneClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JLayeredPaneTests<SUT extends javax.swing.JLayeredPane>
 extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repository.javax.swing.JComponentTests<SUT> {

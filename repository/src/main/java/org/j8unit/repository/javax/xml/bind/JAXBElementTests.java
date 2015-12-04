@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.JAXBElementClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JAXBElementTests<SUT extends javax.xml.bind.JAXBElement<T>, T>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.bind.JAXBElementClassTests.GlobalScopeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface GlobalScopeTests<SUT extends javax.xml.bind.JAXBElement.GlobalScope>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

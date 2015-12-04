@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.element.UnknownAnnotationValueExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnknownAnnotationValueExceptionTests<SUT extends javax.lang.model.element.UnknownAnnotationValueException>
 extends org.j8unit.repository.javax.lang.model.UnknownEntityExceptionTests<SUT> {

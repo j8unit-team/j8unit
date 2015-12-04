@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.LayeredHighlighterTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LayeredHighlighterClassTests<SUT extends Class<? extends javax.swing.text.LayeredHighlighter>>
 extends org.j8unit.repository.javax.swing.text.HighlighterClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.text.HighlighterClassTests<SUT>, org.j
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.LayeredHighlighterTests.LayerPainterTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LayerPainterClassTests<SUT extends Class<? extends javax.swing.text.LayeredHighlighter.LayerPainter>>
     extends org.j8unit.repository.javax.swing.text.HighlighterClassTests.HighlightPainterClassTests<SUT>,

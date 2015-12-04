@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.NoPermissionExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NoPermissionExceptionTests<SUT extends javax.naming.NoPermissionException>
 extends org.j8unit.repository.javax.naming.NamingSecurityExceptionTests<SUT> {

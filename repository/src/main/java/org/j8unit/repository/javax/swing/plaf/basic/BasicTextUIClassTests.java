@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicTextUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTextUI>>
 extends org.j8unit.repository.javax.swing.text.ViewFactoryClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.TextUIClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryClassTests<SUT>, org.j
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicCaretTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BasicCaretClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTextUI.BasicCaret>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.text.DefaultCaretClassTests<SUT> {
@@ -117,6 +119,7 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryClassTests<SUT>, org.j
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicHighlighterTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BasicHighlighterClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTextUI.BasicHighlighter>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests<SUT> {

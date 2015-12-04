@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.script.AbstractScriptEngineTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractScriptEngineClassTests<SUT extends Class<? extends javax.script.AbstractScriptEngine>>
 extends org.j8unit.repository.javax.script.ScriptEngineClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

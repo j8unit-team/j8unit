@@ -28,6 +28,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ListTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ListClassTests<SUT extends Class<? extends java.util.List<E>>, E>
 extends org.j8unit.repository.java.util.CollectionClassTests<SUT, E> {

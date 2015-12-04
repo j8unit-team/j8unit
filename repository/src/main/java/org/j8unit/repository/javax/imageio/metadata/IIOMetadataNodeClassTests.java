@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.metadata.IIOMetadataNodeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IIOMetadataNodeClassTests<SUT extends Class<? extends javax.imageio.metadata.IIOMetadataNode>>
 extends org.j8unit.repository.org.w3c.dom.ElementClassTests<SUT>, org.j8unit.repository.org.w3c.dom.NodeListClassTests<SUT>,

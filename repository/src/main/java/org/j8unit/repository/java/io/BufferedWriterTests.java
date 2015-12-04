@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.BufferedWriterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BufferedWriterTests<SUT extends java.io.BufferedWriter>
 extends org.j8unit.repository.java.io.WriterTests<SUT> {

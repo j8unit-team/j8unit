@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.CompletionStatusTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompletionStatusClassTests<SUT extends Class<? extends org.omg.CORBA.CompletionStatus>>
 extends org.j8unit.repository.org.omg.CORBA.portable.IDLEntityClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

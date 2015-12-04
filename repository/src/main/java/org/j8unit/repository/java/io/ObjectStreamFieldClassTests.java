@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.ObjectStreamFieldTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectStreamFieldClassTests<SUT extends Class<? extends java.io.ObjectStreamField>>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.lang.Object>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

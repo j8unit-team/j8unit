@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.activation.ActivationInstantiatorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActivationInstantiatorTests<SUT extends java.rmi.activation.ActivationInstantiator>
 extends org.j8unit.repository.java.rmi.RemoteTests<SUT> {

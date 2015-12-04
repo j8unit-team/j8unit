@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.TimeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TimeClassTests<SUT extends Class<? extends java.sql.Time>>
 extends org.j8unit.repository.java.util.DateClassTests<SUT> {

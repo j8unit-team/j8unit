@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.spi.LoginModuleClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LoginModuleTests<SUT extends javax.security.auth.spi.LoginModule>
 extends J8UnitTest<SUT> {

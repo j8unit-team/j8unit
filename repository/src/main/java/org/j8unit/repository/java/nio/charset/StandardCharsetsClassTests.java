@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.charset.StandardCharsetsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StandardCharsetsClassTests<SUT extends Class<? extends java.nio.charset.StandardCharsets>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

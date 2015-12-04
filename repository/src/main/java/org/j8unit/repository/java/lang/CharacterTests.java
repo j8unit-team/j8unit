@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.CharacterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharacterTests<SUT extends java.lang.Character>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<SUT, java.lang.Character>,
@@ -33,6 +34,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.lang.CharacterClassTests.SubsetClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SubsetTests<SUT extends java.lang.Character.Subset>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -101,6 +103,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.lang.CharacterClassTests.UnicodeBlockClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UnicodeBlockTests<SUT extends java.lang.Character.UnicodeBlock>
     extends org.j8unit.repository.java.lang.CharacterTests.SubsetTests<SUT> {
@@ -118,6 +121,7 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.lang.CharacterClassTests.UnicodeScriptClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UnicodeScriptTests<SUT extends java.lang.Character.UnicodeScript>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, java.lang.Character.UnicodeScript> {

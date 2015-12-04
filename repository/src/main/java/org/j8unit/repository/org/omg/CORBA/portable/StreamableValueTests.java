@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.portable.StreamableValueClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StreamableValueTests<SUT extends org.omg.CORBA.portable.StreamableValue>
 extends org.j8unit.repository.org.omg.CORBA.portable.StreamableTests<SUT>, org.j8unit.repository.org.omg.CORBA.portable.ValueBaseTests<SUT> {

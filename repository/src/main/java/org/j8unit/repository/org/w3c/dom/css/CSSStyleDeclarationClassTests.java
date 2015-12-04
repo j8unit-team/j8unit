@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.css.CSSStyleDeclarationTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSStyleDeclarationClassTests<SUT extends Class<? extends org.w3c.dom.css.CSSStyleDeclaration>>
 extends J8UnitTest<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.openmbean.CompositeDataSupportClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompositeDataSupportTests<SUT extends javax.management.openmbean.CompositeDataSupport>
 extends org.j8unit.repository.javax.management.openmbean.CompositeDataTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,

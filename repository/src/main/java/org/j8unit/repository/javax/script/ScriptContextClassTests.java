@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.script.ScriptContextTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ScriptContextClassTests<SUT extends Class<? extends javax.script.ScriptContext>>
 extends J8UnitTest<SUT> {

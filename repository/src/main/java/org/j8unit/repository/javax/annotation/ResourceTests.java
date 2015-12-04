@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.annotation.ResourceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ResourceTests<SUT extends javax.annotation.Resource>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.annotation.ResourceClassTests.AuthenticationTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AuthenticationTypeTests<SUT extends javax.annotation.Resource.AuthenticationType>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.annotation.Resource.AuthenticationType> {

@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.InputMismatchExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InputMismatchExceptionTests<SUT extends java.util.InputMismatchException>
 extends org.j8unit.repository.java.util.NoSuchElementExceptionTests<SUT> {

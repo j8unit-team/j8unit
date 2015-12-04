@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.ForwardRequestHelperTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ForwardRequestHelperClassTests<SUT extends Class<? extends org.omg.PortableServer.ForwardRequestHelper>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

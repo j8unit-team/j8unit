@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.beancontext.BeanContextMembershipEventClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BeanContextMembershipEventTests<SUT extends java.beans.beancontext.BeanContextMembershipEvent>
 extends org.j8unit.repository.java.beans.beancontext.BeanContextEventTests<SUT> {

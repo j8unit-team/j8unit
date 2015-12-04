@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.annotation.XmlAccessOrderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XmlAccessOrderClassTests<SUT extends Class<? extends javax.xml.bind.annotation.XmlAccessOrder>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.xml.bind.annotation.XmlAccessOrder> {

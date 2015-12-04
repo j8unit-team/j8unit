@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.PolicyErrorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PolicyErrorTests<SUT extends org.omg.CORBA.PolicyError>
 extends org.j8unit.repository.org.omg.CORBA.UserExceptionTests<SUT> {

@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.attribute.FileStoreAttributeViewTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileStoreAttributeViewClassTests<SUT extends Class<? extends java.nio.file.attribute.FileStoreAttributeView>>
 extends org.j8unit.repository.java.nio.file.attribute.AttributeViewClassTests<SUT> {

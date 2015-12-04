@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.NotificationFilterSupportTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotificationFilterSupportClassTests<SUT extends Class<? extends javax.management.NotificationFilterSupport>>
 extends org.j8unit.repository.javax.management.NotificationFilterClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

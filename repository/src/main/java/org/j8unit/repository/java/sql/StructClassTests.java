@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.StructTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StructClassTests<SUT extends Class<? extends java.sql.Struct>>
 extends J8UnitTest<SUT> {

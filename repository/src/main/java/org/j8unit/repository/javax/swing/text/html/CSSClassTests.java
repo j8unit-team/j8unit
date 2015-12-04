@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.CSSTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CSSClassTests<SUT extends Class<? extends javax.swing.text.html.CSS>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.CSSTests.AttributeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AttributeClassTests<SUT extends Class<? extends javax.swing.text.html.CSS.Attribute>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

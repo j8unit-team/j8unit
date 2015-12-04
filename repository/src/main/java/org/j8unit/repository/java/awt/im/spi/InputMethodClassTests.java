@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.im.spi.InputMethodTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InputMethodClassTests<SUT extends Class<? extends java.awt.im.spi.InputMethod>>
 extends J8UnitTest<SUT> {

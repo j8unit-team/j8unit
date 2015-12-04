@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.ImageClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ImageTests<SUT extends java.awt.Image>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

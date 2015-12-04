@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.CODESET_INCOMPATIBLETests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CODESET_INCOMPATIBLEClassTests<SUT extends Class<? extends org.omg.CORBA.CODESET_INCOMPATIBLE>>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionClassTests<SUT> {

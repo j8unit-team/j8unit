@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.OptionCheckerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OptionCheckerClassTests<SUT extends Class<? extends javax.tools.OptionChecker>>
 extends J8UnitTest<SUT> {

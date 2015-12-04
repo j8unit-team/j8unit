@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.HashDocAttributeSetTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HashDocAttributeSetClassTests<SUT extends Class<? extends javax.print.attribute.HashDocAttributeSet>>
 extends org.j8unit.repository.javax.print.attribute.DocAttributeSetClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

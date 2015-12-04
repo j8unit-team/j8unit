@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.font.MultipleMasterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MultipleMasterTests<SUT extends java.awt.font.MultipleMaster>
 extends J8UnitTest<SUT> {

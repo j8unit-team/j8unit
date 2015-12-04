@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.AudioSystemClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AudioSystemTests<SUT extends javax.sound.sampled.AudioSystem>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

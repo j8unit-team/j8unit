@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.geom.Point2DTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Point2DClassTests<SUT extends Class<? extends java.awt.geom.Point2D>>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.geom.Point2DTests.DoubleTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DoubleClassTests<SUT extends Class<? extends java.awt.geom.Point2D.Double>>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Point2DClassTests<SUT> {
@@ -127,6 +129,7 @@ extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.rep
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.geom.Point2DTests.FloatTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FloatClassTests<SUT extends Class<? extends java.awt.geom.Point2D.Float>>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Point2DClassTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.KeyManagementExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeyManagementExceptionClassTests<SUT extends Class<? extends java.security.KeyManagementException>>
 extends org.j8unit.repository.java.security.KeyExceptionClassTests<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.registry.RegistryHandlerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RegistryHandlerTests<SUT extends java.rmi.registry.RegistryHandler>
 extends J8UnitTest<SUT> {

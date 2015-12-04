@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.ListSelectionEventTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ListSelectionEventClassTests<SUT extends Class<? extends javax.swing.event.ListSelectionEvent>>
 extends org.j8unit.repository.java.util.EventObjectClassTests<SUT> {

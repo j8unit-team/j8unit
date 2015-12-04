@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.SocketTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SocketClassTests<SUT extends Class<? extends java.net.Socket>>
 extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

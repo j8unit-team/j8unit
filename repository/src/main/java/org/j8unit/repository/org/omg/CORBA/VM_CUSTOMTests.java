@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.VM_CUSTOMClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface VM_CUSTOMTests<SUT extends org.omg.CORBA.VM_CUSTOM>
 extends J8UnitTest<SUT> {

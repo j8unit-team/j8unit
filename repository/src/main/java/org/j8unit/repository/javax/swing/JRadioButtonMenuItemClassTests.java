@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JRadioButtonMenuItemTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JRadioButtonMenuItemClassTests<SUT extends Class<? extends javax.swing.JRadioButtonMenuItem>>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.javax.swing.JMenuItemClassTests<SUT> {

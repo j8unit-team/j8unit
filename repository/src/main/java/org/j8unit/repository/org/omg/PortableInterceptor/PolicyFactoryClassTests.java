@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableInterceptor.PolicyFactoryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PolicyFactoryClassTests<SUT extends Class<? extends org.omg.PortableInterceptor.PolicyFactory>>
 extends org.j8unit.repository.org.omg.PortableInterceptor.PolicyFactoryOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>,

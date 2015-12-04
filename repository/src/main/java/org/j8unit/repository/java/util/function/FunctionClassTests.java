@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.function.FunctionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FunctionClassTests<SUT extends Class<? extends java.util.function.Function<T, R>>, T, R>
 extends J8UnitTest<SUT> {

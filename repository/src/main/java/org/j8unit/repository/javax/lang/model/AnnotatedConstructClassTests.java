@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.AnnotatedConstructTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AnnotatedConstructClassTests<SUT extends Class<? extends javax.lang.model.AnnotatedConstruct>>
 extends J8UnitTest<SUT> {

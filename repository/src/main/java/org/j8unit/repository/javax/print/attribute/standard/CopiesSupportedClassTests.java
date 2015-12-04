@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.CopiesSupportedTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CopiesSupportedClassTests<SUT extends Class<? extends javax.print.attribute.standard.CopiesSupported>>
 extends org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeClassTests<SUT>,

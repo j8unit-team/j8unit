@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.transform.TransformerFactoryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TransformerFactoryClassTests<SUT extends Class<? extends javax.xml.transform.TransformerFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

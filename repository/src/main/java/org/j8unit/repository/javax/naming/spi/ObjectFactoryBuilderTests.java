@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.spi.ObjectFactoryBuilderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectFactoryBuilderTests<SUT extends javax.naming.spi.ObjectFactoryBuilder>
 extends J8UnitTest<SUT> {

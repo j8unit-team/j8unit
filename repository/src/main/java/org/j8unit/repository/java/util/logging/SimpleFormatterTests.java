@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.logging.SimpleFormatterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleFormatterTests<SUT extends java.util.logging.SimpleFormatter>
 extends org.j8unit.repository.java.util.logging.FormatterTests<SUT> {

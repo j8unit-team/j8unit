@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.activity.ActivityCompletedExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ActivityCompletedExceptionTests<SUT extends javax.activity.ActivityCompletedException>
 extends org.j8unit.repository.java.rmi.RemoteExceptionTests<SUT> {

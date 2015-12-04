@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.event.HierarchyBoundsAdapterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HierarchyBoundsAdapterTests<SUT extends java.awt.event.HierarchyBoundsAdapter>
 extends org.j8unit.repository.java.awt.event.HierarchyBoundsListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

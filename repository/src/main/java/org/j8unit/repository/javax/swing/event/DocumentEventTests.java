@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.event.DocumentEventClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocumentEventTests<SUT extends javax.swing.event.DocumentEvent>
 extends J8UnitTest<SUT> {
@@ -34,6 +35,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.event.DocumentEventClassTests.ElementChangeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ElementChangeTests<SUT extends javax.swing.event.DocumentEvent.ElementChange>
     extends J8UnitTest<SUT> {
@@ -115,6 +117,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.event.DocumentEventClassTests.EventTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EventTypeTests<SUT extends javax.swing.event.DocumentEvent.EventType>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

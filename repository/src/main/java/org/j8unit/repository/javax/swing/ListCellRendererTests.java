@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.ListCellRendererClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ListCellRendererTests<SUT extends javax.swing.ListCellRenderer<E>, E>
 extends J8UnitTest<SUT> {

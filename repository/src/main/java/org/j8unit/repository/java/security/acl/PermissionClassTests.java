@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.acl.PermissionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PermissionClassTests<SUT extends Class<? extends java.security.acl.Permission>>
 extends J8UnitTest<SUT> {

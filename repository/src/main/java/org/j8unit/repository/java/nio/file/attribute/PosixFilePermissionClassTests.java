@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.attribute.PosixFilePermissionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PosixFilePermissionClassTests<SUT extends Class<? extends java.nio.file.attribute.PosixFilePermission>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.nio.file.attribute.PosixFilePermission> {

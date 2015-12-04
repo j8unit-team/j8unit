@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.SyncFailedExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SyncFailedExceptionTests<SUT extends java.io.SyncFailedException>
 extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {

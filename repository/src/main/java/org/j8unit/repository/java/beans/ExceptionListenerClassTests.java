@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.ExceptionListenerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExceptionListenerClassTests<SUT extends Class<? extends java.beans.ExceptionListener>>
 extends J8UnitTest<SUT> {

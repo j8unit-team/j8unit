@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.FeatureDescriptorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FeatureDescriptorClassTests<SUT extends Class<? extends java.beans.FeatureDescriptor>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

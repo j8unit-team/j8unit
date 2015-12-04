@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.RandomAccessFileClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RandomAccessFileTests<SUT extends java.io.RandomAccessFile>
 extends org.j8unit.repository.java.io.DataOutputTests<SUT>, org.j8unit.repository.java.io.DataInputTests<SUT>,

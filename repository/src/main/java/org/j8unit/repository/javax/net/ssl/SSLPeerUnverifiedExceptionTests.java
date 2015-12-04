@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.SSLPeerUnverifiedExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SSLPeerUnverifiedExceptionTests<SUT extends javax.net.ssl.SSLPeerUnverifiedException>
 extends org.j8unit.repository.javax.net.ssl.SSLExceptionTests<SUT> {

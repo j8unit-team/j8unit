@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.CalendarTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CalendarClassTests<SUT extends Class<? extends java.util.Calendar>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
@@ -60,6 +61,7 @@ org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Calendar>, o
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.CalendarTests.BuilderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderClassTests<SUT extends Class<? extends java.util.Calendar.Builder>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

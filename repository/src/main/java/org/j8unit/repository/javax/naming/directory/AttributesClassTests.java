@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.directory.AttributesTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttributesClassTests<SUT extends Class<? extends javax.naming.directory.Attributes>>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT> {

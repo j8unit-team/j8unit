@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.BlockingDequeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BlockingDequeTests<SUT extends java.util.concurrent.BlockingDeque<E>, E>
 extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, org.j8unit.repository.java.util.DequeTests<SUT, E> {

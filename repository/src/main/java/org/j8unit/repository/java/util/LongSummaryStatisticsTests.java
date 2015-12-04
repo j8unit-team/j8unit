@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.LongSummaryStatisticsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LongSummaryStatisticsTests<SUT extends java.util.LongSummaryStatistics>
 extends org.j8unit.repository.java.util.function.LongConsumerTests<SUT>, org.j8unit.repository.java.util.function.IntConsumerTests<SUT>,

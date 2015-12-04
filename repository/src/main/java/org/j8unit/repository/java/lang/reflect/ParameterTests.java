@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.ParameterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ParameterTests<SUT extends java.lang.reflect.Parameter>
 extends org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

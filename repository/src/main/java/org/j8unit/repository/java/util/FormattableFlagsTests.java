@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.FormattableFlagsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FormattableFlagsTests<SUT extends java.util.FormattableFlags>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

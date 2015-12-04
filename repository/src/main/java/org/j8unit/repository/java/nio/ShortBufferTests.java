@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.ShortBufferClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ShortBufferTests<SUT extends java.nio.ShortBuffer>
 extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.ShortBuffer>, org.j8unit.repository.java.nio.BufferTests<SUT> {

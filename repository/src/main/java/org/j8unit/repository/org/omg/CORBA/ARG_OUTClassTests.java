@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.ARG_OUTTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ARG_OUTClassTests<SUT extends Class<? extends org.omg.CORBA.ARG_OUT>>
 extends J8UnitTest<SUT> {

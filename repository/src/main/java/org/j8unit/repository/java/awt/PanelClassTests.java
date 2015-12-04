@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.PanelTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PanelClassTests<SUT extends Class<? extends java.awt.Panel>>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.java.awt.ContainerClassTests<SUT> {

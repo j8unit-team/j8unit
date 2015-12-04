@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.ChannelsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ChannelsClassTests<SUT extends Class<? extends java.nio.channels.Channels>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

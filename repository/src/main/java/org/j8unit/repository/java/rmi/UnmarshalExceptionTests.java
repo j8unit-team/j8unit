@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.UnmarshalExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnmarshalExceptionTests<SUT extends java.rmi.UnmarshalException>
 extends org.j8unit.repository.java.rmi.RemoteExceptionTests<SUT> {

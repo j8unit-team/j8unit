@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.zip.InflaterOutputStreamClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InflaterOutputStreamTests<SUT extends java.util.zip.InflaterOutputStream>
 extends org.j8unit.repository.java.io.FilterOutputStreamTests<SUT> {

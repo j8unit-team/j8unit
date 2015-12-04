@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.TrustManagerFactorySpiClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TrustManagerFactorySpiTests<SUT extends javax.net.ssl.TrustManagerFactorySpi>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

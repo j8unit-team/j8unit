@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.spi.LocaleNameProviderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LocaleNameProviderTests<SUT extends java.util.spi.LocaleNameProvider>
 extends org.j8unit.repository.java.util.spi.LocaleServiceProviderTests<SUT> {

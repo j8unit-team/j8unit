@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.math.BigIntegerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BigIntegerTests<SUT extends java.math.BigInteger>
 extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.math.BigInteger>, org.j8unit.repository.java.lang.NumberTests<SUT> {

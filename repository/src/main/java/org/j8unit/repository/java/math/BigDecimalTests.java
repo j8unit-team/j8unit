@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.math.BigDecimalClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BigDecimalTests<SUT extends java.math.BigDecimal>
 extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.math.BigDecimal>, org.j8unit.repository.java.lang.NumberTests<SUT> {

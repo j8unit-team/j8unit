@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.geom.Arc2DTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Arc2DClassTests<SUT extends Class<? extends java.awt.geom.Arc2D>>
 extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.geom.Arc2DTests.DoubleTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DoubleClassTests<SUT extends Class<? extends java.awt.geom.Arc2D.Double>>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Arc2DClassTests<SUT> {
@@ -154,6 +156,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.geom.Arc2DTests.FloatTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FloatClassTests<SUT extends Class<? extends java.awt.geom.Arc2D.Float>>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.awt.geom.Arc2DClassTests<SUT> {

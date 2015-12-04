@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.synth.RegionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RegionClassTests<SUT extends Class<? extends javax.swing.plaf.synth.Region>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

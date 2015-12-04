@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.table.DefaultTableCellRendererClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultTableCellRendererTests<SUT extends javax.swing.table.DefaultTableCellRenderer>
 extends org.j8unit.repository.javax.swing.table.TableCellRendererTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
@@ -34,6 +35,7 @@ org.j8unit.repository.javax.swing.JLabelTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.table.DefaultTableCellRendererClassTests.UIResourceClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UIResourceTests<SUT extends javax.swing.table.DefaultTableCellRenderer.UIResource>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.repository.javax.swing.table.DefaultTableCellRendererTests<SUT> {

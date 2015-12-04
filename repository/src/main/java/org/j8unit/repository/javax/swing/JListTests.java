@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JListClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JListTests<SUT extends javax.swing.JList<E>, E>
 extends org.j8unit.repository.javax.swing.ScrollableTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>,
@@ -33,6 +34,7 @@ org.j8unit.repository.javax.swing.JComponentTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JListClassTests.DropLocationClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DropLocationTests<SUT extends javax.swing.JList.DropLocation>
     extends org.j8unit.repository.javax.swing.TransferHandlerTests.DropLocationTests<SUT> {

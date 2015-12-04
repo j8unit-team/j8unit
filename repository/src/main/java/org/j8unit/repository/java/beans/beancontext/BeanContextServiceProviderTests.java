@@ -19,6 +19,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.beancontext.BeanContextServiceProviderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BeanContextServiceProviderTests<SUT extends java.beans.beancontext.BeanContextServiceProvider>
 extends J8UnitTest<SUT> {

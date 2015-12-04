@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MediaSizeClassTests<SUT extends Class<? extends javax.print.attribute.standard.MediaSize>>
 extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, org.j8unit.repository.javax.print.attribute.Size2DSyntaxClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.EngineeringTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EngineeringClassTests<SUT extends Class<? extends javax.print.attribute.standard.MediaSize.Engineering>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -103,6 +105,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.ISOTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ISOClassTests<SUT extends Class<? extends javax.print.attribute.standard.MediaSize.ISO>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -145,6 +148,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.JISTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface JISClassTests<SUT extends Class<? extends javax.print.attribute.standard.MediaSize.JIS>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -187,6 +191,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.NATests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface NAClassTests<SUT extends Class<? extends javax.print.attribute.standard.MediaSize.NA>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -229,6 +234,7 @@ extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, or
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.attribute.standard.MediaSizeTests.OtherTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OtherClassTests<SUT extends Class<? extends javax.print.attribute.standard.MediaSize.Other>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

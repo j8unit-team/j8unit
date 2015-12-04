@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.dom.DOMCryptoContextTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DOMCryptoContextClassTests<SUT extends Class<? extends javax.xml.crypto.dom.DOMCryptoContext>>
 extends org.j8unit.repository.javax.xml.crypto.XMLCryptoContextClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

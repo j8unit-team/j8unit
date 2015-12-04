@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.spi.AbstractSelectionKeyTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractSelectionKeyClassTests<SUT extends Class<? extends java.nio.channels.spi.AbstractSelectionKey>>
 extends org.j8unit.repository.java.nio.channels.SelectionKeyClassTests<SUT> {

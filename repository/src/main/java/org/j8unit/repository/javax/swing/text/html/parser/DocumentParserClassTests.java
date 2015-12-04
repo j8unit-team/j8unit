@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.parser.DocumentParserTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocumentParserClassTests<SUT extends Class<? extends javax.swing.text.html.parser.DocumentParser>>
 extends org.j8unit.repository.javax.swing.text.html.parser.ParserClassTests<SUT> {

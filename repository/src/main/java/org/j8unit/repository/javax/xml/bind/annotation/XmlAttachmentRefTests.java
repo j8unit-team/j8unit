@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.annotation.XmlAttachmentRefClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XmlAttachmentRefTests<SUT extends javax.xml.bind.annotation.XmlAttachmentRef>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {

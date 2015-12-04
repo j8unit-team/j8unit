@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.stream.MemoryCacheImageOutputStreamTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MemoryCacheImageOutputStreamClassTests<SUT extends Class<? extends javax.imageio.stream.MemoryCacheImageOutputStream>>
 extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplClassTests<SUT> {

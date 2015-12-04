@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelperTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AdapterInactiveHelperClassTests<SUT extends Class<? extends org.omg.PortableServer.POAManagerPackage.AdapterInactiveHelper>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

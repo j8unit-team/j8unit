@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.DispatchClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DispatchTests<SUT extends javax.xml.ws.Dispatch<T>, T>
 extends org.j8unit.repository.javax.xml.ws.BindingProviderTests<SUT> {

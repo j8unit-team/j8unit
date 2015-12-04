@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalIconFactoryClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalIconFactory>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.FileIcon16Tests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FileIcon16ClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalIconFactory.FileIcon16>>
     extends org.j8unit.repository.javax.swing.IconClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
@@ -118,6 +120,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.FolderIcon16Tests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FolderIcon16ClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalIconFactory.FolderIcon16>>
     extends org.j8unit.repository.javax.swing.IconClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
@@ -175,6 +178,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.PaletteCloseIconTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PaletteCloseIconClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalIconFactory.PaletteCloseIcon>>
     extends org.j8unit.repository.javax.swing.IconClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>,
@@ -232,6 +236,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.TreeControlIconTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeControlIconClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalIconFactory.TreeControlIcon>>
     extends org.j8unit.repository.javax.swing.IconClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
@@ -289,6 +294,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.TreeFolderIconTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeFolderIconClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalIconFactory.TreeFolderIcon>>
     extends org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.FolderIcon16ClassTests<SUT> {
@@ -345,6 +351,7 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.re
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryTests.TreeLeafIconTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TreeLeafIconClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon>>
     extends org.j8unit.repository.javax.swing.plaf.metal.MetalIconFactoryClassTests.FileIcon16ClassTests<SUT> {

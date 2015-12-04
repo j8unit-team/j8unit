@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicTabbedPaneUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTabbedPaneUI>>
 extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.TabbedPaneUIClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.FocusHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FocusHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTabbedPaneUI.FocusHandler>>
     extends org.j8unit.repository.java.awt.event.FocusAdapterClassTests<SUT> {
@@ -119,6 +121,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.MouseHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MouseHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTabbedPaneUI.MouseHandler>>
     extends org.j8unit.repository.java.awt.event.MouseAdapterClassTests<SUT> {
@@ -177,6 +180,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.PropertyChangeHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTabbedPaneUI.PropertyChangeHandler>>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -236,6 +240,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.TabbedPaneLayoutTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TabbedPaneLayoutClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTabbedPaneUI.TabbedPaneLayout>>
     extends org.j8unit.repository.java.awt.LayoutManagerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -294,6 +299,7 @@ extends org.j8unit.repository.javax.swing.SwingConstantsClassTests<SUT>, org.j8u
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTabbedPaneUITests.TabSelectionHandlerTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TabSelectionHandlerClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTabbedPaneUI.TabSelectionHandler>>
     extends org.j8unit.repository.javax.swing.event.ChangeListenerClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

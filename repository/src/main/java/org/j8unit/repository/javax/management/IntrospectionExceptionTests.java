@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.IntrospectionExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IntrospectionExceptionTests<SUT extends javax.management.IntrospectionException>
 extends org.j8unit.repository.javax.management.OperationsExceptionTests<SUT> {

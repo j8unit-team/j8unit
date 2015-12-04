@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.spi.http.HttpExchangeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HttpExchangeClassTests<SUT extends Class<? extends javax.xml.ws.spi.http.HttpExchange>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

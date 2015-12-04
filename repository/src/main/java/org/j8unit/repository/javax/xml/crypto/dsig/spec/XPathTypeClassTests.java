@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XPathTypeClassTests<SUT extends Class<? extends javax.xml.crypto.dsig.spec.XPathType>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.crypto.dsig.spec.XPathTypeTests.FilterTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FilterClassTests<SUT extends Class<? extends javax.xml.crypto.dsig.spec.XPathType.Filter>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

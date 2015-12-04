@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.PKIXCertPathBuilderResultClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PKIXCertPathBuilderResultTests<SUT extends java.security.cert.PKIXCertPathBuilderResult>
 extends org.j8unit.repository.java.security.cert.CertPathBuilderResultTests<SUT>,

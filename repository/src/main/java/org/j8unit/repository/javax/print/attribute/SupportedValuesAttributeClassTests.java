@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.SupportedValuesAttributeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SupportedValuesAttributeClassTests<SUT extends Class<? extends javax.print.attribute.SupportedValuesAttribute>>
 extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT> {

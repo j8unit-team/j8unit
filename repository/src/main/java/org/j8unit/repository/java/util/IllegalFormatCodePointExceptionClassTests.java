@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.IllegalFormatCodePointExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IllegalFormatCodePointExceptionClassTests<SUT extends Class<? extends java.util.IllegalFormatCodePointException>>
 extends org.j8unit.repository.java.util.IllegalFormatExceptionClassTests<SUT> {

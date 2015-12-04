@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.AlreadyBoundExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AlreadyBoundExceptionTests<SUT extends java.rmi.AlreadyBoundException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {

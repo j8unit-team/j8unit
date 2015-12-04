@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.CharBufferTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CharBufferClassTests<SUT extends Class<? extends java.nio.CharBuffer>>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.nio.CharBuffer>, org.j8unit.repository.java.lang.AppendableClassTests<SUT>,

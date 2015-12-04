@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.KeyboardFocusManagerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeyboardFocusManagerTests<SUT extends java.awt.KeyboardFocusManager>
 extends org.j8unit.repository.java.awt.KeyEventDispatcherTests<SUT>, org.j8unit.repository.java.awt.KeyEventPostProcessorTests<SUT>,

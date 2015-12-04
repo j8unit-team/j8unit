@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.annotation.RepeatableTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RepeatableClassTests<SUT extends Class<? extends java.lang.annotation.Repeatable>>
 extends org.j8unit.repository.java.lang.annotation.AnnotationClassTests<SUT> {

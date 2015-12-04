@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.RowFilterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RowFilterTests<SUT extends javax.swing.RowFilter<M, I>, M, I>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.RowFilterClassTests.ComparisonTypeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ComparisonTypeTests<SUT extends javax.swing.RowFilter.ComparisonType>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.swing.RowFilter.ComparisonType> {
@@ -49,6 +51,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.RowFilterClassTests.EntryClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EntryTests<SUT extends javax.swing.RowFilter.Entry<M, I>, M, I>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

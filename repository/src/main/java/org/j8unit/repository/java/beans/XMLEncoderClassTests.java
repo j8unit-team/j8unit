@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.XMLEncoderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLEncoderClassTests<SUT extends Class<? extends java.beans.XMLEncoder>>
 extends org.j8unit.repository.java.lang.AutoCloseableClassTests<SUT>, org.j8unit.repository.java.beans.EncoderClassTests<SUT> {

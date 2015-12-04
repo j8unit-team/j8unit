@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.CompletionHandlerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CompletionHandlerClassTests<SUT extends Class<? extends java.nio.channels.CompletionHandler<V, A>>, V, A>
 extends J8UnitTest<SUT> {

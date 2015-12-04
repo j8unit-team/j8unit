@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererTests
  */
 @SuppressWarnings("rawtypes")
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicComboBoxRendererClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxRenderer>>
 extends org.j8unit.repository.javax.swing.ListCellRendererClassTests, org.j8unit.repository.java.io.SerializableClassTests,
@@ -63,6 +64,7 @@ org.j8unit.repository.javax.swing.JLabelClassTests {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererTests.UIResourceTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests, org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererClassTests {

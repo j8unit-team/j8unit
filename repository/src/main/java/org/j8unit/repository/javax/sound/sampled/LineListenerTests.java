@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.LineListenerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LineListenerTests<SUT extends javax.sound.sampled.LineListener>
 extends org.j8unit.repository.java.util.EventListenerTests<SUT> {

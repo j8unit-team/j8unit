@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableInterceptor.NON_EXISTENTTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NON_EXISTENTClassTests<SUT extends Class<? extends org.omg.PortableInterceptor.NON_EXISTENT>>
 extends J8UnitTest<SUT> {

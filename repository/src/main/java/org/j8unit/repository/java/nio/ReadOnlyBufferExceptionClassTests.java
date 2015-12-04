@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.ReadOnlyBufferExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ReadOnlyBufferExceptionClassTests<SUT extends Class<? extends java.nio.ReadOnlyBufferException>>
 extends org.j8unit.repository.java.lang.UnsupportedOperationExceptionClassTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.spec.ECFieldF2mTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ECFieldF2mClassTests<SUT extends Class<? extends java.security.spec.ECFieldF2m>>
 extends org.j8unit.repository.java.security.spec.ECFieldClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

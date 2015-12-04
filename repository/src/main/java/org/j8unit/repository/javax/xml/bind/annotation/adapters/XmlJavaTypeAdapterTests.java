@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeAdapterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XmlJavaTypeAdapterTests<SUT extends javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter>
 extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
@@ -34,6 +35,7 @@ extends org.j8unit.repository.java.lang.annotation.AnnotationTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.xml.bind.annotation.adapters.XmlJavaTypeAdapterClassTests.DEFAULTClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DEFAULTTests<SUT extends javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.DEFAULT>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

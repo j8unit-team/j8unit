@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoSupportTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ModelMBeanInfoSupportClassTests<SUT extends Class<? extends javax.management.modelmbean.ModelMBeanInfoSupport>>
 extends org.j8unit.repository.javax.management.modelmbean.ModelMBeanInfoClassTests<SUT>, org.j8unit.repository.javax.management.MBeanInfoClassTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.invoke.MethodHandlesTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MethodHandlesClassTests<SUT extends Class<? extends java.lang.invoke.MethodHandles>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.lang.invoke.MethodHandlesTests.LookupTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LookupClassTests<SUT extends Class<? extends java.lang.invoke.MethodHandles.Lookup>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

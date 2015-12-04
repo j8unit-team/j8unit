@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.CropImageFilterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CropImageFilterTests<SUT extends java.awt.image.CropImageFilter>
 extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {

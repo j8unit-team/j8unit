@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.soap.SOAPExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SOAPExceptionTests<SUT extends javax.xml.soap.SOAPException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {

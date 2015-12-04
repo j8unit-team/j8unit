@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.LocaleTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LocaleClassTests<SUT extends Class<? extends java.util.Locale>>
 extends org.j8unit.repository.java.lang.CloneableClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,
@@ -60,6 +61,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.LocaleTests.BuilderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderClassTests<SUT extends Class<? extends java.util.Locale.Builder>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -114,6 +116,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.LocaleTests.CategoryTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CategoryClassTests<SUT extends Class<? extends java.util.Locale.Category>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.util.Locale.Category> {
@@ -187,6 +190,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.LocaleTests.FilteringModeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FilteringModeClassTests<SUT extends Class<? extends java.util.Locale.FilteringMode>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.util.Locale.FilteringMode> {
@@ -260,6 +264,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.LocaleTests.LanguageRangeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LanguageRangeClassTests<SUT extends Class<? extends java.util.Locale.LanguageRange>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

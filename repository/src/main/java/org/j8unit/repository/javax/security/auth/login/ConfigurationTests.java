@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConfigurationTests<SUT extends javax.security.auth.login.Configuration>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -34,6 +35,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.security.auth.login.ConfigurationClassTests.ParametersClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParametersTests<SUT extends javax.security.auth.login.Configuration.Parameters>
     extends J8UnitTest<SUT> {

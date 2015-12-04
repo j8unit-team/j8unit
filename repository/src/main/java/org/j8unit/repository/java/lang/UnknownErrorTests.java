@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.UnknownErrorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnknownErrorTests<SUT extends java.lang.UnknownError>
 extends org.j8unit.repository.java.lang.VirtualMachineErrorTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.stream.XMLInputFactoryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XMLInputFactoryClassTests<SUT extends Class<? extends javax.xml.stream.XMLInputFactory>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

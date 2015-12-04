@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableServer.RequestProcessingPolicyTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RequestProcessingPolicyClassTests<SUT extends Class<? extends org.omg.PortableServer.RequestProcessingPolicy>>
 extends org.j8unit.repository.org.omg.PortableServer.RequestProcessingPolicyOperationsClassTests<SUT>,

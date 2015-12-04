@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultStyledDocumentTests<SUT extends javax.swing.text.DefaultStyledDocument>
 extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8unit.repository.javax.swing.text.AbstractDocumentTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.AttributeUndoableEditClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AttributeUndoableEditTests<SUT extends javax.swing.text.DefaultStyledDocument.AttributeUndoableEdit>
     extends org.j8unit.repository.javax.swing.undo.AbstractUndoableEditTests<SUT> {
@@ -87,6 +89,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.ElementBufferClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ElementBufferTests<SUT extends javax.swing.text.DefaultStyledDocument.ElementBuffer>
     extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -197,6 +200,7 @@ extends org.j8unit.repository.javax.swing.text.StyledDocumentTests<SUT>, org.j8u
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests.ElementSpecClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ElementSpecTests<SUT extends javax.swing.text.DefaultStyledDocument.ElementSpec>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

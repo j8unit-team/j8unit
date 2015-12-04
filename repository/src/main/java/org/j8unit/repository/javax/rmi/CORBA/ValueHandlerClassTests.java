@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.rmi.CORBA.ValueHandlerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ValueHandlerClassTests<SUT extends Class<? extends javax.rmi.CORBA.ValueHandler>>
 extends J8UnitTest<SUT> {

@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.SimpleFileVisitorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleFileVisitorClassTests<SUT extends Class<? extends java.nio.file.SimpleFileVisitor<T>>, T>
 extends org.j8unit.repository.java.nio.file.FileVisitorClassTests<SUT, T>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.SingleSelectionModelClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SingleSelectionModelTests<SUT extends javax.swing.SingleSelectionModel>
 extends J8UnitTest<SUT> {

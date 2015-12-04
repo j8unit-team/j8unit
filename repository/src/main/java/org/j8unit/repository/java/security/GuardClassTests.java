@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.GuardTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GuardClassTests<SUT extends Class<? extends java.security.Guard>>
 extends J8UnitTest<SUT> {

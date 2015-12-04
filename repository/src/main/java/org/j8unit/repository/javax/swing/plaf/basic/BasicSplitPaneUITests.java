@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicSplitPaneUITests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI>
 extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
@@ -34,6 +35,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.
      *      BasicHorizontalLayoutManagerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BasicHorizontalLayoutManagerTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.BasicHorizontalLayoutManager>
     extends org.j8unit.repository.java.awt.LayoutManager2Tests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -265,6 +267,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.BasicVerticalLayoutManagerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BasicVerticalLayoutManagerTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.BasicVerticalLayoutManager>
     extends org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUITests.BasicHorizontalLayoutManagerTests<SUT> {
@@ -283,6 +286,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.FocusHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FocusHandlerTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.FocusHandler>
     extends org.j8unit.repository.java.awt.event.FocusAdapterTests<SUT> {
@@ -337,6 +341,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardDownRightHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyboardDownRightHandlerTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler>
     extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -375,6 +380,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardEndHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyboardEndHandlerTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardEndHandler>
     extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -412,6 +418,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardHomeHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyboardHomeHandlerTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardHomeHandler>
     extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -450,6 +457,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.
      *      KeyboardResizeToggleHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyboardResizeToggleHandlerTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardResizeToggleHandler>
     extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -488,6 +496,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.KeyboardUpLeftHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyboardUpLeftHandlerTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardUpLeftHandler>
     extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -525,6 +534,7 @@ extends org.j8unit.repository.javax.swing.plaf.SplitPaneUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSplitPaneUIClassTests.PropertyHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyHandlerTests<SUT extends javax.swing.plaf.basic.BasicSplitPaneUI.PropertyHandler>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

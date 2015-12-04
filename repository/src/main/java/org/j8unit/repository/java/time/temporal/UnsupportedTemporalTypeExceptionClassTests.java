@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.temporal.UnsupportedTemporalTypeExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnsupportedTemporalTypeExceptionClassTests<SUT extends Class<? extends java.time.temporal.UnsupportedTemporalTypeException>>
 extends org.j8unit.repository.java.time.DateTimeExceptionClassTests<SUT> {

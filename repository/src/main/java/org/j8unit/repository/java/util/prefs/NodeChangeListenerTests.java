@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.prefs.NodeChangeListenerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NodeChangeListenerTests<SUT extends java.util.prefs.NodeChangeListener>
 extends org.j8unit.repository.java.util.EventListenerTests<SUT> {

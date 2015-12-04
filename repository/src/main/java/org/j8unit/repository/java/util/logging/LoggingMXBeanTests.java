@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.logging.LoggingMXBeanClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LoggingMXBeanTests<SUT extends java.util.logging.LoggingMXBean>
 extends J8UnitTest<SUT> {

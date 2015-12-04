@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.chrono.ChronologyTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ChronologyClassTests<SUT extends Class<? extends java.time.chrono.Chronology>>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.time.chrono.Chronology> {

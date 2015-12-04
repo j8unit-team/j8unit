@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.chrono.EraTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EraClassTests<SUT extends Class<? extends java.time.chrono.Era>>
 extends org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT> {

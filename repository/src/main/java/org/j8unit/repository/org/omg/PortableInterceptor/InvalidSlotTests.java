@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.PortableInterceptor.InvalidSlotClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvalidSlotTests<SUT extends org.omg.PortableInterceptor.InvalidSlot>
 extends org.j8unit.repository.org.omg.CORBA.UserExceptionTests<SUT> {

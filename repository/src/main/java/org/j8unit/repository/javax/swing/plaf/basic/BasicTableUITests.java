@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicTableUITests<SUT extends javax.swing.plaf.basic.BasicTableUI>
 extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests.FocusHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FocusHandlerTests<SUT extends javax.swing.plaf.basic.BasicTableUI.FocusHandler>
     extends org.j8unit.repository.java.awt.event.FocusListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -86,6 +88,7 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests.KeyHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyHandlerTests<SUT extends javax.swing.plaf.basic.BasicTableUI.KeyHandler>
     extends org.j8unit.repository.java.awt.event.KeyListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -155,6 +158,7 @@ extends org.j8unit.repository.javax.swing.plaf.TableUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTableUIClassTests.MouseInputHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MouseInputHandlerTests<SUT extends javax.swing.plaf.basic.BasicTableUI.MouseInputHandler>
     extends org.j8unit.repository.javax.swing.event.MouseInputListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

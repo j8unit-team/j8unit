@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.SSLContextSpiClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SSLContextSpiTests<SUT extends javax.net.ssl.SSLContextSpi>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

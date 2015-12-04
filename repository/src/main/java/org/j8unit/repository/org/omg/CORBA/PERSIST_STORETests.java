@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.PERSIST_STOREClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PERSIST_STORETests<SUT extends org.omg.CORBA.PERSIST_STORE>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {

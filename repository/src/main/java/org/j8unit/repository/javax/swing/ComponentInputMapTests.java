@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.ComponentInputMapClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ComponentInputMapTests<SUT extends javax.swing.ComponentInputMap>
 extends org.j8unit.repository.javax.swing.InputMapTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.ParagraphViewClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ParagraphViewTests<SUT extends javax.swing.text.html.ParagraphView>
 extends org.j8unit.repository.javax.swing.text.ParagraphViewTests<SUT> {

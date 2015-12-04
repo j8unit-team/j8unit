@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.ObjectInputStreamTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ObjectInputStreamClassTests<SUT extends Class<? extends java.io.ObjectInputStream>>
 extends org.j8unit.repository.java.io.ObjectInputClassTests<SUT>, org.j8unit.repository.java.io.ObjectStreamConstantsClassTests<SUT>,
@@ -61,6 +62,7 @@ org.j8unit.repository.java.io.InputStreamClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.io.ObjectInputStreamTests.GetFieldTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface GetFieldClassTests<SUT extends Class<? extends java.io.ObjectInputStream.GetField>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

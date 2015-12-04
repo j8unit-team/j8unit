@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.activation.UnsupportedDataTypeExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnsupportedDataTypeExceptionClassTests<SUT extends Class<? extends javax.activation.UnsupportedDataTypeException>>
 extends org.j8unit.repository.java.io.IOExceptionClassTests<SUT> {

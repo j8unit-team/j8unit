@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.LayoutManager2ClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LayoutManager2Tests<SUT extends java.awt.LayoutManager2>
 extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT> {

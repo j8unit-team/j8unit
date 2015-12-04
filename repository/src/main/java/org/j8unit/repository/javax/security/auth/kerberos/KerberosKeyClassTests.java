@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.kerberos.KerberosKeyTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KerberosKeyClassTests<SUT extends Class<? extends javax.security.auth.kerberos.KerberosKey>>
 extends org.j8unit.repository.javax.crypto.SecretKeyClassTests<SUT>, org.j8unit.repository.javax.security.auth.DestroyableClassTests<SUT>,

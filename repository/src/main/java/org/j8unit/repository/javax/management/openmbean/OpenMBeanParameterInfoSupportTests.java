@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoSupportClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OpenMBeanParameterInfoSupportTests<SUT extends javax.management.openmbean.OpenMBeanParameterInfoSupport>
 extends org.j8unit.repository.javax.management.openmbean.OpenMBeanParameterInfoTests<SUT>, org.j8unit.repository.javax.management.MBeanParameterInfoTests<SUT> {

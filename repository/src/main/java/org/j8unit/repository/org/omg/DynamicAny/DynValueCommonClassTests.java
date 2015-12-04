@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.DynamicAny.DynValueCommonTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynValueCommonClassTests<SUT extends Class<? extends org.omg.DynamicAny.DynValueCommon>>
 extends org.j8unit.repository.org.omg.DynamicAny.DynValueCommonOperationsClassTests<SUT>, org.j8unit.repository.org.omg.DynamicAny.DynAnyClassTests<SUT>,

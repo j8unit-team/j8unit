@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.MediaTrayTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MediaTrayClassTests<SUT extends Class<? extends javax.print.attribute.standard.MediaTray>>
 extends org.j8unit.repository.javax.print.attribute.AttributeClassTests<SUT>, org.j8unit.repository.javax.print.attribute.standard.MediaClassTests<SUT> {

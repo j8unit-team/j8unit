@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.VetoableChangeListenerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface VetoableChangeListenerClassTests<SUT extends Class<? extends java.beans.VetoableChangeListener>>
 extends org.j8unit.repository.java.util.EventListenerClassTests<SUT> {

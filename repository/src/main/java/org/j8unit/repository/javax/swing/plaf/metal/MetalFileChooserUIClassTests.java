@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalFileChooserUIClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalFileChooserUI>>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUIClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.plaf.basic.BasicFileChooserUIClassTest
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.metal.MetalFileChooserUITests.FilterComboBoxRendererTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FilterComboBoxRendererClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalFileChooserUI.FilterComboBoxRenderer>>
     extends org.j8unit.repository.javax.swing.DefaultListCellRendererClassTests<SUT> {

@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.FileSystemAlreadyExistsExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileSystemAlreadyExistsExceptionTests<SUT extends java.nio.file.FileSystemAlreadyExistsException>
 extends org.j8unit.repository.java.lang.RuntimeExceptionTests<SUT> {

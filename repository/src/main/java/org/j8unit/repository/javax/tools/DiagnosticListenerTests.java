@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.DiagnosticListenerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DiagnosticListenerTests<SUT extends javax.tools.DiagnosticListener<S>, S>
 extends J8UnitTest<SUT> {

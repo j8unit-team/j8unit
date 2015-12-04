@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.NoSuchAlgorithmExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NoSuchAlgorithmExceptionClassTests<SUT extends Class<? extends java.security.NoSuchAlgorithmException>>
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionClassTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.MarshalExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MarshalExceptionClassTests<SUT extends Class<? extends javax.xml.bind.MarshalException>>
 extends org.j8unit.repository.javax.xml.bind.JAXBExceptionClassTests<SUT> {

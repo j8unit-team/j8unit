@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.ComponentSampleModelClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ComponentSampleModelTests<SUT extends java.awt.image.ComponentSampleModel>
 extends org.j8unit.repository.java.awt.image.SampleModelTests<SUT> {

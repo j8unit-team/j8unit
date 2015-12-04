@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.StringReaderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StringReaderClassTests<SUT extends Class<? extends java.io.StringReader>>
 extends org.j8unit.repository.java.io.ReaderClassTests<SUT> {

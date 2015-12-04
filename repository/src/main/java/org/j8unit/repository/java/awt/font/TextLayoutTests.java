@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.font.TextLayoutClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TextLayoutTests<SUT extends java.awt.font.TextLayout>
 extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.reposito
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.font.TextLayoutClassTests.CaretPolicyClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CaretPolicyTests<SUT extends java.awt.font.TextLayout.CaretPolicy>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.TableViewTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TableViewClassTests<SUT extends Class<? extends javax.swing.text.TableView>>
 extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.TableViewTests.TableCellTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TableCellClassTests<SUT extends Class<? extends javax.swing.text.TableView.TableCell>>
     extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
@@ -117,6 +119,7 @@ extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.TableViewTests.TableRowTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TableRowClassTests<SUT extends Class<? extends javax.swing.text.TableView.TableRow>>
     extends org.j8unit.repository.javax.swing.text.BoxViewClassTests<SUT> {

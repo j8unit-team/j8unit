@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.auth.RefreshableClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RefreshableTests<SUT extends javax.security.auth.Refreshable>
 extends J8UnitTest<SUT> {

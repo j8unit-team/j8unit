@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.BasicStrokeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicStrokeTests<SUT extends java.awt.BasicStroke>
 extends org.j8unit.repository.java.awt.StrokeTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

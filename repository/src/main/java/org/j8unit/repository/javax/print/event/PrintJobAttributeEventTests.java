@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.event.PrintJobAttributeEventClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PrintJobAttributeEventTests<SUT extends javax.print.event.PrintJobAttributeEvent>
 extends org.j8unit.repository.javax.print.event.PrintEventTests<SUT> {

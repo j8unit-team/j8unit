@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.parser.DTDConstantsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DTDConstantsTests<SUT extends javax.swing.text.html.parser.DTDConstants>
 extends J8UnitTest<SUT> {

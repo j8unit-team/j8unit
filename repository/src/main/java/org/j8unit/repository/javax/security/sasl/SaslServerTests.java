@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.security.sasl.SaslServerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SaslServerTests<SUT extends javax.security.sasl.SaslServer>
 extends J8UnitTest<SUT> {

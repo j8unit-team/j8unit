@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.modelmbean.ModelMBeanNotificationInfoClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ModelMBeanNotificationInfoTests<SUT extends javax.management.modelmbean.ModelMBeanNotificationInfo>
 extends org.j8unit.repository.javax.management.DescriptorAccessTests<SUT>, org.j8unit.repository.javax.management.MBeanNotificationInfoTests<SUT> {

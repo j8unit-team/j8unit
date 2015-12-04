@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicSliderUITests<SUT extends javax.swing.plaf.basic.BasicSliderUI>
 extends org.j8unit.repository.javax.swing.plaf.SliderUITests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ActionScrollerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ActionScrollerTests<SUT extends javax.swing.plaf.basic.BasicSliderUI.ActionScroller>
     extends org.j8unit.repository.javax.swing.AbstractActionTests<SUT> {
@@ -86,6 +88,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ChangeHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ChangeHandlerTests<SUT extends javax.swing.plaf.basic.BasicSliderUI.ChangeHandler>
     extends org.j8unit.repository.javax.swing.event.ChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -122,6 +125,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ComponentHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ComponentHandlerTests<SUT extends javax.swing.plaf.basic.BasicSliderUI.ComponentHandler>
     extends org.j8unit.repository.java.awt.event.ComponentAdapterTests<SUT> {
@@ -159,6 +163,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.FocusHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FocusHandlerTests<SUT extends javax.swing.plaf.basic.BasicSliderUI.FocusHandler>
     extends org.j8unit.repository.java.awt.event.FocusListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -212,6 +217,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.PropertyChangeHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerTests<SUT extends javax.swing.plaf.basic.BasicSliderUI.PropertyChangeHandler>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -249,6 +255,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.ScrollListenerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ScrollListenerTests<SUT extends javax.swing.plaf.basic.BasicSliderUI.ScrollListener>
     extends org.j8unit.repository.java.awt.event.ActionListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -317,6 +324,7 @@ extends org.j8unit.repository.javax.swing.plaf.SliderUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSliderUIClassTests.TrackListenerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TrackListenerTests<SUT extends javax.swing.plaf.basic.BasicSliderUI.TrackListener>
     extends org.j8unit.repository.javax.swing.event.MouseInputAdapterTests<SUT> {

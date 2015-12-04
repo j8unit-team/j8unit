@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicHTMLClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicHTMLTests<SUT extends javax.swing.plaf.basic.BasicHTML>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CertPathValidatorExceptionTests<SUT extends java.security.cert.CertPathValidatorException>
 extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
@@ -34,6 +35,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.BasicReasonClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BasicReasonTests<SUT extends java.security.cert.CertPathValidatorException.BasicReason>
     extends org.j8unit.repository.java.security.cert.CertPathValidatorExceptionTests.ReasonTests<SUT>,
@@ -53,6 +55,7 @@ extends org.j8unit.repository.java.security.GeneralSecurityExceptionTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.cert.CertPathValidatorExceptionClassTests.ReasonClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ReasonTests<SUT extends java.security.cert.CertPathValidatorException.Reason>
     extends org.j8unit.repository.java.io.SerializableTests<SUT> {

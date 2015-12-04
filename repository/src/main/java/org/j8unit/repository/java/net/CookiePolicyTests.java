@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.CookiePolicyClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CookiePolicyTests<SUT extends java.net.CookiePolicy>
 extends J8UnitTest<SUT> {

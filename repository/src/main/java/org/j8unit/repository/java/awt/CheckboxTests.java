@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.CheckboxClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CheckboxTests<SUT extends java.awt.Checkbox>
 extends org.j8unit.repository.java.awt.ItemSelectableTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>,

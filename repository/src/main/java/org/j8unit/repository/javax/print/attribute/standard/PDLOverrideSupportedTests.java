@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.PDLOverrideSupportedClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PDLOverrideSupportedTests<SUT extends javax.print.attribute.standard.PDLOverrideSupported>
 extends org.j8unit.repository.javax.print.attribute.PrintServiceAttributeTests<SUT>, org.j8unit.repository.javax.print.attribute.EnumSyntaxTests<SUT> {

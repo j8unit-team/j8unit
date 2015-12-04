@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.dnd.DropTargetContextTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DropTargetContextClassTests<SUT extends Class<? extends java.awt.dnd.DropTargetContext>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

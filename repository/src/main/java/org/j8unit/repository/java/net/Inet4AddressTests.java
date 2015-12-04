@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.Inet4AddressClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Inet4AddressTests<SUT extends java.net.Inet4Address>
 extends org.j8unit.repository.java.net.InetAddressTests<SUT> {

@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.DayOfWeekTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DayOfWeekClassTests<SUT extends Class<? extends java.time.DayOfWeek>>
 extends org.j8unit.repository.java.time.temporal.TemporalAccessorClassTests<SUT>, org.j8unit.repository.java.time.temporal.TemporalAdjusterClassTests<SUT>,

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.LinkedHashSetTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LinkedHashSetClassTests<SUT extends Class<? extends java.util.LinkedHashSet<E>>, E>
 extends org.j8unit.repository.java.util.SetClassTests<SUT, E>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,

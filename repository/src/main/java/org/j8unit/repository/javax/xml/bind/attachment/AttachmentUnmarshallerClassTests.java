@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.attachment.AttachmentUnmarshallerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AttachmentUnmarshallerClassTests<SUT extends Class<? extends javax.xml.bind.attachment.AttachmentUnmarshaller>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

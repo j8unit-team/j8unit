@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.transform.sax.SAXResultClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SAXResultTests<SUT extends javax.xml.transform.sax.SAXResult>
 extends org.j8unit.repository.javax.xml.transform.ResultTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

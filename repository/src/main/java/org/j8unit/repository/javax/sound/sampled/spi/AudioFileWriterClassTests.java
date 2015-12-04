@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.spi.AudioFileWriterTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AudioFileWriterClassTests<SUT extends Class<? extends javax.sound.sampled.spi.AudioFileWriter>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

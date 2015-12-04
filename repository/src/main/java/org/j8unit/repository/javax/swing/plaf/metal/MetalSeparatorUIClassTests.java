@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalSeparatorUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalSeparatorUIClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalSeparatorUI>>
 extends org.j8unit.repository.javax.swing.plaf.basic.BasicSeparatorUIClassTests<SUT> {

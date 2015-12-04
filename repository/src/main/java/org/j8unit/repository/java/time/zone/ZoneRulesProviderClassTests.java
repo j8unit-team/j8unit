@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.zone.ZoneRulesProviderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ZoneRulesProviderClassTests<SUT extends Class<? extends java.time.zone.ZoneRulesProvider>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

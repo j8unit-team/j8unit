@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @see org.j8unit.repository.javax.xml.stream.util.EventReaderDelegateClassTests
  */
 @SuppressWarnings("rawtypes")
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EventReaderDelegateTests<SUT extends javax.xml.stream.util.EventReaderDelegate>
 extends org.j8unit.repository.javax.xml.stream.XMLEventReaderTests, org.j8unit.repository.java.lang.ObjectTests {

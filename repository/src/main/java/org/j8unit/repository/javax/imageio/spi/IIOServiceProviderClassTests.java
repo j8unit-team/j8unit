@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.spi.IIOServiceProviderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IIOServiceProviderClassTests<SUT extends Class<? extends javax.imageio.spi.IIOServiceProvider>>
 extends org.j8unit.repository.javax.imageio.spi.RegisterableServiceClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

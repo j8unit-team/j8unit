@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.midi.InstrumentClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InstrumentTests<SUT extends javax.sound.midi.Instrument>
 extends org.j8unit.repository.javax.sound.midi.SoundbankResourceTests<SUT> {

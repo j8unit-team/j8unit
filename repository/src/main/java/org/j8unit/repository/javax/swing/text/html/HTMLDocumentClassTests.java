@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLDocumentClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument>>
 extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.BlockElementTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BlockElementClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.BlockElement>>
     extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.BranchElementClassTests<SUT> {
@@ -121,6 +123,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface HTMLReaderClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader>>
     extends org.j8unit.repository.javax.swing.text.html.HTMLEditorKitClassTests.ParserCallbackClassTests<SUT> {
@@ -151,6 +154,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * @since 0.9.0
          * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.BlockActionTests
          */
+        @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface BlockActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction>>
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
@@ -211,6 +215,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * @since 0.9.0
          * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.CharacterActionTests
          */
+        @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface CharacterActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction>>
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
@@ -271,6 +276,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * @since 0.9.0
          * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.FormActionTests
          */
+        @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface FormActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.FormAction>>
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.SpecialActionClassTests<SUT> {
@@ -330,6 +336,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * @since 0.9.0
          * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.HiddenActionTests
          */
+        @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface HiddenActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.HiddenAction>>
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
@@ -390,6 +397,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * @since 0.9.0
          * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.IsindexActionTests
          */
+        @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface IsindexActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction>>
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
@@ -450,6 +458,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * @since 0.9.0
          * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.ParagraphActionTests
          */
+        @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface ParagraphActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.ParagraphAction>>
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<SUT> {
@@ -510,6 +519,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * @since 0.9.0
          * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.PreActionTests
          */
+        @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface PreActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.PreAction>>
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.BlockActionClassTests<SUT> {
@@ -569,6 +579,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * @since 0.9.0
          * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.SpecialActionTests
          */
+        @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface SpecialActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction>>
         extends org.j8unit.repository.javax.swing.text.html.HTMLDocumentClassTests.HTMLReaderClassTests.TagActionClassTests<SUT> {
@@ -629,6 +640,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
          * @since 0.9.0
          * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.HTMLReaderTests.TagActionTests
          */
+        @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface TagActionClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.HTMLReader.TagAction>>
         extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -734,6 +746,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.IteratorTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface IteratorClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.Iterator>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -790,6 +803,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultStyledDocumentClassTests<S
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLDocumentTests.RunElementTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface RunElementClassTests<SUT extends Class<? extends javax.swing.text.html.HTMLDocument.RunElement>>
     extends org.j8unit.repository.javax.swing.text.AbstractDocumentClassTests.LeafElementClassTests<SUT> {

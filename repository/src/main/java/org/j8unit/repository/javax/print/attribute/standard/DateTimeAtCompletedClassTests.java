@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.DateTimeAtCompletedTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DateTimeAtCompletedClassTests<SUT extends Class<? extends javax.print.attribute.standard.DateTimeAtCompleted>>
 extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<SUT>,

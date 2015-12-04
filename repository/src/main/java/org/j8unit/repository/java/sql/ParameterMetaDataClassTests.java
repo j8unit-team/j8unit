@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.ParameterMetaDataTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ParameterMetaDataClassTests<SUT extends Class<? extends java.sql.ParameterMetaData>>
 extends org.j8unit.repository.java.sql.WrapperClassTests<SUT> {

@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.registry.LocateRegistryClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LocateRegistryTests<SUT extends java.rmi.registry.LocateRegistry>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

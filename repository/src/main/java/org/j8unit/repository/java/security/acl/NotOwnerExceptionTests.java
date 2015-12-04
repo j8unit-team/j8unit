@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.acl.NotOwnerExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotOwnerExceptionTests<SUT extends java.security.acl.NotOwnerException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {

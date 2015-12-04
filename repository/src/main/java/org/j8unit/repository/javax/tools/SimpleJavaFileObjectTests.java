@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.SimpleJavaFileObjectClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleJavaFileObjectTests<SUT extends javax.tools.SimpleJavaFileObject>
 extends org.j8unit.repository.javax.tools.JavaFileObjectTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

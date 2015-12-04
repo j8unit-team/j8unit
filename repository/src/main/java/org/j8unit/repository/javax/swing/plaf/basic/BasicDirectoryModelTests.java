@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicDirectoryModelClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicDirectoryModelTests<SUT extends javax.swing.plaf.basic.BasicDirectoryModel>
 extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.repository.javax.swing.AbstractListModelTests<SUT, java.lang.Object> {

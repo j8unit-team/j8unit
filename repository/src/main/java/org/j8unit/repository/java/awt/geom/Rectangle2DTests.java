@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.geom.Rectangle2DClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface Rectangle2DTests<SUT extends java.awt.geom.Rectangle2D>
 extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.geom.Rectangle2DClassTests.DoubleClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface DoubleTests<SUT extends java.awt.geom.Rectangle2D.Double>
     extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.awt.geom.Rectangle2DTests<SUT> {
@@ -253,6 +255,7 @@ extends org.j8unit.repository.java.awt.geom.RectangularShapeTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.geom.Rectangle2DClassTests.FloatClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FloatTests<SUT extends java.awt.geom.Rectangle2D.Float>
     extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.awt.geom.Rectangle2DTests<SUT> {

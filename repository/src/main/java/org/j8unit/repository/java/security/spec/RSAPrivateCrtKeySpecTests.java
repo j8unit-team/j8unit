@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.spec.RSAPrivateCrtKeySpecClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RSAPrivateCrtKeySpecTests<SUT extends java.security.spec.RSAPrivateCrtKeySpec>
 extends org.j8unit.repository.java.security.spec.RSAPrivateKeySpecTests<SUT> {

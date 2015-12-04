@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.SQLTransientConnectionExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLTransientConnectionExceptionTests<SUT extends java.sql.SQLTransientConnectionException>
 extends org.j8unit.repository.java.sql.SQLTransientExceptionTests<SUT> {

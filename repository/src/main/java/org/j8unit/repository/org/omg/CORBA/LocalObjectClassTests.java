@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.LocalObjectTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface LocalObjectClassTests<SUT extends Class<? extends org.omg.CORBA.LocalObject>>
 extends org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

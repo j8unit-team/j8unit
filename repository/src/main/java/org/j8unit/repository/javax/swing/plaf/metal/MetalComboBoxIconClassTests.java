@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.metal.MetalComboBoxIconTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetalComboBoxIconClassTests<SUT extends Class<? extends javax.swing.plaf.metal.MetalComboBoxIcon>>
 extends org.j8unit.repository.javax.swing.IconClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

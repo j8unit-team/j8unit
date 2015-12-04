@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.atomic.AtomicLongFieldUpdaterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AtomicLongFieldUpdaterTests<SUT extends java.util.concurrent.atomic.AtomicLongFieldUpdater<T>, T>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

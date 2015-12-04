@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.ToolTipUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ToolTipUIClassTests<SUT extends Class<? extends javax.swing.plaf.ToolTipUI>>
 extends org.j8unit.repository.javax.swing.plaf.ComponentUIClassTests<SUT> {

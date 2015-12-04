@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.ScrollbarClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ScrollbarTests<SUT extends java.awt.Scrollbar>
 extends org.j8unit.repository.java.awt.AdjustableTests<SUT>, org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>,

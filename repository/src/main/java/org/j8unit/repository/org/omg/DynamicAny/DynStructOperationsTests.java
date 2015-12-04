@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.DynamicAny.DynStructOperationsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynStructOperationsTests<SUT extends org.omg.DynamicAny.DynStructOperations>
 extends org.j8unit.repository.org.omg.DynamicAny.DynAnyOperationsTests<SUT> {

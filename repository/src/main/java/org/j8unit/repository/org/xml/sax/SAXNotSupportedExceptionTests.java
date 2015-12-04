@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.SAXNotSupportedExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SAXNotSupportedExceptionTests<SUT extends org.xml.sax.SAXNotSupportedException>
 extends org.j8unit.repository.org.xml.sax.SAXExceptionTests<SUT> {

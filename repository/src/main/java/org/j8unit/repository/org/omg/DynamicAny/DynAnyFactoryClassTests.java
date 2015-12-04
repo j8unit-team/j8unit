@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DynAnyFactoryClassTests<SUT extends Class<? extends org.omg.DynamicAny.DynAnyFactory>>
 extends org.j8unit.repository.org.omg.DynamicAny.DynAnyFactoryOperationsClassTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectClassTests<SUT>,

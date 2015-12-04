@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.InterruptedByTimeoutExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InterruptedByTimeoutExceptionTests<SUT extends java.nio.channels.InterruptedByTimeoutException>
 extends org.j8unit.repository.java.io.IOExceptionTests<SUT> {

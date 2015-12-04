@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicComboBoxUITests<SUT extends javax.swing.plaf.basic.BasicComboBoxUI>
 extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ComboBoxLayoutManagerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ComboBoxLayoutManagerTests<SUT extends javax.swing.plaf.basic.BasicComboBoxUI.ComboBoxLayoutManager>
     extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -147,6 +149,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.FocusHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FocusHandlerTests<SUT extends javax.swing.plaf.basic.BasicComboBoxUI.FocusHandler>
     extends org.j8unit.repository.java.awt.event.FocusListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -201,6 +204,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ItemHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ItemHandlerTests<SUT extends javax.swing.plaf.basic.BasicComboBoxUI.ItemHandler>
     extends org.j8unit.repository.java.awt.event.ItemListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -237,6 +241,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.KeyHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface KeyHandlerTests<SUT extends javax.swing.plaf.basic.BasicComboBoxUI.KeyHandler>
     extends org.j8unit.repository.java.awt.event.KeyAdapterTests<SUT> {
@@ -272,6 +277,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.ListDataHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ListDataHandlerTests<SUT extends javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler>
     extends org.j8unit.repository.javax.swing.event.ListDataListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -347,6 +353,7 @@ extends org.j8unit.repository.javax.swing.plaf.ComboBoxUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxUIClassTests.PropertyChangeHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PropertyChangeHandlerTests<SUT extends javax.swing.plaf.basic.BasicComboBoxUI.PropertyChangeHandler>
     extends org.j8unit.repository.java.beans.PropertyChangeListenerTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {

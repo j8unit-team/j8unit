@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.cert.CollectionCertStoreParametersTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CollectionCertStoreParametersClassTests<SUT extends Class<? extends java.security.cert.CollectionCertStoreParameters>>
 extends org.j8unit.repository.java.security.cert.CertStoreParametersClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

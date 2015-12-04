@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.zip.CheckedInputStreamTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CheckedInputStreamClassTests<SUT extends Class<? extends java.util.zip.CheckedInputStream>>
 extends org.j8unit.repository.java.io.FilterInputStreamClassTests<SUT> {

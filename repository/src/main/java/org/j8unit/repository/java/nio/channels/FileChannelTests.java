@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.FileChannelClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileChannelTests<SUT extends java.nio.channels.FileChannel>
 extends org.j8unit.repository.java.nio.channels.SeekableByteChannelTests<SUT>, org.j8unit.repository.java.nio.channels.GatheringByteChannelTests<SUT>,
@@ -33,6 +34,7 @@ org.j8unit.repository.java.nio.channels.ScatteringByteChannelTests<SUT>, org.j8u
      * @since 0.9.0
      * @see org.j8unit.repository.java.nio.channels.FileChannelClassTests.MapModeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MapModeTests<SUT extends java.nio.channels.FileChannel.MapMode>
     extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ListResourceBundleClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ListResourceBundleTests<SUT extends java.util.ListResourceBundle>
 extends org.j8unit.repository.java.util.ResourceBundleTests<SUT> {

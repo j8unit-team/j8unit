@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.interfaces.DSAKeyClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DSAKeyTests<SUT extends java.security.interfaces.DSAKey>
 extends J8UnitTest<SUT> {

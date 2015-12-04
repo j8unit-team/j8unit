@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.font.NumericShaperClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NumericShaperTests<SUT extends java.awt.font.NumericShaper>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -32,6 +33,7 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.reposit
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.font.NumericShaperClassTests.RangeClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface RangeTests<SUT extends java.awt.font.NumericShaper.Range>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, java.awt.font.NumericShaper.Range> {

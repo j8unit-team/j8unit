@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.ComponentInputMapUIResourceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ComponentInputMapUIResourceTests<SUT extends javax.swing.plaf.ComponentInputMapUIResource>
 extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>, org.j8unit.repository.javax.swing.ComponentInputMapTests<SUT> {

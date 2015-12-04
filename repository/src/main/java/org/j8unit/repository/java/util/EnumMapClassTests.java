@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.EnumMapTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EnumMapClassTests<SUT extends Class<? extends java.util.EnumMap<K, V>>, K extends java.lang.Enum<K>, V>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,

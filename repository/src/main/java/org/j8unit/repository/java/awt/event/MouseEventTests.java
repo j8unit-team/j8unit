@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.event.MouseEventClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MouseEventTests<SUT extends java.awt.event.MouseEvent>
 extends org.j8unit.repository.java.awt.event.InputEventTests<SUT> {

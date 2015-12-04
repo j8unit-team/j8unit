@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.spi.ResolverClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ResolverTests<SUT extends javax.naming.spi.Resolver>
 extends J8UnitTest<SUT> {

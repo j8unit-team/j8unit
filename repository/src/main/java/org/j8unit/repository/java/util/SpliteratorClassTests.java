@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.SpliteratorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SpliteratorClassTests<SUT extends Class<? extends java.util.Spliterator<T>>, T>
 extends J8UnitTest<SUT> {
@@ -59,6 +60,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorTests.OfDoubleTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfDoubleClassTests<SUT extends Class<? extends java.util.Spliterator.OfDouble>>
     extends
@@ -101,6 +103,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorTests.OfIntTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfIntClassTests<SUT extends Class<? extends java.util.Spliterator.OfInt>>
     extends
@@ -143,6 +146,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorTests.OfLongTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfLongClassTests<SUT extends Class<? extends java.util.Spliterator.OfLong>>
     extends
@@ -185,6 +189,7 @@ extends J8UnitTest<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.SpliteratorTests.OfPrimitiveTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface OfPrimitiveClassTests<SUT extends Class<? extends java.util.Spliterator.OfPrimitive<T, T_CONS, T_SPLITR>>, T, T_CONS, T_SPLITR extends java.util.Spliterator.OfPrimitive<T, T_CONS, T_SPLITR>>
     extends org.j8unit.repository.java.util.SpliteratorClassTests<SUT, T> {

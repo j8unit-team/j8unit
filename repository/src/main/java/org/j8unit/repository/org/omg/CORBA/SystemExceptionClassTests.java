@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.SystemExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SystemExceptionClassTests<SUT extends Class<? extends org.omg.CORBA.SystemException>>
 extends org.j8unit.repository.java.lang.RuntimeExceptionClassTests<SUT> {

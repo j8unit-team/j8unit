@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.AnnotatedWildcardTypeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AnnotatedWildcardTypeClassTests<SUT extends Class<? extends java.lang.reflect.AnnotatedWildcardType>>
 extends org.j8unit.repository.java.lang.reflect.AnnotatedTypeClassTests<SUT> {

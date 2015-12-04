@@ -15,6 +15,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.ScrollPaneConstantsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ScrollPaneConstantsTests<SUT extends javax.swing.ScrollPaneConstants>
 extends J8UnitTest<SUT> {

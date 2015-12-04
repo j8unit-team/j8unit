@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.StyledEditorKitTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StyledEditorKitClassTests<SUT extends Class<? extends javax.swing.text.StyledEditorKit>>
 extends org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyledEditorKitTests.AlignmentActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AlignmentActionClassTests<SUT extends Class<? extends javax.swing.text.StyledEditorKit.AlignmentAction>>
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
@@ -118,6 +120,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyledEditorKitTests.BoldActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BoldActionClassTests<SUT extends Class<? extends javax.swing.text.StyledEditorKit.BoldAction>>
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
@@ -174,6 +177,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyledEditorKitTests.FontFamilyActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FontFamilyActionClassTests<SUT extends Class<? extends javax.swing.text.StyledEditorKit.FontFamilyAction>>
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
@@ -232,6 +236,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyledEditorKitTests.FontSizeActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FontSizeActionClassTests<SUT extends Class<? extends javax.swing.text.StyledEditorKit.FontSizeAction>>
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
@@ -289,6 +294,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyledEditorKitTests.ForegroundActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ForegroundActionClassTests<SUT extends Class<? extends javax.swing.text.StyledEditorKit.ForegroundAction>>
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
@@ -347,6 +353,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyledEditorKitTests.ItalicActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ItalicActionClassTests<SUT extends Class<? extends javax.swing.text.StyledEditorKit.ItalicAction>>
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {
@@ -403,6 +410,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyledEditorKitTests.StyledTextActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface StyledTextActionClassTests<SUT extends Class<? extends javax.swing.text.StyledEditorKit.StyledTextAction>>
     extends org.j8unit.repository.javax.swing.text.TextActionClassTests<SUT> {
@@ -460,6 +468,7 @@ extends org.j8unit.repository.javax.swing.text.DefaultEditorKitClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyledEditorKitTests.UnderlineActionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UnderlineActionClassTests<SUT extends Class<? extends javax.swing.text.StyledEditorKit.UnderlineAction>>
     extends org.j8unit.repository.javax.swing.text.StyledEditorKitClassTests.StyledTextActionClassTests<SUT> {

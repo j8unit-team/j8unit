@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.AbstractSequentialListClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractSequentialListTests<SUT extends java.util.AbstractSequentialList<E>, E>
 extends org.j8unit.repository.java.util.AbstractListTests<SUT, E> {

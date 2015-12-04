@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.midi.SynthesizerClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SynthesizerTests<SUT extends javax.sound.midi.Synthesizer>
 extends org.j8unit.repository.javax.sound.midi.MidiDeviceTests<SUT> {

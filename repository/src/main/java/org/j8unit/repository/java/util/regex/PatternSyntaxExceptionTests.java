@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.regex.PatternSyntaxExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PatternSyntaxExceptionTests<SUT extends java.util.regex.PatternSyntaxException>
 extends org.j8unit.repository.java.lang.IllegalArgumentExceptionTests<SUT> {

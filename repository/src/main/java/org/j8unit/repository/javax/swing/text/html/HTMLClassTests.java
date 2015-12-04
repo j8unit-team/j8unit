@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.html.HTMLTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLClassTests<SUT extends Class<? extends javax.swing.text.html.HTML>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLTests.AttributeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AttributeClassTests<SUT extends Class<? extends javax.swing.text.html.HTML.Attribute>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -101,6 +103,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLTests.TagTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TagClassTests<SUT extends Class<? extends javax.swing.text.html.HTML.Tag>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -155,6 +158,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.html.HTMLTests.UnknownTagTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface UnknownTagClassTests<SUT extends Class<? extends javax.swing.text.html.HTML.UnknownTag>>
     extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.javax.swing.text.html.HTMLClassTests.TagClassTests<SUT> {

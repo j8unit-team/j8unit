@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.ComponentClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ComponentTests<SUT extends java.awt.Component>
 extends org.j8unit.repository.java.awt.image.ImageObserverTests<SUT>, org.j8unit.repository.java.awt.MenuContainerTests<SUT>,
@@ -33,6 +34,7 @@ org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.ComponentClassTests.BaselineResizeBehaviorClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BaselineResizeBehaviorTests<SUT extends java.awt.Component.BaselineResizeBehavior>
     extends org.j8unit.repository.java.lang.EnumTests<SUT, java.awt.Component.BaselineResizeBehavior> {

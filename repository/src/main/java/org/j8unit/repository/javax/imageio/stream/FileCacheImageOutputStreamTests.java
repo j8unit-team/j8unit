@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.stream.FileCacheImageOutputStreamClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileCacheImageOutputStreamTests<SUT extends javax.imageio.stream.FileCacheImageOutputStream>
 extends org.j8unit.repository.javax.imageio.stream.ImageOutputStreamImplTests<SUT> {

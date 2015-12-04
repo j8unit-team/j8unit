@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.midi.MetaMessageClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MetaMessageTests<SUT extends javax.sound.midi.MetaMessage>
 extends org.j8unit.repository.javax.sound.midi.MidiMessageTests<SUT> {

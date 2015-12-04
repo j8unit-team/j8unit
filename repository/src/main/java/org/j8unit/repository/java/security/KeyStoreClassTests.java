@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.KeyStoreTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeyStoreClassTests<SUT extends Class<? extends java.security.KeyStore>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -61,6 +62,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.KeyStoreTests.BuilderTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderClassTests<SUT extends Class<? extends java.security.KeyStore.Builder>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -160,6 +162,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.KeyStoreTests.CallbackHandlerProtectionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CallbackHandlerProtectionClassTests<SUT extends Class<? extends java.security.KeyStore.CallbackHandlerProtection>>
     extends org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -217,6 +220,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.KeyStoreTests.EntryTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EntryClassTests<SUT extends Class<? extends java.security.KeyStore.Entry>>
     extends J8UnitTest<SUT> {
@@ -247,6 +251,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
          * @since 0.9.0
          * @see org.j8unit.repository.java.security.KeyStoreTests.EntryTests.AttributeTests
          */
+        @FunctionalInterface
         @Category(J8UnitRepository.class)
         public static abstract interface AttributeClassTests<SUT extends Class<? extends java.security.KeyStore.Entry.Attribute>>
         extends J8UnitTest<SUT> {
@@ -299,6 +304,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.KeyStoreTests.LoadStoreParameterTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LoadStoreParameterClassTests<SUT extends Class<? extends java.security.KeyStore.LoadStoreParameter>>
     extends J8UnitTest<SUT> {
@@ -339,6 +345,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.KeyStoreTests.PasswordProtectionTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PasswordProtectionClassTests<SUT extends Class<? extends java.security.KeyStore.PasswordProtection>>
     extends org.j8unit.repository.java.security.KeyStoreClassTests.ProtectionParameterClassTests<SUT>,
@@ -413,6 +420,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.KeyStoreTests.PrivateKeyEntryTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface PrivateKeyEntryClassTests<SUT extends Class<? extends java.security.KeyStore.PrivateKeyEntry>>
     extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -489,6 +497,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.KeyStoreTests.ProtectionParameterTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ProtectionParameterClassTests<SUT extends Class<? extends java.security.KeyStore.ProtectionParameter>>
     extends J8UnitTest<SUT> {
@@ -529,6 +538,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.KeyStoreTests.SecretKeyEntryTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SecretKeyEntryClassTests<SUT extends Class<? extends java.security.KeyStore.SecretKeyEntry>>
     extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -601,6 +611,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.security.KeyStoreTests.TrustedCertificateEntryTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TrustedCertificateEntryClassTests<SUT extends Class<? extends java.security.KeyStore.TrustedCertificateEntry>>
     extends org.j8unit.repository.java.security.KeyStoreClassTests.EntryClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.EventObjectTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EventObjectClassTests<SUT extends Class<? extends java.util.EventObject>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

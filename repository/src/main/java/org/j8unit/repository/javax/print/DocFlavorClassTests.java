@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.DocFlavorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DocFlavorClassTests<SUT extends Class<? extends javax.print.DocFlavor>>
 extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
@@ -60,6 +61,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.DocFlavorTests.BYTE_ARRAYTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BYTE_ARRAYClassTests<SUT extends Class<? extends javax.print.DocFlavor.BYTE_ARRAY>>
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
@@ -115,6 +117,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.DocFlavorTests.CHAR_ARRAYTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CHAR_ARRAYClassTests<SUT extends Class<? extends javax.print.DocFlavor.CHAR_ARRAY>>
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
@@ -170,6 +173,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.DocFlavorTests.INPUT_STREAMTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface INPUT_STREAMClassTests<SUT extends Class<? extends javax.print.DocFlavor.INPUT_STREAM>>
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
@@ -225,6 +229,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.DocFlavorTests.READERTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface READERClassTests<SUT extends Class<? extends javax.print.DocFlavor.READER>>
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
@@ -280,6 +285,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.DocFlavorTests.SERVICE_FORMATTEDTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SERVICE_FORMATTEDClassTests<SUT extends Class<? extends javax.print.DocFlavor.SERVICE_FORMATTED>>
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
@@ -335,6 +341,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.DocFlavorTests.STRINGTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface STRINGClassTests<SUT extends Class<? extends javax.print.DocFlavor.STRING>>
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {
@@ -390,6 +397,7 @@ org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.print.DocFlavorTests.URLTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface URLClassTests<SUT extends Class<? extends javax.print.DocFlavor.URL>>
     extends org.j8unit.repository.javax.print.DocFlavorClassTests<SUT> {

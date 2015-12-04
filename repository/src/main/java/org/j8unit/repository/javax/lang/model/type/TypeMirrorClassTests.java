@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.lang.model.type.TypeMirrorTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TypeMirrorClassTests<SUT extends Class<? extends javax.lang.model.type.TypeMirror>>
 extends org.j8unit.repository.javax.lang.model.AnnotatedConstructClassTests<SUT> {

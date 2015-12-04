@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.image.ReplicateScaleFilterClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ReplicateScaleFilterTests<SUT extends java.awt.image.ReplicateScaleFilter>
 extends org.j8unit.repository.java.awt.image.ImageFilterTests<SUT> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.border.EmptyBorderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface EmptyBorderTests<SUT extends javax.swing.border.EmptyBorder>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.javax.swing.border.AbstractBorderTests<SUT> {

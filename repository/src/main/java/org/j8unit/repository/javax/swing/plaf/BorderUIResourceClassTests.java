@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource>>
 extends org.j8unit.repository.javax.swing.border.BorderClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>,
@@ -62,6 +63,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.BevelBorderUIResourceTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface BevelBorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource.BevelBorderUIResource>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.BevelBorderClassTests<SUT> {
@@ -153,6 +155,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.CompoundBorderUIResourceTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CompoundBorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource.CompoundBorderUIResource>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.CompoundBorderClassTests<SUT> {
@@ -213,6 +216,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.EmptyBorderUIResourceTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EmptyBorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource.EmptyBorderUIResource>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.EmptyBorderClassTests<SUT> {
@@ -287,6 +291,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.EtchedBorderUIResourceTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface EtchedBorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource.EtchedBorderUIResource>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.EtchedBorderClassTests<SUT> {
@@ -391,6 +396,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.LineBorderUIResourceTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LineBorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource.LineBorderUIResource>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.LineBorderClassTests<SUT> {
@@ -465,6 +471,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.MatteBorderUIResourceTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MatteBorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource.MatteBorderUIResource>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.MatteBorderClassTests<SUT> {
@@ -555,6 +562,7 @@ org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.BorderUIResourceTests.TitledBorderUIResourceTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface TitledBorderUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.BorderUIResource.TitledBorderUIResource>>
     extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.border.TitledBorderClassTests<SUT> {

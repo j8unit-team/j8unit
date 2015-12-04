@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.KeyFactorySpiClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface KeyFactorySpiTests<SUT extends java.security.KeyFactorySpi>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

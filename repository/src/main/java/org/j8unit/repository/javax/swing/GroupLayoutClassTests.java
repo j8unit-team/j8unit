@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.GroupLayoutTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface GroupLayoutClassTests<SUT extends Class<? extends javax.swing.GroupLayout>>
 extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.GroupLayoutTests.AlignmentTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface AlignmentClassTests<SUT extends Class<? extends javax.swing.GroupLayout.Alignment>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.GroupLayout.Alignment> {
@@ -133,6 +135,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.GroupLayoutTests.GroupTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface GroupClassTests<SUT extends Class<? extends javax.swing.GroupLayout.Group>>
     extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -174,6 +177,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.GroupLayoutTests.ParallelGroupTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParallelGroupClassTests<SUT extends Class<? extends javax.swing.GroupLayout.ParallelGroup>>
     extends org.j8unit.repository.javax.swing.GroupLayoutClassTests.GroupClassTests<SUT> {
@@ -215,6 +219,7 @@ extends org.j8unit.repository.java.awt.LayoutManager2ClassTests<SUT>, org.j8unit
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.GroupLayoutTests.SequentialGroupTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface SequentialGroupClassTests<SUT extends Class<? extends javax.swing.GroupLayout.SequentialGroup>>
     extends org.j8unit.repository.javax.swing.GroupLayoutClassTests.GroupClassTests<SUT> {

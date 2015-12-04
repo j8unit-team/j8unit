@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.tools.JavaFileManagerTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JavaFileManagerClassTests<SUT extends Class<? extends javax.tools.JavaFileManager>>
 extends org.j8unit.repository.java.io.CloseableClassTests<SUT>, org.j8unit.repository.java.io.FlushableClassTests<SUT>,
@@ -60,6 +61,7 @@ org.j8unit.repository.javax.tools.OptionCheckerClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.tools.JavaFileManagerTests.LocationTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface LocationClassTests<SUT extends Class<? extends javax.tools.JavaFileManager.Location>>
     extends J8UnitTest<SUT> {

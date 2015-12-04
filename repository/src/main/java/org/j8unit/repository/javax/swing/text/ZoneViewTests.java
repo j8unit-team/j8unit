@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.ZoneViewClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ZoneViewTests<SUT extends javax.swing.text.ZoneView>
 extends org.j8unit.repository.javax.swing.text.BoxViewTests<SUT> {

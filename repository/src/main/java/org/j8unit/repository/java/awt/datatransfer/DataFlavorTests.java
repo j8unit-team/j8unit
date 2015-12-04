@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.datatransfer.DataFlavorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DataFlavorTests<SUT extends java.awt.datatransfer.DataFlavor>
 extends org.j8unit.repository.java.io.ExternalizableTests<SUT>, org.j8unit.repository.java.lang.CloneableTests<SUT>,

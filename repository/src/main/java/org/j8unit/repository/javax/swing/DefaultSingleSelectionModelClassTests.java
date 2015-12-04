@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.DefaultSingleSelectionModelTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefaultSingleSelectionModelClassTests<SUT extends Class<? extends javax.swing.DefaultSingleSelectionModel>>
 extends org.j8unit.repository.javax.swing.SingleSelectionModelClassTests<SUT>, org.j8unit.repository.java.io.SerializableClassTests<SUT>,

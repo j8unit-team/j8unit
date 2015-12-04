@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.crypto.dom.DOMURIReferenceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DOMURIReferenceTests<SUT extends javax.xml.crypto.dom.DOMURIReference>
 extends org.j8unit.repository.javax.xml.crypto.URIReferenceTests<SUT> {

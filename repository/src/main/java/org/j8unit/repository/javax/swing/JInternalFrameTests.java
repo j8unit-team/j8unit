@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.JInternalFrameClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface JInternalFrameTests<SUT extends javax.swing.JInternalFrame>
 extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repository.javax.swing.WindowConstantsTests<SUT>,
@@ -33,6 +34,7 @@ org.j8unit.repository.javax.swing.RootPaneContainerTests<SUT>, org.j8unit.reposi
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.JInternalFrameClassTests.JDesktopIconClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface JDesktopIconTests<SUT extends javax.swing.JInternalFrame.JDesktopIcon>
     extends org.j8unit.repository.javax.accessibility.AccessibleTests<SUT>, org.j8unit.repository.javax.swing.JComponentTests<SUT> {

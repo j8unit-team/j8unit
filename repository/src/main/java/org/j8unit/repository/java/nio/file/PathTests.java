@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.PathClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PathTests<SUT extends java.nio.file.Path>
 extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.nio.file.Path>, org.j8unit.repository.java.lang.IterableTests<SUT, java.nio.file.Path>,

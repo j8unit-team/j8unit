@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.bind.annotation.XmlAccessTypeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface XmlAccessTypeTests<SUT extends javax.xml.bind.annotation.XmlAccessType>
 extends org.j8unit.repository.java.lang.EnumTests<SUT, javax.xml.bind.annotation.XmlAccessType> {

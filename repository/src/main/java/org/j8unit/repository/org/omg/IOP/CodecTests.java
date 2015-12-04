@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.IOP.CodecClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CodecTests<SUT extends org.omg.IOP.Codec>
 extends org.j8unit.repository.org.omg.IOP.CodecOperationsTests<SUT>, org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>,

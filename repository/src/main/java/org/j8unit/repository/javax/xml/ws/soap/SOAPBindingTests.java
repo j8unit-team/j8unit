@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.soap.SOAPBindingClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SOAPBindingTests<SUT extends javax.xml.ws.soap.SOAPBinding>
 extends org.j8unit.repository.javax.xml.ws.BindingTests<SUT> {

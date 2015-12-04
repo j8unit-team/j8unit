@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA_2_3.portable.DelegateTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DelegateClassTests<SUT extends Class<? extends org.omg.CORBA_2_3.portable.Delegate>>
 extends org.j8unit.repository.org.omg.CORBA.portable.DelegateClassTests<SUT> {

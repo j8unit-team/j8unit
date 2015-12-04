@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.NavigableSetTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NavigableSetClassTests<SUT extends Class<? extends java.util.NavigableSet<E>>, E>
 extends org.j8unit.repository.java.util.SortedSetClassTests<SUT, E> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.security.AccessControlExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AccessControlExceptionClassTests<SUT extends Class<? extends java.security.AccessControlException>>
 extends org.j8unit.repository.java.lang.SecurityExceptionClassTests<SUT> {

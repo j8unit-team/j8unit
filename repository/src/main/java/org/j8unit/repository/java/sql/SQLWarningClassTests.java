@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.SQLWarningTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SQLWarningClassTests<SUT extends Class<? extends java.sql.SQLWarning>>
 extends org.j8unit.repository.java.sql.SQLExceptionClassTests<SUT> {

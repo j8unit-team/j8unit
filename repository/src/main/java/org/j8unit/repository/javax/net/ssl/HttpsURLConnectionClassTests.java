@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.HttpsURLConnectionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HttpsURLConnectionClassTests<SUT extends Class<? extends javax.net.ssl.HttpsURLConnection>>
 extends org.j8unit.repository.java.net.HttpURLConnectionClassTests<SUT> {

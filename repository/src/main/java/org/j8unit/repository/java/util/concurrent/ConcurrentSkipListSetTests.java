@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ConcurrentSkipListSetClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ConcurrentSkipListSetTests<SUT extends java.util.concurrent.ConcurrentSkipListSet<E>, E>
 extends org.j8unit.repository.java.util.NavigableSetTests<SUT, E>, org.j8unit.repository.java.lang.CloneableTests<SUT>,

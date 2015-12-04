@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.AbstractCellEditorClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AbstractCellEditorTests<SUT extends javax.swing.AbstractCellEditor>
 extends org.j8unit.repository.javax.swing.CellEditorTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,

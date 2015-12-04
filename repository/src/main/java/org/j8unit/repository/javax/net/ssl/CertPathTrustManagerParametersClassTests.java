@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.net.ssl.CertPathTrustManagerParametersTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CertPathTrustManagerParametersClassTests<SUT extends Class<? extends javax.net.ssl.CertPathTrustManagerParameters>>
 extends org.j8unit.repository.javax.net.ssl.ManagerFactoryParametersClassTests<SUT>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {

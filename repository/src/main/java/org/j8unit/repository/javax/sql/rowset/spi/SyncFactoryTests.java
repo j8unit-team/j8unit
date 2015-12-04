@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.rowset.spi.SyncFactoryClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SyncFactoryTests<SUT extends javax.sql.rowset.spi.SyncFactory>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

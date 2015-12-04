@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.imageio.metadata.IIOInvalidTreeExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface IIOInvalidTreeExceptionTests<SUT extends javax.imageio.metadata.IIOInvalidTreeException>
 extends org.j8unit.repository.javax.imageio.IIOExceptionTests<SUT> {

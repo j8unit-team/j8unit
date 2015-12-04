@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.relation.RelationServiceClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RelationServiceTests<SUT extends javax.management.relation.RelationService>
 extends org.j8unit.repository.javax.management.relation.RelationServiceMBeanTests<SUT>, org.j8unit.repository.javax.management.MBeanRegistrationTests<SUT>,

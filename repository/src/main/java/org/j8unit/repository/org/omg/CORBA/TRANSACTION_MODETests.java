@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.TRANSACTION_MODEClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TRANSACTION_MODETests<SUT extends org.omg.CORBA.TRANSACTION_MODE>
 extends org.j8unit.repository.org.omg.CORBA.SystemExceptionTests<SUT> {

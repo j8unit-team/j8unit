@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.DefinitionKindHelperClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DefinitionKindHelperTests<SUT extends org.omg.CORBA.DefinitionKindHelper>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

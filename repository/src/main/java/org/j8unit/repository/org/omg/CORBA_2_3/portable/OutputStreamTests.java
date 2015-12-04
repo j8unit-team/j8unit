@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA_2_3.portable.OutputStreamClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface OutputStreamTests<SUT extends org.omg.CORBA_2_3.portable.OutputStream>
 extends org.j8unit.repository.org.omg.CORBA.portable.OutputStreamTests<SUT> {

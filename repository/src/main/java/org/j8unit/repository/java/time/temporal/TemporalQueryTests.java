@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.time.temporal.TemporalQueryClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TemporalQueryTests<SUT extends java.time.temporal.TemporalQuery<R>, R>
 extends J8UnitTest<SUT> {

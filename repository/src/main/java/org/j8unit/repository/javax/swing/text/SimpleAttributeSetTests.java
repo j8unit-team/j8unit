@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.SimpleAttributeSetClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SimpleAttributeSetTests<SUT extends javax.swing.text.SimpleAttributeSet>
 extends org.j8unit.repository.javax.swing.text.MutableAttributeSetTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,

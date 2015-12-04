@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.file.FileVisitResultTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FileVisitResultClassTests<SUT extends Class<? extends java.nio.file.FileVisitResult>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.nio.file.FileVisitResult> {

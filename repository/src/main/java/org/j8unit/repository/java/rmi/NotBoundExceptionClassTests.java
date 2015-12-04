@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.NotBoundExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NotBoundExceptionClassTests<SUT extends Class<? extends java.rmi.NotBoundException>>
 extends org.j8unit.repository.java.lang.ExceptionClassTests<SUT> {

@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.TrayIconTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TrayIconClassTests<SUT extends Class<? extends java.awt.TrayIcon>>
 extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
@@ -59,6 +60,7 @@ extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.java.awt.TrayIconTests.MessageTypeTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MessageTypeClassTests<SUT extends Class<? extends java.awt.TrayIcon.MessageType>>
     extends org.j8unit.repository.java.lang.EnumClassTests<SUT, java.awt.TrayIcon.MessageType> {

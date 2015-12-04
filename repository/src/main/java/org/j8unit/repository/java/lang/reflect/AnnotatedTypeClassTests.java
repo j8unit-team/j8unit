@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.AnnotatedTypeTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AnnotatedTypeClassTests<SUT extends Class<? extends java.lang.reflect.AnnotatedType>>
 extends org.j8unit.repository.java.lang.reflect.AnnotatedElementClassTests<SUT> {

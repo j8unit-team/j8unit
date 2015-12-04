@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.channels.spi.AsynchronousChannelProviderClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface AsynchronousChannelProviderTests<SUT extends java.nio.channels.spi.AsynchronousChannelProvider>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {

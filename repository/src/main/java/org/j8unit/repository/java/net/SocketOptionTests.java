@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.SocketOptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SocketOptionTests<SUT extends java.net.SocketOption<T>, T>
 extends J8UnitTest<SUT> {

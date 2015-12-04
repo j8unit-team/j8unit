@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.StyleConstantsClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StyleConstantsTests<SUT extends javax.swing.text.StyleConstants>
 extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.CharacterConstantsClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface CharacterConstantsTests<SUT extends javax.swing.text.StyleConstants.CharacterConstants>
     extends org.j8unit.repository.javax.swing.text.AttributeSetTests.CharacterAttributeTests<SUT>,
@@ -52,6 +54,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.ColorConstantsClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ColorConstantsTests<SUT extends javax.swing.text.StyleConstants.ColorConstants>
     extends org.j8unit.repository.javax.swing.text.AttributeSetTests.ColorAttributeTests<SUT>,
@@ -71,6 +74,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.FontConstantsClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface FontConstantsTests<SUT extends javax.swing.text.StyleConstants.FontConstants>
     extends org.j8unit.repository.javax.swing.text.AttributeSetTests.FontAttributeTests<SUT>,
@@ -90,6 +94,7 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.text.StyleConstantsClassTests.ParagraphConstantsClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface ParagraphConstantsTests<SUT extends javax.swing.text.StyleConstants.ParagraphConstants>
     extends org.j8unit.repository.javax.swing.text.AttributeSetTests.ParagraphAttributeTests<SUT>,

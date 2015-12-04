@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sql.rowset.CachedRowSetClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface CachedRowSetTests<SUT extends javax.sql.rowset.CachedRowSet>
 extends org.j8unit.repository.javax.sql.RowSetTests<SUT>, org.j8unit.repository.javax.sql.rowset.JoinableTests<SUT> {

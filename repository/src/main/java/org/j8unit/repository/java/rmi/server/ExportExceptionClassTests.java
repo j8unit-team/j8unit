@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.rmi.server.ExportExceptionTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ExportExceptionClassTests<SUT extends Class<? extends java.rmi.server.ExportException>>
 extends org.j8unit.repository.java.rmi.RemoteExceptionClassTests<SUT> {

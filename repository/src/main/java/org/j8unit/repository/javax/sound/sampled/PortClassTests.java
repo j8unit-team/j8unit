@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.sound.sampled.PortTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PortClassTests<SUT extends Class<? extends javax.sound.sampled.Port>>
 extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
@@ -60,6 +61,7 @@ extends org.j8unit.repository.javax.sound.sampled.LineClassTests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.sound.sampled.PortTests.InfoTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface InfoClassTests<SUT extends Class<? extends javax.sound.sampled.Port.Info>>
     extends org.j8unit.repository.javax.sound.sampled.LineClassTests.InfoClassTests<SUT> {

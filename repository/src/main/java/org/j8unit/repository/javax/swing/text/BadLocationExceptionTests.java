@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.text.BadLocationExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BadLocationExceptionTests<SUT extends javax.swing.text.BadLocationException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {

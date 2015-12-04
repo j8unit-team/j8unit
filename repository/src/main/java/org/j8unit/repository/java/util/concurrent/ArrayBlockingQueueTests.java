@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.ArrayBlockingQueueClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface ArrayBlockingQueueTests<SUT extends java.util.concurrent.ArrayBlockingQueue<E>, E>
 extends org.j8unit.repository.java.util.concurrent.BlockingQueueTests<SUT, E>, org.j8unit.repository.java.io.SerializableTests<SUT>,

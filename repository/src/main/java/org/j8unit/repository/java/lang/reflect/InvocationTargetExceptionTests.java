@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.InvocationTargetExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface InvocationTargetExceptionTests<SUT extends java.lang.reflect.InvocationTargetException>
 extends org.j8unit.repository.java.lang.ReflectiveOperationExceptionTests<SUT> {

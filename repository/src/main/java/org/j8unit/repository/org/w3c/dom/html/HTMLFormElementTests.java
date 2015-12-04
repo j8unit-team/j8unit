@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.org.w3c.dom.html.HTMLFormElementClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface HTMLFormElementTests<SUT extends org.w3c.dom.html.HTMLFormElement>
 extends org.j8unit.repository.org.w3c.dom.html.HTMLElementTests<SUT> {

@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.ws.handler.PortInfoTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface PortInfoClassTests<SUT extends Class<? extends javax.xml.ws.handler.PortInfo>>
 extends J8UnitTest<SUT> {

@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.concurrent.DelayedTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface DelayedClassTests<SUT extends Class<? extends java.util.concurrent.Delayed>>
 extends org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.concurrent.Delayed> {

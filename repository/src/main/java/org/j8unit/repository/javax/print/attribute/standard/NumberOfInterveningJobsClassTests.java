@@ -32,6 +32,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.print.attribute.standard.NumberOfInterveningJobsTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface NumberOfInterveningJobsClassTests<SUT extends Class<? extends javax.print.attribute.standard.NumberOfInterveningJobs>>
 extends org.j8unit.repository.javax.print.attribute.PrintJobAttributeClassTests<SUT>, org.j8unit.repository.javax.print.attribute.IntegerSyntaxClassTests<SUT> {

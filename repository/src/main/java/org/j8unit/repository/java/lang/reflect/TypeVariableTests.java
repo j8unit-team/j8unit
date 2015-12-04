@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.reflect.TypeVariableClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface TypeVariableTests<SUT extends java.lang.reflect.TypeVariable<D>, D extends java.lang.reflect.GenericDeclaration>
 extends org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT> {

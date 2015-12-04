@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.UnsupportedLookAndFeelExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface UnsupportedLookAndFeelExceptionTests<SUT extends javax.swing.UnsupportedLookAndFeelException>
 extends org.j8unit.repository.java.lang.ExceptionTests<SUT> {

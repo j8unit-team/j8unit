@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.SortOrderTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface SortOrderClassTests<SUT extends Class<? extends javax.swing.SortOrder>>
 extends org.j8unit.repository.java.lang.EnumClassTests<SUT, javax.swing.SortOrder> {

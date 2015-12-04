@@ -18,6 +18,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.remote.rmi.RMIServerImpl_StubClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RMIServerImpl_StubTests<SUT extends javax.management.remote.rmi.RMIServerImpl_Stub>
 extends org.j8unit.repository.javax.management.remote.rmi.RMIServerTests<SUT>, org.j8unit.repository.java.rmi.server.RemoteStubTests<SUT> {

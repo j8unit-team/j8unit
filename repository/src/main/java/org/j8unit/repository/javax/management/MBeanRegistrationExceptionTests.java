@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.management.MBeanRegistrationExceptionClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MBeanRegistrationExceptionTests<SUT extends javax.management.MBeanRegistrationException>
 extends org.j8unit.repository.javax.management.MBeanExceptionTests<SUT> {

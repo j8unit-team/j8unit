@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.StandardProtocolFamilyClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface StandardProtocolFamilyTests<SUT extends java.net.StandardProtocolFamily>
 extends org.j8unit.repository.java.net.ProtocolFamilyTests<SUT>, org.j8unit.repository.java.lang.EnumTests<SUT, java.net.StandardProtocolFamily> {

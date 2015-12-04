@@ -29,6 +29,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.FlushableTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface FlushableClassTests<SUT extends Class<? extends java.io.Flushable>>
 extends J8UnitTest<SUT> {

@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicSpinnerUITests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicSpinnerUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicSpinnerUI>>
 extends org.j8unit.repository.javax.swing.plaf.SpinnerUIClassTests<SUT> {

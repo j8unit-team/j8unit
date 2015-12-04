@@ -30,6 +30,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.MenuItemTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface MenuItemClassTests<SUT extends Class<? extends java.awt.MenuItem>>
 extends org.j8unit.repository.javax.accessibility.AccessibleClassTests<SUT>, org.j8unit.repository.java.awt.MenuComponentClassTests<SUT> {

@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.RowIdLifetimeClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface RowIdLifetimeTests<SUT extends java.sql.RowIdLifetime>
 extends org.j8unit.repository.java.lang.EnumTests<SUT, java.sql.RowIdLifetime> {

@@ -17,6 +17,7 @@ import org.junit.experimental.categories.Category;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicDesktopIconUIClassTests
  */
+@FunctionalInterface
 @Category(J8UnitRepository.class)
 public abstract interface BasicDesktopIconUITests<SUT extends javax.swing.plaf.basic.BasicDesktopIconUI>
 extends org.j8unit.repository.javax.swing.plaf.DesktopIconUITests<SUT> {
@@ -33,6 +34,7 @@ extends org.j8unit.repository.javax.swing.plaf.DesktopIconUITests<SUT> {
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicDesktopIconUIClassTests.MouseInputHandlerClassTests
      */
+    @FunctionalInterface
     @Category(J8UnitRepository.class)
     public static abstract interface MouseInputHandlerTests<SUT extends javax.swing.plaf.basic.BasicDesktopIconUI.MouseInputHandler>
     extends org.j8unit.repository.javax.swing.event.MouseInputAdapterTests<SUT> {
