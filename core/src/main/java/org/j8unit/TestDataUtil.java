@@ -1,4 +1,4 @@
-package org.j8unit.repository.util;
+package org.j8unit;
 
 import static java.util.Arrays.stream;
 import static java.util.stream.Collectors.toList;
