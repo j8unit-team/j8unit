@@ -800,7 +800,6 @@ org.j8unit.repository.java.awt.ImageTests<SUT> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test

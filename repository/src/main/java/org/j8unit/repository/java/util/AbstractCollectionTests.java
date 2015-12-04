@@ -118,22 +118,6 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object()
-    throws Exception {
-    }
-
-    /**
-     * <p>
-     * The method-under-test covered by this test method is inherited duplicatedly within the declaring
-     * class-under-test. In result, there are duplicated according test method within the super test classes. To solve
-     * this situation, this method must be overriden. Dont't worry, there will be meaningful test methods soon and,
-     * thus, overriding becomes unnecessary.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    @Override
     public default void test_hashCode()
     throws Exception {
     }
@@ -283,7 +267,6 @@ extends org.j8unit.repository.java.util.CollectionTests<SUT, E>, org.j8unit.repo
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_toString()
     throws Exception {
         // query fresh subject-under-test
