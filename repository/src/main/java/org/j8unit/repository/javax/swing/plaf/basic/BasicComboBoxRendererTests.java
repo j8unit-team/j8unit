@@ -18,12 +18,19 @@ import static org.junit.Assert.*;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererClassTests
  */
+@SuppressWarnings("rawtypes")
 @Category(J8UnitRepository.class)
 public abstract interface BasicComboBoxRendererTests<SUT extends javax.swing.plaf.basic.BasicComboBoxRenderer>
-extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT>,
-        org.j8unit.repository.java.io.SerializableTests<SUT>,
-        org.j8unit.repository.javax.swing.JLabelTests<SUT>
+extends org.j8unit.repository.javax.swing.ListCellRendererTests,
+        org.j8unit.repository.java.io.SerializableTests,
+        org.j8unit.repository.javax.swing.JLabelTests
 {
+
+    // The definition of the SUT factory method must be repeated
+    // because of the "rawtypes" nature of this test class (caused
+    // by the "rawtypes" nature of the class-under-test).
+    @Override
+    public abstract SUT createNewSUT();
 
     /**
      * <p>
@@ -67,9 +74,15 @@ extends org.j8unit.repository.javax.swing.ListCellRendererTests<SUT>,
      */
     @Category(J8UnitRepository.class)
     public static abstract interface UIResourceTests<SUT extends javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceTests<SUT>,
-            org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererTests<SUT>
+    extends org.j8unit.repository.javax.swing.plaf.UIResourceTests,
+            org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererTests
     {
+
+        // The definition of the SUT factory method must be repeated
+        // because of the "rawtypes" nature of this test class (caused
+        // by the "rawtypes" nature of the class-under-test).
+        @Override
+        public abstract SUT createNewSUT();
 
     }
 

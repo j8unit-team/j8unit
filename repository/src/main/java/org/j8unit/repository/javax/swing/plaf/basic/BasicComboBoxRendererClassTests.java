@@ -32,12 +32,19 @@ import static org.junit.Assert.*;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererTests
  */
+@SuppressWarnings("rawtypes")
 @Category(J8UnitRepository.class)
 public abstract interface BasicComboBoxRendererClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxRenderer>>
-extends org.j8unit.repository.javax.swing.ListCellRendererClassTests<SUT>,
-        org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-        org.j8unit.repository.javax.swing.JLabelClassTests<SUT>
+extends org.j8unit.repository.javax.swing.ListCellRendererClassTests,
+        org.j8unit.repository.java.io.SerializableClassTests,
+        org.j8unit.repository.javax.swing.JLabelClassTests
 {
+
+    // The definition of the SUT factory method must be repeated
+    // because of the "rawtypes" nature of this test class (caused
+    // by the "rawtypes" nature of the class-under-test).
+    @Override
+    public abstract SUT createNewSUT();
 
     /**
      * Test method for {@link javax.swing.plaf.basic.BasicComboBoxRenderer#BasicComboBoxRenderer() public javax.swing.plaf.basic.BasicComboBoxRenderer()}.
@@ -85,9 +92,15 @@ extends org.j8unit.repository.javax.swing.ListCellRendererClassTests<SUT>,
      */
     @Category(J8UnitRepository.class)
     public static abstract interface UIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource>>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>,
-            org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererClassTests<SUT>
+    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests,
+            org.j8unit.repository.javax.swing.plaf.basic.BasicComboBoxRendererClassTests
     {
+
+        // The definition of the SUT factory method must be repeated
+        // because of the "rawtypes" nature of this test class (caused
+        // by the "rawtypes" nature of the class-under-test).
+        @Override
+        public abstract SUT createNewSUT();
 
         /**
          * Test method for {@link javax.swing.plaf.basic.BasicComboBoxRenderer.UIResource#UIResource() public javax.swing.plaf.basic.BasicComboBoxRenderer$UIResource()}.

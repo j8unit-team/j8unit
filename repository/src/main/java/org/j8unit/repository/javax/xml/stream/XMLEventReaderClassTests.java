@@ -32,10 +32,17 @@ import static org.junit.Assert.*;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.stream.XMLEventReaderTests
  */
+@SuppressWarnings("rawtypes")
 @Category(J8UnitRepository.class)
 public abstract interface XMLEventReaderClassTests<SUT extends Class<? extends javax.xml.stream.XMLEventReader>>
-extends org.j8unit.repository.java.util.IteratorClassTests<SUT>
+extends org.j8unit.repository.java.util.IteratorClassTests
 {
+
+    // The definition of the SUT factory method must be repeated
+    // because of the "rawtypes" nature of this test class (caused
+    // by the "rawtypes" nature of the class-under-test).
+    @Override
+    public abstract SUT createNewSUT();
 
     @Test
     public default void testBaseTypeIsAssignableFromCurrentType() throws Exception {

@@ -32,14 +32,21 @@ import static org.junit.Assert.*;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.beancontext.BeanContextSupportTests
  */
+@SuppressWarnings("rawtypes")
 @Category(J8UnitRepository.class)
 public abstract interface BeanContextSupportClassTests<SUT extends Class<? extends java.beans.beancontext.BeanContextSupport>>
-extends org.j8unit.repository.java.beans.beancontext.BeanContextClassTests<SUT>,
-        org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-        org.j8unit.repository.java.beans.PropertyChangeListenerClassTests<SUT>,
-        org.j8unit.repository.java.beans.VetoableChangeListenerClassTests<SUT>,
-        org.j8unit.repository.java.beans.beancontext.BeanContextChildSupportClassTests<SUT>
+extends org.j8unit.repository.java.beans.beancontext.BeanContextClassTests,
+        org.j8unit.repository.java.io.SerializableClassTests,
+        org.j8unit.repository.java.beans.PropertyChangeListenerClassTests,
+        org.j8unit.repository.java.beans.VetoableChangeListenerClassTests,
+        org.j8unit.repository.java.beans.beancontext.BeanContextChildSupportClassTests
 {
+
+    // The definition of the SUT factory method must be repeated
+    // because of the "rawtypes" nature of this test class (caused
+    // by the "rawtypes" nature of the class-under-test).
+    @Override
+    public abstract SUT createNewSUT();
 
     /**
      * Test method for {@link java.beans.beancontext.BeanContextSupport#BeanContextSupport() public java.beans.beancontext.BeanContextSupport()}.

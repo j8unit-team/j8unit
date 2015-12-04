@@ -32,11 +32,18 @@ import static org.junit.Assert.*;
  * @since 0.9.0
  * @see org.j8unit.repository.javax.xml.stream.util.EventReaderDelegateTests
  */
+@SuppressWarnings("rawtypes")
 @Category(J8UnitRepository.class)
 public abstract interface EventReaderDelegateClassTests<SUT extends Class<? extends javax.xml.stream.util.EventReaderDelegate>>
-extends org.j8unit.repository.javax.xml.stream.XMLEventReaderClassTests<SUT>,
-        org.j8unit.repository.java.lang.ObjectClassTests<SUT>
+extends org.j8unit.repository.javax.xml.stream.XMLEventReaderClassTests,
+        org.j8unit.repository.java.lang.ObjectClassTests
 {
+
+    // The definition of the SUT factory method must be repeated
+    // because of the "rawtypes" nature of this test class (caused
+    // by the "rawtypes" nature of the class-under-test).
+    @Override
+    public abstract SUT createNewSUT();
 
     /**
      * Test method for {@link javax.xml.stream.util.EventReaderDelegate#EventReaderDelegate() public javax.xml.stream.util.EventReaderDelegate()}.

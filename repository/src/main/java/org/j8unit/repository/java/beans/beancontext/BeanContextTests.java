@@ -18,13 +18,20 @@ import static org.junit.Assert.*;
  * @since 0.9.0
  * @see org.j8unit.repository.java.beans.beancontext.BeanContextClassTests
  */
+@SuppressWarnings("rawtypes")
 @Category(J8UnitRepository.class)
 public abstract interface BeanContextTests<SUT extends java.beans.beancontext.BeanContext>
-extends org.j8unit.repository.java.beans.beancontext.BeanContextChildTests<SUT>,
-        org.j8unit.repository.java.util.CollectionTests<SUT>,
-        org.j8unit.repository.java.beans.DesignModeTests<SUT>,
-        org.j8unit.repository.java.beans.VisibilityTests<SUT>
+extends org.j8unit.repository.java.beans.beancontext.BeanContextChildTests,
+        org.j8unit.repository.java.util.CollectionTests,
+        org.j8unit.repository.java.beans.DesignModeTests,
+        org.j8unit.repository.java.beans.VisibilityTests
 {
+
+    // The definition of the SUT factory method must be repeated
+    // because of the "rawtypes" nature of this test class (caused
+    // by the "rawtypes" nature of the class-under-test).
+    @Override
+    public abstract SUT createNewSUT();
 
     /**
      * <p>
