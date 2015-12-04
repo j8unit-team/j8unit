@@ -1,109 +1,114 @@
 package org.j8unit.repository.javax.swing.plaf.basic;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import static org.junit.Assert.assertTrue;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.basic.BasicTextUI class javax.swing.plaf.basic.BasicTextUI},
- * containing all class relevant test methods (at least the test methods of accessible constructors and
- * of accessible {@code static} methods). The counterpart test class containing the instance relevant test
- * methods is {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests}.
+ * Test class for {@link javax.swing.plaf.basic.BasicTextUI class javax.swing.plaf.basic.BasicTextUI}, containing all
+ * class relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
+ * methods). The counterpart test class containing the instance relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests}.
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself.
- * For example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1"><q>by
- * virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
- * provides a corresponding, inheritable test method:
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
- * runtime constraints and further class specific requirements.
+ * In addition, there may be assertions concerning the class itself. For example,
+ * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+ * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+ * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
+ * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+ * constraints and further class specific requirements.
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests
  */
 @Category(J8UnitRepository.class)
 public abstract interface BasicTextUIClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTextUI>>
-extends org.j8unit.repository.javax.swing.text.ViewFactoryClassTests<SUT>,
-        org.j8unit.repository.javax.swing.plaf.TextUIClassTests<SUT>
-{
+extends org.j8unit.repository.javax.swing.text.ViewFactoryClassTests<SUT>, org.j8unit.repository.javax.swing.plaf.TextUIClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.plaf.basic.BasicTextUI#BasicTextUI() public javax.swing.plaf.basic.BasicTextUI()}.
+     * Test method for {@link javax.swing.plaf.basic.BasicTextUI#BasicTextUI() public
+     * javax.swing.plaf.basic.BasicTextUI()}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_BasicTextUI() throws Exception {
+    public default void create_BasicTextUI()
+    throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        javax.swing.plaf.basic.BasicTextUI sut = null; // = new BasicTextUI();
+        final javax.swing.plaf.basic.BasicTextUI sut = null; // = new BasicTextUI();
     }
 
+    @Override
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType() throws Exception {
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
         // create new instance
-        Class<? extends javax.swing.plaf.basic.BasicTextUI> sut = createNewSUT();
+        final Class<? extends javax.swing.plaf.basic.BasicTextUI> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.basic.BasicTextUI.class.isAssignableFrom(sut));
     }
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTextUI$BasicHighlighter class javax.swing.plaf.basic.BasicTextUI$BasicHighlighter},
-     * containing all class relevant test methods (at least the test methods of accessible constructors and
-     * of accessible {@code static} methods). The counterpart test class containing the instance relevant test
-     * methods is {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicHighlighterTests}.
+     * Test class for {@link javax.swing.plaf.basic.BasicTextUI$BasicHighlighter class
+     * javax.swing.plaf.basic.BasicTextUI$BasicHighlighter}, containing all class relevant test methods (at least the
+     * test methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
+     * containing the instance relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicHighlighterTests}.
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself.
-     * For example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1"><q>by
-     * virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * In addition, there may be assertions concerning the class itself. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
-     * provides a corresponding, inheritable test method:
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
+     * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
-     * runtime constraints and further class specific requirements.
+     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+     * constraints and further class specific requirements.
      * </p>
      *
-     * @param SUT the type of the subject-under-test
+     * @param SUT
+     *            the type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicHighlighterTests
      */
     @Category(J8UnitRepository.class)
     public static abstract interface BasicHighlighterClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTextUI.BasicHighlighter>>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>,
-            org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests<SUT>
-    {
+    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.text.DefaultHighlighterClassTests<SUT> {
 
         /**
-         * Test method for {@link javax.swing.plaf.basic.BasicTextUI.BasicHighlighter#BasicHighlighter() public javax.swing.plaf.basic.BasicTextUI$BasicHighlighter()}.
+         * Test method for {@link javax.swing.plaf.basic.BasicTextUI.BasicHighlighter#BasicHighlighter() public
+         * javax.swing.plaf.basic.BasicTextUI$BasicHighlighter()}.
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void create_BasicHighlighter() throws Exception {
+        public default void create_BasicHighlighter()
+        throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            javax.swing.plaf.basic.BasicTextUI.BasicHighlighter sut = null; // = new BasicHighlighter();
+            final javax.swing.plaf.basic.BasicTextUI.BasicHighlighter sut = null; // = new BasicHighlighter();
         }
 
+        @Override
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType() throws Exception {
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
             // create new instance
-            Class<? extends javax.swing.plaf.basic.BasicTextUI.BasicHighlighter> sut = createNewSUT();
+            final Class<? extends javax.swing.plaf.basic.BasicTextUI.BasicHighlighter> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTextUI.BasicHighlighter.class.isAssignableFrom(sut));
         }
@@ -112,50 +117,54 @@ extends org.j8unit.repository.javax.swing.text.ViewFactoryClassTests<SUT>,
 
     /**
      * <p>
-     * Test class for {@link javax.swing.plaf.basic.BasicTextUI$BasicCaret class javax.swing.plaf.basic.BasicTextUI$BasicCaret},
-     * containing all class relevant test methods (at least the test methods of accessible constructors and
-     * of accessible {@code static} methods). The counterpart test class containing the instance relevant test
-     * methods is {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicCaretTests}.
+     * Test class for {@link javax.swing.plaf.basic.BasicTextUI$BasicCaret class
+     * javax.swing.plaf.basic.BasicTextUI$BasicCaret}, containing all class relevant test methods (at least the test
+     * methods of accessible constructors and of accessible {@code static} methods). The counterpart test class
+     * containing the instance relevant test methods is
+     * {@link org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicCaretTests}.
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself.
-     * For example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1"><q>by
-     * virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * In addition, there may be assertions concerning the class itself. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
-     * provides a corresponding, inheritable test method:
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
+     * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
-     * runtime constraints and further class specific requirements.
+     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+     * constraints and further class specific requirements.
      * </p>
      *
-     * @param SUT the type of the subject-under-test
+     * @param SUT
+     *            the type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.javax.swing.plaf.basic.BasicTextUITests.BasicCaretTests
      */
     @Category(J8UnitRepository.class)
     public static abstract interface BasicCaretClassTests<SUT extends Class<? extends javax.swing.plaf.basic.BasicTextUI.BasicCaret>>
-    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>,
-            org.j8unit.repository.javax.swing.text.DefaultCaretClassTests<SUT>
-    {
+    extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.javax.swing.text.DefaultCaretClassTests<SUT> {
 
         /**
-         * Test method for {@link javax.swing.plaf.basic.BasicTextUI.BasicCaret#BasicCaret() public javax.swing.plaf.basic.BasicTextUI$BasicCaret()}.
+         * Test method for {@link javax.swing.plaf.basic.BasicTextUI.BasicCaret#BasicCaret() public
+         * javax.swing.plaf.basic.BasicTextUI$BasicCaret()}.
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void create_BasicCaret() throws Exception {
+        public default void create_BasicCaret()
+        throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            javax.swing.plaf.basic.BasicTextUI.BasicCaret sut = null; // = new BasicCaret();
+            final javax.swing.plaf.basic.BasicTextUI.BasicCaret sut = null; // = new BasicCaret();
         }
 
+        @Override
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType() throws Exception {
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
             // create new instance
-            Class<? extends javax.swing.plaf.basic.BasicTextUI.BasicCaret> sut = createNewSUT();
+            final Class<? extends javax.swing.plaf.basic.BasicTextUI.BasicCaret> sut = createNewSUT();
             // assert assignability
             assertTrue(javax.swing.plaf.basic.BasicTextUI.BasicCaret.class.isAssignableFrom(sut));
         }

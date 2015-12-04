@@ -1,249 +1,283 @@
 package org.j8unit.repository.java.nio.charset;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.nio.charset.CharsetDecoder class java.nio.charset.CharsetDecoder},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.nio.charset.CharsetDecoder class java.nio.charset.CharsetDecoder}, containing all instance
+ * relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.charset.CharsetDecoderClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface CharsetDecoderTests<SUT extends java.nio.charset.CharsetDecoder>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT>
-{
+extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#isAutoDetecting() public boolean java.nio.charset.CharsetDecoder.isAutoDetecting()}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#isAutoDetecting() public boolean
+     * java.nio.charset.CharsetDecoder.isAutoDetecting()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isAutoDetecting() throws Exception {
+    public default void test_isAutoDetecting()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#decode(java.nio.ByteBuffer,java.nio.CharBuffer,boolean) public final java.nio.charset.CoderResult java.nio.charset.CharsetDecoder.decode(java.nio.ByteBuffer,java.nio.CharBuffer,boolean)}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#decode(java.nio.ByteBuffer,java.nio.CharBuffer,boolean)
+     * public final java.nio.charset.CoderResult
+     * java.nio.charset.CharsetDecoder.decode(java.nio.ByteBuffer,java.nio.CharBuffer,boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_decode_ByteBuffer_CharBuffer_boolean() throws Exception {
+    public default void test_decode_ByteBuffer_CharBuffer_boolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#decode(java.nio.ByteBuffer) public final java.nio.CharBuffer java.nio.charset.CharsetDecoder.decode(java.nio.ByteBuffer) throws java.nio.charset.CharacterCodingException}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#decode(java.nio.ByteBuffer) public final
+     * java.nio.CharBuffer java.nio.charset.CharsetDecoder.decode(java.nio.ByteBuffer) throws
+     * java.nio.charset.CharacterCodingException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_decode_ByteBuffer() throws Exception {
+    public default void test_decode_ByteBuffer()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#isCharsetDetected() public boolean java.nio.charset.CharsetDecoder.isCharsetDetected()}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#isCharsetDetected() public boolean
+     * java.nio.charset.CharsetDecoder.isCharsetDetected()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isCharsetDetected() throws Exception {
+    public default void test_isCharsetDetected()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#maxCharsPerByte() public final float java.nio.charset.CharsetDecoder.maxCharsPerByte()}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#maxCharsPerByte() public final float
+     * java.nio.charset.CharsetDecoder.maxCharsPerByte()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_maxCharsPerByte() throws Exception {
+    public default void test_maxCharsPerByte()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#charset() public final java.nio.charset.Charset java.nio.charset.CharsetDecoder.charset()}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#charset() public final java.nio.charset.Charset
+     * java.nio.charset.CharsetDecoder.charset()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_charset() throws Exception {
+    public default void test_charset()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#averageCharsPerByte() public final float java.nio.charset.CharsetDecoder.averageCharsPerByte()}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#averageCharsPerByte() public final float
+     * java.nio.charset.CharsetDecoder.averageCharsPerByte()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_averageCharsPerByte() throws Exception {
+    public default void test_averageCharsPerByte()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#onUnmappableCharacter(java.nio.charset.CodingErrorAction) public final java.nio.charset.CharsetDecoder java.nio.charset.CharsetDecoder.onUnmappableCharacter(java.nio.charset.CodingErrorAction)}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#onUnmappableCharacter(java.nio.charset.CodingErrorAction)
+     * public final java.nio.charset.CharsetDecoder
+     * java.nio.charset.CharsetDecoder.onUnmappableCharacter(java.nio.charset.CodingErrorAction)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_onUnmappableCharacter_CodingErrorAction() throws Exception {
+    public default void test_onUnmappableCharacter_CodingErrorAction()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#reset() public final java.nio.charset.CharsetDecoder java.nio.charset.CharsetDecoder.reset()}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#reset() public final java.nio.charset.CharsetDecoder
+     * java.nio.charset.CharsetDecoder.reset()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reset() throws Exception {
+    public default void test_reset()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#onMalformedInput(java.nio.charset.CodingErrorAction) public final java.nio.charset.CharsetDecoder java.nio.charset.CharsetDecoder.onMalformedInput(java.nio.charset.CodingErrorAction)}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#onMalformedInput(java.nio.charset.CodingErrorAction)
+     * public final java.nio.charset.CharsetDecoder
+     * java.nio.charset.CharsetDecoder.onMalformedInput(java.nio.charset.CodingErrorAction)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_onMalformedInput_CodingErrorAction() throws Exception {
+    public default void test_onMalformedInput_CodingErrorAction()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#replaceWith(java.lang.String) public final java.nio.charset.CharsetDecoder java.nio.charset.CharsetDecoder.replaceWith(java.lang.String)}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#replaceWith(java.lang.String) public final
+     * java.nio.charset.CharsetDecoder java.nio.charset.CharsetDecoder.replaceWith(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_replaceWith_String() throws Exception {
+    public default void test_replaceWith_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#replacement() public final java.lang.String java.nio.charset.CharsetDecoder.replacement()}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#replacement() public final java.lang.String
+     * java.nio.charset.CharsetDecoder.replacement()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_replacement() throws Exception {
+    public default void test_replacement()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#unmappableCharacterAction() public java.nio.charset.CodingErrorAction java.nio.charset.CharsetDecoder.unmappableCharacterAction()}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#unmappableCharacterAction() public
+     * java.nio.charset.CodingErrorAction java.nio.charset.CharsetDecoder.unmappableCharacterAction()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_unmappableCharacterAction() throws Exception {
+    public default void test_unmappableCharacterAction()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#flush(java.nio.CharBuffer) public final java.nio.charset.CoderResult java.nio.charset.CharsetDecoder.flush(java.nio.CharBuffer)}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#flush(java.nio.CharBuffer) public final
+     * java.nio.charset.CoderResult java.nio.charset.CharsetDecoder.flush(java.nio.CharBuffer)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_flush_CharBuffer() throws Exception {
+    public default void test_flush_CharBuffer()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#malformedInputAction() public java.nio.charset.CodingErrorAction java.nio.charset.CharsetDecoder.malformedInputAction()}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#malformedInputAction() public
+     * java.nio.charset.CodingErrorAction java.nio.charset.CharsetDecoder.malformedInputAction()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_malformedInputAction() throws Exception {
+    public default void test_malformedInputAction()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.nio.charset.CharsetDecoder#detectedCharset() public java.nio.charset.Charset java.nio.charset.CharsetDecoder.detectedCharset()}.
+     * Test method for {@link java.nio.charset.CharsetDecoder#detectedCharset() public java.nio.charset.Charset
+     * java.nio.charset.CharsetDecoder.detectedCharset()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_detectedCharset() throws Exception {
+    public default void test_detectedCharset()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

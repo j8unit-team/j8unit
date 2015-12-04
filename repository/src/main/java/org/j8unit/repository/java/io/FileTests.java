@@ -1,29 +1,26 @@
 package org.j8unit.repository.java.io;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.io.File class java.io.File},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.io.File class java.io.File}, containing all instance relevant test methods (i.&thinsp;e.,
+ * test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.io.FileClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface FileTests<SUT extends java.io.File>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>,
-        org.j8unit.repository.java.lang.ComparableTests<SUT,java.io.File>,
-        org.j8unit.repository.java.lang.ObjectTests<SUT>
-{
+extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ComparableTests<SUT, java.io.File>,
+org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
@@ -33,9 +30,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isHidden() throws Exception {
+    public default void test_isHidden()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -47,23 +45,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_list() throws Exception {
+    public default void test_list()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.io.File#list(java.io.FilenameFilter) public java.lang.String[] java.io.File.list(java.io.FilenameFilter)}.
+     * Test method for {@link java.io.File#list(java.io.FilenameFilter) public java.lang.String[]
+     * java.io.File.list(java.io.FilenameFilter)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_list_FilenameFilter() throws Exception {
+    public default void test_list_FilenameFilter()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -75,9 +76,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_canWrite() throws Exception {
+    public default void test_canWrite()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -89,9 +91,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_length() throws Exception {
+    public default void test_length()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -103,9 +106,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getFreeSpace() throws Exception {
+    public default void test_getFreeSpace()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -117,9 +121,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toURI() throws Exception {
+    public default void test_toURI()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -131,9 +136,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isFile() throws Exception {
+    public default void test_isFile()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -145,23 +151,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAbsolutePath() throws Exception {
+    public default void test_getAbsolutePath()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.io.File#getCanonicalPath() public java.lang.String java.io.File.getCanonicalPath() throws java.io.IOException}.
+     * Test method for {@link java.io.File#getCanonicalPath() public java.lang.String java.io.File.getCanonicalPath()
+     * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCanonicalPath() throws Exception {
+    public default void test_getCanonicalPath()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -173,9 +182,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParent() throws Exception {
+    public default void test_getParent()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -187,37 +197,42 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_canExecute() throws Exception {
+    public default void test_canExecute()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.io.File#toURL() public java.net.URL java.io.File.toURL() throws java.net.MalformedURLException}.
+     * Test method for {@link java.io.File#toURL() public java.net.URL java.io.File.toURL() throws
+     * java.net.MalformedURLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toURL() throws Exception {
+    public default void test_toURL()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.io.File#setWritable(boolean,boolean) public boolean java.io.File.setWritable(boolean,boolean)}.
+     * Test method for {@link java.io.File#setWritable(boolean,boolean) public boolean
+     * java.io.File.setWritable(boolean,boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setWritable_boolean_boolean() throws Exception {
+    public default void test_setWritable_boolean_boolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -229,9 +244,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setWritable_boolean() throws Exception {
+    public default void test_setWritable_boolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -243,9 +259,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setReadOnly() throws Exception {
+    public default void test_setReadOnly()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -257,9 +274,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDirectory() throws Exception {
+    public default void test_isDirectory()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -271,23 +289,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setLastModified_long() throws Exception {
+    public default void test_setLastModified_long()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.io.File#createNewFile() public boolean java.io.File.createNewFile() throws java.io.IOException}.
+     * Test method for {@link java.io.File#createNewFile() public boolean java.io.File.createNewFile() throws
+     * java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_createNewFile() throws Exception {
+    public default void test_createNewFile()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -300,9 +321,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString() throws Exception {
+    public default void test_toString()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -314,9 +336,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_lastModified() throws Exception {
+    public default void test_lastModified()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -328,9 +351,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isAbsolute() throws Exception {
+    public default void test_isAbsolute()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -342,24 +366,27 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_exists() throws Exception {
+    public default void test_exists()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.io.File#equals(java.lang.Object) public boolean java.io.File.equals(java.lang.Object)}.
+     * Test method for {@link java.io.File#equals(java.lang.Object) public boolean
+     * java.io.File.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object() throws Exception {
+    public default void test_equals_Object()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -371,9 +398,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_mkdirs() throws Exception {
+    public default void test_mkdirs()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -385,9 +413,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toPath() throws Exception {
+    public default void test_toPath()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -399,9 +428,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_delete() throws Exception {
+    public default void test_delete()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -413,23 +443,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_compareTo_File() throws Exception {
+    public default void test_compareTo_File()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.io.File#getCanonicalFile() public java.io.File java.io.File.getCanonicalFile() throws java.io.IOException}.
+     * Test method for {@link java.io.File#getCanonicalFile() public java.io.File java.io.File.getCanonicalFile() throws
+     * java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCanonicalFile() throws Exception {
+    public default void test_getCanonicalFile()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -441,23 +474,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_canRead() throws Exception {
+    public default void test_canRead()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.io.File#setExecutable(boolean,boolean) public boolean java.io.File.setExecutable(boolean,boolean)}.
+     * Test method for {@link java.io.File#setExecutable(boolean,boolean) public boolean
+     * java.io.File.setExecutable(boolean,boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setExecutable_boolean_boolean() throws Exception {
+    public default void test_setExecutable_boolean_boolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -469,9 +505,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setExecutable_boolean() throws Exception {
+    public default void test_setExecutable_boolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -483,9 +520,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName() throws Exception {
+    public default void test_getName()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -497,9 +535,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getUsableSpace() throws Exception {
+    public default void test_getUsableSpace()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -511,9 +550,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_renameTo_File() throws Exception {
+    public default void test_renameTo_File()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -525,9 +565,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_deleteOnExit() throws Exception {
+    public default void test_deleteOnExit()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -539,37 +580,42 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_listFiles() throws Exception {
+    public default void test_listFiles()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.io.File#listFiles(java.io.FilenameFilter) public java.io.File[] java.io.File.listFiles(java.io.FilenameFilter)}.
+     * Test method for {@link java.io.File#listFiles(java.io.FilenameFilter) public java.io.File[]
+     * java.io.File.listFiles(java.io.FilenameFilter)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_listFiles_FilenameFilter() throws Exception {
+    public default void test_listFiles_FilenameFilter()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.io.File#listFiles(java.io.FileFilter) public java.io.File[] java.io.File.listFiles(java.io.FileFilter)}.
+     * Test method for {@link java.io.File#listFiles(java.io.FileFilter) public java.io.File[]
+     * java.io.File.listFiles(java.io.FileFilter)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_listFiles_FileFilter() throws Exception {
+    public default void test_listFiles_FileFilter()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -581,9 +627,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_mkdir() throws Exception {
+    public default void test_mkdir()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -595,9 +642,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAbsoluteFile() throws Exception {
+    public default void test_getAbsoluteFile()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -609,9 +657,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getParentFile() throws Exception {
+    public default void test_getParentFile()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -623,9 +672,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPath() throws Exception {
+    public default void test_getPath()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -638,9 +688,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode() throws Exception {
+    public default void test_hashCode()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -652,23 +703,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTotalSpace() throws Exception {
+    public default void test_getTotalSpace()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.io.File#setReadable(boolean,boolean) public boolean java.io.File.setReadable(boolean,boolean)}.
+     * Test method for {@link java.io.File#setReadable(boolean,boolean) public boolean
+     * java.io.File.setReadable(boolean,boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setReadable_boolean_boolean() throws Exception {
+    public default void test_setReadable_boolean_boolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -680,9 +734,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setReadable_boolean() throws Exception {
+    public default void test_setReadable_boolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

@@ -1,70 +1,73 @@
 package org.j8unit.repository.javax.naming;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import static org.junit.Assert.assertTrue;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link javax.naming.LinkRef class javax.naming.LinkRef},
- * containing all class relevant test methods (at least the test methods of accessible constructors and
- * of accessible {@code static} methods). The counterpart test class containing the instance relevant test
- * methods is {@link org.j8unit.repository.javax.naming.LinkRefTests}.
+ * Test class for {@link javax.naming.LinkRef class javax.naming.LinkRef}, containing all class relevant test methods
+ * (at least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
+ * class containing the instance relevant test methods is {@link org.j8unit.repository.javax.naming.LinkRefTests}.
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself.
- * For example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1"><q>by
- * virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
- * provides a corresponding, inheritable test method:
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
- * runtime constraints and further class specific requirements.
+ * In addition, there may be assertions concerning the class itself. For example,
+ * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+ * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+ * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
+ * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+ * constraints and further class specific requirements.
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.naming.LinkRefTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface LinkRefClassTests<SUT extends Class<? extends javax.naming.LinkRef>>
-extends org.j8unit.repository.javax.naming.ReferenceClassTests<SUT>
-{
+extends org.j8unit.repository.javax.naming.ReferenceClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.naming.LinkRef#LinkRef(javax.naming.Name) public javax.naming.LinkRef(javax.naming.Name)}.
+     * Test method for {@link javax.naming.LinkRef#LinkRef(javax.naming.Name) public
+     * javax.naming.LinkRef(javax.naming.Name)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_LinkRef_Name() throws Exception {
+    public default void create_LinkRef_Name()
+    throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        javax.naming.LinkRef sut = null; // = new LinkRef(javax.naming.Name);
+        final javax.naming.LinkRef sut = null; // = new LinkRef(javax.naming.Name);
     }
 
     /**
-     * Test method for {@link javax.naming.LinkRef#LinkRef(java.lang.String) public javax.naming.LinkRef(java.lang.String)}.
+     * Test method for {@link javax.naming.LinkRef#LinkRef(java.lang.String) public
+     * javax.naming.LinkRef(java.lang.String)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_LinkRef_String() throws Exception {
+    public default void create_LinkRef_String()
+    throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        javax.naming.LinkRef sut = null; // = new LinkRef(java.lang.String);
+        final javax.naming.LinkRef sut = null; // = new LinkRef(java.lang.String);
     }
 
+    @Override
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType() throws Exception {
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
         // create new instance
-        Class<? extends javax.naming.LinkRef> sut = createNewSUT();
+        final Class<? extends javax.naming.LinkRef> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.naming.LinkRef.class.isAssignableFrom(sut));
     }

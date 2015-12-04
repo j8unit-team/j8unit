@@ -1,28 +1,26 @@
 package org.j8unit.repository.java.lang;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.J8UnitTest;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.lang.Thread class java.lang.Thread},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.lang.Thread class java.lang.Thread}, containing all instance relevant test methods
+ * (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.lang.ThreadClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface ThreadTests<SUT extends java.lang.Thread>
-extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
-        org.j8unit.repository.java.lang.ObjectTests<SUT>
-{
+extends org.j8unit.repository.java.lang.RunnableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
@@ -32,65 +30,74 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDaemon() throws Exception {
+    public default void test_isDaemon()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.lang.Thread#getStackTrace() public java.lang.StackTraceElement[] java.lang.Thread.getStackTrace()}.
+     * Test method for {@link java.lang.Thread#getStackTrace() public java.lang.StackTraceElement[]
+     * java.lang.Thread.getStackTrace()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getStackTrace() throws Exception {
+    public default void test_getStackTrace()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.lang.Thread#join(long) public final synchronized void java.lang.Thread.join(long) throws java.lang.InterruptedException}.
+     * Test method for {@link java.lang.Thread#join(long) public final synchronized void java.lang.Thread.join(long)
+     * throws java.lang.InterruptedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_join_long() throws Exception {
+    public default void test_join_long()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.lang.Thread#join(long,int) public final synchronized void java.lang.Thread.join(long,int) throws java.lang.InterruptedException}.
+     * Test method for {@link java.lang.Thread#join(long,int) public final synchronized void
+     * java.lang.Thread.join(long,int) throws java.lang.InterruptedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_join_long_int() throws Exception {
+    public default void test_join_long_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.lang.Thread#join() public final void java.lang.Thread.join() throws java.lang.InterruptedException}.
+     * Test method for {@link java.lang.Thread#join() public final void java.lang.Thread.join() throws
+     * java.lang.InterruptedException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_join() throws Exception {
+    public default void test_join()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -102,9 +109,10 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_interrupt() throws Exception {
+    public default void test_interrupt()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -116,51 +124,58 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName() throws Exception {
+    public default void test_getName()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.lang.Thread#getThreadGroup() public final java.lang.ThreadGroup java.lang.Thread.getThreadGroup()}.
+     * Test method for {@link java.lang.Thread#getThreadGroup() public final java.lang.ThreadGroup
+     * java.lang.Thread.getThreadGroup()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getThreadGroup() throws Exception {
+    public default void test_getThreadGroup()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.lang.Thread#setName(java.lang.String) public final synchronized void java.lang.Thread.setName(java.lang.String)}.
+     * Test method for {@link java.lang.Thread#setName(java.lang.String) public final synchronized void
+     * java.lang.Thread.setName(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setName_String() throws Exception {
+    public default void test_setName_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.lang.Thread#setContextClassLoader(java.lang.ClassLoader) public void java.lang.Thread.setContextClassLoader(java.lang.ClassLoader)}.
+     * Test method for {@link java.lang.Thread#setContextClassLoader(java.lang.ClassLoader) public void
+     * java.lang.Thread.setContextClassLoader(java.lang.ClassLoader)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setContextClassLoader_ClassLoader() throws Exception {
+    public default void test_setContextClassLoader_ClassLoader()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -173,9 +188,10 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_run() throws Exception {
+    public default void test_run()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -187,37 +203,42 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getId() throws Exception {
+    public default void test_getId()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.lang.Thread#getContextClassLoader() public java.lang.ClassLoader java.lang.Thread.getContextClassLoader()}.
+     * Test method for {@link java.lang.Thread#getContextClassLoader() public java.lang.ClassLoader
+     * java.lang.Thread.getContextClassLoader()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getContextClassLoader() throws Exception {
+    public default void test_getContextClassLoader()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.lang.Thread#stop(java.lang.Throwable) public final synchronized void java.lang.Thread.stop(java.lang.Throwable)}.
+     * Test method for {@link java.lang.Thread#stop(java.lang.Throwable) public final synchronized void
+     * java.lang.Thread.stop(java.lang.Throwable)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_stop_Throwable() throws Exception {
+    public default void test_stop_Throwable()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -229,9 +250,10 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_stop() throws Exception {
+    public default void test_stop()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -243,23 +265,26 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getState() throws Exception {
+    public default void test_getState()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.lang.Thread#setDaemon(boolean) public final void java.lang.Thread.setDaemon(boolean)}.
+     * Test method for {@link java.lang.Thread#setDaemon(boolean) public final void java.lang.Thread.setDaemon(boolean)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDaemon_boolean() throws Exception {
+    public default void test_setDaemon_boolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -271,9 +296,10 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isAlive() throws Exception {
+    public default void test_isAlive()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -285,9 +311,10 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setPriority_int() throws Exception {
+    public default void test_setPriority_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -300,23 +327,26 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString() throws Exception {
+    public default void test_toString()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.lang.Thread#countStackFrames() public native int java.lang.Thread.countStackFrames()}.
+     * Test method for {@link java.lang.Thread#countStackFrames() public native int java.lang.Thread.countStackFrames()}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_countStackFrames() throws Exception {
+    public default void test_countStackFrames()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -328,9 +358,10 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPriority() throws Exception {
+    public default void test_getPriority()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -342,23 +373,26 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isInterrupted() throws Exception {
+    public default void test_isInterrupted()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.lang.Thread#setUncaughtExceptionHandler(java.lang.Thread.UncaughtExceptionHandler) public void java.lang.Thread.setUncaughtExceptionHandler(java.lang.Thread$UncaughtExceptionHandler)}.
+     * Test method for {@link java.lang.Thread#setUncaughtExceptionHandler(java.lang.Thread.UncaughtExceptionHandler)
+     * public void java.lang.Thread.setUncaughtExceptionHandler(java.lang.Thread$UncaughtExceptionHandler)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setUncaughtExceptionHandler_UncaughtExceptionHandler() throws Exception {
+    public default void test_setUncaughtExceptionHandler_UncaughtExceptionHandler()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -370,9 +404,10 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_resume() throws Exception {
+    public default void test_resume()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -384,9 +419,10 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_suspend() throws Exception {
+    public default void test_suspend()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -398,23 +434,26 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_checkAccess() throws Exception {
+    public default void test_checkAccess()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.lang.Thread#getUncaughtExceptionHandler() public java.lang.Thread$UncaughtExceptionHandler java.lang.Thread.getUncaughtExceptionHandler()}.
+     * Test method for {@link java.lang.Thread#getUncaughtExceptionHandler() public
+     * java.lang.Thread$UncaughtExceptionHandler java.lang.Thread.getUncaughtExceptionHandler()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getUncaughtExceptionHandler() throws Exception {
+    public default void test_getUncaughtExceptionHandler()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -426,9 +465,10 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_destroy() throws Exception {
+    public default void test_destroy()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -440,55 +480,61 @@ extends org.j8unit.repository.java.lang.RunnableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_start() throws Exception {
+    public default void test_start()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test class for {@link java.lang.Thread$State class java.lang.Thread$State},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Test class for {@link java.lang.Thread$State class java.lang.Thread$State}, containing all instance relevant test
+     * methods (i.&thinsp;e., test methods of non-{@code static} methods).
      * </p>
      *
-     * @param SUT the type of the subject-under-test
+     * @param SUT
+     *            the type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.lang.ThreadClassTests.StateClassTests
      */
     @Category(J8UnitRepository.class)
     public static abstract interface StateTests<SUT extends java.lang.Thread.State>
-    extends org.j8unit.repository.java.lang.EnumTests<SUT,java.lang.Thread.State>
-    {
+    extends org.j8unit.repository.java.lang.EnumTests<SUT, java.lang.Thread.State> {
 
     }
 
     /**
      * <p>
-     * Test class for {@link java.lang.Thread$UncaughtExceptionHandler interface java.lang.Thread$UncaughtExceptionHandler},
-     * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+     * Test class for {@link java.lang.Thread$UncaughtExceptionHandler interface
+     * java.lang.Thread$UncaughtExceptionHandler}, containing all instance relevant test methods (i.&thinsp;e., test
+     * methods of non-{@code static} methods).
      * </p>
      *
-     * @param SUT the type of the subject-under-test
+     * @param SUT
+     *            the type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.lang.ThreadClassTests.UncaughtExceptionHandlerClassTests
      */
     @Category(J8UnitRepository.class)
     public static abstract interface UncaughtExceptionHandlerTests<SUT extends java.lang.Thread.UncaughtExceptionHandler>
-    extends J8UnitTest<SUT>
-    {
+    extends J8UnitTest<SUT> {
 
         /**
          * <p>
-         * Test method for {@link java.lang.Thread.UncaughtExceptionHandler#uncaughtException(java.lang.Thread,java.lang.Throwable) public abstract void java.lang.Thread$UncaughtExceptionHandler.uncaughtException(java.lang.Thread,java.lang.Throwable)}.
+         * Test method for
+         * {@link java.lang.Thread.UncaughtExceptionHandler#uncaughtException(java.lang.Thread,java.lang.Throwable)
+         * public abstract void
+         * java.lang.Thread$UncaughtExceptionHandler.uncaughtException(java.lang.Thread,java.lang.Throwable)}.
          * </p>
          */
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void test_uncaughtException_Thread_Throwable() throws Exception {
+        public default void test_uncaughtException_Thread_Throwable()
+        throws Exception {
             // query fresh subject-under-test
-            SUT sut = this.createNewSUT();
+            final SUT sut = this.createNewSUT();
             assert sut != null;
         }
 

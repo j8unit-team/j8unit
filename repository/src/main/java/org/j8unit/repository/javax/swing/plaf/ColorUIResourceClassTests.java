@@ -1,95 +1,102 @@
 package org.j8unit.repository.javax.swing.plaf;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import static org.junit.Assert.assertTrue;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link javax.swing.plaf.ColorUIResource class javax.swing.plaf.ColorUIResource},
- * containing all class relevant test methods (at least the test methods of accessible constructors and
- * of accessible {@code static} methods). The counterpart test class containing the instance relevant test
- * methods is {@link org.j8unit.repository.javax.swing.plaf.ColorUIResourceTests}.
+ * Test class for {@link javax.swing.plaf.ColorUIResource class javax.swing.plaf.ColorUIResource}, containing all class
+ * relevant test methods (at least the test methods of accessible constructors and of accessible {@code static}
+ * methods). The counterpart test class containing the instance relevant test methods is
+ * {@link org.j8unit.repository.javax.swing.plaf.ColorUIResourceTests}.
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself.
- * For example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1"><q>by
- * virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
- * provides a corresponding, inheritable test method:
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
- * runtime constraints and further class specific requirements.
+ * In addition, there may be assertions concerning the class itself. For example,
+ * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+ * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+ * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
+ * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+ * constraints and further class specific requirements.
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.javax.swing.plaf.ColorUIResourceTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface ColorUIResourceClassTests<SUT extends Class<? extends javax.swing.plaf.ColorUIResource>>
-extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>,
-        org.j8unit.repository.java.awt.ColorClassTests<SUT>
-{
+extends org.j8unit.repository.javax.swing.plaf.UIResourceClassTests<SUT>, org.j8unit.repository.java.awt.ColorClassTests<SUT> {
 
     /**
-     * Test method for {@link javax.swing.plaf.ColorUIResource#ColorUIResource(java.awt.Color) public javax.swing.plaf.ColorUIResource(java.awt.Color)}.
+     * Test method for {@link javax.swing.plaf.ColorUIResource#ColorUIResource(java.awt.Color) public
+     * javax.swing.plaf.ColorUIResource(java.awt.Color)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ColorUIResource_Color() throws Exception {
+    public default void create_ColorUIResource_Color()
+    throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        javax.swing.plaf.ColorUIResource sut = null; // = new ColorUIResource(java.awt.Color);
+        final javax.swing.plaf.ColorUIResource sut = null; // = new ColorUIResource(java.awt.Color);
     }
 
     /**
-     * Test method for {@link javax.swing.plaf.ColorUIResource#ColorUIResource(float,float,float) public javax.swing.plaf.ColorUIResource(float,float,float)}.
+     * Test method for {@link javax.swing.plaf.ColorUIResource#ColorUIResource(float,float,float) public
+     * javax.swing.plaf.ColorUIResource(float,float,float)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ColorUIResource_float_float_float() throws Exception {
+    public default void create_ColorUIResource_float_float_float()
+    throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        javax.swing.plaf.ColorUIResource sut = null; // = new ColorUIResource(float,float,float);
+        final javax.swing.plaf.ColorUIResource sut = null; // = new ColorUIResource(float,float,float);
     }
 
     /**
-     * Test method for {@link javax.swing.plaf.ColorUIResource#ColorUIResource(int) public javax.swing.plaf.ColorUIResource(int)}.
+     * Test method for {@link javax.swing.plaf.ColorUIResource#ColorUIResource(int) public
+     * javax.swing.plaf.ColorUIResource(int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ColorUIResource_int() throws Exception {
+    public default void create_ColorUIResource_int()
+    throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        javax.swing.plaf.ColorUIResource sut = null; // = new ColorUIResource(int);
+        final javax.swing.plaf.ColorUIResource sut = null; // = new ColorUIResource(int);
     }
 
     /**
-     * Test method for {@link javax.swing.plaf.ColorUIResource#ColorUIResource(int,int,int) public javax.swing.plaf.ColorUIResource(int,int,int)}.
+     * Test method for {@link javax.swing.plaf.ColorUIResource#ColorUIResource(int,int,int) public
+     * javax.swing.plaf.ColorUIResource(int,int,int)}.
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void create_ColorUIResource_int_int_int() throws Exception {
+    public default void create_ColorUIResource_int_int_int()
+    throws Exception {
         // create new instance
         @SuppressWarnings("unused")
-        javax.swing.plaf.ColorUIResource sut = null; // = new ColorUIResource(int,int,int);
+        final javax.swing.plaf.ColorUIResource sut = null; // = new ColorUIResource(int,int,int);
     }
 
+    @Override
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType() throws Exception {
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
         // create new instance
-        Class<? extends javax.swing.plaf.ColorUIResource> sut = createNewSUT();
+        final Class<? extends javax.swing.plaf.ColorUIResource> sut = createNewSUT();
         // assert assignability
         assertTrue(javax.swing.plaf.ColorUIResource.class.isAssignableFrom(sut));
     }

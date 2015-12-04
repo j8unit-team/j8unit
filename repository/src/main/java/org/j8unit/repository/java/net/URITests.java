@@ -1,41 +1,40 @@
 package org.j8unit.repository.java.net;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.net.URI class java.net.URI},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.net.URI class java.net.URI}, containing all instance relevant test methods (i.&thinsp;e.,
+ * test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.URIClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface URITests<SUT extends java.net.URI>
-extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
-        org.j8unit.repository.java.io.SerializableTests<SUT>,
-        org.j8unit.repository.java.lang.ObjectTests<SUT>
-{
+extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.net.URI>, org.j8unit.repository.java.io.SerializableTests<SUT>,
+org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.URI#relativize(java.net.URI) public java.net.URI java.net.URI.relativize(java.net.URI)}.
+     * Test method for {@link java.net.URI#relativize(java.net.URI) public java.net.URI
+     * java.net.URI.relativize(java.net.URI)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_relativize_URI() throws Exception {
+    public default void test_relativize_URI()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -47,9 +46,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPath() throws Exception {
+    public default void test_getPath()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -61,9 +61,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getQuery() throws Exception {
+    public default void test_getQuery()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -75,9 +76,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getHost() throws Exception {
+    public default void test_getHost()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -89,9 +91,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_normalize() throws Exception {
+    public default void test_normalize()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -104,9 +107,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode() throws Exception {
+    public default void test_hashCode()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -118,9 +122,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_compareTo_URI() throws Exception {
+    public default void test_compareTo_URI()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -132,9 +137,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRawAuthority() throws Exception {
+    public default void test_getRawAuthority()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -146,9 +152,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toASCIIString() throws Exception {
+    public default void test_toASCIIString()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -160,37 +167,42 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isOpaque() throws Exception {
+    public default void test_isOpaque()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.URI#resolve(java.net.URI) public java.net.URI java.net.URI.resolve(java.net.URI)}.
+     * Test method for {@link java.net.URI#resolve(java.net.URI) public java.net.URI java.net.URI.resolve(java.net.URI)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_resolve_URI() throws Exception {
+    public default void test_resolve_URI()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.URI#resolve(java.lang.String) public java.net.URI java.net.URI.resolve(java.lang.String)}.
+     * Test method for {@link java.net.URI#resolve(java.lang.String) public java.net.URI
+     * java.net.URI.resolve(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_resolve_String() throws Exception {
+    public default void test_resolve_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -202,9 +214,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getFragment() throws Exception {
+    public default void test_getFragment()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -216,9 +229,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRawPath() throws Exception {
+    public default void test_getRawPath()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -231,9 +245,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString() throws Exception {
+    public default void test_toString()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -245,23 +260,26 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isAbsolute() throws Exception {
+    public default void test_isAbsolute()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.URI#getSchemeSpecificPart() public java.lang.String java.net.URI.getSchemeSpecificPart()}.
+     * Test method for {@link java.net.URI#getSchemeSpecificPart() public java.lang.String
+     * java.net.URI.getSchemeSpecificPart()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSchemeSpecificPart() throws Exception {
+    public default void test_getSchemeSpecificPart()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -273,9 +291,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getUserInfo() throws Exception {
+    public default void test_getUserInfo()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -287,24 +306,27 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPort() throws Exception {
+    public default void test_getPort()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.URI#equals(java.lang.Object) public boolean java.net.URI.equals(java.lang.Object)}.
+     * Test method for {@link java.net.URI#equals(java.lang.Object) public boolean
+     * java.net.URI.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object() throws Exception {
+    public default void test_equals_Object()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -316,23 +338,26 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRawQuery() throws Exception {
+    public default void test_getRawQuery()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.URI#getRawSchemeSpecificPart() public java.lang.String java.net.URI.getRawSchemeSpecificPart()}.
+     * Test method for {@link java.net.URI#getRawSchemeSpecificPart() public java.lang.String
+     * java.net.URI.getRawSchemeSpecificPart()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRawSchemeSpecificPart() throws Exception {
+    public default void test_getRawSchemeSpecificPart()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -344,23 +369,26 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRawUserInfo() throws Exception {
+    public default void test_getRawUserInfo()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.URI#parseServerAuthority() public java.net.URI java.net.URI.parseServerAuthority() throws java.net.URISyntaxException}.
+     * Test method for {@link java.net.URI#parseServerAuthority() public java.net.URI
+     * java.net.URI.parseServerAuthority() throws java.net.URISyntaxException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_parseServerAuthority() throws Exception {
+    public default void test_parseServerAuthority()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -372,9 +400,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAuthority() throws Exception {
+    public default void test_getAuthority()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -386,9 +415,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRawFragment() throws Exception {
+    public default void test_getRawFragment()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -400,23 +430,26 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.net.URI>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getScheme() throws Exception {
+    public default void test_getScheme()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.URI#toURL() public java.net.URL java.net.URI.toURL() throws java.net.MalformedURLException}.
+     * Test method for {@link java.net.URI#toURL() public java.net.URL java.net.URI.toURL() throws
+     * java.net.MalformedURLException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toURL() throws Exception {
+    public default void test_toURL()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

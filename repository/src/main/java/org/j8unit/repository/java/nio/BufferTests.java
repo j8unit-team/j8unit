@@ -1,27 +1,25 @@
 package org.j8unit.repository.java.nio;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.nio.Buffer class java.nio.Buffer},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.nio.Buffer class java.nio.Buffer}, containing all instance relevant test methods
+ * (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.nio.BufferClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface BufferTests<SUT extends java.nio.Buffer>
-extends org.j8unit.repository.java.lang.ObjectTests<SUT>
-{
+extends org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
@@ -31,9 +29,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_array() throws Exception {
+    public default void test_array()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -45,9 +44,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_rewind() throws Exception {
+    public default void test_rewind()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -59,9 +59,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isReadOnly() throws Exception {
+    public default void test_isReadOnly()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -73,9 +74,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_mark() throws Exception {
+    public default void test_mark()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -87,9 +89,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDirect() throws Exception {
+    public default void test_isDirect()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -101,9 +104,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_flip() throws Exception {
+    public default void test_flip()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -115,9 +119,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_position_int() throws Exception {
+    public default void test_position_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -129,9 +134,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_position() throws Exception {
+    public default void test_position()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -143,9 +149,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_arrayOffset() throws Exception {
+    public default void test_arrayOffset()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -157,9 +164,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reset() throws Exception {
+    public default void test_reset()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -171,9 +179,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_limit_int() throws Exception {
+    public default void test_limit_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -185,9 +194,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_limit() throws Exception {
+    public default void test_limit()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -199,9 +209,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasRemaining() throws Exception {
+    public default void test_hasRemaining()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -213,9 +224,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasArray() throws Exception {
+    public default void test_hasArray()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -227,9 +239,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_capacity() throws Exception {
+    public default void test_capacity()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -241,9 +254,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_remaining() throws Exception {
+    public default void test_remaining()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -255,9 +269,10 @@ extends org.j8unit.repository.java.lang.ObjectTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clear() throws Exception {
+    public default void test_clear()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

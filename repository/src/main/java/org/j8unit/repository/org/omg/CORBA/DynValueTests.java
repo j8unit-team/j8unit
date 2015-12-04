@@ -1,82 +1,87 @@
 package org.j8unit.repository.org.omg.CORBA;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link org.omg.CORBA.DynValue interface org.omg.CORBA.DynValue},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link org.omg.CORBA.DynValue interface org.omg.CORBA.DynValue}, containing all instance relevant test
+ * methods (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.DynValueClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface DynValueTests<SUT extends org.omg.CORBA.DynValue>
-extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>,
-        org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT>
-{
+extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DynValue#current_member_name() public abstract java.lang.String org.omg.CORBA.DynValue.current_member_name()}.
+     * Test method for {@link org.omg.CORBA.DynValue#current_member_name() public abstract java.lang.String
+     * org.omg.CORBA.DynValue.current_member_name()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_current_member_name() throws Exception {
+    public default void test_current_member_name()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DynValue#set_members(org.omg.CORBA.NameValuePair[]) public abstract void org.omg.CORBA.DynValue.set_members(org.omg.CORBA.NameValuePair[]) throws org.omg.CORBA.DynAnyPackage.InvalidSeq}.
+     * Test method for {@link org.omg.CORBA.DynValue#set_members(org.omg.CORBA.NameValuePair[]) public abstract void
+     * org.omg.CORBA.DynValue.set_members(org.omg.CORBA.NameValuePair[]) throws org.omg.CORBA.DynAnyPackage.InvalidSeq}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_set_members_NameValuePairArray() throws Exception {
+    public default void test_set_members_NameValuePairArray()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DynValue#current_member_kind() public abstract org.omg.CORBA.TCKind org.omg.CORBA.DynValue.current_member_kind()}.
+     * Test method for {@link org.omg.CORBA.DynValue#current_member_kind() public abstract org.omg.CORBA.TCKind
+     * org.omg.CORBA.DynValue.current_member_kind()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_current_member_kind() throws Exception {
+    public default void test_current_member_kind()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DynValue#get_members() public abstract org.omg.CORBA.NameValuePair[] org.omg.CORBA.DynValue.get_members()}.
+     * Test method for {@link org.omg.CORBA.DynValue#get_members() public abstract org.omg.CORBA.NameValuePair[]
+     * org.omg.CORBA.DynValue.get_members()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get_members() throws Exception {
+    public default void test_get_members()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

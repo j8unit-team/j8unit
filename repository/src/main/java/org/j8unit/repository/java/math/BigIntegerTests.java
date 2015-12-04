@@ -1,68 +1,71 @@
 package org.j8unit.repository.java.math;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.math.BigInteger class java.math.BigInteger},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.math.BigInteger class java.math.BigInteger}, containing all instance relevant test methods
+ * (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.math.BigIntegerClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface BigIntegerTests<SUT extends java.math.BigInteger>
-extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger>,
-        org.j8unit.repository.java.lang.NumberTests<SUT>
-{
+extends org.j8unit.repository.java.lang.ComparableTests<SUT, java.math.BigInteger>, org.j8unit.repository.java.lang.NumberTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#divide(java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.divide(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#divide(java.math.BigInteger) public java.math.BigInteger
+     * java.math.BigInteger.divide(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_divide_BigInteger() throws Exception {
+    public default void test_divide_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#xor(java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.xor(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#xor(java.math.BigInteger) public java.math.BigInteger
+     * java.math.BigInteger.xor(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_xor_BigInteger() throws Exception {
+    public default void test_xor_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#clearBit(int) public java.math.BigInteger java.math.BigInteger.clearBit(int)}.
+     * Test method for {@link java.math.BigInteger#clearBit(int) public java.math.BigInteger
+     * java.math.BigInteger.clearBit(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clearBit_int() throws Exception {
+    public default void test_clearBit_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -74,37 +77,42 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_pow_int() throws Exception {
+    public default void test_pow_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#multiply(java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.multiply(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#multiply(java.math.BigInteger) public java.math.BigInteger
+     * java.math.BigInteger.multiply(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_multiply_BigInteger() throws Exception {
+    public default void test_multiply_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#shiftLeft(int) public java.math.BigInteger java.math.BigInteger.shiftLeft(int)}.
+     * Test method for {@link java.math.BigInteger#shiftLeft(int) public java.math.BigInteger
+     * java.math.BigInteger.shiftLeft(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_shiftLeft_int() throws Exception {
+    public default void test_shiftLeft_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -116,23 +124,26 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_not() throws Exception {
+    public default void test_not()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#min(java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.min(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#min(java.math.BigInteger) public java.math.BigInteger
+     * java.math.BigInteger.min(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_min_BigInteger() throws Exception {
+    public default void test_min_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -145,37 +156,42 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode() throws Exception {
+    public default void test_hashCode()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#and(java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.and(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#and(java.math.BigInteger) public java.math.BigInteger
+     * java.math.BigInteger.and(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_and_BigInteger() throws Exception {
+    public default void test_and_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#compareTo(java.math.BigInteger) public int java.math.BigInteger.compareTo(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#compareTo(java.math.BigInteger) public int
+     * java.math.BigInteger.compareTo(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_compareTo_BigInteger() throws Exception {
+    public default void test_compareTo_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -187,37 +203,42 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_byteValueExact() throws Exception {
+    public default void test_byteValueExact()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#gcd(java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.gcd(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#gcd(java.math.BigInteger) public java.math.BigInteger
+     * java.math.BigInteger.gcd(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_gcd_BigInteger() throws Exception {
+    public default void test_gcd_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#setBit(int) public java.math.BigInteger java.math.BigInteger.setBit(int)}.
+     * Test method for {@link java.math.BigInteger#setBit(int) public java.math.BigInteger
+     * java.math.BigInteger.setBit(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setBit_int() throws Exception {
+    public default void test_setBit_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -230,37 +251,42 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_longValue() throws Exception {
+    public default void test_longValue()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#shortValueExact() public short java.math.BigInteger.shortValueExact()}.
+     * Test method for {@link java.math.BigInteger#shortValueExact() public short
+     * java.math.BigInteger.shortValueExact()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_shortValueExact() throws Exception {
+    public default void test_shortValueExact()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#mod(java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.mod(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#mod(java.math.BigInteger) public java.math.BigInteger
+     * java.math.BigInteger.mod(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_mod_BigInteger() throws Exception {
+    public default void test_mod_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -272,9 +298,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_longValueExact() throws Exception {
+    public default void test_longValueExact()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -286,9 +313,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_bitLength() throws Exception {
+    public default void test_bitLength()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -300,9 +328,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLowestSetBit() throws Exception {
+    public default void test_getLowestSetBit()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -314,9 +343,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_bitCount() throws Exception {
+    public default void test_bitCount()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -329,37 +359,42 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString() throws Exception {
+    public default void test_toString()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#toString(int) public java.lang.String java.math.BigInteger.toString(int)}.
+     * Test method for {@link java.math.BigInteger#toString(int) public java.lang.String
+     * java.math.BigInteger.toString(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toString_int() throws Exception {
+    public default void test_toString_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#andNot(java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.andNot(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#andNot(java.math.BigInteger) public java.math.BigInteger
+     * java.math.BigInteger.andNot(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_andNot_BigInteger() throws Exception {
+    public default void test_andNot_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -371,65 +406,74 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_intValueExact() throws Exception {
+    public default void test_intValueExact()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#modInverse(java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.modInverse(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#modInverse(java.math.BigInteger) public java.math.BigInteger
+     * java.math.BigInteger.modInverse(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_modInverse_BigInteger() throws Exception {
+    public default void test_modInverse_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#remainder(java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.remainder(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#remainder(java.math.BigInteger) public java.math.BigInteger
+     * java.math.BigInteger.remainder(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_remainder_BigInteger() throws Exception {
+    public default void test_remainder_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#modPow(java.math.BigInteger,java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.modPow(java.math.BigInteger,java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#modPow(java.math.BigInteger,java.math.BigInteger) public
+     * java.math.BigInteger java.math.BigInteger.modPow(java.math.BigInteger,java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_modPow_BigInteger_BigInteger() throws Exception {
+    public default void test_modPow_BigInteger_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#shiftRight(int) public java.math.BigInteger java.math.BigInteger.shiftRight(int)}.
+     * Test method for {@link java.math.BigInteger#shiftRight(int) public java.math.BigInteger
+     * java.math.BigInteger.shiftRight(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_shiftRight_int() throws Exception {
+    public default void test_shiftRight_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -441,9 +485,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_abs() throws Exception {
+    public default void test_abs()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -455,24 +500,27 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_negate() throws Exception {
+    public default void test_negate()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#equals(java.lang.Object) public boolean java.math.BigInteger.equals(java.lang.Object)}.
+     * Test method for {@link java.math.BigInteger#equals(java.lang.Object) public boolean
+     * java.math.BigInteger.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object() throws Exception {
+    public default void test_equals_Object()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -484,23 +532,26 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toByteArray() throws Exception {
+    public default void test_toByteArray()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#divideAndRemainder(java.math.BigInteger) public java.math.BigInteger[] java.math.BigInteger.divideAndRemainder(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#divideAndRemainder(java.math.BigInteger) public
+     * java.math.BigInteger[] java.math.BigInteger.divideAndRemainder(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_divideAndRemainder_BigInteger() throws Exception {
+    public default void test_divideAndRemainder_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -513,23 +564,26 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_doubleValue() throws Exception {
+    public default void test_doubleValue()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#isProbablePrime(int) public boolean java.math.BigInteger.isProbablePrime(int)}.
+     * Test method for {@link java.math.BigInteger#isProbablePrime(int) public boolean
+     * java.math.BigInteger.isProbablePrime(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isProbablePrime_int() throws Exception {
+    public default void test_isProbablePrime_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -542,9 +596,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_floatValue() throws Exception {
+    public default void test_floatValue()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -556,65 +611,74 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_testBit_int() throws Exception {
+    public default void test_testBit_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#nextProbablePrime() public java.math.BigInteger java.math.BigInteger.nextProbablePrime()}.
+     * Test method for {@link java.math.BigInteger#nextProbablePrime() public java.math.BigInteger
+     * java.math.BigInteger.nextProbablePrime()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextProbablePrime() throws Exception {
+    public default void test_nextProbablePrime()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#flipBit(int) public java.math.BigInteger java.math.BigInteger.flipBit(int)}.
+     * Test method for {@link java.math.BigInteger#flipBit(int) public java.math.BigInteger
+     * java.math.BigInteger.flipBit(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_flipBit_int() throws Exception {
+    public default void test_flipBit_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#or(java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.or(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#or(java.math.BigInteger) public java.math.BigInteger
+     * java.math.BigInteger.or(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_or_BigInteger() throws Exception {
+    public default void test_or_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#add(java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.add(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#add(java.math.BigInteger) public java.math.BigInteger
+     * java.math.BigInteger.add(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_add_BigInteger() throws Exception {
+    public default void test_add_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -626,9 +690,10 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_signum() throws Exception {
+    public default void test_signum()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -641,37 +706,42 @@ extends org.j8unit.repository.java.lang.ComparableTests<SUT,java.math.BigInteger
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_intValue() throws Exception {
+    public default void test_intValue()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#subtract(java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.subtract(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#subtract(java.math.BigInteger) public java.math.BigInteger
+     * java.math.BigInteger.subtract(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_subtract_BigInteger() throws Exception {
+    public default void test_subtract_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.math.BigInteger#max(java.math.BigInteger) public java.math.BigInteger java.math.BigInteger.max(java.math.BigInteger)}.
+     * Test method for {@link java.math.BigInteger#max(java.math.BigInteger) public java.math.BigInteger
+     * java.math.BigInteger.max(java.math.BigInteger)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_max_BigInteger() throws Exception {
+    public default void test_max_BigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

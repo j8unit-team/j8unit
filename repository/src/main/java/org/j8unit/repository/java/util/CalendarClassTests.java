@@ -1,165 +1,174 @@
 package org.j8unit.repository.java.util;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import static org.junit.Assert.assertTrue;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.util.Calendar class java.util.Calendar},
- * containing all class relevant test methods (at least the test methods of accessible constructors and
- * of accessible {@code static} methods). The counterpart test class containing the instance relevant test
- * methods is {@link org.j8unit.repository.java.util.CalendarTests}.
+ * Test class for {@link java.util.Calendar class java.util.Calendar}, containing all class relevant test methods (at
+ * least the test methods of accessible constructors and of accessible {@code static} methods). The counterpart test
+ * class containing the instance relevant test methods is {@link org.j8unit.repository.java.util.CalendarTests}.
  * </p>
  *
  * <p>
- * In addition, there may be assertions concerning the class itself.
- * For example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1"><q>by
- * virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
- * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
- * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
- * provides a corresponding, inheritable test method:
- * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
- * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
- * runtime constraints and further class specific requirements.
+ * In addition, there may be assertions concerning the class itself. For example,
+ * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+ * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+ * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a> Thus,
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding, inheritable test
+ * method: {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+ * constraints and further class specific requirements.
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.CalendarTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface CalendarClassTests<SUT extends Class<? extends java.util.Calendar>>
-extends org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-        org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
-        org.j8unit.repository.java.lang.ComparableClassTests<SUT,java.util.Calendar>,
-        org.j8unit.repository.java.lang.ObjectClassTests<SUT>
-{
+extends org.j8unit.repository.java.io.SerializableClassTests<SUT>, org.j8unit.repository.java.lang.CloneableClassTests<SUT>,
+org.j8unit.repository.java.lang.ComparableClassTests<SUT, java.util.Calendar>, org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
+    @Override
     @Test
-    public default void testBaseTypeIsAssignableFromCurrentType() throws Exception {
+    public default void testBaseTypeIsAssignableFromCurrentType()
+    throws Exception {
         // create new instance
-        Class<? extends java.util.Calendar> sut = createNewSUT();
+        final Class<? extends java.util.Calendar> sut = createNewSUT();
         // assert assignability
         assertTrue(java.util.Calendar.class.isAssignableFrom(sut));
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getAvailableCalendarTypes() public static java.util.Set java.util.Calendar.getAvailableCalendarTypes()}.
+     * Test method for {@link java.util.Calendar#getAvailableCalendarTypes() public static java.util.Set
+     * java.util.Calendar.getAvailableCalendarTypes()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAvailableCalendarTypes() throws Exception {
+    public default void test_getAvailableCalendarTypes()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getInstance() public static java.util.Calendar java.util.Calendar.getInstance()}.
+     * Test method for {@link java.util.Calendar#getInstance() public static java.util.Calendar
+     * java.util.Calendar.getInstance()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInstance() throws Exception {
+    public default void test_getInstance()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getInstance(java.util.Locale) public static java.util.Calendar java.util.Calendar.getInstance(java.util.Locale)}.
+     * Test method for {@link java.util.Calendar#getInstance(java.util.Locale) public static java.util.Calendar
+     * java.util.Calendar.getInstance(java.util.Locale)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInstance_Locale() throws Exception {
+    public default void test_getInstance_Locale()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getInstance(java.util.TimeZone) public static java.util.Calendar java.util.Calendar.getInstance(java.util.TimeZone)}.
+     * Test method for {@link java.util.Calendar#getInstance(java.util.TimeZone) public static java.util.Calendar
+     * java.util.Calendar.getInstance(java.util.TimeZone)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInstance_TimeZone() throws Exception {
+    public default void test_getInstance_TimeZone()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getInstance(java.util.TimeZone,java.util.Locale) public static java.util.Calendar java.util.Calendar.getInstance(java.util.TimeZone,java.util.Locale)}.
+     * Test method for {@link java.util.Calendar#getInstance(java.util.TimeZone,java.util.Locale) public static
+     * java.util.Calendar java.util.Calendar.getInstance(java.util.TimeZone,java.util.Locale)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getInstance_TimeZone_Locale() throws Exception {
+    public default void test_getInstance_TimeZone_Locale()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Calendar#getAvailableLocales() public static synchronized java.util.Locale[] java.util.Calendar.getAvailableLocales()}.
+     * Test method for {@link java.util.Calendar#getAvailableLocales() public static synchronized java.util.Locale[]
+     * java.util.Calendar.getAvailableLocales()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAvailableLocales() throws Exception {
+    public default void test_getAvailableLocales()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test class for {@link java.util.Calendar$Builder class java.util.Calendar$Builder},
-     * containing all class relevant test methods (at least the test methods of accessible constructors and
-     * of accessible {@code static} methods). The counterpart test class containing the instance relevant test
-     * methods is {@link org.j8unit.repository.java.util.CalendarTests.BuilderTests}.
+     * Test class for {@link java.util.Calendar$Builder class java.util.Calendar$Builder}, containing all class relevant
+     * test methods (at least the test methods of accessible constructors and of accessible {@code static} methods). The
+     * counterpart test class containing the instance relevant test methods is
+     * {@link org.j8unit.repository.java.util.CalendarTests.BuilderTests}.
      * </p>
      *
      * <p>
-     * In addition, there may be assertions concerning the class itself.
-     * For example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1"><q>by
-     * virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * In addition, there may be assertions concerning the class itself. For example,
+     * <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1">
+     * <q>by virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
      * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
-     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
-     * provides a corresponding, inheritable test method:
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests} provides a corresponding,
+     * inheritable test method:
      * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
-     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
-     * runtime constraints and further class specific requirements.
+     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify runtime
+     * constraints and further class specific requirements.
      * </p>
      *
-     * @param SUT the type of the subject-under-test
+     * @param SUT
+     *            the type of the subject-under-test
      * @since 0.9.0
      * @see org.j8unit.repository.java.util.CalendarTests.BuilderTests
      */
     @Category(J8UnitRepository.class)
     public static abstract interface BuilderClassTests<SUT extends Class<? extends java.util.Calendar.Builder>>
-    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT>
-    {
+    extends org.j8unit.repository.java.lang.ObjectClassTests<SUT> {
 
         /**
          * Test method for {@link java.util.Calendar.Builder#Builder() public java.util.Calendar$Builder()}.
@@ -167,16 +176,19 @@ extends org.j8unit.repository.java.io.SerializableClassTests<SUT>,
         @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
         @Test
         @Category(Draft.class)
-        public default void create_Builder() throws Exception {
+        public default void create_Builder()
+        throws Exception {
             // create new instance
             @SuppressWarnings("unused")
-            java.util.Calendar.Builder sut = null; // = new Builder();
+            final java.util.Calendar.Builder sut = null; // = new Builder();
         }
 
+        @Override
         @Test
-        public default void testBaseTypeIsAssignableFromCurrentType() throws Exception {
+        public default void testBaseTypeIsAssignableFromCurrentType()
+        throws Exception {
             // create new instance
-            Class<? extends java.util.Calendar.Builder> sut = createNewSUT();
+            final Class<? extends java.util.Calendar.Builder> sut = createNewSUT();
             // assert assignability
             assertTrue(java.util.Calendar.Builder.class.isAssignableFrom(sut));
         }

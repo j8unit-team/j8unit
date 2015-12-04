@@ -1,28 +1,25 @@
 package org.j8unit.repository.java.net;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.net.HttpCookie class java.net.HttpCookie},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.net.HttpCookie class java.net.HttpCookie}, containing all instance relevant test methods
+ * (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.HttpCookieClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface HttpCookieTests<SUT extends java.net.HttpCookie>
-extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
-        org.j8unit.repository.java.lang.ObjectTests<SUT>
-{
+extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
@@ -32,9 +29,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMaxAge() throws Exception {
+    public default void test_getMaxAge()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -47,9 +45,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode() throws Exception {
+    public default void test_hashCode()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -61,9 +60,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPath() throws Exception {
+    public default void test_getPath()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -75,65 +75,74 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isHttpOnly() throws Exception {
+    public default void test_isHttpOnly()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#getComment() public java.lang.String java.net.HttpCookie.getComment()}.
+     * Test method for {@link java.net.HttpCookie#getComment() public java.lang.String java.net.HttpCookie.getComment()}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getComment() throws Exception {
+    public default void test_getComment()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#getPortlist() public java.lang.String java.net.HttpCookie.getPortlist()}.
+     * Test method for {@link java.net.HttpCookie#getPortlist() public java.lang.String
+     * java.net.HttpCookie.getPortlist()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getPortlist() throws Exception {
+    public default void test_getPortlist()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#getCommentURL() public java.lang.String java.net.HttpCookie.getCommentURL()}.
+     * Test method for {@link java.net.HttpCookie#getCommentURL() public java.lang.String
+     * java.net.HttpCookie.getCommentURL()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCommentURL() throws Exception {
+    public default void test_getCommentURL()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setDiscard(boolean) public void java.net.HttpCookie.setDiscard(boolean)}.
+     * Test method for {@link java.net.HttpCookie#setDiscard(boolean) public void
+     * java.net.HttpCookie.setDiscard(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDiscard_boolean() throws Exception {
+    public default void test_setDiscard_boolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -145,9 +154,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName() throws Exception {
+    public default void test_getName()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -159,23 +169,26 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDiscard() throws Exception {
+    public default void test_getDiscard()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setDomain(java.lang.String) public void java.net.HttpCookie.setDomain(java.lang.String)}.
+     * Test method for {@link java.net.HttpCookie#setDomain(java.lang.String) public void
+     * java.net.HttpCookie.setDomain(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setDomain_String() throws Exception {
+    public default void test_setDomain_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -187,9 +200,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getValue() throws Exception {
+    public default void test_getValue()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -201,9 +215,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasExpired() throws Exception {
+    public default void test_hasExpired()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -215,66 +230,75 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getDomain() throws Exception {
+    public default void test_getDomain()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#equals(java.lang.Object) public boolean java.net.HttpCookie.equals(java.lang.Object)}.
+     * Test method for {@link java.net.HttpCookie#equals(java.lang.Object) public boolean
+     * java.net.HttpCookie.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object() throws Exception {
+    public default void test_equals_Object()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setValue(java.lang.String) public void java.net.HttpCookie.setValue(java.lang.String)}.
+     * Test method for {@link java.net.HttpCookie#setValue(java.lang.String) public void
+     * java.net.HttpCookie.setValue(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setValue_String() throws Exception {
+    public default void test_setValue_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setHttpOnly(boolean) public void java.net.HttpCookie.setHttpOnly(boolean)}.
+     * Test method for {@link java.net.HttpCookie#setHttpOnly(boolean) public void
+     * java.net.HttpCookie.setHttpOnly(boolean)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setHttpOnly_boolean() throws Exception {
+    public default void test_setHttpOnly_boolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setComment(java.lang.String) public void java.net.HttpCookie.setComment(java.lang.String)}.
+     * Test method for {@link java.net.HttpCookie#setComment(java.lang.String) public void
+     * java.net.HttpCookie.setComment(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setComment_String() throws Exception {
+    public default void test_setComment_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -286,9 +310,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clone() throws Exception {
+    public default void test_clone()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -301,9 +326,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString() throws Exception {
+    public default void test_toString()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -315,23 +341,26 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSecure() throws Exception {
+    public default void test_getSecure()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setSecure(boolean) public void java.net.HttpCookie.setSecure(boolean)}.
+     * Test method for {@link java.net.HttpCookie#setSecure(boolean) public void java.net.HttpCookie.setSecure(boolean)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSecure_boolean() throws Exception {
+    public default void test_setSecure_boolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -343,9 +372,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getVersion() throws Exception {
+    public default void test_getVersion()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -357,23 +387,26 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setVersion_int() throws Exception {
+    public default void test_setVersion_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setPortlist(java.lang.String) public void java.net.HttpCookie.setPortlist(java.lang.String)}.
+     * Test method for {@link java.net.HttpCookie#setPortlist(java.lang.String) public void
+     * java.net.HttpCookie.setPortlist(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setPortlist_String() throws Exception {
+    public default void test_setPortlist_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -385,37 +418,42 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setMaxAge_long() throws Exception {
+    public default void test_setMaxAge_long()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setPath(java.lang.String) public void java.net.HttpCookie.setPath(java.lang.String)}.
+     * Test method for {@link java.net.HttpCookie#setPath(java.lang.String) public void
+     * java.net.HttpCookie.setPath(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setPath_String() throws Exception {
+    public default void test_setPath_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.HttpCookie#setCommentURL(java.lang.String) public void java.net.HttpCookie.setCommentURL(java.lang.String)}.
+     * Test method for {@link java.net.HttpCookie#setCommentURL(java.lang.String) public void
+     * java.net.HttpCookie.setCommentURL(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCommentURL_String() throws Exception {
+    public default void test_setCommentURL_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

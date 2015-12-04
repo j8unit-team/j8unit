@@ -1,29 +1,26 @@
 package org.j8unit.repository.java.util;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.util.BitSet class java.util.BitSet},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.util.BitSet class java.util.BitSet}, containing all instance relevant test methods
+ * (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.BitSetClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface BitSetTests<SUT extends java.util.BitSet>
-extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
-        org.j8unit.repository.java.io.SerializableTests<SUT>,
-        org.j8unit.repository.java.lang.ObjectTests<SUT>
-{
+extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
+org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
@@ -34,9 +31,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString() throws Exception {
+    public default void test_toString()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -48,38 +46,43 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clone() throws Exception {
+    public default void test_clone()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.BitSet#andNot(java.util.BitSet) public void java.util.BitSet.andNot(java.util.BitSet)}.
+     * Test method for {@link java.util.BitSet#andNot(java.util.BitSet) public void
+     * java.util.BitSet.andNot(java.util.BitSet)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_andNot_BitSet() throws Exception {
+    public default void test_andNot_BitSet()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.BitSet#equals(java.lang.Object) public boolean java.util.BitSet.equals(java.lang.Object)}.
+     * Test method for {@link java.util.BitSet#equals(java.lang.Object) public boolean
+     * java.util.BitSet.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object() throws Exception {
+    public default void test_equals_Object()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -91,9 +94,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toByteArray() throws Exception {
+    public default void test_toByteArray()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -105,9 +109,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_size() throws Exception {
+    public default void test_size()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -119,9 +124,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clear_int_int() throws Exception {
+    public default void test_clear_int_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -133,9 +139,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clear_int() throws Exception {
+    public default void test_clear_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -147,9 +154,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clear() throws Exception {
+    public default void test_clear()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -161,9 +169,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isEmpty() throws Exception {
+    public default void test_isEmpty()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -175,9 +184,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_length() throws Exception {
+    public default void test_length()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -189,9 +199,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_cardinality() throws Exception {
+    public default void test_cardinality()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -203,9 +214,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_set_int() throws Exception {
+    public default void test_set_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -217,9 +229,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_set_int_boolean() throws Exception {
+    public default void test_set_int_boolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -231,9 +244,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_set_int_int_boolean() throws Exception {
+    public default void test_set_int_int_boolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -245,9 +259,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_set_int_int() throws Exception {
+    public default void test_set_int_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -259,9 +274,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_or_BitSet() throws Exception {
+    public default void test_or_BitSet()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -273,9 +289,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_previousClearBit_int() throws Exception {
+    public default void test_previousClearBit_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -287,9 +304,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextClearBit_int() throws Exception {
+    public default void test_nextClearBit_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -301,23 +319,26 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toLongArray() throws Exception {
+    public default void test_toLongArray()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.BitSet#xor(java.util.BitSet) public void java.util.BitSet.xor(java.util.BitSet)}.
+     * Test method for {@link java.util.BitSet#xor(java.util.BitSet) public void java.util.BitSet.xor(java.util.BitSet)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_xor_BitSet() throws Exception {
+    public default void test_xor_BitSet()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -329,9 +350,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_flip_int_int() throws Exception {
+    public default void test_flip_int_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -343,9 +365,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_flip_int() throws Exception {
+    public default void test_flip_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -357,9 +380,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get_int_int() throws Exception {
+    public default void test_get_int_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -371,9 +395,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_get_int() throws Exception {
+    public default void test_get_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -386,23 +411,26 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode() throws Exception {
+    public default void test_hashCode()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.BitSet#and(java.util.BitSet) public void java.util.BitSet.and(java.util.BitSet)}.
+     * Test method for {@link java.util.BitSet#and(java.util.BitSet) public void java.util.BitSet.and(java.util.BitSet)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_and_BitSet() throws Exception {
+    public default void test_and_BitSet()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -414,9 +442,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_stream() throws Exception {
+    public default void test_stream()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -428,9 +457,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextSetBit_int() throws Exception {
+    public default void test_nextSetBit_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -442,23 +472,26 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_previousSetBit_int() throws Exception {
+    public default void test_previousSetBit_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.BitSet#intersects(java.util.BitSet) public boolean java.util.BitSet.intersects(java.util.BitSet)}.
+     * Test method for {@link java.util.BitSet#intersects(java.util.BitSet) public boolean
+     * java.util.BitSet.intersects(java.util.BitSet)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_intersects_BitSet() throws Exception {
+    public default void test_intersects_BitSet()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

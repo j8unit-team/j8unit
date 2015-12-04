@@ -1,29 +1,26 @@
 package org.j8unit.repository.java.util;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.util.Scanner class java.util.Scanner},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.util.Scanner class java.util.Scanner}, containing all instance relevant test methods
+ * (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.ScannerClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface ScannerTests<SUT extends java.util.Scanner>
-extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
-        org.j8unit.repository.java.io.CloseableTests<SUT>,
-        org.j8unit.repository.java.lang.ObjectTests<SUT>
-{
+extends org.j8unit.repository.java.util.IteratorTests<SUT, java.lang.String>, org.j8unit.repository.java.io.CloseableTests<SUT>,
+org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
@@ -33,65 +30,74 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextFloat() throws Exception {
+    public default void test_nextFloat()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#findInLine(java.util.regex.Pattern) public java.lang.String java.util.Scanner.findInLine(java.util.regex.Pattern)}.
+     * Test method for {@link java.util.Scanner#findInLine(java.util.regex.Pattern) public java.lang.String
+     * java.util.Scanner.findInLine(java.util.regex.Pattern)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_findInLine_Pattern() throws Exception {
+    public default void test_findInLine_Pattern()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#findInLine(java.lang.String) public java.lang.String java.util.Scanner.findInLine(java.lang.String)}.
+     * Test method for {@link java.util.Scanner#findInLine(java.lang.String) public java.lang.String
+     * java.util.Scanner.findInLine(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_findInLine_String() throws Exception {
+    public default void test_findInLine_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#nextBigInteger(int) public java.math.BigInteger java.util.Scanner.nextBigInteger(int)}.
+     * Test method for {@link java.util.Scanner#nextBigInteger(int) public java.math.BigInteger
+     * java.util.Scanner.nextBigInteger(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextBigInteger_int() throws Exception {
+    public default void test_nextBigInteger_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#nextBigInteger() public java.math.BigInteger java.util.Scanner.nextBigInteger()}.
+     * Test method for {@link java.util.Scanner#nextBigInteger() public java.math.BigInteger
+     * java.util.Scanner.nextBigInteger()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextBigInteger() throws Exception {
+    public default void test_nextBigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -103,9 +109,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextShort() throws Exception {
+    public default void test_nextShort()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -117,23 +124,26 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextShort_int() throws Exception {
+    public default void test_nextShort_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#delimiter() public java.util.regex.Pattern java.util.Scanner.delimiter()}.
+     * Test method for {@link java.util.Scanner#delimiter() public java.util.regex.Pattern
+     * java.util.Scanner.delimiter()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_delimiter() throws Exception {
+    public default void test_delimiter()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -146,121 +156,138 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hasNext() throws Exception {
+    public default void test_hasNext()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#hasNext(java.lang.String) public boolean java.util.Scanner.hasNext(java.lang.String)}.
+     * Test method for {@link java.util.Scanner#hasNext(java.lang.String) public boolean
+     * java.util.Scanner.hasNext(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNext_String() throws Exception {
+    public default void test_hasNext_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#hasNext(java.util.regex.Pattern) public boolean java.util.Scanner.hasNext(java.util.regex.Pattern)}.
+     * Test method for {@link java.util.Scanner#hasNext(java.util.regex.Pattern) public boolean
+     * java.util.Scanner.hasNext(java.util.regex.Pattern)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNext_Pattern() throws Exception {
+    public default void test_hasNext_Pattern()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#useDelimiter(java.lang.String) public java.util.Scanner java.util.Scanner.useDelimiter(java.lang.String)}.
+     * Test method for {@link java.util.Scanner#useDelimiter(java.lang.String) public java.util.Scanner
+     * java.util.Scanner.useDelimiter(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_useDelimiter_String() throws Exception {
+    public default void test_useDelimiter_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#useDelimiter(java.util.regex.Pattern) public java.util.Scanner java.util.Scanner.useDelimiter(java.util.regex.Pattern)}.
+     * Test method for {@link java.util.Scanner#useDelimiter(java.util.regex.Pattern) public java.util.Scanner
+     * java.util.Scanner.useDelimiter(java.util.regex.Pattern)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_useDelimiter_Pattern() throws Exception {
+    public default void test_useDelimiter_Pattern()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#ioException() public java.io.IOException java.util.Scanner.ioException()}.
+     * Test method for {@link java.util.Scanner#ioException() public java.io.IOException
+     * java.util.Scanner.ioException()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ioException() throws Exception {
+    public default void test_ioException()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#hasNextBigInteger() public boolean java.util.Scanner.hasNextBigInteger()}.
+     * Test method for {@link java.util.Scanner#hasNextBigInteger() public boolean
+     * java.util.Scanner.hasNextBigInteger()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextBigInteger() throws Exception {
+    public default void test_hasNextBigInteger()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#hasNextBigInteger(int) public boolean java.util.Scanner.hasNextBigInteger(int)}.
+     * Test method for {@link java.util.Scanner#hasNextBigInteger(int) public boolean
+     * java.util.Scanner.hasNextBigInteger(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextBigInteger_int() throws Exception {
+    public default void test_hasNextBigInteger_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#nextBigDecimal() public java.math.BigDecimal java.util.Scanner.nextBigDecimal()}.
+     * Test method for {@link java.util.Scanner#nextBigDecimal() public java.math.BigDecimal
+     * java.util.Scanner.nextBigDecimal()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextBigDecimal() throws Exception {
+    public default void test_nextBigDecimal()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -272,9 +299,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_reset() throws Exception {
+    public default void test_reset()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -286,9 +314,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextInt() throws Exception {
+    public default void test_hasNextInt()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -300,9 +329,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextInt_int() throws Exception {
+    public default void test_hasNextInt_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -314,65 +344,74 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextDouble() throws Exception {
+    public default void test_hasNextDouble()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#skip(java.lang.String) public java.util.Scanner java.util.Scanner.skip(java.lang.String)}.
+     * Test method for {@link java.util.Scanner#skip(java.lang.String) public java.util.Scanner
+     * java.util.Scanner.skip(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_skip_String() throws Exception {
+    public default void test_skip_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#skip(java.util.regex.Pattern) public java.util.Scanner java.util.Scanner.skip(java.util.regex.Pattern)}.
+     * Test method for {@link java.util.Scanner#skip(java.util.regex.Pattern) public java.util.Scanner
+     * java.util.Scanner.skip(java.util.regex.Pattern)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_skip_Pattern() throws Exception {
+    public default void test_skip_Pattern()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#findWithinHorizon(java.util.regex.Pattern,int) public java.lang.String java.util.Scanner.findWithinHorizon(java.util.regex.Pattern,int)}.
+     * Test method for {@link java.util.Scanner#findWithinHorizon(java.util.regex.Pattern,int) public java.lang.String
+     * java.util.Scanner.findWithinHorizon(java.util.regex.Pattern,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_findWithinHorizon_Pattern_int() throws Exception {
+    public default void test_findWithinHorizon_Pattern_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#findWithinHorizon(java.lang.String,int) public java.lang.String java.util.Scanner.findWithinHorizon(java.lang.String,int)}.
+     * Test method for {@link java.util.Scanner#findWithinHorizon(java.lang.String,int) public java.lang.String
+     * java.util.Scanner.findWithinHorizon(java.lang.String,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_findWithinHorizon_String_int() throws Exception {
+    public default void test_findWithinHorizon_String_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -384,9 +423,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_locale() throws Exception {
+    public default void test_locale()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -399,37 +439,42 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_remove() throws Exception {
+    public default void test_remove()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#next(java.lang.String) public java.lang.String java.util.Scanner.next(java.lang.String)}.
+     * Test method for {@link java.util.Scanner#next(java.lang.String) public java.lang.String
+     * java.util.Scanner.next(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_next_String() throws Exception {
+    public default void test_next_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#next(java.util.regex.Pattern) public java.lang.String java.util.Scanner.next(java.util.regex.Pattern)}.
+     * Test method for {@link java.util.Scanner#next(java.util.regex.Pattern) public java.lang.String
+     * java.util.Scanner.next(java.util.regex.Pattern)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_next_Pattern() throws Exception {
+    public default void test_next_Pattern()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -442,9 +487,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_next() throws Exception {
+    public default void test_next()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -456,9 +502,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextFloat() throws Exception {
+    public default void test_hasNextFloat()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -470,9 +517,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextByte_int() throws Exception {
+    public default void test_nextByte_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -484,9 +532,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextByte() throws Exception {
+    public default void test_nextByte()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -498,9 +547,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextBoolean() throws Exception {
+    public default void test_nextBoolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -513,9 +563,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_close() throws Exception {
+    public default void test_close()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -527,9 +578,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_useRadix_int() throws Exception {
+    public default void test_useRadix_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -541,9 +593,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextBoolean() throws Exception {
+    public default void test_hasNextBoolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -555,9 +608,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_match() throws Exception {
+    public default void test_match()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -569,9 +623,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextInt() throws Exception {
+    public default void test_nextInt()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -583,9 +638,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextInt_int() throws Exception {
+    public default void test_nextInt_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -597,9 +653,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextLong() throws Exception {
+    public default void test_nextLong()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -611,9 +668,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextLong_int() throws Exception {
+    public default void test_nextLong_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -625,9 +683,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextDouble() throws Exception {
+    public default void test_nextDouble()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -639,9 +698,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextShort_int() throws Exception {
+    public default void test_hasNextShort_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -653,9 +713,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextShort() throws Exception {
+    public default void test_hasNextShort()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -667,9 +728,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextLine() throws Exception {
+    public default void test_nextLine()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -681,9 +743,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextByte_int() throws Exception {
+    public default void test_hasNextByte_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -695,9 +758,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextByte() throws Exception {
+    public default void test_hasNextByte()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -710,37 +774,42 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString() throws Exception {
+    public default void test_toString()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#hasNextBigDecimal() public boolean java.util.Scanner.hasNextBigDecimal()}.
+     * Test method for {@link java.util.Scanner#hasNextBigDecimal() public boolean
+     * java.util.Scanner.hasNextBigDecimal()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextBigDecimal() throws Exception {
+    public default void test_hasNextBigDecimal()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Scanner#useLocale(java.util.Locale) public java.util.Scanner java.util.Scanner.useLocale(java.util.Locale)}.
+     * Test method for {@link java.util.Scanner#useLocale(java.util.Locale) public java.util.Scanner
+     * java.util.Scanner.useLocale(java.util.Locale)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_useLocale_Locale() throws Exception {
+    public default void test_useLocale_Locale()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -752,9 +821,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextLong() throws Exception {
+    public default void test_hasNextLong()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -766,9 +836,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextLong_int() throws Exception {
+    public default void test_hasNextLong_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -780,9 +851,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_radix() throws Exception {
+    public default void test_radix()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -794,9 +866,10 @@ extends org.j8unit.repository.java.util.IteratorTests<SUT,java.lang.String>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_hasNextLine() throws Exception {
+    public default void test_hasNextLine()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

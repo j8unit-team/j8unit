@@ -1,27 +1,25 @@
 package org.j8unit.repository.java.sql;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.sql.Time class java.sql.Time},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.sql.Time class java.sql.Time}, containing all instance relevant test methods
+ * (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.sql.TimeClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface TimeTests<SUT extends java.sql.Time>
-extends org.j8unit.repository.java.util.DateTests<SUT>
-{
+extends org.j8unit.repository.java.util.DateTests<SUT> {
 
     /**
      * <p>
@@ -32,9 +30,10 @@ extends org.j8unit.repository.java.util.DateTests<SUT>
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getYear() throws Exception {
+    public default void test_getYear()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -47,9 +46,10 @@ extends org.j8unit.repository.java.util.DateTests<SUT>
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setMonth_int() throws Exception {
+    public default void test_setMonth_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -62,9 +62,10 @@ extends org.j8unit.repository.java.util.DateTests<SUT>
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setYear_int() throws Exception {
+    public default void test_setYear_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -77,9 +78,10 @@ extends org.j8unit.repository.java.util.DateTests<SUT>
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toInstant() throws Exception {
+    public default void test_toInstant()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -92,9 +94,10 @@ extends org.j8unit.repository.java.util.DateTests<SUT>
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getDay() throws Exception {
+    public default void test_getDay()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -107,9 +110,10 @@ extends org.j8unit.repository.java.util.DateTests<SUT>
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setTime_long() throws Exception {
+    public default void test_setTime_long()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -121,9 +125,10 @@ extends org.j8unit.repository.java.util.DateTests<SUT>
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_toLocalTime() throws Exception {
+    public default void test_toLocalTime()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -136,9 +141,10 @@ extends org.j8unit.repository.java.util.DateTests<SUT>
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setDate_int() throws Exception {
+    public default void test_setDate_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -151,9 +157,10 @@ extends org.j8unit.repository.java.util.DateTests<SUT>
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString() throws Exception {
+    public default void test_toString()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -166,9 +173,10 @@ extends org.j8unit.repository.java.util.DateTests<SUT>
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getDate() throws Exception {
+    public default void test_getDate()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -181,9 +189,10 @@ extends org.j8unit.repository.java.util.DateTests<SUT>
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getMonth() throws Exception {
+    public default void test_getMonth()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

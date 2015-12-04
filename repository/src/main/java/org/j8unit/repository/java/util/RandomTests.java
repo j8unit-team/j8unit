@@ -1,28 +1,25 @@
 package org.j8unit.repository.java.util;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.util.Random class java.util.Random},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.util.Random class java.util.Random}, containing all instance relevant test methods
+ * (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.RandomClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface RandomTests<SUT extends java.util.Random>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>,
-        org.j8unit.repository.java.lang.ObjectTests<SUT>
-{
+extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
@@ -32,9 +29,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextInt() throws Exception {
+    public default void test_nextInt()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -46,9 +44,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextInt_int() throws Exception {
+    public default void test_nextInt_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -60,23 +59,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextDouble() throws Exception {
+    public default void test_nextDouble()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Random#nextGaussian() public synchronized double java.util.Random.nextGaussian()}.
+     * Test method for {@link java.util.Random#nextGaussian() public synchronized double
+     * java.util.Random.nextGaussian()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextGaussian() throws Exception {
+    public default void test_nextGaussian()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -88,9 +90,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextBytes_byteArray() throws Exception {
+    public default void test_nextBytes_byteArray()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -102,9 +105,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextLong() throws Exception {
+    public default void test_nextLong()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -116,9 +120,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextFloat() throws Exception {
+    public default void test_nextFloat()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -130,9 +135,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_nextBoolean() throws Exception {
+    public default void test_nextBoolean()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -144,51 +150,58 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSeed_long() throws Exception {
+    public default void test_setSeed_long()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Random#longs(long) public java.util.stream.LongStream java.util.Random.longs(long)}.
+     * Test method for {@link java.util.Random#longs(long) public java.util.stream.LongStream
+     * java.util.Random.longs(long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_longs_long() throws Exception {
+    public default void test_longs_long()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Random#longs(long,long) public java.util.stream.LongStream java.util.Random.longs(long,long)}.
+     * Test method for {@link java.util.Random#longs(long,long) public java.util.stream.LongStream
+     * java.util.Random.longs(long,long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_longs_long_long() throws Exception {
+    public default void test_longs_long_long()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Random#longs(long,long,long) public java.util.stream.LongStream java.util.Random.longs(long,long,long)}.
+     * Test method for {@link java.util.Random#longs(long,long,long) public java.util.stream.LongStream
+     * java.util.Random.longs(long,long,long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_longs_long_long_long() throws Exception {
+    public default void test_longs_long_long_long()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -200,93 +213,106 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_longs() throws Exception {
+    public default void test_longs()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Random#doubles(double,double) public java.util.stream.DoubleStream java.util.Random.doubles(double,double)}.
+     * Test method for {@link java.util.Random#doubles(double,double) public java.util.stream.DoubleStream
+     * java.util.Random.doubles(double,double)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_doubles_double_double() throws Exception {
+    public default void test_doubles_double_double()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Random#doubles(long,double,double) public java.util.stream.DoubleStream java.util.Random.doubles(long,double,double)}.
+     * Test method for {@link java.util.Random#doubles(long,double,double) public java.util.stream.DoubleStream
+     * java.util.Random.doubles(long,double,double)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_doubles_long_double_double() throws Exception {
+    public default void test_doubles_long_double_double()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Random#doubles() public java.util.stream.DoubleStream java.util.Random.doubles()}.
+     * Test method for {@link java.util.Random#doubles() public java.util.stream.DoubleStream
+     * java.util.Random.doubles()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_doubles() throws Exception {
+    public default void test_doubles()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Random#doubles(long) public java.util.stream.DoubleStream java.util.Random.doubles(long)}.
+     * Test method for {@link java.util.Random#doubles(long) public java.util.stream.DoubleStream
+     * java.util.Random.doubles(long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_doubles_long() throws Exception {
+    public default void test_doubles_long()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Random#ints(int,int) public java.util.stream.IntStream java.util.Random.ints(int,int)}.
+     * Test method for {@link java.util.Random#ints(int,int) public java.util.stream.IntStream
+     * java.util.Random.ints(int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ints_int_int() throws Exception {
+    public default void test_ints_int_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Random#ints(long) public java.util.stream.IntStream java.util.Random.ints(long)}.
+     * Test method for {@link java.util.Random#ints(long) public java.util.stream.IntStream java.util.Random.ints(long)}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ints_long() throws Exception {
+    public default void test_ints_long()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -298,23 +324,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ints() throws Exception {
+    public default void test_ints()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.Random#ints(long,int,int) public java.util.stream.IntStream java.util.Random.ints(long,int,int)}.
+     * Test method for {@link java.util.Random#ints(long,int,int) public java.util.stream.IntStream
+     * java.util.Random.ints(long,int,int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_ints_long_int_int() throws Exception {
+    public default void test_ints_long_int_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

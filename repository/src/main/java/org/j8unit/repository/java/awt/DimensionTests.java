@@ -1,28 +1,25 @@
 package org.j8unit.repository.java.awt;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.awt.Dimension class java.awt.Dimension},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.awt.Dimension class java.awt.Dimension}, containing all instance relevant test methods
+ * (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.DimensionClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface DimensionTests<SUT extends java.awt.Dimension>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>,
-        org.j8unit.repository.java.awt.geom.Dimension2DTests<SUT>
-{
+extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.awt.geom.Dimension2DTests<SUT> {
 
     /**
      * <p>
@@ -32,9 +29,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSize() throws Exception {
+    public default void test_getSize()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -47,24 +45,27 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getHeight() throws Exception {
+    public default void test_getHeight()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.awt.Dimension#setSize(double,double) public void java.awt.Dimension.setSize(double,double)}.
+     * Test method for {@link java.awt.Dimension#setSize(double,double) public void
+     * java.awt.Dimension.setSize(double,double)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setSize_double_double() throws Exception {
+    public default void test_setSize_double_double()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -76,23 +77,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSize_int_int() throws Exception {
+    public default void test_setSize_int_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.awt.Dimension#setSize(java.awt.Dimension) public void java.awt.Dimension.setSize(java.awt.Dimension)}.
+     * Test method for {@link java.awt.Dimension#setSize(java.awt.Dimension) public void
+     * java.awt.Dimension.setSize(java.awt.Dimension)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSize_Dimension() throws Exception {
+    public default void test_setSize_Dimension()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -105,24 +109,27 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode() throws Exception {
+    public default void test_hashCode()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.awt.Dimension#equals(java.lang.Object) public boolean java.awt.Dimension.equals(java.lang.Object)}.
+     * Test method for {@link java.awt.Dimension#equals(java.lang.Object) public boolean
+     * java.awt.Dimension.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object() throws Exception {
+    public default void test_equals_Object()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -135,9 +142,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString() throws Exception {
+    public default void test_toString()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -150,9 +158,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_getWidth() throws Exception {
+    public default void test_getWidth()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

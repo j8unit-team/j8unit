@@ -1,28 +1,25 @@
 package org.j8unit.repository.java.util.zip;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.util.zip.ZipEntry class java.util.zip.ZipEntry},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.util.zip.ZipEntry class java.util.zip.ZipEntry}, containing all instance relevant test
+ * methods (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.util.zip.ZipEntryClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface ZipEntryTests<SUT extends java.util.zip.ZipEntry>
-extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
-        org.j8unit.repository.java.lang.ObjectTests<SUT>
-{
+extends org.j8unit.repository.java.lang.CloneableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
@@ -32,23 +29,26 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setTime_long() throws Exception {
+    public default void test_setTime_long()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipEntry#getComment() public java.lang.String java.util.zip.ZipEntry.getComment()}.
+     * Test method for {@link java.util.zip.ZipEntry#getComment() public java.lang.String
+     * java.util.zip.ZipEntry.getComment()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getComment() throws Exception {
+    public default void test_getComment()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -61,9 +61,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode() throws Exception {
+    public default void test_hashCode()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -75,9 +76,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCrc() throws Exception {
+    public default void test_getCrc()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -89,9 +91,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCrc_long() throws Exception {
+    public default void test_setCrc_long()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -103,9 +106,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setSize_long() throws Exception {
+    public default void test_setSize_long()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -117,23 +121,26 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getMethod() throws Exception {
+    public default void test_getMethod()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipEntry#setCreationTime(java.nio.file.attribute.FileTime) public java.util.zip.ZipEntry java.util.zip.ZipEntry.setCreationTime(java.nio.file.attribute.FileTime)}.
+     * Test method for {@link java.util.zip.ZipEntry#setCreationTime(java.nio.file.attribute.FileTime) public
+     * java.util.zip.ZipEntry java.util.zip.ZipEntry.setCreationTime(java.nio.file.attribute.FileTime)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCreationTime_FileTime() throws Exception {
+    public default void test_setCreationTime_FileTime()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -145,51 +152,58 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getTime() throws Exception {
+    public default void test_getTime()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipEntry#getLastAccessTime() public java.nio.file.attribute.FileTime java.util.zip.ZipEntry.getLastAccessTime()}.
+     * Test method for {@link java.util.zip.ZipEntry#getLastAccessTime() public java.nio.file.attribute.FileTime
+     * java.util.zip.ZipEntry.getLastAccessTime()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLastAccessTime() throws Exception {
+    public default void test_getLastAccessTime()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipEntry#getName() public java.lang.String java.util.zip.ZipEntry.getName()}.
+     * Test method for {@link java.util.zip.ZipEntry#getName() public java.lang.String java.util.zip.ZipEntry.getName()}
+     * .
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getName() throws Exception {
+    public default void test_getName()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipEntry#setExtra(byte[]) public void java.util.zip.ZipEntry.setExtra(byte[])}.
+     * Test method for {@link java.util.zip.ZipEntry#setExtra(byte[]) public void
+     * java.util.zip.ZipEntry.setExtra(byte[])}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setExtra_byteArray() throws Exception {
+    public default void test_setExtra_byteArray()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -201,9 +215,10 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getExtra() throws Exception {
+    public default void test_getExtra()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -215,37 +230,42 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isDirectory() throws Exception {
+    public default void test_isDirectory()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipEntry#getCreationTime() public java.nio.file.attribute.FileTime java.util.zip.ZipEntry.getCreationTime()}.
+     * Test method for {@link java.util.zip.ZipEntry#getCreationTime() public java.nio.file.attribute.FileTime
+     * java.util.zip.ZipEntry.getCreationTime()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCreationTime() throws Exception {
+    public default void test_getCreationTime()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipEntry#setComment(java.lang.String) public void java.util.zip.ZipEntry.setComment(java.lang.String)}.
+     * Test method for {@link java.util.zip.ZipEntry#setComment(java.lang.String) public void
+     * java.util.zip.ZipEntry.setComment(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setComment_String() throws Exception {
+    public default void test_setComment_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -257,52 +277,59 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_clone() throws Exception {
+    public default void test_clone()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipEntry#toString() public java.lang.String java.util.zip.ZipEntry.toString()}.
+     * Test method for {@link java.util.zip.ZipEntry#toString() public java.lang.String
+     * java.util.zip.ZipEntry.toString()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString() throws Exception {
+    public default void test_toString()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipEntry#setCompressedSize(long) public void java.util.zip.ZipEntry.setCompressedSize(long)}.
+     * Test method for {@link java.util.zip.ZipEntry#setCompressedSize(long) public void
+     * java.util.zip.ZipEntry.setCompressedSize(long)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setCompressedSize_long() throws Exception {
+    public default void test_setCompressedSize_long()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipEntry#setLastAccessTime(java.nio.file.attribute.FileTime) public java.util.zip.ZipEntry java.util.zip.ZipEntry.setLastAccessTime(java.nio.file.attribute.FileTime)}.
+     * Test method for {@link java.util.zip.ZipEntry#setLastAccessTime(java.nio.file.attribute.FileTime) public
+     * java.util.zip.ZipEntry java.util.zip.ZipEntry.setLastAccessTime(java.nio.file.attribute.FileTime)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setLastAccessTime_FileTime() throws Exception {
+    public default void test_setLastAccessTime_FileTime()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -314,23 +341,26 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setMethod_int() throws Exception {
+    public default void test_setMethod_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipEntry#getCompressedSize() public long java.util.zip.ZipEntry.getCompressedSize()}.
+     * Test method for {@link java.util.zip.ZipEntry#getCompressedSize() public long
+     * java.util.zip.ZipEntry.getCompressedSize()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCompressedSize() throws Exception {
+    public default void test_getCompressedSize()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -342,37 +372,42 @@ extends org.j8unit.repository.java.lang.CloneableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getSize() throws Exception {
+    public default void test_getSize()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipEntry#getLastModifiedTime() public java.nio.file.attribute.FileTime java.util.zip.ZipEntry.getLastModifiedTime()}.
+     * Test method for {@link java.util.zip.ZipEntry#getLastModifiedTime() public java.nio.file.attribute.FileTime
+     * java.util.zip.ZipEntry.getLastModifiedTime()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getLastModifiedTime() throws Exception {
+    public default void test_getLastModifiedTime()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.util.zip.ZipEntry#setLastModifiedTime(java.nio.file.attribute.FileTime) public java.util.zip.ZipEntry java.util.zip.ZipEntry.setLastModifiedTime(java.nio.file.attribute.FileTime)}.
+     * Test method for {@link java.util.zip.ZipEntry#setLastModifiedTime(java.nio.file.attribute.FileTime) public
+     * java.util.zip.ZipEntry java.util.zip.ZipEntry.setLastModifiedTime(java.nio.file.attribute.FileTime)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setLastModifiedTime_FileTime() throws Exception {
+    public default void test_setLastModifiedTime_FileTime()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

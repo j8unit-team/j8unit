@@ -1,29 +1,26 @@
 package org.j8unit.repository.java.awt;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.awt.GridLayout class java.awt.GridLayout},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.awt.GridLayout class java.awt.GridLayout}, containing all instance relevant test methods
+ * (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.awt.GridLayoutClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface GridLayoutTests<SUT extends java.awt.GridLayout>
-extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>,
-        org.j8unit.repository.java.io.SerializableTests<SUT>,
-        org.j8unit.repository.java.lang.ObjectTests<SUT>
-{
+extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>, org.j8unit.repository.java.io.SerializableTests<SUT>,
+org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
@@ -33,9 +30,10 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getVgap() throws Exception {
+    public default void test_getVgap()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -47,9 +45,10 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setVgap_int() throws Exception {
+    public default void test_setVgap_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -61,54 +60,61 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setRows_int() throws Exception {
+    public default void test_setRows_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension java.awt.GridLayout.minimumLayoutSize(java.awt.Container)}.
+     * Test method for {@link java.awt.GridLayout#minimumLayoutSize(java.awt.Container) public java.awt.Dimension
+     * java.awt.GridLayout.minimumLayoutSize(java.awt.Container)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_minimumLayoutSize_Container() throws Exception {
+    public default void test_minimumLayoutSize_Container()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#layoutContainer(java.awt.Container) public void java.awt.GridLayout.layoutContainer(java.awt.Container)}.
+     * Test method for {@link java.awt.GridLayout#layoutContainer(java.awt.Container) public void
+     * java.awt.GridLayout.layoutContainer(java.awt.Container)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_layoutContainer_Container() throws Exception {
+    public default void test_layoutContainer_Container()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#addLayoutComponent(java.lang.String,java.awt.Component) public void java.awt.GridLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
+     * Test method for {@link java.awt.GridLayout#addLayoutComponent(java.lang.String,java.awt.Component) public void
+     * java.awt.GridLayout.addLayoutComponent(java.lang.String,java.awt.Component)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_addLayoutComponent_String_Component() throws Exception {
+    public default void test_addLayoutComponent_String_Component()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -121,9 +127,10 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString() throws Exception {
+    public default void test_toString()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -135,24 +142,27 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setHgap_int() throws Exception {
+    public default void test_setHgap_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension java.awt.GridLayout.preferredLayoutSize(java.awt.Container)}.
+     * Test method for {@link java.awt.GridLayout#preferredLayoutSize(java.awt.Container) public java.awt.Dimension
+     * java.awt.GridLayout.preferredLayoutSize(java.awt.Container)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_preferredLayoutSize_Container() throws Exception {
+    public default void test_preferredLayoutSize_Container()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -164,24 +174,27 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_setColumns_int() throws Exception {
+    public default void test_setColumns_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.awt.GridLayout#removeLayoutComponent(java.awt.Component) public void java.awt.GridLayout.removeLayoutComponent(java.awt.Component)}.
+     * Test method for {@link java.awt.GridLayout#removeLayoutComponent(java.awt.Component) public void
+     * java.awt.GridLayout.removeLayoutComponent(java.awt.Component)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_removeLayoutComponent_Component() throws Exception {
+    public default void test_removeLayoutComponent_Component()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -193,9 +206,10 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getHgap() throws Exception {
+    public default void test_getHgap()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -207,9 +221,10 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getRows() throws Exception {
+    public default void test_getRows()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -221,9 +236,10 @@ extends org.j8unit.repository.java.awt.LayoutManagerTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getColumns() throws Exception {
+    public default void test_getColumns()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

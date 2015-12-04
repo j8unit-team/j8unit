@@ -1,239 +1,268 @@
 package org.j8unit.repository.org.xml.sax;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link org.xml.sax.HandlerBase class org.xml.sax.HandlerBase},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link org.xml.sax.HandlerBase class org.xml.sax.HandlerBase}, containing all instance relevant test
+ * methods (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.xml.sax.HandlerBaseClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface HandlerBaseTests<SUT extends org.xml.sax.HandlerBase>
-extends org.j8unit.repository.org.xml.sax.EntityResolverTests<SUT>,
-        org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT>,
-        org.j8unit.repository.org.xml.sax.DocumentHandlerTests<SUT>,
-        org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>,
-        org.j8unit.repository.java.lang.ObjectTests<SUT>
-{
+extends org.j8unit.repository.org.xml.sax.EntityResolverTests<SUT>, org.j8unit.repository.org.xml.sax.DTDHandlerTests<SUT>,
+org.j8unit.repository.org.xml.sax.DocumentHandlerTests<SUT>, org.j8unit.repository.org.xml.sax.ErrorHandlerTests<SUT>,
+org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#resolveEntity(java.lang.String,java.lang.String) public org.xml.sax.InputSource org.xml.sax.HandlerBase.resolveEntity(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.HandlerBase#resolveEntity(java.lang.String,java.lang.String) public
+     * org.xml.sax.InputSource org.xml.sax.HandlerBase.resolveEntity(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_resolveEntity_String_String() throws Exception {
+    public default void test_resolveEntity_String_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#notationDecl(java.lang.String,java.lang.String,java.lang.String) public void org.xml.sax.HandlerBase.notationDecl(java.lang.String,java.lang.String,java.lang.String)}.
+     * Test method for {@link org.xml.sax.HandlerBase#notationDecl(java.lang.String,java.lang.String,java.lang.String)
+     * public void org.xml.sax.HandlerBase.notationDecl(java.lang.String,java.lang.String,java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_notationDecl_String_String_String() throws Exception {
+    public default void test_notationDecl_String_String_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#startDocument() public void org.xml.sax.HandlerBase.startDocument() throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.HandlerBase#startDocument() public void
+     * org.xml.sax.HandlerBase.startDocument() throws org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_startDocument() throws Exception {
+    public default void test_startDocument()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#endDocument() public void org.xml.sax.HandlerBase.endDocument() throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.HandlerBase#endDocument() public void org.xml.sax.HandlerBase.endDocument()
+     * throws org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_endDocument() throws Exception {
+    public default void test_endDocument()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#error(org.xml.sax.SAXParseException) public void org.xml.sax.HandlerBase.error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.HandlerBase#error(org.xml.sax.SAXParseException) public void
+     * org.xml.sax.HandlerBase.error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_error_SAXParseException() throws Exception {
+    public default void test_error_SAXParseException()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#fatalError(org.xml.sax.SAXParseException) public void org.xml.sax.HandlerBase.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.HandlerBase#fatalError(org.xml.sax.SAXParseException) public void
+     * org.xml.sax.HandlerBase.fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_fatalError_SAXParseException() throws Exception {
+    public default void test_fatalError_SAXParseException()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#startElement(java.lang.String,org.xml.sax.AttributeList) public void org.xml.sax.HandlerBase.startElement(java.lang.String,org.xml.sax.AttributeList) throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.HandlerBase#startElement(java.lang.String,org.xml.sax.AttributeList) public
+     * void org.xml.sax.HandlerBase.startElement(java.lang.String,org.xml.sax.AttributeList) throws
+     * org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_startElement_String_AttributeList() throws Exception {
+    public default void test_startElement_String_AttributeList()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#setDocumentLocator(org.xml.sax.Locator) public void org.xml.sax.HandlerBase.setDocumentLocator(org.xml.sax.Locator)}.
+     * Test method for {@link org.xml.sax.HandlerBase#setDocumentLocator(org.xml.sax.Locator) public void
+     * org.xml.sax.HandlerBase.setDocumentLocator(org.xml.sax.Locator)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_setDocumentLocator_Locator() throws Exception {
+    public default void test_setDocumentLocator_Locator()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#warning(org.xml.sax.SAXParseException) public void org.xml.sax.HandlerBase.warning(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.HandlerBase#warning(org.xml.sax.SAXParseException) public void
+     * org.xml.sax.HandlerBase.warning(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_warning_SAXParseException() throws Exception {
+    public default void test_warning_SAXParseException()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String) public void org.xml.sax.HandlerBase.unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String)}.
+     * Test method for
+     * {@link org.xml.sax.HandlerBase#unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+     * public void
+     * org.xml.sax.HandlerBase.unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_unparsedEntityDecl_String_String_String_String() throws Exception {
+    public default void test_unparsedEntityDecl_String_String_String_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#processingInstruction(java.lang.String,java.lang.String) public void org.xml.sax.HandlerBase.processingInstruction(java.lang.String,java.lang.String) throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.HandlerBase#processingInstruction(java.lang.String,java.lang.String) public
+     * void org.xml.sax.HandlerBase.processingInstruction(java.lang.String,java.lang.String) throws
+     * org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_processingInstruction_String_String() throws Exception {
+    public default void test_processingInstruction_String_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#ignorableWhitespace(char[],int,int) public void org.xml.sax.HandlerBase.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.HandlerBase#ignorableWhitespace(char[],int,int) public void
+     * org.xml.sax.HandlerBase.ignorableWhitespace(char[],int,int) throws org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_ignorableWhitespace_charArray_int_int() throws Exception {
+    public default void test_ignorableWhitespace_charArray_int_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#endElement(java.lang.String) public void org.xml.sax.HandlerBase.endElement(java.lang.String) throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.HandlerBase#endElement(java.lang.String) public void
+     * org.xml.sax.HandlerBase.endElement(java.lang.String) throws org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_endElement_String() throws Exception {
+    public default void test_endElement_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.xml.sax.HandlerBase#characters(char[],int,int) public void org.xml.sax.HandlerBase.characters(char[],int,int) throws org.xml.sax.SAXException}.
+     * Test method for {@link org.xml.sax.HandlerBase#characters(char[],int,int) public void
+     * org.xml.sax.HandlerBase.characters(char[],int,int) throws org.xml.sax.SAXException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_characters_charArray_int_int() throws Exception {
+    public default void test_characters_charArray_int_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

@@ -1,82 +1,87 @@
 package org.j8unit.repository.org.omg.CORBA;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link org.omg.CORBA.DynEnum interface org.omg.CORBA.DynEnum},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link org.omg.CORBA.DynEnum interface org.omg.CORBA.DynEnum}, containing all instance relevant test
+ * methods (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.org.omg.CORBA.DynEnumClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface DynEnumTests<SUT extends org.omg.CORBA.DynEnum>
-extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>,
-        org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT>
-{
+extends org.j8unit.repository.org.omg.CORBA.ObjectTests<SUT>, org.j8unit.repository.org.omg.CORBA.DynAnyTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DynEnum#value_as_ulong(int) public abstract void org.omg.CORBA.DynEnum.value_as_ulong(int)}.
+     * Test method for {@link org.omg.CORBA.DynEnum#value_as_ulong(int) public abstract void
+     * org.omg.CORBA.DynEnum.value_as_ulong(int)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_value_as_ulong_int() throws Exception {
+    public default void test_value_as_ulong_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DynEnum#value_as_ulong() public abstract int org.omg.CORBA.DynEnum.value_as_ulong()}.
+     * Test method for {@link org.omg.CORBA.DynEnum#value_as_ulong() public abstract int
+     * org.omg.CORBA.DynEnum.value_as_ulong()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_value_as_ulong() throws Exception {
+    public default void test_value_as_ulong()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DynEnum#value_as_string() public abstract java.lang.String org.omg.CORBA.DynEnum.value_as_string()}.
+     * Test method for {@link org.omg.CORBA.DynEnum#value_as_string() public abstract java.lang.String
+     * org.omg.CORBA.DynEnum.value_as_string()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_value_as_string() throws Exception {
+    public default void test_value_as_string()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link org.omg.CORBA.DynEnum#value_as_string(java.lang.String) public abstract void org.omg.CORBA.DynEnum.value_as_string(java.lang.String)}.
+     * Test method for {@link org.omg.CORBA.DynEnum#value_as_string(java.lang.String) public abstract void
+     * org.omg.CORBA.DynEnum.value_as_string(java.lang.String)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_value_as_string_String() throws Exception {
+    public default void test_value_as_string_String()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 

@@ -1,40 +1,39 @@
 package org.j8unit.repository.java.net;
 
-import org.j8unit.*;
-import org.j8unit.repository.categories.*;
-import org.junit.*;
+import org.j8unit.repository.categories.Draft;
+import org.j8unit.repository.categories.J8UnitRepository;
+import org.junit.Ignore;
+import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.*;
-import static org.junit.Assert.*;
 
 /**
  * <p>
- * Test class for {@link java.net.InetAddress class java.net.InetAddress},
- * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * Test class for {@link java.net.InetAddress class java.net.InetAddress}, containing all instance relevant test methods
+ * (i.&thinsp;e., test methods of non-{@code static} methods).
  * </p>
  *
- * @param SUT the type of the subject-under-test
+ * @param SUT
+ *            the type of the subject-under-test
  * @since 0.9.0
  * @see org.j8unit.repository.java.net.InetAddressClassTests
  */
 @Category(J8UnitRepository.class)
 public abstract interface InetAddressTests<SUT extends java.net.InetAddress>
-extends org.j8unit.repository.java.io.SerializableTests<SUT>,
-        org.j8unit.repository.java.lang.ObjectTests<SUT>
-{
+extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.ObjectTests<SUT> {
 
     /**
      * <p>
-     * Test method for {@link java.net.InetAddress#isLoopbackAddress() public boolean java.net.InetAddress.isLoopbackAddress()}.
+     * Test method for {@link java.net.InetAddress#isLoopbackAddress() public boolean
+     * java.net.InetAddress.isLoopbackAddress()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isLoopbackAddress() throws Exception {
+    public default void test_isLoopbackAddress()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -46,37 +45,42 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isMCLinkLocal() throws Exception {
+    public default void test_isMCLinkLocal()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.InetAddress#isSiteLocalAddress() public boolean java.net.InetAddress.isSiteLocalAddress()}.
+     * Test method for {@link java.net.InetAddress#isSiteLocalAddress() public boolean
+     * java.net.InetAddress.isSiteLocalAddress()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isSiteLocalAddress() throws Exception {
+    public default void test_isSiteLocalAddress()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.InetAddress#isMulticastAddress() public boolean java.net.InetAddress.isMulticastAddress()}.
+     * Test method for {@link java.net.InetAddress#isMulticastAddress() public boolean
+     * java.net.InetAddress.isMulticastAddress()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isMulticastAddress() throws Exception {
+    public default void test_isMulticastAddress()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -89,24 +93,27 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_hashCode() throws Exception {
+    public default void test_hashCode()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.InetAddress#equals(java.lang.Object) public boolean java.net.InetAddress.equals(java.lang.Object)}.
+     * Test method for {@link java.net.InetAddress#equals(java.lang.Object) public boolean
+     * java.net.InetAddress.equals(java.lang.Object)}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_equals_Object() throws Exception {
+    public default void test_equals_Object()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -119,9 +126,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Test
     @Category(Draft.class)
     @Override
-    public default void test_toString() throws Exception {
+    public default void test_toString()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -133,23 +141,26 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getAddress() throws Exception {
+    public default void test_getAddress()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.InetAddress#getHostAddress() public java.lang.String java.net.InetAddress.getHostAddress()}.
+     * Test method for {@link java.net.InetAddress#getHostAddress() public java.lang.String
+     * java.net.InetAddress.getHostAddress()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getHostAddress() throws Exception {
+    public default void test_getHostAddress()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -161,9 +172,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isMCNodeLocal() throws Exception {
+    public default void test_isMCNodeLocal()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -175,51 +187,58 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isMCSiteLocal() throws Exception {
+    public default void test_isMCSiteLocal()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.InetAddress#isReachable(int) public boolean java.net.InetAddress.isReachable(int) throws java.io.IOException}.
+     * Test method for {@link java.net.InetAddress#isReachable(int) public boolean java.net.InetAddress.isReachable(int)
+     * throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isReachable_int() throws Exception {
+    public default void test_isReachable_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.InetAddress#isReachable(java.net.NetworkInterface,int,int) public boolean java.net.InetAddress.isReachable(java.net.NetworkInterface,int,int) throws java.io.IOException}.
+     * Test method for {@link java.net.InetAddress#isReachable(java.net.NetworkInterface,int,int) public boolean
+     * java.net.InetAddress.isReachable(java.net.NetworkInterface,int,int) throws java.io.IOException}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isReachable_NetworkInterface_int_int() throws Exception {
+    public default void test_isReachable_NetworkInterface_int_int()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.InetAddress#getHostName() public java.lang.String java.net.InetAddress.getHostName()}.
+     * Test method for {@link java.net.InetAddress#getHostName() public java.lang.String
+     * java.net.InetAddress.getHostName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getHostName() throws Exception {
+    public default void test_getHostName()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -231,9 +250,10 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isMCGlobal() throws Exception {
+    public default void test_isMCGlobal()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
@@ -245,51 +265,58 @@ extends org.j8unit.repository.java.io.SerializableTests<SUT>,
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isMCOrgLocal() throws Exception {
+    public default void test_isMCOrgLocal()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.InetAddress#isAnyLocalAddress() public boolean java.net.InetAddress.isAnyLocalAddress()}.
+     * Test method for {@link java.net.InetAddress#isAnyLocalAddress() public boolean
+     * java.net.InetAddress.isAnyLocalAddress()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isAnyLocalAddress() throws Exception {
+    public default void test_isAnyLocalAddress()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.InetAddress#isLinkLocalAddress() public boolean java.net.InetAddress.isLinkLocalAddress()}.
+     * Test method for {@link java.net.InetAddress#isLinkLocalAddress() public boolean
+     * java.net.InetAddress.isLinkLocalAddress()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_isLinkLocalAddress() throws Exception {
+    public default void test_isLinkLocalAddress()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
     /**
      * <p>
-     * Test method for {@link java.net.InetAddress#getCanonicalHostName() public java.lang.String java.net.InetAddress.getCanonicalHostName()}.
+     * Test method for {@link java.net.InetAddress#getCanonicalHostName() public java.lang.String
+     * java.net.InetAddress.getCanonicalHostName()}.
      * </p>
      */
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    public default void test_getCanonicalHostName() throws Exception {
+    public default void test_getCanonicalHostName()
+    throws Exception {
         // query fresh subject-under-test
-        SUT sut = this.createNewSUT();
+        final SUT sut = this.createNewSUT();
         assert sut != null;
     }
 
