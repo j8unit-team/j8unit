@@ -65,7 +65,7 @@ public class Generator {
         final List<String> LANG_ONLY = asList("java.lang");
         final List<String> BASIC_JAVA = asList("java.lang", "java.io", "java.util");
         final List<String> FULL_JAVA = asList("java", "javax", "org");
-        for (final String pakkage : LANG_ONLY) {
+        for (final String pakkage : FULL_JAVA) {
             LOG.info("Starting to generate test classes for [" + pakkage + "].");
             // configure setup
             final GeneratorSetup testSetup = GeneratorSetup.forJavaPackage(pakkage) //
@@ -76,7 +76,7 @@ public class Generator {
                                                            .useTestMethodPrefix("test_") //
                                                            .useTestConstructorPrefix("create_") //
                                                            .capitaliseMethodInfix(false) //
-                                                           .overwriteExistingFiles(false) //
+                                                           .overwriteExistingFiles(true) //
                                                            .build();
             // run generator
             new Generator(testSetup).generateEveryTestClass();
@@ -86,7 +86,7 @@ public class Generator {
                                                                .suffixForClassTestClass("ClassTest") //
                                                                .overwriteExistingFiles(true) //
                                                                .build();
-            new Generator(specificSetup).generateEverySpecificTestClass(testSetup);
+            // new Generator(specificSetup).generateEverySpecificTestClass(testSetup);
         }
     }
 
