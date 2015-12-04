@@ -1,0 +1,84 @@
+package org.j8unit.repository.java.util.zip;
+
+import org.j8unit.*;
+import org.j8unit.repository.categories.*;
+import org.junit.*;
+import org.junit.experimental.categories.Category;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.*;
+import static org.junit.Assert.*;
+
+/**
+ * <p>
+ * Test class for {@link java.util.zip.InflaterInputStream class java.util.zip.InflaterInputStream},
+ * containing all class relevant test methods (at least the test methods of accessible constructors and
+ * of accessible {@code static} methods). The counterpart test class containing the instance relevant test
+ * methods is {@link org.j8unit.repository.java.util.zip.InflaterInputStreamTests}.
+ * </p>
+ *
+ * <p>
+ * In addition, there may be assertions concerning the class itself.
+ * For example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1"><q>by
+ * virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+ * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+ * provides a corresponding, inheritable test method:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
+ * runtime constraints and further class specific requirements.
+ * </p>
+ *
+ * @param SUT the type of the subject-under-test
+ * @since 0.9.0
+ * @see org.j8unit.repository.java.util.zip.InflaterInputStreamTests
+ */
+@Category(J8UnitRepository.class)
+public abstract interface InflaterInputStreamClassTests<SUT extends Class<? extends java.util.zip.InflaterInputStream>>
+extends org.j8unit.repository.java.io.FilterInputStreamClassTests<SUT>
+{
+
+    /**
+     * Test method for {@link java.util.zip.InflaterInputStream#InflaterInputStream(java.io.InputStream,java.util.zip.Inflater) public java.util.zip.InflaterInputStream(java.io.InputStream,java.util.zip.Inflater)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InflaterInputStream_InputStream_Inflater() throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        java.util.zip.InflaterInputStream sut = null; // = new InflaterInputStream(java.io.InputStream,java.util.zip.Inflater);
+    }
+
+    /**
+     * Test method for {@link java.util.zip.InflaterInputStream#InflaterInputStream(java.io.InputStream,java.util.zip.Inflater,int) public java.util.zip.InflaterInputStream(java.io.InputStream,java.util.zip.Inflater,int)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InflaterInputStream_InputStream_Inflater_int() throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        java.util.zip.InflaterInputStream sut = null; // = new InflaterInputStream(java.io.InputStream,java.util.zip.Inflater,int);
+    }
+
+    /**
+     * Test method for {@link java.util.zip.InflaterInputStream#InflaterInputStream(java.io.InputStream) public java.util.zip.InflaterInputStream(java.io.InputStream)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_InflaterInputStream_InputStream() throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        java.util.zip.InflaterInputStream sut = null; // = new InflaterInputStream(java.io.InputStream);
+    }
+
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType() throws Exception {
+        // create new instance
+        Class<? extends java.util.zip.InflaterInputStream> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.util.zip.InflaterInputStream.class.isAssignableFrom(sut));
+    }
+
+}

@@ -1,0 +1,171 @@
+package org.j8unit.repository.javax.xml.ws;
+
+import org.j8unit.*;
+import org.j8unit.repository.categories.*;
+import org.junit.*;
+import org.junit.experimental.categories.Category;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.*;
+import static org.junit.Assert.*;
+
+/**
+ * <p>
+ * Test class for {@link javax.xml.ws.Service class javax.xml.ws.Service},
+ * containing all class relevant test methods (at least the test methods of accessible constructors and
+ * of accessible {@code static} methods). The counterpart test class containing the instance relevant test
+ * methods is {@link org.j8unit.repository.javax.xml.ws.ServiceTests}.
+ * </p>
+ *
+ * <p>
+ * In addition, there may be assertions concerning the class itself.
+ * For example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1"><q>by
+ * virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+ * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+ * provides a corresponding, inheritable test method:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
+ * runtime constraints and further class specific requirements.
+ * </p>
+ *
+ * @param SUT the type of the subject-under-test
+ * @since 0.9.0
+ * @see org.j8unit.repository.javax.xml.ws.ServiceTests
+ */
+@Category(J8UnitRepository.class)
+public abstract interface ServiceClassTests<SUT extends Class<? extends javax.xml.ws.Service>>
+extends org.j8unit.repository.java.lang.ObjectClassTests<SUT>
+{
+
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType() throws Exception {
+        // create new instance
+        Class<? extends javax.xml.ws.Service> sut = createNewSUT();
+        // assert assignability
+        assertTrue(javax.xml.ws.Service.class.isAssignableFrom(sut));
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.Service#create(java.net.URL,javax.xml.namespace.QName) public static javax.xml.ws.Service javax.xml.ws.Service.create(java.net.URL,javax.xml.namespace.QName)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_URL_QName() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.Service#create(javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...) public static javax.xml.ws.Service javax.xml.ws.Service.create(javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_QName_WebServiceFeatureArray() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.Service#create(java.net.URL,javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...) public static javax.xml.ws.Service javax.xml.ws.Service.create(java.net.URL,javax.xml.namespace.QName,javax.xml.ws.WebServiceFeature...)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_URL_QName_WebServiceFeatureArray() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link javax.xml.ws.Service#create(javax.xml.namespace.QName) public static javax.xml.ws.Service javax.xml.ws.Service.create(javax.xml.namespace.QName)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_create_QName() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test class for {@link javax.xml.ws.Service$Mode class javax.xml.ws.Service$Mode},
+     * containing all class relevant test methods (at least the test methods of accessible constructors and
+     * of accessible {@code static} methods). The counterpart test class containing the instance relevant test
+     * methods is {@link org.j8unit.repository.javax.xml.ws.ServiceTests.ModeTests}.
+     * </p>
+     *
+     * <p>
+     * In addition, there may be assertions concerning the class itself.
+     * For example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1"><q>by
+     * virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+     * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+     * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+     * provides a corresponding, inheritable test method:
+     * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+     * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
+     * runtime constraints and further class specific requirements.
+     * </p>
+     *
+     * @param SUT the type of the subject-under-test
+     * @since 0.9.0
+     * @see org.j8unit.repository.javax.xml.ws.ServiceTests.ModeTests
+     */
+    @Category(J8UnitRepository.class)
+    public static abstract interface ModeClassTests<SUT extends Class<? extends javax.xml.ws.Service.Mode>>
+    extends org.j8unit.repository.java.lang.EnumClassTests<SUT,javax.xml.ws.Service.Mode>
+    {
+
+        @Test
+        public default void testBaseTypeIsAssignableFromCurrentType() throws Exception {
+            // create new instance
+            Class<? extends javax.xml.ws.Service.Mode> sut = createNewSUT();
+            // assert assignability
+            assertTrue(javax.xml.ws.Service.Mode.class.isAssignableFrom(sut));
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.xml.ws.Service.Mode#valueOf(java.lang.String) public static javax.xml.ws.Service$Mode javax.xml.ws.Service$Mode.valueOf(java.lang.String)}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_valueOf_String() throws Exception {
+            // query fresh subject-under-test
+            SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+        /**
+         * <p>
+         * Test method for {@link javax.xml.ws.Service.Mode#values() public static javax.xml.ws.Service$Mode[] javax.xml.ws.Service$Mode.values()}.
+         * </p>
+         */
+        @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+        @Test
+        @Category(Draft.class)
+        public default void test_values() throws Exception {
+            // query fresh subject-under-test
+            SUT sut = this.createNewSUT();
+            assert sut != null;
+        }
+
+    }
+
+}

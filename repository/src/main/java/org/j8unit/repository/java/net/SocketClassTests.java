@@ -1,0 +1,159 @@
+package org.j8unit.repository.java.net;
+
+import org.j8unit.*;
+import org.j8unit.repository.categories.*;
+import org.junit.*;
+import org.junit.experimental.categories.Category;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.*;
+import static org.junit.Assert.*;
+
+/**
+ * <p>
+ * Test class for {@link java.net.Socket class java.net.Socket},
+ * containing all class relevant test methods (at least the test methods of accessible constructors and
+ * of accessible {@code static} methods). The counterpart test class containing the instance relevant test
+ * methods is {@link org.j8unit.repository.java.net.SocketTests}.
+ * </p>
+ *
+ * <p>
+ * In addition, there may be assertions concerning the class itself.
+ * For example, <a href="https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html#jls-9.6.1"><q>by
+ * virtue of the AnnotationTypeElementDeclaration production, a method declaration in an annotation type
+ * declaration cannot have formal parameters, type parameters, or a throws clause.</q> (JLS, Sec.&thinsp;9.6.1</a>
+ * Thus, {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests}
+ * provides a corresponding, inheritable test method:
+ * {@link org.j8unit.repository.java.lang.annotation.AnnotationClassTests#hasNoCustomParametrizedMethod()}.
+ * Similarly, this class is not only intended to assert some static method's behaviour but also to verify
+ * runtime constraints and further class specific requirements.
+ * </p>
+ *
+ * @param SUT the type of the subject-under-test
+ * @since 0.9.0
+ * @see org.j8unit.repository.java.net.SocketTests
+ */
+@Category(J8UnitRepository.class)
+public abstract interface SocketClassTests<SUT extends Class<? extends java.net.Socket>>
+extends org.j8unit.repository.java.io.CloseableClassTests<SUT>,
+        org.j8unit.repository.java.lang.ObjectClassTests<SUT>
+{
+
+    /**
+     * Test method for {@link java.net.Socket#Socket(java.lang.String,int,java.net.InetAddress,int) public java.net.Socket(java.lang.String,int,java.net.InetAddress,int) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Socket_String_int_InetAddress_int() throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        java.net.Socket sut = null; // = new Socket(java.lang.String,int,java.net.InetAddress,int);
+    }
+
+    /**
+     * Test method for {@link java.net.Socket#Socket(java.net.InetAddress,int,java.net.InetAddress,int) public java.net.Socket(java.net.InetAddress,int,java.net.InetAddress,int) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Socket_InetAddress_int_InetAddress_int() throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        java.net.Socket sut = null; // = new Socket(java.net.InetAddress,int,java.net.InetAddress,int);
+    }
+
+    /**
+     * Test method for {@link java.net.Socket#Socket(java.lang.String,int,boolean) public java.net.Socket(java.lang.String,int,boolean) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Socket_String_int_boolean() throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        java.net.Socket sut = null; // = new Socket(java.lang.String,int,boolean);
+    }
+
+    /**
+     * Test method for {@link java.net.Socket#Socket(java.net.InetAddress,int,boolean) public java.net.Socket(java.net.InetAddress,int,boolean) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Socket_InetAddress_int_boolean() throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        java.net.Socket sut = null; // = new Socket(java.net.InetAddress,int,boolean);
+    }
+
+    /**
+     * Test method for {@link java.net.Socket#Socket() public java.net.Socket()}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Socket() throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        java.net.Socket sut = null; // = new Socket();
+    }
+
+    /**
+     * Test method for {@link java.net.Socket#Socket(java.net.Proxy) public java.net.Socket(java.net.Proxy)}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Socket_Proxy() throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        java.net.Socket sut = null; // = new Socket(java.net.Proxy);
+    }
+
+    /**
+     * Test method for {@link java.net.Socket#Socket(java.lang.String,int) public java.net.Socket(java.lang.String,int) throws java.net.UnknownHostException,java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Socket_String_int() throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        java.net.Socket sut = null; // = new Socket(java.lang.String,int);
+    }
+
+    /**
+     * Test method for {@link java.net.Socket#Socket(java.net.InetAddress,int) public java.net.Socket(java.net.InetAddress,int) throws java.io.IOException}.
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void create_Socket_InetAddress_int() throws Exception {
+        // create new instance
+        @SuppressWarnings("unused")
+        java.net.Socket sut = null; // = new Socket(java.net.InetAddress,int);
+    }
+
+    @Test
+    public default void testBaseTypeIsAssignableFromCurrentType() throws Exception {
+        // create new instance
+        Class<? extends java.net.Socket> sut = createNewSUT();
+        // assert assignability
+        assertTrue(java.net.Socket.class.isAssignableFrom(sut));
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.net.Socket#setSocketImplFactory(java.net.SocketImplFactory) public static synchronized void java.net.Socket.setSocketImplFactory(java.net.SocketImplFactory) throws java.io.IOException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setSocketImplFactory_SocketImplFactory() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+}

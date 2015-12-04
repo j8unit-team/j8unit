@@ -1,0 +1,995 @@
+package org.j8unit.repository.java.awt;
+
+import org.j8unit.*;
+import org.j8unit.repository.categories.*;
+import org.junit.*;
+import org.junit.experimental.categories.Category;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.*;
+import static org.junit.Assert.*;
+
+/**
+ * <p>
+ * Test class for {@link java.awt.Container class java.awt.Container},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * </p>
+ *
+ * @param SUT the type of the subject-under-test
+ * @since 0.9.0
+ * @see org.j8unit.repository.java.awt.ContainerClassTests
+ */
+@Category(J8UnitRepository.class)
+public abstract interface ContainerTests<SUT extends java.awt.Container>
+extends org.j8unit.repository.java.awt.ComponentTests<SUT>
+{
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#validate() public void java.awt.Container.validate()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_validate() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#applyComponentOrientation(java.awt.ComponentOrientation) public void java.awt.Container.applyComponentOrientation(java.awt.ComponentOrientation)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_applyComponentOrientation_ComponentOrientation() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener) public void java.awt.Container.addPropertyChangeListener(java.lang.String,java.beans.PropertyChangeListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_addPropertyChangeListener_String_PropertyChangeListener() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#addPropertyChangeListener(java.beans.PropertyChangeListener) public void java.awt.Container.addPropertyChangeListener(java.beans.PropertyChangeListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_addPropertyChangeListener_PropertyChangeListener() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getLayout() public java.awt.LayoutManager java.awt.Container.getLayout()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getLayout() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#setFocusTraversalPolicy(java.awt.FocusTraversalPolicy) public void java.awt.Container.setFocusTraversalPolicy(java.awt.FocusTraversalPolicy)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFocusTraversalPolicy_FocusTraversalPolicy() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#setFocusTraversalKeys(int,java.util.Set) public void java.awt.Container.setFocusTraversalKeys(int,java.util.Set)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setFocusTraversalKeys_int_Set() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#isFocusTraversalPolicyProvider() public final boolean java.awt.Container.isFocusTraversalPolicyProvider()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isFocusTraversalPolicyProvider() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getContainerListeners() public synchronized java.awt.event.ContainerListener[] java.awt.Container.getContainerListeners()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getContainerListeners() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#isFocusCycleRoot() public boolean java.awt.Container.isFocusCycleRoot()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isFocusCycleRoot() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#isFocusCycleRoot(java.awt.Container) public boolean java.awt.Container.isFocusCycleRoot(java.awt.Container)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_isFocusCycleRoot_Container() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#isFocusTraversalPolicySet() public boolean java.awt.Container.isFocusTraversalPolicySet()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isFocusTraversalPolicySet() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#update(java.awt.Graphics) public void java.awt.Container.update(java.awt.Graphics)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_update_Graphics() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getComponentAt(int,int) public java.awt.Component java.awt.Container.getComponentAt(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getComponentAt_int_int() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getComponentAt(java.awt.Point) public java.awt.Component java.awt.Container.getComponentAt(java.awt.Point)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getComponentAt_Point() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#remove(java.awt.Component) public void java.awt.Container.remove(java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_Component() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#remove(int) public void java.awt.Container.remove(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_remove_int() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getComponentZOrder(java.awt.Component) public int java.awt.Container.getComponentZOrder(java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponentZOrder_Component() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getListeners(java.lang.Class) public java.util.EventListener[] java.awt.Container.getListeners(java.lang.Class)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getListeners_Class() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getMaximumSize() public java.awt.Dimension java.awt.Container.getMaximumSize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMaximumSize() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#locate(int,int) public java.awt.Component java.awt.Container.locate(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_locate_int_int() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getFocusTraversalPolicy() public java.awt.FocusTraversalPolicy java.awt.Container.getFocusTraversalPolicy()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getFocusTraversalPolicy() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#setFocusTraversalPolicyProvider(boolean) public final void java.awt.Container.setFocusTraversalPolicyProvider(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFocusTraversalPolicyProvider_boolean() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#print(java.awt.Graphics) public void java.awt.Container.print(java.awt.Graphics)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_print_Graphics() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#isValidateRoot() public boolean java.awt.Container.isValidateRoot()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isValidateRoot() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#layout() public void java.awt.Container.layout()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_layout() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#addNotify() public void java.awt.Container.addNotify()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_addNotify() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getPreferredSize() public java.awt.Dimension java.awt.Container.getPreferredSize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getPreferredSize() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#paintComponents(java.awt.Graphics) public void java.awt.Container.paintComponents(java.awt.Graphics)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_paintComponents_Graphics() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getInsets() public java.awt.Insets java.awt.Container.getInsets()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getInsets() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#invalidate() public void java.awt.Container.invalidate()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_invalidate() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#transferFocusDownCycle() public void java.awt.Container.transferFocusDownCycle()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_transferFocusDownCycle() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#areFocusTraversalKeysSet(int) public boolean java.awt.Container.areFocusTraversalKeysSet(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_areFocusTraversalKeysSet_int() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#setFont(java.awt.Font) public void java.awt.Container.setFont(java.awt.Font)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_setFont_Font() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getAlignmentY() public float java.awt.Container.getAlignmentY()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAlignmentY() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getComponents() public java.awt.Component[] java.awt.Container.getComponents()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponents() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getMousePosition(boolean) public java.awt.Point java.awt.Container.getMousePosition(boolean) throws java.awt.HeadlessException}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getMousePosition_boolean() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#preferredSize() public java.awt.Dimension java.awt.Container.preferredSize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_preferredSize() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getAlignmentX() public float java.awt.Container.getAlignmentX()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getAlignmentX() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#addContainerListener(java.awt.event.ContainerListener) public synchronized void java.awt.Container.addContainerListener(java.awt.event.ContainerListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_addContainerListener_ContainerListener() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#doLayout() public void java.awt.Container.doLayout()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_doLayout() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#removeAll() public void java.awt.Container.removeAll()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeAll() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getMinimumSize() public java.awt.Dimension java.awt.Container.getMinimumSize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getMinimumSize() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#setLayout(java.awt.LayoutManager) public void java.awt.Container.setLayout(java.awt.LayoutManager)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setLayout_LayoutManager() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#paint(java.awt.Graphics) public void java.awt.Container.paint(java.awt.Graphics)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_paint_Graphics() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getFocusTraversalKeys(int) public java.util.Set java.awt.Container.getFocusTraversalKeys(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_getFocusTraversalKeys_int() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#countComponents() public int java.awt.Container.countComponents()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_countComponents() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#insets() public java.awt.Insets java.awt.Container.insets()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_insets() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getComponent(int) public java.awt.Component java.awt.Container.getComponent(int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponent_int() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#removeNotify() public void java.awt.Container.removeNotify()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_removeNotify() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#removeContainerListener(java.awt.event.ContainerListener) public synchronized void java.awt.Container.removeContainerListener(java.awt.event.ContainerListener)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_removeContainerListener_ContainerListener() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#printComponents(java.awt.Graphics) public void java.awt.Container.printComponents(java.awt.Graphics)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_printComponents_Graphics() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#getComponentCount() public int java.awt.Container.getComponentCount()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_getComponentCount() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#isAncestorOf(java.awt.Component) public boolean java.awt.Container.isAncestorOf(java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_isAncestorOf_Component() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#minimumSize() public java.awt.Dimension java.awt.Container.minimumSize()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_minimumSize() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#deliverEvent(java.awt.Event) public void java.awt.Container.deliverEvent(java.awt.Event)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_deliverEvent_Event() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#findComponentAt(int,int) public java.awt.Component java.awt.Container.findComponentAt(int,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_findComponentAt_int_int() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#findComponentAt(java.awt.Point) public java.awt.Component java.awt.Container.findComponentAt(java.awt.Point)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_findComponentAt_Point() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#list(java.io.PrintWriter,int) public void java.awt.Container.list(java.io.PrintWriter,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_list_PrintWriter_int() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#list(java.io.PrintStream,int) public void java.awt.Container.list(java.io.PrintStream,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    @Override
+    public default void test_list_PrintStream_int() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#setComponentZOrder(java.awt.Component,int) public void java.awt.Container.setComponentZOrder(java.awt.Component,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setComponentZOrder_Component_int() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#add(java.awt.Component) public java.awt.Component java.awt.Container.add(java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_Component() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#add(java.lang.String,java.awt.Component) public java.awt.Component java.awt.Container.add(java.lang.String,java.awt.Component)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_String_Component() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#add(java.awt.Component,java.lang.Object) public void java.awt.Container.add(java.awt.Component,java.lang.Object)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_Component_Object() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#add(java.awt.Component,int) public java.awt.Component java.awt.Container.add(java.awt.Component,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_Component_int() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#add(java.awt.Component,java.lang.Object,int) public void java.awt.Container.add(java.awt.Component,java.lang.Object,int)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_add_Component_Object_int() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.awt.Container#setFocusCycleRoot(boolean) public void java.awt.Container.setFocusCycleRoot(boolean)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_setFocusCycleRoot_boolean() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
+    }
+
+}

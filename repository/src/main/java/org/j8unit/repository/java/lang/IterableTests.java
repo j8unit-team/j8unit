@@ -1,28 +1,68 @@
 package org.j8unit.repository.java.lang;
 
-import static org.junit.Assert.assertNotNull;
-import org.j8unit.J8UnitTest;
-import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.Test;
+import org.j8unit.*;
+import org.j8unit.repository.categories.*;
+import org.junit.*;
 import org.junit.experimental.categories.Category;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.*;
+import static org.junit.Assert.*;
 
-@FunctionalInterface
+/**
+ * <p>
+ * Test class for {@link java.lang.Iterable interface java.lang.Iterable},
+ * containing all instance relevant test methods (i.&thinsp;e., test methods of non-{@code static} methods).
+ * </p>
+ *
+ * @param SUT the type of the subject-under-test
+ * @since 0.9.0
+ * @see org.j8unit.repository.java.lang.IterableClassTests
+ */
 @Category(J8UnitRepository.class)
 public abstract interface IterableTests<SUT extends java.lang.Iterable<T>, T>
-extends J8UnitTest<SUT> {
+extends J8UnitTest<SUT>
+{
 
+    /**
+     * <p>
+     * Test method for {@link java.lang.Iterable#forEach(java.util.function.Consumer) public default void java.lang.Iterable.forEach(java.util.function.Consumer)}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void forEachMustConsumeNOOP() {
-        final SUT sut = this.createNewSUT();
+    @Category(Draft.class)
+    public default void test_forEach_Consumer() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
         assert sut != null;
-        sut.forEach(e -> {});
     }
 
+    /**
+     * <p>
+     * Test method for {@link java.lang.Iterable#spliterator() public default java.util.Spliterator java.lang.Iterable.spliterator()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    public default void iteratorMustReturnNotNull() {
-        final SUT sut = this.createNewSUT();
+    @Category(Draft.class)
+    public default void test_spliterator() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
         assert sut != null;
-        assertNotNull(sut.iterator());
+    }
+
+    /**
+     * <p>
+     * Test method for {@link java.lang.Iterable#iterator() public abstract java.util.Iterator java.lang.Iterable.iterator()}.
+     * </p>
+     */
+    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
+    @Test
+    @Category(Draft.class)
+    public default void test_iterator() throws Exception {
+        // query fresh subject-under-test
+        SUT sut = this.createNewSUT();
+        assert sut != null;
     }
 
 }
