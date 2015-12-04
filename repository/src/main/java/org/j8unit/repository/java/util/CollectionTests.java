@@ -156,7 +156,6 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_iterator()
     throws Exception {
         // query fresh subject-under-test
@@ -268,7 +267,6 @@ extends org.j8unit.repository.java.lang.IterableTests<SUT, E> {
     @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
     @Category(Draft.class)
-    @Override
     public default void test_spliterator()
     throws Exception {
         // query fresh subject-under-test

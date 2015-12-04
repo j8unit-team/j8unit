@@ -1,9 +1,13 @@
 package org.j8unit.repository.java.lang;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.fail;
+import static org.junit.Assume.assumeTrue;
+import javax.xml.ws.Holder;
 import org.j8unit.J8UnitTest;
-import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
-import org.junit.Ignore;
+import org.j8unit.repository.categories.TimeLinear;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
@@ -23,52 +27,56 @@ import org.junit.experimental.categories.Category;
 public abstract interface IterableTests<SUT extends java.lang.Iterable<T>, T>
 extends J8UnitTest<SUT> {
 
-    /**
-     * <p>
-     * Test method for {@link java.lang.Iterable#forEach(java.util.function.Consumer) public default void
-     * java.lang.Iterable.forEach(java.util.function.Consumer)}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    @Category(Draft.class)
-    public default void test_forEach_Consumer()
-    throws Exception {
-        // query fresh subject-under-test
+    @Category(TimeLinear.class)
+    public default void forEachMustConsumeNOOP() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
+        assumeTrue("The given Iterable is empty; Thus, the test becomes useless.", sut.iterator().hasNext());
+        sut.forEach(e -> {});
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.lang.Iterable#iterator() public abstract java.util.Iterator
-     * java.lang.Iterable.iterator()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
     @Test
-    @Category(Draft.class)
-    public default void test_iterator()
-    throws Exception {
-        // query fresh subject-under-test
+    public default void forEachMustRelayException() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
+        assumeTrue("The given Iterable is empty; Thus, the test becomes useless.", sut.iterator().hasNext());
+        final Holder<Integer> counter = new Holder<>(0);
+        try {
+            sut.forEach(e -> {
+                counter.value++;
+                throw new UnsupportedOperationException("relayed exception");
+            });
+            fail("Thrown exception has been suppressed!");
+        } catch (final UnsupportedOperationException relayed) {
+            // check exception
+            assertEquals("relayed exception", relayed.getMessage());
+            // check unique execution of consumer block
+            assertEquals((Integer) 1, counter.value);
+            return;
+        }
     }
 
-    /**
-     * <p>
-     * Test method for {@link java.lang.Iterable#spliterator() public default java.util.Spliterator
-     * java.lang.Iterable.spliterator()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_spliterator()
-    throws Exception {
-        // query fresh subject-under-test
+    @Test(expected = NullPointerException.class)
+    @Category(TimeLinear.class)
+    public default void forEachOfNullMustCauseNPE() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
+        sut.forEach(null);
+    }
+
+    @Test
+    public default void iteratorMustReturnNotNull() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assertNotNull(sut.iterator());
+    }
+
+    @Test
+    public default void spliteratorMustReturnNotNull() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assertNotNull(sut.spliterator());
     }
 
 }
