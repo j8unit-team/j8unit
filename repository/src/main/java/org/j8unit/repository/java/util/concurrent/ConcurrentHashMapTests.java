@@ -933,7 +933,7 @@ extends org.j8unit.repository.java.util.concurrent.ConcurrentMapTests<SUT,K,V>,
     public static abstract interface KeySetViewTests<SUT extends java.util.concurrent.ConcurrentHashMap.KeySetView<K,V>, K, V>
     extends org.j8unit.repository.java.util.SetTests<SUT,K>,
             org.j8unit.repository.java.io.SerializableTests<SUT>,
-            org.j8unit.repository.java.util.CollectionTests<SUT,E>,
+            org.j8unit.repository.java.util.CollectionTests<SUT,K>,
             org.j8unit.repository.java.lang.ObjectTests<SUT>
     {
 

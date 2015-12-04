@@ -163,7 +163,7 @@ extends org.j8unit.repository.java.util.concurrent.ConcurrentMapClassTests<SUT,K
     public static abstract interface KeySetViewClassTests<SUT extends Class<? extends java.util.concurrent.ConcurrentHashMap.KeySetView<K,V>>, K, V>
     extends org.j8unit.repository.java.util.SetClassTests<SUT,K>,
             org.j8unit.repository.java.io.SerializableClassTests<SUT>,
-            org.j8unit.repository.java.util.CollectionClassTests<SUT,E>,
+            org.j8unit.repository.java.util.CollectionClassTests<SUT,K>,
             org.j8unit.repository.java.lang.ObjectClassTests<SUT>
     {
 
