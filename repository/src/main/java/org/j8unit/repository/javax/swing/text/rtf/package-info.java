@@ -1,6 +1,6 @@
 /**
  * <p>
- * This package contains all the test classes covering components of package {@code javax.swing.text.rtf}.
+ * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package {@code javax.swing.text.rtf}.
  * </p>
  *
  * <p>

@@ -1,6 +1,6 @@
 /**
  * <p>
- * This package contains all the test classes covering components of package {@code javax.xml.ws.wsaddressing}.
+ * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package {@code javax.xml.ws.wsaddressing}.
  * </p>
  *
  * <p>

@@ -1,6 +1,6 @@
 /**
  * <p>
- * This package contains all the test classes covering components of package {@code org.w3c.dom.traversal}.
+ * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package {@code org.w3c.dom.traversal}.
  * </p>
  *
  * <p>

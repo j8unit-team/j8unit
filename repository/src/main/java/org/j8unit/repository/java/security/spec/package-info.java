@@ -1,6 +1,6 @@
 /**
  * <p>
- * This package contains all the test classes covering components of package {@code java.security.spec}.
+ * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package {@code java.security.spec}.
  * </p>
  *
  * <p>

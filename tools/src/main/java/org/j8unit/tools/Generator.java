@@ -419,7 +419,8 @@ public class Generator {
         final StringBuilder sb = new StringBuilder();
         sb.append("/**" + NL);
         sb.append(" * <p>" + NL);
-        sb.append(" * This package contains all the test classes covering components of package {@code " + pakkage.getName() + "}." + NL);
+        sb.append(" * This package contains all the <strong>reusable tests</strong> targeting the behaviour of components of package {@code "
+                  + pakkage.getName() + "}." + NL);
         sb.append(" * </p>" + NL);
         sb.append(" *" + NL);
         sb.append(" * <p>" + NL);
