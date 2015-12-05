@@ -1,5 +1,9 @@
 package org.j8unit.repository.java.lang;
 
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assume.assumeTrue;
+import javax.lang.model.SourceVersion;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -23,6 +27,23 @@ public abstract interface ClassTests<SUT extends java.lang.Class<T>, T>
 extends org.j8unit.repository.java.io.SerializableTests<SUT>, org.j8unit.repository.java.lang.reflect.GenericDeclarationTests<SUT>,
 org.j8unit.repository.java.lang.reflect.TypeTests<SUT>, org.j8unit.repository.java.lang.reflect.AnnotatedElementTests<SUT>,
 org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    @Test
+    public default void getNameMustBeNotNull() {
+        final Class<T> sut = this.createNewSUT();
+        assert sut != null;
+        assertNotNull(sut.getName());
+    }
+
+    @Test
+    public default void getNameMustBeSyntacticallyValidIdentifier() {
+        final Class<T> sut = this.createNewSUT();
+        assert sut != null;
+        assumeTrue("The given Class represents a primitive type; Thus, this test becomes useless.", sut.isPrimitive());
+        assumeTrue("The given Class represents an array class; Thus, this test becomes useless.", sut.isArray());
+        final String name = sut.getName();
+        assertTrue(SourceVersion.isIdentifier(name));
+    }
 
     /**
      * <p>
@@ -618,21 +639,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_getModifiers()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Class#getName() public java.lang.String java.lang.Class.getName()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getName()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
