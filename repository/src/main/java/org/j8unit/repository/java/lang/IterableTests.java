@@ -32,7 +32,7 @@ extends J8UnitTest<SUT> {
     public default void forEachMustConsumeNOOP() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
-        assumeTrue("The given Iterable is empty; Thus, the test becomes useless.", sut.iterator().hasNext());
+        assumeTrue("The given Iterable is empty; Thus, this test becomes useless.", sut.iterator().hasNext());
         sut.forEach(e -> {});
     }
 
@@ -40,7 +40,7 @@ extends J8UnitTest<SUT> {
     public default void forEachMustRelayException() {
         final SUT sut = this.createNewSUT();
         assert sut != null;
-        assumeTrue("The given Iterable is empty; Thus, the test becomes useless.", sut.iterator().hasNext());
+        assumeTrue("The given Iterable is empty; Thus, this test becomes useless.", sut.iterator().hasNext());
         final Holder<Integer> counter = new Holder<>(0);
         try {
             sut.forEach(e -> {
