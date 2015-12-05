@@ -24,7 +24,7 @@ public class IteratorsTest {
         assertTrue(classHierarchy.hasNext());
         assertEquals(java.io.InputStream.class, classHierarchy.next());
         assertTrue(classHierarchy.hasNext());
-        assertEquals(java.io.Closeable.class, classHierarchy.next());
+        assertEquals(java.lang.Object.class, classHierarchy.next());
         assertFalse(classHierarchy.hasNext());
     }
 

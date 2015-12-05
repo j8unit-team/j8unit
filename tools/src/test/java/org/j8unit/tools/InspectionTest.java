@@ -7,12 +7,19 @@ import org.junit.Test;
 public class InspectionTest {
 
     static abstract interface FooInterface {
-        public default void foobar() {};
+
+        public default void foobar() {
+        };
     }
+
     static abstract class Foo {
+
         protected abstract void foobar();
     }
-    static abstract class Bar extends Foo implements FooInterface {
+
+    static abstract class Bar
+    extends Foo
+    implements FooInterface {
     }
 
     @Test
@@ -22,11 +29,10 @@ public class InspectionTest {
         assertNotNull(method);
     }
 
-    @Test
+    @Test(expected = NoSuchMethodException.class)
     public void testDeclaredViaBar()
     throws Exception {
-        final Method method = Bar.class.getDeclaredMethod("foobar");
-        assertNotNull(method);
+        Bar.class.getDeclaredMethod("foobar");
     }
 
     @Test
