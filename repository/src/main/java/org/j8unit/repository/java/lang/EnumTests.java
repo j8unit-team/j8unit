@@ -1,5 +1,6 @@
 package org.j8unit.repository.java.lang;
 
+import static org.junit.Assert.assertTrue;
 import org.j8unit.repository.categories.Draft;
 import org.j8unit.repository.categories.J8UnitRepository;
 import org.junit.Ignore;
@@ -22,6 +23,31 @@ import org.junit.experimental.categories.Category;
 public abstract interface EnumTests<SUT extends java.lang.Enum<E>, E extends java.lang.Enum<E>>
 extends org.j8unit.repository.java.lang.ComparableTests<SUT, E>, org.j8unit.repository.java.io.SerializableTests<SUT>,
 org.j8unit.repository.java.lang.ObjectTests<SUT> {
+
+    @Test
+
+    public default void getDeclaringClassMustBeAssignableFromGetClass() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        final Class<E> declaringClazz = sut.getDeclaringClass();
+        final Class<? extends Enum> clazz = sut.getClass();
+        assertTrue(declaringClazz.isAssignableFrom(clazz));
+    }
+
+    @Test
+    public default void getDeclaringClassMustBeEnum() {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        final Class<E> declaringClazz = sut.getDeclaringClass();
+        assertTrue(declaringClazz.isEnum());
+    }
+
+    public default void ordinalMustBePositive()
+    throws Exception {
+        final SUT sut = this.createNewSUT();
+        assert sut != null;
+        assertTrue(sut.ordinal() >= 0);
+    }
 
     /**
      * <p>
@@ -49,22 +75,6 @@ org.j8unit.repository.java.lang.ObjectTests<SUT> {
     @Test
     @Category(Draft.class)
     public default void test_equals_Object()
-    throws Exception {
-        // query fresh subject-under-test
-        final SUT sut = this.createNewSUT();
-        assert sut != null;
-    }
-
-    /**
-     * <p>
-     * Test method for {@link java.lang.Enum#getDeclaringClass() public final java.lang.Class
-     * java.lang.Enum.getDeclaringClass()}.
-     * </p>
-     */
-    @Ignore("With your help at http://www.j8unit.org this marker method will be replaced by meaningful test methods soon.")
-    @Test
-    @Category(Draft.class)
-    public default void test_getDeclaringClass()
     throws Exception {
         // query fresh subject-under-test
         final SUT sut = this.createNewSUT();
