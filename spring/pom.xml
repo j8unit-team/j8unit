@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>spring</artifactId>
-  <version>${version.j8unit.spring}</version>
+  <version>4.1.8-SNAPSHOT</version>
   <name>J8Unit Project (Spring Extension)</name>
   <description>The Spring extension of J8Unit.</description>
 

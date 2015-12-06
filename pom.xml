@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <!--
     ~ An "Introduction to the POM" can be read here:
@@ -81,136 +83,202 @@
     <!-- http://maven.apache.org/general.html#encoding-warning -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-    <!-- === Plugin Versions (sorted alphabetically for traceability/reproducibility) === -->
-    <version.mvn.antrun>1.8</version.mvn.antrun>
-    <version.mvn.clean>3.0.0</version.mvn.clean>
-    <version.mvn.compiler>3.3</version.mvn.compiler>
-    <version.mvn.deploy>2.8.2</version.mvn.deploy>
-    <version.mvn.install>2.5.2</version.mvn.install>
-    <version.mvn.jar>2.6</version.mvn.jar>
-    <version.mvn.javadoc>2.10.3</version.mvn.javadoc>
-    <version.mvn.resources>2.7</version.mvn.resources>
-    <version.mvn.site>3.4</version.mvn.site>
-    <version.mvn.source>2.4</version.mvn.source>
-    <version.mvn.surefire>2.19</version.mvn.surefire>
-
-    <!-- === Dependency Versions :: 1st Party (sorted in intended build order) === -->
-    <version.j8unit>2-SNAPSHOT</version.j8unit>
-    <version.j8unit.javadoc>1.0.1-SNAPSHOT</version.j8unit.javadoc>
-    <version.j8unit.core>4.13-SNAPSHOT</version.j8unit.core>
-    <version.j8unit.spring>4.1.8-SNAPSHOT</version.j8unit.spring>
-    <version.j8unit.repository>0.9.1-SNAPSHOT</version.j8unit.repository>
-    <version.j8unit.tools>0.0.1-SNAPSHOT</version.j8unit.tools>
-    <!-- Showcases are managed to allow local builds but they should not be released! -->
-    <version.j8unit.showcases>0.0.1-SNAPSHOT</version.j8unit.showcases>
-    <version.j8unit.showcases.jm>0.0.1-SNAPSHOT</version.j8unit.showcases.jm>
-    <version.j8unit.showcases.shape>0.0.1-SNAPSHOT</version.j8unit.showcases.shape>
-
-    <!-- === Dependency Versions :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
-    <version.junit>4.12</version.junit>
-    <version.spring.platform>1.1.4.RELEASE</version.spring.platform>
   </properties>
 
   <profiles>
+  
     <profile>
-      <id>deploy</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <modules>
-        <!-- (sorted in intended build order) -->
-        <module>./javadoc</module>
-        <module>./core</module>
-        <module>./spring</module>
-      </modules>
-    </profile>
-    <profile>
-      <id>complete</id>
+      <!-- The J8Unit JavaDoc (sub-) project (syntax highlighting) has been released as v1.0.0. -->
+      <!-- Afterwards, the next SNAPSHOT version has been prepared, but as long as there is no update -->
+      <!-- (e.g., additional CSS files), there is no need to call this profile any again. -->
+      <id>javadoc</id>
       <activation>
         <activeByDefault>false</activeByDefault>
       </activation>
+      <properties>
+        <!-- (Up to now) The J8Unit JavaDoc (sub-) project does not require any other Maven project. -->
+      </properties>
       <modules>
-        <!-- (sorted in intended build order) -->
         <module>./javadoc</module>
+      </modules>
+      <dependencyManagement>
+        <!-- (Up to now) The J8Unit JavaDoc (sub-) project does not require any other Maven project. -->
+      </dependencyManagement>
+    </profile>
+
+    <profile>
+      <!-- The J8Unit base projects - J8Unit Core and J8Unit Spring - have been released as v4.12 and v4.1.7. -->
+      <!-- The Core's v4.12 relates to the latest stable JUnit release, the Spring's 4.1.7 relates to the -->
+      <!-- latest stable Spring release. If any of these 3rd party projects gets updated, there will be a -->
+      <!-- new according release too. -->
+      <!-- This might cause a splitting of this profile ... -->
+      <id>base</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <properties>
+        <!-- === Dependency Versions :: 1st Party (sorted alphabetically for traceability/reproducibility) === -->
+        <version.j8unit.core>4.13-SNAPSHOT</version.j8unit.core>
+        <version.j8unit.javadoc>1.0.0</version.j8unit.javadoc>
+        <version.j8unit.spring>4.1.8-SNAPSHOT</version.j8unit.spring>
+        <!-- === Dependency Versions :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
+        <version.junit>4.12</version.junit>
+        <version.spring.platform>1.1.4.RELEASE</version.spring.platform>
+      </properties>
+      <modules>
+        <!-- (sorted alphabetically for traceability/reproducibility) -->
         <module>./core</module>
         <module>./spring</module>
-        <!-- Repository & Tools are not yet (!) ready to be deployed. -->
+      </modules>
+      <dependencyManagement>
+        <dependencies>
+          <!-- === Managed Dependencies :: 1st Party (traceability/reproducibility) === -->
+          <dependency>
+            <groupId>org.j8unit</groupId>
+            <artifactId>core</artifactId>
+            <version>${version.j8unit.core}</version>
+          </dependency>
+          <dependency>
+            <groupId>org.j8unit</groupId>
+            <artifactId>javadoc</artifactId>
+            <version>${version.j8unit.javadoc}</version>
+          </dependency>
+          <!-- === Managed Dependencies :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
+          <dependency>
+            <groupId>io.spring.platform</groupId>
+            <artifactId>platform-bom</artifactId>
+            <version>${version.spring.platform}</version>
+            <type>pom</type>
+            <scope>import</scope>
+          </dependency>
+          <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${version.junit}</version>
+          </dependency>
+        </dependencies>
+      </dependencyManagement>
+    </profile>
+    
+    <profile>
+      <!-- The J8Unit Repository project is an independently released project. Nevertheless, it cannot refer to -->
+      <!-- unreleased projects; thus, this profile comes along with custom dependencies. -->
+      <!-- TODO: We should discuss whether or not to release the Tools project too. -->
+      <id>repository</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <!-- === Dependency Versions :: 1st Party (sorted alphabetically for traceability/reproducibility) === -->
+        <version.j8unit.core>4.12</version.j8unit.core>
+        <version.j8unit.javadoc>1.0.0</version.j8unit.javadoc>
+        <version.j8unit.repository>0.9.1-SNAPSHOT</version.j8unit.repository>
+        <!-- === Dependency Versions :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
+        <version.junit>4.12</version.junit>
+      </properties>
+      <modules>
+        <!-- (sorted in intended build order) -->
         <module>./repository</module>
         <module>./tools</module>
-        <!-- Showcases are managed to allow local builds but they should not be released! -->
+      </modules>
+      <dependencyManagement>
+        <dependencies>
+          <!-- === Managed Dependencies :: 1st Party (traceability/reproducibility) === -->
+          <dependency>
+            <groupId>org.j8unit</groupId>
+            <artifactId>core</artifactId>
+            <version>${version.j8unit.core}</version>
+          </dependency>
+          <dependency>
+            <groupId>org.j8unit</groupId>
+            <artifactId>javadoc</artifactId>
+            <version>${version.j8unit.javadoc}</version>
+          </dependency>
+          <dependency>
+            <groupId>org.j8unit</groupId>
+            <artifactId>repository</artifactId>
+            <version>${version.j8unit.repository}</version>
+          </dependency>
+          <!-- === Managed Dependencies :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
+          <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${version.junit}</version>
+          </dependency>
+        </dependencies>
+      </dependencyManagement>
+    </profile>
+    
+    <profile>
+      <!-- Up to now, the showcases projects base on the release base (Core, Spring) project. -->
+      <!-- It is NOT planned to release the showcases! They are showcases only and nobody would ever depend on these. -->
+      <id>showcases</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <properties>
+        <!-- === Dependency Versions :: 1st Party (sorted alphabetically for traceability/reproducibility) === -->
+        <version.j8unit.core>4.12</version.j8unit.core>
+        <version.j8unit.javadoc>1.0.0</version.j8unit.javadoc>
+        <version.j8unit.repository>0.9.1-SNAPSHOT</version.j8unit.repository>
+        <version.j8unit.showcases.shape>0.0.1-SNAPSHOT</version.j8unit.showcases.shape>
+        <version.j8unit.spring>4.1.7</version.j8unit.spring>
+        <!-- === Dependency Versions :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
+        <version.junit>4.12</version.junit>
+        <version.spring.platform>1.1.4.RELEASE</version.spring.platform>
+      </properties>
+      <modules>
+        <module>./repository</module>
         <module>./showcases</module>
         <module>./showcases-jm</module>
         <module>./showcases-shape-api</module>
         <module>./showcases-shape-extension</module>
       </modules>
+      <dependencyManagement>
+        <dependencies>
+          <!-- === Managed Dependencies :: 1st Party (traceability/reproducibility) === -->
+          <dependency>
+            <groupId>org.j8unit</groupId>
+            <artifactId>core</artifactId>
+            <version>${version.j8unit.core}</version>
+          </dependency>
+          <dependency>
+            <groupId>org.j8unit</groupId>
+            <artifactId>javadoc</artifactId>
+            <version>${version.j8unit.javadoc}</version>
+          </dependency>
+          <dependency>
+            <groupId>org.j8unit</groupId>
+            <artifactId>repository</artifactId>
+            <version>${version.j8unit.repository}</version>
+          </dependency>
+          <dependency>
+            <groupId>org.j8unit</groupId>
+            <artifactId>showcases-shape-api</artifactId>
+            <version>${version.j8unit.showcases.shape}</version>
+          </dependency>
+          <dependency>
+            <groupId>org.j8unit</groupId>
+            <artifactId>spring</artifactId>
+            <version>${version.j8unit.spring}</version>
+          </dependency>
+          <!-- === Managed Dependencies :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
+          <dependency>
+            <groupId>io.spring.platform</groupId>
+            <artifactId>platform-bom</artifactId>
+            <version>${version.spring.platform}</version>
+            <type>pom</type>
+            <scope>import</scope>
+          </dependency>
+          <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${version.junit}</version>
+          </dependency>
+        </dependencies>
+      </dependencyManagement>
     </profile>
   </profiles>
-
-  <dependencyManagement>
-    <dependencies>
-      <!-- === Managed Dependencies :: 1st Party (sorted in intended build order) === -->
-      <dependency>
-        <groupId>org.j8unit</groupId>
-        <artifactId>javadoc</artifactId>
-        <version>${version.j8unit.javadoc}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.j8unit</groupId>
-        <artifactId>core</artifactId>
-        <version>${version.j8unit.core}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.j8unit</groupId>
-        <artifactId>spring</artifactId>
-        <version>${version.j8unit.spring}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.j8unit</groupId>
-        <artifactId>repository</artifactId>
-        <version>${version.j8unit.repository}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.j8unit</groupId>
-        <artifactId>tools</artifactId>
-        <version>${version.j8unit.tools}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.j8unit</groupId>
-        <artifactId>showcases</artifactId>
-        <version>${version.j8unit.showcases}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.j8unit</groupId>
-        <artifactId>showcases-jm</artifactId>
-        <version>${version.j8unit.showcases.jm}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.j8unit</groupId>
-        <artifactId>showcases-shape-api</artifactId>
-        <version>${version.j8unit.showcases.shape}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.j8unit</groupId>
-        <artifactId>showcases-shape-extension</artifactId>
-        <version>${version.j8unit.showcases.shape}</version>
-      </dependency>
-
-      <!-- === Managed Dependencies :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
-      <dependency>
-        <groupId>io.spring.platform</groupId>
-        <artifactId>platform-bom</artifactId>
-        <version>${version.spring.platform}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>${version.junit}</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
 
   <build>
     <pluginManagement>
@@ -219,12 +287,12 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-antrun-plugin</artifactId>
-          <version>${version.mvn.antrun}</version>
+          <version>1.8</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>${version.mvn.clean}</version>
+          <version>3.0.0</version>
           <configuration>
             <failOnError>true</failOnError>
           </configuration>
@@ -232,7 +300,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>${version.mvn.compiler}</version>
+          <version>3.3</version>
           <configuration>
             <source>${version.java}</source>
             <target>${version.java}</target>
@@ -248,17 +316,17 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-deploy-plugin</artifactId>
-          <version>${version.mvn.deploy}</version>
+          <version>2.8.2</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-install-plugin</artifactId>
-          <version>${version.mvn.install}</version>
+          <version>2.5.2</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifactId>
-          <version>${version.mvn.jar}</version>
+          <version>2.6</version>
           <configuration>
             <forceCreation>true</forceCreation>
             <archive>
@@ -272,7 +340,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>${version.mvn.javadoc}</version>
+          <version>2.10.3</version>
           <configuration>
             <encoding> ${project.build.sourceEncoding}</encoding>
             <docencoding>${project.reporting.outputEncoding}</docencoding>
@@ -302,17 +370,17 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>${version.mvn.resources}</version>
+          <version>2.7</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-          <version>${version.mvn.site}</version>
+          <version>3.4</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-source-plugin</artifactId>
-          <version>${version.mvn.source}</version>
+          <version>2.4</version>
           <configuration>
             <includePom>false</includePom>
           </configuration>
@@ -328,7 +396,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>${version.mvn.surefire}</version>
+          <version>2.19</version>
         </plugin>
       </plugins>
     </pluginManagement>

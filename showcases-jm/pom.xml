@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>showcases-jm</artifactId>
-  <version>${version.j8unit.showcases.jm}</version>
+  <version>0.0.1-SNAPSHOT</version>
   <name>J8Unit Project (JavaMagazin Showcases)</name>
   <description>Showcases according to the JavaMagazin's J8Unit article.</description>
 

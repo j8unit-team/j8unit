@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>tools</artifactId>
-  <version>${version.j8unit.tools}</version>
+  <version>0.0.1-SNAPSHOT</version>
   <name>J8Unit Project (Tools)</name>
   <description>Tools to ease the usage of J8Unit.</description>
 

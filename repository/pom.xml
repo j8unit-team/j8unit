@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>repository</artifactId>
-  <version>${version.j8unit.repository}</version>
+  <version>0.9.1-SNAPSHOT</version>
   <name>J8Unit Project (Repository)</name>
   <description>Repository of Java-based J8Unit test interfaces.</description>
 
@@ -41,6 +41,24 @@
         <configuration>
           <excludedGroups>org.j8unit.repository.java.JavaBug</excludedGroups>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>build-helper-maven-plugin</artifactId>
+        <!-- TODO: Will be managed by J8Unit Parent POM within its next release. -->
+        <version>1.10</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>add-source</goal>
+            </goals>
+            <configuration>
+              <sources>
+                <source>src/unmodifiable/java</source>
+              </sources>
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>

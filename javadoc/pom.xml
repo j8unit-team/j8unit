@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>javadoc</artifactId>
-  <version>${version.j8unit.javadoc}</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>J8Unit Project (JavaDoc Resources)</name>
   <description>JavaDoc resources and tools to enable beautified documentation.</description>
 

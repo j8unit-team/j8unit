@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>showcases-shape-extension</artifactId>
-  <version>${version.j8unit.showcases.shape}</version>
+  <version>0.0.1-SNAPSHOT</version>
   <name>J8Unit Project (Shape-API Showcase, Pt.2/2)</name>
   <description>A specific J8Unit showcase providing the usage of the shape API test interfaces.</description>
 
@@ -22,9 +22,9 @@
     <dependency>
       <groupId>org.j8unit</groupId>
       <artifactId>showcases-shape-api</artifactId>
-      <version>${version.j8unit.showcases.shape}</version>
       <type>test-jar</type>
       <scope>test</scope>
+      <version>0.0.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
