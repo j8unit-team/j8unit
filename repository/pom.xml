@@ -45,8 +45,6 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>build-helper-maven-plugin</artifactId>
-        <!-- TODO: Will be managed by J8Unit Parent POM within its next release. -->
-        <version>1.10</version>
         <executions>
           <execution>
             <goals>
