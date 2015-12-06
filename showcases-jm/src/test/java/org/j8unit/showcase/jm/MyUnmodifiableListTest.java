@@ -40,8 +40,15 @@ implements ObjectTests<List<Object>>, UnmodifiableListTests<List<Object>, Object
     @Test
     @Category(ShowcaseFailure.class)
     @Override
-    public void testUnsupportedClear() {
-        UnmodifiableListTests.super.testUnsupportedClear();
+    public void clearMustThrowUOE() {
+        UnmodifiableListTests.super.clearMustThrowUOE();
+    }
+
+    @Override
+    public void test_hashCode()
+    throws Exception {
+        ObjectTests.super.test_hashCode();
+        UnmodifiableListTests.super.test_hashCode();
     }
 
 }
