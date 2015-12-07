@@ -7,7 +7,6 @@
     <groupId>org.j8unit</groupId>
     <artifactId>showcases</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../showcases</relativePath>
   </parent>
 
   <artifactId>showcases-shape-api</artifactId>

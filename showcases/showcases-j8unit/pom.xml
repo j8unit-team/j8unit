@@ -7,52 +7,74 @@
     <groupId>org.j8unit</groupId>
     <artifactId>showcases</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../showcases</relativePath>
   </parent>
 
-  <artifactId>showcases-jm</artifactId>
-  <version>0.9.0-SNAPSHOT</version>
-  <name>J8Unit Project (JavaMagazin Showcases)</name>
-  <description>Showcases according to the JavaMagazin's J8Unit article.</description>
+  <artifactId>showcases-j8unit</artifactId>
+  <name>J8Unit Project (Showcases)</name>
+  <description>Various showcases of J8Unit, J8Unit test interfaces, Runner scenarios, and further ...</description>
 
   <dependencies>
     <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>
-      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
+      <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <scope>test</scope>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <scope>provided</scope>
     </dependency>
+
     <dependency>
       <groupId>org.j8unit</groupId>
       <artifactId>core</artifactId>
-      <scope>test</scope>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.j8unit</groupId>
+      <artifactId>repository</artifactId>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.j8unit</groupId>
       <artifactId>spring</artifactId>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>org.j8unit</groupId>
-      <artifactId>repository</artifactId>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
 
   <build>
     <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>

@@ -133,18 +133,10 @@
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
-      <properties>
-        <version.j8unit.core>4.13-SNAPSHOT</version.j8unit.core>
-        <version.j8unit.spring>4.1.8-SNAPSHOT</version.j8unit.spring>
-      </properties>
       <modules>
-        <!-- (sorted alphabetically for traceability/reproducibility) -->
         <module>./core</module>
         <module>./repository</module>
         <module>./showcases</module>
-        <module>./showcases-jm</module>
-        <module>./showcases-shape-api</module>
-        <module>./showcases-shape-extension</module>
         <module>./spring</module>
         <module>./tools</module>
       </modules>
@@ -158,6 +150,21 @@
         <groupId>org.j8unit</groupId>
         <artifactId>core</artifactId>
         <version>${version.j8unit.core}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.j8unit</groupId>
+        <artifactId>javadoc</artifactId>
+        <version>${version.j8unit.javadoc}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.j8unit</groupId>
+        <artifactId>repository</artifactId>
+        <version>${version.j8unit.repository}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.j8unit</groupId>
+        <artifactId>spring</artifactId>
+        <version>${version.j8unit.spring}</version>
       </dependency>
       <!-- === Managed Dependencies :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
       <dependency>
