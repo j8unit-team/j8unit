@@ -11,8 +11,36 @@
 
   <artifactId>showcases</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
   <name>J8Unit Project (Showcases)</name>
   <description>Various showcases of J8Unit, J8Unit test interfaces, Runner scenarios, and further ...</description>
+  
+  <dependencyManagement>
+    <dependencies>
+      <!-- === Managed Dependencies :: 1st Party (sorted alphabetically for traceability/reproducibility) === -->
+      <dependency>
+        <groupId>org.j8unit</groupId>
+        <artifactId>repository</artifactId>
+        <version>${version.j8unit.repository}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.j8unit</groupId>
+        <artifactId>showcases-shape-api</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.j8unit</groupId>
+        <artifactId>showcases-shape-api</artifactId>
+        <type>test-jar</type>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.j8unit</groupId>
+        <artifactId>spring</artifactId>
+        <version>${version.j8unit.spring}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <dependencies>
     <dependency>
