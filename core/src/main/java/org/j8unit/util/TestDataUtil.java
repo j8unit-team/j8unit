@@ -1,16 +1,10 @@
-package org.j8unit.repository;
+package org.j8unit.util;
 
 import static java.util.Arrays.stream;
 import static java.util.stream.Collectors.toList;
 import java.util.List;
 import java.util.function.Function;
 
-/**
- * TODO: Move to J8Unit Core Project.
- *
- * @deprecated Will be migrated to J8Unit Core Project within its next release.
- */
-@Deprecated
 public enum TestDataUtil {
     ;
 

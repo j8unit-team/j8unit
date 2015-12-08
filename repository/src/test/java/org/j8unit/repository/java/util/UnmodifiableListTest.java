@@ -2,7 +2,7 @@ package org.j8unit.repository.java.util;
 
 import static java.util.Collections.emptyList;
 import static java.util.Collections.singletonList;
-import static org.j8unit.repository.TestDataUtil.testDataOfSingletons;
+import static org.j8unit.util.TestDataUtil.testDataOfSingletons;
 import java.util.List;
 import org.j8unit.repository.java.JavaBug;
 import org.j8unit.runners.J8Parameterized;
