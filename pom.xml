@@ -85,13 +85,11 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
     <!-- === Dependency Versions :: 1st Party (sorted alphabetically for traceability/reproducibility) === -->
-    <!-- ~~~ Released 1st Party (sub-) projects ~~~ -->
-    <version.j8unit.core>4.12</version.j8unit.core>
+    <version.j8unit.core>4.12.1-SNAPSHOT</version.j8unit.core>
     <version.j8unit.javadoc>1.0.0</version.j8unit.javadoc>
-    <version.j8unit.spring>4.1.7</version.j8unit.spring>
-    <!-- ~~~ Unreleased 1st Party (sub-) projects ~~~ -->
     <version.j8unit.repository>0.9.1-SNAPSHOT</version.j8unit.repository>
     <version.j8unit.showcases>0.0.1-SNAPSHOT</version.j8unit.showcases>
+    <version.j8unit.spring>4.1.7</version.j8unit.spring>
 
     <!-- === Dependency Versions :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
     <version.junit>4.12</version.junit>

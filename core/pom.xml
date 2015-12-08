@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>core</artifactId>
-  <version>4.13-SNAPSHOT</version>
+  <version>4.12.1-SNAPSHOT</version>
   <name>J8Unit Project (Core Components)</name>
   <description>The core components of J8Unit, i.e., extended test class model, runner classes, additional assertion methods ...</description>
 

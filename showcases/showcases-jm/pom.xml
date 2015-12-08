@@ -14,6 +14,16 @@
   <name>J8Unit Project (JavaMagazin Showcases)</name>
   <description>Showcases according to the JavaMagazin's J8Unit article.</description>
 
+  <properties>
+    <!-- ~~ In order to finalise the versions of the dependencies the properties must be overwritten! ~~ -->
+    <!-- === Dependency Versions :: 1st Party (sorted alphabetically for traceability/reproducibility) === -->
+    <version.j8unit.core>4.12</version.j8unit.core>
+    <version.j8unit.spring>4.1.7</version.j8unit.spring>
+    <!-- === Dependency Versions :: 3rd Party (sorted alphabetically for traceability/reproducibility) === -->
+    <version.junit>4.12</version.junit>
+    <version.spring.platform>1.1.4.RELEASE</version.spring.platform>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>commons-logging</groupId>

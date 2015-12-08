@@ -22,11 +22,6 @@
     <module>./showcases-shape-extension</module>
   </modules>
 
-  <properties>
-    <version.j8unit.core>4.13-SNAPSHOT</version.j8unit.core>
-    <version.j8unit.spring>4.1.8-SNAPSHOT</version.j8unit.spring>
-  </properties>
-
   <dependencyManagement>
     <dependencies>
       <!-- === Managed Dependencies :: 1st Party (sorted alphabetically for traceability/reproducibility) === -->
