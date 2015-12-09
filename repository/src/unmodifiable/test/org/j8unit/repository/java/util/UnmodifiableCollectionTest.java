@@ -4,7 +4,7 @@ import static java.util.Collections.emptyList;
 import static java.util.Collections.singletonList;
 import static org.j8unit.util.TestDataUtil.testDataOfSingletons;
 import java.util.Collection;
-import org.j8unit.repository.java.JavaBug;
+import org.j8unit.repository.JavaBug;
 import org.j8unit.runners.J8Parameterized;
 import org.j8unit.runners.parameterized.J8BlockJUnit4ClassRunnerWithParametersFactory;
 import org.junit.experimental.categories.Category;
